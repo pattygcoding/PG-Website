@@ -1,0 +1,15 @@
+{
+  "name": "tiger",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "tiger_bg.wasm",
+    "tiger.js",
+    "tiger.d.ts"
+  ],
+  "main": "tiger.js",
+  "types": "tiger.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

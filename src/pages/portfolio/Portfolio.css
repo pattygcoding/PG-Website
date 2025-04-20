@@ -1,0 +1,39 @@
+.portfolio-card {
+	display: flex;
+	align-items: flex-start;
+	background-color: var(--card-bg, #222);
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	margin-bottom: 1.5rem;
+	overflow: hidden;
+	padding: 1rem;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+}
+
+.portfolio-card:hover {
+	transform: scale(1.02);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio-card-img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 0.25rem;
+	flex-shrink: 0;
+}
+
+.portfolio-card-body {
+	margin-left: 1rem;
+	color: var(--text-color, #fff);
+}
+
+.portfolio-card-title {
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-decoration: underline;
+	margin-bottom: 0.5rem;
+}

@@ -1,0 +1,1 @@
+export { default as LinkedSkillsTable } from './LinkedSkillsTable';
