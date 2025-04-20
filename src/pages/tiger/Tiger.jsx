@@ -4,6 +4,7 @@ import { Container, Form, Button } from "react-bootstrap";
 import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
 import t from '@/assets/lang/en_us.json';
+import l from '@/assets/links/links.json';
 import "./Tiger.css";
 
 const Tiger = () => {
@@ -24,12 +25,12 @@ const Tiger = () => {
 					script.onerror = reject;
 					document.body.appendChild(script);
 				});
-	
+
 				const go = new window.Go();
 				const result = await WebAssembly.instantiateStreaming(fetch("/main_go.wasm"), go.importObject);
 				go.run(result.instance);
 				goLoaded.current = true;
-	
+
 				const rustModule = document.createElement("script");
 				rustModule.type = "module";
 				rustModule.innerHTML = `
@@ -40,7 +41,7 @@ const Tiger = () => {
 					});
 				`;
 				document.body.appendChild(rustModule);
-	
+
 				setOutput("Engines loaded. Select one and run code.");
 				setIsReady(true);
 			} catch (err) {
@@ -48,10 +49,10 @@ const Tiger = () => {
 				setOutput("Failed to load WASM engines.");
 			}
 		};
-	
+
 		loadEngines();
 	}, []);
-	
+
 
 	const runTiger = () => {
 		try {
@@ -81,7 +82,18 @@ const Tiger = () => {
 			<Container>
 				<Tab title={t.tiger.title} />
 				<PageTitle title={t.tiger.title} />
-
+				
+				<p>{t.tiger.description}</p>
+				<p>
+				{t.tiger.more_info1}{" "}
+					<a
+						href={l.tiger}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{t.tiger.more_info2}
+					</a>.
+				</p>
 				<Form.Group controlId="engine" className="mt-4">
 					<Form.Label>Select Engine:</Form.Label>
 					<Form.Select value={engine} onChange={(e) => setEngine(e.target.value)}>
