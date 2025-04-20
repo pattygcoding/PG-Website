@@ -5,7 +5,6 @@ import { PageTitle } from "@/components/page-title";
 import { AboutSection } from "./about-section";
 import LinkedSkillsTable from "./linked-skills-table/LinkedSkillsTable";
 import ServicesSection from "./services-section/ServicesSection";
-import UnlinkedSkillsTable from "./unlinked-skills-table/UnlinkedSkillsTable";
 import WorkHistoryTable from "./work-history-table/WorkHistoryTable";
 import { Tab } from "@/components/tab";
 import p from "@/assets/projects/projects.json";
@@ -40,9 +39,10 @@ const About = () => {
 						list={s.frameworks}
 						projects={p.projects}
 					/>
-					<UnlinkedSkillsTable
+					<LinkedSkillsTable
 						header="Other Technologies"
-						list={s.other_technologies.map(o => o.name)}
+						list={s.other_technologies}
+						projects={p.projects}
 					/>
 				</AboutSection>
 
