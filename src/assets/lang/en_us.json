@@ -16,7 +16,10 @@
             "fourth": "Content Creator"
         },
         "descriptionA": "Experienced full-stack software engineer & web developer with a demonstrated history of successfully leading development projects, from creating Java modifications for Minecraft to enhancing user experience in React.js and implementing secure REST APIs, while consistently employing agile methodologies and effective team collaboration.",
-        "descriptionB": "Additionally, I am a geography content creator who has successfully leveraged the algorithms of multiple social media platforms, including Instagram, YouTube, and TikTok, to gain a respectable and engaging follower base."
+        "descriptionB": "Additionally, I am a geography content creator who has successfully leveraged the algorithms of multiple social media platforms, including Instagram, YouTube, and TikTok, to gain a respectable and engaging follower base.",
+        "portfolio_button": "My Portfolio",
+        "contact_button": "Contact Me",
+        "about_button": "About Me"
     },
     "about": {
         "title": "About Me",
@@ -55,7 +58,10 @@
             ]
         },
         "technical_skills": {
-            "title": "Technical Skills"
+            "title": "Technical Skills",
+            "header1": "Programming Languages",
+            "header2": "Frameworks & Libraries",
+            "header3": "Tools & Technologies"
         },
         "services": {
             "title": "My Services",
@@ -77,6 +83,7 @@
     },
     "portfolio": {
         "title": "Portfolio",
+        "filter_by": "Filter Portfolio By:",
         "entries": {
             "connect_four": {
                 "title": "Connect Four",
@@ -97,6 +104,16 @@
                 "title": "Minecraft JSON Generator",
                 "text": "Lightweight JSON generator built in Python for Minecraft resource & data packs. This project is used to generate JSON files for Minecraft mods, including custom items, blocks, and entities. Very useful for not only creating custom datapacks, but for mods as well via the mod name switching feature.",
                 "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+            },
+            "educational_experience": {
+                "title": "My Educational Experience",
+                "text": "Alongside my personal projects, I also have acquired numerous skills from educational experience. Click here to view my LinkedIn profile for more information.",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
+            },
+            "professional_experience": {
+                "title": "My Professional Experience",
+                "text": "Alongside my personal projects, I also have acquired numerous skills from professional experience. Click here to view my LinkedIn profile for more information.",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
             },
             "portfolio_website": {
                 "title": "Patrick Goodwin Portfolio Website",
@@ -122,11 +139,6 @@
                 "title": "Patrick's PowerShell Script Library",
                 "text": "A useful library of PowerShell scripts for future reference. Useful with the $profile script feature, I find this immensely helpful for automating tasks from the Windows terminal, as I am a frequent user of the Windows OS.",
                 "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "python_library": {
-                "title": "Patrick's Python Script Library",
-                "text": "A useful library of Python scripts for future reference. Perhaps the most powerful of the script libraries due to Python's lightweight behavior & huge extension system.",
-                "link": "https://github.com/pattygcoding/Python-Scripts"
             },
             "ruby_library": {
                 "title": "Patrick's Ruby Script Library",
@@ -178,7 +190,11 @@
         "title": "Tiger Language",
         "description": "The Tiger Programming Language is a custom programming language built in both Go & Rust to experiment with interpreter design and performance. Implemented on the portfolio website using Web Assembly. The Tiger Programming Language is a custom programming language built in both Go & Rust to experiment with interpreter design and performance. Implemented on the portfolio website using Web Assembly.",
         "more_info1": "For more information, refer to the README in the ",
-        "more_info2": "Tiger Programming Language GitHub Repository."
+        "more_info2": "Tiger Programming Language GitHub Repository.",
+        "select_engine": "Select Engine:",
+        "tiger_code": "Tiger Code:",
+        "run_tiger": "Run Tiger",
+        "output": "Output:"
     },
     "tab": {
         "title": "Patrick Goodwin",

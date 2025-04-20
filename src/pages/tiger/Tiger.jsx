@@ -3,11 +3,13 @@ import { HelmetProvider } from "react-helmet-async";
 import { Container, Form, Button } from "react-bootstrap";
 import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
-import t from '@/assets/lang/en_us.json';
+import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
 import "./Tiger.css";
 
 const Tiger = () => {
+	const { t } = useLang();
+
 	const [engine, setEngine] = useState("go");
 	const [code, setCode] = useState(`let name = "Tiger"\nprint name`);
 	const [output, setOutput] = useState("Loading engines...");
@@ -53,7 +55,6 @@ const Tiger = () => {
 		loadEngines();
 	}, []);
 
-
 	const runTiger = () => {
 		try {
 			if (engine === "go") {
@@ -80,22 +81,19 @@ const Tiger = () => {
 	return (
 		<HelmetProvider>
 			<Container>
-				<Tab title={t.tiger.title} />
-				<PageTitle title={t.tiger.title} />
-				
-				<p>{t.tiger.description}</p>
+				<Tab title={t("tiger.title")} />
+				<PageTitle title={t("tiger.title")} />
+
+				<p>{t("tiger.description")}</p>
 				<p>
-				{t.tiger.more_info1}{" "}
-					<a
-						href={l.tiger}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						{t.tiger.more_info2}
+					{t("tiger.more_info1")}{" "}
+					<a href={l.tiger} target="_blank" rel="noopener noreferrer">
+						{t("tiger.more_info2")}
 					</a>.
 				</p>
+
 				<Form.Group controlId="engine" className="mt-4">
-					<Form.Label>Select Engine:</Form.Label>
+					<Form.Label>{t("tiger.select_engine")}</Form.Label>
 					<Form.Select value={engine} onChange={(e) => setEngine(e.target.value)}>
 						<option value="go">Go</option>
 						<option value="rust">Rust</option>
@@ -103,7 +101,7 @@ const Tiger = () => {
 				</Form.Group>
 
 				<Form.Group controlId="code" className="mt-3">
-					<Form.Label>Tiger Code:</Form.Label>
+					<Form.Label>{t("tiger.tiger_code")}</Form.Label>
 					<Form.Control
 						as="textarea"
 						rows={6}
@@ -113,11 +111,11 @@ const Tiger = () => {
 				</Form.Group>
 
 				<Button className="mt-3" onClick={runTiger} disabled={!isReady}>
-					Run Tiger
+					{t("tiger.run_tiger")}
 				</Button>
 
 				<Form.Group controlId="output" className="mt-4">
-					<Form.Label>Output:</Form.Label>
+					<Form.Label>{t("tiger.output")}</Form.Label>
 					<pre className="tiger-output">{output}</pre>
 				</Form.Group>
 			</Container>
