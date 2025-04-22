@@ -5,8 +5,41 @@ from deep_translator import GoogleTranslator
 
 source_language = "en"
 target_languages = [
-    "pl_pl"
+    "lv_lv",    # Latvian
+    "lt_lt",    # Lithuanian
+    "am_et",    # Amharic (Ethiopia)
+    "lb_lu",    # Luxembourgish
+    "ca_ad",    # Catalan (Andorra)
+    "na_nr",    # Nauruan
+    "to_to",    # Tongan
+    "he_il",    # Hebrew
+    "sm_ws",    # Samoan
+    "sg_cf",    # Sango
+    "kl_gl",    # Greenlandic
+    "cr_ca",    # Cree (Canada)
+    "te_in",    # Telugu
+    "mr_in",    # Marathi
+    "ta_in",    # Tamil
+    "et_ee",    # Estonian
+    "kn_in",    # Kannada
+    "si_lk",    # Sinhala (Sri Lanka)
+    "so_so",    # Somali
+    "fo_fo",    # Faroese
+    "fj_fj",    # Fijian
+    "ht_ht",    # Haitian Creole
+    "sw_tz",    # Swahili (Tanzania)
+    "mg_mg",    # Malagasy (Madagascar)
+    "ps_af",    # Pashto (Afghanistan)
+    "mh_mh",    # Marshallese
+    "ro_md",    # Moldovan (Romanian in Moldova)
+    "cy_gb",    # Welsh
+    "ga_ie",    # Irish (Gaelic)
+    "mt_mt",    # Maltese
+    "tg_tj"     # Tajik
 ]
+
+
+
 
 
 def lint_json_file(source="src/assets/lang/en_us.json"):

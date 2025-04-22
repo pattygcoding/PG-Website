@@ -5,6 +5,7 @@ import "./Lang.css";
 
 const LANG_OPTIONS = [
 	{ code: "en_us", label: "🇺🇸 EN" },
+	{ code: "es_mx", label: "🇲🇽 ES" },
 	{ code: "ar_sa", label: "🇸🇦 AR" },
 	{ code: "az_az", label: "🇦🇿 AZ" },
 	{ code: "be_by", label: "🇧🇾 BE" },
@@ -17,7 +18,6 @@ const LANG_OPTIONS = [
 	{ code: "de_de", label: "🇩🇪 DE" },
 	{ code: "dv_mv", label: "🇲🇻 DV" },
 	{ code: "el_gr", label: "🇬🇷 EL" },
-	{ code: "es_mx", label: "🇲🇽 ES" },
 	{ code: "fa_ir", label: "🇮🇷 FA" },
 	{ code: "fi_fi", label: "🇫🇮 FI" },
 	{ code: "fr_ca", label: "🇨🇦 FR" },
@@ -58,8 +58,40 @@ const LANG_OPTIONS = [
 	{ code: "uk_ua", label: "🇺🇦 UK" },
 	{ code: "ur_pk", label: "🇵🇰 UR" },
 	{ code: "uz_uz", label: "🇺🇿 UZ" },
-	{ code: "vi_vn", label: "🇻🇳 VI" }
+	{ code: "vi_vn", label: "🇻🇳 VI" },
+	{ code: "lv_lv", label: "🇱🇻 LV" },
+	{ code: "lt_lt", label: "🇱🇹 LT" },
+	{ code: "am_et", label: "🇪🇹 AM" },
+	{ code: "lb_lu", label: "🇱🇺 LB" },
+	{ code: "ca_ad", label: "🇦🇩 CA" },
+	{ code: "na_nr", label: "🇳🇷 NA" },
+	{ code: "to_to", label: "🇹🇴 TO" },
+	{ code: "he_il", label: "🇮🇱 HE" },
+	{ code: "sm_ws", label: "🇼🇸 SM" },
+	{ code: "sg_cf", label: "🇨🇫 SG" },
+	{ code: "kl_gl", label: "🇬🇱 KL" },
+	{ code: "cr_ca", label: "🇨🇦 CR" },
+	{ code: "te_in", label: "🇮🇳 TE" },
+	{ code: "mr_in", label: "🇮🇳 MR" },
+	{ code: "ta_in", label: "🇮🇳 TA" },
+	{ code: "et_ee", label: "🇪🇪 ET" },
+	{ code: "kn_in", label: "🇮🇳 KN" },
+	{ code: "si_lk", label: "🇱🇰 SI" },
+	{ code: "so_so", label: "🇸🇴 SO" },
+	{ code: "fo_fo", label: "🇫🇴 FO" },
+	{ code: "fj_fj", label: "🇫🇯 FJ" },
+	{ code: "ht_ht", label: "🇭🇹 HT" },
+	{ code: "sw_tz", label: "🇹🇿 SW" },
+	{ code: "mg_mg", label: "🇲🇬 MG" },
+	{ code: "ps_af", label: "🇦🇫 PS" },
+	{ code: "mh_mh", label: "🇲🇭 MH" },
+	{ code: "ro_md", label: "🇲🇩 MD" },
+	{ code: "cy_gb", label: "🇬🇧 CY" },
+	{ code: "ga_ie", label: "🇮🇪 GA" },
+	{ code: "mt_mt", label: "🇲🇹 MT" },
+	{ code: "tg_tj", label: "🇹🇯 TG" }
 ];
+
 
 const Lang = () => {
 	const { lang, setLang } = useLang();

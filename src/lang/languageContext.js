@@ -54,6 +54,38 @@ import uk_ua from "@/assets/lang/uk_ua.json";
 import ur_pk from "@/assets/lang/ur_pk.json";
 import uz_uz from "@/assets/lang/uz_uz.json";
 import vi_vn from "@/assets/lang/vi_vn.json";
+import lv_lv from "@/assets/lang/lv_lv.json";
+import lt_lt from "@/assets/lang/lt_lt.json";
+import am_et from "@/assets/lang/am_et.json";
+import lb_lu from "@/assets/lang/lb_lu.json";
+import ca_ad from "@/assets/lang/ca_ad.json";
+import na_nr from "@/assets/lang/na_nr.json";
+import to_to from "@/assets/lang/to_to.json";
+import he_il from "@/assets/lang/he_il.json";
+import sm_ws from "@/assets/lang/sm_ws.json";
+import sg_cf from "@/assets/lang/sg_cf.json";
+import kl_gl from "@/assets/lang/kl_gl.json";
+import cr_ca from "@/assets/lang/cr_ca.json";
+import te_in from "@/assets/lang/te_in.json";
+import mr_in from "@/assets/lang/mr_in.json";
+import ta_in from "@/assets/lang/ta_in.json";
+import et_ee from "@/assets/lang/et_ee.json";
+import kn_in from "@/assets/lang/kn_in.json";
+import si_lk from "@/assets/lang/si_lk.json";
+import so_so from "@/assets/lang/so_so.json";
+import fo_fo from "@/assets/lang/fo_fo.json";
+import fj_fj from "@/assets/lang/fj_fj.json";
+import ht_ht from "@/assets/lang/ht_ht.json";
+import sw_tz from "@/assets/lang/sw_tz.json";
+import mg_mg from "@/assets/lang/mg_mg.json";
+import ps_af from "@/assets/lang/ps_af.json";
+import mh_mh from "@/assets/lang/mh_mh.json";
+import ro_md from "@/assets/lang/ro_md.json";
+import cy_gb from "@/assets/lang/cy_gb.json";
+import ga_ie from "@/assets/lang/ga_ie.json";
+import mt_mt from "@/assets/lang/mt_mt.json";
+import tg_tj from "@/assets/lang/tg_tj.json";
+
 
 const languageFiles = {
 	en_us,
@@ -111,6 +143,38 @@ const languageFiles = {
 	ur_pk,
 	uz_uz,
 	vi_vn,
+	lv_lv,
+	lt_lt,
+	am_et,
+	lb_lu,
+	ca_ad,
+	na_nr,
+	to_to,
+	he_il,
+	sm_ws,
+	sg_cf,
+	kl_gl,
+	cr_ca,
+	te_in,
+	mr_in,
+	ta_in,
+	et_ee,
+	kn_in,
+	si_lk,
+	so_so,
+	fo_fo,
+	fj_fj,
+	ht_ht,
+	sw_tz,
+	mg_mg,
+	ps_af,
+	mh_mh,
+	ro_md,
+	cy_gb,
+	ga_ie,
+	mt_mt,
+	tg_tj,
+
 };
 
 
