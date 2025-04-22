@@ -1,0 +1,212 @@
+{
+    "name": "Patrick Goodwin",
+    "menu": {
+        "home": "Domov",
+        "about": "O mne",
+        "portfolio": "Portfólio",
+        "tiger": "Jazyk",
+        "contact": "Kontaktujte ma"
+    },
+    "home": {
+        "title": "Domov",
+        "animated": {
+            "first": "Softvérový inžinier s plným zásobníkom",
+            "second": "Vývojár",
+            "third": "Vývojár hier",
+            "fourth": "Tvorca obsahu"
+        },
+        "descriptionA": "Skúsený softvérový inžinier a webový vývojár s úplným stravovaním s preukázanou históriou úspešných vedúcich vývojových projektov, od vytvárania modifikácií Java pre Minecraft až po zlepšenie používateľských skúseností v oblasti react.js a implementácia API Secure REST API, pričom neustále využíva agilné metodiky a efektívnu spoluprácu v tímoch.",
+        "descriptionB": "Okrem toho som tvorcom geografie, ktorý úspešne využil algoritmy viacerých platforiem sociálnych médií vrátane Instagramu, YouTube a Tiktok, aby získal slušnú a pútavú základňu sledovateľa.",
+        "portfolio_button": "Moje portfólio",
+        "contact_button": "Kontaktujte ma",
+        "about_button": "O mne"
+    },
+    "about": {
+        "title": "O mne",
+        "personal_summary": {
+            "title": "Osobné zhrnutie",
+            "text": "Ako skúsený vývojár softvéru Full Stack so sídlom v Orlande, FL, som demonštroval odborné znalosti v rôznych technológiách, od Java a C ++ po React.js a Node.js. Vďaka výsledkom projektov v čele vied, vrátane vývoja programu modifikácie Java pre Minecraft a odmeňujúcej webovej stránky pre vodičov nákladných vozidiel, som predstavil vedenie a inovácie. Môj záväzok k dokonalosti je zrejmý z mojej schopnosti zefektívniť riadenie projektov, riešiť zložité problémy a poskytovať vysoko kvalitné riešenia, ktoré zvyšujú skúsenosti používateľov a riadia organizačný úspech."
+        },
+        "professional_experience": {
+            "title": "Odborná skúsenosť",
+            "entries": [
+                {
+                    "jobtitle": "Inžinier softvéru",
+                    "where": "Poistenie Orion180",
+                    "date": "2024 - prítomný"
+                },
+                {
+                    "jobtitle": "Vývojár softvéru zakladateľ a Full Stack",
+                    "where": "Nadprirodzený",
+                    "date": "2020 - 2024"
+                },
+                {
+                    "jobtitle": "Softvérový inžinier s plným zásobníkom",
+                    "where": "Urýchliť učenie",
+                    "date": "2023"
+                },
+                {
+                    "jobtitle": "Vedúci webového vývojára (študentský program)",
+                    "where": "Program GDI Clemson University",
+                    "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Vedúci pracovníka",
+                    "where": "Clemson University",
+                    "date": "2021 - 2022"
+                }
+            ]
+        },
+        "technical_skills": {
+            "title": "Technické zručnosti",
+            "header1": "Programovacie jazyky",
+            "header2": "Rámce a knižnice",
+            "header3": "Nástroje a technológie"
+        },
+        "services": {
+            "title": "Moje služby",
+            "entries": [
+                {
+                    "title": "Celý zásobník",
+                    "text": "Ponúkam komplexné riešenia v rámci vývoja front-end aj back-end, ktoré zabezpečujú bezproblémovú integráciu a funkčnosť v celom softvérovom stohu."
+                },
+                {
+                    "title": "Rozvoj webu",
+                    "text": "S odbornými znalosťami v oblasti HTML, CSS a rámcov JavaScript, ako sú React.js, robím vizuálne príťažlivé a užívateľsky prívetivé webové stránky prispôsobené špecifickým potrebám a preferenciám klientov."
+                },
+                {
+                    "title": "Rozvoj hry",
+                    "text": "Využívanie jazykov ako Java a C ++ sa špecializujem na vytváranie pohlcujúcich herných zážitkov, od koncepcie a dizajnu po implementáciu a optimalizáciu, zabezpečujúc zapojenie hry a plynulý výkon."
+                }
+            ]
+        }
+    },
+    "portfolio": {
+        "title": "Portfólio",
+        "filter_by": "Portfólio filtra pomocou:",
+        "entries": {
+            "connect_four": {
+                "title": "Pripojiť štyri",
+                "text": "Masívna rodina viac ako 50+ implementácií hry Connect Four. Tento projekt zahŕňa implementácie do viac ako 30 rôznych programovacích jazykov vrátane Java, C ++, Python, JavaScript a ďalších. Okrem toho zahŕňa aj viac ako 20+ rôznych rámcov alebo iných formátov vrátane react.js, Ruby on Rails, ASP.NET a ďalšie.",
+                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+            },
+            "interop": {
+                "title": "Projekt",
+                "text": "Projekt, ktorý dokumentuje interoperabilitu medzi rôznymi programovacími jazykmi. V súčasnosti obsahuje 15 rôznych programovacích jazykov a 18 vzorov vykonávania.",
+                "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "excel_scripts": {
+                "title": "Microsoft Excel tabuľky skripty (VBA)",
+                "text": "Užitočná knižnica skriptov VBA pre spoločnosť Microsoft Excel. Táto knižnica sa používa na automatizáciu úloh v tabuľkách Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
+            "minecraft_json_generator": {
+                "title": "Generátor minecraft Json",
+                "text": "Ľahký generátor JSON Vstavaný v Pythone pre Minecraft Resource & Data Packs. Tento projekt sa používa na vygenerovanie súborov JSON pre módy Minecraft vrátane vlastných položiek, blokov a entít. Veľmi užitočné nielen pre vytváranie vlastných datapacks, ale aj pre režimy aj prostredníctvom funkcie prepínania názvu MOD.",
+                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+            },
+            "educational_experience": {
+                "title": "Moje vzdelávacie skúsenosti",
+                "text": "Popri mojich osobných projektoch som získal aj množstvo zručností zo vzdelávacích skúseností. Kliknutím sem zobrazíte môj profil LinkedIn pre viac informácií.",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
+            },
+            "professional_experience": {
+                "title": "Moja profesionálna skúsenosť",
+                "text": "Popri mojich osobných projektoch som získal aj množstvo zručností z profesionálnych skúseností. Kliknutím sem zobrazíte môj profil LinkedIn pre viac informácií.",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
+            },
+            "portfolio_website": {
+                "title": "Webová stránka portfólia Patrick Goodwin",
+                "text": "Táto webová stránka je mojou osobnou webovou stránkou portfólia postavenej s react.js. Tento projekt sa používa na predstavenie mojich zručností a projektov, ako aj na poskytnutie platformy pre potenciálnych zamestnávateľov, aby ma kontaktovali. Tento projekt sa používa na vytvorenie profesionálnej online prítomnosti.",
+                "link": "https://www.pattygcoding.com"
+            },
+            "lua_library": {
+                "title": "Patrick's Lua Script Library",
+                "text": "Užitočná knižnica skriptov LUA pre budúce referencie. Táto knižnica sa používa na automatizáciu úloh v skriptoch LUA, ktoré sa môžu hodiť pre výkonné úlohy, pretože Lua je zvyčajne rýchlejší skriptovací jazyk ako Python aj Ruby.",
+                "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "neovim_config": {
+                "title": "Patrick's Neovim Config",
+                "text": "Moja osobná konfigurácia Neovim. Tento projekt sa používa na konfiguráciu Neovima podľa môjho vkusu, vrátane vlastných kľúčov, tém a doplnkov. Tento projekt sa používa na to, aby sa Neovim stal užívateľsky prívetivejší a efektívnejší pre moje osobné použitie.",
+                "link": "https://github.com/pattygcoding/Neovim-Config"
+            },
+            "python_maps": {
+                "title": "Generátor mapy Patricka",
+                "text": "Generátor okresu Spojených štátov a štátnych máp, postavený s Pythonom pomocou knižníc Geopandas a MatPlolib. Tento projekt sa používa na generovanie máp Spojených štátov vrátane okresných a štátnych máp. Tento projekt sa používa na vytvorenie vlastných máp na vizualizáciu a analýzu údajov.",
+                "link": "https://i.imgur.com/HxYLSXC.png"
+            },
+            "powershell_library": {
+                "title": "Patrick's PowerShell Script Library",
+                "text": "Užitočná knižnica skriptov PowerShell pre budúce referencie. Užitočné pri funkcii skriptu $ Profile sa mi zdá, že je to nesmierne užitočné pre automatizáciu úloh z terminálu Windows, pretože som častým používateľom systému Windows OS.",
+                "link": "https://github.com/pattygcoding/Powershell-Scripts"
+            },
+            "ruby_library": {
+                "title": "Patrick's Ruby Script Library",
+                "text": "Užitočná knižnica Ruby Scripts pre budúce referencie. Užitočné pre budúce koncepty Ruby On Rails.",
+                "link": "https://github.com/pattygcoding/Ruby-Scripts"
+            },
+            "pdf_builder": {
+                "title": "Tvorca zručností PDF",
+                "text": "Vlastný staviteľ PDF postavený s Pythonom prostredníctvom rozšírení PDFKit a Jinja2 spolu s formátovaním HTML a JSON. Tento projekt sa používa na generovanie súborov PDF zo zoznamu zručností a projektov. Tento projekt sa dá použiť na vytvorenie vlastného životopisu PDF, ktorý je veľmi užitočný pre aplikácie pracovných miest.",
+                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+            },
+            "rijandel_encryption": {
+                "title": "Rijandel šifrovací projekt",
+                "text": "Rodina 10+ implementácií Rijandel šifrovacieho algoritmu v 128, 192 a 256 bitoch. Tento projekt sa používa na demonštráciu algoritmu šifrovania Rijandel v rôznych programovacích jazykoch. Tento projekt sa používa na vytvorenie rodiny implementácií Rijandelského šifrovacieho algoritmu.",
+                "link": "https://github.com/pattygcoding/SupremeMC"
+            },
+            "suprememc": {
+                "title": "Suprememc Minecraft Mod",
+                "text": "Minecraft Mod, ktorý do hry pridáva vlastné nástroje, brnenie, davy, bloky, rozmery a mnoho ďalších funkcií. Postavené z verzií Java 8-17 pre vybrané verzie Minecraft medzi 1,16 a 1,20.",
+                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+            },
+            "tiger_programming_language": {
+                "title": "Programovací jazyk",
+                "text": "Vlastný programovací jazyk zabudovaný v GO a Rust na experimentovanie s dizajnom a výkonom tlmočníka. Implementované na webovej stránke portfólia pomocou webovej zostavy.",
+                "link": "https://www.pattygcoding.com/tiger"
+            },
+            "tiger_tailgating_pros": {
+                "title": "Webová stránka Tiger Tailgating Pro",
+                "text": "Webová stránka, ktorú som postavil v roku 2024 pre Tiger Tailgating Pro, spoločnosť Tailgating Company v Clemson, SC. Postavený s React.js.",
+                "link": "https://github.com/pattygcoding/TTProsBeta"
+            },
+            "turing_machine": {
+                "title": "Projekt Turing Machine",
+                "text": "Rodina viac ako 30 implementácií Turingovho stroja. Používa sa na demonštráciu úplnosti Turingu pre rôzne programovacie jazyky pre výskum, najmä pre programovací jazyk Tiger.",
+                "link": "https://github.com/pattygcoding/Turing-Machines"
+            }
+        }
+    },
+    "tiger_programming_language": {
+        "title": "Programovací jazyk"
+    },
+    "contact": {
+        "title": "Kontaktujte ma",
+        "header": "Kontaktné informácie",
+        "email": "pattygsocials@gmail.com",
+        "description": "Odpovedám na otázky z e -mailu, správy LinkedIn a Instagram. Tiež zavolám späť, ak je moje číslo poskytnuté prostredníctvom životopisu alebo inak, aj keď radšej udržujem svoje telefónne číslo súkromné."
+    },
+    "tiger": {
+        "title": "Jazyk",
+        "description": "Programovací jazyk Tiger je vlastný programovací jazyk zabudovaný v GO a Rust na experimentovanie s dizajnom a výkonom tlmočníka. Implementované na webovej stránke portfólia pomocou webovej zostavy. Programovací jazyk Tiger je vlastný programovací jazyk zabudovaný v GO a Rust na experimentovanie s dizajnom a výkonom tlmočníka. Implementované na webovej stránke portfólia pomocou webovej zostavy.",
+        "more_info1": "Viac informácií nájdete v readMe v",
+        "more_info2": "Tiger Programming Language Github Architory.",
+        "select_engine": "Vyberte motor:",
+        "tiger_code": "Tiger kód:",
+        "run_tiger": "Spustiť tiger",
+        "output": "Výstup:"
+    },
+    "tab": {
+        "title": "Patrick Goodwin",
+        "description": "Full Stack Software Engineer so sídlom na Strednej Floride"
+    },
+    "social_media": {
+        "github": "Potápať sa",
+        "instagram": "Instagram",
+        "linkedin": "Linkedin",
+        "tiktok": "Tiktok",
+        "youtube": "YouTube",
+        "text_strip": "Nasledovať ma"
+    },
+    "logotext": "Patrick"
+}

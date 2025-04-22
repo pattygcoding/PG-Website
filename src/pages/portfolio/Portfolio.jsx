@@ -31,21 +31,42 @@ const Portfolio = () => {
 		);
 	};
 
-	const renderDropdown = (title, skillList) => (
-		<DropdownButton id={`dropdown-${title}`} title={title} className="me-3 mb-2">
-			{skillList.map((skill) => (
-				<Dropdown.Item
-					key={skill.id}
-					onClick={() => handleSkillSelect(skill.id)}
-					active={selectedSkills.includes(skill.id)}
-				>
-					{skill.name}
-				</Dropdown.Item>
-			))}
-		</DropdownButton>
-	);
+	const renderDropdown = (title, skillList) => {
+		const selectedInThisCategory = skillList.filter(skill => selectedSkills.includes(skill.id));
+		const selectedNames = selectedInThisCategory.map(skill => skill.name).join(", ");
+		const dynamicTitle = selectedNames ? `${title}: ${selectedNames}` : title;
+	
+		return (
+			<DropdownButton
+				id={`dropdown-${title}`}
+				title={dynamicTitle}
+				className="mb-2 filter-dropdown"
+				renderMenuOnMount={true}
+				popperConfig={{
+					modifiers: [
+						{
+							name: "preventOverflow",
+							options: {
+								boundary: "viewport"
+							}
+						}
+					]
+				}}
+			>
+				{skillList.map((skill) => (
+					<Dropdown.Item
+						key={skill.id}
+						onClick={() => handleSkillSelect(skill.id)}
+						active={selectedSkills.includes(skill.id)}
+					>
+						{skill.name}
+					</Dropdown.Item>
+				))}
+			</DropdownButton>
+		);
+	};
+	
 
-	// Build a map from group name to associated project skills
 	const groupToSkillsMap = {};
 	projectsData.projects.forEach((project) => {
 		if (!groupToSkillsMap[project.group]) {
@@ -67,11 +88,12 @@ const Portfolio = () => {
 				<PageTitle title={t("portfolio.title")} />
 
 				<h3>{t("portfolio.filter_by")}</h3>
-				<div className="d-flex align-items-center mb-4">
+				<div className="dropdown-wrap-container">
 					{renderDropdown(t("about.technical_skills.header1"), skills.languages)}
 					{renderDropdown(t("about.technical_skills.header2"), skills.frameworks)}
 					{renderDropdown(t("about.technical_skills.header3"), skills.other_technologies)}
 				</div>
+
 
 				<Row>
 					{Object.entries(entries).map(([key, data]) => (

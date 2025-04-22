@@ -206,7 +206,7 @@
 	z-index: 999;
 
 	display: grid;
-	grid-template-columns: repeat(3, minmax(80px, 1fr));
+	grid-template-columns: repeat(4, minmax(80px, 1fr));
 	gap: 0.5rem;
 
 	background-color: white;
@@ -215,15 +215,17 @@
 	padding: 0.75rem;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	min-width: 200px;
-}
 
+	max-height: calc(2.2rem * 10); /* Approx height of 10 rows */
+	overflow-y: auto; /* Enables vertical scrolling */
+}
 
 .lang-option {
 	cursor: pointer;
 	padding: 0.3rem 0.5rem;
 	border-radius: 4px;
 	transition: background-color 0.2s;
-	color: #000; /* Default text color */
+	color: #000;
 }
 
 .lang-option:hover {
@@ -233,6 +235,7 @@
 
 .lang-option.active {
 	background-color: #007bff;
-	color: #fff; /* White text on blue background */
+	color: #fff;
 }
+
 
