@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import { Tab } from "@/components/tab";
 import { Link } from "react-router-dom";
 import { useLang } from "@/lang/languageContext";
+import { LangAwareLink } from "@/components/lang-aware-link";
 import "./Home.css";
 
 const Home = () => {
@@ -37,30 +38,30 @@ const Home = () => {
 								<p className="mb-1x">{t("home.descriptionA")}</p>
 								<p className="mb-1x">{t("home.descriptionB")}</p>
 								<div className="intro_btn-action pb-5">
-									<Link to="/portfolio" className="text_2">
+									<LangAwareLink to="/portfolio" className="text_2">
 										<div id="button_p" className="ac_btn btn ">
 											{t("home.portfolio_button")}
 											<div className="ring one"></div>
 											<div className="ring two"></div>
 											<div className="ring three"></div>
 										</div>
-									</Link>
-									<Link to="/about">
+									</LangAwareLink>
+									<LangAwareLink to="/about">
 										<div id="button_h" className="ac_btn btn">
 											{t("home.about_button")}
 											<div className="ring one"></div>
 											<div className="ring two"></div>
 											<div className="ring three"></div>
 										</div>
-									</Link>
-									<Link to="/contact">
+									</LangAwareLink>
+									<LangAwareLink to="/contact">
 										<div id="button_h" className="ac_btn btn">
 											{t("home.contact_button")}
 											<div className="ring one"></div>
 											<div className="ring two"></div>
 											<div className="ring three"></div>
 										</div>
-									</Link>
+									</LangAwareLink>
 								</div>
 							</div>
 						</div>

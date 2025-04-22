@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { LangAwareLink } from "@/components/lang-aware-link";
 import "./MenuItem.css";
 
 const MenuItem = ({ to, label, onClick }) => (
 	<li className="menu_item">
-		<Link to={to} className="my-3" onClick={onClick}>
+		<LangAwareLink to={to} className="my-3" onClick={onClick}>
 			{label}
-		</Link>
+		</LangAwareLink>
 	</li>
 );
 

@@ -206,7 +206,7 @@
 	z-index: 999;
 
 	display: grid;
-	grid-template-columns: repeat(4, minmax(80px, 1fr));
+	grid-template-columns: repeat(3, minmax(80px, 1fr));
 	gap: 0.5rem;
 
 	background-color: white;
@@ -236,6 +236,27 @@
 .lang-option.active {
 	background-color: #007bff;
 	color: #fff;
+}
+
+/* Custom thin scrollbar for the language dropdown */
+.lang-dropdown::-webkit-scrollbar {
+	width: 6px;
+}
+
+.lang-dropdown::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+.lang-dropdown::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.lang-dropdown {
+	scrollbar-width: thin; /* Firefox */
+	scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+	touch-action: pan-y;
+	-webkit-overflow-scrolling: touch;
 }
 
 

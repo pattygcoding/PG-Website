@@ -4,16 +4,22 @@ import { Container, Row, Col, Card, Dropdown, DropdownButton } from "react-boots
 import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
-import links from '@/assets/links/links.json';
-import skills from '@/assets/skills/skills.json';
-import projectsData from '@/assets/projects/projects.json';
+import links from "@/assets/links/links.json";
+import skills from "@/assets/skills/skills.json";
+import projectsData from "@/assets/projects/projects.json";
+import { useSearchParams } from "react-router-dom";
 import "./Portfolio.css";
 
 const Portfolio = () => {
 	const { t } = useLang();
 	const entries = t("portfolio.entries");
 	const images = links.portfolio;
-	const [selectedSkills, setSelectedSkills] = useState([]);
+
+	const [searchParams, setSearchParams] = useSearchParams();
+	const [selectedSkills, setSelectedSkills] = useState(() => {
+		const skillString = searchParams.get("skills");
+		return skillString ? skillString.split(",") : [];
+	});
 
 	const resolveImage = (filename) => {
 		try {
@@ -24,18 +30,23 @@ const Portfolio = () => {
 	};
 
 	const handleSkillSelect = (skillId) => {
-		setSelectedSkills((prev) =>
-			prev.includes(skillId)
-				? prev.filter((id) => id !== skillId)
-				: [...prev, skillId]
-		);
+		setSelectedSkills((prev) => {
+			let updated;
+			if (prev.includes(skillId)) {
+				updated = prev.filter((id) => id !== skillId);
+			} else {
+				updated = [...prev, skillId];
+			}
+			setSearchParams({ skills: updated.join(",") });
+			return updated;
+		});
 	};
 
 	const renderDropdown = (title, skillList) => {
 		const selectedInThisCategory = skillList.filter(skill => selectedSkills.includes(skill.id));
 		const selectedNames = selectedInThisCategory.map(skill => skill.name).join(", ");
 		const dynamicTitle = selectedNames ? `${title}: ${selectedNames}` : title;
-	
+
 		return (
 			<DropdownButton
 				id={`dropdown-${title}`}
@@ -65,7 +76,6 @@ const Portfolio = () => {
 			</DropdownButton>
 		);
 	};
-	
 
 	const groupToSkillsMap = {};
 	projectsData.projects.forEach((project) => {
@@ -93,7 +103,6 @@ const Portfolio = () => {
 					{renderDropdown(t("about.technical_skills.header2"), skills.frameworks)}
 					{renderDropdown(t("about.technical_skills.header3"), skills.other_technologies)}
 				</div>
-
 
 				<Row>
 					{Object.entries(entries).map(([key, data]) => (

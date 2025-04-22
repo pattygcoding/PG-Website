@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useLang } from "@/lang/languageContext";
+import { useSearchParams } from "react-router-dom";
 import "./Lang.css";
 
 const LANG_OPTIONS = [
@@ -60,12 +61,21 @@ const LANG_OPTIONS = [
 	{ code: "vi_vn", label: "🇻🇳 VI" }
 ];
 
-
 const Lang = () => {
 	const { lang, setLang } = useLang();
 	const [open, setOpen] = useState(false);
 	const dropdownRef = useRef(null);
+	const [searchParams, setSearchParams] = useSearchParams();
 
+	// Set initial language from URL
+	useEffect(() => {
+		const urlLang = searchParams.get("lang");
+		if (urlLang && LANG_OPTIONS.some(l => l.code === urlLang)) {
+			setLang(urlLang);
+		}
+	}, []);
+
+	// Close dropdown when clicking outside
 	useEffect(() => {
 		const close = (e) => {
 			if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -75,6 +85,15 @@ const Lang = () => {
 		document.addEventListener("click", close);
 		return () => document.removeEventListener("click", close);
 	}, []);
+
+	const handleSelect = (code) => {
+		setLang(code);
+		setSearchParams((prev) => {
+			prev.set("lang", code);
+			return prev;
+		});
+		setOpen(false);
+	};
 
 	return (
 		<div className="lang-wrapper" ref={dropdownRef}>
@@ -91,10 +110,7 @@ const Lang = () => {
 						<div
 							key={code}
 							className={`lang-option ${lang === code ? "active" : ""}`}
-							onClick={() => {
-								setLang(code);
-								setOpen(false);
-							}}
+							onClick={() => handleSelect(code)}
 						>
 							{label}
 						</div>
