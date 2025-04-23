@@ -53,11 +53,13 @@
 .dropdown-search {
 	width: 180px;
 	margin: 0.5rem 0.75rem;
+	overflow-x: hidden;
 }
 
 .dropdown-menu {
 	max-height: calc(20rem);
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 .dropdown-menu::-webkit-scrollbar {
@@ -73,7 +75,6 @@
 	background: transparent;
 }
 
-/* Responsive improvements */
 @media (max-width: 768px) {
 	.dropdown-wrap-container {
 		flex-direction: column;
