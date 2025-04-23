@@ -91,7 +91,6 @@ const Lang = () => {
 	const dropdownRef = useRef(null);
 	const [searchParams, setSearchParams] = useSearchParams();
 
-	// Set initial language from URL
 	useEffect(() => {
 		const urlLang = searchParams.get("lang");
 		if (urlLang && LANG_OPTIONS.some(l => l.code === urlLang)) {
@@ -99,7 +98,6 @@ const Lang = () => {
 		}
 	}, []);
 
-	// Close dropdown when clicking outside
 	useEffect(() => {
 		const close = (e) => {
 			if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {

@@ -216,8 +216,8 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	min-width: 200px;
 
-	max-height: calc(2.2rem * 10); /* Approx height of 10 rows */
-	overflow-y: auto; /* Enables vertical scrolling */
+	max-height: calc(20rem);
+	overflow-y: auto;
 }
 
 .lang-option {
@@ -238,7 +238,6 @@
 	color: #fff;
 }
 
-/* Custom thin scrollbar for the language dropdown */
 .lang-dropdown::-webkit-scrollbar {
 	width: 6px;
 }
@@ -253,7 +252,7 @@
 }
 
 .lang-dropdown {
-	scrollbar-width: thin; /* Firefox */
+	scrollbar-width: thin;
 	scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
 	touch-action: pan-y;
 	-webkit-overflow-scrolling: touch;
