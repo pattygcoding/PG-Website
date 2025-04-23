@@ -56,11 +56,6 @@ a:hover {
     color: var(--text-color);
 }
 
-p {
-    word-break: break-word;
-    hyphens: auto;
-}
-
 .ovhidden {
     overflow: hidden;
 }
@@ -81,3 +76,17 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+/* disable all automatic hyphens and force whole-word wrap */
+html {
+    /* vendor prefixes for widest support */
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  
+    /* if a word is too long, wrap the *whole* word to the next line */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  

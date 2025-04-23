@@ -44,3 +44,15 @@
 	gap: 0.5rem;
 	margin-bottom: 1.5rem;
 }
+
+/* make filter buttons blue */
+.filter-dropdown .btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+/* constrain search input width */
+.dropdown-search {
+	width: 180px;
+	margin: 0.5rem 0.75rem;
+}
