@@ -4,7 +4,9 @@
         "home": "Home",
         "about": "About Me",
         "portfolio": "Portfolio",
+        "projects": "Website Projects",
         "tiger": "Tiger Language",
+        "formatter": "JSON & YAML Formatter",
         "contact": "Contact Me"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfolio",
         "filter_by": "Filter Portfolio By:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "A Python project that streamlines language translations. Allows for my website portfolio to be translated into 70+ languages, including Spanish, French, Chinese, Arabic, and many others. This project is used to create a multilingual website portfolio, which is very useful for reaching a wider audience. With this project, over 99% of the world can read my portfolio in a fluent language.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Connect Four",
                 "text": "Massive family of over 50+ implementations of the Connect Four game. This project includes implementations in over 30 different programming languages, including Java, C++, Python, JavaScript, and more. Additionally, it also includes over 20+ different frameworks or other formats, including React.js, Ruby on Rails, ASP.NET, and more.",
@@ -94,6 +101,11 @@
                 "title": "Interop Project",
                 "text": "A project that documents interoperability between different programming languages. Currently includes 15 different programming languages and 18 execution patterns.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "A linter & autoformatter for JSON & YAML files. This project is used to format JSON & YAML files, which is very useful for keeping code clean and organized. Built with Go, compiled with WebAssembly, and embedded into my portfolio as a website project. More formats to come in the future.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
@@ -185,6 +197,15 @@
         "header": "Contact Information",
         "email": "pattygsocials@gmail.com",
         "description": "I respond to inquires from email, LinkedIn messages, and Instagram messages. I also will call back if my number is provided via resume or otherwise, though I prefer to keep my phone number private."
+    },
+    "formatter": {
+        "title": "JSON & YAML Formatter",
+        "description": "The JSON & YAML Formatter is a tool that allows you to format JSON and YAML files. It is built with Go and WebAssembly, and it is designed to be fast and efficient. The formatter is designed to be easy to use, with a simple interface that allows you to paste in your JSON or YAML code and format it with the click of a button.",
+        "more_info1": "For more information, refer to the README in the ",
+        "more_info2": "JSON/YAML Formatter Repository.",
+        "format_as": "Format As:",
+        "auto_detect": "Auto Detect",
+        "format": "Format"
     },
     "tiger": {
         "title": "Tiger Language",
