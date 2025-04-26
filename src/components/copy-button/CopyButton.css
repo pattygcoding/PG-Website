@@ -1,0 +1,41 @@
+.copy-icon-wrapper {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.copy-icon-button {
+	background: none;
+	border: none;
+	color: #ccc;
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.copy-icon-button:hover {
+	color: #fff;
+}
+
+.copied-tag {
+	margin-top: 0.2rem;
+	background-color: #333;
+	color: limegreen;
+	font-size: 0.75rem;
+	padding: 2px 6px;
+	border-radius: 4px;
+	animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+	0% { opacity: 1; }
+	80% { opacity: 1; }
+	100% { opacity: 0; }
+}

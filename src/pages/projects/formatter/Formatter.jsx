@@ -4,11 +4,7 @@ import { Container, Form, Button } from "react-bootstrap";
 import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
-import Editor from "react-simple-code-editor";
-import Prism from "prismjs";
-import "prismjs/components/prism-json";
-import "prismjs/components/prism-yaml";
-import "prismjs/themes/prism-tomorrow.css";
+import { CodeBox } from "@/components/code-box";
 import l from "@/assets/links/links.json";
 import "./Formatter.css";
 
@@ -18,7 +14,6 @@ const Formatter = () => {
 	const [input, setInput] = useState("");
 	const [formatMode, setFormatMode] = useState("auto");
 	const [wasmReady, setWasmReady] = useState(false);
-	const [copied, setCopied] = useState(false);
 	const [error, setError] = useState("");
 
 	useEffect(() => {
@@ -50,48 +45,31 @@ const Formatter = () => {
 		if (!wasmReady || typeof window.formatJSON !== "function") {
 			return;
 		}
-	
-		if (input.length > 1000000) { // 1MB limit
+
+		if (input.length > 1000000) {
 			setError("Input too large (max 1MB allowed).");
 			return;
 		}
-	
-		setError(""); // clear old errors
-	
+
+		setError("");
+
 		let raw = input;
 		if (formatMode === "json") raw = "///force:json///\n" + raw;
 		if (formatMode === "yaml") raw = "///force:yaml///\n" + raw;
-	
+
 		try {
 			const result = window.formatJSON(raw);
-	
-			// New logic: if it starts with "Invalid", show red error instead of updating
+
 			if (result.startsWith("Invalid")) {
-				setError(result); // Display "Invalid JSON" or "Invalid YAML" message
+				setError(result);
 				return;
 			}
-	
-			// Otherwise safe to format
+
 			setInput(result);
 		} catch (err) {
 			console.error("Error formatting input:", err);
 			setError(formatMode === "yaml" ? "Invalid YAML" : "Invalid JSON");
 		}
-	};
-	
-
-	const handleCopy = () => {
-		navigator.clipboard.writeText(input).then(() => {
-			setCopied(true);
-			setTimeout(() => setCopied(false), 1500);
-		});
-	};
-
-	const highlight = (code) => {
-		if (formatMode === "yaml") {
-			return Prism.highlight(code, Prism.languages.yaml, "yaml");
-		}
-		return Prism.highlight(code, Prism.languages.json, "json");
 	};
 
 	return (
@@ -117,34 +95,18 @@ const Formatter = () => {
 					</Form.Select>
 				</Form.Group>
 
-				{/* THIS is the red error message placed between dropdown and editor */}
 				{error && (
 					<div className="text-danger mt-2" style={{ fontWeight: "bold" }}>
 						{error}
 					</div>
 				)}
 
-				<div className="output-container mt-3 position-relative">
-					<Button className="copy-button" variant="secondary" size="sm" onClick={handleCopy}>
-						📋 {copied ? "Copied!" : "Copy"}
-					</Button>
+				<CodeBox
+					initialCode={input}
+					language={formatMode === "yaml" ? "yaml" : "json"}
+					onCodeChange={setInput}
+				/>
 
-					<Editor
-						value={input}
-						onValueChange={setInput}
-						highlight={highlight}
-						padding={15}
-						style={{
-							backgroundColor: "#222",
-							color: "#f8f8f2",
-							fontFamily: "monospace",
-							fontSize: 16,
-							minHeight: "400px",
-							borderRadius: "6px",
-							overflowX: "auto",
-						}}
-					/>
-				</div>
 
 				<Button className="mt-3" onClick={handleFormat}>
 					{t("formatter.format")}

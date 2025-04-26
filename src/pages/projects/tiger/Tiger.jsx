@@ -3,6 +3,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { Container, Form, Button } from "react-bootstrap";
 import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
+import { CodeBox } from "@/components/code-box";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
 import "./Tiger.css";
@@ -102,11 +103,10 @@ const Tiger = () => {
 
 				<Form.Group controlId="code" className="mt-3">
 					<Form.Label>{t("tiger.tiger_code")}</Form.Label>
-					<Form.Control
-						as="textarea"
-						rows={6}
-						value={code}
-						onChange={(e) => setCode(e.target.value)}
+					<CodeBox 
+						initialCode={`let name = "Tiger"\nprint name`}
+						language="python"
+						onCodeChange={setCode}
 					/>
 				</Form.Group>
 
