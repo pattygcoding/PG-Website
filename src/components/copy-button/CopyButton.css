@@ -11,27 +11,29 @@
 .copy-icon-button {
 	background: none;
 	border: none;
-	color: #ccc;
+	color: var(--copy-icon-color);
 	font-size: 1.5rem;
 	cursor: pointer;
 	padding: 4px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: color 0.3s;
 }
 
 .copy-icon-button:hover {
-	color: #fff;
+	color: var(--copy-icon-hover);
 }
 
 .copied-tag {
 	margin-top: 0.2rem;
-	background-color: #333;
-	color: limegreen;
+	background-color: var(--copied-tag-bg);
+	color: var(--copied-tag-text);
 	font-size: 0.75rem;
 	padding: 2px 6px;
 	border-radius: 4px;
 	animation: fadeOut 2s forwards;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 @keyframes fadeOut {

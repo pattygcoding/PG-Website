@@ -6,6 +6,14 @@
     --text-color-2: #fff;
     --text-color-3: rgb(204, 0, 0);
     --overlay-color: rgb(12 12 12 / 63%);
+    --editor-bg: #222;
+	--editor-text: #ddd;
+	--editor-border: #aaa;
+    --table-bg: #222;
+    --table-border: #555;
+    --hover-bg: rgba(255, 255, 255, 0.05);
+    --collapse-bg: #333;
+    --card-bg: #1a1a1a;
 }
 
 [data-theme="light"] {
@@ -16,6 +24,14 @@
     --text-color-2: #000;
     --text-color-3: rgb(204, 0, 0);
     --overlay-color: rgb(255 255 255 / 70%);
+	--editor-bg: #f0f0f0;
+	--editor-text: #111;
+	--editor-border: #333;
+    --table-bg: #f9f9f9;
+    --table-border: #ccc;
+    --hover-bg: rgba(0, 0, 0, 0.05);
+    --collapse-bg: #eee;
+    --card-bg: #f0f0f0;
 }
 
 html,
@@ -77,16 +93,46 @@ code {
     color: var(--secondary-color);
 }
 
-/* disable all automatic hyphens and force whole-word wrap */
 html {
-    /* vendor prefixes for widest support */
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
-  
-    /* if a word is too long, wrap the *whole* word to the next line */
     overflow-wrap: break-word;
     word-wrap: break-word;
-  }
-  
+}
+
+a, a * {
+    cursor: pointer !important;
+}
+
+button, button * {
+    cursor: pointer !important;
+}
+
+[role="button"], [role="button"] * {
+    cursor: pointer !important;
+}
+
+[role="link"], [role="link"] * {
+    cursor: pointer !important;
+}
+
+.clickable, .clickable * {
+    cursor: pointer !important;
+}
+
+form select.form-select {
+	background-color: var(--editor-bg) !important;
+	color: var(--editor-text) !important;
+	border: 1px solid var(--editor-border) !important;
+	border-radius: 6px; 
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+form select.form-select:focus {
+	background-color: var(--editor-bg) !important;
+	color: var(--editor-text) !important;
+	border-color: var(--editor-border) !important;
+	box-shadow: none !important;
+}

@@ -1,3 +1,13 @@
 .output-container {
 	position: relative;
 }
+
+.output-container textarea,
+.output-container pre {
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.output-container textarea,
+.output-container pre {
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}

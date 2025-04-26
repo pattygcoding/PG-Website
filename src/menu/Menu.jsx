@@ -41,7 +41,6 @@ const Menu = () => {
 				</div>
 				<div className={`site__navigation ${isMenuOpen ? "menu__opend" : ""}`}>
 					<MenuOptions handleToggle={handleToggle} />
-					
 				</div>
 			</header>
 			<div className="br-top"></div>

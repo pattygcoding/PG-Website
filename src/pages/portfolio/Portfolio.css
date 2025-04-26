@@ -1,16 +1,16 @@
 .portfolio-card {
 	display: flex;
 	align-items: flex-start;
-	background-color: var(--card-bg, #222);
+	background-color: var(--editor-bg);
 	border-radius: 0.5rem;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 	margin-bottom: 1.5rem;
 	overflow: hidden;
 	padding: 1rem;
-	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s, color 0.3s, border-color 0.3s;
 	cursor: pointer;
 	text-decoration: none;
-	color: inherit;
+	color: var(--editor-text);
 }
 
 .portfolio-card:hover {

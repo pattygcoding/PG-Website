@@ -24,7 +24,7 @@ const CodeBox = ({ initialCode, language, onCodeChange }) => {
 	};
 
 	return (
-		<div className="output-container position-relative">
+		<div className="output-container">
 			<CopyButton textToCopy={code} />
 			<Editor
 				value={code}
@@ -32,13 +32,15 @@ const CodeBox = ({ initialCode, language, onCodeChange }) => {
 				highlight={highlight}
 				padding={15}
 				style={{
-					backgroundColor: "#222",
-					color: "#f8f8f2",
+					backgroundColor: "var(--editor-bg)",
+					color: "var(--editor-text)",
+					border: "1px solid var(--editor-border)",
 					fontFamily: "monospace",
 					fontSize: 16,
 					minHeight: "400px",
 					borderRadius: "6px",
 					overflowX: "auto",
+					transition: "background-color 0.3s, color 0.3s, border-color 0.3s",
 				}}
 			/>
 		</div>

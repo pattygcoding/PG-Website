@@ -86,7 +86,7 @@ const Formatter = () => {
 					</a>.
 				</p>
 
-				<Form.Group>
+				<Form.Group className="mt-4">
 					<Form.Label>{t("formatter.format_as")}</Form.Label>
 					<Form.Select value={formatMode} onChange={(e) => setFormatMode(e.target.value)}>
 						<option value="auto">{t("formatter.auto_detect")}</option>
@@ -101,16 +101,18 @@ const Formatter = () => {
 					</div>
 				)}
 
-				<CodeBox
-					initialCode={input}
-					language={formatMode === "yaml" ? "yaml" : "json"}
-					onCodeChange={setInput}
-				/>
+				<div className="mt-4">
+					<CodeBox
+						initialCode={input}
+						language={formatMode === "yaml" ? "yaml" : "json"}
+						onCodeChange={setInput}
+					/>
+				</div>
 
-
-				<Button className="mt-3" onClick={handleFormat}>
+				<Button className="mt-4" onClick={handleFormat}>
 					{t("formatter.format")}
 				</Button>
+
 			</Container>
 		</HelmetProvider>
 	);

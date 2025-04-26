@@ -1,11 +1,13 @@
 .tiger-output {
-	background-color: #222;
+	background-color: var(--editor-bg);
+	border: 1px solid var(--editor-border);
+	color: var(--editor-text);
 	padding: 10px;
 	min-height: 100px;
-	border-radius: 5px;
+	border-radius: 6px;
 	font-family: monospace;
-	color: #f8f8f2;
 	white-space: pre-wrap;
 	overflow-x: auto;
 	margin-bottom: 3rem;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
