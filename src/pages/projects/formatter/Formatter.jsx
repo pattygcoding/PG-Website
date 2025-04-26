@@ -50,32 +50,35 @@ const Formatter = () => {
 		if (!wasmReady || typeof window.formatJSON !== "function") {
 			return;
 		}
-
+	
 		if (input.length > 1000000) { // 1MB limit
 			setError("Input too large (max 1MB allowed).");
 			return;
 		}
-
+	
 		setError(""); // clear old errors
-
+	
 		let raw = input;
 		if (formatMode === "json") raw = "///force:json///\n" + raw;
 		if (formatMode === "yaml") raw = "///force:yaml///\n" + raw;
-
+	
 		try {
 			const result = window.formatJSON(raw);
-			setInput(result); // only if success
+	
+			// New logic: if it starts with "Invalid", show red error instead of updating
+			if (result.startsWith("Invalid")) {
+				setError(result); // Display "Invalid JSON" or "Invalid YAML" message
+				return;
+			}
+	
+			// Otherwise safe to format
+			setInput(result);
 		} catch (err) {
 			console.error("Error formatting input:", err);
-
-			// Don't touch the input box! Only show the error
-			if (formatMode === "yaml") {
-				setError("Invalid YAML");
-			} else {
-				setError("Invalid JSON");
-			}
+			setError(formatMode === "yaml" ? "Invalid YAML" : "Invalid JSON");
 		}
 	};
+	
 
 	const handleCopy = () => {
 		navigator.clipboard.writeText(input).then(() => {
