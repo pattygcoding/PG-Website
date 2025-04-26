@@ -102,8 +102,8 @@ const LANG_OPTIONS = [
 	{ code: "uz_uz", label: "🇺🇿 UZ" },
 	{ code: "vi_vn", label: "🇻🇳 VI" },
 	{ code: "yo_ng", label: "🇳🇬 YO" },
-	{ code: "zh_CN_cn", label: "🇨🇳 ZH" },
-	{ code: "zh_TW_tw", label: "🇹🇼 ZH" },
+	{ code: "zh-CN_cn", label: "🇨🇳 ZH" },
+	{ code: "zh-TW_tw", label: "🇹🇼 ZH" },
 	{ code: "zu_za", label: "🇿🇦 ZU" },
 ];
 
