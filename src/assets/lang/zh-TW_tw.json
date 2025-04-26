@@ -1,0 +1,237 @@
+{
+    "name": "帕特里克·古德溫",
+    "menu": {
+        "home": "家",
+        "about": "關於我",
+        "portfolio": "文件夾",
+        "projects": "網站項目",
+        "tiger": "老虎語",
+        "formatter": "JSON和YAML格式",
+        "contact": "與我聯繫"
+    },
+    "home": {
+        "title": "家",
+        "animated": {
+            "first": "完整的堆棧軟件工程師",
+            "second": "Web開發人員",
+            "third": "遊戲開發人員",
+            "fourth": "內容創建者"
+        },
+        "descriptionA": "經驗豐富的全棧軟件工程師和Web開發人員，具有成功領導開發項目的歷史，從為Minecraft創建Java修改到增強React.js的用戶體驗和實施安全的REST API，同時始終採用敏捷的方法和有效的團隊協作。",
+        "descriptionB": "此外，我是一個地理內容創建者，他成功地利用了包括Instagram，YouTube和Tiktok在內的多個社交媒體平台的算法，以獲得一個可觀且引人入勝的追隨者基礎。",
+        "portfolio_button": "我的投資組合",
+        "contact_button": "與我聯繫",
+        "about_button": "關於我"
+    },
+    "about": {
+        "title": "關於我",
+        "personal_summary": {
+            "title": "個人摘要",
+            "text": "作為位於佛羅里達州奧蘭多市的經驗豐富的完整堆棧軟件開發人員，我已經展示了從Java和C ++到React.js和Node.js的各種技術的專業知識。憑藉帶頭型項目的記錄，包括針對Minecraft制定Java修改計劃以及為卡車司機提供獎勵的網站，我展示了領導力和創新。我對卓越的承諾在我簡化項目管理，解決複雜問題並提供高質量解決方案的能力中很明顯，從而增強用戶體驗並推動組織成功。"
+        },
+        "professional_experience": {
+            "title": "專業經驗",
+            "entries": [
+                {
+                    "jobtitle": "初級軟件工程師",
+                    "where": "Orion180保險",
+                    "date": "2024-禮物"
+                },
+                {
+                    "jobtitle": "創始人＆Full Stack軟件開發人員",
+                    "where": "至上",
+                    "date": "2020-2024"
+                },
+                {
+                    "jobtitle": "完整的堆棧軟件工程師",
+                    "where": "加速學習",
+                    "date": "2023"
+                },
+                {
+                    "jobtitle": "首席網絡開發人員（學生計劃）",
+                    "where": "克萊姆森大學GDI計劃",
+                    "date": "2021-2022"
+                },
+                {
+                    "jobtitle": "辦公桌主管",
+                    "where": "克萊姆森大學",
+                    "date": "2021-2022"
+                }
+            ]
+        },
+        "technical_skills": {
+            "title": "技術技能",
+            "header1": "程式設計語言",
+            "header2": "框架和圖書館",
+            "header3": "工具和技術"
+        },
+        "services": {
+            "title": "我的服務",
+            "entries": [
+                {
+                    "title": "完整的堆棧工程",
+                    "text": "我在前端和後端開發中提供全面的解決方案，以確保整個軟件堆棧中的無縫集成和功能。"
+                },
+                {
+                    "title": "網絡開發",
+                    "text": "憑藉在HTML，CSS和JavaScript框架（例如React.js）中的專業知識，我製作了視覺上吸引人和用戶友好的網站，該網站量身定制，以滿足客戶的特定需求和偏好。"
+                },
+                {
+                    "title": "遊戲開發",
+                    "text": "利用Java和C ++等語言，我專門研究從概念和設計到實施和優化的身臨其境的遊戲體驗，從而確保吸引人的遊戲玩法和平穩的性能。"
+                }
+            ]
+        }
+    },
+    "portfolio": {
+        "title": "文件夾",
+        "filter_by": "過濾器投資組合：",
+        "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "一個簡化語言翻譯的Python項目。允許將我的網站投資組合翻譯成70多種語言，包括西班牙語，法語，中文，阿拉伯語等。該項目用於創建多語言網站投資組合，這對於吸引更多受眾非常有用。有了這個項目，全世界超過99％的人可以用一種流利的語言閱讀我的作品集。",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
+            "connect_four": {
+                "title": "連接四個",
+                "text": "連接四款遊戲的50多個實現的大量家庭。該項目包括30多種不同編程語言的實現，包括Java，C ++，Python，JavaScript等。此外，它還包括20多個以上不同的框架或其他格式，包括React.js，Ruby上的Rails，ASP.NET等。",
+                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+            },
+            "interop": {
+                "title": "Interop項目",
+                "text": "一個記錄不同編程語言之間互操作性的項目。目前包括15種不同的編程語言和18種執行模式。",
+                "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "formatter": {
+                "title": "JSON和YAML自動格式化",
+                "text": "JSON和YAML文件的Linter＆Autoformatter。該項目用於格式化JSON＆YAML文件，這對於保持代碼清潔和組織非常有用。由GO構建，與WebAssembly編譯，並作為網站項目嵌入到我的投資組合中。將來會有更多格式。",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+            },
+            "minecraft_json_generator": {
+                "title": "Minecraft JSON生成器",
+                "text": "輕巧的JSON生成器內置於Minecraft資源和數據包。該項目用於生成Minecraft Mod的JSON文件，包括自定義項目，塊和實體。不僅對於創建自定義數據包，而且對於通過MOD名稱切換功能而言，非常有用。",
+                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+            },
+            "educational_experience": {
+                "title": "我的教育經驗",
+                "text": "除了我的個人項目，我還從教育經驗中獲得了許多技能。單擊此處查看我的LinkedIn個人資料以獲取更多信息。",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
+            },
+            "professional_experience": {
+                "title": "我的專業經驗",
+                "text": "除了我的個人項目，我還從專業經驗中獲得了許多技能。單擊此處查看我的LinkedIn個人資料以獲取更多信息。",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
+            },
+            "portfolio_website": {
+                "title": "帕特里克·古德溫（Patrick Goodwin）投資組合網站",
+                "text": "該網站是我的個人投資組合網站，該網站由React.js構建。該項目用於展示我的技能和項目，並為潛在雇主與我聯繫的平台提供了一個平台。該項目用於創建專業的在線形象。",
+                "link": "https://www.pattygcoding.com"
+            },
+            "lua_library": {
+                "title": "帕特里克的lua腳本庫",
+                "text": "LUA腳本的有用庫，供將來參考。該庫用於在LUA腳本中自動化任務，該任務可能會派上用來進行性能 - 神經任務，因為LUA通常是一種比Python和Ruby更快的腳本語言。",
+                "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "帕特里克的Microsoft Excel電子表格腳本（VBA）",
+                "text": "Microsoft Excel的VBA腳本的有用庫。該庫用於在Excel電子表格中自動化任務。",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
+            "neovim_config": {
+                "title": "帕特里克的Neovim配置",
+                "text": "我的個人新維姆配置。該項目用於將Neovim配置為我的喜好，包括自定義鍵鍵，主題和插件。該項目用於使Neovim對我的個人使用更加用戶友好和效率。",
+                "link": "https://github.com/pattygcoding/Neovim-Config"
+            },
+            "python_maps": {
+                "title": "帕特里克的地圖生成器",
+                "text": "美國縣和州地圖生成器，使用python建造，使用地理和matplotlib庫。該項目用於生成美國的地圖，包括縣和州地圖。該項目用於創建自定義地圖以進行數據可視化和分析。",
+                "link": "https://i.imgur.com/HxYLSXC.png"
+            },
+            "powershell_library": {
+                "title": "帕特里克的powershell腳本庫",
+                "text": "一個有用的PowerShell腳本庫，供將來參考。對於$ Profile腳本功能，我發現這對從Windows終端自動化任務非常有用，因為我是Windows OS的常客。",
+                "link": "https://github.com/pattygcoding/Powershell-Scripts"
+            },
+            "ruby_library": {
+                "title": "帕特里克的紅寶石劇本庫",
+                "text": "一個有用的紅寶石腳本庫，供將來參考。對Rails的發展概念有用。",
+                "link": "https://github.com/pattygcoding/Ruby-Scripts"
+            },
+            "pdf_builder": {
+                "title": "PDF技能構建器",
+                "text": "由PDFKIT和JINJA2擴展名與HTML和JSON格式一起使用Python構建的自定義PDF構建器。該項目用於從技能和項目列表中生成PDF文件。該項目可用於創建自定義PDF簡歷，這對於工作應用程序非常有用。",
+                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+            },
+            "rijandel_encryption": {
+                "title": "Rijandel加密項目",
+                "text": "Rijandel加密算法的10多個家族在128、192和256位。該項目用於演示不同編程語言的Rijandel加密算法。該項目用於創建Rijandel加密算法的實現家族。",
+                "link": "https://github.com/pattygcoding/SupremeMC"
+            },
+            "suprememc": {
+                "title": "Minecraft Mod",
+                "text": "Minecraft Mod添加了自定義工具，裝甲，暴民，塊，尺寸以及遊戲中的更多功能。由Java版本8-17構建，用於1.16和1.20之間的精選Minecraft版本。",
+                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+            },
+            "tiger_programming_language": {
+                "title": "老虎編程語言",
+                "text": "自定義編程語言內置於Go＆Rust，以嘗試解釋器設計和性能。使用Web Assembly在投資組合網站上實施。",
+                "link": "https://www.pattygcoding.com/tiger"
+            },
+            "tiger_tailgating_pros": {
+                "title": "老虎尾巴專業網站",
+                "text": "我於2024年為Tiger Tailgating Pros建造的一個網站，這是一家位於南卡羅來納州克萊姆森的拖尾公司。用React.js構建。",
+                "link": "https://github.com/pattygcoding/TTProsBeta"
+            },
+            "turing_machine": {
+                "title": "圖靈機項目",
+                "text": "Turing Machine的30多個以上的家族。用於展示用於研究不同編程語言的圖丁完整性，特別是對於老虎編程語言。",
+                "link": "https://github.com/pattygcoding/Turing-Machines"
+            }
+        }
+    },
+    "tiger_programming_language": {
+        "title": "老虎編程語言"
+    },
+    "contact": {
+        "title": "與我聯繫",
+        "header": "聯繫信息",
+        "email": "pattygsocials@gmail.com",
+        "description": "我回復了電子郵件，LinkedIn消息和Instagram消息的詢問。如果通過簡歷或其他方式提供我的電話號碼，我也會回電，儘管我更喜歡將電話號碼保密。"
+    },
+    "formatter": {
+        "title": "JSON和YAML格式",
+        "description": "JSON＆YAML格式化器是一種允許您格式化JSON和YAML文件的工具。它是由GO和WebAssembly構建的，其設計為快速有效。格式化器設計為易於使用，具有簡單的接口，可讓您粘貼JSON或YAML代碼，並通過單擊按鈕進行格式化。",
+        "more_info1": "有關更多信息，請參閱此處的讀數",
+        "more_info2": "JSON/YAML格式存儲庫。",
+        "format_as": "格式為：",
+        "auto_detect": "自動檢測",
+        "format": "格式"
+    },
+    "tiger": {
+        "title": "老虎語",
+        "description": "Tiger編程語言是一種自定義編程語言，內置於Go＆Rust，以嘗試口譯員的設計和性能。使用Web Assembly在投資組合網站上實施。 Tiger編程語言是一種自定義編程語言，內置於Go＆Rust，以嘗試口譯員的設計和性能。使用Web Assembly在投資組合網站上實施。",
+        "more_info1": "有關更多信息，請參閱此處的讀數",
+        "more_info2": "老虎編程語言github存儲庫。",
+        "select_engine": "選擇引擎：",
+        "tiger_code": "老虎代碼：",
+        "run_tiger": "運行老虎",
+        "output": "輸出："
+    },
+    "tab": {
+        "title": "帕特里克·古德溫",
+        "description": "總部位於佛羅里達州中部的完整堆棧軟件工程師"
+    },
+    "copy": {
+        "text": "複製",
+        "copied": "複製！"
+    },
+    "social_media": {
+        "github": "github",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "tiktok": "蒂克托克",
+        "youtube": "Youtube",
+        "text_strip": "跟我來"
+    },
+    "logotext": "帕特里克"
+}
