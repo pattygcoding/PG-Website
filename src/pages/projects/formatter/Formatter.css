@@ -1,29 +1,3 @@
-textarea.form-control,
-pre {
-	width: 100%;
-	min-height: 200px;
-	background-color: #222;
-	color: #0f0;
-	font-family: monospace;
-	padding: 1em;
-	resize: vertical;
-	overflow-x: auto;
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-pre {
-	margin-top: 1rem;
-	border: 1px solid #444;
-	border-radius: 4px;
-}
-
-button.btn-secondary {
-	background-color: #444;
-	border: none;
-	color: #eee;
-}
-
 .output-container {
 	position: relative;
 }
