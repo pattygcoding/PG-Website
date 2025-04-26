@@ -35,8 +35,10 @@ const Home = () => {
 										}}
 									/>
 								</h1>
+
 								<p className="mb-1x">{t("home.descriptionA")}</p>
 								<p className="mb-1x">{t("home.descriptionB")}</p>
+								
 								<div className="intro_btn-action pb-5">
 									<LangAwareLink to="/portfolio" className="text_2">
 										<div id="button_p" className="ac_btn btn ">
@@ -63,6 +65,7 @@ const Home = () => {
 										</div>
 									</LangAwareLink>
 								</div>
+								<h3>{t("home.footer")}</h3>
 							</div>
 						</div>
 					</div>
