@@ -39,12 +39,9 @@ const Portfolio = () => {
 	});
 
 	const resolveImage = (filename) => {
-		try {
-			return require(`@/assets/images/${filename}`);
-		} catch {
-			return require(`@/assets/images/logo.png`);
-		}
+		return `/assets/images/${filename}`;
 	};
+	
 
 	const updateURL = (updated) => {
 		const params = new URLSearchParams(location.search);
