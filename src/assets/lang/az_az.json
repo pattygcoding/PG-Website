@@ -4,7 +4,9 @@
         "home": "Evdə",
         "about": "Mənim haqqımda",
         "portfolio": "Portfel",
+        "projects": "Veb saytı layihələri",
         "tiger": "Pələng dili",
+        "formatter": "Json & yaml formatör",
         "contact": "Mənimlə əlaqə saxlayın"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfel",
         "filter_by": "Filtr portfelini:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Dil tərcümələrini tənzimləyən bir piton layihəsi. Veb saytım portfelim üçün İspan, Fransız, Çin, Ərəb və digərləri də daxil olmaqla 70+ dildə tərcümə olunmasına imkan verir. Bu layihə çoxdilli bir veb sayt portfeli yaratmaq üçün istifadə olunur, bu da daha geniş auditoriyaya çatmaq üçün çox faydalıdır. Bu layihə ilə dünyanın 99% -dən çoxu portfelimi səlis bir dildə oxuya bilər.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Dördünü bağlayın",
                 "text": "Dörd oyunun 50-dən çox + həyata keçirilməsinə kütləvi ailə. Bu layihəyə Java, C ++, Python, JavaScript və sair də daxil olmaqla 30-dan çox müxtəlif proqramlaşdırma dillərində tətbiqlər daxildir. Bundan əlavə, bu, 20-dən çox müxtəlif çərçivə və ya digər formatlar, o cümlədən reaksiya, relslərdə yaqut, asp.net və s.",
@@ -95,10 +102,10 @@
                 "text": "Fərqli proqramlaşdırma dilləri arasında qarşılıqlı əlaqəni sənədləşdirən bir layihə. Hal-hazırda 15 fərqli proqramlaşdırma dilləri və 18 icra nümunəsi daxildir.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel elektron tablo skriptləri (vba)",
-                "text": "Microsoft Excel üçün VBA skriptlərinin faydalı bir kitabxanası. Bu kitabxana Excel elektron tablolarında vəzifələri avtomatlaşdırmaq üçün istifadə olunur.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "JSON və YAML faylları üçün bir linter & autoFormalatter. Bu layihə, Code və mütəşəkkil saxlamaq üçün çox faydalı olan JSON və YAML fayllarını formatlaşdırmaq üçün istifadə olunur. Go ilə qurulmuş, WebSemply ilə tərtib edilmiş və veb sayt layihəsi olaraq portfelimə daxil edilmişdir. Gələcəkdə daha çox format gələcək.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft json generatoru",
@@ -124,6 +131,11 @@
                 "title": "Patrick's Lua Script Kitabxanası",
                 "text": "Gələcək istinad üçün Lua skriptlərinin faydalı bir kitabxanası. Bu kitabxana Lua skriptlərində işlərini avtomatlaşdırmaq üçün istifadə olunur, bu da performanslı tapşırıqlar üçün lazımlı ola bilər, çünki Lua, həm də piton və yaqutdan daha sürətli bir skriptli bir dildir.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick'in Microsoft Excel cədvəli skriptləri (VBA)",
+                "text": "Microsoft Excel üçün VBA skriptlərinin faydalı bir kitabxanası. Bu kitabxana Excel elektron tablolarında vəzifələri avtomatlaşdırmaq üçün istifadə olunur.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrick'in Neovim konfiqurasiyası",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "E-poçt, LinkedIn mesajları və İnstaqram mesajlarından soruşuram. Telefon nömrəmi özəl saxlamağı üstün tuturam, mən də nömrəm CV və ya başqa şəkildə təmin olunarsa, geri çağıracağam."
     },
+    "formatter": {
+        "title": "Json & yaml formatör",
+        "description": "JSON & YAML Formatter, JSON və YAML fayllarını formatlaşdırmağa imkan verən bir vasitədir. Get və WebSembly ilə qurulmuşdur və sürətli və səmərəli olmaq üçün hazırlanmışdır. Formalter, JSON və ya YAML kodunuza yapışdırmağa və bir düyməni basmaqla formatlaşdırmağa imkan verən sadə bir interfeys ilə istifadə etmək asandır.",
+        "more_info1": "Daha çox məlumat üçün, oxunanlara baxın",
+        "more_info2": "JSON / YAML FORMATER Depoziti.",
+        "format_as": "Kimi format:",
+        "auto_detect": "Avtomatik aşkar etmək",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Pələng dili",
         "description": "Tiger proqramlaşdırma dili, həm yolda, həm də pasda in tərcüməçi dizaynı və performansını sınaqdan keçirmək üçün hazırlanmış xüsusi bir proqramlaşdırma dilidir. Veb Məclisindən istifadə edərək portfel veb saytında tətbiq olunur. Tiger proqramlaşdırma dili, həm yolda, həm də pasda in tərcüməçi dizaynı və performansını sınaqdan keçirmək üçün hazırlanmış xüsusi bir proqramlaşdırma dilidir. Veb Məclisindən istifadə edərək portfel veb saytında tətbiq olunur.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick goodwin",
         "description": "Mərkəzi Florida əsaslı tam yığma proqram mühəndisi"
+    },
+    "copy": {
+        "text": "Surətini çıxarmaq",
+        "copied": "Kopyalandı!"
     },
     "social_media": {
         "github": "Gitub",

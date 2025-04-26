@@ -4,7 +4,9 @@
         "home": "Doma",
         "about": "O meni",
         "portfolio": "Portfelj",
+        "projects": "Projekti spletnih strani",
         "tiger": "Jezik tigra",
+        "formatter": "JSON & YAML FORMATTER",
         "contact": "Kontaktirajte me"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfelj",
         "filter_by": "Portfelj filtriranja z:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Python projekt, ki poenostavi jezikovne prevode. Omogoča, da se portfelj mojega spletnega mesta prevede v 70+ jezikov, vključno s španščino, francoščino, kitajščino, arabščino in številnimi drugimi. Ta projekt se uporablja za ustvarjanje večjezičnega portfelja spletnih strani, ki je zelo koristen za doseganje širšega občinstva. S tem projektom lahko več kot 99% sveta prebere moj portfelj v tekočem jeziku.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Povezati štiri",
                 "text": "Množična družina več kot 50+ izvedb igre Connect Four. Ta projekt vključuje izvedbe v več kot 30 različnih programskih jezikih, vključno z Java, C ++, Python, JavaScript in še več. Poleg tega vključuje tudi več kot 20+ različnih okvirov ali drugih formatov, vključno z React.js, Ruby On Rails, ASP.NET in še več.",
@@ -95,10 +102,10 @@
                 "text": "Projekt, ki dokumentira interoperabilnost med različnimi programskimi jeziki. Trenutno vključuje 15 različnih programskih jezikov in 18 vzorcev izvedbe.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel Screadheet Scripts (VBA)",
-                "text": "Uporabna knjižnica skript VBA za Microsoft Excel. Ta knjižnica se uporablja za avtomatizacijo nalog v Excelovih preglednicah.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML AUTO FORMATTER",
+                "text": "Linter & Autoformatter za datoteke JSON & YAML. Ta projekt se uporablja za oblikovanje datotek JSON & YAML, kar je zelo koristno za ohranjanje čiste in organizirane kode. Zgrajena z GO, sestavljena z WebAssembly in vgrajena v moj portfelj kot projekt spletnega mesta. V prihodnosti bo prišlo več formatov.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON generator",
@@ -125,6 +132,11 @@
                 "text": "Uporabna knjižnica skript Lua za prihodnjo referenco. Ta knjižnica se uporablja za avtomatizacijo nalog v skriptih Lua, ki so lahko koristne za naloge, ki jih je mogoče izvesti, saj je Lua ponavadi hitrejši skriptni jezik kot Python in Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
             },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel Screadheet Scripts (VBA)",
+                "text": "Uporabna knjižnica skript VBA za Microsoft Excel. Ta knjižnica se uporablja za avtomatizacijo nalog v Excelovih preglednicah.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
             "neovim_config": {
                 "title": "Patrick's Neovim Config",
                 "text": "Moja osebna konfiguracija Neovima. Ta projekt se uporablja za konfiguriranje Neovima po mojih željah, vključno s ključmi, temami in vtičniki po meri. Ta projekt se uporablja za to, da je Neovim bolj uporabniku prijazen in učinkovit za mojo osebno uporabo.",
@@ -137,11 +149,11 @@
             },
             "powershell_library": {
                 "title": "Patrick's PowerShell Script Library",
-                "text": "Uporabna knjižnica scenarijev PowerShell za prihodnjo referenco. Koristno s funkcijo skripta $ profila se mi zdi to neizmerno koristno za avtomatizacijo nalog iz terminala Windows, saj sem pogost uporabnik sistema Windows OS.",
+                "text": "Uporabna knjižnica scenarijev PowerShell za prihodnje reference. Koristno s funkcijo skripta $ profila se mi zdi to neizmerno koristno za avtomatizacijo nalog iz terminala Windows, saj sem pogost uporabnik sistema Windows OS.",
                 "link": "https://github.com/pattygcoding/Powershell-Scripts"
             },
             "ruby_library": {
-                "title": "Patrick's Ruby Script Library",
+                "title": "Patrickova knjižnica scenarijev Ruby",
                 "text": "Uporabna knjižnica scenarijev Ruby za nadaljnjo referenco. Uporabno za prihodnje Ruby on Rails Development Concepts.",
                 "link": "https://github.com/pattygcoding/Ruby-Scripts"
             },
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Odzivam na poizvedbe iz e -pošte, sporočil LinkedIn in Instagram sporočil. Poklical bom tudi nazaj, če je moja številka na voljo prek življenjepisa ali kako drugače, čeprav raje ohranjam svojo telefonsko številko zasebno."
     },
+    "formatter": {
+        "title": "JSON & YAML FORMATTER",
+        "description": "Oblika JSON & YAML je orodje, ki omogoča oblikovanje datotek JSON in YAML. Zgrajena je z GO in WebAsSembly, zasnovana pa je tako, da je hitra in učinkovita. Formatter je zasnovan tako, da je enostaven za uporabo, s preprostim vmesnikom, ki omogoča prilepanje v svojo kodo JSON ali YAML in ga oblikuje s klikom na gumb.",
+        "more_info1": "Če želite več informacij, glejte readme v",
+        "more_info2": "JSON/YAML FORMATTER ROPLATILO.",
+        "format_as": "Format kot:",
+        "auto_detect": "Samodejno zaznavanje",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Jezik tigra",
         "description": "Tiger programski jezik je programski jezik po meri, vgrajen tako v Go & Rust, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže. Tiger programski jezik je programski jezik po meri, vgrajen tako v Go & Rust, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Celoten programski inženir s sedežem v osrednji Floridi"
+    },
+    "copy": {
+        "text": "Kopijo",
+        "copied": "Kopirano!"
     },
     "social_media": {
         "github": "GitHub",

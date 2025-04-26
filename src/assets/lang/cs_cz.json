@@ -4,7 +4,9 @@
         "home": "Domov",
         "about": "O mně",
         "portfolio": "Portfolio",
+        "projects": "Webové projekty",
         "tiger": "Tygří jazyk",
+        "formatter": "JSON & YAML FORMATTERT",
         "contact": "Kontaktujte mě"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfolio",
         "filter_by": "Filtr portfolio od:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Projekt Python, který zefektivňuje překlady jazyků. Umožňuje překládat portfolio mých webových stránek do 70+ jazyků, včetně španělštiny, francouzštiny, čínštiny, arabštiny a mnoha dalších. Tento projekt se používá k vytvoření vícejazyčného portfolia webových stránek, což je velmi užitečné pro oslovení širšího publika. S tímto projektem může více než 99% světa číst mé portfolio v plynulém jazyce.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Připojte čtyři",
                 "text": "Masivní rodina více než 50+ implementací Connect Four Game. Tento projekt zahrnuje implementace ve více než 30 různých programovacích jazycích, včetně Java, C ++, Pythonu, JavaScriptu a dalších. Kromě toho také zahrnuje více než 20+ různých rámců nebo jiných formátů, včetně React.js, Ruby on Rails, ASP.NET a další.",
@@ -95,10 +102,10 @@
                 "text": "Projekt, který dokumentuje interoperabilitu mezi různými programovacími jazyky. V současné době zahrnuje 15 různých programovacích jazyků a 18 vzorců provádění.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Skripty mikrosoft Excel Scripts (VBA)",
-                "text": "Užitečná knihovna skriptů VBA pro Microsoft Excel. Tato knihovna se používá k automatizaci úkolů v tabulkách Excelu.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "Linter & Autoformterter pro soubory JSON & YAML. Tento projekt se používá k formátu souborů JSON & YAML, což je velmi užitečné pro udržení čistého a organizovaného kódu. Postaveno s GO, sestaveno s WebAssembly a zabudováno do mého portfolia jako projekt webových stránek. V budoucnu přijde další formáty.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Generátor Minecraft JSON",
@@ -116,7 +123,7 @@
                 "link": "https://www.linkedin.com/in/patrickgoodwin7"
             },
             "portfolio_website": {
-                "title": "Web Patrick Goodwin Portfolio",
+                "title": "Webové stránky Patrick Goodwin Portfolio",
                 "text": "Tento web je můj osobní portfolio web, postavený s React.js. Tento projekt se používá k předvedení mých dovedností a projektů a také k poskytnutí platformy pro potenciální zaměstnavatele, aby mě kontaktovali. Tento projekt se používá k vytvoření profesionální online přítomnosti.",
                 "link": "https://www.pattygcoding.com"
             },
@@ -124,6 +131,11 @@
                 "title": "Knihovna skriptů Patricka Lua",
                 "text": "Užitečná knihovna skriptů LUA pro budoucí odkaz. Tato knihovna se používá k automatizaci úkolů ve skriptech LUA, které se mohou hodit pro úkoly, které jsou nutné, protože LUA je obvykle rychlejší skriptovací jazyk než Python i Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patricka's Microsoft Excel ScriptsSeet Scripts (VBA)",
+                "text": "Užitečná knihovna skriptů VBA pro Microsoft Excel. Tato knihovna se používá k automatizaci úkolů v tabulkách Excelu.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrickova Neovim Config",
@@ -186,6 +198,15 @@
         "email": "Pattygsocials@gmail.com",
         "description": "Odpovídám na dotazy z e -mailů, zpráv LinkedIn a Instagramu. Zavolám také zpět, pokud bude moje číslo poskytováno prostřednictvím životopisu nebo jinak, i když raději udržuji své telefonní číslo soukromé."
     },
+    "formatter": {
+        "title": "JSON & YAML FORMATTERT",
+        "description": "Formatter JSON & YAML je nástroj, který umožňuje formátovat soubory JSON a YAML. Je postaven s GO a webassembly a je navržen tak, aby byl rychlý a efektivní. Formátter je navržen tak, aby byl snadno používán, s jednoduchým rozhraním, které vám umožní vložit do vašeho kódu JSON nebo YAML a naformátovat jej kliknutím na tlačítko.",
+        "more_info1": "Více informací naleznete na README v",
+        "more_info2": "JSON/YAML Formatter Repository.",
+        "format_as": "Formát jako:",
+        "auto_detect": "Automatické detekce",
+        "format": "Formát"
+    },
     "tiger": {
         "title": "Tygří jazyk",
         "description": "Programovací jazyk Tiger je vlastní programovací jazyk vestavěný v GO a REST, aby experimentoval s designem a výkonem tlumočníky. Implementováno na webu portfolia pomocí webové sestavy. Programovací jazyk Tiger je vlastní programovací jazyk vestavěný v GO a REST, aby experimentoval s designem a výkonem tlumočníky. Implementováno na webu portfolia pomocí webové sestavy.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Full Stack Software Engineer se sídlem na střední Floridě"
+    },
+    "copy": {
+        "text": "Kopie",
+        "copied": "Zkopírováno!"
     },
     "social_media": {
         "github": "GitHub",

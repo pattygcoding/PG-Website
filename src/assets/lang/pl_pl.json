@@ -4,7 +4,9 @@
         "home": "Dom",
         "about": "O mnie",
         "portfolio": "Teczka",
+        "projects": "Projekty stron internetowych",
         "tiger": "Język tygrysa",
+        "formatter": "Formatter JSON & YAML",
         "contact": "Skontaktuj się ze mną"
     },
     "home": {
@@ -12,11 +14,11 @@
         "animated": {
             "first": "Inżynier oprogramowania pełnego stosu",
             "second": "Twórca stron internetowych",
-            "third": "Twórca gier",
+            "third": "Deweloper gier",
             "fourth": "Twórca treści"
         },
         "descriptionA": "Doświadczony inżynier oprogramowania z pełnym stosem oprogramowania i deweloper z wykazaną historią pomyślnie wiodących projektów programistycznych, od tworzenia modyfikacji Java dla Minecraft po zwiększenie doświadczenia użytkownika w React.js i wdrażanie bezpiecznych interfejsów API REST, jednocześnie konsekwentnie stosując zwinne metodologie i skuteczną współpracę zespołową.",
-        "descriptionB": "Ponadto jestem twórcą treści geograficznych, który z powodzeniem wykorzystał algorytmy wielu platform mediów społecznościowych, w tym Instagram, YouTube i Tiktok, aby uzyskać godną szacunku i angażującą bazę obserwujących.",
+        "descriptionB": "Ponadto jestem twórcą treści geograficznych, który z powodzeniem wykorzystał algorytmy wielu platform mediów społecznościowych, w tym Instagram, YouTube i Tiktok, aby zyskać godną i wciągającą bazę obserwujących.",
         "portfolio_button": "Moje portfolio",
         "contact_button": "Skontaktuj się ze mną",
         "about_button": "O mnie"
@@ -85,6 +87,11 @@
         "title": "Teczka",
         "filter_by": "Portfolio filtrowania::",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Projekt Python, który usprawnia tłumaczenia językowe. Pozwala na przetłumaczenie mojego portfolio witryny na ponad 70 języków, w tym hiszpański, francuski, chiński, arabski i wiele innych. Ten projekt służy do stworzenia wielojęzycznego portfolio witryn, które jest bardzo przydatne do dotarcia do szerszej publiczności. W tym projekcie ponad 99% świata może odczytać moje portfolio w płynnym języku.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Połącz cztery",
                 "text": "Ogromna rodzina ponad 50 wdrożeń gry Connect Four. Ten projekt obejmuje implementacje w ponad 30 różnych językach programowania, w tym Java, C ++, Python, JavaScript i wiele innych. Ponadto obejmuje również ponad 20 różnych formatów lub innych formatów, w tym React.js, Ruby on Rails, ASP.NET i wiele innych.",
@@ -95,10 +102,10 @@
                 "text": "Projekt, który dokumentuje interoperacyjność między różnymi językami programowania. Obecnie zawiera 15 różnych języków programowania i 18 wzorców wykonania.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Skrypty arkusza kalkulacyjnego Microsoft Excel (VBA)",
-                "text": "Przydatna biblioteka skryptów VBA dla Microsoft Excel. Ta biblioteka służy do automatyzacji zadań w arkuszach kalkulacyjnych Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "Linter & Autoformatter dla plików JSON & YAML. Ten projekt służy do formatowania plików JSON & YAML, co jest bardzo przydatne do utrzymania w czystości i zorganizowaniu kodu. Zbudowany z Go, opracowany z Webassembly i wbudowany w moje portfolio jako projekt strony internetowej. Więcej formatów nadejdzie w przyszłości.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft Json Generator",
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Biblioteka skryptowa Patricka",
-                "text": "Przydatna biblioteka skryptów Lua do przyszłego odniesienia. Ta biblioteka służy do automatyzacji zadań w skryptach Lua, które mogą przydać się do zadań potrzebnych do wydajności, ponieważ LUA jest zwykle szybszym językiem scenariuszy niż zarówno Python, jak i Ruby.",
+                "text": "Przydatna biblioteka skryptów Lua do przyszłego odniesienia. Ta biblioteka służy do automatyzacji zadań w skryptach Lua, które mogą się przydać w przypadku zadań potrzebnych do wydajności, ponieważ LUA jest zwykle szybszym językiem scenariuszy niż zarówno Python, jak i Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Skrypty arkusza kalkulacyjnego Microsoft Patricka (VBA)",
+                "text": "Przydatna biblioteka skryptów VBA dla Microsoft Excel. Ta biblioteka służy do automatyzacji zadań w arkuszach kalkulacyjnych Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrick's Neovim Config",
@@ -166,7 +178,7 @@
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
-                "title": "Witryna zawodowa Tiger Tailgating",
+                "title": "Tiger Tailgating Plus",
                 "text": "Witryna, którą zbudowałem w 2024 r. Dla Tiger Tailgating Pro, firma tailgating w Clemson, SC. Zbudowany z React.js.",
                 "link": "https://github.com/pattygcoding/TTProsBeta"
             },
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Odpowiadam na zapytania z wiadomości e -mail, wiadomości LinkedIn i wiadomości na Instagramie. Oddzwonię również, jeśli mój numer jest dostarczany za pośrednictwem CV lub w inny sposób, chociaż wolę zachować prywatny numer telefonu."
     },
+    "formatter": {
+        "title": "Formatter JSON & YAML",
+        "description": "Formatter JSON & YAML to narzędzie, które pozwala sformatować pliki JSON i YAML. Jest zbudowany z Go i WebAssembly i jest zaprojektowany tak, aby był szybki i wydajny. Formatter został zaprojektowany tak, aby był łatwy w użyciu, z prostym interfejsem, który pozwala wkleić w kodzie JSON lub YAML i sformatować go za pomocą przycisku.",
+        "more_info1": "Aby uzyskać więcej informacji, zapoznaj się z Readme w",
+        "more_info2": "Repozytorium formattera JSON/YAML.",
+        "format_as": "Format jako:",
+        "auto_detect": "Wykryj automatyczne",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Język tygrysa",
         "description": "Język programowania Tiger to niestandardowy język programowania zbudowany zarówno w Go, jak i Rust do eksperymentowania z projektowaniem i wydajnością interpretera. Zaimplementowane na stronie internetowej portfolio za pomocą zespołu internetowego. Język programowania Tiger to niestandardowy język programowania zbudowany zarówno w Go, jak i Rust do eksperymentowania z projektowaniem i wydajnością interpretera. Zaimplementowane na stronie internetowej portfolio za pomocą zespołu internetowego.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Inżynier oprogramowania pełnego stosu z siedzibą w środkowej Florydzie"
+    },
+    "copy": {
+        "text": "Kopia",
+        "copied": "Skopiowane!"
     },
     "social_media": {
         "github": "Github",

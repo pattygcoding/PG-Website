@@ -4,7 +4,9 @@
         "home": "Otthon",
         "about": "Rólam",
         "portfolio": "Portfólió",
+        "projects": "Weboldal -projektek",
         "tiger": "Tigrisnyelv",
+        "formatter": "JSON & YAML FORMATTER",
         "contact": "Vegye fel a kapcsolatot velem"
     },
     "home": {
@@ -51,7 +53,7 @@
                     "date": "2021 - 2022"
                 },
                 {
-                    "jobtitle": "Íróasztalos felügyelő",
+                    "jobtitle": "Íróasztal -felügyelő",
                     "where": "Clemson Egyetem",
                     "date": "2021 - 2022"
                 }
@@ -72,7 +74,7 @@
                 },
                 {
                     "title": "Webfejlesztés",
-                    "text": "A HTML, a CSS és a JavaScript keretekkel kapcsolatos szakértelemmel, mint például a React.js, vizuálisan vonzó és felhasználóbarát webhelyeket készítek az ügyfelek sajátos igényeinek és preferenciáinak kielégítésére."
+                    "text": "A HTML, a CSS és a JavaScript keretekkel, például a React.js szakértelmével látványos és felhasználóbarát webhelyeket készítek, amelyek az ügyfelek sajátos igényeinek és preferenciáinak kielégítésére készültek."
                 },
                 {
                     "title": "Játékfejlesztés",
@@ -83,8 +85,13 @@
     },
     "portfolio": {
         "title": "Portfólió",
-        "filter_by": "Szűrő portfólió:",
+        "filter_by": "Szűrőportfólió:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Egy Python projekt, amely ésszerűsíti a nyelvi fordításokat. Lehetővé teszi a webhelyem portfóliójának 70 nyelvre történő lefordítását, beleértve a spanyol, francia, kínai, arab és még sokan másokat. Ez a projekt egy többnyelvű weboldal -portfólió létrehozására szolgál, amely nagyon hasznos a szélesebb közönség eléréséhez. Ezzel a projekttel a világ több mint 99% -a folyékony nyelven tudja elolvasni a portfóliómat.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Csatlakoztassa a négyet",
                 "text": "A Connect Four Game több mint 50 több mint 50 megvalósítású családja. Ez a projekt magában foglalja a több mint 30 különböző programozási nyelv megvalósítását, beleértve a Java, a C ++, a Python, a JavaScript és még sok más. Ezenkívül több mint 20 különböző keretet vagy más formátumot is tartalmaz, beleértve a React.js -t, a Ruby on Rails -t, az ASP.NET -et és még sok más.",
@@ -95,10 +102,10 @@
                 "text": "Egy olyan projekt, amely dokumentálja a különböző programozási nyelvek közötti interoperabilitást. Jelenleg 15 különféle programozási nyelvet és 18 végrehajtási mintát tartalmaz.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "A Microsoft Excel Spreadsheet Scripts (VBA)",
-                "text": "A VBA szkriptek hasznos könyvtára a Microsoft Excel számára. Ezt a könyvtárat az Excel táblázatokban a feladatok automatizálására használják.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "Linter & AutooMatter a JSON & YAML fájlokhoz. Ez a projekt a JSON & YAML fájlok formázására szolgál, ami nagyon hasznos a kód tiszta és szervezett tartásában. Go -val épített, összeállított WebAssembly -vel, és beágyazva a portfóliómba weboldal -projektként. Több formátum érkezik a jövőben.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON generátor",
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Patrick Lua Script Library",
-                "text": "A Lua szkriptek hasznos könyvtára a jövőbeni referenciaként. Ezt a könyvtárat a LUA szkriptek feladatainak automatizálására használják, amelyek hasznosak lehetnek a teljesítmény-szükséges feladatokhoz, mivel a LUA általában gyorsabb szkriptnyelv, mint mind a Python, mind a Ruby.",
+                "text": "A Lua szkriptek hasznos könyvtára a későbbi referenciaként. Ezt a könyvtárat a LUA szkriptek feladatainak automatizálására használják, amelyek hasznosak lehetnek a teljesítmény-szükséges feladatokhoz, mivel a LUA általában gyorsabb szkriptnyelv, mint mind a Python, mind a Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick Microsoft Excel Spreadsheet Scripts (VBA)",
+                "text": "A VBA szkriptek hasznos könyvtára a Microsoft Excel számára. Ezt a könyvtárat az Excel táblázatokban a feladatok automatizálására használják.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrick Neovim konfigurációja",
@@ -136,7 +148,7 @@
                 "link": "https://i.imgur.com/HxYLSXC.png"
             },
             "powershell_library": {
-                "title": "Patrick PowerShell Script Library",
+                "title": "Patrick's PowerShell Script Library",
                 "text": "Hasznos PowerShell -szkriptek Hasznos könyvtára a jövőbeni referenciaként. Hasznos a $ profil szkript funkcióval, ez rendkívül hasznosnak tartom a Windows terminálból származó feladatok automatizálását, mivel én vagyok a Windows operációs rendszer gyakori felhasználója.",
                 "link": "https://github.com/pattygcoding/Powershell-Scripts"
             },
@@ -166,7 +178,7 @@
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
-                "title": "Tigris farokfokozó profik weboldala",
+                "title": "Tigris hátsó gardéző profik weboldala",
                 "text": "Egy olyan weboldal, amelyet 2024 -ben építettek a Tiger Tailgating Pros -hoz, egy farokkapocs -társasághoz, Clemson, SC. A react.js -vel építették.",
                 "link": "https://github.com/pattygcoding/TTProsBeta"
             },
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Válaszolok az e -mail, a LinkedIn üzenetek és az Instagram üzenetek kérdéseire. Azt is vissza fogom hívni, ha a számomat önéletrajzon vagy más módon adják meg, bár inkább a telefonszámomat privátnak tartom."
     },
+    "formatter": {
+        "title": "JSON & YAML FORMATTER",
+        "description": "A JSON & YAML Formatter egy olyan eszköz, amely lehetővé teszi a JSON és a YAML fájlok formázását. A GO és a WebAssembly segítségével épült, és úgy tervezték, hogy gyors és hatékony legyen. A formázót úgy tervezték, hogy könnyen használható legyen, egy egyszerű felületgel, amely lehetővé teszi a JSON vagy a YAML kód beillesztését, és egy gomb kattintással formázni.",
+        "more_info1": "További információkért lásd a ReadMe -t a",
+        "more_info2": "JSON/YAML FORMATTER ROAZTORY.",
+        "format_as": "Formátum, mint:",
+        "auto_detect": "Auto detektál",
+        "format": "Formátum"
+    },
     "tiger": {
         "title": "Tigrisnyelv",
         "description": "A tigrisprogramozási nyelv egy egyedi programozási nyelv, amely mind a Go, mind a Rust beépítésére épül, hogy kísérletezzen a tolmács tervezésével és a teljesítménygel. A Portfolio weboldalán, a Web Assembly használatával valósítva meg. A tigrisprogramozási nyelv egy egyedi programozási nyelv, amely mind a Go, mind a Rust beépítésére épül, hogy kísérletezzen a tolmács tervezésével és a teljesítménygel. A Portfolio weboldalán, a Web Assembly használatával valósítva meg.",
@@ -198,7 +219,11 @@
     },
     "tab": {
         "title": "Patrick Goodwin",
-        "description": "Teljes verem szoftvermérnök, Közép -Floridában székhellyel"
+        "description": "Teljes verem szoftvermérnök Közép -Floridában található"
+    },
+    "copy": {
+        "text": "Másolat",
+        "copied": "Másolt!"
     },
     "social_media": {
         "github": "Github",

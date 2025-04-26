@@ -4,7 +4,9 @@
         "home": "Nghartrefi",
         "about": "Amdanaf i",
         "portfolio": "Phortffolio",
+        "projects": "Prosiectau gwefan",
         "tiger": "Iaith Teigr",
+        "formatter": "Fformatiwr JSON & YAML",
         "contact": "Cysylltwch â mi"
     },
     "home": {
@@ -42,7 +44,7 @@
                 },
                 {
                     "jobtitle": "Peiriannydd meddalwedd pentwr llawn",
-                    "where": "Cyflymu Dysgu",
+                    "where": "Cyflymu dysgu",
                     "date": "2023"
                 },
                 {
@@ -85,6 +87,11 @@
         "title": "Phortffolio",
         "filter_by": "Portffolio hidlo gan:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca json",
+                "text": "Prosiect Python sy'n symleiddio cyfieithiadau iaith. Yn caniatáu i'm portffolio gwefan gael ei gyfieithu i 70+ o ieithoedd, gan gynnwys Sbaeneg, Ffrangeg, Tsieineaidd, Arabeg, a llawer o rai eraill. Defnyddir y prosiect hwn i greu portffolio gwefan amlieithog, sy'n ddefnyddiol iawn ar gyfer cyrraedd cynulleidfa ehangach. Gyda'r prosiect hwn, gall dros 99% o'r byd ddarllen fy mhortffolio mewn iaith rhugl.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Cysylltu pedwar",
                 "text": "Teulu enfawr o dros 50+ o weithrediadau o'r gêm Connect Four. Mae'r prosiect hwn yn cynnwys gweithrediadau mewn dros 30 o wahanol ieithoedd rhaglennu, gan gynnwys Java, C ++, Python, JavaScript, a mwy. Yn ogystal, mae hefyd yn cynnwys dros 20+ o wahanol fframweithiau neu fformatau eraill, gan gynnwys React.js, Ruby on Rails, ASP.NET, a mwy.",
@@ -95,10 +102,10 @@
                 "text": "Prosiect sy'n dogfennu rhyngweithrededd rhwng gwahanol ieithoedd rhaglennu. Ar hyn o bryd yn cynnwys 15 o wahanol ieithoedd rhaglennu a 18 patrwm gweithredu.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Sgriptiau Taenlen Microsoft Excel (VBA)",
-                "text": "Llyfrgell ddefnyddiol o sgriptiau VBA ar gyfer Microsoft Excel. Defnyddir y llyfrgell hon i awtomeiddio tasgau mewn taenlenni Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "Fformatiwr Auto JSON & YAML",
+                "text": "Linter & Autoformatter ar gyfer ffeiliau JSON & YAML. Defnyddir y prosiect hwn i fformatio ffeiliau JSON & YAML, sy'n ddefnyddiol iawn ar gyfer cadw cod yn lân ac yn drefnus. Wedi'i adeiladu gyda GO, wedi'i lunio gyda WebAssembly, a'i ymgorffori yn fy mhortffolio fel prosiect gwefan. Mwy o fformatau i ddod yn y dyfodol.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Generadur json minecraft",
@@ -125,8 +132,13 @@
                 "text": "Llyfrgell ddefnyddiol o sgriptiau lua er mwyn cyfeirio atynt yn y dyfodol. Defnyddir y llyfrgell hon i awtomeiddio tasgau mewn sgriptiau LUA, a all ddod yn ddefnyddiol ar gyfer tasgau angenrheidiol perfformiad, gan fod Lua fel arfer yn iaith sgriptio gyflymach na Python a Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
             },
+            "excel_scripts": {
+                "title": "Sgriptiau Taenlen Microsoft Excel Patrick (VBA)",
+                "text": "Llyfrgell ddefnyddiol o sgriptiau VBA ar gyfer Microsoft Excel. Defnyddir y llyfrgell hon i awtomeiddio tasgau mewn taenlenni Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
             "neovim_config": {
-                "title": "Ffurfwedd Neovim Patrick",
+                "title": "Ffurfweddu Neovim Patrick",
                 "text": "Fy nghyfluniad neovim personol. Defnyddir y prosiect hwn i ffurfweddu Neovim at fy dant, gan gynnwys rhwymiadau allweddi, themâu ac ategion personol. Defnyddir y prosiect hwn i wneud neovim yn fwy hawdd ei ddefnyddio ac yn effeithlon at fy nefnydd personol.",
                 "link": "https://github.com/pattygcoding/Neovim-Config"
             },
@@ -186,11 +198,20 @@
         "email": "pattygsocials@gmail.com",
         "description": "Rwy'n ymateb i ymholiadau o e -bost, negeseuon LinkedIn, a negeseuon Instagram. Byddaf hefyd yn galw yn ôl os darperir fy rhif trwy ailddechrau neu fel arall, er bod yn well gen i gadw fy rhif ffôn yn breifat."
     },
+    "formatter": {
+        "title": "Fformatiwr JSON & YAML",
+        "description": "Offeryn yw fformatiwr JSON & YAML sy'n eich galluogi i fformatio ffeiliau JSON ac YAML. Mae wedi'i adeiladu gyda GO a Webassembly, ac mae wedi'i gynllunio i fod yn gyflym ac yn effeithlon. Mae'r fformat wedi'i gynllunio i fod yn hawdd ei ddefnyddio, gyda rhyngwyneb syml sy'n eich galluogi i gludo yn eich cod JSON neu YAML a'i fformatio gyda chlicio botwm.",
+        "more_info1": "Am ragor o wybodaeth, cyfeiriwch at y Readme yn y",
+        "more_info2": "Ystorfa fformatiwr json/yaml.",
+        "format_as": "Fformat fel:",
+        "auto_detect": "Canfod Auto",
+        "format": "Fformation"
+    },
     "tiger": {
         "title": "Iaith Teigr",
         "description": "Mae iaith raglennu Tiger yn iaith raglennu arfer a adeiladwyd yn GO & Rust i arbrofi gyda dyluniad a pherfformiad cyfieithu ar y pryd. Wedi'i weithredu ar wefan y portffolio gan ddefnyddio cynulliad gwe. Mae iaith raglennu Tiger yn iaith raglennu arfer a adeiladwyd yn GO & Rust i arbrofi gyda dyluniad a pherfformiad cyfieithu ar y pryd. Wedi'i weithredu ar wefan y portffolio gan ddefnyddio cynulliad gwe.",
         "more_info1": "Am ragor o wybodaeth, cyfeiriwch at y Readme yn y",
-        "more_info2": "Storfa GitHub Iaith Rhaglennu Teigr.",
+        "more_info2": "YSGLRES GITHUB IAITH RHAGLENNI TIGER.",
         "select_engine": "Dewis injan:",
         "tiger_code": "Cod Teigr:",
         "run_tiger": "Rhedeg Teigr",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Peiriannydd meddalwedd pentwr llawn wedi'i leoli yng nghanol Florida"
+    },
+    "copy": {
+        "text": "Copïan",
+        "copied": "Copïo!"
     },
     "social_media": {
         "github": "Github",

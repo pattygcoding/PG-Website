@@ -1,0 +1,237 @@
+{
+    "name": "帕特里克·古德温",
+    "menu": {
+        "home": "家",
+        "about": "关于我",
+        "portfolio": "文件夹",
+        "projects": "网站项目",
+        "tiger": "老虎语",
+        "formatter": "JSON和YAML格式",
+        "contact": "与我联系"
+    },
+    "home": {
+        "title": "家",
+        "animated": {
+            "first": "完整的堆栈软件工程师",
+            "second": "Web开发人员",
+            "third": "游戏开发人员",
+            "fourth": "内容创建者"
+        },
+        "descriptionA": "经验丰富的全栈软件工程师和Web开发人员，具有成功领导开发项目的历史，从为Minecraft创建Java修改到增强React.js的用户体验和实施安全的REST API，同时始终采用敏捷的方法和有效的团队协作。",
+        "descriptionB": "此外，我是一个地理内容创建者，他成功地利用了包括Instagram，YouTube和Tiktok在内的多个社交媒体平台的算法，以获得一个可观且引人入胜的追随者基础。",
+        "portfolio_button": "我的投资组合",
+        "contact_button": "与我联系",
+        "about_button": "关于我"
+    },
+    "about": {
+        "title": "关于我",
+        "personal_summary": {
+            "title": "个人摘要",
+            "text": "作为位于佛罗里达州奥兰多市的经验丰富的完整堆栈软件开发人员，我已经展示了从Java和C ++到React.js和Node.js的各种技术的专业知识。凭借带头型项目的记录，包括针对Minecraft制定Java修改计划以及为卡车司机提供奖励的网站，我展示了领导力和创新。我对卓越的承诺在我简化项目管理，解决复杂问题并提供高质量解决方案的能力中很明显，从而增强用户体验并推动组织成功。"
+        },
+        "professional_experience": {
+            "title": "专业经验",
+            "entries": [
+                {
+                    "jobtitle": "初级软件工程师",
+                    "where": "Orion180保险",
+                    "date": "2024-礼物"
+                },
+                {
+                    "jobtitle": "创始人＆Full Stack软件开发人员",
+                    "where": "至上",
+                    "date": "2020-2024"
+                },
+                {
+                    "jobtitle": "完整的堆栈软件工程师",
+                    "where": "加速学习",
+                    "date": "2023"
+                },
+                {
+                    "jobtitle": "首席网络开发人员（学生计划）",
+                    "where": "克莱姆森大学GDI计划",
+                    "date": "2021-2022"
+                },
+                {
+                    "jobtitle": "办公桌主管",
+                    "where": "克莱姆森大学",
+                    "date": "2021-2022"
+                }
+            ]
+        },
+        "technical_skills": {
+            "title": "技术技能",
+            "header1": "编程语言",
+            "header2": "框架和图书馆",
+            "header3": "工具和技术"
+        },
+        "services": {
+            "title": "我的服务",
+            "entries": [
+                {
+                    "title": "完整的堆栈工程",
+                    "text": "我在前端和后端开发中提供全面的解决方案，以确保整个软件堆栈中的无缝集成和功能。"
+                },
+                {
+                    "title": "网络开发",
+                    "text": "凭借在HTML，CSS和JavaScript框架（例如React.js）中的专业知识，我制作了视觉上吸引人和用户友好的网站，该网站量身定制，以满足客户的特定需求和偏好。"
+                },
+                {
+                    "title": "游戏开发",
+                    "text": "利用Java和C ++等语言，我专门研究从概念和设计到实施和优化的身临其境的游戏体验，从而确保吸引人的游戏玩法和平稳的性能。"
+                }
+            ]
+        }
+    },
+    "portfolio": {
+        "title": "文件夹",
+        "filter_by": "过滤器投资组合：",
+        "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "一个简化语言翻译的Python项目。允许将我的网站投资组合翻译成70多种语言，包括西班牙语，法语，中文，阿拉伯语等。该项目用于创建多语言网站投资组合，这对于吸引更多受众非常有用。有了这个项目，全世界超过99％的人可以用一种流利的语言阅读我的作品集。",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
+            "connect_four": {
+                "title": "连接四个",
+                "text": "连接四款游戏的50多个实现的大量家庭。该项目包括30多种不同编程语言的实现，包括Java，C ++，Python，JavaScript等。此外，它还包括20多个以上不同的框架或其他格式，包括React.js，Ruby上的Rails，ASP.NET等。",
+                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+            },
+            "interop": {
+                "title": "Interop项目",
+                "text": "一个记录不同编程语言之间互操作性的项目。目前包括15种不同的编程语言和18种执行模式。",
+                "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "formatter": {
+                "title": "JSON和YAML自动格式化",
+                "text": "JSON和YAML文件的Linter＆Autoformatter。该项目用于格式化JSON＆YAML文件，这对于保持代码清洁和组织非常有用。由GO构建，并用WebAssembly编译，并作为网站项目嵌入我的投资组合中。将来会有更多格式。",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+            },
+            "minecraft_json_generator": {
+                "title": "Minecraft JSON生成器",
+                "text": "轻巧的JSON生成器内置于Minecraft资源和数据包。该项目用于生成Minecraft Mod的JSON文件，包括自定义项目，块和实体。不仅对于创建自定义数据包，而且对于通过MOD名称切换功能而言，非常有用。",
+                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+            },
+            "educational_experience": {
+                "title": "我的教育经验",
+                "text": "除了我的个人项目，我还从教育经验中获得了许多技能。单击此处查看我的LinkedIn个人资料以获取更多信息。",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
+            },
+            "professional_experience": {
+                "title": "我的专业经验",
+                "text": "除了我的个人项目，我还从专业经验中获得了许多技能。单击此处查看我的LinkedIn个人资料以获取更多信息。",
+                "link": "https://www.linkedin.com/in/patrickgoodwin7"
+            },
+            "portfolio_website": {
+                "title": "帕特里克·古德温（Patrick Goodwin）投资组合网站",
+                "text": "该网站是我的个人投资组合网站，该网站由React.js构建。该项目用于展示我的技能和项目，并为潜在雇主与我联系的平台提供了一个平台。该项目用于创建专业的在线形象。",
+                "link": "https://www.pattygcoding.com"
+            },
+            "lua_library": {
+                "title": "帕特里克的lua脚本库",
+                "text": "LUA脚本的有用库，供将来参考。该库用于在LUA脚本中自动化任务，该任务可能会派上用来进行性能 - 神经任务，因为LUA通常是一种比Python和Ruby更快的脚本语言。",
+                "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "帕特里克的Microsoft Excel电子表格脚本（VBA）",
+                "text": "Microsoft Excel的VBA脚本的有用库。该库用于在Excel电子表格中自动化任务。",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
+            "neovim_config": {
+                "title": "帕特里克的Neovim配置",
+                "text": "我的个人新维姆配置。该项目用于将Neovim配置为我的喜好，包括自定义键键，主题和插件。该项目用于使Neovim对我的个人使用更加用户友好和效率。",
+                "link": "https://github.com/pattygcoding/Neovim-Config"
+            },
+            "python_maps": {
+                "title": "帕特里克的地图生成器",
+                "text": "美国县和州地图生成器，使用python建造，使用地理和matplotlib库。该项目用于生成美国的地图，包括县和州地图。该项目用于创建自定义地图以进行数据可视化和分析。",
+                "link": "https://i.imgur.com/HxYLSXC.png"
+            },
+            "powershell_library": {
+                "title": "帕特里克的powershell脚本库",
+                "text": "一个有用的PowerShell脚本库，供将来参考。对于$ Profile脚本功能，我发现这对从Windows终端自动化任务非常有用，因为我是Windows OS的常客。",
+                "link": "https://github.com/pattygcoding/Powershell-Scripts"
+            },
+            "ruby_library": {
+                "title": "帕特里克的红宝石剧本库",
+                "text": "一个有用的红宝石脚本库，供将来参考。对Rails的发展概念有用。",
+                "link": "https://github.com/pattygcoding/Ruby-Scripts"
+            },
+            "pdf_builder": {
+                "title": "PDF技能构建器",
+                "text": "由PDFKIT和JINJA2扩展名与HTML和JSON格式一起使用Python构建的自定义PDF构建器。该项目用于从技能和项目列表中生成PDF文件。该项目可用于创建自定义PDF简历，这对于工作应用程序非常有用。",
+                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+            },
+            "rijandel_encryption": {
+                "title": "Rijandel加密项目",
+                "text": "Rijandel加密算法的10多个家族在128、192和256位。该项目用于演示不同编程语言的Rijandel加密算法。该项目用于创建Rijandel加密算法的实现家族。",
+                "link": "https://github.com/pattygcoding/SupremeMC"
+            },
+            "suprememc": {
+                "title": "Minecraft Mod",
+                "text": "Minecraft Mod添加了自定义工具，装甲，暴民，块，尺寸以及游戏中的更多功能。由Java版本8-17构建，用于1.16和1.20之间的精选Minecraft版本。",
+                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+            },
+            "tiger_programming_language": {
+                "title": "老虎编程语言",
+                "text": "自定义编程语言内置于Go＆Rust，以尝试解释器设计和性能。使用Web Assembly在投资组合网站上实施。",
+                "link": "https://www.pattygcoding.com/tiger"
+            },
+            "tiger_tailgating_pros": {
+                "title": "老虎尾巴专业网站",
+                "text": "我于2024年为Tiger Tailgating Pros建造的一个网站，这是一家位于南卡罗来纳州克莱姆森的拖尾公司。用React.js构建。",
+                "link": "https://github.com/pattygcoding/TTProsBeta"
+            },
+            "turing_machine": {
+                "title": "图灵机项目",
+                "text": "Turing Machine的30多个以上的家族。用于展示用于研究不同编程语言的图丁完整性，特别是对于老虎编程语言。",
+                "link": "https://github.com/pattygcoding/Turing-Machines"
+            }
+        }
+    },
+    "tiger_programming_language": {
+        "title": "老虎编程语言"
+    },
+    "contact": {
+        "title": "与我联系",
+        "header": "联系信息",
+        "email": "pattygsocials@gmail.com",
+        "description": "我回复了电子邮件，LinkedIn消息和Instagram消息的询问。如果通过简历或其他方式提供我的电话号码，我也会回电，尽管我更喜欢将电话号码保密。"
+    },
+    "formatter": {
+        "title": "JSON和YAML格式",
+        "description": "JSON＆YAML格式化器是一种允许您格式化JSON和YAML文件的工具。它是由GO和WebAssembly构建的，其设计为快速有效。格式化器设计为易于使用，具有简单的接口，可让您粘贴JSON或YAML代码，并通过单击按钮进行格式化。",
+        "more_info1": "有关更多信息，请参阅此处的读数",
+        "more_info2": "JSON/YAML格式存储库。",
+        "format_as": "格式为：",
+        "auto_detect": "自动检测",
+        "format": "格式"
+    },
+    "tiger": {
+        "title": "老虎语",
+        "description": "Tiger编程语言是一种自定义编程语言，内置于Go＆Rust，以尝试口译员的设计和性能。使用Web Assembly在投资组合网站上实施。 Tiger编程语言是一种自定义编程语言，内置于Go＆Rust，以尝试口译员的设计和性能。使用Web Assembly在投资组合网站上实施。",
+        "more_info1": "有关更多信息，请参阅此处的读数",
+        "more_info2": "老虎编程语言github存储库。",
+        "select_engine": "选择引擎：",
+        "tiger_code": "老虎代码：",
+        "run_tiger": "运行老虎",
+        "output": "输出："
+    },
+    "tab": {
+        "title": "帕特里克·古德温",
+        "description": "总部位于佛罗里达州中部的完整堆栈软件工程师"
+    },
+    "copy": {
+        "text": "复制",
+        "copied": "复制！"
+    },
+    "social_media": {
+        "github": "github",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "tiktok": "蒂克托克",
+        "youtube": "YouTube",
+        "text_strip": "跟我来"
+    },
+    "logotext": "帕特里克"
+}

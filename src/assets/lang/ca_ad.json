@@ -4,7 +4,9 @@
         "home": "Casa",
         "about": "Sobre mi",
         "portfolio": "Cartera",
+        "projects": "Projectes de llocs web",
         "tiger": "Llengua de tigre",
+        "formatter": "Formatter json i yaml",
         "contact": "Poseu -vos en contacte amb mi"
     },
     "home": {
@@ -51,7 +53,7 @@
                     "date": "2021 - 2022"
                 },
                 {
-                    "jobtitle": "Supervisora",
+                    "jobtitle": "Supervisor",
                     "where": "Universitat de Clemson",
                     "date": "2021 - 2022"
                 }
@@ -72,7 +74,7 @@
                 },
                 {
                     "title": "Desenvolupament web",
-                    "text": "Amb experiència en marcs HTML, CSS i JavaScript com React.js, elaboro llocs web atractius i fàcils d’utilitzar per satisfer les necessitats i preferències específiques dels clients."
+                    "text": "Amb experiència en els marcs HTML, CSS i JavaScript com React.js, creo llocs web atractius i fàcils d’utilitzar per satisfer les necessitats i preferències específiques dels clients."
                 },
                 {
                     "title": "Desenvolupament de jocs",
@@ -85,6 +87,11 @@
         "title": "Cartera",
         "filter_by": "Filtre de cartera de:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Un projecte Python que racionalitza les traduccions d’idiomes. Permet que la meva cartera de llocs web es tradueixi en més de 70 idiomes, incloent espanyol, francès, xinès, àrab i molts altres. Aquest projecte s’utilitza per crear una cartera de llocs web multilingüe, molt útil per arribar a un públic més ampli. Amb aquest projecte, més del 99% del món pot llegir la meva cartera en un llenguatge fluït.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Connecta quatre",
                 "text": "Família massiva de més de 50 implementacions del joc Connect Four. Aquest projecte inclou implementacions en més de 30 llenguatges de programació diferents, inclosos Java, C ++, Python, JavaScript i molt més. A més, també inclou més de 20 més de marcs diferents o altres formats, inclosos React.js, Ruby on Rails, ASP.NET i molt més.",
@@ -95,10 +102,10 @@
                 "text": "Un projecte que documenta la interoperabilitat entre diferents llenguatges de programació. Actualment inclou 15 llenguatges de programació diferents i 18 patrons d’execució.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel Scripts Scripts (VBA)",
-                "text": "Una biblioteca útil de scripts VBA per a Microsoft Excel. Aquesta biblioteca s'utilitza per automatitzar tasques en fulls de càlcul Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML AUTO FORMADA",
+                "text": "Un Linter i Autoformatter per als fitxers JSON & YAML. Aquest projecte s’utilitza per formatar fitxers JSON & YAML, que és molt útil per mantenir el codi net i organitzat. Construït amb Go, compilat amb WebAssembly i incrustat a la meva cartera com a projecte de lloc web. Més formats per venir en el futur.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Generador JSON Minecraft",
@@ -124,6 +131,11 @@
                 "title": "Biblioteca de scripts de Patrick Lua",
                 "text": "Una biblioteca útil de guions LUA per a futures referències. Aquesta biblioteca s’utilitza per automatitzar tasques en scripts LUA, que poden resultar útils per a tasques necessàries per rendiment, ja que Lua sol ser un llenguatge de script més ràpid que tant Python com Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Scripts de fulls de càlcul de Microsoft Excel de Patrick (VBA)",
+                "text": "Una biblioteca útil de scripts VBA per a Microsoft Excel. Aquesta biblioteca s'utilitza per automatitzar tasques en fulls de càlcul Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Configuració de Neovim de Patrick",
@@ -186,6 +198,15 @@
         "email": "patygsocials@gmail.com",
         "description": "Respon a les consultes de correu electrònic, missatges de LinkedIn i missatges d’Instagram. També tornaré a trucar si el meu número es proporciona a través del currículum o d’una altra manera, tot i que prefereixo mantenir el meu número de telèfon privat."
     },
+    "formatter": {
+        "title": "Formatter json i yaml",
+        "description": "El formador JSON & YAML és una eina que us permet formatar fitxers JSON i YAML. Està construït amb GO i WebAssembly, i està dissenyat per ser ràpid i eficient. El formatter està dissenyat per ser fàcil d’utilitzar, amb una interfície senzilla que us permet enganxar el vostre codi JSON o YAML i formatar -lo amb el clic d’un botó.",
+        "more_info1": "Per obtenir més informació, consulteu el ReadMe al",
+        "more_info2": "Dipòsit de format de json/yaml.",
+        "format_as": "Format com:",
+        "auto_detect": "Detectar automàticament",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Llengua de tigre",
         "description": "El llenguatge de programació de Tiger és un llenguatge de programació personalitzat construït tant en GO com Rust per experimentar amb el disseny i el rendiment dels intèrprets. Implementat al lloc web de la cartera mitjançant el muntatge web. El llenguatge de programació de Tiger és un llenguatge de programació personalitzat construït tant en GO com Rust per experimentar amb el disseny i el rendiment dels intèrprets. Implementat al lloc web de la cartera mitjançant el muntatge web.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Enginyer de programari de pila completa amb seu al centre de la Florida"
+    },
+    "copy": {
+        "text": "Còpia",
+        "copied": "Copiat!"
     },
     "social_media": {
         "github": "Github",

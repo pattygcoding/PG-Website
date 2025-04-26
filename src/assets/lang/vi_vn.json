@@ -4,7 +4,9 @@
         "home": "Trang chủ",
         "about": "Về tôi",
         "portfolio": "Danh mục đầu tư",
+        "projects": "Dự án trang web",
         "tiger": "Ngôn ngữ hổ",
+        "formatter": "Json & Yaml định dạng",
         "contact": "Liên hệ với tôi"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Danh mục đầu tư",
         "filter_by": "Lọc danh mục đầu tư bằng cách:",
         "entries": {
+            "biblioteca": {
+                "title": "BIBLIOTECA JSON",
+                "text": "Một dự án Python hợp lý hóa các bản dịch ngôn ngữ. Cho phép danh mục trang web của tôi được dịch sang hơn 70 ngôn ngữ, bao gồm tiếng Tây Ban Nha, tiếng Pháp, tiếng Trung, tiếng Ả Rập và nhiều ngôn ngữ khác. Dự án này được sử dụng để tạo ra một danh mục trang web đa ngôn ngữ, rất hữu ích cho việc tiếp cận đối tượng rộng hơn. Với dự án này, hơn 99% thế giới có thể đọc danh mục đầu tư của tôi bằng ngôn ngữ thông thạo.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Kết nối bốn",
                 "text": "Gia đình lớn hơn hơn 50 triển khai của Bốn kết nối. Dự án này bao gồm các triển khai trong hơn 30 ngôn ngữ lập trình khác nhau, bao gồm Java, C ++, Python, JavaScript, v.v. Ngoài ra, nó cũng bao gồm hơn 20 khung hình khác nhau hoặc các định dạng khác, bao gồm React.js, Ruby on Rails, ASP.NET, v.v.",
@@ -95,10 +102,10 @@
                 "text": "Một dự án có khả năng tương tác giữa các ngôn ngữ lập trình khác nhau. Hiện tại bao gồm 15 ngôn ngữ lập trình khác nhau và 18 mẫu thực thi.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Các tập lệnh bảng tính Microsoft Excel (VBA)",
-                "text": "Một thư viện hữu ích của các tập lệnh VBA cho Microsoft Excel. Thư viện này được sử dụng để tự động hóa các tác vụ trong bảng tính Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "Json & Yaml Auto Formatter",
+                "text": "Một linter & autoformatter cho các tệp json & yaml. Dự án này được sử dụng để định dạng các tệp JSON & YAML, rất hữu ích để giữ cho mã sạch sẽ và được tổ chức. Được xây dựng với GO, được biên dịch với WebAssugging và được nhúng vào danh mục đầu tư của tôi như một dự án trang web. Nhiều định dạng sẽ đến trong tương lai.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Máy phát điện JSON Minecraft",
@@ -124,6 +131,11 @@
                 "title": "Thư viện kịch bản Lua của Patrick",
                 "text": "Một thư viện hữu ích của các tập lệnh Lua để tham khảo trong tương lai. Thư viện này được sử dụng để tự động hóa các tác vụ trong các tập lệnh LUA, có thể có ích cho các nhiệm vụ gây người và người da đen, vì Lua thường là ngôn ngữ kịch bản nhanh hơn cả Python và Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Các tập lệnh bảng tính Microsoft Excel của Patrick (VBA)",
+                "text": "Một thư viện hữu ích của các tập lệnh VBA cho Microsoft Excel. Thư viện này được sử dụng để tự động hóa các tác vụ trong bảng tính Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Cấu hình Neovim của Patrick",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail",
         "description": "Tôi trả lời các câu hỏi từ email, tin nhắn LinkedIn và tin nhắn Instagram. Tôi cũng sẽ gọi lại nếu số của tôi được cung cấp qua sơ yếu lý lịch hoặc nếu không, mặc dù tôi thích giữ số điện thoại của mình."
     },
+    "formatter": {
+        "title": "Json & Yaml định dạng",
+        "description": "JSON & YAML Formatter là một công cụ cho phép bạn định dạng các tệp JSON và YAML. Nó được xây dựng với Go và Webassugging, và nó được thiết kế để nhanh chóng và hiệu quả. Formatter được thiết kế để dễ sử dụng, với giao diện đơn giản cho phép bạn dán mã JSON hoặc YAML của mình và định dạng nó chỉ bằng một nút bấm.",
+        "more_info1": "Để biết thêm thông tin, hãy tham khảo readme trong",
+        "more_info2": "Kho lưu trữ định dạng JSON/YAML.",
+        "format_as": "Định dạng như:",
+        "auto_detect": "Tự động phát hiện",
+        "format": "Định dạng"
+    },
     "tiger": {
         "title": "Ngôn ngữ hổ",
         "description": "Ngôn ngữ lập trình Tiger là một ngôn ngữ lập trình tùy chỉnh được xây dựng trong cả Go & Rust để thử nghiệm thiết kế và hiệu suất phiên dịch. Được triển khai trên trang web danh mục đầu tư bằng cách sử dụng lắp ráp web. Ngôn ngữ lập trình Tiger là một ngôn ngữ lập trình tùy chỉnh được xây dựng trong cả Go & Rust để thử nghiệm thiết kế và hiệu suất phiên dịch. Được triển khai trên trang web danh mục đầu tư bằng cách sử dụng lắp ráp web.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Kỹ sư phần mềm Full Stack có trụ sở tại Trung tâm Florida"
+    },
+    "copy": {
+        "text": "Sao chép",
+        "copied": "Đã sao chép!"
     },
     "social_media": {
         "github": "GitHub",

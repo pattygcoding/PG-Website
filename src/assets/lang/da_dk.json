@@ -4,13 +4,15 @@
         "home": "Hjem",
         "about": "Om mig",
         "portfolio": "Portefølje",
+        "projects": "Webstedsprojekter",
         "tiger": "Tiger sprog",
+        "formatter": "JSON & YAML Formatter",
         "contact": "Kontakt mig"
     },
     "home": {
         "title": "Hjem",
         "animated": {
-            "first": "Fuld stak softwareingeniør",
+            "first": "Fuld stack -softwareingeniør",
             "second": "Webudvikler",
             "third": "Spiludvikler",
             "fourth": "Indholdsskaber"
@@ -41,7 +43,7 @@
                     "date": "2020 - 2024"
                 },
                 {
-                    "jobtitle": "Fuld stak softwareingeniør",
+                    "jobtitle": "Fuld stack -softwareingeniør",
                     "where": "Fremskynde læring",
                     "date": "2023"
                 },
@@ -85,6 +87,11 @@
         "title": "Portefølje",
         "filter_by": "Filterportefølje af:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Et Python -projekt, der strømline sprogoversættelser. Tillader, at min webstedsportefølje oversættes til 70+ sprog, herunder spansk, fransk, kinesisk, arabisk og mange andre. Dette projekt bruges til at oprette en flersproget webstedsportefølje, hvilket er meget nyttigt til at nå et bredere publikum. Med dette projekt kan over 99% af verden læse min portefølje på et flydende sprog.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Tilslut fire",
                 "text": "Massiv familie på over 50+ implementeringer af Connect Four -spillet. Dette projekt inkluderer implementeringer på over 30 forskellige programmeringssprog, herunder Java, C ++, Python, JavaScript og mere. Derudover inkluderer det også over 20+ forskellige rammer eller andre formater, herunder React.js, Ruby on Rails, ASP.NET og mere.",
@@ -95,10 +102,10 @@
                 "text": "Et projekt, der dokumenterer interoperabilitet mellem forskellige programmeringssprog. Indeholder i øjeblikket 15 forskellige programmeringssprog og 18 eksekveringsmønstre.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel -regneark Scripts (VBA)",
-                "text": "Et nyttigt bibliotek med VBA -scripts til Microsoft Excel. Dette bibliotek bruges til at automatisere opgaver i Excel -regneark.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "En linter & autoformatter til JSON & YAML -filer. Dette projekt bruges til at formatere JSON & YAML -filer, hvilket er meget nyttigt til at holde koden ren og organiseret. Bygget med Go, samlet med webassemble og indlejret i min portefølje som et webstedsprojekt. Flere formater, der kommer i fremtiden.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON -generator",
@@ -124,6 +131,11 @@
                 "title": "Patrick's Lua Script Library",
                 "text": "Et nyttigt bibliotek med Lua -scripts til fremtidig reference. Dette bibliotek bruges til at automatisere opgaver i Lua-manuskripter, som kan komme godt med til præstationsbehov, da Lua normalt er et hurtigere manuskriptsprog end både Python og Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel -regneark Scripts (VBA)",
+                "text": "Et nyttigt bibliotek med VBA -scripts til Microsoft Excel. Dette bibliotek bruges til at automatisere opgaver i Excel -regneark.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patricks Neovim Config",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Jeg svarer på forespørgsler fra e -mail, LinkedIn -meddelelser og Instagram -meddelelser. Jeg ringer også tilbage, hvis mit nummer leveres via CV eller på anden måde, selvom jeg foretrækker at holde mit telefonnummer privat."
     },
+    "formatter": {
+        "title": "JSON & YAML Formatter",
+        "description": "JSON & YAML Formatter er et værktøj, der giver dig mulighed for at formatere JSON- og YAML -filer. Det er bygget med Go og webassemble, og det er designet til at være hurtig og effektiv. Formatteren er designet til at være let at bruge med en simpel grænseflade, der giver dig mulighed for at indsætte din JSON- eller YAML -kode og formatere den med et klik på en knap.",
+        "more_info1": "For mere information, se Readme i",
+        "more_info2": "JSON/YAML Formatter Repository.",
+        "format_as": "Format som:",
+        "auto_detect": "Auto Detect",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Tiger sprog",
         "description": "Tiger -programmeringssproget er et brugerdefineret programmeringssprog, der er bygget i både Go & Rust for at eksperimentere med tolkdesign og ydeevne. Implementeret på porteføljens websted ved hjælp af webmontering. Tiger -programmeringssproget er et brugerdefineret programmeringssprog, der er bygget i både Go & Rust for at eksperimentere med tolkdesign og ydeevne. Implementeret på porteføljens websted ved hjælp af webmontering.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Fuld stack -softwareingeniør med base i Central Florida"
+    },
+    "copy": {
+        "text": "Kopi",
+        "copied": "Kopieret!"
     },
     "social_media": {
         "github": "GitHub",

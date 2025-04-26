@@ -1,212 +1,237 @@
 {
     "name": "Patrick Goodwin",
     "menu": {
-        "home": "Inicio",
-        "about": "Sobre Mí",
-        "portfolio": "Portafolio",
-        "tiger": "Lenguaje Tiger",
+        "home": "Hogar",
+        "about": "Acerca de mí",
+        "portfolio": "Cartera",
+        "projects": "Proyectos de sitio web",
+        "tiger": "Lenguaje tigre",
+        "formatter": "JSON & YAML FORMATER",
         "contact": "Contáctame"
     },
     "home": {
-        "title": "Inicio",
+        "title": "Hogar",
         "animated": {
-            "first": "Ingeniero de Software Full Stack",
-            "second": "Desarrollador Web",
-            "third": "Desarrollador de Videojuegos",
-            "fourth": "Creador de Contenido"
+            "first": "Ingeniero de software de pila completa",
+            "second": "Desarrollador web",
+            "third": "Desarrollador de juegos",
+            "fourth": "Creador de contenido"
         },
-        "descriptionA": "Ingeniero de software full-stack y desarrollador web con una historia demostrada de liderar proyectos exitosos de desarrollo, desde crear modificaciones de Java para Minecraft hasta mejorar la experiencia del usuario en React.js e implementar APIs REST seguras, utilizando metodologías ágiles y colaboración efectiva en equipo.",
-        "descriptionB": "Además, soy un creador de contenido de geografía que ha aprovechado exitosamente los algoritmos de múltiples plataformas sociales, incluyendo Instagram, YouTube y TikTok, para obtener una base de seguidores respetable y comprometida.",
-        "portfolio_button": "Mi Portafolio",
+        "descriptionA": "Ingeniero de software y desarrollador web con experiencia en plena con un historial demostrado de proyectos de desarrollo líderes con éxito, desde la creación de modificaciones de Java para Minecraft hasta mejorar la experiencia del usuario en React.js e implementar API de REST seguras, al tiempo que emplea constantemente metodologías ágiles y una colaboración efectiva del equipo.",
+        "descriptionB": "Además, soy un creador de contenido de geografía que ha aprovechado con éxito los algoritmos de múltiples plataformas de redes sociales, incluidas Instagram, YouTube y Tiktok, para obtener una base de seguidores respetable y atractiva.",
+        "portfolio_button": "Mi cartera",
         "contact_button": "Contáctame",
-        "about_button": "Sobre Mí"
+        "about_button": "Acerca de mí"
     },
     "about": {
-        "title": "Sobre Mí",
+        "title": "Acerca de mí",
         "personal_summary": {
-            "title": "Resumen Personal",
-            "text": "Como Desarrollador de Software Full Stack con sede en Orlando, FL, he demostrado experiencia en diversas tecnologías, desde Java y C++ hasta React.js y Node.js. Con un historial de liderar proyectos, incluyendo el desarrollo de una modificación en Java para Minecraft y un sitio web de recompensas para conductores, he demostrado liderazgo e innovación. Mi compromiso con la excelencia es evidente en mi capacidad para optimizar la gestión de proyectos, resolver problemas complejos y ofrecer soluciones de alta calidad que mejoran la experiencia del usuario y el éxito organizacional."
+            "title": "Resumen personal",
+            "text": "Como desarrollador de software de pila completa con sede en Orlando, FL, he demostrado experiencia en varias tecnologías, desde Java y C ++ hasta React.js y Node.js. Con un historial de proyectos de encabezado, incluido el desarrollo de un programa de modificación de Java para Minecraft y un sitio web gratificante para conductores de camiones, he mostrado liderazgo e innovación. Mi compromiso con la excelencia es evidente en mi capacidad para racionalizar la gestión de proyectos, resolver problemas complejos y ofrecer soluciones de alta calidad que mejoren la experiencia del usuario e impulsen el éxito organizacional."
         },
         "professional_experience": {
-            "title": "Experiencia Profesional",
+            "title": "Experiencia profesional",
             "entries": [
                 {
-                    "jobtitle": "Ingeniero de Software Junior",
-                    "where": "Orion180 Insurance",
-                    "date": "2024 - Presente"
+                    "jobtitle": "Ingeniero de software junior",
+                    "where": "Orion180 seguro",
+                    "date": "2024 - presente"
                 },
                 {
-                    "jobtitle": "Fundador y Desarrollador Full Stack",
-                    "where": "SupremeMC",
+                    "jobtitle": "Fundador y desarrollador de software Full Stack",
+                    "where": "Suprememc",
                     "date": "2020 - 2024"
                 },
                 {
-                    "jobtitle": "Ingeniero de Software Full Stack",
-                    "where": "Accelerate Learning",
+                    "jobtitle": "Ingeniero de software de pila completa",
+                    "where": "Acelerar el aprendizaje",
                     "date": "2023"
                 },
                 {
-                    "jobtitle": "Desarrollador Web Principal (Programa Estudiantil)",
-                    "where": "Clemson University GDI Program",
+                    "jobtitle": "Desarrollador web líder (programa de estudiantes)",
+                    "where": "Programa GDI de la Universidad de Clemson",
                     "date": "2021 - 2022"
                 },
                 {
-                    "jobtitle": "Supervisor de Recepción",
-                    "where": "Clemson University",
+                    "jobtitle": "Supervisor de escritorio",
+                    "where": "Universidad de Clemson",
                     "date": "2021 - 2022"
                 }
             ]
         },
         "technical_skills": {
-            "title": "Habilidades Técnicas",
-            "header1": "Lenguajes de Programación",
-            "header2": "Frameworks y Bibliotecas",
-            "header3": "Herramientas y Tecnologías"
+            "title": "Habilidades técnicas",
+            "header1": "Lenguajes de programación",
+            "header2": "Marcos y bibliotecas",
+            "header3": "Herramientas y tecnologías"
         },
         "services": {
-            "title": "Mis Servicios",
+            "title": "Mis servicios",
             "entries": [
                 {
-                    "title": "Ingeniería Full Stack",
-                    "text": " Ofrezco soluciones integrales en el desarrollo front-end y back-end, asegurando una integración fluida y funcionalidad completa en todo el stack de software."
+                    "title": "Ingeniería de pila completa",
+                    "text": "Ofrezco soluciones integrales en el desarrollo frontal y de fondo, asegurando una integración y funcionalidad perfecta en toda la pila de software."
                 },
                 {
-                    "title": "Desarrollo Web",
-                    "text": "Con experiencia en HTML, CSS y frameworks de JavaScript como React.js, diseño sitios web visualmente atractivos y fáciles de usar adaptados a las necesidades específicas de los clientes."
+                    "title": "Desarrollo web",
+                    "text": "Con la experiencia en marcos HTML, CSS y JavaScript como React.js, creo sitios web visualmente atractivos y fáciles de usar adaptados para satisfacer las necesidades y preferencias específicas de los clientes."
                 },
                 {
-                    "title": "Desarrollo de Videojuegos",
-                    "text": "Aprovechando lenguajes como Java y C++, me especializo en crear experiencias de juego inmersivas, desde el concepto y diseño hasta la implementación y optimización, garantizando una jugabilidad atractiva y un rendimiento fluido."
+                    "title": "Desarrollo del juego",
+                    "text": "Aprovechando idiomas como Java y C ++, me especializo en la creación de experiencias de juego inmersivas, desde el concepto y el diseño hasta la implementación y la optimización, asegurando el juego atractivo y el rendimiento sin problemas."
                 }
             ]
         }
     },
     "portfolio": {
-        "title": "Portafolio",
-        "filter_by": "Filtrar Portafolio Por:",
+        "title": "Cartera",
+        "filter_by": "Portafolio de filtro por:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca json",
+                "text": "Un proyecto de Python que agiliza las traducciones de idiomas. Permite que la cartera de mi sitio web se traduzca en más de 70 idiomas, incluidos español, francés, chino, árabe y muchos otros. Este proyecto se utiliza para crear una cartera de sitios web multilingüe, que es muy útil para llegar a un público más amplio. Con este proyecto, más del 99% del mundo puede leer mi cartera en un lenguaje fluido.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
-                "title": "Conecta Cuatro",
-                "text": "Familia masiva de más de 50 implementaciones del juego Conecta Cuatro. Este proyecto incluye implementaciones en más de 30 lenguajes de programación diferentes, incluyendo Java, C++, Python, JavaScript y más. Además, también incluye más de 20 frameworks o formatos adicionales, incluyendo React.js, Ruby on Rails, ASP.NET y más.",
+                "title": "Conectar cuatro",
+                "text": "Familia masiva de más de 50 implementaciones del juego Connect Four. Este proyecto incluye implementaciones en más de 30 lenguajes de programación diferentes, incluidos Java, C ++, Python, JavaScript y más. Además, también incluye más de 20 marcos diferentes u otros formatos, incluidos React.js, Ruby on Rails, ASP.NET y más.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
             "interop": {
-                "title": "Proyecto de Interoperabilidad",
+                "title": "Proyecto interop",
                 "text": "Un proyecto que documenta la interoperabilidad entre diferentes lenguajes de programación. Actualmente incluye 15 lenguajes de programación diferentes y 18 patrones de ejecución.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Scripts para Hojas de Cálculo de Excel (VBA)",
-                "text": "Una biblioteca útil de scripts VBA para Microsoft Excel. Esta biblioteca se usa para automatizar tareas en hojas de cálculo de Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML AUTO FORMATER",
+                "text": "Un Linter y Autoformatoria para archivos JSON y YAML. Este proyecto se utiliza para formatear archivos JSON y YAML, que es muy útil para mantener el código limpio y organizado. Construido con GO, compilado con WebAssembly e integrado en mi cartera como proyecto de sitio web. Más formatos por venir en el futuro.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
-                "title": "Generador de JSON para Minecraft",
-                "text": "Generador de JSON liviano construido en Python para paquetes de recursos y datos de Minecraft. Este proyecto se usa para generar archivos JSON para mods de Minecraft, incluyendo ítems, bloques y entidades personalizadas. Muy útil no solo para datapacks personalizados, sino también para mods mediante la función de cambio de nombre del mod.",
+                "title": "Generador de Minecraft JSON",
+                "text": "Generador JSON ligero incorporado Python para Minecraft Recursos y paquetes de datos. Este proyecto se utiliza para generar archivos JSON para modificaciones de Minecraft, incluidos elementos personalizados, bloques y entidades. Muy útil no solo para crear datos de datos personalizados, sino también para modificaciones a través de la función de conmutación de nombre del mod.",
                 "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
             },
             "educational_experience": {
-                "title": "Mi Experiencia Educativa",
-                "text": "Junto con mis proyectos personales, también he adquirido numerosas habilidades de experiencias educativas. Haz clic aquí para ver mi perfil de LinkedIn para más información.",
+                "title": "Mi experiencia educativa",
+                "text": "Junto con mis proyectos personales, también he adquirido numerosas habilidades de la experiencia educativa. Haga clic aquí para ver mi perfil de LinkedIn para obtener más información.",
                 "link": "https://www.linkedin.com/in/patrickgoodwin7"
             },
             "professional_experience": {
-                "title": "Mi Experiencia Profesional",
-                "text": "Junto con mis proyectos personales, también he adquirido numerosas habilidades de experiencias profesionales. Haz clic aquí para ver mi perfil de LinkedIn para más información.",
+                "title": "Mi experiencia profesional",
+                "text": "Junto con mis proyectos personales, también he adquirido numerosas habilidades de la experiencia profesional. Haga clic aquí para ver mi perfil de LinkedIn para obtener más información.",
                 "link": "https://www.linkedin.com/in/patrickgoodwin7"
             },
             "portfolio_website": {
-                "title": "Sitio Web de Portafolio de Patrick Goodwin",
-                "text": "Este sitio web es mi portafolio personal, construido con React.js. Este proyecto sirve para mostrar mis habilidades y proyectos, así como proporcionar una plataforma para que posibles empleadores se comuniquen conmigo. También establece una presencia profesional en línea.",
+                "title": "Sitio web de Patrick Goodwin Portfolio",
+                "text": "Este sitio web es mi sitio web de cartera personal, construido con React.js. Este proyecto se utiliza para mostrar mis habilidades y proyectos, así como para proporcionar una plataforma para que los empleadores potenciales se comuniquen conmigo. Este proyecto se utiliza para crear una presencia profesional en línea.",
                 "link": "https://www.pattygcoding.com"
             },
             "lua_library": {
-                "title": "Biblioteca de Scripts en Lua de Patrick",
-                "text": "Una biblioteca útil de scripts en Lua para referencia futura. Esta biblioteca se utiliza para automatizar tareas en scripts de Lua, que pueden ser útiles en tareas que requieren alto rendimiento, ya que Lua suele ser más rápido que Python y Ruby.",
+                "title": "Biblioteca de guiones de Lua de Patrick",
+                "text": "Una biblioteca útil de scripts de Lua para referencia futura. Esta biblioteca se utiliza para automatizar las tareas en los scripts de Lua, que pueden ser útiles para las tareas que tienen el rendimiento, ya que Lua suele ser un lenguaje de secuencias de comandos más rápido que Python y Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
             },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel Hheet Scripts (VBA)",
+                "text": "Una útil biblioteca de scripts VBA para Microsoft Excel. Esta biblioteca se utiliza para automatizar tareas en hojas de cálculo de Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
             "neovim_config": {
-                "title": "Configuración de Neovim de Patrick",
-                "text": "Mi configuración personal de Neovim. Este proyecto se usa para configurar Neovim a mi gusto, incluyendo combinaciones de teclas personalizadas, temas y plugins. Hace que Neovim sea más fácil de usar y eficiente para mis necesidades personales.",
+                "title": "La configuración neovim de Patrick",
+                "text": "Mi configuración personal de neovim. Este proyecto se utiliza para configurar Neovim en mi gusto, incluidas las tallas de teclas personalizadas, los temas y los complementos. Este proyecto se utiliza para hacer que Neovim sea más fácil de usar y eficiente para mi uso personal.",
                 "link": "https://github.com/pattygcoding/Neovim-Config"
             },
             "python_maps": {
-                "title": "Generador de Mapas de Patrick",
-                "text": "Un generador de mapas de condados y estados de EE.UU., construido con Python usando las bibliotecas Geopandas y Matplotlib. Este proyecto se usa para generar mapas de EE.UU., incluyendo mapas de condado y estado. Es útil para crear mapas personalizados para visualización y análisis de datos.",
+                "title": "Generador de mapas de Patrick",
+                "text": "Un generador de mapas del Condado y Estado de los Estados Unidos, construido con Python utilizando las bibliotecas Geopandas y Matplotlib. Este proyecto se utiliza para generar mapas de los Estados Unidos, incluidos los mapas del condado y el estado. Este proyecto se utiliza para crear mapas personalizados para la visualización y análisis de datos.",
                 "link": "https://i.imgur.com/HxYLSXC.png"
             },
             "powershell_library": {
-                "title": "Biblioteca de Scripts de PowerShell de Patrick",
-                "text": "Una biblioteca útil de scripts de PowerShell para referencia futura. Muy útil con la función $profile script, la uso mucho para automatizar tareas desde la terminal de Windows, ya que soy un usuario frecuente de este sistema operativo.",
+                "title": "Biblioteca de guiones PowerShell de Patrick",
+                "text": "Una útil biblioteca de scripts de PowerShell para referencia futura. Útil con la función de script $ perfil, encuentro esto inmensamente útil para automatizar tareas desde el terminal de Windows, ya que soy un usuario frecuente del sistema operativo Windows.",
                 "link": "https://github.com/pattygcoding/Powershell-Scripts"
             },
             "ruby_library": {
-                "title": "Biblioteca de Scripts en Ruby de Patrick",
-                "text": "Una biblioteca útil de scripts en Ruby para referencia futura. Útil para conceptos futuros de desarrollo en Ruby on Rails.",
+                "title": "Biblioteca de guiones de Ruby de Patrick",
+                "text": "Una útil biblioteca de scripts de rubí para referencia futura. Útil para futuros conceptos de desarrollo de Ruby on Rails.",
                 "link": "https://github.com/pattygcoding/Ruby-Scripts"
             },
             "pdf_builder": {
-                "title": "Constructor de PDFs de Habilidades",
-                "text": "Un constructor personalizado de PDFs construido con Python mediante las extensiones Pdfkit y Jinja2, junto con formatos HTML y JSON. Este proyecto se utiliza para generar archivos PDF a partir de una lista de habilidades y proyectos. Muy útil para crear un currículum personalizado en PDF para postulaciones laborales.",
+                "title": "Constructor de habilidades PDF",
+                "text": "Un constructor de PDF personalizado construido con Python a través de las extensiones PDFKIT y Jinja2, junto con el formato HTML y JSON. Este proyecto se utiliza para generar archivos PDF a partir de una lista de habilidades y proyectos. Este proyecto se puede utilizar para crear un currículum PDF personalizado, que es muy útil para aplicaciones de empleo.",
                 "link": "https://github.com/pattygcoding/PDFBuilderPublic"
             },
             "rijandel_encryption": {
-                "title": "Proyecto de Encriptación Rijandel",
-                "text": "Una familia de más de 10 implementaciones del algoritmo de encriptación Rijandel en 128, 192 y 256 bits. Este proyecto demuestra este algoritmo en diferentes lenguajes de programación y sirve para crear una familia de implementaciones consistentes del mismo.",
+                "title": "Proyecto de cifrado de Rijandel",
+                "text": "Una familia de más de 10 implementaciones del algoritmo de cifrado Rijandel en 128, 192 y 256 bits. Este proyecto se utiliza para demostrar el algoritmo de cifrado Rijandel en diferentes lenguajes de programación. Este proyecto se utiliza para crear una familia de implementaciones del algoritmo de cifrado Rijandel.",
                 "link": "https://github.com/pattygcoding/SupremeMC"
             },
             "suprememc": {
-                "title": "Mod de Minecraft SupremeMC",
-                "text": "Un mod de Minecraft que agrega herramientas personalizadas, armaduras, mobs, bloques, dimensiones y muchas más funciones al juego. Construido con Java 8-17 para versiones de Minecraft entre 1.16 y 1.20.",
+                "title": "Suprememc Minecraft Mod",
+                "text": "Un mod Minecraft que agrega herramientas personalizadas, armaduras, turbas, bloques, dimensiones y muchas más características al juego. Construido con versiones Java 8-17 para versiones seleccionadas de Minecraft entre 1.16 y 1.20.",
                 "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
             },
             "tiger_programming_language": {
-                "title": "Lenguaje de Programación Tiger",
-                "text": "Lenguaje de programación personalizado construido tanto en Go como en Rust para experimentar con diseño de intérpretes y rendimiento. Implementado en el sitio web del portafolio utilizando WebAssembly.",
+                "title": "Lenguaje de programación de tigres",
+                "text": "Language de programación personalizado incorporado tanto en Go & Rust para experimentar con el diseño y el rendimiento de los intérpretes. Implementado en el sitio web de la cartera utilizando el ensamblaje web.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
-                "title": "Sitio Web de Tiger Tailgating Pros",
-                "text": "Sitio web que desarrollé en 2024 para Tiger Tailgating Pros, una compañía de tailgating en Clemson, SC. Construido con React.js.",
+                "title": "Sitio web de Tiger Tailgating Pros",
+                "text": "Un sitio web que construí en 2024 para Tiger Tailgating Pros, una empresa de cola en Clemson, SC. Construido con react.js.",
                 "link": "https://github.com/pattygcoding/TTProsBeta"
             },
             "turing_machine": {
-                "title": "Proyecto de Máquina de Turing",
-                "text": "Familia de más de 30 implementaciones de la Máquina de Turing. Usado para demostrar la completitud de Turing en diferentes lenguajes de programación, especialmente en el contexto del Lenguaje Tiger.",
+                "title": "Proyecto de máquina turing",
+                "text": "Familia de más de 30 implementaciones de la máquina Turing. Se utiliza para demostrar la integridad de los diferentes lenguajes de programación para la investigación, especialmente para el lenguaje de programación de tigres.",
                 "link": "https://github.com/pattygcoding/Turing-Machines"
             }
         }
     },
     "tiger_programming_language": {
-        "title": "Lenguaje de Programación Tiger"
+        "title": "Lenguaje de programación de tigres"
     },
     "contact": {
         "title": "Contáctame",
-        "header": "Información de Contacto",
+        "header": "Información del contacto",
         "email": "pattygsocials@gmail.com",
-        "description": "Respondo a consultas por correo electrónico, mensajes de LinkedIn e Instagram. También devuelvo llamadas si me proporcionan su número, aunque prefiero mantener mi número de teléfono privado."
+        "description": "Respondo a las consultas desde el correo electrónico, los mensajes de LinkedIn y los mensajes de Instagram. También volveré a llamar si mi número se proporciona a través del currículum o no, aunque prefiero mantener mi número de teléfono en privado."
+    },
+    "formatter": {
+        "title": "JSON & YAML FORMATER",
+        "description": "El formateador JSON & YAML es una herramienta que le permite formatear archivos JSON y YAML. Está construido con GO y WebAssembly, y está diseñado para ser rápido y eficiente. El formateador está diseñado para ser fácil de usar, con una interfaz simple que le permite pegar su código JSON o YAML y formatearlo con el clic de un botón.",
+        "more_info1": "Para obtener más información, consulte el ReadMe en el",
+        "more_info2": "Repositorio de formatillas JSON/YAML.",
+        "format_as": "Formato como:",
+        "auto_detect": "Detectar automáticamente",
+        "format": "Formato"
     },
     "tiger": {
-        "title": "Lenguaje Tiger",
-        "description": "El Lenguaje de Programación Tiger es un lenguaje personalizado creado en Go y Rust para experimentar con el diseño de intérpretes y el rendimiento. Implementado en el sitio web del portafolio usando WebAssembly. El Lenguaje de Programación Tiger es un lenguaje personalizado creado en Go y Rust para experimentar con el diseño de intérpretes y el rendimiento. Implementado en el sitio web del portafolio usando WebAssembly.",
-        "more_info1": "Para más información, consulta el README en el ",
-        "more_info2": "Repositorio de GitHub del Lenguaje Tiger.",
-        "select_engine": "Seleccionar Motor:",
-        "tiger_code": "Código Tiger:",
-        "run_tiger": "Ejecutar Tiger",
-        "output": "Salida:"
+        "title": "Lenguaje tigre",
+        "description": "El lenguaje de programación de Tiger es un lenguaje de programación personalizado incorporado tanto en Go & Rust para experimentar con el diseño y el rendimiento del intérprete. Implementado en el sitio web de la cartera utilizando el ensamblaje web. El lenguaje de programación de Tiger es un lenguaje de programación personalizado incorporado tanto en Go & Rust para experimentar con el diseño y el rendimiento del intérprete. Implementado en el sitio web de la cartera utilizando el ensamblaje web.",
+        "more_info1": "Para obtener más información, consulte el ReadMe en el",
+        "more_info2": "Repositorio de github de lenguaje de programación de tigres.",
+        "select_engine": "Seleccionar motor:",
+        "tiger_code": "Código de tigre:",
+        "run_tiger": "Correr tigre",
+        "output": "Producción:"
     },
     "tab": {
         "title": "Patrick Goodwin",
-        "description": "Ingeniero de Software Full Stack con sede en Florida Central"
+        "description": "Ingeniero de software de pila completa con sede en Florida Central"
+    },
+    "copy": {
+        "text": "Copiar",
+        "copied": "¡Copiado!"
     },
     "social_media": {
-        "github": "GitHub",
+        "github": "Github",
         "instagram": "Instagram",
         "linkedin": "LinkedIn",
-        "tiktok": "TikTok",
+        "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Sígueme"
     },
-    "logotext": "PATRICK"
+    "logotext": "PATRICIO"
 }

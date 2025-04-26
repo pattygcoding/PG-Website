@@ -4,7 +4,9 @@
         "home": "Nyumbani",
         "about": "Kuhusu mimi",
         "portfolio": "Kwingineko",
-        "tiger": "Lugha ya tiger",
+        "projects": "Miradi ya wavuti",
+        "tiger": "Lugha ya Tiger",
+        "formatter": "JSON & Yaml Fomati",
         "contact": "Wasiliana nami"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Kwingineko",
         "filter_by": "Kwingineko ya chujio na:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Mradi wa Python ambao unasababisha tafsiri za lugha. Inaruhusu kwingineko yangu ya wavuti kutafsiriwa kwa lugha 70+, pamoja na Kihispania, Kifaransa, Kichina, Kiarabu, na wengine wengi. Mradi huu hutumiwa kuunda kwingineko ya wavuti nyingi, ambayo ni muhimu sana kwa kufikia hadhira pana. Pamoja na mradi huu, zaidi ya 99% ya ulimwengu wanaweza kusoma kwingineko yangu kwa lugha nzuri.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Unganisha nne",
                 "text": "Familia kubwa ya utekelezaji zaidi ya 50+ wa mchezo wa Connect Nne. Mradi huu ni pamoja na utekelezaji katika lugha zaidi ya 30 za programu, pamoja na Java, C ++, Python, JavaScript, na zaidi. Kwa kuongeza, inajumuisha pia mifumo zaidi ya 20+ au fomati zingine, pamoja na React.js, Ruby kwenye Reli, Asp.net, na zaidi.",
@@ -95,10 +102,10 @@
                 "text": "Mradi ambao unaandika ushirikiano kati ya lugha tofauti za programu. Hivi sasa inajumuisha lugha 15 tofauti za programu na mifumo 18 ya utekelezaji.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Maandishi ya Lahajedwali ya Microsoft Excel (VBA)",
-                "text": "Maktaba muhimu ya maandishi ya VBA ya Microsoft Excel. Maktaba hii hutumiwa kurekebisha kazi katika lahajedwali za Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & Yaml Auto Fomati",
+                "text": "Linter & Autoformatter ya faili za JSON & YAML. Mradi huu hutumiwa kuunda faili za JSON & YAML, ambayo ni muhimu sana kwa kuweka nambari safi na iliyoandaliwa. Imejengwa na GO, iliyojumuishwa na WebAssembly, na kuingizwa kwenye kwingineko yangu kama mradi wa wavuti. Fomati zaidi kuja katika siku zijazo.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Jenereta ya Minecraft JSON",
@@ -124,6 +131,11 @@
                 "title": "Maktaba ya maandishi ya Patrick ya Lua",
                 "text": "Maktaba muhimu ya maandishi ya Lua kwa kumbukumbu ya baadaye. Maktaba hii hutumiwa kurekebisha kazi katika maandishi ya Lua, ambayo inaweza kuja kwa kazi zinazohitajika, kwani Lua kawaida ni lugha ya maandishi ya haraka kuliko Python na Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Maandishi ya Lahajedwali ya Microsoft ya Patrick (VBA)",
+                "text": "Maktaba muhimu ya maandishi ya VBA ya Microsoft Excel. Maktaba hii hutumiwa kurekebisha kazi katika lahajedwali za Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Usanidi wa Neovim wa Patrick",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Ninajibu kuuliza kutoka kwa barua pepe, ujumbe wa LinkedIn, na ujumbe wa Instagram. Pia nitapiga simu ikiwa nambari yangu imetolewa kupitia kuanza tena au vinginevyo, ingawa napendelea kuweka nambari yangu ya simu faragha."
     },
+    "formatter": {
+        "title": "JSON & Yaml Fomati",
+        "description": "Njia ya JSON & YAML ni zana ambayo hukuruhusu kuunda faili za JSON na YAML. Imejengwa na Go na WebAssembly, na imeundwa kuwa haraka na kwa ufanisi. Fomati imeundwa kuwa rahisi kutumia, na interface rahisi ambayo hukuruhusu kubandika kwenye nambari yako ya JSON au YAML na kuibadilisha kwa kubonyeza kitufe.",
+        "more_info1": "Kwa habari zaidi, rejelea ReadMe katika",
+        "more_info2": "JSON/YAML Fomati ya Fomati.",
+        "format_as": "Muundo kama:",
+        "auto_detect": "Kugundua kiotomatiki",
+        "format": "Muundo"
+    },
     "tiger": {
         "title": "Lugha ya tiger",
         "description": "Lugha ya programu ya Tiger ni lugha ya programu ya kawaida iliyojengwa katika GO & Rust kujaribu muundo wa ufasiri na utendaji. Kutekelezwa kwenye wavuti ya kwingineko kwa kutumia mkutano wa wavuti. Lugha ya programu ya Tiger ni lugha ya programu ya kawaida iliyojengwa katika GO & Rust kujaribu muundo wa ufasiri na utendaji. Kutekelezwa kwenye wavuti ya kwingineko kwa kutumia mkutano wa wavuti.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Mhandisi kamili wa programu ya stack iliyoko katikati mwa Florida"
+    },
+    "copy": {
+        "text": "Nakala",
+        "copied": "Kunakiliwa!"
     },
     "social_media": {
         "github": "GitHub",

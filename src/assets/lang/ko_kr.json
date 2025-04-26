@@ -4,7 +4,9 @@
         "home": "집",
         "about": "나에 대해",
         "portfolio": "포트폴리오",
+        "projects": "웹 사이트 프로젝트",
         "tiger": "호랑이 언어",
+        "formatter": "JSON & YAML Formatter",
         "contact": "저에게 연락하십시오"
     },
     "home": {
@@ -15,7 +17,7 @@
             "third": "게임 개발자",
             "fourth": "콘텐츠 제작자"
         },
-        "descriptionA": "Minecraft 용 Java Modifications Cromeing Cromeing Cromeing anging anning anning anning anning anning anning anning anning anning anniving anning anning anniving annugyning and secure rest apis, Agile Methodsipies 및 효과적인 팀 공동 작업을 수행하면서 개발 프로젝트를 성공적으로 선도적으로 선도하는 역사를 가진 전체 스택 소프트웨어 엔지니어 및 웹 개발자.",
+        "descriptionA": "Minecraft 용 Java Modifications Cromeing Cromeing Cromeing anging anning anning anning anning anning anning anning anning anning annivening anning anniving anning annivening and secure rest apis에 이르기까지 애자일 방법론과 효과적인 팀 공동 작업을 지속적으로 사용하면서 개발 프로젝트를 성공적으로 선도적으로 선도적으로 선도적으로 보여주는 역사를 가진 Full-Stack 소프트웨어 엔지니어 및 웹 개발자.",
         "descriptionB": "또한 Instagram, YouTube 및 Tiktok을 포함한 여러 소셜 미디어 플랫폼의 알고리즘을 성공적으로 활용하여 존경 받고 매력적인 추종자 기반을 얻는 지리 컨텐츠 제작자입니다.",
         "portfolio_button": "내 포트폴리오",
         "contact_button": "저에게 연락하십시오",
@@ -85,6 +87,11 @@
         "title": "포트폴리오",
         "filter_by": "필터 포트폴리오 :",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "언어 번역을 간소화하는 파이썬 프로젝트. 내 웹 사이트 포트폴리오는 스페인어, 프랑스어, 중국어, 아랍어 및 기타 여러 개를 포함한 70 개 이상의 언어로 변환 될 수 있습니다. 이 프로젝트는 다국어 웹 사이트 포트폴리오를 만드는 데 사용되며, 이는 더 많은 잠재 고객에게 도달하는 데 매우 유용합니다. 이 프로젝트를 통해 전 세계의 99% 이상이 유창한 언어로 내 포트폴리오를 읽을 수 있습니다.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "4를 연결하십시오",
                 "text": "Connect Four Game의 50 개 이상의 구현을위한 대규모 제품군. 이 프로젝트에는 Java, C ++, Python, JavaScript 등 30 개가 넘는 프로그래밍 언어의 구현이 포함됩니다. 또한 React.js, Ruby on Rails, ASP.Net 등을 포함한 20 개 이상의 다른 프레임 워크 또는 기타 형식도 포함됩니다.",
@@ -95,10 +102,10 @@
                 "text": "다른 프로그래밍 언어 간의 상호 운용성을 문서화하는 프로젝트. 현재 15 개의 다른 프로그래밍 언어와 18 개의 실행 패턴이 포함됩니다.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel 스프레드 시트 스크립트 (VBA)",
-                "text": "Microsoft Excel을위한 유용한 VBA 스크립트 라이브러리. 이 라이브러리는 Excel 스프레드 시트에서 작업을 자동화하는 데 사용됩니다.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "JSON & YAML 파일의 Linter & AutoFormatter. 이 프로젝트는 JSON & YAML 파일을 포맷하는 데 사용되며 코드를 깨끗하고 구성하는 데 매우 유용합니다. Go와 함께 구축, WebAssembly로 컴파일 된 웹 사이트 프로젝트로 내 포트폴리오에 포함됩니다. 앞으로 더 많은 형식이 올 형식입니다.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON 생성기",
@@ -125,6 +132,11 @@
                 "text": "향후 참조를위한 유용한 LUA 스크립트 라이브러리. 이 라이브러리는 LUA 스크립트에서 작업을 자동화하는 데 사용되며, LUA는 일반적으로 Python과 Ruby보다 더 빠른 스크립팅 언어이므로 성능에 신비한 작업에 유용 할 수 있습니다.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
             },
+            "excel_scripts": {
+                "title": "Patrick의 Microsoft Excel 스프레드 시트 스크립트 (VBA)",
+                "text": "Microsoft Excel을위한 유용한 VBA 스크립트 라이브러리. 이 라이브러리는 Excel 스프레드 시트에서 작업을 자동화하는 데 사용됩니다.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
             "neovim_config": {
                 "title": "Patrick의 Neovim 구성",
                 "text": "내 개인적인 neovim 구성. 이 프로젝트는 사용자 정의 키 바인딩, 테마 및 플러그인을 포함하여 Like에 Neovim을 구성하는 데 사용됩니다. 이 프로젝트는 Neovim을보다 사용자 친화적이고 개인적으로 사용하기에 효율적으로 만드는 데 사용됩니다.",
@@ -137,7 +149,7 @@
             },
             "powershell_library": {
                 "title": "Patrick 's PowerShell 스크립트 라이브러리",
-                "text": "향후 참조를위한 유용한 PowerShell 스크립트 라이브러리. $ profile 스크립트 기능을 사용하면 Windows OS의 빈번한 사용자이므로 Windows 터미널에서 작업을 자동화하는 데 큰 도움이됩니다.",
+                "text": "향후 참조를위한 유용한 PowerShell 스크립트 라이브러리. $ 프로필 스크립트 기능을 사용하면 Windows OS의 빈번한 사용자이므로 Windows 터미널에서 작업을 자동화하는 데 큰 도움이됩니다.",
                 "link": "https://github.com/pattygcoding/Powershell-Scripts"
             },
             "ruby_library": {
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "이메일, LinkedIn 메시지 및 Instagram 메시지에서 문의에 응답합니다. 또한 전화 번호를 비공개로 유지하는 것이 좋습니다."
     },
+    "formatter": {
+        "title": "JSON & YAML Formatter",
+        "description": "JSON & YAML Formatter는 JSON 및 YAML 파일을 포맷 할 수있는 도구입니다. Go 및 WebAssembly로 제작되었으며 빠르고 효율적으로 설계되었습니다. Formatter는 JSON 또는 YAML 코드에 붙여 넣을 수있는 간단한 인터페이스와 함께 사용하기 쉽도록 설계되어 버튼 클릭으로 포맷 할 수 있습니다.",
+        "more_info1": "자세한 내용은 readme를 참조하십시오",
+        "more_info2": "JSON/YAML Formatter 저장소.",
+        "format_as": "형식 :",
+        "auto_detect": "자동 감지",
+        "format": "체재"
+    },
     "tiger": {
         "title": "호랑이 언어",
         "description": "Tiger Programming Language는 Go & Rust에 내장 된 맞춤형 프로그래밍 언어로 통역사 디자인 및 성능을 실험합니다. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다. Tiger Programming Language는 Go & Rust에 내장 된 맞춤형 프로그래밍 언어로 통역사 디자인 및 성능을 실험합니다. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "패트릭 굿윈",
         "description": "플로리다 중부에 본사를 둔 풀 스택 소프트웨어 엔지니어"
+    },
+    "copy": {
+        "text": "복사",
+        "copied": "복사!"
     },
     "social_media": {
         "github": "github",

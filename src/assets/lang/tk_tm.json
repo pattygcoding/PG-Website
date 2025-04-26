@@ -4,7 +4,9 @@
         "home": "Öý",
         "about": "Men hakda",
         "portfolio": "Portfolio",
+        "projects": "Web sahypasy taslamalary",
         "tiger": "Ýolbarjiresi",
+        "formatter": "JSON & IAML formaty",
         "contact": "Meniň bilen habarlaşyň"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfolio",
         "filter_by": "Süzgüç bukjasyny süzgüç boýunça:",
         "entries": {
+            "biblioteca": {
+                "title": "BiblioTeCA JSON",
+                "text": "Dil terjimelerini düzýän Piton taslamasy. \"Litport Portfeli\" programmamyzy $ 7++ dildä terjime etmek üçin 70+ dile terjime etmek üçin girmäge mümkinçilik berýär, şol sanda 7+ dilden 7+ dilden terjime edilmäge mümkinçilik berýär, şol ýaly-da köp sanly adam. Bu taslama, has giň tomaşaçylara ýetmek üçin örän oňat webdex adaty web sahypasy bukjasyny döretmek üçin ulanylýar. Bu taslama bilen dünýäniň 99% -den gowragy portfelimi erkin dilde okap biler.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Dört birikdiriň",
                 "text": "50+-dan gowrak oýunda uly durmuşa geçirişiň uly maşgalasy. Bu taslama Java, C ++, Puşassiýada 30-dan gowrak dürli programma programmasy dillerini öz içine alýar. Mundan başga-da, Relsler, Assp.Rener boýunça beýleki çarçuwalar bar we şondan soň reachme.N-leri goşmak bilen beýleki formateriýalaryň, şondan soň reach.",
@@ -95,10 +102,10 @@
                 "text": "Dürli programmirleme dilleriniň arasynda özara baglanyşyk baradaky taslama. Häzirki wagtda 15 dürli programma dilini düzüň we 18 ýerine ýetiriş nagyşlaryny öz içine alýar.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel elektron tablisasy skriptleri (VBA)",
-                "text": "Microsoft Excels üçin VBA scriptleriniň peýdaly kitaphanasy. Bu kitaphana Excel elektron tablisalarynda meseleleri awtomatiki awtomatlaşdyrmak üçin ulanylýar.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & IAMLL AWORTER FORITER",
+                "text": "JSON & INAML faýllary üçin giriş we awtoformatter. Bu taslama, kod arassalamak we tertipli saklamak üçin örän peýdaly JSON & OAML faýllaryny formatlamak üçin ulanylýar. Git bilen düzülen, açyl, jemlenen we portfeliniň web sahypasy hökmünde ýerleşdirilen portfelini ýerleşdirdi. Geljekde gelmek üçin has köp forma.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "MINECRAFT JSON generatory",
@@ -124,6 +131,11 @@
                 "title": "Patrikiň lua skript kitaphanasy",
                 "text": "Geljekdäki salgylanma üçin Lua skriptleriniň peýdaly kitaphanasy. Bu kitaphana, öndürilenleriň presi ýaly öndürijilikli mätäç öndürip boljak Luýa skriptlerinde işlemegi üçin ulanylýar, Lua köplenç pteron we ýakasyndan has çalt skripka dilidir.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrikiň Microsoft Excel elektron tabletkalary (VBA)",
+                "text": "Microsoft Excels üçin VBA scriptleriniň peýdaly kitaphanasy. Bu kitaphana Excel elektron tablisalarynda meseleleri awtomatiki awtomatlaşdyrmak üçin ulanylýar.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrikiň nowowim konfigurasiýasy",
@@ -186,6 +198,15 @@
         "email": "pattogSoction@gmail.com",
         "description": "E-poçta ýa-da Instagram habarlary we Instagram habarlaryndan soramak üçin jogap berýärin. Menem meniň nomerim rezýume ýa-da başga bir belgimi saklamagy makul bilsem, jaň ederin"
     },
+    "formatter": {
+        "title": "JSON & IAML formaty",
+        "description": "JSON & YAMML Formater, JSON we Yamle faýllaryny formatlamaga mümkinçilik berýän guraldyr. Go Go we Webastebebels bilen gurulýar we çalt we netijeli bolmak üçin niýetlenendir. Faýly jonsyň ýa-da \"USMIL koduňyza çümmäge mümkinçilik berýän ýönekeý interfeýs ulanmak aňsat, ulanyp, ýönekeý interfeýs ulanmak aňsat, ulanmak aňsat, ulanmak aňsat.",
+        "more_info1": "Has giňişleýin maglumat üçin okalma serediň",
+        "more_info2": "JSON / YAMAML Formatlaýjy ammar.",
+        "format_as": "ÜPJÜNÇILIGI:",
+        "auto_detect": "Awto tapyndy",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Ýolbarjiresi",
         "description": "Igerolbaşçyslyk dili diline, terjimeçiniň dizaýny we öndürijiligi eksperatşi üçin \"-de\" dürtülip duralgasynda gurulýar. Web ýygnan portfolio web sahypasynda amala aşyrylýar. Igerolbaşçyslyk dili diline, terjimeçiniň dizaýny we öndürijiligi eksperatşi üçin \"-de\" dürtülip duralgasynda gurulýar. Web ýygnan portfolio web sahypasynda amala aşyrylýar.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrik Gudwin",
         "description": "Merkezi Florida esasly \"Florida\" -da doly programma inereneri"
+    },
+    "copy": {
+        "text": "Göçürmek",
+        "copied": "Göçürildi!"
     },
     "social_media": {
         "github": "Gitub",

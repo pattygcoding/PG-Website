@@ -4,7 +4,9 @@
         "home": "Shtëpi",
         "about": "Për mua",
         "portfolio": "Portofol",
+        "projects": "Projekte në internet",
         "tiger": "Gjuhë tigri",
+        "formatter": "Json & yaml formatter",
         "contact": "Më kontakto"
     },
     "home": {
@@ -68,7 +70,7 @@
             "entries": [
                 {
                     "title": "Inxhinieri e plotë e pirgut",
-                    "text": "Unë ofroj zgjidhje gjithëpërfshirëse në zhvillimin e përparme dhe të prapme, duke siguruar integrimin dhe funksionalitetin e qetë në të gjithë pirgun e softuerit."
+                    "text": "Unë ofroj zgjidhje gjithëpërfshirëse në zhvillimin e përparme dhe të prapme, duke siguruar integrim dhe funksionalitet të qetë në të gjithë pirgun e softuerit."
                 },
                 {
                     "title": "Zhvillim në internet",
@@ -85,6 +87,11 @@
         "title": "Portofol",
         "filter_by": "Portofoli i filtrit nga:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Një projekt Python që rregullon përkthimet në gjuhë. Lejon që portofoli im i internetit të përkthehet në 70+ gjuhë, duke përfshirë spanjisht, frëngjisht, kinez, arabisht dhe shumë të tjerë. Ky projekt përdoret për të krijuar një portofol shumëgjuhësh të faqes në internet, i cili është shumë i dobishëm për të arritur një audiencë më të gjerë. Me këtë projekt, mbi 99% e botës mund të lexojnë portofolin tim në një gjuhë të rrjedhshme.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Lidhu katër",
                 "text": "Familje masive me mbi 50+ zbatime të lojës Connect Four. Ky projekt përfshin zbatime në mbi 30 gjuhë të ndryshme programimi, përfshirë Java, C ++, Python, JavaScript, dhe më shumë. Për më tepër, ai gjithashtu përfshin mbi 20+ korniza të ndryshme ose formate të tjera, duke përfshirë React.js, Ruby në shina, ASP.NET, dhe më shumë.",
@@ -95,13 +102,13 @@
                 "text": "Një projekt që dokumenton ndërveprimin midis gjuhëve të ndryshme të programimit. Aktualisht përfshin 15 gjuhë të ndryshme programimi dhe 18 modele ekzekutimi.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel Scripts Spreadsheet (VBA)",
-                "text": "Një bibliotekë e dobishme e skripteteve VBA për Microsoft Excel. Kjo bibliotekë përdoret për të automatizuar detyrat në spreadsheets Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML AUTO Formatter",
+                "text": "Një Linter & Autoformatter për skedarët JSON & YAML. Ky projekt përdoret për të formatuar skedarët JSON & YAML, i cili është shumë i dobishëm për mbajtjen e kodit të pastër dhe të organizuar. E ndërtuar me Go, e përpiluar me WebAsSembly, dhe e ngulitur në portofolin tim si një projekt në internet. Më shumë formate për të ardhur në të ardhmen.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
-                "title": "Gjeneratori Minecraft JSON",
+                "title": "Gjeneratori i Minecraft JSON",
                 "text": "Gjenerator i lehtë JSON i ndërtuar në Python për Minecraft Resource & Paketat e të Dhënave. Ky projekt përdoret për të gjeneruar skedarë JSON për modat Minecraft, duke përfshirë artikujt me porosi, blloqe dhe entitetet. Shumë e dobishme jo vetëm për krijimin e të dhënave me porosi, por edhe për mods, si dhe përmes veçorisë së ndërrimit të emrit mod.",
                 "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
             },
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Biblioteka e Script Lua Patrick",
-                "text": "Një bibliotekë e dobishme e skripteteve LUA për referencë në të ardhmen. Kjo bibliotekë është përdorur për të automatizuar detyrat në skriptet LUA, të cilat mund të vijnë në dispozicion për detyrat e nevojshme për performancën, pasi Lua është zakonisht një gjuhë më e shpejtë shkrimi sesa Python dhe Ruby.",
+                "text": "Një bibliotekë e dobishme e skripteteve LUA për referencë në të ardhmen. Kjo bibliotekë përdoret për të automatizuar detyrat në skriptet e LUA, të cilat mund të vijnë në dispozicion për detyrat e kualifikimit të performancës, pasi Lua është zakonisht një gjuhë më e shpejtë shkrimi sesa Python dhe Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Skriptet e spreadsheet të Microsoft Excel të Patrick (VBA)",
+                "text": "Një bibliotekë e dobishme e skripteteve VBA për Microsoft Excel. Kjo bibliotekë përdoret për të automatizuar detyrat në spreadsheets Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Konfigurimi i Neovim i Patrick",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Unë i përgjigjem pyetjeve nga posta elektronike, mesazhet e lidhura dhe mesazhet në Instagram. Unë gjithashtu do të telefonoj përsëri nëse numri im sigurohet përmes rezyme ose ndryshe, megjithëse preferoj ta mbaj numrin tim të telefonit privat."
     },
+    "formatter": {
+        "title": "JSON & YAML Formatter",
+        "description": "JSON & YAML Formatter është një mjet që ju lejon të formatoni skedarët JSON dhe YAML. Isshtë ndërtuar me Go dhe WebAssembly, dhe është krijuar për të qenë i shpejtë dhe efikas. Formatter është krijuar për të qenë i lehtë për t’u përdorur, me një ndërfaqe të thjeshtë që ju lejon të ngjitni në kodin tuaj JSON ose YAML dhe ta formatoni atë me klikimin e një butoni.",
+        "more_info1": "Për më shumë informacion, referojuni leximit në",
+        "more_info2": "Repositori JSON/YAML Formatter.",
+        "format_as": "Formati si:",
+        "auto_detect": "Zbuloj automatikisht",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Gjuhë tigri",
         "description": "Gjuha e programimit Tiger është një gjuhë programimi me porosi e ndërtuar në të dyja dhe ndryshk për të eksperimentuar me hartimin dhe performancën e përkthyesit. Zbatuar në faqen e internetit të portofolit duke përdorur asamblenë në internet. Gjuha e programimit Tiger është një gjuhë programimi me porosi e ndërtuar në të dyja dhe ndryshk për të eksperimentuar me hartimin dhe performancën e përkthyesit. Zbatuar në faqen e internetit të portofolit duke përdorur asamblenë në internet.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Inxhinier i plotë i softuerit Stack me qendër në Florida Qendrore"
+    },
+    "copy": {
+        "text": "Kopjoj",
+        "copied": "Kopjuar!"
     },
     "social_media": {
         "github": "Getull",

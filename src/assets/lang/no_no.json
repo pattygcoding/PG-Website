@@ -4,7 +4,9 @@
         "home": "Hjem",
         "about": "Om meg",
         "portfolio": "Portefølje",
+        "projects": "Nettstedsprosjekter",
         "tiger": "Tigerspråk",
+        "formatter": "Json & Yaml Formatter",
         "contact": "Kontakt meg"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portefølje",
         "filter_by": "Filterportefølje av:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Et Python -prosjekt som effektiviserer språkoversettelser. Gjør det mulig å oversatte min nettstedsportefølje til 70+ språk, inkludert spansk, fransk, kinesisk, arabisk og mange andre. Dette prosjektet brukes til å lage en flerspråklig nettstedportefølje, som er veldig nyttig for å nå et bredere publikum. Med dette prosjektet kan over 99% av verden lese porteføljen min på et flytende språk.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Koble til fire",
                 "text": "Massiv familie med over 50+ implementeringer av Connect Four -spillet. Dette prosjektet inkluderer implementeringer på over 30 forskjellige programmeringsspråk, inkludert Java, C ++, Python, JavaScript og mer. I tillegg inkluderer det også over 20+ forskjellige rammer eller andre formater, inkludert React.js, Ruby on Rails, ASP.NET og mer.",
@@ -95,10 +102,10 @@
                 "text": "Et prosjekt som dokumenterer interoperabilitet mellom forskjellige programmeringsspråk. Inkluderer for tiden 15 forskjellige programmeringsspråk og 18 utførelsesmønstre.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel -regneark (VBA)",
-                "text": "Et nyttig bibliotek med VBA -skript for Microsoft Excel. Dette biblioteket brukes til å automatisere oppgaver i Excel -regneark.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "En Linter & Autoformatter for JSON & YAML -filer. Dette prosjektet brukes til å formatere JSON & YAML -filer, noe som er veldig nyttig for å holde koden ren og organisert. Bygget med GO, satt sammen med webAssembly, og innebygd i porteføljen min som et nettstedsprosjekt. Flere formater som kommer i fremtiden.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
@@ -125,6 +132,11 @@
                 "text": "Et nyttig bibliotek med LUA -skript for fremtidig referanse. Dette biblioteket brukes til å automatisere oppgaver i LUA-skript, som kan komme til nytte for ytelses-trengende oppgaver, ettersom Lua vanligvis er et raskere skriptspråk enn både Python og Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
             },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel regneark (VBA)",
+                "text": "Et nyttig bibliotek med VBA -skript for Microsoft Excel. Dette biblioteket brukes til å automatisere oppgaver i Excel -regneark.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
             "neovim_config": {
                 "title": "Patricks Neovim Config",
                 "text": "Min personlige neovim -konfigurasjon. Dette prosjektet brukes til å konfigurere Neovim etter min smak, inkludert tilpassede keybindings, temaer og plugins. Dette prosjektet brukes til å gjøre Neovim mer brukervennlig og effektivt til personlig bruk.",
@@ -136,7 +148,7 @@
                 "link": "https://i.imgur.com/HxYLSXC.png"
             },
             "powershell_library": {
-                "title": "Patrick's PowerShell Script Library",
+                "title": "Patricks PowerShell Script Library",
                 "text": "Et nyttig bibliotek med PowerShell -skript for fremtidig referanse. Nyttig med $ profilskriptfunksjonen, synes jeg dette er enormt nyttig for å automatisere oppgaver fra Windows -terminalen, da jeg er en hyppig bruker av Windows OS.",
                 "link": "https://github.com/pattygcoding/Powershell-Scripts"
             },
@@ -186,6 +198,15 @@
         "email": "pattyGsocials@gmail.com",
         "description": "Jeg svarer på henvendelser fra e -post-, LinkedIn -meldinger og Instagram -meldinger. Jeg vil også ringe tilbake hvis nummeret mitt blir gitt via CV eller på annen måte, selv om jeg foretrekker å holde telefonnummeret mitt privat."
     },
+    "formatter": {
+        "title": "Json & Yaml Formatter",
+        "description": "JSON & YAML Formatter er et verktøy som lar deg formatere JSON- og YAML -filer. Den er bygget med Go og WebAssembly, og den er designet for å være rask og effektiv. Formatteren er designet for å være enkelt å bruke, med et enkelt grensesnitt som lar deg lime inn JSON- eller YAML -koden og formatere den med et klikk på en knapp.",
+        "more_info1": "For mer informasjon, se Readme i",
+        "more_info2": "JSON/YAML Formatter Repository.",
+        "format_as": "Format som:",
+        "auto_detect": "Auto Detect",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Tigerspråk",
         "description": "Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go & Rust for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering. Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go & Rust for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Full Stack Software Engineer Basert i Central Florida"
+    },
+    "copy": {
+        "text": "Kopiere",
+        "copied": "Kopiert!"
     },
     "social_media": {
         "github": "Github",

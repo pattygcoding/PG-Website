@@ -4,7 +4,9 @@
         "home": "Doheem",
         "about": "Iwwer mech",
         "portfolio": "Portfolio",
+        "projects": "Site Luxembourg",
         "tiger": "Tiger Sprooch",
+        "formatter": "JSON & YAMLD Formateur",
         "contact": "Verkaf mech"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfolio",
         "filter_by": "Filter Portfolio vum:",
         "entries": {
+            "biblioteca": {
+                "title": "BibloteCa JSON",
+                "text": "E Python Projet dee Sproochstëftungsstrofenheete tragen. Sou erlaabt mäi Site Portfeie zevilliwwer an 70+sbroche iwwersat ginn, och franséisch, Chinyesch ,rabesch, a vill. Dëse Propress ass benotzt fir e Frëndschaftskabezoxo ze kreéieren, wat ganz nëtzlech ass fir ze vill Publikusy. Mat dësem Projet, iwwer 99% vun der Welt kann mäi Portfolio an enger fléissend Sprooch liesen.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Connect véier",
                 "text": "Massiv Famill vun iwwer 50+ Impenementer vun der Connect Véier Spill. This project includes implementations in over 30 different programming languages, including Java, C++, Python, JavaScript, and more. Zousätzlech enthält et och iwwer 20+ verschidde Fraasies oder aner Formater, inklusiv Reaktiv, Rubnen, Rëndfleësch, APNO fir ze reiwen, a méi.",
@@ -95,10 +102,10 @@
                 "text": "E Projet deen d'Dokumenteraktivitéite tëscht verschiddene Programméierungsproochen tëscht verschiddene Propressiounen. Aktuell enthält 15 verschidde Programméierungssproochen an 18 Ausféierungsmutsch.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel Spreadsheet Scripte (VBA)",
-                "text": "Eng nëtzlech Bibliothéik vu VBA Scripten fir Microsoft Excel. Dës Bibliothéik gëtt benotzt fir Aufgaben an Excel Spreadsheeten ze automatiséieren.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAMLT Auto Formateur",
+                "text": "E Linter & Autoformatter fir JSON & YAML Dateie. Dëse Projet gëtt benotzt fir de JSRON & Yaml Dateien ze fägen, wat ganz nëtzlech ass fir Code propper ze halen an organiséiert. Produzéiert mat Hëllef mat Webcesembel zesummegesat, an an mengem Portfolio als Webquate installéiert. Méi Formater fir an d'Zukunft ze kommen.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "MINECRAFT JSON Generator",
@@ -124,6 +131,11 @@
                 "title": "Dem Patrick seng Lua Skript Bibliothéik",
                 "text": "Eng nëtzlech Bibliothéik vun der Lua Scripten fir zukünfteg Referenz. An dëser Bibliothéik gëtt benotzt fir Aufgaben ze automatiséieren, déi profitéieren, déi profesch maache kënnen, aus Leeschtung, wéi LHA ass normalerweis eng méi séier e méi séier Python an",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Dem Patrick säi Microsoft Excel Spreadsheet Scripts (VBA)",
+                "text": "Eng nëtzlech Bibliothéik vu VBA Scripten fir Microsoft Excel. Dës Bibliothéik gëtt benotzt fir Aufgaben an Excel Spreadsheeten ze automatiséieren.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Dem Patrick säin Neovim Configur",
@@ -186,6 +198,15 @@
         "email": "Pattygsoscials@gmail.com",
         "description": "Ech äntweren op Ufro vun E-Mail, Linkedin Messagen, an Instagram Messagen. Ech ruffen och zréck wann meng Nummer iwwer Resumé oder soss gëtt, obwuel ech léiwer meng Telefonsnummer privat halen."
     },
+    "formatter": {
+        "title": "JSON & YAMLD Formateur",
+        "description": "D'JSSs & Yaml Formater ass en Tool dat erlaabt Iech de JSON an Yaml Dateien ze formuléieren. Et ass matg gebaut ginn a Webcassmier a geet et kloer an effizient. D'Formär ass entwéckelt fir einfach ze benotzen, mat enger einfacher Interface ze benotzen déi Iech erlaabt an Ärem JSON oder YAMSL Code ze pechen an formatéieren et mat dem Klick vun engem Knäppchen.",
+        "more_info1": "Fir méi Informatioun, bezitt sech op de LadMme an der",
+        "more_info2": "JSON / YAMLD Formateur Repository.",
+        "format_as": "Format als:",
+        "auto_detect": "Auto detektéieren",
+        "format": "Formoup"
+    },
     "tiger": {
         "title": "Tiger Sprooch",
         "description": "Déi tiger Programmentprooch ass eng personaliséiert Programmingsprooch déi a béide Go & Rust mat interpretent Design an der Leeschtung eropgeet. Ëmgesat op der Portfolio Websäit mat Webversammlung. Déi tiger Programmentprooch ass eng personaliséiert Programmingsprooch déi a béide Go & Rust mat interpretent Design an der Leeschtung eropgeet. Ëmgesat op der Portfolio Websäit mat Webversammlung.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Voll Stack Software Ingenieur baséiert an der Zentralflorida"
+    },
+    "copy": {
+        "text": "Kopie",
+        "copied": "Kopéiert!"
     },
     "social_media": {
         "github": "Github",

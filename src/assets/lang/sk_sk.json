@@ -4,7 +4,9 @@
         "home": "Domov",
         "about": "O mne",
         "portfolio": "Portfólio",
+        "projects": "Projekty webových stránok",
         "tiger": "Jazyk",
+        "formatter": "Formát JSON & YAML",
         "contact": "Kontaktujte ma"
     },
     "home": {
@@ -36,7 +38,7 @@
                     "date": "2024 - prítomný"
                 },
                 {
-                    "jobtitle": "Vývojár softvéru zakladateľ a Full Stack",
+                    "jobtitle": "Vývojár softvéru zakladateľ a Full Stack Software",
                     "where": "Nadprirodzený",
                     "date": "2020 - 2024"
                 },
@@ -67,7 +69,7 @@
             "title": "Moje služby",
             "entries": [
                 {
-                    "title": "Celý zásobník",
+                    "title": "Plné zásobník inžinierstva",
                     "text": "Ponúkam komplexné riešenia v rámci vývoja front-end aj back-end, ktoré zabezpečujú bezproblémovú integráciu a funkčnosť v celom softvérovom stohu."
                 },
                 {
@@ -85,6 +87,11 @@
         "title": "Portfólio",
         "filter_by": "Portfólio filtra pomocou:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Projekt Python, ktorý zefektívňuje jazykové preklady. Umožňuje, aby sa moje portfólio webových stránok prekladalo do 70+ jazykov vrátane španielčiny, francúzštiny, čínštiny, arabčiny a mnohých ďalších. Tento projekt sa používa na vytvorenie viacjazyčných portfólia webových stránok, ktoré je veľmi užitočné na oslovenie širšieho publika. S týmto projektom si viac ako 99% sveta môže prečítať moje portfólio plynulým jazykom.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Pripojiť štyri",
                 "text": "Masívna rodina viac ako 50+ implementácií hry Connect Four. Tento projekt zahŕňa implementácie do viac ako 30 rôznych programovacích jazykov vrátane Java, C ++, Python, JavaScript a ďalších. Okrem toho zahŕňa aj viac ako 20+ rôznych rámcov alebo iných formátov vrátane react.js, Ruby on Rails, ASP.NET a ďalšie.",
@@ -95,10 +102,10 @@
                 "text": "Projekt, ktorý dokumentuje interoperabilitu medzi rôznymi programovacími jazykmi. V súčasnosti obsahuje 15 rôznych programovacích jazykov a 18 vzorov vykonávania.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel tabuľky skripty (VBA)",
-                "text": "Užitočná knižnica skriptov VBA pre spoločnosť Microsoft Excel. Táto knižnica sa používa na automatizáciu úloh v tabuľkách Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML AUTO FORMATTER",
+                "text": "Linter a Autoformatter pre súbory JSON & YAML. Tento projekt sa používa na formátovanie súborov JSON & YAML, čo je veľmi užitočné na udržanie čistého a organizovaného kódu. Postavený s Go, zostaveným s WebAssembly a zabudovaný do môjho portfólia ako projekt webovej stránky. Viac formátov, ktoré príde v budúcnosti.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Generátor minecraft Json",
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Patrick's Lua Script Library",
-                "text": "Užitočná knižnica skriptov LUA pre budúce referencie. Táto knižnica sa používa na automatizáciu úloh v skriptoch LUA, ktoré sa môžu hodiť pre výkonné úlohy, pretože Lua je zvyčajne rýchlejší skriptovací jazyk ako Python aj Ruby.",
+                "text": "Užitočná knižnica skriptov LUA pre budúce referencie. Táto knižnica sa používa na automatizáciu úloh v skriptoch LUA, ktoré sa môžu hodiť pre úlohy Nepresty Performance, pretože Lua je zvyčajne rýchlejšie skriptovacieho jazyka ako Python aj Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "PATRICKÉ SPRÁVY Microsoft Excel (VBA)",
+                "text": "Užitočná knižnica skriptov VBA pre spoločnosť Microsoft Excel. Táto knižnica sa používa na automatizáciu úloh v tabuľkách Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrick's Neovim Config",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Odpovedám na otázky z e -mailu, správy LinkedIn a Instagram. Tiež zavolám späť, ak je moje číslo poskytnuté prostredníctvom životopisu alebo inak, aj keď radšej udržujem svoje telefónne číslo súkromné."
     },
+    "formatter": {
+        "title": "Formát JSON & YAML",
+        "description": "Formatter JSON & YAML je nástroj, ktorý vám umožňuje formátovať súbory JSON a YAML. Je postavený s Go a Webassembly a je navrhnutý tak, aby bol rýchly a efektívny. Formatter je navrhnutý tak, aby sa dal ľahko používať, s jednoduchým rozhraním, ktoré vám umožňuje prilepiť do vášho kódu JSON alebo YAML a formátovať ho kliknutím na tlačidlo.",
+        "more_info1": "Viac informácií nájdete v readMe v",
+        "more_info2": "Úložisko JSON/YAML FORMATTER.",
+        "format_as": "Formát ako:",
+        "auto_detect": "Detekcia",
+        "format": "Formát"
+    },
     "tiger": {
         "title": "Jazyk",
         "description": "Programovací jazyk Tiger je vlastný programovací jazyk zabudovaný v GO a Rust na experimentovanie s dizajnom a výkonom tlmočníka. Implementované na webovej stránke portfólia pomocou webovej zostavy. Programovací jazyk Tiger je vlastný programovací jazyk zabudovaný v GO a Rust na experimentovanie s dizajnom a výkonom tlmočníka. Implementované na webovej stránke portfólia pomocou webovej zostavy.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Full Stack Software Engineer so sídlom na Strednej Floride"
+    },
+    "copy": {
+        "text": "Kopírovať",
+        "copied": "Skopírované!"
     },
     "social_media": {
         "github": "Potápať sa",

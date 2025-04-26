@@ -4,7 +4,9 @@
         "home": "Namai",
         "about": "Apie mane",
         "portfolio": "Portfelis",
+        "projects": "Svetainių projektai",
         "tiger": "Tigro kalba",
+        "formatter": "JSON ir YAML FORMATERTAS",
         "contact": "Susisiekite su manimi"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfelis",
         "filter_by": "Filtrų portfelis:",
         "entries": {
+            "biblioteca": {
+                "title": "BIBLIOTECA JSON",
+                "text": "„Python“ projektas, supaprastinantis kalbos vertimus. Leidžia mano svetainių portfelį išversti į 70 ir daugiau kalbų, įskaitant ispanų, prancūzų, kinų, arabų ir daugelį kitų. Šis projektas naudojamas kurti daugiakalbį svetainių portfelį, kuris yra labai naudingas norint pasiekti platesnę auditoriją. Naudodamas šį projektą, daugiau kaip 99% pasaulio gali laisvai perskaityti mano portfelį.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Prijunkite keturis",
                 "text": "Masyvi daugiau nei 50 ir daugiau „Connect Four“ žaidimų įgyvendinimų šeima. Šis projektas apima įgyvendinimus daugiau nei 30 skirtingų programavimo kalbų, įskaitant „Java“, „C ++“, „Python“, „JavaScript“ ir dar daugiau. Be to, tai taip pat apima daugiau nei 20 skirtingų rėmų ar kitų formatų, įskaitant „React.js“, „Ruby on Rails“, ASP.NET ir dar daugiau.",
@@ -95,10 +102,10 @@
                 "text": "Projektas, kuriame dokumentuoja skirtingų programavimo kalbų sąveiką. Šiuo metu apima 15 skirtingų programavimo kalbų ir 18 vykdymo modelių.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "„Microsoft Excel“ skaičiuoklės scenarijai (VBA)",
-                "text": "Naudinga „Microsoft Excel“ VBA scenarijų biblioteka. Ši biblioteka naudojama automatizuoti užduotis „Excel“ skaičiuoklėse.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "„JSON & YAML Auto Formatter“",
+                "text": "„JSON & YAML“ failų „Linter & Autoformatter“. Šis projektas naudojamas formatuoti JSON ir YAML failus, kurie yra labai naudingi, kad kodas būtų švarus ir organizuotas. Sukurtas su „Go“, sudarytas su „Webassembly“ ir įtrauktas į mano portfelį kaip svetainės projektą. Daugiau formatų ateityje.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "„Minecraft JSON“ generatorius",
@@ -124,6 +131,11 @@
                 "title": "Patriko Lua scenarijaus biblioteka",
                 "text": "Naudinga LUA scenarijų biblioteka ateityje. Ši biblioteka naudojama automatizuoti užduotis „Lua“ scenarijuose, kurios gali būti naudingos atliekant reikalingas užduotis, nes „Lua“ paprastai yra greitesnė scenarijaus kalba nei „Python“ ir „Ruby“.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patriko „Microsoft Excel“ skaičiuoklės scenarijai (VBA)",
+                "text": "Naudinga „Microsoft Excel“ VBA scenarijų biblioteka. Ši biblioteka naudojama automatizuoti užduotis „Excel“ skaičiuoklėse.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patriko „Neovim“ konfigūracija",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Aš atsakau į klausimus iš el. Pašto, „LinkedIn“ ir „Instagram“ pranešimų. Aš taip pat paskambinsiu, jei mano numeris bus pateiktas atnaujinant ar kitaip, nors aš norėčiau, kad mano telefono numeris būtų privatus."
     },
+    "formatter": {
+        "title": "JSON ir YAML FORMATERTAS",
+        "description": "„JSON & YAML Formatter“ yra įrankis, leidžiantis suformatuoti JSON ir YAML failus. Jis pastatytas su „Go“ ir „Webassembly“, ir yra sukurtas kaip greitas ir efektyvus. „Formatter“ yra sukurtas taip, kad būtų lengva naudoti, su paprasta sąsaja, leidžiančia įklijuoti JSON ar YAML kodą ir suformatuoti jį mygtuko paspaudimu.",
+        "more_info1": "Norėdami gauti daugiau informacijos, skaitykite „README“",
+        "more_info2": "JSON/YAML „Formatter“ saugykla.",
+        "format_as": "Formatas kaip:",
+        "auto_detect": "Automatinis aptikimas",
+        "format": "Formatas"
+    },
     "tiger": {
         "title": "Tigro kalba",
         "description": "Tigro programavimo kalba yra pritaikyta programavimo kalba, sukurta „Go“ ir „Rust“, kad būtų galima eksperimentuoti su vertėjo dizainu ir našumu. Įdiegta portfelio svetainėje naudojant žiniatinklio surinkimą. Tigro programavimo kalba yra pritaikyta programavimo kalba, sukurta „Go“ ir „Rust“, kad būtų galima eksperimentuoti su vertėjo dizainu ir našumu. Įdiegta portfelio svetainėje naudojant žiniatinklio surinkimą.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrikas Goodwinas",
         "description": "Visas „Stack“ programinės įrangos inžinierius, įsikūręs Centrinėje Floridoje"
+    },
+    "copy": {
+        "text": "Kopijuoti",
+        "copied": "Nukopijuota!"
     },
     "social_media": {
         "github": "Github",

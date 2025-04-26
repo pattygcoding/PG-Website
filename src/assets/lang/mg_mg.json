@@ -4,7 +4,9 @@
         "home": "an-trano",
         "about": "Momba ahy",
         "portfolio": "portfolio-",
+        "projects": "Tetikasa tranonkala",
         "tiger": "Fiteny Tiger",
+        "formatter": "JSON & Former JSON",
         "contact": "Mifandraisa amiko"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "portfolio-",
         "filter_by": "Filter portfolio amin'ny:",
         "entries": {
+            "biblioteca": {
+                "title": "BIBLIOTECA JSON",
+                "text": "Tetikasa python izay mamolavola fandikan-teny amin'ny fiteny. Mamela ny portfolio ny tranokalako ho voadika amin'ny fiteny 70+, ao anatin'izany ny Espaniôla, frantsay, Sinoa, Sinoa, Arabo, ary maro hafa. Ity tetikasa ity dia ampiasaina hamoronana portfolio-tranonkala marobe, izay tena ilaina amin'ny fanatrarana mpihaino malalaka kokoa. Miaraka amin'ity tetik'asa ity, maherin'ny 99% izao tontolo izao no afaka mamaky ny portfolio-ko amin'ny fiteny mahay.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Mampifandray efatra",
                 "text": "Fianakaviana be dia be ny fampiharana 50+ ny fampiharana ny lalao efatra mampifandray. Ity tetikasa ity dia ahitana ny fampiharana ao amin'ny fiteny maro samihafa 30 mahery, anisan'izany ny Java, C ++, Python, JavaScript, sy ny maro hafa. Ankoatr'izay, dia misy koa ny frameworks 20+ samihafa na ny endrika hafa, ao anatin'izany ny react.js, ruby ​​amin'ny lalamby, ASP.NET, ary ny maro hafa.",
@@ -95,10 +102,10 @@
                 "text": "Tetikasa iray izay antontan-taratasy mifandraika amin'ny fiteny fandaharana samihafa. Anisan'izany ny fiteny 15 isan-karazany 15 sy ny fomba famonoana 18.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel SppladSheet Scriptsheet (VBA)",
-                "text": "Tranombokam-tranomboky mahasoa ao amin'ny script vba ho an'ny Microsoft Excel. Ity tranomboky ity dia ampiasaina amin'ny asa automatique amin'ny splanceets expel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & AUT AUTO AUTO AUTO",
+                "text": "LINTER & AutoFormatter ho an'ny rakitra JSON & Yaml. Ity tetikasa ity dia ampiasaina amin'ny Fandraisana an'i Json & Yaml Files, izay tena ilaina amin'ny fitandremana ny kaody madio sy ny fandaminana. Namboarina niaraka tamin'ny Go, namboarina tamin'ny tranokala, ary niditra tao amin'ny portfolio ho tetikasan'ny tranokala. Endrika maro kokoa ho avy amin'ny ho avy.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
@@ -124,6 +131,11 @@
                 "title": "Lazain'ny Lua Lua Patrick's",
                 "text": "Tranomboky iray mahasoa ao amin'ny script any Lua ho an'ny fanondroana ho avy. Ity tranomboky ity dia ampiasaina amin'ny asa automatique ao amin'ny Scripts Lua, izay mety ho tonga amin'ny asa an-kery ho an'ny asa-fampisehoana, satria i Lua dia fiteny tsotra kokoa noho ny python sy ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Scripts Scriptsheet Scripts (VBA)",
+                "text": "Tranombokam-tranomboky mahasoa ao amin'ny script vba ho an'ny Microsoft Excel. Ity tranomboky ity dia ampiasaina amin'ny asa automatique amin'ny splanceets expel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Config's Neovim Neovim",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Mamaly ny fanontaniana amin'ny mailaka, Linkedin Messages, ary hafatra manokana aho. Hiverina ihany koa aho raha omena ny isa ny isa na tsia, na raha tsy izany, na dia aleoko mitokana aza ny nomeraon-telefaoniko."
     },
+    "formatter": {
+        "title": "JSON & Former JSON",
+        "description": "Ny mpamorona JSON & Yaml dia fitaovana ahafahanao mamorona ny rakitra JSON sy Yaml. Namboarina miaraka amin'ny fandehanana sy webassembly, ary natao ho haingana sy mahomby. Ny mpamboatra dia natao ho mora ampiasaina, miaraka amin'ny interface tsotra izay ahafahanao mametaka ao amin'ny JSON na Yaml Code ary mamolavola azy amin'ny alàlan'ny tsindrio bokotra.",
+        "more_info1": "Raha mila fanazavana fanampiny, dia jereo ny README ao amin'ny",
+        "more_info2": "JSON / Yam format repositories.",
+        "format_as": "Format AS:",
+        "auto_detect": "Auto hita",
+        "format": "endrika"
+    },
     "tiger": {
         "title": "Fiteny Tiger",
         "description": "Ny fiteny fandaharana tigra dia ny fiteny fandaharana mahazatra namboarina ao anaty sy ny harafesina mba hanandrana ny famolavolana sy ny fampisehoana mpandika teny. Nampiharina tao amin'ny tranokalan'ny portfolio tamin'ny alàlan'ny fivoriambe. Ny fiteny fandaharana tigra dia ny fiteny fandaharana mahazatra namboarina ao anaty sy ny harafesina mba hanandrana ny famolavolana sy ny fampisehoana mpandika teny. Nampiharina tao amin'ny tranokalan'ny portfolio tamin'ny alàlan'ny fivoriambe.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Injeniera rindrambaiko feno trano miorina ao afovoan'i Florida"
+    },
+    "copy": {
+        "text": "dika mitovy",
+        "copied": "Nopetahana!"
     },
     "social_media": {
         "github": "GitHub",

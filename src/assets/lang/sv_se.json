@@ -4,7 +4,9 @@
         "home": "Hem",
         "about": "Om mig",
         "portfolio": "Portfölj",
+        "projects": "Webbplatsprojekt",
         "tiger": "Tigerspråk",
+        "formatter": "JSON & YAML Formatter",
         "contact": "Kontakta mig"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfölj",
         "filter_by": "Filterportfölj av:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Ett Python -projekt som effektiviserar språköversättningar. Tillåter min webbplatsportfölj att översättas till 70+ språk, inklusive spanska, franska, kinesiska, arabiska och många andra. Detta projekt används för att skapa en flerspråkig webbplatsportfölj, som är mycket användbar för att nå en bredare publik. Med detta projekt kan över 99% av världen läsa min portfölj på ett flytande språk.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Anslut fyra",
                 "text": "Massiv familj med över 50+ implementeringar av Connect Four -spelet. Detta projekt inkluderar implementeringar på över 30 olika programmeringsspråk, inklusive Java, C ++, Python, JavaScript och mer. Dessutom inkluderar den också över 20+ olika ramar eller andra format, inklusive React.js, Ruby on Rails, ASP.NET och mer.",
@@ -95,10 +102,10 @@
                 "text": "Ett projekt som dokumenterar interoperabilitet mellan olika programmeringsspråk. För närvarande innehåller 15 olika programmeringsspråk och 18 exekveringsmönster.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel -kalkylbladskript (VBA)",
-                "text": "Ett användbart bibliotek med VBA -skript för Microsoft Excel. Detta bibliotek används för att automatisera uppgifter i Excel -kalkylblad.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "En Winter & AutoFormatter för JSON & YAML -filer. Detta projekt används för att formatera JSON & YAML -filer, vilket är mycket användbart för att hålla koden ren och organiserad. Byggt med Go, sammanställt med webbassemble och inbäddad i min portfölj som ett webbplatsprojekt. Fler format att komma i framtiden.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON -generator",
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Patrick's Lua Script Library",
-                "text": "Ett användbart bibliotek med LUA -skript för framtida referens. Detta bibliotek används för att automatisera uppgifter i LUA-skript, som kan komma till nytta för prestationsnödsuppgifter, eftersom Lua vanligtvis är ett snabbare skriptspråk än både Python och Ruby.",
+                "text": "Ett användbart bibliotek med LUA -skript för framtida referens. Detta bibliotek används för att automatisera uppgifter i LUA-skript, som kan komma till nytta för prestationsn-Needy-uppgifter, eftersom Lua vanligtvis är ett snabbare skriptspråk än både Python och Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel -kalkylskript (VBA)",
+                "text": "Ett användbart bibliotek med VBA -skript för Microsoft Excel. Detta bibliotek används för att automatisera uppgifter i Excel -kalkylblad.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrick's Neovim Config",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Jag svarar på förfrågningar från e -post, LinkedIn -meddelanden och Instagram -meddelanden. Jag kommer också att ringa tillbaka om mitt nummer tillhandahålls via CV eller på annat sätt, även om jag föredrar att hålla mitt telefonnummer privat."
     },
+    "formatter": {
+        "title": "JSON & YAML Formatter",
+        "description": "JSON & YAML Formatter är ett verktyg som låter dig formatera JSON- och YAML -filer. Det är byggt med Go and Webassemble, och den är utformad för att vara snabb och effektiv. Formatter är utformad för att vara enkel att använda, med ett enkelt gränssnitt som gör att du kan klistra in i din JSON- eller YAML -kod och formatera den med klick på en knapp.",
+        "more_info1": "För mer information, se Readme i",
+        "more_info2": "JSON/YAML Formatter Repository.",
+        "format_as": "Format som:",
+        "auto_detect": "Auto upptäckt",
+        "format": "Formatera"
+    },
     "tiger": {
         "title": "Tigerspråk",
         "description": "Tiger -programmeringsspråket är ett anpassat programmeringsspråk byggt på både Go & Rust för att experimentera med tolkdesign och prestanda. Implementerat på portföljwebbplatsen med webbmontering. Tiger -programmeringsspråket är ett anpassat programmeringsspråk byggt på både Go & Rust för att experimentera med tolkdesign och prestanda. Implementerat på portföljwebbplatsen med webbmontering.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Full Stack Software Engineer baserad i Central Florida"
+    },
+    "copy": {
+        "text": "Kopiera",
+        "copied": "Kopierad!"
     },
     "social_media": {
         "github": "Github",

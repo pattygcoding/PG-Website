@@ -4,7 +4,9 @@
         "home": "Heim",
         "about": "Um mig",
         "portfolio": "Eignasafn",
+        "projects": "Vefsíðuverkefni",
         "tiger": "Tiger tungumál",
+        "formatter": "JSON & YAML Formatter",
         "contact": "Hafðu samband við mig"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Eignasafn",
         "filter_by": "Síu eignasafn eftir:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Python verkefni sem straumlínulagar þýðingar á tungumálum. Leyfir að vefsíðusafnið mitt sé þýtt á 70+ tungumál, þar á meðal spænsku, frönsku, kínversku, arabísku og mörgum öðrum. Þetta verkefni er notað til að búa til fjöltyngt vefsíðusafn, sem er mjög gagnlegt til að ná til breiðari markhóps. Með þessu verkefni geta yfir 99% heimsins lesið eignasafnið mitt á reiprennandi máli.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Tengdu fjóra",
                 "text": "Gríðarleg fjölskylda yfir 50+ útfærslna í Connect Four leiknum. Þetta verkefni felur í sér útfærslur á yfir 30 mismunandi forritunarmálum, þar á meðal Java, C ++, Python, JavaScript og fleira. Að auki inniheldur það einnig yfir 20+ mismunandi ramma eða önnur snið, þar á meðal React.js, Ruby on Rails, ASP.NET og fleira.",
@@ -95,10 +102,10 @@
                 "text": "Verkefni sem skjalar samvirkni milli mismunandi forritunarmálar. Sem stendur inniheldur 15 mismunandi forritunarmál og 18 framkvæmdarmynstur.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel töflureikni (VBA)",
-                "text": "Gagnlegt bókasafn með VBA forskriftir fyrir Microsoft Excel. Þetta bókasafn er notað til að gera sjálfvirkan verkefni í Excel töflureiknum.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "A Linter & AutoFormatter fyrir JSON & YAML skrár. Þetta verkefni er notað til að forsníða JSON & YAML skrár, sem er mjög gagnlegt til að halda kóða hreinum og skipulögðum. Byggt með Go, sett saman með Webassembly og felld inn í eignasafnið mitt sem vefsíðuverkefni. Fleiri snið til að koma í framtíðinni.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft Json rafall",
@@ -124,6 +131,11 @@
                 "title": "Lua handritasafn Patrick",
                 "text": "Gagnlegt bókasafn með Lua forskriftir til framtíðar tilvísunar. Þetta bókasafn er notað til að gera sjálfvirkan verkefni í Lua forskriftir, sem geta komið sér vel fyrir árangursþéttandi verkefni, þar sem Lua er venjulega hraðskreiðara en bæði Python og Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel töflureikni (VBA)",
+                "text": "Gagnlegt bókasafn með VBA forskriftir fyrir Microsoft Excel. Þetta bókasafn er notað til að gera sjálfvirkan verkefni í Excel töflureiknum.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Neovim config Patrick",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Ég svara fyrirspurnum frá tölvupósti, LinkedIn skilaboðum og Instagram skilaboðum. Ég mun líka hringja til baka ef númerið mitt er veitt með ferilskrá eða á annan hátt, þó að ég vilji halda símanúmerinu mínu einkaaðila."
     },
+    "formatter": {
+        "title": "JSON & YAML Formatter",
+        "description": "JSON & YAML Formatter er tæki sem gerir þér kleift að forsníða JSON og YAML skrár. Það er smíðað með Go og Webassembly og það er hannað til að vera hratt og skilvirkt. Formatter er hannað til að vera auðvelt í notkun, með einföldu viðmóti sem gerir þér kleift að líma í JSON eða YAML kóðann þinn og forsníða það með því að smella á hnappinn.",
+        "more_info1": "Nánari upplýsingar er að finna í ReadMe í",
+        "more_info2": "JSON/YAML Formatter geymsla.",
+        "format_as": "Snið sem:",
+        "auto_detect": "Sjálfvirkar greiningar",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Tiger tungumál",
         "description": "Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go & Rust til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu. Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go & Rust til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Full Stack hugbúnaðarverkfræðingur með aðsetur í Mið -Flórída"
+    },
+    "copy": {
+        "text": "Afritaðu",
+        "copied": "Afritað!"
     },
     "social_media": {
         "github": "GitHub",

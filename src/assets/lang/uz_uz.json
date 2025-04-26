@@ -4,7 +4,9 @@
         "home": "Uy",
         "about": "Men haqimda",
         "portfolio": "Portfel",
+        "projects": "Veb-sayt loyihalari",
         "tiger": "Yo'lbars tili",
+        "formatter": "Json va Yaml Forter",
         "contact": "Men bilan bog'laning"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfel",
         "filter_by": "Filtrni portfel bo'yicha:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteka Json",
+                "text": "Til tarjimalarini rejalashtiradigan python loyihasi. Mening veb-saytim portfeliga 70+ tillarga, jumladan ispan, frantsuz, xitoy, arab va boshqalarni tarjima qilish imkonini beradi. Ushbu loyiha ko'p tilli veb-sayt portfelini yaratish uchun ishlatiladi, bu kengroq auditoriyaga erishish uchun juda foydali. Ushbu loyiha yordamida dunyoning 99% dan ortig'i mening portfelimni ravon tilda o'qiy oladi.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "To'rtni ulang",
                 "text": "50 dan ortiq ulanish to'rtta o'yinni amalga oshirish. Ushbu loyiha 30 xil dasturlash tillarida, jumladan Java, C ++, Python, JavaScript va boshqa dasturlarda amalga oshirishni o'z ichiga oladi. Bundan tashqari, u shuningdek 20 shari yoki boshqa shakllar yoki boshqa formatlar, shu jumladan reaktsiya, relslar, apparatlar, appart va boshqalar.",
@@ -95,10 +102,10 @@
                 "text": "Turli xil dasturlash tillari o'rtasida o'zaro ishlash imkoniyatiga ega bo'lgan loyiha. Hozirda 15 xil dasturlash tillari va 18 ta prodeksi mavjud.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excele skriptlari (VBA)",
-                "text": "Microsoft Excel uchun VBA skriptlarining foydali kutubxonasi. Ushbu kutubxona Excel-ni svetikalardagi vazifalarni avtomatlashtirish uchun ishlatiladi.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "Json va Yaml Auto forter",
+                "text": "Jon va Yaml fayllari uchun Login va AutoForter. Ushbu loyiha Json va Yaml fayllarini formatlash uchun juda foydali va kodni tashkillashtirish uchun juda foydali bo'ladi. Borib, Webinmeme bilan tuzilgan va mening portfelimga veb-sayt loyihasi sifatida o'rnatilgan. Kelajakda ko'proq formatlar.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON generator",
@@ -124,6 +131,11 @@
                 "title": "Patrikning LuA script kutubxonasi",
                 "text": "LuA skriptlarining kelajakdagi ma'lumotnomasi uchun foydali kutubxona. Ushbu kutubxona LuA skriptlaridagi vazifalarni avtomatlashtirish uchun ishlatiladi, ular piton va yoqutga qaraganda tezroq skript tilida bo'lgani kabi, juda tezroq skript tilidir.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrikning Microsoft Excelece skriptlari (VBA)",
+                "text": "Microsoft Excel uchun VBA skriptlarining foydali kutubxonasi. Ushbu kutubxona Excel-ni svetikalardagi vazifalarni avtomatlashtirish uchun ishlatiladi.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrikning Neovim konfigurasi",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Men elektron pochta, Linkedin xabarlaridan va Instagram xabarlaridan so'rayman. Agar mening raqamim rezyume orqali yoki boshqacha ko'rsatilmagan bo'lsa, men ham qo'ng'iroq qilaman, garchi telefon raqamimni maxfiy saqlashni afzal ko'raman."
     },
+    "formatter": {
+        "title": "Json va Yaml Forter",
+        "description": "Jon va Yaml Forter - bu Jon va YML fayllarini formatlash imkonini beradigan vositadir. U yo'l va veb-sayt bilan qurilgan va u tez va samarali bo'lish uchun mo'ljallangan. Formadan foydalanish oson, oddiy interfeys bilan, bu sizning JON yoki YML kodingizda yoki uni bosish bilan formatlash imkonini beradi.",
+        "more_info1": "Qo'shimcha ma'lumot olish uchun Readme-ga murojaat qiling",
+        "more_info2": "Json / Yaml Faterter Rivers.",
+        "format_as": "Format:",
+        "auto_detect": "Avtomatik aniqlash",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Yo'lbars tili",
         "description": "Tiger dasturlash tili - bu tarjimon dizayni va ishlashi bilan tajriba uchun qurilgan va zanglash uchun maxsus dasturlash tili. Veb-assambleyada portfel veb-saytida amalga oshirildi. Tiger dasturlash tili - bu tarjimon dizayni va ishlashi bilan tajriba uchun qurilgan va zanglash uchun maxsus dasturlash tili. Veb-assambleyada portfel veb-saytida amalga oshirildi.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrik Godwin",
         "description": "Markaziy Florida markazida joylashgan to'liq stack muhandisi"
+    },
+    "copy": {
+        "text": "Nusxa ko'chirmoq",
+        "copied": "Ko'chirilgan!"
     },
     "social_media": {
         "github": "Gitul",

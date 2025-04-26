@@ -4,7 +4,9 @@
         "home": "Kodu",
         "about": "Minust",
         "portfolio": "Portfell",
+        "projects": "Veebisaidiprojektid",
         "tiger": "Tiigrikeel",
+        "formatter": "JSON & Yaml Formatter",
         "contact": "Võtke minuga ühendust"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfell",
         "filter_by": "Filtriportfell:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca json",
+                "text": "Pythoni projekt, mis sujuvamaks keele tõlkeid. Võimaldab minu veebisaidi portfelli tõlkida 70+ keelt, sealhulgas hispaania, prantsuse, hiina, araabia ja paljude teistesse. Seda projekti kasutatakse mitmekeelse veebisaidi portfelli loomiseks, mis on väga kasulik laiema vaatajaskonnani jõudmiseks. Selle projektiga saab üle 99% maailmast lugeda minu portfelli sujuvas keeles.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Ühendage neli",
                 "text": "Massiivne perekond, mis on üle 50 -aastaste ühenduse mängude rakendused. See projekt sisaldab rakendusi enam kui 30 erinevas programmeerimiskeeles, sealhulgas Java, C ++, Python, JavaScript ja palju muud. Lisaks sisaldab see ka üle 20 erineva raamistiku või muid vorminguid, sealhulgas React.js, Ruby on rööbastel, ASP.NET ja palju muud.",
@@ -95,10 +102,10 @@
                 "text": "Projekt, mis dokumenteerib koostalitlusvõime erinevate programmeerimiskeelte vahel. Praegu sisaldab 15 erinevat programmeerimiskeelt ja 18 täitmismustrit.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Exceli arvutustabeli skriptid (VBA)",
-                "text": "VBA skriptide kasulik raamatukogu Microsoft Exceli jaoks. Seda teeki kasutatakse Exceli arvutustabelites olevate ülesannete automatiseerimiseks.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "JSON & YAML -failide Linter & AutoForMatter. Seda projekti kasutatakse JSON & YAML -failide vormindamiseks, mis on koodi puhta ja korraldamise jaoks väga kasulik. Ehitatud koos Go -ga, koostatud WebAssemblyga ja manustatud minu portfelli veebisaidiprojektina. Rohkem vorminguid tulevikus.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON generaator",
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Patricku Lua skriptiraamatukogu",
-                "text": "LUA skriptide kasulik teek edaspidiseks viitamiseks. Seda raamatukogu kasutatakse LUA skriptide ülesannete automatiseerimiseks, mis võivad olla kasulikud jõudluse vajalike ülesannete jaoks, kuna Lua on tavaliselt kiirem skriptimiskeel kui nii Python kui ka Ruby.",
+                "text": "Kasulik Lua skriptide raamatukogu edaspidiseks viitamiseks. Seda raamatukogu kasutatakse LUA skriptide ülesannete automatiseerimiseks, mis võivad olla kasulikud jõudluse vajalike ülesannete jaoks, kuna Lua on tavaliselt kiirem skriptimiskeel kui nii Python kui ka Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patricku Microsoft Exceli arvutustabeli skriptid (VBA)",
+                "text": "VBA skriptide kasulik raamatukogu Microsoft Exceli jaoks. Seda teeki kasutatakse Exceli arvutustabelites olevate ülesannete automatiseerimiseks.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patricku Neovim Config",
@@ -136,7 +148,7 @@
                 "link": "https://i.imgur.com/HxYLSXC.png"
             },
             "powershell_library": {
-                "title": "Patricku PowerShelli skriptiraamatukogu",
+                "title": "Patricku PowerShelli stsenaariumi raamatukogu",
                 "text": "Powershelli skriptide kasulik teek edaspidiseks viitamiseks. Kasulik $ Profiil Skripti funktsiooni puhul on see minu jaoks tohutult kasulik Windowsi terminalist ülesannete automatiseerimisel, kuna olen Windows OS -i sagedane kasutaja.",
                 "link": "https://github.com/pattygcoding/Powershell-Scripts"
             },
@@ -166,7 +178,7 @@
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
-                "title": "Tiigri tagamängu plusside veebisait",
+                "title": "Tiigri tagamängude plusside veebisait",
                 "text": "Veebisait, mille ehitasin 2024. aastal Tiigri tagaajamise plusside jaoks, Clemsonis, Sc. Ehitatud React.js.",
                 "link": "https://github.com/pattygcoding/TTProsBeta"
             },
@@ -186,6 +198,15 @@
         "email": "Pattygsocials@gmail.com",
         "description": "Vastan päringutele e -posti, LinkedIn -i teadetest ja Instagrami sõnumitest. Samuti helistan tagasi, kui minu numbrit pakutakse CV või muul viisil, ehkki eelistan hoida oma telefoninumbrit privaatsena."
     },
+    "formatter": {
+        "title": "JSON & Yaml Formatter",
+        "description": "JSON & Yaml FormAtter on tööriist, mis võimaldab teil vormindada JSON ja YAML -faile. See on ehitatud koos WebAssemblyga ning see on loodud kiireks ja tõhusaks. Vormisaat on mõeldud hõlpsaks kasutamiseks, lihtsa liidesega, mis võimaldab teil kleepida oma JSON -i või YAML -koodi ja vormindada selle ühe nupuvajutusega.",
+        "more_info1": "Lisateavet leiate aadressilt Readme",
+        "more_info2": "JSON/YAML FORMITERI POOLOSOY.",
+        "format_as": "Vorming kui:",
+        "auto_detect": "Automaatne tuvastamine",
+        "format": "Formaat"
+    },
     "tiger": {
         "title": "Tiigrikeel",
         "description": "Tiigri programmeerimiskeel on kohandatud programmeerimiskeel, mis on ehitatud nii Go & Rust, et katsetada tõlgi disaini kui ka jõudlust. Rakendatud portfelli veebisaidil, kasutades veebikomplekti. Tiigri programmeerimiskeel on kohandatud programmeerimiskeel, mis on ehitatud nii Go & Rust, et katsetada tõlgi disaini kui ka jõudlust. Rakendatud portfelli veebisaidil, kasutades veebikomplekti.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Kesk -Floridas asuv täielik virna tarkvarainsener"
+    },
+    "copy": {
+        "text": "Koopia",
+        "copied": "Kopeeritud!"
     },
     "social_media": {
         "github": "Github",

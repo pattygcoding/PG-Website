@@ -2,9 +2,11 @@
     "name": "Patrick Goodwin",
     "menu": {
         "home": "Id-dar",
-        "about": "Dwari",
+        "about": "Dwarni",
         "portfolio": "Portafoll",
+        "projects": "Proġetti tal-websajt",
         "tiger": "Lingwa Tiger",
+        "formatter": "JSON & YAML Formatter",
         "contact": "Ikkuntattjani"
     },
     "home": {
@@ -16,13 +18,13 @@
             "fourth": "Kreatur tal-kontenut"
         },
         "descriptionA": "Inġinier ta 'softwer full-stack b'esperjenza u żviluppatur tal-web bi storja murija ta' proġetti ta 'żvilupp li jwasslu b'suċċess, mill-ħolqien ta' modifiki Java għal Minecraft biex itejbu l-esperjenza tal-utent fir-React.js u l-implimentazzjoni ta 'APIs REST siguri, filwaqt li timpjega b'mod konsistenti metodoloġiji b'aġilità u kollaborazzjoni effettiva tat-tim.",
-        "descriptionB": "Barra minn hekk, jien kreatur tal-kontenut tal-ġeografija li rnexxielu jsaħħaħ l-algoritmi ta 'pjattaformi multipli tal-midja soċjali, inklużi Instagram, YouTube, u Tiktok, biex nikseb bażi ta' segwaċi rispettabbli u involuta.",
+        "descriptionB": "Barra minn hekk, jien kreatur tal-kontenut tal-ġeografija li ssaħħaħ b'suċċess l-algoritmi ta 'pjattaformi multipli tal-midja soċjali, inklużi Instagram, YouTube, u Tiktok, biex nikseb bażi ta' segwaċi rispettabbli u involuta.",
         "portfolio_button": "Il-portafoll tiegħi",
         "contact_button": "Ikkuntattjani",
         "about_button": "Dwari"
     },
     "about": {
-        "title": "Dwari",
+        "title": "Dwarni",
         "personal_summary": {
             "title": "Sommarju personali",
             "text": "Bħala żviluppatur ta 'softwer ta' munzell sħiħ b'esperjenza bbażat f'Orlando, FL, jien wera għarfien espert f'diversi teknoloġiji, minn Java u C ++ biex React.Js u Node.J. B'rekord ta 'proġetti ta' tmexxija, inkluż l-iżvilupp ta 'programm ta' modifika ta 'Java għal Minecraft u websajt ta' sodisfazzjon għas-sewwieqa tat-trakkijiet, stajt vetrina tmexxija u innovazzjoni. L-impenn tiegħi għall-eċċellenza huwa evidenti fil-kapaċità tiegħi li nissimplifika l-immaniġġjar tal-proġett, issolvi problemi kumplessi, u nwassal soluzzjonijiet ta 'kwalità għolja li jsaħħu l-esperjenza tal-utent u jmexxu s-suċċess organizzattiv."
@@ -85,6 +87,11 @@
         "title": "Portafoll",
         "filter_by": "Portafoll tal-Iffiltra minn:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Proġett Python li jissimplifika t-traduzzjonijiet tal-lingwa. Jippermetti li l-portafoll tal-websajt tiegħi jiġi tradott f'70 + lingwa, inklużi l-Ispanjol, il-Franċiż, iċ-Ċiniż, l-Għarbi, u ħafna oħrajn. Dan il-proġett jintuża biex joħloq portafoll ta 'websajt multilingwi, li huwa utli ħafna biex jintlaħaq udjenza usa'. B'dan il-proġett, aktar minn 99% tad-dinja jistgħu jaqraw il-portafoll tiegħi b'lingwa fluwenti.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Qabbad erbgħa",
                 "text": "Familja massiva ta 'aktar minn 50 + implimentazzjoni tal-logħba Connect Four. Dan il-proġett jinkludi implimentazzjonijiet f'aktar minn 30 lingwa ta 'programmazzjoni differenti, inklużi Java, C ++, Python, JavaScript, u ​​aktar. Barra minn hekk, tinkludi wkoll aktar minn 20+ oqfsa differenti jew formati oħra, inklużi React.js, Ruby on Rails, ASP.NET, u aktar.",
@@ -95,10 +102,10 @@
                 "text": "Proġett li jiddokumenta l-interoperabilità bejn lingwi ta 'programmazzjoni differenti. Bħalissa tinkludi 15-il lingwa ta 'programmazzjoni differenti u 18-il mudell ta' eżekuzzjoni.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel Spreadsheet Scripts (VBA)",
-                "text": "Librerija utli ta 'skripts VBA għal Microsoft Excel. Din il-librerija tintuża biex awtomatizza l-kompiti fil-folji tal-kalkolu Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "A Linter & Autoformatter għal fajls JSON & YAML. Dan il-proġett jintuża biex jifformattja fajls JSON & YAML, li huwa utli ħafna biex iżomm il-kodiċi nadif u organizzat. Mibni bil-go, miġbura ma 'WebAssembly, u inkorporat fil-portafoll tiegħi bħala proġett ta' websajt. Aktar formati li ġejjin fil-futur.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Ġeneratur ta 'Minecraft JSON",
@@ -124,6 +131,11 @@
                 "title": "Patrick's Lua Script Library",
                 "text": "Librerija utli ta 'skripts Lua għal referenza futura. Din il-librerija tintuża biex awtomatizza l-kompiti fl-iskripts Lua, li jistgħu jidħlu tajjeb għal kompiti ta 'prestazzjoni, peress li Lua normalment tkun lingwa ta' skritt aktar mgħaġġla minn kemm Python kif ukoll Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
+                "text": "Librerija utli ta 'skripts VBA għal Microsoft Excel. Din il-librerija tintuża biex awtomatizza l-kompiti fil-folji tal-kalkolu Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Il-konfigurazzjoni neovim ta 'Patrick",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Jiena nirrispondi għall-mistoqsijiet mill-email, messaġġi LinkedIn, u messaġġi Instagram. Se nċempel ukoll jekk in-numru tiegħi jiġi pprovdut permezz ta 'jerġa' jibda jew mod ieħor, għalkemm nippreferi nżomm in-numru tat-telefon tiegħi privat."
     },
+    "formatter": {
+        "title": "JSON & YAML Formatter",
+        "description": "Il-Formatter JSON & YAML hija għodda li tippermettilek tifformattja fajls JSON u YAML. Huwa mibni bil-go u l-WebAssemblea, u huwa ddisinjat biex ikun mgħaġġel u effiċjenti. Il-formatter huwa ddisinjat biex ikun faċli biex tużah, b'interface sempliċi li jippermettilek li tippejstja fil-kodiċi JSON jew YAML tiegħek u tifformattjaha bil-klikka ta 'buttuna.",
+        "more_info1": "Għal aktar informazzjoni, irreferi għar-",
+        "more_info2": "Repositorju JSON / YAML Formatter.",
+        "format_as": "Format bħala:",
+        "auto_detect": "Tiskopri awtomatikament",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Lingwa Tiger",
         "description": "Il-lingwa ta 'programmazzjoni tat-Tiger hija lingwa ta' programmazzjoni apposta mibnija fiż-żewġ Go & Rust biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web. Il-lingwa ta 'programmazzjoni tat-Tiger hija lingwa ta' programmazzjoni apposta mibnija fiż-żewġ Go & Rust biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Inġinier sħiħ tas-softwer tal-munzell ibbażat fi Florida Ċentrali"
+    },
+    "copy": {
+        "text": "Kopja",
+        "copied": "Ikkupjat!"
     },
     "social_media": {
         "github": "Github",

@@ -4,7 +4,9 @@
         "home": "Kotiin",
         "about": "Minusta",
         "portfolio": "Salkku",
+        "projects": "Verkkosivustoprojektit",
         "tiger": "Tiikerikieli",
+        "formatter": "JSON & YAML FORMATTER",
         "contact": "Ottaa yhteyttä minuun"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Salkku",
         "filter_by": "Suodatin salkku:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Python -projekti, joka virtaviivaistaa kielen käännöksiä. Mahdollistaa verkkosivuston portfolion kääntämisen yli 70 kielelle, mukaan lukien espanja, ranska, kiina, arabia ja monet muut. Tätä projektia käytetään monikielisen verkkosivustoportfolion luomiseen, mikä on erittäin hyödyllistä tavoittaa laajempi yleisö. Tämän projektin avulla yli 99% maailmasta voi lukea portfolioni sujuvasti kielellä.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Yhdistä neljä",
                 "text": "Connect Four -pelin yli 50+ -toteutuksen massiivinen perhe. Tämä projekti sisältää toteutukset yli 30 eri ohjelmointikielellä, mukaan lukien Java, C ++, Python, JavaScript ja muut. Lisäksi se sisältää myös yli 20+ erilaista kehystä tai muita muotoja, mukaan lukien React.js, Ruby on Rails, ASP.NET ja paljon muuta.",
@@ -95,10 +102,10 @@
                 "text": "Projekti, joka dokumentoi eri ohjelmointikielten yhteentoimivuuden. Tällä hetkellä sisältää 15 erilaista ohjelmointikieliä ja 18 suoritusmallia.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel -laskentataulukon skriptit (VBA)",
-                "text": "Hyödyllinen VBA -skriptien kirjasto Microsoft Excelille. Tätä kirjastoa käytetään Automatisoimaan tehtäviä Excel -taulukkoissa.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto Formatter",
+                "text": "Linter ja automaattinen JSON & YAML -tiedostot. Tätä projektia käytetään JSON & YAML -tiedostojen muotoiluun, mikä on erittäin hyödyllistä koodin pitämisessä puhtaana ja järjestettynä. Rakennettu GO: lla, koottu webAssembly -sovelluksella ja upotettu salkkuuni verkkosivustoprojektiksi. Lisää muotoja tulevaisuudessa.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON -generaattori",
@@ -125,8 +132,13 @@
                 "text": "Hyödyllinen LUA -skriptien kirjasto tulevaa viitettä varten. Tätä kirjastoa käytetään LUA-komentosarjojen tehtävien automatisointiin, jotka voivat olla hyödyllisiä suorituskyvyn tarvittavien tehtävien kannalta, koska Lua on yleensä nopeampi käsikirjoituskieli kuin sekä Python että Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
             },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel -laskentataulukon skriptit (VBA)",
+                "text": "Hyödyllinen VBA -skriptien kirjasto Microsoft Excelille. Tätä kirjastoa käytetään Automatisoimaan tehtäviä Excel -taulukkoissa.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
             "neovim_config": {
-                "title": "Patrickin neovim -konfigurointi",
+                "title": "Patrickin neovim -kokoonpano",
                 "text": "Henkilökohtainen neovim -kokoonpanoni. Tätä projektia käytetään mieltymykseeni Neovimin määrittämiseen, mukaan lukien mukautetut Keybindings, teemat ja laajennukset. Tätä projektia käytetään Neovimin käyttäjäystävällisemmän ja tehokkaamman henkilökohtaiseen käyttöön.",
                 "link": "https://github.com/pattygcoding/Neovim-Config"
             },
@@ -166,7 +178,7 @@
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
-                "title": "Tiger Tailgating Pros -verkkosivusto",
+                "title": "Tiger Tailgating Pros -sivusto",
                 "text": "Verkkosivusto, jonka rakensin vuonna 2024 Tiger Tailgating Prosille, takaluukun yritys Clemsonissa, SC. Rakennettu React.js.",
                 "link": "https://github.com/pattygcoding/TTProsBeta"
             },
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Vastaan ​​tiedusteluihin sähköpostista, LinkedIn -viesteistä ja Instagram -viesteistä. Soitan myös takaisin, jos numeroni toimitetaan jatkamisen kautta tai muuten, vaikka pidän mieluummin puhelinnumeroni yksityisenä."
     },
+    "formatter": {
+        "title": "JSON & YAML FORMATTER",
+        "description": "JSON & YAML Formatter on työkalu, jonka avulla voit muotoilla JSON- ja YAML -tiedostoja. Se on rakennettu GO: lla ja webSemblyllä, ja se on suunniteltu nopeaksi ja tehokkaaksi. Formatter on suunniteltu helppokäyttöiseksi, yksinkertaisella käyttöliittymällä, jonka avulla voit liittää JSON- tai YAML -koodiin ja muotoilla se painikkeen napsautuksella.",
+        "more_info1": "Lisätietoja on Readme",
+        "more_info2": "JSON/YAML Formatter -varasto.",
+        "format_as": "Muotona:",
+        "auto_detect": "Tunnistaa automaattisesti",
+        "format": "Muoto"
+    },
     "tiger": {
         "title": "Tiikerikieli",
         "description": "Tiikeri -ohjelmointikieli on räätälöity ohjelmointikieli, joka on rakennettu sekä Go & Rustissa kokeillakseen tulkkien suunnittelua ja suorituskykyä. Toteutetaan salkun verkkosivustolla verkkokokoonpanon avulla. Tiikeri -ohjelmointikieli on räätälöity ohjelmointikieli, joka on rakennettu sekä Go & Rustissa kokeillakseen tulkkien suunnittelua ja suorituskykyä. Toteutetaan salkun verkkosivustolla verkkokokoonpanon avulla.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Floridassa sijaitseva Full Stack -ohjelmistoinsinööri"
+    },
+    "copy": {
+        "text": "Kopioida",
+        "copied": "Kopioi!"
     },
     "social_media": {
         "github": "Github",

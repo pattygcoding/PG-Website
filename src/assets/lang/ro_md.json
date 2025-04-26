@@ -4,7 +4,9 @@
         "home": "Acasă",
         "about": "Despre mine",
         "portfolio": "Portofoliu",
+        "projects": "Proiecte de site -uri web",
         "tiger": "Limba tigrului",
+        "formatter": "Formatter JSON & YAML",
         "contact": "Contactați -mă"
     },
     "home": {
@@ -15,7 +17,7 @@
             "third": "Dezvoltator de jocuri",
             "fourth": "Creator de conținut"
         },
-        "descriptionA": "Inginer software cu experiență completă și dezvoltator web cu o istorie demonstrată a proiectelor de dezvoltare cu succes, de la crearea de modificări Java pentru Minecraft până la îmbunătățirea experienței utilizatorului în React.js și implementarea API-urilor REST sigure, utilizând constant metodologii agile și colaborare eficientă a echipei.",
+        "descriptionA": "Inginer software cu experiență completă și dezvoltator web, cu o istorie demonstrată a proiectelor de dezvoltare cu succes, de la crearea modificărilor Java pentru Minecraft până la îmbunătățirea experienței utilizatorului în React.js și implementarea API-urilor REST sigure, utilizând constant metodologii agile și colaborare eficientă a echipei.",
         "descriptionB": "În plus, sunt un creator de conținut de geografie, care a susținut cu succes algoritmii mai multor platforme de socializare, inclusiv Instagram, YouTube și Tiktok, pentru a obține o bază de urmărire respectabilă și antrenantă.",
         "portfolio_button": "Portofoliul meu",
         "contact_button": "Contactați -mă",
@@ -59,7 +61,7 @@
         },
         "technical_skills": {
             "title": "Abilități tehnice",
-            "header1": "Limbaj de programare",
+            "header1": "Limbi de programare",
             "header2": "Frame și biblioteci",
             "header3": "Instrumente și tehnologii"
         },
@@ -85,6 +87,11 @@
         "title": "Portofoliu",
         "filter_by": "Portofoliu de filtrare de:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Un proiect Python care eficientizează traducerile de limbă. Permite traducerea portofoliului meu de site -uri web în peste 70 de limbi, inclusiv spaniolă, franceză, chineză, arabă și multe altele. Acest proiect este utilizat pentru a crea un portofoliu de site -uri multilingve, care este foarte util pentru a ajunge la un public mai larg. Cu acest proiect, peste 99% din lume îmi pot citi portofoliul într -un limbaj fluentă.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Conectați patru",
                 "text": "Familia masivă de peste 50 de implementări ale jocului Connect Four. Acest proiect include implementări în peste 30 de limbaje de programare diferite, inclusiv Java, C ++, Python, JavaScript și multe altele. În plus, include, de asemenea, peste 20 de cadre diferite sau alte formate, inclusiv React.js, Ruby on Rails, ASP.NET și multe altele.",
@@ -95,10 +102,10 @@
                 "text": "Un proiect care documentează interoperabilitatea între diferite limbaje de programare. În prezent, include 15 limbaje de programare diferite și 18 modele de execuție.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Scripturi de foi de calcul Microsoft Excel (VBA)",
-                "text": "O bibliotecă utilă de scripturi VBA pentru Microsoft Excel. Această bibliotecă este utilizată pentru a automatiza sarcinile în foile de calcul Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML AUTO Formatter",
+                "text": "Un linter și autoformatter pentru fișierele JSON și YAML. Acest proiect este utilizat pentru a formata fișierele JSON și YAML, ceea ce este foarte util pentru menținerea codului curat și organizat. Construit cu GO, compilat cu WebAssembly și încorporat în portofoliul meu ca proiect de site. Mai multe formate care vor veni în viitor.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Generator JSON Minecraft",
@@ -124,6 +131,11 @@
                 "title": "Patrick's Lua Script Bibliotecă",
                 "text": "O bibliotecă utilă de scripturi Lua pentru referințe viitoare. Această bibliotecă este folosită pentru a automatiza sarcinile în scripturile Lua, care pot fi la îndemână pentru sarcini cu necesitate performantă, deoarece Lua este de obicei un limbaj de script mai rapid decât Python și Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Scripturile de foi de calcul Microsoft Excel Patrick (VBA)",
+                "text": "O bibliotecă utilă de scripturi VBA pentru Microsoft Excel. Această bibliotecă este utilizată pentru a automatiza sarcinile în foile de calcul Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Configurarea neovim a lui Patrick",
@@ -186,6 +198,15 @@
         "email": "Pattygsocials@gmail.com",
         "description": "Răspund la întrebări de la e -mail, mesaje LinkedIn și mesaje Instagram. De asemenea, voi suna înapoi dacă numărul meu este furnizat prin CV sau altfel, deși prefer să -mi păstrez numărul de telefon privat."
     },
+    "formatter": {
+        "title": "Formatter JSON & YAML",
+        "description": "Formatterul JSON & YAML este un instrument care vă permite să formatați fișierele JSON și YAML. Este construit cu GO și WebAssembly și este conceput pentru a fi rapid și eficient. Formatterul este proiectat pentru a fi ușor de utilizat, cu o interfață simplă care vă permite să lipiți în codul JSON sau YAML și să o formatați cu un clic al unui buton.",
+        "more_info1": "Pentru mai multe informații, consultați readme -ul din",
+        "more_info2": "Depozitul de format JSON/YAML.",
+        "format_as": "Format ca:",
+        "auto_detect": "Detectare automată",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Limba tigrului",
         "description": "Limbajul de programare Tiger este un limbaj de programare personalizat construit atât în ​​Go și Rust, pentru a experimenta cu proiectarea și performanța interpretului. Implementat pe site -ul portofoliului folosind asamblare web. Limbajul de programare Tiger este un limbaj de programare personalizat construit atât în ​​Go și Rust, pentru a experimenta cu proiectarea și performanța interpretului. Implementat pe site -ul portofoliului folosind asamblare web.",
@@ -193,12 +214,16 @@
         "more_info2": "Tiger Programming Language Github Depozit.",
         "select_engine": "Selectați motorul:",
         "tiger_code": "Cod tigru:",
-        "run_tiger": "Fugi Tiger",
+        "run_tiger": "Alerga tigru",
         "output": "Ieșire:"
     },
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Inginer software complet de stivă cu sediul în Florida Centrală"
+    },
+    "copy": {
+        "text": "Copie",
+        "copied": "S -A copiat!"
     },
     "social_media": {
         "github": "Github",

@@ -4,7 +4,9 @@
         "home": "Rumah",
         "about": "Mengenai saya",
         "portfolio": "Portfolio",
+        "projects": "Projek laman web",
         "tiger": "Bahasa harimau",
+        "formatter": "Formatter Json & Yaml",
         "contact": "Hubungi saya"
     },
     "home": {
@@ -42,7 +44,7 @@
                 },
                 {
                     "jobtitle": "Jurutera Perisian Stack Penuh",
-                    "where": "Mempercepat pembelajaran",
+                    "where": "Mempercepatkan pembelajaran",
                     "date": "2023"
                 },
                 {
@@ -85,6 +87,11 @@
         "title": "Portfolio",
         "filter_by": "Portfolio penapis oleh:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Projek Python yang menyelaraskan terjemahan bahasa. Membolehkan portfolio laman web saya diterjemahkan ke dalam 70+ bahasa, termasuk bahasa Sepanyol, Perancis, Cina, Arab, dan banyak lagi. Projek ini digunakan untuk membuat portfolio laman web berbilang bahasa, yang sangat berguna untuk mencapai khalayak yang lebih luas. Dengan projek ini, lebih daripada 99% dunia dapat membaca portfolio saya dalam bahasa yang fasih.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Sambungkan empat",
                 "text": "Keluarga besar lebih daripada 50+ pelaksanaan permainan Connect Four. Projek ini termasuk pelaksanaan di lebih daripada 30 bahasa pengaturcaraan yang berbeza, termasuk Java, C ++, Python, JavaScript, dan banyak lagi. Di samping itu, ia juga termasuk lebih daripada 20+ rangka kerja yang berbeza atau format lain, termasuk React.js, Ruby on Rails, ASP.NET, dan banyak lagi.",
@@ -95,10 +102,10 @@
                 "text": "Satu projek yang dokumen interoperabilitas antara bahasa pengaturcaraan yang berbeza. Pada masa ini termasuk 15 bahasa pengaturcaraan yang berbeza dan 18 corak pelaksanaan.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Skrip Spreadsheet Microsoft Excel (VBA)",
-                "text": "Perpustakaan berguna skrip VBA untuk Microsoft Excel. Perpustakaan ini digunakan untuk mengautomasikan tugas dalam spreadsheet Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "Formatter Auto Json & Yaml",
+                "text": "Linter & AutoforMatter untuk fail JSON & YAML. Projek ini digunakan untuk memformat fail JSON & YAML, yang sangat berguna untuk menyimpan kod bersih dan teratur. Dibina dengan GO, disusun dengan webassembly, dan tertanam ke dalam portfolio saya sebagai projek laman web. Lebih banyak format yang akan datang pada masa akan datang.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Perpustakaan Skrip Lua Patrick",
-                "text": "Perpustakaan berguna skrip Lua untuk rujukan masa depan. Perpustakaan ini digunakan untuk mengautomasikan tugas-tugas dalam skrip Lua, yang boleh menjadi berguna untuk tugas-tugas yang diperlukan, kerana Lua biasanya bahasa skrip yang lebih cepat daripada Python dan Ruby.",
+                "text": "Perpustakaan Skrip LUA yang berguna untuk rujukan masa depan. Perpustakaan ini digunakan untuk mengautomasikan tugas-tugas dalam skrip Lua, yang boleh menjadi berguna untuk tugas-tugas yang diperlukan, kerana Lua biasanya bahasa skrip yang lebih cepat daripada Python dan Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Skrip Spreadsheet Microsoft Excel Patrick (VBA)",
+                "text": "Perpustakaan berguna skrip VBA untuk Microsoft Excel. Perpustakaan ini digunakan untuk mengautomasikan tugas dalam spreadsheet Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Konfigurasi Neovim Patrick",
@@ -156,7 +168,7 @@
                 "link": "https://github.com/pattygcoding/SupremeMC"
             },
             "suprememc": {
-                "title": "Mod Suprememc Minecraft",
+                "title": "Supremc Minecraft Mod",
                 "text": "Mod Minecraft yang menambah alat, perisai, perusuh, blok, dimensi, dan banyak lagi ciri untuk permainan. Dibina dengan versi Java 8-17 untuk memilih versi Minecraft antara 1.16 dan 1.20.",
                 "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
             },
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Saya menjawab pertanyaan dari e -mel, mesej LinkedIn, dan mesej Instagram. Saya juga akan memanggil semula jika nombor saya disediakan melalui resume atau sebaliknya, walaupun saya lebih suka menyimpan nombor telefon saya secara peribadi."
     },
+    "formatter": {
+        "title": "Formatter Json & Yaml",
+        "description": "Formatter JSON & YAML adalah alat yang membolehkan anda memformat fail JSON dan YAML. Ia dibina dengan Go dan WebAssembly, dan ia direka untuk menjadi cepat dan cekap. Formatter direka untuk menjadi mudah digunakan, dengan antara muka yang mudah yang membolehkan anda menampal dalam kod JSON atau YAML anda dan formatnya dengan klik butang.",
+        "more_info1": "Untuk maklumat lanjut, rujuk readme di",
+        "more_info2": "JSON/YAML Formatter Repository.",
+        "format_as": "Format sebagai:",
+        "auto_detect": "Mengesan automatik",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Bahasa harimau",
         "description": "Bahasa pengaturcaraan harimau adalah bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go & Rust untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web. Bahasa pengaturcaraan harimau adalah bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go & Rust untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Jurutera Perisian Stack Penuh yang berpusat di Florida Tengah"
+    },
+    "copy": {
+        "text": "Salin",
+        "copied": "Disalin!"
     },
     "social_media": {
         "github": "Github",

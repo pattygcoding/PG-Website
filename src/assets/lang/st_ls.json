@@ -4,7 +4,9 @@
         "home": "Hae",
         "about": "Ka 'na",
         "portfolio": "Portfolio",
+        "projects": "Merero ea marang-rang",
         "tiger": "Puo ea Tiger",
+        "formatter": "MSON & YAML forte",
         "contact": "Ikopanye le nna"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfolio",
         "filter_by": "Filter Portfolio ke:",
         "entries": {
+            "biblioteca": {
+                "title": "BIBLIOTECA JSON",
+                "text": "Projeolong ea Python e bitsang liphetolelo tsa puo. E lumella portfolio ea ka ea marang-rang ho fetoleloa ka lipuo tse 70 Ho hlokahala, ho kenyeletsoa Sefora, Sefora, China, Searabia le ba bang ba bangata. Morero ona o sebelisoa ho theha sebapali sa marang-rang sa marang-rang sa marang-rang, se sebetsang hantle bakeng sa ho fihlela bamameli. Ka morero ona, ho feta 99% ea lefatše le ka bala sethala sa ka ka puo e phollatsi.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Hokela tse 'ne",
                 "text": "Lelapa le leholo la litšoaneleho tse fetang 50+ tsa hokela papali e mene e mene. Morero ona o kenyelletsa ts'ebetsong ka lipuo tse fetang 30 tse fapaneng tsa Lenaneo, ho kenyeletsa le Java, Python, Javascript le tse ling. Ho feta moo, e kenyelletsa meralo e mengata ea 20+ kapa mefuta e meng, ho kenyelletsa le ho etsa joalo, ruby, ka likhohola, asp.net le tse ling.",
@@ -95,10 +102,10 @@
                 "text": "Morero oo litokomane tse kenang lipakeng lipakeng tsa lipuo tse fapaneng tsa mananeo a manane. Hajoale e kenyelletsa lipuo tse 15 tse fapaneng tsa mananeo le mekhoa ea ho bolaoa.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel SpageSheet (vba)",
-                "text": "Laeborari e sebetsang ea lingoloa tsa Vba bakeng sa Microsoft Excel. Library tsena li sebelisoa ho mesebetsi ea likoloi tse fumanehang ka holimo ho li-pureshoe.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Automate Forace",
+                "text": "Li-le li-autopart le li-fileFortter tsa JSON & YAMl. Morero ona o sebelisoa ho hlophisa lifaele tsa JSON & YAMl, tse thusang ho boloka khoutu e hloekile ebile li hlophisitsoe. E hahiloe ka Go Litloaelo tse ling tse tlang ho tla nakong e tlang.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft Json Genent",
@@ -124,6 +131,11 @@
                 "title": "Patrick's Lua Library tsa Patrick",
                 "text": "Laeborari e sebetsang ea mangolo a Lua bakeng sa ho bua ka nako e tlang. Laeborari ena e sebelisetsoa ho fumana mesebetsi ea likoloi, e ka bang ea ho etsa mesebetsi e sebetsang, joalo ka puo ea STYS, joalo ka puo ea STRIC, joalo ka puo e potlakileng ho feta python le ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Exerl Slaoledsheet (vba)",
+                "text": "Laeborari e sebetsang ea lingoloa tsa Vba bakeng sa Microsoft Excel. Library tsena li sebelisoa ho mesebetsi ea likoloi tse fumanehang ka holimo ho li-pureshoe.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrick's Neovim Costricon Config",
@@ -186,6 +198,15 @@
         "email": "Pattysocialces@gmail.com",
         "description": "Ke arabela ka ho botsa ka lengolo-tsoibila, melaetsa ea LinkedIn, le melaetsa ea Instagram. Hape ke tla khutlela morao haeba palo ea ka e fanoe ka ho qala kapa ho seng joalo, leha ke khetha ho boloka nomoro ea ka ea mohala e le lekunutu."
     },
+    "formatter": {
+        "title": "MSON & YAML forte",
+        "description": "Foromo ea Foromo ea JSON & YAML ke sesebelisoa se u lumellang ho etsa sebopeho sa jsson le saml. E hahiloe ka wena le Websalmly Websalb, ​​'me e etselitsoe ho potlaka ebile e sebetsa hantle. Mofumahale o etselitsoe ho ba bonolo ho o sebelisa, ka sebopeho se bonolo se lumellang hore o pakele konopo ea hau ea JSON kapa YAML le eona e tlanya konopo.",
+        "more_info1": "Bakeng sa tlhaiso-leseling e batsi, sheba bukeng ea",
+        "more_info2": "NSON / YAML Fomace ea Foromo ea Foromo.",
+        "format_as": "Sebopeho joalo:",
+        "auto_detect": "Auto DEACT",
+        "format": "Sebopeho"
+    },
     "tiger": {
         "title": "Puo ea Tiger",
         "description": "Puo ea Tiger ea Tiger ke puo ea mananeo a hlahisoang ka bobeli le mafomelong a mabeli ho leka ho etsa moralo le ts'ebetso ea ho ngola le ts'ebetso. Kenya ts'ebetso webosaeteng ea Portfolio u sebelisa kopano ea marang-rang. Puo ea Tiger ea Tiger ke puo ea mananeo a hlahisoang ka bobeli le mafomelong a mabeli ho leka ho etsa moralo le ts'ebetso ea ho ngola le ts'ebetso. Kenya ts'ebetso webosaeteng ea Portfolio u sebelisa kopano ea marang-rang.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick gangwin",
         "description": "Moenjiniere o felletseng oa software e felletseng ho Thehiloe bohareng ba Florida"
+    },
+    "copy": {
+        "text": "Khopi",
+        "copied": "E kopitsoa!"
     },
     "social_media": {
         "github": "Github",

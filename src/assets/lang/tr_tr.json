@@ -4,7 +4,9 @@
         "home": "Ev",
         "about": "Hakkımda",
         "portfolio": "Portföy",
+        "projects": "Web sitesi projeleri",
         "tiger": "Kaplan dili",
+        "formatter": "JSON & YAML FORMATER",
         "contact": "Benimle iletişime geç"
     },
     "home": {
@@ -15,7 +17,7 @@
             "third": "Oyun geliştiricisi",
             "fourth": "İçerik Yaratıcısı"
         },
-        "descriptionA": "Minecraft için Java modifikasyonları oluşturmaktan React.js'de kullanıcı deneyimini geliştirmeye ve güvenli dinlenme API'lerini uygularken, sürekli olarak çevik metodolojiler ve etkili ekip işbirliği kullanırken, başarılı bir şekilde önde gelen geliştirme projeleri geçmişine sahip tam yığın yazılım mühendisi ve web geliştiricisi deneyimli.",
+        "descriptionA": "Minecraft için Java modifikasyonları oluşturmaktan React.js'de kullanıcı deneyimini geliştirmeye ve güvenli dinlenme API'lerini uygulamaya kadar başarılı bir şekilde önde gelen geliştirme projeleri geçmişine sahip tam yığın yazılım mühendisi ve web geliştiricisi deneyimli, sürekli olarak çevik metodolojiler ve etkili ekip işbirliği kullanır.",
         "descriptionB": "Buna ek olarak, saygın ve ilgi çekici bir takipçi tabanı kazanmak için Instagram, YouTube ve Tiktok da dahil olmak üzere birden fazla sosyal medya platformunun algoritmalarından başarılı bir şekilde yararlanan bir coğrafya içerik yaratıcısıyım.",
         "portfolio_button": "Portföyüm",
         "contact_button": "Benimle iletişime geç",
@@ -85,6 +87,11 @@
         "title": "Portföy",
         "filter_by": "Filtre portföyü:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Dil çevirilerini kolaylaştıran bir Python projesi. Web sitemin portföyümün İspanyolca, Fransızca, Çince, Arapça ve diğerleri de dahil olmak üzere 70'den fazla dile çevrilmesine izin veriyor. Bu proje, daha geniş bir kitleye ulaşmak için çok yararlı olan çok dilli bir web sitesi portföyü oluşturmak için kullanılır. Bu proje ile dünyanın% 99'undan fazlası portföyümü akıcı bir dilde okuyabilir.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Dörtlü Bağlayın",
                 "text": "Connect Four Game'in 50'den fazla uygulamadan oluşan büyük bir aile. Bu proje, Java, C ++, Python, JavaScript ve daha fazlası dahil olmak üzere 30'dan fazla farklı programlama dilindeki uygulamaları içerir. Ayrıca, React.js, Ruby On Rails, ASP.NET ve daha fazlası dahil olmak üzere 20'den fazla farklı çerçeve veya diğer formatları da içerir.",
@@ -95,10 +102,10 @@
                 "text": "Farklı programlama dilleri arasında birlikte çalışabilirliği belgeleyen bir proje. Şu anda 15 farklı programlama dili ve 18 yürütme paterni içermektedir.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel elektronik tablo komut dosyaları (VBA)",
-                "text": "Microsoft Excel için VBA komut dosyalarının kullanışlı bir kütüphanesi. Bu kütüphane, Excel elektronik tablolarındaki görevleri otomatikleştirmek için kullanılır.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML AUTO FORMATER",
+                "text": "JSON & YAML dosyaları için bir Linter & Autoformatter. Bu proje, kodu temiz ve düzenli tutmak için çok yararlı olan JSON & YAML dosyalarını biçimlendirmek için kullanılır. Go ile inşa edilmiş, WebAssembly ile derlenmiş ve bir web sitesi projesi olarak portföyüme gömülmüştür. Gelecekte daha fazla format gelecek.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Jeneratörü",
@@ -124,6 +131,11 @@
                 "title": "Patrick'in Lua Script Kütüphanesi",
                 "text": "Gelecekteki referans için LUA senaryolarının kullanışlı bir kütüphanesi. Bu kütüphane, Lua genellikle hem Python hem de Ruby'den daha hızlı bir komut dosyası dili olduğu için, performans ihtiyatlı görevler için kullanışlı olabilen LUA komut dosyalarındaki görevleri otomatikleştirmek için kullanılır.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrick'in Microsoft Excel Elektronik Tablo Komut Dosyaları (VBA)",
+                "text": "Microsoft Excel için VBA komut dosyalarının kullanışlı bir kütüphanesi. Bu kütüphane, Excel elektronik tablolarındaki görevleri otomatikleştirmek için kullanılır.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrick'in Neovim Config",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "E -posta, LinkedIn mesajları ve Instagram mesajlarından gelen sorulara yanıt veriyorum. Telefon numaramı özel tutmayı tercih etsem de, numaram özgeçmiş yoluyla veya başka bir şekilde sağlanırsa da geri arayacağım."
     },
+    "formatter": {
+        "title": "JSON & YAML FORMATER",
+        "description": "JSON & YAML Formatter, JSON ve YAML dosyalarını biçimlendirmenizi sağlayan bir araçtır. Go ve Webassembly ile inşa edilmiştir ve hızlı ve verimli olacak şekilde tasarlanmıştır. Formatter, JSON veya YAML kodunuza yapıştırmanıza ve bir düğmeye tıklamayla biçimlendirmenizi sağlayan basit bir arayüzle kullanımı kolay olacak şekilde tasarlanmıştır.",
+        "more_info1": "Daha fazla bilgi için,",
+        "more_info2": "JSON/YAML FORMATER DEVLİĞİ.",
+        "format_as": "AS format:",
+        "auto_detect": "Otomatik algılama",
+        "format": "Biçim"
+    },
     "tiger": {
         "title": "Kaplan dili",
         "description": "Tiger programlama dili, tercüman tasarımı ve performansını denemek için Go & Rust'ta inşa edilmiş özel bir programlama dilidir. Web Assembly kullanarak portföy web sitesinde uygulanır. Tiger programlama dili, tercüman tasarımı ve performansını denemek için Go & Rust'ta inşa edilmiş özel bir programlama dilidir. Web Assembly kullanarak portföy web sitesinde uygulanır.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Central Florida merkezli tam yığın yazılım mühendisi"
+    },
+    "copy": {
+        "text": "Kopya",
+        "copied": "Kopyalı!"
     },
     "social_media": {
         "github": "Gitithub",

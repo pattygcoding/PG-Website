@@ -4,7 +4,9 @@
         "home": "Lakay",
         "about": "Sou mwen",
         "portfolio": "Dosye",
-        "tiger": "Lang tig",
+        "projects": "Pwojè Sit wèb",
+        "tiger": "Tiger Lang",
+        "formatter": "Json & yaml formatter",
         "contact": "Kontakte mwen"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Dosye",
         "filter_by": "Filtre pòtfolyo pa:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca JSON",
+                "text": "Yon pwojè Piton ki rasyonalize tradiksyon langaj yo. Pèmèt pou dosye sit entènèt mwen an yo dwe tradui nan 70+ lang, ki gen ladan Panyòl, franse, Chinwa, arab, ak anpil lòt moun. Pwojè sa a itilize pou kreye yon dosye sit entènèt ki pale plizyè lang, ki trè itil pou rive nan yon odyans pi laj. Avèk pwojè sa a, plis pase 99% nan mond lan ka li pòtfolyo mwen an nan yon lang pale.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Konekte kat",
                 "text": "Fanmi masiv ki gen plis pase 50+ en nan jwèt la Connect kat. Pwojè sa a gen ladan en nan plis pase 30 lang pwogramasyon diferan, ki gen ladan Java, C ++, Piton, JavaScript, ak plis ankò. Anplis de sa, li gen ladan tou plis pase 20+ estrikti diferan oswa lòt fòma, ki gen ladan react.js, Ruby sou ray, asp.net, ak plis ankò.",
@@ -95,10 +102,10 @@
                 "text": "Yon pwojè ki dokimante enteroperabilite ant diferan lang pwogramasyon. Kounye a gen ladan 15 diferan lang pwogramasyon ak 18 modèl ekzekisyon.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel Scripts calcul (VBA)",
-                "text": "Yon bibliyotèk itil nan VBA Scripts pou Microsoft Excel. Se bibliyotèk sa a itilize otomatize travay nan tableur Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "Json & yaml oto formatters",
+                "text": "Yon Linter & Autoformatter pou dosye JSON & YAML. Pwojè sa a itilize fòma JSON & YAML dosye, ki se trè itil pou kenbe kòd pwòp ak òganize. Bati ak GO, konpile ak webassembly, ak entegre nan dosye mwen kòm yon pwojè sit entènèt. Plis fòma vini nan tan kap vini an.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON dèlko",
@@ -112,11 +119,11 @@
             },
             "professional_experience": {
                 "title": "Eksperyans pwofesyonèl mwen an",
-                "text": "Ansanm ak pwojè pèsonèl mwen, mwen te tou te akeri anpil ladrès nan eksperyans pwofesyonèl. Klike la a pou wè pwofil LinkedIn mwen an pou plis enfòmasyon.",
+                "text": "Ansanm ak pwojè pèsonèl mwen, mwen te akeri tou anpil ladrès nan eksperyans pwofesyonèl. Klike la a pou wè pwofil LinkedIn mwen an pou plis enfòmasyon.",
                 "link": "https://www.linkedin.com/in/patrickgoodwin7"
             },
             "portfolio_website": {
-                "title": "Patrick Goodwin Pòtfolyo Sit wèb",
+                "title": "Patrick Goodwin Sit wèb pòtfolyo",
                 "text": "Sit entènèt sa a se sit entènèt pèsonèl mwen pòtfolyo, bati ak react.js. Pwojè sa a itilize pou montre konpetans mwen yo ak pwojè yo, osi byen ke pou bay yon platfòm pou potansyèl anplwayè yo kontakte mwen. Pwojè sa a itilize pou kreye yon prezans pwofesyonèl sou entènèt.",
                 "link": "https://www.pattygcoding.com"
             },
@@ -125,8 +132,13 @@
                 "text": "Yon bibliyotèk itil nan Lua Scripts pou referans nan lavni. Se bibliyotèk sa a itilize otomatize travay nan Lua Scripts, ki ka vini an sou la men pou pèfòmans-moun ki nan bezwen travay, kòm Lua se nòmalman yon pi vit lang scripting pase tou de Piton ak Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
             },
+            "excel_scripts": {
+                "title": "Patrick's Microsoft Excel calcul Scripts (VBA)",
+                "text": "Yon bibliyotèk itil nan VBA Scripts pou Microsoft Excel. Se bibliyotèk sa a itilize otomatize travay nan tableur Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            },
             "neovim_config": {
-                "title": "Patrick a neovim config",
+                "title": "Config Neovim Patrick a",
                 "text": "Konfigirasyon pèsonèl mwen Neovim. Se pwojè sa a itilize nan konfigirasyon Neovim senpati mwen, ki gen ladan KeyBindings koutim, tèm, ak grefon. Pwojè sa a itilize pou fè Neovim plis user-zanmitay ak efikas pou itilizasyon pèsonèl mwen.",
                 "link": "https://github.com/pattygcoding/Neovim-Config"
             },
@@ -186,8 +198,17 @@
         "email": "pattygsocials@gmail.com",
         "description": "Mwen reponn a mande nan imèl, mesaj LinkedIn, ak mesaj Instagram. Mwen menm tou mwen pral rele tounen si se nimewo mwen bay atravè rezime oswa otreman, menm si mwen pito kenbe nimewo telefòn mwen prive."
     },
+    "formatter": {
+        "title": "Json & yaml formatter",
+        "description": "Formatter nan JSON & YAML se yon zouti ki pèmèt ou fòma JSON ak dosye YAML. Li se bati ak ale ak webassembly, epi li se fèt yo dwe vit ak efikas. Se formatter a ki fèt yo dwe fasil yo sèvi ak, ak yon koòdone senp ki pèmèt ou kole nan kòd JSON ou oswa YAML ak fòma li ak klike la nan yon bouton.",
+        "more_info1": "Pou plis enfòmasyon, gade nan Readme a nan la",
+        "more_info2": "JSON/YAML Formatter Repository.",
+        "format_as": "Fòma kòm:",
+        "auto_detect": "Auto Detekte",
+        "format": "Fòmat"
+    },
     "tiger": {
-        "title": "Lang tig",
+        "title": "Tiger Lang",
         "description": "Lang nan pwogramasyon Tiger se yon langaj pwogramasyon koutim bati nan tou de ale & rouye fè eksperyans ak konsepsyon entèprèt ak pèfòmans. Aplike sou sit entènèt la pòtfolyo lè l sèvi avèk asanble entènèt. Lang nan pwogramasyon Tiger se yon langaj pwogramasyon koutim bati nan tou de ale & rouye fè eksperyans ak konsepsyon entèprèt ak pèfòmans. Aplike sou sit entènèt la pòtfolyo lè l sèvi avèk asanble entènèt.",
         "more_info1": "Pou plis enfòmasyon, gade nan Readme a nan la",
         "more_info2": "Tiger Programming Language Github Repository.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Full Stack Engineer Software ki baze nan Central Florid"
+    },
+    "copy": {
+        "text": "Kopye",
+        "copied": "Kopi!"
     },
     "social_media": {
         "github": "Github",

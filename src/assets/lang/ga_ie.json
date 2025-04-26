@@ -4,7 +4,9 @@
         "home": "Áit",
         "about": "Maidir liomsa",
         "portfolio": "Plaiscf",
+        "projects": "Tionscadail láithreán gréasáin",
         "tiger": "Teanga Tíogair",
+        "formatter": "Formatter Json & Yaml",
         "contact": "Déan teagmháil liom"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Plaiscf",
         "filter_by": "Punann Scagtha le:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca Json",
+                "text": "Tionscadal Python a dhéanann aistriúcháin teanga a shruthlíniú. Ceadaíonn sé go n -aistreofaí mo phunann láithreán gréasáin go 70+ teanga, lena n -áirítear Spáinnis, Fraincis, Sínis, Araibis, agus go leor eile. Úsáidtear an tionscadal seo chun punann láithreán gréasáin ilteangach a chruthú, rud atá an -úsáideach chun lucht féachana níos leithne a bhaint amach. Leis an tionscadal seo, is féidir le níos mó ná 99% den domhan mo phunann a léamh i dteanga líofa.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Ceangail a ceathair",
                 "text": "Teaghlach ollmhór de bhreis is 50+ cur i bhfeidhm an chluiche Connect Four. Cuimsíonn an tionscadal seo cur i bhfeidhm i níos mó ná 30 teanga chlársceidealaithe, lena n -áirítear Java, C ++, Python, JavaScript, agus níos mó. Ina theannta sin, tá os cionn 20+ creatlach éagsúil nó formáidí eile ann, lena n -áirítear React.js, Ruby ar Rails, ASP.NET, agus níos mó.",
@@ -95,10 +102,10 @@
                 "text": "Tionscadal a dhéanann doiciméadú ar idir -inoibritheacht idir teangacha cláir éagsúla. Faoi láthair tá 15 teanga chlársceidealaithe agus 18 bpatrún forghníomhaithe.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Scripteanna Scarbhileog Microsoft Excel (VBA)",
-                "text": "Leabharlann úsáideach de scripteanna VBA do Microsoft Excel. Úsáidtear an leabharlann seo chun tascanna a uathoibriú i scarbhileoga Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "Formatter Auto Json & Yaml",
+                "text": "Linter & autoformatter do chomhaid JSON & YAML. Úsáidtear an tionscadal seo chun comhaid JSON & YAML a fhormáidiú, atá an -úsáideach chun cód a choinneáil glan agus eagraithe. Tógtha le Go, tiomsaithe le webassembly, agus leabaithe i mo phunann mar thionscadal láithreán gréasáin. Níos mó formáidí le teacht amach anseo.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Gineadóir Minecraft JSON",
@@ -124,6 +131,11 @@
                 "title": "Leabharlann Script Lua Patrick",
                 "text": "Leabharlann úsáideach de scripteanna Lua le haghaidh tagartha amach anseo. Úsáidtear an leabharlann seo chun tascanna a uathoibriú i scripteanna Lua, ar féidir leo teacht chun cinn i leith tascanna a bhfuil géarghá leo, mar is gnách gur teanga scriptithe níos tapúla í Lua ná Python agus Ruby araon.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Scripteanna Scarbhileog Microsoft Excel Patrick (VBA)",
+                "text": "Leabharlann úsáideach de scripteanna VBA do Microsoft Excel. Úsáidtear an leabharlann seo chun tascanna a uathoibriú i scarbhileoga Excel.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Cumraíocht Neovim Patrick",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Freagraím do fhiosrúcháin ó ríomhphost, ó theachtaireachtaí LinkedIn, agus ó theachtaireachtaí Instagram. Glaofaidh mé ar ais freisin má sholáthraítear mo uimhir trí atosú nó ar shlí eile, cé gur fearr liom m’uimhir theileafóin a choinneáil príobháideach."
     },
+    "formatter": {
+        "title": "Formatter Json & Yaml",
+        "description": "Is uirlis é an formatter JSON & YAML a ligeann duit comhaid JSON agus YAML a fhormáidiú. Tá sé tógtha le dul agus le webassembly, agus tá sé deartha le bheith tapa agus éifeachtach. Tá an formáidí deartha le bheith éasca le húsáid, le comhéadan simplí a ligeann duit greamaigh i do chód JSON nó YAML agus é a fhormáidiú le cliceáil ar an gcnaipe.",
+        "more_info1": "Le haghaidh tuilleadh eolais, féach an ReadMe sa",
+        "more_info2": "Stór Formatter JSON/YAML.",
+        "format_as": "Formáid mar:",
+        "auto_detect": "Braith uathoibríoch",
+        "format": "Formáil"
+    },
     "tiger": {
         "title": "Teanga Tíogair",
         "description": "Is teanga chlársceidealaithe saincheaptha í an Tiger Clársceidealaithe a tógadh i Go & Rust chun triail a bhaint as dearadh agus feidhmíocht ateangairí. Arna chur i bhfeidhm ar shuíomh gréasáin na punainne ag baint úsáide as Tionól Gréasáin. Is teanga chlársceidealaithe saincheaptha í an Tiger Clársceidealaithe a tógadh i Go & Rust chun triail a bhaint as dearadh agus feidhmíocht ateangairí. Arna chur i bhfeidhm ar shuíomh gréasáin na punainne ag baint úsáide as Tionól Gréasáin.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Innealtóir Bogearraí Stack Iomlán lonnaithe i Lár Florida"
+    },
+    "copy": {
+        "text": "Cóip",
+        "copied": "Cóipeáilte!"
     },
     "social_media": {
         "github": "Github",

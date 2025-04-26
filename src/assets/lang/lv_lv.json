@@ -4,7 +4,9 @@
         "home": "Mājas",
         "about": "Par mani",
         "portfolio": "Portfelis",
+        "projects": "Vietņu projekti",
         "tiger": "Tīģeru valoda",
+        "formatter": "Json & yaml formatter",
         "contact": "Sazinieties ar mani"
     },
     "home": {
@@ -15,7 +17,7 @@
             "third": "Spēļu izstrādātājs",
             "fourth": "Satura veidotājs"
         },
-        "descriptionA": "Pieredzējis pilnas kaudzes programmatūras inženieris un tīmekļa izstrādātājs ar pierādītu veiksmīgi vadošu attīstības projektu vēsturi, sākot no Java modifikāciju izveidošanas Minecraft un beidzot ar lietotāju pieredzes uzlabošanu react.js un drošas RESP API ieviešanas, vienlaikus konsekventi izmantojot veiklu metodoloģiju un efektīvu komandas sadarbību.",
+        "descriptionA": "Pieredzējis pilnas kaudzes programmatūras inženieris un tīmekļa izstrādātājs ar pierādītu veiksmīgi vadošu attīstības projektu vēsturi, sākot no Java modifikāciju izveidošanas Minecraft un beidzot ar lietotāju pieredzes uzlabošanu react.js un drošas REST API ieviešanai, vienlaikus konsekventi izmantojot veiklu metodoloģiju un efektīvu komandas sadarbību.",
         "descriptionB": "Turklāt es esmu ģeogrāfijas satura veidotājs, kurš ir veiksmīgi izmantojis vairāku sociālo mediju platformu, ieskaitot Instagram, YouTube un Tiktok, algoritmus, lai iegūtu cienījamu un saistošu sekotāju bāzi.",
         "portfolio_button": "Mans portfelis",
         "contact_button": "Sazinieties ar mani",
@@ -76,7 +78,7 @@
                 },
                 {
                     "title": "Spēļu attīstība",
-                    "text": "Piesaistot tādas valodas kā Java un C ++, es specializējos ieskaujošu spēļu pieredzes radīšanā, sākot no koncepcijas un dizaina līdz ieviešanai un optimizācijai, nodrošinot iesaistīšanos spēles un vienmērīgas veiktspējas veiktspējas jomā."
+                    "text": "Piesaistot tādas valodas kā Java un C ++, es specializējos ieskaujošu spēļu pieredzes radīšanā, sākot no koncepcijas un dizaina līdz ieviešanai un optimizācijai, nodrošinot iesaistīšanos spēles un vienmērīgu veiktspēju."
                 }
             ]
         }
@@ -85,6 +87,11 @@
         "title": "Portfelis",
         "filter_by": "Filtrēšanas portfelis ar:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca json",
+                "text": "Python projekts, kas racionalizē valodu tulkojumus. Ļauj manu vietnes portfeli tulkot 70+ valodās, ieskaitot spāņu, franču, ķīniešu, arābu un daudzus citus. Šis projekts tiek izmantots, lai izveidotu daudzvalodu vietņu portfeli, kas ir ļoti noderīgs, lai sasniegtu plašāku auditoriju. Izmantojot šo projektu, vairāk nekā 99% pasaules var lasīt manu portfeli tekošā valodā.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Savienot četrus",
                 "text": "Masīva ģimene, kas ir vairāk nekā 50 vairāk nekā 50 Connect četru spēles ieviešana. Šis projekts ietver ieviešanu vairāk nekā 30 dažādās programmēšanas valodās, ieskaitot Java, C ++, Python, JavaScript un daudz ko citu. Turklāt tas ietver arī vairāk nekā 20 vairāk dažādus ietvarus vai citus formātus, ieskaitot React.js, Ruby on Rails, Asp.net un daudz ko citu.",
@@ -95,10 +102,10 @@
                 "text": "Projekts, kas dokumentē savietojamību starp dažādām programmēšanas valodām. Pašlaik ietilpst 15 dažādas programmēšanas valodas un 18 izpildes modeļi.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Microsoft Excel izklājlapu skripti (VBA)",
-                "text": "Noderīga VBA skriptu bibliotēka Microsoft Excel. Šī bibliotēka tiek izmantota, lai automatizētu uzdevumus Excel izklājlapās.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "Json & yaml auto formatter",
+                "text": "JSON & YAML failu oderējums un autoformaters. Šis projekts tiek izmantots JSON & YAML failu formatēšanai, kas ir ļoti noderīgi, lai kods būtu tīrs un sakārtots. Būvēts ar Go, apkopots ar WebAssembly un iegults manā portfelī kā vietnes projekts. Vairāk formātu, kas nāk nākotnē.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON ģenerators",
@@ -122,8 +129,13 @@
             },
             "lua_library": {
                 "title": "Patrika Lua skriptu bibliotēka",
-                "text": "Noderīga LUA skriptu bibliotēka turpmākai atsaucei. Šī bibliotēka tiek izmantota, lai automatizētu uzdevumus LUA skriptos, kas var noderēt veiktspējas un needīvu uzdevumiem, jo ​​Lua parasti ir ātrāka skriptu valoda nekā gan Python, gan Ruby.",
+                "text": "Noderīga LUA skriptu bibliotēka turpmākai atsaucei. Šī bibliotēka tiek izmantota, lai automatizētu uzdevumus LUA skriptos, kas var noderēt veiktspējas un neēdu uzdevumu veikšanai, jo Lua parasti ir ātrāka skriptu valoda nekā gan Python, gan Ruby.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrika Microsoft Excel izklājlapu skripti (VBA)",
+                "text": "Noderīga VBA skriptu bibliotēka Microsoft Excel. Šī bibliotēka tiek izmantota, lai automatizētu uzdevumus Excel izklājlapās.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrika neovim konfigurācija",
@@ -186,11 +198,20 @@
         "email": "Pattygsocials@gmail.com",
         "description": "Es atbildu uz jautājumiem no e -pasta, LinkedIn ziņojumiem un Instagram ziņojumiem. Es arī piezvanīšu, ja mans numurs tiek nodrošināts, izmantojot atsākšanu vai kā citādi, lai gan es labprātāk saglabāju savu tālruņa numuru privātu."
     },
+    "formatter": {
+        "title": "Json & yaml formatter",
+        "description": "JSON & YAML FORMATTER ir rīks, kas ļauj formatēt JSON un YAML failus. Tas ir veidots ar Go un WebAssembly, un tas ir paredzēts ātri un efektīvam. Formaters ir veidots tā, lai būtu ērti lietojams, ar vienkāršu saskarni, kas ļauj ielīmēt JSON vai YAML kodu un formatēt to ar pogas klikšķi.",
+        "more_info1": "Lai iegūtu papildinformāciju, skatiet ReadMe in the",
+        "more_info2": "JSON/Yaml formatter Repository.",
+        "format_as": "Formāts kā:",
+        "auto_detect": "Automātiska noteikšana",
+        "format": "Formāts"
+    },
     "tiger": {
         "title": "Tīģeru valoda",
         "description": "Tīģera programmēšanas valoda ir pielāgota programmēšanas valoda, kas iebūvēta gan Go, gan Rust, lai eksperimentētu ar tulka dizainu un veiktspēju. Ievietots portfeļa vietnē, izmantojot tīmekļa montāžu. Tīģera programmēšanas valoda ir pielāgota programmēšanas valoda, kas iebūvēta gan Go, gan Rust, lai eksperimentētu ar tulka dizainu un veiktspēju. Ievietots portfeļa vietnē, izmantojot tīmekļa montāžu.",
-        "more_info1": "Lai iegūtu papildinformāciju, skatiet ReadMe",
-        "more_info2": "Tīģera programmēšanas valoda Github repozitorijs.",
+        "more_info1": "Lai iegūtu papildinformāciju, skatiet ReadMe in the",
+        "more_info2": "Tīģera programmēšanas valodas Github repozitorija.",
         "select_engine": "Atlasīt motoru:",
         "tiger_code": "Tīģera kods:",
         "run_tiger": "Run Tīģeris",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patriks Goodvins",
         "description": "Pilna kaudze programmatūras inženieris, kas atrodas Centrālajā Floridā"
+    },
+    "copy": {
+        "text": "Kopija",
+        "copied": "Kopēts!"
     },
     "social_media": {
         "github": "Github",

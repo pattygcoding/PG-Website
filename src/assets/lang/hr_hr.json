@@ -4,7 +4,9 @@
         "home": "Dom",
         "about": "O meni",
         "portfolio": "Portfelj",
+        "projects": "Projekti web stranica",
         "tiger": "Jezik tigra",
+        "formatter": "Json & yaml fortter",
         "contact": "Kontaktirajte me"
     },
     "home": {
@@ -85,6 +87,11 @@
         "title": "Portfelj",
         "filter_by": "Filter portfelj od:",
         "entries": {
+            "biblioteca": {
+                "title": "Biblioteca json",
+                "text": "Python projekt koji pojednostavljuje jezične prijevode. Omogućuje prevođenje portfelja moje web stranice na 70+ jezika, uključujući španjolski, francuski, kineski, arapski i mnoge druge. Ovaj se projekt koristi za stvaranje višejezičnog portfelja web stranica, što je vrlo korisno za postizanje šire publike. Ovim projektom preko 99% svijeta može pročitati moj portfelj tečnim jezikom.",
+                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+            },
             "connect_four": {
                 "title": "Spojite četiri",
                 "text": "Masivna obitelj od preko 50+ implementacija Connect Four Game. Ovaj projekt uključuje implementacije u preko 30 različitih programskih jezika, uključujući Java, C ++, Python, JavaScript i još mnogo toga. Uz to, uključuje i preko 20+ različitih okvira ili drugih formata, uključujući React.js, Ruby on Rails, ASP.NET i još mnogo toga.",
@@ -95,10 +102,10 @@
                 "text": "Projekt koji dokumentira interoperabilnost između različitih programskih jezika. Trenutno uključuje 15 različitih programskih jezika i 18 obrazaca izvršenja.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
-            "excel_scripts": {
-                "title": "Skripte proračunske tablice Microsoft Excel (VBA)",
-                "text": "Korisna biblioteka VBA skripta za Microsoft Excel. Ova se knjižnica koristi za automatizaciju zadataka u Excel proračunskim tablicama.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+            "formatter": {
+                "title": "JSON & YAML Auto formatter",
+                "text": "LINTER & AUTOMORMERTER za datoteke JSON & YAML. Ovaj se projekt koristi za formatiranje JSON & YAML datoteka, što je vrlo korisno za održavanje koda čistog i organiziranog. Izgrađen s GO -om, sastavljenim s Webassembly -om i ugrađen u moj portfelj kao projekt web stranice. Više formata koji dolaze u budućnosti.",
+                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON generator",
@@ -124,6 +131,11 @@
                 "title": "Patrickova knjižnica skripte Lua",
                 "text": "Korisna biblioteka LUA skripta za buduću referencu. Ova se knjižnica koristi za automatizaciju zadataka u LUA skriptama, što može biti korisno za zadatke potrebne performanse, jer je LUA obično brži scenarijski jezik od Pythona i Rubyja.",
                 "link": "https://github.com/pattygcoding/Lua-Scripts"
+            },
+            "excel_scripts": {
+                "title": "Patrickovi skripte proračunske tablice Microsoft Excel (VBA)",
+                "text": "Korisna biblioteka VBA skripta za Microsoft Excel. Ova se knjižnica koristi za automatizaciju zadataka u Excel proračunskim tablicama.",
+                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
             },
             "neovim_config": {
                 "title": "Patrickov Neovim config",
@@ -186,6 +198,15 @@
         "email": "pattygsocials@gmail.com",
         "description": "Odgovaram na upite iz e -pošte, LinkedIn poruka i Instagram poruka. Nazvat ću i ako se moj broj osigura putem životopisa ili na neki drugi način, premda radije držim svoj telefonski broj privatnim."
     },
+    "formatter": {
+        "title": "Json & yaml fortter",
+        "description": "JSON & YAML Fortter je alat koji vam omogućuje formatiranje JSON i YAML datoteka. Izgrađen je s Go i Webassembly -om, a dizajniran je tako da bude brz i učinkovit. Formter je dizajniran tako da bude jednostavan za upotrebu, s jednostavnim sučeljem koje vam omogućuje zalijepiti u svoj JSON ili YAML kôd i formatirati ga klikom na gumb.",
+        "more_info1": "Za više informacija pogledajte ReadMe u",
+        "more_info2": "JSON/YAML FORFORTER SPOZITORIJA.",
+        "format_as": "Format kao:",
+        "auto_detect": "Automatsko otkrivanje",
+        "format": "Format"
+    },
     "tiger": {
         "title": "Jezik tigra",
         "description": "Tiger programski jezik je prilagođeni programski jezik izgrađen i u Go & Rust kako bi eksperimentirao s dizajnom i performansama tumača. Implementirano na web mjestu portfelja pomoću web sastavljanja. Tiger programski jezik je prilagođeni programski jezik izgrađen i u Go & Rust kako bi eksperimentirao s dizajnom i performansama tumača. Implementirano na web mjestu portfelja pomoću web sastavljanja.",
@@ -199,6 +220,10 @@
     "tab": {
         "title": "Patrick Goodwin",
         "description": "Full Stack softverski inženjer sa sjedištem u središnjoj Floridi"
+    },
+    "copy": {
+        "text": "Kopirati",
+        "copied": "Kopirano!"
     },
     "social_media": {
         "github": "Ždrijeb",
