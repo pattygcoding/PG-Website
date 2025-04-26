@@ -30,7 +30,7 @@ const Tiger = () => {
 				});
 
 				const go = new window.Go();
-				const result = await WebAssembly.instantiateStreaming(fetch("/main_go.wasm"), go.importObject);
+				const result = await WebAssembly.instantiateStreaming(fetch("/wasm/tiger_go.wasm"), go.importObject);
 				go.run(result.instance);
 				goLoaded.current = true;
 

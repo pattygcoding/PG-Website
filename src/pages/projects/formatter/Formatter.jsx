@@ -26,7 +26,7 @@ const Formatter = () => {
 			}
 
 			const go = new window.Go();
-			WebAssembly.instantiateStreaming(fetch("/formatter-go.wasm"), go.importObject)
+			WebAssembly.instantiateStreaming(fetch("/wasm/formatter_go.wasm"), go.importObject)
 				.then((result) => {
 					go.run(result.instance);
 					setWasmReady(true);
