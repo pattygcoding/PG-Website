@@ -6,8 +6,9 @@ import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import { validateCube } from "./cube/validate";
 import { useCubeSolver } from "./cube/painting";
-import { W90C, W90CC, R90C, R90CC, B90C, B90CC, O90C, O90CC, G90C, G90CC, Y90C, Y90CC } from "./cube/rotations"; // <<< New import
-
+import { algorithm } from "./cube/algorithm";
+import { applyTestState } from "./cube/test";
+import { materialHex } from "./cube/cube";
 import "./CubeSolver.css";
 
 const CubeSolver = () => {
@@ -35,11 +36,13 @@ const CubeSolver = () => {
 	];
 
 	function handleStart() {
+		applyTestState(cubeGroupRef);
+
 		const missingPieces = validateCube(cubeGroupRef);
 		setValidationResults(missingPieces);
 
 		if (missingPieces.length === 0) {
-			W90C(cubeGroupRef);
+			algorithm(cubeGroupRef);
 		}
 	}
 
