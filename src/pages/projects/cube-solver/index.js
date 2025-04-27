@@ -1,0 +1,1 @@
+export { default as CubeSolver } from './CubeSolver';
