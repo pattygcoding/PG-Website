@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import { createCubeGroup, materialHex } from "./cube";
+import { createCubeGroup } from "./cube";
 
 export function setupCubeSolver(mountRef, refs) {
     const scene = new THREE.Scene();
@@ -39,55 +39,34 @@ export function setupCubeSolver(mountRef, refs) {
     const raycaster = new THREE.Raycaster();
     const mouse = new THREE.Vector2();
 
-    function onMouseClick(event) {
-        if (!mountRef.current || refs.rotateModeRef.current) return;
-
-        const bounds = mountRef.current.getBoundingClientRect();
-        mouse.x = ((event.clientX - bounds.left) / bounds.width) * 2 - 1;
-        mouse.y = -((event.clientY - bounds.top) / bounds.height) * 2 + 1;
-
-        raycaster.setFromCamera(mouse, camera);
-
-        const intersects = raycaster.intersectObjects(cubeGroup.children, true);
-
-        if (intersects.length > 0) {
-            const intersect = intersects[0];
-            const mesh = intersect.object;
-            const faceIndex = Math.floor(intersect.faceIndex / 2);
-
-            if (refs.selectedColorRef.current && mesh && Array.isArray(mesh.material)) {
-                const hex = materialHex(refs.selectedColorRef.current);
-
-                if (mesh.material[faceIndex]) {
-                    const currentColor = mesh.material[faceIndex].color.getHexString();
-                    if (currentColor !== "000000") {
-                        mesh.material[faceIndex].color.set(hex);
-                        mesh.material[faceIndex].needsUpdate = true;
-                    }
-                }
-            }
-        }
-    }
-
-    mountRef.current.addEventListener('click', onMouseClick);
+    let animationFrameId;
 
     function animate() {
-        requestAnimationFrame(animate);
+        animationFrameId = requestAnimationFrame(animate);
 
-        if (refs.controlsRef.current) {
-            refs.controlsRef.current.enabled = refs.rotateModeRef.current;
+        if (refs.controlsRef?.current) {
             refs.controlsRef.current.update();
         }
 
-        refs.rendererRef.current.render(refs.sceneRef.current, refs.cameraRef.current);
+        if (refs.rendererRef?.current && refs.sceneRef?.current && refs.cameraRef?.current) {
+            refs.rendererRef.current.render(refs.sceneRef.current, refs.cameraRef.current);
+        }
     }
 
     animate();
 
-    return () => {
+    function cleanup() {
+        if (animationFrameId) {
+            cancelAnimationFrame(animationFrameId);
+        }
         if (mountRef.current && refs.rendererRef.current?.domElement) {
             mountRef.current.removeChild(refs.rendererRef.current.domElement);
-            mountRef.current.removeEventListener('click', onMouseClick);
         }
+    }
+
+    return {
+        cleanup,
+        raycaster,
+        mouse
     };
 }

@@ -23,12 +23,12 @@ export function createCubeGroup() {
                 const geometry = new THREE.BoxGeometry(smallCubeSize, smallCubeSize, smallCubeSize);
 
                 const faceMaterials = [
-                    new THREE.MeshPhongMaterial({ color: x === 1 ? 0xff0000 : 0x000000 }), // Right
-                    new THREE.MeshPhongMaterial({ color: x === -1 ? 0xffa500 : 0x000000 }), // Left
-                    new THREE.MeshPhongMaterial({ color: y === 1 ? 0xffffff : 0x000000 }), // Top
-                    new THREE.MeshPhongMaterial({ color: y === -1 ? 0xffff00 : 0x000000 }), // Bottom
-                    new THREE.MeshPhongMaterial({ color: z === 1 ? 0x0000ff : 0x000000 }), // Front
-                    new THREE.MeshPhongMaterial({ color: z === -1 ? 0x00ff00 : 0x000000 }), // Back
+                    new THREE.MeshBasicMaterial({ color: x === 1 ? 0xff0000 : 0x000000 }), // Right
+                    new THREE.MeshBasicMaterial({ color: x === -1 ? 0xffa500 : 0x000000 }), // Left
+                    new THREE.MeshBasicMaterial({ color: y === 1 ? 0xffffff : 0x000000 }), // Top
+                    new THREE.MeshBasicMaterial({ color: y === -1 ? 0xffff00 : 0x000000 }), // Bottom
+                    new THREE.MeshBasicMaterial({ color: z === 1 ? 0x0000ff : 0x000000 }), // Front
+                    new THREE.MeshBasicMaterial({ color: z === -1 ? 0x00ff00 : 0x000000 }), // Back
                 ];
 
                 const smallCube = new THREE.Mesh(geometry, faceMaterials);
