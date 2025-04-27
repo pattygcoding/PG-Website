@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { mapping } from "./mapping";
 
 export function materialHex(color) {
     const colorMap = {
@@ -73,35 +74,10 @@ export function createCubeGroup() {
     return group;
 }
 
-const rotationMapping = {
-    U: {
-        clockwise: [
-            [{ face: 'U', index: 0 }, { face: 'U', index: 6 }],
-            [{ face: 'U', index: 1 }, { face: 'U', index: 3 }],
-            [{ face: 'U', index: 2 }, { face: 'U', index: 0 }],
-            [{ face: 'U', index: 3 }, { face: 'U', index: 7 }],
-            [{ face: 'U', index: 5 }, { face: 'U', index: 1 }],
-            [{ face: 'U', index: 6 }, { face: 'U', index: 8 }],
-            [{ face: 'U', index: 7 }, { face: 'U', index: 5 }],
-            [{ face: 'U', index: 8 }, { face: 'U', index: 2 }],
-            [{ face: 'F', index: 0 }, { face: 'R', index: 0 }],
-            [{ face: 'F', index: 1 }, { face: 'R', index: 1 }],
-            [{ face: 'F', index: 2 }, { face: 'R', index: 2 }],
-            [{ face: 'R', index: 0 }, { face: 'B', index: 0 }],
-            [{ face: 'R', index: 1 }, { face: 'B', index: 1 }],
-            [{ face: 'R', index: 2 }, { face: 'B', index: 2 }],
-            [{ face: 'B', index: 0 }, { face: 'L', index: 0 }],
-            [{ face: 'B', index: 1 }, { face: 'L', index: 1 }],
-            [{ face: 'B', index: 2 }, { face: 'L', index: 2 }],
-            [{ face: 'L', index: 0 }, { face: 'F', index: 0 }],
-            [{ face: 'L', index: 1 }, { face: 'F', index: 1 }],
-            [{ face: 'L', index: 2 }, { face: 'F', index: 2 }],
-        ],
-    },
-};
-
 export function updateCubeState(face, clockwise = true) {
-    const moves = rotationMapping[face][clockwise ? 'clockwise' : 'counterClockwise'];
+    console.log(face, clockwise)
+    const moves = mapping[face][clockwise ? 'clockwise' : 'counterClockwise'];
+    console.log(moves)
     const newState = JSON.parse(JSON.stringify(cubeState));
 
     for (const [from, to] of moves) {

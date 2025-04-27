@@ -9,7 +9,7 @@ const ROTATION_MAP = {
     L: { axis: 'x', value: -1 },
 };
 
-export async function algorithm(cubeGroupRef) {
+export function algorithm(cubeGroupRef) {
     if (!cubeGroupRef?.current) {
         console.error("No cube group to operate on");
         return;
@@ -24,25 +24,32 @@ export async function algorithm(cubeGroupRef) {
 
     console.log("🚀 Starting algorithm with moveList:", moveList);
 
-    for (const move of moveList) {
-        console.log("➡️ Starting move:", move.move, move.direction);
-        await performMove(cubeGroupRef, move);
-        console.log("✅ Finished move:", move.move, move.direction);
+    runMoveSequence(cubeGroupRef, moveList, 0);
+}
+
+function runMoveSequence(cubeGroupRef, moveList, index) {
+    if (index >= moveList.length) {
+        console.log("🏁 Finished all moves");
+        return;
     }
 
-    console.log("🏁 Finished all moves");
+    const move = moveList[index];
+    console.log("➡️ Starting move:", move.move, move.direction);
+
+    performMove(cubeGroupRef, move)
+        .then(() => {
+            runMoveSequence(cubeGroupRef, moveList, index + 1);
+        });
 }
 
 async function performMove(cubeGroupRef, { move, direction }) {
     const mapping = ROTATION_MAP[move];
     if (!mapping) {
-        console.error("Unknown move:", move);
         return;
     }
 
     const { axis, value } = mapping;
     const angle = direction === "cw" ? Math.PI / 2 : -Math.PI / 2;
 
-    console.log("📦 performMove:", { axis, value, angle });
     await rotateLayer(cubeGroupRef, axis, value, angle);
 }

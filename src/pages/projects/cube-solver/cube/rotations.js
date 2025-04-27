@@ -1,6 +1,5 @@
 import * as THREE from "three";
 import { rotateFaceColorsForAxis } from "./faceRotationHelpers";
-import { updateCubieMaterials } from "./updateCubieMaterials";
 import { updateCubeState } from "./cube";
 
 const ROTATION_SPEED = Math.PI / 60; // Smooth rotation
@@ -8,19 +7,14 @@ const ROTATION_SPEED = Math.PI / 60; // Smooth rotation
 export function rotateLayer(cubeGroupRef, axis, value, totalAngle) {
     return new Promise((resolve) => {
         if (!cubeGroupRef?.current) {
-            console.log("rotateLayer: cubeGroupRef is missing");
             resolve();
             return;
         }
 
-        console.log("🔵 rotateLayer called:", { axis, value, totalAngle });
-
         const layerCubies = cubeGroupRef.current.children.filter(cubie => {
             const pos = cubie.position[axis];
-            return Math.abs(pos - value) < 0.2; // 🔥 Tolerate slight floating-point errors
+            return Math.abs(pos - value) < 0.2;
         });
-
-        console.log(`🟠 Found ${layerCubies.length} cubies for ${axis} = ${value}`);
 
         if (layerCubies.length === 0) {
             console.warn(`⚠️ No cubies found for ${axis} = ${value}`);
@@ -49,17 +43,13 @@ export function rotateLayer(cubeGroupRef, axis, value, totalAngle) {
 
             rotated += delta;
 
-            console.log(`🔁 rotated so far: ${rotated.toFixed(4)} / total: ${totalAngle.toFixed(4)}`);
-
             if (Math.abs(totalAngle - rotated) > 0.001) {
                 requestAnimationFrame(animate);
             } else {
-                console.log("🟢 Finished rotation:", { axis, value, totalAngle });
 
                 for (const cubie of layerCubies) {
                     rotateFaceColorsForAxis(cubie, axis, Math.sign(totalAngle));
                     remapCubieFaceColors(cubie, axis, Math.sign(totalAngle) > 0);
-                    updateCubieMaterials(cubie);
 
                     cubie.position.x = Math.round(cubie.position.x);
                     cubie.position.y = Math.round(cubie.position.y);
@@ -75,8 +65,6 @@ export function rotateLayer(cubeGroupRef, axis, value, totalAngle) {
                 if (faceLetter) {
                     updateCubeState(faceLetter, clockwise);
                 }
-
-                // 🔥 Delay resolve to next tick to let event loop clear properly
                 setTimeout(() => {
                     resolve();
                 }, 0);
