@@ -5,7 +5,8 @@ import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import { validateCube } from "./cube/validate";
-import { useCubeSolver } from "./cube/painting"; // << using the moved logic!
+import { useCubeSolver } from "./cube/painting";
+import { W90C, W90CC, R90C, R90CC, B90C, B90CC, O90C, O90CC, G90C, G90CC, Y90C, Y90CC } from "./cube/rotations"; // <<< New import
 
 import "./CubeSolver.css";
 
@@ -33,9 +34,13 @@ const CubeSolver = () => {
 		{ color: "red", hex: "#ff0000" },
 	];
 
-	function handleSolve() {
+	function handleStart() {
 		const missingPieces = validateCube(cubeGroupRef);
 		setValidationResults(missingPieces);
+
+		if (missingPieces.length === 0) {
+			W90C(cubeGroupRef);
+		}
 	}
 
 	function handleColorSelect(color) {
@@ -63,8 +68,8 @@ const CubeSolver = () => {
 					<div className="left-panel">
 						<div className="cube-canvas" ref={mountRef} />
 						<div className="solve-row">
-							<button className="solve-button" onClick={handleSolve}>
-								{t("cube_solver.solve", { defaultValue: "Solve" })}
+							<button className="solve-button" onClick={handleStart}>
+								{t("cube_solver.start", { defaultValue: "Start" })}
 							</button>
 
 							<div className="validation-results">
