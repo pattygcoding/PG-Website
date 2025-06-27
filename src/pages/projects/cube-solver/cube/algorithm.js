@@ -1,4 +1,6 @@
 import { rotateLayer } from "./rotations";
+import { updateCubeState } from "./cube";
+
 
 const ROTATION_MAP = {
     U: { axis: 'y', value: 1 },
@@ -16,10 +18,8 @@ export function algorithm(cubeGroupRef) {
     }
 
     const moveList = [
-        { move: "F", direction: "ccw" },
-        { move: "U", direction: "cw" },
         { move: "R", direction: "cw" },
-        { move: "U", direction: "cw" },
+        { move: "U", direction: "cw" }
     ];
 
     console.log("🚀 Starting algorithm with moveList:", moveList);
@@ -52,4 +52,6 @@ async function performMove(cubeGroupRef, { move, direction }) {
     const angle = direction === "cw" ? Math.PI / 2 : -Math.PI / 2;
 
     await rotateLayer(cubeGroupRef, axis, value, angle);
+
+    updateCubeState(move, direction === "cw");
 }

@@ -8,7 +8,6 @@ import { validateCube } from "./cube/validate";
 import { useCubeSolver } from "./cube/painting";
 import { algorithm } from "./cube/algorithm";
 import { applyTestState } from "./cube/test";
-import { materialHex } from "./cube/cube";
 import "./CubeSolver.css";
 
 const CubeSolver = () => {

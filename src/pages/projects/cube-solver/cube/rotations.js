@@ -1,133 +1,149 @@
+// rotations.js
 import * as THREE from "three";
 import { rotateFaceColorsForAxis } from "./faceRotationHelpers";
 import { updateCubeState } from "./cube";
 
-const ROTATION_SPEED = Math.PI / 60; // Smooth rotation
+const ROTATION_SPEED = Math.PI / 60; // radians per frame
 
 export function rotateLayer(cubeGroupRef, axis, value, totalAngle) {
-    return new Promise((resolve) => {
-        if (!cubeGroupRef?.current) {
-            resolve();
-            return;
-        }
+  return new Promise(resolve => {
+    const root = cubeGroupRef.current;
+    if (!root) {
+      resolve();
+      return;
+    }
 
-        const layerCubies = cubeGroupRef.current.children.filter(cubie => {
-            const pos = cubie.position[axis];
-            return Math.abs(pos - value) < 0.2;
+    // ─── 1) FIND ALL CUBIES ON THIS SLICE ───────────────────────────────
+    const layerCubies = [];
+    root.traverse(obj => {
+      // assume every cubie mesh has userData.faceColors
+      if (obj.userData?.faceColors) {
+        const pos = Math.round(obj.position[axis]);
+        if (pos === value) layerCubies.push(obj);
+      }
+    });
+
+    if (layerCubies.length === 0) {
+      console.warn(`⚠️ No cubies found for ${axis} = ${value}`);
+      resolve();
+      return;
+    }
+
+    // ─── 2) compute center-of-mass for nice pivot ───────────────────────
+    const center = new THREE.Vector3();
+    layerCubies.forEach(c => center.add(c.position));
+    center.divideScalar(layerCubies.length);
+
+    // ─── 3) build rotation axis ────────────────────────────────────────
+    const rotationAxis = new THREE.Vector3(
+      axis === "x" ? 1 : 0,
+      axis === "y" ? 1 : 0,
+      axis === "z" ? 1 : 0
+    );
+
+    let rotated = 0;
+
+    // ─── 4) animate loop ───────────────────────────────────────────────
+    function animate() {
+      const step = Math.sign(totalAngle)
+        * Math.min(Math.abs(totalAngle - rotated), ROTATION_SPEED);
+
+      // move each cubie’s position & orientation
+      for (const cubie of layerCubies) {
+        cubie.position.sub(center);
+        cubie.position.applyAxisAngle(rotationAxis, step);
+        cubie.position.add(center);
+        cubie.rotateOnAxis(rotationAxis, step);
+      }
+
+      rotated += step;
+
+      if (Math.abs(totalAngle - rotated) > 1e-3) {
+        requestAnimationFrame(animate);
+      } else {
+        // ─── 5) final snap & recolor ──────────────────────────────────
+        const clockwise = Math.sign(totalAngle) > 0;
+
+        layerCubies.forEach(cubie => {
+          // rotate stored face-colors
+          rotateFaceColorsForAxis(cubie, axis, clockwise);
+          remapCubieFaceColors(cubie, axis, clockwise);
+
+          // snap position to integer grid
+          cubie.position.x = Math.round(cubie.position.x);
+          cubie.position.y = Math.round(cubie.position.y);
+          cubie.position.z = Math.round(cubie.position.z);
+
+          // snap rotation to nearest 90°
+          cubie.rotation.x =
+            Math.round(cubie.rotation.x / (Math.PI / 2)) * (Math.PI / 2);
+          cubie.rotation.y =
+            Math.round(cubie.rotation.y / (Math.PI / 2)) * (Math.PI / 2);
+          cubie.rotation.z =
+            Math.round(cubie.rotation.z / (Math.PI / 2)) * (Math.PI / 2);
         });
 
-        if (layerCubies.length === 0) {
-            console.warn(`⚠️ No cubies found for ${axis} = ${value}`);
-            resolve();
-            return;
-        }
+        // ─── 6) update your cube‐state and finish ──────────────────────
+        const face = axisToFaceLetter(axis, value);
+        if (face) updateCubeState(face, clockwise);
 
-        const rotationAxis = new THREE.Vector3(
-            axis === 'x' ? 1 : 0,
-            axis === 'y' ? 1 : 0,
-            axis === 'z' ? 1 : 0
-        );
+        setTimeout(resolve, 0);
+      }
+    }
 
-        const center = new THREE.Vector3(0, 0, 0);
-        let rotated = 0;
-
-        function animate() {
-            const delta = Math.sign(totalAngle) * Math.min(Math.abs(totalAngle - rotated), ROTATION_SPEED);
-
-            for (const cubie of layerCubies) {
-                cubie.position.sub(center);
-                cubie.position.applyAxisAngle(rotationAxis, delta);
-                cubie.position.add(center);
-                cubie.rotateOnAxis(rotationAxis, delta);
-            }
-
-            rotated += delta;
-
-            if (Math.abs(totalAngle - rotated) > 0.001) {
-                requestAnimationFrame(animate);
-            } else {
-
-                for (const cubie of layerCubies) {
-                    rotateFaceColorsForAxis(cubie, axis, Math.sign(totalAngle));
-                    remapCubieFaceColors(cubie, axis, Math.sign(totalAngle) > 0);
-
-                    cubie.position.x = Math.round(cubie.position.x);
-                    cubie.position.y = Math.round(cubie.position.y);
-                    cubie.position.z = Math.round(cubie.position.z);
-
-                    cubie.rotation.x = Math.round(cubie.rotation.x / (Math.PI / 2)) * (Math.PI / 2);
-                    cubie.rotation.y = Math.round(cubie.rotation.y / (Math.PI / 2)) * (Math.PI / 2);
-                    cubie.rotation.z = Math.round(cubie.rotation.z / (Math.PI / 2)) * (Math.PI / 2);
-                }
-
-                const faceLetter = axisToFaceLetter(axis, value);
-                const clockwise = Math.sign(totalAngle) > 0;
-                if (faceLetter) {
-                    updateCubeState(faceLetter, clockwise);
-                }
-                setTimeout(() => {
-                    resolve();
-                }, 0);
-            }
-        }
-
-        requestAnimationFrame(animate);
-    });
+    requestAnimationFrame(animate);
+  });
 }
 
 function axisToFaceLetter(axis, value) {
-    if (axis === 'x') {
-        return value > 0 ? 'R' : 'L';
-    }
-    if (axis === 'y') {
-        return value > 0 ? 'U' : 'D';
-    }
-    if (axis === 'z') {
-        return value > 0 ? 'F' : 'B';
-    }
-    return null;
+  if (axis === "x") return value > 0 ? "R" : "L";
+  if (axis === "y") return value > 0 ? "U" : "D";
+  if (axis === "z") return value > 0 ? "F" : "B";
+  return null;
 }
 
 function remapCubieFaceColors(cubie, axis, clockwise) {
-    const oldColors = { ...cubie.userData.faceColors };
+  const old = { ...cubie.userData.faceColors };
 
-    if (axis === 'x') {
-        if (clockwise) {
-            cubie.userData.faceColors.up = oldColors.front;
-            cubie.userData.faceColors.front = oldColors.down;
-            cubie.userData.faceColors.down = oldColors.back;
-            cubie.userData.faceColors.back = oldColors.up;
-        } else {
-            cubie.userData.faceColors.up = oldColors.back;
-            cubie.userData.faceColors.back = oldColors.down;
-            cubie.userData.faceColors.down = oldColors.front;
-            cubie.userData.faceColors.front = oldColors.up;
-        }
+  if (axis === "x") {
+    if (clockwise) {
+      cubie.userData.faceColors.up    = old.front;
+      cubie.userData.faceColors.front = old.down;
+      cubie.userData.faceColors.down  = old.back;
+      cubie.userData.faceColors.back  = old.up;
+    } else {
+      cubie.userData.faceColors.up    = old.back;
+      cubie.userData.faceColors.back  = old.down;
+      cubie.userData.faceColors.down  = old.front;
+      cubie.userData.faceColors.front = old.up;
     }
-    if (axis === 'y') {
-        if (clockwise) {
-            cubie.userData.faceColors.front = oldColors.left;
-            cubie.userData.faceColors.left = oldColors.back;
-            cubie.userData.faceColors.back = oldColors.right;
-            cubie.userData.faceColors.right = oldColors.front;
-        } else {
-            cubie.userData.faceColors.front = oldColors.right;
-            cubie.userData.faceColors.right = oldColors.back;
-            cubie.userData.faceColors.back = oldColors.left;
-            cubie.userData.faceColors.left = oldColors.front;
-        }
+  }
+
+  if (axis === "y") {
+    if (clockwise) {
+      cubie.userData.faceColors.front = old.left;
+      cubie.userData.faceColors.left  = old.back;
+      cubie.userData.faceColors.back  = old.right;
+      cubie.userData.faceColors.right = old.front;
+    } else {
+      cubie.userData.faceColors.front = old.right;
+      cubie.userData.faceColors.right = old.back;
+      cubie.userData.faceColors.back  = old.left;
+      cubie.userData.faceColors.left  = old.front;
     }
-    if (axis === 'z') {
-        if (clockwise) {
-            cubie.userData.faceColors.up = oldColors.left;
-            cubie.userData.faceColors.left = oldColors.down;
-            cubie.userData.faceColors.down = oldColors.right;
-            cubie.userData.faceColors.right = oldColors.up;
-        } else {
-            cubie.userData.faceColors.up = oldColors.right;
-            cubie.userData.faceColors.right = oldColors.down;
-            cubie.userData.faceColors.down = oldColors.left;
-            cubie.userData.faceColors.left = oldColors.up;
-        }
+  }
+
+  if (axis === "z") {
+    if (clockwise) {
+      cubie.userData.faceColors.up    = old.left;
+      cubie.userData.faceColors.left  = old.down;
+      cubie.userData.faceColors.down  = old.right;
+      cubie.userData.faceColors.right = old.up;
+    } else {
+      cubie.userData.faceColors.up    = old.right;
+      cubie.userData.faceColors.right = old.down;
+      cubie.userData.faceColors.down  = old.left;
+      cubie.userData.faceColors.left  = old.up;
     }
+  }
 }
