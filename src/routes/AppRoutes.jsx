@@ -6,6 +6,7 @@ import { Portfolio } from "@/pages/portfolio";
 import { Contact } from "@/pages/contact";
 import { About } from "@/pages/about";
 import { Tiger } from "@/pages/projects/tiger";
+import { Languages } from "@/pages/projects/languages";
 import { Formatter } from "@/pages/projects/formatter";
 import { CubeSolver } from "@/pages/projects/cube-solver";
 import { SocialMedia } from "@/components/social-media";
@@ -28,6 +29,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
 				<Route path="/portfolio" element={<Portfolio />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/tiger" element={<Tiger />} />
+				<Route path="/languages" element={<Languages />} />
 				<Route path="/formatter" element={<Formatter />} />
 				<Route path="/cube_solver" element={<CubeSolver />} />
 				<Route path="*" element={<Home />} />

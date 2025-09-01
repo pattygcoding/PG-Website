@@ -32,6 +32,7 @@ const MenuOptions = ({ handleToggle }) => {
 					{showProjects && (
 						<ul className="submenu">
 							<MenuItem to={l.menu.tiger} label={t("menu.tiger")} onClick={handleToggle} />
+							<MenuItem to={l.menu.languages} label={t("menu.portfolio_translator")} onClick={handleToggle} />
 							<MenuItem to={l.menu.formatter} label={t("menu.formatter")} onClick={handleToggle} />
 							<MenuItem to={l.menu.cube_solver} label={t("menu.cube_solver")} onClick={handleToggle} />
 						</ul>
