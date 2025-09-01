@@ -76,7 +76,7 @@ const Tiger = () => {
 					<Form.Label>{t("tiger.tiger_code")}</Form.Label>
 					<CodeBox 
 						initialCode={`let name = "Tiger"\nprint name`}
-						language="python"
+						language="javascript"
 						onCodeChange={setCode}
 					/>
 				</Form.Group>
