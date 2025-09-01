@@ -58,6 +58,11 @@
                     "jobtitle": "Supraveghetor de birou",
                     "where": "Universitatea Clemson",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Supraveghetor de birou",
+                    "where": "Universitatea Clemson",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Familia masivă de peste 50 de implementări ale jocului Connect Four. Acest proiect include implementări în peste 30 de limbaje de programare diferite, inclusiv Java, C ++, Python, JavaScript și multe altele. În plus, include, de asemenea, peste 20 de cadre diferite sau alte formate, inclusiv React.js, Ruby on Rails, ASP.NET și multe altele.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Aplicație alimentară",
+                "text": "O aplicație completă de server .NET 9 Blazor pentru gestionarea articolelor alimentare. Aplicația urmărește modelul de control/serviciu/depozit cu Entity Framework Core pentru persistență și include o suită de testare cuprinzătoare.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Proiect interop",
                 "text": "Un proiect care documentează interoperabilitatea între diferite limbaje de programare. În prezent, include 15 limbaje de programare diferite și 18 modele de execuție.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Registrul de inventar",
+                "text": "Un registru de vânzare demo-stack complet (POS) cu un sistem de gestionare a inventarului construit cu Angular 17+ și Node.js. Această aplicație demonstrează un sistem POS de calitate profesională cu autentificarea utilizatorului, controlul accesului bazat pe roluri, urmărirea stocurilor și procesarea plăților batjocoritoare.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML AUTO Formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",
-        "solve": "Rezolva"
+        "start": "Rezolva"
     },
     "tiger": {
         "title": "Limba tigrului",

@@ -58,6 +58,11 @@
                     "jobtitle": "辦公桌主管",
                     "where": "克萊姆森大學",
                     "date": "2021-2022"
+                },
+                {
+                    "jobtitle": "辦公桌主管",
+                    "where": "克萊姆森大學",
+                    "date": "2021-2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "連接四款遊戲的50多個實現的大量家庭。該項目包括30多種不同編程語言的實現，包括Java，C ++，Python，JavaScript等。此外，它還包括20多個以上不同的框架或其他格式，包括React.js，Ruby上的Rails，ASP.NET等。",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "雜貨應用程序",
+                "text": "一個完整的全棧.NET 9 Blazor Server應用程序，用於管理雜貨項目。該應用程序遵循具有實體框架核心的控制器/服務/存儲庫模式，以持續使用，並包括一個全面的測試套件。",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Interop項目",
                 "text": "一個記錄不同編程語言之間互操作性的項目。目前包括15種不同的編程語言和18種執行模式。",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "庫存登記冊",
+                "text": "使用Angular 17+和Node.js構建的庫存管理系統的全棧銷售點（POS）寄存器（POS）寄存器。該應用程序展示了具有用戶身份驗證，基於角色的訪問控制，庫存跟踪和模擬支付處理的專業級POS系統。",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON和YAML自動格式化",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube求解器",
-        "solve": "解決"
+        "start": "解決"
     },
     "tiger": {
         "title": "老虎語",

@@ -58,6 +58,11 @@
                     "jobtitle": "Supervisor de mesa",
                     "where": "Universidade Clemson",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Supervisor de mesa",
+                    "where": "Universidade Clemson",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Família maciça de mais de 50 implementações do jogo Connect Four. Este projeto inclui implementações em mais de 30 linguagens de programação diferentes, incluindo Java, C ++, Python, JavaScript e muito mais. Além disso, também inclui mais de 20 estruturas diferentes ou outros formatos, incluindo react.js, rubi nos trilhos, asp.net e muito mais.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Aplicativo de supermercado",
+                "text": "Um aplicativo completo de servidor Blazor de pilha completa .NET 9 para gerenciar itens de supermercado. O aplicativo segue o padrão controlador/serviço/repositório com o núcleo da estrutura da entidade para persistência e inclui um conjunto de testes abrangente.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Projeto Interop",
                 "text": "Um projeto que documenta a interoperabilidade entre diferentes linguagens de programação. Atualmente, inclui 15 linguagens de programação diferentes e 18 padrões de execução.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Registro de inventário",
+                "text": "Um registro de ponto de venda de Demo de Ponto de Pilha Fulosa (POS) no Sistema de Gerenciamento de Inventário construído com o Angular 17+ e Node.JS. Este aplicativo demonstra um sistema POS de nível profissional com autenticação de usuário, controle de acesso baseado em funções, rastreamento de inventário e processamento de pagamentos simulados.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Solver de cubo Rubix",
-        "solve": "Resolver"
+        "start": "Resolver"
     },
     "tiger": {
         "title": "Idioma tigre",

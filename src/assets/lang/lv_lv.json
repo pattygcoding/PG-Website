@@ -58,6 +58,11 @@
                     "jobtitle": "Galda uzraugs",
                     "where": "Klemsona universitāte",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Galda uzraugs",
+                    "where": "Klemsona universitāte",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Masīva ģimene, kas ir vairāk nekā 50 vairāk nekā 50 Connect četru spēles ieviešana. Šis projekts ietver ieviešanu vairāk nekā 30 dažādās programmēšanas valodās, ieskaitot Java, C ++, Python, JavaScript un daudz ko citu. Turklāt tas ietver arī vairāk nekā 20 vairāk dažādus ietvarus vai citus formātus, ieskaitot React.js, Ruby on Rails, Asp.net un daudz ko citu.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Pārtikas preču lietotne",
+                "text": "Pilnīga pilna kaudze .NET 9 Blazor Server lietojumprogramma pārtikas preču pārvaldībai. Lietojumprogramma seko kontroliera/pakalpojumu/repozitorija modelim ar Entity Framework Core noturībai un ietver visaptverošu testa komplektu.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Savstarpējā projekts",
                 "text": "Projekts, kas dokumentē savietojamību starp dažādām programmēšanas valodām. Pašlaik ietilpst 15 dažādas programmēšanas valodas un 18 izpildes modeļi.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Inventāra reģistrs",
+                "text": "Pilna kaudzes pārdošanas demonstrācijas punkts (POS) reģistrs ar krājumu pārvaldības sistēmu, kas izveidota ar Angular 17+ un Node.js. Šī lietojumprogramma demonstrē profesionālas kvalitātes POS sistēmu ar lietotāja autentifikāciju, uz lomu balstītu piekļuves kontroli, inventāra izsekošanu un apmaksu apstrādi.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "Json & yaml auto formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubiksa kubu risinātājs",
-        "solve": "Atrisināt"
+        "start": "Atrisināt"
     },
     "tiger": {
         "title": "Tīģeru valoda",

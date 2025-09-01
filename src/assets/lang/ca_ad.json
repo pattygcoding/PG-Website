@@ -58,6 +58,11 @@
                     "jobtitle": "Supervisor",
                     "where": "Universitat de Clemson",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Supervisora",
+                    "where": "Universitat de Clemson",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Família massiva de més de 50 implementacions del joc Connect Four. Aquest projecte inclou implementacions en més de 30 llenguatges de programació diferents, inclosos Java, C ++, Python, JavaScript i molt més. A més, també inclou més de 20 més de marcs diferents o altres formats, inclosos React.js, Ruby on Rails, ASP.NET i molt més.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Aplicació de queviures",
+                "text": "Una aplicació completa del servidor Blazor de la pila completa .NET 9 per gestionar els elements de queviures. L’aplicació segueix el patró del controlador/servei/dipòsit amb el nucli del marc d’entitat per a la persistència i inclou una suite de proves integral.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Projecte Interop",
                 "text": "Un projecte que documenta la interoperabilitat entre diferents llenguatges de programació. Actualment inclou 15 llenguatges de programació diferents i 18 patrons d’execució.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Registre d’inventaris",
+                "text": "Un registre de venda de venda (POS) de la demanda completa del sistema de gestió d’inventaris construït amb Angular 17+ i Node.js. Aquesta aplicació demostra un sistema de POS de qualitat professional amb autenticació d’usuari, control d’accés basat en rol, seguiment d’inventaris i processament de pagaments simulats.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML AUTO FORMADA",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",
-        "solve": "Solucionar"
+        "start": "Solucionar"
     },
     "tiger": {
         "title": "Llengua de tigre",

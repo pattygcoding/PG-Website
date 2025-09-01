@@ -58,6 +58,11 @@
                     "jobtitle": "مشرف مكتب",
                     "where": "جامعة كليمسون",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "مشرف مكتب",
+                    "where": "جامعة كليمسون",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "عائلة ضخمة تضم أكثر من 50 تطبيقًا من لعبة Connect Four. يتضمن هذا المشروع تطبيقات في أكثر من 30 لغة برمجة مختلفة ، بما في ذلك Java و C ++ و Python و JavaScript والمزيد. بالإضافة إلى ذلك ، فإنه يشمل أيضًا أكثر من 20 من أطر مختلفة أو تنسيقات أخرى ، بما في ذلك React.js و Ruby on Rails و ASP.NET والمزيد.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "تطبيق البقالة",
+                "text": "تطبيق خادم Blazor الكامل الكامل. NET 9 لإدارة عناصر البقالة. يتبع التطبيق نمط وحدة التحكم/الخدمة/المستودع مع Contity Framework Core للمثابرة ويتضمن مجموعة اختبار شاملة.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "مشروع interop",
                 "text": "المشروع الذي يوثق قابلية التشغيل البيني بين لغات البرمجة المختلفة. يتضمن حاليًا 15 لغة برمجة مختلفة و 18 أنماط تنفيذ.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "سجل المخزون",
+                "text": "سجل نقطة بيع كاملة للسكان (POS) مع نظام إدارة المخزون المصمم مع Angular 17+ و Node.js. يوضح هذا التطبيق نظام POS من الدرجة المهنية مع مصادقة المستخدم ، والتحكم في الوصول القائم على الأدوار ، وتتبع المخزون ، ومعالجة الدفع الوهمية.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",
-        "solve": "يحل"
+        "start": "يحل"
     },
     "tiger": {
         "title": "لغة النمر",
