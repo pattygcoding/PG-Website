@@ -11,15 +11,14 @@ import "./Tiger.css";
 const Tiger = () => {
 	const { t } = useLang();
 
-	const [engine, setEngine] = useState("go");
 	const [code, setCode] = useState(`let name = "Tiger"\nprint name`);
-	const [output, setOutput] = useState("Loading engines...");
+	const [output, setOutput] = useState("Loading engine...");
 	const [isReady, setIsReady] = useState(false);
 
 	const goLoaded = useRef(false);
 
 	useEffect(() => {
-		const loadEngines = async () => {
+		const loadEngine = async () => {
 			try {
 				await new Promise((resolve, reject) => {
 					const script = document.createElement("script");
@@ -34,45 +33,25 @@ const Tiger = () => {
 				go.run(result.instance);
 				goLoaded.current = true;
 
-				const rustModule = document.createElement("script");
-				rustModule.type = "module";
-				rustModule.innerHTML = `
-					import init, { eval_tiger } from "/rust/pkg-rust/tiger.js";
-					init().then(() => {
-						window.evalTigerRust = eval_tiger;
-						window.evalTigerRustReady = true;
-					});
-				`;
-				document.body.appendChild(rustModule);
-
-				setOutput("Engines loaded. Select one and run code.");
+				setOutput("Engine loaded. Run code.");
 				setIsReady(true);
 			} catch (err) {
-				console.error("Failed to load engines:", err);
-				setOutput("Failed to load WASM engines.");
+				console.error("Failed to load engine:", err);
+				setOutput("Failed to load WASM engine.");
 			}
 		};
 
-		loadEngines();
+		loadEngine();
 	}, []);
 
 	const runTiger = () => {
 		try {
-			if (engine === "go") {
-				if (!goLoaded.current || !window.evalTiger) {
-					setOutput("Go engine not ready.");
-					return;
-				}
-				const result = window.evalTiger(code);
-				setOutput(result);
-			} else {
-				if (!window.evalTigerRustReady) {
-					setOutput("Rust engine not ready.");
-					return;
-				}
-				const result = window.evalTigerRust(code);
-				setOutput(result);
+			if (!goLoaded.current || !window.evalTiger) {
+				setOutput("Go engine not ready.");
+				return;
 			}
+			const result = window.evalTiger(code);
+			setOutput(result);
 		} catch (err) {
 			console.error("Runtime error:", err);
 			setOutput(`Runtime error:\n${err}`);
@@ -92,14 +71,6 @@ const Tiger = () => {
 						{t("tiger.more_info2")}
 					</a>.
 				</p>
-
-				<Form.Group controlId="engine" className="mt-4">
-					<Form.Label>{t("tiger.select_engine")}</Form.Label>
-					<Form.Select value={engine} onChange={(e) => setEngine(e.target.value)}>
-						<option value="go">Go</option>
-						<option value="rust">Rust</option>
-					</Form.Select>
-				</Form.Group>
 
 				<Form.Group controlId="code" className="mt-3">
 					<Form.Label>{t("tiger.tiger_code")}</Form.Label>
