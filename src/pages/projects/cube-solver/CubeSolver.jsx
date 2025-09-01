@@ -1,56 +1,44 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useCallback } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { Container } from "react-bootstrap";
 import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
-import { validateCube } from "./cube/validate";
-import { useCubeSolver } from "./cube/painting";
-import { algorithm } from "./cube/algorithm";
-import { applyTestState } from "./cube/test";
+
+// Import reorganized utilities
+import { validateCubeCompleteness, getCubeValidationStatus } from "./utils/cubeValidation";
+import { useCubeSolverWithPainting } from "./hooks/useCubeSolverPainting";
+import { executeSolvingAlgorithm } from "./core/algorithmExecution";
+import { applyTestCubeState } from "./utils/testStateManager";
+
+// Import components
+import { ColorPicker } from "./components/ColorPicker";
+import { ValidationDisplay } from "./components/ValidationDisplay";
+import { SolveButton } from "./components/SolveButton";
+
+// Import styles
 import "./CubeSolver.css";
 
 const CubeSolver = () => {
 	const { t } = useLang();
-	const mouseRef = useRef(null);
+	
+	// Scene references
 	const mountRef = useRef(null);
-	const raycasterRef = useRef(null);
+	const sceneRef = useRef(null);
 	const cubeGroupRef = useRef(null);
 	const rendererRef = useRef(null);
 	const cameraRef = useRef(null);
-	const sceneRef = useRef(null);
 	const controlsRef = useRef(null);
-
-	const [selectedColor, setSelectedColor] = useState("white");
-	const [validationResults, setValidationResults] = useState([]);
+	const mouseRef = useRef(null);
+	const raycasterRef = useRef(null);
 	const selectedColorRef = useRef("white");
 
-	const colorOptions = [
-		{ color: "white", hex: "#ffffff" },
-		{ color: "yellow", hex: "#ffff00" },
-		{ color: "blue", hex: "#0000ff" },
-		{ color: "orange", hex: "#ffa500" },
-		{ color: "green", hex: "#00ff00" },
-		{ color: "red", hex: "#ff0000" },
-	];
+	// Component state
+	const [selectedColor, setSelectedColor] = useState("white");
+	const [validationStatus, setValidationStatus] = useState(null);
 
-	function handleStart() {
-		applyTestState(cubeGroupRef);
-
-		const missingPieces = validateCube(cubeGroupRef);
-		setValidationResults(missingPieces);
-
-		if (missingPieces.length === 0) {
-			algorithm(cubeGroupRef);
-		}
-	}
-
-	function handleColorSelect(color) {
-		setSelectedColor(color);
-		selectedColorRef.current = color;
-	}
-
-	useCubeSolver(mountRef, {
+	// Grouped scene references for cleaner passing
+	const sceneRefs = {
 		sceneRef,
 		cubeGroupRef,
 		rendererRef,
@@ -59,45 +47,61 @@ const CubeSolver = () => {
 		selectedColorRef,
 		mouseRef,
 		raycasterRef,
-	});
+	};
+
+	/**
+	 * Handles the start/solve button click
+	 */
+	const handleSolveStart = useCallback(() => {
+		// Apply test state to cube
+		applyTestCubeState(cubeGroupRef);
+
+		// Validate cube completeness
+		const missingPieces = validateCubeCompleteness(cubeGroupRef);
+		const status = getCubeValidationStatus(missingPieces);
+		setValidationStatus(status);
+
+		// Start algorithm if cube is valid
+		if (status.isValid) {
+			executeSolvingAlgorithm(cubeGroupRef);
+		}
+	}, []);
+
+	/**
+	 * Handles color selection for painting
+	 */
+	const handleColorSelection = useCallback((color) => {
+		setSelectedColor(color);
+		selectedColorRef.current = color;
+	}, []);
+
+	// Initialize cube solver with painting functionality
+	useCubeSolverWithPainting(mountRef, sceneRefs);
 
 	return (
 		<HelmetProvider>
 			<Container>
 				<Tab title={t("cube_solver.title")} />
 				<PageTitle title={t("cube_solver.title")} />
+				
 				<div className="cube-solver-container">
 					<div className="left-panel">
 						<div className="cube-canvas" ref={mountRef} />
+						
 						<div className="solve-row">
-							<button className="solve-button" onClick={handleStart}>
-								{t("cube_solver.start", { defaultValue: "Start" })}
-							</button>
-
-							<div className="validation-results">
-								{validationResults.length === 0 ? (
-									<span style={{ color: "green" }}>Cube is valid! ✅</span>
-								) : (
-									<span style={{ color: "red" }}>
-										Cube is invalid. Missing pieces: {validationResults.join(", ")} ❌
-									</span>
-								)}
-							</div>
+							<SolveButton 
+								onSolve={handleSolveStart}
+								text={t("cube_solver.start", { defaultValue: "Start" })}
+							/>
+							
+							<ValidationDisplay validationStatus={validationStatus} />
 						</div>
 					</div>
 
-					<div className="color-picker">
-						{colorOptions.map((option) => (
-							<div
-								key={option.color}
-								className={`color-circle ${selectedColor === option.color ? "selected" : ""}`}
-								style={{ backgroundColor: option.hex }}
-								onClick={() => handleColorSelect(option.color)}
-							>
-								{selectedColor === option.color && <span className="checkmark">✔</span>}
-							</div>
-						))}
-					</div>
+					<ColorPicker 
+						selectedColor={selectedColor}
+						onColorSelect={handleColorSelection}
+					/>
 				</div>
 			</Container>
 		</HelmetProvider>
