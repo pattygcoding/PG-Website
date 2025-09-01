@@ -5,13 +5,19 @@
 
 .lang-toggle {
 	padding: 0.5rem 1rem;
-	font-size: 1rem;
+	font-size: 0.9rem;
+	font-weight: 600;
 	cursor: pointer;
 	background-color: var(--card-bg, #222);
 	color: var(--text-color, #fff);
 	border: 1px solid var(--text-color);
 	border-radius: 4px;
 	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+	min-width: 3rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .lang-toggle:hover {
@@ -25,11 +31,12 @@
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 999;
-	display: grid;
-	grid-template-columns: repeat(3, minmax(85px, 1fr));
-	gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
 	padding: 0.75rem;
-	min-width: 220px;
+	min-width: 280px;
+	max-width: 320px;
 	background-color: var(--card-bg, #222);
 	color: var(--text-color, #fff);
 	border: 1px solid var(--text-color);
@@ -45,11 +52,42 @@
 
 .lang-option {
 	cursor: pointer;
-	padding: 0.3rem 0.5rem;
+	padding: 0.5rem 0.75rem;
 	border-radius: 4px;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
 	transition: background-color 0.2s, color 0.2s;
 	color: var(--text-color);
+}
+
+.lang-flag {
+	min-width: 1.2em;
+	border-radius: 2px;
+}
+
+.lang-country {
+	font-weight: bold;
+	font-size: 0.8rem;
+	min-width: 2rem;
+	text-align: center;
+	background-color: var(--text-color-3, #4a9eff);
+	color: #fff;
+	padding: 0.2rem 0.4rem;
+	border-radius: 3px;
+}
+
+.lang-label {
+	font-weight: 500;
+	min-width: 2.5rem;
+	text-align: left;
+}
+
+.lang-name {
+	flex: 1;
+	text-align: left;
+	opacity: 0.8;
+	font-size: 0.9rem;
 }
 
 .lang-option:hover {
