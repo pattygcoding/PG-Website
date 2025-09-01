@@ -58,6 +58,11 @@
                     "jobtitle": "Työpöytävalvoja",
                     "where": "Clemsonin yliopisto",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Työpöytävalvoja",
+                    "where": "Clemsonin yliopisto",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Connect Four -pelin yli 50+ -toteutuksen massiivinen perhe. Tämä projekti sisältää toteutukset yli 30 eri ohjelmointikielellä, mukaan lukien Java, C ++, Python, JavaScript ja muut. Lisäksi se sisältää myös yli 20+ erilaista kehystä tai muita muotoja, mukaan lukien React.js, Ruby on Rails, ASP.NET ja paljon muuta.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Ruokakauppa",
+                "text": "Täydellinen koko pino .NET 9 Blazor Server -sovellus päivittäistavaroiden hallintaan. Sovellus seuraa ohjain/palvelu/arkistokuvio Entity Framework Core -sovelluksella pysyvyyden kannalta ja sisältää kattavan testisarjan.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Interop -projekti",
                 "text": "Projekti, joka dokumentoi eri ohjelmointikielten yhteentoimivuuden. Tällä hetkellä sisältää 15 erilaista ohjelmointikieliä ja 18 suoritusmallia.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Varastorekisteri",
+                "text": "Täysin pinon demo-myyntipiste (POS) rekisteröinti varastonhallintajärjestelmällä, joka on rakennettu Angular 17+: lla ja Node.js. Tämä sovellus osoittaa ammattimaisen POS-järjestelmän, jossa on käyttäjän todennus, roolipohjainen pääsynhallinta, varaston seuranta ja pilkkamaksujen käsittely.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix -kuution ratkaisija",
-        "solve": "Ratkaista"
+        "start": "Ratkaista"
     },
     "tiger": {
         "title": "Tiikerikieli",

@@ -58,6 +58,11 @@
                     "jobtitle": "Stalo vadovas",
                     "where": "Clemsono universitetas",
                     "date": "2021 - 2022 m"
+                },
+                {
+                    "jobtitle": "Stalo vadovas",
+                    "where": "Clemsono universitetas",
+                    "date": "2021 - 2022 m"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Masyvi daugiau nei 50 ir daugiau „Connect Four“ žaidimų įgyvendinimų šeima. Šis projektas apima įgyvendinimus daugiau nei 30 skirtingų programavimo kalbų, įskaitant „Java“, „C ++“, „Python“, „JavaScript“ ir dar daugiau. Be to, tai taip pat apima daugiau nei 20 skirtingų rėmų ar kitų formatų, įskaitant „React.js“, „Ruby on Rails“, ASP.NET ir dar daugiau.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Maisto prekių programa",
+                "text": "Visiška pilno stalo .NET 9 „Blazor Server“ programa, skirta valdyti maisto prekių gaminius. Programa seka valdiklio/paslaugos/saugyklos modelį su „Entity Framework Core“, kad būtų patvarumas, ir apima išsamų bandymo rinkinį.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Interop projektas",
                 "text": "Projektas, kuriame dokumentuoja skirtingų programavimo kalbų sąveiką. Šiuo metu apima 15 skirtingų programavimo kalbų ir 18 vykdymo modelių.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Atsargų registras",
+                "text": "Visiško statinio pardavimo taško (POS) registre su atsargų valdymo sistema, sukurta naudojant „Angular 17+“ ir „Node.js“. Ši programa demonstruoja profesionalaus lygio POS sistemą su vartotojo autentifikavimu, vaidmenimis pagrįstą prieigos kontrolę, atsargų stebėjimą ir modifikavimo mokėjimo apdorojimą.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "„JSON & YAML Auto Formatter“",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "„Rubix Cube Solver“",
-        "solve": "Išspręskite"
+        "start": "Išspręskite"
     },
     "tiger": {
         "title": "Tigro kalba",

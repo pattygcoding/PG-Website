@@ -58,6 +58,11 @@
                     "jobtitle": "Laua juhendaja",
                     "where": "Clemsoni ülikool",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Laua juhendaja",
+                    "where": "Clemsoni ülikool",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Massiivne perekond, mis on üle 50 -aastaste ühenduse mängude rakendused. See projekt sisaldab rakendusi enam kui 30 erinevas programmeerimiskeeles, sealhulgas Java, C ++, Python, JavaScript ja palju muud. Lisaks sisaldab see ka üle 20 erineva raamistiku või muid vorminguid, sealhulgas React.js, Ruby on rööbastel, ASP.NET ja palju muud.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Toidukaupade rakendus",
+                "text": "Täielik täis virnaga .NET 9 BLAZOR-serveri rakendus toidukaupade haldamiseks. Rakendus järgib kontrolleri/teenuse/hoidla mustrit koos olemiraamistiku südamikuga püsivuse saamiseks ja sisaldab põhjalikku testkomplekti.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Koostalitlusprojekt",
                 "text": "Projekt, mis dokumenteerib koostalitlusvõime erinevate programmeerimiskeelte vahel. Praegu sisaldab 15 erinevat programmeerimiskeelt ja 18 täitmismustrit.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Inventuuriregister",
+                "text": "Täisterade demo müügipunkti (POS) register varude haldussüsteemis, mis on ehitatud nurga 17+ ja Node.j.-ga. See rakendus demonstreerib professionaalse kvaliteediga POS-süsteemi, kus on kasutajate autentimine, rollipõhine juurdepääsu juhtimine, varude jälgimine ja mõnitavate maksete töötlemine.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube'i lahendaja",
-        "solve": "Lahendama"
+        "start": "Lahendama"
     },
     "tiger": {
         "title": "Tiigrikeel",

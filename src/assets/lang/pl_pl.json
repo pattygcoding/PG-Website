@@ -58,6 +58,11 @@
                     "jobtitle": "Kierownik biurka",
                     "where": "Clemson University",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Kierownik biurka",
+                    "where": "Clemson University",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Ogromna rodzina ponad 50 wdrożeń gry Connect Four. Ten projekt obejmuje implementacje w ponad 30 różnych językach programowania, w tym Java, C ++, Python, JavaScript i wiele innych. Ponadto obejmuje również ponad 20 różnych formatów lub innych formatów, w tym React.js, Ruby on Rails, ASP.NET i wiele innych.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Aplikacja spożywcza",
+                "text": "Pełna aplikacja .NET 9 Blazor Server. Aplikacja podąża za wzorem kontrolera/usługi/repozytorium z rdzeniem encji Framework dla trwałości i zawiera kompleksowy pakiet testowy.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Projekt interop",
                 "text": "Projekt, który dokumentuje interoperacyjność między różnymi językami programowania. Obecnie zawiera 15 różnych języków programowania i 18 wzorców wykonania.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Rejestr zapasów",
+                "text": "Pełny stos demonstracyjny punkt sprzedaży (POS) w systemie zarządzania zapasami zbudowanymi z Angular 17+ i Node.js. Ta aplikacja pokazuje profesjonalny system POS z uwierzytelnianiem użytkownika, kontrolą dostępu opartego na ról, śledzeniem zapasów i próbnym przetwarzaniem płatności.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",
-        "solve": "Rozwiązywać"
+        "start": "Rozwiązywać"
     },
     "tiger": {
         "title": "Język tygrysa",

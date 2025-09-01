@@ -58,6 +58,11 @@
                     "jobtitle": "Skrivebordsveileder",
                     "where": "Clemson University",
                     "date": "2021 - 2022"
+                },
+                {
+                    "jobtitle": "Skrivebordsveileder",
+                    "where": "Clemson University",
+                    "date": "2021 - 2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "Massiv familie med over 50+ implementeringer av Connect Four -spillet. Dette prosjektet inkluderer implementeringer på over 30 forskjellige programmeringsspråk, inkludert Java, C ++, Python, JavaScript og mer. I tillegg inkluderer det også over 20+ forskjellige rammer eller andre formater, inkludert React.js, Ruby on Rails, ASP.NET og mer.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Dagligvareapp",
+                "text": "En komplett full-stack .NET 9 Blazor Server-applikasjon for å administrere dagligvareartikler. Applikasjonen følger kontrolleren/tjenesten/depotmønsteret med Entity Framework Core for utholdenhet og inkluderer en omfattende testsuite.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Interop -prosjekt",
                 "text": "Et prosjekt som dokumenterer interoperabilitet mellom forskjellige programmeringsspråk. Inkluderer for tiden 15 forskjellige programmeringsspråk og 18 utførelsesmønstre.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Inventory Register",
+                "text": "Et register med full stack Demo (POS) med Inventory Management System bygget med Angular 17+ og Node.js. Denne applikasjonen demonstrerer et POS-system for profesjonell kvalitet med brukerautentisering, rollebasert tilgangskontroll, lagersporing og hånlig betalingsbehandling.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",
-        "solve": "Løse"
+        "start": "Løse"
     },
     "tiger": {
         "title": "Tigerspråk",

@@ -58,6 +58,11 @@
                     "jobtitle": "办公桌主管",
                     "where": "克莱姆森大学",
                     "date": "2021-2022"
+                },
+                {
+                    "jobtitle": "办公桌主管",
+                    "where": "克莱姆森大学",
+                    "date": "2021-2022"
                 }
             ]
         },
@@ -99,10 +104,20 @@
                 "text": "连接四款游戏的50多个实现的大量家庭。该项目包括30多种不同编程语言的实现，包括Java，C ++，Python，JavaScript等。此外，它还包括20多个以上不同的框架或其他格式，包括React.js，Ruby上的Rails，ASP.NET等。",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "杂货应用程序",
+                "text": "一个完整的全栈.NET 9 Blazor Server应用程序，用于管理杂货项目。该应用程序遵循具有实体框架核心的控制器/服务/存储库模式，以持续使用，并包括一个全面的测试套件。",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Interop项目",
                 "text": "一个记录不同编程语言之间互操作性的项目。目前包括15种不同的编程语言和18种执行模式。",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "库存登记册",
+                "text": "使用Angular 17+和Node.js构建的库存管理系统的全栈销售点（POS）寄存器（POS）寄存器。该应用程序展示了具有用户身份验证，基于角色的访问控制，库存跟踪和模拟支付处理的专业级POS系统。",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON和YAML自动格式化",
@@ -211,7 +226,7 @@
     },
     "cube_solver": {
         "title": "Rubix Cube求解器",
-        "solve": "解决"
+        "start": "解决"
     },
     "tiger": {
         "title": "老虎语",
