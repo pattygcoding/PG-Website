@@ -144,6 +144,100 @@
 	font-size: 0.95rem;
 }
 
+.world-map-section {
+	margin: 4rem 0;
+	text-align: center;
+}
+
+.world-map-section h2 {
+	color: var(--text-color);
+	margin-bottom: 1rem;
+}
+
+.world-map-section p {
+	color: var(--text-color);
+	opacity: 0.8;
+}
+
+.world-map-container {
+	background: var(--card-bg);
+	border-radius: 12px;
+	padding: 0;
+	width: 100%;
+	max-width: none;
+	border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.zoom-controls {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+    margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.zoom-controls button {
+	padding: 0.5rem 1rem;
+	font-size: 0.875rem;
+	border-radius: 6px;
+}
+
+.map-wrapper {
+    width: 69.5rem;
+    height: 46rem;
+}
+
+.world-map-container svg {
+	width: 100%;
+	height: auto;
+}
+
+/* Ensure SVG geography paths have proper hover styling */
+.world-map-container svg path {
+	transition: all 0.2s ease-in-out !important;
+}
+
+.world-map-container svg path:hover {
+	cursor: pointer !important;
+	stroke-width: 1.5 !important;
+	filter: brightness(1.1) !important;
+}
+
+.map-legend {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 1rem;
+}
+
+.legend-item {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.legend-color {
+	width: 20px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid var(--border-color, rgba(255, 255, 255, 0.2));
+}
+
+.legend-color.supported {
+	background-color: #22c55e;
+}
+
+.legend-color.not-supported {
+	background-color: #e5e7eb;
+}
+
+.legend-item span {
+	color: var(--text-color);
+	font-size: 0.9rem;
+}
+
 .interactive-map-section {
 	margin: 4rem 0;
 }
@@ -214,6 +308,13 @@
 	pointer-events: none;
 	z-index: 1000;
 	backdrop-filter: blur(10px);
+	display: flex;
+	align-items: center;
+}
+
+.tooltip-flag {
+	display: inline-flex;
+	align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -232,6 +333,20 @@
 	
 	.languages-grid {
 		grid-template-columns: 1fr;
+	}
+	
+	.world-map-container {
+		padding: 1rem;
+		margin: 1rem auto;
+	}
+	
+	.world-map-container svg {
+		max-width: 100%;
+	}
+	
+	.map-legend {
+		flex-direction: column;
+		gap: 1rem;
 	}
 	
 	.country-map {

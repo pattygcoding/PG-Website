@@ -257,7 +257,69 @@
     },
     "languages": {
         "title": "Portfolio Translator",
-        "description": "Discover how my portfolio is accessible to visitors from around the world with support for over 100 languages."
+        "description": "Discover how my portfolio is accessible to visitors from around the world with support for over 100 languages.",
+        "global_accessibility": {
+            "title": "Global Accessibility",
+            "description": "My portfolio is available in over {count} languages, making it accessible to visitors from around the world. This multilingual approach demonstrates my commitment to inclusivity and global reach in software development.",
+            "stats": {
+                "languages_supported": "Languages Supported",
+                "countries_represented": "Countries Represented",
+                "continents_covered": "Continents Covered"
+            }
+        },
+        "features": {
+            "title": "Features",
+            "items": [
+                {
+                    "title": "Real-time Translation:",
+                    "description": "Switch languages instantly with the language selector"
+                },
+                {
+                    "title": "URL-based Language:",
+                    "description": "Language preferences are preserved in the URL"
+                },
+                {
+                    "title": "Native Script Support:",
+                    "description": "Proper rendering of scripts like Arabic, Chinese, Hindi, and more"
+                },
+                {
+                    "title": "Cultural Sensitivity:",
+                    "description": "Translations consider cultural context, not just literal meanings"
+                },
+                {
+                    "title": "SEO Optimized:",
+                    "description": "Each language variant is optimized for search engines"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interactive World Map",
+            "description": "Hover over countries on the map to see their supported languages:",
+            "languages_label": "Languages",
+            "legend": {
+                "supported": "Languages Supported",
+                "not_supported": "No Language Support"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoom In",
+                "zoom_out": "Zoom Out",
+                "reset": "Reset View"
+            }
+        },
+        "supported_languages": {
+            "title": "Supported Languages"
+        },
+        "interactive_country_map": {
+            "title": "Interactive Country Map",
+            "description": "Hover over countries below to see their supported languages:",
+            "language_count": {
+                "single": "language",
+                "multiple": "languages"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "No language support"
+        }
     },
     "logotext": "PATRICK"
 }
