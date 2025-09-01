@@ -65,7 +65,7 @@ const Home = () => {
 										</div>
 									</LangAwareLink>
 								</div>
-								<h3>{t("home.footer")}</h3>
+								<Link to="/languages">{t("home.footer")}</Link>
 							</div>
 						</div>
 					</div>
