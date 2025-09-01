@@ -29,28 +29,33 @@
         "title": "About Me",
         "personal_summary": {
             "title": "Personal Summary",
-            "text": "As an experienced Full Stack Software Developer based in Orlando, FL, I've demonstrated expertise in various technologies, from Java and C++ to React.js and Node.js. With a track record of spearheading projects, including the development of a Java modification program for Minecraft and a rewarding website for truck drivers, I've showcased leadership and innovation. My commitment to excellence is evident in my ability to streamline project management, solve complex problems, and deliver high-quality solutions that enhance user experience and drive organizational success."
+            "text": "As an experienced Full Stack Software Developer based in Orlando, FL, I've demonstrated expertise in various technologies, from Java and C# to React.js and Node.js. With a track record of spearheading projects, including the development of a Java modification program for Minecraft and a rewarding website for truck drivers, I've showcased leadership and innovation. My commitment to excellence is evident in my ability to streamline project management, solve complex problems, and deliver high-quality solutions that enhance user experience and drive organizational success."
         },
         "professional_experience": {
             "title": "Professional Experience",
             "entries": [
                 {
-                    "jobtitle": "Junior Software Engineer",
-                    "where": "Orion180 Insurance",
-                    "date": "2024 - Present"
+                    "jobtitle": "Software Engineer II",
+                    "where": "Design Interactive",
+                    "date": "2025 - Present"
                 },
                 {
-                    "jobtitle": "Founder & Full Stack Software Developer",
+                    "jobtitle": "Software Engineer",
+                    "where": "Orion180 Insurance",
+                    "date": "2024 - 2025"
+                },
+                {
+                    "jobtitle": "Software Engineer",
                     "where": "SupremeMC",
                     "date": "2020 - 2024"
                 },
                 {
-                    "jobtitle": "Full Stack Software Engineer",
+                    "jobtitle": "Software Engineer",
                     "where": "Accelerate Learning",
                     "date": "2023"
                 },
                 {
-                    "jobtitle": "Lead Web Developer (Student Program)",
+                    "jobtitle": "Lead Software Engineer (Student Program)",
                     "where": "Clemson University GDI Program",
                     "date": "2021 - 2022"
                 },
@@ -99,10 +104,20 @@
                 "text": "Massive family of over 50+ implementations of the Connect Four game. This project includes implementations in over 30 different programming languages, including Java, C++, Python, JavaScript, and more. Additionally, it also includes over 20+ different frameworks or other formats, including React.js, Ruby on Rails, ASP.NET, and more.",
                 "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
             },
+            "grocery_app": {
+                "title": "Grocery App",
+                "text": "A complete full-stack .NET 9 Blazor Server application for managing grocery items. The application follows the controller/service/repository pattern with Entity Framework Core for persistence and includes a comprehensive test suite.",
+                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+            },
             "interop": {
                 "title": "Interop Project",
                 "text": "A project that documents interoperability between different programming languages. Currently includes 15 different programming languages and 18 execution patterns.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
+            },
+            "inventory_register": {
+                "title": "Inventory Register",
+                "text": "A full-stack demo Point of Sale (POS) Register with Inventory Management system built with Angular 17+ and Node.js. This application demonstrates a professional-grade POS system with user authentication, role-based access control, inventory tracking, and mock payment processing.",
+                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
