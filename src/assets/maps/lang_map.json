@@ -194,6 +194,15 @@
                 "fr_fr"
             ]
         },
+        "EH": {
+            "name": "Western Sahara",
+            "iso2": "EH",
+            "iso3": "ESH",
+            "languages": [
+                "ar_sa",
+                "es_mx"
+            ]
+        },
         "AO": {
             "name": "Angola",
             "iso2": "AO",
@@ -1079,14 +1088,6 @@
                 "fa_ir"
             ]
         },
-        "AM": {
-            "name": "Armenia",
-            "iso2": "AM",
-            "iso3": "ARM",
-            "languages": [
-                "hy_am"
-            ]
-        },
         "AZ": {
             "name": "Azerbaijan",
             "iso2": "AZ",
@@ -1141,23 +1142,6 @@
             "iso3": "CHN",
             "languages": [
                 "zh-CN_cn"
-            ]
-        },
-        "CY": {
-            "name": "Cyprus",
-            "iso2": "CY",
-            "iso3": "CYP",
-            "languages": [
-                "el_gr",
-                "tr_tr"
-            ]
-        },
-        "GE": {
-            "name": "Georgia",
-            "iso2": "GE",
-            "iso3": "GEO",
-            "languages": [
-                "ka_ge"
             ]
         },
         "IN": {
@@ -1223,15 +1207,6 @@
             "iso3": "JOR",
             "languages": [
                 "ar_sa"
-            ]
-        },
-        "KZ": {
-            "name": "Kazakhstan",
-            "iso2": "KZ",
-            "iso3": "KAZ",
-            "languages": [
-                "kk_kz",
-                "ru_ru"
             ]
         },
         "KW": {
@@ -1425,14 +1400,6 @@
             "iso3": "TLS",
             "languages": [
                 "pt_br"
-            ]
-        },
-        "TR": {
-            "name": "Turkey",
-            "iso2": "TR",
-            "iso3": "TUR",
-            "languages": [
-                "tr_tr"
             ]
         },
         "TM": {
@@ -1703,7 +1670,48 @@
             "name": "Antarctica",
             "iso2": "AQ",
             "iso3": "ATA",
-            "languages": []
+            "languages": ["en_us", "es_mx", "no_no", "fr_fr", "ru_ru", "zh-CN_cn"]
+        },
+        "FK": {
+            "name": "Falkland Islands",
+            "iso2": "FK",
+            "iso3": "FLK",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "TF": {
+            "name": "French Southern and Antarctic Lands",
+            "iso2": "TF",
+            "iso3": "ATF",
+            "languages": [
+                "fr_fr"
+            ]
+        },
+        "GL": {
+            "name": "Greenland",
+            "iso2": "GL",
+            "iso3": "GRL",
+            "languages": [
+                "da_dk"
+            ]
+        },
+        "TW": {
+            "name": "Taiwan",
+            "iso2": "TW",
+            "iso3": "TWN",
+            "languages": [
+                "zh-TW_tw"
+            ]
+        },
+        "PR": {
+            "name": "Puerto Rico",
+            "iso2": "PR",
+            "iso3": "PRI",
+            "languages": [
+                "es_mx",
+                "en_us"
+            ]
         }
     },
     "languages": {
@@ -2309,6 +2317,12 @@
         }
     },
     "countryNameMapping": {
+        "Kosovo": "XK",
+        "Somaliland": "SO",
+        "Greenland": "GL",
+        "Taiwan": "TW",
+        "Puerto Rico": "PR",
+        "Northern Cyprus": "CY",
         "Afghanistan": "AF",
         "Albania": "AL",
         "Algeria": "DZ",
@@ -2316,11 +2330,12 @@
         "Angola": "AO",
         "Antigua and Barbuda": "AG",
         "Argentina": "AR",
+        "Antarctica": "AQ",
         "Armenia": "AM",
         "Australia": "AU",
         "Austria": "AT",
         "Azerbaijan": "AZ",
-        "Bahamas": "BS",
+        "The Bahamas": "BS",
         "Bahrain": "BH",
         "Bangladesh": "BD",
         "Barbados": "BB",
@@ -2365,7 +2380,7 @@
         "Equatorial Guinea": "GQ",
         "Eritrea": "ER",
         "Estonia": "EE",
-        "Eswatini": "SZ",
+        "Swaziland": "SZ",
         "Ethiopia": "ET",
         "Fiji": "FJ",
         "Finland": "FI",
@@ -2379,7 +2394,7 @@
         "Grenada": "GD",
         "Guatemala": "GT",
         "Guinea": "GN",
-        "Guinea-Bissau": "GW",
+        "Guinea Bissau": "GW",
         "Guyana": "GY",
         "Haiti": "HT",
         "Honduras": "HN",
@@ -2392,6 +2407,7 @@
         "Ireland": "IE",
         "Israel": "IL",
         "Italy": "IT",
+        "Ivory Coast": "CI",
         "Jamaica": "JM",
         "Japan": "JP",
         "Jordan": "JO",
@@ -2416,6 +2432,8 @@
         "Malawi": "MW",
         "Malaysia": "MY",
         "Maldives": "MV",
+        "Republic of the Congo": "CG",
+        "West Bank": "PS",
         "Mali": "ML",
         "Malta": "MT",
         "Marshall Islands": "MH",
@@ -2464,7 +2482,7 @@
         "Sao Tome and Principe": "ST",
         "Saudi Arabia": "SA",
         "Senegal": "SN",
-        "Serbia": "RS",
+        "Republic of Serbia": "RS",
         "Seychelles": "SC",
         "Sierra Leone": "SL",
         "Singapore": "SG",
@@ -2482,7 +2500,7 @@
         "Switzerland": "CH",
         "Syria": "SY",
         "Tajikistan": "TJ",
-        "Tanzania": "TZ",
+        "United Republic of Tanzania": "TZ",
         "Thailand": "TH",
         "Timor-Leste": "TL",
         "Togo": "TG",
@@ -2492,12 +2510,13 @@
         "Turkey": "TR",
         "Turkmenistan": "TM",
         "Tuvalu": "TV",
+        "Western Sahara": "EH",
         "Uganda": "UG",
         "Ukraine": "UA",
         "United Arab Emirates": "AE",
-        "United Kingdom": "GB",
+        "England": "GB",
         "United States": "US",
-        "United States of America": "US",
+        "USA": "US",
         "Uruguay": "UY",
         "Uzbekistan": "UZ",
         "Vanuatu": "VU",
@@ -2506,201 +2525,8 @@
         "Vietnam": "VN",
         "Yemen": "YE",
         "Zambia": "ZM",
-        "Zimbabwe": "ZW"
-    },
-    "iso3ToIso2Mapping": {
-        "AFG": "AF",
-        "ALB": "AL",
-        "DZA": "DZ",
-        "AND": "AD",
-        "AGO": "AO",
-        "ATG": "AG",
-        "ARG": "AR",
-        "ARM": "AM",
-        "AUS": "AU",
-        "AUT": "AT",
-        "AZE": "AZ",
-        "BHS": "BS",
-        "BHR": "BH",
-        "BGD": "BD",
-        "BRB": "BB",
-        "BLR": "BY",
-        "BEL": "BE",
-        "BLZ": "BZ",
-        "BEN": "BJ",
-        "BTN": "BT",
-        "BOL": "BO",
-        "BIH": "BA",
-        "BWA": "BW",
-        "BRA": "BR",
-        "BRN": "BN",
-        "BGR": "BG",
-        "BFA": "BF",
-        "BDI": "BI",
-        "CPV": "CV",
-        "KHM": "KH",
-        "CMR": "CM",
-        "CAN": "CA",
-        "CAF": "CF",
-        "TCD": "TD",
-        "CHL": "CL",
-        "CHN": "CN",
-        "COL": "CO",
-        "COM": "KM",
-        "COG": "CG",
-        "COD": "CD",
-        "CRI": "CR",
-        "HRV": "HR",
-        "CUB": "CU",
-        "CYP": "CY",
-        "CZE": "CZ",
-        "DNK": "DK",
-        "DJI": "DJ",
-        "DMA": "DM",
-        "DOM": "DO",
-        "ECU": "EC",
-        "EGY": "EG",
-        "SLV": "SV",
-        "GNQ": "GQ",
-        "ERI": "ER",
-        "EST": "EE",
-        "SWZ": "SZ",
-        "ETH": "ET",
-        "FJI": "FJ",
-        "FIN": "FI",
-        "FRA": "FR",
-        "GAB": "GA",
-        "GMB": "GM",
-        "GEO": "GE",
-        "DEU": "DE",
-        "GHA": "GH",
-        "GRC": "GR",
-        "GRD": "GD",
-        "GTM": "GT",
-        "GIN": "GN",
-        "GNB": "GW",
-        "GUY": "GY",
-        "HTI": "HT",
-        "HND": "HN",
-        "HUN": "HU",
-        "ISL": "IS",
-        "IND": "IN",
-        "IDN": "ID",
-        "IRN": "IR",
-        "IRQ": "IQ",
-        "IRL": "IE",
-        "ISR": "IL",
-        "ITA": "IT",
-        "JAM": "JM",
-        "JPN": "JP",
-        "JOR": "JO",
-        "KAZ": "KZ",
-        "KEN": "KE",
-        "KIR": "KI",
-        "PRK": "KP",
-        "KOR": "KR",
-        "KWT": "KW",
-        "KGZ": "KG",
-        "LAO": "LA",
-        "LVA": "LV",
-        "LBN": "LB",
-        "LSO": "LS",
-        "LBR": "LR",
-        "LBY": "LY",
-        "LIE": "LI",
-        "LTU": "LT",
-        "LUX": "LU",
-        "MDG": "MG",
-        "MWI": "MW",
-        "MYS": "MY",
-        "MDV": "MV",
-        "MLI": "ML",
-        "MLT": "MT",
-        "MHL": "MH",
-        "MRT": "MR",
-        "MUS": "MU",
-        "MEX": "MX",
-        "FSM": "FM",
-        "MDA": "MD",
-        "MCO": "MC",
-        "MNG": "MN",
-        "MNE": "ME",
-        "MAR": "MA",
-        "MOZ": "MZ",
-        "MMR": "MM",
-        "NAM": "NA",
-        "NRU": "NR",
-        "NPL": "NP",
-        "NLD": "NL",
-        "NZL": "NZ",
-        "NIC": "NI",
-        "NER": "NE",
-        "NGA": "NG",
-        "MKD": "MK",
-        "NOR": "NO",
-        "OMN": "OM",
-        "PAK": "PK",
-        "PLW": "PW",
-        "PAN": "PA",
-        "PNG": "PG",
-        "PRY": "PY",
-        "PER": "PE",
-        "PHL": "PH",
-        "POL": "PL",
-        "PRT": "PT",
-        "QAT": "QA",
-        "ROU": "RO",
-        "RUS": "RU",
-        "RWA": "RW",
-        "KNA": "KN",
-        "LCA": "LC",
-        "VCT": "VC",
-        "WSM": "WS",
-        "SMR": "SM",
-        "STP": "ST",
-        "SAU": "SA",
-        "SEN": "SN",
-        "SRB": "RS",
-        "SYC": "SC",
-        "SLE": "SL",
-        "SGP": "SG",
-        "SVK": "SK",
-        "SVN": "SI",
-        "SLB": "SB",
-        "SOM": "SO",
-        "ZAF": "ZA",
-        "SSD": "SS",
-        "ESP": "ES",
-        "LKA": "LK",
-        "SDN": "SD",
-        "SUR": "SR",
-        "SWE": "SE",
-        "CHE": "CH",
-        "SYR": "SY",
-        "TJK": "TJ",
-        "TZA": "TZ",
-        "THA": "TH",
-        "TLS": "TL",
-        "TGO": "TG",
-        "TON": "TO",
-        "TTO": "TT",
-        "TUN": "TN",
-        "TUR": "TR",
-        "TKM": "TM",
-        "TUV": "TV",
-        "UGA": "UG",
-        "UKR": "UA",
-        "ARE": "AE",
-        "GBR": "GB",
-        "USA": "US",
-        "URY": "UY",
-        "UZB": "UZ",
-        "VUT": "VU",
-        "VAT": "VA",
-        "VEN": "VE",
-        "VNM": "VN",
-        "YEM": "YE",
-        "ZMB": "ZM",
-        "ZWE": "ZW"
+        "Zimbabwe": "ZW",
+        "Falkland Islands": "FK",
+        "French Southern and Antarctic Lands": "TF"
     }
 }

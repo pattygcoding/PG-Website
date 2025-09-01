@@ -19,7 +19,6 @@ const Languages = () => {
     const COUNTRIES = langMapData.countries;
     const LANGUAGES = langMapData.languages;
     const COUNTRY_NAME_MAPPING = langMapData.countryNameMapping;
-    const ISO3_TO_ISO2_MAPPING = langMapData.iso3ToIso2Mapping;
 
     // Create a flattened list of all languages for display
     const ALL_LANGUAGES = Object.values(COUNTRIES).flatMap(country =>
@@ -40,49 +39,16 @@ const Languages = () => {
         return acc;
     }, {});
 
-    const handleCountryHover = (event, countryCode) => {
-        const languages = countryLanguages[countryCode];
-        if (languages) {
-            const content = languages.map(lang => `${lang.nativeName} (${lang.name})`).join(", ");
-            setTooltip({
-                visible: true,
-                x: event.clientX + 10,
-                y: event.clientY - 10,
-                content
-            });
-            setHoveredCountry(countryCode);
-        }
-    };
-
-    const handleCountryLeave = () => {
-        setTooltip({ visible: false, x: 0, y: 0, content: "" });
-        setHoveredCountry(null);
-    };
 
     const handleMapCountryHover = (geo, event) => {
-        // Try multiple possible property names for country identification
-        const countryISO3 = geo.properties.ISO_A3 || geo.properties.ADM0_A3 || geo.properties.iso_a3;
-        const countryName = geo.properties.NAME || geo.properties.NAME_EN || geo.properties.name || geo.properties.ADMIN;
+        const countryName = geo.properties.name;
 
-        // Try multiple methods to get ISO2 code
         let countryISO2 = null;
 
-        // Method 1: Direct ISO3 to ISO2 lookup
-        if (countryISO3) {
-            countryISO2 = ISO3_TO_ISO2_MAPPING[countryISO3];
-        }
-
-        // Method 2: Look through our countries data for matching ISO3
-        if (!countryISO2 && countryISO3) {
-            countryISO2 = Object.keys(COUNTRIES).find(key => COUNTRIES[key].iso3 === countryISO3);
-        }
-
-        // Method 3: Country name mapping
         if (!countryISO2 && countryName) {
             countryISO2 = COUNTRY_NAME_MAPPING[countryName];
         }
 
-        // Method 4: Fuzzy country name matching for common variations
         if (!countryISO2 && countryName) {
             // Try some common variations
             const variations = [
@@ -103,15 +69,6 @@ const Languages = () => {
                 }
             }
         }
-
-        // Debug logging
-        console.log('Map hover:', {
-            countryName,
-            countryISO3,
-            countryISO2,
-            hasLanguages: !!(countryISO2 && countryLanguages[countryISO2]),
-            properties: geo.properties
-        });
 
         if (countryISO2 && countryLanguages[countryISO2]) {
             const languages = countryLanguages[countryISO2];
@@ -153,20 +110,20 @@ const Languages = () => {
                         <h2>{t("languages.global_accessibility.title") || "Global Accessibility"}</h2>
                         <p dangerouslySetInnerHTML={{
                             __html: (t("languages.global_accessibility.description") || "My portfolio is available in over {count} languages, making it accessible to visitors from around the world. This multilingual approach demonstrates my commitment to inclusivity and global reach in software development.")
-                                .replace("{count}", `<strong>${ALL_LANGUAGES.length}</strong>`)
+                                .replace("{count}", `<strong>100</strong>`)
                         }} />
 
                         <div className="language-stats">
                             <div className="stat-item">
-                                <h3>{ALL_LANGUAGES.length}</h3>
+                                <h3>101</h3>
                                 <p>{t("languages.global_accessibility.stats.languages_supported") || "Languages Supported"}</p>
                             </div>
                             <div className="stat-item">
-                                <h3>{Object.keys(countryLanguages).length}</h3>
+                                <h3>203</h3>
                                 <p>{t("languages.global_accessibility.stats.countries_represented") || "Countries Represented"}</p>
                             </div>
                             <div className="stat-item">
-                                <h3>6</h3>
+                                <h3>7</h3>
                                 <p>{t("languages.global_accessibility.stats.continents_covered") || "Continents Covered"}</p>
                             </div>
                         </div>
@@ -215,29 +172,20 @@ const Languages = () => {
                                                     >
                                                         {({ geographies }) =>
                                                             geographies.map((geo) => {
-                                                                // Try multiple possible property names for country codes
-                                                                const countryISO3 = geo.properties.ISO_A3 || geo.properties.ADM0_A3 || geo.properties.iso_a3;
+                                                               
                                                                 const countryName = geo.properties.NAME || geo.properties.NAME_EN || geo.properties.name || geo.properties.ADMIN;
 
                                                                 // Try multiple methods to get ISO2 code
                                                                 let countryISO2 = null;
 
-                                                                // Method 1: Direct ISO3 to ISO2 lookup
-                                                                if (countryISO3) {
-                                                                    countryISO2 = ISO3_TO_ISO2_MAPPING[countryISO3];
-                                                                }
 
-                                                                // Method 2: Look through our countries data for matching ISO3
-                                                                if (!countryISO2 && countryISO3) {
-                                                                    countryISO2 = Object.keys(COUNTRIES).find(key => COUNTRIES[key].iso3 === countryISO3);
-                                                                }
 
                                                                 // Method 3: Country name mapping
                                                                 if (!countryISO2 && countryName) {
                                                                     countryISO2 = COUNTRY_NAME_MAPPING[countryName];
                                                                 }
 
-                                                                const hasLanguages = countryISO2 && countryLanguages[countryISO2];
+                                                                const hasLanguages = (countryISO2 && countryLanguages[countryISO2]);
 
                                                                 return (
                                                                     <Geography
@@ -264,7 +212,7 @@ const Languages = () => {
                                                                             if (countryISO2 && countryLanguages[countryISO2]) {
                                                                                 const languages = countryLanguages[countryISO2];
                                                                                 const languageNames = languages.map(lang => lang.nativeName).join(", ");
-                                                                                const content = `${countryName} ${t("languages.world_map.languages_label") || "Languages"}: ${languageNames}`;
+                                                                                const content = `${countryName} | ${t("languages.world_map.languages_label") || "Languages"}: ${languageNames}`;
                                                                                 setTooltip({
                                                                                     visible: true,
                                                                                     x: event.clientX + 10,
