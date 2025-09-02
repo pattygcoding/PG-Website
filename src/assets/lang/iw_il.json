@@ -6,6 +6,7 @@
         "portfolio": "תִיק",
         "projects": "פרויקטים באתר",
         "tiger": "שפת נמר",
+        "portfolio_translator": "מתרגם תיקים",
         "formatter": "JSON & YAML FOORTARTATART",
         "cube_solver": "פותר Rubix Cube",
         "contact": "צרו איתי קשר"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "עקוב אחריי"
+    },
+    "languages": {
+        "title": "מתרגם תיקים",
+        "description": "גלה כיצד תיק העבודות שלי נגיש למבקרים מרחבי העולם עם תמיכה בלמעלה ממאה שפות.",
+        "global_accessibility": {
+            "title": "נגישות גלובלית",
+            "description": "תיק העבודות שלי זמין בשפות Over {Count}, מה שהופך אותו לנגיש למבקרים מרחבי העולם. גישה רב -לשונית זו מדגימה את המחויבות שלי לכלול ולהישג הגלובלי בפיתוח תוכנה.",
+            "stats": {
+                "languages_supported": "שפות נתמכות",
+                "countries_represented": "מדינות מיוצגות",
+                "continents_covered": "יבשות מכוסות"
+            }
+        },
+        "features": {
+            "title": "תכונות",
+            "items": [
+                {
+                    "title": "תרגום בזמן אמת:",
+                    "description": "החלף שפות באופן מיידי עם בורר השפה"
+                },
+                {
+                    "title": "שפה מבוססת כתובת אתר:",
+                    "description": "העדפות השפה נשמרות בכתובת האתר"
+                },
+                {
+                    "title": "תמיכה בתסריט יליד:",
+                    "description": "עיבוד נכון של תסריטים כמו ערבית, סינית, הינדית ועוד"
+                },
+                {
+                    "title": "רגישות תרבותית:",
+                    "description": "תרגומים שוקלים הקשר תרבותי, ולא רק משמעויות מילוליות"
+                },
+                {
+                    "title": "אופטימיזציה של SEO:",
+                    "description": "כל גרסת שפה מותאמת למנועי חיפוש"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "מפת עולם אינטראקטיבית",
+            "description": "לרחף על מדינות על המפה כדי לראות את השפות הנתמכות שלהן:",
+            "languages_label": "שפות",
+            "legend": {
+                "supported": "שפות נתמכות",
+                "not_supported": "אין תמיכה בשפה"
+            },
+            "zoom_controls": {
+                "zoom_in": "לְהִתְמַקֵד",
+                "zoom_out": "התקרב",
+                "reset": "איפוס תצוגה"
+            }
+        },
+        "supported_languages": {
+            "title": "שפות נתמכות"
+        },
+        "interactive_country_map": {
+            "title": "מפת מדינה אינטראקטיבית",
+            "description": "מרחף על מדינות למטה כדי לראות את השפות הנתמכות שלהן:",
+            "language_count": {
+                "single": "שָׂפָה",
+                "multiple": "שפות"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "אין תמיכה בשפה"
+        }
     },
     "logotext": "פטריק"
 }

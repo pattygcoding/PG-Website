@@ -6,6 +6,7 @@
         "portfolio": "Plaiscf",
         "projects": "Tionscadail láithreán gréasáin",
         "tiger": "Teanga Tíogair",
+        "portfolio_translator": "Aistritheoir punainne",
         "formatter": "Formatter Json & Yaml",
         "cube_solver": "Rubix Ciúb Réitigh",
         "contact": "Déan teagmháil liom"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Lean Mise"
+    },
+    "languages": {
+        "title": "Aistritheoir punainne",
+        "description": "Faigh amach conas atá mo phunann inrochtana do chuairteoirí ar fud an domhain le tacaíocht do níos mó ná 100 teanga.",
+        "global_accessibility": {
+            "title": "Inrochtaineacht dhomhanda",
+            "description": "Tá mo phunann ar fáil i dTeangacha os cionn {Count}, rud a fhágann go bhfuil sé inrochtana do chuairteoirí ar fud an domhain. Léiríonn an cur chuige ilteangach seo mo thiomantas do chuimsitheacht agus do shroichint dhomhanda i bhforbairt bogearraí.",
+            "stats": {
+                "languages_supported": "Teangacha tacaithe",
+                "countries_represented": "Tíortha a bhfuil ionadaíocht acu",
+                "continents_covered": "Mór -ranna clúdaithe"
+            }
+        },
+        "features": {
+            "title": "Bheith",
+            "items": [
+                {
+                    "title": "Aistriúchán fíor-ama:",
+                    "description": "Athraigh teangacha láithreach leis an roghnóir teanga"
+                },
+                {
+                    "title": "Teanga URL-bhunaithe:",
+                    "description": "Caomhnaítear roghanna teanga san URL"
+                },
+                {
+                    "title": "Tacaíocht scripte dúchais:",
+                    "description": "Scripteanna a dhéanamh go cuí cosúil le Araibis, Sínis, Hiondúis, agus níos mó"
+                },
+                {
+                    "title": "Íogaireacht chultúrtha:",
+                    "description": "Breithníonn aistriúcháin comhthéacs cultúrtha, ní hamháin bríonna liteartha"
+                },
+                {
+                    "title": "Optamaithe Sinsearach:",
+                    "description": "Tá gach leagan teanga optamaithe le haghaidh innill chuardaigh"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Léarscáil Domhanda Idirghníomhach",
+            "description": "Hover thar thíortha ar an léarscáil chun a dteangacha tacaithe a fheiceáil:",
+            "languages_label": "Teanga",
+            "legend": {
+                "supported": "Teangacha tacaithe",
+                "not_supported": "Gan Tacaíocht Teanga"
+            },
+            "zoom_controls": {
+                "zoom_in": "Súmáil isteach",
+                "zoom_out": "Súmáil amach",
+                "reset": "Amharc Athshocraithe"
+            }
+        },
+        "supported_languages": {
+            "title": "Teangacha tacaithe"
+        },
+        "interactive_country_map": {
+            "title": "Léarscáil tuaithe idirghníomhach",
+            "description": "Hover thar thíortha thíos chun a dteangacha tacaithe a fheiceáil:",
+            "language_count": {
+                "single": "béarlagair",
+                "multiple": "teanga"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Gan Tacaíocht Teanga"
+        }
     },
     "logotext": "Pádraig"
 }

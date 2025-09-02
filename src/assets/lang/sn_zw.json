@@ -6,6 +6,7 @@
         "portfolio": "Portfolio",
         "projects": "Zvirongwa zvebhusaiti",
         "tiger": "Mutauro weTiger",
+        "portfolio_translator": "Portfolio mushanduri",
         "formatter": "Json & yaml fomati",
         "cube_solver": "Rubix cube solver",
         "contact": "Ndibate"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Nditevere"
+    },
+    "languages": {
+        "title": "Portfolio mushanduri",
+        "description": "Ziva kuti matenga angu anowanikwa sei nevashanyi kubva pasi rese nekutsigirwa kwemitauro inopfuura zana.",
+        "global_accessibility": {
+            "title": "Global Kuwanikwa",
+            "description": "Yangu portfolio inowanikwa mukati {kuverenga} mitauro, ichiita kuti iwanikwe nevashanyi kubva pasi rese. Iyi nzira ine mitauro yakawanda inoratidza kuzvipira kwangu kune chinoda uye kusvika pasi rose kusvika pakuvandudza software.",
+            "stats": {
+                "languages_supported": "Mitauro Yakatsigirwa",
+                "countries_represented": "Nyika dzaimiririrwa",
+                "continents_covered": "Makondinendi akafukidzwa"
+            }
+        },
+        "features": {
+            "title": "Zvimiro",
+            "items": [
+                {
+                    "title": "Shanduro yechokwadi:",
+                    "description": "Chinja mitauro pakarepo nemutauro wekusarudza mutauro"
+                },
+                {
+                    "title": "URL-based mutauro:",
+                    "description": "Zvekufunga zvemitauro zvinochengetwa mu URL"
+                },
+                {
+                    "title": "Native Script Rutsigiro:",
+                    "description": "Kushandurwa kwakakodzera kwecrcripts seArabic, Chinese, Hindi, uye zvimwe"
+                },
+                {
+                    "title": "Tsika yekunzwa:",
+                    "description": "Dudziro dzinoona tsika dzetsika, kwete chete zvinoreva"
+                },
+                {
+                    "title": "Seo akagadzirira:",
+                    "description": "Mutauro wega wega mutsauko wakarongeka kune injini dzekutsvaga"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interractive Mepu yenyika",
+            "description": "Hover pamusoro penyika pamepu kuti uone mitauro yaakatsigirwa:",
+            "languages_label": "Mitauro",
+            "legend": {
+                "supported": "Mitauro Yakatsigirwa",
+                "not_supported": "Hapana rutsigiro rwemitauro"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoom in",
+                "zoom_out": "Zoom kunze",
+                "reset": "Reset tarisa"
+            }
+        },
+        "supported_languages": {
+            "title": "Mitauro inotsigirwa"
+        },
+        "interactive_country_map": {
+            "title": "Interractive Nyika Mepu",
+            "description": "Hover pamusoro penyika pazasi kuti uone mitauro yaakatsigirwa:",
+            "language_count": {
+                "single": "Mutauro",
+                "multiple": "Mitauro"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Hapana rutsigiro rwemitauro"
+        }
     },
     "logotext": "Patrick"
 }

@@ -6,6 +6,7 @@
         "portfolio": "Portopolio",
         "projects": "Proyek Situs Web",
         "tiger": "Basa Tiger",
+        "portfolio_translator": "Penerjemah Portopolio",
         "formatter": "Format json & yaml",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Hubungi kula"
@@ -253,6 +254,72 @@
         "tiktok": "TikTok",
         "youtube": "YouTube",
         "text_strip": "Tindakake kula"
+    },
+    "languages": {
+        "title": "Penerjemah Portopolio",
+        "description": "Temokake carane portofolio bisa diakses para pengunjung saka saindenging jagad kanthi dhukungan luwih saka 100 basa.",
+        "global_accessibility": {
+            "title": "Aksesoris global",
+            "description": "Portopolio kasedhiya ing Over {Count} bahasa, sing bisa diakses para pengunjung saka saindenging jagad. Pendhapat multingan iki nuduhake komitmen kanggo inclusivity lan tekan global ing pangembangan piranti lunak.",
+            "stats": {
+                "languages_supported": "Basa sing didhukung",
+                "countries_represented": "Negara sing dituduhake",
+                "continents_covered": "Bawana ditutupi"
+            }
+        },
+        "features": {
+            "title": "Fitur",
+            "items": [
+                {
+                    "title": "Terjemahan nyata-wektu:",
+                    "description": "Ngalih basa kanthi cepet karo pamilih basa"
+                },
+                {
+                    "title": "Basa basis URL:",
+                    "description": "Preferensi basa dijaga ing URL"
+                },
+                {
+                    "title": "Dhukungan Script Native:",
+                    "description": "Rendering skrip kaya Arab, Cina, Hindi, lan liya-liyane"
+                },
+                {
+                    "title": "Sensitivitas Budaya:",
+                    "description": "Nimbang konteks budaya, ora mung tegese harfiah"
+                },
+                {
+                    "title": "SEO optimized:",
+                    "description": "Saben varian basa dioptimalake kanggo mesin telusuran"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Peta Interaktif World",
+            "description": "Tumpukan ing negara-negara ing peta kanggo ndeleng basa sing didhukung:",
+            "languages_label": "Basa",
+            "legend": {
+                "supported": "Basa sing didhukung",
+                "not_supported": "Ora Dhukungan Basa"
+            },
+            "zoom_controls": {
+                "zoom_in": "Nggedhekake",
+                "zoom_out": "Zoom metu",
+                "reset": "Reset tampilan"
+            }
+        },
+        "supported_languages": {
+            "title": "Basa sing didhukung"
+        },
+        "interactive_country_map": {
+            "title": "Peta Negara Interaktif",
+            "description": "Tolak ing negara ing ngisor iki kanggo ndeleng basa sing didhukung:",
+            "language_count": {
+                "single": "basa",
+                "multiple": "Basa"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Ora Dhukungan Basa"
+        }
     },
     "logotext": "Patrick"
 }

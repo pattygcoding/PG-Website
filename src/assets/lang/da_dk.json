@@ -6,6 +6,7 @@
         "portfolio": "Portefølje",
         "projects": "Webstedsprojekter",
         "tiger": "Tiger sprog",
+        "portfolio_translator": "Porteføljeoversætter",
         "formatter": "JSON & YAML Formatter",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Kontakt mig"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Følg mig"
+    },
+    "languages": {
+        "title": "Porteføljeoversætter",
+        "description": "Oplev, hvordan min portefølje er tilgængelig for besøgende fra hele verden med støtte til over 100 sprog.",
+        "global_accessibility": {
+            "title": "Global tilgængelighed",
+            "description": "Min portefølje er tilgængelig på over {count} sprog, hvilket gør den tilgængelig for besøgende fra hele verden. Denne flersprogede tilgang demonstrerer min forpligtelse til inklusivitet og global rækkevidde inden for softwareudvikling.",
+            "stats": {
+                "languages_supported": "Sprog understøttet",
+                "countries_represented": "Lande repræsenteret",
+                "continents_covered": "Kontinenter dækket"
+            }
+        },
+        "features": {
+            "title": "Funktioner",
+            "items": [
+                {
+                    "title": "Real-time oversættelse:",
+                    "description": "Skift sprog øjeblikkeligt med sprogvælgeren"
+                },
+                {
+                    "title": "URL-baseret sprog:",
+                    "description": "Sprogpræferencer bevares i URL'en"
+                },
+                {
+                    "title": "Indfødt script support:",
+                    "description": "Korrekt gengivelse af scripts som arabisk, kinesisk, hindi og mere"
+                },
+                {
+                    "title": "Kulturel følsomhed:",
+                    "description": "Oversættelser overvejer kulturel kontekst, ikke kun bogstavelige betydninger"
+                },
+                {
+                    "title": "SEO optimeret:",
+                    "description": "Hver sprogvariant er optimeret til søgemaskiner"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktivt verdenskort",
+            "description": "Hold markøren over lande på kortet for at se deres understøttede sprog:",
+            "languages_label": "Sprog",
+            "legend": {
+                "supported": "Sprog understøttet",
+                "not_supported": "Ingen sprogstøtte"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoom ind",
+                "zoom_out": "Zoom ud",
+                "reset": "Nulstil visning"
+            }
+        },
+        "supported_languages": {
+            "title": "Understøttede sprog"
+        },
+        "interactive_country_map": {
+            "title": "Interaktivt landekort",
+            "description": "Hold markøren over lande nedenfor for at se deres understøttede sprog:",
+            "language_count": {
+                "single": "sprog",
+                "multiple": "sprog"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Ingen sprogstøtte"
+        }
     },
     "logotext": "Patrick"
 }

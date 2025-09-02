@@ -6,6 +6,7 @@
         "portfolio": "Portfolio",
         "projects": "Progetti di siti Web",
         "tiger": "Lingua tigre",
+        "portfolio_translator": "Traduttore di portafoglio",
         "formatter": "Formatter JSON e YAML",
         "cube_solver": "Solver cubo Rubix",
         "contact": "Contattami"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Seguimi"
+    },
+    "languages": {
+        "title": "Traduttore di portafoglio",
+        "description": "Scopri come il mio portafoglio è accessibile ai visitatori di tutto il mondo con supporto per oltre 100 lingue.",
+        "global_accessibility": {
+            "title": "Accessibilità globale",
+            "description": "Il mio portafoglio è disponibile nelle lingue oltre {Count}, rendendolo accessibile ai visitatori di tutto il mondo. Questo approccio multilingue dimostra il mio impegno per l'inclusività e la portata globale nello sviluppo del software.",
+            "stats": {
+                "languages_supported": "Lingue supportate",
+                "countries_represented": "Paesi rappresentati",
+                "continents_covered": "Continenti coperti"
+            }
+        },
+        "features": {
+            "title": "Caratteristiche",
+            "items": [
+                {
+                    "title": "Traduzione in tempo reale:",
+                    "description": "Passa le lingue all'istante con il selettore di lingue"
+                },
+                {
+                    "title": "Lingua basata sull'URL:",
+                    "description": "Le preferenze linguistiche sono conservate nell'URL"
+                },
+                {
+                    "title": "Supporto script nativo:",
+                    "description": "Resposizione corretta di script come arabo, cinese, hindi e altro ancora"
+                },
+                {
+                    "title": "Sensibilità culturale:",
+                    "description": "Le traduzioni considerano il contesto culturale, non solo i significati letterali"
+                },
+                {
+                    "title": "SEO ottimizzato:",
+                    "description": "Ogni variante di lingua è ottimizzata per i motori di ricerca"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Mappa del mondo interattiva",
+            "description": "Passa il mouse sui paesi sulla mappa per vedere le loro lingue supportate:",
+            "languages_label": "Lingue",
+            "legend": {
+                "supported": "Lingue supportate",
+                "not_supported": "Nessun supporto linguistico"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoom in",
+                "zoom_out": "Zoom out",
+                "reset": "Ripristina la vista"
+            }
+        },
+        "supported_languages": {
+            "title": "Lingue supportate"
+        },
+        "interactive_country_map": {
+            "title": "Mappa del paese interattivo",
+            "description": "Passa il mouse sui paesi sottostanti per vedere le loro lingue supportate:",
+            "language_count": {
+                "single": "lingua",
+                "multiple": "lingue"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Nessun supporto linguistico"
+        }
     },
     "logotext": "Patrick"
 }

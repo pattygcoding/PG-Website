@@ -6,6 +6,7 @@
         "portfolio": "Portföy",
         "projects": "Web sitesi projeleri",
         "tiger": "Kaplan dili",
+        "portfolio_translator": "Portföy çevirmen",
         "formatter": "JSON & YAML FORMATER",
         "cube_solver": "Rubix Cube Çözücü",
         "contact": "Benimle iletişime geç"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Beni takip et"
+    },
+    "languages": {
+        "title": "Portföy çevirmen",
+        "description": "Portföyümün 100'den fazla dil desteğiyle dünyanın dört bir yanından gelen ziyaretçiler için nasıl erişilebilir olduğunu keşfedin.",
+        "global_accessibility": {
+            "title": "Global Erişilebilirlik",
+            "description": "Portföyüm, {Count} dillerinde mevcuttur, bu da onu dünyanın dört bir yanından gelen ziyaretçiler için erişilebilir hale getirir. Bu çok dilli yaklaşım, yazılım geliştirmede kapsayıcılık ve küresel erişim konusundaki bağlılığımı göstermektedir.",
+            "stats": {
+                "languages_supported": "Desteklenen diller",
+                "countries_represented": "Temsil edilen ülkeler",
+                "continents_covered": "Kıtalar kaplı"
+            }
+        },
+        "features": {
+            "title": "Özellikler",
+            "items": [
+                {
+                    "title": "Gerçek Zamanlı Çeviri:",
+                    "description": "Dilleri Dil seçicisiyle anında değiştirin"
+                },
+                {
+                    "title": "URL tabanlı dil:",
+                    "description": "Dil tercihleri ​​URL'de korunur"
+                },
+                {
+                    "title": "Yerel Komut Dosyası Desteği:",
+                    "description": "Arapça, Çince, Hintçe ve daha fazlası gibi senaryoların uygun şekilde oluşturulması"
+                },
+                {
+                    "title": "Kültürel Hassasiyet:",
+                    "description": "Çeviriler, sadece gerçek anlamları değil, kültürel bağlamı düşünün"
+                },
+                {
+                    "title": "SEO optimize edilmiş:",
+                    "description": "Her dil varyantı arama motorları için optimize edilmiştir"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Etkileşimli Dünya Haritası",
+            "description": "Desteklenen dillerini görmek için haritadaki ülkeler üzerinde dolaşın:",
+            "languages_label": "Diller",
+            "legend": {
+                "supported": "Desteklenen diller",
+                "not_supported": "Dil desteği yok"
+            },
+            "zoom_controls": {
+                "zoom_in": "Yakınlaştırmak",
+                "zoom_out": "Uzaklaştırmak",
+                "reset": "Görünümü Sıfırla"
+            }
+        },
+        "supported_languages": {
+            "title": "Desteklenen Diller"
+        },
+        "interactive_country_map": {
+            "title": "İnteraktif ülke haritası",
+            "description": "Desteklenen dillerini görmek için aşağıdaki ülkeler üzerinde dolaşın:",
+            "language_count": {
+                "single": "dil",
+                "multiple": "diller"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Dil desteği yok"
+        }
     },
     "logotext": "Patrick"
 }

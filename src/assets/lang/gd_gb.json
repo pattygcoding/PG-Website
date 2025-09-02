@@ -6,6 +6,7 @@
         "portfolio": "Pasgan",
         "projects": "Pròiseactan làrach-lìn",
         "tiger": "Cànan tìgear",
+        "portfolio_translator": "Eadar-theangaiche porfolio",
         "formatter": "Ùine JSON & Yaml",
         "cube_solver": "Solarver CUBIX CUBE",
         "contact": "Cuir fios thugam"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "Youtube",
         "text_strip": "Lean mi"
+    },
+    "languages": {
+        "title": "Eadar-theangaiche porfolio",
+        "description": "Faigh a-mach mar a tha mo pasgan ruigsinneach do luchd-tadhail bho air feadh an t-saoghail le taic airson còrr air 100 cànan.",
+        "global_accessibility": {
+            "title": "Ruigsinneachd Cruinneil",
+            "description": "Tha mo phasgan ri fhaighinn ann an {cunntadh} cànanan, ga dhèanamh ruigsinneach do luchd-tadhail bho air feadh an t-saoghail. Tha an dòigh-obrach ioma-chànanach seo a 'nochdadh mo dhealas a thaobh in-ghabhaltas agus ruigsinneachd cruinneil ann an leasachadh bathar-bog.",
+            "stats": {
+                "languages_supported": "Cànanan a 'faighinn taic",
+                "countries_represented": "Dùthchannan air an riochdachadh",
+                "continents_covered": "Mòr-mhìrean còmhdaichte"
+            }
+        },
+        "features": {
+            "title": "Feartan",
+            "items": [
+                {
+                    "title": "Eadar-theangachadh fìor-ùine:",
+                    "description": "Cuir cànanan cànan sa bhad leis an neach-roghnaiche cànain"
+                },
+                {
+                    "title": "Cànan stèidhichte URL:",
+                    "description": "Tha roghainnean cànain air a ghleidheadh ​​anns an URL"
+                },
+                {
+                    "title": "Taic sgriobt dùthchasach:",
+                    "description": "A 'toirt seachad sgriobtaichean mar Arabais, Sìnis, Hindi, agus barrachd"
+                },
+                {
+                    "title": "Cunngarrach cultarach:",
+                    "description": "Eadar-theangachadh beachdaich air co-theacsa cultarail, chan e dìreach ciall litearra"
+                },
+                {
+                    "title": "Seo optimized:",
+                    "description": "Tha gach cànan a 'dèanamh iomagain air a mheudachadh airson einnseanan sgrùdaidh"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Mapa na cruinne eadar-ghnìomhach",
+            "description": "Oidhche thairis air dùthchannan air a 'mhapa gus na cànanan taic aca fhaicinn:",
+            "languages_label": "Cànanan",
+            "legend": {
+                "supported": "Cànanan a 'faighinn taic",
+                "not_supported": "Gun taic cànain"
+            },
+            "zoom_controls": {
+                "zoom_in": "Gluais a-steach",
+                "zoom_out": "Gluais a-mach",
+                "reset": "Sealladh ath-shuidheachadh"
+            }
+        },
+        "supported_languages": {
+            "title": "Cànanan le taic"
+        },
+        "interactive_country_map": {
+            "title": "Mapa dùthcha eadar-ghnìomhach",
+            "description": "Slighe thairis air Dùthchannan gu h-ìosal gus na cànanan taic aca fhaicinn:",
+            "language_count": {
+                "single": "Cànan",
+                "multiple": "Cànanan"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Gun taic cànain"
+        }
     },
     "logotext": "Patrick"
 }

@@ -6,6 +6,7 @@
         "portfolio": "Dosye",
         "projects": "Pwojè Sit wèb",
         "tiger": "Tiger Lang",
+        "portfolio_translator": "Pòtfolyo tradiktè",
         "formatter": "Json & yaml formatter",
         "cube_solver": "Rubix kib rezolveur",
         "contact": "Kontakte mwen"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "Youtube",
         "text_strip": "Swiv mwen"
+    },
+    "languages": {
+        "title": "Pòtfolyo tradiktè",
+        "description": "Dekouvri kijan dosye mwen an aksesib pou vizitè ki soti toupatou nan mond lan avèk sipò pou plis pase 100 lang.",
+        "global_accessibility": {
+            "title": "Aksè Global",
+            "description": "Pòtfolyo mwen an disponib nan plis pase {konte} lang yo, ki fè li aksesib a vizitè ki sòti nan atravè mond lan. Apwòch sa a pale plizyè lang demontre angajman mwen nan enkluzivite ak rive mondyal nan devlopman lojisyèl.",
+            "stats": {
+                "languages_supported": "Lang sipòte",
+                "countries_represented": "Peyi yo reprezante",
+                "continents_covered": "Kontinan ki kouvri"
+            }
+        },
+        "features": {
+            "title": "Karakteristik",
+            "items": [
+                {
+                    "title": "Tradiksyon an tan reyèl:",
+                    "description": "Chanje lang imedyatman ak seleksyon lang lan"
+                },
+                {
+                    "title": "Lang ki baze sou URL:",
+                    "description": "Preferans lang yo konsève nan URL la"
+                },
+                {
+                    "title": "Sipò script natif natal:",
+                    "description": "Bon rann nan Scripts tankou arab, Chinwa, Hindi, ak plis ankò"
+                },
+                {
+                    "title": "Sansiblite kiltirèl:",
+                    "description": "Tradiksyon konsidere kontèks kiltirèl, pa sèlman siyifikasyon literal"
+                },
+                {
+                    "title": "SEO optimisé:",
+                    "description": "Chak Variant lang optimisé pou motè rechèch"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Kat mond entèaktif",
+            "description": "Hover sou peyi sou kat la yo wè lang sipòte yo:",
+            "languages_label": "Lang",
+            "legend": {
+                "supported": "Lang sipòte",
+                "not_supported": "Pa gen sipò langaj"
+            },
+            "zoom_controls": {
+                "zoom_in": "Rale nan",
+                "zoom_out": "Rale soti",
+                "reset": "Reyajiste View"
+            }
+        },
+        "supported_languages": {
+            "title": "Lang sipòte"
+        },
+        "interactive_country_map": {
+            "title": "Kat peyi entèaktif",
+            "description": "Hover sou peyi ki anba a yo wè lang sipòte yo:",
+            "language_count": {
+                "single": "lang",
+                "multiple": "lang"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Pa gen sipò langaj"
+        }
     },
     "logotext": "Patrick"
 }

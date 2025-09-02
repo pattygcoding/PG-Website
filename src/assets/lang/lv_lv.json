@@ -6,6 +6,7 @@
         "portfolio": "Portfelis",
         "projects": "Vietņu projekti",
         "tiger": "Tīģeru valoda",
+        "portfolio_translator": "Portfeļa tulks",
         "formatter": "Json & yaml formatter",
         "cube_solver": "Rubiksa kubu risinātājs",
         "contact": "Sazinieties ar mani"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "Youtube",
         "text_strip": "Seko man"
+    },
+    "languages": {
+        "title": "Portfeļa tulks",
+        "description": "Atklājiet, kā mans portfelis ir pieejams apmeklētājiem no visas pasaules ar atbalstu vairāk nekā 100 valodām.",
+        "global_accessibility": {
+            "title": "Globālā pieejamība",
+            "description": "Mans portfelis ir pieejams vairāk nekā {count} valodās, padarot to pieejamu apmeklētājiem no visas pasaules. Šī daudzvalodu pieeja parāda manu apņemšanos iekļaušanu un globālo sasniedzamību programmatūras izstrādē.",
+            "stats": {
+                "languages_supported": "Atbalstītas valodas",
+                "countries_represented": "Valstis pārstāvēja",
+                "continents_covered": "Pārklāti kontinenti"
+            }
+        },
+        "features": {
+            "title": "Funkcijas",
+            "items": [
+                {
+                    "title": "Tulkojums reāllaikā:",
+                    "description": "Uzreiz pārslēdziet valodas ar valodas atlasītāju"
+                },
+                {
+                    "title": "Uz URL balstīta valoda:",
+                    "description": "Valodas preferences tiek saglabātas URL"
+                },
+                {
+                    "title": "Vietējā skripta atbalsts:",
+                    "description": "Pareiza skriptu, piemēram, arābu, ķīniešu, hindi un citu, atveidošana"
+                },
+                {
+                    "title": "Kultūras jutība:",
+                    "description": "Tulkojumi Apsveriet kultūras kontekstu, ne tikai burtiskas nozīmes"
+                },
+                {
+                    "title": "SEO optimizēts:",
+                    "description": "Katrs valodas variants ir optimizēts meklētājprogrammām"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktīvā pasaules karte",
+            "description": "Virziet virs valstīm, kas atrodas kartē, lai redzētu viņu atbalstītās valodas:",
+            "languages_label": "Valodas",
+            "legend": {
+                "supported": "Atbalstītas valodas",
+                "not_supported": "Nav valodas atbalsta"
+            },
+            "zoom_controls": {
+                "zoom_in": "Tuvināt",
+                "zoom_out": "Tuvināt",
+                "reset": "Atiestatīt skatu"
+            }
+        },
+        "supported_languages": {
+            "title": "Atbalstītas valodas"
+        },
+        "interactive_country_map": {
+            "title": "Interaktīva lauku karte",
+            "description": "Virziet virs valstīm zemāk, lai redzētu viņu atbalstītās valodas:",
+            "language_count": {
+                "single": "valoda",
+                "multiple": "valodas"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Nav valodas atbalsta"
+        }
     },
     "logotext": "Patriks"
 }

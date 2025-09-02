@@ -6,6 +6,7 @@
         "portfolio": "Portofoliu",
         "projects": "Proiecte de site -uri web",
         "tiger": "Limba tigrului",
+        "portfolio_translator": "Traducător de portofoliu",
         "formatter": "Formatter JSON & YAML",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Contactați -mă"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Urmați-mă"
+    },
+    "languages": {
+        "title": "Traducător de portofoliu",
+        "description": "Descoperiți cum portofoliul meu este accesibil vizitatorilor din întreaga lume cu sprijin pentru peste 100 de limbi.",
+        "global_accessibility": {
+            "title": "Accesibilitate globală",
+            "description": "Portofoliul meu este disponibil în limbi peste {count}, ceea ce îl face accesibil vizitatorilor din întreaga lume. Această abordare multilingvă demonstrează angajamentul meu față de incluziune și de a ajunge global în dezvoltarea de software.",
+            "stats": {
+                "languages_supported": "Limbi acceptate",
+                "countries_represented": "Țări reprezentate",
+                "continents_covered": "Continente acoperite"
+            }
+        },
+        "features": {
+            "title": "Caracteristici",
+            "items": [
+                {
+                    "title": "Traducere în timp real:",
+                    "description": "Schimbați limbile instantaneu cu selectorul de limbă"
+                },
+                {
+                    "title": "Limbaj bazat pe URL:",
+                    "description": "Preferințele lingvistice sunt păstrate în adresa URL"
+                },
+                {
+                    "title": "Suport pentru script nativ:",
+                    "description": "Redarea corectă a scenariilor precum araba, chineza, hindi și multe altele"
+                },
+                {
+                    "title": "Sensibilitate culturală:",
+                    "description": "Traducerile consideră contextul cultural, nu doar semnificațiile literale"
+                },
+                {
+                    "title": "SEO optimizat:",
+                    "description": "Fiecare variantă de limbă este optimizată pentru motoarele de căutare"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Harta interactivă a lumii",
+            "description": "Treceți peste țări de pe hartă pentru a vedea limbile susținute:",
+            "languages_label": "Limbi",
+            "legend": {
+                "supported": "Limbi acceptate",
+                "not_supported": "Fără sprijin lingvistic"
+            },
+            "zoom_controls": {
+                "zoom_in": "Măriți",
+                "zoom_out": "Zoom afară",
+                "reset": "Resetați vizualizarea"
+            }
+        },
+        "supported_languages": {
+            "title": "Limbi acceptate"
+        },
+        "interactive_country_map": {
+            "title": "Harta interactivă a țării",
+            "description": "Treceți peste țările de mai jos pentru a vedea limbile susținute:",
+            "language_count": {
+                "single": "limbă",
+                "multiple": "limbi"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Fără sprijin lingvistic"
+        }
     },
     "logotext": "Patrick"
 }

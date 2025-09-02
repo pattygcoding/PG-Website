@@ -6,6 +6,7 @@
         "portfolio": "Portofolio",
         "projects": "Proyek situs web",
         "tiger": "Bahasa harimau",
+        "portfolio_translator": "Penerjemah portofolio",
         "formatter": "Embara json & yaml",
         "cube_solver": "Pemecah Kubus Rubix",
         "contact": "Hubungi saya"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Ikuti saya"
+    },
+    "languages": {
+        "title": "Penerjemah portofolio",
+        "description": "Temukan bagaimana portofolio saya dapat diakses oleh pengunjung dari seluruh dunia dengan dukungan untuk lebih dari 100 bahasa.",
+        "global_accessibility": {
+            "title": "Aksesibilitas Global",
+            "description": "Portofolio saya tersedia dalam bahasa Over {Count}, membuatnya dapat diakses oleh pengunjung dari seluruh dunia. Pendekatan multibahasa ini menunjukkan komitmen saya terhadap inklusivitas dan jangkauan global dalam pengembangan perangkat lunak.",
+            "stats": {
+                "languages_supported": "Bahasa didukung",
+                "countries_represented": "Negara diwakili",
+                "continents_covered": "Benua tertutup"
+            }
+        },
+        "features": {
+            "title": "Fitur",
+            "items": [
+                {
+                    "title": "Terjemahan real-time:",
+                    "description": "Beralih bahasa secara instan dengan pemilih bahasa"
+                },
+                {
+                    "title": "Bahasa berbasis URL:",
+                    "description": "Preferensi bahasa disimpan dalam URL"
+                },
+                {
+                    "title": "Dukungan skrip asli:",
+                    "description": "Render yang tepat dari naskah seperti bahasa Arab, Cina, Hindi, dan banyak lagi"
+                },
+                {
+                    "title": "Sensitivitas Budaya:",
+                    "description": "Terjemahan mempertimbangkan konteks budaya, bukan hanya makna literal"
+                },
+                {
+                    "title": "SEO Dioptimalkan:",
+                    "description": "Setiap varian bahasa dioptimalkan untuk mesin pencari"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Peta Dunia Interaktif",
+            "description": "Melayang di atas negara di peta untuk melihat bahasa yang didukung:",
+            "languages_label": "Bahasa",
+            "legend": {
+                "supported": "Bahasa didukung",
+                "not_supported": "Tidak ada dukungan bahasa"
+            },
+            "zoom_controls": {
+                "zoom_in": "Memperbesar",
+                "zoom_out": "Zoom out",
+                "reset": "Reset tampilan"
+            }
+        },
+        "supported_languages": {
+            "title": "Bahasa yang didukung"
+        },
+        "interactive_country_map": {
+            "title": "Peta Negara Interaktif",
+            "description": "Melayang di atas negara -negara di bawah ini untuk melihat bahasa yang didukung:",
+            "language_count": {
+                "single": "bahasa",
+                "multiple": "bahasa"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Tidak ada dukungan bahasa"
+        }
     },
     "logotext": "Patrick"
 }

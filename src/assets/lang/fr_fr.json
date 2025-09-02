@@ -6,6 +6,7 @@
         "portfolio": "Portefeuille",
         "projects": "Projets de site Web",
         "tiger": "Langue tigre",
+        "portfolio_translator": "Traducteur de portefeuille",
         "formatter": "Formateur JSON & YAML",
         "cube_solver": "Solveur de cube Rubix",
         "contact": "Contactez-moi"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "Youtube",
         "text_strip": "Suis-moi"
+    },
+    "languages": {
+        "title": "Traducteur de portefeuille",
+        "description": "Découvrez comment mon portefeuille est accessible aux visiteurs du monde entier avec un support pour plus de 100 langues.",
+        "global_accessibility": {
+            "title": "Accessibilité mondiale",
+            "description": "Mon portefeuille est disponible dans des langues {count}, ce qui le rend accessible aux visiteurs du monde entier. Cette approche multilingue démontre mon engagement envers l'inclusivité et la portée mondiale dans le développement de logiciels.",
+            "stats": {
+                "languages_supported": "Langues prises en charge",
+                "countries_represented": "Pays représentés",
+                "continents_covered": "Continents couverts"
+            }
+        },
+        "features": {
+            "title": "Caractéristiques",
+            "items": [
+                {
+                    "title": "Traduction en temps réel:",
+                    "description": "Changer les langues instantanément avec le sélecteur de langue"
+                },
+                {
+                    "title": "Langue basée sur une URL:",
+                    "description": "Les préférences linguistiques sont conservées dans l'URL"
+                },
+                {
+                    "title": "Prise en charge du script natif:",
+                    "description": "Rendu approprié de scripts comme l'arabe, le chinois, l'hindi et plus"
+                },
+                {
+                    "title": "Sensibilité culturelle:",
+                    "description": "Les traductions considèrent le contexte culturel, pas seulement les significations littérales"
+                },
+                {
+                    "title": "SEO optimisé:",
+                    "description": "Chaque variante de langue est optimisée pour les moteurs de recherche"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Carte du monde interactive",
+            "description": "Planer sur les pays sur la carte pour voir leurs langues soutenues:",
+            "languages_label": "Langues",
+            "legend": {
+                "supported": "Langues prises en charge",
+                "not_supported": "Aucun support linguistique"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoomer",
+                "zoom_out": "Zoom out",
+                "reset": "Réinitialiser la vue"
+            }
+        },
+        "supported_languages": {
+            "title": "Langues prises en charge"
+        },
+        "interactive_country_map": {
+            "title": "Carte de pays interactive",
+            "description": "Planer sur les pays ci-dessous pour voir leurs langues soutenues:",
+            "language_count": {
+                "single": "langue",
+                "multiple": "langues"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Aucun support linguistique"
+        }
     },
     "logotext": "Patrick"
 }

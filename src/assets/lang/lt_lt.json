@@ -6,6 +6,7 @@
         "portfolio": "Portfelis",
         "projects": "Svetainių projektai",
         "tiger": "Tigro kalba",
+        "portfolio_translator": "Portfelio vertėjas",
         "formatter": "JSON ir YAML FORMATERTAS",
         "cube_solver": "„Rubix Cube Solver“",
         "contact": "Susisiekite su manimi"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "„YouTube“",
         "text_strip": "Sekite mane"
+    },
+    "languages": {
+        "title": "Portfelio vertėjas",
+        "description": "Sužinokite, kaip mano portfelis prieinamas lankytojams iš viso pasaulio, palaikant daugiau nei 100 kalbų.",
+        "global_accessibility": {
+            "title": "Visuotinis prieinamumas",
+            "description": "Mano portfelis yra prieinamas daugiau nei {grafo} kalbomis, todėl jis yra prieinamas lankytojams iš viso pasaulio. Šis daugiakalbis požiūris rodo mano įsipareigojimą įtraukti ir visuotinai pasiekti programinės įrangos kūrimą.",
+            "stats": {
+                "languages_supported": "Palaikomos kalbos",
+                "countries_represented": "Šalys atstovavo",
+                "continents_covered": "Dangtiniai žemynai"
+            }
+        },
+        "features": {
+            "title": "Savybės",
+            "items": [
+                {
+                    "title": "Vertimas realiuoju laiku:",
+                    "description": "Kalbos iškart perjunkite kalbų parinkiklį"
+                },
+                {
+                    "title": "URL pagrįsta kalba:",
+                    "description": "Kalbos nuostatos išsaugomos URL"
+                },
+                {
+                    "title": "Gimtojo scenarijaus palaikymas:",
+                    "description": "Tinkamas scenarijų, tokių kaip arabų, kinų, hindi ir dar daugiau"
+                },
+                {
+                    "title": "Kultūrinis jautrumas:",
+                    "description": "Vertimai svarsto kultūrinį kontekstą, o ne tik pažodines reikšmes"
+                },
+                {
+                    "title": "SEO optimizuotas:",
+                    "description": "Kiekvienas kalbos variantas yra optimizuotas paieškos sistemoms"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktyvus pasaulio žemėlapis",
+            "description": "Užveskite pelės žymeklį žemėlapyje, kad pamatytumėte jų palaikomas kalbas:",
+            "languages_label": "Kalbos",
+            "legend": {
+                "supported": "Palaikomos kalbos",
+                "not_supported": "Nėra kalbos palaikymo"
+            },
+            "zoom_controls": {
+                "zoom_in": "Mastelio keitimas",
+                "zoom_out": "Nukartinkite",
+                "reset": "Atstatymo rodinys"
+            }
+        },
+        "supported_languages": {
+            "title": "Palaikomos kalbos"
+        },
+        "interactive_country_map": {
+            "title": "Interaktyvus šalies žemėlapis",
+            "description": "Užveskite užveskite žemiau esančias šalis, kad pamatytumėte jų palaikomas kalbas:",
+            "language_count": {
+                "single": "kalba",
+                "multiple": "Kalbos"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Nėra kalbos palaikymo"
+        }
     },
     "logotext": "Patrikas"
 }

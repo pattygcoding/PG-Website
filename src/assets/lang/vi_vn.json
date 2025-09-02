@@ -6,6 +6,7 @@
         "portfolio": "Danh mục đầu tư",
         "projects": "Dự án trang web",
         "tiger": "Ngôn ngữ hổ",
+        "portfolio_translator": "Danh mục đầu tư dịch",
         "formatter": "Json & Yaml định dạng",
         "cube_solver": "Bộ giải Rubix Cube",
         "contact": "Liên hệ với tôi"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Theo tôi"
+    },
+    "languages": {
+        "title": "Danh mục đầu tư dịch",
+        "description": "Khám phá cách danh mục đầu tư của tôi có thể truy cập được cho khách truy cập từ khắp nơi trên thế giới với sự hỗ trợ cho hơn 100 ngôn ngữ.",
+        "global_accessibility": {
+            "title": "Khả năng tiếp cận toàn cầu",
+            "description": "Danh mục đầu tư của tôi có sẵn bằng các ngôn ngữ {Count}, giúp khách truy cập từ khắp nơi trên thế giới có thể truy cập được. Cách tiếp cận đa ngôn ngữ này thể hiện cam kết của tôi về tính bao gồm và phạm vi toàn cầu trong phát triển phần mềm.",
+            "stats": {
+                "languages_supported": "Ngôn ngữ được hỗ trợ",
+                "countries_represented": "Các quốc gia đại diện",
+                "continents_covered": "Các lục địa được bảo hiểm"
+            }
+        },
+        "features": {
+            "title": "Đặc trưng",
+            "items": [
+                {
+                    "title": "Bản dịch thời gian thực:",
+                    "description": "Chuyển ngôn ngữ ngay lập tức với bộ chọn ngôn ngữ"
+                },
+                {
+                    "title": "Ngôn ngữ dựa trên URL:",
+                    "description": "Sở thích ngôn ngữ được bảo tồn trong URL"
+                },
+                {
+                    "title": "Hỗ trợ tập lệnh gốc:",
+                    "description": "Kết xuất đúng các kịch bản như tiếng Ả Rập, tiếng Trung, tiếng Hindi, và nhiều hơn nữa"
+                },
+                {
+                    "title": "Sự nhạy cảm về văn hóa:",
+                    "description": "Bản dịch xem xét bối cảnh văn hóa, không chỉ ý nghĩa theo nghĩa đen"
+                },
+                {
+                    "title": "SEO được tối ưu hóa:",
+                    "description": "Mỗi biến thể ngôn ngữ được tối ưu hóa cho các công cụ tìm kiếm"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Bản đồ thế giới tương tác",
+            "description": "Di chuột qua các quốc gia trên bản đồ để xem các ngôn ngữ được hỗ trợ của họ:",
+            "languages_label": "Ngôn ngữ",
+            "legend": {
+                "supported": "Ngôn ngữ được hỗ trợ",
+                "not_supported": "Không hỗ trợ ngôn ngữ"
+            },
+            "zoom_controls": {
+                "zoom_in": "Phóng to",
+                "zoom_out": "Thu phóng ra",
+                "reset": "Đặt lại chế độ xem"
+            }
+        },
+        "supported_languages": {
+            "title": "Ngôn ngữ được hỗ trợ"
+        },
+        "interactive_country_map": {
+            "title": "Bản đồ quốc gia tương tác",
+            "description": "Di chuột qua các quốc gia dưới đây để xem các ngôn ngữ được hỗ trợ của họ:",
+            "language_count": {
+                "single": "ngôn ngữ",
+                "multiple": "ngôn ngữ"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Không hỗ trợ ngôn ngữ"
+        }
     },
     "logotext": "Patrick"
 }

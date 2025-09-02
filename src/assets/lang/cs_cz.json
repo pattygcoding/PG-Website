@@ -6,6 +6,7 @@
         "portfolio": "Portfolio",
         "projects": "Webové projekty",
         "tiger": "Tygří jazyk",
+        "portfolio_translator": "Překladatel portfolia",
         "formatter": "JSON & YAML FORMATTERT",
         "cube_solver": "RUBIX CUBE SORVER",
         "contact": "Kontaktujte mě"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Následujte mě"
+    },
+    "languages": {
+        "title": "Překladatel portfolia",
+        "description": "Objevte, jak je moje portfolio přístupné návštěvníkům z celého světa s podporou více než 100 jazyků.",
+        "global_accessibility": {
+            "title": "Globální přístupnost",
+            "description": "Moje portfolio je k dispozici ve více než {Count} jazycích, což je přístupné návštěvníkům z celého světa. Tento vícejazyčný přístup ukazuje můj závazek k inkluzivitě a globálnímu dosahu ve vývoji softwaru.",
+            "stats": {
+                "languages_supported": "Podporované jazyky",
+                "countries_represented": "Zastoupené země",
+                "continents_covered": "Kontinenty pokryty"
+            }
+        },
+        "features": {
+            "title": "Funkce",
+            "items": [
+                {
+                    "title": "Překlad v reálném čase:",
+                    "description": "Okamžitě přepněte jazyky s jazykovým voličem"
+                },
+                {
+                    "title": "Jazyk založený na adrese URL:",
+                    "description": "V URL jsou zachovány jazykové preference"
+                },
+                {
+                    "title": "Podpora nativního skriptu:",
+                    "description": "Správné vykreslování skriptů, jako je arabština, čínština, hindština a další"
+                },
+                {
+                    "title": "Kulturní citlivost:",
+                    "description": "Překlady zvažují kulturní kontext, nejen doslovný významy"
+                },
+                {
+                    "title": "Optimalizováno SEO:",
+                    "description": "Každá jazyková varianta je optimalizována pro vyhledávače"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktivní mapa světa",
+            "description": "Umístěte se nad zeměmi na mapě, abyste viděli své podporované jazyky:",
+            "languages_label": "Jazyky",
+            "legend": {
+                "supported": "Podporované jazyky",
+                "not_supported": "Žádná jazyková podpora"
+            },
+            "zoom_controls": {
+                "zoom_in": "Přiblížit",
+                "zoom_out": "Oddálit",
+                "reset": "Resetovat pohled"
+            }
+        },
+        "supported_languages": {
+            "title": "Podporované jazyky"
+        },
+        "interactive_country_map": {
+            "title": "Interaktivní mapa země",
+            "description": "Umístěte se nad zeměmi níže, abyste viděli své podporované jazyky:",
+            "language_count": {
+                "single": "jazyk",
+                "multiple": "jazyky"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Žádná jazyková podpora"
+        }
     },
     "logotext": "Patrick"
 }

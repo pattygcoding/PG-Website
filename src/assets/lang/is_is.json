@@ -6,6 +6,7 @@
         "portfolio": "Eignasafn",
         "projects": "Vefsíðuverkefni",
         "tiger": "Tiger tungumál",
+        "portfolio_translator": "Portfolio þýðandi",
         "formatter": "JSON & YAML Formatter",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Hafðu samband við mig"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Fylgdu mér"
+    },
+    "languages": {
+        "title": "Portfolio þýðandi",
+        "description": "Uppgötvaðu hvernig eignasafnið mitt er aðgengilegt fyrir gesti víðsvegar að úr heiminum með stuðningi við yfir 100 tungumál.",
+        "global_accessibility": {
+            "title": "Alþjóðlegt aðgengi",
+            "description": "Eignasafnið mitt er fáanlegt á yfir {count} tungumálum, sem gerir það aðgengilegt fyrir gesti víðsvegar að úr heiminum. Þessi fjöltyngda nálgun sýnir fram á skuldbindingu mína um innifalið og alþjóðlegt ná í hugbúnaðarþróun.",
+            "stats": {
+                "languages_supported": "Tungumál studd",
+                "countries_represented": "Lönd fulltrúa",
+                "continents_covered": "Heimsálfur þaknar"
+            }
+        },
+        "features": {
+            "title": "Eiginleikar",
+            "items": [
+                {
+                    "title": "Rauntíma þýðing:",
+                    "description": "Skiptu um tungumál samstundis með tungumálakerfinu"
+                },
+                {
+                    "title": "URL-byggð tungumál:",
+                    "description": "Tungumálastillingar eru varðveittar í slóðinni"
+                },
+                {
+                    "title": "Native handritsstuðningur:",
+                    "description": "Rétta flutning á handritum eins og arabísku, kínversku, hindí og fleiru"
+                },
+                {
+                    "title": "Menningarleg næmi:",
+                    "description": "Þýðingar líta á menningarlegt samhengi, ekki bara bókstaflega merkingu"
+                },
+                {
+                    "title": "SEO bjartsýni:",
+                    "description": "Hvert tungumálafbrigði er fínstillt fyrir leitarvélar"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Gagnvirkt heimskort",
+            "description": "Sveima yfir löndum á kortinu til að sjá studd tungumál þeirra:",
+            "languages_label": "Tungumál",
+            "legend": {
+                "supported": "Tungumál studd",
+                "not_supported": "Enginn tungumálastuðningur"
+            },
+            "zoom_controls": {
+                "zoom_in": "Aðdráttur í",
+                "zoom_out": "Aðdráttur út",
+                "reset": "Endurstilla útsýni"
+            }
+        },
+        "supported_languages": {
+            "title": "Studd tungumál"
+        },
+        "interactive_country_map": {
+            "title": "Gagnvirkt landskort",
+            "description": "Sveima yfir löndum hér að neðan til að sjá studd tungumál þeirra:",
+            "language_count": {
+                "single": "tungumál",
+                "multiple": "tungumál"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Enginn tungumálastuðningur"
+        }
     },
     "logotext": "Patrick"
 }

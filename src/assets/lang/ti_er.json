@@ -6,6 +6,7 @@
         "portfolio": "ፖርትፎሊዮ",
         "projects": "ፕሮጀክትታት ዌብሳይት",
         "tiger": "ቋንቋ ታይገር",
+        "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
         "formatter": "JSON & YAML ፎርማት",
         "cube_solver": "ሩክስ ኪዩብ ሶልቨር",
         "contact": "ርኸቡኒ"
@@ -253,6 +254,72 @@
         "tiktok": "ቲክቶክ",
         "youtube": "ዩቱብ",
         "text_strip": "ተኸታተሉኒ"
+    },
+    "languages": {
+        "title": "ፖርትፎሊዮ ተርጓሚ",
+        "description": "ንልዕሊ 100 ቋንቋታት ብደገፍ ብደገፍ ፖርትፎሊዮይ ከመይ ከም ዝበጽሖም ርኸብ።",
+        "global_accessibility": {
+            "title": "ዓለምለኻዊ ተበፃሕነት",
+            "description": "ፖርትፎሊዮይ ብ over {count} ቋንቋታት ይርከብ፣ እዚ ድማ ካብ መላእ ዓለም ንዝመጹ በጻሕቲ ተበጻሒ ይገብሮ። እዚ ብዙሕ ቋንቋታት ዝዛረብ ኣገባብ ንኢንክሉሲቪቲን ዓለምለኻዊ ምብጻሕን ኣብ ምምዕባል ሶፍትዌር ንዝግበር ተወፋይነት ዘርኢ እዩ።",
+            "stats": {
+                "languages_supported": "ቋንቋታት ዝድገፉ .",
+                "countries_represented": "ሃገራት ዝተወከላ .",
+                "continents_covered": "ኣህጉራት ዝተሸፈነ"
+            }
+        },
+        "features": {
+            "title": "መለለይታት",
+            "items": [
+                {
+                    "title": "ኣብ ሓቀኛ ግዜ ትርጉም:",
+                    "description": "ቋንቋታት ብቕጽበት ምስ መምረጺ ቋንቋ ምቕያር"
+                },
+                {
+                    "title": "URL መሰረት ዝገበረ ቋንቋ፤",
+                    "description": "ኣብ URL ምርጫታት ቋንቋ ተዓቂቡ ኣሎ ።"
+                },
+                {
+                    "title": "ናይ ተወላዲ ስክሪፕት ደገፍ:",
+                    "description": "ከም ዓረብ፣ ቻይናዊ፣ ሂንዲን ካልእን ዝኣመሰሉ ስክሪፕት ብግቡእ ምቕራብ"
+                },
+                {
+                    "title": "ባህላዊ ተነቃፍነት፤",
+                    "description": "ትርጉማት ንባህላዊ ኵነታት ኣብ ግምት የእትዉ እምበር ቃል ብቓሉ ትርጉም ጥራይ ኣይኮነን።"
+                },
+                {
+                    "title": "SEO optimized:",
+                    "description": "ነፍሲ ወከፍ ናይ ቋንቋ ፍልልይ ንናይ ምድላይ ሞተር ምቹእ እዩ"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "መስተጋብራዊ ካርታ ዓለም",
+            "description": "ኣብ ልዕሊ ሃገራት ኣብ ካርታ ንዝድገፉ ቋንቋታተን ንምርኣይ ምድንጋር፤",
+            "languages_label": "ቋንቋታት .",
+            "legend": {
+                "supported": "ቋንቋታት ዝድገፉ .",
+                "not_supported": "ናይ ቋንቋ ደገፍ የለን"
+            },
+            "zoom_controls": {
+                "zoom_in": "ዙም ኣብ .",
+                "zoom_out": "ዙም",
+                "reset": "ዳግማይ ምትካል ትርኢት"
+            }
+        },
+        "supported_languages": {
+            "title": "ዝድገፉ ቋንቋታት"
+        },
+        "interactive_country_map": {
+            "title": "መስተጋብራዊ ካርታ ገጠር",
+            "description": "ኣብ ታሕቲ ኣብ ልዕሊ ሃገራት ዝድገፉ ቋንቋታተን ንምርኣይ:",
+            "language_count": {
+                "single": "ቋንቋ",
+                "multiple": "ቋንቋታት ."
+            }
+        },
+        "tooltips": {
+            "no_language_support": "ናይ ቋንቋ ደገፍ የለን"
+        }
     },
     "logotext": "ፓትሪክ"
 }

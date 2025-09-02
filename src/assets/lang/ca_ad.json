@@ -6,6 +6,7 @@
         "portfolio": "Cartera",
         "projects": "Projectes de llocs web",
         "tiger": "Llengua de tigre",
+        "portfolio_translator": "Traductor de cartera",
         "formatter": "Formatter json i yaml",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Poseu -vos en contacte amb mi"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Segueix -me"
+    },
+    "languages": {
+        "title": "Traductor de cartera",
+        "description": "Descobreix com la meva cartera és accessible per a visitants de tot el món amb suport per a més de 100 idiomes.",
+        "global_accessibility": {
+            "title": "Accessibilitat global",
+            "description": "La meva cartera està disponible en idiomes {count}, fent -lo accessible als visitants de tot el món. Aquest enfocament multilingüe demostra el meu compromís amb la inclusió i l’abast global en el desenvolupament de programari.",
+            "stats": {
+                "languages_supported": "Idiomes compatibles",
+                "countries_represented": "Països representats",
+                "continents_covered": "Continents coberts"
+            }
+        },
+        "features": {
+            "title": "Funcions",
+            "items": [
+                {
+                    "title": "Traducció en temps real:",
+                    "description": "Canvieu els idiomes a l’instant amb el selector d’idiomes"
+                },
+                {
+                    "title": "Idioma basat en URL:",
+                    "description": "Les preferències lingüístiques es conserven a l’URL"
+                },
+                {
+                    "title": "Suport de scripts natius:",
+                    "description": "Representació adequada de guions com àrab, xinès, hindi i molt més"
+                },
+                {
+                    "title": "Sensibilitat cultural:",
+                    "description": "Les traduccions consideren el context cultural, no només els significats literals"
+                },
+                {
+                    "title": "SEO optimitzat:",
+                    "description": "Cada variant d'idioma està optimitzada per als motors de cerca"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Mapa del món interactiu",
+            "description": "Passeu sobre els països del mapa per veure els seus idiomes compatibles:",
+            "languages_label": "Idiomes",
+            "legend": {
+                "supported": "Idiomes compatibles",
+                "not_supported": "Sense suport lingüístic"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoom in",
+                "zoom_out": "Zoom Out",
+                "reset": "Restableix la vista"
+            }
+        },
+        "supported_languages": {
+            "title": "Idiomes compatibles"
+        },
+        "interactive_country_map": {
+            "title": "Mapa de país interactiu",
+            "description": "Passeu sobre els països de sota per veure els seus idiomes recolzats:",
+            "language_count": {
+                "single": "llengua",
+                "multiple": "idiomes"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Sense suport lingüístic"
+        }
     },
     "logotext": "Patrick"
 }

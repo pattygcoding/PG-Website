@@ -6,6 +6,7 @@
         "portfolio": "Portfell",
         "projects": "Veebisaidiprojektid",
         "tiger": "Tiigrikeel",
+        "portfolio_translator": "Portfelli tõlkija",
         "formatter": "JSON & Yaml Formatter",
         "cube_solver": "Rubix Cube'i lahendaja",
         "contact": "Võtke minuga ühendust"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "Youtube",
         "text_strip": "Jälgi mind"
+    },
+    "languages": {
+        "title": "Portfelli tõlkija",
+        "description": "Avastage, kuidas minu portfell on külastajatele kättesaadav kogu maailmast, toetades enam kui 100 keelt.",
+        "global_accessibility": {
+            "title": "Ülemaailmne ligipääsetavus",
+            "description": "Minu portfell on saadaval üle {krahv} keelte, muutes selle külastajatele kättesaadavaks kogu maailmast. See mitmekeelne lähenemisviis näitab minu pühendumust tarkvaraarenduse kaasamisele ja globaalsele ulatusele.",
+            "stats": {
+                "languages_supported": "Toetatud keeled",
+                "countries_represented": "Esindatud riigid",
+                "continents_covered": "Kohendatud mandrid"
+            }
+        },
+        "features": {
+            "title": "Omadused",
+            "items": [
+                {
+                    "title": "Reaalajas tõlge:",
+                    "description": "Lülitage keeled koheselt keelevalijaga"
+                },
+                {
+                    "title": "URL-il põhinev keel:",
+                    "description": "Keele eelistused säilitatakse URL -is"
+                },
+                {
+                    "title": "Natiivse skripti tugi:",
+                    "description": "Skriptide, nagu araabia, hiina, hindi ja palju muud, korralik renderdamine"
+                },
+                {
+                    "title": "Kultuuritundlikkus:",
+                    "description": "Tõlked käsitlevad kultuurilist konteksti, mitte ainult sõnasõnalisi tähendusi"
+                },
+                {
+                    "title": "SEO optimeeritud:",
+                    "description": "Iga keelevariant on otsingumootorite jaoks optimeeritud"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktiivne maailmakaart",
+            "description": "Hõljutage kaardil riikide üle, et näha nende toetatud keeli:",
+            "languages_label": "Keeled",
+            "legend": {
+                "supported": "Toetatud keeled",
+                "not_supported": "Keeletugi pole"
+            },
+            "zoom_controls": {
+                "zoom_in": "Suum",
+                "zoom_out": "Välja suumima",
+                "reset": "Lähtestamine vaade"
+            }
+        },
+        "supported_languages": {
+            "title": "Toetatud keeled"
+        },
+        "interactive_country_map": {
+            "title": "Interaktiivne maakaart",
+            "description": "Hõljutage allpool asuvate riikide kohal, et näha nende toetatud keeli:",
+            "language_count": {
+                "single": "keel",
+                "multiple": "keeled"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Keeletugi pole"
+        }
     },
     "logotext": "Patrick"
 }

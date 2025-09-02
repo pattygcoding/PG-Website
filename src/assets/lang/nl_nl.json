@@ -6,6 +6,7 @@
         "portfolio": "Portefeuille",
         "projects": "Websiteprojecten",
         "tiger": "Tijgertaal",
+        "portfolio_translator": "Portfolio vertaler",
         "formatter": "Json & Yaml Formatter",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Neem contact met mij op"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Volg mij"
+    },
+    "languages": {
+        "title": "Portfolio vertaler",
+        "description": "Ontdek hoe mijn portfolio toegankelijk is voor bezoekers van over de hele wereld met ondersteuning voor meer dan 100 talen.",
+        "global_accessibility": {
+            "title": "Wereldwijde toegankelijkheid",
+            "description": "Mijn portfolio is beschikbaar in talen van meer dan {count}, waardoor het toegankelijk is voor bezoekers van over de hele wereld. Deze meertalige aanpak toont mijn toewijding aan inclusiviteit en het wereldwijde bereik in softwareontwikkeling.",
+            "stats": {
+                "languages_supported": "Ondersteunde talen",
+                "countries_represented": "Landen vertegenwoordigen",
+                "continents_covered": "Continenten bedekt"
+            }
+        },
+        "features": {
+            "title": "Functies",
+            "items": [
+                {
+                    "title": "Real-time vertaling:",
+                    "description": "Schakel talen onmiddellijk in met de taalkiezer"
+                },
+                {
+                    "title": "URL-gebaseerde taal:",
+                    "description": "Taalvoorkeuren worden bewaard in de URL"
+                },
+                {
+                    "title": "Native scriptondersteuning:",
+                    "description": "Juiste weergave van scripts zoals Arabisch, Chinees, Hindi en meer"
+                },
+                {
+                    "title": "Culturele gevoeligheid:",
+                    "description": "Vertalingen beschouwen culturele context, niet alleen letterlijke betekenissen"
+                },
+                {
+                    "title": "SEO geoptimaliseerd:",
+                    "description": "Elke taalvariant is geoptimaliseerd voor zoekmachines"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interactieve wereldkaart",
+            "description": "Beweeg over landen op de kaart om hun ondersteunde talen te zien:",
+            "languages_label": "Talen",
+            "legend": {
+                "supported": "Ondersteunde talen",
+                "not_supported": "Geen taalondersteuning"
+            },
+            "zoom_controls": {
+                "zoom_in": "Inzoomen",
+                "zoom_out": "Uitzoomen",
+                "reset": "Reset weergave"
+            }
+        },
+        "supported_languages": {
+            "title": "Ondersteunde talen"
+        },
+        "interactive_country_map": {
+            "title": "Interactieve landkaart",
+            "description": "Beweeg over landen hieronder om hun ondersteunde talen te zien:",
+            "language_count": {
+                "single": "taal",
+                "multiple": "talen"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Geen taalondersteuning"
+        }
     },
     "logotext": "Patrick"
 }

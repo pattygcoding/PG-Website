@@ -6,6 +6,7 @@
         "portfolio": "포트폴리오",
         "projects": "웹 사이트 프로젝트",
         "tiger": "호랑이 언어",
+        "portfolio_translator": "포트폴리오 번역기",
         "formatter": "JSON & YAML Formatter",
         "cube_solver": "Rubix 큐브 솔버",
         "contact": "저에게 연락하십시오"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "날 따라 오세요"
+    },
+    "languages": {
+        "title": "포트폴리오 번역기",
+        "description": "100 개가 넘는 언어를 지원하는 전 세계 방문객이 내 포트폴리오에 액세스 할 수있는 방법을 알아보십시오.",
+        "global_accessibility": {
+            "title": "글로벌 접근성",
+            "description": "내 포트폴리오는 {count} 언어로 제공되므로 전 세계 방문객이 액세스 할 수 있습니다. 이 다국어 접근 방식은 소프트웨어 개발에 대한 포괄 성 및 글로벌 범위에 대한 저의 헌신을 보여줍니다.",
+            "stats": {
+                "languages_supported": "지원되는 언어",
+                "countries_represented": "국가",
+                "continents_covered": "대륙이 덮여 있습니다"
+            }
+        },
+        "features": {
+            "title": "특징",
+            "items": [
+                {
+                    "title": "실시간 번역 :",
+                    "description": "언어 선택기로 언어를 즉시 전환하십시오"
+                },
+                {
+                    "title": "URL 기반 언어 :",
+                    "description": "언어 기본 설정은 URL에 보존됩니다"
+                },
+                {
+                    "title": "기본 스크립트 지원 :",
+                    "description": "아랍어, 중국어, 힌디어 등과 같은 스크립트의 적절한 렌더링"
+                },
+                {
+                    "title": "문화적 감도 :",
+                    "description": "번역은 문자 적 ​​의미뿐만 아니라 문화적 맥락을 고려합니다"
+                },
+                {
+                    "title": "SEO 최적화 :",
+                    "description": "각 언어 변형은 검색 엔진에 최적화됩니다"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "대화식 세계지도",
+            "description": "지원되는 언어를보기 위해지도에있는 국가를 가리키십시오.",
+            "languages_label": "언어",
+            "legend": {
+                "supported": "지원되는 언어",
+                "not_supported": "언어 지원이 없습니다"
+            },
+            "zoom_controls": {
+                "zoom_in": "확대",
+                "zoom_out": "축소",
+                "reset": "보기를 재설정하십시오"
+            }
+        },
+        "supported_languages": {
+            "title": "지원되는 언어"
+        },
+        "interactive_country_map": {
+            "title": "대화식 국가지도",
+            "description": "지원되는 언어를보기 위해 아래 국가를 가리키십시오.",
+            "language_count": {
+                "single": "언어",
+                "multiple": "언어"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "언어 지원이 없습니다"
+        }
     },
     "logotext": "패트릭"
 }

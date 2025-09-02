@@ -6,6 +6,7 @@
         "portfolio": "Teczka",
         "projects": "Projekty stron internetowych",
         "tiger": "Język tygrysa",
+        "portfolio_translator": "Tłumacz portfela",
         "formatter": "Formatter JSON & YAML",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Skontaktuj się ze mną"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Podążaj za mną"
+    },
+    "languages": {
+        "title": "Tłumacz portfela",
+        "description": "Odkryj, w jaki sposób moje portfolio jest dostępne dla odwiedzających z całego świata przy wsparciu ponad 100 języków.",
+        "global_accessibility": {
+            "title": "Globalna dostępność",
+            "description": "Moje portfolio jest dostępne w językach ponad {Count}, dzięki czemu jest dostępny dla odwiedzających z całego świata. To wielojęzyczne podejście pokazuje moje zaangażowanie w włączenie i globalny zasięg w tworzeniu oprogramowania.",
+            "stats": {
+                "languages_supported": "Języki obsługiwane",
+                "countries_represented": "Kraje reprezentowane",
+                "continents_covered": "Kontynenty pokryte"
+            }
+        },
+        "features": {
+            "title": "Cechy",
+            "items": [
+                {
+                    "title": "Tłumaczenie w czasie rzeczywistym:",
+                    "description": "Natychmiast przełącz języki za pomocą wyboru języka"
+                },
+                {
+                    "title": "Język oparty na adresie URL:",
+                    "description": "Preferencje językowe są zachowane w adresie URL"
+                },
+                {
+                    "title": "Native Skrypt Wsparcie:",
+                    "description": "Właściwe renderowanie skryptów, takich jak arabski, chiński, hindi i nie tylko"
+                },
+                {
+                    "title": "Wrażliwość kulturowa:",
+                    "description": "Tłumaczenia rozważają kontekst kulturowy, nie tylko dosłowne znaczenia"
+                },
+                {
+                    "title": "SEO zoptymalizowane:",
+                    "description": "Każdy wariant językowy jest zoptymalizowany pod kątem wyszukiwarek"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktywna mapa świata",
+            "description": "Unosić się nad krajami na mapie, aby zobaczyć ich obsługiwane języki:",
+            "languages_label": "Języki",
+            "legend": {
+                "supported": "Języki obsługiwane",
+                "not_supported": "Brak wsparcia języka"
+            },
+            "zoom_controls": {
+                "zoom_in": "Powiększ",
+                "zoom_out": "Powiększyć",
+                "reset": "Zresetuj widok"
+            }
+        },
+        "supported_languages": {
+            "title": "Obsługiwane języki"
+        },
+        "interactive_country_map": {
+            "title": "Interaktywna mapa kraju",
+            "description": "Wpadaj na kraje poniżej, aby zobaczyć ich obsługiwane języki:",
+            "language_count": {
+                "single": "język",
+                "multiple": "języki"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Brak wsparcia języka"
+        }
     },
     "logotext": "Patrick"
 }

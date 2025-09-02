@@ -6,6 +6,7 @@
         "portfolio": "Rārangi",
         "projects": "Kaupapa paetukutuku",
         "tiger": "Reo Tiger",
+        "portfolio_translator": "Ko te kaiwhakamaori whakaata",
         "formatter": "JSON & YAML Tāpiri",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Whakapā mai ki ahau"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Whaa mai i ahau"
+    },
+    "languages": {
+        "title": "Ko te kaiwhakamaori whakaata",
+        "description": "Tirohia te waatea o taku kōpaki ki nga manuhiri mai i te ao me te tautoko mo te 100 nga reo.",
+        "global_accessibility": {
+            "title": "Te whainga o te ao",
+            "description": "E waatea ana taku kōpaki ki runga ake i te maha o nga reo, ka uru ki nga manuhiri mai i te ao katoa. Ko tenei huarahi maha e whakaatu ana i taku pono ki te whakauru me te whai waahi o te ao ki te whakawhanaketanga rorohiko.",
+            "stats": {
+                "languages_supported": "Ka tautokohia nga reo",
+                "countries_represented": "Nga whenua e tohu ana",
+                "continents_covered": "Hipoki nga whenua"
+            }
+        },
+        "features": {
+            "title": "Ngakau",
+            "items": [
+                {
+                    "title": "Te whakamaoritanga-pono:",
+                    "description": "Whakawhitiwhiti reo tonu me te kaipupuri reo"
+                },
+                {
+                    "title": "Te Reo Url:",
+                    "description": "Ka tiakina nga manakohanga reo i roto i te URL"
+                },
+                {
+                    "title": "Tautoko i nga Pukapuka mo nga Pukapuka Maori:",
+                    "description": "Te utu tika o nga tuhinga penei i te Arapi, Hainamana, Hindi, me te maha atu"
+                },
+                {
+                    "title": "Ahurea ahurea:",
+                    "description": "Ka whai whakaaro nga whakamaoritanga ki te horopaki ahurea, ehara i te tikanga noa"
+                },
+                {
+                    "title": "SEO arotau:",
+                    "description": "Ko ia momo reo e arotau ana ki nga miihini rapu"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Mahere Whenua Whakawhitiwhiti",
+            "description": "Kei runga i nga whenua kei runga i te mahere kia kite i o raatau reo tautoko:",
+            "languages_label": "Reo",
+            "legend": {
+                "supported": "Ka tautokohia nga reo",
+                "not_supported": "Kaore he tautoko reo"
+            },
+            "zoom_controls": {
+                "zoom_in": "Haere ki roto",
+                "zoom_out": "Tae atu",
+                "reset": "Tautuhi Tirohia"
+            }
+        },
+        "supported_languages": {
+            "title": "Nga Reo Tautoko"
+        },
+        "interactive_country_map": {
+            "title": "Mahere Whenua Tauwhitiwhiti",
+            "description": "Hoatu ki nga whenua i raro nei kia kite ai i o raatau reo e tautokohia ana:",
+            "language_count": {
+                "single": "reo",
+                "multiple": "reo"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Kaore he tautoko reo"
+        }
     },
     "logotext": "Pūri"
 }

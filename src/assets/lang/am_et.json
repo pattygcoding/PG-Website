@@ -6,6 +6,7 @@
         "portfolio": "ፖርትፎሊዮ",
         "projects": "የድር ጣቢያ ፕሮጀክቶች",
         "tiger": "ነብር ቋንቋ",
+        "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
         "formatter": "Json & yaml ቅርጸት",
         "cube_solver": "የሩቢክስ ኪዩብ ስሙቨር",
         "contact": "እኔን ያነጋግሩኝ"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "ተከተለኝ"
+    },
+    "languages": {
+        "title": "ፖርትፎሊዮ ተርጓሚ",
+        "description": "ከ 100 በላይ ቋንቋዎችን ከሚደግፉ ሰዎች ጋር ወደ ዓለም ለሚገኙ ጎብኝዎች ፖርትፎሊዮ እንዴት ተደራሽ መሆኑን ይወቁ.",
+        "global_accessibility": {
+            "title": "ግሎባል ተደራሽነት",
+            "description": "ፖርትፎሊዮ በ {ቆጠራ} ቋንቋዎች ውስጥ ይገኛል, በዓለም ዙሪያ ካሉ ጎብ visitors ቶች ጋር ተደራሽ ያደርገዋል. ይህ ባለብዙ ቋንቋ አቀራረብ በሶፍትዌሮች ልማት ውስጥ ለተካተለ እና ዓለም አቀፍ የመዳረስ ቁርጠኝነትን ያሳያል.",
+            "stats": {
+                "languages_supported": "ቋንቋዎች ይደገፋሉ",
+                "countries_represented": "የተወከሉት አገሮች ይወከላሉ",
+                "continents_covered": "አህጉሮች ተሸፍነዋል"
+            }
+        },
+        "features": {
+            "title": "ባህሪዎች",
+            "items": [
+                {
+                    "title": "የእውነተኛ-ጊዜ ትርጉም",
+                    "description": "ቋንቋዎችን ወዲያውኑ በቋንቋ መራጭ ይቀይሩ"
+                },
+                {
+                    "title": "ዩ አር ኤል-ተኮር ቋንቋ",
+                    "description": "የቋንቋ ምርጫዎች በዩ.አር.ኤል. ውስጥ ተጠብቀዋል"
+                },
+                {
+                    "title": "የአገሬው ስክሪፕት ድጋፍ",
+                    "description": "እንደ አረብኛ, ቻይንኛ, ሂንዲ እና ሌሎችም ያሉ ስክሪፕቶችን ተገቢ የማራመድ"
+                },
+                {
+                    "title": "ባህላዊ ስሜታዊነት",
+                    "description": "ትርጉሞች ሥነ-ጽሑፋዊ መግለጫን ብቻ ሳይሆን ቃላትን ብቻ አይደሉም"
+                },
+                {
+                    "title": "SEO-",
+                    "description": "እያንዳንዱ የቋንቋ ቫይረስ ለፍለጋ ሞተሮች የተመቻቸ ነው"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "በይነተገናኝ የአለም ካርታ",
+            "description": "የሚደገፉትን ቋንቋዎች ለማየት በካርታው ላይ ባሉ አገሮች ላይ ያንዣብቡ:",
+            "languages_label": "ቋንቋዎች",
+            "legend": {
+                "supported": "ቋንቋዎች ይደገፋሉ",
+                "not_supported": "የቋንቋ ድጋፍ የለም"
+            },
+            "zoom_controls": {
+                "zoom_in": "አጉላ ውስጥ",
+                "zoom_out": "ማጉላት",
+                "reset": "እይታን እንደገና ያስጀምሩ"
+            }
+        },
+        "supported_languages": {
+            "title": "የሚደገፉ ቋንቋዎች"
+        },
+        "interactive_country_map": {
+            "title": "በይነተገናኝ የአገር ካርታ",
+            "description": "የሚደገፉትን ቋንቋዎች ለማየት ከዚህ በታች ባሉት ሀገሮች ላይ ይንከባከቡ-",
+            "language_count": {
+                "single": "ቋንቋ",
+                "multiple": "ቋንቋዎች"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "የቋንቋ ድጋፍ የለም"
+        }
     },
     "logotext": "ፓትሪክ"
 }
