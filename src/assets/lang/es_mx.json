@@ -6,6 +6,7 @@
         "portfolio": "Cartera",
         "projects": "Proyectos de sitio web",
         "tiger": "Lenguaje tigre",
+        "portfolio_translator": "Traductor de cartera",
         "formatter": "JSON & YAML FORMATER",
         "cube_solver": "Solucionador de cubos de rubix",
         "contact": "Contáctame"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Sígueme"
+    },
+    "languages": {
+        "title": "Traductor de cartera",
+        "description": "Descubra cómo es accesible mi cartera para los visitantes de todo el mundo con apoyo para más de 100 idiomas.",
+        "global_accessibility": {
+            "title": "Accesibilidad global",
+            "description": "Mi cartera está disponible en los idiomas de más de {Count}, por lo que es accesible para los visitantes de todo el mundo. Este enfoque multilingüe demuestra mi compromiso con la inclusión y el alcance global en el desarrollo de software.",
+            "stats": {
+                "languages_supported": "Idiomas compatibles",
+                "countries_represented": "Países representados",
+                "continents_covered": "Continentes cubiertos"
+            }
+        },
+        "features": {
+            "title": "Características",
+            "items": [
+                {
+                    "title": "Traducción en tiempo real:",
+                    "description": "Cambiar los idiomas al instante con el selector de idiomas"
+                },
+                {
+                    "title": "Lenguaje basado en URL:",
+                    "description": "Las preferencias del idioma se conservan en la URL"
+                },
+                {
+                    "title": "Soporte de script nativo:",
+                    "description": "Representación adecuada de guiones como árabe, chino, hindi y más"
+                },
+                {
+                    "title": "Sensibilidad cultural:",
+                    "description": "Las traducciones consideran el contexto cultural, no solo los significados literal"
+                },
+                {
+                    "title": "SEO optimizado:",
+                    "description": "Cada variante de idioma está optimizada para motores de búsqueda"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Mapa del mundo interactivo",
+            "description": "Ronda los países en el mapa para ver sus idiomas compatibles:",
+            "languages_label": "Lenguas",
+            "legend": {
+                "supported": "Idiomas compatibles",
+                "not_supported": "Sin apoyo del idioma"
+            },
+            "zoom_controls": {
+                "zoom_in": "Dar un golpe de zoom",
+                "zoom_out": "Alejarse",
+                "reset": "Vista de reinicio"
+            }
+        },
+        "supported_languages": {
+            "title": "Idiomas compatibles"
+        },
+        "interactive_country_map": {
+            "title": "Mapa de país interactivo",
+            "description": "Rover sobre los países de abajo para ver sus idiomas con apoyo:",
+            "language_count": {
+                "single": "idioma",
+                "multiple": "lenguas"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Sin apoyo del idioma"
+        }
     },
     "logotext": "PATRICIO"
 }

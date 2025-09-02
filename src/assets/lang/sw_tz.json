@@ -6,6 +6,7 @@
         "portfolio": "Kwingineko",
         "projects": "Miradi ya wavuti",
         "tiger": "Lugha ya Tiger",
+        "portfolio_translator": "Mtafsiri wa kwingineko",
         "formatter": "JSON & Yaml Fomati",
         "cube_solver": "Rubix Cube solver",
         "contact": "Wasiliana nami"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Nifuate"
+    },
+    "languages": {
+        "title": "Mtafsiri wa kwingineko",
+        "description": "Gundua jinsi kwingineko yangu inavyopatikana kwa wageni kutoka ulimwenguni kote na msaada kwa lugha zaidi ya 100.",
+        "global_accessibility": {
+            "title": "Upatikanaji wa ulimwengu",
+            "description": "Kwingineko yangu inapatikana katika lugha zaidi ya {hesabu}, na kuifanya iweze kupatikana kwa wageni kutoka ulimwenguni kote. Njia hii ya lugha nyingi inaonyesha kujitolea kwangu kwa umoja na ufikiaji wa ulimwengu katika maendeleo ya programu.",
+            "stats": {
+                "languages_supported": "Lugha zinaungwa mkono",
+                "countries_represented": "Nchi zilizowakilishwa",
+                "continents_covered": "Mabara yaliyofunikwa"
+            }
+        },
+        "features": {
+            "title": "Vipengee",
+            "items": [
+                {
+                    "title": "Tafsiri ya wakati halisi:",
+                    "description": "Badili lugha mara moja na chaguo la lugha"
+                },
+                {
+                    "title": "Lugha inayotokana na URL:",
+                    "description": "Mapendeleo ya lugha yamehifadhiwa kwenye URL"
+                },
+                {
+                    "title": "Msaada wa maandishi ya asili:",
+                    "description": "Utoaji sahihi wa maandishi kama Kiarabu, Kichina, Kihindi, na zaidi"
+                },
+                {
+                    "title": "Usikivu wa kitamaduni:",
+                    "description": "Tafsiri zinafikiria muktadha wa kitamaduni, sio maana halisi tu"
+                },
+                {
+                    "title": "SEO iliyoboreshwa:",
+                    "description": "Kila lahaja ya lugha imeboreshwa kwa injini za utaftaji"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Ramani ya ulimwengu inayoingiliana",
+            "description": "Hover juu ya nchi kwenye ramani ili kuona lugha zao zinazoungwa mkono:",
+            "languages_label": "Lugha",
+            "legend": {
+                "supported": "Lugha zinaungwa mkono",
+                "not_supported": "Hakuna msaada wa lugha"
+            },
+            "zoom_controls": {
+                "zoom_in": "Kuvuta ndani",
+                "zoom_out": "Zoom nje",
+                "reset": "Rudisha mtazamo"
+            }
+        },
+        "supported_languages": {
+            "title": "Lugha zilizoungwa mkono"
+        },
+        "interactive_country_map": {
+            "title": "Ramani ya nchi inayoingiliana",
+            "description": "Hover juu ya nchi hapa chini kuona lugha zao zinazoungwa mkono:",
+            "language_count": {
+                "single": "lugha",
+                "multiple": "lugha"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Hakuna msaada wa lugha"
+        }
     },
     "logotext": "Patrick"
 }

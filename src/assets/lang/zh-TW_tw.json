@@ -6,6 +6,7 @@
         "portfolio": "文件夾",
         "projects": "網站項目",
         "tiger": "老虎語",
+        "portfolio_translator": "投資組合翻譯器",
         "formatter": "JSON和YAML格式",
         "cube_solver": "Rubix Cube求解器",
         "contact": "與我聯繫"
@@ -253,6 +254,72 @@
         "tiktok": "蒂克托克",
         "youtube": "Youtube",
         "text_strip": "跟我來"
+    },
+    "languages": {
+        "title": "投資組合翻譯器",
+        "description": "了解來自世界各地的訪問者如何訪問我的投資組合，並支持100多種語言。",
+        "global_accessibility": {
+            "title": "全球可訪問性",
+            "description": "我的投資組合有Over {Count}語言可用，使世界各地的訪問者都可以使用它。這種多語言方法表明了我對軟件開發中包容性和全球影響力的承諾。",
+            "stats": {
+                "languages_supported": "支持語言",
+                "countries_represented": "國家代表",
+                "continents_covered": "大洲覆蓋了"
+            }
+        },
+        "features": {
+            "title": "特徵",
+            "items": [
+                {
+                    "title": "實時翻譯：",
+                    "description": "用語言選擇器立即切換語言"
+                },
+                {
+                    "title": "基於URL的語言：",
+                    "description": "語言偏好保留在URL中"
+                },
+                {
+                    "title": "本地腳本支持：",
+                    "description": "適當渲染阿拉伯語，中文，印地語等腳本"
+                },
+                {
+                    "title": "文化敏感性：",
+                    "description": "翻譯考慮文化背景，而不僅僅是字面意義"
+                },
+                {
+                    "title": "SEO優化：",
+                    "description": "每個語言變體都針對搜索引擎進行了優化"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "互動世界地圖",
+            "description": "在地圖上徘徊在地圖上，以查看其受支持的語言：",
+            "languages_label": "語言",
+            "legend": {
+                "supported": "支持語言",
+                "not_supported": "沒有語言支持"
+            },
+            "zoom_controls": {
+                "zoom_in": "放大",
+                "zoom_out": "放大",
+                "reset": "重置視圖"
+            }
+        },
+        "supported_languages": {
+            "title": "支持的語言"
+        },
+        "interactive_country_map": {
+            "title": "交互式國家地圖",
+            "description": "在下面的國家懸停以查看其受支持的語言：",
+            "language_count": {
+                "single": "語言",
+                "multiple": "語言"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "沒有語言支持"
+        }
     },
     "logotext": "帕特里克"
 }

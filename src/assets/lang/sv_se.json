@@ -6,6 +6,7 @@
         "portfolio": "Portfölj",
         "projects": "Webbplatsprojekt",
         "tiger": "Tigerspråk",
+        "portfolio_translator": "Portföljöversättare",
         "formatter": "JSON & YAML Formatter",
         "cube_solver": "Rubix kublösare",
         "contact": "Kontakta mig"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "Youtube",
         "text_strip": "Följ mig"
+    },
+    "languages": {
+        "title": "Portföljöversättare",
+        "description": "Upptäck hur min portfölj är tillgänglig för besökare från hela världen med stöd för över 100 språk.",
+        "global_accessibility": {
+            "title": "Global tillgänglighet",
+            "description": "Min portfölj finns på över {greve} språk, vilket gör den tillgänglig för besökare från hela världen. Denna flerspråkiga strategi visar mitt engagemang för inkludering och global räckvidd inom mjukvaruutveckling.",
+            "stats": {
+                "languages_supported": "Språk stöds",
+                "countries_represented": "Länder representerade",
+                "continents_covered": "Kontinenter täckta"
+            }
+        },
+        "features": {
+            "title": "Drag",
+            "items": [
+                {
+                    "title": "Realtidsöversättning:",
+                    "description": "Byt språk direkt med språkväljaren"
+                },
+                {
+                    "title": "URL-baserat språk:",
+                    "description": "Språkpreferenser bevaras i URL: n"
+                },
+                {
+                    "title": "Infödda skriptstöd:",
+                    "description": "Korrekt rendering av skript som arabiska, kinesiska, hindi och mer"
+                },
+                {
+                    "title": "Kulturell känslighet:",
+                    "description": "Översättningar överväger kulturellt sammanhang, inte bara bokstavliga betydelser"
+                },
+                {
+                    "title": "SEO optimerad:",
+                    "description": "Varje språkvariant är optimerad för sökmotorer"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktiv världskarta",
+            "description": "Hover över länder på kartan för att se deras stödda språk:",
+            "languages_label": "Språk",
+            "legend": {
+                "supported": "Språk stöds",
+                "not_supported": "Inget språkstöd"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zooma in",
+                "zoom_out": "Zooma ut",
+                "reset": "Återställningsvy"
+            }
+        },
+        "supported_languages": {
+            "title": "Stödsspråk"
+        },
+        "interactive_country_map": {
+            "title": "Interaktiv landskarta",
+            "description": "Håll dig över länder nedan för att se deras stöd som stöds:",
+            "language_count": {
+                "single": "språk",
+                "multiple": "språk"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Inget språkstöd"
+        }
     },
     "logotext": "Patrick"
 }

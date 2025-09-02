@@ -6,6 +6,7 @@
         "portfolio": "Portafoll",
         "projects": "Proġetti tal-websajt",
         "tiger": "Lingwa Tiger",
+        "portfolio_translator": "Traduttur tal-Portafoll",
         "formatter": "JSON & YAML Formatter",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Ikkuntattjani"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Segwini"
+    },
+    "languages": {
+        "title": "Traduttur tal-Portafoll",
+        "description": "Skopri kif il-portafoll tiegħi huwa aċċessibbli għal viżitaturi minn madwar id-dinja b'appoġġ għal aktar minn 100 lingwa.",
+        "global_accessibility": {
+            "title": "Aċċessibilità Globali",
+            "description": "Il-portafoll tiegħi huwa disponibbli f'aktar minn {għadd} lingwi, li jagħmilha aċċessibbli għal viżitaturi minn madwar id-dinja. Dan l-approċċ multilingwi juri l-impenn tiegħi għall-inklussività u l-firxa globali fl-iżvilupp tas-softwer.",
+            "stats": {
+                "languages_supported": "Lingwi appoġġjati",
+                "countries_represented": "Pajjiżi rappreżentati",
+                "continents_covered": "Kontinenti koperti"
+            }
+        },
+        "features": {
+            "title": "Karatteristiċi",
+            "items": [
+                {
+                    "title": "Traduzzjoni f'ħin reali:",
+                    "description": "Aqleb il-lingwi istantanjament bis-selettur tal-lingwa"
+                },
+                {
+                    "title": "Lingwa bbażata fuq l-URL:",
+                    "description": "Il-preferenzi tal-lingwa huma ppreservati fl-URL"
+                },
+                {
+                    "title": "Appoġġ għall-iskritt nattiv:",
+                    "description": "Rendering xieraq ta 'skripts bħall-Għarbi, Ċiniż, Ħindi, u aktar"
+                },
+                {
+                    "title": "Sensittività kulturali:",
+                    "description": "It-traduzzjonijiet jikkunsidraw il-kuntest kulturali, mhux biss tifsiriet litterali"
+                },
+                {
+                    "title": "SEO ottimizzat:",
+                    "description": "Kull varjant tal-lingwa huwa ottimizzat għall-magni tat-tiftix"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Mappa tad-Dinja Interattiva",
+            "description": "Itlaq il-pajjiżi fuq il-mappa biex tara l-lingwi appoġġjati tagħhom:",
+            "languages_label": "Lingwi",
+            "legend": {
+                "supported": "Lingwi appoġġjati",
+                "not_supported": "L-ebda appoġġ lingwistiku"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoom pulzieri",
+                "zoom_out": "Zoom out",
+                "reset": "Irrisettja veduta"
+            }
+        },
+        "supported_languages": {
+            "title": "Lingwi appoġġjati"
+        },
+        "interactive_country_map": {
+            "title": "Mappa tal-pajjiż interattiv",
+            "description": "Itlaq il-pajjiżi hawn taħt biex tara l-lingwi appoġġjati tagħhom:",
+            "language_count": {
+                "single": "lingwa",
+                "multiple": "lingwi"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "L-ebda appoġġ lingwistiku"
+        }
     },
     "logotext": "Patrick"
 }

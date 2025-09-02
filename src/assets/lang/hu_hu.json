@@ -6,6 +6,7 @@
         "portfolio": "Portfólió",
         "projects": "Weboldal -projektek",
         "tiger": "Tigrisnyelv",
+        "portfolio_translator": "Portfólió fordító",
         "formatter": "JSON & YAML FORMATTER",
         "cube_solver": "Rubix Cube -megoldó",
         "contact": "Vegye fel a kapcsolatot velem"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Kövess engem"
+    },
+    "languages": {
+        "title": "Portfólió fordító",
+        "description": "Fedezze fel, hogy a portfólióm hogyan érhető el a világ minden tájáról érkező látogatók számára, több mint 100 nyelv támogatásával.",
+        "global_accessibility": {
+            "title": "Globális akadálymentesség",
+            "description": "A portfólióm több mint {gróf} nyelven érhető el, így hozzáférhetővé válik a világ minden tájáról érkező látogatók számára. Ez a többnyelvű megközelítés megmutatja elkötelezettségemet az inkluzivitás és a szoftverfejlesztés globális elérhetősége iránt.",
+            "stats": {
+                "languages_supported": "Támogatott nyelvek",
+                "countries_represented": "Képviselt országok",
+                "continents_covered": "A kontinensek borítottak"
+            }
+        },
+        "features": {
+            "title": "Jellemzők",
+            "items": [
+                {
+                    "title": "Valós idejű fordítás:",
+                    "description": "A nyelvek azonnali váltása a nyelvválasztóval"
+                },
+                {
+                    "title": "URL-alapú nyelv:",
+                    "description": "A nyelvi preferenciákat az URL -ben megőrzik"
+                },
+                {
+                    "title": "Natív szkript támogatás:",
+                    "description": "A szkriptek megfelelő megjelenítése, például arab, kínai, hindi és még sok más"
+                },
+                {
+                    "title": "Kulturális érzékenység:",
+                    "description": "A fordítások a kulturális kontextust, nem csak a szó szerinti jelentést veszik figyelembe"
+                },
+                {
+                    "title": "SEO optimalizálva:",
+                    "description": "Minden nyelvi változat optimalizálva van a keresőmotorokhoz"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktív világtérkép",
+            "description": "Vigye le a térképen lévő országait, hogy megtekintsék a támogatott nyelveiket:",
+            "languages_label": "Nyelvek",
+            "legend": {
+                "supported": "Támogatott nyelvek",
+                "not_supported": "Nincs nyelvi támogatás"
+            },
+            "zoom_controls": {
+                "zoom_in": "Nagyít",
+                "zoom_out": "Kicsinyít",
+                "reset": "Visszaállítás visszaállítása"
+            }
+        },
+        "supported_languages": {
+            "title": "Támogatott nyelvek"
+        },
+        "interactive_country_map": {
+            "title": "Interaktív vidéki térkép",
+            "description": "Az alábbi országok felett lebegjenek, hogy megtekintsék a támogatott nyelvüket:",
+            "language_count": {
+                "single": "nyelv",
+                "multiple": "nyelvek"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Nincs nyelvi támogatás"
+        }
     },
     "logotext": "Patrick"
 }

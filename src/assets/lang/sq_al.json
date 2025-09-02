@@ -6,6 +6,7 @@
         "portfolio": "Portofol",
         "projects": "Projekte në internet",
         "tiger": "Gjuhë tigri",
+        "portfolio_translator": "Përkthyes i portofolit",
         "formatter": "Json & yaml formatter",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Më kontakto"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Më ndiq"
+    },
+    "languages": {
+        "title": "Përkthyes i portofolit",
+        "description": "Zbuloni se si portofoli im është i arritshëm për vizitorët nga e gjithë bota me mbështetje për mbi 100 gjuhë.",
+        "global_accessibility": {
+            "title": "Qasja globale",
+            "description": "Portofoli im është i disponueshëm në gjuhët mbi {Count}, duke e bërë atë të arritshëm për vizitorët nga e gjithë bota. Kjo qasje shumëgjuhëshe tregon angazhimin tim për përfshirjen dhe arritjen globale në zhvillimin e softuerit.",
+            "stats": {
+                "languages_supported": "Gjuhët e mbështetura",
+                "countries_represented": "Vendet e përfaqësuara",
+                "continents_covered": "Kontinentet e mbuluara"
+            }
+        },
+        "features": {
+            "title": "Tiparet",
+            "items": [
+                {
+                    "title": "Përkthimi në kohë reale:",
+                    "description": "Kaloni gjuhët menjëherë me zgjedhësin e gjuhës"
+                },
+                {
+                    "title": "Gjuha e bazuar në URL:",
+                    "description": "Preferencat e gjuhës ruhen në URL"
+                },
+                {
+                    "title": "Mbështetja e skenarit vendas:",
+                    "description": "Renditja e duhur e skripteteve si arabisht, kinezisht, hindisht, dhe më shumë"
+                },
+                {
+                    "title": "Ndjeshmëria kulturore:",
+                    "description": "Përkthimet Konsideroni kontekstin kulturor, jo vetëm kuptimet e mirëfillta"
+                },
+                {
+                    "title": "SEO optimizuar:",
+                    "description": "Secili variant i gjuhës është i optimizuar për motorët e kërkimit"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Hartë interaktive botërore",
+            "description": "Hover mbi vendet në hartë për të parë gjuhët e tyre të mbështetura:",
+            "languages_label": "Gjuhë",
+            "legend": {
+                "supported": "Gjuhët e mbështetura",
+                "not_supported": "Asnjë mbështetje gjuhësore"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zmadhoj",
+                "zoom_out": "Zmadhoj",
+                "reset": "Rivendos pamjen"
+            }
+        },
+        "supported_languages": {
+            "title": "Gjuhët e Mbështetura"
+        },
+        "interactive_country_map": {
+            "title": "Hartë interaktive e vendit",
+            "description": "Hover mbi vendet më poshtë për të parë gjuhët e tyre të mbështetura:",
+            "language_count": {
+                "single": "gjuhë",
+                "multiple": "gjuhë"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Asnjë mbështetje gjuhësore"
+        }
     },
     "logotext": "Patrik"
 }

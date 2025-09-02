@@ -6,6 +6,7 @@
         "portfolio": "Portfel",
         "projects": "Veb-sayt loyihalari",
         "tiger": "Yo'lbars tili",
+        "portfolio_translator": "Portfel tarjimon",
         "formatter": "Json va Yaml Forter",
         "cube_solver": "Rubix Kube Solver",
         "contact": "Men bilan bog'laning"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "Youtube",
         "text_strip": "Orqamdan yuring; Meni kuzating; menga Obuna bo'ling"
+    },
+    "languages": {
+        "title": "Portfel tarjimon",
+        "description": "Mening portfelim qanday qilib 100 dan ortiq tillarni qo'llab-quvvatlash bilan dunyo bo'ylab tashrif buyuruvchilar uchun tashrif buyuruvchilar uchun tanishish mumkin.",
+        "global_accessibility": {
+            "title": "Global foydalanish imkoniyati",
+            "description": "Mening portfelim {sanatsiya} tillarida mavjud bo'lib, uni dunyo bo'ylab tashrif buyuruvchilar uchun ochiq qiladi. Ushbu ko'p tilli yondashuv, dasturiy ta'minotni ishlab chiqishda inobatga tushganlik va global ahamiyatga ega ekanligini ko'rsatadi.",
+            "stats": {
+                "languages_supported": "Tillarni qo'llab-quvvatladi",
+                "countries_represented": "Davlatlar vakili",
+                "continents_covered": "Qit'alar qamrab olingan"
+            }
+        },
+        "features": {
+            "title": "Xususiyatlari",
+            "items": [
+                {
+                    "title": "Real vaqt tarjima qilish:",
+                    "description": "Tillarni darhol tanlashni tanlang"
+                },
+                {
+                    "title": "URL-ga asoslangan til:",
+                    "description": "Til imtiyozlari URLda saqlanadi"
+                },
+                {
+                    "title": "Native Skriptni qo'llab-quvvatlash:",
+                    "description": "Arab, xitoy, hind tilida va ko'proq skriptlarni to'g'ri qabul qilish"
+                },
+                {
+                    "title": "Madaniy sezgirlik:",
+                    "description": "Tarjimalar shunchaki tom ma'noda emas, balki madaniy kontekstni ko'rib chiqadi"
+                },
+                {
+                    "title": "SEO optimallashtirilgan:",
+                    "description": "Har bir til variant qidiruv tizimlari uchun optimallashtirilgan"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktiv dunyo xaritasi",
+            "description": "Xaritada ularning qo'llab-quvvatlanadigan tillarini ko'rish uchun Haver:",
+            "languages_label": "Tillar",
+            "legend": {
+                "supported": "Tillarni qo'llab-quvvatladi",
+                "not_supported": "Tilni qo'llab-quvvatlash yo'q"
+            },
+            "zoom_controls": {
+                "zoom_in": "Kattalashtirish",
+                "zoom_out": "Kattalashtirmoq",
+                "reset": "Ko'rish ko'rinishi"
+            }
+        },
+        "supported_languages": {
+            "title": "Qo'llab-quvvatlanadigan tillar"
+        },
+        "interactive_country_map": {
+            "title": "Interfaol mamlakat xaritasi",
+            "description": "Qo'llab-quvvatlanadigan tillarni ko'rish uchun quyidagi davlatlar ustidan davom eting:",
+            "language_count": {
+                "single": "til",
+                "multiple": "tillar"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Tilni qo'llab-quvvatlash yo'q"
+        }
     },
     "logotext": "Podsho"
 }

@@ -6,6 +6,7 @@
         "portfolio": "Portfolio",
         "projects": "Website -Projekte",
         "tiger": "Tigersprache",
+        "portfolio_translator": "Portfolio -Übersetzer",
         "formatter": "JSON & YAML -Formatierer",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Kontaktieren Sie mich"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Folgen Sie mir"
+    },
+    "languages": {
+        "title": "Portfolio -Übersetzer",
+        "description": "Entdecken Sie, wie mein Portfolio für Besucher aus der ganzen Welt mit Unterstützung für über 100 Sprachen zugänglich ist.",
+        "global_accessibility": {
+            "title": "Globale Zugänglichkeit",
+            "description": "Mein Portfolio ist in Over {Count} Sprachen erhältlich, sodass es Besuchern aus der ganzen Welt zugänglich ist. Dieser mehrsprachige Ansatz zeigt mein Engagement für Inklusivität und globale Reichweite in der Softwareentwicklung.",
+            "stats": {
+                "languages_supported": "Sprachen unterstützt",
+                "countries_represented": "Länder vertreten",
+                "continents_covered": "Kontinente abgedeckt"
+            }
+        },
+        "features": {
+            "title": "Merkmale",
+            "items": [
+                {
+                    "title": "Echtzeitübersetzung:",
+                    "description": "Wechseln Sie die Sprachen sofort mit dem Sprachauswahl"
+                },
+                {
+                    "title": "URL-basierte Sprache:",
+                    "description": "Sprachpräferenzen sind in der URL erhalten"
+                },
+                {
+                    "title": "Native Skript -Unterstützung:",
+                    "description": "Ordnungsgemäße Darstellung von Skripten wie Arabisch, Chinesisch, Hindi und mehr"
+                },
+                {
+                    "title": "Kulturelle Sensibilität:",
+                    "description": "Übersetzungen betrachten den kulturellen Kontext, nicht nur wörtliche Bedeutungen"
+                },
+                {
+                    "title": "SEO optimiert:",
+                    "description": "Jede Sprachvariante ist für Suchmaschinen optimiert"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktive Weltkarte",
+            "description": "Schweben Sie über Länder auf der Karte, um ihre unterstützten Sprachen zu sehen:",
+            "languages_label": "Sprachen",
+            "legend": {
+                "supported": "Sprachen unterstützt",
+                "not_supported": "Keine Sprachunterstützung"
+            },
+            "zoom_controls": {
+                "zoom_in": "Zoomen",
+                "zoom_out": "Zoomen",
+                "reset": "Ansicht zurücksetzen"
+            }
+        },
+        "supported_languages": {
+            "title": "Unterstützte Sprachen"
+        },
+        "interactive_country_map": {
+            "title": "Interaktive Landkarte",
+            "description": "Schweben Sie über Länder unten, um ihre unterstützten Sprachen zu sehen:",
+            "language_count": {
+                "single": "Sprache",
+                "multiple": "Sprachen"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Keine Sprachunterstützung"
+        }
     },
     "logotext": "Patrick"
 }

@@ -6,6 +6,7 @@
         "portfolio": "Salkku",
         "projects": "Verkkosivustoprojektit",
         "tiger": "Tiikerikieli",
+        "portfolio_translator": "Salkun kääntäjä",
         "formatter": "JSON & YAML FORMATTER",
         "cube_solver": "Rubix -kuution ratkaisija",
         "contact": "Ottaa yhteyttä minuun"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Seurata minua"
+    },
+    "languages": {
+        "title": "Salkun kääntäjä",
+        "description": "Tutustu kuinka salkuni on käytettävissä vierailijoille ympäri maailmaa tuella yli 100 kielelle.",
+        "global_accessibility": {
+            "title": "Globaali saatavuus",
+            "description": "Portfolioni on saatavana yli {kreivi} kielillä, mikä tekee siitä kävijöiden saataville ympäri maailmaa. Tämä monikielinen lähestymistapa osoittaa sitoutumiseni osallisuuteen ja globaaliin tavoitteisiin ohjelmistokehityksessä.",
+            "stats": {
+                "languages_supported": "Kielet tuettu",
+                "countries_represented": "Edustettuna",
+                "continents_covered": "Maanosat peitetty"
+            }
+        },
+        "features": {
+            "title": "Piirteet",
+            "items": [
+                {
+                    "title": "Reaaliaikainen käännös:",
+                    "description": "Vaihda kielet heti kielenvalitsimella"
+                },
+                {
+                    "title": "URL-URL-pohjainen kieli:",
+                    "description": "Kieli -mieltymykset säilyvät URL -osoitteessa"
+                },
+                {
+                    "title": "Alkuperäinen käsikirjoitustuki:",
+                    "description": "Skriptien, kuten arabian, kiinan, hindin ja muun, asianmukainen renderointi"
+                },
+                {
+                    "title": "Kulttuurinen herkkyys:",
+                    "description": "Käännökset tarkastelevat kulttuurista kontekstia, ei vain kirjaimellisia merkityksiä"
+                },
+                {
+                    "title": "SEO optimoitu:",
+                    "description": "Jokainen kielivariantti on optimoitu hakukoneisiin"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktiivinen maailmankartta",
+            "description": "Hajauta kartan maista nähdäksesi niiden tuetut kielet:",
+            "languages_label": "Kielet",
+            "legend": {
+                "supported": "Kielet tuettu",
+                "not_supported": "Ei kielitukea"
+            },
+            "zoom_controls": {
+                "zoom_in": "Loiutua",
+                "zoom_out": "Zoomata",
+                "reset": "Nollaa näkymä"
+            }
+        },
+        "supported_languages": {
+            "title": "Tuetut kielet"
+        },
+        "interactive_country_map": {
+            "title": "Interaktiivinen maakartta",
+            "description": "Hanki alla olevien maiden yli nähdäksesi niiden tuetut kielet:",
+            "language_count": {
+                "single": "kieli",
+                "multiple": "kielet"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Ei kielitukea"
+        }
     },
     "logotext": "Patrick"
 }

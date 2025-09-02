@@ -6,6 +6,7 @@
         "portfolio": "Phortffolio",
         "projects": "Prosiectau gwefan",
         "tiger": "Iaith Teigr",
+        "portfolio_translator": "Cyfieithydd Portffolio",
         "formatter": "Fformatiwr JSON & YAML",
         "cube_solver": "Datryswr ciwb rubix",
         "contact": "Cysylltwch â mi"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Dilynwch Fi"
+    },
+    "languages": {
+        "title": "Cyfieithydd Portffolio",
+        "description": "Darganfyddwch sut mae fy mhortffolio yn hygyrch i ymwelwyr o bob cwr o'r byd gyda chefnogaeth ar gyfer dros 100 o ieithoedd.",
+        "global_accessibility": {
+            "title": "Hygyrchedd Byd -eang",
+            "description": "Mae fy mhortffolio ar gael mewn ieithoedd dros {Count}, gan ei gwneud yn hygyrch i ymwelwyr o bob cwr o'r byd. Mae'r dull amlieithog hwn yn dangos fy ymrwymiad i gynhwysiant a chyrhaeddiad byd -eang wrth ddatblygu meddalwedd.",
+            "stats": {
+                "languages_supported": "Ieithoedd a gefnogir",
+                "countries_represented": "Cynrychiolir gwledydd",
+                "continents_covered": "Cyfandiroedd wedi'u gorchuddio"
+            }
+        },
+        "features": {
+            "title": "Nodweddion",
+            "items": [
+                {
+                    "title": "Cyfieithiad amser real:",
+                    "description": "Newid ieithoedd ar unwaith gyda'r dewisydd iaith"
+                },
+                {
+                    "title": "Iaith sy'n seiliedig ar URL:",
+                    "description": "Mae dewisiadau iaith yn cael eu cadw yn yr URL"
+                },
+                {
+                    "title": "Cefnogaeth sgript frodorol:",
+                    "description": "Rendro sgriptiau yn iawn fel Arabeg, Tsieinëeg, Hindi, a mwy"
+                },
+                {
+                    "title": "Sensitifrwydd Diwylliannol:",
+                    "description": "Mae cyfieithiadau yn ystyried cyd -destun diwylliannol, nid ystyron llythrennol yn unig"
+                },
+                {
+                    "title": "SEO Optimeiddiedig:",
+                    "description": "Mae pob amrywiad iaith wedi'i optimeiddio ar gyfer peiriannau chwilio"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Map y Byd Rhyngweithiol",
+            "description": "Hofran dros wledydd ar y map i weld eu hieithoedd a gefnogir:",
+            "languages_label": "Ieithoedd",
+            "legend": {
+                "supported": "Ieithoedd a gefnogir",
+                "not_supported": "Dim cefnogaeth iaith"
+            },
+            "zoom_controls": {
+                "zoom_in": "Chwyddo yn",
+                "zoom_out": "Chwyddo allan",
+                "reset": "Ailosod Golygfa"
+            }
+        },
+        "supported_languages": {
+            "title": "Ieithoedd â chymorth"
+        },
+        "interactive_country_map": {
+            "title": "Map gwlad rhyngweithiol",
+            "description": "Hofran dros wledydd isod i weld eu hieithoedd a gefnogir:",
+            "language_count": {
+                "single": "hiaith",
+                "multiple": "ieithoedd"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Dim cefnogaeth iaith"
+        }
     },
     "logotext": "Patrick"
 }

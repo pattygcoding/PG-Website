@@ -6,6 +6,7 @@
         "portfolio": "ポートフォリオ",
         "projects": "ウェブサイトプロジェクト",
         "tiger": "タイガーランゲージ",
+        "portfolio_translator": "ポートフォリオ翻訳者",
         "formatter": "JSON＆YAML FORMATTER",
         "cube_solver": "Rubixキューブソルバー",
         "contact": "私に連絡してください"
@@ -253,6 +254,72 @@
         "tiktok": "ティクトク",
         "youtube": "YouTube",
         "text_strip": "私に従ってください"
+    },
+    "languages": {
+        "title": "ポートフォリオ翻訳者",
+        "description": "私のポートフォリオが100を超える言語をサポートして、世界中の訪問者がどのようにアクセスできるかをご覧ください。",
+        "global_accessibility": {
+            "title": "グローバルアクセシビリティ",
+            "description": "私のポートフォリオは{count}言語を超えることができ、世界中の訪問者がアクセスできるようにします。この多言語アプローチは、ソフトウェア開発における包括性とグローバルなリーチに対する私のコミットメントを示しています。",
+            "stats": {
+                "languages_supported": "サポートされている言語",
+                "countries_represented": "代表国",
+                "continents_covered": "カバーされた大陸"
+            }
+        },
+        "features": {
+            "title": "特徴",
+            "items": [
+                {
+                    "title": "リアルタイム翻訳：",
+                    "description": "言語セレクターで即座に言語を切り替えます"
+                },
+                {
+                    "title": "URLベースの言語：",
+                    "description": "言語の好みはURLに保存されています"
+                },
+                {
+                    "title": "ネイティブスクリプトのサポート：",
+                    "description": "アラビア語、中国語、ヒンディー語などのスクリプトの適切なレンダリング"
+                },
+                {
+                    "title": "文化的感受性：",
+                    "description": "翻訳は、文字通りの意味だけでなく、文化的文脈を考慮します"
+                },
+                {
+                    "title": "SEO最適化：",
+                    "description": "各言語バリアントは、検索エンジン用に最適化されています"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "インタラクティブな世界地図",
+            "description": "地図上の国を越えて、サポートされている言語を確認します。",
+            "languages_label": "言語",
+            "legend": {
+                "supported": "サポートされている言語",
+                "not_supported": "言語サポートはありません"
+            },
+            "zoom_controls": {
+                "zoom_in": "ズームイン",
+                "zoom_out": "ズームアウト",
+                "reset": "ビューをリセットします"
+            }
+        },
+        "supported_languages": {
+            "title": "サポート言語"
+        },
+        "interactive_country_map": {
+            "title": "インタラクティブな国マップ",
+            "description": "サポートされている言語を確認するために、以下の国を見渡す：",
+            "language_count": {
+                "single": "言語",
+                "multiple": "言語"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "言語サポートはありません"
+        }
     },
     "logotext": "パトリック"
 }

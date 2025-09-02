@@ -6,6 +6,7 @@
         "portfolio": "مَلَفّ",
         "projects": "مشاريع الموقع",
         "tiger": "لغة النمر",
+        "portfolio_translator": "مترجم الحافظة",
         "formatter": "JSON & YAML Formatter",
         "cube_solver": "Rubix Cube Solver",
         "contact": "اتصل بي"
@@ -253,6 +254,72 @@
         "tiktok": "تيخوك",
         "youtube": "يوتيوب",
         "text_strip": "اتبعني"
+    },
+    "languages": {
+        "title": "مترجم الحافظة",
+        "description": "اكتشف كيف يمكن الوصول إلى محفظتي للزوار من جميع أنحاء العالم بدعم من أكثر من 100 لغة.",
+        "global_accessibility": {
+            "title": "إمكانية الوصول العالمي",
+            "description": "محفظتي متوفرة بلغات أكثر من {count} ، مما يجعلها في متناول الزوار من جميع أنحاء العالم. يوضح هذا النهج متعدد اللغات التزامي بالشمولية والوصول العالمي في تطوير البرمجيات.",
+            "stats": {
+                "languages_supported": "اللغات المدعومة",
+                "countries_represented": "البلدان ممثلة",
+                "continents_covered": "قارات مغطاة"
+            }
+        },
+        "features": {
+            "title": "سمات",
+            "items": [
+                {
+                    "title": "ترجمة الوقت الحقيقي:",
+                    "description": "تبديل اللغات على الفور مع محدد اللغة"
+                },
+                {
+                    "title": "اللغة القائمة على عنوان URL:",
+                    "description": "يتم الحفاظ على تفضيلات اللغة في عنوان URL"
+                },
+                {
+                    "title": "دعم النص الأصلي:",
+                    "description": "التقديم المناسب للنصوص مثل العربية والصينية والهندية والمزيد"
+                },
+                {
+                    "title": "الحساسية الثقافية:",
+                    "description": "ترجمات النظر في السياق الثقافي ، وليس فقط المعاني الحرفية"
+                },
+                {
+                    "title": "تحسين محركات البحث (SEO):",
+                    "description": "يتم تحسين كل لغة لغة لمحركات البحث"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "خريطة العالم التفاعلي",
+            "description": "تحوم على البلدان على الخريطة لرؤية لغاتها المدعومة:",
+            "languages_label": "اللغات",
+            "legend": {
+                "supported": "اللغات المدعومة",
+                "not_supported": "لا دعم اللغة"
+            },
+            "zoom_controls": {
+                "zoom_in": "تكبير",
+                "zoom_out": "تصغير",
+                "reset": "إعادة تعيين عرض"
+            }
+        },
+        "supported_languages": {
+            "title": "اللغات المدعومة"
+        },
+        "interactive_country_map": {
+            "title": "خريطة البلد التفاعلية",
+            "description": "تحوم على البلدان أدناه لرؤية لغاتها المدعومة:",
+            "language_count": {
+                "single": "لغة",
+                "multiple": "اللغات"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "لا دعم اللغة"
+        }
     },
     "logotext": "باتريك"
 }

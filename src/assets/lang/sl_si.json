@@ -6,6 +6,7 @@
         "portfolio": "Portfelj",
         "projects": "Projekti spletnih strani",
         "tiger": "Jezik tigra",
+        "portfolio_translator": "Prevajalec portfelja",
         "formatter": "JSON & YAML FORMATTER",
         "cube_solver": "RUBIX CUBE SOLVER",
         "contact": "Kontaktirajte me"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Sledite mi"
+    },
+    "languages": {
+        "title": "Prevajalec portfelja",
+        "description": "Odkrijte, kako je moj portfelj dostopen obiskovalcem z vsega sveta s podporo za več kot 100 jezikov.",
+        "global_accessibility": {
+            "title": "Globalna dostopnost",
+            "description": "Moj portfelj je na voljo v jezikih preko {count}, zaradi česar je dostopna obiskovalcem z vsega sveta. Ta večjezični pristop kaže na mojo zavezanost vključenosti in globalnemu dosegu pri razvoju programske opreme.",
+            "stats": {
+                "languages_supported": "Podprti jeziki",
+                "countries_represented": "Zastopane države",
+                "continents_covered": "Pokrite celine"
+            }
+        },
+        "features": {
+            "title": "Lastnosti",
+            "items": [
+                {
+                    "title": "Prevod v realnem času:",
+                    "description": "Tako takoj preklopite jezike z izbirnikom jezika"
+                },
+                {
+                    "title": "Jezik, ki temelji na URL-ju:",
+                    "description": "Jezikovne nastavitve so ohranjene v URL -ju"
+                },
+                {
+                    "title": "Podpora za domače skripte:",
+                    "description": "Pravilno upodabljanje scenarijev, kot so arabščina, kitajščina, hindujščina in še več"
+                },
+                {
+                    "title": "Kulturna občutljivost:",
+                    "description": "Prevodi upoštevajo kulturni kontekst, ne le dobesedne pomene"
+                },
+                {
+                    "title": "SEO optimiziran:",
+                    "description": "Vsaka jezikovna varianta je optimizirana za iskalnike"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interaktivni zemljevid sveta",
+            "description": "Premaknite države nad državami na zemljevidu, da si ogledate njihove podprte jezike:",
+            "languages_label": "Jeziki",
+            "legend": {
+                "supported": "Podprti jeziki",
+                "not_supported": "Brez jezikovne podpore"
+            },
+            "zoom_controls": {
+                "zoom_in": "Povečajte",
+                "zoom_out": "Povečajte",
+                "reset": "Ponastavitev pogleda"
+            }
+        },
+        "supported_languages": {
+            "title": "Podprti jeziki"
+        },
+        "interactive_country_map": {
+            "title": "Zemljevid interaktivne države",
+            "description": "Premaknite se nad državami spodaj, da si ogledate njihove podprte jezike:",
+            "language_count": {
+                "single": "jezik",
+                "multiple": "jeziki"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Brez jezikovne podpore"
+        }
     },
     "logotext": "Patrick"
 }

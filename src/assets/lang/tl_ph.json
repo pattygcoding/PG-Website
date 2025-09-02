@@ -6,6 +6,7 @@
         "portfolio": "Portfolio",
         "projects": "Mga proyekto sa website",
         "tiger": "Tiger Language",
+        "portfolio_translator": "Tagasalin ng Portfolio",
         "formatter": "JSON & YAML formatter",
         "cube_solver": "Rubix Cube Solver",
         "contact": "Makipag -ugnay sa akin"
@@ -253,6 +254,72 @@
         "tiktok": "Tiktok",
         "youtube": "YouTube",
         "text_strip": "Sundan mo ako"
+    },
+    "languages": {
+        "title": "Tagasalin ng Portfolio",
+        "description": "Tuklasin kung paano naa -access ang aking portfolio sa mga bisita mula sa buong mundo na may suporta para sa higit sa 100 mga wika.",
+        "global_accessibility": {
+            "title": "Pag -access sa Global",
+            "description": "Ang aking portfolio ay magagamit sa higit sa {count} na wika, ginagawa itong ma -access sa mga bisita mula sa buong mundo. Ang pamamaraang ito ng multilingual ay nagpapakita ng aking pangako sa pagiging inclusivity at pandaigdigang pag -abot sa pag -unlad ng software.",
+            "stats": {
+                "languages_supported": "Suportado ang mga wika",
+                "countries_represented": "Kinakatawan ng mga bansa",
+                "continents_covered": "Sakop ang mga kontinente"
+            }
+        },
+        "features": {
+            "title": "Mga tampok",
+            "items": [
+                {
+                    "title": "Pagsasalin sa real-time:",
+                    "description": "Lumipat agad ang mga wika sa tagapili ng wika"
+                },
+                {
+                    "title": "Wika na nakabase sa URL:",
+                    "description": "Ang mga kagustuhan sa wika ay napanatili sa URL"
+                },
+                {
+                    "title": "Suporta sa Native Script:",
+                    "description": "Wastong pag -render ng mga script tulad ng Arabic, Intsik, Hindi, at marami pa"
+                },
+                {
+                    "title": "Sensitibo sa kultura:",
+                    "description": "Isinasaalang -alang ng mga pagsasalin ang konteksto ng kultura, hindi lamang mga literal na kahulugan"
+                },
+                {
+                    "title": "SEO na -optimize:",
+                    "description": "Ang bawat variant ng wika ay na -optimize para sa mga search engine"
+                }
+            ]
+        },
+        "world_map": {
+            "title": "Interactive na mapa ng mundo",
+            "description": "Mag -hover sa mga bansa sa mapa upang makita ang kanilang mga suportadong wika:",
+            "languages_label": "Mga Wika",
+            "legend": {
+                "supported": "Suportado ang mga wika",
+                "not_supported": "Walang suporta sa wika"
+            },
+            "zoom_controls": {
+                "zoom_in": "Mag -zoom in",
+                "zoom_out": "Mag -zoom out",
+                "reset": "I -reset ang view"
+            }
+        },
+        "supported_languages": {
+            "title": "Mga suportadong wika"
+        },
+        "interactive_country_map": {
+            "title": "Interactive na mapa ng bansa",
+            "description": "Mag -hover sa mga bansa sa ibaba upang makita ang kanilang mga suportadong wika:",
+            "language_count": {
+                "single": "Wika",
+                "multiple": "Mga Wika"
+            }
+        },
+        "tooltips": {
+            "no_language_support": "Walang suporta sa wika"
+        }
     },
     "logotext": "Patrick"
 }
