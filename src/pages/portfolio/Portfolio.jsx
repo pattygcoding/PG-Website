@@ -42,7 +42,7 @@ const Portfolio = () => {
 		return `/assets/images/${filename}`;
 	};
 	
-
+	// Update URL
 	const updateURL = (updated) => {
 		const params = new URLSearchParams(location.search);
 		if (updated.length) params.set("skills", updated.join(","));
