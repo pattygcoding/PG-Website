@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { Container, Form, Button } from "react-bootstrap";
 import { PageTitle } from "@/components/page-title";
@@ -6,69 +6,105 @@ import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import { CodeBox } from "@/components/code-box";
 import l from "@/assets/links/links.json";
+import yaml from "js-yaml";
 import "./Formatter.css";
+
+const detectFormat = (input) => {
+	const trimmed = input.trim();
+	if (trimmed.startsWith("{") || trimmed.startsWith("[")) return "json";
+	return "yaml";
+};
+
+const lintJSON = (input) => {
+	try {
+		const parsed = JSON.parse(input);
+		return { valid: true, formatted: JSON.stringify(parsed, null, 4), error: null, warning: null };
+	} catch (err) {
+		return { valid: false, formatted: null, error: err.message, warning: null };
+	}
+};
+
+const isSpacingOnlyError = (input) => {
+	try {
+		// Strip all leading whitespace from each line and re-join
+		const stripped = input
+			.split("\n")
+			.map((line) => line.trimStart())
+			.join("\n");
+		const parsed = yaml.load(stripped);
+		if (parsed === undefined || parsed === null) return null;
+		return parsed;
+	} catch {
+		return null;
+	}
+};
+
+const lintYAML = (input) => {
+	try {
+		const parsed = yaml.load(input);
+		const formatted = yaml.dump(parsed, { indent: 2, lineWidth: -1, noRefs: true });
+		return { valid: true, formatted, error: null, warning: null };
+	} catch (err) {
+		// Check if it's only a spacing/indentation issue
+		const fixedParsed = isSpacingOnlyError(input);
+		if (fixedParsed !== null) {
+			const formatted = yaml.dump(fixedParsed, { indent: 2, lineWidth: -1, noRefs: true });
+			return { valid: true, formatted, error: null, warning: err.message };
+		}
+		return { valid: false, formatted: null, error: err.message, warning: null };
+	}
+};
 
 const Formatter = () => {
 	const { t } = useLang();
 
 	const [input, setInput] = useState("");
 	const [formatMode, setFormatMode] = useState("auto");
-	const [wasmReady, setWasmReady] = useState(false);
 	const [error, setError] = useState("");
-
-	useEffect(() => {
-		const script = document.createElement("script");
-		script.src = "/wasm_exec.js";
-		script.onload = () => {
-			if (typeof window.Go !== "function") {
-				console.error("wasm_exec.js loaded but window.Go is not defined.");
-				return;
-			}
-
-			const go = new window.Go();
-			WebAssembly.instantiateStreaming(fetch("/wasm/formatter_go.wasm"), go.importObject)
-				.then((result) => {
-					go.run(result.instance);
-					setWasmReady(true);
-				})
-				.catch((err) => {
-					console.error("WASM failed to load:", err);
-				});
-		};
-		script.onerror = () => {
-			console.error("Failed to load wasm_exec.js");
-		};
-		document.body.appendChild(script);
-	}, []);
+	const [success, setSuccess] = useState("");
+	const [warning, setWarning] = useState("");
 
 	const handleFormat = () => {
-		if (!wasmReady || typeof window.formatJSON !== "function") {
+		if (!input.trim()) {
+			setError(t("formatter.empty_input"));
+			setSuccess("");
+			setWarning("");
 			return;
 		}
 
 		if (input.length > 1000000) {
-			setError("Input too large (max 1MB allowed).");
+			setError(t("formatter.too_large"));
+			setSuccess("");
+			setWarning("");
 			return;
 		}
 
 		setError("");
+		setSuccess("");
+		setWarning("");
 
-		let raw = input;
-		if (formatMode === "json") raw = "///force:json///\n" + raw;
-		if (formatMode === "yaml") raw = "///force:yaml///\n" + raw;
+		const mode = formatMode === "auto" ? detectFormat(input) : formatMode;
+		const result = mode === "json" ? lintJSON(input) : lintYAML(input);
 
-		try {
-			const result = window.formatJSON(raw);
-
-			if (result.startsWith("Invalid")) {
-				setError(result);
-				return;
+		if (result.valid) {
+			setInput(result.formatted);
+			if (result.warning) {
+				setWarning(t("formatter.fixed_yaml_spacing"));
+			} else {
+				setSuccess(
+					mode === "json"
+						? t("formatter.valid_json")
+						: t("formatter.valid_yaml")
+				);
 			}
-
-			setInput(result);
-		} catch (err) {
-			console.error("Error formatting input:", err);
-			setError(formatMode === "yaml" ? "Invalid YAML" : "Invalid JSON");
+		} else {
+			setError(
+				(mode === "json"
+					? t("formatter.invalid_json")
+					: t("formatter.invalid_yaml")) +
+				": " +
+				result.error
+			);
 		}
 	};
 
@@ -98,6 +134,18 @@ const Formatter = () => {
 				{error && (
 					<div className="text-danger mt-2" style={{ fontWeight: "bold" }}>
 						{error}
+					</div>
+				)}
+
+				{warning && (
+					<div className="text-warning mt-2" style={{ fontWeight: "bold" }}>
+						{warning}
+					</div>
+				)}
+
+				{success && (
+					<div className="text-success mt-2" style={{ fontWeight: "bold" }}>
+						{success}
 					</div>
 				)}
 
