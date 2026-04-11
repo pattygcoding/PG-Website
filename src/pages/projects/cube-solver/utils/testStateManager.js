@@ -1,40 +1,50 @@
 import * as THREE from "three";
+import Cube from "cubejs";
 import { getColorHex } from "../core/cubeGeometry";
 import { ANIMATION_CONFIG } from "../constants/config";
 
-// Predefined test cube state for demonstration
-const TEST_CUBE_STATE = {
-    Top: [
-        ["W", "O", "R"],
-        ["W", "W", "Y"], 
-        ["B", "B", "Y"],
-    ],
-    Front: [
-        ["R", "W", "G"],
-        ["O", "O", "B"],
-        ["B", "B", "Y"],
-    ],
-    Right: [
-        ["O", "G", "G"],
-        ["Y", "G", "O"],
-        ["B", "R", "O"],
-    ],
-    Back: [
-        ["Y", "G", "G"],
-        ["W", "R", "O"],
-        ["W", "G", "O"],
-    ],
-    Left: [
-        ["R", "R", "W"],
-        ["Y", "B", "B"],
-        ["B", "R", "R"],
-    ],
-    Bottom: [
-        ["Y", "R", "O"],
-        ["Y", "Y", "G"],
-        ["W", "W", "G"],
-    ],
+// Predefined test cube state as a Cube.js facelet string
+// Face order: U R F D L B, each face read left-to-right, top-to-bottom
+// U=White, R=Red, F=Blue, D=Yellow, L=Orange, B=Green
+const TEST_CUBE_FACELET_STRING = "ULRUUDFFDLBBDBLFRLRUBLLFFFDDRLDDBUUBRRUDFFFRRDBBURLUBL";
+
+// Mapping from Cube.js face letters to project color letters
+const CUBEJS_TO_COLOR = {
+    U: "W", // Up    = White
+    D: "Y", // Down  = Yellow
+    F: "B", // Front = Blue
+    B: "G", // Back  = Green
+    L: "O", // Left  = Orange
+    R: "R", // Right = Red
 };
+
+/**
+ * Converts a Cube.js facelet string into the internal TEST_CUBE_STATE format
+ * @param {string} faceletString - 54-character Cube.js facelet string (U R F D L B order)
+ * @returns {Object} Cube state object with face names as keys and 3x3 color arrays as values
+ */
+function parseCubejsState(faceletString) {
+    // Cube.js string order: U(0-8), R(9-17), F(18-26), D(27-35), L(36-44), B(45-53)
+    const faceOffsets = { Top: 0, Right: 9, Front: 18, Bottom: 27, Left: 36, Back: 45 };
+
+    const state = {};
+    for (const [faceName, offset] of Object.entries(faceOffsets)) {
+        const rows = [];
+        for (let row = 0; row < 3; row++) {
+            const cols = [];
+            for (let col = 0; col < 3; col++) {
+                const faceLetter = faceletString[offset + row * 3 + col];
+                cols.push(CUBEJS_TO_COLOR[faceLetter]);
+            }
+            rows.push(cols);
+        }
+        state[faceName] = rows;
+    }
+    return state;
+}
+
+// Build the test cube state from the Cube.js facelet string
+const TEST_CUBE_STATE = parseCubejsState(TEST_CUBE_FACELET_STRING);
 
 // Configuration for each face's orientation and mapping
 const FACE_CONFIGURATIONS = {
