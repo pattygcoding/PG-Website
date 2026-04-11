@@ -16,7 +16,13 @@ export async function executeSolvingAlgorithm(cubeGroupRef, moveSequence = null)
     // Default test sequence
     const defaultMoveSequence = [
         { move: "R", direction: "cw" },
-        { move: "U", direction: "cw" }
+        { move: "U", direction: "cw" },
+        { move: "R", direction: "ccw" },
+        { move: "U", direction: "ccw" },
+        { move: "R", direction: "cw" },
+        { move: "U", direction: "cw" },
+        { move: "R", direction: "ccw" },
+        { move: "U", direction: "ccw" }
     ];
 
     const moves = moveSequence || defaultMoveSequence;
