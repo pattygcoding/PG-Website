@@ -217,13 +217,20 @@
         "description": "I respond to inquires from email, LinkedIn messages, and Instagram messages. I also will call back if my number is provided via resume or otherwise, though I prefer to keep my phone number private."
     },
     "formatter": {
-        "title": "JSON & YAML Formatter",
-        "description": "The JSON & YAML Formatter is a tool that allows you to format JSON and YAML files. It is built with Go and WebAssembly, and it is designed to be fast and efficient. The formatter is designed to be easy to use, with a simple interface that allows you to paste in your JSON or YAML code and format it with the click of a button.",
+        "title": "JSON & YAML Linter",
+        "description": "The JSON & YAML Linter is a tool that allows you to validate and format JSON and YAML. Paste in your code, choose a format, and lint it with the click of a button. It will check for syntax errors and auto-format valid input.",
         "more_info1": "For more information, refer to the README in the",
         "more_info2": "JSON/YAML Formatter Repository.",
         "format_as": "Format As:",
         "auto_detect": "Auto Detect",
-        "format": "Format"
+        "format": "Lint & Format",
+        "valid_json": "✓ Valid JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",
