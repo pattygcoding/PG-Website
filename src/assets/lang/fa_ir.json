@@ -223,7 +223,14 @@
         "more_info2": "مخزن فرمت JSON/YAML.",
         "format_as": "قالب به عنوان:",
         "auto_detect": "خودکار تشخیص دادن",
-        "format": "قالب"
+        "format": "قالب",
+        "valid_json": "✓ JSON معتبر",
+        "valid_yaml": "✓ YAML معتبر",
+        "invalid_json": "JSON نامعتبر است",
+        "invalid_yaml": "YAML نامعتبر است",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "ورودی خیلی بزرگ است (حداکثر 1 مگابایت مجاز).",
+        "fixed_yaml_spacing": "⚠ YAML فاصله/تورفتگی نامعتبر داشت اما به صورت خودکار اصلاح و قالب بندی شده است."
     },
     "cube_solver": {
         "title": "حل کننده مکعب Rubix",

@@ -223,7 +223,14 @@
         "more_info2": "Dipòsit de format de json/yaml.",
         "format_as": "Format com:",
         "auto_detect": "Detectar automàticament",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ JSON vàlid",
+        "valid_yaml": "✓ YAML vàlid",
+        "invalid_json": "JSON no vàlid",
+        "invalid_yaml": "YAML no vàlid",
+        "empty_input": "Introduïu una mica de JSON o YAML per lint.",
+        "too_large": "L'entrada és massa gran (permet 1 MB com a màxim).",
+        "fixed_yaml_spacing": "⚠ YAML tenia un espai/sagnat no vàlids, però s'ha corregit i formatat automàticament."
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",

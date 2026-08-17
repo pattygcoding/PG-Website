@@ -223,7 +223,14 @@
         "more_info2": "JSON/YAML -Formatter -Repository.",
         "format_as": "Format als:",
         "auto_detect": "Automatische Erkennung",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ Gültiges JSON",
+        "valid_yaml": "✓ Gültiges YAML",
+        "invalid_json": "Ungültiger JSON",
+        "invalid_yaml": "Ungültiges YAML",
+        "empty_input": "Bitte geben Sie JSON oder YAML zum Linten ein.",
+        "too_large": "Eingabe zu groß (maximal 1 MB zulässig).",
+        "fixed_yaml_spacing": "⚠ YAML hatte ungültige Abstände/Einrückungen, wurde aber automatisch korrigiert und formatiert."
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",

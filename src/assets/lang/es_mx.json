@@ -223,7 +223,14 @@
         "more_info2": "Repositorio de formatillas JSON/YAML.",
         "format_as": "Formato como:",
         "auto_detect": "Detectar automáticamente",
-        "format": "Formato"
+        "format": "Formato",
+        "valid_json": "✓ JSON válido",
+        "valid_yaml": "✓ YAML válido",
+        "invalid_json": "JSON no válido",
+        "invalid_yaml": "YAML no válido",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "La entrada es demasiado grande (se permite un máximo de 1 MB).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "cube_solver": {
         "title": "Solucionador de cubos de rubix",

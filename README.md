@@ -115,6 +115,11 @@ A high-performance formatter with WebAssembly backend:
    yarn install
    ```
 
+   For the Python translation script, also install the Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 3. **Start the development server**
    ```bash
    yarn start

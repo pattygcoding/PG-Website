@@ -223,7 +223,14 @@
         "more_info2": "JSON/YAML FORMATRE хранилище.",
         "format_as": "Формат като:",
         "auto_detect": "Автоматично откриване",
-        "format": "Формат"
+        "format": "Формат",
+        "valid_json": "✓ Валиден JSON",
+        "valid_yaml": "✓ Валиден YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Невалиден YAML",
+        "empty_input": "Моля, въведете JSON или YAML за lint.",
+        "too_large": "Въведеното е твърде голямо (разрешен максимум 1 MB).",
+        "fixed_yaml_spacing": "⚠ YAML имаше невалидно разстояние/отстъп, но беше автоматично коригирано и форматирано."
     },
     "cube_solver": {
         "title": "Rubix Cube Solver",
