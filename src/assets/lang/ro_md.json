@@ -124,6 +124,11 @@
                 "text": "Un linter și autoformatter pentru fișierele JSON și YAML. Acest proiect este utilizat pentru a formata fișierele JSON și YAML, ceea ce este foarte util pentru menținerea codului curat și organizat. Construit cu GO, compilat cu WebAssembly și încorporat în portofoliul meu ca proiect de site. Mai multe formate care vor veni în viitor.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Generator JSON Minecraft",
                 "text": "Generator JSON ușor construit în Python pentru pachete de resurse și date Minecraft. Acest proiect este utilizat pentru a genera fișiere JSON pentru moduri Minecraft, inclusiv articole personalizate, blocuri și entități. Foarte util pentru crearea nu numai a datelor de date personalizate, ci și pentru mod -uri prin intermediul funcției de comutare a numelor Mod.",
@@ -222,7 +227,14 @@
         "more_info2": "Depozitul de format JSON/YAML.",
         "format_as": "Format ca:",
         "auto_detect": "Detectare automată",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ JSON valid",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "Limba tigrului",

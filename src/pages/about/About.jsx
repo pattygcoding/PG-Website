@@ -22,7 +22,7 @@ const About = () => {
 				<PageTitle title={t("about.title")} />
 
 				<AboutSection title={t("about.personal_summary.title")}>
-					<div className="d-flex align-items-center">
+					<div className="d-flex align-items-center personal-summary-box">
 						<p>{t("about.personal_summary.text")}</p>
 					</div>
 				</AboutSection>

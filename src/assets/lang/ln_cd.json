@@ -124,6 +124,11 @@
                 "text": "A linter & Autoformatter mpo na ba fichiers JSON & YAML. Projet oyo esalelamaka pona ko formater ba fichiers JSON & YAML, oyo ezali très utile pona ko garder code propre pe organisé. Etongamaki na Go, esangisi na webassembly, mpe ekotisami na portefeuille na ngai lokola projet ya site internet. Ba formats mingi oyo ekoya na mikolo ekoya.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "SaaS ya construction moderne ya estimation na décollage pona ba entrepreneurs na ba estimateurs. Ezali ko importer ba fichiers CSV na Excel, ba colonnes auto-cartes, e calculer ba volumes ya excavation ya ba fosses na ya terre, e suivre travail na marquage, pe e produire ba propositions ya soumission PDF na Word prêt ya client na flux ya travail React + Express poli.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Générateur .",
                 "text": "Générateur ya JSON ya poids léger oyo etongami na Python mpo na ba packs ya ressource & ya ba données ya Minecraft. Projet oyo esalelamaka pona kobimisa ba fichiers JSON pona ba mods ya Minecraft, na kati na yango biloko ya kosala, ba blocs, pe ba entités. Très utile pona ko créer kaka ba packs ya ba données personnalisées te, mais pona ba mods lokola via fonctionnalité ya commutation ya kombo ya mod.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Langue de programmation de tigre .",
-                "text": "Langage de programmation personnalisé construit dans les deux Go & Rust mpo na ko expérimenter conception ya interprète mpe performance. Esalemi na site internet ya portefeuille na kosalelaka Assemblée Web.",
+                "text": "Langage de programmation personnalisé construit dans les deux Go mpo na ko expérimenter conception ya interprète mpe performance. Esalemi na site internet ya portefeuille na kosalelaka Assemblée Web.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "Bobombi ya formateur ya JSON/YAML.",
         "format_as": "Format lokola:",
         "auto_detect": "Auto Détecter",
-        "format": "Format ."
+        "format": "Format .",
+        "valid_json": "✓ JSON oyo ezali na ntina",
+        "valid_yaml": "✓ YAML oyo ezali na ntina",
+        "invalid_json": "JSON oyo ezali na ntina te",
+        "invalid_yaml": "YAML oyo ezali na ntina te",
+        "empty_input": "Svp kotisa mua JSON to YAML pona lint.",
+        "too_large": "Entrée trop munene (max 1MB epesami nzela).",
+        "fixed_yaml_spacing": "⚠ YAML ezalaki na espacement/indentation invalide kasi esili auto-fixé mpe formaté."
     },
     "tiger": {
         "title": "Lingala ya Tigre .",
-        "description": "Langage ya programmation ya Tigre ezali langage ya programmation personnalisé oyo etongami na Go & Rust mpo na ko expérimenter conception ya interprète mpe performance. Esalemi na site internet ya portefeuille na kosalelaka Assemblée Web. Langage ya programmation ya Tigre ezali langage ya programmation personnalisé oyo etongami na Go & Rust mpo na ko expérimenter conception ya interprète mpe performance. Esalemi na site internet ya portefeuille na kosalelaka Assemblée Web.",
+        "description": "Langage ya programmation ya Tigre ezali langage ya programmation personnalisé oyo etongami na Go mpo na ko expérimenter conception ya interprète mpe performance. Esalemi na site internet ya portefeuille na kosalelaka Assemblée Web. Langage ya programmation ya Tigre ezali langage ya programmation personnalisé oyo etongami na Go mpo na ko expérimenter conception ya interprète mpe performance. Esalemi na site internet ya portefeuille na kosalelaka Assemblée Web.",
         "more_info1": "Mpo na koyeba makambo mosusu, talá na README oyo ezali na .",
         "more_info2": "Tigre Programmation Language GitHub ebombelo.",
         "select_engine": "Pona Moteur:",

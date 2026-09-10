@@ -124,6 +124,11 @@
                 "text": "JSON & YAML failu oderējums un autoformaters. Šis projekts tiek izmantots JSON & YAML failu formatēšanai, kas ir ļoti noderīgi, lai kods būtu tīrs un sakārtots. Būvēts ar Go, apkopots ar WebAssembly un iegults manā portfelī kā vietnes projekts. Vairāk formātu, kas nāk nākotnē.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Pacelšanās dzinējs",
+                "text": "Mūsdienīga būvniecības tāmēšanas un pacelšanās SaaS darbuzņēmējiem un tāmētājiem. Tas importē CSV un Excel failus, automātiski kartē kolonnas, aprēķina tranšeju rakšanas un zemes darbu apjomus, izseko darbu un uzcenojumu, kā arī ģenerē klientam gatavus PDF un Word cenu piedāvājumus ar noslīpētu React + Express darbplūsmu.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON ģenerators",
                 "text": "Viegls JSON ģenerators, kas iebūvēts Python Minecraft resursu un datu pakotnēm. Šis projekts tiek izmantots JSON failu ģenerēšanai Minecraft modi, ieskaitot pielāgotos vienumus, blokus un entītijas. Ļoti noderīgi ne tikai pielāgotu datu paku izveidošanai, bet arī modiem, izmantojot mod nosaukuma komutācijas funkciju.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON/Yaml formatter Repository.",
         "format_as": "Formāts kā:",
         "auto_detect": "Automātiska noteikšana",
-        "format": "Formāts"
+        "format": "Formāts",
+        "valid_json": "✓ Derīgs JSON",
+        "valid_yaml": "✓ Derīgs YAML",
+        "invalid_json": "Nederīgs JSON",
+        "invalid_yaml": "Nederīgs YAML",
+        "empty_input": "Lūdzu, ievadiet kādu JSON vai YAML, lai izvilktu.",
+        "too_large": "Pārāk liela ievade (atļauts ne vairāk kā 1 MB).",
+        "fixed_yaml_spacing": "⚠ YAML bija nederīga atstarpe/atkāpe, taču tā ir automātiski labota un formatēta."
     },
     "tiger": {
         "title": "Tīģeru valoda",

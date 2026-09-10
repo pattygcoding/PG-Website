@@ -14,7 +14,7 @@ const Contact = () => {
 			<Container>
 				<Tab title={t("contact.title")} />
 				<PageTitle title={t("contact.title")} />
-				<Row className="sec_sp">
+				<Row className="sec_sp contact__section">
 					<Col lg="5" className="mb-5">
 						<h3 className="color_sec py-4">{t("contact.header")}</h3>
 						<address>

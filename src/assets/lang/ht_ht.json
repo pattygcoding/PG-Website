@@ -124,6 +124,11 @@
                 "text": "Yon Linter & Autoformatter pou dosye JSON & YAML. Pwojè sa a itilize fòma JSON & YAML dosye, ki se trè itil pou kenbe kòd pwòp ak òganize. Bati ak GO, konpile ak webassembly, ak entegre nan dosye mwen kòm yon pwojè sit entènèt. Plis fòma vini nan tan kap vini an.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Motè dekolaj",
+                "text": "Yon konstriksyon modèn estimasyon ak dekolaj SaaS pou kontraktè ak estimatè. Li enpòte fichye CSV ak Excel, oto-kat kolòn, kalkile fouyman tranche ak volim travay tè, swiv travay ak maketing, epi jenere pwopozisyon PDF ak òf Word ki pare pou kliyan ak yon workflow poli React + Express.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON dèlko",
                 "text": "Lejè JSON dèlko bati nan Python pou Minecraft Resous & Done pake. Pwojè sa a itilize pou jenere dosye JSON pou mods Minecraft, ki gen ladan atik koutim, blòk, ak antite. Trè itil pou pa sèlman kreye datapacks koutim, men pou mods kòm byen atravè karakteristik nan oblije chanje non mod.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON/YAML Formatter Repository.",
         "format_as": "Fòma kòm:",
         "auto_detect": "Auto Detekte",
-        "format": "Fòmat"
+        "format": "Fòmat",
+        "valid_json": "✓ JSON valab",
+        "valid_yaml": "✓ YAML ki valab",
+        "invalid_json": "JSON pa valab",
+        "invalid_yaml": "YAML envalid",
+        "empty_input": "Tanpri antre kèk JSON oswa YAML pou lint.",
+        "too_large": "Antre twò gwo (max 1MB pèmèt).",
+        "fixed_yaml_spacing": "⚠ YAML te gen espas/indentasyon ki pa valab men li te oto-ranje ak fòma."
     },
     "tiger": {
         "title": "Tiger Lang",

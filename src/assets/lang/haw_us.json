@@ -124,6 +124,11 @@
                 "text": "ʻO kahi lingter & autopetter no Jon & Yaml Files. Hoʻohanaʻia kēia papahana e hoʻonohonoho i nā faila Jon & Yaml, he mea maikaʻi loa ia no ka mālamaʻana i ke code a hoʻonohonohoʻia. Kūkuluʻia me Go, hoʻopiʻiʻia me ka pūnaewele, a hoʻopiliʻia i loko o kaʻu waihona ma keʻano he papahana pūnaewele. Nā mea hou aʻe e hiki mai i ka wā e hiki mai ana.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "ʻEnekini Haʻalele",
+                "text": "ʻO ke kūkulu hou ʻana a me ka lawe ʻana i ka SaaS no nā mea ʻaelike a me nā mea koho. Hoʻokomo ʻo ia i nā faila CSV a me Excel, nā kolamu palapala ʻāina auto, helu i ka ʻeli ʻana o ka ʻauwaha a me ka nui o ka hana honua, ka hahai ʻana i ka hana a me ka markup, a hoʻopuka i nā palapala noi PDF a me Word me kahi kahe hana React + Express i hoʻomaʻamaʻa ʻia.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "MINECRAFT JONSRARA",
                 "text": "Ua kūkuluʻiaʻo Lightweight Jon Generator i ka Python no MYCHON NO MII MILYCE & Nā kiʻiʻikepili. Hoʻohanaʻia kēia papahana e hana i nā faila json no nā miscrat minectub he mau'āpana o nā minet, me nā poloka kūʻai aku, a me nā kumu kūʻai. He mea kūpono loa no ka hoʻohanaʻana i nāʻikepili maʻamau, akā naʻe nā mods me ka mod no ka hana hoʻololi mode.",
@@ -222,7 +227,14 @@
         "more_info2": "Json / yaml profile repository.",
         "format_as": "Format AS:",
         "auto_detect": "ʻIkeʻo Auto",
-        "format": "Hoʻohui"
+        "format": "Hoʻohui",
+        "valid_json": "✓ JSON kūpono",
+        "valid_yaml": "✓ YAML pono",
+        "invalid_json": "He kūpono ʻole ʻo JSON",
+        "invalid_yaml": "Hewa YAML",
+        "empty_input": "E ʻoluʻolu e hoʻokomo i kekahi JSON a i ʻole YAML e lint.",
+        "too_large": "Nui loa ke komo ʻana (max 1MB ʻae ʻia).",
+        "fixed_yaml_spacing": "⚠ ʻAʻole kūpono ka YAML i ka spacing/indentation akā ua hoʻoponopono ʻia a hoʻopono ʻia."
     },
     "tiger": {
         "title": "'Ōlelo Tiger",

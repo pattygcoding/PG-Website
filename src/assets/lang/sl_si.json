@@ -124,6 +124,11 @@
                 "text": "Linter & Autoformatter za datoteke JSON & YAML. Ta projekt se uporablja za oblikovanje datotek JSON & YAML, kar je zelo koristno za ohranjanje čiste in organizirane kode. Zgrajena z GO, sestavljena z WebAssembly in vgrajena v moj portfelj kot projekt spletnega mesta. V prihodnosti bo prišlo več formatov.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON generator",
                 "text": "Lahek JSON Generator je vgrajen v Python za Minecraft Resource Resource & Data Packs. Ta projekt se uporablja za ustvarjanje datotek JSON za mode Minecraft, vključno z elementi po meri, bloki in subjekti. Zelo koristno za ne samo ustvarjanje podatkovnih podatkov po meri, ampak tudi za mode prek funkcije preklopa mode.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Tiger programski jezik",
-                "text": "Jezik programiranja po meri, vgrajen tako v Go & Rust, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže.",
+                "text": "Jezik programiranja po meri, vgrajen tako v Go, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "JSON/YAML FORMATTER ROPLATILO.",
         "format_as": "Format kot:",
         "auto_detect": "Samodejno zaznavanje",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ Valid JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "Jezik tigra",
-        "description": "Tiger programski jezik je programski jezik po meri, vgrajen tako v Go & Rust, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže. Tiger programski jezik je programski jezik po meri, vgrajen tako v Go & Rust, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže.",
+        "description": "Tiger programski jezik je programski jezik po meri, vgrajen tako v Go, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže. Tiger programski jezik je programski jezik po meri, vgrajen tako v Go, da bi eksperimentiral z oblikovanjem in zmogljivostjo tolmača. Izvedeno na spletnem mestu Portfelio s pomočjo spletne montaže.",
         "more_info1": "Če želite več informacij, glejte readme v",
         "more_info2": "Tiger programski jezik GitHub Repository.",
         "select_engine": "Izberite motor:",

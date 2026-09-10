@@ -124,6 +124,11 @@
                 "text": "Vingbụ na Akaraphortist maka faịlụ JSON & Yaml. A na-eji oru ngo a iji methazi Jon & Yaml, nke bara uru maka idebe koodu ocha ma hazie. E wuru na Go, jikọtara ya na webánsemid, wee tinye n'ime Pọtụfoliyo m dị ka oru ngo mkpokọta. A na-eme ka ọ bụrụ ọdịnihu.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Igwe na-apụ apụ",
+                "text": "Ihe owuwu ọgbara ọhụrụ na-eme atụmatụ na iwepụ SaaS maka ndị ọrụ ngo na ndị na-eme atụmatụ. Ọ na-ebubata faịlụ CSV na Excel, kọlụm maapụ akpaaka, na-agbakọ ihe gwupụtara n'ala na oke ọrụ ala, na-arụ ọrụ na akara, ma na-ewepụta atụmatụ ntinye akwụkwọ PDF na Okwu dị njikere site na iji usoro ọrụ React + Express na-egbu maramara.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft Json jenerator",
                 "text": "JSON BAYESE wuru na Python maka minecraft ike na ngwugwu data. A na-eji oru ngo a iji mepụta faịlụ JSn maka Monecraft Mods, tinyere ihe omenala, ihe mgbochi, na ulo. Ezigbo uru maka ọ bụghị naanị na ịmepụta dataPacks ọdịnala, mana maka Mods Dị Mma site na MOD MOD MOD.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON / Yaml Iwu Remoti.",
         "format_as": "Hazie:",
         "auto_detect": "Nchekwa onwe",
-        "format": "Usoro"
+        "format": "Usoro",
+        "valid_json": "✓ JSON bara uru",
+        "valid_yaml": "✓ YAML bara uru",
+        "invalid_json": "JSON adịghị mma",
+        "invalid_yaml": "YAML ezighi ezi",
+        "empty_input": "Biko tinye ụfọdụ JSON ma ọ bụ YAML ka lint.",
+        "too_large": "Ntinye buru oke ibu (ka ekwenyere 1MB).",
+        "fixed_yaml_spacing": "⚠ YAML nwere oghere/ indentation na-ezighi ezi mana edobere ya ma hazie ya."
     },
     "tiger": {
         "title": "Asụsụ Tiger",

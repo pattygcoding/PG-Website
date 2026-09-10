@@ -124,6 +124,11 @@
                 "text": "Linter & AutoforMatter untuk fail JSON & YAML. Projek ini digunakan untuk memformat fail JSON & YAML, yang sangat berguna untuk menyimpan kod bersih dan teratur. Dibina dengan GO, disusun dengan webassembly, dan tertanam ke dalam portfolio saya sebagai projek laman web. Lebih banyak format yang akan datang pada masa akan datang.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Enjin Berlepas",
+                "text": "SaaS anggaran pembinaan moden dan berlepas untuk kontraktor dan penganggar. Ia mengimport fail CSV dan Excel, lajur auto-peta, mengira penggalian parit dan volum kerja tanah, menjejak tenaga kerja dan penanda serta menjana cadangan bida PDF dan Word sedia pelanggan dengan aliran kerja React + Express yang digilap.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
                 "text": "Penjana JSON ringan yang dibina di Python untuk Minecraft Resource & Data Packs. Projek ini digunakan untuk menjana fail JSON untuk mod Minecraft, termasuk item tersuai, blok, dan entiti. Sangat berguna untuk bukan sahaja mencipta datapacks tersuai, tetapi untuk mod juga melalui ciri penukaran nama mod.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Bahasa pengaturcaraan harimau",
-                "text": "Bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go & Rust untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web.",
+                "text": "Bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "JSON/YAML Formatter Repository.",
         "format_as": "Format sebagai:",
         "auto_detect": "Mengesan automatik",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ JSON yang sah",
+        "valid_yaml": "✓ YAML yang sah",
+        "invalid_json": "JSON tidak sah",
+        "invalid_yaml": "YAML tidak sah",
+        "empty_input": "Sila masukkan beberapa JSON atau YAML untuk diselitkan.",
+        "too_large": "Input terlalu besar (maks 1MB dibenarkan).",
+        "fixed_yaml_spacing": "⚠ YAML mempunyai jarak/lekukan yang tidak sah tetapi telah dibetulkan secara automatik dan diformatkan."
     },
     "tiger": {
         "title": "Bahasa harimau",
-        "description": "Bahasa pengaturcaraan harimau adalah bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go & Rust untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web. Bahasa pengaturcaraan harimau adalah bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go & Rust untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web.",
+        "description": "Bahasa pengaturcaraan harimau adalah bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web. Bahasa pengaturcaraan harimau adalah bahasa pengaturcaraan tersuai yang dibina di kedua -dua Go untuk bereksperimen dengan reka bentuk dan prestasi jurubahasa. Dilaksanakan di laman web portfolio menggunakan pemasangan web.",
         "more_info1": "Untuk maklumat lanjut, rujuk readme di",
         "more_info2": "Bahasa pengaturcaraan Tiger Repositori GitHub.",
         "select_engine": "Pilih Enjin:",

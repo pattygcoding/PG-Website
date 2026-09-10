@@ -124,6 +124,11 @@
                 "text": "Cholembera & Autofmatter kwa mafayilo a JSS & Yaml. Pulojekitiyi imagwiritsidwa ntchito popanga mafayilo a JSS & Yaml, zomwe ndizothandiza kwambiri kusunga nambala yoyera komanso yolinganizidwa. Omangidwa ndi kupita, opangidwa ndi Websembly, ndikuphatikizidwa ndi mbiri yanga ngati polojekiti yawebusayiti. Mitundu yambiri yobwera mtsogolo.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Injini yoyambira",
+                "text": "Kuyerekeza kwamakono ndi kunyamuka kwa SaaS kwa makontrakitala ndi oyerekeza. Imalowetsa mafayilo a CSV ndi Excel, mizati ya mamapu, imawerengera kukumba ngalande ndi kuchuluka kwa nthaka, imatsata ntchito ndi kuyika, ndikupanga malingaliro okonzekera makasitomala a PDF ndi Mawu omwe ali ndi mayendedwe opukutidwa a React + Express.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft json jenereta",
                 "text": "Kupepuka Jsomort yomangidwa ku Python ya minecraffcrocy rontract & ma tambala. Pulojekitiyi imagwiritsidwa ntchito kupanga mafayilo a JSS, kuphatikiza zinthu zina, zotchinga, ndi mabungwe. Zothandiza kwambiri osati kungopanga ma datapapucks, koma kwa ma mods komanso kusinthira kwa mod.",
@@ -222,7 +227,14 @@
         "more_info2": "Jsomo / Yaml Phativery.",
         "format_as": "Mtundu monga:",
         "auto_detect": "Auto Yandikira",
-        "format": "Kalembedwe"
+        "format": "Kalembedwe",
+        "valid_json": "✓ JSON yovomerezeka",
+        "valid_yaml": "✓ YAML yovomerezeka",
+        "invalid_json": "JSON yolakwika",
+        "invalid_yaml": "YAML yolakwika",
+        "empty_input": "Chonde lowetsani JSON kapena YAML kuti mutsegule.",
+        "too_large": "Zolowetsa zazikulu kwambiri (zololedwa zosaposa 1MB).",
+        "fixed_yaml_spacing": "⚠ YAML inali ndi masipatala/mapindikidwe olakwika koma idasinthidwa zokha ndikusinthidwa."
     },
     "tiger": {
         "title": "Chilankhulo cha Tiger",

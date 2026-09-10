@@ -124,6 +124,11 @@
                 "text": "Een line & autoFormatter voor JSON & YAML -bestanden. Dit project wordt gebruikt om JSON & YAML -bestanden op te maken, wat erg handig is om de code schoon en georganiseerd te houden. Gebouwd met Go, samengesteld met WebAssembly, en ingebed in mijn portfolio als een websiteproject. Meer formaten die in de toekomst komen.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "Een moderne bouwcalculatie- en start-SaaS voor aannemers en schatters. Het importeert CSV- en Excel-bestanden, brengt automatisch kolommen in kaart, berekent de volumes van sleuvengraaf- en grondwerk, houdt arbeid en markup bij en genereert klantklare PDF- en Word-biedingsvoorstellen met een gepolijste React + Express-workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON -generator",
                 "text": "Lichtgewicht JSON -generator gebouwd in Python voor Minecraft Resource & Data Packs. Dit project wordt gebruikt om JSON -bestanden te genereren voor Minecraft -mods, inclusief aangepaste items, blokken en entiteiten. Zeer handig om niet alleen aangepaste datapacks te maken, maar ook voor mods via de functie MOD Name Switching.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Tijgerprogrammeertaal",
-                "text": "Aangepaste programmeertaal ingebouwd in zowel Go & Rust om te experimenteren met tolkontwerp en prestaties. Geïmplementeerd op de Portfolio -website met behulp van webassemblage.",
+                "text": "Aangepaste programmeertaal ingebouwd in zowel Go om te experimenteren met tolkontwerp en prestaties. Geïmplementeerd op de Portfolio -website met behulp van webassemblage.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "JSON/YAML Formatter Repository.",
         "format_as": "Formaat als:",
         "auto_detect": "Automatisch detecteren",
-        "format": "Formaat"
+        "format": "Formaat",
+        "valid_json": "✓ Geldige JSON",
+        "valid_yaml": "✓ Geldige YAML",
+        "invalid_json": "Ongeldige JSON",
+        "invalid_yaml": "Ongeldige YAML",
+        "empty_input": "Voer een JSON- of YAML-bestand in voor lint.",
+        "too_large": "Invoer te groot (max. 1MB toegestaan).",
+        "fixed_yaml_spacing": "⚠ YAML had een ongeldige spatiëring/inspringing, maar is automatisch gecorrigeerd en geformatteerd."
     },
     "tiger": {
         "title": "Tijgertaal",
-        "description": "De tijgerprogrammeertaal is een aangepaste programmeertaal die in zowel Go & Rust is gebouwd om te experimenteren met interpreterontwerp en prestaties. Geïmplementeerd op de Portfolio -website met behulp van webassemblage. De tijgerprogrammeertaal is een aangepaste programmeertaal die in zowel Go & Rust is gebouwd om te experimenteren met interpreterontwerp en prestaties. Geïmplementeerd op de Portfolio -website met behulp van webassemblage.",
+        "description": "De tijgerprogrammeertaal is een aangepaste programmeertaal die in zowel Go is gebouwd om te experimenteren met interpreterontwerp en prestaties. Geïmplementeerd op de Portfolio -website met behulp van webassemblage. De tijgerprogrammeertaal is een aangepaste programmeertaal die in zowel Go is gebouwd om te experimenteren met interpreterontwerp en prestaties. Geïmplementeerd op de Portfolio -website met behulp van webassemblage.",
         "more_info1": "Raadpleeg de README in de README voor meer informatie",
         "more_info2": "Tijgerprogrammeertaal GitHub Repository.",
         "select_engine": "Selecteer motor:",

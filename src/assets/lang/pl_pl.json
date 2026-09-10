@@ -124,6 +124,11 @@
                 "text": "Linter & Autoformatter dla plików JSON & YAML. Ten projekt służy do formatowania plików JSON & YAML, co jest bardzo przydatne do utrzymania w czystości i zorganizowaniu kodu. Zbudowany z Go, opracowany z Webassembly i wbudowany w moje portfolio jako projekt strony internetowej. Więcej formatów nadejdzie w przyszłości.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Silnik startowy",
+                "text": "Nowoczesny SaaS do kosztorysowania i startów budowlanych dla wykonawców i kosztorysantów. Importuje pliki CSV i Excel, automatycznie mapuje kolumny, oblicza objętość wykopów i robót ziemnych, śledzi robociznę i znaczniki oraz generuje gotowe dla klienta propozycje stawek w formacie PDF i Word za pomocą dopracowanego przepływu pracy React + Express.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft Json Generator",
                 "text": "Lekki generator JSON wbudowany w Python dla Minecraft Resource & Data Pack. Ten projekt służy do generowania plików JSON dla modów Minecraft, w tym elementów niestandardowych, bloków i jednostek. Bardzo przydatny nie tylko do tworzenia niestandardowych struktur danych, ale także dla modów za pomocą funkcji przełączania nazwy modów.",
@@ -222,7 +227,14 @@
         "more_info2": "Repozytorium formattera JSON/YAML.",
         "format_as": "Format jako:",
         "auto_detect": "Wykryj automatyczne",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ Prawidłowy JSON",
+        "valid_yaml": "✓ Prawidłowy YAML",
+        "invalid_json": "Nieprawidłowy JSON",
+        "invalid_yaml": "Nieprawidłowy YAML",
+        "empty_input": "Wprowadź kod JSON lub YAML, aby uzyskać lint.",
+        "too_large": "Dane wejściowe są zbyt duże (dozwolone maksymalnie 1 MB).",
+        "fixed_yaml_spacing": "⚠ YAML miał nieprawidłowe odstępy/wcięcia, ale został automatycznie naprawiony i sformatowany."
     },
     "tiger": {
         "title": "Język tygrysa",

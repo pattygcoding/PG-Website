@@ -124,6 +124,11 @@
                 "text": "JSON & YAML 파일의 Linter & AutoFormatter. 이 프로젝트는 JSON & YAML 파일을 포맷하는 데 사용되며 코드를 깨끗하고 구성하는 데 매우 유용합니다. Go와 함께 구축, WebAssembly로 컴파일 된 웹 사이트 프로젝트로 내 포트폴리오에 포함됩니다. 앞으로 더 많은 형식이 올 형식입니다.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "이륙 엔진",
+                "text": "계약자 및 견적자를 위한 현대적인 건설 견적 및 이륙 SaaS입니다. CSV 및 Excel 파일을 가져오고, 열을 자동 매핑하고, 도랑 굴착 및 토공량을 계산하고, 노동력 및 마크업을 추적하고, 세련된 React + Express 워크플로를 통해 클라이언트용 PDF 및 Word 입찰 제안을 생성합니다.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON 생성기",
                 "text": "마인 크래프트 리소스 및 데이터 팩 용 파이썬으로 내장 된 경량 JSON 발전기. 이 프로젝트는 사용자 정의 항목, 블록 및 엔티티를 포함한 Minecraft 모드 용 JSON 파일을 생성하는 데 사용됩니다. MOD 이름 스위칭 기능을 통해 사용자 정의 데이터 팩을 만들뿐만 아니라 모드에도 매우 유용합니다.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "호랑이 프로그래밍 언어",
-                "text": "통역사 디자인 및 성능을 실험하기 위해 Go & Rust에 구축 된 맞춤형 프로그래밍 언어. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다.",
+                "text": "통역사 디자인 및 성능을 실험하기 위해 Go에 구축 된 맞춤형 프로그래밍 언어. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "JSON/YAML Formatter 저장소.",
         "format_as": "형식 :",
         "auto_detect": "자동 감지",
-        "format": "체재"
+        "format": "체재",
+        "valid_json": "✓ 유효한 JSON",
+        "valid_yaml": "✓ 유효한 YAML",
+        "invalid_json": "잘못된 JSON",
+        "invalid_yaml": "잘못된 YAML",
+        "empty_input": "Lint에 JSON 또는 YAML을 입력하세요.",
+        "too_large": "입력값이 너무 큽니다(최대 1MB 허용).",
+        "fixed_yaml_spacing": "⚠ YAML에 잘못된 간격/들여쓰기가 있었지만 자동으로 수정되고 형식이 지정되었습니다."
     },
     "tiger": {
         "title": "호랑이 언어",
-        "description": "Tiger Programming Language는 Go & Rust에 내장 된 맞춤형 프로그래밍 언어로 통역사 디자인 및 성능을 실험합니다. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다. Tiger Programming Language는 Go & Rust에 내장 된 맞춤형 프로그래밍 언어로 통역사 디자인 및 성능을 실험합니다. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다.",
+        "description": "Tiger Programming Language는 Go에 내장 된 맞춤형 프로그래밍 언어로 통역사 디자인 및 성능을 실험합니다. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다. Tiger Programming Language는 Go에 내장 된 맞춤형 프로그래밍 언어로 통역사 디자인 및 성능을 실험합니다. 웹 어셈블리를 사용하여 포트폴리오 웹 사이트에서 구현되었습니다.",
         "more_info1": "자세한 내용은 readme를 참조하십시오",
         "more_info2": "Tiger 프로그래밍 언어 Github 저장소.",
         "select_engine": "엔진 선택 :",

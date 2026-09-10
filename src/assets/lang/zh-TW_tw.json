@@ -124,6 +124,11 @@
                 "text": "JSON和YAML文件的Linter＆Autoformatter。該項目用於格式化JSON＆YAML文件，這對於保持代碼清潔和組織非常有用。由GO構建，與WebAssembly編譯，並作為網站項目嵌入到我的投資組合中。將來會有更多格式。",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "起飛發動機",
+                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON生成器",
                 "text": "輕巧的JSON生成器內置於Minecraft資源和數據包。該項目用於生成Minecraft Mod的JSON文件，包括自定義項目，塊和實體。不僅對於創建自定義數據包，而且對於通過MOD名稱切換功能而言，非常有用。",
@@ -222,7 +227,14 @@
         "more_info2": "JSON/YAML格式存儲庫。",
         "format_as": "格式為：",
         "auto_detect": "自動檢測",
-        "format": "格式"
+        "format": "格式",
+        "valid_json": "✓ 有效的 JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "輸入太大（允許最大 1MB）。",
+        "fixed_yaml_spacing": "⚠ YAML 的間距/縮排無效，但已自動修復和格式化。"
     },
     "tiger": {
         "title": "老虎語",

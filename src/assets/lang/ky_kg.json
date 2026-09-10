@@ -124,6 +124,11 @@
                 "text": "JSON & YAML файлдарына байланыштуу шилтемелер жана сайттык. Бул долбоор JSON & YAML файлдарын форматтоо үчүн колдонулат, бул кодду таза жана уюшкандыкта жүргүзүү үчүн абдан пайдалуу. Вебазсем менен түзүлүп, барган менен курулган жана менин портфелимди веб-сайт Долбоору катары киргизди. Келечекте көбүрөөк форматтар бар.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Учуу мотору",
+                "text": "Подрядчылар жана баалоочулар үчүн заманбап курулуш сметасы жана SaaS. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft Joson Generator",
                 "text": "Жеңил Json Gener Minecraft Resurce & Data Packs үчүн курулган Бул долбоор JSON файлдарын, анын ичинде бажы буюмдары, блоктор жана субъекттер үчүн JSON файлдарын түзүү үчүн колдонулат. Өзгөчөлөштүрүлгөн берилиштерлерди түзүүнү гана эмес, модалар үчүн Mods үчүн, Mod Name которуштуруу өзгөчөлүгү аркылуу.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON / YAML форматтоочулардын репозиториясы.",
         "format_as": "Форматы:",
         "auto_detect": "Авто аныктоо",
-        "format": "Формат"
+        "format": "Формат",
+        "valid_json": "✓ Жарактуу JSON",
+        "valid_yaml": "✓ Жарактуу YAML",
+        "invalid_json": "Жараксыз JSON",
+        "invalid_yaml": "Жараксыз YAML",
+        "empty_input": "Сураныч, бир аз JSON же YAML киргизиңиз.",
+        "too_large": "Киргизүү өтө чоң (максималдуу 1 МБ уруксат берилген).",
+        "fixed_yaml_spacing": "⚠ YAML жараксыз интервал/чыгуу болгон, бирок автоматтык түрдө оңдолуп, форматталган."
     },
     "tiger": {
         "title": "Жолборс тили",

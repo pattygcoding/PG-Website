@@ -124,6 +124,11 @@
                 "text": "JSON & YAML فائلوں کے لئے ایک linter اور آٹوفورمیٹر۔ اس پروجیکٹ کا استعمال JSON اور YAML فائلوں کو فارمیٹ کرنے کے لئے کیا جاتا ہے ، جو کوڈ کو صاف اور منظم رکھنے کے لئے بہت مفید ہے۔ جی او کے ساتھ بنایا گیا ، ویبسمبل کے ساتھ مرتب کیا گیا ، اور بطور ویب سائٹ پروجیکٹ کے طور پر میرے پورٹ فولیو میں سرایت کیا گیا۔ مستقبل میں آنے والے مزید فارمیٹس۔",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "مائن کرافٹ JSON جنریٹر",
                 "text": "ہلکا پھلکا JSON جنریٹر مائن کرافٹ ریسورس اور ڈیٹا پیک کے لئے ازگر میں بنایا گیا ہے۔ اس پروجیکٹ کا استعمال مائن کرافٹ موڈس کے لئے JSON فائلوں کو تیار کرنے کے لئے کیا جاتا ہے ، جس میں کسٹم آئٹمز ، بلاکس اور ادارے شامل ہیں۔ نہ صرف کسٹم ڈیٹاپیکس بنانے کے ل very بہت مفید ہے ، بلکہ موڈز کے ساتھ ساتھ موڈ نام سوئچنگ کی خصوصیت کے ذریعہ بھی۔",
@@ -222,7 +227,14 @@
         "more_info2": "JSON/YAML فارمیٹر ریپوزٹری۔",
         "format_as": "شکل کے طور پر:",
         "auto_detect": "آٹو کا پتہ لگائیں",
-        "format": "شکل"
+        "format": "شکل",
+        "valid_json": "✓ Valid JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "ٹائیگر زبان",

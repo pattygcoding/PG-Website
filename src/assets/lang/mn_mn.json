@@ -124,6 +124,11 @@
                 "text": "ХУВИЙН ХУВЬЦАА & Autoformourcator нь JSON & YAML файлууд. Энэ төслийг JSON & YAML файлуудыг форматлахад ашигладаг, кодыг цэвэрлэхэд хэрэгтэй байдаг. Гол, суулгасан, вебсайтны төсөл болгон миний портфолио руу байрлуулсан. Ирээдүйд илүү олон форматууд.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft json generator",
                 "text": "MINECRAFT READE PYTONT-д PyThone-д зориулсан хөнгөн JOND генераторыг барьсан. Энэ төсөл нь MINECRAFT MODS-д JSOAFT MODS-д CONDECRAFT MODS-д зориулагдсан JSOAFT файлуудыг үүсгэхэд ашигладаг. Зөвхөн зан үйлийн дата үүсгэхгүй байх нь маш их хэрэгтэй, гэхдээ mods-д бас mods нэр солих функцээр дамждаг.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON / YAML Formater Repoository.",
         "format_as": "Дараах байдлаар форматлах:",
         "auto_detect": "Автоматаар илрүүлэх",
-        "format": "Хэлбэр хэмжээ"
+        "format": "Хэлбэр хэмжээ",
+        "valid_json": "✓ Хүчинтэй JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "YAML буруу",
+        "empty_input": "Зарим JSON эсвэл YAML оруулна уу.",
+        "too_large": "Хэт том оролт (хамгийн ихдээ 1MB зөвшөөрөгдсөн).",
+        "fixed_yaml_spacing": "⚠ YAML буруу зай/доголтой байсан боловч автоматаар засч, форматлагдсан."
     },
     "tiger": {
         "title": "Tigisage хэл",

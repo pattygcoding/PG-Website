@@ -124,6 +124,11 @@
                 "text": "Linter & Autoformatter kanggo file JSON & YAML. Proyek iki digunakake kanggo Format file Json & Yaml, sing migunani banget kanggo njaga kode resik lan diatur. Dibangun karo Go, disusun karo webassem, lan dipasang menyang portofolio minangka proyek situs web. Format liyane sing bakal teka ing ngarep.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Engine Takeoff",
+                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Generator Minecraft JSon",
                 "text": "Generator sing entheng dibangun ing Python kanggo Minecraft Resource & Pack data. Proyek iki digunakake kanggo ngasilake file JSON kanggo mod Minecraft, kalebu barang khusus, blok, lan entitas. Banget migunani kanggo ora mung nggawe data adat, nanging kanggo mods uga liwat fitur swiling jeneng mod.",
@@ -222,7 +227,14 @@
         "more_info2": "Gudang format JSON / YAML.",
         "format_as": "Format minangka:",
         "auto_detect": "Otomatis Deteksi",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ JSON sing sah",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "Basa Tiger",

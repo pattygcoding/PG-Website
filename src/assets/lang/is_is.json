@@ -124,6 +124,11 @@
                 "text": "A Linter & AutoFormatter fyrir JSON & YAML skrár. Þetta verkefni er notað til að forsníða JSON & YAML skrár, sem er mjög gagnlegt til að halda kóða hreinum og skipulögðum. Byggt með Go, sett saman með Webassembly og felld inn í eignasafnið mitt sem vefsíðuverkefni. Fleiri snið til að koma í framtíðinni.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Flugtaksvél",
+                "text": "Nútímalegt byggingarmat og flugtak SaaS fyrir verktaka og matsmenn. Það flytur inn CSV og Excel skrár, kortleggur dálka sjálfkrafa, reiknar út skurðgröft og jarðvinnumagn, rekur vinnu og álagningu og býr til viðskiptavinatilbúnar PDF og Word tilboðstillögur með fáguðu React + Express vinnuflæði.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft Json rafall",
                 "text": "Léttur JSON rafall innbyggður í Python fyrir Minecraft Resource & Data Packs. Þetta verkefni er notað til að búa til JSON skrár fyrir Minecraft Mods, þar á meðal sérsniðna hluti, blokkir og aðila. Mjög gagnlegt til að búa ekki aðeins til sérsniðna gagnapakka, heldur fyrir Mods líka í gegnum Mod Name Switching eiginleikann.",
@@ -222,11 +227,18 @@
         "more_info2": "JSON/YAML Formatter geymsla.",
         "format_as": "Snið sem:",
         "auto_detect": "Sjálfvirkar greiningar",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ Gildir JSON",
+        "valid_yaml": "✓ Gildir YAML",
+        "invalid_json": "Ógilt JSON",
+        "invalid_yaml": "Ógilt YAML",
+        "empty_input": "Vinsamlegast sláðu inn JSON eða YAML til að lint.",
+        "too_large": "Inntak of stórt (hámark 1MB leyft).",
+        "fixed_yaml_spacing": "⚠ YAML var með ógilt bil/inndrátt en hefur verið sjálfvirkt lagfært og sniðið."
     },
     "tiger": {
         "title": "Tiger tungumál",
-        "description": "Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go & Rust til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu. Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go & Rust til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu.",
+        "description": "Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu. Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu.",
         "more_info1": "Nánari upplýsingar er að finna í ReadMe í",
         "more_info2": "Tiger forritunarmál Github geymsla.",
         "select_engine": "Veldu vél:",
