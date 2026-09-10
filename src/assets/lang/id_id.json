@@ -124,6 +124,11 @@
                 "text": "Linter & Autoformatter untuk file JSON & YAML. Proyek ini digunakan untuk memformat file JSON & YAML, yang sangat berguna untuk menjaga kode tetap bersih dan terorganisir. Dibangun dengan Go, disusun dengan WebAssembly, dan tertanam dalam portofolio saya sebagai proyek situs web. Lebih banyak format yang akan datang di masa depan.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Mesin Lepas Landas",
+                "text": "SaaS estimasi dan lepas landas konstruksi modern untuk kontraktor dan estimator. Ini mengimpor file CSV dan Excel, memetakan kolom secara otomatis, menghitung volume penggalian parit dan pekerjaan tanah, melacak tenaga kerja dan markup, dan menghasilkan proposal tawaran PDF dan Word yang siap untuk klien dengan alur kerja React + Express yang disempurnakan.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
                 "text": "Generator JSON ringan dibangun di Python untuk Paket Sumber Daya & Data Minecraft. Proyek ini digunakan untuk menghasilkan file JSON untuk mod Minecraft, termasuk item khusus, blok, dan entitas. Sangat berguna untuk tidak hanya membuat data kustom, tetapi juga untuk mod melalui fitur switching nama mod.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Bahasa pemrograman harimau",
-                "text": "Bahasa pemrograman khusus yang dibangun di kedua go & rust untuk bereksperimen dengan desain dan kinerja interpreter. Diimplementasikan di situs web portofolio menggunakan perakitan web.",
+                "text": "Bahasa pemrograman khusus yang dibangun di kedua Go untuk bereksperimen dengan desain dan kinerja interpreter. Diimplementasikan di situs web portofolio menggunakan perakitan web.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "Repositori Formatter JSON/YAML.",
         "format_as": "Format sebagai:",
         "auto_detect": "Deteksi Otomatis",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ JSON yang valid",
+        "valid_yaml": "✓ YAML yang valid",
+        "invalid_json": "JSON tidak valid",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Silakan masukkan beberapa JSON atau YAML ke lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML memiliki spasi/indentasi yang tidak valid namun telah diperbaiki dan diformat secara otomatis."
     },
     "tiger": {
         "title": "Bahasa harimau",
-        "description": "Bahasa pemrograman Tiger adalah bahasa pemrograman khusus yang dibangun di kedua go & rust untuk bereksperimen dengan desain dan kinerja interpreter. Diimplementasikan di situs web portofolio menggunakan perakitan web. Bahasa pemrograman Tiger adalah bahasa pemrograman khusus yang dibangun di kedua go & rust untuk bereksperimen dengan desain dan kinerja interpreter. Diimplementasikan di situs web portofolio menggunakan perakitan web.",
+        "description": "Bahasa pemrograman Tiger adalah bahasa pemrograman khusus yang dibangun di kedua Go untuk bereksperimen dengan desain dan kinerja interpreter. Diimplementasikan di situs web portofolio menggunakan perakitan web. Bahasa pemrograman Tiger adalah bahasa pemrograman khusus yang dibangun di kedua Go untuk bereksperimen dengan desain dan kinerja interpreter. Diimplementasikan di situs web portofolio menggunakan perakitan web.",
         "more_info1": "Untuk informasi lebih lanjut, lihat readme di",
         "more_info2": "Bahasa Pemrograman Harimau Repositori Gitub.",
         "select_engine": "Select Engine:",

@@ -124,6 +124,11 @@
                 "text": "A Leet & autoformative pikeun file JSS & Yaml. Proyék ieu dianggo kanggo pormat Jone Jukut & Yaml, anu mangpaat pikeun ngajaga kodeu bersih sareng ditanduh. Dibina dibina, semiled sareng halaman wéb, sareng disababkeun kana portopolio kuring salaku projole situs wéb. Langkung format pikeun datang di hareup.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "Estimasi konstruksi modern sareng lepas landas SaaS pikeun kontraktor sareng estimator. Éta ngimpor file CSV sareng Excel, kolom peta otomatis, ngitung penggalian parit sareng volume kerja bumi, ngalacak tenaga kerja sareng markup, sareng ngahasilkeun proposal tawaran PDF sareng Word anu siap klien kalayan alur kerja React + Express anu digosok.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft Generator Generator",
                 "text": "Generator JeTwweige Finweigy anu diwangun dina python kanggo pangan Minecraft sareng data pek. Proyék ieu dianggo pikeun ngahasilkeun file JSON kanggo modeu Minecrip, kaasup barang khusus, blok. Anjeunna gunana pikeun henteu ngan nyiptakeun datapter adat, tapi pikeun MODS ogé via fitur nomer mod.",
@@ -222,7 +227,14 @@
         "more_info2": "Tulisan JSON / Yaml",
         "format_as": "Format AS:",
         "auto_detect": "Otomatis dideteksi",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ Valid JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "Barang maung",

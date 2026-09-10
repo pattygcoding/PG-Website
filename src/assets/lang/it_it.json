@@ -124,6 +124,11 @@
                 "text": "A Linter & Autoformatter per i file JSON e YAML. Questo progetto viene utilizzato per formattare i file JSON e YAML, che è molto utile per mantenere il codice pulito e organizzato. Costruito con GO, compilato con WebAssembly e incorporato nel mio portafoglio come progetto di siti Web. Altri formati in futuro.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Motore di decollo",
+                "text": "Una moderna soluzione SaaS per la stima e il decollo delle costruzioni per appaltatori ed estimatori. Importa file CSV ed Excel, mappa automaticamente le colonne, calcola i volumi di scavo di trincee e movimento terra, tiene traccia della manodopera e del markup e genera proposte di offerta PDF e Word pronte per il cliente con un flusso di lavoro React + Express ottimizzato.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Generatore JSON Minecraft",
                 "text": "Generatore JSON leggero incorporato in Python per Minecraft Resource & Data Packs. Questo progetto viene utilizzato per generare file JSON per le mod Minecraft, inclusi articoli personalizzati, blocchi ed entità. Molto utile non solo per la creazione di datapack personalizzati, ma anche per le mod tramite la funzione di commutazione del nome mod.",
@@ -222,7 +227,14 @@
         "more_info2": "Repository di formatter JSON/YAML.",
         "format_as": "Formato come:",
         "auto_detect": "Rilevamento automatico",
-        "format": "Formato"
+        "format": "Formato",
+        "valid_json": "✓ JSON valido",
+        "valid_yaml": "✓ YAML valido",
+        "invalid_json": "JSON non valido",
+        "invalid_yaml": "YAML non valido",
+        "empty_input": "Inserisci un po' di JSON o YAML per lint.",
+        "too_large": "Ingresso troppo grande (max 1 MB consentito).",
+        "fixed_yaml_spacing": "⚠ YAML presentava spaziatura/rientro non validi ma è stato corretto e formattato automaticamente."
     },
     "tiger": {
         "title": "Lingua tigre",

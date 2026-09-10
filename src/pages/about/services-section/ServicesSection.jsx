@@ -5,7 +5,7 @@ const ServicesSection = ({ entries }) => {
 	return (
 		<>
 			{entries.map((entry, index) => (
-				<div className="service_ py-4" key={index}>
+				<div className="service_ service-box" key={index}>
 					<h5 className="service__title">{entry.title}</h5>
 					<p className="service_desc">{entry.text}</p>
 				</div>

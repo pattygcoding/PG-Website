@@ -124,6 +124,11 @@
                 "text": "„JSON & YAML“ failų „Linter & Autoformatter“. Šis projektas naudojamas formatuoti JSON ir YAML failus, kurie yra labai naudingi, kad kodas būtų švarus ir organizuotas. Sukurtas su „Go“, sudarytas su „Webassembly“ ir įtrauktas į mano portfelį kaip svetainės projektą. Daugiau formatų ateityje.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Kilimo variklis",
+                "text": "Šiuolaikinė statybos sąmatos ir paleidimo SaaS rangovams ir sąmatininkams. Ji importuoja CSV ir Excel failus, automatiškai susieja stulpelius, apskaičiuoja tranšėjos kasimo ir žemės darbų apimtį, seka darbą ir žymėjimą bei generuoja klientui paruoštus PDF ir Word pasiūlymų pasiūlymus su patobulinta React + Express darbo eiga.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "„Minecraft JSON“ generatorius",
                 "text": "Lengvas JSON generatorius, įmontuotas „Python“, skirtas „Minecraft“ ištekliams ir duomenų pakuotėms. Šis projektas naudojamas generuoti JSON failus „Minecraft Mods“, įskaitant pasirinktinius elementus, blokus ir subjektus. Labai naudinga ne tik kuriant pasirinktinius duomenų rinkinius, bet ir modifikacijoms, taip pat naudojant MOD pavadinimo perjungimo funkciją.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON/YAML „Formatter“ saugykla.",
         "format_as": "Formatas kaip:",
         "auto_detect": "Automatinis aptikimas",
-        "format": "Formatas"
+        "format": "Formatas",
+        "valid_json": "✓ Galiojantis JSON",
+        "valid_yaml": "✓ Galiojantis YAML",
+        "invalid_json": "Netinkamas JSON",
+        "invalid_yaml": "Neteisingas YAML",
+        "empty_input": "Įveskite šiek tiek JSON arba YAML, kad galėtumėte lindyti.",
+        "too_large": "Įvestis per didelė (leistina daugiausia 1 MB).",
+        "fixed_yaml_spacing": "⚠ YAML buvo neteisingas tarpas / įtrauka, bet jis buvo automatiškai pataisytas ir suformatuotas."
     },
     "tiger": {
         "title": "Tigro kalba",

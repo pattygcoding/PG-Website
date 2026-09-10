@@ -239,6 +239,17 @@ section {
     background-image: url('https://i.imgur.com/2W610c7.jpeg');
 }
 
+.intro_sec .h_bg-image.home_img {
+    align-self: center;
+    width: min(42vw, 610px);
+    height: min(42vw, 610px);
+    min-height: 0;
+    flex: 0 0 min(42vw, 610px);
+    border-radius: 50%;
+    background-size: cover;
+    mix-blend-mode: screen;
+}
+
 [data-theme="light"] .home_img {
     background-image: url('https://i.imgur.com/KI71fuk.jpeg');
 }

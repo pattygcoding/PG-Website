@@ -124,6 +124,11 @@
                 "text": "Wan Linter & AutoFormatter fɔ JSON & YAML fayl dɛn. Dis projɛkt de fɔ fɔmat JSON & YAML fayl dɛn, we rili yusful fɔ kip kɔd klin ɛn ɔganayz. Bil wit Go, kompil wit WebAssembly, en embed in mi portfolio as a websait projek. Mɔ fɔmat dɛn fɔ kam insay di fyuchu.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Tek-ɔf Injin",
+                "text": "Wan mɔdan kɔnstrɔkshɔn ɛstimat ɛn tek ɔf SaaS fɔ kɔntrakta ɛn ɛstimat. I de import CSV ɛn Excel fayl dɛn, ɔto-map kɔlɔm dɛn, kɔlkul trench ɛkskavɛshɔn ɛn at wok volyum dɛn, trak leba ɛn mak-ap, ɛn jenarayz klaynt-rɛdi PDF ɛn Wɔd bid prɔpɔzal dɛn wit wan polish Riakt + Ɛkspɛs wokflɔ.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON jenɛratɔ .",
                 "text": "Laytwɛt JSON jenɛra we dɛn bil insay Paytɔn fɔ Minecraft Rishɔs & Data Pak. Dɛn kin yuz dis prɔjek fɔ mek JSON fayl dɛn fɔ Minecraft Mods, we gɛt kɔstɔm tin dɛn, blɔk dɛn, ɛn ɛntiti dɛn. Very yusful fɔ nɔ jɔs mek kɔstɔm datapak, bɔt fɔ mods as wɛl via di mod nem switching ficha.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Tiger programin langwej .",
-                "text": "Kastom programin langwej we dɛn bil insay ɔl tu Go & Rust fɔ ɛkspiriɛns wit intaprita dizayn ɛn pefɔmɛns. Impliment na di portfolio wɛbsayt yuz Wɛb Asɛmbli.",
+                "text": "Kastom programin langwej we dɛn bil insay ɔl tu Go fɔ ɛkspiriɛns wit intaprita dizayn ɛn pefɔmɛns. Impliment na di portfolio wɛbsayt yuz Wɛb Asɛmbli.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "JSON/YAML fɔmat ripɔsitɔri.",
         "format_as": "Fɔmat lɛk:",
         "auto_detect": "Auto Detekshɔn .",
-        "format": "Fɔmat ."
+        "format": "Fɔmat .",
+        "valid_json": "✓ JSON we valid",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "JSON we nɔ rayt",
+        "invalid_yaml": "YAML we nɔ rayt",
+        "empty_input": "Duya ɛnta sɔm JSON ɔ YAML fɔ lint.",
+        "too_large": "Input tu big (maks 1MB alaw).",
+        "fixed_yaml_spacing": "⚠ YAML bin gɛt invalid spacing/indentation bɔt dɛn dɔn ɔto-fiks am ɛn fɔmat am."
     },
     "tiger": {
         "title": "Tiger Langwej .",
-        "description": "Di Tiger programin langwej na kɔstɔm programin langwej we dɛn bil insay ɔl tu di GO & RUST fɔ ɛkspiriɛns wit intaprita dizayn ɛn pefɔmɛns. Impliment na di portfolio wɛbsayt yuz Wɛb Asɛmbli. Di Tiger programin langwej na kɔstɔm programin langwej we dɛn bil insay ɔl tu di GO & RUST fɔ ɛkspiriɛns wit intaprita dizayn ɛn pefɔmɛns. Impliment na di portfolio wɛbsayt yuz Wɛb Asɛmbli.",
+        "description": "Di Tiger programin langwej na kɔstɔm programin langwej we dɛn bil insay ɔl tu di Go fɔ ɛkspiriɛns wit intaprita dizayn ɛn pefɔmɛns. Impliment na di portfolio wɛbsayt yuz Wɛb Asɛmbli. Di Tiger programin langwej na kɔstɔm programin langwej we dɛn bil insay ɔl tu di Go fɔ ɛkspiriɛns wit intaprita dizayn ɛn pefɔmɛns. Impliment na di portfolio wɛbsayt yuz Wɛb Asɛmbli.",
         "more_info1": "Fɔ no mɔ, luk na di README we de na di",
         "more_info2": "Tiger programin langwej github repository.",
         "select_engine": "Pik di injin:",

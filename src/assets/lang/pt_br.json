@@ -124,6 +124,11 @@
                 "text": "Um Linter & Autoformatter para arquivos JSON e YAML. Este projeto é usado para formatar arquivos JSON e YAML, que é muito útil para manter o código limpo e organizado. Construído com GO, compilado com o WebAssembly e incorporado ao meu portfólio como um projeto de site. Mais formatos para vir no futuro.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Motor de decolagem",
+                "text": "Um SaaS moderno de estimativa e decolagem de construção para empreiteiros e estimadores. Ele importa arquivos CSV e Excel, mapeia colunas automaticamente, calcula volumes de escavação de valas e terraplenagem, rastreia mão de obra e marcação e gera propostas de lances em PDF e Word prontas para o cliente com um fluxo de trabalho React + Express sofisticado.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
                 "text": "Gerador JSON leve construído em Python para minecraft Recursos e pacotes de dados. Este projeto é usado para gerar arquivos JSON para mods Minecraft, incluindo itens, blocos e entidades personalizados. Muito útil não apenas para criar dados de dados personalizados, mas também para mods através do recurso de comutação de nome do mod.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Linguagem de programação do tigre",
-                "text": "Linguagem de programação personalizada incorporada em Go & Rust para experimentar o design e o desempenho do intérprete. Implementado no site do portfólio usando a Web Assembly.",
+                "text": "Linguagem de programação personalizada incorporada em Go para experimentar o design e o desempenho do intérprete. Implementado no site do portfólio usando a Web Assembly.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "Repositório de formatação JSON/YAML.",
         "format_as": "Formato como:",
         "auto_detect": "Detecção automática",
-        "format": "Formatar"
+        "format": "Formatar",
+        "valid_json": "✓ Valid JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "Idioma tigre",
-        "description": "A linguagem de programação do Tiger é uma linguagem de programação personalizada construída em Go & Rust para experimentar o design e o desempenho do intérprete. Implementado no site do portfólio usando a Web Assembly. A linguagem de programação do Tiger é uma linguagem de programação personalizada construída em Go & Rust para experimentar o design e o desempenho do intérprete. Implementado no site do portfólio usando a Web Assembly.",
+        "description": "A linguagem de programação do Tiger é uma linguagem de programação personalizada construída em Go para experimentar o design e o desempenho do intérprete. Implementado no site do portfólio usando a Web Assembly. A linguagem de programação do Tiger é uma linguagem de programação personalizada construída em Go para experimentar o design e o desempenho do intérprete. Implementado no site do portfólio usando a Web Assembly.",
         "more_info1": "Para mais informações, consulte o readme no",
         "more_info2": "Linguagem de programação do tigre Repositório GitHub.",
         "select_engine": "Selecione o motor:",

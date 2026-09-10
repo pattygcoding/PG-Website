@@ -124,6 +124,11 @@
                 "text": "Linter & AutooMatter a JSON & YAML fájlokhoz. Ez a projekt a JSON & YAML fájlok formázására szolgál, ami nagyon hasznos a kód tiszta és szervezett tartásában. Go -val épített, összeállított WebAssembly -vel, és beágyazva a portfóliómba weboldal -projektként. Több formátum érkezik a jövőben.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Felszálló motor",
+                "text": "Modern építési becslő és induló SaaS vállalkozók és becslések készítői számára. CSV- és Excel-fájlokat importál, automatikusan leképezi az oszlopokat, kiszámítja az árokásás és a földmunka mennyiségét, nyomon követi a munkát és a jelöléseket, valamint ügyfélbarát PDF- és Word-ajánlatjavaslatokat állít elő egy finomított React + Express munkafolyamattal.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON generátor",
                 "text": "Könnyű JSON generátor, amelyet Python -ban építettek a Minecraft Resource & Data Packs -hez. Ezt a projektet JSON fájlok generálására használják a Minecraft modokhoz, beleértve az egyedi elemeket, blokkokat és entitásokat. Nagyon hasznos nemcsak az egyedi adatlapok létrehozásához, hanem a MOD -khoz is a MOD névváltó funkción keresztül.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON/YAML FORMATTER ROAZTORY.",
         "format_as": "Formátum, mint:",
         "auto_detect": "Auto detektál",
-        "format": "Formátum"
+        "format": "Formátum",
+        "valid_json": "✓ Érvényes JSON",
+        "valid_yaml": "✓ Érvényes YAML",
+        "invalid_json": "Érvénytelen JSON",
+        "invalid_yaml": "Érvénytelen YAML",
+        "empty_input": "Kérjük, adjon meg néhány JSON-t vagy YAML-t a szöszöléshez.",
+        "too_large": "A bemenet túl nagy (legfeljebb 1 MB megengedett).",
+        "fixed_yaml_spacing": "⚠ A YAML-ben érvénytelen szóköz/behúzás volt, de automatikusan kijavították és formázták."
     },
     "tiger": {
         "title": "Tigrisnyelv",

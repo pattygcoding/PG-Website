@@ -124,6 +124,11 @@
                 "text": "LINTER & AutoFormatter ho an'ny rakitra JSON & Yaml. Ity tetikasa ity dia ampiasaina amin'ny Fandraisana an'i Json & Yaml Files, izay tena ilaina amin'ny fitandremana ny kaody madio sy ny fandaminana. Namboarina niaraka tamin'ny Go, namboarina tamin'ny tranokala, ary niditra tao amin'ny portfolio ho tetikasan'ny tranokala. Endrika maro kokoa ho avy amin'ny ho avy.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "motera takeoff",
+                "text": "SaaS fanombantombanana sy fialàn'ny fanorenana maoderina ho an'ny mpiantoka sy tombana. Izy io dia manafatra rakitra CSV sy Excel, tsanganana sarintany mandeha ho azy, kajy ny fitrandrahana hady sy ny habetsahan'ny tany, manara-maso ny asa sy ny marika, ary mamorona tolo-kevitra tolotra PDF sy Word ho an'ny mpanjifa miaraka amin'ny workflow React + Express voapoizina.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
                 "text": "Lightweight JSON Generator namboarina tao amin'ny python ho an'ny fonosana minecraft & data fonosana. Ity tetikasa ity dia ampiasaina amin'ny famokarana ireo rakitra JSON ho an'ny MODS MINECRAFT, ao anatin'izany ny entana, ny sakana ary ny sampana. Tena mahasoa tokoa ho an'ny tsy famoronana tahirinkevitra mahazatra, fa ho an'ny Mods ihany koa amin'ny alàlan'ny endri-peo Mod anarana.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON / Yam format repositories.",
         "format_as": "Format AS:",
         "auto_detect": "Auto hita",
-        "format": "endrika"
+        "format": "endrika",
+        "valid_json": "✓ JSON manankery",
+        "valid_yaml": "✓ YAML manankery",
+        "invalid_json": "JSON tsy mety",
+        "invalid_yaml": "YAML tsy mety",
+        "empty_input": "Ampidiro azafady JSON na YAML vitsivitsy mba hanoratra.",
+        "too_large": "Lehibe loatra ny fampidirana (1MB ambony indrindra azo atao).",
+        "fixed_yaml_spacing": "⚠ Ny YAML dia nanana elanelana/indentation tsy mety fa namboarina ho azy sy novolavolaina."
     },
     "tiger": {
         "title": "Fiteny Tiger",

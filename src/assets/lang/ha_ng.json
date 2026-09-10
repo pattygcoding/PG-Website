@@ -124,6 +124,11 @@
                 "text": "Autin & Autofatter don fayilolin JSS & YAML. Ana amfani da wannan aikin don tsara fayilolin JASN & YAML, wanda yake da amfani sosai don kiyaye lamba mai tsabta da kuma shirya. Gina tare da tafi, tara tare da yanar gizo mai zuwa, da kuma shigar da shi cikin fayil na a matsayin aikin gidan yanar gizo. Ƙarin tsari don zuwa nan gaba.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Injin Takeoff",
+                "text": "Ƙimar gini na zamani da cire SaaS don ƴan kwangila da ƙididdiga. Yana shigo da fayilolin CSV da Excel, ginshiƙan taswirori na atomatik, yana ƙididdige tono rami da kundin aikin ƙasa, yana bin diddigin aiki da ƙima, kuma yana haifar da shirye-shiryen takaddun PDF da Kalma na abokin ciniki tare da ingantaccen aikin React + Express.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft Jin Generator",
                 "text": "Lightweight juswweight janarerat aka gina a Python don albarkatun kasa na Minecraft & fakitin bayanai. Ana amfani da wannan aikin don haɓaka fayilolin JONS don Modarar Minecraft, ciki har da abubuwa na al'ada, toshe, da abubuwan. Da amfani sosai ga ba kawai ƙirƙirar datapacks na al'ada, amma ga mods kuma ta hanyar da ke motsi suna sauya fasalin.",
@@ -222,7 +227,14 @@
         "more_info2": "Aikace-aikacen JSP / YAMM Rukunin ajiya.",
         "format_as": "Tsarin kamar:",
         "auto_detect": "Gano motoci",
-        "format": "Girma"
+        "format": "Girma",
+        "valid_json": "✓ Valid JSON",
+        "valid_yaml": "✓ Ingantaccen YAML",
+        "invalid_json": "JSON mara aiki",
+        "invalid_yaml": "YAML mara inganci",
+        "empty_input": "Da fatan za a shigar da wasu JSON ko YAML zuwa lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "Harshen Tiger",

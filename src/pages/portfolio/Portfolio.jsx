@@ -123,6 +123,12 @@ const Portfolio = () => {
 		return selectedSkills.some((s) => set.has(s));
 	};
 
+	const visibleEntries = useMemo(() => {
+		return Object.entries(entries)
+			.filter(([key]) => isProjectVisible(key))
+			.sort(([, a], [, b]) => a.title.localeCompare(b.title));
+	}, [entries, selectedSkills, groupToSkillsMap]);
+
 	return (
 		<HelmetProvider>
 			<Container className="About-header">
@@ -149,33 +155,30 @@ const Portfolio = () => {
 				</div>
 
 				<Row>
-					{Object.entries(entries).map(
-						([key, data]) =>
-							isProjectVisible(key) && (
-								<Col xs={12} key={key}>
-									<a
-										href={data.link}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="text-decoration-none text-reset"
-									>
-										<Card className="d-flex flex-row align-items-center portfolio-card hover-shadow">
-											<Card.Img
-												src={resolveImage(images[key] || images.placeholder)}
-												alt={data.title}
-												className="portfolio-card-img"
-											/>
-											<Card.Body>
-												<Card.Title className="portfolio-card-title">
-													{data.title}
-												</Card.Title>
-												<Card.Text>{data.text}</Card.Text>
-											</Card.Body>
-										</Card>
-									</a>
-								</Col>
-							)
-					)}
+					{visibleEntries.map(([key, data]) => (
+						<Col xs={12} key={key}>
+							<a
+								href={data.link}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-decoration-none text-reset"
+							>
+								<Card className="d-flex flex-row align-items-center portfolio-card hover-shadow">
+									<Card.Img
+										src={resolveImage(images[key] || images.placeholder)}
+										alt={data.title}
+										className="portfolio-card-img"
+									/>
+									<Card.Body>
+										<Card.Title className="portfolio-card-title">
+											{data.title}
+										</Card.Title>
+										<Card.Text>{data.text}</Card.Text>
+									</Card.Body>
+								</Card>
+							</a>
+						</Col>
+					))}
 				</Row>
 			</Container>
 		</HelmetProvider>

@@ -124,6 +124,11 @@
                 "text": "A Linter & Autoformatter għal fajls JSON & YAML. Dan il-proġett jintuża biex jifformattja fajls JSON & YAML, li huwa utli ħafna biex iżomm il-kodiċi nadif u organizzat. Mibni bil-go, miġbura ma 'WebAssembly, u inkorporat fil-portafoll tiegħi bħala proġett ta' websajt. Aktar formati li ġejjin fil-futur.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Magna tat-Tlugħ",
+                "text": "SaaS modern ta' stima u tlugħ ta' kostruzzjoni għal kuntratturi u stimaturi. Hija timporta fajls CSV u Excel, kolonni awtomapep, tikkalkula t-tħaffir tat-trinka u l-volumi tal-art, issegwi l-ħaddiema u l-markup, u tiġġenera proposti PDF u Word lesti għall-klijent bi fluss tax-xogħol illustrat React + Express.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Ġeneratur ta 'Minecraft JSON",
                 "text": "Ġeneratur JSON Lightweight mibni fi Python għal Minecraft Resource & Data Packs. Dan il-proġett jintuża biex jiġġenera fajls JSON għal MODS Minecraft, inklużi oġġetti tad-dwana, blokki, u entitajiet. Utli ħafna għall-ħolqien mhux biss ta 'datapacks tad-dwana, iżda wkoll għal MODs permezz tal-karatteristika tal-iswiċċ tal-isem mod.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Lingwa ta 'Programmazzjoni tat-Tiger",
-                "text": "Lingwa ta 'programmazzjoni tad-dwana mibnija fiż-żewġ Go & Rust biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web.",
+                "text": "Lingwa ta 'programmazzjoni tad-dwana mibnija fiż-żewġ Go biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "Repositorju JSON / YAML Formatter.",
         "format_as": "Format bħala:",
         "auto_detect": "Tiskopri awtomatikament",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ JSON validu",
+        "valid_yaml": "✓ YAML validu",
+        "invalid_json": "JSON mhux validu",
+        "invalid_yaml": "YAML invalidu",
+        "empty_input": "Jekk jogħġbok daħħal xi JSON jew YAML biex tgħaqqad.",
+        "too_large": "Input kbir wisq (mass 1MB permess).",
+        "fixed_yaml_spacing": "⚠ YAML kellu spazjar/indentazzjoni invalida iżda ġie ffissat u fformattjat awtomatikament."
     },
     "tiger": {
         "title": "Lingwa Tiger",
-        "description": "Il-lingwa ta 'programmazzjoni tat-Tiger hija lingwa ta' programmazzjoni apposta mibnija fiż-żewġ Go & Rust biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web. Il-lingwa ta 'programmazzjoni tat-Tiger hija lingwa ta' programmazzjoni apposta mibnija fiż-żewġ Go & Rust biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web.",
+        "description": "Il-lingwa ta 'programmazzjoni tat-Tiger hija lingwa ta' programmazzjoni apposta mibnija fiż-żewġ Go biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web. Il-lingwa ta 'programmazzjoni tat-Tiger hija lingwa ta' programmazzjoni apposta mibnija fiż-żewġ Go biex tesperimenta bid-disinn u l-prestazzjoni tal-interpreti. Implimentat fuq il-websajt tal-portafoll bl-użu ta 'assemblaġġ tal-web.",
         "more_info1": "Għal aktar informazzjoni, irreferi għar-",
         "more_info2": "Repositorju tal-Lingwa tal-Programmazzjoni tat-Tiger.",
         "select_engine": "Agħżel Magna:",

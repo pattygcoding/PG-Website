@@ -124,6 +124,11 @@
                 "text": "JSON සහ YAML ගොනු සඳහා ලින්ටර් සහ ඔටෝෆෝටරයක්. මෙම ව්යාපෘතිය JSON සහ YAML ගොනු සංයුති කිරීම සඳහා යොදා ගන්නා අතර එය කේත පිරිසිදුව තබාගෙන සංවිධානාත්මකව තබා ගැනීම සඳහා ඉතා ප්රයෝජනවත් වේ. වෙබ් අඩවි ව්යාපෘතියක් ලෙස වෙබ්ස්සම්බි සමඟ සම්පාදනය කර ඇති අතර, වෙබ්ස්මය සමඟ සම්පාදනය කර මගේ කළඹට කාවැදී ඇත. අනාගතයේදී තවත් ආකෘති පැමිණේ.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Takeoff Engine",
+                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON උත්පාදක යන්ත්රය",
                 "text": "මයික්රැෆ්ට් සම්පත් හා දත්ත ඇසුරුම් සඳහා පයිතන් හි සැහැල්ලු ජෛන උත්පාදක යන්ත්රය. අභිරුචි භාණ්ඩ, කුට්ටි සහ ආයතන ඇතුළුව Minecraft MODS සඳහා JSON ගොනු ජනනය කිරීම සඳහා මෙම ව්යාපෘතිය භාවිතා කරයි. අභිරුචි ඩේටා කපැනි ලෙස පමණක් නිර්මාණය කිරීම පමණක් නොව, MOD නාම මාරු කිරීමේ විශේෂාංගය හරහා මෝඩ්ස් සඳහා ද ප්රයෝජනවත් වේ.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON / YAML Forder Reporical.",
         "format_as": "ආකෘතිය:",
         "auto_detect": "ස්වයංක්රීය හඳුනාගැනීම",
-        "format": "ආකෘතිය"
+        "format": "ආකෘතිය",
+        "valid_json": "✓ Valid JSON",
+        "valid_yaml": "✓ Valid YAML",
+        "invalid_json": "Invalid JSON",
+        "invalid_yaml": "Invalid YAML",
+        "empty_input": "Please enter some JSON or YAML to lint.",
+        "too_large": "Input too large (max 1MB allowed).",
+        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
     },
     "tiger": {
         "title": "කොටි භාෂාව",

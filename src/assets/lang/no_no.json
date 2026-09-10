@@ -124,6 +124,11 @@
                 "text": "En Linter & Autoformatter for JSON & YAML -filer. Dette prosjektet brukes til å formatere JSON & YAML -filer, noe som er veldig nyttig for å holde koden ren og organisert. Bygget med GO, satt sammen med webAssembly, og innebygd i porteføljen min som et nettstedsprosjekt. Flere formater som kommer i fremtiden.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Startmotor",
+                "text": "En moderne konstruksjonsvurdering og start SaaS for entreprenører og estimatorer. Den importerer CSV- og Excel-filer, kartlegger automatisk kolonner, beregner grøftegraving og jordarbeidsvolumer, sporer arbeid og markering, og genererer klientklare PDF- og Word-budforslag med en polert React + Express-arbeidsflyt.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
                 "text": "Lett JSON -generator innebygd Python for Minecraft Resource & Data Packs. Dette prosjektet brukes til å generere JSON -filer for Minecraft -mods, inkludert tilpassede elementer, blokker og enheter. Veldig nyttig for ikke bare å lage tilpassede Datapacks, men også for mods via MOD Name Switching -funksjonen.",
@@ -191,7 +196,7 @@
             },
             "tiger_programming_language": {
                 "title": "Tiger -programmeringsspråk",
-                "text": "Tilpasset programmeringsspråk bygget i både Go & Rust for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering.",
+                "text": "Tilpasset programmeringsspråk bygget i både Go for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
@@ -222,11 +227,18 @@
         "more_info2": "JSON/YAML Formatter Repository.",
         "format_as": "Format som:",
         "auto_detect": "Auto Detect",
-        "format": "Format"
+        "format": "Format",
+        "valid_json": "✓ Gyldig JSON",
+        "valid_yaml": "✓ Gyldig YAML",
+        "invalid_json": "Ugyldig JSON",
+        "invalid_yaml": "Ugyldig YAML",
+        "empty_input": "Vennligst skriv inn noen JSON eller YAML for å lo.",
+        "too_large": "Inngangen er for stor (maks 1 MB tillatt).",
+        "fixed_yaml_spacing": "⚠ YAML hadde ugyldig mellomrom/innrykk, men har blitt automatisk rettet og formatert."
     },
     "tiger": {
         "title": "Tigerspråk",
-        "description": "Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go & Rust for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering. Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go & Rust for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering.",
+        "description": "Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering. Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering.",
         "more_info1": "For mer informasjon, se Readme i",
         "more_info2": "Tiger -programmeringsspråk GitHub Repository.",
         "select_engine": "Velg motor:",

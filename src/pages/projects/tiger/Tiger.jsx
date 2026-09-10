@@ -1,21 +1,57 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
-import { Container, Form, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import { FaPlay } from "react-icons/fa";
 import { PageTitle } from "@/components/page-title";
 import { Tab } from "@/components/tab";
-import { CodeBox } from "@/components/code-box";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
+import { tokenize } from "./highlight.mjs";
 import "./Tiger.css";
+
+const tigerSamples = [
+	"hello_world.tg",
+	"closure_studio.tg",
+	"event_simulation.tg",
+	"geometry_workshop.tg",
+	"graph_routes.tg",
+	"inventory_report.tg",
+	"library_catalog.tg",
+	"number_lab.tg",
+	"rule_engine.tg",
+	"task_board.tg",
+	"text_pipeline.tg",
+];
 
 const Tiger = () => {
 	const { t } = useLang();
 
-	const [code, setCode] = useState(`let name = "Tiger"\nprint name`);
+	const [code, setCode] = useState("");
+	const [selectedSample, setSelectedSample] = useState("hello_world.tg");
 	const [output, setOutput] = useState("Loading engine...");
 	const [isReady, setIsReady] = useState(false);
+	const codeEditorRef = useRef(null);
 
 	const goLoaded = useRef(false);
+
+	const loadSample = async (sampleName) => {
+		setSelectedSample(sampleName);
+
+		try {
+			const response = await fetch(`/assets/tiger_samples/${sampleName}`);
+			if (!response.ok) {
+				throw new Error(`Unable to load ${sampleName}.`);
+			}
+			setCode(await response.text());
+		} catch (err) {
+			console.error("Failed to load Tiger sample:", err);
+			setOutput(`Failed to load ${sampleName}.`);
+		}
+	};
+
+	useEffect(() => {
+		loadSample("hello_world.tg");
+	}, []);
 
 	useEffect(() => {
 		const loadEngine = async () => {
@@ -30,7 +66,18 @@ const Tiger = () => {
 
 				const go = new window.Go();
 				const result = await WebAssembly.instantiateStreaming(fetch("/wasm/tiger.wasm"), go.importObject);
-				go.run(result.instance);
+				go.run(result.instance).catch((err) => {
+					console.error("Go runtime error:", err);
+				});
+
+				for (let attempt = 0; attempt < 50 && typeof window.tigerRun !== "function"; attempt += 1) {
+					await new Promise((resolve) => setTimeout(resolve, 10));
+				}
+
+				if (typeof window.tigerRun !== "function") {
+					throw new Error("Tiger WASM runtime did not initialize.");
+				}
+
 				goLoaded.current = true;
 
 				setOutput("Engine loaded. Run code.");
@@ -46,49 +93,115 @@ const Tiger = () => {
 
 	const runTiger = () => {
 		try {
-			if (!goLoaded.current || !window.evalTiger) {
+			if (!goLoaded.current || typeof window.tigerRun !== "function") {
 				setOutput("Go engine not ready.");
 				return;
 			}
-			const result = window.evalTiger(code);
-			setOutput(result);
+			const result = window.tigerRun(code);
+			setOutput(result.error || result.output || "");
 		} catch (err) {
 			console.error("Runtime error:", err);
 			setOutput(`Runtime error:\n${err}`);
 		}
 	};
 
+	const lineNumbers = code.split("\n").map((_, index) => index + 1);
+
+	const syncEditorScroll = (event) => {
+		const editor = event.currentTarget;
+		const highlight = editor.previousElementSibling;
+		const lineNumbers = editor.parentElement.firstElementChild;
+		if (highlight) {
+			highlight.scrollTop = editor.scrollTop;
+			highlight.scrollLeft = editor.scrollLeft;
+		}
+		if (lineNumbers) lineNumbers.scrollTop = editor.scrollTop;
+	};
+
+	const highlightedCode = tokenize(code);
+
 	return (
 		<HelmetProvider>
-			<Container>
+			<Container className="tiger-page">
 				<Tab title={t("tiger.title")} />
 				<PageTitle title={t("tiger.title")} />
 
-				<p>{t("tiger.description")}</p>
-				<p>
-					{t("tiger.more_info1")}{" "}
-					<a href={l.tiger} target="_blank" rel="noopener noreferrer">
-						{t("tiger.more_info2")}
-					</a>.
-				</p>
+				<section className="tiger-description">
+					<p>{t("tiger.description")}</p>
+					<p>
+						{t("tiger.more_info1")} {" "}
+						<a href={l.tiger} target="_blank" rel="noopener noreferrer">
+							{t("tiger.more_info2")}
+						</a>.
+					</p>
+				</section>
 
-				<Form.Group controlId="code" className="mt-3">
-					<Form.Label>{t("tiger.tiger_code")}</Form.Label>
-					<CodeBox 
-						initialCode={`let name = "Tiger"\nprint name`}
-						language="javascript"
-						onCodeChange={setCode}
-					/>
-				</Form.Group>
+				<section className="tiger-workspace" aria-label={t("tiger.title")}>
+					<header className="tiger-toolbar">
+						<div className="tiger-file-tab" title={t("tiger.tiger_code")}>
+							<span className="tiger-file-mark" aria-hidden="true">T</span>
+							<span>{selectedSample}</span>
+						</div>
+						<div className="tiger-toolbar-actions">
+							<label className="tiger-sample-picker">
+								<span>Example files</span>
+								<select
+									value={selectedSample}
+									onChange={(event) => loadSample(event.target.value)}
+									aria-label="Example files"
+								>
+									{tigerSamples.map((sampleName) => (
+										<option key={sampleName} value={sampleName}>{sampleName}</option>
+									))}
+								</select>
+							</label>
+							<button
+								type="button"
+								className="tiger-run-button"
+								onClick={runTiger}
+								disabled={!isReady}
+							>
+								<FaPlay aria-hidden="true" />
+								<span>{t("tiger.run_tiger")}</span>
+							</button>
+						</div>
+					</header>
 
-				<Button className="mt-3" onClick={runTiger} disabled={!isReady}>
-					{t("tiger.run_tiger")}
-				</Button>
+					<div className="tiger-compiler">
+						<div className="tiger-editor-panel">
+							<div className="tiger-line-numbers" aria-hidden="true">
+								{lineNumbers.map((lineNumber) => (
+									<span key={lineNumber}>{lineNumber}</span>
+								))}
+							</div>
+							<pre className="tiger-code-highlight" aria-hidden="true">
+								<code>
+									{highlightedCode.map(({ text, kind }, index) => (
+										kind === "plain"
+											? <span key={index}>{text}</span>
+											: <span key={index} className={`token-${kind}`}>{text}</span>
+									))}
+								</code>
+							</pre>
+							<textarea
+								id="tiger-code"
+								className="tiger-code-editor"
+								ref={codeEditorRef}
+								value={code}
+								onChange={(event) => setCode(event.target.value)}
+								onScroll={syncEditorScroll}
+								aria-label={t("tiger.tiger_code")}
+								spellCheck="false"
+								wrap="off"
+							/>
+						</div>
 
-				<Form.Group controlId="output" className="mt-4">
-					<Form.Label>{t("tiger.output")}</Form.Label>
-					<pre className="tiger-output">{output}</pre>
-				</Form.Group>
+						<section className="tiger-output-panel" aria-labelledby="tiger-output-title">
+							<h2 id="tiger-output-title">{t("tiger.output")}</h2>
+							<pre className="tiger-output" tabIndex="0">{output}</pre>
+						</section>
+					</div>
+				</section>
 			</Container>
 		</HelmetProvider>
 	);

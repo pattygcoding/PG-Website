@@ -124,6 +124,11 @@
                 "text": "He Kaitohu & AutoFormatter mo Json & Yaml. Whakamahia ai tenei kaupapa ki te whakariterite i nga konae JSH & Yaml, he mea tino whai hua mo te pupuri i te waehere ma me te whakarite. I hangaia me te haere, whakahiatohia ki te paetukutuku, ka uru ki roto i taku kōpaki hei kaupapa paetukutuku. He maha nga hanganga ka tae mai ki te heke mai.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
+            "takeoff_engine": {
+                "title": "Mihini Takeoff",
+                "text": "He hangahanga hou e whakatau tata ana me te tango i te SaaS mo nga kaikirimana me nga kaiwhakatairite. Ka kawemai i nga konae CSV me te Excel, nga pou mapi-aunoa, te tatau i te keri awaawa me te nui o te mahi whenua, te whai i nga mahi me te tohu tohu, me te whakaputa i nga tono tono tono PDF me te Kupu kua rite ki te kiritaki me te rerengamahi React + Express kua orohia.",
+                "link": "https://github.com/pattygcoding/takeoff-engine"
+            },
             "minecraft_json_generator": {
                 "title": "Minecraft jon kaihanga",
                 "text": "Ko te Maama o te Kaipupuri JSA i hangaia i Python mo nga Rauemi Minecraft me nga Pakihi Raraungawe. Ka whakamahia tenei kaupapa hei whakaputa i nga konae JSON mo nga Mods Minecraft, tae atu ki nga taonga ritenga, poraka, me nga hinonga. He tino whai hua mo te kore noa i te hanga i nga papapamahi ritenga, engari mo te mods ano hoki ma te ingoa whakawhiti i te ingoa.",
@@ -222,7 +227,14 @@
         "more_info2": "JSON / YAML whakahōputu.",
         "format_as": "Hōputu rite:",
         "auto_detect": "Kitea aunoa",
-        "format": "Whakatakotoranga"
+        "format": "Whakatakotoranga",
+        "valid_json": "✓ JSON whaimana",
+        "valid_yaml": "✓ YAML whaimana",
+        "invalid_json": "JSON muhu",
+        "invalid_yaml": "YAML muhu",
+        "empty_input": "Whakaurua koa etahi JSON, YAML ranei ki te tuhi.",
+        "too_large": "He nui rawa te whakauru (he 1MB te rahi e whakaaetia).",
+        "fixed_yaml_spacing": "⚠ He muhu te mokowā/noku o YAML engari kua whakatika-aunoa me te whakahōputu."
     },
     "tiger": {
         "title": "Reo Tiger",
