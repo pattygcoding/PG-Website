@@ -1,5 +1,6 @@
 :root {
     --bg-color: #0c0c0c;
+    --background-image: url("./assets/images/black_background.png");
     --primary-color: #0d0d0d;
     --secondary-color: #fff;
     --text-color: #fff;
@@ -18,6 +19,7 @@
 
 [data-theme="light"] {
     --bg-color: #ffffff;
+    --background-image: url("./assets/images/white_background.png");
     --primary-color: #ffffff;
     --secondary-color: #000;
     --text-color: #000;
@@ -45,8 +47,13 @@ body {
     overflow-x: hidden;
     overflow-y: visible;
     background-color: var(--bg-color);
+    background-image: var(--background-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: var(--text-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding-top: 60px;
@@ -64,7 +71,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Marcellus;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
 }
 
 a,

@@ -3,7 +3,6 @@
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.2.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)](https://webassembly.org/)
-[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 > **A modern, multilingual React.js portfolio website showcasing full-stack development skills, innovative projects, and multilingual accessibility across 100+ languages.**
@@ -32,7 +31,6 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 
 ### 🚀 **Advanced Projects Showcase**
 - **Tiger Language Interpreter**: Custom programming language with WebAssembly implementations in both Go and Rust
-- **3D Rubik's Cube Solver**: Interactive 3D cube solver using Three.js with painting and algorithm features  
 - **JSON & YAML Formatter**: WebAssembly-powered formatter with real-time validation
 
 ### 🎨 **Modern UI/UX**
@@ -49,7 +47,6 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 - **React 18.2.0** - Modern React with hooks and context
 - **React Router 6** - Client-side routing with language-aware links
 - **Bootstrap 5.2.3** - Responsive CSS framework
-- **Three.js** - 3D graphics and WebGL rendering
 - **PrismJS** - Syntax highlighting for code blocks
 
 ### **Backend & Build Tools**
@@ -79,14 +76,7 @@ A custom programming language implementation with dual WebAssembly backends:
 - **Interactive Editor**: Real-time code execution and syntax highlighting
 - **WebAssembly Integration**: Seamless browser-based execution
 
-### 2. 🧩 **3D Rubik's Cube Solver**
-An interactive 3D Rubik's cube solver built with Three.js:
-- **3D Visualization**: Realistic cube rendering with smooth animations
-- **Interactive Painting**: Click-to-color interface for cube configuration
-- **Advanced Algorithms**: Multiple solving algorithms implementation
-- **Real-time Validation**: State validation and move tracking
-
-### 3. 🔧 **JSON & YAML Formatter**
+### 2. 🔧 **JSON & YAML Formatter**
 A high-performance formatter with WebAssembly backend:
 - **Real-time Formatting**: Instant JSON/YAML formatting and validation
 - **Error Detection**: Comprehensive error reporting and suggestions
@@ -193,7 +183,6 @@ src/
 │   ├── home/          # Landing page
 │   ├── portfolio/     # Portfolio showcase
 │   └── projects/      # Interactive projects
-│       ├── cube-solver/
 │       ├── formatter/
 │       └── tiger/
 └── routes/            # Application routing

@@ -1,0 +1,52 @@
+.error-shell {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.error-shell__content {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    border-top: 4px solid var(--text-color-3);
+    background-color: var(--card-bg);
+}
+
+.error-shell__code {
+    margin: 0 0 1rem;
+    color: var(--text-color-3);
+    font-family: monospace;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.error-shell h1 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 3.5rem;
+}
+
+.error-shell__message {
+    max-width: 30rem;
+    margin: 0 auto;
+    color: var(--text-color);
+    opacity: 0.78;
+}
+
+@media only screen and (max-width: 575px) {
+    .error-shell {
+        padding: 2rem 0;
+    }
+
+    .error-shell__content {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .error-shell h1 {
+        font-size: 2.2rem;
+    }
+}
