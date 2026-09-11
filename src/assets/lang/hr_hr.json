@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Dom",
-        "about": "O meni",
-        "portfolio": "Portfelj",
-        "projects": "Projekti web stranica",
-        "tiger": "Jezik tigra",
-        "portfolio_translator": "Prevoditelj portfelja",
-        "formatter": "Json & yaml fortter",
-        "contact": "Kontaktirajte me"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Dom",
+    "about": "O meni",
+    "portfolio": "Portfelj",
+    "projects": "Projekti web stranice",
+    "tiger": "Jezik tigra",
+    "portfolio_translator": "Prevoditelj portfelja",
+    "formatter": "Formater JSON & YAML",
+    "contact": "Kontaktirajte me"
+  },
+  "home": {
+    "title": "Senior Full-Stack inženjer | Proizvod i sustavi",
+    "animated": {
+      "first": "Senior Full-Stack inženjer",
+      "second": "Graditelj sustava i arhitekture",
+      "third": "SaaS proizvodni inženjer",
+      "fourth": "Pouzdan softver, poslovni rezultati"
     },
-    "home": {
-        "title": "Dom",
-        "animated": {
-            "first": "Full Stack Software Inženjer",
-            "second": "Web programer",
-            "third": "Programer za igre",
-            "fourth": "Stvoritelj sadržaja"
-        },
-        "footer": "Web stranica je sada prevedena i postavljena na 100+ jezika!",
-        "descriptionA": "Iskusni softverski inženjer i web programer s punim slojevima s demonstriranom poviješću uspješno vodećih razvojnih projekata, od stvaranja Java modifikacija za Minecraft do poboljšanja korisničkog iskustva u React.JS-u i primjene sigurnih REST API-ja, dok dosljedno koristi agilne metodologije i učinkovitu suradnju tima.",
-        "descriptionB": "Uz to, ja sam kreator geografskog sadržaja koji je uspješno iskoristio algoritme više platformi društvenih medija, uključujući , YouTube i , kako bi stekao respektabilnu i privlačnu bazu sljedbenika.",
-        "portfolio_button": "Moj portfelj",
-        "contact_button": "Kontaktirajte me",
-        "about_button": "O meni"
+    "footer": "Web stranica je sada prevedena i dostupna na više od 100 jezika!",
+    "descriptionA": "Viši inženjer s više od 6 godina iskustva u prevođenju proizvoda od dvosmislenih zahtjeva do pouzdanih proizvodnih sustava. Dizajniram arhitekturu iza aplikacija React, Angular, .NET, Node.js, Java, C#, Go i SQL: jasne granice usluga, trajni modeli podataka, obrasci sigurnog pristupa i putovi isporuke timovi mogu raditi s povjerenjem.",
+    "descriptionB": "Moj rad povezuje inženjerske odluke s poslovnim rezultatima. Od SaaS-a za procjenu konstrukcije koji podatke proračunske tablice pretvara u prijedloge spremne za klijenta do web platformi za stvaranje prihoda, izrađujem softver oko tijeka rada, rizika i mjerljivu vrijednost koja je važna ljudima koji je koriste.",
+    "portfolio_button": "Moj portfelj",
+    "contact_button": "Kontaktirajte me",
+    "about_button": "O meni"
+  },
+  "about": {
+    "title": "O meni",
+    "personal_summary": {
+      "title": "Osobni sažetak",
+      "text": "Ja sam stariji inženjer sa sjedištem u Orlandu, FL, koji posjeduje put od problema proizvoda do ishoda proizvodnje. Odabirem tehnologije u službi sustava: .NET i Entity Framework Core kada su jako strukturirana domena i postojanost koja se može testirati važni; Angular ili React kada je složen tijek rada treba sučelje koje se može održavati; Node.js ili Go kada API, integracija ili alat visokih performansi trebaju fokusirano vrijeme izvođenja. U SaaS proizvodima, internim tijekovima rada i platformama usmjerenim na kupce, vodim s izričitim kompromisima, sigurnim i otpornim dizajnom, automatiziranim testiranjem i praksama isporuke koje pomozite timovima da isporuče vrijedan softver bez ostavljanja operativnih dugova."
     },
-    "about": {
-        "title": "O meni",
-        "personal_summary": {
-            "title": "Osobni sažetak",
-            "text": "Kao iskusan programer softvera sa punim snopom sa sjedištem u Orlandu, FL, pokazao sam stručnost u raznim tehnologijama, od Java i C ++ do React.js i Node.js. S zapisnicima o projektima koji su se vodili, uključujući razvoj programa modifikacije Java za Minecraft i korisnu web stranicu za vozače kamiona, predstavio sam vodstvo i inovacije. Moja predanost izvrsnosti vidljivo je u mojoj sposobnosti da pojednostavljujem upravljanje projektima, riješim složene probleme i pružamo visokokvalitetna rješenja koja poboljšavaju korisničko iskustvo i potiču organizacijski uspjeh."
+    "professional_experience": {
+      "title": "Profesionalno iskustvo",
+      "entries": [
+        {
+          "jobtitle": "Viši softverski inženjer",
+          "where": "Interaktivni dizajn",
+          "date": "2025. - danas"
         },
-        "professional_experience": {
-            "title": "Profesionalno iskustvo",
-            "entries": [
-                {
-                    "jobtitle": "Junior softverski inženjer",
-                    "where": "Orion180 osiguranje",
-                    "date": "2024. - sadašnjost"
-                },
-                {
-                    "jobtitle": "Osnivač i softver Full Stack",
-                    "where": "Suprememc",
-                    "date": "2020. - 2024"
-                },
-                {
-                    "jobtitle": "Full Stack Software Inženjer",
-                    "where": "Ubrzati učenje",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Vodeći programer (studentski program)",
-                    "where": "GDI program Sveučilišta Clemson",
-                    "date": "2021. - 2022"
-                },
-                {
-                    "jobtitle": "Nadzornik stola",
-                    "where": "Sveučilište Clemson",
-                    "date": "2021. - 2022"
-                },
-                {
-                    "jobtitle": "Nadzornik stola",
-                    "where": "Sveučilište Clemson",
-                    "date": "2021. - 2022"
-                }
-            ]
+        {
+          "jobtitle": "softverski inženjer",
+          "where": "Orion180 osiguranje",
+          "date": "2024 - 2025 (prikaz, stručni)."
         },
-        "technical_skills": {
-            "title": "Tehničke vještine",
-            "header1": "Programski jezici",
-            "header2": "Okviri i knjižnice",
-            "header3": "Alati i tehnologije"
+        {
+          "jobtitle": "softverski inženjer",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Moje usluge",
-            "entries": [
-                {
-                    "title": "Full Stack Engineering",
-                    "text": "Nudim sveobuhvatna rješenja u razvoju prednjeg i back-end-a, osiguravajući besprijekornu integraciju i funkcionalnost u cijelom softverskom snopu."
-                },
-                {
-                    "title": "Razvijanje web",
-                    "text": "S stručnošću u okvirima HTML, CSS i JavaScript poput React.js, izrađujem vizualno privlačne i korisničke web stranice prilagođene zadovoljavanju specifičnih potreba i preferencija klijenata."
-                },
-                {
-                    "title": "Razvoj igre",
-                    "text": "Koristeći jezike kao što su Java i C ++, specijalizirao sam se za stvaranje uronjenih igračkih iskustava, od koncepta i dizajna do implementacije i optimizacije, osiguravanja angažiranja igranja i glatkih performansi."
-                }
-            ]
+        {
+          "jobtitle": "softverski inženjer",
+          "where": "Ubrzajte učenje",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Vodeći softverski inženjer (studentski program)",
+          "where": "GDI program Sveučilišta Clemson",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Nadzornik stola",
+          "where": "Sveučilište Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Portfelj",
-        "filter_by": "Filter portfelj od:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca json",
-                "text": "Python projekt koji pojednostavljuje jezične prijevode. Omogućuje prevođenje portfelja moje web stranice na 70+ jezika, uključujući španjolski, francuski, kineski, arapski i mnoge druge. Ovaj se projekt koristi za stvaranje višejezičnog portfelja web stranica, što je vrlo korisno za postizanje šire publike. Ovim projektom preko 99% svijeta može pročitati moj portfelj tečnim jezikom.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Spojite četiri",
-                "text": "Masivna obitelj od preko 50+ implementacija Connect Four Game. Ovaj projekt uključuje implementacije u preko 30 različitih programskih jezika, uključujući Java, C ++, Python, JavaScript i još mnogo toga. Uz to, uključuje i preko 20+ različitih okvira ili drugih formata, uključujući React.js, Ruby on Rails, ASP.NET i još mnogo toga.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Aplikacija za namirnice",
-                "text": "Kompletna aplikacija za punu stazu .NET 9 Blazor Server za upravljanje predmetima namirnica. Aplikacija slijedi uzorak kontrolera/servisa/spremišta s entitetskim okvirom za ustrajnost i uključuje sveobuhvatni testni paket.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Interop projekt",
-                "text": "Projekt koji dokumentira interoperabilnost između različitih programskih jezika. Trenutno uključuje 15 različitih programskih jezika i 18 obrazaca izvršenja.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Registar zaliha",
-                "text": "Potpuni prodajni program (POS) registar u sustavu upravljanja zalihama izgrađen s Angular 17+ i Node.js. Ova aplikacija pokazuje POS sustav profesionalnog razreda s provjerom autentičnosti korisnika, kontrolom pristupa na temelju uloga, praćenjem zaliha i obradom plaćanja.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & YAML Auto formatter",
-                "text": "LINTER & AUTOMORMERTER za datoteke JSON & YAML. Ovaj se projekt koristi za formatiranje JSON & YAML datoteka, što je vrlo korisno za održavanje koda čistog i organiziranog. Izgrađen s GO -om, sastavljenim s Webassembly -om i ugrađen u moj portfelj kao projekt web stranice. Više formata koji dolaze u budućnosti.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Motor za polijetanje",
-                "text": "Moderan SaaS za procjenu izgradnje i polijetanje za izvođače i procjenitelje. Uvozi CSV i Excel datoteke, automatski mapira stupce, izračunava volumene iskopa rovova i zemljanih radova, prati rad i označavanje te generira PDF i Word prijedloge ponuda spremnih za klijente s uglađenim tijek rada React + Express.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft JSON generator",
-                "text": "Lagani JSON generator ugrađen u Python za Minecraft resurse i pakete podataka. Ovaj se projekt koristi za generiranje JSON datoteka za Minecraft modove, uključujući prilagođene stavke, blokove i entitete. Vrlo korisno ne samo za stvaranje prilagođenih Datapacks -a, već i za modove putem značajke prebacivanja imena mod.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Moje obrazovno iskustvo",
-                "text": "Uz svoje osobne projekte, stekao sam i brojne vještine od obrazovnog iskustva. Kliknite ovdje da biste vidjeli moj LinkedIn profil za više informacija.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Moje profesionalno iskustvo",
-                "text": "Pored svojih osobnih projekata, stekao sam i brojne vještine od profesionalnog iskustva. Kliknite ovdje da biste vidjeli moj LinkedIn profil za više informacija.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Web stranica portfelja Patrick Goodwin",
-                "text": "Ova web stranica je moja web stranica za osobni portfelj, izgrađena s react.js. Ovaj se projekt koristi za prikazivanje mojih vještina i projekata, kao i za pružanje platforme za potencijalne poslodavce da me kontaktiraju. Ovaj se projekt koristi za stvaranje profesionalne internetske prisutnosti.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Patrickova knjižnica skripte Lua",
-                "text": "Korisna biblioteka LUA skripta za buduću referencu. Ova se knjižnica koristi za automatizaciju zadataka u LUA skriptama, što može biti korisno za zadatke potrebne performanse, jer je LUA obično brži scenarijski jezik od Pythona i Rubyja.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Patrickovi skripte proračunske tablice Microsoft Excel (VBA)",
-                "text": "Korisna biblioteka VBA skripta za Microsoft Excel. Ova se knjižnica koristi za automatizaciju zadataka u Excel proračunskim tablicama.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patrickov Neovim config",
-                "text": "Moja osobna Neovim konfiguracija. Ovaj se projekt koristi za konfiguriranje Neisima po mojoj želji, uključujući prilagođena ključa, teme i dodatke. Ovaj se projekt koristi kako bi Neovima učinio korisnijim i učinkovitijim za moju osobnu upotrebu.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Patrickova generator karte",
-                "text": "Generator karata županije i države Sjedinjenih Država, izgrađen s Pythonom koristeći knjižnice Geopandas i Matplotlib. Ovaj se projekt koristi za generiranje karata Sjedinjenih Država, uključujući županijske i državne karte. Ovaj se projekt koristi za stvaranje prilagođenih karata za vizualizaciju i analizu podataka.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Patrickova biblioteka skripte PowerShell",
-                "text": "Korisna biblioteka PowerShell skripta za buduću referencu. Korisno s značajkom $ profila skripte, smatram da je ovo neizmjerno korisno za automatizaciju zadataka s Windows terminala, jer sam čest korisnik Windows OS -a.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Patrickova biblioteka scenarija Ruby",
-                "text": "Korisna biblioteka Ruby skripti za buduću referencu. Korisno za budući rubin na razvojnim konceptima.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "PDF Graditelj vještina",
-                "text": "Prilagođeni PDF graditelj izgrađen s Python -om preko proširenja PDFKit i Jinja2, uz oblikovanje HTML i JSON. Ovaj se projekt koristi za generiranje PDF datoteka s popisa vještina i projekata. Ovaj se projekt može koristiti za stvaranje prilagođenog životopisa PDF -a, što je vrlo korisno za aplikacije za posao.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Projekt šifriranja Rijandela",
-                "text": "Obitelj od 10+ implementacija algoritma za šifriranje Rijandela u 128, 192 i 256 bita. Ovaj se projekt koristi za demonstriranje algoritma šifriranja Rijandela na različitim programskim jezicima. Ovaj se projekt koristi za stvaranje obitelji implementacije algoritma za šifriranje Rijandela.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Suprememc Minecraft Mod",
-                "text": "Minecraft mod koji u igru ​​dodaje prilagođene alate, oklop, mafije, blokove, dimenzije i još mnogo značajki. Izgrađena s Java verzijama 8-17 za odabrane verzije Minecraft-a između 1,16 i 1,20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Tiger programski jezik",
-                "text": "Prilagođeni programski jezik ugrađen u Go za eksperimentiranje s dizajnom i performansama tumača. Implementirano na web mjestu portfelja pomoću web sastavljanja.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Web stranica Tiger Repging Pros",
-                "text": "Web stranica koju sam sagradio 2024. godine za Tiger Tailgating Pros, tvrtku za repnule u Clemsonu, SC. Izgrađen s React.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Turing Machine Project",
-                "text": "Obitelj od preko 30+ implementacija Turingovog stroja. Koristi se za pokazivanje cjelovitosti Turinga za različite programijske jezike za istraživanje, posebno za programski jezik tigra.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Tehničke vještine",
+      "header1": "Programski jezici",
+      "header2": "Okviri i biblioteke",
+      "header3": "Alati i tehnologije"
+    },
+    "services": {
+      "title": "Moje usluge",
+      "entries": [
+        {
+          "title": "Full Stack inženjering",
+          "text": "Vodim isporuku proizvoda od početka do kraja: prevođenje poslovnih tijekova rada u granice sustava, podatkovne modele, API-je i sučelja, zatim obavljanje posla kroz testiranje, implementaciju, i ponavljanje. Cilj je softver koji tim može razviti i kojim može upravljati, a ne zbirka nepovezanih zaslona."
+        },
+        {
+          "title": "Arhitektura proizvoda i platforme",
+          "text": "Biram platforme i uzorke na temelju problema: slojevite .NET usluge za poslovne domene, Angular ili React aplikacije vođene komponentama za složene operacije, relacijske podatkovni modeli za odgovorne tijekove rada i integracije dizajnirane imajući na umu načine kvarova, kontrolu pristupa i mogućnost održavanja."
+        },
+        {
+          "title": "Isporuka spremna za proizvodnju",
+          "text": "Gradim s obzirom na realnost nakon pokretanja: tajne koje se drže izvan kontrole izvora, eksplicitne staze migracije baze podataka, autorizacija temeljena na ulogama, provjera valjanosti na granicama sustava, automatizirani testovi, svijest o CI/CD-u i praktična promatranost. To su detalji koji pretvaraju prototip u pouzdan softver."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portfelj",
+    "filter_by": "Filtriraj portfelj prema:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteka JSON",
+        "text": "Cjevovod lokalizacije temeljen na Pythonu koji pretvara jedan strukturirani izvor sadržaja u globalno dostupan portfelj. Obrađuje podatke o prijevodu kao sustav koji se može održavati, a ne ručno umnoženu kopiju stranice, omogućujući web-lokaciji skaliranje na 100+ jezika i čineći globalni doseg operativna sposobnost umjesto jednokratne značajke.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Spoji četiri",
+        "text": "Ogromna obitelj od preko 50+ implementacija igre Connect Four. Ovaj projekt uključuje implementacije u više od 30 različitih programskih jezika, uključujući Javu, C++, Python, JavaScript itd. Osim toga, također uključuje više od 20 različitih okvira ili drugih formata, uključujući React.js, Ruby on Rails, ASP.NET i još mnogo toga.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Aplikacija za trgovinu namirnicama",
+        "text": "Puna aplikacija .NET 9 Blazor Server koja demonstrira namjernu pozadinsku arhitekturu za poslovni tijek rada. Podjela kontrolera/usluge/spremišta omogućuje neovisno testiranje pravila aplikacije, pristupa podacima i prezentacije; Entity Framework Core pruža trajnu postojanost; i sveobuhvatan paket testova štiti ponašanje kako se proizvod razvija.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Interop projekt",
+        "text": "Referenca međujezične interoperabilnosti koja obuhvaća 15 programskih jezika i 18 obrazaca izvršavanja. Projekt istražuje granice na kojima sustavi često postaju krhki: procesni ugovori, razmjena podataka, ponašanje u vremenu izvođenja i ponovljivi putevi integracije. Odražava sustavno razmišljanje koje je potrebno kada je proizvod veći od jedne hrpe.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Registar inventara",
+        "text": "Puni POS i radni tijek inventara izgrađen uz Angular 17+ i Node.js. Modelira operativne probleme B2B sustava: autentificirane korisnike, kontrolu pristupa temeljenu na ulogama, točnost inventara i lažni tijek plaćanja. Projekt je osmišljen oko stvarnog posla koji obavlja tim registra, a ne samo oko kataloga značajki okvira.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Auto Formatter",
+        "text": "Alat za JSON i YAML provjeru valjanosti i formatiranje temeljen na pregledniku ugrađen u Go i kompiliran u WebAssembly. Premještanje mehanizma za raščlanjivanje u WASM održava interakciju osjetljivom i lokalnom u odnosu na preglednik dok se primjenjuje pravi raščlanjivač za hvatanje nevažećih unosa. To je fokusirani primjer odabira izvedbene arhitekture za performanse, prenosivost i povjerenje korisnika.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Motor za polijetanje",
+        "text": "Konstrukcija koja procjenjuje SaaS izgrađena oko skupog tijeka rada izvođača sklonog pogreškama. Proizvod React + Express unosi CSV i Excel podatke, mapira nedosljedne stupce u upotrebljivi model domene, izračunava iskop rovova i količine zemljanih radova, prati rad i markup i proizvodi PDF i Word prijedloge spremne za klijenta. Ovo je inženjering cijelog životnog ciklusa proizvoda: raščlanjivanje podataka, pravila izračuna, uglađeni radni tijek operatera i isporučeni rezultati koji pomažu poduzeću prijeći s sirovih unosa na ponudu.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON generator",
+        "text": "Lagani JSON generator ugrađen u Python za Minecraft resurse i pakete podataka. Ovaj se projekt koristi za generiranje JSON datoteka za Minecraft modifikacije, uključujući prilagođene stavke, blokove i entitete. Vrlo korisno ne samo za stvaranje prilagođenih paketa podataka, već i za modove putem značajke promjene naziva moda.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Moje obrazovno iskustvo",
+        "text": "Uz svoje osobne projekte, stekao sam i brojne vještine iz obrazovnog iskustva. Kliknite ovdje da pogledate moj LinkedIn profil za više informacija.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Moje profesionalno iskustvo",
+        "text": "Šest i više godina profesionalnog inženjerskog iskustva u timovima proizvoda, poslovnim platformama i softveru usmjerenom na korisnike. Moj posao je uključivao izgradnju aplikacijskih slojeva koji se mogu održavati, suradnju u različitim disciplinama isporuke i donošenje tehničkih odluka sa životnim ciklusom proizvoda, operativnim rizik i dugoročno vlasništvo u vidu.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Web stranica portfelja Patricka Goodwina",
+        "text": "Proizvodno usmjeren React portfelj koji pristupačnost i globalni doseg tretira kao inženjerske zahtjeve. Uključuje cjevovod za prevođenje koji se može održavati za više od 100 jezika, interaktivne alate podržane WebAssemblyjem, responzivne i pristupačne obrasce korisničkog sučelja i arhitekturu projekta dizajniran da raste kako se isporučuju novi radovi.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "Korisna biblioteka Lua skripti za buduće potrebe. Ova se biblioteka koristi za automatizaciju zadataka u Lua skriptama, što može biti korisno za zadatke koji zahtijevaju performanse, budući da je Lua obično brži skriptni jezik od Pythona i Rubyja.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Korisna biblioteka VBA skripti za Microsoft Excel. Ova se biblioteka koristi za automatizaciju zadataka u Excel proračunskim tablicama.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Moja osobna Neovim konfiguracija. Ovaj se projekt koristi za konfiguriranje Neovim-a po mom ukusu, uključujući prilagođena povezivanja tipki, teme i dodatke. Ovaj projekt se koristi kako bi Neovim bio lakši za korištenje i učinkovitiji za moju osobnu upotrebu.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrickov generator karata",
+        "text": "Python geoprostorni alat za izvješćivanje izrađen s GeoPandas i Matplotlib za generiranje karata okruga i država SAD-a. Pretvara geografske podatke u čitljive artefakte analize, demonstrirajući način razmišljanja o prijenosu podataka: odaberite prave biblioteke domene, normalizirajte ulaze i proizvedite izlaze koji podržati jasne odluke.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Library",
+        "text": "Korisna biblioteka PowerShell skripti za buduće potrebe. Korisno sa značajkom skripte $profile, smatram da je ovo neizmjerno korisno za automatiziranje zadataka s Windows terminala, jer sam čest korisnik Windows OS-a.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Korisna biblioteka Ruby skripti za buduće potrebe. Korisno za buduće razvojne koncepte Ruby on Rails.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "PDF Skills Builder",
+        "text": "Tijek rada za generiranje dokumenata izgrađen s Python, Pdfkit, Jinja2, HTML i strukturiranim JSON podacima. Odvaja podatke za višekratnu upotrebu od prezentacijskih predložaka kako bi se dosljedno generirali prilagođeni PDF životopisi, praktičan obrazac za smanjenje ručnog rada i izradu poslovnih dokumenata ponovljiv.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Projekt šifriranja Rijandel",
+        "text": "Usporedni skup od 10+ Rijndael implementacija u 128-, 192- i 256-bitnim varijantama. Ponovna implementacija algoritma osjetljivog na sigurnost na različitim jezicima disciplinirana je vježba točnih specifikacija, ponašanja koje se može testirati i ograničenja prenosivosti na razini jezika, svi korisni instinkti za sustave koji rukuju osjetljivim podacima.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Minecraft Mod koji igrici dodaje prilagođene alate, oklope, rulje, blokove, dimenzije i mnoge druge značajke. Izgrađen s Java verzijama 8-17 za odabrane Minecraft verzije između 1.16 i 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Tiger programski jezik",
+        "text": "Prilagođeni programski jezik i tumač ugrađen u Go za istraživanje dizajna vremena izvođenja jezika, ponašanja pri izvršavanju i kompromisa u izvedbi. Kompajliranjem u WebAssembly i integriranjem u portfelj stvara se stvarna površina proizvoda koja se može pregledati za inženjering na razini sustava umjesto da se posao ostavi kao eksperiment samo za spremište.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Web stranica za profesionalce Tiger Tailgatinga",
+        "text": "Web stranica React isporučena za tvrtku koja se bavi prodajom robe u Clemsonu, SC. Rad prevodi ponudu male tvrtke u jasno putovanje korisnika i pouzdanu prisutnost na webu, primjenjujući razmišljanje o proizvodu kako bi se pomoglo stvarnoj organizaciji da pretvori interes u upite i prihode.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Projekt Turingovog stroja",
+        "text": "Obitelj od preko 30+ implementacija Turingovog stroja. Koristi se za demonstraciju turing potpunosti za različite programske jezike za istraživanje, posebno za programski jezik Tiger.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Tiger programski jezik"
+  },
+  "contact": {
+    "title": "Kontaktirajte me",
+    "header": "Podaci za kontakt",
+    "email": "pattygsocials@gmail.com",
+    "description": "Odgovaram na upite putem e-pošte i LinkedIn poruka. Također ću uzvratiti poziv ako moj broj bude naveden u životopisu ili na neki drugi način, iako radije držim svoj telefonski broj privatnim."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Alat za kvalitetu podataka temeljen na pregledniku koji provjerava i formatira JSON i YAML pomoću Go motora kompiliranog na WebAssembly. Arhitektura održava raščlanjivanje blizu korisnika za brzu, privatnu povratnu informaciju dok provodi pravila stvarne sintakse na granici podataka. To je kompaktan primjer dizajniranja pouzdanog tijeka rada programera oko ispravnosti, performansi i povjerenja.",
+    "more_info1": "Za više informacija pogledajte README u",
+    "more_info2": "Repozitorij JSON/YAML Formatter.",
+    "format_as": "Oblikuj kao:",
+    "auto_detect": "Automatsko otkrivanje",
+    "format": "Lint & Format",
+    "valid_json": "✓ Valjani JSON",
+    "valid_yaml": "✓ Važeći YAML",
+    "invalid_json": "Nevažeći JSON",
+    "invalid_yaml": "Nevažeći YAML",
+    "empty_input": "Unesite JSON ili YAML za lint.",
+    "too_large": "Unos je prevelik (dopušteno najviše 1 MB).",
+    "fixed_yaml_spacing": "⚠ YAML je imao nevažeći razmak/uvlaku, ali je automatski popravljen i formatiran.",
+    "loading": "Učitavanje formatera...",
+    "waiting_for_input": "Čeka se unos...",
+    "load_failed": "Nije moguće učitati formater.",
+    "output": "Izlaz:",
+    "input_code": "Ulazni",
+    "json_examples": "JSON primjeri",
+    "yaml_examples": "YAML primjeri"
+  },
+  "tiger": {
+    "title": "Jezik tigra",
+    "description": "Tiger je prilagođeni programski jezik i Go interpreter napravljen za istraživanje arhitekture vremena izvođenja, semantike jezika i kompromisa u izvedbi. Kompajliranje tumača u WebAssembly pretvara rad sustava u interaktivni proizvod temeljen na pregledniku: korisnici mogu izravno izvršavati programe dok vrijeme izvođenja ostaje prenosivo i izolirani od glavne aplikacije.",
+    "more_info1": "Za više informacija pogledajte README u",
+    "more_info2": "Tiger programski jezik GitHub Repozitorij.",
+    "select_engine": "Odaberite motor:",
+    "tiger_code": "Kod tigra:",
+    "run_tiger": "Trči Tiger",
+    "output": "Izlaz:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Viši full-stack inženjer sa 6+ godina iskustva u dizajniranju SaaS proizvoda, proizvodnih sustava i softvera za stvaranje prihoda."
+  },
+  "copy": {
+    "text": "Kopirati",
+    "copied": "Kopirano!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "slijedi me"
+  },
+  "languages": {
+    "title": "Prevoditelj portfelja",
+    "description": "Otkrijte kako je moj portfelj dostupan posjetiteljima iz cijelog svijeta uz podršku za više od 100 jezika.",
+    "global_accessibility": {
+      "title": "Globalna pristupačnost",
+      "description": "Moj je portfelj dostupan na više od {count} jezika, što ga čini dostupnim posjetiteljima iz cijelog svijeta. Ovaj višejezični pristup pokazuje moju predanost inkluzivnosti i globalnom dosegu u razvoju softvera.",
+      "stats": {
+        "languages_supported": "Podržani jezici",
+        "countries_represented": "Zastupljene zemlje",
+        "continents_covered": "Pokriveni kontinenti"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Tiger programski jezik"
-    },
-    "contact": {
-        "title": "Kontaktirajte me",
-        "header": "Kontakt podatke",
-        "email": "pattygsocials@gmail.com",
-        "description": "Odgovaram na upite iz e -pošte, LinkedIn poruka i  poruka. Nazvat ću i ako se moj broj osigura putem životopisa ili na neki drugi način, premda radije držim svoj telefonski broj privatnim."
-    },
-    "formatter": {
-        "title": "Json & yaml fortter",
-        "description": "JSON & YAML Fortter je alat koji vam omogućuje formatiranje JSON i YAML datoteka. Izgrađen je s Go i Webassembly -om, a dizajniran je tako da bude brz i učinkovit. Formter je dizajniran tako da bude jednostavan za upotrebu, s jednostavnim sučeljem koje vam omogućuje zalijepiti u svoj JSON ili YAML kôd i formatirati ga klikom na gumb.",
-        "more_info1": "Za više informacija pogledajte ReadMe u",
-        "more_info2": "JSON/YAML FORFORTER SPOZITORIJA.",
-        "format_as": "Format kao:",
-        "auto_detect": "Automatsko otkrivanje",
-        "format": "Format",
-        "valid_json": "✓ Valjani JSON",
-        "valid_yaml": "✓ Važeći YAML",
-        "invalid_json": "Nevažeći JSON",
-        "invalid_yaml": "Nevažeći YAML",
-        "empty_input": "Unesite JSON ili YAML za lint.",
-        "too_large": "Unos je prevelik (dopušteno najviše 1 MB).",
-        "fixed_yaml_spacing": "⚠ YAML je imao nevažeći razmak/uvlaku, ali je automatski popravljen i formatiran."
-    },
-    "tiger": {
-        "title": "Jezik tigra",
-        "description": "Tiger programski jezik je prilagođeni programski jezik izgrađen i u Go kako bi eksperimentirao s dizajnom i performansama tumača. Implementirano na web mjestu portfelja pomoću web sastavljanja. Tiger programski jezik je prilagođeni programski jezik izgrađen i u Go kako bi eksperimentirao s dizajnom i performansama tumača. Implementirano na web mjestu portfelja pomoću web sastavljanja.",
-        "more_info1": "Za više informacija pogledajte ReadMe u",
-        "more_info2": "Tiger Programski jezik GitHub spremište.",
-        "select_engine": "Odaberite motor:",
-        "tiger_code": "Tiger kod:",
-        "run_tiger": "Trčati tigar",
-        "output": "Izlaz:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Full Stack softverski inženjer sa sjedištem u središnjoj Floridi"
-    },
-    "copy": {
-        "text": "Kopirati",
-        "copied": "Kopirano!"
-    },
-    "social_media": {
-        "github": "Ždrijeb",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube",
-        "text_strip": "Slijedite me"
-    },
-    "languages": {
-        "title": "Prevoditelj portfelja",
-        "description": "Otkrijte kako je moj portfelj dostupan posjetiteljima iz cijelog svijeta uz podršku za preko 100 jezika.",
-        "global_accessibility": {
-            "title": "Globalna pristupačnost",
-            "description": "Moj je portfelj dostupan na preko {count} jezika, što ga čini dostupnim posjetiteljima iz cijelog svijeta. Ovaj višejezični pristup pokazuje moju predanost inkluzivnosti i globalnom dosegu u razvoju softvera.",
-            "stats": {
-                "languages_supported": "Jezici podržani",
-                "countries_represented": "Zemlje zastupljene",
-                "continents_covered": "Kontinenti pokriveni"
-            }
+    "features": {
+      "title": "Značajke",
+      "items": [
+        {
+          "title": "Prijevod u stvarnom vremenu:",
+          "description": "Trenutačno mijenjajte jezike pomoću birača jezika"
         },
-        "features": {
-            "title": "Značajke",
-            "items": [
-                {
-                    "title": "Prijevod u stvarnom vremenu:",
-                    "description": "Prebacite jezike odmah s selektorom jezika"
-                },
-                {
-                    "title": "Jezik temeljen na URL-u:",
-                    "description": "Jezične postavke sačuvane su u URL -u"
-                },
-                {
-                    "title": "Podrška za izvorne skripte:",
-                    "description": "Pravilno prikazivanje skripti poput arapskog, kineskog, hindskog i još mnogo toga"
-                },
-                {
-                    "title": "Kulturna osjetljivost:",
-                    "description": "Prijevodi razmatraju kulturni kontekst, a ne samo doslovna značenja"
-                },
-                {
-                    "title": "SEO optimizirano:",
-                    "description": "Svaka varijanta jezika optimizirana je za tražilice"
-                }
-            ]
+        {
+          "title": "Jezik temeljen na URL-u:",
+          "description": "Postavke jezika sačuvane su u URL-u"
         },
-        "world_map": {
-            "title": "Interaktivna karta svijeta",
-            "description": "LOVER nad zemljama na karti da biste vidjeli njihove podržane jezike:",
-            "languages_label": "Jezici",
-            "legend": {
-                "supported": "Jezici podržani",
-                "not_supported": "Nema jezične podrške"
-            },
-            "zoom_controls": {
-                "zoom_in": "Zumirati",
-                "zoom_out": "Zumirati",
-                "reset": "Resetiranje prikaza"
-            }
+        {
+          "title": "Podrška za izvornu skriptu:",
+          "description": "Pravilno prikazivanje pisama kao što su arapski, kineski, hindski itd"
         },
-        "supported_languages": {
-            "title": "Podržani jezici"
+        {
+          "title": "Kulturološka osjetljivost:",
+          "description": "Prijevodi uzimaju u obzir kulturni kontekst, a ne samo doslovna značenja"
         },
-        "interactive_country_map": {
-            "title": "Interaktivna karta zemlje",
-            "description": "Lebdi nad zemljama ispod da biste vidjeli svoje podržane jezike:",
-            "language_count": {
-                "single": "jezik",
-                "multiple": "jezici"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Nema jezične podrške"
+        {
+          "title": "SEO optimizirano:",
+          "description": "Svaka je jezična varijanta optimizirana za tražilice"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Interaktivna karta svijeta",
+      "description": "Zadržite pokazivač iznad zemalja na karti da biste vidjeli njihove podržane jezike:",
+      "languages_label": "jezici",
+      "legend": {
+        "supported": "Podržani jezici",
+        "not_supported": "Nema jezične podrške"
+      },
+      "zoom_controls": {
+        "zoom_in": "Povećaj",
+        "zoom_out": "Smanji",
+        "reset": "Resetiraj prikaz"
+      }
+    },
+    "supported_languages": {
+      "title": "Podržani jezici"
+    },
+    "interactive_country_map": {
+      "title": "Interaktivna karta zemlje",
+      "description": "Zadržite pokazivač miša iznad zemalja u nastavku kako biste vidjeli njihove podržane jezike:",
+      "language_count": {
+        "single": "jezik",
+        "multiple": "jezika"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Nema jezične podrške"
+    }
+  },
+  "logotext": "PATRICK"
 }

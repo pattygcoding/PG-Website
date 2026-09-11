@@ -1,330 +1,337 @@
 {
-    "name": "Patrick goodwin",
-    "menu": {
-        "home": "Ile",
-        "about": "Nipa mi",
-        "portfolio": "HanorFolio",
-        "projects": "Oju opo wẹẹbu",
-        "tiger": "Ede Tiger",
-        "portfolio_translator": "Onitumọ portfolio",
-        "formatter": "JonS & Yuml Role",
-        "contact": "Kan si mi"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Ile",
+    "about": "Nipa mi",
+    "portfolio": "Portfolio",
+    "projects": "Aaye ayelujara Projects",
+    "tiger": "Ede Tiger",
+    "portfolio_translator": "Onitumọ Portfolio",
+    "formatter": "JSON & YAML oluṣeto",
+    "contact": "Kan si mi"
+  },
+  "home": {
+    "title": "Olùkọ Full-Stack Engineer | Ọja & Awọn ọna ṣiṣe",
+    "animated": {
+      "first": "Olùkọ Full-Stack Engineer",
+      "second": "Systems & Architecture Akole",
+      "third": "Onimọn ẹrọ Ọja SaaS",
+      "fourth": "Software ti o gbẹkẹle, Awọn abajade Iṣowo"
     },
-    "home": {
-        "title": "Ile",
-        "animated": {
-            "first": "Iboju sọfitiwia akopọ ni kikun",
-            "second": "Onidipọ wẹẹbu",
-            "third": "Olugbe idagbasoke",
-            "fourth": "Akiyesi akoonu"
-        },
-        "footer": "Oju opo wẹẹbu & Valible ni awọn ede 100 +!",
-        "descriptionA": "Ti o ni iriri ebi ẹrọ akopọ ni kikun pẹlu itan-akọọlẹ ti o ṣafihan ti ṣaṣeyọri ni aṣeyọri awọn iṣẹ idagbasoke, lakoko ṣiṣe ni ibamu pẹlu awọn ọna imudarasi pupọ ati ifowosowopo ẹgbẹ ti o munadoko.",
-        "descriptionB": "Ni afikun, Mo jẹ Eleda akoonu akoonu iletography ti o ni aṣeyọri awọn algorithms ti ọpọ awọn ile-iṣẹ media awujọ, pẹlu awọn aṣẹ onisẹyin ati ilowosi onisẹyin.",
-        "portfolio_button": "Mi si ile-iṣẹ mi",
-        "contact_button": "Kan si mi",
-        "about_button": "Nipa mi"
+    "footer": "Oju opo wẹẹbu ti tumọ ni bayi & wa ni awọn ede 100+!",
+    "descriptionA": "Onimọ-ẹrọ akopọ ni kikun pẹlu awọn ọdun 6+ ti iriri mu awọn ọja lati awọn ibeere aibikita si awọn eto iṣelọpọ igbẹkẹle. Mo ṣe apẹrẹ faaji lẹhin React, Angular, .NET, Node.js, Java, C#, Go, ati awọn ohun elo SQL: awọn aala iṣẹ ti ko o, awọn awoṣe data ti o tọ, awọn ilana iwọle to ni aabo, ati awọn ẹgbẹ awọn ọna ifijiṣẹ le ṣiṣẹ pẹlu igboiya.",
+    "descriptionB": "Iṣẹ mi so awọn ipinnu imọ-ẹrọ pọ si awọn abajade iṣowo. Lati SaaS ti o ni iṣiro-itumọ ti o yi data iwe kaunti pada si awọn igbero ti o ti ṣetan alabara si awọn iru ẹrọ wẹẹbu ti n ṣe ipilẹṣẹ owo-wiwọle, Mo kọ sọfitiwia ni ayika ṣiṣan iṣẹ, eewu, ati idiwon iye ti o pataki si awọn eniyan lilo o.",
+    "portfolio_button": "Portfolio mi",
+    "contact_button": "Kan si mi",
+    "about_button": "Nipa mi"
+  },
+  "about": {
+    "title": "Nipa mi",
+    "personal_summary": {
+      "title": "Akopọ ti ara ẹni",
+      "text": "Mo jẹ onimọ-ẹrọ akopọ kikun ti o da ni Orlando, FL ti o ni ọna lati iṣoro ọja si abajade iṣelọpọ. Mo ṣe awọn yiyan imọ-ẹrọ ni iṣẹ ti eto naa: NET ati Ipilẹ Ipilẹ Ipilẹ Nkan nigbati agbegbe ti o lagbara ti eleto ati ọran itẹramọṣẹ idanwo; Angula tabi Fesi nigbati eka ṣiṣan iṣẹ nilo wiwo ti o le ṣetọju; Node.js tabi Lọ nigbati API kan, iṣọpọ, tabi ohun elo iṣẹ ṣiṣe giga nilo akoko ṣiṣe idojukọ. Kọja awọn ọja SaaS, ṣiṣan iṣẹ inu, ati awọn iru ẹrọ ti nkọju si alabara, Mo ṣe itọsọna pẹlu awọn iṣowo ti o fojuhan, aabo ati apẹrẹ resilient, idanwo adaṣe, ati awọn iṣe ifijiṣẹ ti iranlọwọ awọn ẹgbẹ gbe sọfitiwia ti o niyelori laisi fifi gbese iṣẹ silẹ lẹhin."
     },
-    "about": {
-        "title": "Nipa mi",
-        "personal_summary": {
-            "title": "Lakotan ti ara ẹni",
-            "text": "Gẹgẹbi olugbe idagbasoke ni kikun ti o ni iriri ninu Orelando, FL, Mo ti ṣafihan imọ-jinlẹ ninu awọn imọ-ẹrọ lọpọlọpọ, lati Java ati NETES ATI Pẹlu igbasilẹ orin ti awọn iṣẹ ṣiṣe ọkọ ofurufu, pẹlu idagbasoke ti eto Iyipada Java fun Minecraft ati oju opo wẹẹbu ti o ni ere fun awọn awakọ nla, Mo ti sọ ààrándá àlùdárayè. Ideju mi ​​si didara julọ ni ẹri ni agbara mi si Streate Prosectline, yan awọn iṣoro giga, ati fi awọn solusan to gaju ti o jẹ aṣeyọri olumulo olumulo ati aṣeyọri olumulo."
+    "professional_experience": {
+      "title": "Ọjọgbọn Iriri",
+      "entries": [
+        {
+          "jobtitle": "Olùkọ Software ẹlẹrọ",
+          "where": "Oniru Interactive",
+          "date": "2025 - Lọwọlọwọ"
         },
-        "professional_experience": {
-            "title": "Iriri ọjọgbọn",
-            "entries": [
-                {
-                    "jobtitle": "Ẹlẹgún sọfitiwia kekere",
-                    "where": "Orion180 iṣeduro",
-                    "date": "2024 - lọwọlọwọ"
-                },
-                {
-                    "jobtitle": "Oludasile & Afowoye sọfitiwia akopọ",
-                    "where": "Ile giga",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Iboju sọfitiwia akopọ ni kikun",
-                    "where": "Yara si ẹkọ",
-                    "date": "2020"
-                },
-                {
-                    "jobtitle": "Didi Alùgbédáyè wẹẹbu (eto ọmọ ile-iwe)",
-                    "where": "Eto Eto Ile-iṣẹ GIDI Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Opo tabili",
-                    "where": "Climen University",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Opo tabili",
-                    "where": "Climen University",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Software ẹlẹrọ",
+          "where": "Orion180 iṣeduro",
+          "date": "Ọdun 2024-2025"
         },
-        "technical_skills": {
-            "title": "Awọn ọgbọn imọ-ẹrọ",
-            "header1": "Awọn ede siseto",
-            "header2": "Awọn ilana & Awọn ile-ikawe",
-            "header3": "Awọn irinṣẹ & Awọn Imọ-ẹrọ"
+        {
+          "jobtitle": "Software ẹlẹrọ",
+          "where": "SupremeMC",
+          "date": "Ọdun 2020-2024"
         },
-        "services": {
-            "title": "Awọn iṣẹ mi",
-            "entries": [
-                {
-                    "title": "Incaming ni kikun",
-                    "text": "Mo nse awọn solusan didara kọja mejeeji-ipari ati idagbasoke ipari, aridaju isọdọkan Sheamyless ati iṣẹ jakejado gbogbo akopọ sọfitiwia."
-                },
-                {
-                    "title": "Idagbasoke wẹẹbu",
-                    "text": "Pẹlu imọ-jinlẹ ninu HTML, CSS, ati JavaScrit Framews Bi Dábàájú ati Awọn ọmọ-iwe Oju-iwe Olumulo fẹran lati pade awọn iwulo Awọn alabara pato ati awọn ifẹ."
-                },
-                {
-                    "title": "Ere idagbasoke",
-                    "text": "Awọn ede Iwoye bii Java ati C ++, Mo amọja ni ṣiṣẹda awọn iriri ere ere ati apẹrẹ si imuse ati iṣapeye, ṣe idaniloju iṣẹ akanṣe ati iṣe daradara."
-                }
-            ]
+        {
+          "jobtitle": "Software ẹlẹrọ",
+          "where": "Mu Ẹkọ Mu",
+          "date": "Ọdun 2023"
+        },
+        {
+          "jobtitle": "Asiwaju Software ẹlẹrọ (Eto akeko)",
+          "where": "Clemson University GDI Eto",
+          "date": "Ọdun 2021-2022"
+        },
+        {
+          "jobtitle": "Alabojuto Iduro",
+          "where": "Ile-ẹkọ giga Clemson",
+          "date": "Ọdun 2021-2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "HanorFolio",
-        "filter_by": "Àlẹmọ àlẹmọ nipasẹ:",
-        "entries": {
-            "biblioteca": {
-                "title": "Bibliteca json",
-                "text": "Ise agbese Python ti awọn itumọ èni èkè ṣiṣan. Ngbanilaaye fun Portfolio oju opo wẹẹbu mi lati tumọ si awọn ede 70 +, pẹlu Spani, Faranse, Arabic, ati ọpọlọpọ awọn miiran. A nlo iṣẹ yii lati ṣẹda aaye ayelujara Oju-iwe ayelujara ti loga, eyiti o wulo pupọ fun de ọdọ awọn olugbo ti o wa. Pẹlu iṣẹ yii, ju 99% ti agbaye le ka portfolio mi ni ede kan ti o ga.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Sopọ mẹrin",
-                "text": "Idile idile ti o ju 50+ awọn imuse ti ere mẹrin ti Sopọ. Ise agbese yii pẹlu awọn imuse ni awọn ede ti o ju ọgbọn ọdun mẹta to yatọ, pẹlu Java, C ++, Python, JavaScript, ati diẹ sii. Ni afikun, o tun pẹlu awọn ilana awọn oriṣiriṣi 20+ tabi awọn ọna kika miiran, pẹlu fesi .Js, Rub.Ne, ati diẹ sii.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Ohun elo Onje",
-                "text": "Apejuwe kikun kikun .Net 9 ohun elo fun ṣiṣakoso awọn nkan Onje. Ohun elo tẹle oludari oludari / iṣẹ / ilana atunyẹwo pẹlu ilana itẹlera fun itẹramọṣẹ ati pẹlu suite idanwo asọye pipe.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Amusese Incerop",
-                "text": "Ise agbese kan ti o ṣe awọn iwe iṣiro interoperability laarin awọn ede siseto oriṣiriṣi oriṣiriṣi. Lọwọlọwọ pẹlu awọn ede siseto 15 oriṣiriṣi ati awọn ilana ipaniyan 18.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Forukọsilẹ",
-                "text": "Ojuami ti o ni kikun-Lilọ ti Titaja (Ps) forukọsilẹ pẹlu eto iṣakoso akomo ti a kọ pẹlu andorgurman ati ihoho ati ihoho.j.js Ohun elo yii ṣe afihan eto eto proca ti ọjọgbọn pẹlu ijẹrisi olumulo ti o da lori ipo, ipasẹ akojo, ati ilana isanwo ti o ni agbara.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "Jsson & Yaml aifọwọyi",
-                "text": "Ẹkọ kan & Autoferortor fun awọn faili Json & Yml. Iṣẹ yii ni a lo si awọn faili Json & Ysn, eyiti o wulo pupọ fun fifi koodu mimọ ati ṣeto. Ti a ti mọ pẹlu lọ, ṣe akopọ pẹlu karasalmuble, ati fi sii sinu portfolio mi bi iṣẹ oju opo wẹẹbu kan. Awọn ọna diẹ sii lati wa ni ọjọ iwaju.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Takeoff Engine",
-                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft Jonnelator",
-                "text": "Commonda Lightweight Json Commanda ti a kọ ni Python fun awọn orisun orisun minecraft & data. Ise agbese yii ni a lo lati ṣe ina awọn faili Json fun awọn Mods Minecraft, pẹlu awọn ohun aṣa, awọn bulọọki, ati awọn nkan. Pupọ pupọ fun ko ṣiṣẹda data aṣa nikan, ṣugbọn fun awọn Mods daradara nipasẹ ẹya ti o ti n yipada ti orukọ ti o yipada.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Iriri ẹkọ mi",
-                "text": "Lẹgbẹẹ awọn iṣẹ mi ti ara mi, Mo tun ti gba ọpọlọpọ awọn ọgbọn lati iriri ẹkọ. Tẹ ibi lati wo profaili to sopọ mọ fun alaye diẹ sii.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Iriri ọjọgbọn mi",
-                "text": "Lẹgbẹẹ awọn iṣẹ mi ti ara mi, Mo tun ti gba ọpọlọpọ awọn ọgbọn lati iriri ọjọgbọn. Tẹ ibi lati wo profaili to sopọ mọ fun alaye diẹ sii.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Patrick GoodWWWWEN Oju opo wẹẹbu Portfolio",
-                "text": "Oju opo wẹẹbu yii jẹ oju opo wẹẹbu ti ara ẹni ti ara mi, ti a ṣe pẹlu rease.js. Ise agbese yii ni a lo lati ṣafihan awọn ọgbọn ati awọn iṣẹ-ṣiṣe mi, ati lati pese pẹpẹ kan fun awọn agbanisiṣẹ ti o ni agbara lati kan si mi. Ise agbese yii ni a lo lati ṣẹda wiwa ayelujara lori ayelujara.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Patrick's Inde Iwe afọwọkọ Ni ile-ikawe",
-                "text": "Ile ikawe ti o wulo ti awọn afọwọkọ Lui fun itọkasi ọjọ iwaju. Awọn iṣẹ-ikawe yii lati ṣe adaṣe iṣẹ ni awọn iwe afọwọkọ LA, eyiti o le wa ni ọwọ fun awọn iṣẹ ṣiṣe-agbara, bi Lua jẹ ede ti o rọrun ju ti Python ati Ruby lọ.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Awọn iwe afọwọkọ ti Patrick nigbagbogbo",
-                "text": "Ile-ikawe ti o wulo fun awọn iwe afọwọkọ VBA fun Microsoft tayo. Ti lo ile-ikawe yii lati ṣe adaṣe awọn iṣẹ ṣiṣe ni awọn iwe karun.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patrick ká atunto atunto",
-                "text": "Iṣeto ti ara ẹni neovim mi. Ise agbese yii ni a lo lati tunto Neovim si mi, pẹlu awọn Kekere Centerbintings, awọn akori, ati awọn afikun. Ise agbese yii ni a lo lati ṣe neoveim diẹ olumulo ati lilo fun lilo ara mi.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Patrick's Map monomono",
-                "text": "Ajopo Amẹrika Counter & Star Monephatorator, ti a kọ pẹlu Python lilo awọn geopirad ati awọn ile-ikawe matPlotliba. Ise agbese yii ni a lo lati ṣe ina awọn maapu ti Orilẹ Amẹrika, pẹlu County ati Awọn maapu Ipinle. A nlo iṣẹ yii lati ṣẹda awọn maapu aṣa fun wiwo data ati itupalẹ.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Awọn ile-ikawe iwe afọwọkọ agbara Fitrick",
-                "text": "Ile ikawe ti o wulo ti awọn afọwọkọ agbara agbara fun itọkasi ọjọ iwaju. Wulo pẹlu ẹya afọwọkọ ti $, Mo rii iranlọwọ pupọ fun awọn iṣẹ ṣiṣe adaṣe lati ebute mọtoto, bi emi ti wa ni olumulo loorekoore ti Windows OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Gba awọn ile-ikawe iwe afọwọkọ iwe afọwọkọ Patrick",
-                "text": "Ile ikawe ti o wulo ti awọn iwe afọwọkọ Ruby fun itọkasi iwaju. Wulo fun ruby ​​iwaju lori awọn imọran idagbasoke.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Olumulo ogbon ti PDF",
-                "text": "Onibara PDF aṣa ti a ko pẹlu Python nipasẹ PDFkit ati awọn amugbooro jimin2 ati JONBL ati ọna kika Json. A lo iṣẹ yii lati ṣe ina awọn faili PDF lati atokọ ti awọn ọgbọn ati awọn iṣẹ akanṣe. A le lo iṣẹ yii lati ṣẹda bẹrẹ PDF aṣa kan, eyiti o wulo pupọ fun awọn ohun elo iṣẹ.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Ise agbese Ratinadel",
-                "text": "Idile ti awọn imule 10+ ti fifi ẹmí Brorithm ni 128, 192, ati 256. A lo iṣẹ yii lati ṣafihan Algorithm Ifiwewe Rijel ni awọn ede siseto oriṣiriṣi oriṣiriṣi. A nlo iṣẹ yii lati ṣẹda idile ti awọn imuse ti fifi ẹnọ fun ẹrọ ti rirorithm.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Monestercraft monda",
-                "text": "Ami minecraft ti o ṣafikun awọn irinṣẹ aṣa, ihamọra, awọn ọkọ oju-omi, awọn bulọọki, awọn agbegbe, awọn iwọn, ati ọpọlọpọ awọn ẹya diẹ sii si ere naa. Ti a ṣe pẹlu awọn ẹya Java 8-17 fun yan awọn ẹya Minecraft laarin 1.16 ati 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Ede tiger tiger",
-                "text": "Ede Eto Eto Aṣa Ti a ṣalaye ninu mejeeji Lọ & Iriri lati ṣe idanwo pẹlu apẹrẹ onitumọ ati iṣẹ. Ti a ṣe lori oju opo wẹẹbu Portfolio ni lilo Apejọ wẹẹbu.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiger iru oju opo wẹẹbu ti Tiger",
-                "text": "Oju opo wẹẹbu kan ti Mo kọ ni 2024 fun Awọn Alejo Tiger ti Tiger, Ile-iṣẹ Ipọnju kan ni Climeston, SC. Ti a ṣe pẹlu reaase.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Ise agbese ẹrọ Turin",
-                "text": "Idile ti o ju 30+ awọn imuse ẹrọ ti ẹrọ egungun. Ti a lo lati ṣafihan pipari tibajẹ fun awọn ede siseto oriṣiriṣi fun iwadii, paapaa fun ede tiger ti n ṣehinti Tiger.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Awọn ogbon imọ-ẹrọ",
+      "header1": "Awọn ede siseto",
+      "header2": "Awọn ilana & Awọn ile-ikawe",
+      "header3": "Awọn irinṣẹ & Awọn Imọ-ẹrọ"
+    },
+    "services": {
+      "title": "Awọn iṣẹ mi",
+      "entries": [
+        {
+          "title": "Full Stack Engineering",
+          "text": "Mo ṣe itọsọna ifijiṣẹ ọja-ipari-si-opin: titumọ ṣiṣan iṣẹ iṣowo sinu awọn aala eto, awọn awoṣe data, API, ati awọn atọkun, lẹhinna gbe iṣẹ naa nipasẹ idanwo, imuṣiṣẹ, ati aṣetunṣe. Ibi-afẹde naa jẹ sọfitiwia ti ẹgbẹ kan le dagbasoke ati ṣiṣẹ, kii ṣe akojọpọ awọn iboju ti a ti ge asopọ."
+        },
+        {
+          "title": "Ọja & Platform Architecture",
+          "text": "Mo yan awọn iru ẹrọ ati awọn ilana ti o da lori iṣoro naa: awọn iṣẹ .NET ti o fẹlẹfẹlẹ fun awọn agbegbe iṣowo, Angular ti o ni paati tabi awọn ohun elo React fun awọn iṣẹ ṣiṣe eka, ibatan awọn awoṣe data fun awọn ṣiṣan iṣẹ ṣiṣe iṣiro, ati awọn iṣọpọ ti a ṣe apẹrẹ pẹlu awọn ipo ikuna, iṣakoso iwọle, ati iduroṣinṣin ni lokan."
+        },
+        {
+          "title": "Igbejade-Ṣetan Ifijiṣẹ",
+          "text": "Mo kọ pẹlu awọn otitọ lẹhin ifilọlẹ ni wiwo: awọn aṣiri ti a pa mọ kuro ni iṣakoso orisun, awọn ọna ijira data gbangba, aṣẹ ti o da lori ipa, afọwọsi ni awọn aala eto, awọn idanwo adaṣe, imọ CI/CD, ati akiyesi iṣe. Iwọnyi ni awọn alaye ti o tan apẹrẹ kan si sọfitiwia ti o gbẹkẹle."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "filter_by": "Àlẹmọ Portfolio Nipasẹ:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "Opo opo gigun ti agbegbe ti o da lori Python ti o yi orisun akoonu ti eleto kan sinu portfolio iraye si agbaye. O ṣe itọju data itumọ bi eto itọju kuku ju ẹda ẹda oju-iwe pẹlu ọwọ, gbigba aaye laaye lati ṣe iwọn kọja awọn ede 100+ ati ṣiṣe agbaye de ọdọ Agbara iṣiṣẹ dipo ẹya akoko kan.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "So Mẹrin",
+        "text": "Idile nla ti o ju awọn imuṣẹ 50+ ti ere Sopọ Mẹrin. Ise agbese yii pẹlu awọn imuse ni awọn ede siseto oriṣiriṣi 30, pẹlu Java, C++, Python, JavaScript, ati diẹ sii. Ni afikun, o tun pẹlu ju 20+ awọn ilana oriṣiriṣi tabi awọn ọna kika miiran, pẹlu React.js, Ruby on Rails, ASP.NET, ati diẹ sii.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Onje App",
+        "text": "Akopọ kikun .NET 9 Blazor Server ohun elo ti o ṣe afihan imọ-itumọ ẹhin ifẹhinti fun iṣan-iṣẹ iṣowo kan. Alakoso / iṣẹ / pipin ibi ipamọ ntọju awọn ofin ohun elo, iraye si data, ati igbejade ni ominira jẹ idanwo; Ohun elo Framework Core pese itẹramọṣẹ ti o tọ; ati awọn suite idanwo okeerẹ ṣe aabo ihuwasi bi ọja ṣe dagbasoke.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Interop Project",
+        "text": "Itọkasi ibaraenisepo ede-agbelebu ti o kan awọn ede siseto 15 ati awọn ilana ipaniyan 18. Ise agbese na ṣe iwadii aala nibiti awọn ọna ṣiṣe nigbagbogbo di ẹlẹgẹ: awọn adehun ilana, paṣipaarọ data, ihuwasi asiko asiko, ati awọn ọna isọpọ atunṣe. O ṣe afihan awọn ero awọn ọna ṣiṣe ti o nilo nigbati ọja ba tobi ju akopọ kan lọ.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Oja Forukọsilẹ",
+        "text": "Akopọ POS ni kikun ati ṣiṣan ṣiṣan ọja ti a ṣe pẹlu Angular 17+ ati Node.js. O ṣe apẹẹrẹ awọn ifiyesi iṣiṣẹ ti eto B2B kan: awọn olumulo ti o jẹri, iṣakoso iraye si ipa-ipa, iṣedede akojo oja, ati sisan isanwo ẹlẹgàn. Ise agbese na ni a ṣe ni ayika iṣẹ gangan ti ẹgbẹ iforukọsilẹ ṣe, kii ṣe katalogi ti awọn ẹya ilana.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Auto Formatter",
+        "text": "JSON ti o da lori ẹrọ aṣawakiri ati afọwọsi YAML ati ohun elo kika ti a ṣe sinu Go ati ṣajọ si WebAssembly. Gbigbe ẹrọ itọka sinu WASM jẹ ki ibaraenisepo jẹ idahun ati agbegbe si ẹrọ aṣawakiri lakoko lilo parser gidi kan lati mu titẹ sii ti ko tọ. O jẹ apẹẹrẹ aifọwọyi ti yiyan faaji asiko asiko fun iṣẹ ṣiṣe, gbigbe, ati igbẹkẹle olumulo.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Yiyọ Engine",
+        "text": "Ikọle kan ti o ni iṣiro SaaS ti a ṣe ni ayika iye owo kan, ṣiṣiṣẹ olugbaisese aṣiṣe-aṣiṣe. Ọja React + Express n gba CSV ati data Tayo, maapu awọn ọwọn aisedede sinu awoṣe agbegbe ti o ṣee lo, ṣe iṣiro wiwakọ yàrà ati awọn iwọn iṣẹ ilẹ, tọpa iṣẹ ṣiṣe ati isamisi, ati gbejade PDF-ṣetan alabara ati awọn igbero Ọrọ. Eyi jẹ imọ-ẹrọ igbesi aye ọja ni kikun: sisọ data, awọn ofin iṣiro, ṣiṣiṣẹ oniṣẹ didan, ati awọn ifijiṣẹ ti o ṣe iranlọwọ iṣowo gbigbe lati awọn igbewọle aise si idu kan.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON monomono",
+        "text": "monomono JSON Lightweight ti a ṣe sinu Python fun awọn orisun Minecraft & awọn akopọ data. A lo iṣẹ akanṣe yii lati ṣe awọn faili JSON fun awọn mods Minecraft, pẹlu awọn ohun aṣa, awọn bulọọki, ati awọn nkan. O wulo pupọ fun kii ṣe ṣiṣẹda awọn akopọ data aṣa nikan, ṣugbọn fun awọn mods daradara nipasẹ ẹya iyipada orukọ mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Iriri Ẹkọ Mi",
+        "text": "Lẹgbẹẹ awọn iṣẹ akanṣe ti ara ẹni, Mo tun ti gba awọn ọgbọn lọpọlọpọ lati iriri eto-ẹkọ. Tẹ ibi lati wo profaili LinkedIn mi fun alaye diẹ sii.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Mi Ọjọgbọn Iriri",
+        "text": "Ọdun mẹfa-plus ti iriri imọ-ẹrọ ọjọgbọn kọja awọn ẹgbẹ ọja, awọn iru ẹrọ iṣowo, ati sọfitiwia ti nkọju si alabara. Iṣẹ mi ti pẹlu kikọ awọn fẹlẹfẹlẹ ohun elo ti o le ṣetọju, ifọwọsowọpọ kọja awọn ilana ifijiṣẹ, ati ṣiṣe awọn ipinnu imọ-ẹrọ pẹlu igbesi aye ọja, ṣiṣe ewu, ati nini igba pipẹ ni wiwo.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwin Portfolio wẹẹbù",
+        "text": "Portfolio React ti o ni inu iṣelọpọ ti o tọju iraye si ati arọwọto agbaye bi awọn ibeere imọ-ẹrọ. O pẹlu opo gigun ti epo ti o le ṣetọju fun awọn ede 100+, awọn irinṣẹ ibaraenisepo ti o ṣe atilẹyin nipasẹ WebAssembly, idahun ati awọn ilana UI wiwọle, ati faaji iṣẹ akanṣe kan ti a ṣe lati dagba bi iṣẹ tuntun ti wa ni gbigbe.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "Ile-ikawe iwulo ti awọn iwe afọwọkọ Lua fun itọkasi ọjọ iwaju. Ile-ikawe yii ni a lo lati ṣe adaṣe awọn iṣẹ ṣiṣe ni awọn iwe afọwọkọ Lua, eyiti o le wa ni ọwọ fun awọn iṣẹ ṣiṣe ti o nilo iṣẹ, nitori Lua nigbagbogbo jẹ ede kikọ ti o yara ju Python ati Ruby mejeeji lọ.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel Awọn iwe afọwọkọ (VBA)",
+        "text": "Ile-ikawe ti o wulo ti awọn iwe afọwọkọ VBA fun Microsoft Excel. Ile-ikawe yii ni a lo lati ṣe adaṣe awọn iṣẹ ṣiṣe ni awọn iwe kaakiri Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick ká Neovim konfigi",
+        "text": "Mi ti ara ẹni Neovim iṣeto ni. Iṣẹ akanṣe yii ni a lo lati tunto Neovim si ifẹran mi, pẹlu awọn bọtini bindings aṣa, awọn akori, ati awọn afikun. A lo iṣẹ akanṣe yii lati jẹ ki Neovim ni ore-olumulo diẹ sii ati lilo daradara fun lilo ti ara ẹni.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick ká Map monomono",
+        "text": "Ọpa ijabọ geospatial Python ti a ṣe pẹlu GeoPandas ati Matplotlib lati ṣe ipilẹṣẹ agbegbe AMẸRIKA ati awọn maapu ipinlẹ. O yi data agbegbe pada si awọn ohun elo itupalẹ kika, ti n ṣe afihan iṣaro opo gigun ti epo kan: yan awọn ile ikawe agbegbe ti o tọ, ṣe deede awọn igbewọle, ati gbejade awọn abajade ti atilẹyin ko o ipinnu.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick ká PowerShell Script Library",
+        "text": "Ile-ikawe iwulo ti awọn iwe afọwọkọ PowerShell fun itọkasi ọjọ iwaju. Wulo pẹlu ẹya-ara iwe afọwọkọ $profaili, Mo rii pe eyi ṣe iranlọwọ pupọ fun ṣiṣe adaṣe awọn iṣẹ ṣiṣe lati ebute Windows, nitori Mo jẹ olumulo loorekoore ti Windows OS.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick ká Ruby akosile Library",
+        "text": "Ile-ikawe ti o wulo ti awọn iwe afọwọkọ Ruby fun itọkasi ọjọ iwaju. Wulo fun awọn imọran idagbasoke Ruby lori Rails iwaju.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "PDF ogbon Akole",
+        "text": "Ṣiṣan iṣẹ ṣiṣe-igbasilẹ ti a ṣe pẹlu Python, Pdfkit, Jinja2, HTML, ati data JSON ti iṣeto. O yapa data atunlo lati awọn awoṣe igbejade lati ṣe agbekalẹ awọn atunṣe PDF ti o ni ibamu nigbagbogbo, ilana iṣe fun idinku iṣẹ afọwọṣe ati ṣiṣe awọn iwe iṣowo atunwi.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandel ìsekóòdù Project",
+        "text": "Eto afiwera ti awọn imuse 10+ Rijndael kọja 128-, 192-, ati awọn iyatọ 256-bit. Ṣiṣe atunṣe algorithm ti o ni aabo ni gbogbo awọn ede jẹ adaṣe ibawi ni awọn pato pato, ihuwasi idanwo, ati awọn opin gbigbe ipele ede, gbogbo awọn iwulo instincts fun awọn ọna šiše ti o kapa kókó data.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Mod Minecraft ti o ṣafikun awọn irinṣẹ aṣa, ihamọra, awọn agbajo eniyan, awọn bulọọki, awọn iwọn, ati ọpọlọpọ awọn ẹya diẹ sii si ere naa. Ti a ṣe pẹlu awọn ẹya Java 8-17 fun yiyan awọn ẹya Minecraft laarin 1.16 ati 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Ede siseto Tiger",
+        "text": "Ede siseto aṣa ati onitumọ ti a ṣe sinu Go lati ṣawari apẹrẹ asiko asiko ede, ihuwasi ipaniyan, ati awọn iṣowo iṣẹ. Ṣiṣakojọpọ rẹ si WebAssembly ati sisọpọ sinu portfolio ṣẹda gidi kan, oju ọja ti a ṣe ayẹwo fun imọ-ẹrọ ipele-ipele ju ki o lọ kuro ni iṣẹ bi a ibi ipamọ-nikan ṣàdánwò.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Tiger Tailgating Aleebu wẹẹbù",
+        "text": "Oju opo wẹẹbu React ti a firanṣẹ fun Clemson kan, iṣowo tailgating SC kan. Iṣẹ naa tumọ ẹbun iṣowo kekere kan si irin-ajo alabara ti o han gbangba ati wiwa wẹẹbu ti o gbẹkẹle, lilo ero ọja lati ṣe iranlọwọ fun agbari gidi kan ni iyipada anfani sinu ìgbökõsí ati wiwọle.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Turing Machine Project",
+        "text": "Idile ti o ju 30+ awọn imuse ti ẹrọ Turing. Ti a lo lati ṣe afihan pipe pipe fun awọn ede siseto oriṣiriṣi fun iwadii, pataki fun Ede Eto Tiger.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Ede siseto Tiger"
+  },
+  "contact": {
+    "title": "Kan si mi",
+    "header": "Ibi iwifunni",
+    "email": "pattygsocials@gmail.com",
+    "description": "Mo dahun si awọn ibeere lati imeeli ati awọn ifiranṣẹ LinkedIn. Emi yoo tun pe pada ti o ba pese nọmba mi nipasẹ ibẹrẹ tabi bibẹẹkọ, botilẹjẹpe Mo fẹ lati tọju nọmba foonu mi ni ikọkọ."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Ohun elo didara data ti o da lori ẹrọ aṣawakiri ti o fọwọsi ati ọna kika JSON ati YAML nipa lilo ẹrọ Go ti a ṣajọ si WebAssembly. Awọn faaji n tọju itọka si olumulo fun iyara, awọn esi ikọkọ lakoko imuse awọn ofin sintasi gidi ni aala data. O jẹ apẹẹrẹ iwapọ ti ṣiṣe apẹrẹ iṣan-iṣẹ idagbasoke idagbasoke ti o gbẹkẹle ni ayika titọ, iṣẹ, ati igbẹkẹle.",
+    "more_info1": "Fun alaye diẹ sii, tọka si README ninu",
+    "more_info2": "JSON/YAML Ibi ipamọ kika.",
+    "format_as": "Ilana Bi:",
+    "auto_detect": "Ṣawari Aifọwọyi",
+    "format": "Lint & Ọna kika",
+    "valid_json": "✓ JSON ti o wulo",
+    "valid_yaml": "✓ YAML ti o wulo",
+    "invalid_json": "JSON ti ko tọ",
+    "invalid_yaml": "YAML ti ko tọ",
+    "empty_input": "Jọwọ tẹ diẹ ninu JSON tabi YAML si lint.",
+    "too_large": "Iṣawọle ti tobi ju (o pọju 1MB laaye).",
+    "fixed_yaml_spacing": "⚠ YAML ni aye ti ko tọ / itọsi ṣugbọn o ti jẹ tito-laifọwọyi ati tito.",
+    "loading": "Iṣakojọpọ oluṣeto...",
+    "waiting_for_input": "Nduro fun titẹ sii...",
+    "load_failed": "Ko le fifuye kika.",
+    "output": "Abajade:",
+    "input_code": "Iṣawọle",
+    "json_examples": "Awọn apẹẹrẹ JSON",
+    "yaml_examples": "Awọn apẹẹrẹ YAML"
+  },
+  "tiger": {
+    "title": "Ede Tiger",
+    "description": "Tiger jẹ ede siseto aṣa ati Go onitumọ ti a ṣe lati ṣe iwadii faaji asiko asiko, atunmọ ede, ati awọn iṣowo iṣẹ ṣiṣe. Ṣiṣakojọpọ onitumọ si WebAssembly yipada pe awọn eto ṣiṣẹ sinu ibaraenisepo, ọja orisun ẹrọ aṣawakiri: awọn olumulo le ṣiṣẹ awọn eto taara lakoko asiko ṣiṣe wa ni gbigbe ati ki o ya sọtọ lati ogun ohun elo.",
+    "more_info1": "Fun alaye diẹ sii, tọka si README ninu",
+    "more_info2": "Tiger Programming Language GitHub Ibi ipamọ.",
+    "select_engine": "Yan Ẹrọ:",
+    "tiger_code": "Koodu Tiger:",
+    "run_tiger": "Run Tiger",
+    "output": "Abajade:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Onimọ-ẹrọ akopọ kikun agba pẹlu awọn ọdun 6+ ti iriri ti n ṣe apẹrẹ awọn ọja SaaS, awọn eto iṣelọpọ, ati sọfitiwia ti n pese owo-wiwọle."
+  },
+  "copy": {
+    "text": "Daakọ",
+    "copied": "Ti daakọ!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Tele me kalo"
+  },
+  "languages": {
+    "title": "Onitumọ Portfolio",
+    "description": "Ṣe afẹri bii portfolio mi ṣe le wọle si awọn alejo lati kakiri agbaye pẹlu atilẹyin fun awọn ede to ju 100 lọ.",
+    "global_accessibility": {
+      "title": "Agbaye Wiwọle",
+      "description": "Portfolio mi wa ni awọn ede ti o ju {count}, o jẹ ki o wa fun awọn alejo lati kakiri agbaye. Ọna multilingual yii ṣe afihan ifaramo mi si isunmọ ati arọwọto agbaye ni idagbasoke sọfitiwia.",
+      "stats": {
+        "languages_supported": "Awọn ede Atilẹyin",
+        "countries_represented": "Awọn orilẹ-ede Aṣoju",
+        "continents_covered": "Awọn agbegbe ti a bo"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Ede tiger tiger"
-    },
-    "contact": {
-        "title": "Kan si mi",
-        "header": "Ibi iwifunni",
-        "email": "Pattygocials@gmail.com",
-        "description": "Mo dahun lati ṣe iwadii lati imeeli, Awọn ifiranṣẹ Linked, ati awọn ifiranṣẹ . Mo tun yoo pe pada ti nọmba mi ba pese nipasẹ bẹrẹ tabi bibẹẹkọ, botilẹjẹpe Mo fẹ lati tọju nọmba foonu mi ni ikọkọ."
-    },
-    "formatter": {
-        "title": "JonS & Yuml Role",
-        "description": "Ṣafihan JSSS & Yuml & Yuml ti o fun ọ laaye lati ṣe iru awọn faili Json ati awọn faili yaml. O ti kọ pẹlu lọ ati aalaye, ati pe o ṣe apẹrẹ lati yara ati lilo daradara. A ṣe apẹrẹ agbekalẹ lati rọrun lati lo, pẹlu wiwo ti o rọrun ti o fun ọ laaye lati lẹẹmọ ninu KỌRỌ JSSA tabi Kamn ati ọna kika rẹ pẹlu tẹ bọtini kan.",
-        "more_info1": "Fun alaye diẹ sii, tọka si kika kika ninu",
-        "more_info2": "Ibudopo Rosing Json / Yaml.",
-        "format_as": "Ọna kika bi:",
-        "auto_detect": "Auto rii",
-        "format": "Ọna kika",
-        "valid_json": "✓ Valid JSON",
-        "valid_yaml": "✓ Valid YAML",
-        "invalid_json": "Invalid JSON",
-        "invalid_yaml": "YAML ti ko tọ",
-        "empty_input": "Please enter some JSON or YAML to lint.",
-        "too_large": "Input too large (max 1MB allowed).",
-        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
-    },
-    "tiger": {
-        "title": "Ede Tiger",
-        "description": "Ede ti Tiger ti Tiger jẹ ede siseto aṣa ti a ṣe ni awọn mejeeji lọ & ipata lati ni ajọ pẹlu apẹrẹ ati iṣẹ. Ti a ṣe lori oju opo wẹẹbu Portfolio ni lilo Apejọ wẹẹbu. Ede ti Tiger ti Tiger jẹ ede siseto aṣa ti a ṣe ni awọn mejeeji lọ & ipata lati ni ajọ pẹlu apẹrẹ ati iṣẹ. Ti a ṣe lori oju opo wẹẹbu Portfolio ni lilo Apejọ wẹẹbu.",
-        "more_info1": "Fun alaye diẹ sii, tọka si kika kika ninu",
-        "more_info2": "Ibi ipamọ ede tiger ti n ṣe agbelera.",
-        "select_engine": "Yan Engé:",
-        "tiger_code": "Koodu Tiger:",
-        "run_tiger": "Ṣiṣe Tiger",
-        "output": "Ayọ:"
-    },
-    "tab": {
-        "title": "Patrick goodwin",
-        "description": "Ilọkuro sọfitiwia iboju kikun orisun ni Clarrida"
-    },
-    "copy": {
-        "text": "Ẹda",
-        "copied": "Daakọ!"
-    },
-    "social_media": {
-        "github": "Gitter",
-        "linkedin": "Lindedin",
-        "youtube": "Youtube",
-        "text_strip": "Tele me kalo"
-    },
-    "languages": {
-        "title": "Onitumọ portfolio",
-        "description": "Ṣawari bi player mi ṣe yara si awọn alejo lati kakiri agbaye pẹlu atilẹyin fun awọn ede 100.",
-        "global_accessibility": {
-            "title": "Wiwọle kariaye",
-            "description": "Portfolio mi wa nibẹ lori {ka ► Awọn ede, ṣiṣe ni wiwọle si awọn alejo lati kakiri agbaye. Ọna miiran ti eniyan ti ṣafihan ifaramo mi si ifisi ati de ọdọ wa ninu idagbasoke sọfitiwia.",
-            "stats": {
-                "languages_supported": "Awọn ede ṣe atilẹyin",
-                "countries_represented": "Awọn orilẹ-ede ṣe aṣoju",
-                "continents_covered": "Awọn ara ti bo"
-            }
+    "features": {
+      "title": "Awọn ẹya ara ẹrọ",
+      "items": [
+        {
+          "title": "Itumọ akoko gidi:",
+          "description": "Yipada awọn ede lesekese pẹlu oluyan ede"
         },
-        "features": {
-            "title": "Awọn ẹya",
-            "items": [
-                {
-                    "title": "Translation akoko gidi:",
-                    "description": "Yipada awọn ede lesekese pẹlu yiyan ede"
-                },
-                {
-                    "title": "Eko ti o da lori url:",
-                    "description": "Awọn ayanfẹ ede ti wa ni itọju ninu URL"
-                },
-                {
-                    "title": "Atilẹyin iwe afọwọkọ abinibi:",
-                    "description": "Ti o yẹ fun mimu awọn iwe afọwọkọ bi arabic, Kannada, Hindi, ati diẹ sii"
-                },
-                {
-                    "title": "Ijinlẹ aṣa:",
-                    "description": "Awọn itumọ pinnu Ipinle asa, kii ṣe awọn itumọ gangan nikan"
-                },
-                {
-                    "title": "SEO ireti:",
-                    "description": "Iyatọ ede kọọkan jẹ iṣapeye fun awọn ẹrọ wiwa"
-                }
-            ]
+        {
+          "title": "Ede orisun URL:",
+          "description": "Awọn ayanfẹ ede ti wa ni ipamọ ni URL"
         },
-        "world_map": {
-            "title": "Maapu agbaye",
-            "description": "Rababa lori awọn orilẹ-ede lori maapu lati rii awọn ede ti o ni atilẹyin wọn:",
-            "languages_label": "Awọn ede",
-            "legend": {
-                "supported": "Awọn ede ṣe atilẹyin",
-                "not_supported": "Ko si atilẹyin ede"
-            },
-            "zoom_controls": {
-                "zoom_in": "Sun sinu",
-                "zoom_out": "Sun sita",
-                "reset": "Tun Ibi Tun"
-            }
+        {
+          "title": "Atilẹyin Iwe afọwọkọ abinibi:",
+          "description": "Ṣiṣe awọn iwe afọwọkọ ti o tọ bi Arabic, Kannada, Hindi, ati diẹ sii"
         },
-        "supported_languages": {
-            "title": "Awọn ede atilẹyin"
+        {
+          "title": "Ifamọ aṣa:",
+          "description": "Àwọn ìtumọ̀ gbé àyíká ọ̀rọ̀ àṣà yẹ̀wò, kìí ṣe àwọn ìtumọ̀ gidi"
         },
-        "interactive_country_map": {
-            "title": "Ifiweranṣẹ orilẹ-ede ibanisọrọ",
-            "description": "Rababa lori awọn orilẹ-ede ni isalẹ lati rii awọn ede ti o ni atilẹyin wọn:",
-            "language_count": {
-                "single": "ede",
-                "multiple": "Awọn ede"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Ko si atilẹyin ede"
+        {
+          "title": "SEO Imudara:",
+          "description": "Iyatọ ede kọọkan jẹ iṣapeye fun awọn ẹrọ wiwa"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Ibanisọrọ World Map",
+      "description": "Raba lori awọn orilẹ-ede lori maapu lati wo awọn ede atilẹyin wọn:",
+      "languages_label": "Awọn ede",
+      "legend": {
+        "supported": "Awọn ede Atilẹyin",
+        "not_supported": "Ko si Atilẹyin Ede"
+      },
+      "zoom_controls": {
+        "zoom_in": "Sun-un sinu",
+        "zoom_out": "Sun-un Jade",
+        "reset": "Tun Wiwo"
+      }
+    },
+    "supported_languages": {
+      "title": "Awọn ede atilẹyin"
+    },
+    "interactive_country_map": {
+      "title": "Map Orilẹ-ede Ibanisọrọ",
+      "description": "Raba lori awọn orilẹ-ede ni isalẹ lati wo awọn ede atilẹyin wọn:",
+      "language_count": {
+        "single": "ede",
+        "multiple": "awọn ede"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Ko si atilẹyin ede"
+    }
+  },
+  "logotext": "PATRICK"
 }

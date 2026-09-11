@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Kotiin",
-        "about": "Minusta",
-        "portfolio": "Salkku",
-        "projects": "Verkkosivustoprojektit",
-        "tiger": "Tiikerikieli",
-        "portfolio_translator": "Salkun kääntäjä",
-        "formatter": "JSON & YAML FORMATTER",
-        "contact": "Ottaa yhteyttä minuun"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Kotiin",
+    "about": "Tietoja minusta",
+    "portfolio": "Portfolio",
+    "projects": "Verkkosivustoprojektit",
+    "tiger": "Tiikerin kieli",
+    "portfolio_translator": "Portfolion kääntäjä",
+    "formatter": "JSON- ja YAML-muotoilija",
+    "contact": "Ota minuun yhteyttä"
+  },
+  "home": {
+    "title": "Vanhempi Full-Stack-insinööri | Tuotteet ja järjestelmät",
+    "animated": {
+      "first": "Vanhempi Full-Stack-insinööri",
+      "second": "Systems & Architecture Builder",
+      "third": "SaaS-tuoteinsinööri",
+      "fourth": "Luotettava ohjelmisto, liiketoiminnan tulokset"
     },
-    "home": {
-        "title": "Kotiin",
-        "animated": {
-            "first": "Täysin pino -ohjelmistoinsinööri",
-            "second": "Web -kehittäjä",
-            "third": "Pelin kehittäjä",
-            "fourth": "Sisällöntuottaja"
-        },
-        "footer": "Verkkosivusto, joka on nyt käännetty ja saatavissa yli 100 kielellä!",
-        "descriptionA": "Kokenut koko pino-ohjelmistoinsinööri ja web-kehittäjä, jolla on osoitettu historia menestyksekkäästi johtavien kehitysprojektien luomisesta Java-muutoksien luomisesta Minecraftin käyttäjäkokemuksen parantamiseen React.js: ssä ja turvallisten REST-sovellusliittymien toteuttamiseen, samalla kun se käyttää jatkuvasti ketteriä menetelmiä ja tehokasta ryhmäyhteistyötä.",
-        "descriptionB": "Lisäksi olen maantieteen sisällön luoja, joka on onnistuneesti hyödyntänyt useiden sosiaalisen median alustojen, kuten , YouTube ja , algoritmeja saadakseen kunnioitetun ja kiinnostavan seuraajapohjan.",
-        "portfolio_button": "Minun salkuni",
-        "contact_button": "Ottaa yhteyttä minuun",
-        "about_button": "Minusta"
+    "footer": "Verkkosivusto on nyt käännetty ja saatavilla yli 100 kielelle!",
+    "descriptionA": "Vanhempi täyspino-insinööri, jolla on yli 6 vuoden kokemus tuotteiden moniselitteisistä vaatimuksista luotettaviin tuotantojärjestelmiin. Suunnittelen React-, Angular-, .NET-, Node.js-, Java-, C#-, Go- ja SQL-sovellusten arkkitehtuuria: selkeät palvelurajat, kestävät tietomallit, suojatut käyttötavat ja toimituspolut tiimit voivat toimia luottavaisin mielin.",
+    "descriptionB": "Työni yhdistää insinööripäätökset liiketoiminnan tuloksiin. Rakennan arvioiva SaaS, joka muuttaa laskentataulukkotiedot asiakasvalmiiksi ehdotuksiksi tuloja tuottaviin verkkoalustoihin. Rakennan ohjelmistoja työnkulun, riskien ja mitattavissa oleva arvo, jolla on merkitystä sitä käyttäville ihmisille.",
+    "portfolio_button": "Oma portfolioni",
+    "contact_button": "Ota minuun yhteyttä",
+    "about_button": "Tietoja minusta"
+  },
+  "about": {
+    "title": "Tietoja minusta",
+    "personal_summary": {
+      "title": "Henkilökohtainen yhteenveto",
+      "text": "Olen vanhempi täyden pinon insinööri, jonka kotipaikka on Orlando, FL ja joka omistaa polun tuoteongelmasta tuotantotulokseen. Teen teknologiavalintoja järjestelmän palveluksessa: .NET ja Entity Framework Core, kun vahvasti jäsennellyllä toimialueella ja testattavalla pysyvyydellä on väliä; Kulmikas tai reagoi monimutkaisena työnkulut tarvitsevat ylläpidettävän käyttöliittymän; Node.js tai Go, kun API, integrointi tai tehokas työkalu tarvitsee kohdistetun suoritusajan. SaaS-tuotteissa, sisäisissä työnkuluissa ja asiakaslähtöisissä alustoissa johdan selkeitä kompromisseja, turvallista ja joustavaa suunnittelua, automatisoitua testausta ja toimituskäytäntöjä, jotka auttaa tiimejä toimittamaan arvokkaita ohjelmistoja jättämättä operatiivista velkaa."
     },
-    "about": {
-        "title": "Minusta",
-        "personal_summary": {
-            "title": "Henkilökohtainen yhteenveto",
-            "text": "Orlandossa sijaitsevan FL: n kokeneena Full Stack -ohjelmistokehittäjänä olen osoittanut asiantuntemusta erilaisista tekniikoista, Java ja C ++ React.js ja Node.js. Olen esittänyt johtajuutta ja innovaatioita, mukaan lukien Minecraft -ohjelman ja aukioiden kuljettajien palkitsevan verkkosivuston kehittäminen Minecraftille ja palkitseva verkkosivusto kuorma -autojen kuljettajille. Sitoutumiseni huippuosaamiseen käy ilmi kyvystäni virtaviivaistaa projektinhallintaa, ratkaista monimutkaisia ​​ongelmia ja tarjota korkealaatuisia ratkaisuja, jotka parantavat käyttökokemusta ja lisäävät organisaation menestystä."
+    "professional_experience": {
+      "title": "Ammatillinen kokemus",
+      "entries": [
+        {
+          "jobtitle": "Vanhempi ohjelmistosuunnittelija",
+          "where": "Interaktiivinen suunnittelu",
+          "date": "2025 - Nykyinen"
         },
-        "professional_experience": {
-            "title": "Ammatillinen kokemus",
-            "entries": [
-                {
-                    "jobtitle": "Nuorempi ohjelmistoinsinööri",
-                    "where": "Orion180 vakuutus",
-                    "date": "2024 - läsnä"
-                },
-                {
-                    "jobtitle": "Perustaja ja täysi pino -ohjelmistokehittäjä",
-                    "where": "Suprememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Täysin pino -ohjelmistoinsinööri",
-                    "where": "Kiihdyttää oppimista",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Lead Web -kehittäjä (opiskelijaohjelma)",
-                    "where": "Clemson University GDI -ohjelma",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Työpöytävalvoja",
-                    "where": "Clemsonin yliopisto",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Työpöytävalvoja",
-                    "where": "Clemsonin yliopisto",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Ohjelmistoinsinööri",
+          "where": "Orion180 vakuutus",
+          "date": "2024-2025"
         },
-        "technical_skills": {
-            "title": "Tekniset taidot",
-            "header1": "Ohjelmointikielet",
-            "header2": "Kehykset ja kirjastot",
-            "header3": "Työkalut ja tekniikat"
+        {
+          "jobtitle": "Ohjelmistoinsinööri",
+          "where": "SupremeMC",
+          "date": "2020-2024"
         },
-        "services": {
-            "title": "Minun palveluni",
-            "entries": [
-                {
-                    "title": "Täysin pinotekniikka",
-                    "text": "Tarjoan kattavia ratkaisuja sekä etu- että taustakehityksessä, varmistaen saumattoman integroinnin ja toiminnallisuuden koko ohjelmistopinoon."
-                },
-                {
-                    "title": "Verkkokehitys",
-                    "text": "HTML-, CSS- ja JavaScript-kehysten, kuten React.js, asiantuntemuksen kanssa käsittelen visuaalisesti houkuttelevia ja käyttäjäystävällisiä verkkosivustoja, jotka on räätälöity vastaamaan asiakkaiden erityistarpeita ja mieltymyksiä."
-                },
-                {
-                    "title": "Pelikehitys",
-                    "text": "Hyödyntämällä kieliä, kuten Java ja C ++, olen erikoistunut syventävien pelikokemusten luomiseen konseptista ja suunnittelusta toteuttamiseen ja optimointiin, varmistaen kiinnostavan pelin ja sujuvan suorituskyvyn."
-                }
-            ]
+        {
+          "jobtitle": "Ohjelmistoinsinööri",
+          "where": "Nopeuta oppimista",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Johtava ohjelmistosuunnittelija (opiskelijaohjelma)",
+          "where": "Clemsonin yliopiston GDI-ohjelma",
+          "date": "2021-2022"
+        },
+        {
+          "jobtitle": "Työpöydän valvoja",
+          "where": "Clemsonin yliopisto",
+          "date": "2021-2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Salkku",
-        "filter_by": "Suodatin salkku:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca JSON",
-                "text": "Python -projekti, joka virtaviivaistaa kielen käännöksiä. Mahdollistaa verkkosivuston portfolion kääntämisen yli 70 kielelle, mukaan lukien espanja, ranska, kiina, arabia ja monet muut. Tätä projektia käytetään monikielisen verkkosivustoportfolion luomiseen, mikä on erittäin hyödyllistä tavoittaa laajempi yleisö. Tämän projektin avulla yli 99% maailmasta voi lukea portfolioni sujuvasti kielellä.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Yhdistä neljä",
-                "text": "Connect Four -pelin yli 50+ -toteutuksen massiivinen perhe. Tämä projekti sisältää toteutukset yli 30 eri ohjelmointikielellä, mukaan lukien Java, C ++, Python, JavaScript ja muut. Lisäksi se sisältää myös yli 20+ erilaista kehystä tai muita muotoja, mukaan lukien React.js, Ruby on Rails, ASP.NET ja paljon muuta.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Ruokakauppa",
-                "text": "Täydellinen koko pino .NET 9 Blazor Server -sovellus päivittäistavaroiden hallintaan. Sovellus seuraa ohjain/palvelu/arkistokuvio Entity Framework Core -sovelluksella pysyvyyden kannalta ja sisältää kattavan testisarjan.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Interop -projekti",
-                "text": "Projekti, joka dokumentoi eri ohjelmointikielten yhteentoimivuuden. Tällä hetkellä sisältää 15 erilaista ohjelmointikieliä ja 18 suoritusmallia.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Varastorekisteri",
-                "text": "Täysin pinon demo-myyntipiste (POS) rekisteröinti varastonhallintajärjestelmällä, joka on rakennettu Angular 17+: lla ja Node.js. Tämä sovellus osoittaa ammattimaisen POS-järjestelmän, jossa on käyttäjän todennus, roolipohjainen pääsynhallinta, varaston seuranta ja pilkkamaksujen käsittely.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & YAML Auto Formatter",
-                "text": "Linter ja automaattinen JSON & YAML -tiedostot. Tätä projektia käytetään JSON & YAML -tiedostojen muotoiluun, mikä on erittäin hyödyllistä koodin pitämisessä puhtaana ja järjestettynä. Rakennettu GO: lla, koottu webAssembly -sovelluksella ja upotettu salkkuuni verkkosivustoprojektiksi. Lisää muotoja tulevaisuudessa.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Nousumoottori",
-                "text": "Moderni rakentamisen arvioinnin ja nousun SaaS urakoitsijoille ja arvioijille. Se tuo CSV- ja Excel-tiedostoja, kartoittaa sarakkeet automaattisesti, laskee kaivanto- ja maanrakennustyömäärät, seuraa työvoimaa ja merkintöjä sekä luo asiakasvalmiita PDF- ja Word-tarjousehdotuksia viimeistellyllä React + Express -työnkululla.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft JSON -generaattori",
-                "text": "Kevyt JSON -generaattori, joka on rakennettu pythoniin Minecraft Resource & Data -paketteihin. Tätä projektia käytetään JSON -tiedostojen luomiseen Minecraft -modien, mukaan lukien mukautetut kohteet, lohkot ja yksiköt. Erittäin hyödyllinen paitsi mukautettujen datapakojen luomisessa, myös moduulien kanssa MOD -nimen kytkentäominaisuuden kautta.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Koulutuskokemukseni",
-                "text": "Henkilökohtaisten projektien rinnalla olen myös hankkinut lukuisia taitoja koulutuskokemuksesta. Napsauta tätä nähdäksesi LinkedIn -profiilini saadaksesi lisätietoja.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Ammatillinen kokemukseni",
-                "text": "Henkilökohtaisten projektien rinnalla olen myös hankkinut useita taitoja ammatilliselta kokemuksesta. Napsauta tätä nähdäksesi LinkedIn -profiilini saadaksesi lisätietoja.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Patrick Goodwin Portfolio -sivusto",
-                "text": "Tämä verkkosivusto on henkilökohtainen portfolio -verkkosivusto, joka on rakennettu React.js: n kanssa. Tätä hanketta käytetään taitojen ja projektien esittelyyn sekä potentiaalisten työnantajien alustan tarjoamiseen. Tätä projektia käytetään ammattimaisen online -läsnäolon luomiseen.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Patrickin Lua -käsikirjoituskirjasto",
-                "text": "Hyödyllinen LUA -skriptien kirjasto tulevaa viitettä varten. Tätä kirjastoa käytetään LUA-komentosarjojen tehtävien automatisointiin, jotka voivat olla hyödyllisiä suorituskyvyn tarvittavien tehtävien kannalta, koska Lua on yleensä nopeampi käsikirjoituskieli kuin sekä Python että Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Patrick's Microsoft Excel -laskentataulukon skriptit (VBA)",
-                "text": "Hyödyllinen VBA -skriptien kirjasto Microsoft Excelille. Tätä kirjastoa käytetään Automatisoimaan tehtäviä Excel -taulukkoissa.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patrickin neovim -kokoonpano",
-                "text": "Henkilökohtainen neovim -kokoonpanoni. Tätä projektia käytetään mieltymykseeni Neovimin määrittämiseen, mukaan lukien mukautetut Keybindings, teemat ja laajennukset. Tätä projektia käytetään Neovimin käyttäjäystävällisemmän ja tehokkaamman henkilökohtaiseen käyttöön.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Patrickin karttageneraattori",
-                "text": "Yhdysvaltain läänin ja osavaltion karttageneraattori, joka on rakennettu pythonilla geopandas- ja matplotlib -kirjastojen avulla. Tätä hanketta käytetään Yhdysvaltojen karttojen luomiseen, mukaan lukien läänin ja osavaltion kartat. Tätä projektia käytetään mukautettujen karttojen luomiseen datan visualisointiin ja analysointiin.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Patrickin PowerShell -käsikirjoituskirjasto",
-                "text": "Hyödyllinen PowerShell -skriptien kirjasto tulevaa viittausta varten. Hyödyllinen $ PROFECT -komentosarjan ominaisuudella, mielestäni tämä on erittäin hyödyllistä Windows -päätelaitteen tehtävien automatisointiin, koska olen Windows -käyttöjärjestelmän usein käyttäjä.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Patrickin Ruby -käsikirjoituskirjasto",
-                "text": "Hyödyllinen Ruby Scripts -kirjasto tulevaa viittausta varten. Hyödyllinen tulevaisuuden Ruby on Rails -kehityskonsepteille.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "PDF Skills Builder",
-                "text": "Mukautettu PDF -rakentaja, joka on rakennettu pythonilla PDFKIT- ja Jinja2 -laajennusten kautta, HTML- ja JSON -muotoilun rinnalla. Tätä projektia käytetään PDF -tiedostojen luomiseen taitojen ja projektien luettelosta. Tätä projektia voidaan käyttää mukautetun PDF -jatkamisen luomiseen, mikä on erittäin hyödyllistä työhakemuksissa.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Rijandel -salausprojekti",
-                "text": "Rijandel -salausalgoritmin 10+ toteutuksen perhe 128, 192 ja 256 bittiä. Tätä hanketta käytetään osoittamaan Rijandel -salausalgoritmi eri ohjelmointikielillä. Tätä hanketta käytetään Rijandel -salausalgoritmin toteutusperheen luomiseen.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Suprememc Minecraft Mod",
-                "text": "Minecraft -mod, joka lisää räätälöityjä työkaluja, panssaria, väkijoukkoja, lohkoja, mittoja ja monia muita pelin ominaisuuksia. Rakennettu Java-versioilla 8-17 valituille Minecraft-versioille välillä 1,16-1,20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Tiikeri -ohjelmointikieli",
-                "text": "Molemmat Go- että Rustissa rakennettujen ohjelmointikieli kokeilemaan tulkkien suunnittelua ja suorituskykyä. Toteutetaan salkun verkkosivustolla verkkokokoonpanon avulla.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiger Tailgating Pros -sivusto",
-                "text": "Verkkosivusto, jonka rakensin vuonna 2024 Tiger Tailgating Prosille, takaluukun yritys Clemsonissa, SC. Rakennettu React.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Turing Machine -projekti",
-                "text": "Yli 30+ Turingin koneiden toteutuksen perhe. Käytetään osoittamaan Turingin täydellisyyttä erilaisille ohjelmointikielille tutkimukselle, etenkin tiikeriohjelmointikielelle.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Tekniset taidot",
+      "header1": "Ohjelmointikielet",
+      "header2": "Kehykset ja kirjastot",
+      "header3": "Työkalut ja teknologiat"
+    },
+    "services": {
+      "title": "Omat palvelut",
+      "entries": [
+        {
+          "title": "Full Stack Engineering",
+          "text": "Johdan tuotteiden kokonaistoimitusta: liiketoiminnan työnkulkujen muuntamisen järjestelmärajoiksi, tietomalleiksi, API:iksi ja rajapinnoiksi, minkä jälkeen suoritan työn testauksen, käyttöönoton, ja iterointi. Tavoitteena on ohjelmisto, jota tiimi voi kehittää ja käyttää, ei kokoelma irrotettuja näyttöjä."
+        },
+        {
+          "title": "Tuote- ja alustaarkkitehtuuri",
+          "text": "Valitsen alustat ja mallit ongelman perusteella: kerrostetut .NET-palvelut yritysalueille, komponenttiohjatut Angular- tai React-sovellukset monimutkaisiin toimintoihin, relaatio tietomallit vastuullisiin työnkulkuihin ja integraatiot, jotka on suunniteltu vikatilat, kulunvalvonta ja ylläpidettävyys huomioon ottaen."
+        },
+        {
+          "title": "Tuotantovalmis toimitus",
+          "text": "Rakennan julkaisun jälkeisen todellisuuden kanssa: salaisuudet, jotka pidetään poissa lähteen hallinnasta, selkeät tietokannan siirtoreitit, roolipohjainen valtuutus, validointi järjestelmän rajoilla, automaattiset testit, CI/CD-tietoisuus ja käytännön havaittavuus. Nämä ovat yksityiskohtia, jotka tekevät prototyypistä luotettavan ohjelmiston."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "filter_by": "Portfolion suodatusperuste:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "Python-pohjainen lokalisointiputki, joka muuttaa yhden jäsennellyn sisältölähteen maailmanlaajuisesti käytettäväksi portfolioksi. Se käsittelee käännöstietoja ylläpidettävänä järjestelmänä manuaalisen sivukopion sijaan, mikä mahdollistaa sivuston skaalaamisen yli 100 kielelle ja tekee maailmanlaajuisesta kattavuuden toimintakyky kertaluonteisen ominaisuuden sijaan.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Yhdistä neljä",
+        "text": "Massiivinen perhe, jossa on yli 50 Connect Four -pelin toteutusta. Tämä projekti sisältää toteutuksia yli 30 eri ohjelmointikielellä, mukaan lukien Java, C++, Python, JavaScript ja paljon muuta. Lisäksi se sisältää myös yli 20 erilaista kehystä tai muuta muotoa, mukaan lukien React.js, Ruby on Rails, ASP.NET ja paljon muuta.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Päivittäistavarasovellus",
+        "text": "Täyspinon .NET 9 Blazor Server -sovellus, joka esittelee tarkoituksellista taustaarkkitehtuuria liiketoiminnan työnkulkua varten. Ohjain/palvelu/tietovarasto-jako pitää sovellussäännöt, tietojen käytön ja esityksen itsenäisesti testattavissa; Entity Framework Core tarjoaa kestävän pysyvyyden; ja kattava testipaketti suojaa käyttäytymistä tuotteen kehittyessä.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Yhteistyöprojekti",
+        "text": "Kielten välinen yhteentoimivuusviite, joka kattaa 15 ohjelmointikieltä ja 18 suoritusmallia. Projekti tutkii rajaa, jossa järjestelmät usein haurautuvat: prosessisopimukset, tiedonvaihto, ajonaikainen käyttäytyminen ja toistettavat integraatiopolut. Se kuvastaa järjestelmäajattelua, jota tarvitaan, kun tuote on suurempi kuin yksi pino.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Varastorekisteri",
+        "text": "Täysi pino myyntipiste- ja varastotyönkulku, joka on rakennettu Angular 17+:lla ja Node.js:llä. Se mallintaa B2B-järjestelmän toiminnallisia huolenaiheita: todennetut käyttäjät, roolipohjainen kulunvalvonta, varaston tarkkuus ja valemaksuvirta. Projekti on suunniteltu rekisteritiimin todellisen työn ympärille, ei vain kehysominaisuuksien luetteloon.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON ja YAML automaattinen muotoilu",
+        "text": "Selainpohjainen JSON- ja YAML-tarkistus- ja -muotoilutyökalu, joka on sisäänrakennettu Gossa ja käännetty WebAssemblyyn. Jäsennysmoottorin siirtäminen WASM:iin pitää vuorovaikutuksen responsiivisena ja paikallisena selaimelle samalla kun käytetään oikeaa jäsentäjää virheellisen syötteen havaitsemiseksi. Se on keskittynyt esimerkki suoritusaikaisen arkkitehtuurin valitsemisesta suorituskyvyn, siirrettävyyden ja käyttäjien luottamuksen kannalta.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Nousumoottori",
+        "text": "Rakennus, joka arvioi SaaS-palvelun, joka perustuu kalliin, virhealttiin urakoitsijan työnkulkuun. React + Express -tuote nielee CSV- ja Excel-tietoja, kartoittaa epäjohdonmukaiset sarakkeet käyttökelpoiseksi toimialuemalliksi, laskee kaivanto- ja maanrakennusmäärät, seuraa työ- ja merkintä ja tuottaa asiakasvalmiita PDF- ja Word-ehdotuksia. Tämä on tuotteen koko elinkaaren suunnittelu: tietojen jäsentäminen, laskentasäännöt, hienostunut operaattorin työnkulku ja toimitukset, jotka auttavat yritystä siirtymään raakasyötöstä tarjoukseen.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON-generaattori",
+        "text": "Pythoniin rakennettu kevyt JSON-generaattori Minecraft-resurssi- ja tietopaketteja varten. Tätä projektia käytetään JSON-tiedostojen luomiseen Minecraft-modeille, mukaan lukien mukautetut kohteet, lohkot ja entiteetit. Erittäin hyödyllinen paitsi mukautettujen tietopakettien luomiseen, myös modeihin myös modin nimen vaihtoominaisuuden kautta.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Koulutuskokemukseni",
+        "text": "Henkilökohtaisten projektieni ohella olen myös hankkinut lukuisia taitoja koulutuskokemuksesta. Napsauta tätä nähdäksesi LinkedIn-profiilini saadaksesi lisätietoja.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Ammattikokemukseni",
+        "text": "Yli kuusi vuotta ammatillista suunnittelukokemusta tuoteryhmistä, yritysalustoista ja asiakaskohtaisista ohjelmistoista. Työhöni on kuulunut ylläpidettävien sovelluskerrosten rakentaminen, toimitusalojen välinen yhteistyö ja teknisten päätösten tekeminen tuotteen elinkaaren, toiminnallisen riski ja pitkäaikainen omistus.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwin -portfolion verkkosivusto",
+        "text": "Tuotantohenkinen React-portfolio, jossa saavutettavuus ja globaali ulottuvuus ovat suunnitteluvaatimuksia. Se sisältää ylläpidettävän käännösputken yli 100 kielelle, WebAssemblyn tukemat interaktiiviset työkalut, reagoivat ja helppokäyttöiset käyttöliittymämallit sekä projektiarkkitehtuurin suunniteltu kasvamaan sitä mukaa, kun uutta työtä lähetetään.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrickin Lua Script Library",
+        "text": "Hyödyllinen Lua-skriptien kirjasto myöhempää käyttöä varten. Tätä kirjastoa käytetään Lua-skriptien tehtävien automatisointiin, mikä voi olla hyödyllistä suorituskykyä vaativissa tehtävissä, koska Lua on yleensä nopeampi komentosarjakieli kuin sekä Python että Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrickin Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Hyödyllinen VBA-skriptien kirjasto Microsoft Excelille. Tätä kirjastoa käytetään tehtävien automatisointiin Excel-laskentataulukoissa.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Oma Neovim-kokoonpanoni. Tätä projektia käytetään Neovimin konfigurointiin haluamallani tavalla, mukaan lukien mukautetut näppäinyhdistelmät, teemat ja laajennukset. Tämän projektin tarkoituksena on tehdä Neovimista käyttäjäystävällisempi ja tehokkaampi henkilökohtaiseen käyttööni.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrickin karttageneraattori",
+        "text": "Pythonin geospatiaalinen raportointityökalu, joka on rakennettu GeoPandasin ja Matplotlibin avulla Yhdysvaltojen maakunta- ja osavaltiokarttojen luomiseen. Se muuttaa maantieteelliset tiedot luettavissa oleviksi analyysiartefakteiksi, jotka osoittavat dataputken ajattelutavan: valitse oikeat verkkotunnuksen kirjastot, normalisoi syötteet ja tuottaa tuloksia, jotka tukea selkeitä päätöksiä.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrickin PowerShell Script Library",
+        "text": "Hyödyllinen PowerShell-skriptien kirjasto myöhempää käyttöä varten. Hyödyllinen $profile-skriptiominaisuuden kanssa, mielestäni tämä on erittäin hyödyllinen tehtävien automatisoinnissa Windows-päätteestä, koska olen usein Windows-käyttöjärjestelmän käyttäjä.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Hyödyllinen Ruby-skriptien kirjasto myöhempää käyttöä varten. Hyödyllinen tuleville Ruby on Rails -kehityskonsepteille.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "PDF Skills Builder",
+        "text": "Asiakirjojen luomisen työnkulku, joka on rakennettu Python-, Pdfkit-, Jinja2-, HTML- ja strukturoiduilla JSON-tiedoilla. Se erottaa uudelleen käytettävät tiedot esitysmalleista luodakseen räätälöityjä PDF-ansioluetteloita johdonmukaisesti, mikä on käytännöllinen malli manuaalisen työn vähentämiseen ja yritysasiakirjojen tekemiseen. toistettavissa.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandelin salausprojekti",
+        "text": "Vertaileva joukko 10+ Rijndael-toteutusta 128-, 192- ja 256-bittisillä versioilla. Turvallisuusherkän algoritmin uudelleenkäyttööntäminen eri kielillä on kurinalaista harjoitusta tarkkojen määritelmien, testattavan toiminnan ja kielitason siirrettävyyden rajojen suhteen. kaikki hyödylliset vaistot arkaluonteisia tietoja käsitteleville järjestelmille.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Minecraft Mod, joka lisää peliin mukautettuja työkaluja, panssaria, väkijoukkoja, lohkoja, mittoja ja monia muita ominaisuuksia. Rakennettu Java-versioilla 8-17 tietyille Minecraft-versioille 1.16-1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Tiger ohjelmointikieli",
+        "text": "Mukautettu ohjelmointikieli ja sisäänrakennettu Go-tulkki tutkiaksesi kielen ajonaikaista suunnittelua, suorituskäyttäytymistä ja suorituskyvyn kompromisseja. Sen kääntäminen WebAssemblyyn ja integrointi portfolioon luo todellisen, tarkastettavan tuotepinnan järjestelmätason suunnittelulle sen sijaan, että työ jätettäisiin vain arkiston kokeilu.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Tiger Tailgating Pros -sivusto",
+        "text": "React-verkkosivusto toimitettu Clemson, SC:n takaluukkuliiketoiminnalle. Työ muuttaa pienyrityksen tarjonnan selkeäksi asiakaspoluksi ja luotettavaksi verkkonäkyvyydeksi soveltaen tuoteajattelua auttamaan todellista organisaatiota muuttamaan kiinnostuksen tiedusteluihin ja tuloihin.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Turingin koneprojekti",
+        "text": "Perhe, jossa on yli 30 Turingin koneen toteutusta. Käytetään osoittamaan täydellisyyttä eri ohjelmointikielille tutkimukseen, erityisesti Tiger-ohjelmointikielelle.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Tiger ohjelmointikieli"
+  },
+  "contact": {
+    "title": "Ota minuun yhteyttä",
+    "header": "Yhteystiedot",
+    "email": "pattygsocials@gmail.com",
+    "description": "Vastaan ​​tiedusteluihin sähköpostilla ja LinkedIn-viesteillä. Soitan myös takaisin, jos numeroni on annettu ansioluettelossa tai muuten, vaikka pidän puhelinnumeroni mieluummin yksityisenä."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Selainpohjainen tiedonlaatutyökalu, joka tarkistaa ja muotoilee JSON- ja YAML-tiedostoja WebAssemblyyn käännetyn Go-moottorin avulla. Arkkitehtuuri jäsentää jatkuvasti lähellä käyttäjää nopean, yksityisen palautteen saamiseksi samalla kun se valvoo todellisia syntaksisääntöjä tietorajoilla. Se on kompakti esimerkki luotettavan kehittäjän työnkulun suunnittelusta oikeellisuuden, suorituskyvyn ja luottamuksen ympärille.",
+    "more_info1": "Lisätietoja on kohdassa README",
+    "more_info2": "JSON/YAML-muotoiluvarasto.",
+    "format_as": "Muotoile muodossa:",
+    "auto_detect": "Automaattinen tunnistus",
+    "format": "Nukka ja muoto",
+    "valid_json": "✓ Kelvollinen JSON",
+    "valid_yaml": "✓ Kelvollinen YAML",
+    "invalid_json": "Virheellinen JSON",
+    "invalid_yaml": "Virheellinen YAML",
+    "empty_input": "Syötä JSON- tai YAML-koodi nukkaamaan.",
+    "too_large": "Syöte liian suuri (enintään 1 Mt sallittu).",
+    "fixed_yaml_spacing": "⚠ YAML:ssä oli virheellinen väli/sisennys, mutta se on korjattu ja muotoiltu automaattisesti.",
+    "loading": "Ladataan muotoilulaitetta...",
+    "waiting_for_input": "Odotetaan syöttöä...",
+    "load_failed": "Alustajaa ei voi ladata.",
+    "output": "Lähtö:",
+    "input_code": "Syöte",
+    "json_examples": "JSON-esimerkkejä",
+    "yaml_examples": "YAML esimerkkejä"
+  },
+  "tiger": {
+    "title": "Tiikerin kieli",
+    "description": "Tiger on mukautettu ohjelmointikieli ja Go-tulkki, joka on suunniteltu tutkimaan ajonaikaista arkkitehtuuria, kielen semantiikkaa ja suorituskyvyn kompromisseja. Tulkin kääntäminen WebAssembly-muotoon muuttaa järjestelmien toimivuuden interaktiiviseksi, selainpohjaiseksi tuotteeksi: käyttäjät voivat suorittaa ohjelmia suoraan, kun suoritusaika pysyy kannettavana. ja eristetty isäntäsovelluksesta.",
+    "more_info1": "Lisätietoja on kohdassa README",
+    "more_info2": "Tiger-ohjelmointikielen GitHub-varasto.",
+    "select_engine": "Valitse moottori:",
+    "tiger_code": "Tiikerikoodi:",
+    "run_tiger": "Juokse Tiger",
+    "output": "Lähtö:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Vanhempi täyden pinon insinööri, jolla on yli 6 vuoden kokemus SaaS-tuotteiden, tuotantojärjestelmien ja tuloja tuottavien ohjelmistojen suunnittelusta."
+  },
+  "copy": {
+    "text": "Kopioida",
+    "copied": "Kopioitu!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Seuraa minua"
+  },
+  "languages": {
+    "title": "Portfolion kääntäjä",
+    "description": "Tutustu yli 100 kielen tukeen, miten portfolioni on vierailijoiden käytettävissä ympäri maailmaa.",
+    "global_accessibility": {
+      "title": "Globaali saavutettavuus",
+      "description": "Portfolioni on saatavilla yli {count} kielellä, joten se on vierailijoiden käytettävissä ympäri maailmaa. Tämä monikielinen lähestymistapa osoittaa sitoutumiseni inklusiivisuuteen ja maailmanlaajuiseen ulottuvuuteen ohjelmistokehityksessä.",
+      "stats": {
+        "languages_supported": "Tuetut kielet",
+        "countries_represented": "Edustetut maat",
+        "continents_covered": "Katetut maanosat"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Tiikeri -ohjelmointikieli"
-    },
-    "contact": {
-        "title": "Ottaa yhteyttä minuun",
-        "header": "Yhteystiedot",
-        "email": "pattygsocials@gmail.com",
-        "description": "Vastaan ​​tiedusteluihin sähköpostista, LinkedIn -viesteistä ja  -viesteistä. Soitan myös takaisin, jos numeroni toimitetaan jatkamisen kautta tai muuten, vaikka pidän mieluummin puhelinnumeroni yksityisenä."
-    },
-    "formatter": {
-        "title": "JSON & YAML FORMATTER",
-        "description": "JSON & YAML Formatter on työkalu, jonka avulla voit muotoilla JSON- ja YAML -tiedostoja. Se on rakennettu GO: lla ja webSemblyllä, ja se on suunniteltu nopeaksi ja tehokkaaksi. Formatter on suunniteltu helppokäyttöiseksi, yksinkertaisella käyttöliittymällä, jonka avulla voit liittää JSON- tai YAML -koodiin ja muotoilla se painikkeen napsautuksella.",
-        "more_info1": "Lisätietoja on Readme",
-        "more_info2": "JSON/YAML Formatter -varasto.",
-        "format_as": "Muotona:",
-        "auto_detect": "Tunnistaa automaattisesti",
-        "format": "Muoto",
-        "valid_json": "✓ Kelvollinen JSON",
-        "valid_yaml": "✓ Kelvollinen YAML",
-        "invalid_json": "Virheellinen JSON",
-        "invalid_yaml": "Virheellinen YAML",
-        "empty_input": "Syötä JSON- tai YAML-koodi nukkaamaan.",
-        "too_large": "Syöttö liian suuri (enintään 1 Mt sallittu).",
-        "fixed_yaml_spacing": "⚠ YAML:ssä oli virheellinen väli/sisennys, mutta se on korjattu ja muotoiltu automaattisesti."
-    },
-    "tiger": {
-        "title": "Tiikerikieli",
-        "description": "Tiikeri -ohjelmointikieli on räätälöity ohjelmointikieli, joka on rakennettu sekä Goissa kokeillakseen tulkkien suunnittelua ja suorituskykyä. Toteutetaan salkun verkkosivustolla verkkokokoonpanon avulla. Tiikeri -ohjelmointikieli on räätälöity ohjelmointikieli, joka on rakennettu sekä Goissa kokeillakseen tulkkien suunnittelua ja suorituskykyä. Toteutetaan salkun verkkosivustolla verkkokokoonpanon avulla.",
-        "more_info1": "Lisätietoja on Readme",
-        "more_info2": "Tiger -ohjelmointikieli Github -arkisto.",
-        "select_engine": "Valitse moottori:",
-        "tiger_code": "Tiikerikoodi:",
-        "run_tiger": "Ajaa tiikeriä",
-        "output": "Lähtö:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Floridassa sijaitseva Full Stack -ohjelmistoinsinööri"
-    },
-    "copy": {
-        "text": "Kopioida",
-        "copied": "Kopioi!"
-    },
-    "social_media": {
-        "github": "Github",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube",
-        "text_strip": "Seurata minua"
-    },
-    "languages": {
-        "title": "Salkun kääntäjä",
-        "description": "Tutustu kuinka salkuni on käytettävissä vierailijoille ympäri maailmaa tuella yli 100 kielelle.",
-        "global_accessibility": {
-            "title": "Globaali saatavuus",
-            "description": "Portfolioni on saatavana yli {kreivi} kielillä, mikä tekee siitä kävijöiden saataville ympäri maailmaa. Tämä monikielinen lähestymistapa osoittaa sitoutumiseni osallisuuteen ja globaaliin tavoitteisiin ohjelmistokehityksessä.",
-            "stats": {
-                "languages_supported": "Kielet tuettu",
-                "countries_represented": "Edustettuna",
-                "continents_covered": "Maanosat peitetty"
-            }
+    "features": {
+      "title": "Ominaisuudet",
+      "items": [
+        {
+          "title": "Reaaliaikainen käännös:",
+          "description": "Vaihda kieltä välittömästi kielenvalitsimella"
         },
-        "features": {
-            "title": "Piirteet",
-            "items": [
-                {
-                    "title": "Reaaliaikainen käännös:",
-                    "description": "Vaihda kielet heti kielenvalitsimella"
-                },
-                {
-                    "title": "URL-URL-pohjainen kieli:",
-                    "description": "Kieli -mieltymykset säilyvät URL -osoitteessa"
-                },
-                {
-                    "title": "Alkuperäinen käsikirjoitustuki:",
-                    "description": "Skriptien, kuten arabian, kiinan, hindin ja muun, asianmukainen renderointi"
-                },
-                {
-                    "title": "Kulttuurinen herkkyys:",
-                    "description": "Käännökset tarkastelevat kulttuurista kontekstia, ei vain kirjaimellisia merkityksiä"
-                },
-                {
-                    "title": "SEO optimoitu:",
-                    "description": "Jokainen kielivariantti on optimoitu hakukoneisiin"
-                }
-            ]
+        {
+          "title": "URL-pohjainen kieli:",
+          "description": "Kieliasetukset säilyvät URL-osoitteessa"
         },
-        "world_map": {
-            "title": "Interaktiivinen maailmankartta",
-            "description": "Hajauta kartan maista nähdäksesi niiden tuetut kielet:",
-            "languages_label": "Kielet",
-            "legend": {
-                "supported": "Kielet tuettu",
-                "not_supported": "Ei kielitukea"
-            },
-            "zoom_controls": {
-                "zoom_in": "Loiutua",
-                "zoom_out": "Zoomata",
-                "reset": "Nollaa näkymä"
-            }
+        {
+          "title": "Alkuperäisen komentosarjan tuki:",
+          "description": "Oikea kirjoitusten, kuten arabian, kiinan, hindin ja muiden kirjoitusten toisto"
         },
-        "supported_languages": {
-            "title": "Tuetut kielet"
+        {
+          "title": "Kulttuurinen herkkyys:",
+          "description": "Käännöksissä otetaan huomioon kulttuurinen konteksti, ei vain kirjaimelliset merkitykset"
         },
-        "interactive_country_map": {
-            "title": "Interaktiivinen maakartta",
-            "description": "Hanki alla olevien maiden yli nähdäksesi niiden tuetut kielet:",
-            "language_count": {
-                "single": "kieli",
-                "multiple": "kielet"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Ei kielitukea"
+        {
+          "title": "SEO optimoitu:",
+          "description": "Jokainen kieliversio on optimoitu hakukoneille"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Interaktiivinen maailmankartta",
+      "description": "Vie hiiri kartalla maiden päälle nähdäksesi niiden tuetut kielet:",
+      "languages_label": "Kielet",
+      "legend": {
+        "supported": "Tuetut kielet",
+        "not_supported": "Ei kielitukea"
+      },
+      "zoom_controls": {
+        "zoom_in": "Lähennä",
+        "zoom_out": "Loitonna",
+        "reset": "Palauta näkymä"
+      }
+    },
+    "supported_languages": {
+      "title": "Tuetut kielet"
+    },
+    "interactive_country_map": {
+      "title": "Interaktiivinen maakartta",
+      "description": "Vie hiiri alla olevien maiden päälle nähdäksesi tuetut kielet:",
+      "language_count": {
+        "single": "kieli",
+        "multiple": "kieliä"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Ei kielitukea"
+    }
+  },
+  "logotext": "PATRICK"
 }

@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Áit",
-        "about": "Maidir liomsa",
-        "portfolio": "Plaiscf",
-        "projects": "Tionscadail láithreán gréasáin",
-        "tiger": "Teanga Tíogair",
-        "portfolio_translator": "Aistritheoir punainne",
-        "formatter": "Formatter Json & Yaml",
-        "contact": "Déan teagmháil liom"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Baile",
+    "about": "Maidir liomsa",
+    "portfolio": "Punann",
+    "projects": "Tionscadail Láithreán Gréasáin",
+    "tiger": "Teanga Tíogair",
+    "portfolio_translator": "Aistritheoir Punann",
+    "formatter": "Formáideoir JSON & YAML",
+    "contact": "Déan Teagmháil liom"
+  },
+  "home": {
+    "title": "Innealtóir Sinsearach Iomlán Cruach | Táirge & Córais",
+    "animated": {
+      "first": "Innealtóir Sinsearach Iomlán Cruach",
+      "second": "Tógálaí Córais & Ailtireachta",
+      "third": "Innealtóir Táirge SaaS",
+      "fourth": "Bogearraí Iontaofa, Torthaí Gnó"
     },
-    "home": {
-        "title": "Áit",
-        "animated": {
-            "first": "Innealtóir Bogearraí Stack Iomlán",
-            "second": "Forbróir gréasáin",
-            "third": "Forbróir cluiche",
-            "fourth": "Cruthaitheoir Ábhar"
-        },
-        "footer": "Láithreán Gréasáin Aistrithe & Avableiable anois i 100+ Teanga!",
-        "descriptionA": "Taithí ar Innealtóir Bogearraí agus Forbróir Gréasáin Taithí le stair léirithe de thionscadail forbartha atá i gceannas go rathúil, ó mhodhnuithe Java a chruthú do Minecraft chun taithí an úsáideora a fheabhsú i React.js agus APIs REST slán a chur i bhfeidhm, agus modheolaíochtaí Agile agus comhoibriú éifeachtach foirne a fhostú go comhsheasmhach.",
-        "descriptionB": "Ina theannta sin, is cruthaitheoir ábhair thíreolaíochta mé a bhfuil na halgartaim de na hardáin il -mheáin shóisialta a ghiaráil go rathúil, lena n -áirítear , YouTube, agus , chun bonn leanúnach agus tarraingteach a fháil.",
-        "portfolio_button": "Mo phunann",
-        "contact_button": "Déan teagmháil liom",
-        "about_button": "Maidir liomsa"
+    "footer": "Suíomh Gréasáin aistrithe anois & ar fáil i 100+ teanga!",
+    "descriptionA": "Innealtóir sinsearach lánchruach le 6+ bliain de thaithí ag tógáil táirgí ó riachtanais débhríocha go córais táirgthe iontaofa. Dearaím an ailtireacht taobh thiar d’fheidhmchláir React, Angular, .NET, Node.js, Java, C#, Go, agus SQL: teorainneacha seirbhíse soiléire, samhlacha buana sonraí, patrúin rochtana slán, agus is féidir le foirne bealaí seachadta oibriú go muiníneach.",
+    "descriptionB": "Ceanglaíonn mo chuid oibre cinntí innealtóireachta le torthaí gnó. Ó SaaS a dhéanann meastachán tógála a athraíonn sonraí scarbhileog ina dtograí atá réidh le cliaint go hardáin ghréasáin a ghineann ioncam, tógaim bogearraí timpeall ar an sreabhadh oibre, riosca agus luach intomhaiste atá tábhachtach do na daoine a úsáideann é.",
+    "portfolio_button": "Mo Phunann",
+    "contact_button": "Déan Teagmháil liom",
+    "about_button": "Maidir liomsa"
+  },
+  "about": {
+    "title": "Maidir liomsa",
+    "personal_summary": {
+      "title": "Achoimre Phearsanta",
+      "text": "Is innealtóir sinsearach lánchruach mé atá lonnaithe in Orlando, FL ar leis an gcosán ó fhadhb an táirge go dtí an toradh táirgthe. Déanaim roghanna teicneolaíochta maidir le seirbhís an chórais: .NET agus Unitity Framework Core nuair is fearann ​​struchtúrtha láidir é agus ábhar marthanachta intástáilte; Uillinn nó Imoibriú nuair a bhíonn sé casta tá comhéadan inchothaithe de dhíth ar shreafaí oibre; Node.js nó Téigh nuair a bhíonn am rite dírithe ag teastáil ó uirlis API, comhtháthú nó ardfheidhmíochta. Ar fud táirgí SaaS, sreafaí oibre inmheánacha, agus ardáin atá dírithe ar chustaiméirí, treoraím le malairtí follasacha, dearadh slán agus athléimneach, tástáil uathoibrithe, agus cleachtais seachadta a cabhrú le foirne bogearraí luachmhara a sheoladh gan fiacha oibríochta a fhágáil taobh thiar de."
     },
-    "about": {
-        "title": "Maidir liomsa",
-        "personal_summary": {
-            "title": "Achoimre phearsanta",
-            "text": "Mar fhorbróir bogearraí stac iomlán a bhfuil taithí aige in Orlando, FL, léirigh mé saineolas i dteicneolaíochtaí éagsúla, ó Java agus C ++ go React.js agus Node.js. Le cuntas teiste ar thionscadail cheannródaíocha, lena n -áirítear clár modhnaithe Java a fhorbairt do Minecraft agus suíomh gréasáin luachmhar do thiománaithe trucailí, thaispeáin mé ceannaireacht agus nuálaíocht. Tá mo thiomantas do shármhaitheas le feiceáil i mo chumas chun bainistíocht tionscadail a shruthlíniú, fadhbanna casta a réiteach, agus réitigh ardchaighdeáin a sheachadadh a fheabhsaíonn taithí an úsáideora agus a spreagann rath eagraíochtúil."
+    "professional_experience": {
+      "title": "Taithí Ghairmiúil",
+      "entries": [
+        {
+          "jobtitle": "Innealtóir Sinsearach Bogearraí",
+          "where": "Dearadh Idirghníomhach",
+          "date": "2025 - i láthair"
         },
-        "professional_experience": {
-            "title": "Taithí ghairmiúil",
-            "entries": [
-                {
-                    "jobtitle": "Innealtóir Bogearraí Sóisearach",
-                    "where": "Árachas Orion180",
-                    "date": "2024 - i láthair"
-                },
-                {
-                    "jobtitle": "Forbróir Bogearraí Bunaitheoir & Iomlán Stack",
-                    "where": "SuppremeMC",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Innealtóir Bogearraí Stack Iomlán",
-                    "where": "Luasghéarú ar an bhfoghlaim",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Príomh -Fhorbróir Gréasáin (Clár na Mac Léinn)",
-                    "where": "Clár GDI Ollscoil Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Maoirseoir deisce",
-                    "where": "Ollscoil Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Maoirseoir deisce",
-                    "where": "Ollscoil Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Innealtóir Bogearraí",
+          "where": "Árachas Orion180",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Scileanna teicniúla",
-            "header1": "Teangacha Clárúcháin",
-            "header2": "Creataí & Leabharlanna",
-            "header3": "Uirlisí & Teicneolaíochtaí"
+        {
+          "jobtitle": "Innealtóir Bogearraí",
+          "where": "UachtarachMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Mo Sheirbhísí",
-            "entries": [
-                {
-                    "title": "Innealtóireacht Stack Iomlán",
-                    "text": "Tairgim réitigh chuimsitheacha ar fud na forbartha tosaigh agus na cúlraí araon, ag cinntiú comhtháthú agus feidhmiúlacht gan uaim ar fud an chairn bhogearraí ar fad."
-                },
-                {
-                    "title": "Forbairt gréasáin",
-                    "text": "Le saineolas i gcreataí HTML, CSS, agus JavaScript mar React.js, déanaim ceardaíocht a dhéanamh ar shuíomhanna gréasáin atá tarraingteach ó thaobh amhairc de agus atá éasca le húsáid chun freastal ar riachtanais agus roghanna sonracha na gcliant."
-                },
-                {
-                    "title": "Forbairt cluichí",
-                    "text": "Teangacha ar nós Java agus C ++ a ghiaráil, déanaim speisialtóireacht ar eispéiris chearrbhachais tumtha a chruthú, ó choincheap agus ó dhearadh go cur i bhfeidhm agus leas iomlán a bhaint, ag cinntiú go bhfuil gameplay agus feidhmíocht réidh ann."
-                }
-            ]
+        {
+          "jobtitle": "Innealtóir Bogearraí",
+          "where": "Foghlaim a luathú",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Innealtóir Bogearraí Ceannais (Clár Mac Léinn)",
+          "where": "Clár GDI Ollscoil Clemson",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Maoirseoir Deasc",
+          "where": "Ollscoil Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Plaiscf",
-        "filter_by": "Punann Scagtha le:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca Json",
-                "text": "Tionscadal Python a dhéanann aistriúcháin teanga a shruthlíniú. Ceadaíonn sé go n -aistreofaí mo phunann láithreán gréasáin go 70+ teanga, lena n -áirítear Spáinnis, Fraincis, Sínis, Araibis, agus go leor eile. Úsáidtear an tionscadal seo chun punann láithreán gréasáin ilteangach a chruthú, rud atá an -úsáideach chun lucht féachana níos leithne a bhaint amach. Leis an tionscadal seo, is féidir le níos mó ná 99% den domhan mo phunann a léamh i dteanga líofa.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Ceangail a ceathair",
-                "text": "Teaghlach ollmhór de bhreis is 50+ cur i bhfeidhm an chluiche Connect Four. Cuimsíonn an tionscadal seo cur i bhfeidhm i níos mó ná 30 teanga chlársceidealaithe, lena n -áirítear Java, C ++, Python, JavaScript, agus níos mó. Ina theannta sin, tá os cionn 20+ creatlach éagsúil nó formáidí eile ann, lena n -áirítear React.js, Ruby ar Rails, ASP.NET, agus níos mó.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Aip grósaeireachta",
-                "text": "Feidhmchlár iomlán iomlán. Leanann an t -iarratas an patrún rialaitheora/seirbhíse/stór le Creat Creatlach Eintitis le haghaidh marthanachta agus tá sraith tástála cuimsitheach ann.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Tionscadal idirghabhála",
-                "text": "Tionscadal a dhéanann doiciméadú ar idir -inoibritheacht idir teangacha cláir éagsúla. Faoi láthair tá 15 teanga chlársceidealaithe agus 18 bpatrún forghníomhaithe.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Clár fardail",
-                "text": "Cláraigh Pointe Díolacháin Phointe Díolacháin (POS) Stack lán le córas bainistíochta fardail a tógadh le uilleach 17+ agus node.js. Taispeánann an t-iarratas seo córas POS grád gairmiúil le fíordheimhniú úsáideora, rialú rochtana bunaithe ar ról, rianú fardail, agus próiseáil íocaíochta bréige.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "Formatter Auto Json & Yaml",
-                "text": "Linter & autoformatter do chomhaid JSON & YAML. Úsáidtear an tionscadal seo chun comhaid JSON & YAML a fhormáidiú, atá an -úsáideach chun cód a choinneáil glan agus eagraithe. Tógtha le Go, tiomsaithe le webassembly, agus leabaithe i mo phunann mar thionscadal láithreán gréasáin. Níos mó formáidí le teacht amach anseo.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Inneall éirí de thalamh",
-                "text": "SaaS meastacháin agus éirí de thalamh tógála do chonraitheoirí agus meastóirí. Allmhairíonn sé comhaid CSV agus Excel, colúin uathléarscáileanna, ríomhann sé méid tochailt trinsí agus créfoirt, rianaíonn sé saothair agus marcáil, agus gineann sé moltaí tairiscint PDF agus Word atá réidh le cliaint le sreabhadh oibre snasta React + Express.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Gineadóir Minecraft JSON",
-                "text": "Gineadóir JSON éadrom tógtha i Python le haghaidh pacáistí acmhainní & sonraí minecraft. Úsáidtear an tionscadal seo chun comhaid JSON a ghiniúint le haghaidh mods minecraft, lena n -áirítear míreanna saincheaptha, bloic agus aonáin. An -úsáideach ní hamháin chun sonraí saincheaptha a chruthú, ach le haghaidh mods chomh maith tríd an ngné lasctha ainm mod.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Mo thaithí oideachais",
-                "text": "Chomh maith le mo thionscadail phearsanta, tá go leor scileanna faighte agam freisin ó thaithí oideachais. Cliceáil anseo chun mo phróifíl LinkedIn a fheiceáil le haghaidh tuilleadh eolais.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Mo thaithí ghairmiúil",
-                "text": "Chomh maith le mo thionscadail phearsanta, tá go leor scileanna faighte agam ó thaithí ghairmiúil. Cliceáil anseo chun mo phróifíl LinkedIn a fheiceáil le haghaidh tuilleadh eolais.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Láithreán Gréasáin Punann Patrick Goodwin",
-                "text": "Is é an láithreán gréasáin seo mo shuíomh gréasáin punainne pearsanta, tógtha le react.js. Úsáidtear an tionscadal seo chun mo chuid scileanna agus tionscadal a thaispeáint, chomh maith le hardán a sholáthar d'fhostóirí ionchasacha chun teagmháil a dhéanamh liom. Úsáidtear an tionscadal seo chun láithreacht ghairmiúil ar líne a chruthú.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Leabharlann Script Lua Patrick",
-                "text": "Leabharlann úsáideach de scripteanna Lua le haghaidh tagartha amach anseo. Úsáidtear an leabharlann seo chun tascanna a uathoibriú i scripteanna Lua, ar féidir leo teacht chun cinn i leith tascanna a bhfuil géarghá leo, mar is gnách gur teanga scriptithe níos tapúla í Lua ná Python agus Ruby araon.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Scripteanna Scarbhileog Microsoft Excel Patrick (VBA)",
-                "text": "Leabharlann úsáideach de scripteanna VBA do Microsoft Excel. Úsáidtear an leabharlann seo chun tascanna a uathoibriú i scarbhileoga Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Cumraíocht Neovim Patrick",
-                "text": "Mo chumraíocht neovim phearsanta. Úsáidtear an tionscadal seo chun Neovim a chumrú le mo thaitneamh, lena n -áirítear eochair -chineálacha saincheaptha, téamaí, agus forlíontáin. Úsáidtear an tionscadal seo chun neovim a dhéanamh níos éasca le húsáid agus níos éifeachtaí le haghaidh mo úsáide pearsanta.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Gineadóir Léarscáil Patrick",
-                "text": "Gineadóir Léarscáil Chontae agus Stáit na Stát Aontaithe, a tógadh le Python ag baint úsáide as leabharlanna geopandas agus matplotlib. Úsáidtear an tionscadal seo chun léarscáileanna de na Stáit Aontaithe a ghiniúint, lena n -áirítear léarscáileanna contae agus stáit. Úsáidtear an tionscadal seo chun léarscáileanna saincheaptha a chruthú le haghaidh léirshamhlú agus anailís sonraí.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Leabharlann Script PowerShell Patrick's",
-                "text": "Leabharlann úsáideach de scripteanna PowerShell le haghaidh tagartha amach anseo. Tá sé úsáideach leis an ngné scripte $ próifíl, is dóigh liom go bhfuil sé seo an -chabhrach chun tascanna a uathoibriú ón gcríochfort Windows, mar is minic a bhíonn mé ag úsáid an Windows OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Leabharlann Script Ruby Patrick",
-                "text": "Leabharlann úsáideach de scripteanna Ruby le haghaidh tagartha amach anseo. Úsáideach do Ruby ar Choincheapa Forbraíochta Ráillí sa todhchaí.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Tógálaí Scileanna PDF",
-                "text": "Tógálaí saincheaptha PDF a tógadh le Python trí shíneadh PDFKit agus Jinja2, in éineacht le formáidiú HTML agus JSON. Úsáidtear an tionscadal seo chun comhaid PDF a ghiniúint ó liosta scileanna agus tionscadal. Is féidir an tionscadal seo a úsáid chun atosú PDF saincheaptha a chruthú, rud atá an -úsáideach le haghaidh feidhmchlár poist.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Tionscadal Criptithe Rijandel",
-                "text": "Teaghlach de 10+ cur i bhfeidhm an algartam criptithe Rijandel i 128, 192, agus 256 giotán. Úsáidtear an tionscadal seo chun an algartam criptithe Rijandel a léiriú i dteangacha cláir éagsúla. Úsáidtear an tionscadal seo chun teaghlach de chur i bhfeidhm an algartam criptithe Rijandel a chruthú.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Mod suprememc minecraft",
-                "text": "Mod Minecraft a chuireann uirlisí saincheaptha, armúr, mobs, bloic, toisí, agus go leor gnéithe eile sa chluiche. Tógtha le leaganacha Java 8-17 le haghaidh leaganacha minecraft a roghnú idir 1.16 agus 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Teanga chlársceidealaithe Tíogair",
-                "text": "Teanga chlárúcháin saincheaptha a tógadh i Go araon chun triail a bhaint as dearadh agus feidhmíocht ateangairí. Arna chur i bhfeidhm ar shuíomh gréasáin na punainne ag baint úsáide as Tionól Gréasáin.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Suíomh Gréasáin Buntáistí Tailgating Tiger",
-                "text": "Láithreán gréasáin a thóg mé i 2024 le haghaidh Tiger Tailgating Pros, cuideachta eireaball i Clemson, SC. Tógtha le react.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Tionscadal Meaisín Turing",
-                "text": "Teaghlach de níos mó ná 30+ cur i bhfeidhm an Turing Machine. Úsáidte chun iomláine Turing a léiriú do theangacha cláir éagsúla le haghaidh taighde, go háirithe don teanga chlársceidealaithe Tíogair.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Scileanna Teicniúla",
+      "header1": "Teangacha Cláir",
+      "header2": "Creataí & Leabharlanna",
+      "header3": "Uirlisí & Teicneolaíochtaí"
+    },
+    "services": {
+      "title": "Mo Sheirbhísí",
+      "entries": [
+        {
+          "title": "Innealtóireacht Stack Iomlán",
+          "text": "Treoraím seachadadh táirgí ó cheann ceann: ag aistriú sreafaí oibre gnó go teorainneacha córais, samhlacha sonraí, APInna, agus comhéadain, ansin an obair a iompar trí thástáil, trí imscaradh, agus atriall. Is é an sprioc bogearraí gur féidir le foireann éabhlóid agus oibriú, ní bailiúchán de scáileáin dícheangailte."
+        },
+        {
+          "title": "Ailtireacht Táirge & Ardán",
+          "text": "Roghnaím ardáin agus patrúin bunaithe ar an bhfadhb: seirbhísí cisealta .NET le haghaidh fearainn ghnó, feidhmchláir uillinneacha nó React le haghaidh oibríochtaí casta, caidreamh samhlacha sonraí le haghaidh sreafaí oibre cuntasacha, agus comhtháthú deartha le modhanna teipe, rialú rochtana, agus inchothaitheacht i gcuimhne."
+        },
+        {
+          "title": "Táirgeadh-Seachadadh Réidh",
+          "text": "Tógaim leis na réaltachtaí tar éis an tseolta i bhfianaise: rúin a choinnítear as rialú foinse, conairí follasacha ascnaimh bunachar sonraí, údarú bunaithe ar ról, bailíochtú ag teorainneacha córais, tástálacha uathoibrithe, feasacht CI/CD, agus inbhraiteadh praiticiúil. Is iad seo na sonraí a dhéanann bogearraí iontaofa ar fhréamhshamhail."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Punann",
+    "filter_by": "Scag an Phunann De réir:",
+    "entries": {
+      "biblioteca": {
+        "title": "Leabharliosta JSON",
+        "text": "Píblíne logánaithe bunaithe ar Python a athraíonn foinse ábhair struchtúrtha amháin ina phunann a bhfuil rochtain dhomhanda air. Láimhseálann sé sonraí aistriúcháin mar chóras inchothaithe seachas cóip leathanach arna dhúbláil de láimh, rud a ligeann don láithreán scála a dhéanamh thar 100+ teanga agus a fhágann gur féidir rochtain dhomhanda a bhaint amach. cumas oibriúcháin in ionad gné aonuaire.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Ceangail Ceathair",
+        "text": "Teaghlach ollmhór de níos mó ná 50+ cur i bhfeidhm an chluiche Connect Four. Áirítear leis an tionscadal seo feidhmiúcháin i níos mó ná 30 teanga ríomhchlárúcháin éagsúla, lena n-áirítear Java, C++, Python, JavaScript, agus go leor eile. Ina theannta sin, cuimsíonn sé níos mó ná 20+ creat éagsúil nó formáidí eile, lena n-áirítear React.js, Ruby on Rails, ASP.NET, agus níos mó.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "App grósaeireachta",
+        "text": "Feidhmchlár freastalaí iomlán .NET 9 Blazor a thaispeánann ailtireacht inneall d'aon ghnó le haghaidh sreabhadh oibre gnó. Coinníonn scoilt an rialaitheora/seirbhíse/stór na rialacha feidhmchláir, rochtain sonraí agus cur i láthair intástáilte go neamhspleách; Soláthraíonn Core Framework Core marthanacht marthanach; agus an Cosnaíonn sraith tástála cuimsitheach iompar de réir mar a fhorbraíonn an táirge.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Tionscadal Idirghabhála",
+        "text": "Tagairt idir-inoibritheachta trasteanga a chuimsíonn 15 theanga ríomhchlárúcháin agus 18 bpatrún forghníomhaithe. Déanann an tionscadal imscrúdú ar an teorainn ina mbíonn córais leochaileach go minic: conarthaí próisis, malartú sonraí, iompraíocht ama rite, agus cosáin chomhtháthaithe in-athdhéanta. Léiríonn sé an smaointeoireacht chórais a theastaíonn nuair a bhíonn táirge níos mó ná cruach amháin.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Clár Fardail",
+        "text": "Sreabhadh oibre POS lánchruach agus fardail tógtha le Angular 17+ agus Node.js. Múnlaíonn sé na hábhair imní oibriúcháin a bhaineann le córas B2B: úsáideoirí fíordheimhnithe, rialú rochtana ról-bhunaithe, cruinneas fardail, agus sreabhadh íocaíochta bréige. Tá an tionscadal deartha timpeall ar an obair iarbhír a dhéanann foireann cláir, ní hamháin ar chatalóg de ghnéithe creata.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "Formáiditheoir Uathoibríoch JSON & YAML",
+        "text": "Uirlis bhailíochtaithe agus formáidithe JSON agus YAML atá bunaithe ar bhrabhsálaí a tógadh in Go agus a tiomsaíodh do WebAssembly. Má bhogtar an t-inneall parsála go WASM coinnítear an t-idirghníomhú sofhreagrach agus áitiúil don bhrabhsálaí agus é ag cur fíor-pharsálaí i bhfeidhm chun ionchur neamhbhailí a ghabháil. Is sampla dírithe é de ailtireacht ama rite a roghnú le haghaidh feidhmíochta, iniomparthacht agus muinín úsáideora.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Inneall éirí de thalamh",
+        "text": "SaaS meastúcháin tógála bunaithe ar shreabhadh oibre conraitheora costasach, seans maith go earráidí. Déanann an táirge React + Express sonraí CSV agus Excel a ionghabháil, mapálann sé colúin neamhréireach i múnla fearainn inúsáidte, ríomhann tochailt trinse agus toirteanna créfoirt, rianaíonn sé saothair agus marcáil, agus táirgeann moltaí PDF agus Word atá réidh le cliaint. Is innealtóireacht shaolré iomlán an táirge í seo: parsáil sonraí, rialacha ríofa, sreabhadh oibre oibreora snasta, agus táirgí insoláthartha a chuidíonn le gnólacht bogadh ó ionchuir amh go tairiscint.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Cluiche minecraft JSON Gineadóir",
+        "text": "Gineadóir éadrom JSON tógtha i Python le haghaidh pacáistí acmhainní & sonraí Minecraft. Úsáidtear an tionscadal seo chun comhaid JSON a ghiniúint le haghaidh mods Minecraft, lena n-áirítear míreanna saincheaptha, bloic agus aonáin. An-úsáideach le haghaidh ní hamháin pacaí sonraí saincheaptha a chruthú, ach le haghaidh mods freisin tríd an ngné athraithe ainm mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Mo Eispéireas Oideachais",
+        "text": "Chomh maith le mo thionscadail phearsanta, tá scileanna iomadúla faighte agam ó thaithí oideachais. Cliceáil anseo chun mo phróifíl LinkedIn a fheiceáil le haghaidh tuilleadh faisnéise.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Mo Eispéireas Gairmiúil",
+        "text": "Sé bliana sa bhreis de thaithí innealtóireachta gairmiúla ar fud na bhfoirne táirgí, ardáin ghnó, agus bogearraí atá dírithe ar chustaiméirí. Áiríodh le mo chuid oibre sraitheanna feidhmchlár inchothaithe a thógáil, comhoibriú ar fud disciplíní seachadta, agus cinntí teicniúla a dhéanamh le saolré an táirge, oibriúcháin. riosca, agus úinéireacht fhadtéarmach i bhfianaise.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Láithreán Gréasáin Patrick Goodwin Punann",
+        "text": "Punann React a bhfuil meon táirgeachta aici a phléann le hinrochtaineacht agus le teacht domhanda mar riachtanais innealtóireachta. Áiríonn sé píblíne aistriúcháin inchothaithe do 100+ teanga, uirlisí idirghníomhacha le tacaíocht ó WebAssembly, patrúin Chomhéadain fhreagracha agus inrochtana, agus ailtireacht tionscadail deartha le fás de réir mar a sheoltar saothar nua.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Leabharlann Scripteanna Phádraig Lua",
+        "text": "Leabharlann úsáideach de scripteanna Lua le haghaidh tagartha sa todhchaí. Úsáidtear an leabharlann seo chun tascanna i scripteanna Lua a uathoibriú, rud a d’fhéadfadh a bheith áisiúil do thascanna feidhmíochta, mar is gnách gur teanga scriptithe níos tapúla í Lua ná Python agus Ruby araon.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Scripteanna Scarbhileog Microsoft Excel (VBA) le Pádraig",
+        "text": "Leabharlann úsáideach de scripteanna VBA do Microsoft Excel. Úsáidtear an leabharlann seo chun tascanna i scarbhileoga Excel a uathoibriú.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Cumraíocht Phádraig Neovim",
+        "text": "Mo chumraíocht phearsanta Neovim. Úsáidtear an tionscadal seo chun Neovim a chumrú de réir mo thaitin, lena n-áirítear eochaircheangail saincheaptha, téamaí, agus forlíontáin. Úsáidtear an tionscadal seo chun Neovim a dhéanamh níos so-úsáidte agus níos éifeachtaí le haghaidh m'úsáid phearsanta.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick's Map Gineadóir",
+        "text": "Uirlis tuairiscithe geospásúil Python tógtha le GeoPandas agus Matplotlib chun léarscáileanna contae agus stáit SAM a ghiniúint. Déanann sé déantúsáin anailíse inléite ar shonraí geografacha, rud a léiríonn meon píblíne sonraí: roghnaigh na leabharlanna fearainn cearta, normalaigh ionchuir, agus táirgeadh aschuir a tacú le cinntí soiléire.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Leabharlann Scripteanna Phádraig PowerShell",
+        "text": "Leabharlann úsáideach de scripteanna PowerShell le haghaidh tagartha sa todhchaí. Úsáideach leis an ngné script $profile, tá sé seo thar a bheith cabhrach chun tascanna a uathoibriú ó chríochfort Windows, mar is minic a bhíonn mé ag úsáid an OS Windows.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Leabharlann Scripteanna Phádraig Ruby",
+        "text": "Leabharlann úsáideach de scripteanna Ruby le haghaidh tagartha sa todhchaí.... Úsáideach do choincheapa forbartha Ruby on Rails amach anseo.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Tógálaí scileanna pdf",
+        "text": "Sreabhadh oibre giniúna doiciméad a tógadh le Python, Pdfkit, Jinja2, HTML, agus sonraí struchtúrtha JSON. Scarann ​​sé sonraí ath-inúsáidte ó theimpléid léirithe chun atosú PDF oiriúnaithe a ghiniúint go comhsheasmhach, patrún praiticiúil chun obair láimhe a laghdú agus doiciméid ghnó a dhéanamh. athráite.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Tionscadal Criptiú Rijandel",
+        "text": "Sraith chomparáideach de 10+ cur i bhfeidhm Rijndael ar fud leagan 128-, 192-, agus 256-giotán. Is cleachtadh disciplínithe é algartam íogair slándála a chur i bhfeidhm trasna teangacha maidir le sonraíochtaí beachta, iompar intástáilte, agus teorainneacha iniomparthachta ag leibhéal teanga,. gach instinct úsáideach do chórais a láimhseálann sonraí íogaire.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "Mod le haghaidh minecraft SupremeMC",
+        "text": "Mod Minecraft a chuireann uirlisí saincheaptha, armúr, mobs, bloic, toisí, agus go leor gnéithe eile leis an gcluiche. Tógtha le leaganacha Java 8-17 le haghaidh leaganacha roghnaithe Minecraft idir 1.16 agus 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Teanga Ríomhchlárúcháin Tíogair",
+        "text": "Teanga ríomhchlárúcháin shaincheaptha agus ateangaire a tógadh in Téigh chun dearadh ama rite teanga, iompraíocht forghníomhaithe agus comhbhabhtáil feidhmíochta a iniúchadh. Trí é a thiomsú le WebAssembly agus é a chomhtháthú sa phunann cruthaítear dromchla táirge fíor in-iniúchta d’innealtóireacht ar leibhéal an chórais seachas an obair a fhágáil mar turgnamh stór amháin.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Láithreán Gréasáin Tiger Tailgating Pros",
+        "text": "Suíomh Gréasáin React seachadta do ghnó feiliúnach Clemson, SC. Aistríonn an obair tairiscint gnó beag ina thuras soiléir do chustaiméirí agus láithreacht iontaofa ar an ngréasán, ag cur smaointeoireacht táirgí i bhfeidhm chun cabhrú le fíor-eagraíocht suim a thiontú. i bhfiosrúcháin agus ioncam.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Tionscadal meaisín Turing",
+        "text": "Teaghlach de níos mó ná 30+ feidhmiú an Turing Machine. Úsáidtear é chun iomláine turgnaimh a léiriú do theangacha ríomhchlárúcháin éagsúla le haghaidh taighde, go háirithe do Theanga Ríomhchláraithe an Tíogair.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Teanga Ríomhchlárúcháin Tíogair"
+  },
+  "contact": {
+    "title": "Déan Teagmháil liom",
+    "header": "Eolas Teagmhála",
+    "email": "pattygsocials@gmail.com",
+    "description": "Freagraím fiosrúcháin ó ríomhphost agus teachtaireachtaí LinkedIn. Glaofaidh mé ar ais freisin má chuirtear m'uimhir ar fáil trí atosú nó eile, cé gur fearr liom m'uimhir theileafóin a choinneáil príobháideach."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Uirlis cháilíocht sonraí bunaithe ar bhrabhsálaí a bhailíochtaíonn agus a fhormáidíonn JSON agus YAML ag baint úsáide as inneall Go tiomsaithe do WebAssembly. Coinníonn an ailtireacht parsáil gar don úsáideoir le haghaidh aiseolais tapa, príobháideach agus ag an am céanna rialacha comhréire fíor a fhorfheidhmiú ag teorainn na sonraí. Is sampla dlúth é de shreabhadh oibre forbróra iontaofa a dhearadh maidir le cruinneas, feidhmíocht agus muinín.",
+    "more_info1": "Le haghaidh tuilleadh faisnéise, déan tagairt don README sa",
+    "more_info2": "Stór Formáidithe JSON/YAML.",
+    "format_as": "Formáid Mar:",
+    "auto_detect": "Braith Uathoibríoch",
+    "format": "Lint & Formáid",
+    "valid_json": "✓ JSON bailí",
+    "valid_yaml": "✓ YAML bailí",
+    "invalid_json": "JSON neamhbhailí",
+    "invalid_yaml": "YAML neamhbhailí",
+    "empty_input": "Cuir isteach roinnt JSON nó YAML mar lint.",
+    "too_large": "Tá an t-ionchur rómhór (1MB ar a mhéad ceadaithe).",
+    "fixed_yaml_spacing": "⚠ Bhí spásáil/greannú neamhbhailí ag YAML ach tá sé socraithe go huathoibríoch agus formáidithe.",
+    "loading": "Formáiditheoir á lódáil...",
+    "waiting_for_input": "Ag fanacht le hionchur...",
+    "load_failed": "Ní féidir an formáidí a lódáil.",
+    "output": "Aschur:",
+    "input_code": "Ionchur",
+    "json_examples": "Samplaí JSON",
+    "yaml_examples": "Samplaí YAML"
+  },
+  "tiger": {
+    "title": "Teanga Tíogair",
+    "description": "Is teanga ríomhchlárúcháin shaincheaptha é Tíogair agus ateangaire Go a tógadh chun ailtireacht ama rite, séimeantaic teanga, agus comhbhabhtáil feidhmíochta a iniúchadh. Nuair a chuirtear an t-ateangaire le chéile chuig WebAssembly is éard atá i gceist leis na córais sin ná táirge idirghníomhach bunaithe ar bhrabhsálaí: is féidir le húsáideoirí cláir a rith go díreach agus an t-am rite fós iniompartha agus scoite amach ón bhfeidhmchlár óstach.",
+    "more_info1": "Le haghaidh tuilleadh faisnéise, déan tagairt don README sa",
+    "more_info2": "Teanga Ríomhchláraithe Tíogair Stór GitHub.",
+    "select_engine": "Roghnaigh Inneall:",
+    "tiger_code": "Cód Tíogair:",
+    "run_tiger": "Rith Tíogair",
+    "output": "Aschur:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Innealtóir sinsearach lánchruach le 6+ bliain de thaithí ag dearadh táirgí SaaS, córais táirgthe, agus bogearraí ginte ioncaim."
+  },
+  "copy": {
+    "text": "Cóip",
+    "copied": "Cóipeáladh!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Lean mé"
+  },
+  "languages": {
+    "title": "Aistritheoir Punann",
+    "description": "Faigh amach conas atá mo phunann inrochtana do chuairteoirí ó ar fud an domhain le tacaíocht do níos mó ná 100 teanga.",
+    "global_accessibility": {
+      "title": "Inrochtaineacht Dhomhanda",
+      "description": "Tá mo phunann ar fáil i níos mó ná {count} teanga, rud a fhágann go bhfuil rochtain ag cuairteoirí ó ar fud an domhain air. Léiríonn an cur chuige ilteangach seo mo thiomantas don uilechuimsitheacht agus do rochtain dhomhanda i bhforbairt bogearraí.",
+      "stats": {
+        "languages_supported": "Teangacha a Tacaítear leo",
+        "countries_represented": "Tíortha a bhfuil Ionadaíocht á déanamh orthu",
+        "continents_covered": "Mór-Roinn Clúdaithe"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Teanga chlársceidealaithe Tíogair"
-    },
-    "contact": {
-        "title": "Déan teagmháil liom",
-        "header": "Eolas Teagmhála",
-        "email": "pattygsocials@gmail.com",
-        "description": "Freagraím do fhiosrúcháin ó ríomhphost, ó theachtaireachtaí LinkedIn, agus ó theachtaireachtaí . Glaofaidh mé ar ais freisin má sholáthraítear mo uimhir trí atosú nó ar shlí eile, cé gur fearr liom m’uimhir theileafóin a choinneáil príobháideach."
-    },
-    "formatter": {
-        "title": "Formatter Json & Yaml",
-        "description": "Is uirlis é an formatter JSON & YAML a ligeann duit comhaid JSON agus YAML a fhormáidiú. Tá sé tógtha le dul agus le webassembly, agus tá sé deartha le bheith tapa agus éifeachtach. Tá an formáidí deartha le bheith éasca le húsáid, le comhéadan simplí a ligeann duit greamaigh i do chód JSON nó YAML agus é a fhormáidiú le cliceáil ar an gcnaipe.",
-        "more_info1": "Le haghaidh tuilleadh eolais, féach an ReadMe sa",
-        "more_info2": "Stór Formatter JSON/YAML.",
-        "format_as": "Formáid mar:",
-        "auto_detect": "Braith uathoibríoch",
-        "format": "Formáil",
-        "valid_json": "✓ Valid JSON",
-        "valid_yaml": "✓ YAML bailí",
-        "invalid_json": "JSON neamhbhailí",
-        "invalid_yaml": "YAML neamhbhailí",
-        "empty_input": "Cuir isteach roinnt JSON nó YAML mar lint.",
-        "too_large": "Tá an t-ionchur rómhór (1MB ar a mhéad ceadaithe).",
-        "fixed_yaml_spacing": "⚠ Bhí spásáil/eangadh neamhbhailí ag YAML ach tá sé socraithe agus formáidithe go huathoibríoch."
-    },
-    "tiger": {
-        "title": "Teanga Tíogair",
-        "description": "Is teanga chlársceidealaithe saincheaptha í an Tiger Clársceidealaithe a tógadh i Go chun triail a bhaint as dearadh agus feidhmíocht ateangairí. Arna chur i bhfeidhm ar shuíomh gréasáin na punainne ag baint úsáide as Tionól Gréasáin. Is teanga chlársceidealaithe saincheaptha í an Tiger Clársceidealaithe a tógadh i Go chun triail a bhaint as dearadh agus feidhmíocht ateangairí. Arna chur i bhfeidhm ar shuíomh gréasáin na punainne ag baint úsáide as Tionól Gréasáin.",
-        "more_info1": "Le haghaidh tuilleadh eolais, féach an ReadMe sa",
-        "more_info2": "TEACHANNA TEACHTAIREACHTA TEAGHLAIGH GITHUB.",
-        "select_engine": "Roghnaigh Inneall:",
-        "tiger_code": "Cód Tíogair:",
-        "run_tiger": "Rith Tíogair",
-        "output": "Aschur:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Innealtóir Bogearraí Stack Iomlán lonnaithe i Lár Florida"
-    },
-    "copy": {
-        "text": "Cóip",
-        "copied": "Cóipeáilte!"
-    },
-    "social_media": {
-        "github": "Github",
-        "linkedin": "Linkedin",
-        "youtube": "YouTube",
-        "text_strip": "Lean Mise"
-    },
-    "languages": {
-        "title": "Aistritheoir punainne",
-        "description": "Faigh amach conas atá mo phunann inrochtana do chuairteoirí ar fud an domhain le tacaíocht do níos mó ná 100 teanga.",
-        "global_accessibility": {
-            "title": "Inrochtaineacht dhomhanda",
-            "description": "Tá mo phunann ar fáil i dTeangacha os cionn {Count}, rud a fhágann go bhfuil sé inrochtana do chuairteoirí ar fud an domhain. Léiríonn an cur chuige ilteangach seo mo thiomantas do chuimsitheacht agus do shroichint dhomhanda i bhforbairt bogearraí.",
-            "stats": {
-                "languages_supported": "Teangacha tacaithe",
-                "countries_represented": "Tíortha a bhfuil ionadaíocht acu",
-                "continents_covered": "Mór -ranna clúdaithe"
-            }
+    "features": {
+      "title": "Gnéithe",
+      "items": [
+        {
+          "title": "Aistriúchán Fíor-ama:",
+          "description": "Athraigh teangacha láithreach leis an roghnóir teanga"
         },
-        "features": {
-            "title": "Bheith",
-            "items": [
-                {
-                    "title": "Aistriúchán fíor-ama:",
-                    "description": "Athraigh teangacha láithreach leis an roghnóir teanga"
-                },
-                {
-                    "title": "Teanga URL-bhunaithe:",
-                    "description": "Caomhnaítear roghanna teanga san URL"
-                },
-                {
-                    "title": "Tacaíocht scripte dúchais:",
-                    "description": "Scripteanna a dhéanamh go cuí cosúil le Araibis, Sínis, Hiondúis, agus níos mó"
-                },
-                {
-                    "title": "Íogaireacht chultúrtha:",
-                    "description": "Breithníonn aistriúcháin comhthéacs cultúrtha, ní hamháin bríonna liteartha"
-                },
-                {
-                    "title": "Optamaithe Sinsearach:",
-                    "description": "Tá gach leagan teanga optamaithe le haghaidh innill chuardaigh"
-                }
-            ]
+        {
+          "title": "Teanga URL-bhunaithe:",
+          "description": "Coimeádtar roghanna teanga san URL"
         },
-        "world_map": {
-            "title": "Léarscáil Domhanda Idirghníomhach",
-            "description": "Hover thar thíortha ar an léarscáil chun a dteangacha tacaithe a fheiceáil:",
-            "languages_label": "Teanga",
-            "legend": {
-                "supported": "Teangacha tacaithe",
-                "not_supported": "Gan Tacaíocht Teanga"
-            },
-            "zoom_controls": {
-                "zoom_in": "Súmáil isteach",
-                "zoom_out": "Súmáil amach",
-                "reset": "Amharc Athshocraithe"
-            }
+        {
+          "title": "Tacaíocht Script Dúchais:",
+          "description": "Rindreáil chuí scripteanna mar Araibis, Sínis, Hiondúis, agus go leor eile"
         },
-        "supported_languages": {
-            "title": "Teangacha tacaithe"
+        {
+          "title": "Íogaireacht Chultúrtha:",
+          "description": "Measann aistriúcháin comhthéacs cultúrtha, ní bríonna litriúla amháin"
         },
-        "interactive_country_map": {
-            "title": "Léarscáil tuaithe idirghníomhach",
-            "description": "Hover thar thíortha thíos chun a dteangacha tacaithe a fheiceáil:",
-            "language_count": {
-                "single": "béarlagair",
-                "multiple": "teanga"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Gan Tacaíocht Teanga"
+        {
+          "title": "Sinsearach Optamaithe:",
+          "description": "Tá gach malairt teanga optamaithe le haghaidh innill chuardaigh"
         }
+      ]
     },
-    "logotext": "Pádraig"
+    "world_map": {
+      "title": "Léarscáil an Domhain Idirghníomhach",
+      "description": "Téigh thar na tíortha ar an léarscáil chun na teangacha a dtacaítear leo a fheiceáil:",
+      "languages_label": "Teangacha",
+      "legend": {
+        "supported": "Teangacha a Tacaítear leo",
+        "not_supported": "Gan Tacaíocht Teanga"
+      },
+      "zoom_controls": {
+        "zoom_in": "Súmáil Isteach",
+        "zoom_out": "Súmáil Amach",
+        "reset": "Athshocraigh Amharc"
+      }
+    },
+    "supported_languages": {
+      "title": "Teangacha Tacaithe"
+    },
+    "interactive_country_map": {
+      "title": "Léarscáil Tíre Idirghníomhach",
+      "description": "Téigh thar na tíortha thíos chun na teangacha a dtacaítear leo a fheiceáil:",
+      "language_count": {
+        "single": "teanga",
+        "multiple": "teangacha"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Gan tacaíocht teanga"
+    }
+  },
+  "logotext": "PÁDRAIG"
 }

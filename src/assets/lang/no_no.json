@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Hjem",
-        "about": "Om meg",
-        "portfolio": "Portefølje",
-        "projects": "Nettstedsprosjekter",
-        "tiger": "Tigerspråk",
-        "portfolio_translator": "Porteføljeoversetter",
-        "formatter": "Json & Yaml Formatter",
-        "contact": "Kontakt meg"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Hjem",
+    "about": "Om meg",
+    "portfolio": "Portefølje",
+    "projects": "Nettsideprosjekter",
+    "tiger": "Tigerspråk",
+    "portfolio_translator": "Porteføljeoversetter",
+    "formatter": "JSON & YAML-formater",
+    "contact": "Kontakt meg"
+  },
+  "home": {
+    "title": "Senior full-stack ingeniør | Produkt og systemer",
+    "animated": {
+      "first": "Senior full-stack ingeniør",
+      "second": "System- og arkitekturbygger",
+      "third": "SaaS produktingeniør",
+      "fourth": "Pålitelig programvare, forretningsresultater"
     },
-    "home": {
-        "title": "Hjem",
-        "animated": {
-            "first": "Full Stack Software Engineer",
-            "second": "Nettutvikler",
-            "third": "Spillutvikler",
-            "fourth": "Innholdsskaper"
-        },
-        "footer": "Nettstedet nå oversatt og tilgjengelig på 100+ språk!",
-        "descriptionA": "Erfarne full-stack programvareingeniør og webutvikler med en demonstrert historie med vellykket ledende utviklingsprosjekter, fra å lage Java-modifikasjoner for Minecraft for å forbedre brukeropplevelsen i React.js og implementere Secure REST API-er, mens vi konsekvent bruker smidige metodologier og effektivt teamsamarbeid.",
-        "descriptionB": "I tillegg er jeg en geografisk innholdsskaper som har utnyttet algoritmene til flere sosiale medieplattformer, inkludert , YouTube og , for å få en respektabel og engasjerende tilhengerbase.",
-        "portfolio_button": "Min portefølje",
-        "contact_button": "Kontakt meg",
-        "about_button": "Om meg"
+    "footer": "Nettstedet er nå oversatt og tilgjengelig på over 100 språk!",
+    "descriptionA": "Senior full-stack ingeniør med 6+ års erfaring med å ta produkter fra tvetydige krav til pålitelige produksjonssystemer. Jeg designer arkitekturen bak React, Angular, .NET, Node.js, Java, C#, Go og SQL-applikasjoner: klare tjenestegrenser, holdbare datamodeller, sikre tilgangsmønstre og leveringsveier team kan operere med selvtillit.",
+    "descriptionB": "Arbeidet mitt kobler ingeniørbeslutninger til forretningsresultater. Fra en konstruksjons-estimerende SaaS som gjør regnearkdata til klientklare forslag til inntektsgenererende webplattformer, bygger jeg programvare rundt arbeidsflyten, risikoen og målbare verdier som betyr noe for menneskene som bruker den.",
+    "portfolio_button": "Min portefølje",
+    "contact_button": "Kontakt meg",
+    "about_button": "Om meg"
+  },
+  "about": {
+    "title": "Om meg",
+    "personal_summary": {
+      "title": "Personlig sammendrag",
+      "text": "Jeg er en senior fullstack-ingeniør basert i Orlando, FL, som eier veien fra produktproblem til produksjonsresultat. Jeg tar teknologivalg i tjeneste for systemet: .NET og Entity Framework Core når et sterkt strukturert domene og testbar utholdenhet betyr noe; Kantet eller Reager når komplekst arbeidsflyter trenger et vedlikeholdbart grensesnitt; Node.js eller Go når et API, integrasjon eller høyytelsesverktøy trenger en fokusert kjøretid. På tvers av SaaS-produkter, interne arbeidsflyter og kundevendte plattformer leder jeg med eksplisitte avveininger, sikker og robust design, automatisert testing og leveringspraksis som hjelpe team med å sende verdifull programvare uten å legge igjen driftsgjeld."
     },
-    "about": {
-        "title": "Om meg",
-        "personal_summary": {
-            "title": "Personlig sammendrag",
-            "text": "Som en erfaren utvikler av full stack -programvare med base i Orlando, FL, har jeg demonstrert kompetanse innen forskjellige teknologier, fra Java og C ++ for å reagere.js og Node.js. Med en merittliste over spisspissprosjekter, inkludert utvikling av et Java -modifiseringsprogram for Minecraft og et givende nettsted for lastebilsjåfører, har jeg vist frem ledelse og innovasjon. Min forpliktelse til dyktighet er tydelig i min evne til å effektivisere prosjektstyring, løse komplekse problemer og levere løsninger av høy kvalitet som forbedrer brukeropplevelsen og driver organisasjonssuksess."
+    "professional_experience": {
+      "title": "Profesjonell erfaring",
+      "entries": [
+        {
+          "jobtitle": "Senior programvareingeniør",
+          "where": "Design interaktiv",
+          "date": "2025 – i dag"
         },
-        "professional_experience": {
-            "title": "Yrkeserfaring",
-            "entries": [
-                {
-                    "jobtitle": "Junior programvareingeniør",
-                    "where": "ORION180 FORSIKRING",
-                    "date": "2024 - Til stede"
-                },
-                {
-                    "jobtitle": "Grunnlegger og full stabelprogramvareutvikler",
-                    "where": "Suprememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Full Stack Software Engineer",
-                    "where": "Akselerere læring",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Lead Web Developer (Studentprogram)",
-                    "where": "Clemson University GDI -program",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Skrivebordsveileder",
-                    "where": "Clemson University",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Skrivebordsveileder",
-                    "where": "Clemson University",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Programvareingeniør",
+          "where": "Orion180 Forsikring",
+          "date": "2024–2025"
         },
-        "technical_skills": {
-            "title": "Tekniske ferdigheter",
-            "header1": "Programmeringsspråk",
-            "header2": "Rammer og biblioteker",
-            "header3": "Verktøy og teknologier"
+        {
+          "jobtitle": "Programvareingeniør",
+          "where": "SupremeMC",
+          "date": "2020–2024"
         },
-        "services": {
-            "title": "Mine tjenester",
-            "entries": [
-                {
-                    "title": "Full Stack Engineering",
-                    "text": "Jeg tilbyr omfattende løsninger på tvers av både front-end og back-end utvikling, og sikrer sømløs integrasjon og funksjonalitet gjennom hele programvarestabelen."
-                },
-                {
-                    "title": "Nettutvikling",
-                    "text": "Med ekspertise innen HTML-, CSS- og JavaScript-rammer som React.js, lager jeg visuelt tiltalende og brukervennlige nettsteder skreddersydd for å imøtekomme kundenes spesifikke behov og preferanser."
-                },
-                {
-                    "title": "Spillutvikling",
-                    "text": "Ved å utnytte språk som Java og C ++, spesialiserer jeg meg på å lage oppslukende spillopplevelser, fra konsept og design til implementering og optimalisering, sikre engasjerende spill og jevn ytelse."
-                }
-            ]
+        {
+          "jobtitle": "Programvareingeniør",
+          "where": "Akselerer læring",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Ledende programvareingeniør (studentprogram)",
+          "where": "Clemson University GDI-program",
+          "date": "2021–2022"
+        },
+        {
+          "jobtitle": "Desk Supervisor",
+          "where": "Clemson University",
+          "date": "2021–2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Portefølje",
-        "filter_by": "Filterportefølje av:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca Json",
-                "text": "Et Python -prosjekt som effektiviserer språkoversettelser. Gjør det mulig å oversatte min nettstedsportefølje til 70+ språk, inkludert spansk, fransk, kinesisk, arabisk og mange andre. Dette prosjektet brukes til å lage en flerspråklig nettstedportefølje, som er veldig nyttig for å nå et bredere publikum. Med dette prosjektet kan over 99% av verden lese porteføljen min på et flytende språk.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Koble til fire",
-                "text": "Massiv familie med over 50+ implementeringer av Connect Four -spillet. Dette prosjektet inkluderer implementeringer på over 30 forskjellige programmeringsspråk, inkludert Java, C ++, Python, JavaScript og mer. I tillegg inkluderer det også over 20+ forskjellige rammer eller andre formater, inkludert React.js, Ruby on Rails, ASP.NET og mer.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Dagligvareapp",
-                "text": "En komplett full-stack .NET 9 Blazor Server-applikasjon for å administrere dagligvareartikler. Applikasjonen følger kontrolleren/tjenesten/depotmønsteret med Entity Framework Core for utholdenhet og inkluderer en omfattende testsuite.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Interop -prosjekt",
-                "text": "Et prosjekt som dokumenterer interoperabilitet mellom forskjellige programmeringsspråk. Inkluderer for tiden 15 forskjellige programmeringsspråk og 18 utførelsesmønstre.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Inventory Register",
-                "text": "Et register med full stack Demo (POS) med Inventory Management System bygget med Angular 17+ og Node.js. Denne applikasjonen demonstrerer et POS-system for profesjonell kvalitet med brukerautentisering, rollebasert tilgangskontroll, lagersporing og hånlig betalingsbehandling.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & YAML Auto Formatter",
-                "text": "En Linter & Autoformatter for JSON & YAML -filer. Dette prosjektet brukes til å formatere JSON & YAML -filer, noe som er veldig nyttig for å holde koden ren og organisert. Bygget med GO, satt sammen med webAssembly, og innebygd i porteføljen min som et nettstedsprosjekt. Flere formater som kommer i fremtiden.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Startmotor",
-                "text": "En moderne konstruksjonsvurdering og start SaaS for entreprenører og estimatorer. Den importerer CSV- og Excel-filer, kartlegger automatisk kolonner, beregner grøftegraving og jordarbeidsvolumer, sporer arbeid og markering, og genererer klientklare PDF- og Word-budforslag med en polert React + Express-arbeidsflyt.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft JSON Generator",
-                "text": "Lett JSON -generator innebygd Python for Minecraft Resource & Data Packs. Dette prosjektet brukes til å generere JSON -filer for Minecraft -mods, inkludert tilpassede elementer, blokker og enheter. Veldig nyttig for ikke bare å lage tilpassede Datapacks, men også for mods via MOD Name Switching -funksjonen.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Min pedagogiske opplevelse",
-                "text": "Ved siden av mine personlige prosjekter har jeg også tilegnet meg mange ferdigheter fra pedagogisk erfaring. Klikk her for å se min LinkedIn -profil for mer informasjon.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Min yrkeserfaring",
-                "text": "Ved siden av mine personlige prosjekter har jeg også tilegnet meg mange ferdigheter fra yrkeserfaring. Klikk her for å se min LinkedIn -profil for mer informasjon.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Patrick Goodwin Portfolio nettsted",
-                "text": "Dette nettstedet er min personlige portefølje nettsted, bygget med react.js. Dette prosjektet brukes til å vise frem mine ferdigheter og prosjekter, samt for å gi en plattform for potensielle arbeidsgivere å kontakte meg. Dette prosjektet brukes til å skape en profesjonell tilstedeværelse på nettet.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Patrick's Lua Script Library",
-                "text": "Et nyttig bibliotek med LUA -skript for fremtidig referanse. Dette biblioteket brukes til å automatisere oppgaver i LUA-skript, som kan komme til nytte for ytelses-trengende oppgaver, ettersom Lua vanligvis er et raskere skriptspråk enn både Python og Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Patrick's Microsoft Excel regneark (VBA)",
-                "text": "Et nyttig bibliotek med VBA -skript for Microsoft Excel. Dette biblioteket brukes til å automatisere oppgaver i Excel -regneark.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patricks Neovim Config",
-                "text": "Min personlige neovim -konfigurasjon. Dette prosjektet brukes til å konfigurere Neovim etter min smak, inkludert tilpassede keybindings, temaer og plugins. Dette prosjektet brukes til å gjøre Neovim mer brukervennlig og effektivt til personlig bruk.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Patricks kartgenerator",
-                "text": "En amerikansk fylkes- og statlig kartgenerator, bygget med Python ved bruk av Geopandas og Matplotlib -bibliotekene. Dette prosjektet brukes til å generere kart over USA, inkludert fylkes- og statskart. Dette prosjektet brukes til å lage tilpassede kart for datavisualisering og analyse.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Patricks PowerShell Script Library",
-                "text": "Et nyttig bibliotek med PowerShell -skript for fremtidig referanse. Nyttig med $ profilskriptfunksjonen, synes jeg dette er enormt nyttig for å automatisere oppgaver fra Windows -terminalen, da jeg er en hyppig bruker av Windows OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Patricks Ruby Script Library",
-                "text": "Et nyttig bibliotek med Ruby -skript for fremtidig referanse. Nyttig for fremtidige Ruby on Rails utviklingskonsepter.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "PDF Skills Builder",
-                "text": "En tilpasset PDF -byggherre bygget med Python via PDFKIT- og Jinja2 -utvidelsene, sammen med HTML og JSON -formatering. Dette prosjektet brukes til å generere PDF -filer fra en liste over ferdigheter og prosjekter. Dette prosjektet kan brukes til å lage en tilpasset PDF -CV, som er veldig nyttig for jobbapplikasjoner.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Rijandel Encryption Project",
-                "text": "En familie med 10+ implementeringer av Rijandel -krypteringsalgoritmen i 128, 192 og 256 biter. Dette prosjektet brukes til å demonstrere Rijandel -krypteringsalgoritmen på forskjellige programmeringsspråk. Dette prosjektet brukes til å opprette en familie av implementeringer av Rijandel -krypteringsalgoritmen.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Suprememc Minecraft Mod",
-                "text": "En Minecraft -mod som legger til tilpassede verktøy, rustning, mobber, blokker, dimensjoner og mange flere funksjoner til spillet. Bygget med Java-versjoner 8-17 for utvalgte Minecraft-versjoner mellom 1.16 og 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Tiger -programmeringsspråk",
-                "text": "Tilpasset programmeringsspråk bygget i både Go for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiger Tailgating Pros nettsted",
-                "text": "Et nettsted jeg bygde i 2024 for Tiger Tailgating Pros, et skreddersydd selskap i Clemson, SC. Bygget med react.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Turing Machine Project",
-                "text": "Familie med over 30+ implementeringer av Turing -maskinen. Brukes til å demonstrere Turing -fullstendighet for forskjellige programmeringsspråk for forskning, spesielt for tigerprogrammeringsspråket.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Tekniske ferdigheter",
+      "header1": "Programmeringsspråk",
+      "header2": "Rammer og biblioteker",
+      "header3": "Verktøy og teknologier"
+    },
+    "services": {
+      "title": "Mine tjenester",
+      "entries": [
+        {
+          "title": "Full Stack Engineering",
+          "text": "Jeg leder ende-til-ende-produktlevering: oversetter forretningsarbeidsflyter til systemgrenser, datamodeller, APIer og grensesnitt, og bærer deretter arbeidet gjennom testing, distribusjon, og iterasjon. Målet er programvare som et team kan utvikle og betjene, ikke en samling frakoblede skjermer."
+        },
+        {
+          "title": "Produkt- og plattformarkitektur",
+          "text": "Jeg velger plattformer og mønstre basert på problemet: lagdelte .NET-tjenester for forretningsdomener, komponentdrevne Angular- eller React-applikasjoner for komplekse operasjoner, relasjonelle datamodeller for ansvarlige arbeidsflyter, og integrasjoner designet med tanke på feilmoduser, tilgangskontroll og vedlikehold."
+        },
+        {
+          "title": "Produksjonsklar levering",
+          "text": "Jeg bygger med realitetene etter lansering i sikte: hemmeligheter holdt utenfor kildekontroll, eksplisitte databasemigrasjonsbaner, rollebasert autorisasjon, validering ved systemgrenser, automatiserte tester, CI/CD-bevissthet og praktisk observerbarhet. Dette er detaljene som gjør en prototype til pålitelig programvare."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portefølje",
+    "filter_by": "Filtrer porteføljen etter:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "En Python-basert lokaliseringspipeline som gjør én strukturert innholdskilde til en globalt tilgjengelig portefølje. Den håndterer oversettelsesdata som et vedlikeholdbart system i stedet for manuelt duplisert sidekopi, noe som lar nettstedet skalere over 100+ språk og gjøre global rekkevidde til en operativ evne i stedet for en engangsfunksjon.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Koble til fire",
+        "text": "En enorm familie på over 50+ implementeringer av Connect Four-spillet. Dette prosjektet inkluderer implementeringer i over 30 forskjellige programmeringsspråk, inkludert Java, C++, Python, JavaScript og mer. I tillegg inkluderer den også over 20+ forskjellige rammeverk eller andre formater, inkludert React.js, Ruby on Rails, ASP.NET og mer.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Dagligvare-app",
+        "text": "En fullstack .NET 9 Blazor Server-applikasjon som demonstrerer tilsiktet backend-arkitektur for en forretningsarbeidsflyt. Delingen av kontroller/tjeneste/lager holder applikasjonsregler, datatilgang og presentasjon uavhengig testbare; Entity Framework Core gir varig utholdenhet; og den omfattende testpakke beskytter atferd ettersom produktet utvikler seg.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Interop-prosjekt",
+        "text": "En interoperabilitetsreferanse på tvers av språk som spenner over 15 programmeringsspråk og 18 utførelsesmønstre. Prosjektet undersøker grensen der systemer ofte blir skjøre: prosesskontrakter, datautveksling, kjøretidsatferd og repeterbare integrasjonsveier. Det gjenspeiler systemtenkningen som trengs når et produkt er større enn en enkelt stabel.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Inventarregister",
+        "text": "En fullstack POS- og inventararbeidsflyt bygget med Angular 17+ og Node.js. Den modellerer de operasjonelle bekymringene til et B2B-system: autentiserte brukere, rollebasert tilgangskontroll, lagernøyaktighet og en falsk betalingsflyt. Prosjektet er designet rundt det faktiske arbeidet et registerteam utfører, ikke bare en katalog med rammefunksjoner.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML autoformater",
+        "text": "Et nettleserbasert JSON- og YAML-validerings- og formateringsverktøy bygget i Go og kompilert til WebAssembly. Flytting av parsingmotoren til WASM holder interaksjonen responsiv og lokal for nettleseren mens du bruker en ekte parser for å fange opp ugyldig inndata. Det er et fokusert eksempel på å velge en kjøretidsarkitektur for ytelse, portabilitet og brukertillit.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Startmotor",
+        "text": "En konstruksjon som estimerer SaaS bygget rundt en kostbar, feilutsatt arbeidsflyt for entreprenører. React + Express-produktet inntar CSV- og Excel-data, kartlegger inkonsekvente kolonner til en brukbar domenemodell, beregner grøftegraving og jordarbeidsvolumer, sporer arbeid og markering, og produserer klientklare PDF- og Word-forslag. Dette er full produktlivssyklusteknikk: dataparsing, beregningsregler, en polert arbeidsflyt for operatører og leveranser som hjelper en virksomhet med å gå fra rå input til et bud.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Generator",
+        "text": "Lett JSON-generator innebygd i Python for Minecraft ressurs- og datapakker. Dette prosjektet brukes til å generere JSON-filer for Minecraft-mods, inkludert tilpassede elementer, blokker og enheter. Veldig nyttig for ikke bare å lage tilpassede datapakker, men også for mods via funksjonen for bytte av modnavn.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Min pedagogiske erfaring",
+        "text": "Ved siden av mine personlige prosjekter har jeg også tilegnet meg en rekke ferdigheter fra pedagogisk erfaring. Klikk her for å se min LinkedIn-profil for mer informasjon.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Min profesjonelle erfaring",
+        "text": "Seks år med profesjonell ingeniørerfaring på tvers av produktteam, forretningsplattformer og kundevendt programvare. Arbeidet mitt har inkludert å bygge vedlikeholdbare applikasjonslag, samarbeide på tvers av leveringsdisipliner og ta tekniske beslutninger med produktets livssyklus, operasjonell risiko og langsiktig eierskap i sikte.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwins porteføljenettsted",
+        "text": "En produksjonsorientert React-portefølje som behandler tilgjengelighet og global rekkevidde som tekniske krav. Den inkluderer en vedlikeholdbar oversettelsespipeline for 100+ språk, interaktive verktøy støttet av WebAssembly, responsive og tilgjengelige UI-mønstre og en prosjektarkitektur designet for å vokse etter hvert som nytt arbeid sendes.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patricks Lua Script Library",
+        "text": "Et nyttig bibliotek med Lua-skript for fremtidig referanse. Dette biblioteket brukes til å automatisere oppgaver i Lua-skript, noe som kan være nyttig for oppgaver som krever ytelse, da Lua vanligvis er et raskere skriptspråk enn både Python og Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patricks Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Et nyttig bibliotek med VBA-skript for Microsoft Excel. Dette biblioteket brukes til å automatisere oppgaver i Excel-regneark.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Min personlige Neovim-konfigurasjon. Dette prosjektet brukes til å konfigurere Neovim etter min smak, inkludert tilpassede tastebindinger, temaer og plugins. Dette prosjektet brukes til å gjøre Neovim mer brukervennlig og effektiv for mitt personlige bruk.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patricks kartgenerator",
+        "text": "Et Python geospatialt rapporteringsverktøy bygget med GeoPandas og Matplotlib for å generere amerikanske fylke- og statskart. Det gjør geografiske data til lesbare analyseartefakter, og demonstrerer en datapipeline-tankegang: velg de riktige domenebibliotekene, normaliser innganger og produserer utdata som støtte klare beslutninger.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patricks PowerShell-skriptbibliotek",
+        "text": "Et nyttig bibliotek med PowerShell-skript for fremtidig referanse. Nyttig med $profile script-funksjonen, jeg synes dette er utrolig nyttig for å automatisere oppgaver fra Windows-terminalen, siden jeg er en hyppig bruker av Windows OS.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Et nyttig bibliotek med Ruby-skript for fremtidig referanse. Nyttig for fremtidige Ruby on Rails-utviklingskonsepter.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "PDF Skills Builder",
+        "text": "En dokumentgenereringsarbeidsflyt bygget med Python, Pdfkit, Jinja2, HTML og strukturerte JSON-data. Den skiller gjenbrukbare data fra presentasjonsmaler for å generere skreddersydde PDF-CV konsekvent, et praktisk mønster for å redusere manuelt arbeid og lage forretningsdokumenter repeterbar.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandel-krypteringsprosjektet",
+        "text": "Et sammenlignende sett med 10+ Rijndael-implementeringer på tvers av 128-, 192- og 256-bits varianter. Å implementere en sikkerhetssensitiv algoritme på tvers av språk er en disiplinert øvelse i eksakte spesifikasjoner, testbar oppførsel og grensene for portabilitet på språknivå, alle nyttige instinkter for systemer som håndterer sensitive data.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "En Minecraft-mod som legger til tilpassede verktøy, rustninger, mobber, blokker, dimensjoner og mange flere funksjoner til spillet. Bygget med Java-versjoner 8-17 for utvalgte Minecraft-versjoner mellom 1.16 og 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Tiger programmeringsspråk",
+        "text": "Et tilpasset programmeringsspråk og tolk innebygd i Go for å utforske språkkjøringsdesign, utførelsesatferd og ytelsesavveininger. Å kompilere den til WebAssembly og integrere den i porteføljen skaper en ekte, inspiserbar produktoverflate for system-nivå engineering i stedet for å forlate arbeidet som en Eksperiment som kun er lagret.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Nettsted for Tiger Tailgating Pros",
+        "text": "Et React-nettsted levert for en bagasjebedrift i Clemson, SC. Arbeidet oversetter en liten bedrifts tilbud til en tydelig kundereise og pålitelig tilstedeværelse på nettet, ved å bruke produkttenkning for å hjelpe en ekte organisasjon med å konvertere interesse i henvendelser og inntekter.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Turing maskinprosjekt",
+        "text": "Familie på over 30+ implementeringer av Turing-maskinen. Brukes for å demonstrere turing-fullstendighet for forskjellige programmeringsspråk for forskning, spesielt for Tiger-programmeringsspråket.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Tiger programmeringsspråk"
+  },
+  "contact": {
+    "title": "Kontakt meg",
+    "header": "Kontaktinformasjon",
+    "email": "pattygsocials@gmail.com",
+    "description": "Jeg svarer på henvendelser fra e-post og LinkedIn-meldinger. Jeg vil også ringe tilbake hvis nummeret mitt er oppgitt via CV eller på annen måte, selv om jeg foretrekker å holde telefonnummeret mitt privat."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Et nettleserbasert datakvalitetsverktøy som validerer og formaterer JSON og YAML ved hjelp av en Go-motor kompilert til WebAssembly. Arkitekturen fortsetter å analysere nær brukeren for rask, privat tilbakemelding mens den håndhever ekte syntaksregler ved datagrensen. Det er et kompakt eksempel på å designe en pålitelig arbeidsflyt for utviklere rundt korrekthet, ytelse og tillit.",
+    "more_info1": "For mer informasjon, se README i",
+    "more_info2": "JSON/YAML Formatter Repository.",
+    "format_as": "Formater som:",
+    "auto_detect": "Automatisk oppdagelse",
+    "format": "Lo og format",
+    "valid_json": "✓ Gyldig JSON",
+    "valid_yaml": "✓ Gyldig YAML",
+    "invalid_json": "Ugyldig JSON",
+    "invalid_yaml": "Ugyldig YAML",
+    "empty_input": "Vennligst skriv inn noen JSON eller YAML for å lo.",
+    "too_large": "Inngangen er for stor (maks 1 MB tillatt).",
+    "fixed_yaml_spacing": "⚠ YAML hadde ugyldig mellomrom/innrykk, men har blitt automatisk rettet og formatert.",
+    "loading": "Laster inn formatering...",
+    "waiting_for_input": "Venter på innspill...",
+    "load_failed": "Kan ikke laste formatering.",
+    "output": "Produksjon:",
+    "input_code": "Inndata",
+    "json_examples": "JSON-eksempler",
+    "yaml_examples": "YAML eksempler"
+  },
+  "tiger": {
+    "title": "Tigerspråk",
+    "description": "Tiger er et tilpasset programmeringsspråk og Go-tolk bygget for å utforske kjøretidsarkitektur, språksemantikk og ytelsesavveininger. Ved å kompilere tolken til WebAssembly blir systemets arbeid til et interaktivt, nettleserbasert produkt: brukere kan kjøre programmer direkte mens kjøretiden forblir portabel og isolert fra vertsapplikasjonen.",
+    "more_info1": "For mer informasjon, se README i",
+    "more_info2": "Tiger-programmeringsspråk GitHub Repository.",
+    "select_engine": "Velg motor:",
+    "tiger_code": "Tigerkode:",
+    "run_tiger": "Kjør Tiger",
+    "output": "Produksjon:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Senior fullstack-ingeniør med 6+ års erfaring med å designe SaaS-produkter, produksjonssystemer og inntektsgenererende programvare."
+  },
+  "copy": {
+    "text": "Kopiere",
+    "copied": "Kopiert!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Følg meg"
+  },
+  "languages": {
+    "title": "Porteføljeoversetter",
+    "description": "Oppdag hvordan porteføljen min er tilgjengelig for besøkende fra hele verden med støtte for over 100 språk.",
+    "global_accessibility": {
+      "title": "Global tilgjengelighet",
+      "description": "Porteføljen min er tilgjengelig på over {count} språk, noe som gjør den tilgjengelig for besøkende fra hele verden. Denne flerspråklige tilnærmingen viser mitt engasjement for inkludering og global rekkevidde innen programvareutvikling.",
+      "stats": {
+        "languages_supported": "Språk som støttes",
+        "countries_represented": "Land som er representert",
+        "continents_covered": "Kontinenter dekket"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Tiger -programmeringsspråk"
-    },
-    "contact": {
-        "title": "Kontakt meg",
-        "header": "Kontaktinformasjon",
-        "email": "pattyGsocials@gmail.com",
-        "description": "Jeg svarer på henvendelser fra e -post-, LinkedIn -meldinger og  -meldinger. Jeg vil også ringe tilbake hvis nummeret mitt blir gitt via CV eller på annen måte, selv om jeg foretrekker å holde telefonnummeret mitt privat."
-    },
-    "formatter": {
-        "title": "Json & Yaml Formatter",
-        "description": "JSON & YAML Formatter er et verktøy som lar deg formatere JSON- og YAML -filer. Den er bygget med Go og WebAssembly, og den er designet for å være rask og effektiv. Formatteren er designet for å være enkelt å bruke, med et enkelt grensesnitt som lar deg lime inn JSON- eller YAML -koden og formatere den med et klikk på en knapp.",
-        "more_info1": "For mer informasjon, se Readme i",
-        "more_info2": "JSON/YAML Formatter Repository.",
-        "format_as": "Format som:",
-        "auto_detect": "Auto Detect",
-        "format": "Format",
-        "valid_json": "✓ Gyldig JSON",
-        "valid_yaml": "✓ Gyldig YAML",
-        "invalid_json": "Ugyldig JSON",
-        "invalid_yaml": "Ugyldig YAML",
-        "empty_input": "Vennligst skriv inn noen JSON eller YAML for å lo.",
-        "too_large": "Inngangen er for stor (maks 1 MB tillatt).",
-        "fixed_yaml_spacing": "⚠ YAML hadde ugyldig mellomrom/innrykk, men har blitt automatisk rettet og formatert."
-    },
-    "tiger": {
-        "title": "Tigerspråk",
-        "description": "Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering. Tiger -programmeringsspråket er et tilpasset programmeringsspråk som er bygget i både Go for å eksperimentere med tolkdesign og ytelse. Implementert på porteføljens nettsted ved hjelp av webmontering.",
-        "more_info1": "For mer informasjon, se Readme i",
-        "more_info2": "Tiger -programmeringsspråk GitHub Repository.",
-        "select_engine": "Velg motor:",
-        "tiger_code": "Tigerkode:",
-        "run_tiger": "Kjør Tiger",
-        "output": "Produksjon:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Full Stack Software Engineer Basert i Central Florida"
-    },
-    "copy": {
-        "text": "Kopiere",
-        "copied": "Kopiert!"
-    },
-    "social_media": {
-        "github": "Github",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube",
-        "text_strip": "Følg meg"
-    },
-    "languages": {
-        "title": "Porteføljeoversetter",
-        "description": "Oppdag hvordan porteføljen min er tilgjengelig for besøkende fra hele verden med støtte for over 100 språk.",
-        "global_accessibility": {
-            "title": "Global tilgjengelighet",
-            "description": "Porteføljen min er tilgjengelig i over {count} språk, noe som gjør det tilgjengelig for besøkende fra hele verden. Denne flerspråklige tilnærmingen demonstrerer mitt engasjement for inkludering og global rekkevidde innen programvareutvikling.",
-            "stats": {
-                "languages_supported": "Språk støttet",
-                "countries_represented": "Land representert",
-                "continents_covered": "Kontinenter dekket"
-            }
+    "features": {
+      "title": "Funksjoner",
+      "items": [
+        {
+          "title": "Sanntidsoversettelse:",
+          "description": "Bytt språk umiddelbart med språkvelgeren"
         },
-        "features": {
-            "title": "Funksjoner",
-            "items": [
-                {
-                    "title": "Sanntidsoversettelse:",
-                    "description": "Bytt språk øyeblikkelig med språkvelgeren"
-                },
-                {
-                    "title": "URL-basert språk:",
-                    "description": "Språkpreferanser er bevart i nettadressen"
-                },
-                {
-                    "title": "Innfødt skriptstøtte:",
-                    "description": "Riktig gjengivelse av skript som arabisk, kinesisk, hindi og mer"
-                },
-                {
-                    "title": "Kulturell følsomhet:",
-                    "description": "Oversettelser vurderer kulturell kontekst, ikke bare bokstavelige betydninger"
-                },
-                {
-                    "title": "SEO optimalisert:",
-                    "description": "Hver språkvariant er optimalisert for søkemotorer"
-                }
-            ]
+        {
+          "title": "URL-basert språk:",
+          "description": "Språkpreferansene er bevart i URL-en"
         },
-        "world_map": {
-            "title": "Interaktivt verdenskart",
-            "description": "Hold over land på kartet for å se deres støttede språk:",
-            "languages_label": "Språk",
-            "legend": {
-                "supported": "Språk støttet",
-                "not_supported": "Ingen språkstøtte"
-            },
-            "zoom_controls": {
-                "zoom_in": "Zoom inn",
-                "zoom_out": "Zoom ut",
-                "reset": "Tilbakestill visning"
-            }
+        {
+          "title": "Støtte for opprinnelig skript:",
+          "description": "Riktig gjengivelse av skript som arabisk, kinesisk, hindi og mer"
         },
-        "supported_languages": {
-            "title": "Støttede språk"
+        {
+          "title": "Kulturell følsomhet:",
+          "description": "Oversettelser vurderer kulturell kontekst, ikke bare bokstavelige betydninger"
         },
-        "interactive_country_map": {
-            "title": "Interaktivt landskart",
-            "description": "Hold over land nedenfor for å se deres støttede språk:",
-            "language_count": {
-                "single": "språk",
-                "multiple": "språk"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Ingen språkstøtte"
+        {
+          "title": "SEO-optimalisert:",
+          "description": "Hver språkvariant er optimalisert for søkemotorer"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Interaktivt verdenskart",
+      "description": "Hold markøren over land på kartet for å se deres støttede språk:",
+      "languages_label": "Språk",
+      "legend": {
+        "supported": "Språk som støttes",
+        "not_supported": "Ingen språkstøtte"
+      },
+      "zoom_controls": {
+        "zoom_in": "Zoom inn",
+        "zoom_out": "Zoom ut",
+        "reset": "Tilbakestill visning"
+      }
+    },
+    "supported_languages": {
+      "title": "Støttede språk"
+    },
+    "interactive_country_map": {
+      "title": "Interaktivt landkart",
+      "description": "Hold markøren over landene nedenfor for å se deres støttede språk:",
+      "language_count": {
+        "single": "språk",
+        "multiple": "språk"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Ingen språkstøtte"
+    }
+  },
+  "logotext": "PATRICK"
 }

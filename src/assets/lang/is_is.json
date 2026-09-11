@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Heim",
-        "about": "Um mig",
-        "portfolio": "Eignasafn",
-        "projects": "Vefsíðuverkefni",
-        "tiger": "Tiger tungumál",
-        "portfolio_translator": "Portfolio þýðandi",
-        "formatter": "JSON & YAML Formatter",
-        "contact": "Hafðu samband við mig"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Heim",
+    "about": "Um mig",
+    "portfolio": "Eignasafn",
+    "projects": "Vefverkefni",
+    "tiger": "Tiger tungumál",
+    "portfolio_translator": "Portfolio þýðandi",
+    "formatter": "JSON & YAML formatter",
+    "contact": "Hafðu samband við mig"
+  },
+  "home": {
+    "title": "Senior full-Stack verkfræðingur | Vara og kerfi",
+    "animated": {
+      "first": "Senior full-stack verkfræðingur",
+      "second": "Kerfis- og arkitektúrsmiður",
+      "third": "SaaS vöruverkfræðingur",
+      "fourth": "Áreiðanlegur hugbúnaður, viðskiptaniðurstöður"
     },
-    "home": {
-        "title": "Heim",
-        "animated": {
-            "first": "Full Stack hugbúnaðarverkfræðingur",
-            "second": "Vefur verktaki",
-            "third": "Leikjahönnuður",
-            "fourth": "Efnishöfundur"
-        },
-        "footer": "Vefsíða er nú þýdd og áberandi á 100+ tungumálum!",
-        "descriptionA": "Reyndur hugbúnaðarverkfræðingur og vefur verktaki með fullan stafli með sýnt sögu um að leiða þróunarverkefni með góðum árangri, allt frá því að búa til Java breytingar fyrir Minecraft til að auka notendaupplifun í React.js og innleiða öruggar API, en nota stöðugt lipur aðferðafræði og árangursríka liðssamstarf.",
-        "descriptionB": "Að auki er ég landafræði efnishöfundur sem hefur notið reiknirit margra samfélagsmiðla, þar á meðal , YouTube og , til að öðlast virðulegan og grípandi fylgjandi stöð.",
-        "portfolio_button": "Eignasafnið mitt",
-        "contact_button": "Hafðu samband við mig",
-        "about_button": "Um mig"
+    "footer": "Vefsíða nú þýdd og fáanleg á 100+ tungumálum!",
+    "descriptionA": "Háttsettur verkfræðingur með 6+ ára reynslu af því að taka vörur frá óljósum kröfum yfir í áreiðanleg framleiðslukerfi. Ég hanna arkitektúrinn á bak við React, Angular, .NET, Node.js, Java, C#, Go og SQL forrit: skýr þjónustumörk, endingargóð gagnalíkön, örugg aðgangsmynstur og afhendingarleiðir geta teymi starfað af öryggi.",
+    "descriptionB": "Starf mitt tengir verkfræðilegar ákvarðanir við afkomu fyrirtækja. Allt frá byggingarmati SaaS sem breytir gögnum í töflureikni í tillögur sem eru tilbúnar fyrir viðskiptavini yfir í tekjuskapandi vefpalla, ég byggi hugbúnað í kringum verkflæði, áhættu og mælanleg verðmæti sem skipta máli fyrir fólkið sem notar það.",
+    "portfolio_button": "Eignasafnið mitt",
+    "contact_button": "Hafðu samband við mig",
+    "about_button": "Um mig"
+  },
+  "about": {
+    "title": "Um mig",
+    "personal_summary": {
+      "title": "Persónuleg samantekt",
+      "text": "Ég er háttsettur verkfræðingur í fullri stafla með aðsetur í Orlando, FL sem á leiðina frá vöruvanda að framleiðsluniðurstöðu. Ég tek tæknival í þjónustu kerfisins: .NET og Entity Framework Core þegar sterkt uppbyggt lén og prófanleg þrautseigja skiptir máli; Hyrndur eða bregðast við þegar flókið er verkflæði þurfa viðhaldsviðmót; Node.js eða Go þegar API, samþætting eða afkastamikil tól þarf einbeittan keyrslutíma. Þvert á SaaS vörur, innra verkflæði og vettvanga sem snúa að viðskiptavinum, leið ég með skýrum málamiðlum, öruggri og seigur hönnun, sjálfvirkum prófunum og afhendingaraðferðum sem hjálpa teymum að senda dýrmætan hugbúnað án þess að skilja eftir rekstrarskuldir."
     },
-    "about": {
-        "title": "Um mig",
-        "personal_summary": {
-            "title": "Persónuleg yfirlit",
-            "text": "Sem reyndur fullur Stack hugbúnaðarframleiðandi með aðsetur í Orlando, FL, hef ég sýnt fram á sérfræðiþekkingu í ýmsum tækni, frá Java og C ++ til React.js og Node.js. Með afrekaskrá yfir spjótandi verkefni, þar á meðal þróun Java -breytingaáætlunar fyrir Minecraft og gefandi vefsíðu fyrir vörubílstjórar, hef ég sýnt forystu og nýsköpun. Skuldbinding mín til ágæti er áberandi í getu minni til að hagræða verkefnastjórnun, leysa flókin vandamál og skila hágæða lausnum sem auka notendaupplifun og knýja fram árangur í skipulagi."
+    "professional_experience": {
+      "title": "Fagleg reynsla",
+      "entries": [
+        {
+          "jobtitle": "Yfirhugbúnaðarverkfræðingur",
+          "where": "Hönnun gagnvirk",
+          "date": "2025 - Núna"
         },
-        "professional_experience": {
-            "title": "Fagreynsla",
-            "entries": [
-                {
-                    "jobtitle": "Junior hugbúnaðarverkfræðingur",
-                    "where": "Orion180 tryggingar",
-                    "date": "2024 - Til staðar"
-                },
-                {
-                    "jobtitle": "Stofnandi og fullur Stack hugbúnaðarframleiðandi",
-                    "where": "Suprememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Full Stack hugbúnaðarverkfræðingur",
-                    "where": "Flýta fyrir námi",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Lead Web Developer (nemendaprógramm)",
-                    "where": "GDI -nám í Clemson háskólanum",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Umsjónarmaður skrifborðs",
-                    "where": "Clemson háskólinn",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Umsjónarmaður skrifborðs",
-                    "where": "Clemson háskólinn",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Hugbúnaðarverkfræðingur",
+          "where": "Orion180 tryggingar",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Tæknilega færni",
-            "header1": "Forritunarmál",
-            "header2": "Rammar og bókasöfn",
-            "header3": "Verkfæri og tækni"
+        {
+          "jobtitle": "Hugbúnaðarverkfræðingur",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Þjónusta mín",
-            "entries": [
-                {
-                    "title": "Full Stack Engineering",
-                    "text": "Ég býð upp á alhliða lausnir bæði í framhlið og þróun í bakinu, sem tryggir óaðfinnanlega samþættingu og virkni í öllu hugbúnaðarstakkanum."
-                },
-                {
-                    "title": "Vefþróun",
-                    "text": "Með sérfræðiþekkingu í HTML, CSS og JavaScript ramma eins og React.js, fönd ég sjónrænt aðlaðandi og notendavænar vefsíður sem eru sniðnar til að mæta sérstökum þörfum og óskum viðskiptavina."
-                },
-                {
-                    "title": "Leikjaþróun",
-                    "text": "Með því að nýta tungumál eins og Java og C ++, þá sem ég sérhæfa mig í að skapa yfirgripsmikla leikupplifun, allt frá hugmynd og hönnun til framkvæmdar og hagræðingar, tryggja grípandi spilamennsku og sléttan árangur."
-                }
-            ]
+        {
+          "jobtitle": "Hugbúnaðarverkfræðingur",
+          "where": "Flýttu námi",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Aðalhugbúnaðarverkfræðingur (nemanám)",
+          "where": "GDI áætlun Clemson háskólans",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Umsjónarmaður skrifborðs",
+          "where": "Clemson háskólinn",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Eignasafn",
-        "filter_by": "Síu eignasafn eftir:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca JSON",
-                "text": "Python verkefni sem straumlínulagar þýðingar á tungumálum. Leyfir að vefsíðusafnið mitt sé þýtt á 70+ tungumál, þar á meðal spænsku, frönsku, kínversku, arabísku og mörgum öðrum. Þetta verkefni er notað til að búa til fjöltyngt vefsíðusafn, sem er mjög gagnlegt til að ná til breiðari markhóps. Með þessu verkefni geta yfir 99% heimsins lesið eignasafnið mitt á reiprennandi máli.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Tengdu fjóra",
-                "text": "Gríðarleg fjölskylda yfir 50+ útfærslna í Connect Four leiknum. Þetta verkefni felur í sér útfærslur á yfir 30 mismunandi forritunarmálum, þar á meðal Java, C ++, Python, JavaScript og fleira. Að auki inniheldur það einnig yfir 20+ mismunandi ramma eða önnur snið, þar á meðal React.js, Ruby on Rails, ASP.NET og fleira.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Matvöruverslun",
-                "text": "Algjört fullstafa .NET 9 Blazor Server forrit til að stjórna matvöruvörum. Forritið fylgir stjórnandanum/þjónustu/geymslumynstri með rammaeiningarkjarna fyrir þrautseigju og felur í sér alhliða prófasvíta.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Interop verkefni",
-                "text": "Verkefni sem skjalar samvirkni milli mismunandi forritunarmálar. Sem stendur inniheldur 15 mismunandi forritunarmál og 18 framkvæmdarmynstur.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Birgðaskrá",
-                "text": "Sölupunktur í fullri stafli (POS) með birgðastjórnunarkerfi byggt með Angular 17+ og Node.js. Þetta forrit sýnir fram á POS-kerfi með fagmennsku með auðkenningu notenda, hlutverka aðgangseftirlit, birgða mælingar og spotta greiðsluvinnslu.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & YAML Auto Formatter",
-                "text": "A Linter & AutoFormatter fyrir JSON & YAML skrár. Þetta verkefni er notað til að forsníða JSON & YAML skrár, sem er mjög gagnlegt til að halda kóða hreinum og skipulögðum. Byggt með Go, sett saman með Webassembly og felld inn í eignasafnið mitt sem vefsíðuverkefni. Fleiri snið til að koma í framtíðinni.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Flugtaksvél",
-                "text": "Nútímalegt byggingarmat og flugtak SaaS fyrir verktaka og matsmenn. Það flytur inn CSV og Excel skrár, kortleggur dálka sjálfkrafa, reiknar út skurðgröft og jarðvinnumagn, rekur vinnu og álagningu og býr til viðskiptavinatilbúnar PDF og Word tilboðstillögur með fáguðu React + Express vinnuflæði.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft Json rafall",
-                "text": "Léttur JSON rafall innbyggður í Python fyrir Minecraft Resource & Data Packs. Þetta verkefni er notað til að búa til JSON skrár fyrir Minecraft Mods, þar á meðal sérsniðna hluti, blokkir og aðila. Mjög gagnlegt til að búa ekki aðeins til sérsniðna gagnapakka, heldur fyrir Mods líka í gegnum Mod Name Switching eiginleikann.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Menntunarreynsla mín",
-                "text": "Samhliða persónulegum verkefnum mínum hef ég einnig öðlast fjölda færni af menntunarreynslu. Smelltu hér til að skoða LinkedIn prófílinn minn til að fá frekari upplýsingar.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Starfsreynsla mín",
-                "text": "Samhliða persónulegum verkefnum mínum hef ég einnig öðlast fjölda færni af starfsreynslu. Smelltu hér til að skoða LinkedIn prófílinn minn til að fá frekari upplýsingar.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Patrick Goodwin eignasafn",
-                "text": "Þessi vefsíða er vefsíða mín um persónulega eignasafn, smíðuð með React.js. Þetta verkefni er notað til að sýna færni mína og verkefni, svo og til að bjóða upp á vettvang fyrir mögulega vinnuveitendur til að hafa samband við mig. Þetta verkefni er notað til að skapa faglega viðveru á netinu.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Lua handritasafn Patrick",
-                "text": "Gagnlegt bókasafn með Lua forskriftir til framtíðar tilvísunar. Þetta bókasafn er notað til að gera sjálfvirkan verkefni í Lua forskriftir, sem geta komið sér vel fyrir árangursþéttandi verkefni, þar sem Lua er venjulega hraðskreiðara en bæði Python og Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Patrick's Microsoft Excel töflureikni (VBA)",
-                "text": "Gagnlegt bókasafn með VBA forskriftir fyrir Microsoft Excel. Þetta bókasafn er notað til að gera sjálfvirkan verkefni í Excel töflureiknum.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Neovim config Patrick",
-                "text": "Persónulegar neovim stillingar mínar. Þetta verkefni er notað til að stilla Neovim að mínum mönnum, þar á meðal sérsniðnum lyklakippum, þemum og viðbætum. Þetta verkefni er notað til að gera Neovim notendavænni og skilvirkari til einkanota.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Patrick's Map Generator",
-                "text": "A United States County & State Map rafall, smíðaður með Python með Geopandas og Matplotlib bókasöfnum. Þetta verkefni er notað til að búa til kort af Bandaríkjunum, þar á meðal sýslu- og ríkiskortum. Þetta verkefni er notað til að búa til sérsniðin kort fyrir sjón og greiningu gagna.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "PowerShell handritasafn Patrick",
-                "text": "Gagnlegt bókasafn PowerShell forskriftir til framtíðar tilvísunar. Gagnlegt með $ prófíl handritsaðgerðinni finnst mér þetta gríðarlega gagnlegt til að gera sjálfvirkan verkefni frá Windows flugstöðinni, þar sem ég er tíður notandi Windows OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Ruby handritsbókasafn Patrick",
-                "text": "Gagnlegt bókasafn með Ruby forskriftir til framtíðar tilvísunar. Gagnlegt fyrir framtíðar Ruby on Rails þróunarhugtök.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "PDF færni Builder",
-                "text": "Sérsniðinn PDF byggingaraðili smíðaður með Python í gegnum PDFKIT og Jinja2 viðbætur, ásamt HTML og JSON sniði. Þetta verkefni er notað til að búa til PDF skrár úr lista yfir færni og verkefni. Hægt er að nota þetta verkefni til að búa til sérsniðna PDF ferilskrá, sem er mjög gagnlegt fyrir atvinnuforrit.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Rijandel dulkóðunarverkefni",
-                "text": "Fjölskylda 10+ útfærslna á Rijandel dulkóðunaralgrími árið 128, 192 og 256 bita. Þetta verkefni er notað til að sýna fram á Rijandel dulkóðunaralgrími á mismunandi forritunarmálum. Þetta verkefni er notað til að búa til fjölskyldu útfærslna af Rijandel dulkóðunaralgrími.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Suprememc Minecraft Mod",
-                "text": "Minecraft mod sem bætir sérsniðnum verkfærum, herklæðum, múgum, blokkum, víddum og mörgum fleiri aðgerðum við leikinn. Byggt með Java útgáfum 8-17 fyrir valnar Minecraft útgáfur á milli 1,16 og 1,20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Tiger forritunarmál",
-                "text": "Sérsniðið forritunarmál innbyggt bæði Go & ryð til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiger Tailgating Pros vefsíða",
-                "text": "Vefsíða sem ég smíðaði árið 2024 fyrir Tiger Tailgating Pros, Tailgating Company í Clemson, SC. Byggt með React.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Turing Machine Project",
-                "text": "Fjölskylda yfir 30+ útfærslna í Turing vélinni. Notað til að sýna fram á turing heilleika fyrir mismunandi forritunarmál til rannsókna, sérstaklega fyrir Tiger forritunarmálið.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Tæknileg færni",
+      "header1": "Forritunarmál",
+      "header2": "Rammar og bókasöfn",
+      "header3": "Verkfæri og tækni"
+    },
+    "services": {
+      "title": "Þjónustan mín",
+      "entries": [
+        {
+          "title": "Full Stack Engineering",
+          "text": "Ég leiði vöruafhendingu frá enda til enda: þýði verkflæði fyrirtækja yfir í kerfismörk, gagnalíkön, API og viðmót og fer síðan með verkið í gegnum prófun, dreifingu, og endurtekning. Markmiðið er hugbúnaður sem teymi getur þróast og starfrækt, ekki safn ótengdra skjáa."
+        },
+        {
+          "title": "Vara og pallur arkitektúr",
+          "text": "Ég vel vettvang og mynstur út frá vandamálinu: lagskipt .NET þjónusta fyrir viðskiptalén, íhlutadrifið Angular eða React forrit fyrir flóknar aðgerðir, vensla gagnalíkön fyrir ábyrgt verkflæði og samþættingar sem eru hannaðar með bilunarhami, aðgangsstýringu og viðhaldshæfni í huga."
+        },
+        {
+          "title": "Framleiðslu-tilbúin afhending",
+          "text": "Ég byggi með raunveruleikann eftir sjósetningu í huga: leyndarmál haldið utan heimildarstjórnar, skýrar flutningsleiðir gagnagrunns, heimild sem byggir á hlutverki, staðfesting á kerfismörkum, sjálfvirk próf, CI/CD vitund og hagnýt athugun. Þetta eru smáatriðin sem breyta frumgerð í áreiðanlegan hugbúnað."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Eignasafn",
+    "filter_by": "Sía safnasafn eftir:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "Python-byggð staðsetningarleiðsla sem breytir einum skipulögðum efnisgjafa í aðgengilegt safn á heimsvísu. Það meðhöndlar þýðingargögn sem viðhaldanlegt kerfi frekar en handvirkt afrit af síðu, sem gerir vefsíðunni kleift að stækka yfir 100+ tungumál og gera alþjóðlegt umfang rekstrargetu í stað einskiptis eiginleika.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Tengdu fjögur",
+        "text": "Stór fjölskylda með yfir 50+ útfærslum á Connect Four leiknum. Þetta verkefni inniheldur útfærslur á yfir 30 mismunandi forritunarmálum, þar á meðal Java, C++, Python, JavaScript og fleira. Að auki inniheldur það einnig yfir 20+ mismunandi ramma eða önnur snið, þar á meðal React.js, Ruby on Rails, ASP.NET og fleira.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Matvöruforrit",
+        "text": ".NET 9 Blazor Server forrit í fullri stafla sem sýnir fram á viljandi bakendaarkitektúr fyrir vinnuflæði fyrirtækja. Skipting ábyrgðaraðila/þjónustu/geymsla heldur umsóknarreglum, gagnaaðgangi og framsetningu sjálfstætt prófanlegum; Entity Framework Core veitir varanlega þrautseigju; og alhliða prófunarsvíta verndar hegðun eftir því sem varan þróast.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Samskiptaverkefni",
+        "text": "Samvirkniviðmiðun þvert á tungumál sem spannar 15 forritunarmál og 18 framkvæmdamynstur. Verkefnið rannsakar mörkin þar sem kerfi verða oft viðkvæm: vinnslusamningar, gagnaskipti, keyrsluhegðun og endurteknar samþættingarleiðir. Það endurspeglar þá kerfishugsun sem þarf þegar vara er stærri en einn stafli.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Birgðaskrá",
+        "text": "Verkflæði fyrir sölu- og birgðasölu í fullum stafla byggt með Angular 17+ og Node.js. Það mótar rekstraráhyggjur B2B kerfis: sannvotta notendur, hlutverkatengda aðgangsstýringu, birgðanákvæmni og sýndargreiðsluflæði. Verkefnið er hannað í kringum raunverulega vinnu sem skráateymi framkvæmir, ekki bara vörulista yfir rammaeiginleika.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML sjálfvirkt formatter",
+        "text": "Vafrabundið JSON og YAML staðfestingar- og sniðverkfæri innbyggt í Go og sett saman í WebAssembly. Með því að færa þáttunarvélina yfir í WASM heldur samskiptin viðbragðsgóð og staðbundin fyrir vafranum á meðan raunverulegur flokkari er notaður til að ná ógildu inntaki. Það er einbeitt dæmi um að velja keyrsluarkitektúr fyrir frammistöðu, flytjanleika og traust notenda.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Flugtaksvél",
+        "text": "Framkvæmd sem áætlar SaaS sem byggir á kostnaðarsömu verktakaflæði sem er hætt við villum. React + Express varan tekur inn CSV og Excel gögn, kortleggur ósamræmi dálka í nothæft lénslíkan, reiknar skurðgröft og jarðvinnumagn, rekur vinnu og markup, og framleiðir viðskiptavinur-tilbúnar PDF og Word tillögur. Þetta er heildarlífferilsverkfræði vöru: greiningu gagna, reiknireglur, fágað verkflæði rekstraraðila og afhendingar sem hjálpa fyrirtæki að fara frá hráum aðföngum yfir í tilboð.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON rafall",
+        "text": "Léttur JSON rafall innbyggður í Python fyrir Minecraft auðlinda- og gagnapakka. Þetta verkefni er notað til að búa til JSON skrár fyrir Minecraft mods, þar á meðal sérsniðna hluti, blokkir og einingar. Mjög gagnlegt fyrir ekki aðeins að búa til sérsniðna gagnapakka, heldur einnig fyrir mods í gegnum mod nafnaskiptaeiginleikann.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Menntunarreynsla mín",
+        "text": "Samhliða persónulegum verkefnum mínum hef ég einnig öðlast fjölmarga hæfileika af menntunarreynslu. Smelltu hér til að skoða LinkedIn prófílinn minn fyrir frekari upplýsingar.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Fagleg reynsla mín",
+        "text": "Sex ára í viðbót af faglegri verkfræðireynslu í vöruteymum, viðskiptakerfum og hugbúnaði sem snýr að viðskiptavinum. Vinnan mín hefur meðal annars falið í sér að byggja upp viðhaldanleg forritalög, vinna þvert á afhendingargreinar og taka tæknilegar ákvarðanir með líftíma vörunnar, áhættu, og langtíma eignarhald í huga.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Vefsíða Patrick Goodwin eignasafns",
+        "text": "Framleiðslumiðað React safn sem lítur á aðgengi og alþjóðlegt umfang sem verkfræðilegar kröfur. Það felur í sér viðhaldshæfa þýðingarleiðslu fyrir 100+ tungumál, gagnvirk verkfæri studd af WebAssembly, móttækileg og aðgengileg notendaviðmótsmynstur og verkefnisarkitektúr hannað til að vaxa þegar nýtt verk er sent.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "Gagnlegt safn af Lua forskriftum til framtíðarviðmiðunar. Þetta bókasafn er notað til að gera sjálfvirk verkefni í Lua forskriftum, sem getur komið sér vel fyrir afkastaþarf verkefni, þar sem Lua er venjulega hraðara forskriftarmál en bæði Python og Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel töflureikniforskriftir (VBA)",
+        "text": "Gagnlegt safn af VBA forskriftum fyrir Microsoft Excel. Þetta bókasafn er notað til að gera sjálfvirk verkefni í Excel töflureiknum.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Mín persónulega Neovim stilling. Þetta verkefni er notað til að stilla Neovim að mínu skapi, þar á meðal sérsniðnar lyklabindingar, þemu og viðbætur. Þetta verkefni er notað til að gera Neovim notendavænni og skilvirkari fyrir mína persónulegu notkun.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick's Map Generator",
+        "text": "Python landsvæðisskýrslutól byggt með GeoPandas og Matplotlib til að búa til bandarísk fylkis- og ríkiskort. Það breytir landfræðilegum gögnum í læsilega greiningargripi, sýnir gagnaleiðsluhugsun: veldu réttu lénssöfnin, staðlaðu inntak og framleiðir úttak sem styðja skýrar ákvarðanir.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Library",
+        "text": "Gagnlegt safn af PowerShell forskriftum til framtíðarviðmiðunar. Gagnlegt með $profile script eiginleikanum, mér finnst þetta afar gagnlegt til að gera sjálfvirk verkefni frá Windows flugstöðinni, þar sem ég er tíður notandi Windows OS.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Gagnlegt safn af Ruby forskriftum til framtíðarviðmiðunar. Gagnlegt fyrir Ruby on Rails þróunarhugtök framtíðarinnar.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Pdf færni Builder",
+        "text": "Verkflæði skjalagerðar byggt með Python, Pdfkit, Jinja2, HTML og skipulögðum JSON gögnum. Það aðskilur endurnotanleg gögn frá kynningarsniðmátum til að búa til sérsniðnar PDF ferilskrár stöðugt, hagnýt mynstur til að draga úr handavinnu og búa til viðskiptaskjöl endurtakanlegur.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandel dulkóðunarverkefni",
+        "text": "Samanburðarsett af 10+ Rijndael útfærslum í 128-, 192- og 256-bita afbrigðum. Að endurútfæra öryggisviðkvæmt reiknirit á milli tungumála er öguð æfing í nákvæmum forskriftum, prófunarhæfri hegðun og takmörkum færanleika á tungumálastigi, allt gagnlegt eðlishvöt fyrir kerfi sem meðhöndla viðkvæm gögn.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Minecraft Mod sem bætir sérsniðnum verkfærum, brynjum, múg, kubbum, víddum og mörgum fleiri eiginleikum í leikinn. Byggt með Java útgáfum 8-17 fyrir valdar Minecraft útgáfur á milli 1.16 og 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Tiger forritunarmál",
+        "text": "Sérsniðið forritunarmál og túlkur innbyggður í Go til að kanna tungumálakjórtímahönnun, framkvæmdarhegðun og frammistöðu. Með því að setja það saman í WebAssembly og samþætta það í eigu myndast raunverulegt, skoðanlegt vöruyfirborð fyrir verkfræði á kerfisstigi frekar en að yfirgefa verkið sem tilraun til geymslu eingöngu.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Vefsíða Tiger Tailgating Pros",
+        "text": "React vefsíða afhent fyrir skottið í Clemson, SC. Verkið þýðir tilboð lítilla fyrirtækja í skýrt ferðalag viðskiptavina og áreiðanlega viðveru á vefnum, með því að beita vöruhugsun til að hjálpa alvöru fyrirtæki að breyta áhuga í fyrirspurnir og tekjur.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Turing vélaverkefnið",
+        "text": "Fjölskylda yfir 30+ útfærslur af Turing vélinni. Notað til að sýna fram á heilleika fyrir mismunandi forritunarmál til rannsókna, sérstaklega fyrir Tiger forritunarmálið.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Tiger forritunarmál"
+  },
+  "contact": {
+    "title": "Hafðu samband við mig",
+    "header": "Upplýsingar um tengiliði",
+    "email": "pattygsocials@gmail.com",
+    "description": "Ég svara fyrirspurnum úr tölvupósti og LinkedIn skilaboðum. Ég mun líka hringja til baka ef númerið mitt er gefið upp með ferilskrá eða á annan hátt, þó ég vil frekar halda símanúmerinu mínu lokuðu."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Gagnagæðatól sem byggir á vafra sem staðfestir og forsníðir JSON og YAML með því að nota Go vél sem er sett saman í WebAssembly. Arkitektúrinn heldur áfram að flokka nálægt notandanum fyrir hraðvirka, persónulega endurgjöf á meðan hann framfylgir raunverulegum setningafræðireglum við gagnamörkin. Það er fyrirferðarlítið dæmi um að hanna áreiðanlegt verkflæði þróunaraðila í kringum réttmæti, frammistöðu og traust.",
+    "more_info1": "Fyrir frekari upplýsingar, sjá README í",
+    "more_info2": "JSON/YAML Formatter Repository.",
+    "format_as": "Snið sem:",
+    "auto_detect": "Sjálfvirk skynjun",
+    "format": "Lint & Format",
+    "valid_json": "✓ Gildir JSON",
+    "valid_yaml": "✓ Gildir YAML",
+    "invalid_json": "Ógilt JSON",
+    "invalid_yaml": "Ógilt YAML",
+    "empty_input": "Vinsamlegast sláðu inn JSON eða YAML til að lint.",
+    "too_large": "Inntak of stórt (hámark 1MB leyft).",
+    "fixed_yaml_spacing": "⚠ YAML var með ógilt bil/inndrátt en hefur verið sjálfvirkt lagfært og sniðið.",
+    "loading": "Hleður formatter...",
+    "waiting_for_input": "Bíður eftir inntaki...",
+    "load_failed": "Ekki er hægt að hlaða formatter.",
+    "output": "Framleiðsla:",
+    "input_code": "Inntak",
+    "json_examples": "JSON dæmi",
+    "yaml_examples": "YAML dæmi"
+  },
+  "tiger": {
+    "title": "Tiger tungumál",
+    "description": "Tiger er sérsniðið forritunarmál og Go túlkur smíðaður til að kanna keyrsluarkitektúr, merkingarfræði tungumála og frammistöðu. Með því að setja túlkinn saman í WebAssembly breytist þessi kerfi í gagnvirka vöru sem byggir á vafra: notendur geta keyrt forrit beint á meðan keyrslutíminn er færanlegur og einangrað frá hýsingarforritinu.",
+    "more_info1": "Fyrir frekari upplýsingar, sjá README í",
+    "more_info2": "Tiger forritunarmál GitHub geymsla.",
+    "select_engine": "Veldu vél:",
+    "tiger_code": "Tígriskóði:",
+    "run_tiger": "Hlaupa Tiger",
+    "output": "Framleiðsla:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Háttsettur verkfræðingur með 6+ ára reynslu af því að hanna SaaS vörur, framleiðslukerfi og tekjuöflunarhugbúnað."
+  },
+  "copy": {
+    "text": "Afrita",
+    "copied": "Afritað!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Fylgdu mér"
+  },
+  "languages": {
+    "title": "Portfolio þýðandi",
+    "description": "Uppgötvaðu hvernig eignasafnið mitt er aðgengilegt gestum alls staðar að úr heiminum með stuðningi fyrir yfir 100 tungumál.",
+    "global_accessibility": {
+      "title": "Alþjóðlegt aðgengi",
+      "description": "Eignasafnið mitt er fáanlegt á yfir {count} tungumálum, sem gerir það aðgengilegt gestum alls staðar að úr heiminum. Þessi fjöltyngda nálgun sýnir skuldbindingu mína til að vera án aðgreiningar og umfangs á heimsvísu í hugbúnaðarþróun.",
+      "stats": {
+        "languages_supported": "Tungumál studd",
+        "countries_represented": "Lönd með fulltrúa",
+        "continents_covered": "Heimsálfur þakinn"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Tiger forritunarmál"
-    },
-    "contact": {
-        "title": "Hafðu samband við mig",
-        "header": "Hafðu samband",
-        "email": "pattygsocials@gmail.com",
-        "description": "Ég svara fyrirspurnum frá tölvupósti, LinkedIn skilaboðum og  skilaboðum. Ég mun líka hringja til baka ef númerið mitt er veitt með ferilskrá eða á annan hátt, þó að ég vilji halda símanúmerinu mínu einkaaðila."
-    },
-    "formatter": {
-        "title": "JSON & YAML Formatter",
-        "description": "JSON & YAML Formatter er tæki sem gerir þér kleift að forsníða JSON og YAML skrár. Það er smíðað með Go og Webassembly og það er hannað til að vera hratt og skilvirkt. Formatter er hannað til að vera auðvelt í notkun, með einföldu viðmóti sem gerir þér kleift að líma í JSON eða YAML kóðann þinn og forsníða það með því að smella á hnappinn.",
-        "more_info1": "Nánari upplýsingar er að finna í ReadMe í",
-        "more_info2": "JSON/YAML Formatter geymsla.",
-        "format_as": "Snið sem:",
-        "auto_detect": "Sjálfvirkar greiningar",
-        "format": "Format",
-        "valid_json": "✓ Gildir JSON",
-        "valid_yaml": "✓ Gildir YAML",
-        "invalid_json": "Ógilt JSON",
-        "invalid_yaml": "Ógilt YAML",
-        "empty_input": "Vinsamlegast sláðu inn JSON eða YAML til að lint.",
-        "too_large": "Inntak of stórt (hámark 1MB leyft).",
-        "fixed_yaml_spacing": "⚠ YAML var með ógilt bil/inndrátt en hefur verið sjálfvirkt lagfært og sniðið."
-    },
-    "tiger": {
-        "title": "Tiger tungumál",
-        "description": "Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu. Tiger forritunarmálið er sérsniðið forritunarmál sem er smíðað bæði í Go til að gera tilraunir með túlkunarhönnun og afköst. Framkvæmd á vefsíðu eignasafnsins með vefsamsetningu.",
-        "more_info1": "Nánari upplýsingar er að finna í ReadMe í",
-        "more_info2": "Tiger forritunarmál Github geymsla.",
-        "select_engine": "Veldu vél:",
-        "tiger_code": "Tiger kóða:",
-        "run_tiger": "Hlaupa tígrisdýr",
-        "output": "Framleiðsla:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Full Stack hugbúnaðarverkfræðingur með aðsetur í Mið -Flórída"
-    },
-    "copy": {
-        "text": "Afritaðu",
-        "copied": "Afritað!"
-    },
-    "social_media": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube",
-        "text_strip": "Fylgdu mér"
-    },
-    "languages": {
-        "title": "Portfolio þýðandi",
-        "description": "Uppgötvaðu hvernig eignasafnið mitt er aðgengilegt fyrir gesti víðsvegar að úr heiminum með stuðningi við yfir 100 tungumál.",
-        "global_accessibility": {
-            "title": "Alþjóðlegt aðgengi",
-            "description": "Eignasafnið mitt er fáanlegt á yfir {count} tungumálum, sem gerir það aðgengilegt fyrir gesti víðsvegar að úr heiminum. Þessi fjöltyngda nálgun sýnir fram á skuldbindingu mína um innifalið og alþjóðlegt ná í hugbúnaðarþróun.",
-            "stats": {
-                "languages_supported": "Tungumál studd",
-                "countries_represented": "Lönd fulltrúa",
-                "continents_covered": "Heimsálfur þaknar"
-            }
+    "features": {
+      "title": "Eiginleikar",
+      "items": [
+        {
+          "title": "Rauntíma þýðing:",
+          "description": "Skiptu um tungumál samstundis með tungumálavalinu"
         },
-        "features": {
-            "title": "Eiginleikar",
-            "items": [
-                {
-                    "title": "Rauntíma þýðing:",
-                    "description": "Skiptu um tungumál samstundis með tungumálakerfinu"
-                },
-                {
-                    "title": "URL-byggð tungumál:",
-                    "description": "Tungumálastillingar eru varðveittar í slóðinni"
-                },
-                {
-                    "title": "Native handritsstuðningur:",
-                    "description": "Rétta flutning á handritum eins og arabísku, kínversku, hindí og fleiru"
-                },
-                {
-                    "title": "Menningarleg næmi:",
-                    "description": "Þýðingar líta á menningarlegt samhengi, ekki bara bókstaflega merkingu"
-                },
-                {
-                    "title": "SEO bjartsýni:",
-                    "description": "Hvert tungumálafbrigði er fínstillt fyrir leitarvélar"
-                }
-            ]
+        {
+          "title": "Tungumál byggt á vefslóðum:",
+          "description": "Tungumálastillingar eru varðveittar í vefslóðinni"
         },
-        "world_map": {
-            "title": "Gagnvirkt heimskort",
-            "description": "Sveima yfir löndum á kortinu til að sjá studd tungumál þeirra:",
-            "languages_label": "Tungumál",
-            "legend": {
-                "supported": "Tungumál studd",
-                "not_supported": "Enginn tungumálastuðningur"
-            },
-            "zoom_controls": {
-                "zoom_in": "Aðdráttur í",
-                "zoom_out": "Aðdráttur út",
-                "reset": "Endurstilla útsýni"
-            }
+        {
+          "title": "Stuðningur við innbyggt handrit:",
+          "description": "Rétt flutningur á skriftum eins og arabísku, kínversku, hindí og fleira"
         },
-        "supported_languages": {
-            "title": "Studd tungumál"
+        {
+          "title": "Menningarnæmni:",
+          "description": "Þýðingar taka mið af menningarlegu samhengi, ekki bara bókstaflegri merkingu"
         },
-        "interactive_country_map": {
-            "title": "Gagnvirkt landskort",
-            "description": "Sveima yfir löndum hér að neðan til að sjá studd tungumál þeirra:",
-            "language_count": {
-                "single": "tungumál",
-                "multiple": "tungumál"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Enginn tungumálastuðningur"
+        {
+          "title": "SEO fínstillt:",
+          "description": "Hvert tungumálafbrigði er fínstillt fyrir leitarvélar"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Gagnvirkt heimskort",
+      "description": "Farðu yfir lönd á kortinu til að sjá studd tungumál þeirra:",
+      "languages_label": "Tungumál",
+      "legend": {
+        "supported": "Tungumál studd",
+        "not_supported": "Enginn tungumálastuðningur"
+      },
+      "zoom_controls": {
+        "zoom_in": "Aðdráttur inn",
+        "zoom_out": "Aðdráttur út",
+        "reset": "Endurstilla útsýni"
+      }
+    },
+    "supported_languages": {
+      "title": "Tungumál studd"
+    },
+    "interactive_country_map": {
+      "title": "Gagnvirkt landskort",
+      "description": "Farðu yfir lönd hér að neðan til að sjá studd tungumál þeirra:",
+      "language_count": {
+        "single": "tungumál",
+        "multiple": "tungumálum"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Enginn tungumálastuðningur"
+    }
+  },
+  "logotext": "PATRICK"
 }

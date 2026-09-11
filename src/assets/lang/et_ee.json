@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Kodu",
-        "about": "Minust",
-        "portfolio": "Portfell",
-        "projects": "Veebisaidiprojektid",
-        "tiger": "Tiigrikeel",
-        "portfolio_translator": "Portfelli tõlkija",
-        "formatter": "JSON & Yaml Formatter",
-        "contact": "Võtke minuga ühendust"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Kodu",
+    "about": "Minu kohta",
+    "portfolio": "Portfell",
+    "projects": "Veebisaidi projektid",
+    "tiger": "Tiigri keel",
+    "portfolio_translator": "Portfelli tõlkija",
+    "formatter": "JSON ja YAML vormindaja",
+    "contact": "Võtke minuga ühendust"
+  },
+  "home": {
+    "title": "Full-Stack'i vaneminsener | Tooted ja süsteemid",
+    "animated": {
+      "first": "Full-Stack'i vaneminsener",
+      "second": "Süsteemide ja arhitektuuri ehitaja",
+      "third": "SaaS-i tooteinsener",
+      "fourth": "Usaldusväärne tarkvara, äritulemused"
     },
-    "home": {
-        "title": "Kodu",
-        "animated": {
-            "first": "Täielik virna tarkvarainsener",
-            "second": "Veebiarendaja",
-            "third": "Mänguarendaja",
-            "fourth": "Sisulooja"
-        },
-        "footer": "Veebisait on nüüd tõlgitud ja kättesaadav 100+ keeles!",
-        "descriptionA": "Kogenud täiskirjaga tarkvarainsener ja veebiarendaja, kellel on tõestatud arendusprojektide tõestatud ajalugu, alates Java-modifikatsioonide loomisest Minecrafti jaoks kuni React.js kasutajakogemuse parandamise ja turvaliste REST API-de rakendamiseni, kasutades samal ajal pidevalt vilgas metoodikaid ja tõhusat meeskonna koostööd.",
-        "descriptionB": "Lisaks olen geograafia sisu looja, kes on edukalt kasutanud mitme sotsiaalmeedia platvormi algoritme, sealhulgas , YouTube ja , et saada auväärset ja kaasahaaravat järgijabaasi.",
-        "portfolio_button": "Minu portfell",
-        "contact_button": "Võtke minuga ühendust",
-        "about_button": "Minust"
+    "footer": "Veebisait on nüüd tõlgitud ja saadaval enam kui 100 keelde!",
+    "descriptionA": "6+-aastase kogemusega vaneminsener, kes viib tooted mitmetähenduslikest nõuetest usaldusväärsete tootmissüsteemideni. Kujundan Reacti, Angulari, .NET-i, Node.js-i, Java-, C#-, Go- ja SQL-rakenduste arhitektuuri: selged teenusepiirid, vastupidavad andmemudelid, turvalised juurdepääsumustrid ja tarneteede meeskonnad saavad tegutseda enesekindlalt.",
+    "descriptionB": "Minu töö seob inseneriotsused äritulemustega. Alates ehituse hinnangulisest SaaS-ist, mis muudab arvutustabeli andmed kliendi jaoks valmis ettepanekuteks kuni tulu teenivate veebiplatvormideni, koostan tarkvara, mis põhineb töövoo, riskide ja mõõdetav väärtus, mis on seda kasutavatele inimestele oluline.",
+    "portfolio_button": "Minu portfell",
+    "contact_button": "Võtke minuga ühendust",
+    "about_button": "Minu kohta"
+  },
+  "about": {
+    "title": "Minu kohta",
+    "personal_summary": {
+      "title": "Isiklik kokkuvõte",
+      "text": "Olen vanem insener, kes asub Orlandos, FL ja kellele kuulub tee tooteprobleemist tootmistulemusteni. Teen süsteemi teenistuses tehnoloogilised valikud: .NET ja Entity Framework Core, kui oluline on tugevalt struktureeritud domeen ja testitav püsivus; Nurk või reageerida, kui keeruline töövood vajavad hooldatavat liidest; Node.js või Go, kui API, integratsioon või suure jõudlusega tööriist vajab keskendunud käitusaega. SaaS-i toodete, sisemiste töövoogude ja klientidele suunatud platvormide puhul olen juhtpositsioonil selgete kompromisside, turvalise ja vastupidava disaini, automatiseeritud testimise ja tarnetavadega, mis aidata meeskondadel tarnida väärtuslikku tarkvara ilma tegevusvõlga maha jätmata."
     },
-    "about": {
-        "title": "Minust",
-        "personal_summary": {
-            "title": "Isiklik kokkuvõte",
-            "text": "Orlandos, FL -s asuva kogenud täieliku virna arendajana olen demonstreerinud teadmisi erinevates tehnoloogiates, alates Java ja C ++ kuni React.js ja Node.j. Odavate projektide kogemustega, sealhulgas Minecrafti Java muutmisprogrammi väljatöötamisega ja veoautojuhtide rahuldust pakkuva veebisaidiga, olen näidanud juhtimist ja innovatsiooni. Minu pühendumus tipptasemele on ilmne minu võimes sujuvamaks muuta projektijuhtimist, lahendada keerulisi probleeme ja pakkuda kvaliteetseid lahendusi, mis suurendavad kasutajakogemust ja suurendavad organisatsiooni edu."
+    "professional_experience": {
+      "title": "Erialane kogemus",
+      "entries": [
+        {
+          "jobtitle": "Vanemtarkvarainsener",
+          "where": "Interaktiivne disain",
+          "date": "2025 – olevik"
         },
-        "professional_experience": {
-            "title": "Töökogemus",
-            "entries": [
-                {
-                    "jobtitle": "Juunioride tarkvarainsener",
-                    "where": "Orion180 kindlustus",
-                    "date": "2024 - kohal"
-                },
-                {
-                    "jobtitle": "Asutaja ja Full Stack tarkvaraarendaja",
-                    "where": "Suprememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Täielik virna tarkvarainsener",
-                    "where": "Kiirendage õppimist",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Juhtiv veebiarendaja (õpilaste programm)",
-                    "where": "Clemsoni ülikooli GDI programm",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Laua juhendaja",
-                    "where": "Clemsoni ülikool",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Laua juhendaja",
-                    "where": "Clemsoni ülikool",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Tarkvarainsener",
+          "where": "Orion180 kindlustus",
+          "date": "2024–2025"
         },
-        "technical_skills": {
-            "title": "Tehnilised oskused",
-            "header1": "Programmeerimiskeeled",
-            "header2": "Raamistik ja raamatukogud",
-            "header3": "Tööriistad ja tehnoloogiad"
+        {
+          "jobtitle": "Tarkvarainsener",
+          "where": "SupremeMC",
+          "date": "2020–2024"
         },
-        "services": {
-            "title": "Minu teenused",
-            "entries": [
-                {
-                    "title": "Täielik virnade insener",
-                    "text": "Pakun põhjalikke lahendusi nii esi- kui ka tagaosa arendamisel, tagades sujuva integratsiooni ja funktsionaalsuse kogu tarkvara virnas."
-                },
-                {
-                    "title": "Veebiarendus",
-                    "text": "HTML-, CSS- ja JavaScripti raamistike nagu React.js teadmistega meisterdan visuaalselt ahvatlevaid ja kasutajasõbralikke veebisaite, mis on kohandatud klientide konkreetsete vajaduste ja eelistuste täitmiseks."
-                },
-                {
-                    "title": "Mängude arendamine",
-                    "text": "Liigade abil nagu Java ja C ++, on ma spetsialiseerunud ümbritsevate mängukogemuste loomisele, alates kontseptsioonist ja kujundusest kuni rakendamise ja optimeerimiseni, tagades kaasahaarava mängu ja sujuva jõudluse."
-                }
-            ]
+        {
+          "jobtitle": "Tarkvarainsener",
+          "where": "Õppimise kiirendamine",
+          "date": "2023. aasta"
+        },
+        {
+          "jobtitle": "Juhtiv tarkvarainsener (üliõpilasprogramm)",
+          "where": "Clemsoni ülikooli GDI programm",
+          "date": "2021–2022"
+        },
+        {
+          "jobtitle": "Laua ülemus",
+          "where": "Clemsoni ülikool",
+          "date": "2021–2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Portfell",
-        "filter_by": "Filtriportfell:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca json",
-                "text": "Pythoni projekt, mis sujuvamaks keele tõlkeid. Võimaldab minu veebisaidi portfelli tõlkida 70+ keelt, sealhulgas hispaania, prantsuse, hiina, araabia ja paljude teistesse. Seda projekti kasutatakse mitmekeelse veebisaidi portfelli loomiseks, mis on väga kasulik laiema vaatajaskonnani jõudmiseks. Selle projektiga saab üle 99% maailmast lugeda minu portfelli sujuvas keeles.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Ühendage neli",
-                "text": "Massiivne perekond, mis on üle 50 -aastaste ühenduse mängude rakendused. See projekt sisaldab rakendusi enam kui 30 erinevas programmeerimiskeeles, sealhulgas Java, C ++, Python, JavaScript ja palju muud. Lisaks sisaldab see ka üle 20 erineva raamistiku või muid vorminguid, sealhulgas React.js, Ruby on rööbastel, ASP.NET ja palju muud.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Toidukaupade rakendus",
-                "text": "Täielik täis virnaga .NET 9 BLAZOR-serveri rakendus toidukaupade haldamiseks. Rakendus järgib kontrolleri/teenuse/hoidla mustrit koos olemiraamistiku südamikuga püsivuse saamiseks ja sisaldab põhjalikku testkomplekti.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Koostalitlusprojekt",
-                "text": "Projekt, mis dokumenteerib koostalitlusvõime erinevate programmeerimiskeelte vahel. Praegu sisaldab 15 erinevat programmeerimiskeelt ja 18 täitmismustrit.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Inventuuriregister",
-                "text": "Täisterade demo müügipunkti (POS) register varude haldussüsteemis, mis on ehitatud nurga 17+ ja Node.j.-ga. See rakendus demonstreerib professionaalse kvaliteediga POS-süsteemi, kus on kasutajate autentimine, rollipõhine juurdepääsu juhtimine, varude jälgimine ja mõnitavate maksete töötlemine.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & YAML Auto Formatter",
-                "text": "JSON & YAML -failide Linter & AutoForMatter. Seda projekti kasutatakse JSON & YAML -failide vormindamiseks, mis on koodi puhta ja korraldamise jaoks väga kasulik. Ehitatud koos Go -ga, koostatud WebAssemblyga ja manustatud minu portfelli veebisaidiprojektina. Rohkem vorminguid tulevikus.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Stardimootor",
-                "text": "Kaasaegne ehituse hindamise ja stardi SaaS töövõtjatele ja hindajatele. See impordib CSV- ja Exceli faile, kaardistab automaatselt veerge, arvutab kaeviku kaevamis- ja pinnasetööde mahud, jälgib tööjõudu ja juurdehindlust ning genereerib kliendi jaoks valmis PDF- ja Wordi pakkumisettepanekuid täiustatud React + Expressi töövooga.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft JSON generaator",
-                "text": "Kerge JSON -generaator, mis on sisse ehitatud Pythoni Minecrafti ressursside ja andmepakkide jaoks. Seda projekti kasutatakse JSON -failide genereerimiseks Minecrafti modifikatsioonide jaoks, sealhulgas kohandatud üksused, plokid ja üksused. Väga kasulik mitte ainult kohandatud andmepakkide loomiseks, vaid ka modifikatsioonifunktsiooni kaudu modifikatsioonide jaoks.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Minu hariduskogemus",
-                "text": "Oma isiklike projektide kõrval olen omandanud ka arvukalt oskusi hariduskogemusest. Lisateabe saamiseks klõpsake siin minu LinkedIni profiili kuvamiseks.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Minu töökogemus",
-                "text": "Oma isiklike projektide kõrval olen omandanud ka arvukalt oskusi töökogemusest. Lisateabe saamiseks klõpsake siin minu LinkedIni profiili kuvamiseks.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Patrick Goodwini portfelli veebisait",
-                "text": "See veebisait on minu isiklik portfelli veebisait, mis on ehitatud koos react.js -ga. Seda projekti kasutatakse minu oskuste ja projektide tutvustamiseks, samuti selleks, et pakkuda potentsiaalsetele tööandjatele platvormi minuga ühendust võtta. Seda projekti kasutatakse professionaalse veebis kohaloleku loomiseks.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Patricku Lua skriptiraamatukogu",
-                "text": "Kasulik Lua skriptide raamatukogu edaspidiseks viitamiseks. Seda raamatukogu kasutatakse LUA skriptide ülesannete automatiseerimiseks, mis võivad olla kasulikud jõudluse vajalike ülesannete jaoks, kuna Lua on tavaliselt kiirem skriptimiskeel kui nii Python kui ka Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Patricku Microsoft Exceli arvutustabeli skriptid (VBA)",
-                "text": "VBA skriptide kasulik raamatukogu Microsoft Exceli jaoks. Seda teeki kasutatakse Exceli arvutustabelites olevate ülesannete automatiseerimiseks.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patricku Neovim Config",
-                "text": "Minu isiklik Neovimi konfiguratsioon. Seda projekti kasutatakse neovimi konfigureerimiseks minu maitse järgi, sealhulgas kohandatud võtmepõhised, teemad ja pistikprogrammid. Seda projekti kasutatakse neovimi muutmiseks kasutajasõbralikumaks ja minu isiklikuks kasutamiseks tõhusamaks.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Patricku kaardigeneraator",
-                "text": "Ameerika Ühendriikide maakonna ja osariigi kaardigeneraator, mis on ehitatud koos Pythoniga, kasutades geopandasid ja Matplotlibi raamatukogusid. Seda projekti kasutatakse Ameerika Ühendriikide, sealhulgas maakonna- ja riiklike kaartide kaartide genereerimiseks. Seda projekti kasutatakse kohandatud kaartide loomiseks andmete visualiseerimiseks ja analüüsimiseks.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Patricku PowerShelli stsenaariumi raamatukogu",
-                "text": "Powershelli skriptide kasulik teek edaspidiseks viitamiseks. Kasulik $ Profiil Skripti funktsiooni puhul on see minu jaoks tohutult kasulik Windowsi terminalist ülesannete automatiseerimisel, kuna olen Windows OS -i sagedane kasutaja.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Patricku Ruby skriptide raamatukogu",
-                "text": "Kasulik Ruby -skriptide teek edaspidiseks viitamiseks. Kasulik tulevaste Ruby jaoks Rails'i arengumõisted.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "PDF -i oskuste ehitaja",
-                "text": "HTML -i ja JSON -i vormindamise kõrval on Pdfkiti ja Jinja2 laienduste kaudu Pythoniga ehitatud kohandatud PDF -i ehitaja. Seda projekti kasutatakse PDF -failide genereerimiseks oskuste ja projektide loendist. Seda projekti saab kasutada kohandatud PDF -i jätkamise loomiseks, mis on töörakenduste jaoks väga kasulik.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Rijandeli krüptimisprojekt",
-                "text": "Rijandeli krüptimise algoritmi 10+ rakendusega perekond 128, 192 ja 256 bitti. Seda projekti kasutatakse Rijandeli krüptimise algoritmi demonstreerimiseks erinevates programmeerimiskeeltes. Seda projekti kasutatakse Rijandeli krüptimise algoritmi rakenduste perekonna loomiseks.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Suprememc Minecraft Mod",
-                "text": "Minecrafti mod, mis lisab mängu kohandatud tööriistad, soomused, mobid, plokid, mõõtmed ja palju muud funktsioone. Ehitatud Java versioonidega 8-17 valitud Minecrafti versioonide jaoks vahemikus 1,16 kuni 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Tiigri programmeerimiskeel",
-                "text": "Nii Goi sisseehitatud kohandatud programmeerimiskeel, et katsetada tõlgi kujundust ja jõudlust. Rakendatud portfelli veebisaidil, kasutades veebikomplekti.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiigri tagamängude plusside veebisait",
-                "text": "Veebisait, mille ehitasin 2024. aastal Tiigri tagaajamise plusside jaoks, Clemsonis, Sc. Ehitatud React.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Turingi masinaprojekt",
-                "text": "Üle 30 -aastase Turingi masina rakendusega perekond. Kasutatakse Turingi täielikkuse demonstreerimiseks erinevate teadusuuringute programmeerimiskeelte jaoks, eriti tiigri programmeerimiskeele jaoks.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Tehnilised oskused",
+      "header1": "Programmeerimiskeeled",
+      "header2": "Raamistikud ja raamatukogud",
+      "header3": "Tööriistad ja tehnoloogiad"
+    },
+    "services": {
+      "title": "Minu teenused",
+      "entries": [
+        {
+          "title": "Full Stack Engineering",
+          "text": "Juhin toodete täielikku tarnimist: ettevõtte töövoogude tõlkimine süsteemipiirideks, andmemudeliteks, API-deks ja liidesteks, seejärel teostan tööd testimise, juurutamise, ja iteratsioon. Eesmärk on tarkvara, mida meeskond saab arendada ja kasutada, mitte lahtiühendatud ekraanide kogum."
+        },
+        {
+          "title": "Toote ja platvormi arhitektuur",
+          "text": "Platvormid ja mustrid valin lähtuvalt probleemist: kihilised .NET-teenused äridomeenidele, komponendipõhised Angular- või React-rakendused keeruliste toimingute jaoks, relatsioon andmemudelid vastutustundlike töövoogude jaoks ja integratsioonid, mis on loodud tõrkerežiime, juurdepääsu kontrolli ja hooldatavust silmas pidades."
+        },
+        {
+          "title": "Tootmisvalmis tarne",
+          "text": "Ehitan käivitamise järgset tegelikkust silmas pidades: allika kontrolli alt väljas olevad saladused, selgesõnalised andmebaasi migratsiooniteed, rollipõhine autoriseerimine, valideerimine süsteemipiiridel, automatiseeritud testid, CI/CD teadlikkus ja praktiline jälgitavus. Need on detailid, mis muudavad prototüübi töökindlaks tarkvaraks."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portfell",
+    "filter_by": "Portfelli filtreerimine:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "Pythonil põhinev lokaliseerimiskonveier, mis muudab ühe struktureeritud sisuallika ülemaailmselt juurdepääsetavaks portfelliks. See käsitleb tõlkeandmeid hooldatava süsteemina, mitte käsitsi dubleeritud lehekoopiana, võimaldades saidil skaleerida üle 100 keele ja muutes ülemaailmse ulatuse töövõime ühekordse funktsiooni asemel.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Ühendage neli",
+        "text": "Mängu Connect Four massiivne perekond, mis koosneb enam kui 50+ rakendusest. See projekt sisaldab rakendusi enam kui 30 erinevas programmeerimiskeeles, sealhulgas Java, C++, Python, JavaScript ja palju muud. Lisaks sisaldab see ka rohkem kui 20 erinevat raamistikku või muud vormingut, sealhulgas React.js, Ruby on Rails, ASP.NET ja palju muud.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Toidukaupade rakendus",
+        "text": "Täispinuline .NET 9 Blazor Serveri rakendus, mis demonstreerib ettevõtte töövoo tahtlikku taustaarhitektuuri. Kontrolleri/teenuse/hoidla jaotus hoiab rakendusreeglid, juurdepääsu andmetele ja esitluse iseseisvalt testitavatena; Entity Framework Core tagab püsiva püsivuse; ja terviklik testikomplekt kaitseb käitumist toote arenedes.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Interop projekt",
+        "text": "Keelteülene koostalitlusvõime viide, mis hõlmab 15 programmeerimiskeelt ja 18 täitmismustrit. Projekt uurib piiri, kus süsteemid muutuvad sageli hapraks: protsessilepingud, andmevahetus, käitusaegne käitumine ja korratavad integratsiooniteed. See peegeldab süsteemset mõtlemist, mida on vaja, kui toode on suurem kui üks virn.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Varude register",
+        "text": "Täielik müügikohtade ja varude töövoog, mis on loodud Angular 17+ ja Node.js-iga. See modelleerib B2B-süsteemi tööprobleeme: autentitud kasutajad, rollipõhine juurdepääsukontroll, varude täpsus ja vale maksevoog. Projekt on üles ehitatud registrimeeskonna tegelikule tööle, mitte ainult raamistiku funktsioonide kataloogile.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON ja YAML automaatne vormindaja",
+        "text": "Brauseripõhine JSON- ja YAML-i valideerimis- ja vormindamistööriist, mis on sisse ehitatud Go-sse ja kompileeritud WebAssemblysse. Sõelumismootori teisaldamine WASM-i hoiab interaktsiooni brauseri jaoks tundlikuna ja lokaalsena, rakendades samal ajal tõelist parserit, et tabada vale sisend. See on keskendunud näide käitusaegse arhitektuuri valimisest jõudluse, kaasaskantavuse ja kasutaja usalduse jaoks.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Stardimootor",
+        "text": "SaaS-i prognoosiv konstruktsioon, mis on üles ehitatud kulukale ja veaohtlikule töövõtja töövoole. Toode React + Express neelab CSV ja Exceli andmeid, kaardistab ebajärjekindlad veerud kasutatavaks domeenimudeliks, arvutab kaeviku kaevamise ja pinnasetööde mahud, jälgib tööjõudu ja märgistus ning toodab kliendi jaoks valmis PDF- ja Wordi ettepanekuid. See on toote täielik elutsükkel: andmete sõelumine, arvutusreeglid, lihvitud operaatori töövoog ja tulemused, mis aitavad ettevõttel liikuda töötlemata sisenditelt pakkumisele.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecrafti JSON-i generaator",
+        "text": "Pythonisse ehitatud kerge JSON-generaator Minecrafti ressursi- ja andmepakettide jaoks. Seda projekti kasutatakse JSON-failide genereerimiseks Minecrafti modifikatsioonide, sealhulgas kohandatud üksuste, plokkide ja olemite jaoks. Väga kasulik mitte ainult kohandatud andmepakettide loomiseks, vaid ka modifikatsioonide jaoks modi nime vahetamise funktsiooni kaudu.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Minu hariduskogemus",
+        "text": "Isiklike projektide kõrval olen omandanud mitmeid oskusi ka õppetööst. Lisateabe saamiseks klõpsake siin, et vaadata minu LinkedIni profiili.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Minu professionaalne kogemus",
+        "text": "Rohkem kui kuus aastat professionaalset insenerikogemust tootemeeskondade, äriplatvormide ja kliendile suunatud tarkvara vahel. Minu töö on hõlmanud hooldatavate rakenduskihtide loomist, tarnevaldkondade vahelist koostööd ja tehniliste otsuste tegemist toote elutsükliga, töökorras. risk ja pikaajaline omandiõigus.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwini portfelli veebisait",
+        "text": "Tootmiskeskne Reacti portfell, mis käsitleb juurdepääsetavust ja globaalset ulatust kui insenerinõudeid. See sisaldab hooldatavat tõlkekonveieri enam kui 100 keele jaoks, WebAssemblyga toetatud interaktiivseid tööriistu, reageerivaid ja juurdepääsetavaid kasutajaliidese mustreid ning projekti arhitektuuri loodud kasvama uute tööde tarnimisel.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patricku Lua skriptiteek",
+        "text": "Kasulik Lua skriptide raamatukogu edaspidiseks kasutamiseks. Seda teeki kasutatakse Lua skriptides olevate ülesannete automatiseerimiseks, mis võib abiks olla jõudlust vajavate ülesannete puhul, kuna Lua on tavaliselt kiirem skriptikeel kui nii Python kui ka Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patricku Microsoft Exceli arvutustabeli skriptid (VBA)",
+        "text": "Kasulik VBA skriptide teek Microsoft Exceli jaoks. Seda teeki kasutatakse Exceli arvutustabelite ülesannete automatiseerimiseks.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patricku Neovimi konfiguratsioon",
+        "text": "Minu isiklik Neovimi konfiguratsioon. Seda projekti kasutatakse Neovimi minu maitse järgi konfigureerimiseks, sealhulgas kohandatud klahvikombinatsioonid, teemad ja pistikprogrammid. Seda projekti kasutatakse selleks, et muuta Neovim minu isiklikuks kasutamiseks kasutajasõbralikumaks ja tõhusamaks.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patricku kaardigeneraator",
+        "text": "GeoPandase ja Matplotlibiga loodud Pythoni georuumiline aruandlustööriist USA maakonna- ja osariigikaartide loomiseks. See muudab geograafilised andmed loetavateks analüüsiartefaktideks, demonstreerides andmekanali mõtteviisi: valige õiged domeeniteegid, normaliseerige sisendid ja looge väljundeid, mis toetada selgeid otsuseid.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patricku PowerShelli skriptiteek",
+        "text": "Kasulik PowerShelli skriptide teek edaspidiseks kasutamiseks. Kasulik $ profiili skripti funktsiooniga, leian, et see on väga kasulik Windowsi terminali toimingute automatiseerimiseks, kuna olen Windowsi OS-i sage kasutaja.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Kasulik Ruby skriptide raamatukogu edaspidiseks kasutamiseks. Kasulik tulevaste Ruby on Rails arenduskontseptsioonide jaoks.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "PDF-oskuste koostaja",
+        "text": "Pythoni, Pdfkiti, Jinja2, HTML-i ja struktureeritud JSON-andmetega loodud dokumentide loomise töövoog. See eraldab korduvkasutatavad andmed esitlusmallidest, et luua järjepidevalt kohandatud PDF-i elulookirjeldusi, mis on praktiline muster käsitsitöö vähendamiseks ja äridokumentide koostamiseks. korratav.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandeli krüpteerimisprojekt",
+        "text": "10+ Rijndaeli rakenduste võrdlev komplekt 128-, 192- ja 256-bitistes variantides. Turvatundliku algoritmi uuesti rakendamine erinevates keeltes on distsiplineeritud harjutus täpsete spetsifikatsioonide, testitava käitumise ja keeletaseme kaasaskantavuse piiride osas. kõik kasulikud instinktid tundlikke andmeid käsitlevate süsteemide jaoks.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecrafti mod",
+        "text": "Minecrafti modifikatsioon, mis lisab mängule kohandatud tööriistu, raudrüüd, mobe, plokke, mõõtmeid ja palju muid funktsioone. Loodud Java versioonidega 8–17 teatud Minecrafti versioonide jaoks vahemikus 1.16–1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Tiigri programmeerimiskeel",
+        "text": "Go-sse sisseehitatud kohandatud programmeerimiskeel ja tõlk, et uurida keele käitusaja disaini, täitmiskäitumist ja jõudluse kompromisse. Selle WebAssemblysse kompileerimine ja portfelli integreerimine loob tõelise, kontrollitava tootepinna süsteemitasemel inseneri jaoks, selle asemel, et jätta töö ülesandeks. ainult hoidla eksperiment.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Tiger Tailgating Pros veebisait",
+        "text": "Reacti veebisait, mis tarnitakse Clemsoni osariigis asuvale tagaluugi ettevõttele. Töö muudab väikeettevõtte pakkumise selgeks klienditeekonnaks ja usaldusväärseks veebis kohalolekuks, rakendades tootemõtlemist, et aidata tõelisel organisatsioonil huvi äratada. päringute ja tulude osas.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Turingi masina projekt",
+        "text": "Perekond, mis koosneb enam kui 30 Turingi masina juurutusest. Kasutatakse erinevate programmeerimiskeelte täielikkuse demonstreerimiseks uuringute jaoks, eriti tiigri programmeerimiskeele jaoks.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Tiigri programmeerimiskeel"
+  },
+  "contact": {
+    "title": "Võtke minuga ühendust",
+    "header": "Kontaktandmed",
+    "email": "pattygsocials@gmail.com",
+    "description": "Vastan e-kirjade ja LinkedIn sõnumite päringutele. Helistan tagasi ka siis, kui mu number on esitatud CV kaudu või muul viisil, kuigi eelistan hoida oma telefoninumbrit privaatsena."
+  },
+  "formatter": {
+    "title": "JSON ja YAML Linter",
+    "description": "Brauseripõhine andmekvaliteedi tööriist, mis valideerib ja vormindab JSON-i ja YAML-i, kasutades WebAssemblysse kompileeritud Go-mootorit. Arhitektuur sõelub kasutaja lähedal, et saada kiiret ja privaatset tagasisidet, jõustades samal ajal andmepiiril reaalseid süntaksireegleid. See on kompaktne näide usaldusväärse arendaja töövoo kujundamisest korrektsuse, jõudluse ja usaldusväärsuse alusel.",
+    "more_info1": "Lisateabe saamiseks vaadake README jaotises",
+    "more_info2": "JSON/YAML-vorminguhoidla.",
+    "format_as": "Vorminda kui:",
+    "auto_detect": "Automaatne tuvastamine",
+    "format": "Lint & Format",
+    "valid_json": "✓ Kehtiv JSON",
+    "valid_yaml": "✓ Kehtiv YAML",
+    "invalid_json": "Vale JSON",
+    "invalid_yaml": "Kehtetu YAML",
+    "empty_input": "Sisestage lintimiseks JSON või YAML.",
+    "too_large": "Sisend on liiga suur (lubatud kuni 1 MB).",
+    "fixed_yaml_spacing": "⚠ YAML-is olid tühikud/taanded kehvad, kuid see on automaatselt parandatud ja vormindatud.",
+    "loading": "Vormindaja laadimine...",
+    "waiting_for_input": "Ootan sisendit...",
+    "load_failed": "Vormindajat ei saa laadida.",
+    "output": "Väljund:",
+    "input_code": "Sisend",
+    "json_examples": "JSON-i näited",
+    "yaml_examples": "YAML-i näited"
+  },
+  "tiger": {
+    "title": "Tiigri keel",
+    "description": "Tiger on kohandatud programmeerimiskeel ja Go-tõlk, mis on loodud käitusaegse arhitektuuri, keele semantika ja jõudluse kompromisside uurimiseks. Tõlgi kompileerimine WebAssemblysse muudab süsteemide töö interaktiivseks brauseripõhiseks tooteks: kasutajad saavad programme otse käivitada, samal ajal kui käitusaeg on kaasaskantav. ja isoleeritud hostrakendusest.",
+    "more_info1": "Lisateabe saamiseks vaadake README jaotises",
+    "more_info2": "Tiigri programmeerimiskeele GitHubi hoidla.",
+    "select_engine": "Valige mootor:",
+    "tiger_code": "Tiigri kood:",
+    "run_tiger": "Jookse Tiiger",
+    "output": "Väljund:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Vanem insener, kellel on üle 6-aastane kogemus SaaS-i toodete, tootmissüsteemide ja tulu teeniva tarkvara kujundamisel."
+  },
+  "copy": {
+    "text": "Kopeeri",
+    "copied": "Kopeeritud!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Jälgi mind"
+  },
+  "languages": {
+    "title": "Portfelli tõlkija",
+    "description": "Avastage, kuidas minu portfell on enam kui 100 keele toega külastajatele kättesaadav üle maailma.",
+    "global_accessibility": {
+      "title": "Globaalne juurdepääsetavus",
+      "description": "Minu portfell on saadaval enam kui {count} keeles, muutes selle kättesaadavaks külastajatele kogu maailmast. See mitmekeelne lähenemine näitab minu pühendumust kaasavusele ja ülemaailmsele haardele tarkvaraarenduses.",
+      "stats": {
+        "languages_supported": "Toetatud keeled",
+        "countries_represented": "Esindatud riigid",
+        "continents_covered": "Kaetud mandrid"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Tiigri programmeerimiskeel"
-    },
-    "contact": {
-        "title": "Võtke minuga ühendust",
-        "header": "Kontaktteave",
-        "email": "Pattygsocials@gmail.com",
-        "description": "Vastan päringutele e -posti, LinkedIn -i teadetest ja  sõnumitest. Samuti helistan tagasi, kui minu numbrit pakutakse CV või muul viisil, ehkki eelistan hoida oma telefoninumbrit privaatsena."
-    },
-    "formatter": {
-        "title": "JSON & Yaml Formatter",
-        "description": "JSON & Yaml FormAtter on tööriist, mis võimaldab teil vormindada JSON ja YAML -faile. See on ehitatud koos WebAssemblyga ning see on loodud kiireks ja tõhusaks. Vormisaat on mõeldud hõlpsaks kasutamiseks, lihtsa liidesega, mis võimaldab teil kleepida oma JSON -i või YAML -koodi ja vormindada selle ühe nupuvajutusega.",
-        "more_info1": "Lisateavet leiate aadressilt Readme",
-        "more_info2": "JSON/YAML FORMITERI POOLOSOY.",
-        "format_as": "Vorming kui:",
-        "auto_detect": "Automaatne tuvastamine",
-        "format": "Formaat",
-        "valid_json": "✓ Kehtiv JSON",
-        "valid_yaml": "✓ Valid YAML",
-        "invalid_json": "Invalid JSON",
-        "invalid_yaml": "Kehtetu YAML",
-        "empty_input": "Sisestage lintimiseks JSON või YAML.",
-        "too_large": "Input too large (max 1MB allowed).",
-        "fixed_yaml_spacing": "⚠ YAML-is olid tühikud/taanded kehvad, kuid see on automaatselt parandatud ja vormindatud."
-    },
-    "tiger": {
-        "title": "Tiigrikeel",
-        "description": "Tiigri programmeerimiskeel on kohandatud programmeerimiskeel, mis on ehitatud nii Go, et katsetada tõlgi disaini kui ka jõudlust. Rakendatud portfelli veebisaidil, kasutades veebikomplekti. Tiigri programmeerimiskeel on kohandatud programmeerimiskeel, mis on ehitatud nii Go, et katsetada tõlgi disaini kui ka jõudlust. Rakendatud portfelli veebisaidil, kasutades veebikomplekti.",
-        "more_info1": "Lisateavet leiate aadressilt Readme",
-        "more_info2": "Tiigri programmeerimiskeel GitHubi hoidla.",
-        "select_engine": "Valige mootor:",
-        "tiger_code": "Tiigrikood:",
-        "run_tiger": "Tiigrit korraldama",
-        "output": "Väljund:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Kesk -Floridas asuv täielik virna tarkvarainsener"
-    },
-    "copy": {
-        "text": "Koopia",
-        "copied": "Kopeeritud!"
-    },
-    "social_media": {
-        "github": "Github",
-        "linkedin": "Linkedin",
-        "youtube": "Youtube",
-        "text_strip": "Jälgi mind"
-    },
-    "languages": {
-        "title": "Portfelli tõlkija",
-        "description": "Avastage, kuidas minu portfell on külastajatele kättesaadav kogu maailmast, toetades enam kui 100 keelt.",
-        "global_accessibility": {
-            "title": "Ülemaailmne ligipääsetavus",
-            "description": "Minu portfell on saadaval üle {krahv} keelte, muutes selle külastajatele kättesaadavaks kogu maailmast. See mitmekeelne lähenemisviis näitab minu pühendumust tarkvaraarenduse kaasamisele ja globaalsele ulatusele.",
-            "stats": {
-                "languages_supported": "Toetatud keeled",
-                "countries_represented": "Esindatud riigid",
-                "continents_covered": "Kohendatud mandrid"
-            }
+    "features": {
+      "title": "Omadused",
+      "items": [
+        {
+          "title": "Reaalajas tõlge:",
+          "description": "Vahetage keeli keelevalijaga koheselt"
         },
-        "features": {
-            "title": "Omadused",
-            "items": [
-                {
-                    "title": "Reaalajas tõlge:",
-                    "description": "Lülitage keeled koheselt keelevalijaga"
-                },
-                {
-                    "title": "URL-il põhinev keel:",
-                    "description": "Keele eelistused säilitatakse URL -is"
-                },
-                {
-                    "title": "Natiivse skripti tugi:",
-                    "description": "Skriptide, nagu araabia, hiina, hindi ja palju muud, korralik renderdamine"
-                },
-                {
-                    "title": "Kultuuritundlikkus:",
-                    "description": "Tõlked käsitlevad kultuurilist konteksti, mitte ainult sõnasõnalisi tähendusi"
-                },
-                {
-                    "title": "SEO optimeeritud:",
-                    "description": "Iga keelevariant on otsingumootorite jaoks optimeeritud"
-                }
-            ]
+        {
+          "title": "URL-ipõhine keel:",
+          "description": "Keele-eelistused säilivad URL-is"
         },
-        "world_map": {
-            "title": "Interaktiivne maailmakaart",
-            "description": "Hõljutage kaardil riikide üle, et näha nende toetatud keeli:",
-            "languages_label": "Keeled",
-            "legend": {
-                "supported": "Toetatud keeled",
-                "not_supported": "Keeletugi pole"
-            },
-            "zoom_controls": {
-                "zoom_in": "Suum",
-                "zoom_out": "Välja suumima",
-                "reset": "Lähtestamine vaade"
-            }
+        {
+          "title": "Omaskripti tugi:",
+          "description": "Skriptide, nagu araabia, hiina, hindi jm õige renderdamine"
         },
-        "supported_languages": {
-            "title": "Toetatud keeled"
+        {
+          "title": "Kultuuriline tundlikkus:",
+          "description": "Tõlked arvestavad kultuurikonteksti, mitte ainult sõnasõnalisi tähendusi"
         },
-        "interactive_country_map": {
-            "title": "Interaktiivne maakaart",
-            "description": "Hõljutage allpool asuvate riikide kohal, et näha nende toetatud keeli:",
-            "language_count": {
-                "single": "keel",
-                "multiple": "keeled"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Keeletugi pole"
+        {
+          "title": "SEO optimeeritud:",
+          "description": "Iga keelevariant on otsingumootorite jaoks optimeeritud"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Interaktiivne maailmakaart",
+      "description": "Hõljutage kursorit kaardil riikide kohal, et näha nende toetatud keeli:",
+      "languages_label": "Keeled",
+      "legend": {
+        "supported": "Toetatud keeled",
+        "not_supported": "Keeletugi puudub"
+      },
+      "zoom_controls": {
+        "zoom_in": "Suumi sisse",
+        "zoom_out": "Suumi välja",
+        "reset": "Lähtesta vaade"
+      }
+    },
+    "supported_languages": {
+      "title": "Toetatud keeled"
+    },
+    "interactive_country_map": {
+      "title": "Interaktiivne riigikaart",
+      "description": "Hõljutage kursorit allolevate riikide kohal, et näha nende toetatud keeli.",
+      "language_count": {
+        "single": "keel",
+        "multiple": "keeled"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Keele tugi puudub"
+    }
+  },
+  "logotext": "PATRICK"
 }

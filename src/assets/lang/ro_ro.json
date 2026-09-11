@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Acasă",
-        "about": "Despre mine",
-        "portfolio": "Portofoliu",
-        "projects": "Proiecte de site -uri web",
-        "tiger": "Limba tigrului",
-        "portfolio_translator": "Traducător de portofoliu",
-        "formatter": "Formatter JSON & YAML",
-        "contact": "Contactați -mă"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Acasă",
+    "about": "Despre mine",
+    "portfolio": "Portofoliu",
+    "projects": "Proiecte de site",
+    "tiger": "Limba tigrului",
+    "portfolio_translator": "Traducător de portofoliu",
+    "formatter": "Formatator JSON și YAML",
+    "contact": "Contactați-mă"
+  },
+  "home": {
+    "title": "Inginer Senior Full-Stack | Produs și sisteme",
+    "animated": {
+      "first": "Inginer Senior Full-Stack",
+      "second": "Constructor de sisteme și arhitectură",
+      "third": "Inginer de produs SaaS",
+      "fourth": "Software de încredere, rezultate de afaceri"
     },
-    "home": {
-        "title": "Acasă",
-        "animated": {
-            "first": "Inginer software cu stivă completă",
-            "second": "Dezvoltator web",
-            "third": "Dezvoltator de jocuri",
-            "fourth": "Creator de conținut"
-        },
-        "footer": "Site -ul web acum tradus și avalat în peste 100 de limbi!",
-        "descriptionA": "Inginer software cu experiență completă și dezvoltator web, cu o istorie demonstrată a proiectelor de dezvoltare cu succes, de la crearea modificărilor Java pentru Minecraft până la îmbunătățirea experienței utilizatorului în React.js și implementarea API-urilor REST sigure, utilizând constant metodologii agile și colaborare eficientă a echipei.",
-        "descriptionB": "În plus, sunt un creator de conținut de geografie, care a susținut cu succes algoritmii mai multor platforme de socializare, inclusiv , YouTube și , pentru a obține o bază de urmărire respectabilă și antrenantă.",
-        "portfolio_button": "Portofoliul meu",
-        "contact_button": "Contactați -mă",
-        "about_button": "Despre mine"
+    "footer": "Site-ul web acum tradus și disponibil în peste 100 de limbi!",
+    "descriptionA": "Inginer senior full-stack cu peste 6 ani de experiență în preluarea produselor de la cerințe ambigue la sisteme de producție fiabile. Proiectez arhitectura din spatele aplicațiilor React, Angular, .NET, Node.js, Java, C#, Go și SQL: limite clare ale serviciilor, modele de date durabile, modele de acces sigure și căile de livrare echipele pot opera cu încredere.",
+    "descriptionB": "Munca mea conectează deciziile de inginerie cu rezultatele afacerii. De la un SaaS de estimare a construcției care transformă datele din foile de calcul în propuneri pregătite pentru clienți până la platforme web generatoare de venituri, construiesc software în jurul fluxului de lucru, riscului și valoare măsurabilă care contează pentru persoanele care o folosesc.",
+    "portfolio_button": "Portofoliul meu",
+    "contact_button": "Contactați-mă",
+    "about_button": "Despre mine"
+  },
+  "about": {
+    "title": "Despre mine",
+    "personal_summary": {
+      "title": "Rezumat personal",
+      "text": "Sunt un inginer senior full-stack cu sediul în Orlando, FL, care deține calea de la problema produsului la rezultatul producției. Fac alegeri tehnologice în serviciul sistemului: .NET și Entity Framework Core când contează un domeniu puternic structurat și persistența testabilă; Angular sau React atunci când este complex fluxurile de lucru au nevoie de o interfață care poate fi întreținută; Node.js sau Go atunci când un API, un instrument de integrare sau de înaltă performanță are nevoie de un timp de execuție concentrat. În produsele SaaS, fluxurile de lucru interne și platformele orientate către clienți, conduc cu compromisuri explicite, design sigur și rezistent, testare automată și practici de livrare care ajutați echipele să livreze software valoros fără a lăsa în urmă datorii operaționale."
     },
-    "about": {
-        "title": "Despre mine",
-        "personal_summary": {
-            "title": "Rezumat personal",
-            "text": "În calitate de dezvoltator de software cu experiență completă cu sediul în Orlando, FL, am demonstrat expertiză în diverse tehnologii, de la Java și C ++ până la React.js și Node.js. Cu un palmares al proiectelor de lance, inclusiv dezvoltarea unui program de modificare Java pentru Minecraft și un site web plin de satisfacții pentru șoferii de camioane, am prezentat leadership și inovație. Angajamentul meu față de excelență este evident în capacitatea mea de a eficientiza managementul de proiect, de a rezolva probleme complexe și de a oferi soluții de înaltă calitate care îmbunătățesc experiența utilizatorului și determină succesul organizațional."
+    "professional_experience": {
+      "title": "Experiență profesională",
+      "entries": [
+        {
+          "jobtitle": "Inginer software senior",
+          "where": "Design interactiv",
+          "date": "2025 - Prezent"
         },
-        "professional_experience": {
-            "title": "Experiență profesională",
-            "entries": [
-                {
-                    "jobtitle": "Inginer software junior",
-                    "where": "Asigurare Orion180",
-                    "date": "2024 - prezent"
-                },
-                {
-                    "jobtitle": "Fondator și dezvoltator de software Full Stack",
-                    "where": "Suprememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Inginer software cu stivă completă",
-                    "where": "Accelerează învățarea",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Dezvoltator Web Lead (Programul studentului)",
-                    "where": "Programul GDI al Universității Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Supraveghetor de birou",
-                    "where": "Universitatea Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Supraveghetor de birou",
-                    "where": "Universitatea Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Inginer software",
+          "where": "Asigurare Orion180",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Abilități tehnice",
-            "header1": "Limbi de programare",
-            "header2": "Frame și biblioteci",
-            "header3": "Instrumente și tehnologii"
+        {
+          "jobtitle": "Inginer software",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Serviciile mele",
-            "entries": [
-                {
-                    "title": "Inginerie completă de stivă",
-                    "text": "Ofer soluții cuprinzătoare atât în ​​dezvoltarea front-end, cât și în partea din spate, asigurând integrarea și funcționalitatea perfectă pe întreaga stivă de software."
-                },
-                {
-                    "title": "Dezvoltare web",
-                    "text": "Cu expertiză în cadre HTML, CSS și JavaScript precum React.js, I Craft vizual atrăgătoare și site-uri web ușor de utilizat, adaptate pentru a răspunde nevoilor și preferințelor specifice ale clienților."
-                },
-                {
-                    "title": "Dezvoltarea jocului",
-                    "text": "Utilizând limbi precum Java și C ++, sunt specializat în crearea de experiențe de joc imersive, de la concept și design la implementare și optimizare, asigurând implicarea jocului și performanțe lină."
-                }
-            ]
+        {
+          "jobtitle": "Inginer software",
+          "where": "Accelerează învățarea",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Inginer software principal (program pentru studenți)",
+          "where": "Programul GDI al Universității Clemson",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Supervizor de birou",
+          "where": "Universitatea Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Portofoliu",
-        "filter_by": "Portofoliu de filtrare de:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca JSON",
-                "text": "Un proiect Python care eficientizează traducerile de limbă. Permite traducerea portofoliului meu de site -uri web în peste 70 de limbi, inclusiv spaniolă, franceză, chineză, arabă și multe altele. Acest proiect este utilizat pentru a crea un portofoliu de site -uri multilingve, care este foarte util pentru a ajunge la un public mai larg. Cu acest proiect, peste 99% din lume îmi pot citi portofoliul într -un limbaj fluentă.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Conectați patru",
-                "text": "Familia masivă de peste 50 de implementări ale jocului Connect Four. Acest proiect include implementări în peste 30 de limbaje de programare diferite, inclusiv Java, C ++, Python, JavaScript și multe altele. În plus, include, de asemenea, peste 20 de cadre diferite sau alte formate, inclusiv React.js, Ruby on Rails, ASP.NET și multe altele.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Aplicație alimentară",
-                "text": "O aplicație completă de server .NET 9 Blazor pentru gestionarea articolelor alimentare. Aplicația urmărește modelul de control/serviciu/depozit cu Entity Framework Core pentru persistență și include o suită de testare cuprinzătoare.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Proiect interop",
-                "text": "Un proiect care documentează interoperabilitatea între diferite limbaje de programare. În prezent, include 15 limbaje de programare diferite și 18 modele de execuție.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Registrul de inventar",
-                "text": "Un registru de vânzare demo-stack complet (POS) cu un sistem de gestionare a inventarului construit cu Angular 17+ și Node.js. Această aplicație demonstrează un sistem POS de calitate profesională cu autentificarea utilizatorului, controlul accesului bazat pe roluri, urmărirea stocurilor și procesarea plăților batjocoritoare.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & YAML AUTO Formatter",
-                "text": "Un linter și autoformatter pentru fișierele JSON și YAML. Acest proiect este utilizat pentru a formata fișierele JSON și YAML, ceea ce este foarte util pentru menținerea codului curat și organizat. Construit cu GO, compilat cu WebAssembly și încorporat în portofoliul meu ca proiect de site. Mai multe formate care vor veni în viitor.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Takeoff Engine",
-                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Generator JSON Minecraft",
-                "text": "Generator JSON ușor construit în Python pentru pachete de resurse și date Minecraft. Acest proiect este utilizat pentru a genera fișiere JSON pentru moduri Minecraft, inclusiv articole personalizate, blocuri și entități. Foarte util pentru crearea nu numai a datelor de date personalizate, ci și pentru mod -uri prin intermediul funcției de comutare a numelor Mod.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Experiența mea educațională",
-                "text": "Alături de proiectele mele personale, am dobândit numeroase abilități din experiența educațională. Faceți clic aici pentru a vizualiza profilul meu LinkedIn pentru mai multe informații.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Experiența mea profesională",
-                "text": "Alături de proiectele mele personale, am dobândit numeroase abilități din experiența profesională. Faceți clic aici pentru a vizualiza profilul meu LinkedIn pentru mai multe informații.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Site -ul portofoliului Patrick Goodwin",
-                "text": "Acest site web este site -ul meu de portofoliu personal, construit cu React.js. Acest proiect este utilizat pentru a -mi prezenta abilitățile și proiectele, precum și pentru a oferi o platformă pentru ca potențialii angajatori să mă contacteze. Acest proiect este utilizat pentru a crea o prezență online profesională.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Patrick's Lua Script Bibliotecă",
-                "text": "O bibliotecă utilă de scripturi Lua pentru referințe viitoare. Această bibliotecă este folosită pentru a automatiza sarcinile în scripturile Lua, care pot fi la îndemână pentru sarcini cu necesitate performantă, deoarece Lua este de obicei un limbaj de script mai rapid decât Python și Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Scripturile de foi de calcul Microsoft Excel Patrick (VBA)",
-                "text": "O bibliotecă utilă de scripturi VBA pentru Microsoft Excel. Această bibliotecă este utilizată pentru a automatiza sarcinile în foile de calcul Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Configurarea neovim a lui Patrick",
-                "text": "Configurația mea personală neovim. Acest proiect este utilizat pentru a configura Neovim pe placul meu, incluzând legături de cheie personalizate, teme și pluginuri. Acest proiect este utilizat pentru a face Neovim mai ușor de utilizat și mai eficient pentru uz personal.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Generatorul de hartă al lui Patrick",
-                "text": "Un generator de hartă a județului și statului din Statele Unite, construit cu Python folosind bibliotecile Geopandas și Matplotlib. Acest proiect este utilizat pentru a genera hărți ale Statelor Unite, inclusiv hărți județene și de stat. Acest proiect este utilizat pentru a crea hărți personalizate pentru vizualizarea și analiza datelor.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Biblioteca de scripturi PowerShell a lui Patrick",
-                "text": "O bibliotecă utilă a scripturilor PowerShell pentru referințe viitoare. Util cu funcția de script $ profil, consider că este foarte util pentru automatizarea sarcinilor de la terminalul Windows, deoarece sunt un utilizator frecvent al sistemului de operare Windows.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Biblioteca Ruby Script a lui Patrick",
-                "text": "O bibliotecă utilă de scripturi Ruby pentru referințe viitoare. Util pentru viitoarele concepte de dezvoltare Ruby on Rails.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Constructor de abilități PDF",
-                "text": "Un constructor PDF personalizat construit cu Python prin extensiile PDFKIT și Jinja2, alături de formatarea HTML și JSON. Acest proiect este utilizat pentru a genera fișiere PDF dintr -o listă de abilități și proiecte. Acest proiect poate fi utilizat pentru a crea un CV PDF personalizat, care este foarte util pentru aplicațiile de locuri de muncă.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Proiect de criptare Rijandel",
-                "text": "O familie de 10+ implementări ale algoritmului de criptare Rijandel în 128, 192 și 256 de biți. Acest proiect este utilizat pentru a demonstra algoritmul de criptare Rijandel în diferite limbaje de programare. Acest proiect este utilizat pentru a crea o familie de implementări ale algoritmului de criptare Rijandel.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "SupremeMC Minecraft Mod",
-                "text": "Un mod Minecraft care adaugă instrumente personalizate, armuri, mafii, blocuri, dimensiuni și multe alte caracteristici la joc. Construit cu versiuni Java 8-17 pentru versiuni selectate Minecraft între 1.16 și 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Limbaj de programare tigru",
-                "text": "Limbaj de programare personalizat încorporat atât în ​​Go și Rust, pentru a experimenta cu proiectarea și performanța interpretului. Implementat pe site -ul portofoliului folosind asamblare web.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Site -ul Tiger Tailgating Pros",
-                "text": "Un site web pe care l -am construit în 2024 pentru Tiger Tailgating Pros, o companie de hayon din Clemson, SC. Construit cu React.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Proiectul Turing Machine",
-                "text": "Familie de peste 30 de implementări ale mașinii Turing. Folosit pentru a demonstra completitudinea Turing pentru diferite limbaje de programare pentru cercetare, în special pentru limbajul de programare a tigrului.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Abilități tehnice",
+      "header1": "Limbaje de programare",
+      "header2": "Cadre și biblioteci",
+      "header3": "Instrumente și tehnologii"
+    },
+    "services": {
+      "title": "Serviciile mele",
+      "entries": [
+        {
+          "title": "Inginerie Full Stack",
+          "text": "Conduc livrarea de produse end-to-end: traducerea fluxurilor de lucru de afaceri în limite de sistem, modele de date, API-uri și interfețe, apoi desfășurând munca prin testare, implementare, și iterație. Scopul este un software pe care o echipă îl poate dezvolta și opera, nu o colecție de ecrane deconectate."
+        },
+        {
+          "title": "Arhitectura produsului și platformei",
+          "text": "Aleg platforme și modele în funcție de problemă: servicii .NET stratificate pentru domenii de afaceri, aplicații Angular sau React bazate pe componente pentru operațiuni complexe, relaționale modele de date pentru fluxuri de lucru responsabile și integrări concepute având în vedere modurile de eșec, controlul accesului și mentenabilitatea."
+        },
+        {
+          "title": "Livrare gata de producție",
+          "text": "Construiesc cu realitățile de după lansare în vedere: secrete ținute în afara controlului sursei, căi explicite de migrare a bazei de date, autorizare bazată pe roluri, validare la granițele sistemului, teste automate, conștientizare CI/CD și observabilitate practică. Acestea sunt detaliile care transformă un prototip într-un software de încredere."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portofoliu",
+    "filter_by": "Filtrați portofoliul după:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "O conductă de localizare bazată pe Python care transformă o sursă de conținut structurată într-un portofoliu accesibil la nivel global. Acesta gestionează datele de traducere ca un sistem care poate fi întreținut, mai degrabă decât o copie a paginii duplicată manual, permițând site-ului să se extindă în peste 100 de limbi și făcând o acoperire globală capacitatea operațională în loc de o caracteristică unică.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Conectați patru",
+        "text": "Familie masivă de peste 50 de implementări ale jocului Connect Four. Acest proiect include implementări în peste 30 de limbaje de programare diferite, inclusiv Java, C++, Python, JavaScript și multe altele. În plus, include, de asemenea, peste 20 de cadre diferite sau alte formate, inclusiv React.js, Ruby on Rails, ASP.NET și multe altele.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Aplicație pentru băcănie",
+        "text": "O aplicație completă .NET 9 Blazor Server care demonstrează arhitectura backend intenționată pentru un flux de lucru de afaceri. Diviziunea controler/serviciu/repozitiv păstrează regulile aplicației, accesul la date și prezentarea testabile în mod independent; Entity Framework Core oferă persistență durabilă; iar cel Suita cuprinzătoare de teste protejează comportamentul pe măsură ce produsul evoluează.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Proiectul de interoperabilitate",
+        "text": "O referință de interoperabilitate în mai multe limbi care acoperă 15 limbaje de programare și 18 modele de execuție. Proiectul investighează granița în care sistemele devin adesea fragile: contracte de proces, schimb de date, comportament de rulare și căi de integrare repetabile. Reflectă gândirea sistemului necesară atunci când un produs este mai mare decât o singură stivă.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Registrul de inventar",
+        "text": "Un flux de lucru POS și inventar complet construit cu Angular 17+ și Node.js. Modelează preocupările operaționale ale unui sistem B2B: utilizatori autentificați, control al accesului bazat pe roluri, acuratețea inventarului și un flux de plată simulat. Proiectul este conceput în jurul activității efective pe care o desfășoară o echipă de registru, nu doar a unui catalog de caracteristici cadru.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "Formatator automat JSON și YAML",
+        "text": "Un instrument de validare și formatare JSON și YAML bazat pe browser, construit în Go și compilat în WebAssembly. Mutarea motorului de analiză în WASM menține interacțiunea receptivă și locală pentru browser, în timp ce se aplică un parser real pentru a captura intrările nevalide. Este un exemplu concentrat de alegere a unei arhitecturi de rulare pentru performanță, portabilitate și încrederea utilizatorilor.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Motorul de decolare",
+        "text": "Un SaaS de estimare a construcției construit în jurul unui flux de lucru al antreprenorului costisitor, predispus la erori. Produsul React + Express ingerează date CSV și Excel, mapează coloanele inconsecvente într-un model de domeniu utilizabil, calculează volumele de excavare a șanțurilor și de terasament, urmărește forța de muncă și markup și produce propuneri PDF și Word pregătite pentru client. Aceasta este o inginerie completă a ciclului de viață al produsului: analiza datelor, reguli de calcul, un flux de lucru al operatorului și rezultate care ajută o afacere să treacă de la inputuri brute la o licitație.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Generator",
+        "text": "Generator JSON ușor construit în Python pentru pachetele de resurse și date Minecraft. Acest proiect este folosit pentru a genera fișiere JSON pentru modurile Minecraft, inclusiv elemente personalizate, blocuri și entități. Foarte util nu numai pentru crearea de pachete de date personalizate, ci și pentru moduri prin intermediul funcției de schimbare a numelui modului.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Experiența mea educațională",
+        "text": "Pe lângă proiectele mele personale, am dobândit și numeroase abilități din experiența educațională. Faceți clic aici pentru a vedea profilul meu LinkedIn pentru mai multe informații.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Experiența mea profesională",
+        "text": "Peste șase ani de experiență profesională în inginerie în echipe de produse, platforme de afaceri și software orientat către clienți. Munca mea a inclus construirea de straturi de aplicații care pot fi întreținute, colaborarea între disciplinele de livrare și luarea de decizii tehnice cu ciclul de viață al produsului, operațional riscul și proprietatea pe termen lung în vedere.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Site-ul de portofoliu Patrick Goodwin",
+        "text": "Un portofoliu React orientat spre producție, care tratează accesibilitatea și acoperirea globală ca cerințe de inginerie. Include o conductă de traducere care poate fi întreținută pentru peste 100 de limbi, instrumente interactive susținute de WebAssembly, modele de UI receptive și accesibile și o arhitectură de proiect concepute pentru a crește pe măsură ce sunt livrate lucrări noi.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Biblioteca de scripturi Lua a lui Patrick",
+        "text": "O bibliotecă utilă de script-uri Lua pentru referințe viitoare. Această bibliotecă este folosită pentru automatizarea sarcinilor în scripturile Lua, ceea ce poate fi util pentru sarcinile care necesită performanță, deoarece Lua este de obicei un limbaj de scriptare mai rapid decât atât Python, cât și Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Scripturile pentru foi de calcul Microsoft Excel ale lui Patrick (VBA)",
+        "text": "O bibliotecă utilă de scripturi VBA pentru Microsoft Excel. Această bibliotecă este folosită pentru automatizarea sarcinilor din foile de calcul Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Configurația lui Patrick Neovim",
+        "text": "Configurația mea personală Neovim. Acest proiect este folosit pentru a configura Neovim după placul meu, inclusiv legături personalizate de taste, teme și pluginuri. Acest proiect este folosit pentru a face Neovim mai ușor de utilizat și mai eficient pentru uzul meu personal.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Generatorul de hărți al lui Patrick",
+        "text": "Un instrument de raportare geospațială Python construit cu GeoPandas și Matplotlib pentru a genera hărți ale județelor și ale statelor din SUA. Transformă datele geografice în artefacte de analiză care pot fi citite, demonstrând o mentalitate în pipeline de date: selectați bibliotecile de domeniu potrivite, normalizați intrările și produceți rezultate care susține decizii clare.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Biblioteca de scripturi PowerShell a lui Patrick",
+        "text": "O bibliotecă utilă de scripturi PowerShell pentru referințe viitoare. Util cu funcția de script $profile, consider că aceasta este extrem de utilă pentru automatizarea sarcinilor din terminalul Windows, deoarece sunt un utilizator frecvent al sistemului de operare Windows.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Biblioteca de scripturi Ruby a lui Patrick",
+        "text": "O bibliotecă utilă de scripturi Ruby pentru referințe viitoare. Util pentru viitoarele concepte de dezvoltare Ruby on Rails.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "PDF Skills Builder",
+        "text": "Un flux de lucru pentru generarea de documente construit cu Python, Pdfkit, Jinja2, HTML și date structurate JSON. Separă datele reutilizabile de șabloanele de prezentare pentru a genera CV-uri PDF personalizate în mod consecvent, un model practic pentru reducerea muncii manuale și realizarea de documente de afaceri repetabil.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Proiectul de criptare Rijandel",
+        "text": "Un set comparativ de peste 10 implementări Rijndael în variante de 128, 192 și 256 de biți. Reimplementarea unui algoritm sensibil la securitate în diferite limbi este un exercițiu disciplinat în specificații exacte, comportament testabil și limitele portabilității la nivel de limbă, toate instinctele utile pentru sistemele care manipulează date sensibile.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Un mod Minecraft care adaugă instrumente personalizate, armuri, mafiote, blocuri, dimensiuni și multe alte funcții la joc. Construit cu versiunile Java 8-17 pentru anumite versiuni Minecraft între 1.16 și 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Limbajul de programare Tiger",
+        "text": "Un limbaj de programare personalizat și un interpret încorporat în Go pentru a explora designul limbajului de rulare, comportamentul de execuție și compromisurile de performanță. Compilarea acestuia în WebAssembly și integrarea acestuia în portofoliu creează o suprafață de produs reală, inspectabilă pentru inginerie la nivel de sisteme, mai degrabă decât să lase munca ca un experiment numai pentru depozit.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Site-ul pentru profesioniști Tiger Tailgating",
+        "text": "Un site web React livrat pentru o afacere de tailgating Clemson, SC. Lucrarea traduce oferta unei afaceri mici într-o călătorie clară a clienților și prezență web de încredere, aplicând gândirea despre produse pentru a ajuta o organizație reală să transforme interesul în anchete și venituri.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Proiectul mașinii Turing",
+        "text": "Familie de peste 30 de implementări ale mașinii Turing. Folosit pentru a demonstra caracterul complet al diferitelor limbaje de programare pentru cercetare, în special pentru limbajul de programare Tiger.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Limbajul de programare Tiger"
+  },
+  "contact": {
+    "title": "Contactați-mă",
+    "header": "Informații de contact",
+    "email": "pattygsocials@gmail.com",
+    "description": "Răspund la întrebările din e-mail și mesaje LinkedIn. De asemenea, voi suna înapoi dacă numărul meu este furnizat prin CV sau altfel, deși prefer să păstrez numărul meu de telefon privat."
+  },
+  "formatter": {
+    "title": "JSON și YAML Linter",
+    "description": "Un instrument de calitate a datelor bazat pe browser care validează și formatează JSON și YAML folosind un motor Go compilat în WebAssembly. Arhitectura continuă analizarea aproape de utilizator pentru feedback rapid și privat, în timp ce impune reguli reale de sintaxă la limita datelor. Este un exemplu compact de proiectare a unui flux de lucru pentru dezvoltatori de încredere în jurul corectitudinii, performanței și încrederii.",
+    "more_info1": "Pentru mai multe informații, consultați README din",
+    "more_info2": "Depozitul de formatare JSON/YAML.",
+    "format_as": "Format ca:",
+    "auto_detect": "Detectare automată",
+    "format": "Lint & Format",
+    "valid_json": "✓ JSON valid",
+    "valid_yaml": "✓ YAML valid",
+    "invalid_json": "JSON nevalid",
+    "invalid_yaml": "YAML nevalid",
+    "empty_input": "Introduceți niște JSON sau YAML pentru a lint.",
+    "too_large": "Intrare prea mare (maximum 1 MB permis).",
+    "fixed_yaml_spacing": "⚠ YAML a avut spațiere/indentare nevalidă, dar a fost remediată și formatată automat.",
+    "loading": "Se încarcă formatatorul...",
+    "waiting_for_input": "Se așteaptă intrarea...",
+    "load_failed": "Nu se poate încărca formatatorul.",
+    "output": "Ieșire:",
+    "input_code": "Intrare",
+    "json_examples": "Exemple JSON",
+    "yaml_examples": "Exemple YAML"
+  },
+  "tiger": {
+    "title": "Limba tigrului",
+    "description": "Tiger este un limbaj de programare personalizat și un interpret Go construit pentru a explora arhitectura de rulare, semantica limbajului și compromisurile de performanță. Compilarea interpretului la WebAssembly transformă sistemele într-un produs interactiv, bazat pe browser: utilizatorii pot executa programe direct în timp ce timpul de execuție rămâne portabil și izolate de aplicația gazdă.",
+    "more_info1": "Pentru mai multe informații, consultați README din",
+    "more_info2": "Limbajul de programare Tiger Depozitul GitHub.",
+    "select_engine": "Selectați motorul:",
+    "tiger_code": "Cod tigru:",
+    "run_tiger": "Fugi Tiger",
+    "output": "Ieșire:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Inginer senior full-stack cu peste 6 ani de experiență în proiectarea de produse SaaS, sisteme de producție și software generator de venituri."
+  },
+  "copy": {
+    "text": "Copie",
+    "copied": "Copiat!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Urmați-mă"
+  },
+  "languages": {
+    "title": "Traducător de portofoliu",
+    "description": "Descoperiți cum portofoliul meu este accesibil vizitatorilor din întreaga lume, cu suport pentru peste 100 de limbi.",
+    "global_accessibility": {
+      "title": "Accesibilitate globală",
+      "description": "Portofoliul meu este disponibil în peste {count} limbi, ceea ce îl face accesibil vizitatorilor din întreaga lume. Această abordare multilingvă demonstrează angajamentul meu față de incluziune și acoperire globală în dezvoltarea de software.",
+      "stats": {
+        "languages_supported": "Limbi acceptate",
+        "countries_represented": "Țările Reprezentate",
+        "continents_covered": "Continente Acoperite"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Limbaj de programare tigru"
-    },
-    "contact": {
-        "title": "Contactați -mă",
-        "header": "Informații de contact",
-        "email": "Pattygsocials@gmail.com",
-        "description": "Răspund la întrebări de la e -mail, mesaje LinkedIn și mesaje . De asemenea, voi suna înapoi dacă numărul meu este furnizat prin CV sau altfel, deși prefer să -mi păstrez numărul de telefon privat."
-    },
-    "formatter": {
-        "title": "Formatter JSON & YAML",
-        "description": "Formatterul JSON & YAML este un instrument care vă permite să formatați fișierele JSON și YAML. Este construit cu GO și WebAssembly și este conceput pentru a fi rapid și eficient. Formatterul este proiectat pentru a fi ușor de utilizat, cu o interfață simplă care vă permite să lipiți în codul JSON sau YAML și să o formatați cu un clic al unui buton.",
-        "more_info1": "Pentru mai multe informații, consultați readme -ul din",
-        "more_info2": "Depozitul de format JSON/YAML.",
-        "format_as": "Format ca:",
-        "auto_detect": "Detectare automată",
-        "format": "Format",
-        "valid_json": "✓ Valid JSON",
-        "valid_yaml": "✓ Valid YAML",
-        "invalid_json": "Invalid JSON",
-        "invalid_yaml": "Invalid YAML",
-        "empty_input": "Please enter some JSON or YAML to lint.",
-        "too_large": "Input too large (max 1MB allowed).",
-        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
-    },
-    "tiger": {
-        "title": "Limba tigrului",
-        "description": "Limbajul de programare Tiger este un limbaj de programare personalizat construit atât în ​​Go și Rust, pentru a experimenta cu proiectarea și performanța interpretului. Implementat pe site -ul portofoliului folosind asamblare web. Limbajul de programare Tiger este un limbaj de programare personalizat construit atât în ​​Go și Rust, pentru a experimenta cu proiectarea și performanța interpretului. Implementat pe site -ul portofoliului folosind asamblare web.",
-        "more_info1": "Pentru mai multe informații, consultați readme -ul din",
-        "more_info2": "Tiger Programming Language Github Depozit.",
-        "select_engine": "Selectați motorul:",
-        "tiger_code": "Cod tigru:",
-        "run_tiger": "Alerga tigru",
-        "output": "Ieșire:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Inginer software complet de stivă cu sediul în Florida Centrală"
-    },
-    "copy": {
-        "text": "Copie",
-        "copied": "S -A copiat!"
-    },
-    "social_media": {
-        "github": "Github",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube",
-        "text_strip": "Urmați-mă"
-    },
-    "languages": {
-        "title": "Traducător de portofoliu",
-        "description": "Descoperiți cum portofoliul meu este accesibil vizitatorilor din întreaga lume cu sprijin pentru peste 100 de limbi.",
-        "global_accessibility": {
-            "title": "Accesibilitate globală",
-            "description": "Portofoliul meu este disponibil în limbi peste {count}, ceea ce îl face accesibil vizitatorilor din întreaga lume. Această abordare multilingvă demonstrează angajamentul meu față de incluziune și de a ajunge global în dezvoltarea de software.",
-            "stats": {
-                "languages_supported": "Limbi acceptate",
-                "countries_represented": "Țări reprezentate",
-                "continents_covered": "Continente acoperite"
-            }
+    "features": {
+      "title": "Caracteristici",
+      "items": [
+        {
+          "title": "Traducere în timp real:",
+          "description": "Schimbați limbile instantaneu cu ajutorul selectorului de limbi"
         },
-        "features": {
-            "title": "Caracteristici",
-            "items": [
-                {
-                    "title": "Traducere în timp real:",
-                    "description": "Schimbați limbile instantaneu cu selectorul de limbă"
-                },
-                {
-                    "title": "Limbaj bazat pe URL:",
-                    "description": "Preferințele lingvistice sunt păstrate în adresa URL"
-                },
-                {
-                    "title": "Suport pentru script nativ:",
-                    "description": "Redarea corectă a scenariilor precum araba, chineza, hindi și multe altele"
-                },
-                {
-                    "title": "Sensibilitate culturală:",
-                    "description": "Traducerile consideră contextul cultural, nu doar semnificațiile literale"
-                },
-                {
-                    "title": "SEO optimizat:",
-                    "description": "Fiecare variantă de limbă este optimizată pentru motoarele de căutare"
-                }
-            ]
+        {
+          "title": "Limbă bazată pe URL:",
+          "description": "Preferințele de limbă sunt păstrate în URL"
         },
-        "world_map": {
-            "title": "Harta interactivă a lumii",
-            "description": "Treceți peste țări de pe hartă pentru a vedea limbile susținute:",
-            "languages_label": "Limbi",
-            "legend": {
-                "supported": "Limbi acceptate",
-                "not_supported": "Fără sprijin lingvistic"
-            },
-            "zoom_controls": {
-                "zoom_in": "Măriți",
-                "zoom_out": "Zoom afară",
-                "reset": "Resetați vizualizarea"
-            }
+        {
+          "title": "Suport pentru scripturi native:",
+          "description": "Redarea corectă a scripturilor precum arabă, chineză, hindi și multe altele"
         },
-        "supported_languages": {
-            "title": "Limbi acceptate"
+        {
+          "title": "Sensibilitate culturală:",
+          "description": "Traducerile iau în considerare contextul cultural, nu doar sensurile literale"
         },
-        "interactive_country_map": {
-            "title": "Harta interactivă a țării",
-            "description": "Treceți peste țările de mai jos pentru a vedea limbile susținute:",
-            "language_count": {
-                "single": "limbă",
-                "multiple": "limbi"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Fără sprijin lingvistic"
+        {
+          "title": "Optimizat SEO:",
+          "description": "Fiecare variantă de limbă este optimizată pentru motoarele de căutare"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Harta interactivă a lumii",
+      "description": "Plasați cursorul peste țările de pe hartă pentru a vedea limbile acceptate:",
+      "languages_label": "Limbi",
+      "legend": {
+        "supported": "Limbi acceptate",
+        "not_supported": "Fără suport lingvistic"
+      },
+      "zoom_controls": {
+        "zoom_in": "Măriți",
+        "zoom_out": "Micșorați",
+        "reset": "Resetați vizualizarea"
+      }
+    },
+    "supported_languages": {
+      "title": "Limbi acceptate"
+    },
+    "interactive_country_map": {
+      "title": "Harta interactivă a țării",
+      "description": "Plasați cursorul peste țările de mai jos pentru a vedea limbile acceptate:",
+      "language_count": {
+        "single": "limbă",
+        "multiple": "limbi"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Fără suport lingvistic"
+    }
+  },
+  "logotext": "PATRICK"
 }

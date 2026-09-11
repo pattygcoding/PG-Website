@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "an-trano",
-        "about": "Momba ahy",
-        "portfolio": "portfolio-",
-        "projects": "Tetikasa tranonkala",
-        "tiger": "Fiteny Tiger",
-        "portfolio_translator": "Mpandika portfolio",
-        "formatter": "JSON & Former JSON",
-        "contact": "Mifandraisa amiko"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "an-trano",
+    "about": "Momba ahy",
+    "portfolio": "portfolio-",
+    "projects": "Tetikasa tranokala",
+    "tiger": "Fiteny tigra",
+    "portfolio_translator": "Mpandika Portfolio",
+    "formatter": "JSON & YAML Formatter",
+    "contact": "Contact Me"
+  },
+  "home": {
+    "title": "Senior Full Stack Engineer | Vokatra & Rafitra",
+    "animated": {
+      "first": "Senior Full Stack Engineer",
+      "second": "Rafitra & Architecture Builder",
+      "third": "SaaS Product Engineer",
+      "fourth": "Rindrambaiko azo itokisana, vokatra ara-barotra"
     },
-    "home": {
-        "title": "an-trano",
-        "animated": {
-            "first": "Injeniera rindrambaiko feno",
-            "second": "Mpanamboatra tranonkala",
-            "third": "Mpampiasa lalao",
-            "fourth": "Mpamorona ny votoatiny"
-        },
-        "footer": "Tranonkala sy avaliable amin'ny fiteny 100+!",
-        "descriptionA": "Zava-misy injeniera sy mpitaona tranonkala feno dia misy tantaram-pampianarana mahomby amin'ny famoronana ny Minecraft mba hanatsarana ny traikefa an'ny mpampiasa",
-        "descriptionB": "Ankoatr'izay, Mpamorona ny votoam-pamokarana ara-barotra aho izay naharesy ny algorithm an'ny sehatra media marobe marobe, anisan'izany ny , YouTube, ary , mba hahazoana fototry ny fiasa sy ny fikambanam-pandihazo.",
-        "portfolio_button": "Ny portfolio-ko",
-        "contact_button": "Mifandraisa amiko",
-        "about_button": "Momba ahy"
+    "footer": "Tranonkala voadika izao ary azo ampiasaina amin'ny fiteny 100+!",
+    "descriptionA": "Injeniera zokiolona feno stack manana traikefa 6+ taona maka vokatra avy amin'ny fepetra tsy mazava mankany amin'ny rafitra famokarana azo antoka. Mamolavola ny maritrano ao ambadiky ny fampiharana React, Angular, .NET, Node.js, Java, C#, Go, ary SQL aho: fetran'ny serivisy mazava, maodely data maharitra, lamina fidirana azo antoka, ary afaka miasa amim-pahatokiana ny ekipan'ny lalana fanaterana.",
+    "descriptionB": "Ny asako dia mampifandray ny fanapahan-kevitry ny injeniera amin'ny vokatra ara-barotra. Avy amin'ny SaaS manombatombana fanorenana izay mamadika ny angon-drakitra amin'ny takelaka ho tolo-kevitra vonona ho an'ny mpanjifa mankany amin'ny sehatra tranonkala miteraka fidiram-bola, dia manorina rindrambaiko manodidina ny fizotran'ny asa, ny risika ary ny risika aho. sanda azo refesina izay manan-danja amin'ny olona mampiasa azy.",
+    "portfolio_button": "My Portfolio",
+    "contact_button": "Contact Me",
+    "about_button": "Momba ahy"
+  },
+  "about": {
+    "title": "Momba ahy",
+    "personal_summary": {
+      "title": "Famintinana manokana",
+      "text": "Injeniera zokiolona feno monina ao Orlando, FL aho izay tompon'ny lalana manomboka amin'ny olan'ny vokatra mankany amin'ny vokatra famokarana. Manao safidy ara-teknolojia aho amin'ny serivisy amin'ny rafitra: .NET sy Entity Framework Core raha misy sehatra voarafitra mafy sy maharitra azo andrana; Angular na Mihetsika rehefa sarotra ny workflows dia mila interface tsara azo karakaraina; Node.js na Mandehana rehefa mila fotoana fiasana mifantoka ny API, fampidirana, na fitaovana mahomby. Manerana ny vokatra SaaS, ny fizotran'ny asa anatiny, ary ny sehatra mifanandrify amin'ny mpanjifa, dia mitarika amin'ny fifanakalozam-bola mazava aho, ny famolavolana azo antoka sy maharitra, ny fitiliana mandeha ho azy ary ny fomba fanaterana izay ampio ny ekipa handefa rindrambaiko sarobidy nefa tsy mamela trosa ampiasana."
     },
-    "about": {
-        "title": "Momba ahy",
-        "personal_summary": {
-            "title": "Famintinana manokana",
-            "text": "Ho toy ny mpamorona rindrambaiko feno za-draharaha miorina ao Orlando, FL, dia naneho fahaiza-manao amin'ny teknolojia isan-karazany, avy any Java sy C ++ to React.js sy Node.js.. Miaraka amin'ny firaketana an-tsoratra momba ny tetikasa lefona, ao anatin'izany ny fampandrosoana ny fandaharam-pampianarana Java ho an'ny Minecraft sy tranonkala mahafa-po ho an'ny mpamily kamiao, dia naneho ny fitarihana sy ny fanavaozana aho. Ny fanolorantenako ny fahaizako dia miharihary amin'ny fahaizako manitatra ny fitantanana ny tetikasa, mamaha ireo olana sarotra, ary alefa vahaolana avo lenta izay manatsara ny fahombiazan'ny mpampiasa sy ny fahombiazan'ny fandaminana."
+    "professional_experience": {
+      "title": "Experience matihanina",
+      "entries": [
+        {
+          "jobtitle": "Senior Software Engineer",
+          "where": "Design Interactive",
+          "date": "2025 - Ankehitriny"
         },
-        "professional_experience": {
-            "title": "Fanandramana matihanina",
-            "entries": [
-                {
-                    "jobtitle": "Injeniera rindrambaiko",
-                    "where": "Orion180 Fiantohana",
-                    "date": "2024 - ankehitriny"
-                },
-                {
-                    "jobtitle": "Mpanorina & Full Software Software",
-                    "where": "Sifrememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Injeniera rindrambaiko feno",
-                    "where": "Manafaingana ny fianarana",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Mpitondra mpamorona tranonkala (programa mpianatra)",
-                    "where": "CLEMSON ONIBLONE GDI",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Desk Supervisor",
-                    "where": "Oniversite Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Desk Supervisor",
-                    "where": "Oniversite Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Software Engineer",
+          "where": "Orion180 Insurance",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Fahaiza-manao ara-teknika",
-            "header1": "Languages ​​fandaharana",
-            "header2": "Frameworks & Libraries",
-            "header3": "Fitaovana sy teknolojia"
+        {
+          "jobtitle": "Software Engineer",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Ny serivisiko",
-            "entries": [
-                {
-                    "title": "Feno injeniera feno",
-                    "text": "Manolotra vahaolana feno amin'ny fivoarana eo anoloana sy ny fivoarana farany aho, miantoka ny fampidirana seavless sy ny fampiasa amin'ny rindrambaiko rehetra."
-                },
-                {
-                    "title": "Fampandrosoana ny tranonkala",
-                    "text": "Miaraka amin'ny fahaiza-manao ao amin'ny HTML, CSS, ary JavaScript Frameworks toa ny REACT.JS, dia nanao asa tanana nahitam-po sy sariaka ny sariaka aho mba hihaona amin'ny filàna sy ny filan'ny mpampiasa."
-                },
-                {
-                    "title": "Fampandrosoana ny lalao",
-                    "text": "Ny fiteny manampahefana toa an'i Java sy C ++, dia manam-pahaizana manokana amin'ny famoronana traikefa milentika, avy amin'ny foto-kevitra sy ny famolavolana ny fampiharana sy ny fanamboarana azy, hiantohana ny fampidirana lalao sy ny fampisehoana tsara."
-                }
-            ]
+        {
+          "jobtitle": "Software Engineer",
+          "where": "Haingana ny fianarana",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Lead Software Engineer (Programan'ny mpianatra)",
+          "where": "Clemson University GDI Program",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Mpiandraikitra ny birao",
+          "where": "Clemson University",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "portfolio-",
-        "filter_by": "Filter portfolio amin'ny:",
-        "entries": {
-            "biblioteca": {
-                "title": "BIBLIOTECA JSON",
-                "text": "Tetikasa python izay mamolavola fandikan-teny amin'ny fiteny. Mamela ny portfolio ny tranokalako ho voadika amin'ny fiteny 70+, ao anatin'izany ny Espaniôla, frantsay, Sinoa, Sinoa, Arabo, ary maro hafa. Ity tetikasa ity dia ampiasaina hamoronana portfolio-tranonkala marobe, izay tena ilaina amin'ny fanatrarana mpihaino malalaka kokoa. Miaraka amin'ity tetik'asa ity, maherin'ny 99% izao tontolo izao no afaka mamaky ny portfolio-ko amin'ny fiteny mahay.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Mampifandray efatra",
-                "text": "Fianakaviana be dia be ny fampiharana 50+ ny fampiharana ny lalao efatra mampifandray. Ity tetikasa ity dia ahitana ny fampiharana ao amin'ny fiteny maro samihafa 30 mahery, anisan'izany ny Java, C ++, Python, JavaScript, sy ny maro hafa. Ankoatr'izay, dia misy koa ny frameworks 20+ samihafa na ny endrika hafa, ao anatin'izany ny react.js, ruby ​​amin'ny lalamby, ASP.NET, ary ny maro hafa.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Fampiharana fivarotana",
-                "text": "Feno feno feno .net 9 Fampiharana Server Server ho an'ny fitantanana entana. Ny fampiharana dia manaraka ny modely controller / serivisy / tahiry miaraka amin'ny fikambanan-draharahan'ny sampandraharaha amin'ny fikirizana sy ahitana suite fitsapana feno.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Tetikasa interop",
-                "text": "Tetikasa iray izay antontan-taratasy mifandraika amin'ny fiteny fandaharana samihafa. Anisan'izany ny fiteny 15 isan-karazany 15 sy ny fomba famonoana 18.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Inventory Register",
-                "text": "Demo feno doka amidy (POS) misoratra anarana amin'ny rafi-pitantanana fitantanana namboarina miaraka amin'ny Angular 17+ sy Node.js. Ity fampiharana ity dia mampiseho rafitra pass posika matihanina miaraka amin'ny fanamarinana mpampiasa, fanaraha-maso ny fidirana amin'ny alàlan'ny fidirana, fanaraha-maso ny asa, fanaraha-maso ary fanodinana fandoavam-bola.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & AUT AUTO AUTO AUTO",
-                "text": "LINTER & AutoFormatter ho an'ny rakitra JSON & Yaml. Ity tetikasa ity dia ampiasaina amin'ny Fandraisana an'i Json & Yaml Files, izay tena ilaina amin'ny fitandremana ny kaody madio sy ny fandaminana. Namboarina niaraka tamin'ny Go, namboarina tamin'ny tranokala, ary niditra tao amin'ny portfolio ho tetikasan'ny tranokala. Endrika maro kokoa ho avy amin'ny ho avy.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "motera takeoff",
-                "text": "SaaS fanombantombanana sy fialàn'ny fanorenana maoderina ho an'ny mpiantoka sy tombana. Izy io dia manafatra rakitra CSV sy Excel, tsanganana sarintany mandeha ho azy, kajy ny fitrandrahana hady sy ny habetsahan'ny tany, manara-maso ny asa sy ny marika, ary mamorona tolo-kevitra tolotra PDF sy Word ho an'ny mpanjifa miaraka amin'ny workflow React + Express voapoizina.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft JSON Generator",
-                "text": "Lightweight JSON Generator namboarina tao amin'ny python ho an'ny fonosana minecraft & data fonosana. Ity tetikasa ity dia ampiasaina amin'ny famokarana ireo rakitra JSON ho an'ny MODS MINECRAFT, ao anatin'izany ny entana, ny sakana ary ny sampana. Tena mahasoa tokoa ho an'ny tsy famoronana tahirinkevitra mahazatra, fa ho an'ny Mods ihany koa amin'ny alàlan'ny endri-peo Mod anarana.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Ny zavatra niainako",
-                "text": "Miaraka amin'ny tetikasako manokana dia nahazo fahaiza-manao maro koa aho avy amin'ny traikefa ara-panabeazana. Tsindrio eto raha hijery ny mombamomba ny LinkedIn raha te hahalala bebe kokoa.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Ny zavatra niainako matihanina",
-                "text": "Miaraka amin'ny tetikasako manokana, dia nahazo fahaiza-manao maro koa aho avy amin'ny traikefa matihanina. Tsindrio eto raha hijery ny mombamomba ny LinkedIn raha te hahalala bebe kokoa.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Tranonkala Patrick Goodwin portfolio",
-                "text": "Ity tranonkala ity dia tranonkalan'ny portfololio manokana ahy, namboarina tamin'ny react.js. Ity tetikasa ity dia ampiasaina hanehoana ny fahaizako sy ny tetik'asa, ary koa ny manome sehatra ho an'ny mpampiasa mety ho afaka hifandray amiko. Ity tetikasa ity dia ampiasaina amin'ny famoronana fanatrehana an-tserasera matihanina.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Lazain'ny Lua Lua Patrick's",
-                "text": "Tranomboky iray mahasoa ao amin'ny script any Lua ho an'ny fanondroana ho avy. Ity tranomboky ity dia ampiasaina amin'ny asa automatique ao amin'ny Scripts Lua, izay mety ho tonga amin'ny asa an-kery ho an'ny asa-fampisehoana, satria i Lua dia fiteny tsotra kokoa noho ny python sy ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Scripts Scriptsheet Scripts (VBA)",
-                "text": "Tranombokam-tranomboky mahasoa ao amin'ny script vba ho an'ny Microsoft Excel. Ity tranomboky ity dia ampiasaina amin'ny asa automatique amin'ny splanceets expel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Config's Neovim Neovim",
-                "text": "Ny fanitsiana neovim manokana. Ity tetikasa ity dia ampiasaina amin'ny fanamafisana an'i Neovim amin'ny tiako, ao anatin'izany ny fanalahidy, lohahevitra ary plugins. Ity tetikasa ity dia ampiasaina mba hahatonga an'i Neovim bebe kokoa amin'ny mpampiasa sy mahomby amin'ny fampiasana ahy manokana.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Ny mpamokatra sarintany an'i Patrick",
-                "text": "A United Stony County & State Map Mpanamboatra Map, namboarina tamin'ny python tamin'ny alàlan'ny tranomboky Geopandas sy Matplotlib. Ity tetikasa ity dia ampiasaina amin'ny famokarana sarintany any Etazonia, ao anatin'izany ny sarintany sy ny sarintany. Ity tetikasa ity dia ampiasaina hamoronana sarintany mahazatra ho an'ny sary sy ny famakafakana.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Tranombok'i Patrick's Powershell Script",
-                "text": "Famakiam-boky mahasoa amin'ny sora-baventy powershell ho an'ny fanondroana ho avy. Mahasoa amin'ny endri-tsoratra ao amin'ny Script Copfication, hitako fa mahasoa be dia be ny asa ho azy avy amin'ny terminal Windows, satria mpampiasa matetika amin'ny Windows OS aho.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Library Ruby Script an'i Patrick's",
-                "text": "Tranomboky mahasoa amin'ny sora-baventy ruby ​​ho an'ny fanondroana ho avy. Mahasoa ho an'ny ruby ​​ho avy amin'ny foto-kevitra fampandrosoana ny lalamby.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Mpanamboatra fahaiza-manao PDF",
-                "text": "Mpanorina PDF fanao namboarina miaraka amin'ny python amin'ny alàlan'ny pdfkit sy jinja2 extension, eo amoron'ny html sy json. Ity tetikasa ity dia ampiasaina amin'ny famolavolana rakitra PDF avy amin'ny lisitry ny fahaiza-manao sy ny tetikasa. Ity tetikasa ity dia azo ampiasaina hamoronana resume PDF mahazatra, izay tena ilaina amin'ny fampiharana ny asa.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Tetikasa encryp enjryel",
-                "text": "Fianakaviana iray amin'ny fampiharana 10+ ny algorithpes enjandel envrypm tamin'ny 128, 192, ary 256 bitika. Ity tetikasa ity dia ampiasaina hanehoana ny algorithm ny enjandel amin'ny fiteny fandaharana samihafa. Ity tetikasa ity dia ampiasaina hamoronana fianakaviana ny fampiharana ny fanatanterahana ny algorithm.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Minecraft Minecraft Suprememc",
-                "text": "Mod Movement Modecraft izay manampy fitaovana, fiarovan-tena, fiarovan-tena, sakana, sakana, refy, ary endri-javatra maro hafa amin'ny lalao. Namboarina niaraka tamin'ny dikan-teny java 8-17 ho an'ny voafantina Minecraft Versions eo anelanelan'ny 1.16 sy 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Fitenin'ny fandaharana Tiger",
-                "text": "Ny fandaharam-potoam-pandraisana amam-panao namboarina ao anaty sy ny harafesina amin'ny fanandramana amin'ny famolavolana sy ny fampisehoana mpandika teny. Nampiharina tao amin'ny tranokalan'ny portfolio tamin'ny alàlan'ny fivoriambe.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiger mampifandray tranonkala pros",
-                "text": "Tranonkala iray naoriko tamin'ny 2024 ho an'ny Tiger Torigating Pros, orinasa mitambatra ao Clemson, SC. Namboarina niaraka tamin'ny react.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Tetikasa milina",
-                "text": "Fianakavianan'ny famandrihana 30+ amin'ny milina fitadiavam-bola. Nampiasaina hanehoana ny fametahana fahafenoana ho an'ny fiteny fandaharana samihafa ho an'ny fikarohana, indrindra ho an'ny fiteny fandaharana tigra.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Fahaizana ara-teknika",
+      "header1": "Programming Languages",
+      "header2": "Frameworks & Libraries",
+      "header3": "Fitaovana & Teknolojia"
+    },
+    "services": {
+      "title": "Ny Serivisiko",
+      "entries": [
+        {
+          "title": "Full Stack Engineering",
+          "text": "Mitarika fanaterana vokatra miafara amin'ny farany aho: mandika ny zotram-pandraharahana ho amin'ny fetran'ny rafitra, maodely angona, API, ary fifandraisana, avy eo mitondra ny asa amin'ny alalan'ny fitiliana, fametrahana, ary famerimberenana. Ny tanjona dia rindrambaiko ahafahan'ny ekipa mivoatra sy miasa, fa tsy fitambarana efijery tapaka."
+        },
+        {
+          "title": "Product & Platform Architecture",
+          "text": "Mifidy sehatra sy lamina mifototra amin'ny olana aho: serivisy .NET misy sosona ho an'ny sehatra fandraharahana, rindranasa Angular na React ho an'ny asa sarotra, relational maodely angon-drakitra ho an'ny rindranasa azo tazonina, ary ny fampidirana natao amin'ny fomba tsy fahombiazana, ny fanaraha-maso ny fidirana ary ny fikojakojana ao an-tsaina."
+        },
+        {
+          "title": "Famokarana-Vonona fanaterana",
+          "text": "Manorina miaraka amin'ny zava-misy aho aorian'ny fanombohana: ny tsiambaratelo tsy voafehin'ny loharanon-karena, ny lalan'ny fifindra-monina amin'ny angon-drakitra mazava, ny fanomezan-dàlana mifototra amin'ny andraikitra, ny fanamarinana amin'ny sisin-tanin'ny rafitra, fitsapana mandeha ho azy, fahatsiarovan-tena CI/CD, ary fanaraha-maso azo ampiharina. Ireo no antsipiriany mamadika prototype ho logiciel azo ianteherana."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "portfolio-",
+    "filter_by": "Sivana Portofolio Araka ny:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "Fantsom-toerana mifototra amin'ny Python izay mamadika loharano votoaty iray voarafitra ho portfolio azo idirana maneran-tany. Izy io dia mitantana ny angona fandikan-teny ho toy ny rafitra azo fehezina fa tsy kopia pejy dika mitovy amin'ny tanana, ahafahan'ny tranonkala mivelatra amin'ny fiteny 100+ ary manatratra eran-tany fahaiza-miasa fa tsy endri-javatra indray mandeha.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Connect Four",
+        "text": "Fianakaviana lehibe misy fampiharana mihoatra ny 50 amin'ny lalao Connect Four. Ity tetikasa ity dia ahitana fampiharana amin'ny fiteny fandaharana 30 mahery, anisan'izany ny Java, C++, Python, JavaScript, sy ny maro hafa. Fanampin'izany, misy koa ny rafitra 20+ samihafa na endrika hafa, ao anatin'izany ny React.js, Ruby on Rails, ASP.NET, sy ny maro hafa.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "App fivarotana",
+        "text": "Fampiharana Blazor Server .NET 9 feno stack izay mampiseho maritrano niniana natao ho an'ny rindranasan'ny orinasa. Ny fisarahan'ny controller/service/repository dia mitazona ny fitsipiky ny fampiharana, ny fidirana amin'ny angon-drakitra ary ny famelabelarana tsy miankina; Ny Entity Framework Core dia manome fikirizana maharitra; ary ny Miaro ny fitondran-tena rehefa mivoatra ny vokatra.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Tetikasa Interop",
+        "text": "Famaritana momba ny fifampiraharahana amin'ny fiteny miampita amin'ny fiteny fandaharana 15 sy fomba famonoana 18. Ny tetikasa dia manadihady ny sisintany izay matetika lasa marefo ny rafitra: fifanekena amin'ny fizotran'ny dingana, fifanakalozana angona, fitondran-tena amin'ny fotoana fandehanana, ary lalana fampidirana azo averina. Izy io dia maneho ny fomba fisainan'ny rafitra ilaina rehefa lehibe noho ny stack tokana ny vokatra iray.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Inventory Register",
+        "text": "POS feno stack sy workflow namboarina miaraka amin'ny Angular 17+ sy Node.js. Izy io dia manome modely ny olana momba ny fiasan'ny rafitra B2B: mpampiasa voamarina, fanaraha-maso ny fidirana mifototra amin'ny anjara asa, ny fahamarinan'ny lisitra ary ny fandoavana vola maneso. Ny tetikasa dia natao manodidina ny asa tena ataon'ny ekipan'ny fisoratana anarana, fa tsy ny katalaogin'ny endri-javatra rafitra.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Auto Formatter",
+        "text": "Fitaovana fanamafisana JSON sy YAML miorina amin'ny navigateur namboarina tao amin'ny Go ary natambatra ho WebAssembly. Ny famindra ny motera fanaparitahana ao amin'ny WASM dia mitazona ny fifaneraserana ho mamaly sy eo an-toerana amin'ny navigateur rehefa mampihatra parser tena izy mba hahazoana fidirana tsy mety. Izy io dia ohatra iray mifantoka amin'ny fisafidianana rafitra fampandehanana ho an'ny fampisehoana, ny fahafaha-mitondra ary ny fahatokisan'ny mpampiasa.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "motera takeoff",
+        "text": "Fanorenana manombatombana ny SaaS naorina manodidina ny fizotry ny asan'ny mpandraharaha lafo vidy sy mora diso. Ny vokatra React + Express dia mampiditra angon-drakitra CSV sy Excel, manao sari-tany ny tsanganana tsy mifanaraka amin'ny modely sehatra azo ampiasaina, kajy ny fitrandrahana hady sy ny habetsaky ny asa an-tany, ny fanaraha-maso ny asa ary marika, ary mamokatra tolo-kevitra PDF sy Word vonona ho an'ny mpanjifa. Ity dia injeniera momba ny fiainan'ny vokatra feno: famakafakana angon-drakitra, fitsipika momba ny kajy, rindran-damina ho an'ny mpandraharaha voapoizina, ary entana izay manampy ny orinasa hifindra avy amin'ny fampidirana manta mankany amin'ny tolo-bidy.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Generator",
+        "text": "Mpamokatra JSON maivana namboarina tamin'ny Python ho an'ny loharanon'ny Minecraft & fonosana data. Ity tetikasa ity dia ampiasaina hamoronana rakitra JSON ho an'ny mods Minecraft, ao anatin'izany ny entana manokana, ny sakana ary ny singa. Tena ilaina amin'ny famoronana fonosana data manokana, fa ho an'ny mods ihany koa amin'ny alàlan'ny endri-javatra fanovana anarana mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Ny traikefako momba ny fanabeazana",
+        "text": "Ankoatra ny tetikasako manokana, dia nahazo fahaiza-manao maro avy amin'ny traikefa momba ny fanabeazana ihany koa aho. Tsindrio eto raha hijery ny mombamomba ahy LinkedIn raha mila fanazavana fanampiny.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Ny traikefako matihanina",
+        "text": "Enin-taona miampy traikefa amin'ny injeniera matihanina manerana ny ekipan'ny vokatra, sehatra fandraharahana ary rindrambaiko miatrika mpanjifa. Ny asako dia ahitana ny fananganana sosona fampiharana azo tazomina, ny fiaraha-miasa amin'ny sehatra fanaterana, ary ny fandraisana fanapahan-kevitra ara-teknika miaraka amin'ny tsingerin'ny fiainan'ny vokatra, ny asa. risika, ary fananana maharitra raha jerena.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwin Portfolio Website",
+        "text": "Portfolio React miompana amin'ny famokarana izay mandray ny fahafaha-miditra sy ny fahatongavana eran'izao tontolo izao ho fitakiana injeniera. Anisan'izany ny fantsona fandikan-teny azo karakaraina ho an'ny fiteny 100+, fitaovana ifanakalozan-kevitra tohanan'ny WebAssembly, lamina UI mandray andraikitra sy azo idirana, ary rafitry ny tetikasa. natao hitombo rehefa misy asa vaovao alefa.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "Tranomboky mahasoa amin'ny sora-baventy Lua ho fanondroana amin'ny ho avy. Ity trano famakiam-boky ity dia ampiasaina amin'ny fanaovana automatique ny asa amin'ny sora-baventy Lua, izay mety ho azo ampiasaina amin'ny asa mila fampandehanana, satria matetika ny Lua dia fiteny fanoratana haingana kokoa noho ny Python sy Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Tranomboky mahasoa amin'ny script VBA ho an'ny Microsoft Excel. Ity famakiam-boky ity dia ampiasaina amin'ny fanaovana automatique ny asa ao amin'ny takelaka Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Ny konfigurasi Neovim manokana ahy. Ity tetikasa ity dia ampiasaina hanitsiana ny Neovim amin'ny sitrapoko, anisan'izany ny famatorana fanalahidy, lohahevitra ary plugins. Ity tetikasa ity dia ampiasaina mba hahatonga an'i Neovim ho mora ampiasaina sy mahomby kokoa amin'ny fampiasako manokana.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick's Map Generator",
+        "text": "Fitaovan'ny tatitra geospatial Python namboarina miaraka amin'ny GeoPandas sy Matplotlib hamokarana sarintanin'i Etazonia sy fanjakana. Izy io dia mamadika ny angona ara-jeografika ho artifact famakafakana azo vakiana, maneho ny fomba fisainan'ny fantsona data: safidio ny tranomboky amin'ny sehatra mety, manara-dalàna ny fampidirana, ary mamokatra vokatra izay manohana fanapahan-kevitra mazava.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Library",
+        "text": "Tranomboky mahasoa amin'ny script PowerShell ho fanondroana amin'ny ho avy. Mahasoa amin'ny endri-tsoratra $profile script, hitako fa tena manampy tokoa izany amin'ny fampandehanana asa avy amin'ny terminal Windows, satria mpampiasa matetika ny Windows OS aho.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Tranomboky mahasoa amin'ny script Ruby ho fanondroana ho avy. Mahasoa ho an'ny hevitra fampandrosoana Ruby on Rails ho avy.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "PDF Skills Builder",
+        "text": "Fandefasana asa famokarana antontan-taratasy natsangana tamin'ny Python, Pdfkit, Jinja2, HTML, ary angona JSON voarafitra. Izy io dia manasaraka ny angon-drakitra azo ampiasaina amin'ny maodely famelabelarana mba hamoronana tohin'ny PDF mifanaraka tsy tapaka, fomba azo ampiharina amin'ny fampihenana ny asa tanana sy ny fanaovana antontan-taratasy momba ny raharaham-barotra. azo averina.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandel Encryption Project",
+        "text": "Sehatra fampitahana amin'ny fampiharana Rijndael 10+ manerana ny variana 128-, 192-, ary 256-bit. Ny famerenana ny algorithm saro-pady amin'ny fiarovana amin'ny fiteny dia fanazaran-tena amin'ny fepetra voafaritra tsara, fitondran-tena azo andrana ary ny fetran'ny fahafaha-mitondra amin'ny fiteny, instincts mahasoa rehetra ho an'ny rafitra mitantana angona saro-pady.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Minecraft Mod izay manampy fitaovana mahazatra, fiadiana, mobs, sakana, refy ary endri-javatra maro hafa amin'ny lalao. Namboarina tamin'ny dikan-teny Java 8-17 ho an'ny dikan-teny Minecraft voafantina eo anelanelan'ny 1.16 sy 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Tiger Programming Language",
+        "text": "Fiteny fandaharana manokana sy mpandika teny naorina ao amin'ny Mandehana hijery ny endrika fampandehanan-draharaha amin'ny fiteny, ny fitondran-tena famonoana ary ny fifanakalozam-barotra. Ny fanangonana azy ao amin'ny WebAssembly ary ny fampidirana azy ao amin'ny portfolio dia miteraka vokatra tena izy sy azo jerena ho an'ny injeniera amin'ny rafitra fa tsy mamela ny asa ho toy ny andrana ihany no repository.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Website Tiger Tailgating Pros",
+        "text": "Tranonkala React natolotra ho an'ny orinasa tailgating Clemson, SC. Ny asa dia mandika ny tolotr'ny orinasa madinika ho lasa dia an'ny mpanjifa mazava sy ny fisian'ny tranonkala azo ianteherana, mampihatra ny fisainan'ny vokatra mba hanampiana fikambanana tena izy hanova ny fahalianana. amin'ny fanadihadiana sy ny vola miditra.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Turing Machine Project",
+        "text": "Fianakaviana mihoatra ny 30+ ny fampiharana ny Turing Machine. Nampiasaina mba hampisehoana ny fahafenoan'ny fihodinana amin'ny fiteny fandaharana samihafa ho an'ny fikarohana, indrindra ho an'ny Tiger Programming Language.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Tiger Programming Language"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "header": "Antsipiriany ifandraisana",
+    "email": "pattygsocials@gmail.com",
+    "description": "Mamaly fanontaniana amin'ny mailaka sy hafatra LinkedIn aho. Hiantso ihany koa aho raha omena amin'ny alàlan'ny resume na amin'ny fomba hafa ny laharan-tsaiko, na dia aleoko manokana aza ny laharan-telefaoniko."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Fitaovana kalitao angon-drakitra mifototra amin'ny navigateur izay manamarina sy mamolavola ny JSON sy YAML amin'ny fampiasana motera Go natambatra ao amin'ny WebAssembly. Ny maritrano dia tsy mitsahatra manadihady akaiky ny mpampiasa mba hahazoana valiny haingana sy manokana ary mampihatra ny fitsipiky ny syntax tena izy amin'ny sisin'ny data. Izy io dia ohatra mirindra amin'ny fandrafetana rindranasan'ny developer azo ianteherana manodidina ny fahamendrehana, ny fampisehoana ary ny fahatokisana.",
+    "more_info1": "Raha mila fanazavana fanampiny dia jereo ny README ao amin'ny",
+    "more_info2": "JSON/YAML Formatter Repository.",
+    "format_as": "Fomba toy ny:",
+    "auto_detect": "Auto Detect",
+    "format": "Lint & Format",
+    "valid_json": "✓ JSON manankery",
+    "valid_yaml": "✓ YAML manankery",
+    "invalid_json": "JSON tsy mety",
+    "invalid_yaml": "YAML tsy mety",
+    "empty_input": "Ampidiro azafady JSON na YAML vitsivitsy mba hanoratra.",
+    "too_large": "Lehibe loatra ny fampidirana (1MB ambony indrindra azo atao).",
+    "fixed_yaml_spacing": "⚠ Ny YAML dia nanana elanelana/indentation tsy mety fa namboarina ho azy sy novolavolaina.",
+    "loading": "Mampiditra formatter...",
+    "waiting_for_input": "Miandry fampidirana...",
+    "load_failed": "Tsy afaka mampiditra formatter.",
+    "output": "Output:",
+    "input_code": "fahan'ny",
+    "json_examples": "Ohatra JSON",
+    "yaml_examples": "Ohatra YAML"
+  },
+  "tiger": {
+    "title": "Fiteny tigra",
+    "description": "Ny Tiger dia fiteny fandaharana mahazatra ary mpandika teny Go natsangana mba hijerena ny maritrano amin'ny fotoana fandehanana, ny semantika amin'ny fiteny, ary ny varotra fampisehoana. Ny fanangonana ny mpandika teny amin'ny WebAssembly dia mamadika fa ny rafitra dia miasa ho toy ny vokatra ifanakalozan-kevitra mifototra amin'ny navigateur: ny mpampiasa dia afaka manatanteraka programa mivantana raha mbola azo entina ihany ny fotoana fandehanana. ary mitoka-monina amin'ny fampiharana mpampiantrano.",
+    "more_info1": "Raha mila fanazavana fanampiny dia jereo ny README ao amin'ny",
+    "more_info2": "GitHub Repository amin'ny fiteny fandaharana Tiger.",
+    "select_engine": "Select Engine:",
+    "tiger_code": "Tiger Code:",
+    "run_tiger": "Mihazakazaka Tiger",
+    "output": "Output:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Injeniera zokiolona feno stack manana traikefa 6+ taona amin'ny famolavolana ny vokatra SaaS, ny rafi-pamokarana ary ny rindrambaiko mampidi-bola."
+  },
+  "copy": {
+    "text": "dika mitovy",
+    "copied": "Nadika!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "Linkedin",
+    "youtube": "YOUTUBE",
+    "text_strip": "Araho aho"
+  },
+  "languages": {
+    "title": "Mpandika Portfolio",
+    "description": "Fantaro ny fomba ahafahan'ireo mpitsidika avy amin'ny lafivalon'izao tontolo izao mahazo ny portfolio-ko miaraka amin'ny fanohanan'ny fiteny 100 mahery.",
+    "global_accessibility": {
+      "title": "Fidirana maneran-tany",
+      "description": "Ny portfolio-ko dia misy amin'ny fiteny {count} mahery, mahatonga azy ho azon'ny mpitsidika manerana izao tontolo izao. Ity fomba fiteny amin'ny fiteny maro ity dia mampiseho ny fanoloran-tenako amin'ny firaisankina sy ny fahatongavana manerantany amin'ny fampivoarana rindrambaiko.",
+      "stats": {
+        "languages_supported": "Fiteny tohana",
+        "countries_represented": "Firenena voasolo tena",
+        "continents_covered": "Kontinanta voarakotra"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Fitenin'ny fandaharana Tiger"
-    },
-    "contact": {
-        "title": "Mifandraisa amiko",
-        "header": "Antsipiriany ifandraisana",
-        "email": "pattygsocials@gmail.com",
-        "description": "Mamaly ny fanontaniana amin'ny mailaka, Linkedin Messages, ary hafatra manokana aho. Hiverina ihany koa aho raha omena ny isa ny isa na tsia, na raha tsy izany, na dia aleoko mitokana aza ny nomeraon-telefaoniko."
-    },
-    "formatter": {
-        "title": "JSON & Former JSON",
-        "description": "Ny mpamorona JSON & Yaml dia fitaovana ahafahanao mamorona ny rakitra JSON sy Yaml. Namboarina miaraka amin'ny fandehanana sy webassembly, ary natao ho haingana sy mahomby. Ny mpamboatra dia natao ho mora ampiasaina, miaraka amin'ny interface tsotra izay ahafahanao mametaka ao amin'ny JSON na Yaml Code ary mamolavola azy amin'ny alàlan'ny tsindrio bokotra.",
-        "more_info1": "Raha mila fanazavana fanampiny, dia jereo ny README ao amin'ny",
-        "more_info2": "JSON / Yam format repositories.",
-        "format_as": "Format AS:",
-        "auto_detect": "Auto hita",
-        "format": "endrika",
-        "valid_json": "✓ JSON manankery",
-        "valid_yaml": "✓ YAML manankery",
-        "invalid_json": "JSON tsy mety",
-        "invalid_yaml": "YAML tsy mety",
-        "empty_input": "Ampidiro azafady JSON na YAML vitsivitsy mba hanoratra.",
-        "too_large": "Lehibe loatra ny fampidirana (1MB ambony indrindra azo atao).",
-        "fixed_yaml_spacing": "⚠ Ny YAML dia nanana elanelana/indentation tsy mety fa namboarina ho azy sy novolavolaina."
-    },
-    "tiger": {
-        "title": "Fiteny Tiger",
-        "description": "Ny fiteny fandaharana tigra dia ny fiteny fandaharana mahazatra namboarina ao anaty sy ny harafesina mba hanandrana ny famolavolana sy ny fampisehoana mpandika teny. Nampiharina tao amin'ny tranokalan'ny portfolio tamin'ny alàlan'ny fivoriambe. Ny fiteny fandaharana tigra dia ny fiteny fandaharana mahazatra namboarina ao anaty sy ny harafesina mba hanandrana ny famolavolana sy ny fampisehoana mpandika teny. Nampiharina tao amin'ny tranokalan'ny portfolio tamin'ny alàlan'ny fivoriambe.",
-        "more_info1": "Raha mila fanazavana fanampiny, dia jereo ny README ao amin'ny",
-        "more_info2": "Fiteny github github an'ny Tiger.",
-        "select_engine": "Safidio ny motera:",
-        "tiger_code": "Kaody Tiger:",
-        "run_tiger": "Mihazakazaka tigra",
-        "output": "Output:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Injeniera rindrambaiko feno trano miorina ao afovoan'i Florida"
-    },
-    "copy": {
-        "text": "dika mitovy",
-        "copied": "Nopetahana!"
-    },
-    "social_media": {
-        "github": "GitHub",
-        "linkedin": "Linkedin",
-        "youtube": "YOUTUBE",
-        "text_strip": "Araho aho"
-    },
-    "languages": {
-        "title": "Mpandika portfolio",
-        "description": "Fantaro ny fomba idiran'ny portfolio-ko amin'ny mpitsidika avy amin'ny lafivalon'izao tontolo izao miaraka amin'ny fiteny 100 mahery.",
-        "global_accessibility": {
-            "title": "Mahasoa ny Global",
-            "description": "Ny portfolio-ko dia misy amin'ny fiteny {Presount fiteny, izay azo idirana amin'ireo mpitsidika avy amin'ny lafivalon'izao tontolo izao. Ity fomba fiteny maro samihafa ity dia mampiseho ny fanolorantenako amin'ny fironana sy ny fahatongavan'ny Global amin'ny fampandrosoana ny rindrambaiko.",
-            "stats": {
-                "languages_supported": "Fiteny tohanana",
-                "countries_represented": "Firenena misolo tena",
-                "continents_covered": "Voararaotra ny kontinanta"
-            }
+    "features": {
+      "title": "Toetoetra",
+      "items": [
+        {
+          "title": "Dikanteny amin'ny fotoana tena izy:",
+          "description": "Miova fiteny avy hatrany miaraka amin'ny mpifidy fiteny"
         },
-        "features": {
-            "title": "Toetoetra",
-            "items": [
-                {
-                    "title": "Fandikan-teny tena izy:",
-                    "description": "Switch Langu teny avy hatrany miaraka amin'ny mpifidy fiteny"
-                },
-                {
-                    "title": "Fiteny miorina amin'ny URL:",
-                    "description": "Ny filanao fiteny dia voatahiry ao amin'ny URL"
-                },
-                {
-                    "title": "Manohana ny script the Native:",
-                    "description": "Ny fandikana ny script toa ny Arabo, Sinoa, Hindi, ary maro hafa"
-                },
-                {
-                    "title": "Ny fahatsapana ny kolontsaina:",
-                    "description": "Diniho ny toe-javatra ara-kolontsaina, fa tsy ny dikany ara-bakiteny fotsiny"
-                },
-                {
-                    "title": "SEO Optimized:",
-                    "description": "Ny karazany tsirairay dia tsara ho an'ny milina fikarohana"
-                }
-            ]
+        {
+          "title": "Fiteny mifototra amin'ny URL:",
+          "description": "Ny safidin'ny fiteny dia voatahiry ao amin'ny URL"
         },
-        "world_map": {
-            "title": "Sarintany manerantany",
-            "description": "Mandehandeha any amin'ny tany amin'ny sarintany mba hahitana ny fitenin'izy ireo.",
-            "languages_label": "fiteny",
-            "legend": {
-                "supported": "Fiteny tohanana",
-                "not_supported": "Tsy misy fanohanana fiteny"
-            },
-            "zoom_controls": {
-                "zoom_in": "Zoom in",
-                "zoom_out": "Mivoaka",
-                "reset": "Reset View"
-            }
+        {
+          "title": "Fanohanana ny script native:",
+          "description": "Fandikana araka ny tokony ho izy ny soratra toy ny Arabo, Sinoa, Hindi, sy ny maro hafa"
         },
-        "supported_languages": {
-            "title": "Fiteny tohanana"
+        {
+          "title": "Fahatsapana ara-kolontsaina:",
+          "description": "Ny dikanteny dia mihevitra ny tontolon'ny kolontsaina fa tsy ny dikany ara-bakiteny fotsiny"
         },
-        "interactive_country_map": {
-            "title": "Map Map Map",
-            "description": "Mandehandeha amin'ny firenena eto ambany mba hahitana ny fitenin'izy ireo.",
-            "language_count": {
-                "single": "fiteny",
-                "multiple": "FITENY"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Tsy misy fanohanana fiteny"
+        {
+          "title": "SEO optimized:",
+          "description": "Ny karazana fiteny tsirairay dia natao ho an'ny milina fikarohana"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Sarintanin'izao tontolo izao Interactive",
+      "description": "Mivezivezy amin'ny firenena eo amin'ny sari-tany hahitana ny fiteniny tohanany:",
+      "languages_label": "fiteny",
+      "legend": {
+        "supported": "Fiteny tohana",
+        "not_supported": "Tsy misy fanohanana amin'ny fiteny"
+      },
+      "zoom_controls": {
+        "zoom_in": "Zoom In",
+        "zoom_out": "Zoom Out",
+        "reset": "Reset View"
+      }
+    },
+    "supported_languages": {
+      "title": "Fiteny tohanana"
+    },
+    "interactive_country_map": {
+      "title": "Sarintanin'ny firenena Interactive",
+      "description": "Mitsangàna amin'ireo firenena etsy ambany mba hahitana ny fiteniny tohanany:",
+      "language_count": {
+        "single": "fiteny",
+        "multiple": "FITENY"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Tsy misy fanohanana fiteny"
+    }
+  },
+  "logotext": "PATRICK"
 }

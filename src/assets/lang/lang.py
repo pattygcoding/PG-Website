@@ -4,7 +4,10 @@ import threading
 import sys
 import os
 import re
-from deep_translator import GoogleTranslator
+import requests
+from bs4 import BeautifulSoup
+from deep_translator import MyMemoryTranslator
+from deep_translator.exceptions import TooManyRequests, TranslationNotFound
 from copy import deepcopy
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -117,6 +120,13 @@ skip_existing = "-skip" in sys.argv or "--skip" in sys.argv
 retry_failed = "-retry" in sys.argv or "--retry" in sys.argv
 requested_langs = [arg for arg in sys.argv[1:] if arg in target_languages]
 
+REQUEST_INTERVAL = 0.3
+PROVIDER_COOLDOWN = 60
+TRANSIENT_COOLDOWN = 5
+PROVIDER_RETRY_CYCLES = 3
+MAX_TRANSLATION_LENGTH = 180
+GOOGLE_TRANSLATE_URL = "https://translate.google.com/m"
+
 def get_locale_path(lang_code):
     return os.path.join(SCRIPT_DIR, f"{lang_code}.json")
 
@@ -126,6 +136,145 @@ def get_translation_language(lang_code):
     if "_" in lang_code:
         return lang_code.split("_")[0]
     return lang_code
+
+def get_translation_locale(lang_code):
+    language_parts = lang_code.split("_")
+    if len(language_parts) >= 3:
+        return "-".join(language_parts[:-1])
+    if len(language_parts) == 2:
+        return f"{language_parts[0].lower()}-{language_parts[1].upper()}"
+    return lang_code.lower()
+
+class GoogleMobileTranslator:
+    def __init__(self, source, target):
+        self.source = source
+        self.target = target
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 Chrome/128.0 Safari/537.36"
+            )
+        })
+
+    def translate(self, text):
+        response = self.session.get(
+            GOOGLE_TRANSLATE_URL,
+            params={"sl": self.source, "tl": self.target, "q": text},
+            timeout=15,
+        )
+        if response.status_code == 429:
+            raise TooManyRequests()
+        response.raise_for_status()
+
+        result = BeautifulSoup(response.text, "html.parser").select_one(
+            ".result-container"
+        )
+        if result is None or not result.get_text(strip=True):
+            raise TranslationNotFound(text)
+        return result.get_text(strip=True)
+
+class TranslationProvider:
+    def __init__(self, providers):
+        self.providers = providers
+        self.active_index = 0
+        self.last_request_at = 0
+        self.cooldowns = {}
+
+    def _wait_for_request_slot(self):
+        wait_time = REQUEST_INTERVAL - (time.monotonic() - self.last_request_at)
+        if wait_time > 0:
+            time.sleep(wait_time)
+
+    def translate(self, text, retry_cycles=PROVIDER_RETRY_CYCLES):
+        errors = []
+        retryable_failure = False
+        provider_count = len(self.providers)
+
+        for offset in range(provider_count):
+            provider_index = (self.active_index + offset) % provider_count
+            provider_name, translator = self.providers[provider_index]
+            cooldown_until = self.cooldowns.get(provider_name, 0)
+            if cooldown_until > time.monotonic():
+                continue
+
+            self._wait_for_request_slot()
+            try:
+                translated = translator.translate(text)
+                self.last_request_at = time.monotonic()
+                self.active_index = provider_index
+                return translated
+            except TooManyRequests as error:
+                self.last_request_at = time.monotonic()
+                self.cooldowns[provider_name] = time.monotonic() + PROVIDER_COOLDOWN
+                retryable_failure = True
+                errors.append(f"{provider_name}: {error}")
+                print(f"{provider_name} rate limit reached; trying another provider.")
+            except TranslationNotFound as error:
+                self.last_request_at = time.monotonic()
+                self.cooldowns[provider_name] = time.monotonic() + TRANSIENT_COOLDOWN
+                retryable_failure = True
+                errors.append(f"{provider_name}: {error}")
+                print(f"{provider_name} returned no result; retrying after a short pause.")
+            except Exception as error:
+                self.last_request_at = time.monotonic()
+                errors.append(f"{provider_name}: {type(error).__name__}: {error}")
+
+        if retryable_failure and retry_cycles > 0:
+            current_time = time.monotonic()
+            provider_available = any(
+                self.cooldowns.get(provider_name, 0) <= current_time
+                for provider_name, _ in self.providers
+            )
+            active_cooldowns = [
+                cooldown_until - current_time
+                for cooldown_until in self.cooldowns.values()
+                if cooldown_until > current_time
+            ]
+            if not provider_available and active_cooldowns:
+                wait_time = min(active_cooldowns)
+                print(f"All translation providers are cooling down; waiting {wait_time:.0f}s.")
+                time.sleep(wait_time)
+            return self.translate(text, retry_cycles - 1)
+
+        raise RuntimeError("; ".join(errors))
+
+def create_translator(target_language):
+    providers = (
+        (
+            "Google",
+            lambda: GoogleMobileTranslator(
+                source=source_language,
+                target=get_translation_language(target_language),
+            ),
+        ),
+        (
+            "MyMemory",
+            lambda: MyMemoryTranslator(
+                source="en-US",
+                target=get_translation_locale(target_language),
+            ),
+        ),
+    )
+    available_providers = []
+    errors = []
+
+    for provider_name, translator_factory in providers:
+        try:
+            translator = translator_factory()
+            available_providers.append((provider_name, translator))
+        except Exception as error:
+            errors.append(f"{provider_name}: {type(error).__name__}: {error}")
+
+    if not available_providers:
+        raise RuntimeError(
+            f"No translation provider is available for '{target_language}'.\n"
+            + "\n".join(f"  {error}" for error in errors)
+        )
+
+    provider_names = ", ".join(name for name, _ in available_providers)
+    print(f"Available translators: {provider_names} (max 4 requests/second).")
+    return TranslationProvider(available_providers)
 
 def lint_json_file(source=None):
     if source is None:
@@ -178,16 +327,47 @@ def periodic_progress(total, progress_ref, stop_flag):
         print(f"✔️ {progress_ref[0]}/{total} lines translated")
         time.sleep(3)
 
-def translate_text(translator, original):
-    placeholders = re.findall(r"\{\{.*?\}\}", original)
-    if not placeholders:
-        return translator.translate(original)
+def split_translation_text(text, max_length=MAX_TRANSLATION_LENGTH):
+    if len(text) <= max_length:
+        return [text]
 
+    chunks = []
+    current_chunk = ""
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+
+    for sentence in sentences:
+        candidate = f"{current_chunk} {sentence}".strip()
+        if len(candidate) <= max_length:
+            current_chunk = candidate
+            continue
+
+        if current_chunk:
+            chunks.append(current_chunk)
+
+        remaining = sentence.strip()
+        while len(remaining) > max_length:
+            split_at = remaining.rfind(" ", 0, max_length + 1)
+            if split_at <= 0:
+                split_at = max_length
+            chunks.append(remaining[:split_at].strip())
+            remaining = remaining[split_at:].strip()
+        current_chunk = remaining
+
+    if current_chunk:
+        chunks.append(current_chunk)
+
+    return chunks
+
+def translate_text(translator, original):
+    placeholders = re.findall(r"\{\{[^{}]+\}\}|\{[^{}]+\}", original)
     masked_text = original
     for i, placeholder in enumerate(placeholders):
         masked_text = masked_text.replace(placeholder, f"__VAR_{i}__", 1)
 
-    translated = translator.translate(masked_text)
+    translated_chunks = [
+        translator.translate(chunk) for chunk in split_translation_text(masked_text)
+    ]
+    translated = " ".join(chunk for chunk in translated_chunks if chunk)
     if translated:
         for i, placeholder in enumerate(placeholders):
             pattern = re.compile(rf"__\s*VAR\s*_\s*{i}\s*__", re.IGNORECASE)
@@ -206,8 +386,11 @@ def translate_one_by_one(json_data, target_language, existing_translations=None)
     print(f"\nTranslating to '{target_language}'...")
     print(f"Total strings to translate: {total}\n")
 
-    base_lang = get_translation_language(target_language)
-    translator = GoogleTranslator(source=source_language, target=base_lang)
+    try:
+        translator = create_translator(target_language)
+    except RuntimeError as error:
+        print(error)
+        return None
 
     thread = threading.Thread(target=periodic_progress, args=(total, progress, stop_flag))
     thread.start()
@@ -235,9 +418,11 @@ def translate_one_by_one(json_data, target_language, existing_translations=None)
                 translated = translate_text(translator, original)
                 if translated:
                     set_nested_value(json_data, path, translated)
-                success = True
-                break
-            except Exception:
+                    success = True
+                    break
+            except Exception as error:
+                if attempt == 2:
+                    print(f"  {type(error).__name__}: {error}")
                 time.sleep(0.5 * (attempt + 1))
 
         if not success:
@@ -279,8 +464,11 @@ def retry_failed_translations(base_json, existing_json, target_language):
     total = len(failed_paths)
     print(f"\nRetrying {total} previously failed translations for '{target_language}'...")
 
-    base_lang = get_translation_language(target_language)
-    translator = GoogleTranslator(source=source_language, target=base_lang)
+    try:
+        translator = create_translator(target_language)
+    except RuntimeError as error:
+        print(error)
+        return None
     result = deepcopy(existing_json)
     still_failed = []
 
@@ -292,9 +480,11 @@ def retry_failed_translations(base_json, existing_json, target_language):
                 translated = translate_text(translator, original)
                 if translated:
                     set_nested_value(result, path, translated)
-                success = True
-                break
-            except Exception:
+                    success = True
+                    break
+            except Exception as error:
+                if attempt == 4:
+                    print(f"  {type(error).__name__}: {error}")
                 time.sleep(0.75 * (attempt + 1))
 
         if not success:
@@ -322,10 +512,12 @@ if __name__ == "__main__":
                     print(f"No existing translation file for '{lang_code}', skipping retry.")
                     continue
                 fixed_json = retry_failed_translations(base_json, existing_translations, lang_code)
-                write_pretty_json(fixed_json, lang_code)
+                if fixed_json is not None:
+                    write_pretty_json(fixed_json, lang_code)
         else:
             for lang_code in langs_to_process:
                 data_copy = deepcopy(base_json)
                 existing_translations = load_existing_translations(lang_code) if skip_existing else None
                 translated_json = translate_one_by_one(data_copy, lang_code, existing_translations)
-                write_pretty_json(translated_json, lang_code)
+                if translated_json is not None:
+                    write_pretty_json(translated_json, lang_code)
