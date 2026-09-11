@@ -1,16 +1,17 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 import "./AboutSection.css";
 
-const AboutSection = ({ title, children }) => (
-	<Row className="sec_sp">
-		<Col lg="5">
-			<h3 className="color_sec py-4">{title}</h3>
-		</Col>
-		<Col lg="7">
-			{children}
-		</Col>
-	</Row>
+const AboutSection = ({ index, label, title, children }) => (
+	<section className="about-section sec_sp">
+		<header className="about-section-heading">
+			<div className="section-index">{index}</div>
+			<div>
+				<div className="section-label">// {label}</div>
+				<h2>{title}</h2>
+			</div>
+		</header>
+		<div className="about-section-body">{children}</div>
+	</section>
 );
 
 export default AboutSection;

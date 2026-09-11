@@ -17,7 +17,7 @@ import {
 	VscMail,
 	VscClose,
 } from "react-icons/vsc";
-import { FaGithub, FaLinkedin, FaYoutube, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import "./MenuOptions.css";
 
 const MenuOptions = ({ handleToggle, closeMenu }) => {
@@ -282,34 +282,6 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 										</span>
 										<div className="social_text_wrap">
 											<span className="social_name">YouTube</span>
-											<span className="social_handle">@patty_g7</span>
-										</div>
-									</a>
-									<a
-										href={l.social_media.instagram}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="tech__social_link"
-									>
-										<span className="social_icon_wrap">
-											<FaInstagram />
-										</span>
-										<div className="social_text_wrap">
-											<span className="social_name">Instagram</span>
-											<span className="social_handle">@patty_geography</span>
-										</div>
-									</a>
-									<a
-										href={l.social_media.tiktok}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="tech__social_link"
-									>
-										<span className="social_icon_wrap">
-											<FaTiktok />
-										</span>
-										<div className="social_text_wrap">
-											<span className="social_name">TikTok</span>
 											<span className="social_handle">@patty_g7</span>
 										</div>
 									</a>

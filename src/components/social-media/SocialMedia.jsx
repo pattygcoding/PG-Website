@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaYoutube, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { SocialIcon } from "./social-icon/SocialIcon";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
@@ -14,8 +14,6 @@ const SocialMedia = () => {
 				<SocialIcon url={l.social_media.linkedin} Icon={FaLinkedin} />
 				<SocialIcon url={l.social_media.github} Icon={FaGithub} />
 				<SocialIcon url={l.social_media.youtube} Icon={FaYoutube} />
-				<SocialIcon url={l.social_media.instagram} Icon={FaInstagram} />
-				<SocialIcon url={l.social_media.tiktok} Icon={FaTiktok} />
 			</ul>
 			<p>{t("social_media.text_strip")}</p>
 		</div>

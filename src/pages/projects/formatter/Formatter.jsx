@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
-import { Container } from "react-bootstrap";
 import { FaMagic } from "react-icons/fa";
-import { PageTitle } from "@/components/page-title";
+import { FiArrowUpRight, FiCheckCircle, FiFileText, FiGithub } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { CopyButton } from "@/components/copy-button";
 import { useLang } from "@/lang/languageContext";
@@ -154,23 +153,32 @@ const Formatter = () => {
 
 	return (
 		<HelmetProvider>
-			<Container className="formatter-page">
+			<main className="formatter-page">
 				<Tab title={t("formatter.title")} />
-				<PageTitle title={t("formatter.title")} />
-
-				<section className="formatter-description">
-					<p>{t("formatter.description")}</p>
-					<p>
-						{t("formatter.more_info1")}{" "}
-						<a href={l.formatter} target="_blank" rel="noopener noreferrer">
-							{t("formatter.more_info2")}
-						</a>.
-					</p>
-				</section>
+				<header className="formatter-hero">
+					<div className="formatter-hero-grid" aria-hidden="true"></div>
+					<div className="formatter-hero-copy">
+						<div className="formatter-kicker"><FiFileText /> DATA_TOOL / WASM</div>
+						<h1>{t("formatter.title")}</h1>
+						<p>{t("formatter.description")}</p>
+						<a href={l.formatter} target="_blank" rel="noopener noreferrer" className="formatter-repository-link">
+							<FiGithub /><span>{t("formatter.more_info2")}</span><FiArrowUpRight />
+						</a>
+					</div>
+					<div className="formatter-flow" aria-hidden="true">
+						<div><span>01</span><strong>PASTE</strong><small>RAW DATA</small></div>
+						<i></i>
+						<div><span>02</span><strong>VALIDATE</strong><small>WASM ENGINE</small></div>
+						<i></i>
+						<div><span>03</span><strong>FORMAT</strong><small>CLEAN OUTPUT</small></div>
+						<FiCheckCircle />
+					</div>
+				</header>
 
 				<section className="formatter-workspace" aria-label={t("formatter.title")}>
 					<header className="formatter-toolbar">
 						<div className="formatter-pills" role="group" aria-label={t("formatter.format_as")}>
+							<span className={`formatter-engine-status ${isReady ? "is-ready" : ""}`}><i></i>WASM</span>
 							{pills.map((pill) => (
 								<button
 									key={pill.value}
@@ -257,7 +265,7 @@ const Formatter = () => {
 						</section>
 					</div>
 				</section>
-			</Container>
+			</main>
 		</HelmetProvider>
 	);
 };

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useLang } from "@/lang/languageContext";
 import { useSearchParams } from "react-router-dom";
 import ReactCountryFlag from "react-country-flag";
+import { VscCheck, VscChevronDown, VscGlobe, VscSearch } from "react-icons/vsc";
 import "./Lang.css";
 
 const LANG_OPTIONS = [
@@ -103,17 +104,30 @@ const LANG_OPTIONS = [
 	{ code: "uz_uz", label: "UZ", country: "UZ", name: "Oʻzbekcha" },
 	{ code: "vi_vn", label: "VI", country: "VN", name: "Tiếng Việt" },
 	{ code: "yo_ng", label: "YO", country: "NG", name: "Yorùbá" },
-	{ code: "zh-CN_cn", label: "ZH", country: "CN", name: "中文 (简体)" },
-	{ code: "zh-TW_tw", label: "ZH", country: "TW", name: "中文 (繁體)" },
+	{ code: "zh-CN_cn", label: "ZH", country: "CN", name: "中文 (简体)", neutralIcon: true },
+	{ code: "zh-TW_tw", label: "ZH", country: "TW", name: "中文 (繁體)", neutralIcon: true },
 	{ code: "zu_za", label: "ZU", country: "ZA", name: "isiZulu" },
 ];
+
+const LanguageIcon = ({ option, className }) => option.neutralIcon ? (
+	<VscGlobe className={`${className} lang-neutral-icon`} aria-hidden="true" />
+) : (
+	<ReactCountryFlag countryCode={option.country} svg className={className} />
+);
 
 
 const Lang = () => {
 	const { lang, setLang } = useLang();
 	const [open, setOpen] = useState(false);
+	const [query, setQuery] = useState("");
 	const dropdownRef = useRef(null);
+	const searchRef = useRef(null);
 	const [searchParams, setSearchParams] = useSearchParams();
+	const selectedLanguage = LANG_OPTIONS.find((option) => option.code === lang) || LANG_OPTIONS[0];
+	const normalizedQuery = query.trim().toLocaleLowerCase();
+	const filteredLanguages = LANG_OPTIONS.filter(({ label, name }) =>
+		`${label} ${name}`.toLocaleLowerCase().includes(normalizedQuery)
+	);
 
 	useEffect(() => {
 		const urlLang = searchParams.get("lang");
@@ -132,57 +146,89 @@ const Lang = () => {
 		return () => document.removeEventListener("click", close);
 	}, []);
 
+	useEffect(() => {
+		if (open) {
+			searchRef.current?.focus();
+		}
+	}, [open]);
+
 	const handleSelect = (code) => {
 		setLang(code);
 		setSearchParams((prev) => {
 			prev.set("lang", code);
 			return prev;
 		});
+		setQuery("");
 		setOpen(false);
+	};
+
+	const handleToggle = () => {
+		setOpen((previousOpen) => {
+			if (previousOpen) {
+				setQuery("");
+			}
+			return !previousOpen;
+		});
 	};
 
 	return (
 		<div className="lang-wrapper" ref={dropdownRef}>
 			<button
+				type="button"
 				className="lang-toggle"
-				onClick={() => setOpen((prev) => !prev)}
+				onClick={handleToggle}
+				aria-label={`Select language. Current language: ${selectedLanguage.name}`}
+				aria-expanded={open}
+				aria-haspopup="listbox"
 			>
-				<ReactCountryFlag 
-					countryCode={LANG_OPTIONS.find((l) => l.code === lang)?.country || "US"} 
-					svg
-					style={{
-						width: '1.2em',
-						height: '1.2em',
-						marginRight: '0.5rem',
-					}}
-				/>
-				<span>{LANG_OPTIONS.find((l) => l.code === lang)?.label}</span>
-				<span style={{ marginLeft: '0.5rem', opacity: 0.8 }}>
-					{LANG_OPTIONS.find((l) => l.code === lang)?.name}
-				</span>
+				<LanguageIcon option={selectedLanguage} className="lang-toggle-flag" />
+				<span className="lang-toggle-code">{selectedLanguage.label}</span>
+				<span className="lang-toggle-name">{selectedLanguage.name}</span>
+				<VscChevronDown className={`lang-toggle-chevron ${open ? "is-open" : ""}`} aria-hidden="true" />
 			</button>
 
 			{open && (
-				<div className="lang-dropdown">
-					{LANG_OPTIONS.map(({ code, label, country, name }) => (
-						<div
-							key={code}
-							className={`lang-option ${lang === code ? "active" : ""}`}
-							onClick={() => handleSelect(code)}
-						>
-							<ReactCountryFlag 
-								countryCode={country} 
-								svg
-								style={{
-									width: '1.2em',
-									height: '1.2em',
-								}}
-								className="lang-flag"
-							/>
-							<span className="lang-label">{label}</span>
-							<span className="lang-name">{name}</span>
+				<div className="lang-dropdown" onKeyDown={(event) => event.key === "Escape" && handleToggle()}>
+					<div className="lang-dropdown-header">
+						<div>
+							<strong>Choose a language</strong>
+							<span>{LANG_OPTIONS.length} available</span>
 						</div>
+						<label className="lang-search">
+							<VscSearch aria-hidden="true" />
+							<span className="visually-hidden">Search languages</span>
+							<input
+								ref={searchRef}
+								type="search"
+								value={query}
+								onChange={(event) => setQuery(event.target.value)}
+								placeholder="Search languages..."
+								autoComplete="off"
+							/>
+						</label>
+					</div>
+					<div className="lang-options" role="listbox" aria-label="Languages">
+					{filteredLanguages.map((option) => (
+						<button
+							type="button"
+							key={option.code}
+							className={`lang-option ${lang === option.code ? "active" : ""}`}
+							onClick={() => handleSelect(option.code)}
+							role="option"
+							aria-selected={lang === option.code}
+						>
+							<LanguageIcon option={option} className="lang-flag" />
+							<span className="lang-option-copy">
+								<span className="lang-name">{option.name}</span>
+								<span className="lang-label">{option.label}</span>
+							</span>
+							{lang === option.code && <VscCheck className="lang-check" aria-hidden="true" />}
+						</button>
 					))}
+					{filteredLanguages.length === 0 && (
+						<p className="lang-empty">No languages match “{query}”</p>
+					)}
+					</div>
 				</div>
 			)}
 		</div>

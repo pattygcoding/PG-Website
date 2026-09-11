@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
-import { Table, Collapse } from "react-bootstrap";
+import { Collapse } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
+import { FiArrowUpRight, FiChevronDown } from "react-icons/fi";
 import "./LinkedSkillsTable.css";
 
 const LinkedSkillsTable = ({ header, list, projects }) => {
@@ -67,60 +68,57 @@ const LinkedSkillsTable = ({ header, list, projects }) => {
 	}, [location.hash, sortedList]);
 
 	return (
-		<>
-			<h4 className="color_sec py-3">{header}</h4>
-			<Table hover bordered>
-				<thead>
-					<tr>
-						<th>{header}</th>
-						<th style={{ width: 50 }}></th>
-					</tr>
-				</thead>
-				<tbody>
+		<section className="skill-group">
+			<header className="skill-group-heading">
+				<h3>{header}</h3>
+				<span>{String(sortedList.length).padStart(2, "0")} TECHNOLOGIES</span>
+			</header>
+			<div className="skill-matrix">
 					{sortedList.map((item, i) => {
 						const isOpen = !!openRows[i];
 						return (
-							<React.Fragment key={item.id}>
-								<tr
-									id={item.id}
-									ref={el => (skillRefs.current[item.id] = el)}
+							<article
+								className={`skill-module ${isOpen ? "is-open" : ""} ${item.code_samples.length ? "has-samples" : ""}`}
+								key={item.id}
+								id={item.id}
+								ref={el => (skillRefs.current[item.id] = el)}
+							>
+								<button
+									type="button"
 									onClick={() => toggleRow(i, item.id)}
-									className="clickable-row"
+									aria-expanded={isOpen}
+									aria-controls={`${item.id}-projects`}
 								>
-									<td>
-										{item.name}
-										{item.code_samples.length > 0 && ` (${item.code_samples.length})`}
-									</td>
-									<td className="text-center arrow-toggle" style={{ fontSize: "1.25rem" }}>
-										{isOpen ? "▲" : "▼"}
-									</td>
-								</tr>
-								<tr>
-									<td colSpan={2} className="p-0">
-										<Collapse in={isOpen}>
-											<div className="p-3 bg-dark text-white">
-												{item.code_samples.map((s, j) => (
-													<div key={j} className="mb-2">
-														<a
-															className="skills link framework"
-															href={s.link}
-															target="_blank"
-															rel="noopener noreferrer"
-														>
-															{s.label}
-														</a>
-													</div>
-												))}
-											</div>
+									<span className="skill-name">{item.name}</span>
+									<span className="skill-evidence">
+										{item.code_samples.length > 0 ? `${item.code_samples.length} WORK${item.code_samples.length === 1 ? "" : "S"}` : "EXP"}
+									</span>
+									<FiChevronDown className="skill-chevron" />
+								</button>
+								<Collapse in={isOpen}>
+									<div id={`${item.id}-projects`} className="skill-projects">
+										{item.code_samples.length > 0 ? (
+											item.code_samples.map((s, j) => (
+													<a
+														key={j}
+														className="skill-project-link"
+														href={s.link}
+														target="_blank"
+														rel="noopener noreferrer"
+													>
+														<span>{s.label}</span><FiArrowUpRight />
+													</a>
+												))
+											) : (
+												<span className="skill-no-projects">Experience listed; project sample not published.</span>
+											)}
+										</div>
 										</Collapse>
-									</td>
-								</tr>
-							</React.Fragment>
+							</article>
 						);
 					})}
-				</tbody>
-			</Table>
-		</>
+			</div>
+		</section>
 	);
 };
 

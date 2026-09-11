@@ -1,20 +1,22 @@
 import React from "react";
-import { Table } from "react-bootstrap";
-import "./WorkHistoryTable.css"; // optional for your custom styles
+import { FiBriefcase } from "react-icons/fi";
+import "./WorkHistoryTable.css";
 
 const WorkHistoryTable = ({ entries }) => {
 	return (
-		<Table hover bordered className="caption-top">
-			<tbody>
-				{entries.map((entry, index) => (
-					<tr key={index}>
-						<th scope="row">{entry.jobtitle}</th>
-						<td>{entry.where}</td>
-						<td>{entry.date}</td>
-					</tr>
-				))}
-			</tbody>
-		</Table>
+		<div className="career-timeline">
+			{entries.map((entry, index) => (
+				<article className="career-entry" key={`${entry.where}-${entry.date}`}>
+					<div className="career-marker"><FiBriefcase /></div>
+					<div className="career-date">{entry.date}</div>
+					<div className="career-details">
+						<h3>{entry.jobtitle}</h3>
+						<p>{entry.where}</p>
+					</div>
+					<span className="career-number">{String(index + 1).padStart(2, "0")}</span>
+				</article>
+			))}
+		</div>
 	);
 };
 
