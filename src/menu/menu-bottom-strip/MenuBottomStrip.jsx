@@ -10,8 +10,6 @@ const MenuBottomStrip = () => {
 			<a href={l.social_media.linkedin}>{t.social_media.linkedin}</a>
 			<a href={l.social_media.github}>{t.social_media.github}</a>
 			<a href={l.social_media.youtube}>{t.social_media.youtube}</a>
-			<a href={l.social_media.instagram}>{t.social_media.instagram}</a>
-			<a href={l.social_media.tiktok}>{t.social_media.tiktok}</a>
 		</div>
 	);
 };

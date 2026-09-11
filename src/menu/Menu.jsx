@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { VscGrabber, VscClose } from "react-icons/vsc";
+import { FiMenu } from "react-icons/fi";
+import { VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MenuOptions } from "./menu-options";
@@ -60,7 +61,7 @@ const Menu = () => {
 							aria-label={isMenuOpen ? "Close menu" : "Open menu"}
 							aria-expanded={isMenuOpen}
 						>
-							{isMenuOpen ? <VscClose className="toggle-icon-close" /> : <VscGrabber className="toggle-icon-open" />}
+							{isMenuOpen ? <VscClose className="toggle-icon-close" /> : <FiMenu className="toggle-icon-open" />}
 						</button>
 					</div>
 				</div>

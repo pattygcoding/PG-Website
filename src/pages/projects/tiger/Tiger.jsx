@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
-import { Container } from "react-bootstrap";
 import { FaPlay } from "react-icons/fa";
-import { PageTitle } from "@/components/page-title";
+import { FiArrowUpRight, FiCpu, FiGithub } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
@@ -122,25 +121,34 @@ const Tiger = () => {
 
 	return (
 		<HelmetProvider>
-			<Container className="tiger-page">
+			<main className="tiger-page">
 				<Tab title={t("tiger.title")} />
-				<PageTitle title={t("tiger.title")} />
-
-				<section className="tiger-description">
-					<p>{t("tiger.description")}</p>
-					<p>
-						{t("tiger.more_info1")} {" "}
-						<a href={l.tiger} target="_blank" rel="noopener noreferrer">
-							{t("tiger.more_info2")}
-						</a>.
-					</p>
-				</section>
+				<header className="tiger-hero">
+					<div className="tiger-hero-grid" aria-hidden="true"></div>
+					<div className="tiger-hero-copy">
+						<div className="tiger-kicker"><span>TG</span> CUSTOM_LANGUAGE / WASM</div>
+						<h1>{t("tiger.title")}</h1>
+						<p>{t("tiger.description")}</p>
+						<a href={l.tiger} target="_blank" rel="noopener noreferrer" className="tiger-repository-link">
+							<FiGithub /><span>{t("tiger.more_info2")}</span><FiArrowUpRight />
+						</a>
+					</div>
+					<div className="tiger-specs" aria-hidden="true">
+						<div><span>RUNTIME</span><strong>GO / WASM</strong></div>
+						<div><span>MODE</span><strong>INTERPRETED</strong></div>
+						<div><span>SAMPLES</span><strong>{String(tigerSamples.length).padStart(2, "0")}</strong></div>
+						<FiCpu />
+					</div>
+				</header>
 
 				<section className="tiger-workspace" aria-label={t("tiger.title")}>
 					<header className="tiger-toolbar">
 						<div className="tiger-file-tab" title={t("tiger.tiger_code")}>
 							<span className="tiger-file-mark" aria-hidden="true">T</span>
 							<span>{selectedSample}</span>
+							<span className={`tiger-engine-status ${isReady ? "is-ready" : ""}`}>
+								<i></i>{isReady ? "ENGINE ONLINE" : "ENGINE LOADING"}
+							</span>
 						</div>
 						<div className="tiger-toolbar-actions">
 							<label className="tiger-sample-picker">
@@ -202,7 +210,7 @@ const Tiger = () => {
 						</section>
 					</div>
 				</section>
-			</Container>
+			</main>
 		</HelmetProvider>
 	);
 };

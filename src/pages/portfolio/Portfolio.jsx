@@ -1,15 +1,11 @@
 import React, { useState, useMemo } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import {
-	Container,
-	Row,
-	Col,
-	Card,
 	DropdownButton,
 	Dropdown,
 	FormControl
 } from "react-bootstrap";
-import { PageTitle } from "@/components/page-title";
+import { FiArrowUpRight, FiFilter, FiGrid, FiX } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import links from "@/assets/links/links.json";
@@ -41,6 +37,16 @@ const Portfolio = () => {
 	const resolveImage = (filename) => {
 		return `/assets/images/${filename}`;
 	};
+
+	const allSkills = useMemo(
+		() => [...skills.languages, ...skills.frameworks, ...skills.other_technologies],
+		[]
+	);
+
+	const skillNames = useMemo(
+		() => Object.fromEntries(allSkills.map((skill) => [skill.id, skill.name])),
+		[allSkills]
+	);
 	
 	// Update URL
 	const updateURL = (updated) => {
@@ -66,20 +72,16 @@ const Portfolio = () => {
 			s.name.toLowerCase().includes(term)
 		);
 
-		// build dynamic title
-		const selNames = skillList
-			.filter((s) => selectedSkills.includes(s.id))
-			.map((s) => s.name)
-			.join(", ");
-		const dynamicTitle = selNames ? `${title}: ${selNames}` : title;
+		const selectedCount = skillList.filter((s) => selectedSkills.includes(s.id)).length;
+		const dynamicTitle = selectedCount ? `${title} (${selectedCount})` : title;
 
 		return (
 			<DropdownButton
 				key={keyName}
 				id={`dropdown-${keyName}`}
 				title={dynamicTitle}
-				variant="primary"
-				className="mb-2 filter-dropdown"
+				variant="outline-secondary"
+				className="filter-dropdown"
 				renderMenuOnMount
 			>
 				<FormControl
@@ -129,58 +131,90 @@ const Portfolio = () => {
 			.sort(([, a], [, b]) => a.title.localeCompare(b.title));
 	}, [entries, selectedSkills, groupToSkillsMap]);
 
+	const getProjectSkills = (group) => {
+		const project = projectsData.projects.find((item) => item.group === group);
+		return project ? project.skills.map((id) => skillNames[id]).filter(Boolean).slice(0, 4) : [];
+	};
+
 	return (
 		<HelmetProvider>
-			<Container className="About-header">
+			<main className="portfolio-page">
 				<Tab title={t("portfolio.title")} />
-				<PageTitle title={t("portfolio.title")} />
+				<header className="portfolio-hero">
+					<div className="portfolio-hero-grid" aria-hidden="true"></div>
+					<div className="portfolio-kicker"><FiGrid /> PROJECT_ARCHIVE / {String(Object.keys(entries).length).padStart(2, "0")}</div>
+					<h1>{t("portfolio.title")}</h1>
+					<div className="portfolio-hero-meta">
+						<span>FULL STACK</span><i></i><span>WEB</span><i></i><span>LANGUAGES</span><i></i><span>TOOLS</span>
+					</div>
+				</header>
 
-				<h3>{t("portfolio.filter_by")}</h3>
-				<div className="dropdown-wrap-container">
-					{renderDropdown(
-						t("about.technical_skills.header1"),
-						skills.languages,
-						"languages"
-					)}
-					{renderDropdown(
-						t("about.technical_skills.header2"),
-						skills.frameworks,
-						"frameworks"
-					)}
-					{renderDropdown(
-						t("about.technical_skills.header3"),
-						skills.other_technologies,
-						"other_technologies"
-					)}
-				</div>
+				<section className="portfolio-browser">
+					<div className="portfolio-toolbar">
+						<div className="filter-heading">
+							<FiFilter />
+							<div><span>// FILTER_INDEX</span><h2>{t("portfolio.filter_by")}</h2></div>
+						</div>
+						<div className="dropdown-wrap-container">
+							{renderDropdown(t("about.technical_skills.header1"), skills.languages, "languages")}
+							{renderDropdown(t("about.technical_skills.header2"), skills.frameworks, "frameworks")}
+							{renderDropdown(t("about.technical_skills.header3"), skills.other_technologies, "other_technologies")}
+						</div>
+					</div>
 
-				<Row>
-					{visibleEntries.map(([key, data]) => (
-						<Col xs={12} key={key}>
+					{selectedSkills.length > 0 && (
+						<div className="active-filters">
+							{selectedSkills.map((skillId) => (
+								<button key={skillId} type="button" onClick={() => handleSkillSelect(skillId)}>
+									{skillNames[skillId] || skillId}<FiX />
+								</button>
+							))}
+							<button type="button" className="clear-filters" onClick={() => { setSelectedSkills([]); updateURL([]); }}>CLEAR ALL</button>
+						</div>
+					)}
+
+					<div className="portfolio-results-line">
+						<span>SHOWING {String(visibleEntries.length).padStart(2, "0")} / {String(Object.keys(entries).length).padStart(2, "0")}</span>
+						<i></i>
+					</div>
+
+					<div className="portfolio-grid">
+					{visibleEntries.map(([key, data], index) => {
+						const projectSkills = getProjectSkills(key);
+						return (
+						<article className="portfolio-project" key={key}>
 							<a
 								href={data.link}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="text-decoration-none text-reset"
+								className="portfolio-project-link"
 							>
-								<Card className="d-flex flex-row align-items-center portfolio-card hover-shadow">
-									<Card.Img
-										src={resolveImage(images[key] || images.placeholder)}
+								<div className="project-image-wrap">
+									<img
+										src={resolveImage(images[key] || images.default)}
 										alt={data.title}
 										className="portfolio-card-img"
+										onError={(event) => { event.currentTarget.src = resolveImage(images.default); }}
 									/>
-									<Card.Body>
-										<Card.Title className="portfolio-card-title">
-											{data.title}
-										</Card.Title>
-										<Card.Text>{data.text}</Card.Text>
-									</Card.Body>
-								</Card>
+									<span className="project-index">{String(index + 1).padStart(2, "0")}</span>
+									<span className="project-open"><FiArrowUpRight /></span>
+								</div>
+								<div className="project-body">
+									<h2>{data.title}</h2>
+									<p>{data.text}</p>
+									{projectSkills.length > 0 && <div className="project-tags">{projectSkills.map((skill) => <span key={skill}>{skill}</span>)}</div>}
+								</div>
 							</a>
-						</Col>
-					))}
-				</Row>
-			</Container>
+						</article>
+						);
+					})}
+					</div>
+
+					{visibleEntries.length === 0 && (
+						<div className="portfolio-empty"><FiFilter /><h2>No matching projects</h2><button type="button" onClick={() => { setSelectedSkills([]); updateURL([]); }}>RESET FILTERS</button></div>
+					)}
+				</section>
+			</main>
 		</HelmetProvider>
 	);
 };

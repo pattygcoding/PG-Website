@@ -87,3 +87,104 @@
 .skill-item {
   margin-right: 20px;
 }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.about-page .service-box {
+    position: relative;
+    min-height: 330px;
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
+    border-radius: 0;
+    background: var(--card-bg);
+    overflow: hidden;
+    transition: color 220ms ease, background-color 220ms ease, transform 220ms ease;
+}
+
+.about-page .service-box::before {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 4px;
+    background: var(--about-accent, #ef3e32);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 220ms ease;
+}
+
+.about-page .service-box:hover {
+    background: var(--editor-bg);
+    color: var(--text-color);
+    transform: translateY(-7px);
+}
+
+.about-page .service-box:hover::before {
+    transform: scaleX(1);
+}
+
+.service-topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--about-accent, #ef3e32);
+    font-family: monospace;
+    font-size: 0.7rem;
+}
+
+.service-topline svg {
+    font-size: 1.35rem;
+}
+
+.about-page .service__title {
+    margin: 66px 0 18px;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.about-page .service_desc {
+    margin: 0;
+    color: var(--about-muted, #aaa);
+    font-size: 0.83rem;
+    line-height: 1.65;
+}
+
+.about-page .service-box:hover .service_desc {
+    color: var(--about-muted, #aaa);
+}
+
+.service-arrow {
+    margin-top: auto;
+    align-self: flex-end;
+    color: var(--about-accent, #ef3e32);
+    font-size: 1.25rem;
+}
+
+@media (max-width: 767.98px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-page .service-box {
+        min-height: 260px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .career-entry,
+    .skill-module,
+    .skill-chevron,
+    .about-page .service-box,
+    .about-page .service-box::before {
+        transition: none;
+    }
+}

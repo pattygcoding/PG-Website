@@ -80,3 +80,101 @@
 .skill-item {
   margin-right: 20px;
 }
+
+.career-timeline {
+    position: relative;
+}
+
+.career-timeline::before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    bottom: 24px;
+    left: 34px;
+    width: 1px;
+    background: var(--about-line, rgba(255, 255, 255, 0.14));
+}
+
+.career-entry {
+    position: relative;
+    min-height: 102px;
+    padding: 21px 52px 21px 74px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 24px;
+    border-top: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
+    background: var(--card-bg);
+    transition: background-color 180ms ease, transform 180ms ease;
+}
+
+.career-entry:last-child {
+    border-bottom: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
+}
+
+.career-entry:hover {
+    background: var(--editor-bg);
+    transform: translateX(5px);
+}
+
+.career-marker {
+    position: absolute;
+    left: 12px;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
+    background: var(--bg-color);
+    color: var(--about-accent, #ef3e32);
+}
+
+.career-date {
+    color: var(--about-muted, #aaa);
+    font-family: monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+}
+
+.career-details h3 {
+    margin: 0 0 5px;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.career-details p {
+    margin: 0;
+    color: var(--about-muted, #aaa);
+    font-size: 0.85rem;
+}
+
+.career-number {
+    position: absolute;
+    right: 10px;
+    color: var(--about-line, #555);
+    font-family: monospace;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 575.98px) {
+    .career-entry {
+        padding: 20px 32px 20px 58px;
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .career-marker {
+        left: 8px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .career-timeline::before {
+        left: 28px;
+    }
+
+    .career-number {
+        right: 4px;
+        font-size: 0.9rem;
+    }
+}
