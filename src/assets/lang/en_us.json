@@ -119,6 +119,11 @@
                 "text": "A full-stack POS and inventory workflow built with Angular 17+ and Node.js. It models the operational concerns of a B2B system: authenticated users, role-based access control, inventory accuracy, and a mock payment flow. The project is designed around the actual work a register team performs, not just a catalog of framework features.",
                 "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
+            "payrollobol": {
+                "title": "PayrollOBOL",
+                "text": "A local payroll processing system built with GnuCOBOL, a SQLite double-entry ledger, and a Svelte operations dashboard. It uses integer-cent math, batch payroll processing, and a loopback dashboard to make financial workflows explicit, testable, and operationally accountable.",
+                "link": "https://github.com/pattygcoding/PayrollOBOL"
+            },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
                 "text": "A browser-based JSON and YAML validation and formatting tool built in Go and compiled to WebAssembly. Moving the parsing engine into WASM keeps the interaction responsive and local to the browser while applying a real parser to catch invalid input. It is a focused example of choosing a runtime architecture for performance, portability, and user trust.",
