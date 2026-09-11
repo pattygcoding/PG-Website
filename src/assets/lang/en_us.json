@@ -11,16 +11,16 @@
         "contact": "Contact Me"
     },
     "home": {
-        "title": "Software Engineer & Technical Builder",
+        "title": "Senior Full-Stack Engineer | Product & Systems",
         "animated": {
-            "first": "Full Stack Software Engineer",
-            "second": "Web Developer",
-            "third": "Game Developer",
-            "fourth": "SaaS & Language Designer"
+            "first": "Senior Full-Stack Engineer",
+            "second": "Systems & Architecture Builder",
+            "third": "SaaS Product Engineer",
+            "fourth": "Reliable Software, Business Outcomes"
         },
         "footer": "Website now translated & avaliable in 100+ languages!",
-        "descriptionA": "Full-stack software engineer with 6+ years of experience, building reliable products across React, Node.js, Java, C#, and Go. I have created a SaaS product, built Tiger, a custom programming language, and delivered production systems that turn complex ideas into useful software.",
-        "descriptionB": "I also create high-performing websites for small businesses, helping generate tens of thousands of dollars in revenue through thoughtful design, strong engineering, and a clear focus on business results.",
+        "descriptionA": "Senior full-stack engineer with 6+ years of experience taking products from ambiguous requirements to reliable production systems. I design the architecture behind React, Angular, .NET, Node.js, Java, C#, Go, and SQL applications: clear service boundaries, durable data models, secure access patterns, and delivery paths teams can operate with confidence.",
+        "descriptionB": "My work connects engineering decisions to business outcomes. From a construction-estimating SaaS that turns spreadsheet data into client-ready proposals to revenue-generating web platforms, I build software around the workflow, risk, and measurable value that matter to the people using it.",
         "portfolio_button": "My Portfolio",
         "contact_button": "Contact Me",
         "about_button": "About Me"
@@ -29,7 +29,7 @@
         "title": "About Me",
         "personal_summary": {
             "title": "Personal Summary",
-            "text": "As an experienced Full Stack Software Developer based in Orlando, FL, I've demonstrated expertise in various technologies, from Java and C# to React.js and Node.js. With a track record of spearheading projects, including the development of a Java modification program for Minecraft and a rewarding website for truck drivers, I've showcased leadership and innovation. My commitment to excellence is evident in my ability to streamline project management, solve complex problems, and deliver high-quality solutions that enhance user experience and drive organizational success."
+            "text": "I am a senior full-stack engineer based in Orlando, FL who owns the path from product problem to production outcome. I make technology choices in service of the system: .NET and Entity Framework Core when a strongly structured domain and testable persistence matter; Angular or React when complex workflows need a maintainable interface; Node.js or Go when an API, integration, or high-performance tool needs a focused runtime. Across SaaS products, internal workflows, and customer-facing platforms, I lead with explicit tradeoffs, secure and resilient design, automated testing, and delivery practices that help teams ship valuable software without leaving operational debt behind."
         },
         "professional_experience": {
             "title": "Professional Experience",
@@ -77,15 +77,15 @@
             "entries": [
                 {
                     "title": "Full Stack Engineering",
-                    "text": "I offer comprehensive solutions across both front-end and back-end development, ensuring seamless integration and functionality throughout the entire software stack."
+                    "text": "I lead end-to-end product delivery: translating business workflows into system boundaries, data models, APIs, and interfaces, then carrying the work through testing, deployment, and iteration. The goal is software that a team can evolve and operate, not a collection of disconnected screens."
                 },
                 {
-                    "title": "Web Development",
-                    "text": "With expertise in HTML, CSS, and JavaScript frameworks like React.js, I craft visually appealing and user-friendly websites tailored to meet clients' specific needs and preferences."
+                    "title": "Product & Platform Architecture",
+                    "text": "I choose platforms and patterns based on the problem: layered .NET services for business domains, component-driven Angular or React applications for complex operations, relational data models for accountable workflows, and integrations designed with failure modes, access control, and maintainability in mind."
                 },
                 {
-                    "title": "Game Development",
-                    "text": "Leveraging languages such as Java and C++, I specialize in creating immersive gaming experiences, from concept and design to implementation and optimization, ensuring engaging gameplay and smooth performance."
+                    "title": "Production-Ready Delivery",
+                    "text": "I build with the realities after launch in view: secrets kept out of source control, explicit database migration paths, role-based authorization, validation at system boundaries, automated tests, CI/CD awareness, and practical observability. These are the details that turn a prototype into dependable software."
                 }
             ]
         }
@@ -96,7 +96,7 @@
         "entries": {
             "biblioteca": {
                 "title": "Biblioteca JSON",
-                "text": "A Python project that streamlines language translations. Allows for my website portfolio to be translated into 70+ languages, including Spanish, French, Chinese, Arabic, and many others. This project is used to create a multilingual website portfolio, which is very useful for reaching a wider audience. With this project, over 99% of the world can read my portfolio in a fluent language.",
+                "text": "A Python-based localization pipeline that turns one structured content source into a globally accessible portfolio. It handles translation data as a maintainable system rather than manually duplicated page copy, allowing the site to scale across 100+ languages and making global reach an operational capability instead of a one-time feature.",
                 "link": "https://github.com/pattygcoding/Biblioteca-JSON"
             },
             "connect_four": {
@@ -106,27 +106,27 @@
             },
             "grocery_app": {
                 "title": "Grocery App",
-                "text": "A complete full-stack .NET 9 Blazor Server application for managing grocery items. The application follows the controller/service/repository pattern with Entity Framework Core for persistence and includes a comprehensive test suite.",
+                "text": "A full-stack .NET 9 Blazor Server application that demonstrates intentional backend architecture for a business workflow. The controller/service/repository split keeps application rules, data access, and presentation independently testable; Entity Framework Core provides durable persistence; and the comprehensive test suite protects behavior as the product evolves.",
                 "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
             },
             "interop": {
                 "title": "Interop Project",
-                "text": "A project that documents interoperability between different programming languages. Currently includes 15 different programming languages and 18 execution patterns.",
+                "text": "A cross-language interoperability reference spanning 15 programming languages and 18 execution patterns. The project investigates the boundary where systems often become fragile: process contracts, data exchange, runtime behavior, and repeatable integration paths. It reflects the systems thinking needed when a product is larger than a single stack.",
                 "link": "https://github.com/pattygcoding/Interop-Samples"
             },
             "inventory_register": {
                 "title": "Inventory Register",
-                "text": "A full-stack demo Point of Sale (POS) Register with Inventory Management system built with Angular 17+ and Node.js. This application demonstrates a professional-grade POS system with user authentication, role-based access control, inventory tracking, and mock payment processing.",
+                "text": "A full-stack POS and inventory workflow built with Angular 17+ and Node.js. It models the operational concerns of a B2B system: authenticated users, role-based access control, inventory accuracy, and a mock payment flow. The project is designed around the actual work a register team performs, not just a catalog of framework features.",
                 "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
             },
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
-                "text": "A linter & autoformatter for JSON & YAML files. This project is used to format JSON & YAML files, which is very useful for keeping code clean and organized. Built with Go, compiled with WebAssembly, and embedded into my portfolio as a website project. More formats to come in the future.",
+                "text": "A browser-based JSON and YAML validation and formatting tool built in Go and compiled to WebAssembly. Moving the parsing engine into WASM keeps the interaction responsive and local to the browser while applying a real parser to catch invalid input. It is a focused example of choosing a runtime architecture for performance, portability, and user trust.",
                 "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
             },
             "takeoff_engine": {
                 "title": "Takeoff Engine",
-                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
+                "text": "A construction estimating SaaS built around a costly, error-prone contractor workflow. The React + Express product ingests CSV and Excel data, maps inconsistent columns into a usable domain model, calculates trench excavation and earthwork volumes, tracks labor and markup, and produces client-ready PDF and Word proposals. This is full product lifecycle engineering: data parsing, calculation rules, a polished operator workflow, and deliverables that help a business move from raw inputs to a bid.",
                 "link": "https://github.com/pattygcoding/takeoff-engine"
             },
             "minecraft_json_generator": {
@@ -141,12 +141,12 @@
             },
             "professional_experience": {
                 "title": "My Professional Experience",
-                "text": "Alongside my personal projects, I also have acquired numerous skills from professional experience. Click here to view my LinkedIn profile for more information.",
+                "text": "Six-plus years of professional engineering experience across product teams, business platforms, and customer-facing software. My work has included building maintainable application layers, collaborating across delivery disciplines, and making technical decisions with the product lifecycle, operational risk, and long-term ownership in view.",
                 "link": "https://www.linkedin.com/in/patrickgoodwin7"
             },
             "portfolio_website": {
                 "title": "Patrick Goodwin Portfolio Website",
-                "text": "This website is my personal portfolio website, built with React.js. This project is used to showcase my skills and projects, as well as to provide a platform for potential employers to contact me. This project is used to create a professional online presence.",
+                "text": "A production-minded React portfolio that treats accessibility and global reach as engineering requirements. It includes a maintainable translation pipeline for 100+ languages, interactive tools backed by WebAssembly, responsive and accessible UI patterns, and a project architecture designed to grow as new work is shipped.",
                 "link": "https://www.pattygcoding.com"
             },
             "lua_library": {
@@ -166,7 +166,7 @@
             },
             "python_maps": {
                 "title": "Patrick's Map Generator",
-                "text": "A United States county & state map generator, built with Python using the Geopandas and Matplotlib libraries. This project is used to generate maps of the United States, including county and state maps. This project is used to create custom maps for data visualization and analysis.",
+                "text": "A Python geospatial reporting tool built with GeoPandas and Matplotlib to generate U.S. county and state maps. It turns geographic data into readable analysis artifacts, demonstrating a data pipeline mindset: select the right domain libraries, normalize inputs, and produce outputs that support clear decisions.",
                 "link": "https://i.imgur.com/HxYLSXC.png"
             },
             "powershell_library": {
@@ -181,12 +181,12 @@
             },
             "pdf_builder": {
                 "title": "PDF Skills Builder",
-                "text": "A custom PDF builder built with Python via the Pdfkit and Jinja2 extensions, alongside HTML and JSON formatting. This project is used to generate PDF files from a list of skills and projects. This project can be used to create a custom PDF resume, which is very useful for job applications.",
+                "text": "A document-generation workflow built with Python, Pdfkit, Jinja2, HTML, and structured JSON data. It separates reusable data from presentation templates to generate tailored PDF resumes consistently, a practical pattern for reducing manual work and making business documents repeatable.",
                 "link": "https://github.com/pattygcoding/PDFBuilderPublic"
             },
             "rijandel_encryption": {
                 "title": "Rijandel Encryption Project",
-                "text": "A family of 10+ implementations of the Rijandel encryption algorithm in 128, 192, and 256 bits. This project is used to demonstrate the Rijandel encryption algorithm in different programming languages. This project is used to create a family of implementations of the Rijandel encryption algorithm.",
+                "text": "A comparative set of 10+ Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
                 "link": "https://github.com/pattygcoding/SupremeMC"
             },
             "suprememc": {
@@ -196,12 +196,12 @@
             },
             "tiger_programming_language": {
                 "title": "Tiger Programming Language",
-                "text": "Custom programming language built in Go to experiment with interpreter design and performance. Implemented on the portfolio website using Web Assembly.",
+                "text": "A custom programming language and interpreter built in Go to explore language runtime design, execution behavior, and performance tradeoffs. Compiling it to WebAssembly and integrating it into the portfolio creates a real, inspectable product surface for systems-level engineering rather than leaving the work as a repository-only experiment.",
                 "link": "https://www.pattygcoding.com/tiger"
             },
             "tiger_tailgating_pros": {
                 "title": "Tiger Tailgating Pros Website",
-                "text": "A website I built in 2024 for Tiger Tailgating Pros, a tailgating company in Clemson, SC. Built with React.js.",
+                "text": "A React website delivered for a Clemson, SC tailgating business. The work translates a small business's offering into a clear customer journey and dependable web presence, applying product thinking to help a real organization convert interest into inquiries and revenue.",
                 "link": "https://github.com/pattygcoding/TTProsBeta"
             },
             "turing_machine": {
@@ -222,7 +222,7 @@
     },
     "formatter": {
         "title": "JSON & YAML Linter",
-        "description": "The JSON & YAML Linter is a tool that allows you to validate and format JSON and YAML. Paste in your code, choose a format, and lint it with the click of a button. It will check for syntax errors and auto-format valid input.",
+        "description": "A browser-based data quality tool that validates and formats JSON and YAML using a Go engine compiled to WebAssembly. The architecture keeps parsing close to the user for fast, private feedback while enforcing real syntax rules at the data boundary. It is a compact example of designing a dependable developer workflow around correctness, performance, and trust.",
         "more_info1": "For more information, refer to the README in the",
         "more_info2": "JSON/YAML Formatter Repository.",
         "format_as": "Format As:",
@@ -245,7 +245,7 @@
     },
     "tiger": {
         "title": "Tiger Language",
-        "description": "The Tiger Programming Language is a custom programming language built in Go to experiment with interpreter design and performance. Implemented on the portfolio website using Web Assembly.",
+        "description": "Tiger is a custom programming language and Go interpreter built to explore runtime architecture, language semantics, and performance tradeoffs. Compiling the interpreter to WebAssembly turns that systems work into an interactive, browser-based product: users can execute programs directly while the runtime remains portable and isolated from the host application.",
         "more_info1": "For more information, refer to the README in the",
         "more_info2": "Tiger Programming Language GitHub Repository.",
         "select_engine": "Select Engine:",
@@ -255,7 +255,7 @@
     },
     "tab": {
         "title": "Patrick Goodwin",
-        "description": "Full-stack software engineer with 6+ years of experience building SaaS products, programming languages, and revenue-generating websites."
+        "description": "Senior full-stack engineer with 6+ years of experience designing SaaS products, production systems, and revenue-generating software."
     },
     "copy": {
         "text": "Copy",

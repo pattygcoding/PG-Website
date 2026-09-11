@@ -110,6 +110,12 @@ html {
     word-wrap: break-word;
 }
 
+main h1 {
+    overflow-wrap: normal;
+    word-break: normal;
+    text-wrap: balance;
+}
+
 a, a * {
     cursor: pointer !important;
 }
