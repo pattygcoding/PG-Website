@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Guri",
-        "about": "Ku saabsan aniga",
-        "portfolio": "Boorsofolio",
-        "projects": "Mashaariicda websaydhka",
-        "tiger": "Luqadda Tiger",
-        "portfolio_translator": "Turjubaanka Foormada",
-        "formatter": "Jlan & yaml qaab dhismeedka",
-        "contact": "Ila soo xiriir"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Guriga",
+    "about": "Aniga igu saabsan",
+    "portfolio": "Portfolio",
+    "projects": "Mashaariicda Mareegaha",
+    "tiger": "Luuqadda Shabeelka",
+    "portfolio_translator": "Turjumaan Portfolio",
+    "formatter": "JSON & YAML Formatter",
+    "contact": "ila soo xidhiidh"
+  },
+  "home": {
+    "title": "Injineer buuxa oo buuxa | Badeecada & Nidaamyada",
+    "animated": {
+      "first": "Injineer Buuxa oo Sare",
+      "second": "Nidaamyada & Dhisaha Dhismaha",
+      "third": "Injineer wax soo saarka SaaS",
+      "fourth": "Software lagu kalsoonaan karo, Natiijooyinka Ganacsiga"
     },
-    "home": {
-        "title": "Guri",
-        "animated": {
-            "first": "Injineerka software buuxa",
-            "second": "Sawirka shabakadda",
-            "third": "Soosaarayaasha ciyaarta",
-            "fourth": "Waxyaabaha uu ka kooban yahay"
-        },
-        "footer": "Websaydhka ayaa hada tarjumay & lagu dami karo 100+ luqadood!",
-        "descriptionA": "Khilaafaadka softiweerka buuxa ee software-ka & soo-saareyaasha websaydhka leh oo leh taariikh ah oo si guul leh u horseeddaya mashaariicda horumarineed ee loogu talagalay in lagu xoojiyo khibradaha isticmaalaha ee dib-u-soo-nooleynta falcelinta.",
-        "descriptionB": "Intaa waxaa sii dheer, waxaan ahay mid ka mid ah abuurka juqraafiyeed ee ku guuleysta algorithms ee aaladaha warbaahinta bulshada ee badan, oo ay ku jiraan , oo ay ku jiraan , youtube, iyo , si ay u helaan saldhiga raacsan oo ku lug leh",
-        "portfolio_button": "My Portfolio",
-        "contact_button": "Ila soo xiriir",
-        "about_button": "Ku saabsan aniga"
+    "footer": "Websaydhku hadda waa lagu turjumay oo lagu heli karaa in ka badan 100 luqadood!",
+    "descriptionA": "Injineer buuxa oo buuxa oo leh 6+ sano oo waayo-aragnimo ah ka qaadashada alaabooyinka shuruudaha mugdiga ah ee nidaamyada wax-soo-saarka la isku halayn karo. Waxaan naqshadeeyaa naqshadaha ka dambeeya React, Angular, .NET, Node.js, Java, C#, Go, iyo codsiyada SQL: xuduudo adeeg oo cad, moodooyinka xogta waara, qaababka gelitaanka aaminka ah, iyo kooxaha dariiqyada gaarsiintu waxay ku shaqayn karaan si kalsooni leh.",
+    "descriptionB": "Shaqadaydu waxay ku xidhaa go'aamada injineernimada iyo natiijooyinka ganacsiga. Laga soo bilaabo dhismo-qiyaasta SaaS oo u beddela xogta xaashida soo jeedinta diyaarka ah ee macmiilka si ay dakhli-abuurista shabakadaha internetka, waxaan u dhisaa software ku wareegsan socodka shaqada, khatarta, iyo qiimaha la qiyaasi karo ee muhiimka u ah dadka isticmaalaya.",
+    "portfolio_button": "Bootfooliyadayda",
+    "contact_button": "ila soo xidhiidh",
+    "about_button": "Aniga igu saabsan"
+  },
+  "about": {
+    "title": "Aniga igu saabsan",
+    "personal_summary": {
+      "title": "Kooban Shaqsiyeed",
+      "text": "Waxaan ahay injineer buuxa oo buuxa oo fadhigiisu yahay Orlando, FL kaasoo iska leh dariiqa dhibaatada alaabta ilaa natiijada wax soo saarka. Waxaan sameeyaa doorashooyinka tignoolajiyada ee adeegga nidaamka: NET iyo Hay'adda Qaabdhismeedka Guud marka si xooggan loo habeeyey iyo arrin adkaysi la tijaabin karo; Xaglo ama falcelin marka adag socodka shaqadu wuxuu u baahan yahay interface la ilaalin karo; Node.js ama Go marka API, is dhexgalka, ama qalabka waxqabadka sare u baahan yahay runtime diirada saaraya. Dhammaan badeecadaha SaaS, qulqulka shaqada gudaha, iyo macaamiisha u jeedda, waxaan ku hogaamiyaa ganacsiyo cad, nashqad sugan oo adkeysi leh, tijaabin toos ah, iyo dhaqamada gaarsiinta kooxaha kaalmeeya in ay soo raraan software qiimo leh iyaga oo aan ka tagin deynta shaqada."
     },
-    "about": {
-        "title": "Ku saabsan aniga",
-        "personal_summary": {
-            "title": "Soo Koobid Shakhsi ah",
-            "text": "Iyada oo ah soosaaraha software-ka oo dhan ee ku saleysan Orlando, Fl, waxaan khibrad u muujiyay tikniyoolajiyad kala duwan, Java iyo C ++ si dib loogu celiyo.js iyo node.js. Iyada oo leh rikoor waddo ah oo ah mashaariicda dhexdhexaadka ah, oo ay ku jiraan horumarinta barnaamijka wax-ka-beddelka Java ee loogu talagalay Minecraft iyo websaydh abaal marin ah oo loogu talagalay darawalada xamuulka ah, waxaan muujiyey hogaaminta iyo hal-abuurka. Balanqaadka aan u leeyahay heer sare ayaa ah awooddeyda maareynta mashruuca, xalliyaan dhibaatooyinka adag, oo aan keeno xalal tayo sare leh oo kor u qaadaya khibradda adeegsadaha oo aan wado guusha abaabul."
+    "professional_experience": {
+      "title": "Khibrad Xirfadeed",
+      "entries": [
+        {
+          "jobtitle": "Injineer Software Sare",
+          "where": "Naqshad Interactive",
+          "date": "2025 - Hadda"
         },
-        "professional_experience": {
-            "title": "Khibrad xirfadeed",
-            "entries": [
-                {
-                    "jobtitle": "Injineer Software-ka Junior",
-                    "where": "Caymiska Orion180",
-                    "date": "2024 - Jooji"
-                },
-                {
-                    "jobtitle": "Aasaasiyadda & Soo-Saarka Software ee Buuxa",
-                    "where": "Sarsareremc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Injineerka software buuxa",
-                    "where": "Dardar-gelinta barashada",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Horumarinta websaydhka (barnaamijka ardayda)",
-                    "where": "Barnaamijka Jaamacadda Clemson GDI",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Kormeeraha Miiska",
-                    "where": "Jaamacadda Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Kormeeraha Miiska",
-                    "where": "Jaamacadda Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Injineer Software",
+          "where": "Orion180 Caymiska",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Xirfadaha farsamada",
-            "header1": "Luuqadaha barnaamijka",
-            "header2": "Qaab-dhismeedka & Maktabadaha",
-            "header3": "Qalabka & teknolojiyada"
+        {
+          "jobtitle": "Injineer Software",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Adeegyadayga",
-            "entries": [
-                {
-                    "title": "Injineerka gubashada oo buuxa",
-                    "text": "Waxaan bixiyaa xalka dhameystiran ee ku yaal hordhaca hore iyo gadaal-gadaasha, oo hubinaya is-dhexgalka aan kala go 'lahayn iyo waxqabadka oo dhan oo dhan oo dhan."
-                },
-                {
-                    "title": "Horumarinta Websaydhka",
-                    "text": "Khabiir ku ah HTML, CSS, iyo qaab-dhismeedka Javascript sida falcelinta oo kale, waxaan qalinka ku garaacayaa muuqaal muuqaal ah iyo websaydhyo ku habboon isticmaaleyaasha ah si ay ula kulmaan baahiyaha gaarka ah ee macaamiisha iyo doorbidyada."
-                },
-                {
-                    "title": "Horumarinta ciyaarta",
-                    "text": "Luuqadaha kacsan sida Java iyo C ++, waxaan ku takhasusay abuurista khibradaha ciyaaraha soo-galka, oo ah fikradda iyo naqshadeynta hirgelinta iyo kobcinta, hubinta in lagu mashquuliyo ciyaarta ciyaarta iyo waxqabadka jilicsan."
-                }
-            ]
+        {
+          "jobtitle": "Injineer Software",
+          "where": "Dardar gelinta Waxbarashada",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Injineer Software-ka Hogaaminaya (Barnaamijka Ardayga)",
+          "where": "Jaamacadda Clemson ee barnaamijka GDI",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Kormeeraha Miiska",
+          "where": "Jaamacadda Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Boorsofolio",
-        "filter_by": "Faahfaahin faylfooban by:",
-        "entries": {
-            "biblioteca": {
-                "title": "Bilibroeca json",
-                "text": "Mashruuc Python ah oo ku qulqulaya tarjumaadaha luqadda. Waxay u oggolaaneysaa websaydhka websaydhka ah in loo tarjumo 70+ luqadood, oo ay ku jiraan Isbaanish, Faransiis, Shiinaha, Carabi, iyo kuwa kale oo badan. Mashruucan waxaa loo isticmaalaa in lagu abuuro boorsooyin websidelo-luqado badan ku hadla, oo aad waxtar ugu leh gaarista dhagaysi ballaaran. Mashruucan, in ka badan 99% adduunka ayaa ku aqrin kara faylalka faylalka ku jira luqad sifiican u hadlaya.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Isku xidho afar",
-                "text": "Qoys aad u weyn oo ka badan 50+ hirgelinta ah ee isku xidhka afarta ciyaar ee ciyaarta. Mashruucan waxaa ka mid ah hirgelinta in ka badan 30 luqadood oo kala duwan oo barnaamij ah, oo ay ku jiraan Java, c ++, python, javascript, iyo ka badan. Intaa waxaa sii dheer, sidoo kale waxaa ka mid ah in ka badan 20+ qaab dhismeedka kala duwan ama qaabab kale, oo ay ku jiraan falcelinta ka falcelinta, Ruby, Ruby, iyo inbadan.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Barnaamijka raashinka",
-                "text": "Gundhig buuxda oo dhammaystiran Codsigu wuxuu raacaa xamuulka kontoroolka / adeegga / kaydka kaydka qaab dhismeedka qaybta ee loo yaqaan 'Export' ee ku adkaysiga ku-adkaysi waxaana ku jira sumcad guud oo tijaabo ah.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Mashruuca Dhexgalka",
-                "text": "Mashruuc dukumiinti dukumiintiyeedka dhexgalka luqadaha barnaamijyada kala duwan. Xilligan waxaa ku jira 15 luqadood oo barnaamij oo kala duwan iyo 18 qaab oo fulin ah.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Diiwaanka alaabada",
-                "text": "Diiwaanka Demo-daada oo buuxa oo ah Iibiyaha Saldhigga Codsigan wuxuu muujiyaa nidaam xirfadeed-fasalka ah oo leh xaqiijinta u adeegsiga, xakameynta doorka ee ku saleysan, raadraaca alaabada, iyo howsha bixinta muranka.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & Yaml outo platter?",
-                "text": "Linte & Autoformter-ka feylasha JSOML & Yaml. Mashruucan waxaa loo isticmaalaa in lagu sameeyo faylasha JSON & Yaml, kaasoo aad waxtar ugu leh haynta nambarka nadiifinta iyo abaabulka. Waxaa lagu dhisay go ', oo lagu soo ururiyo iyada oo sax ah, oo lagu dhejiyay faylalkayga oo ah mashruuc websaydh ah. Qaabab badan oo soo socda mustaqbalka.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Takeoff Engine",
-                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft json matoor",
-                "text": "Guryaha fudud ee JSONT ee Jody wuxuu dhisay Python ee Kheyraadka Kheyraadka & Xogta Xogta. Mashruucan waxaa loo isticmaalaa in lagu soo saaro faylasha JSON ee Mods Moodhyada Minecraftatka, oo ay ku jiraan alaabada caadiga ah, baloogyada, iyo hay'adaha. Aad ayey waxtar ugu tahay inaadan abuurin kaliya Datapacks caado ah, laakiin mods sidoo kale iyada oo loo marayo muujinta magaca wareejinta mod.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Khibradeyda waxbarasho",
-                "text": "Iyadoo ay weheliso mashaariicda shaqsiyeed, sidoo kale waxaan ka qaatay xirfado badan oo ka imanaya khibrada waxbarashada. Halkan guji si aad u aragto astaantayga LinkedIn si aad u hesho macluumaad dheeraad ah.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Khibradeyda xirfadeed",
-                "text": "Iyadoo ay weheliso mashaariicda shaqsiyeed, sidoo kale waxaan ka qaatay xirfado badan oo khibrad leh. Halkan guji si aad u aragto astaantayga LinkedIn si aad u hesho macluumaad dheeraad ah.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Bogrick Goodwin PortFolio",
-                "text": "Websaydhkan ayaa ah websaydhkayga gaarka ah ee xafiisyadayda gaarka ah, oo lagu dhisay jawaab celin.Js. Mashruucan waxaa loo isticmaalaa in lagu muujiyo xirfadahayga iyo mashaariicdayda, iyo sidoo kale in la bixiyo meel loogu talagalay loo shaqeeyeyaasha suurtagalka ah si ay ila soo xiriiraan. Mashruucan waxaa loo isticmaalaa in lagu abuuro jiritaanka qadka dhexe ee khadka tooska ah.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Maktabadda Patrick ee Patrick ee Lua Script",
-                "text": "Maktabad waxtar leh oo ku saabsan qoraallada Lua ee tixraaca mustaqbalka. Maktabaddan waxaa loo isticmaalaa in lagu qabto howlaha ka jira qoraallada Lua, kaasoo u imaan kara wax ku habboon howlaha waxqabadka u baahan, sida Luua badanaa uu yahay luqadda qoraalka si dhaqso leh iyo Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Patrick's Micrick Microsoft Excel Scrept qoraallada (VBA)",
-                "text": "Maktabad waxtar leh oo qoraallada VBA loogu talagalay Microsoft Excel. Maktabaddan waxaa loo isticmaalaa in lagu qabto howlaha ay ku shaqeeyaan xaashiyaha Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patrick's neovim config",
-                "text": "Qaab-dhismeedkayga gaarka ah ee neovim. Mashruucan waxaa loo isticmaalaa in lagu habeeyo neovim ee aad jeceshahay, oo ay ku jiraan furaha caadiga ah, mowduucyada, iyo pluffs. Mashruucan waxaa loo isticmaalaa in lagu sameeyo neovim-ka-u-habboon oo saaxiibtinimo iyo wax ku ool ah isticmaalkeyga shaqsiyeed.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Getrick's Map",
-                "text": "General Medication County & Membelka Gobolka oo lagu dhisay Python iyadoo la adeegsanayo maktabadaha Geopankas iyo Matplotlib. Mashruucan waxaa loo isticmaalaa in lagu soo saaro khariidado ka mid ah Mareykanka, oo ay ku jiraan gobolka iyo khariidadaha gobolka. Mashruucan waxaa loo isticmaalaa in lagu abuuro khariidado caadada ah oo loogu talagalay muuqaalka macluumaadka iyo falanqaynta.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Maktabadda PATIR CARRUURTA",
-                "text": "Maktabad waxtar leh oo ku saabsan qoraallada budada ah ee loo yaqaan 'Powerhell' ee tixraaca mustaqbalka. Faa'iido badan",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Maktabadda qoraalka ee Patrick",
-                "text": "Maktabad waxtar leh oo ku saabsan qoraallada Ruby ee tixraaca mustaqbalka. Waxtar u leh Ruby mustaqbalka ee Fikradaha Kobcinta Rails.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Xirfadaha PDF ee dhista",
-                "text": "PDF dhise caadada ah oo lagu dhisay python iyada oo loo marayo kordhinta PDFKIT iyo Jinja2, oo ay weheliso HTML iyo qaab-joson. Mashruucan waxaa loo isticmaalaa in lagu abuuro faylasha PDF liistada xirfadaha iyo mashaariicda. Mashruucan waxaa loo isticmaali karaa in lagu abuuro resumeyga PDF ee caadada ah, kaasoo aad waxtar ugu leh codsiyada shaqada.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Mashruuca Encendel Encrylption",
-                "text": "Qoys ka kooban 10+ hirgelinta ee algorithm-ka Rijandel encrichithm ee 128, 192, iyo 256 xabbadood. Mashruucan waxaa loo isticmaalaa in lagu muujiyo algorithm-ka rijandel encriantm ee luqadaha barnaamijyada kala duwan. Mashruucan waxaa loo isticmaalaa in lagu abuuro qoys hirgelin leh oo ka mid ah algorithm-ka rijandel.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Supremempm Minecraft mod",
-                "text": "Mod Minecraftat-ka oo ku daraya aalado caado ah, hubka, waxyaabo, baloogyo, cabbir, iyo astaamo badan oo ka badan ciyaarta. Lagu dhisay noocyada Java 8-17 ee xulashada noocyada Minecrtt ee u dhexeeya 1.16 iyo 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Luqadda barnaamijyada Tiger",
-                "text": "Luqadda barnaamijyada caadiga ah ee lagu dhisay labada god & miridhkuba si ay u tijaabiyaan qaabeynta turjubaanka iyo waxqabadka. Waxaa lagu hirgaliyay websaydhka boortafooliyada iyadoo la adeegsanayo golaha websaydhka.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiger Trag Websaydhka",
-                "text": "Websaydh waxaan ka dhisay 2024 oo loogu talagalay Tiger Tragerogs, oo ah shirkad dabacsan oo ku taal Clemson, SC. Lagu dhisay falcelinta .j.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Mashruuca Mashiinka Mashiinka Mashiinka",
-                "text": "Qoyska ka weyn 30+ hirgelinta mashiinka qashinka. Waxaa loo isticmaalaa in lagu muujiyo dhameystirka shaashadda ee luqadaha barnaamijyada kala duwan ee cilmi baarista, gaar ahaan luqadda barnaamijyada Tiger.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Xirfadaha Farsamada",
+      "header1": "Barnaamijyada Luuqadaha",
+      "header2": "Qaab-dhismeedka & Maktabadaha",
+      "header3": "Qalabka & Farsamada"
+    },
+    "services": {
+      "title": "Adeegyadayda",
+      "entries": [
+        {
+          "title": "Injineernimada Raajada Buuxa",
+          "text": "Waxaan horseedaa gaarsiinta badeecada dhamaadka-ilaa-dhamaadka: tarjumaadda qulqulka shaqada ganacsiga ee xuduudaha nidaamka, moodooyinka xogta, API-yada, iyo is-dhexgalka, ka dibna shaqada ku sita iyada oo la adeegsanayo tijaabinta, geynta, iyo ku celcelin. Hadafka waa software ay kooxi horumarin karto oo shaqayn karto, ma aha ururinta shaashadaha kala go'an."
+        },
+        {
+          "title": "Qalabka & Dhismaha Platform",
+          "text": "Waxaan doortaa habab iyo qaabab ku salaysan dhibka: adeegyada .NET ee lakabka ah ee goobaha ganacsiga, Angular-ka ka kooban ama codsiyada falcelinta ee hawlgallada adag, xidhiidhka moodooyinka xogta ee socodka shaqada ee lala xisaabtami karo, iyo isku dhafka loogu talagalay qaababka guul darrida, xakamaynta gelitaanka, iyo ilaalinta maskaxda."
+        },
+        {
+          "title": "Wax-soo-saar-Diyaar ah",
+          "text": "Waxaan la dhisaa xaqiiqooyinka ka dib bilawga aragtida: siraha laga ilaaliyay xakamaynta isha, dariiqyada hayaanka xogta ee cad, oggolaanshaha doorka ku salaysan, ansixinta xuduudaha nidaamka, imtixaanada otomaatiga ah, wacyigelinta CI/CD, iyo indho-indheyn la taaban karo. Kuwani waa faahfaahinta u beddela prototype ka mid ah software la isku halleyn karo."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "filter_by": "Shaandhayso Bootfooliyada By:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "Dhuumaha meelaynta ku salaysan Python oo hal il habaysan u beddela faylal la heli karo oo caalami ah. Waxay u maamushaa xogta tarjumaadda sidii nidaam la sii wadi karo halkii ay gacanta ku nuqul ka lahayd, taasoo u oggolaanaysa goobta inay ku cabbirto in ka badan 100 luqadood iyo inay ka dhigto mid caalami ah karti hawleed halkii ay ka ahaan lahayd muuqaal hal mar ah.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Isku xidh Afar",
+        "text": "Qoys weyn oo ka badan 50+ fulinta ciyaarta Connect Four. Mashruucan waxaa ka mid ah hirgelinta in ka badan 30 luqadaha barnaamijyada kala duwan, oo ay ku jiraan Java, C++, Python, JavaScript, iyo in ka badan. Intaa waxaa dheer, waxa kale oo ka mid ah in ka badan 20+ qaabab kala duwan ama qaabab kale, oo ay ku jiraan React.js, Ruby on Rails, ASP.NET, iyo in ka badan.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "App-ka raashinka",
+        "text": "Codsi buuxa oo NET 9 Blazor Server ah oo muujinaya naqshadaynta ula kac ah ee socodka shaqada ganacsiga. Kala qaybsanaanta maamulaha/adeegga/ kaydka ayaa ilaalinaya sharciyada codsiga, helitaanka xogta, iyo soo bandhigida si madax banaan oo la tijaabin karo; Qaab-dhismeedka Hay'adda Xuddunta waxay bixisaa adkaysi waara; iyo qolka tijaabada dhamaystiran wuxuu ilaaliyaa dabeecadda marka alaabtu soo baxdo.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Mashruuca Interop",
+        "text": "Tixraaca wada shaqaynta luqadda iskutallaabta ah oo ka kooban 15 luqadood oo barnaamij ah iyo 18 qaab oo fulin ah. Mashruucu waxa uu baaraa xuduudka halka nidaamyadu inta badan noqdaan kuwa jilicsan: habsocodka qandaraasyada, xog-isweydaarsiga, habdhaqanka runtime, iyo waddooyinka isdhexgalka ee soo noqnoqda. Waxay ka tarjumaysaa hababka fikirka loo baahan yahay marka alaabtu ka weyn tahay hal xidhmo.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Diiwaanka Alaabta",
+        "text": "POS-buuxa iyo socodka shaqada alaabada oo lagu dhisay xagal 17+ iyo Node.js. Waxay qaabaysaa walaacyada hawlgelinta ee nidaamka B2B: isticmaalayaasha la xaqiijiyay, kontoroolka gelitaanka doorka-ku-salaysan, saxnaanta alaabada, iyo socodka lacag-bixinta jees-jeeska ah. Mashruucu waxa loo nashqadeeyay shaqada dhabta ah ee ay kooxda diwaangelintu qabtaan, ma aha oo kaliya buug-tusaha qaab-dhismeedka.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Auto Formater",
+        "text": "JSON ku salaysan browserka iyo ansaxinta YAML iyo qalab lagu dhisay Go oo lagu soo ururiyay WebAssembly. U raridda mishiinka wax-kala-soocidda ee WASM waxay ka dhigaysaa is-dhexgalka mid ka jawaabaya oo maxalli ah browserka iyada oo la adeegsanayo parser-ka dhabta ah si loo qabto gelinta aan sax ahayn. Waa tusaale diirada saaraya doorashada qaab dhismeedka runtime ee waxqabadka, qaadida, iyo aaminaadda isticmaalaha.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Matoorka Qaadista",
+        "text": "Dhisme lagu qiyaaso SaaS oo lagu dhisay kharash badan, socodka shaqada qandaraasleyaasha khaladka u nugul. Alaabada React + Express waxa ay soo gelisaa xogta CSV iyo Excel, waxa ay maabka tiirar aan iswaafaqayn oo qaab domain la isticmaali karo, xisaabiya qodista jeexjeexyada iyo tirada shaqada dhulka, raadraaca shaqada iyo calaamadee, oo soo saara macaamiisha-u diyaarsan PDF iyo soo jeedinta Word. Kani waa injineer nololeed oo buuxa: falanqaynta xogta, xeerarka xisaabinta, socodka shaqada ee hawlwadeenka oo la qurxiyey, iyo wax-soo-saarka caawiya ganacsigu inuu ka guuro agabka cayriin una guuro dalab.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Generator",
+        "text": "Matoor fudud oo JSON ah oo lagu dhisay Python oo loogu talagalay agabka Minecraft & xidhmooyinka xogta. Mashruucan waxaa loo isticmaalaa in lagu soo saaro faylasha JSON ee qaababka Minecraft, oo ay ku jiraan alaabta gaarka ah, blocks, iyo qaybaha. Aad bay faa'iido u leedahay ma aha oo kaliya abuurista xirmooyinka xogta gaarka ah, laakiin mods sidoo kale iyada oo loo marayo qaabka beddelka magaca.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Waayo-aragnimadayda Waxbarasho",
+        "text": "Mashaariicdayda gaarka ah waxaa barbar socda, waxaan sidoo kale ka helay xirfado badan oo khibrad waxbarasho ah. Riix halkan si aad u aragto profile-kayga LinkedIn wixii macluumaad dheeraad ah.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Waayo-aragnimadayda Xirfadeed",
+        "text": "Lix sano oo lagu daray waayo-aragnimada injineernimada xirfadeed ee kooxaha wax soo saarka, goobaha ganacsiga, iyo software soo-jeeda macaamiisha. Shaqadaydu waxa ka mid ahaa dhisidda lakabyo arji oo la joogteyn karo, ka wada shaqaynta qaybaha qaybinta, iyo samaynta go'aamo farsamo ee wareegga nolosha badeecada, shaqaynaysa khatarta, iyo lahaanshaha muddada dheer ee aragtida.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwin Portfolio Website",
+        "text": "Wax soo saar-maskaxeed faylalka falcelinta kaaso ula dhaqma gelitaanka iyo gaadhista caalamiga ah sida shuruudaha injineernimada. Waxaa ka mid ah dhuumaha tarjumaadda la joogteyn karo ee 100+ luqadood, qalab is dhexgal ah oo uu taageeray WebAssembly, ka jawaab celin iyo qaababka UI oo la heli karo, iyo qaab dhismeed mashruuc loogu talagalay in ay koraan marka shaqo cusub la soo raro.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "Maktabad faa'iido leh oo ah qoraallada Lua ee tixraaca mustaqbalka. Maktabaddan waxa loo isticmaalaa in lagu habeeyo hawlaha ku jira qoraallada Lua, kuwaas oo ku anfacaya hawlaha hawl-qabadka u baahan, maadaama Lua inta badan tahay luqad qoraal ah oo ka dhaqso badan Python iyo Ruby labadaba.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Maktabad faa'iido leh oo ah qoraallada VBA ee Microsoft Excel. Maktabaddan waxa loo istcmaalay in si otomaatig ah loogu sameeyo hawlaha ku jira xaashiyaha Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Qaabayntayga gaarka ah ee Neovim Mashruucan waxaa loo isticmaalaa in lagu habeeyo Neovim sida aan jeclahay, oo ay ku jiraan furayaasha gaarka ah, mawduucyada, iyo plugins. Mashruucan waxa loo istcimaalay in Neovim uu ka dhigo mid isticmaale-saaxiibtinimo iyo hufnaan u leh isticmaalkayga gaarka ah.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Dhaliyaha Khariidadda Patrick",
+        "text": "Qalabka warbixinta geospatial Python oo lagu dhisay GeoPandas iyo Matplotlib si loo soo saaro khariidado gobolka iyo gobolka Mareykanka. Waxa ay xogta juqraafiga u rogtaa farshaxanno la akhriyi karo, oo tusinaya maskaxda dhuumaha xogta: dooro maktabadaha goobta saxda ah, caadi ka dhig agabka, oo soo saara wax soo saar taageer go'aamo cad cad.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Script",
+        "text": "Maktabad waxtar leh oo ah qoraallada PowerShell ee tixraaca mustaqbalka. Faa'iido u leh astaanta qoraalka profile $, waxaan u arkaa mid aad waxtar u leh si otomaatig ah hawlaha Windows terminalka, maadaama aan ahay isticmaale joogto ah Windows OS.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Maktabad faa'iido leh oo ah qoraallada Ruby si loo tixraaco mustaqbalka. Faa'iido u leh mustaqbalka Ruby on Rails fikradaha horumarinta.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Dhisaha Xirfadaha PDF",
+        "text": "Socod-hawleed dokumenti-jiil ah oo lagu dhisay Python, Pdfkit, Jinja2, HTML, iyo xogta JSON habaysan. Waxay ka soocaa xogta dib loo isticmaali karo iyo qaababka soo bandhigida si ay u soo saarto dib u habaynta PDF ee joogtada ah, qaab wax ku ool ah oo lagu dhimayo shaqada gacanta iyo samaynta dukumentiyada ganacsiga lagu celin karo.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Mashruuca sirta ah ee Rijandel",
+        "text": "Qayb isbarbardhig ah oo ah 10+ Rijndael oo fulinaya dhamaan 128-, 192-, iyo 256-bit. Dib-u-soo-celinta algorithm-ka xasaasiga ah ee luqadaha oo dhan waa layli edbin ah oo qeexid sax ah, habdhaqan la tijaabin karo, iyo xadka qaadidda heerka luqadda, dhammaan dareenada waxtarka leh ee nidaamyada gacanta ku haya xogta xasaasiga ah.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Mod Minecraft ah oo ku dara qalab gaar ah, hub, mobsiyo, baloogyo, cabbiro, iyo astaamo kaloo badan oo ciyaarta ah. Lagu dhisay noocyada Java 8-17 ee xulashada noocyada Minecraft inta u dhaxaysa 1.16 iyo 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Tiger Programming Language",
+        "text": "Luqadda barnaamijka gaarka ah iyo turjubaanka lagu dhisay Go si ay u sahamiso luuqadda naqshadaynta runtime, dhaqanka fulinta, iyo wax-is-dhaafsiga waxqabadka. Isku-dubbarididda WebAssembly iyo ku-daridda faylalka-kooxdu waxay abuurtaa wax soo saar dhab ah, oo la baari karo oo loogu talagalay injineernimada heerka-nidaamyada halkii ay uga tegi lahayd shaqada sidii tijaabada kayd-kaliya.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Shabakadda Faa'iidooyinka Tiger Tailgating",
+        "text": "Websaydh React ah oo loo dhiibay Clemson, SC ganacsiga dabada. Shaqadu waxay u tarjuntaa wax-soo-saarka ganacsiga yar-yar safar macaamiil oo cad iyo joogitaanka mareegaha la isku halayn karo, iyada oo la adeegsanayo fikirka badeecada si ay u caawiso urur dhab ah oo u rogo xiisaha. weydiimaha iyo dakhliga.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Mashruuca Turing Machine",
+        "text": "Qoyska ka badan 30+ hirgalinta Mashiinka Turing. Waxa loo adeegsaday in lagu muujiyo dhammaystirka luuqadaha barnaamijyada kala duwan ee cilmi-baadhista, gaar ahaan Luuqadda Programming-ka ee Shabeelka.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Tiger Programming Language"
+  },
+  "contact": {
+    "title": "ila soo xidhiidh",
+    "header": "Macluumaadka Xiriirka",
+    "email": "pattygsocials@gmail.com",
+    "description": "Waxaan ka jawaabaa su'aalaha iimaylka iyo fariimaha LinkedIn. Sidoo kale waan soo wici doonaa haddii lambarkayga lagu bixiyo resume ama si kale, in kastoo aan doorbido inaan lambarkayga ka dhigo mid gaar ah."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Qalabka tayada xogta ku salaysan browser-ka kaas oo ansixiya oo qaabeeya JSON iyo YAML iyadoo la isticmaalayo Go engine oo lagu soo ururiyay WebAssembly. Nashqaduhu waxa ay ku hayaan u kala shaandheynta u dhow isticmaalaha si degdeg ah, jawaab celin gaar ah iyada oo la xoojinayo xeerarka syntax dhabta ah ee xadka xogta. Waa tusaale kooban oo naqshadaynta socodka shaqo ee horumariye la isku halayn karo oo ku wareegsan saxnaanta, waxqabadka, iyo kalsoonida.",
+    "more_info1": "Wixii macluumaad dheeraad ah, tixraac README ee ku jira",
+    "more_info2": "Kaydka qaabeeyaha JSON/YAML.",
+    "format_as": "Qaabka Sida:",
+    "auto_detect": "Ogaanshaha otomaatiga ah",
+    "format": "Lint & Qaabka",
+    "valid_json": "✓ Sax ah JSON",
+    "valid_yaml": "✓ YAML sax ah",
+    "invalid_json": "JSON aan sax ahayn",
+    "invalid_yaml": "YAML aan sax ahayn",
+    "empty_input": "Fadlan geli qaar ka mid ah JSON ama YAML si aad u gasho.",
+    "too_large": "Gelida oo aad u weyn (ugu badnaan 1MB waa la ogol yahay).",
+    "fixed_yaml_spacing": "⚠ YAML waxay lahayd kala dheerayn/gelis aan sax ahayn laakiin si toos ah ayaa loo hagaajiyay oo loo qaabeeyey.",
+    "loading": "Soodejinaya qaabeeyaha...",
+    "waiting_for_input": "Sugaya gelinta...",
+    "load_failed": "Aan awoodin inuu soo dejiyo qaabeeyaha",
+    "output": "Natiijada:",
+    "input_code": "Gelida",
+    "json_examples": "Tusaalooyinka JSON",
+    "yaml_examples": "YAML Tusaalooyinka"
+  },
+  "tiger": {
+    "title": "Luuqadda Shabeelka",
+    "description": "Tiger waa luuqad barnaamijeed caado u ah iyo Turjubaanka Go loo dhisay si uu u sahamiyo qaab dhismeedka runtime, semantics luqadda, iyo ganacsiyada waxqabadka. Isku-dubarid turjubaanka WebAssembly waxay u beddeshaa in nidaamyadu u shaqeeyaan is dhexgal, badeecad ku salaysan browserka: isticmaalayaashu waxay si toos ah u fulin karaan barnaamijyada iyada oo wakhtiga runtu uu yahay mid la qaadi karo oo ka go'an codsiga martida loo yahay.",
+    "more_info1": "Wixii macluumaad dheeraad ah, tixraac README ee ku jira",
+    "more_info2": "Tiger Programming Language GitHub Kaydka.",
+    "select_engine": "Dooro Matoorka:",
+    "tiger_code": "Lambarka Shabeelka:",
+    "run_tiger": "Orod Shabeel",
+    "output": "Natiijada:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Injineer buuxa oo buuxa oo leh 6+ sano oo waayo-aragnimo ah naqshadaynta alaabada SaaS, nidaamyada wax soo saarka, iyo software dakhli-abuurista."
+  },
+  "copy": {
+    "text": "Nuqul",
+    "copied": "la guuriyay!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "I soo raac"
+  },
+  "languages": {
+    "title": "Turjumaan Portfolio",
+    "description": "Soo ogow sida faylalkayga ay u heli karaan booqdayaasha adduunka oo dhan ka yimid iyagoo taageero ka helaya in ka badan 100 luqadood.",
+    "global_accessibility": {
+      "title": "Helitaanka Caalamiga ah",
+      "description": "Bootfooliyadayda ayaa lagu heli karaa in ka badan {count} luqadood, taasoo ka dhigaysa mid la heli karo booqdayaasha adduunka oo dhan. Habkan luuqadaha badan ku hadlaa waxa ay ina tusinaysaa sida ay iga go'an tahay ku darida iyo gaadhista caalamiga ah ee horumarinta software.",
+      "stats": {
+        "languages_supported": "Luuqadaha la taageeray",
+        "countries_represented": "Waddamada Matalaya",
+        "continents_covered": "Qaaradaha Qarsoon"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Luqadda barnaamijyada Tiger"
-    },
-    "contact": {
-        "title": "Ila soo xiriir",
-        "header": "Macluumaadka xiriirka",
-        "email": "Pattygsocials@gmail.com",
-        "description": "Waxaan ka jawaabayaa weydiimaha e-maylka, farriimaha iskuxiran, iyo farriimaha . Sidoo kale waan soo wici doonaa haddii nambarkayga lagu bixiyo resume ama haddii kale, in kastoo aan doorbidayo inaan lambarkeyga taleefankeyga ku haysto."
-    },
-    "formatter": {
-        "title": "Jlan & yaml qaab dhismeedka",
-        "description": "Shirkadda JSON & Yaml waa aalad kuu oggolaanaya inaad qaabeyso faylasha JSON iyo Yaml. Waxaa lagu dhisay oo la dhisay oo haboon yahay, oo waxaa loogu talagalay in lagu sooco oo wax ku ool ah. Feejignaanta waxaa loogu talagalay in ay fududaato in la isticmaalo, iyadoo loo adeegsanayo interface sahlan oo kuu oggolaanaya inaad ku dhejiso koodhkaaga JCS ama Yaml oo ku qaabeedda dhagsii badhanka.",
-        "more_info1": "Macluumaad dheeri ah, tixraac Readmem-ka ee",
-        "more_info2": "JSOS / Yaml Positsitor-ka.",
-        "format_as": "Qaab sida:",
-        "auto_detect": "Auto garan",
-        "format": "Khiddad",
-        "valid_json": "✓ Valid JSON",
-        "valid_yaml": "✓ Valid YAML",
-        "invalid_json": "Invalid JSON",
-        "invalid_yaml": "Invalid YAML",
-        "empty_input": "Please enter some JSON or YAML to lint.",
-        "too_large": "Input too large (max 1MB allowed).",
-        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
-    },
-    "tiger": {
-        "title": "Luqadda Tiger",
-        "description": "Luqadda barnaamijyada Tiger waa luqadda barnaamijyada caadiga ah ee lagu dhisay labada god & miridhkuba si ay u tijaabiyaan qaabeynta turjubaanka iyo waxqabadka. Waxaa lagu hirgaliyay websaydhka boortafooliyada iyadoo la adeegsanayo golaha websaydhka. Luqadda barnaamijyada Tiger waa luqadda barnaamijyada caadiga ah ee lagu dhisay labada god & miridhkuba si ay u tijaabiyaan qaabeynta turjubaanka iyo waxqabadka. Waxaa lagu hirgaliyay websaydhka boortafooliyada iyadoo la adeegsanayo golaha websaydhka.",
-        "more_info1": "Macluumaad dheeri ah, tixraac Readmem-ka ee",
-        "more_info2": "Barnaamijyada Tiger Barnaamijka Barnaamijka Gitthif ee Gitthif.",
-        "select_engine": "Xulo Mashiinka:",
-        "tiger_code": "Nambarka Tiger:",
-        "run_tiger": "Orod shabeel",
-        "output": "Wax soo saar:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Injineerka software ee buuxa ee ku saleysan bartamaha Florida"
-    },
-    "copy": {
-        "text": "Koobbi ka sameyn",
-        "copied": "La soo guuriyey!"
-    },
-    "social_media": {
-        "github": "GitHub",
-        "linkedin": "Xiriir lagu yeero",
-        "youtube": "YouTube",
-        "text_strip": "I soo raac"
-    },
-    "languages": {
-        "title": "Turjubaanka Foormada",
-        "description": "Soo ogow sida ay fayl-gacmeedyadu u heli karaan booqdayaasha adduunka oo dhan oo taageero ka badan 100 luqadood.",
-        "global_accessibility": {
-            "title": "Helitaanka Caalamka",
-            "description": "Boorsadayda waxaa lagu heli karaa in ka badan {tirin} luqadaha, taasoo ka dhigeysa inay u soo bandhigto booqdayaasha adduunka oo dhan. Habkan luqadaha badan lagu hadlayo ayaa muujinaya sida ay uga go'an tahay ka-qaybgalka iyo gaarista caalamiga ah ee horumarka software-ka.",
-            "stats": {
-                "languages_supported": "Luuqadaha la taageeray",
-                "countries_represented": "Wadamada matalaya",
-                "continents_covered": "Qaaradaha ayaa daboolay"
-            }
+    "features": {
+      "title": "Astaamaha",
+      "items": [
+        {
+          "title": "Turjumaada-waqtiga dhabta ah:",
+          "description": "U beddel luqadaha isla markaaba xulashada luqadda"
         },
-        "features": {
-            "title": "Astaamaha",
-            "items": [
-                {
-                    "title": "Tarjumaadda waqtiga-dhabta ah:",
-                    "description": "Luuqadaha u wareeji isla markiiba leh luuqadda xulashada"
-                },
-                {
-                    "title": "Luqadda ku saleysan URL:",
-                    "description": "Xulashooyinka luqadda ayaa lagu keydiyey URL"
-                },
-                {
-                    "title": "Taageero Qoraal Qoraal ah:",
-                    "description": "Ku habboon oo ku habboon qoraallada sida Carabiga, Shiinaha, Hindi, iyo inbadan"
-                },
-                {
-                    "title": "Dareenka dhaqameed:",
-                    "description": "Tarjumaadaha ayaa tixgalinaya xaalada dhaqameed, maahan micno macquul ah"
-                },
-                {
-                    "title": "SEO wuu fiicnaaday:",
-                    "description": "Kala duwanaansho kasta oo luqadeed ayaa lagu hagaajiyaa makiinadaha raadinta"
-                }
-            ]
+        {
+          "title": "Luuqad ku salaysan URL:",
+          "description": "Xulashada luqadda waxa lagu xafiday URL"
         },
-        "world_map": {
-            "title": "Is dhexgalka Khariidadda Adduunka",
-            "description": "Ka wareeji waddamada khariidada si ay u arkaan luqadooda taageera:",
-            "languages_label": "Luuqadaha",
-            "legend": {
-                "supported": "Luuqadaha la taageeray",
-                "not_supported": "Ma jiro taageero luqadeed"
-            },
-            "zoom_controls": {
-                "zoom_in": "Soo dhaweyn gudaha",
-                "zoom_out": "Soo bax",
-                "reset": "Aragtida dib-u-dejinta"
-            }
+        {
+          "title": "Taageerada Qoraalka Hooyo:",
+          "description": "U gudbinta saxda ah ee qoraallada sida Carabiga, Shiinaha, Hindi, iyo in ka badan"
         },
-        "supported_languages": {
-            "title": "Luuqadaha la taageeray"
+        {
+          "title": "Dareenka Dhaqanka:",
+          "description": "Turjumaada waxay tixgeliyaan macnaha guud, ma aha oo kaliya macnaha dhabta ah"
         },
-        "interactive_country_map": {
-            "title": "Khariidadda wadanka is dhexgalka",
-            "description": "Ka sarreynta wadamada hoose si aad u aragto luqadooda taageera:",
-            "language_count": {
-                "single": "af",
-                "multiple": "Luuqadaha"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Ma jiro taageero luqadeed"
+        {
+          "title": "SEO La Habeeyay:",
+          "description": "Kala duwanaanshiyaha luuqad kasta waxaa loo habeeyay matoorada raadinta"
         }
+      ]
     },
-    "logotext": "Keniisadduunu"
+    "world_map": {
+      "title": "Khariidadda Adduunka Interactive",
+      "description": "dul hee dalalka khariidada si aad u aragto afafkooda la taageeray:",
+      "languages_label": "Luuqadaha",
+      "legend": {
+        "supported": "Luuqadaha la taageeray",
+        "not_supported": "Ma jirto Taageero Luuqad"
+      },
+      "zoom_controls": {
+        "zoom_in": "Soo dhawoow",
+        "zoom_out": "Soo Dhawayn",
+        "reset": "Dib-u-dejinta Muuqaalka"
+      }
+    },
+    "supported_languages": {
+      "title": "Luuqadaha la taageeray"
+    },
+    "interactive_country_map": {
+      "title": "Khariidadda Dalka ee Is-dhexgalka",
+      "description": "U wareeg wadamada hoose si aad u aragto luqadahooda la taageeray:",
+      "language_count": {
+        "single": "luqadda",
+        "multiple": "luqadaha"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Ma jiro taageero luqadeed"
+    }
+  },
+  "logotext": "PATRICK"
 }

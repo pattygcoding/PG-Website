@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Omah",
-        "about": "Babagan Aku",
-        "portfolio": "Portopolio",
-        "projects": "Proyek Situs Web",
-        "tiger": "Basa Tiger",
-        "portfolio_translator": "Penerjemah Portopolio",
-        "formatter": "Format json & yaml",
-        "contact": "Hubungi kula"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Ngarep",
+    "about": "Babagan Aku",
+    "portfolio": "Portofolio",
+    "projects": "Proyek situs web",
+    "tiger": "Basa Macan",
+    "portfolio_translator": "Penerjemah Portofolio",
+    "formatter": "JSON & YAML Formatter",
+    "contact": "Kontak Aku"
+  },
+  "home": {
+    "title": "Senior Full-Stack Engineer | Produk & Sistem",
+    "animated": {
+      "first": "Senior Full-Stack Engineer",
+      "second": "Pembangun Sistem & Arsitektur",
+      "third": "SaaS Product Engineer",
+      "fourth": "Piranti Lunak sing Bisa Dipercaya, Hasil Bisnis"
     },
-    "home": {
-        "title": "Omah",
-        "animated": {
-            "first": "Engineer Software Stok Lengkap",
-            "second": "Pangembang Web",
-            "third": "Pangembang Game",
-            "fourth": "Pencipta Konten"
-        },
-        "footer": "Situs web saiki nerjemahake & sing bisa diterjemahkan ing 100+ basa!",
-        "descriptionA": "Engineer Software lengkap-tumpukan lan pangembang kanthi tontonan kanthi sukses kanggo ngembangake proyek kanggo Minecraft kanggo ningkatake pengalaman pangguna ing reaktik lan nggunakake cara istirahat sing terus-terusan lan kerja kanggo nggarap lan kolaborasi tim sing efektif.",
-        "descriptionB": "Kajaba iku, aku minangka nitahake konten geografi sing wis sukses nggawe algoritma media sosial, kalebu , YouTube, lan , kanggo entuk dhasar pengikut sing dihormati.",
-        "portfolio_button": "Portopolio Kula",
-        "contact_button": "Hubungi kula",
-        "about_button": "Babagan Aku"
+    "footer": "Situs web saiki diterjemahake & kasedhiya ing 100+ basa!",
+    "descriptionA": "Insinyur full-stack senior kanthi pengalaman 6+ taun njupuk produk saka syarat ambigu menyang sistem produksi sing dipercaya. Aku ngrancang arsitektur ing mburi aplikasi React, Angular, .NET, Node.js, Java, C#, Go, lan SQL: wates layanan sing jelas, model data sing tahan lama, pola akses sing aman, lan jalur pangiriman tim bisa operate karo kapercayan.",
+    "descriptionB": "Karyaku nyambungake keputusan teknik karo asil bisnis. Saka SaaS sing ngira-ngira konstruksi sing ngowahi data spreadsheet dadi proposal sing siap klien kanggo platform web sing ngasilake revenue, aku mbangun piranti lunak babagan alur kerja, risiko, lan Nilai sing bisa diukur sing penting kanggo wong sing nggunakake.",
+    "portfolio_button": "Portofolio Kula",
+    "contact_button": "Kontak Aku",
+    "about_button": "Babagan Aku"
+  },
+  "about": {
+    "title": "Babagan Aku",
+    "personal_summary": {
+      "title": "Ringkesan pribadi",
+      "text": "Aku engineer full-tumpukan senior adhedhasar ing Orlando, FL sing ndarbeni path saka masalah produk kanggo asil produksi. Aku nggawe pilihan teknologi ing layanan saka sistem: .NET lan Entity Framework inti nalika domain banget kabentuk lan ketekunan testable prakara; Sudut utawa Reaksi nalika kompleks workflows mbutuhake antarmuka maintainable; Node.js utawa Go nalika API, integrasi, utawa alat kinerja dhuwur mbutuhake runtime fokus. Ing antarane produk SaaS, alur kerja internal, lan platform sing ngadhepi pelanggan, aku mimpin kanthi tradeoffs eksplisit, desain sing aman lan tahan banting, tes otomatis, lan praktik pangiriman sing bantuan tim ngirim piranti lunak terkenal tanpa ninggalake utang operasional konco."
     },
-    "about": {
-        "title": "Babagan Aku",
-        "personal_summary": {
-            "title": "Ringkesan Pribadi",
-            "text": "Minangka pangembang piranti lunak tumpukan lengkap adhedhasar ing Orlando, FL, aku wis nuduhake keahlian ing macem-macem teknologi, saka Jawa lan C ++ reakts.js lan node.JS.JS. Kanthi rekaman trek proyek disusupi, kalebu pangembangan program modifikasi Java kanggo situs web Minecraft lan hadiah kanggo driver truk, aku nuduhake pimpinan lan inovasi. Komitmenku kanggo keunggulan jelas babagan kemampuan kanggo ngatur manajemen Proyek, ngatasi masalah sing kompleks, lan ngirim solusi sing berkualitas tinggi sing nambah pengalaman pangguna lan sukses organisasi."
+    "professional_experience": {
+      "title": "Pengalaman Profesional",
+      "entries": [
+        {
+          "jobtitle": "Senior Software Engineer",
+          "where": "Desain Interaktif",
+          "date": "2025 - Saiki"
         },
-        "professional_experience": {
-            "title": "Pengalaman Profesional",
-            "entries": [
-                {
-                    "jobtitle": "Engineer Software SMA",
-                    "where": "Asuransi Orion180",
-                    "date": "2024 - Saiki"
-                },
-                {
-                    "jobtitle": "Panguwasa & Pangembang Piranti Lunak lengkap",
-                    "where": "Suprememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Engineer Software Stok Lengkap",
-                    "where": "Nyepetake sinau",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Pengembang Web Tim (Program Siswa)",
-                    "where": "Program GDI Universitas Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Pengawas meja",
-                    "where": "Universitas Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Pengawas meja",
-                    "where": "Universitas Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Software Engineer",
+          "where": "Asuransi Orion180",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Katrampilan teknis",
-            "header1": "Basa Programming",
-            "header2": "Rangka & Perpustakaan & Perpustakaan",
-            "header3": "Piranti & Teknologi"
+        {
+          "jobtitle": "Software Engineer",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Layanan Kula",
-            "entries": [
-                {
-                    "title": "Teknik tumpukan lengkap",
-                    "text": "Aku nawakake solusi lengkap ing antarane pangembangan ngarep lan mburi, njamin integrasi lan fungsi lancar kanthi lancar ing saindenging tumpukan piranti lunak."
-                },
-                {
-                    "title": "Pangembangan Web",
-                    "text": "Kanthi keahlian ing HTML, CSS, lan JavaScript, reaktbes, aku bisa narik kawigaten visual lan situs web sing ramah pangguna sing cocog kanggo nyukupi kabutuhan lan pilihan khusus."
-                },
-                {
-                    "title": "Pangembangan Game",
-                    "text": "Basa sing wisata kayata Java lan C ++, aku duwe spesialis kanggo nggawe pengalaman game sing ora kompet, saka konsep lan desain kanggo implementasine lan optimisasi, njamin gamelan sing nyenengake lan kinerja sing lancar."
-                }
-            ]
+        {
+          "jobtitle": "Software Engineer",
+          "where": "Nyepetake Learning",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Lead Software Engineer (Program Mahasiswa)",
+          "where": "Program GDI Universitas Clemson",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Pengawas Meja",
+          "where": "Universitas Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Portopolio",
-        "filter_by": "Portofolio Filter Dening:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca json",
-                "text": "Proyek Python sing terjemahan basa streamlines. Ngidini portofolio situs web sing bakal diterjemahake dadi 70+ basa, kalebu Spanyol, Prancis, Cina, Arab, lan liya-liyane. Proyek iki digunakake kanggo nggawe portofolio situs web multibingual, sing migunani banget kanggo nggayuh pamirsa sing luwih akeh. Kanthi proyek iki, luwih saka 99% jagad bisa maca portofolio ing basa sing fasih.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Sambungake Papat",
-                "text": "Kulawarga massive luwih saka 50+ implementasine Game Sambungake Papat. Proyek iki kalebu implementasine luwih saka 30 macem-macem basa program, kalebu Java, C ++, Python, JavaScript, lan liya-liyane. Kajaba iku, uga kalebu luwih saka 20+ kerangka utawa format liyane, kalebu reaktis, ruby ​​on ril, ASP.NET, lan liya-liyane.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Aplikasi Grosir",
-                "text": "Aplikasi lengkap tumpukan .net 9 Blazor Server lengkap kanggo ngatur barang-barang grosir. Aplikasi kasebut nderek pola pengontrol / layanan / gudang kanthi inti kerangka entitas kanggo lan kalebu Suite Test Komprehensif.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Proyek Interop",
-                "text": "Proyek sing dokumen interoperability antarane basa pemrograman sing beda. Saiki kalebu 15 macem-macem basa pemrograman lan 18 pola eksekusi.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Daftar Inventori",
-                "text": "Dijual Dijual (POS) sing lengkap (POS) kanthi sistem manajemen persediaan dibangun kanthi amba 17+ lan node.Js.JS. Aplikasi iki nuduhake sistem POS-Kelas Profesional karo bukti pangguna, kontrol akses adhedhasar peran, pelacakan persediaan, lan proses pembayaran moyoki.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "Formatter json & yaml otomatis",
-                "text": "Linter & Autoformatter kanggo file JSON & YAML. Proyek iki digunakake kanggo Format file Json & Yaml, sing migunani banget kanggo njaga kode resik lan diatur. Dibangun karo Go, disusun karo webassem, lan dipasang menyang portofolio minangka proyek situs web. Format liyane sing bakal teka ing ngarep.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Engine Takeoff",
-                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Generator Minecraft JSon",
-                "text": "Generator sing entheng dibangun ing Python kanggo Minecraft Resource & Pack data. Proyek iki digunakake kanggo ngasilake file JSON kanggo mod Minecraft, kalebu barang khusus, blok, lan entitas. Banget migunani kanggo ora mung nggawe data adat, nanging kanggo mods uga liwat fitur swiling jeneng mod.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Pengalaman pendidikan",
-                "text": "Kejadha proyek pribadi, aku uga entuk akeh katrampilan saka pengalaman pendhidhikan. Klik ing kene kanggo ndeleng profil LinkedIn kanggo informasi luwih lengkap.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Pengalaman profesionalku",
-                "text": "Kejadha proyek pribadi, aku uga entuk akeh katrampilan saka pengalaman profesional. Klik ing kene kanggo ndeleng profil LinkedIn kanggo informasi luwih lengkap.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Situs web portofolio Patrick Goodwin",
-                "text": "Situs web iki minangka situs web portofolio pribadi, dibangun kanthi reakt.js. Proyek iki digunakake kanggo nampilake katrampilan lan proyek, uga kanggo nyedhiyakake platform kanggo majikan potensial hubungi aku. Proyek iki digunakake kanggo nggawe ngarsane online profesional.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Perpustakaan skrip Patrick Lua",
-                "text": "Ukuran skrip Lua sing migunani kanggo referensi ing mangsa ngarep. Perpustakaan iki digunakake kanggo ngotomatisasi tugas ing skrip Lua, sing bisa digunakake kanggo tugas-tugas sing butuh kinerja, amarga Lua biasane minangka basa skrip sing luwih cepet tinimbang loro python lan ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Skrip spripts spreadsheet Microsoft Fitur (VBA) Microsoft",
-                "text": "Tulisan VBA sing migunani kanggo Microsoft Excel. Perpustakaan iki digunakake kanggo ngotomatisasi tugas ing Spreadsheet Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Konfigurasi Neovim Patrick",
-                "text": "Konfigurasi Neovim Pribadi. Proyek iki digunakake kanggo ngatur neovim kanggo disenengi, kalebu keybindings, tema khusus, lan plugin. Proyek iki digunakake kanggo nggawe Neovim sing luwih ramah lan efisien kanggo panggunaan pribadi.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Generator Map Patrick",
-                "text": "Sawijining Amerika Serikat, Generator Peta Negeri, dibangun karo Python nggunakake geopandas lan perpustakaan MatPlotLib. Proyek iki digunakake kanggo ngasilake peta ing Amerika Serikat, kalebu peta kabupaten lan negara. Proyek iki digunakake kanggo nggawe peta khusus kanggo data visualisasi lan analisis data.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Perpustakaan skrip PowerRick",
-                "text": "Perpustakaan skrip tulisan PowerShell kanggo referensi ing mangsa ngarep. Migunani karo fitur skrip $ $, aku nemokake sing migunani kanggo tugas sing diutam saka Windows terminal, amarga aku pangguna sing asring Windows OS Windows.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Perpustakaan Script Ruby Patrick",
-                "text": "Perpustakaan skrip ruby ​​sing migunani kanggo referensi ing mangsa ngarep. Migunani kanggo Ruby Future On Development Konsep Pengembangan Ril.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "PDF Keahlian PDF",
-                "text": "Pangkon PDF Custom sing dibangun karo Python liwat ekstensi pdfkit lan jinja2, bebarengan format html lan json. Proyek iki digunakake kanggo ngasilake file PDF saka dhaptar katrampilan lan proyek. Proyek iki bisa digunakake kanggo nggawe resume Custom PDF, sing migunani banget kanggo aplikasi kerja.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Proyek Enkripsi Rijandel",
-                "text": "Kulawarga 10+ implementasine ing enkripsi Rijandel ing taun 128, 192, lan 256 bit. Proyek iki digunakake kanggo nduduhake algoritma enkripsi Rijandel ing basa program sing beda. Proyek iki digunakake kanggo nggawe kulawarga implementasi ing ahli algoritma enkripsi Rijandel.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Modrememc minecraft",
-                "text": "Mod Minecraft sing nambah alat, waja, blok, dimensi, lan liya-liyane fitur kanggo game kasebut. Dibangun karo versi Java 8-17 kanggo milih versi minecraft antarane 1.16 lan 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Basa Programs Tiger",
-                "text": "Basa pemrograman khusus sing dibangun ing loro-lorone kanggo eksprimen karo penerjemah lan kinerja. Dibebasake ing situs web portofolio nggunakake Majelis Web.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Situs web progergating tiger",
-                "text": "Situs web sing dibangun ing taun 2024 kanggo Tiger Tailgating Pros, perusahaan tailgating ing Clemson, SC. Dibangun karo reak.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Proyek Mesin Turing",
-                "text": "Kulawarga luwih saka 30+ implementasine mesin turing. Digunakake kanggo nduduhake lengkap kanggo macem-macem basa program kanggo riset, utamane kanggo basa program macan.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Skills Teknis",
+      "header1": "Basa Pemrograman",
+      "header2": "Kerangka & Pustaka",
+      "header3": "Piranti & Teknologi"
+    },
+    "services": {
+      "title": "Layanan Kula",
+      "entries": [
+        {
+          "title": "Teknik Tumpukan Penuh",
+          "text": "Aku mimpin pangiriman produk end-to-end: nerjemahake alur kerja bisnis menyang wates sistem, model data, API, lan antarmuka, banjur nindakake karya liwat testing, panyebaran, lan iterasi. Tujuane yaiku piranti lunak sing bisa berkembang lan dioperasikake tim, dudu koleksi layar sing ora nyambung."
+        },
+        {
+          "title": "Arsitektur Produk & Platform",
+          "text": "Aku milih platform lan pola adhedhasar masalah: layanan .NET berlapis kanggo domain bisnis, aplikasi Angular utawa React sing didorong komponen kanggo operasi kompleks, hubungan model data kanggo alur kerja sing tanggung jawab, lan integrasi sing dirancang kanthi mode gagal, kontrol akses, lan maintainability ing pikiran."
+        },
+        {
+          "title": "Produksi-Siap Pangiriman",
+          "text": "Aku mbangun karo kasunyatan sawise diluncurake ing tampilan: rahasia sing ora bisa dikontrol sumber, jalur migrasi database eksplisit, wewenang adhedhasar peran, validasi ing wates sistem, tes otomatis, kesadaran CI / CD, lan observasi praktis. Iki minangka rincian sing ngowahi prototipe dadi piranti lunak sing bisa dipercaya."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portofolio",
+    "filter_by": "Filter Portofolio Miturut:",
+    "entries": {
+      "biblioteca": {
+        "title": "Pustaka JSON",
+        "text": "Pipa lokalisasi berbasis Python sing ngowahi sumber konten terstruktur dadi portofolio sing bisa diakses sacara global. Iki nangani data terjemahan minangka sistem sing bisa dipertahankan tinimbang salinan kaca sing diduplikasi kanthi manual, ngidini situs kasebut bisa nyebar ing 100+ basa lan nggawe tekan global. kemampuan operasional tinimbang fitur siji-wektu.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Nyambung Four",
+        "text": "kulawarga Massive liwat 50+ implementasine saka Connect Four game. Proyek iki kalebu implementasi ing luwih saka 30 basa pamrograman, kalebu Java, C++, Python, JavaScript, lan liya-liyane. Kajaba iku, uga kalebu luwih saka 20+ kerangka kerja utawa format liyane, kalebu React.js, Ruby on Rails, ASP.NET, lan liya-liyane.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Aplikasi Grosir",
+        "text": "A full-tumpukan .NET 9 Blazor Server aplikasi sing nduduhake arsitektur backend disengojo kanggo alur kerja bisnis. Pemisahan pengontrol/layanan/repositori njaga aturan aplikasi, akses data, lan presentasi bisa diuji kanthi mandiri; Inti Kerangka Entitas nyedhiyakake ketekunan sing tahan lama; lan ing suite test lengkap nglindhungi prilaku minangka produk berkembang.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Proyek Interop",
+        "text": "Referensi interoperabilitas lintas-basa sing nyakup 15 basa pamrograman lan 18 pola eksekusi. Proyek kasebut nyelidiki wates ing ngendi sistem asring dadi rapuh: kontrak proses, ijol-ijolan data, prilaku runtime, lan jalur integrasi sing bisa diulang. Iki nggambarake sistem mikir sing dibutuhake nalika produk luwih gedhe tinimbang tumpukan siji.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Register Persediaan",
+        "text": "A POS tumpukan lengkap lan alur kerja persediaan dibangun karo Angular 17+ lan Node.js. Iku model uneg-uneg operasional saka sistem B2B: kedhaftar otentikasi, kontrol akses basis peran, akurasi inventaris, lan aliran pembayaran mock. Proyèk iki dirancang watara karya nyata tim ndhaftar performs, ora mung katalog fitur framework.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Auto Formatter",
+        "text": "Alat validasi lan format JSON lan YAML basis browser sing dibangun ing Go lan dikompilasi menyang WebAssembly. Obah mesin parsing menyang WASM supaya interaksi responsif lan lokal kanggo browser nalika nglamar parser nyata kanggo nyekel input ora bener. Iki minangka conto fokus milih arsitektur runtime kanggo kinerja, portabilitas, lan kapercayan pangguna.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Engine Takeoff",
+        "text": "SaaS ngira konstruksi dibangun ing alur kerja kontraktor sing larang lan rawan kesalahan. Produk React + Express nyerep data CSV lan Excel, ngetung kolom sing ora konsisten menyang model domain sing bisa digunakake, ngitung volume penggalian parit lan lemah, nglacak tenaga kerja lan markup, lan ngasilake proposal PDF lan Word sing siap klien. Iki minangka teknik siklus urip produk lengkap: parsing data, aturan pitungan, alur kerja operator sing polesan, lan kiriman sing mbantu bisnis pindhah saka input mentah menyang tawaran.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Generator",
+        "text": "Generator JSON entheng dibangun ing Python kanggo sumber daya Minecraft & paket data. Proyek iki digunakake kanggo ngasilake file JSON kanggo mod Minecraft, kalebu item, blok, lan entitas khusus. Migunani banget kanggo ora mung nggawe paket data khusus, nanging uga kanggo mod liwat fitur ganti jeneng mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Pengalaman Pendidikan Kula",
+        "text": "Saliyane proyek pribadi, aku uga entuk akeh katrampilan saka pengalaman pendhidhikan. Klik kene kanggo ndeleng profil LinkedIn kanggo informasi luwih lengkap.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Pengalaman Profesional Kula",
+        "text": "Enem taun luwih pengalaman teknik profesional ing tim produk, platform bisnis, lan piranti lunak sing ngadhepi pelanggan. Pakaryanku kalebu mbangun lapisan aplikasi sing bisa dijaga, kolaborasi antarane disiplin pangiriman, lan nggawe keputusan teknis karo siklus urip produk, operasional. resiko, lan kepemilikan long-term ing tampilan.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Situs web Portofolio Patrick Goodwin",
+        "text": "Portofolio React sing mikir babagan produksi sing nganggep aksesibilitas lan jangkauan global minangka syarat teknik. Iki kalebu pipeline terjemahan sing bisa dijaga kanggo 100+ basa, alat interaktif sing didhukung WebAssembly, pola UI sing responsif lan bisa diakses, lan arsitektur proyek. dirancang kanggo tuwuh minangka karya anyar dikirim.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Pustaka Skrip Lua Patrick",
+        "text": "Pustaka skrip Lua sing migunani kanggo referensi ing mangsa ngarep. Pustaka iki digunakake kanggo ngotomatisasi tugas ing skrip Lua, sing bisa migunani kanggo tugas sing mbutuhake kinerja, amarga Lua biasane dadi basa skrip sing luwih cepet tinimbang Python lan Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Pustaka skrip VBA sing migunani kanggo Microsoft Excel. Pustaka iki digunakake kanggo ngotomatisasi tugas ing spreadsheet Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick kang Neovim Config",
+        "text": "Konfigurasi Neovim pribadiku. Proyek iki digunakake kanggo ngatur Neovim sing dikarepake, kalebu keybindings, tema, lan plugin khusus. Proyek iki digunakake kanggo nggawe Neovim luwih gampang pangguna lan efisien kanggo panggunaan pribadi.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick kang Peta Generator",
+        "text": "Alat pelapor geospasial Python sing dibangun nganggo GeoPandas lan Matplotlib kanggo ngasilake peta kabupaten lan negara bagian AS. Dadi data geografis dadi artefak analisis sing bisa diwaca, nuduhake pola pikir pipa data: pilih perpustakaan domain sing bener, normalake input, lan ngasilake output sing ndhukung keputusan sing jelas.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Pustaka Skrip PowerShell Patrick",
+        "text": "Pustaka skrip PowerShell sing migunani kanggo referensi ing mangsa ngarep. Migunani karo fitur skrip $profile, aku nemokake iki migunani banget kanggo ngotomatisasi tugas saka terminal Windows, amarga aku kerep dadi pangguna OS Windows.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Perpustakaan Skrip Ruby Patrick",
+        "text": "Pustaka skrip Ruby sing migunani kanggo referensi ing mangsa ngarep. Migunani kanggo konsep pembangunan Ruby on Rails ing mangsa ngarep.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Pambangun Skills PDF",
+        "text": "Alur kerja generasi dokumen sing dibangun nganggo Python, Pdfkit, Jinja2, HTML, lan data JSON terstruktur. Iki misahake data sing bisa digunakake maneh saka template presentasi kanggo ngasilake resume PDF sing disesuaikan kanthi konsisten, pola praktis kanggo nyuda karya manual lan nggawe dokumen bisnis. bisa dibaleni.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Proyek Enkripsi Rijandel",
+        "text": "Set komparatif saka 10+ implementasi Rijndael ing varian 128-, 192-, lan 256-bit. Ngleksanakake maneh algoritma sing sensitif keamanan ing antarane basa minangka latihan sing disiplin ing spesifikasi sing tepat, prilaku sing bisa diuji, lan watesan portabilitas tingkat basa, kabeh naluri migunani kanggo sistem sing nangani data sensitif.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "Mod SupremeMC Minecraft",
+        "text": "Mod Minecraft sing nambah alat khusus, waja, mob, blok, dimensi, lan akeh fitur liyane ing game kasebut. Dibangun nganggo versi Java 8-17 kanggo versi Minecraft sing dipilih antarane 1.16 lan 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Basa Pemrograman Tiger",
+        "text": "Basa pamrograman lan juru basa khusus sing dibangun ing Go kanggo njelajah desain runtime basa, prilaku eksekusi, lan tradeoff kinerja. Nggabungake menyang WebAssembly lan nggabungake menyang portofolio nggawe permukaan produk sing nyata lan bisa dipriksa kanggo teknik tingkat sistem tinimbang ninggalake karya kasebut minangka eksperimen mung gudang.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Situs web Tiger Tailgating Pros",
+        "text": "Situs web React sing dikirim kanggo bisnis tailgating Clemson, SC. Karya kasebut nerjemahake penawaran bisnis cilik dadi perjalanan pelanggan sing jelas lan kehadiran web sing bisa dipercaya, ngetrapake pamikiran produk kanggo mbantu organisasi nyata ngowahi minat menyang pitakonan lan revenue.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Proyek Mesin Turing",
+        "text": "Kulawarga luwih saka 30+ implementasi saka Mesin Turing. Digunakake kanggo nduduhake kelengkapan turing kanggo macem-macem basa pamrograman kanggo riset, utamane kanggo Basa Pemrograman Macan.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Basa Pemrograman Tiger"
+  },
+  "contact": {
+    "title": "Kontak Aku",
+    "header": "Informasi Kontak",
+    "email": "pattygsocials@gmail.com",
+    "description": "Aku nanggapi pitakon saka email lan pesen LinkedIn. Aku uga bakal nelpon maneh yen nomerku diwenehake liwat resume utawa liya, sanajan aku luwih seneng njaga nomer telponku pribadi."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Alat kualitas data basis browser sing validasi lan format JSON lan YAML nggunakake mesin Go sing dikompilasi menyang WebAssembly. Arsitèktur kasebut terus ngurai kanthi cedhak karo pangguna kanggo umpan balik pribadi kanthi cepet nalika ngetrapake aturan sintaksis nyata ing wates data. Iki minangka conto kompak ngrancang alur kerja pangembang sing bisa dipercaya babagan akurasi, kinerja, lan kepercayaan.",
+    "more_info1": "Kanggo informasi luwih lengkap, waca README ing",
+    "more_info2": "Repositori Formatter JSON/YAML.",
+    "format_as": "Format Minangka:",
+    "auto_detect": "Deteksi otomatis",
+    "format": "Lint & Format",
+    "valid_json": "✓ JSON sing sah",
+    "valid_yaml": "✓ YAML sing sah",
+    "invalid_json": "JSON ora sah",
+    "invalid_yaml": "YAML ora sah",
+    "empty_input": "Mangga ketik sawetara JSON utawa YAML kanggo lint.",
+    "too_large": "Input gedhe banget (maks 1MB diidini).",
+    "fixed_yaml_spacing": "⚠ YAML nduweni spasi/indentasi sing ora bener nanging wis didandani lan diformat kanthi otomatis.",
+    "loading": "Ngunggah formatter...",
+    "waiting_for_input": "Nunggu masukan...",
+    "load_failed": "Ora bisa mbukak formatter.",
+    "output": "Output:",
+    "input_code": "Input",
+    "json_examples": "Tuladha JSON",
+    "yaml_examples": "Tuladha YAML"
+  },
+  "tiger": {
+    "title": "Basa Macan",
+    "description": "Tiger minangka basa pamrograman khusus lan juru basa Go sing dibangun kanggo njelajah arsitektur runtime, semantik basa, lan tradeoff kinerja. Nglumpukake interpreter menyang WebAssembly ngowahi sistem kasebut dadi produk interaktif berbasis browser: pangguna bisa nglakokake program kanthi langsung nalika runtime tetep portabel. lan diisolasi saka aplikasi inang.",
+    "more_info1": "Kanggo informasi luwih lengkap, waca README ing",
+    "more_info2": "Repositori GitHub Basa Pemrograman Tiger.",
+    "select_engine": "Pilih Engine:",
+    "tiger_code": "Kode Tiger:",
+    "run_tiger": "Mlaku Macan",
+    "output": "Output:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Insinyur full-stack senior kanthi pengalaman 6+ taun ngrancang produk SaaS, sistem produksi, lan piranti lunak sing ngasilake bathi."
+  },
+  "copy": {
+    "text": "Nyalin",
+    "copied": "Disalin!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Tindakake aku"
+  },
+  "languages": {
+    "title": "Penerjemah Portofolio",
+    "description": "Temokake kepiye portofolioku bisa diakses dening pengunjung saka saindenging jagad kanthi dhukungan luwih saka 100 basa.",
+    "global_accessibility": {
+      "title": "Aksesibilitas Global",
+      "description": "Portofolioku kasedhiya ing luwih saka {count} basa, saengga bisa diakses dening pengunjung saka sak ndonya. Pendekatan multibasa iki nuduhake komitmenku kanggo inklusivitas lan jangkauan global ing pangembangan piranti lunak.",
+      "stats": {
+        "languages_supported": "Basa Didhukung",
+        "countries_represented": "Negara sing diwakili",
+        "continents_covered": "Benua Katutup"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Basa Programs Tiger"
-    },
-    "contact": {
-        "title": "Hubungi kula",
-        "header": "Informasi kontak",
-        "email": "pattygsocialS@gmail.com",
-        "description": "Aku nanggapi pitakon saka email, pesen linkedIn, lan pesen . Aku uga bakal nelpon maneh yen nomer kasebut diwenehake liwat resume utawa liya, sanajan aku luwih seneng njaga nomer telpon."
-    },
-    "formatter": {
-        "title": "Format json & yaml",
-        "description": "Formoter JSson & Yaml minangka alat sing ngidini sampeyan ngowahi Format file Json lan Yaml. Iki dibangun kanthi pindhah lan webassembly, lan dirancang supaya cepet lan efisien. Formenter dirancang supaya gampang digunakake, kanthi antarmuka sing gampang sing ngidini sampeyan nempel ing kode json utawa yaml sampeyan lan ngowahi tombol kanthi klik tombol.",
-        "more_info1": "Kanggo informasi luwih lengkap, waca README ing",
-        "more_info2": "Gudang format JSON / YAML.",
-        "format_as": "Format minangka:",
-        "auto_detect": "Otomatis Deteksi",
-        "format": "Format",
-        "valid_json": "✓ JSON sing sah",
-        "valid_yaml": "✓ Valid YAML",
-        "invalid_json": "Invalid JSON",
-        "invalid_yaml": "Invalid YAML",
-        "empty_input": "Please enter some JSON or YAML to lint.",
-        "too_large": "Input too large (max 1MB allowed).",
-        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
-    },
-    "tiger": {
-        "title": "Basa Tiger",
-        "description": "Language Tiger Basa minangka basa pemrograman khusus sing dibangun ing loro-lorone kanggo eksprimen karo penerjemah lan kinerja. Dibebasake ing situs web portofolio nggunakake Majelis Web. Language Tiger Basa minangka basa pemrograman khusus sing dibangun ing loro-lorone kanggo eksprimen karo penerjemah lan kinerja. Dibebasake ing situs web portofolio nggunakake Majelis Web.",
-        "more_info1": "Kanggo informasi luwih lengkap, waca README ing",
-        "more_info2": "Gubugan gudang github bahasa macan",
-        "select_engine": "Pilih Mesin:",
-        "tiger_code": "Kode Tiger:",
-        "run_tiger": "Run Tiger",
-        "output": "Output:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Engine Engineering Stok sing adhedhasar ing Florida tengah"
-    },
-    "copy": {
-        "text": "Salin",
-        "copied": "Disalin!"
-    },
-    "social_media": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube",
-        "text_strip": "Tindakake kula"
-    },
-    "languages": {
-        "title": "Penerjemah Portopolio",
-        "description": "Temokake carane portofolio bisa diakses para pengunjung saka saindenging jagad kanthi dhukungan luwih saka 100 basa.",
-        "global_accessibility": {
-            "title": "Aksesoris global",
-            "description": "Portopolio kasedhiya ing Over {Count} bahasa, sing bisa diakses para pengunjung saka saindenging jagad. Pendhapat multingan iki nuduhake komitmen kanggo inclusivity lan tekan global ing pangembangan piranti lunak.",
-            "stats": {
-                "languages_supported": "Basa sing didhukung",
-                "countries_represented": "Negara sing dituduhake",
-                "continents_covered": "Bawana ditutupi"
-            }
+    "features": {
+      "title": "Fitur",
+      "items": [
+        {
+          "title": "Terjemahan wektu nyata:",
+          "description": "Ganti basa kanthi cepet nganggo pamilih basa"
         },
-        "features": {
-            "title": "Fitur",
-            "items": [
-                {
-                    "title": "Terjemahan nyata-wektu:",
-                    "description": "Ngalih basa kanthi cepet karo pamilih basa"
-                },
-                {
-                    "title": "Basa basis URL:",
-                    "description": "Preferensi basa dijaga ing URL"
-                },
-                {
-                    "title": "Dhukungan Script Native:",
-                    "description": "Rendering skrip kaya Arab, Cina, Hindi, lan liya-liyane"
-                },
-                {
-                    "title": "Sensitivitas Budaya:",
-                    "description": "Nimbang konteks budaya, ora mung tegese harfiah"
-                },
-                {
-                    "title": "SEO optimized:",
-                    "description": "Saben varian basa dioptimalake kanggo mesin telusuran"
-                }
-            ]
+        {
+          "title": "Basa adhedhasar URL:",
+          "description": "Preferensi basa disimpen ing URL"
         },
-        "world_map": {
-            "title": "Peta Interaktif World",
-            "description": "Tumpukan ing negara-negara ing peta kanggo ndeleng basa sing didhukung:",
-            "languages_label": "Basa",
-            "legend": {
-                "supported": "Basa sing didhukung",
-                "not_supported": "Ora Dhukungan Basa"
-            },
-            "zoom_controls": {
-                "zoom_in": "Nggedhekake",
-                "zoom_out": "Zoom metu",
-                "reset": "Reset tampilan"
-            }
+        {
+          "title": "Dhukungan Native Script:",
+          "description": "Rendering skrip sing tepat kaya Arab, Cina, Hindi, lan liya-liyane"
         },
-        "supported_languages": {
-            "title": "Basa sing didhukung"
+        {
+          "title": "Sensitivitas budaya:",
+          "description": "Terjemahan nganggep konteks budaya, ora mung makna harfiah"
         },
-        "interactive_country_map": {
-            "title": "Peta Negara Interaktif",
-            "description": "Tolak ing negara ing ngisor iki kanggo ndeleng basa sing didhukung:",
-            "language_count": {
-                "single": "basa",
-                "multiple": "Basa"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Ora Dhukungan Basa"
+        {
+          "title": "SEO Optimized:",
+          "description": "Saben varian basa dioptimalake kanggo mesin telusur"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Peta Donya Interaktif",
+      "description": "Tutul ing negara ing peta kanggo ndeleng basa sing didhukung:",
+      "languages_label": "Basa",
+      "legend": {
+        "supported": "Basa Didhukung",
+        "not_supported": "Ora Dhukungan Basa"
+      },
+      "zoom_controls": {
+        "zoom_in": "Zoom In",
+        "zoom_out": "Zoom Out",
+        "reset": "Reset Tampilan"
+      }
+    },
+    "supported_languages": {
+      "title": "Basa sing Didhukung"
+    },
+    "interactive_country_map": {
+      "title": "Peta Negara Interaktif",
+      "description": "Tutul ing negara ing ngisor iki kanggo ndeleng basa sing didhukung:",
+      "language_count": {
+        "single": "basa",
+        "multiple": "basa"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Ora ana dhukungan basa"
+    }
+  },
+  "logotext": "PATRICK"
 }

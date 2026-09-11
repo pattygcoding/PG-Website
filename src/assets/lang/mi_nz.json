@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Kāinga",
-        "about": "Mo au",
-        "portfolio": "Rārangi",
-        "projects": "Kaupapa paetukutuku",
-        "tiger": "Reo Tiger",
-        "portfolio_translator": "Ko te kaiwhakamaori whakaata",
-        "formatter": "JSON & YAML Tāpiri",
-        "contact": "Whakapā mai ki ahau"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Kainga",
+    "about": "Mō ahau",
+    "portfolio": "Kōpaki",
+    "projects": "Kaupapa Paetukutuku",
+    "tiger": "Te Reo Tiger",
+    "portfolio_translator": "Kaiwhakamaori kōpaki",
+    "formatter": "JSON & YAML Whakahōputu",
+    "contact": "Whakapā Mai"
+  },
+  "home": {
+    "title": "Kaihanga Kaihanga Katoa | Hua me nga punaha",
+    "animated": {
+      "first": "Kaihanga Kaihanga Katoa",
+      "second": "Pūnaha me te Kaihanga Hangahanga",
+      "third": "Kaihanga Hua SaaS",
+      "fourth": "Pūmanawa Whakapono, Putanga Pakihi"
     },
-    "home": {
-        "title": "Kāinga",
-        "animated": {
-            "first": "Maatauranga Pūmanawa Raraunga Katoa",
-            "second": "Kaiwhakawhanake paetukutuku",
-            "third": "Kaiwhakawhanake kēmu",
-            "fourth": "Kaihanga Kaihanga"
-        },
-        "footer": "Paetukutuku Na, me te whakamahi i nga reo 100+!",
-        "descriptionA": "He tohunga nui ki te miihini rorohiko-papa me te kaiwhakawhanake paetukutuku me te whakaputa i nga whakarereketanga java mo te whakarei ake i nga mahi kaiwhakamahi i te tauhohe.",
-        "descriptionB": "I tua atu, ko ahau te Kaihanga Hangarau o te ao kua pai te whakamahi i nga algoriths o nga papaaho pāpāho pāpori, tae atu ki te Insgram, YouTube, me te whai i te turanga whai mana.",
-        "portfolio_button": "Taku kōpaki",
-        "contact_button": "Whakapā mai ki ahau",
-        "about_button": "Mo au"
+    "footer": "Kua whakamaoritia te paetukutuku me te waatea i roto i te 100+ reo!",
+    "descriptionA": "Ko te miihini-a-tinana matua me te 6+ tau o te wheako ki te tango hua mai i nga whakaritenga rangirua ki nga punaha whakangao pono. Ka hoahoa ahau i te hoahoanga kei muri i nga tono React, Angular, .NET, Node.js, Java, C#, Go, me SQL: nga rohe ratonga marama, tauira raraunga roa, tauira uru haumaru, me Ka taea e nga roopu ara tuku te mahi ma te maia.",
+    "descriptionB": "Ko aku mahi e hono ana i nga whakataunga miihini ki nga hua pakihi. Mai i te SaaS hanga-hanga e huri ana i nga raraunga ripanga ki nga tono kua rite ki nga kaihoko ki nga papaaho tukutuku whakaputa moni, ka hangaia e ahau he rorohiko huri noa i te rerenga mahi, te tupono, me te uara ine e whai take ana ki nga tangata e whakamahi ana.",
+    "portfolio_button": "Taku Kōpaki",
+    "contact_button": "Whakapā Mai",
+    "about_button": "Mō ahau"
+  },
+  "about": {
+    "title": "Mō ahau",
+    "personal_summary": {
+      "title": "Whakarāpopototanga Whaiaro",
+      "text": "Ko ahau he kaipūkaha tino-whakapapa katoa e noho ana i Orlando, FL nona te huarahi mai i te raru hua ki te putanga whakaputa. Ka whiriwhiria e au nga hangarau hei mahi i te punaha: .NET me te Anga Hinonga Matua inaa he rohe kaha te hanganga me te tohe tonu e taea te whakamatautau; Angular or React when complex Ko nga rerengamahi me whai atanga ka taea te pupuri; Node.js, Haere ranei ina hiahia te API, te whakauru, te taputapu mahi nui ranei ki te wa whakahaere. Puta noa i nga hua SaaS, nga rerenga mahi o roto, me nga papaa e anga ana ki nga kaihoko, ka arahi ahau me nga tauhokohoko maamaa, te hoahoa haumaru me te kaha, te whakamatautau aunoa, me nga mahi tuku ka awhina i nga roopu ki te kawe i nga punaha utu nui me te kore e waiho he nama whakahaere."
     },
-    "about": {
-        "title": "Mo au",
-        "personal_summary": {
-            "title": "Whakarāpopototanga whaiaro",
-            "text": "Ka rite ki te kaiwhakawhanake raupaparorohiko raupaparorohiko e ahu mai ana i Orlando, Fl, kua whakaatuhia e au nga tohungatanga i roto i nga hangarau, mai i Java me C ++ ki te reac.js me Node.js. Ma te rekoata tere o nga kaupapa tiriti, tae atu ki te whakawhanaketanga o te kaupapa whakarereke Java mo Minecraft me tetahi paetukutuku utu mo nga taraiwa taraka, kua whakaatuhia e au te kaiarahi me nga mahi hou. Ka kitea taku whakaputanga ki te kairangi i roto i taku kaha ki te whakahaere i te kaupapa Streamline, te whakaoti rapanga uaua, me te whakaputa i nga raru o te kounga kairangi me te akiaki i te angitu o te whakahaere."
+    "professional_experience": {
+      "title": "Wheako Ngaio",
+      "entries": [
+        {
+          "jobtitle": "Kaiwhakahaere Pūmanawa Matua",
+          "where": "Hoahoa Tauwhitiwhiti",
+          "date": "2025 - Inaianei"
         },
-        "professional_experience": {
-            "title": "Te wheako ngaio",
-            "entries": [
-                {
-                    "jobtitle": "Kaituhi Pūmanawa Junior",
-                    "where": "Orion180 Inihua",
-                    "date": "2024 - Whakaaturanga"
-                },
-                {
-                    "jobtitle": "Kaiwhakawhanake Pūmanawa Whakawhanake Pūmanawa",
-                    "where": "Shauremc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Maatauranga Pūmanawa Raraunga Katoa",
-                    "where": "Whakahaerehia te ako",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Kaiwhakawhanake Tukutuku (hōtaka a te akonga)",
-                    "where": "Kaupapahere Whare Wananga o Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Kaitakotaki Papamahi",
-                    "where": "Whare Wānanga o Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Kaitakotaki Papamahi",
-                    "where": "Whare Wānanga o Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Kaihanga Pūmanawa",
+          "where": "Orion180 Inihua",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Nga pukenga hangarau",
-            "header1": "Reo hōtaka",
-            "header2": "Ngaahi Whakaata me nga Whare Pukapukarau",
-            "header3": "Nga taputapu me nga Hangarau"
+        {
+          "jobtitle": "Kaihanga Pūmanawa",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Aku ratonga",
-            "entries": [
-                {
-                    "title": "Whakaputanga o te Hangarau",
-                    "text": "Ka tukuna e au he otinga whanui puta noa i te mutunga o te whanaketanga o mua me te mutunga-mutunga, kia pai ai te whakauru i te koretake me te mahi puta noa i te paparanga rorohiko katoa."
-                },
-                {
-                    "title": "Te whanaketanga tukutuku",
-                    "text": "Ma te tohungatanga i te HTML, CSS, me nga javascript i te react.js, ka toireka ahau me nga paetukutuku a-kaiwhakamahi-a-kaiwhakamahi ki te whakatau i nga hiahia me nga hiahia o nga kiritaki."
-                },
-                {
-                    "title": "Te whanaketanga takaro",
-                    "text": "Ko nga reo e tuku ana i nga reo penei i te java me te C ++, he tohunga ki te hanga i nga wheako petipeti me te hoahoa ki te whakatinana me te arotautanga, te whakarite i te mahi whakaari me te mahi maeneene."
-                }
-            ]
+        {
+          "jobtitle": "Kaihanga Pūmanawa",
+          "where": "Whakatere Ako",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Kaihanga Pūmanawa Arataki (Hotaka Tauira)",
+          "where": "Clemson University GDI Program",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Kaitirotiro Papamahi",
+          "where": "Te Whare Wananga o Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Rārangi",
-        "filter_by": "Kōwhiringa tātari mā:",
-        "entries": {
-            "biblioteca": {
-                "title": "BIBLIOTECA JSON",
-                "text": "He kaupapa Python e kii ana i nga whakamaoritanga o te reo. Whakaaetia mo taku raarangi paetukutuku kia whakamaoritia ki nga reo 70+, tae atu ki te reo Pāniora, te French, Hainamana, me etahi atu. Whakamahia ai tenei kaupapa ki te hanga i te raarangi paetukutuku maha, he mea tino whai hua mo te hunga whakarongo. Ma tenei kaupapa, neke atu i te 99% o te ao ka taea e au te panui i taku kōpaki i roto i te reo matatau.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Honohono wha wha",
-                "text": "Ko te whanau nui o te neke atu i te 50+ nga whakatinanatanga o te hononga e wha o te takaro. Kei roto i tenei kaupapa nga whakatinanatanga i roto i te 30 reo rereke, tae atu ki te Java, C ++, Python, Javascript, me etahi atu. Hei taapiri, kei roto ano i te 20+ nga waahanga taapiri rereke ranei, tae atu ki te react.js, ruby ​​i runga i nga Rail, ASP.NET, me etahi atu.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Taupānga hoko",
-                "text": "He kapi katoa .NET 9 tono tūmau Blazor mo te whakahaere i nga taonga hokohoko. Ko te tono e whai ana i te Kaiwhakahaere / Ratonga / Ratonga / Tohu me te anga hinonga mo te mau tonu, kei roto hoki i te huinga whakamatautau whanui.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Kaupapa InDOP",
-                "text": "He kaupapa e pa ana ki te whakahoahoa i waenga i nga reo papatono rereke. Kei roto i tenei wa 15 nga reo papatono rereke me 18 nga tauira mahi.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Rēhita rārangi rārangi",
-                "text": "Ko te rehitatanga o te utu mo te hoko (POS) me te punaha whakahaere whakahaere i hangaia me te Angular 17+ me te node.js. Ko tenei tono e whakaatu ana i te punaha me nga punaha ngaio me te whakamana kaiwhakamahi, te whakahaere a-uru-a-ringa, te aroturuki i te raarangi, me te tukatuka utu.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & Yaml Aunoa Aunoa",
-                "text": "He Kaitohu & AutoFormatter mo Json & Yaml. Whakamahia ai tenei kaupapa ki te whakariterite i nga konae JSH & Yaml, he mea tino whai hua mo te pupuri i te waehere ma me te whakarite. I hangaia me te haere, whakahiatohia ki te paetukutuku, ka uru ki roto i taku kōpaki hei kaupapa paetukutuku. He maha nga hanganga ka tae mai ki te heke mai.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Mihini Takeoff",
-                "text": "He hangahanga hou e whakatau tata ana me te tango i te SaaS mo nga kaikirimana me nga kaiwhakatairite. Ka kawemai i nga konae CSV me te Excel, nga pou mapi-aunoa, te tatau i te keri awaawa me te nui o te mahi whenua, te whai i nga mahi me te tohu tohu, me te whakaputa i nga tono tono tono PDF me te Kupu kua rite ki te kiritaki me te rerengamahi React + Express kua orohia.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft jon kaihanga",
-                "text": "Ko te Maama o te Kaipupuri JSA i hangaia i Python mo nga Rauemi Minecraft me nga Pakihi Raraungawe. Ka whakamahia tenei kaupapa hei whakaputa i nga konae JSON mo nga Mods Minecraft, tae atu ki nga taonga ritenga, poraka, me nga hinonga. He tino whai hua mo te kore noa i te hanga i nga papapamahi ritenga, engari mo te mods ano hoki ma te ingoa whakawhiti i te ingoa.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Taku wheako mātauranga",
-                "text": "I te taha o aku kaupapa Whaiaro, kua whiwhi ano ahau i nga pukenga maha mai i te wheako mātauranga. Paatohia a konei ki te tiro i taku kōtaha LinkedIn mo etahi atu korero.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Toku wheako ngaio",
-                "text": "I te taha o aku kaupapa Whaiaro, kua whiwhi ano hoki ahau i nga pukenga ngaio mai i te wheako ngaio. Paatohia a konei ki te tiro i taku kōtaha LinkedIn mo etahi atu korero.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Paetukutuku Patrick Goodwin",
-                "text": "Ko tenei paetukutuku ko taku paetukutuku Paetukutuku Whaiaro, i hangaia me te React.js. Whakamahia ai tenei kaupapa ki te whakaatu i aku pukenga me aku kaupapa, me te whakarato i tetahi papa mo nga kaituku mahi ka whakapā atu ki ahau. Ka whakamahia tenei kaupapa hei hanga i te aroaro o te ngaio.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Te Whare Pukapuka o te Pukapuka a te Patrick",
-                "text": "He whare pukapuka whai hua o nga tuhinga Lua mo te tohutoro a meake nei. Whakamahia ai tenei wharepukapuka hei mahi i nga mahi a Lua, ka taea e te reo te whakamahi i te reo taapiri nui atu i te Python me Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Ko nga tuhinga a Microsoft Exces a Patrick Excel (VBA)",
-                "text": "He whare pukapuka pai o nga tuhinga VBA mo te Microsoft Excel. Whakamahia ai tenei wharepukapuka hei tango i nga mahi i roto i nga papaahi o Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Ko te Whiringa a te Neovim a Patrick",
-                "text": "Ko taku whirihoranga neovim whaiaro. Ka whakamahia tenei kaupapa ki te whirihora neovim ki taku hiahia, tae atu ki nga kupu matua, nga kaupapa, me nga plugins. Ka whakamahia tenei kaupapa kia nui ake te ngawari o te kaiwhakamahi o Neovim mo taku whakamahi whaiaro.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Ko te Kaipupuri Map Patrick",
-                "text": "Ko te County County County & Mahere Mahere Whenua, i hangaia me te Python ma te whakamahi i nga Whare Pukapuka a Geopandas me te MatPlotlib. Whakamahia ai tenei kaupapa ki te whakaputa mahere o te United States, tae atu ki nga Mahere Whenua me te Whenua. Whakamahia ai tenei kaupapa ki te hanga mahere ritenga mo te tirohanga raraunga me te tātari.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Te Whare Pukapuka o te Whare Pukapuka a Patrick",
-                "text": "He whare pukapuka e whai hua ana mo nga tuhinga panui mo te tohutoro a meake nei. He whai hua ki te waahanga tuhi tuhinga $, ka kitea e au he nui te awhina mo te mahi i nga mahi a Windows, penei i ahau he kaiwhakamahi maha o nga matapihi OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Te Whare Pukapuka a te Patrick a Patrick",
-                "text": "He whare pukapuka e whai hua ana mo nga tuhinga a Ruby mo te tohutoro a meake nei. He whai hua mo nga wa kei te heke mai i nga kaupapa whanaketanga Rererangi.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Kaihanga pūkenga pdf",
-                "text": "He Kaihanga PDF ritenga i hangaia me te Python ma te PDFKit me Jinja2 Toronga, i te taha o HTML raua ko Jon. Ka whakamahia tenei kaupapa hei whakaputa i nga konae PDF mai i te raarangi o nga pukenga me nga kaupapa. Ka taea te whakamahi i tenei kaupapa ki te hanga i tetahi mahi PDF ritenga, he mea tino whai hua mo nga tono mahi.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Kaupapa Whakawhiti Rijandel",
-                "text": "He whanau 10+ Ko nga whakatinanatanga o te whakaurunga rijandel ALGorithm i te 128, 192, me 256 nga waahanga. Ka whakamahia tenei kaupapa hei whakaatu i te algorithm whakamunatanga a te rijandel i roto i nga reo papatono. Whakamahia ai tenei kaupapa ki te hanga whanau mo nga whakatinanatanga o te algorithm whakamunatanga a te rijandelm.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Mod Minecraft Minecramemc",
-                "text": "He minecraft minecraft e taapiri ana i nga taputapu ritenga, Armor, whakaekea, poraka, poraka, poraka, poraka, poraka, poraka, poraka, poraka, poraka, poraka, poraka, poraka, poraka, poraka atu ki te kēmu. I hangaia me nga waahanga Java 8-17 mo te kowhiri i nga waahanga Minecraft i waenga i te 1.16 me te 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Te reo whakamaori a Tiger",
-                "text": "Ko te reo papatono i hangaia i roto i te haere me te waikura ki te whakamatau me te hoahoa kaiwhakamaori me te mahi. Ka whakatinanahia ki te paetukutuku Puka Paetukutuku ma te whakahaere i te paetukutuku.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tiger Tapatohu i te paetukutuku Asse",
-                "text": "He paetukutuku i hangaia e ahau i te 2024 mo Tiger e tarai ana i nga keehi, he kamupene taatai ​​i Clemson, SC. Hanga me te tauhohe.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Kaupapa miihini huri",
-                "text": "Ko te whanau o te 30+ nga whakatinanatanga o te miihini Turing. I whakamahia hei whakaatu i te whakaoti i te whakaoti i te whakaoti i nga reo papatono mo nga reo rangahau, ina koa mo te reo papatono Tiger.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Nga Pukenga Hangarau",
+      "header1": "Nga Reo Papatono",
+      "header2": "Anga me nga Whare Pukapuka",
+      "header3": "Utauta me Hangarau"
+    },
+    "services": {
+      "title": "Taku Ratonga",
+      "entries": [
+        {
+          "title": "Hangarau Tāpae Katoa",
+          "text": "Ka arahi ahau i te tuku hua mutunga-ki-mutunga: te whakamaori i nga rerengamahi pakihi ki nga rohe punaha, tauira raraunga, API, me nga hononga, katahi ka kawe i nga mahi ma te whakamatautau, te tuku, me te whitiwhitinga. Ko te whainga he rorohiko ka taea e te roopu te whanake me te whakahaere, ehara i te kohinga o nga mata kua momotuhia."
+        },
+        {
+          "title": "Hua me te Hangahanga Papa",
+          "text": "Ka whiriwhiri au i nga papaa me nga tauira i runga i te raru: nga ratonga .NET paparanga mo nga rohe pakihi, nga tono Angular, React ranei mo nga mahi uaua, hononga hononga. tauira raraunga mo nga rerenga mahi whai mana, me nga whakaurunga i hangaia me nga momo rahunga, te mana uru, me te pupuri i roto i te hinengaro."
+        },
+        {
+          "title": "Whakaputa-Reri te Tukunga",
+          "text": "Ka hanga e au me nga mea pono i muri i te whakarewatanga i te tirohanga: nga mea ngaro i hunahia i waho i te mana o te puna, nga huarahi hekenga papaa raraunga marama, te whakamana i runga i nga mahi, te whakamana i nga rohe punaha, nga whakamatautau aunoa, te mohiotanga CI/CD, me te maataki mahi. Ko nga korero enei ka huri i tetahi tauira hei rorohiko pono."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Kōpaki",
+    "filter_by": "Tātari Kōpaki Ma:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "He paipa-a-Pyton-a-roto e huri ana i tetahi puna ihirangi kua hangahia ki te kopaki e waatea ana ki te ao. Ka whakahaeretia e ia nga raraunga whakamaori hei punaha ka taea te pupuri, kaua i te kape wharangi-a-ringa, ka taea e te pae te huri ki te 100+ reo me te eke ki te ao katoa. te kaha whakahaere hei utu mo te waahanga kotahi.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Hono Tuawha",
+        "text": "He whanau nui neke atu i te 50+ nga whakatinanatanga o te keemu Connect Four. Kei roto i tenei kaupapa nga whakatinanatanga i roto i te 30 neke atu i te 30 nga reo hotaka, tae atu ki te Java, C++, Python, JavaScript, me etahi atu. I tua atu, kei roto ano i te 20+ nga anga rereke, etahi atu whakatakotoranga ranei, tae atu ki a React.js, Ruby on Rails, ASP.NET, me etahi atu.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Taupānga Toa",
+        "text": "He tono .NET 9 Blazor Server tuke katoa e whakaatu ana i te hoahoanga o muri mo te rerengamahi pakihi. Ko te wehenga o te kaiwhakahaere/ratonga/reputaka e pupuri ana i nga ture tono, te urunga raraunga, me te whakaaturanga kia taea te whakamatautau takitahi; Ko te Anga Anga Hinonga Matua e whakarato ana i te u tonu; me te Ka tiakina e te huinga whakamatautau matawhānui te whanonga i te wa e tipu ana te hua.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Kaupapa Interop",
+        "text": "He tohutoro mo te mahi-whakawhitinga reo e 15 nga reo hootaka me te 18 tauira mahi. Ka tirotirohia e te kaupapa te rohenga i te nuinga o te wa ka pakarukaru nga punaha: nga kirimana tukatuka, te whakawhiti raraunga, te whanonga wa whakahaere, me nga huarahi whakauru tukurua. Ka whakaatahia nga whakaaro o nga punaha e hiahiatia ana ina he nui ake te hua i te puranga kotahi.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Rehita Rarangi",
+        "text": "He POS me te rerenga mahi pukapuka-katoa i hangaia me te Angular 17+ me te Node.js. Ka whakatauira i nga awangawanga whakahaere o te punaha B2B: nga kaiwhakamahi kua whakamotuhēhēhia, te mana uru ki runga i te turanga, te tika o te raarangi, me te rerenga utu whakahi. I hoahoatia te kaupapa i runga i nga mahi tuturu e mahia ana e te roopu rehita, ehara i te raarangi o nga ahuatanga anga.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Whakahōputu Aunoa",
+        "text": "He taputapu whakamana a JSON me te YAML i runga i te tirotiro i hangaia i roto i te Haere me te whakahiato ki te WebAssembly. Ko te neke i te miihini parsing ki roto i te WASM ka mau tonu te taunekeneke ki te aro me te rohe ki te kaitirotiro i te wa e tono ana he parser tuuturu hei hopu i te whakauru muhu. He tauira arotahi mo te kowhiri i te hoahoanga wa whakahaere mo te mahi, te kawe, me te whakawhirinaki a te kaiwhakamahi.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Mihini Takeoff",
+        "text": "He hangahanga e whakatau tata ana i te SaaS i hanga huri noa i te rerenga mahi kaikirimana he utu nui, he hapa. Ko te hua React + Express ka whakauru i nga raraunga CSV me Excel, ka mapi i nga pou ritekore ki roto i te tauira rohe e taea ana te whakamahi, te tatau i te keri awaawa me te nui o te mahi whenua, te whai i nga mahi me tohu, me te whakaputa i nga tono PDF me te Kupu kua rite ki te kiritaki. Ko tenei te hangahanga huringa ora hua katoa: te poroporo raraunga, nga ture tatau, te rerengamahi orohia e te kaiwhakahaere, me nga taonga tuku hei awhina i te pakihi ki te neke mai i nga whakaurunga mata ki te tono.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Kaihanga",
+        "text": "Kaihanga JSON mama i hangaia ki Python mo te rauemi Minecraft me nga kete raraunga. Ka whakamahia tenei kaupapa ki te whakaputa i nga konae JSON mo nga mods Minecraft, tae atu ki nga taonga ritenga, poraka, me nga hinonga. He tino pai mo te hanga i nga putea raraunga ritenga, engari mo nga mods ano hoki ma te waahanga whakarereke ingoa.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Taku Wheako Matauranga",
+        "text": "I te taha o aku kaupapa ake, he maha ano nga pukenga kua riro mai i ahau mai i nga wheako matauranga. Paatohia a konei ki te tiro i taku korero LinkedIn mo etahi atu korero.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Taku Wheako Ngaio",
+        "text": "E ono neke atu nga tau o te wheako miihini ngaio puta noa i nga roopu hua, papaa pakihi, me nga rorohiko e anga ana ki nga kaihoko. Ko aku mahi ko te hanga paparanga tono ka taea te pupuri, te mahi tahi puta noa i nga tikanga tuku, me te whakatau tikanga hangarau me te huringa ora o te hua, te whakahaere. morearea, me te mana pupuri mo te wa roa.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwin Portfolio Paetukutuku",
+        "text": "He kōpaki React e whakaaro nui ana ki te whakaputa e aro ana ki te urunga me te toronga o te ao hei whakaritenga miihini. Kei roto he paipa whakamaori ka taea te pupuri mo te 100+ reo, nga taputapu tauwhitiwhiti e tautokohia ana e WebAssembly, nga tauira UI aro me te uru, me te hoahoanga kaupapa. i hangaia kia tipu i te wa e tukuna ana nga mahi hou.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "He whare pukapuka whaihua o nga tuhinga a Lua hei tohutoro a meake nei. Ka whakamahia tenei whare pukapuka ki te whakaaunoa i nga mahi i roto i nga tuhinga a Lua, ka taea te whakamahi mo nga mahi e matea ana, i te mea he tere ake te reo tuhi a Lua i a Python me Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Ngā Hōtuhi Ripakari Microsoft Excel (VBA) a Patrick",
+        "text": "He whare pukapuka whaihua o nga tuhinga VBA mo Microsoft Excel. Ka whakamahia tenei puna ki te whakaaunoa i nga mahi i roto i nga ripanga Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Taku whirihoranga Neovim whaiaro. Ka whakamahia tenei kaupapa ki te whirihora i a Neovim ki taku e pai ai, tae atu ki nga here matua, kaupapa, me nga mono. Ka whakamahia tenei kaupapa kia pai ake ai a Neovim ki te whakamahi me te pai mo taku whakamahi whaiaro.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick's Map Generator",
+        "text": "He taputapu purongo geospatial Python i hangaia me GeoPandas me Matplotlib hei whakaputa i nga mahere whenua me nga whenua o Amerika. Ka huri i nga raraunga matawhenua ki nga taonga tātari ka taea te panui, e whakaatu ana i te whakaaro paipa raraunga: kowhiria nga whare pukapuka rohe tika, whakatika i nga whakaurunga, ka whakaputa i nga putanga ka tautoko i nga whakatau marama.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Library",
+        "text": "He whare pukapuka whaihua o nga tuhinga PowerShell hei tohutoro a meake nei. Ka whai hua me te waahanga tuhinga tuhi $profile, ka kitea e au he tino awhina tenei mo te whakaaunoa i nga mahi mai i te tauranga Windows, i te mea he kaiwhakamahi auau ahau ki te Windows OS.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "He whare pukapuka whaihua o nga tuhinga Ruby hei tohutoro a meake nei. He pai mo nga ariā whanaketanga Ruby on Rails a meake nei.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Kaihanga Pukenga PDF",
+        "text": "He rerengamahi whakaputa tuhinga i hangaia me te Python, Pdfkit, Jinja2, HTML, me nga raraunga JSON hanganga. Ka wehe i nga raraunga ka taea te whakamahi mai i nga tauira whakaaturanga hei whakaputa i nga tuhinga PDF kua rite tonu, he tauira mahi mo te whakaiti i nga mahi a-ringa me te hanga tuhinga pakihi. tukurua.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Kaupapa Whakamuna Rijandel",
+        "text": "He huinga whakatairite o te 10+ Rijndael whakatinanatanga puta noa i nga momo 128-, 192-, me te 256-bit. Ko te whakatinana ano i te algorithm tairongo-haumarutanga puta noa i nga reo he mahi maataki i roto i nga whakaritenga tika, te whanonga ka taea te whakamatautau, me nga tepe o te kawe taumata reo, nga parapara whaihua katoa mo nga punaha e whakahaere ana i nga raraunga tairongo.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "He Minecraft Mod e taapiri ana i nga taputapu ritenga, te patu, te mob, te poraka, te rahi, me te maha atu o nga ahuatanga ki te keemu. I hangaia me nga putanga Java 8-17 mo nga momo putanga Minecraft i waenga i te 1.16 me te 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Te Reo Papatono Tiger",
+        "text": "He reo whakahōtaka ritenga me te kaiwhakamaori i hangaia i roto Haere ki te tuhura i te hoahoa wa-haere reo, te whanonga mahi, me nga whakawhitinga mahi. Ko te whakahiato ki te WebAssembly me te whakauru ki roto i te kopaki ka hangaia he mata hua tino, ka taea te tirotiro mo te miihini taumata-raupapa, kaua ki te waiho i te mahi hei he whakamatautau-anake.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "paetukutuku Tiger Tailgating Pros",
+        "text": "He paetukutuku React i tukuna mo te pakihi tailgating Clemson, SC. Ka whakamaoritia e te mahi te tuku a te pakihi iti ki roto i te haerenga a nga kaihoko me te noho pono ki te paetukutuku, ma te whakamahi whakaaro hua hei awhina i tetahi whakahaere tuturu ki te huri i te hiahia. ki nga uiui me nga moni whiwhi.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Kaupapa Miihini Turing",
+        "text": "Te whanau o te neke atu i te 30 nga whakatinanatanga o te Miihini Turing. I whakamahia hei whakaatu i te tino huri mo nga reo hotaka rereke mo te rangahau, ina koa mo te Reo Papatono Tiger.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Te Reo Papatono Tiger"
+  },
+  "contact": {
+    "title": "Whakapā Mai",
+    "header": "Nga korero Whakapā",
+    "email": "pattygsocials@gmail.com",
+    "description": "Ka whakautu au ki nga patai mai i nga imeera me nga karere LinkedIn. Ka waea atu ano ahau mena ka tukuna taku nama ma te reanga me te kore, ahakoa he pai ki ahau te pupuri i taku nama waea."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "He taputapu kounga raraunga e pa ana ki te kaitirotiro e whakamana ana, e whakahōputu ana i a JSON me YAML ma te whakamahi i te miihini Go i whakahiato ki WebAssembly. Ko te hoahoanga e noho tata ana ki te kaiwhakamahi mo te tere, mo te urupare motuhake i te wa e whakamanahia ana nga ture wetereo pono i te rohenga raraunga. He tauira kiato o te hoahoa i te rerengamahi kaiwhakawhanake pono mo te tika, te mahi, me te whakawhirinaki.",
+    "more_info1": "Mo etahi atu korero, tirohia te README i roto i te",
+    "more_info2": "Pupuri Whakahōputu JSON/YAML.",
+    "format_as": "Whakahōputu Hei:",
+    "auto_detect": "Rapu Aunoa",
+    "format": "Lint & Hōputu",
+    "valid_json": "✓ JSON whaimana",
+    "valid_yaml": "✓ YAML whaimana",
+    "invalid_json": "JSON muhu",
+    "invalid_yaml": "YAML muhu",
+    "empty_input": "Whakaurua koa etahi JSON, YAML ranei ki te tuhi.",
+    "too_large": "He nui rawa te whakauru (he 1MB te rahi e whakaaetia).",
+    "fixed_yaml_spacing": "⚠ He muhu te mokowā/noku o YAML engari kua whakatika-aunoa me te whakahōputu.",
+    "loading": "Uta ana te whakahōputu...",
+    "waiting_for_input": "E tatari ana mo te whakaurunga...",
+    "load_failed": "Kāore e taea te uta i te kaiwhakahōputu.",
+    "output": "Putanga:",
+    "input_code": "Whakauru",
+    "json_examples": "JSON Tauira",
+    "yaml_examples": "Tauira YAML"
+  },
+  "tiger": {
+    "title": "Te Reo Tiger",
+    "description": "Ko te Tiger he reo whakahōtaka ritenga me te kaiwhakamaori Haere i hangaia ki te torotoro i te hoahoanga o te wa whakahaere, nga tohu reo, me nga mahi hokohoko. Ko te whakahiato i te kaiwhakamaori ki te WebAssembly ka huri ka mahi nga punaha ki roto i te hua tauwhitiwhiti, i runga i te kaitirotiro: ka taea e nga kaiwhakamahi te whakahaere tika i nga papatono i te wa e mau tonu ana te wa whakahaere. ka wehea mai i te tono kaihautu.",
+    "more_info1": "Mo etahi atu korero, tirohia te README i roto i te",
+    "more_info2": "Te Reo Papatono Tiger Repository GitHub.",
+    "select_engine": "Tīpako Pūkaha:",
+    "tiger_code": "Waehere Tiger:",
+    "run_tiger": "Rere Tiger",
+    "output": "Putanga:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Ko te miihini-a-tinana matua me te 6+ tau o te wheako ki te hoahoa i nga hua SaaS, nga punaha whakaputa, me nga punaha whakaputa moni."
+  },
+  "copy": {
+    "text": "Tārua",
+    "copied": "Kua kapea!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Whaia ahau"
+  },
+  "languages": {
+    "title": "Kaiwhakamaori kōpaki",
+    "description": "Tirohia me pehea e uru atu ai taku kopaki ki nga manuhiri o te ao me te tautoko mo nga reo 100 neke atu.",
+    "global_accessibility": {
+      "title": "Te Urunga o te Ao",
+      "description": "E waatea ana taku kopaki i roto i nga reo {count}, na reira ka taea e nga manuhiri huri noa i te ao. Ko tenei huarahi reo maha e whakaatu ana i taku pono ki te whakauru me te toro atu ki te ao ki te whanaketanga rorohiko.",
+      "stats": {
+        "languages_supported": "Nga Reo Tautokona",
+        "countries_represented": "Nga Whenua e Mangai ana",
+        "continents_covered": "Ko nga whenua kua kapi"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Te reo whakamaori a Tiger"
-    },
-    "contact": {
-        "title": "Whakapā mai ki ahau",
-        "header": "Nga korero whakapā",
-        "email": "pattygsocials@gmail.com",
-        "description": "Ka whakautu ahau ki nga uiui mai i nga imeera, nga karere Linkedin, me nga karere . Ka hoki mai ano ahau ki te mea ka whakawhiwhia taku nama ki te kore e pai, ahakoa e pai ana ahau ki te pupuri i taku nama waea."
-    },
-    "formatter": {
-        "title": "JSON & YAML Tāpiri",
-        "description": "Ko te Conster JSON & Yaml te taapiri he taputapu e taea ai e koe te whakariterite i a JSON me YAML. Kua hangaia me te haere me te paetukutuku, a kua pai kia tere, kia whai hua. I hangaia te whakatakotoranga hei ngawari ki te whakamahi, me te atanga ngawari ka taea e koe te whakapiri i roto i to waehere JSON, YAML me te whakauru ki te paatene o te paatene.",
-        "more_info1": "Mo etahi atu korero, tirohia te Pānui i roto i te",
-        "more_info2": "JSON / YAML whakahōputu.",
-        "format_as": "Hōputu rite:",
-        "auto_detect": "Kitea aunoa",
-        "format": "Whakatakotoranga",
-        "valid_json": "✓ JSON whaimana",
-        "valid_yaml": "✓ YAML whaimana",
-        "invalid_json": "JSON muhu",
-        "invalid_yaml": "YAML muhu",
-        "empty_input": "Whakaurua koa etahi JSON, YAML ranei ki te tuhi.",
-        "too_large": "He nui rawa te whakauru (he 1MB te rahi e whakaaetia).",
-        "fixed_yaml_spacing": "⚠ He muhu te mokowā/noku o YAML engari kua whakatika-aunoa me te whakahōputu."
-    },
-    "tiger": {
-        "title": "Reo Tiger",
-        "description": "Ko te reo papatono Tiger he reo ritenga ritenga i hangaia i roto i te haere me te waikura ki te whakamatau me te hoahoa kaiwhakamaori me te mahi whakamaori. Ka whakatinanahia ki te paetukutuku Puka Paetukutuku ma te whakahaere i te paetukutuku. Ko te reo papatono Tiger he reo ritenga ritenga i hangaia i roto i te haere me te waikura ki te whakamatau me te hoahoa kaiwhakamaori me te mahi whakamaori. Ka whakatinanahia ki te paetukutuku Puka Paetukutuku ma te whakahaere i te paetukutuku.",
-        "more_info1": "Mo etahi atu korero, tirohia te Pānui i roto i te",
-        "more_info2": "Tiger Program Reo Github Repsitary.",
-        "select_engine": "Tata Tīpakohia:",
-        "tiger_code": "Tiger Code:",
-        "run_tiger": "Whakahaerehia te Tiger",
-        "output": "Putanga:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Katoa te miihini raupaparorohiko i runga i te Central Florida"
-    },
-    "copy": {
-        "text": "Whakaahua",
-        "copied": "Tāruahia!"
-    },
-    "social_media": {
-        "github": "A gitupu",
-        "linkedin": "Kaitirotiro",
-        "youtube": "YouTube",
-        "text_strip": "Whaa mai i ahau"
-    },
-    "languages": {
-        "title": "Ko te kaiwhakamaori whakaata",
-        "description": "Tirohia te waatea o taku kōpaki ki nga manuhiri mai i te ao me te tautoko mo te 100 nga reo.",
-        "global_accessibility": {
-            "title": "Te whainga o te ao",
-            "description": "E waatea ana taku kōpaki ki runga ake i te maha o nga reo, ka uru ki nga manuhiri mai i te ao katoa. Ko tenei huarahi maha e whakaatu ana i taku pono ki te whakauru me te whai waahi o te ao ki te whakawhanaketanga rorohiko.",
-            "stats": {
-                "languages_supported": "Ka tautokohia nga reo",
-                "countries_represented": "Nga whenua e tohu ana",
-                "continents_covered": "Hipoki nga whenua"
-            }
+    "features": {
+      "title": "Ngā āhuatanga",
+      "items": [
+        {
+          "title": "Whakamāoritanga wā-tūturu:",
+          "description": "Whakawhitihia nga reo me te kaikowhiri reo"
         },
-        "features": {
-            "title": "Ngakau",
-            "items": [
-                {
-                    "title": "Te whakamaoritanga-pono:",
-                    "description": "Whakawhitiwhiti reo tonu me te kaipupuri reo"
-                },
-                {
-                    "title": "Te Reo Url:",
-                    "description": "Ka tiakina nga manakohanga reo i roto i te URL"
-                },
-                {
-                    "title": "Tautoko i nga Pukapuka mo nga Pukapuka Maori:",
-                    "description": "Te utu tika o nga tuhinga penei i te Arapi, Hainamana, Hindi, me te maha atu"
-                },
-                {
-                    "title": "Ahurea ahurea:",
-                    "description": "Ka whai whakaaro nga whakamaoritanga ki te horopaki ahurea, ehara i te tikanga noa"
-                },
-                {
-                    "title": "SEO arotau:",
-                    "description": "Ko ia momo reo e arotau ana ki nga miihini rapu"
-                }
-            ]
+        {
+          "title": "Reo-a-URL:",
+          "description": "Ka tiakina nga manakohanga reo ki te URL"
         },
-        "world_map": {
-            "title": "Mahere Whenua Whakawhitiwhiti",
-            "description": "Kei runga i nga whenua kei runga i te mahere kia kite i o raatau reo tautoko:",
-            "languages_label": "Reo",
-            "legend": {
-                "supported": "Ka tautokohia nga reo",
-                "not_supported": "Kaore he tautoko reo"
-            },
-            "zoom_controls": {
-                "zoom_in": "Haere ki roto",
-                "zoom_out": "Tae atu",
-                "reset": "Tautuhi Tirohia"
-            }
+        {
+          "title": "Tautoko Tuhituhi Maori:",
+          "description": "Te whakaputa tika o nga tuhinga penei i te Arapi, Hainamana, Hindi, me etahi atu"
         },
-        "supported_languages": {
-            "title": "Nga Reo Tautoko"
+        {
+          "title": "Tikanga Ahurea:",
+          "description": "Ka whai whakaaro nga whakamaoritanga ki te horopaki ahurea, kaua ki nga tikanga mooni anake"
         },
-        "interactive_country_map": {
-            "title": "Mahere Whenua Tauwhitiwhiti",
-            "description": "Hoatu ki nga whenua i raro nei kia kite ai i o raatau reo e tautokohia ana:",
-            "language_count": {
-                "single": "reo",
-                "multiple": "reo"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Kaore he tautoko reo"
+        {
+          "title": "SEO kua Arotauhia:",
+          "description": "Ko ia momo reo ka whakatikahia mo nga miihini rapu"
         }
+      ]
     },
-    "logotext": "Pūri"
+    "world_map": {
+      "title": "Mahere Ao Pahekoheko",
+      "description": "Whakaparo ki runga whenua i te mapi kia kite i o raatau reo tautoko:",
+      "languages_label": "Nga reo",
+      "legend": {
+        "supported": "Nga Reo Tautokona",
+        "not_supported": "Karekau he Tautoko Reo"
+      },
+      "zoom_controls": {
+        "zoom_in": "Topa Mai",
+        "zoom_out": "Topa Atu",
+        "reset": "Tautuhi Tirohanga"
+      }
+    },
+    "supported_languages": {
+      "title": "Nga Reo Tautokona"
+    },
+    "interactive_country_map": {
+      "title": "Mahere Whenua Tauwhitiwhiti",
+      "description": "Whakaparo ki runga whenua ki raro kia kite i o raatau reo tautoko:",
+      "language_count": {
+        "single": "reo",
+        "multiple": "reo"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Karekau he tautoko reo"
+    }
+  },
+  "logotext": "PATRIKA"
 }

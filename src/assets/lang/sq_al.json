@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Shtëpi",
-        "about": "Për mua",
-        "portfolio": "Portofol",
-        "projects": "Projekte në internet",
-        "tiger": "Gjuhë tigri",
-        "portfolio_translator": "Përkthyes i portofolit",
-        "formatter": "Json & yaml formatter",
-        "contact": "Më kontakto"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Shtëpi",
+    "about": "Rreth meje",
+    "portfolio": "Portofoli",
+    "projects": "Projektet e faqes në internet",
+    "tiger": "Gjuha e Tigrit",
+    "portfolio_translator": "Përkthyes portofoli",
+    "formatter": "Formatuesi JSON & YAML",
+    "contact": "Më kontaktoni"
+  },
+  "home": {
+    "title": "Inxhinier i Lartë i Stack-it të Plotë | Produkti dhe Sistemet",
+    "animated": {
+      "first": "Inxhinier i lartë i grupit të plotë",
+      "second": "Ndërtues i sistemeve dhe arkitekturës",
+      "third": "Inxhinier i produktit SaaS",
+      "fourth": "Software i besueshëm, Rezultatet e Biznesit"
     },
-    "home": {
-        "title": "Shtëpi",
-        "animated": {
-            "first": "Inxhinier i plotë i softuerit Stack",
-            "second": "Zhvillues i internetit",
-            "third": "Zhvilluesi i lojërave",
-            "fourth": "Krijues i përmbajtjes"
-        },
-        "footer": "Uebfaqja tani e përkthyer dhe e disponueshme në 100+ gjuhë!",
-        "descriptionA": "Inxhinier i softuerit me përvojë të plotë dhe zhvillues i uebit me një histori të demonstruar të projekteve të zhvillimit me sukses, nga krijimi i modifikimeve Java për Minecraft deri në përmirësimin e përvojës së përdoruesit në React.js dhe zbatimin e API-ve të sigurta REST, duke përdorur vazhdimisht metodologji të shkathëta dhe bashkëpunim efektiv të ekipit.",
-        "descriptionB": "Për më tepër, unë jam një krijues i përmbajtjes së gjeografisë që ka nxitur me sukses algoritmet e platformave të shumta të mediave sociale, duke përfshirë , YouTube dhe , për të fituar një bazë të respektueshme dhe tërheqëse të ndjekësve.",
-        "portfolio_button": "Portofoli im",
-        "contact_button": "Më kontakto",
-        "about_button": "Për mua"
+    "footer": "Faqja e internetit tani e përkthyer dhe e disponueshme në 100+ gjuhë!",
+    "descriptionA": "Inxhinier i lartë me 6+ vite përvojë duke marrë produkte nga kërkesat e paqarta në sisteme të besueshme prodhimi. Unë dizajnoj arkitekturën pas aplikacioneve React, Angular, .NET, Node.js, Java, C#, Go dhe SQL: kufij të qartë të shërbimit, modele të qëndrueshme të të dhënave, modele aksesi të sigurt dhe Ekipet e rrugëve të dorëzimit mund të veprojnë me besim.",
+    "descriptionB": "Puna ime lidh vendimet inxhinierike me rezultatet e biznesit. Nga një SaaS që vlerëson ndërtimin që i kthen të dhënat e fletëllogaritjes në propozime të gatshme për klientin në platformat e internetit që gjenerojnë të ardhura, unë ndërtoj softuer rreth rrjedhës së punës, rrezikut dhe vlera e matshme që ka rëndësi për njerëzit që e përdorin atë.",
+    "portfolio_button": "Portofoli im",
+    "contact_button": "Më kontaktoni",
+    "about_button": "Rreth meje"
+  },
+  "about": {
+    "title": "Rreth meje",
+    "personal_summary": {
+      "title": "Përmbledhje personale",
+      "text": "Unë jam një inxhinier i vjetër me bazë të plotë me bazë në Orlando, FL, i cili zotëron rrugën nga problemi i produktit deri te rezultati i prodhimit. Unë bëj zgjedhje teknologjike në shërbim të sistemit: .NET dhe Entity Framework Core kur një domen i strukturuar fort dhe qëndrueshmëria e testueshme kanë rëndësi; Angular ose Reagon kur është kompleks flukset e punës kanë nevojë për një ndërfaqe të mirëmbajtur; Node.js ose Go kur një mjet API, integrimi ose me performancë të lartë ka nevojë për një kohë ekzekutimi të fokusuar. Nëpër produktet SaaS, flukset e brendshme të punës dhe platformat që përballen me klientët, unë udhëheq me shkëmbime të qarta, dizajn të sigurt dhe elastik, testime të automatizuara dhe praktika shpërndarjeje që ndihmoni ekipet të dërgojnë softuer të vlefshëm pa lënë prapa borxhin operacional."
     },
-    "about": {
-        "title": "Për mua",
-        "personal_summary": {
-            "title": "Përmbledhje personale",
-            "text": "Si një zhvillues i plotë i softuerit me përvojë të plotë me qendër në Orlando, FL, unë kam demonstruar ekspertizë në teknologji të ndryshme, nga Java dhe C ++ te React.js dhe Node.js. Me një rekord të projekteve të drejtimit të drejtimit, duke përfshirë zhvillimin e një programi të modifikimit Java për Minecraft dhe një uebfaqe të dobishme për shoferët e kamionëve, unë kam shfaqur udhëheqjen dhe inovacionin. Angazhimi im për përsosmëri është i dukshëm në aftësinë time për të thjeshtuar menaxhimin e projektit, për të zgjidhur probleme komplekse dhe për të ofruar zgjidhje me cilësi të lartë që përmirësojnë përvojën e përdoruesit dhe drejtojnë suksesin organizativ."
+    "professional_experience": {
+      "title": "Përvojë profesionale",
+      "entries": [
+        {
+          "jobtitle": "Inxhinier i Lartë Softuerësh",
+          "where": "Dizajn Interaktiv",
+          "date": "2025 - Sot"
         },
-        "professional_experience": {
-            "title": "Përvojë profesionale",
-            "entries": [
-                {
-                    "jobtitle": "Inxhinier i ri i softuerit",
-                    "where": "Sigurimi Orion180",
-                    "date": "2024 - E pranishme"
-                },
-                {
-                    "jobtitle": "Themeluesi dhe Zhvilluesi i Full Stack Software",
-                    "where": "Supremem",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Inxhinier i plotë i softuerit Stack",
-                    "where": "Përshpejtoni mësimin",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Zhvilluesi i Uebit (Programi Studentor)",
-                    "where": "Programi GDI i Universitetit Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Mbikëqyrës",
-                    "where": "Universiteti Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Mbikëqyrës",
-                    "where": "Universiteti Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Inxhinier Softuerësh",
+          "where": "Sigurimi Orion180",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Aftësi teknike",
-            "header1": "Gjuhë programimi",
-            "header2": "Kornizat dhe Bibliotekat",
-            "header3": "Mjetet dhe Teknologjitë"
+        {
+          "jobtitle": "Inxhinier Softuerësh",
+          "where": "SupremeMC",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Shërbimet e mia",
-            "entries": [
-                {
-                    "title": "Inxhinieri e plotë e pirgut",
-                    "text": "Unë ofroj zgjidhje gjithëpërfshirëse në zhvillimin e përparme dhe të prapme, duke siguruar integrim dhe funksionalitet të qetë në të gjithë pirgun e softuerit."
-                },
-                {
-                    "title": "Zhvillim në internet",
-                    "text": "Me ekspertizë në kornizat HTML, CSS dhe JavaScript si React.js, unë krijoj uebfaqe vizuale tërheqëse dhe miqësore për përdoruesit, të përshtatura për të përmbushur nevojat dhe preferencat specifike të klientëve."
-                },
-                {
-                    "title": "Zhvillimi i lojës",
-                    "text": "Gjuhët e përdorimit të gjuhëve të tilla si Java dhe C ++, unë specializohem në krijimin e përvojave të lojrave gjithëpërfshirëse, nga koncepti dhe dizajni deri tek zbatimi dhe optimizimi, duke siguruar një lojë të angazhuar dhe performancë të qetë."
-                }
-            ]
+        {
+          "jobtitle": "Inxhinier Softuerësh",
+          "where": "Përshpejtoni të mësuarit",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Inxhinier Udhëheqës i Softuerit (Programi Studentor)",
+          "where": "Programi GDI i Universitetit Clemson",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Mbikëqyrësi i Tavolinës",
+          "where": "Universiteti Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Portofol",
-        "filter_by": "Portofoli i filtrit nga:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca JSON",
-                "text": "Një projekt Python që rregullon përkthimet në gjuhë. Lejon që portofoli im i internetit të përkthehet në 70+ gjuhë, duke përfshirë spanjisht, frëngjisht, kinez, arabisht dhe shumë të tjerë. Ky projekt përdoret për të krijuar një portofol shumëgjuhësh të faqes në internet, i cili është shumë i dobishëm për të arritur një audiencë më të gjerë. Me këtë projekt, mbi 99% e botës mund të lexojnë portofolin tim në një gjuhë të rrjedhshme.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Lidhu katër",
-                "text": "Familje masive me mbi 50+ zbatime të lojës Connect Four. Ky projekt përfshin zbatime në mbi 30 gjuhë të ndryshme programimi, përfshirë Java, C ++, Python, JavaScript, dhe më shumë. Për më tepër, ai gjithashtu përfshin mbi 20+ korniza të ndryshme ose formate të tjera, duke përfshirë React.js, Ruby në shina, ASP.NET, dhe më shumë.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Ushqim ushqimesh",
-                "text": "Një aplikacion i plotë. NET 9 Server Blazor Server për menaxhimin e artikujve ushqimore. Aplikacioni ndjek modelin e kontrolluesit/shërbimit/depozitimit me një kornizë entiteti për këmbënguljen dhe përfshin një suitë gjithëpërfshirëse të testimit.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Projekt ndërhyrje",
-                "text": "Një projekt që dokumenton ndërveprimin midis gjuhëve të ndryshme të programimit. Aktualisht përfshin 15 gjuhë të ndryshme programimi dhe 18 modele ekzekutimi.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Regjistër i inventarit",
-                "text": "Një pikë demo e plotë e shitjes së shitjes (POS) Regjistrohuni me sistemin e menaxhimit të inventarit të ndërtuar me Angular 17+ dhe Node.js. Kjo kërkesë demonstron një sistem POS të shkallës profesionale me vërtetimin e përdoruesit, kontrollin e qasjes të bazuar në role, përcjelljen e inventarit dhe përpunimin e pagesave të tallen.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & YAML AUTO Formatter",
-                "text": "Një Linter & Autoformatter për skedarët JSON & YAML. Ky projekt përdoret për të formatuar skedarët JSON & YAML, i cili është shumë i dobishëm për mbajtjen e kodit të pastër dhe të organizuar. E ndërtuar me Go, e përpiluar me WebAsSembly, dhe e ngulitur në portofolin tim si një projekt në internet. Më shumë formate për të ardhur në të ardhmen.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Takeoff Engine",
-                "text": "A modern construction estimating and takeoff SaaS for contractors and estimators. It imports CSV and Excel files, auto-maps columns, calculates trench excavation and earthwork volumes, tracks labor and markup, and generates client-ready PDF and Word bid proposals with a polished React + Express workflow.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Gjeneratori i Minecraft JSON",
-                "text": "Gjenerator i lehtë JSON i ndërtuar në Python për Minecraft Resource & Paketat e të Dhënave. Ky projekt përdoret për të gjeneruar skedarë JSON për modat Minecraft, duke përfshirë artikujt me porosi, blloqe dhe entitetet. Shumë e dobishme jo vetëm për krijimin e të dhënave me porosi, por edhe për mods, si dhe përmes veçorisë së ndërrimit të emrit mod.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Përvoja ime arsimore",
-                "text": "Krahas projekteve të mia personale, unë gjithashtu kam fituar aftësi të shumta nga përvoja arsimore. Klikoni këtu për të parë profilin tim të LinkedIn për më shumë informacion.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Përvoja ime profesionale",
-                "text": "Krahas projekteve të mia personale, unë gjithashtu kam fituar aftësi të shumta nga përvoja profesionale. Klikoni këtu për të parë profilin tim të LinkedIn për më shumë informacion.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Uebfaqja e Portofolit Patrick Goodwin",
-                "text": "Kjo faqe në internet është uebfaqja ime personale e portofolit, e ndërtuar me React.js. Ky projekt përdoret për të shfaqur aftësitë dhe projektet e mia, si dhe për të siguruar një platformë që punëdhënësit e mundshëm të më kontaktojnë. Ky projekt përdoret për të krijuar një prani profesionale në internet.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Biblioteka e Script Lua Patrick",
-                "text": "Një bibliotekë e dobishme e skripteteve LUA për referencë në të ardhmen. Kjo bibliotekë përdoret për të automatizuar detyrat në skriptet e LUA, të cilat mund të vijnë në dispozicion për detyrat e kualifikimit të performancës, pasi Lua është zakonisht një gjuhë më e shpejtë shkrimi sesa Python dhe Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Skriptet e spreadsheet të Microsoft Excel të Patrick (VBA)",
-                "text": "Një bibliotekë e dobishme e skripteteve VBA për Microsoft Excel. Kjo bibliotekë përdoret për të automatizuar detyrat në spreadsheets Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Konfigurimi i Neovim i Patrick",
-                "text": "Konfigurimi im personal Neovim. Ky projekt përdoret për të konfiguruar Neovim sipas dëshirës time, duke përfshirë çelësat me porosi, temat dhe shtojcat. Ky projekt përdoret për ta bërë Neovim më miqësor dhe efikas për përdorimin tim personal.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Gjeneratori i Hartës së Patrikut",
-                "text": "Një gjenerator i Qarkut dhe Shtetit të Shteteve të Bashkuara, i ndërtuar me Python duke përdorur bibliotekat Geopandas dhe Matplotlib. Ky projekt përdoret për të gjeneruar hartat e Shteteve të Bashkuara, përfshirë hartat e qarkut dhe shtetit. Ky projekt përdoret për të krijuar harta me porosi për vizualizimin dhe analizën e të dhënave.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Biblioteka e Skriptit PowerShell Patrick",
-                "text": "Një bibliotekë e dobishme e skripteteve të PowerShell për referencë në të ardhmen. E dobishme me veçorinë e Skriptit të Profilit $, unë e shoh këtë jashtëzakonisht të dobishme për automatizimin e detyrave nga terminali i Windows, pasi unë jam një përdorues i shpeshtë i Windows OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Biblioteka Ruby Script e Patrick",
-                "text": "Një bibliotekë e dobishme e skripteteve Ruby për referencë në të ardhmen. E dobishme për konceptet e zhvillimit të Ruby -it të ardhshëm në shinat.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Ndërtues i aftësive PDF",
-                "text": "Një ndërtues me porosi PDF i ndërtuar me Python përmes Extensions PDFKit dhe Jinja2, së bashku me formatimin HTML dhe JSON. Ky projekt përdoret për të gjeneruar skedarë PDF nga një listë e aftësive dhe projekteve. Ky projekt mund të përdoret për të krijuar një rezyme të personalizuar PDF, i cili është shumë i dobishëm për aplikimet për punë.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Projekti i kriptimit të Rijandel",
-                "text": "Një familje me 10+ zbatime të algoritmit të kriptimit Rijandel në 128, 192 dhe 256 bit. Ky projekt përdoret për të demonstruar algoritmin e kriptimit Rijandel në gjuhë të ndryshme programimi. Ky projekt përdoret për të krijuar një familje zbatimi të algoritmit të kriptimit Rijandel.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Suprememc Minecraft Mod",
-                "text": "Një mod Minecraft që shton mjete me porosi, forca të blinduara, turma, blloqe, dimensione dhe shumë më shumë veçori në lojë. Ndërtuar me versione Java 8-17 për versionet e zgjedhura Minecraft midis 1.16 dhe 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Gjuha e programimit të tigrit",
-                "text": "Gjuha e programimit me porosi të ndërtuar në të dy Go për të eksperimentuar me hartimin dhe performancën e përkthyesit. Zbatuar në faqen e internetit të portofolit duke përdorur asamblenë në internet.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Uebfaqja e Pro Tiger Tailgating Pro",
-                "text": "Një uebfaqe që ndërtova në vitin 2024 për Tiger Tailgating Pro, një kompani e pasme në Clemson, SC. Ndërtuar me React.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Projekti i makinës Turing",
-                "text": "Familja e mbi 30+ implementimeve të makinës Turing. Përdoret për të demonstruar plotësinë e Turing për gjuhë të ndryshme programimi për kërkime, veçanërisht për gjuhën e programimit Tiger.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Aftësitë Teknike",
+      "header1": "Gjuhët e Programimit",
+      "header2": "Kornizat & Bibliotekat",
+      "header3": "Mjetet & Teknologjitë"
+    },
+    "services": {
+      "title": "Shërbimet e Mia",
+      "entries": [
+        {
+          "title": "Inxhinieri e Plotë Stack",
+          "text": "Unë drejtoj shpërndarjen e produktit nga fundi në fund: përkthimi i flukseve të punës së biznesit në kufijtë e sistemit, modelet e të dhënave, API-të dhe ndërfaqet, më pas kryerja e punës përmes testimit, vendosjes, dhe përsëritje. Qëllimi është softueri që një ekip mund të evoluojë dhe operojë, jo një koleksion ekranesh të shkëputura."
+        },
+        {
+          "title": "Arkitektura e produkteve dhe platformave",
+          "text": "Unë zgjedh platformat dhe modelet bazuar në problemin: shërbime .NET me shtresa për domenet e biznesit, aplikacione Angular ose React të drejtuara nga komponentët për operacione komplekse, relacionale modelet e të dhënave për rrjedhat e përgjegjshme të punës dhe integrimet e dizajnuara duke pasur parasysh mënyrat e dështimit, kontrollin e aksesit dhe mirëmbajtjen."
+        },
+        {
+          "title": "Prodhimi-Dorëzimi i gatshëm",
+          "text": "Unë ndërtoj duke pasur parasysh realitetet pas lëshimit: sekretet e mbajtura jashtë kontrollit të burimit, shtigjet eksplicite të migrimit të bazës së të dhënave, autorizimi i bazuar në role, vlefshmëria në kufijtë e sistemit, teste të automatizuara, ndërgjegjësim për CI/CD dhe vëzhgim praktik. Këto janë detajet që e kthejnë një prototip në softuer të besueshëm."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portofoli",
+    "filter_by": "Filtro portofolin sipas:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteka JSON",
+        "text": "Një tubacion lokalizimi i bazuar në Python që kthen një burim të strukturuar të përmbajtjes në një portofol të aksesueshëm globalisht. Ai trajton të dhënat e përkthimit si një sistem të mirëmbajtur në vend të kopjes manuale të faqes, duke e lejuar faqen të shkallëzohet në mbi 100 gjuhë dhe të bëjë një arritje globale aftësia operacionale në vend të një veçorie një herë.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Lidhni katër",
+        "text": "Familje masive me mbi 50+ zbatime të lojës Connect Four. Ky projekt përfshin implementime në mbi 30 gjuhë të ndryshme programimi, duke përfshirë Java, C++, Python, JavaScript dhe më shumë. Për më tepër, ai përfshin gjithashtu mbi 20+ korniza të ndryshme ose formate të tjera, duke përfshirë React.js, Ruby on Rails, ASP.NET, dhe më shumë.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Aplikacioni ushqimor",
+        "text": "Një aplikacion i serverit .NET 9 Blazor me grumbull të plotë që demonstron arkitekturë të qëllimshme mbështetëse për një rrjedhë pune biznesi. Ndarja e kontrolluesit/shërbimit/depoja i mban rregullat e aplikimit, aksesin e të dhënave dhe prezantimin të testueshme në mënyrë të pavarur; Entity Framework Core ofron qëndrueshmëri të qëndrueshme; dhe Kompleti gjithëpërfshirës i testeve mbron sjelljen ndërsa produkti evoluon.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Projekti Interop",
+        "text": "Një referencë ndër-gjuhëshe e ndërveprimit që përfshin 15 gjuhë programimi dhe 18 modele ekzekutimi. Projekti heton kufirin ku sistemet shpesh bëhen të brishta: kontratat e procesit, shkëmbimi i të dhënave, sjellja në kohën e ekzekutimit dhe shtigjet e integrimit të përsëritshëm. Ai pasqyron të menduarit e sistemit të nevojshëm kur një produkt është më i madh se një pirg i vetëm.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Regjistri i inventarit",
+        "text": "Një fluks pune i plotë POS dhe inventar i ndërtuar me Angular 17+ dhe Node.js. Ai modelon shqetësimet operacionale të një sistemi B2B: përdoruesit e vërtetuar, kontrolli i aksesit i bazuar në role, saktësia e inventarit dhe një rrjedhë pagese e simuluar. Projekti është projektuar rreth punës aktuale që kryen një ekip i regjistrave, jo vetëm një katalog të veçorive të kornizës.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "Formatuesi automatik JSON & YAML",
+        "text": "Një mjet verifikimi dhe formatimi i bazuar në shfletues JSON dhe YAML i ndërtuar në Go dhe i përpiluar në WebAssembly. Lëvizja e motorit analizues në WASM e mban ndërveprimin të përgjegjshëm dhe lokal në shfletuesin ndërsa aplikon një analizues të vërtetë për të kapur hyrjen e pavlefshme. Është një shembull i fokusuar i zgjedhjes së një arkitekture të kohës së funksionimit për performancën, transportueshmërinë dhe besimin e përdoruesit.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Motori i ngritjes",
+        "text": "Një ndërtim që vlerëson SaaS i ndërtuar rreth një fluksi pune të kushtueshëm, të prirur ndaj gabimeve. Produkti React + Express gëlltit të dhëna CSV dhe Excel, harton kolona jokonsistente në një model domeni të përdorshëm, llogarit vëllimet e gërmimit të kanalit dhe punimeve tokësore, gjurmon punën dhe markup, dhe prodhon propozime PDF dhe Word të gatshme për klientin. Ky është inxhinieri i plotë i ciklit jetësor të produktit: analizimi i të dhënave, rregullat e llogaritjes, një rrjedhë pune e lëmuar e operatorit dhe produktet që ndihmojnë një biznes të kalojë nga inputet e papërpunuara në një ofertë.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Gjeneratori JSON i Minecraft",
+        "text": "Gjenerator i lehtë JSON i ndërtuar në Python për burimet dhe paketat e të dhënave Minecraft. Ky projekt përdoret për të gjeneruar skedarë JSON për modalitetet e Minecraft, duke përfshirë artikuj, blloqe dhe entitete të personalizuara. Shumë i dobishëm jo vetëm për krijimin e paketave të të dhënave të personalizuara, por edhe për modalitetet përmes veçorisë së ndërrimit të emrit të mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Përvoja ime arsimore",
+        "text": "Krahas projekteve të mia personale, kam fituar edhe aftësi të shumta nga përvoja arsimore. Klikoni këtu për të parë profilin tim në LinkedIn për më shumë informacion.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Përvoja ime profesionale",
+        "text": "Gjashtë vite më shumë përvojë inxhinierike profesionale në ekipet e produkteve, platformat e biznesit dhe softuerin që përballet me klientët. Puna ime ka përfshirë ndërtimin e shtresave të aplikimit të mirëmbajtur, bashkëpunimin nëpër disiplina të ofrimit dhe marrjen e vendimeve teknike me ciklin e jetës së produktit, operacional rreziku dhe pronësia afatgjatë në pikëpamje.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Faqja e internetit e Portofoli Patrick Goodwin",
+        "text": "Një portofol React me mendje prodhimi që trajton aksesueshmërinë dhe shtrirjen globale si kërkesa inxhinierike. Ai përfshin një tubacion përkthimi të mirëmbajtur për 100+ gjuhë, mjete ndërvepruese të mbështetura nga WebAssembly, modele ndërfaqe të përgjegjshme dhe të arritshme dhe një arkitekturë projekti projektuar për t'u rritur ndërsa dërgohet punë e re.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Biblioteka e Skripteve Lua të Patrick",
+        "text": "Një bibliotekë e dobishme e skripteve Lua për referencë në të ardhmen. Kjo bibliotekë përdoret për të automatizuar detyrat në skriptet Lua, të cilat mund të jenë të dobishme për detyrat që kanë nevojë për performancë, pasi Lua është zakonisht një gjuhë skriptimi më e shpejtë sesa Python dhe Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Skriptet e fletëllogaritjes së Microsoft Excel të Patrick (VBA)",
+        "text": "Një bibliotekë e dobishme e skripteve VBA për Microsoft Excel. Kjo bibliotekë përdoret për të automatizuar detyrat në spreadsheets Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Konfigurimi i Patrick's Neovim",
+        "text": "Konfigurimi im personal i Neovim. Ky projekt përdoret për të konfiguruar Neovim sipas dëshirës sime, duke përfshirë lidhje të personalizuara, tema dhe shtojca. Ky projekt përdoret për ta bërë Neovim më miqësor dhe efikas për përdorimin tim personal.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Gjeneratori i hartave të Patrick",
+        "text": "Një mjet raportimi gjeohapësinor Python i ndërtuar me GeoPandas dhe Matplotlib për të gjeneruar harta të qarqeve dhe shteteve të SHBA. Ai i kthen të dhënat gjeografike në objekte analize të lexueshme, duke demonstruar një mentalitet të linjës së të dhënave: zgjidhni bibliotekat e duhura të domenit, normalizoni hyrjet dhe prodhoni rezultate që mbështesin vendime të qarta.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Library",
+        "text": "Një bibliotekë e dobishme e skripteve PowerShell për referencë në të ardhmen. E dobishme me veçorinë e skriptit $profile, më duket jashtëzakonisht e dobishme për automatizimin e detyrave nga terminali i Windows, pasi jam përdorues i shpeshtë i sistemit operativ Windows.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Biblioteka e Skripteve Ruby të Patrick",
+        "text": "Një bibliotekë e dobishme e skripteve Ruby për referencë në të ardhmen. I dobishëm për konceptet e ardhshme zhvillimore Ruby on Rails.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Ndërtues i aftësive PDF",
+        "text": "Një rrjedhë pune e gjenerimit të dokumenteve e ndërtuar me Python, Pdfkit, Jinja2, HTML dhe të dhëna të strukturuara JSON. Ai ndan të dhënat e ripërdorshme nga shabllonet e prezantimit për të gjeneruar rezyme të përshtatura PDF vazhdimisht, një model praktik për reduktimin e punës manuale dhe krijimin e dokumenteve të biznesit të përsëritshme.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Projekti i enkriptimit Rijandel",
+        "text": "Një grup krahasues prej 10+ zbatimesh Rijndael në variantet 128-, 192- dhe 256-bit. Rizbatimi i një algoritmi të ndjeshëm ndaj sigurisë nëpër gjuhë është një ushtrim i disiplinuar në specifikimet e sakta, sjelljen e testueshme dhe kufijtë e transportueshmërisë në nivel gjuhësor. të gjitha instinktet e dobishme për sistemet që trajtojnë të dhëna të ndjeshme.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Një mod i Minecraft që shton mjete të personalizuara, forca të blinduara, turma, blloqe, dimensione dhe shumë veçori të tjera në lojë. Ndërtuar me versionet Java 8-17 për versione të zgjedhura të Minecraft midis 1.16 dhe 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Gjuha e programimit Tiger",
+        "text": "Një gjuhë programimi dhe përkthyes i personalizuar i ndërtuar në Go për të eksploruar dizajnin e kohës së ekzekutimit të gjuhës, sjelljen e ekzekutimit dhe shkëmbimet e performancës. Përpilimi i tij në WebAssembly dhe integrimi i tij në portofol krijon një sipërfaqe produkti të vërtetë dhe të inspektueshme për inxhinierinë e nivelit të sistemeve në vend që ta lërë punën si një eksperiment vetëm për depo.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Faqja e internetit e Tiger Tailgating Pro",
+        "text": "Një uebsajt i React i dorëzuar për një biznes transporti në Clemson, SC. Puna përkthen ofertën e një biznesi të vogël në një udhëtim të qartë klienti dhe prani të besueshme në internet, duke aplikuar të menduarit e produktit për të ndihmuar një organizatë reale të konvertojë interesin në pyetjet dhe të ardhurat.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Projekti Turing Machine",
+        "text": "Familje me mbi 30+ implementime të Turing Machine. Përdoret për të demonstruar plotësinë e turingut për gjuhë të ndryshme programimi për kërkime, veçanërisht për gjuhën e programimit Tiger.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Gjuha e programimit Tiger"
+  },
+  "contact": {
+    "title": "Më kontaktoni",
+    "header": "Informacioni i Kontaktit",
+    "email": "pattygsocials@gmail.com",
+    "description": "Unë u përgjigjem pyetjeve nga emailet dhe mesazhet e LinkedIn. Unë gjithashtu do të telefonoj përsëri nëse numri im jepet nëpërmjet CV-së ose ndryshe, megjithëse preferoj ta mbaj privat numrin tim të telefonit."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Një mjet i cilësisë së të dhënave të bazuar në shfletues që vërteton dhe formaton JSON dhe YAML duke përdorur një motor Go të përpiluar në WebAssembly. Arkitektura vazhdon të analizojë afër përdoruesit për reagime të shpejta dhe private, ndërsa zbaton rregullat reale sintaksore në kufirin e të dhënave. Është një shembull kompakt i projektimit të një fluksi pune të besueshëm të zhvilluesit rreth korrektësisë, performancës dhe besimit.",
+    "more_info1": "Për më shumë informacion, referojuni README në",
+    "more_info2": "Depoja e formatit JSON/YAML.",
+    "format_as": "Formatoni si:",
+    "auto_detect": "Zbulimi automatik",
+    "format": "Lint & Format",
+    "valid_json": "✓ JSON i vlefshëm",
+    "valid_yaml": "✓ YAML e vlefshme",
+    "invalid_json": "JSON i pavlefshëm",
+    "invalid_yaml": "YAML e pavlefshme",
+    "empty_input": "Ju lutemi shkruani disa JSON ose YAML për t'u lintuar.",
+    "too_large": "Hyrja shumë e madhe (maksimumi 1 MB e lejuar).",
+    "fixed_yaml_spacing": "⚠ YAML kishte hapësirë/dhëmbje të pavlefshme, por është rregulluar dhe formatuar automatikisht.",
+    "loading": "Formatuesi po ngarkohet...",
+    "waiting_for_input": "Në pritje të të dhënave...",
+    "load_failed": "Formatuesi nuk mund të ngarkohet.",
+    "output": "Prodhimi:",
+    "input_code": "Input",
+    "json_examples": "Shembuj JSON",
+    "yaml_examples": "Shembuj YAML"
+  },
+  "tiger": {
+    "title": "Gjuha e Tigrit",
+    "description": "Tiger është një gjuhë programimi me porosi dhe përkthyes Go i krijuar për të eksploruar arkitekturën e kohës së ekzekutimit, semantikën e gjuhës dhe kompromiset e performancës. Përpilimi i përkthyesit në WebAssembly e kthen që sistemet funksionojnë në një produkt interaktiv, të bazuar në shfletues: përdoruesit mund të ekzekutojnë programe drejtpërdrejt ndërsa koha e ekzekutimit mbetet e lëvizshme dhe të izoluara nga aplikacioni pritës.",
+    "more_info1": "Për më shumë informacion, referojuni README në",
+    "more_info2": "Depoja e GitHub të Gjuhës së Programimit Tiger.",
+    "select_engine": "Zgjidhni motorin:",
+    "tiger_code": "Kodi Tiger:",
+    "run_tiger": "Vraponi Tiger",
+    "output": "Prodhimi:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Inxhinier i lartë me 6+ vite përvojë në projektimin e produkteve SaaS, sistemeve të prodhimit dhe softuerëve që gjenerojnë të ardhura."
+  },
+  "copy": {
+    "text": "Kopjo",
+    "copied": "E kopjuar!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Më ndiqni"
+  },
+  "languages": {
+    "title": "Përkthyes portofoli",
+    "description": "Zbuloni se si portofoli im është i aksesueshëm për vizitorë nga e gjithë bota me mbështetje për mbi 100 gjuhë.",
+    "global_accessibility": {
+      "title": "Aksesueshmëria globale",
+      "description": "Portofoli im është i disponueshëm në mbi {count} gjuhë, duke e bërë atë të aksesueshëm për vizitorët nga e gjithë bota. Kjo qasje shumëgjuhëshe demonstron përkushtimin tim ndaj përfshirjes dhe shtrirjes globale në zhvillimin e softuerit.",
+      "stats": {
+        "languages_supported": "Gjuhët e mbështetura",
+        "countries_represented": "Vendet e Përfaqësuara",
+        "continents_covered": "Kontinentet e mbuluara"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Gjuha e programimit të tigrit"
-    },
-    "contact": {
-        "title": "Më kontakto",
-        "header": "Informacioni i Kontaktit",
-        "email": "pattygsocials@gmail.com",
-        "description": "Unë i përgjigjem pyetjeve nga posta elektronike, mesazhet e lidhura dhe mesazhet në . Unë gjithashtu do të telefonoj përsëri nëse numri im sigurohet përmes rezyme ose ndryshe, megjithëse preferoj ta mbaj numrin tim të telefonit privat."
-    },
-    "formatter": {
-        "title": "JSON & YAML Formatter",
-        "description": "JSON & YAML Formatter është një mjet që ju lejon të formatoni skedarët JSON dhe YAML. Isshtë ndërtuar me Go dhe WebAssembly, dhe është krijuar për të qenë i shpejtë dhe efikas. Formatter është krijuar për të qenë i lehtë për t’u përdorur, me një ndërfaqe të thjeshtë që ju lejon të ngjitni në kodin tuaj JSON ose YAML dhe ta formatoni atë me klikimin e një butoni.",
-        "more_info1": "Për më shumë informacion, referojuni leximit në",
-        "more_info2": "Repositori JSON/YAML Formatter.",
-        "format_as": "Formati si:",
-        "auto_detect": "Zbuloj automatikisht",
-        "format": "Format",
-        "valid_json": "✓ Valid JSON",
-        "valid_yaml": "✓ Valid YAML",
-        "invalid_json": "Invalid JSON",
-        "invalid_yaml": "Invalid YAML",
-        "empty_input": "Please enter some JSON or YAML to lint.",
-        "too_large": "Input too large (max 1MB allowed).",
-        "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted."
-    },
-    "tiger": {
-        "title": "Gjuhë tigri",
-        "description": "Gjuha e programimit Tiger është një gjuhë programimi me porosi e ndërtuar në të dyja dhe ndryshk për të eksperimentuar me hartimin dhe performancën e përkthyesit. Zbatuar në faqen e internetit të portofolit duke përdorur asamblenë në internet. Gjuha e programimit Tiger është një gjuhë programimi me porosi e ndërtuar në të dyja dhe ndryshk për të eksperimentuar me hartimin dhe performancën e përkthyesit. Zbatuar në faqen e internetit të portofolit duke përdorur asamblenë në internet.",
-        "more_info1": "Për më shumë informacion, referojuni leximit në",
-        "more_info2": "Gjuha e programimit Tiger Repository GitHub.",
-        "select_engine": "Zgjidhni Motorin:",
-        "tiger_code": "Kodi Tiger:",
-        "run_tiger": "Vraponi Tigerin",
-        "output": "Prodhimi:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Inxhinier i plotë i softuerit Stack me qendër në Florida Qendrore"
-    },
-    "copy": {
-        "text": "Kopjoj",
-        "copied": "Kopjuar!"
-    },
-    "social_media": {
-        "github": "Getull",
-        "linkedin": "LinkedIn",
-        "youtube": "YouTube",
-        "text_strip": "Më ndiq"
-    },
-    "languages": {
-        "title": "Përkthyes i portofolit",
-        "description": "Zbuloni se si portofoli im është i arritshëm për vizitorët nga e gjithë bota me mbështetje për mbi 100 gjuhë.",
-        "global_accessibility": {
-            "title": "Qasja globale",
-            "description": "Portofoli im është i disponueshëm në gjuhët mbi {Count}, duke e bërë atë të arritshëm për vizitorët nga e gjithë bota. Kjo qasje shumëgjuhëshe tregon angazhimin tim për përfshirjen dhe arritjen globale në zhvillimin e softuerit.",
-            "stats": {
-                "languages_supported": "Gjuhët e mbështetura",
-                "countries_represented": "Vendet e përfaqësuara",
-                "continents_covered": "Kontinentet e mbuluara"
-            }
+    "features": {
+      "title": "Veçoritë",
+      "items": [
+        {
+          "title": "Përkthimi në kohë reale:",
+          "description": "Ndërroni gjuhët menjëherë me përzgjedhësin e gjuhës"
         },
-        "features": {
-            "title": "Tiparet",
-            "items": [
-                {
-                    "title": "Përkthimi në kohë reale:",
-                    "description": "Kaloni gjuhët menjëherë me zgjedhësin e gjuhës"
-                },
-                {
-                    "title": "Gjuha e bazuar në URL:",
-                    "description": "Preferencat e gjuhës ruhen në URL"
-                },
-                {
-                    "title": "Mbështetja e skenarit vendas:",
-                    "description": "Renditja e duhur e skripteteve si arabisht, kinezisht, hindisht, dhe më shumë"
-                },
-                {
-                    "title": "Ndjeshmëria kulturore:",
-                    "description": "Përkthimet Konsideroni kontekstin kulturor, jo vetëm kuptimet e mirëfillta"
-                },
-                {
-                    "title": "SEO optimizuar:",
-                    "description": "Secili variant i gjuhës është i optimizuar për motorët e kërkimit"
-                }
-            ]
+        {
+          "title": "Gjuha e bazuar në URL:",
+          "description": "Preferencat e gjuhës ruhen në URL"
         },
-        "world_map": {
-            "title": "Hartë interaktive botërore",
-            "description": "Hover mbi vendet në hartë për të parë gjuhët e tyre të mbështetura:",
-            "languages_label": "Gjuhë",
-            "legend": {
-                "supported": "Gjuhët e mbështetura",
-                "not_supported": "Asnjë mbështetje gjuhësore"
-            },
-            "zoom_controls": {
-                "zoom_in": "Zmadhoj",
-                "zoom_out": "Zmadhoj",
-                "reset": "Rivendos pamjen"
-            }
+        {
+          "title": "Mbështetja e skriptit vendas:",
+          "description": "Përkthimi i duhur i skripteve si arabisht, kinezisht, hindisht dhe më shumë"
         },
-        "supported_languages": {
-            "title": "Gjuhët e Mbështetura"
+        {
+          "title": "Ndjeshmëria kulturore:",
+          "description": "Përkthimet marrin parasysh kontekstin kulturor, jo vetëm kuptimet e drejtpërdrejta"
         },
-        "interactive_country_map": {
-            "title": "Hartë interaktive e vendit",
-            "description": "Hover mbi vendet më poshtë për të parë gjuhët e tyre të mbështetura:",
-            "language_count": {
-                "single": "gjuhë",
-                "multiple": "gjuhë"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Asnjë mbështetje gjuhësore"
+        {
+          "title": "SEO e optimizuar:",
+          "description": "Çdo variant i gjuhës është i optimizuar për motorët e kërkimit"
         }
+      ]
     },
-    "logotext": "Patrik"
+    "world_map": {
+      "title": "Harta interaktive e botës",
+      "description": "Zhvendosni mbi vendet në hartë për të parë gjuhët e tyre të mbështetura:",
+      "languages_label": "Gjuhët",
+      "legend": {
+        "supported": "Gjuhët e mbështetura",
+        "not_supported": "Nuk ka mbështetje gjuhësore"
+      },
+      "zoom_controls": {
+        "zoom_in": "Zmadhoni",
+        "zoom_out": "Zmadhoni",
+        "reset": "Rivendos pamjen"
+      }
+    },
+    "supported_languages": {
+      "title": "Gjuhët e mbështetura"
+    },
+    "interactive_country_map": {
+      "title": "Harta interaktive e vendit",
+      "description": "Zhvendosni mbi vendet më poshtë për të parë gjuhët e tyre të mbështetura:",
+      "language_count": {
+        "single": "gjuha",
+        "multiple": "gjuhët"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Nuk ka mbështetje gjuhësore"
+    }
+  },
+  "logotext": "PATRIKU"
 }

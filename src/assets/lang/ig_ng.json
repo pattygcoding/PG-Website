@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Ulo",
-        "about": "Gbasara m",
-        "portfolio": "Potafoliyo",
-        "projects": "Oru ngo mkpokọta",
-        "tiger": "Asụsụ Tiger",
-        "portfolio_translator": "Pọtụ Pọtụfoliyo",
-        "formatter": "JSON & Yaml kpụrụ",
-        "contact": "Kpọtụrụ m"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Ụlọ",
+    "about": "Gbasara m",
+    "portfolio": "Pọtụfoliyo",
+    "projects": "Ọrụ weebụsaịtị",
+    "tiger": "Asụsụ Agụ",
+    "portfolio_translator": "Ntụgharị Pọtụfoliyo",
+    "formatter": "JSON & YAML nhazi",
+    "contact": "Kpọtụrụ m"
+  },
+  "home": {
+    "title": "Senior Full-Stack Engineer | Ngwaahịa & Sistemu",
+    "animated": {
+      "first": "Injinia zuru oke",
+      "second": "Sistemụ & Onye Nrụpụta Ihe Owuwu",
+      "third": "Injinia ngwaahịa SaaS",
+      "fourth": "Software a pụrụ ịdabere na ya, nsonaazụ azụmaahịa"
     },
-    "home": {
-        "title": "Ulo",
-        "animated": {
-            "first": "Injin software zuru ezu",
-            "second": "Onye nrụpụta Weebụ",
-            "third": "Egwuregwu egwuregwu",
-            "fourth": "Onye Okike ọdịnaya"
-        },
-        "footer": "Webụsaịtị ugbu a tụgharịrị na 100 Aval!",
-        "descriptionA": "Injinịacha ngwanrọ zuru ezu & Onye Mmepụta Web nke nwere akụkọ ihe mere eme nke na-eme ka ahụmịhe nke ọma, site na ịmepụta usoro izu ike na njikọta Agile na njikọta ndị otu.",
-        "descriptionB": "Ọzọkwa, mụ onwe m bụ Onye Okike ọdịnaya dị omimi nke nwere alborithms nke ọtụtụ nyiwe mgbasa ozi, gụnyere , YouTube, ka ị nweta isi na-asọpụrụ ma na-etinye aka na ngalaba.",
-        "portfolio_button": "Pọtụfoliyo m",
-        "contact_button": "Kpọtụrụ m",
-        "about_button": "Gbasara m"
+    "footer": "Atụgharịrị asụsụ webụsaịtị ugbu a na ọ dị n'asụsụ 100+!",
+    "descriptionA": "Ọkachamara injinia zuru oke nwere ahụmịhe afọ 6+ na-ewere ngwaahịa sitere na ihe ndị a na-edoghị anya na sistemụ mmepụta a pụrụ ịdabere na ya. M na-echepụta ihe owuwu dị n'azụ React, Angular, .NET, Node.js, Java, C#, Go, na ngwa SQL: oke ọrụ doro anya, ụdị data na-adịgide adịgide, ụkpụrụ ịnweta nchekwa, na Ndị otu ụzọ nnyefe nwere ike iji obi ike rụọ ọrụ.",
+    "descriptionB": "Ọrụ m jikọtara mkpebi injinia na nsonaazụ azụmaahịa. Site na SaaS na-eme atụmatụ na-ewu nke na-atụgharị data akwụkwọ akụkọ ka ọ bụrụ atụmatụ ndị ahịa dị njikere maka nyiwe weebụ na-enweta ego, m na-ewulite ngwanrọ gburugburu usoro ọrụ, ihe egwu, na uru bara uru bara uru maka ndị na-eji ya.",
+    "portfolio_button": "Pọtụfoliyo m",
+    "contact_button": "Kpọtụrụ m",
+    "about_button": "Gbasara m"
+  },
+  "about": {
+    "title": "Gbasara m",
+    "personal_summary": {
+      "title": "Nchịkọta nkeonwe",
+      "text": "Abụ m onye injinia zuru oke nke dabere na Orlando, FL bụ onye nwere ụzọ site na nsogbu ngwaahịa ruo nsonaazụ mmepụta. M na-eme nhọrọ teknụzụ maka ọrụ nke sistemu: NET na entlọ ọrụ Framework Core mgbe ngalaba ahaziri nke ọma yana ihe nwere ike ịnwale; Angular ma ọ bụ meghachi omume mgbe mgbagwoju anya workflows chọrọ a maintainable interface; Node.js ma ọ bụ Gaa mgbe API, ntinye, ma ọ bụ ngwá ọrụ dị elu chọrọ oge agbadoro anya. N'ofe ngwaahịa SaaS, usoro ọrụ dị n'ime, na nyiwe ndị ahịa na-eche ihu, ana m eduga na azụmaahịa doro anya, atụmatụ echedoro na nke na-agbanwe agbanwe, nnwale akpaghị aka, na omume nnyefe nke. enyemaka otu ụgbọ mmiri bara uru software na-ahapụghị arụmọrụ n'azụ."
     },
-    "about": {
-        "title": "Gbasara m",
-        "personal_summary": {
-            "title": "Nchịkọta nkeonwe",
-            "text": "Dị ka onye nrụpụta ngwanrọ zuru ezu nke sitere na Orlando, FL, m gosipụtara nka na teknụzụ dị iche iche, site na Java na C + Site na ndekọ egwu nke atụmatụ aearheageng, gụnyere mmepe programmụ Java maka minecraft na ebe nrụọrụ weebụ na-akwụghachi ụgwọ maka ndị ọkwọ ụgbọala ụgbọala, achọpụtara m onye isi na ihe ọhụrụ. Ndokwa m na-egosi na m nwere ike ịmepụta njikwa ọrụ, dozie nsogbu ndị dị mgbagwoju anya, ma nyefee nsogbu dị elu nke na-eme ka ihe ịga nke ọma na-eme ka ahụmịhe ọrụ."
+    "professional_experience": {
+      "title": "Ahụmahụ ọkachamara",
+      "entries": [
+        {
+          "jobtitle": "Injinia ngwa ngwa",
+          "where": "Imepụta mmekọrịta",
+          "date": "2025 - Ugbu a"
         },
-        "professional_experience": {
-            "title": "Ahụmahụ ọkachamara",
-            "entries": [
-                {
-                    "jobtitle": "Injin Injin",
-                    "where": "Orion180 mkpuchi",
-                    "date": "2024 -"
-                },
-                {
-                    "jobtitle": "Onye nchoputa & onye nrụpụta ngwanrọ zuru ezu",
-                    "where": "Akanarị",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Injin software zuru ezu",
-                    "where": "Mee ngwangwa",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Onye nrụpụta Weebụ (mmemme ụmụ akwụkwọ)",
-                    "where": "Mahadum Clensuson GDI",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Onye nlekọta oche",
-                    "where": "Mahadum Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Onye nlekọta oche",
-                    "where": "Mahadum Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Injinia ngwanrọ",
+          "where": "Orion180 Insurance",
+          "date": "2024-2025"
         },
-        "technical_skills": {
-            "title": "Aka oru nka",
-            "header1": "Asụsụ mmemme",
-            "header2": "Framers & ọbá akwụkwọ",
-            "header3": "Ngwaọrụ & Teknụzụ"
+        {
+          "jobtitle": "Injinia ngwanrọ",
+          "where": "SupremeMC",
+          "date": "2020-2024"
         },
-        "services": {
-            "title": "Ọrụ m",
-            "entries": [
-                {
-                    "title": "Injin zuru oke",
-                    "text": "M na-enye azịza zuru ezu n'ofe ihu na azụ na azụ, na-akwado njikọta na arụmọrụ niile na ngwanrọ niile."
-                },
-                {
-                    "title": "Ntozu Weebụ",
-                    "text": "Site na nka na HTML, CSS, na Javascride na Javascride."
-                },
-                {
-                    "title": "Mmepe egwuregwu",
-                    "text": "Asụsụ dị ka Java na C ++, m pụrụ iche na ịmepụta ahụmịhe egwuregwu na-egbu egbu, site na echiche na njikarịcha na arụmọrụ na arụmọrụ dị mma."
-                }
-            ]
+        {
+          "jobtitle": "Injinia ngwanrọ",
+          "where": "Mee ka mmụta dịkwuo ngwa",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Injinia ngwanrọ onye ndu (mmemme ụmụ akwụkwọ)",
+          "where": "Mmemme GDI nke Mahadum Clemson",
+          "date": "2021-2022"
+        },
+        {
+          "jobtitle": "Onye nlekọta oche",
+          "where": "Mahadum Clemson",
+          "date": "2021-2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Potafoliyo",
-        "filter_by": "Pọtụfoliyo na-enyocha:",
-        "entries": {
-            "biblioteca": {
-                "title": "BIBLIOTECA JSON",
-                "text": "Nsụgharị Python na ntụgharị asụsụ asụsụ. A ga-enye m akwụkwọ ntanetị ebe nrụọrụ weebụ m na 70 Abụọ, gụnyere Spanish, French, Chinese, Arabic, na ọtụtụ ndị ọzọ. A na-eji oru ngo a iji mepụta Pọtụfoliyo webụsaịtị, nke bara uru maka iru ndị na-ege ntị. Site na oru a, ihe karịrị 99% nke ụwa nwere ike ịgụ akwụkwọ Pọtụfoliyo m n'asụsụ na-agụ akwụkwọ.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Jikọtara anọ",
-                "text": "Nnukwu ezinaụlọ nke ihe karịrị nrụpụta 50+ nke egwuregwu anọ jikọọ. Ihe owuwu a gụnyere mmejuputa ihe karịrị usoro ihe omume iri atọ, gụnyere Java, C ++, Python, Javascript, na ndị ọzọ. Ọzọkwa, ọ gụpụtara ihe karịrị usoro 20+ dị iche iche ma ọ bụ ụdị ndị ọzọ, gụnyere nzaghachi.js, Ruby na Rails, ASP.NET, na ndị ọzọ.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Ngwa Grocalry",
-                "text": "Ngwa zuru ezu zuru ezu. Ngwa a na-esochi usoro njikwa / ọrụ / reposesitelọ ọrụ na ntọala maka nnọgidesi ike ma tinye ego nnwale zuru oke.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Oru oru",
-                "text": "Ọrụ na akwụkwọ na-emegharị n'etiti asụsụ mmemme dị iche iche. Ugbu a gụnyere asụsụ mmemme 15 dị iche iche na usoro igbu mmadụ 18.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Ndepụta Ndepụta",
-                "text": "Debanye aha ngosi zuru ezu (POS) Debanye aha na sistemụ nchịkwa nke ihe ubi na-arụ ọrụ na angular 17+ na node.js. Ngwa a na-egosi usoro ọkwa plọ aka ọgụgụ ọrụ dị iche iche na nkwenye onye ọrụ, Njikwa nke ọrụ na njikwa ọrụ, nsuso na nhazi ọrụ.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "JSON & Yaml Auto Automate",
-                "text": "Vingbụ na Akaraphortist maka faịlụ JSON & Yaml. A na-eji oru ngo a iji methazi Jon & Yaml, nke bara uru maka idebe koodu ocha ma hazie. E wuru na Go, jikọtara ya na webánsemid, wee tinye n'ime Pọtụfoliyo m dị ka oru ngo mkpokọta. A na-eme ka ọ bụrụ ọdịnihu.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Igwe na-apụ apụ",
-                "text": "Ihe owuwu ọgbara ọhụrụ na-eme atụmatụ na iwepụ SaaS maka ndị ọrụ ngo na ndị na-eme atụmatụ. Ọ na-ebubata faịlụ CSV na Excel, kọlụm maapụ akpaaka, na-agbakọ ihe gwupụtara n'ala na oke ọrụ ala, na-arụ ọrụ na akara, ma na-ewepụta atụmatụ ntinye akwụkwọ PDF na Okwu dị njikere site na iji usoro ọrụ React + Express na-egbu maramara.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft Json jenerator",
-                "text": "JSON BAYESE wuru na Python maka minecraft ike na ngwugwu data. A na-eji oru ngo a iji mepụta faịlụ JSn maka Monecraft Mods, tinyere ihe omenala, ihe mgbochi, na ulo. Ezigbo uru maka ọ bụghị naanị na ịmepụta dataPacks ọdịnala, mana maka Mods Dị Mma site na MOD MOD MOD.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Ahụmịhe agụmakwụkwọ m",
-                "text": "N'akụkụ ọrụ onwe m, enwetara m ọtụtụ nkà site n'ahụmahụ mmụta. Pịa ebe a iji lelee profaịlụ Njikọ m maka ozi ndị ọzọ.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Ahụmahụ m ọkachamara",
-                "text": "N'akụkụ ọrụ m, enwetara m ọtụtụ nkà site n'ahụmahụ ọkachamara. Pịa ebe a iji lelee profaịlụ Njikọ m maka ozi ndị ọzọ.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Patrick Goodwin Portfoliyo webụsaịtị",
-                "text": "Weebụsaịtị a bụ weebụsaịtị m Pọtụfoliyo nke m, na-emegharị ya. A na-eji oru ngo a gosiputa ihe omuma m na oru m, ma nye ya iji nye ndi n'enwere ohere ịkpọtụrụ m. A na-eji oru ngo a eme ka ọnụnọ ọkachamara n'ịntanetị.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Ọbá akwụkwọ Lua Scisick",
-                "text": "Ọba akwụkwọ bara uru nke akwụkwọ nyocha maka akwụkwọ maka ọdịnihu. A na-eji ọba akwụkwọ a mee ihe na-akpaghị aka na scripts, nke nwere ike ịbịanye aka maka ọrụ-na-abaghị uru, dị ka Lua na-abụkarị nke Python na Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Microsoft Microsoft Excel SpredSheet (VBA)",
-                "text": "Ọba akwụkwọ bara uru nke Scripts VBA maka Microsoft Excel. A na-eji ọbịbịa a mee ihe na-arụ ọrụ na-arụ ọrụ na akwụkwọ akụkọ Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patrick's Neovim Config",
-                "text": "Nhazi Nevim nke m. A na-eji oru ngo a hazie nevim na mmasi m, tinyere igodo okike, isiokwu na plugins. A na-eji oru ngo a mee ka nevim nwekwuo enyi ma na-arụ ọrụ nke ọma maka nke m.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Map Patrick",
-                "text": "Onye na-eme obodo na steeti na steeti na-ejikọ ọnụ, nke nwere Python na-eji Geopadas na ọbá akwụkwọ Matplotlib. A na-eji ọrụ a iji mepụta maapụ nke United States, gụnyere County Maps. A na-eji oru ngo a mepụta maati omenala maka nyocha data na nyocha.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Powertick Powerhell Akwukwo akwukwo",
-                "text": "Ọbá akwụkwọ Powerhell bara uru maka ntụle ọdịnihu. Ọ bara uru na atụmatụ ederede profaịlụ nke $ a, achọpụtara m na-enye aka maka ọrụ na-arụ ọrụ site na windo windo ahụ, dịka m bụ onye ọrụ Windows.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Akwụkwọ Akwukwo Akwukwo Akwukwo Akwukwo Nso",
-                "text": "Ọba akwụkwọ bara uru nke akwụkwọ edemede Ruby maka akwụkwọ maka akwụkwọ. Bara uru maka ọdịnihu ruby ​​na ụzọ Rails mmepe echiche.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "PDF Nrụzi",
-                "text": "Onye na-arụ ọrụ PDF nke Pyf na Pyfkit site na ndọtị PDFKITE na Jinja2, n'akụkụ HTML na usoro JSON. A na-eji ọrụ a iji mepụta faịlụ PDF site na ndepụta nke nkà na ọrụ. Enwere ike iji ọrụ a iji mepụta ịmalite PDF omenala, nke bara uru maka ngwa ọrụ.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Ọrụ Rercandenl",
-                "text": "Ezinaụlọ nke ihe ndị a na-eme 10 + encrithm encrithm na 128, 192, na 256 bit. A na-eji oru ngo a gosipụta na algorithy m na-eme na ngalaba mmemme dị iche iche. A na-eji oru ngo a mepụta ezinaụlọ nke mmejuputa iwu RIJndel encrithm.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Mod minimaft mod",
-                "text": "Ihe minecraft mod na-agbakwunye ngwaọrụ omenala, agha, mmegide, mgbochi, akụkụ, na ọtụtụ atụmatụ ndị ọzọ na egwuregwu ahụ. Nsụgharị Java 8-17 maka họrọ ụdị Minecraft n'etiti 1.16 na 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Asụsụ Mmemme Tiger",
-                "text": "Asụsụ mmemme omenala wuru na ha abụọ na-aga & aja aja iji nwalee ya na arụmọrụ na arụmọrụ. Mejupụtara na weebụsaịtị Pọtụfoliyo na-eji nzukọ Weebụ.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Weebụsaịtị na-ekwupụta Weebụsaịtị",
-                "text": "Mkpokọta m wuru na 2024 maka ọrụ Tiger na -agagharị, ụlọ ọrụ na-akawanye elu na Clemson, SC. Wuru na nzaghachi.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Turging moting oru ngo",
-                "text": "Ezinaụlọ nke ihe karịrị iri atọ na iri atọ nke igwe turging. Ejiri iji gosipụta na ị ga-ezute maka asụsụ mmemme dị iche iche maka nyocha, ọkachasị maka mmemme mmemme Tiger.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Nka nka",
+      "header1": "Asụsụ mmemme",
+      "header2": "Frameworks & Ụlọ akwụkwọ",
+      "header3": "Ngwa & Teknụzụ"
+    },
+    "services": {
+      "title": "Ọrụ m",
+      "entries": [
+        {
+          "title": "Injinia Stack zuru ezu",
+          "text": "Ana m eduga nnyefe ngwaahịa na njedebe na njedebe: ịtụgharị usoro ọrụ azụmahịa n'ime oke sistemụ, ụdị data, API, na interfaces, wee buru ọrụ ahụ site na nnwale, mbugharị, na iteration. Ebumnuche bụ sọftụwia nke otu nwere ike ịmalite ma rụọ ọrụ, ọ bụghị nchịkọta nke ihuenyo agbapụrụ."
+        },
+        {
+          "title": "Ngwaahịa & Platform Architecture",
+          "text": "Ana m ahọrọ ikpo okwu na usoro dabere na nsogbu ahụ: ọrụ NET Layered maka ngalaba azụmahịa, ngwa Angular ma ọ bụ React na-ebugharị maka arụmọrụ dị mgbagwoju anya, mmekọrịta. ụdị data maka usoro ọrụ na-aza ajụjụ, yana njikọta emebere na ụdị ọdịda, njikwa ohere, na nrụgide n'uche."
+        },
+        {
+          "title": "Mmepụta-Njikere Nnyefe",
+          "text": "M na-eji eziokwu eme ihe mgbe m nwesịrị echiche: ihe nzuzo echekwabara na njikwa isi mmalite, ụzọ mbugharị nchekwa data doro anya, ikike dabere na ọrụ, nkwado na oke sistemụ, ule akpaaka, imata CI/CD, yana nleba anya bara uru. Ihe ndị a bụ nkọwa na-atụgharị prototype ka ọ bụrụ ngwanrọ a pụrụ ịdabere na ya."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Pọtụfoliyo",
+    "filter_by": "Wepụta Pọtụfoliyo Site:",
+    "entries": {
+      "biblioteca": {
+        "title": "Akwụkwọ akụkọ JSON",
+        "text": "Pipeline mpaghara nke dabere na Python nke na-atụgharị otu isi mmalite ọdịnaya ahaziri ka ọ bụrụ pọtụfoliyo enwere ike nweta zuru ụwa ọnụ. Ọ na-ejikwa data ntụgharị asụsụ dị ka sistemu enwere ike idobe kama iji aka degharịa ibe ibe, na-enye ohere ka saịtị ahụ wee gbasaa n'ofe asụsụ 100+ na-eme ka ụwa ruo n'ọkwa zuru ụwa ọnụ. ike ịrụ ọrụ kama ịbụ otu oge.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Jikọọ anọ",
+        "text": "Nnukwu ezinụlọ nwere ihe karịrị 50+ mmejuputa egwuregwu Jikọọ Four. Ọrụ a gụnyere mmemme n'ihe karịrị asụsụ mmemme 30 dị iche iche, gụnyere Java, C++, Python, JavaScript, na ndị ọzọ. Ọzọkwa, ọ gụnyekwara ihe karịrị 20+ dị iche iche frameworks ma ọ bụ ndị ọzọ formats, gụnyere React.js, Ruby on Rails, ASP.NET, na ndị ọzọ.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Ngwa ngwa nri",
+        "text": "Ngwa zuru oke .NET 9 Blazor Server nke na-egosipụta ihe owuwu azụ azụ maka ebumnuche azụmahịa. Nkewa nke njikwa/ọrụ/ebe nchekwa na-edobe iwu ngwa, ịnweta data na ihe ngosi na-adabereghị na ya; Ngwakọta Framework Core na-enye nnọgidesi ike na-adịgide adịgide; na nke ụlọ nyocha zuru oke na-echebe omume ka ngwaahịa na-etolite.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Interop Project",
+        "text": "Ntụtụ aka mmekọrịta n'asụsụ obe nke gbasara asụsụ mmemme iri na ise yana usoro mmezu iri na asatọ. Ihe oru ngo a na-enyocha ókèala ebe sistemu na-abụkarị ndị na-emebi emebi: nkwekọrịta usoro, mgbanwe data, omume oge na-aga, na ụzọ njikọta ọzọ. Ọ na-egosipụta echiche sistemụ dị mkpa mgbe ngwaahịa dị ukwuu karịa otu nchịkọta.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Ndebanye aha ngwa ahịa",
+        "text": "POS zuru ezu na ngwa ahịa ngwa ahịa ejiri Angular 17+ na Node.js rụọ. Ọ na-egosiputa nchegbu arụ ọrụ nke sistemu B2B: ndị ọrụ akwadoro, njikwa ohere dabere na ọrụ, izi ezi ngwa ahịa, na usoro ịkwụ ụgwọ aghụghọ. Emebere oru ngo a gburugburu ọrụ otu ndị otu ndebanye aha na-arụ, ọ bụghị naanị katalọgụ nke atụmatụ.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Onye nhazi akpaaka",
+        "text": "Ngwa nkwado JSON na YAML dabere na ihe nchọgharị wuru na Go wee chịkọta ya na WebAssembly. Ịbugharị injin ntugharị n'ime WASM na-eme ka mmekọrịta ahụ na-anabata na mpaghara na ihe nchọgharị ahụ ka ị na-etinye ezigbo nzacha iji nweta ntinye na-ezighi ezi. Ọ bụ ihe atụ lekwasịrị anya nke ịhọrọ nhazi oge ịgba ọsọ maka ịrụ ọrụ, ibugharị, na ntụkwasị obi onye ọrụ.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Igwe na-apụ apụ",
+        "text": "Ihe owuwu na-eme atụmatụ SaaS wuru gburugburu ọnụ ahịa na-arụ ọrụ nke ndị ọrụ nkwekọrịta na-enwe mmejọ. Ngwaahịa React + Express na-etinye data CSV na Excel, maapụ kọlụm na-ekwekọghị ekwekọ n'ime ụdị ngalaba a ga-eji rụọ ọrụ, na-agbakọ ngwupụta olulu na oke ọrụ ala, na-arụ ọrụ na akara, ma na-emepụta atụmatụ PDF na Okwu dị njikere ndị ahịa. Nke a bụ injinia ndụ okirikiri ngwaahịa zuru oke: nyocha data, iwu ngụkọ, usoro ọrụ onye ọrụ na-egbu maramara, yana ihe ndị na-enyere aka azụmaahịa aka ịkwaga site na ntinye raw gaa n'ọkwa.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Generator",
+        "text": "Igwe ọkụ JSON dị fechaa wuru na Python maka akụrụngwa Minecraft & ngwugwu data. A na-eji ọrụ a wepụta faịlụ JSON maka Mods Minecraft, gụnyere ihe omenala, ngọngọ, na ụlọ ọrụ. Ọ bara uru ọ bụghị naanị ịmepụta datapack omenala, mana maka mods yana site na njirimara mgbanwe aha mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Ahụmahụ agụmakwụkwọ m",
+        "text": "N'akụkụ ọrụ nkeonwe m, enwetawokwa m ọtụtụ nkà site na ahụmahụ mmụta. Pịa ebe a ka ịlele profaịlụ LinkedIn m maka ozi ndị ọzọ.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Ahụmahụ Ọkachamara m",
+        "text": "Afọ isii gbakwunyere ahụmịhe injinia ọkachamara n'ofe otu ngwaahịa, nyiwe azụmahịa, yana sọftụwia chere ndị ahịa ihu. Ọrụ m gụnyere iwulite ọkwa ngwa a na-echekwa, imekọ ihe n'ofe usoro nnyefe, na ịme mkpebi teknụzụ na okirikiri ndụ ngwaahịa, na-arụ ọrụ. ihe ize ndụ, na ogologo oge nwe anya.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Patrick Goodwin Pọtụfoliyo weebụsaịtị",
+        "text": "Pọtụfoliyo React nwere echiche mmepụta nke na-emeso nnweta na iru ụwa dị ka ihe injinia chọrọ. Ọ gụnyere pipeline ntụgharị asụsụ enwere ike idowe maka asụsụ 100+, ngwa mmekọrịta nke WebAssembly na-akwado, ụkpụrụ UI na-anabata yana ịnweta ya, yana ihe nrụpụta ọrụ. emebere ka ọ too ka a na-ebufe ọrụ ọhụrụ.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "Ọbá akwụkwọ bara uru nke scripts Lua maka ntụnye aka n'ọdịnihu. A na-eji ọba akwụkwọ a na-arụ ọrụ na script Lua, nke nwere ike ịba uru maka ọrụ dị mkpa, ebe Lua na-abụkarị asụsụ scripting ngwa ngwa karịa Python na Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Ọbá akwụkwọ bara uru nke scripts VBA maka Microsoft Excel. A na-eji ọba akwụkwọ a na-arụ ọrụ na mpempe akwụkwọ Excel.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Nhazi Neovim nke m. A na-eji ọrụ a hazie Neovim ka ọ masịrị m, gụnyere igodo igodo omenala, isiokwu na plugins. A na-eji ọrụ a mee ka Neovim nwekwuo enyi na enyi na ịrụ ọrụ nke ọma maka ojiji nkeonwe m.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick's Map Generator",
+        "text": "Ngwá ọrụ mkpesa geospatial Python nke ejiri GeoPandas na Matplotlib rụọ iji mepụta mpaghara US na maapụ steeti. Ọ na-atụgharị data mpaghara ka ọ bụrụ ihe nyocha enwere ike ịgụ, na-egosipụta echiche pipeline data: họrọ ọba akwụkwọ ngalaba ziri ezi, hazie ndenye, wee wepụta nsonaazụ ndị ahụ. na-akwado mkpebi doro anya.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Library",
+        "text": "Ọbá akwụkwọ bara uru nke edemede PowerShell maka ntụnye aka n'ọdịnihu. Ọ bara uru na njirimara script profaịlụ $, achọpụtara m na nke a na-enye aka nke ukwuu maka ịmegharị ọrụ site na Windows Terminal, ebe m na-eji Windows OS na-emekarị.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Ọbá akwụkwọ bara uru nke scripts Ruby maka ntụnye aka n'ọdịnihu. Ọ bara uru maka echiche mmepe Ruby on Rails n'ọdịnihu.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Onye nrụpụta nka PDF",
+        "text": "Ọgbọ na-arụ ọrụ akwụkwọ ejiri Python, Pdfkit, Jinja2, HTML na data JSON ahaziri. Ọ na-ekewa data enwere ike iji ya na ndebiri ngosi iji mepụta PDF ahaziri ahazi, usoro bara uru maka ibelata ọrụ aka yana imepụta akwụkwọ azụmahịa. emeghari.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandel Encryption Project",
+        "text": "Usoro ntụnyere nke mmejuputa Rijndael 10+ gafere ụdị 128-, 192- na 256-bit. Ịmeghachi algọridim na-eche nche n'ofe asụsụ bụ mmega ahụ akwadoro na nkọwapụta, omume a na-anwale, na oke nke mbugharị ọkwa asụsụ, mmuo niile bara uru maka sistemụ na-ejikwa data dị nro.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "A Minecraft Mod nke na-agbakwunye ngwa ọdịnala, ngwa agha, mobs, ngọngọ, akụkụ na ọtụtụ atụmatụ ndị ọzọ na egwuregwu ahụ. Ejiri ụdị Java 8-17 rụọ ya maka họrọ ụdịdị Minecraft n'etiti 1.16 na 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Asụsụ Mmemme Agụ",
+        "text": "Asụsụ mmemme na ntụgharị asụsụ arụrụ n'ime Go ka inyocha nhazi oge ojiri asụsụ, omume mmebe, yana azụmaahịa arụmọrụ. Ịchịkọta ya na WebAssembly na itinye ya na Pọtụfoliyo na-emepụta ezigbo ngwaahịa ngwaahịa maka nhazi ọkwa usoro kama ịhapụ ọrụ ahụ dị ka nnwale naanị ebe nchekwa.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Tiger Tailgating Uru Weebụsaịtị",
+        "text": "Webụsaịtị React ewepụtara maka azụmaahịa Clemson, SC tailgating. Ọrụ ahụ na-atụgharị onyinye obere azụmaahịa ka ọ bụrụ njem ndị ahịa doro anya na ọnụnọ webụ a pụrụ ịdabere na ya, na-etinye echiche ngwaahịa iji nyere ezigbo ụlọ ọrụ aka ịtụgharị mmasị. n'ime ajụjụ na ego ha ga enweta.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Turing Machine Project",
+        "text": "Ezinụlọ nke ihe karịrị 30+ mmemme nke Turing Machine. A na-eji egosipụta ntụgharị zuru oke maka asụsụ mmemme dị iche iche maka nyocha, ọkachasị maka Asụsụ Mmemme Tiger.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Asụsụ Mmemme Agụ"
+  },
+  "contact": {
+    "title": "Kpọtụrụ m",
+    "header": "Ozi mkpọtụrụ",
+    "email": "pattygsocials@gmail.com",
+    "description": "Ana m aza ajụjụ sitere na ozi email na LinkedIn. M ga-akpọghachite ma ọ bụrụ na enyere nọmba m site na resume ma ọ bụ n'ụzọ ọzọ, n'agbanyeghị na ọ masịrị m idebe nọmba ekwentị m na nzuzo."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Ngwá ọrụ ogo data dabere na ihe nchọgharị na-akwado ma na-ahazi JSON na YAML site na iji injin Go agbakọtara na WebAssembly. Ihe owuwu ahụ na-aga n'ihu na-atụgharị n'akụkụ onye ọrụ maka nzaghachi ngwa ngwa, nke onwe ma na-emenye ezigbo iwu syntax na oke data. Ọ bụ ihe atụ kọmpat nke imepụta usoro nrụpụta onye nrụpụta a pụrụ ịdabere na ya gburugburu izizi, arụmọrụ na ntụkwasị obi.",
+    "more_info1": "Maka ozi ndị ọzọ, rụtụ aka na README na",
+    "more_info2": "Ebe nchekwa ihe nhazi JSON/YAML.",
+    "format_as": "Ụdị dị ka:",
+    "auto_detect": "Chọpụta akpaaka",
+    "format": "lint & usoro",
+    "valid_json": "✓ JSON bara uru",
+    "valid_yaml": "✓ YAML bara uru",
+    "invalid_json": "JSON adịghị mma",
+    "invalid_yaml": "YAML ezighi ezi",
+    "empty_input": "Biko tinye ụfọdụ JSON ma ọ bụ YAML ka lint.",
+    "too_large": "Ntinye buru oke ibu (ka ekwenyere 1MB).",
+    "fixed_yaml_spacing": "⚠ YAML nwere oghere/ indentation na-ezighi ezi mana edobere ya ma hazie ya.",
+    "loading": "Na-ebu usoro nhazi...",
+    "waiting_for_input": "Na-eche ntinye...",
+    "load_failed": "Enwenwughi ike ibu ihe nhazi.",
+    "output": "Mpụta:",
+    "input_code": "Ntinye",
+    "json_examples": "Ọmụmaatụ JSON",
+    "yaml_examples": "Ọmụmaatụ YAML"
+  },
+  "tiger": {
+    "title": "Asụsụ Agụ",
+    "description": "Agụ bụ asụsụ mmemme ahaziri ahazi yana onye ntụgharị Go arụpụtara iji nyochaa nhazi oge ịgba ọsọ, ihe ọmụmụ asụsụ, yana azụmaahịa arụmọrụ. Ịchịkọta onye ntụgharị okwu na WebAssembly na-atụgharị na sistemụ na-arụ ọrụ ka ọ bụrụ ngwaahịa na-emekọrịta ihe, nke dabere na ihe nchọgharị: ndị ọrụ nwere ike ịme mmemme ozugbo ka oge na-agba ọsọ ka na-ebugharị. na iche na ngwa nnabata.",
+    "more_info1": "Maka ozi ndị ọzọ, rụtụ aka na README na",
+    "more_info2": "Tiger Programming Language GitHub Repository.",
+    "select_engine": "Họrọ Inji:",
+    "tiger_code": "Koodu agụ:",
+    "run_tiger": "Gbaa Agụ",
+    "output": "Mpụta:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Onye injinia zuru oke nwere ahụmịhe afọ 6+ na-emepụta ngwaahịa SaaS, sistemu mmepụta, na ngwanrọ na-eweta ego."
+  },
+  "copy": {
+    "text": "Detuo",
+    "copied": "Eṅomiri!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Soro m"
+  },
+  "languages": {
+    "title": "Ntụgharị Pọtụfoliyo",
+    "description": "Chọpụta ka Pọtụfoliyo m si enweta ndị ọbịa si gburugburu ụwa na nkwado maka asụsụ 100.",
+    "global_accessibility": {
+      "title": "Nnweta zuru ụwa ọnụ",
+      "description": "Pọtụfoliyo m dị n'ihe karịrị asụsụ {count}, na-eme ka ndị ọbịa si gburugburu ụwa nweta ya. Ụzọ a na-asụ ọtụtụ asụsụ na-egosipụta nraranye m na ntinye aka na nsonye zuru ụwa ọnụ na mmepe ngwanrọ.",
+      "stats": {
+        "languages_supported": "Asụsụ akwadoro",
+        "countries_represented": "Mba ndị nọchiri anya ya",
+        "continents_covered": "Ekpuchiri kọntinent"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Asụsụ Mmemme Tiger"
-    },
-    "contact": {
-        "title": "Kpọtụrụ m",
-        "header": "Ozi mkpọtụrụ",
-        "email": "Pattygsocials@gmail.com",
-        "description": "M na-aza ajụjụ a na email, ozi LingedIn, na ozi . M ga-akpọghachi ma ọ bụrụ na enyere m nọmba site na ịmaliteghachi ma ọ bụ na ọ bụghị, ọ bụ ezie na m na-ahọrọ idobe nọmba ekwentị m."
-    },
-    "formatter": {
-        "title": "JSON & Yaml kpụrụ",
-        "description": "The JSON & Yaml bụ Ngwá ọrụ na-enye gị ohere ịme usoro JSH na Yaml. E wuru ya na wedata na websemit, e mere ya ka ọ dị ọsọ ma rụọ ọrụ nke ọma. Ezubere iwu a ka ọ dị mfe iji, na-enwe ihe dị mfe nke na-enye gị ohere ịkasi gị na koodu JSON gị ma hazie ya na iji bọtịnụ.",
-        "more_info1": "Maka ozi ndị ọzọ, na-ezo aka na Readme na",
-        "more_info2": "JSON / Yaml Iwu Remoti.",
-        "format_as": "Hazie:",
-        "auto_detect": "Nchekwa onwe",
-        "format": "Usoro",
-        "valid_json": "✓ JSON bara uru",
-        "valid_yaml": "✓ YAML bara uru",
-        "invalid_json": "JSON adịghị mma",
-        "invalid_yaml": "YAML ezighi ezi",
-        "empty_input": "Biko tinye ụfọdụ JSON ma ọ bụ YAML ka lint.",
-        "too_large": "Ntinye buru oke ibu (ka ekwenyere 1MB).",
-        "fixed_yaml_spacing": "⚠ YAML nwere oghere/ indentation na-ezighi ezi mana edobere ya ma hazie ya."
-    },
-    "tiger": {
-        "title": "Asụsụ Tiger",
-        "description": "Asụsụ Tiger Mmemme bụ asụsụ mmemme omenala wuru na ma ọ bụ na-aga & aja aja iji nwalee ya na arụmọrụ na arụmọrụ. Mejupụtara na weebụsaịtị Pọtụfoliyo na-eji nzukọ Weebụ. Asụsụ Tiger Mmemme bụ asụsụ mmemme omenala wuru na ma ọ bụ na-aga & aja aja iji nwalee ya na arụmọrụ na arụmọrụ. Mejupụtara na weebụsaịtị Pọtụfoliyo na-eji nzukọ Weebụ.",
-        "more_info1": "Maka ozi ndị ọzọ, na-ezo aka na Readme na",
-        "more_info2": "A na-ahụ maka mmemme Tiger Github Repository.",
-        "select_engine": "Họrọ Injin:",
-        "tiger_code": "Koodu tiger:",
-        "run_tiger": "Gbaa Tiger",
-        "output": "Mmepụta:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Injin software zuru ezu dabere na Central Florida"
-    },
-    "copy": {
-        "text": "Kopi",
-        "copied": "Nọrọ!"
-    },
-    "social_media": {
-        "github": "Githe",
-        "linkedin": "ReingeDin",
-        "youtube": "YouTube",
-        "text_strip": "Soro m"
-    },
-    "languages": {
-        "title": "Pọtụ Pọtụfoliyo",
-        "description": "Chọpụta otu Portfoliyo a ga-esi nweta ndị ọbịa site na gburugburu ụwa site na nkwado maka ihe karịrị otu narị asụsụ.",
-        "global_accessibility": {
-            "title": "Ulo ụwa",
-            "description": "Pọtụfoliyo m na-enweta ihe na-aga {Gụkọta {Gụkọta {Asụsụ, na-eme ka ọ nweta ndị ọbịa site na gburugburu ụwa. Ọchịagha a dị ukwuu na-egosi na m na-achọ ihe na zuru ụwa ọnụ na mmepe ngwanrọ.",
-            "stats": {
-                "languages_supported": "Asụsụ akwadoworo",
-                "countries_represented": "Mba nọchiri anya ha",
-                "continents_covered": "Kọntinent kpuchie"
-            }
+    "features": {
+      "title": "Atụmatụ",
+      "items": [
+        {
+          "title": "Ntụgharị asụsụ ozugbo:",
+          "description": "Jiri onye na-ahọpụta asụsụ gbanwee asụsụ ozugbo"
         },
-        "features": {
-            "title": "EGO",
-            "items": [
-                {
-                    "title": "Ntụgharị oge:",
-                    "description": "Gwggbanwe Asụsụ ozugbo"
-                },
-                {
-                    "title": "Asụsụ sitere na Url:",
-                    "description": "A na-echekwa asụsụ asụsụ na URL"
-                },
-                {
-                    "title": "Nkwado Akwụkwọ Nsọ",
-                    "description": "Idozi okwu kwesiri ekwesi dika Arabic, Chinese, Hindi, na ndi ozo"
-                },
-                {
-                    "title": "Omenala ọdịnala:",
-                    "description": "Nsụgharị tụlere ọnọdụ ọdịbendị ọdịbendị, ọ bụghị naanị ihe atụ"
-                },
-                {
-                    "title": "SEO kachasị mma:",
-                    "description": "Asụsụ dị iche iche na-abụkarị maka ngwa ọchụchọ"
-                }
-            ]
+        {
+          "title": "Asụsụ dabere na URL:",
+          "description": "A na-echekwa mmasị asụsụ na URL"
         },
-        "world_map": {
-            "title": "Maapụ map",
-            "description": "Hover n'ime mba dị na maapụ ka ha hụ asụsụ ha na-akwado:",
-            "languages_label": "Asusu",
-            "legend": {
-                "supported": "Asụsụ akwadoworo",
-                "not_supported": "Ọ dịghị nkwado asụsụ"
-            },
-            "zoom_controls": {
-                "zoom_in": "Zoom na",
-                "zoom_out": "Zoo",
-                "reset": "Tọgharia nlele"
-            }
+        {
+          "title": "Nkwado Edemede Ala:",
+          "description": "Nsụgharị nke ọma dị ka Arabic, Chinese, Hindi na ndị ọzọ"
         },
-        "supported_languages": {
-            "title": "Asụsụ na-akwadoghị"
+        {
+          "title": "Mmetụta Omenala:",
+          "description": "Ntụgharị asụsụ na-atụle ọnọdụ omenala, ọ bụghị naanị nkọwa nkịtị"
         },
-        "interactive_country_map": {
-            "title": "Map obodo",
-            "description": "Hover n'elu mba dị n'okpuru ka ịhụ asụsụ ha na-akwadoghị:",
-            "language_count": {
-                "single": "asusu",
-                "multiple": "asusu"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Ọ dịghị nkwado asụsụ"
+        {
+          "title": "SEO kachasị mma:",
+          "description": "A na-ahazi ụdị asụsụ ọ bụla maka ngwa nchọta"
         }
+      ]
     },
-    "logotext": "Pantick"
+    "world_map": {
+      "title": "Map ụwa mmekọrịta",
+      "description": "Gaa n'elu obodo na maapụ ka ịhụ asụsụ ha akwadoro:",
+      "languages_label": "Asụsụ",
+      "legend": {
+        "supported": "Asụsụ akwadoro",
+        "not_supported": "Enweghị nkwado asụsụ"
+      },
+      "zoom_controls": {
+        "zoom_in": "Bubata",
+        "zoom_out": "Mbupụ",
+        "reset": "Tọgharịa nlele"
+      }
+    },
+    "supported_languages": {
+      "title": "Asụsụ akwadoro"
+    },
+    "interactive_country_map": {
+      "title": "Map obodo mmekọrịta",
+      "description": "Gaa na mba ndị dị n'okpuru ka ịhụ asụsụ ha akwadoro:",
+      "language_count": {
+        "single": "asụsụ",
+        "multiple": "asụsụ"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Enweghị nkwado asụsụ"
+    }
+  },
+  "logotext": "PATRICK"
 }

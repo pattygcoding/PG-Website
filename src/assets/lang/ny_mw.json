@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Grandwin",
-    "menu": {
-        "home": "Nyumba",
-        "about": "Za ine",
-        "portfolio": "PEILFOLIO",
-        "projects": "Ntchito zokonzekera tsambali",
-        "tiger": "Chilankhulo cha Tiger",
-        "portfolio_translator": "Womasulira portfolio",
-        "formatter": "Jsomo & Yaml",
-        "contact": "Lumikizanani ndi ine"
+  "name": "Patrick Goodwin",
+  "menu": {
+    "home": "Kunyumba",
+    "about": "Za ine",
+    "portfolio": "Mbiri",
+    "projects": "Webusaiti Projects",
+    "tiger": "Chinenero cha Tiger",
+    "portfolio_translator": "Portfolio Translator",
+    "formatter": "JSON & YAML Formatter",
+    "contact": "Ndiuzeni Ine"
+  },
+  "home": {
+    "title": "Katswiri Wathunthu Wokhazikika | Product & Systems",
+    "animated": {
+      "first": "Katswiri wamkulu wa Full Stack",
+      "second": "Systems & Architecture Builder",
+      "third": "SaaS Product Engineer",
+      "fourth": "Mapulogalamu Odalirika, Zotsatira Zamalonda"
     },
-    "home": {
-        "title": "Nyumba",
-        "animated": {
-            "first": "Makina Omaliza Mapulogalamu Abwino",
-            "second": "Tsamba lawebusayiti",
-            "third": "Wopanga masewera",
-            "fourth": "Mlengi wa Zinthu"
-        },
-        "footer": "Webusayiti tsopano idamasuliridwa & zilankhulo 100+!",
-        "descriptionA": "Wopanga mapulogalamu omaliza a mapulogalamu ndi intaneti ndi mbiri yowoneka bwino yotsogolera zochitika za chitukuko, kuyambira pakupanga zosintha za java",
-        "descriptionB": "Kuphatikiza apo, ndimakhala kuti ndi Mlengi wa zikhalidwe zomwe zakwanitsa kusintha ma algorithm angapo pa nsanja zogwirizana, kuphatikizapo , Youtube, ndi , kuti ndikakhale ndi otsatila.",
-        "portfolio_button": "Chithunzi changa",
-        "contact_button": "Lumikizanani ndi ine",
-        "about_button": "Za ine"
+    "footer": "Webusaiti tsopano yamasuliridwa & kupezeka m'zilankhulo 100+!",
+    "descriptionA": "Katswiri wamkulu wodzaza zinthu zonse wazaka 6+ akutenga zinthu kuchokera pazofunikira zosamvetsetseka kupita ku machitidwe odalirika opanga. Ndimapanga zomanga kuseri kwa React, Angular, .NET, Node.js, Java, C#, Go, ndi SQL application: malire omveka bwino, mitundu yokhazikika ya data, njira zolowera zotetezeka, ndi magulu operekera njira amatha kugwira ntchito molimba mtima.",
+    "descriptionB": "Ntchito yanga imagwirizanitsa zisankho zaumisiri ndi zotsatira zabizinesi. Kuchokera ku SaaS yoyerekeza yomanga yomwe imatembenuza zidziwitso zamasamba kukhala malingaliro okonzekera kasitomala ku nsanja zopangira ndalama, ndimapanga mapulogalamu mozungulira kayendetsedwe ka ntchito, chiopsezo, ndi mtengo woyezera womwe umafunikira kwa anthu omwe akuugwiritsa ntchito.",
+    "portfolio_button": "Mbiri yanga",
+    "contact_button": "Ndiuzeni Ine",
+    "about_button": "Za ine"
+  },
+  "about": {
+    "title": "Za ine",
+    "personal_summary": {
+      "title": "Chidule Chaumwini",
+      "text": "Ndine mainjiniya wamkulu wokhazikika ku Orlando, FL yemwe ali ndi njira yochokera ku vuto lazogulitsa kupita ku zotsatira zopanga. Ndimapanga zisankho zaukadaulo pothandizira dongosololi: .NET ndi Entity Framework Core pomwe domeni yokhazikika komanso yoyeserera yoyeserera; Angular kapena React pamene zovuta mayendedwe amafunikira mawonekedwe osungika; Node.js kapena Go pamene API, kuphatikiza, kapena chida chapamwamba chikufunika nthawi yothamanga. Pazinthu zonse za SaaS, mayendedwe amkati, ndi nsanja zoyang'ana makasitomala, ndimatsogolera ndi malonda omveka bwino, mapangidwe otetezeka komanso okhazikika, kuyesa pawokha, ndi njira zoperekera zomwe thandizani magulu kutumiza mapulogalamu ofunikira osasiya ngongole zogwirira ntchito."
     },
-    "about": {
-        "title": "Za ine",
-        "personal_summary": {
-            "title": "Mwachidule",
-            "text": "Monga opanga mapulogalamu onse obwera chifukwa cha Orlando, FL, ndawonetsa ukatswiri m'maukadaulo osiyanasiyana, kuchokera ku Java ndi C ++ kuti atenge.js. Ndi mbiri yakale ya ntchito zomwe zikuwongolera, kuphatikizapo kukonza kwa pulogalamu yosinthika ya Java ya minecraft ndi tsamba lopindulitsa kwa madalaivala magalimoto, ndawonetsa utsogoleri ndi zatsopano. Kudzipereka kwanga kwa kupambana kumaonekera pakuwongolera kasamalidwe ka polojekiti, kuthetsa mavuto ovuta, ndikupereka njira zapamwamba kwambiri zomwe zimathandizira kuti munthu agwiritse ntchito ndikuyendetsa bwino."
+    "professional_experience": {
+      "title": "Zochitika Zaukadaulo",
+      "entries": [
+        {
+          "jobtitle": "Senior Software Engineer",
+          "where": "Design Interactive",
+          "date": "2025 - Pano"
         },
-        "professional_experience": {
-            "title": "ZOTHANDIZA",
-            "entries": [
-                {
-                    "jobtitle": "Mainjiniya ojambula",
-                    "where": "Orion180 inshuwaransi",
-                    "date": "2024 - PALIBE"
-                },
-                {
-                    "jobtitle": "Woyambitsa & Wodzaza Mapulogalamu Onse",
-                    "where": "Wapamwamba",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Makina Omaliza Mapulogalamu Abwino",
-                    "where": "Imathandizira kuphunzira",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Wotsogolera Webger (pulogalamu ya ophunzira)",
-                    "where": "Pulogalamu ya Clemson University GDI",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Sungani woyang'anira",
-                    "where": "Clemson University",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Sungani woyang'anira",
-                    "where": "Clemson University",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Wopanga Mapulogalamu",
+          "where": "Orion180 Inshuwaransi",
+          "date": "2024-2025"
         },
-        "technical_skills": {
-            "title": "Maluso aukadaulo",
-            "header1": "Zilankhulo",
-            "header2": "Frameworks & malaibulale",
-            "header3": "Zida & Technologies"
+        {
+          "jobtitle": "Wopanga Mapulogalamu",
+          "where": "SupremeMC",
+          "date": "2020-2024"
         },
-        "services": {
-            "title": "Ntchito zanga",
-            "entries": [
-                {
-                    "title": "Upangiri wathunthu",
-                    "text": "Ndimapereka mayankho okwanira kumapeto konse komanso kumapeto kwake, kuonetsetsa kusagwirizana kwachilendo komanso kumagwirira ntchito mu pulogalamu yonse."
-                },
-                {
-                    "title": "Kukula kwa Webusayiti",
-                    "text": "Ndiukadaulo ku HTML, CSS, ndi JavaScript Frameworks monganso."
-                },
-                {
-                    "title": "Kukula kwamasewera",
-                    "text": "Kukwiyitsa Java ndi C ++, ndimakhala ndi chidwi chopanga zokumana nazo zomata, chifukwa cha lingaliro ndi kupanga kuti akhazikitsidwe komanso kukhathamira, kuonetsetsa kusamalira masewera olimbitsa thupi."
-                }
-            ]
+        {
+          "jobtitle": "Wopanga Mapulogalamu",
+          "where": "Limbikitsani Kuphunzira",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Katswiri Wotsogolera Mapulogalamu (Pulogalamu ya Ophunzira)",
+          "where": "Clemson University GDI Program",
+          "date": "2021-2022"
+        },
+        {
+          "jobtitle": "Woyang'anira Desk",
+          "where": "Clemson University",
+          "date": "2021-2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "PEILFOLIO",
-        "filter_by": "Zosefera porfolio ndi:",
-        "entries": {
-            "biblioteca": {
-                "title": "BIBLIOTECAA JSON",
-                "text": "Pulojekiti ya Python yomwe imalimbikitsa matembenuzidwe a zilankhulo. Amalola kuti tsamba langa la webusayiti lizimasuliridwa m'zilankhulo 70+, kuphatikiza Spanish, French, Chitchaina, Chitchalitchi, ndi ena ambiri. Ntchitoyi imagwiritsidwa ntchito popanga tsamba lazigawo zambiri, zomwe ndizothandiza kwambiri kufikira omvera ambiri. Ndi ntchitoyi, zopitilira 99% ya dziko lapansi imatha kuwerenga mbiri yanga m'chinenerochi.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Lolumikizani zinayi",
-                "text": "Banja Lathunthu la Kupitilira 50+ Kukhazikitsa Masewera anayi. Ntchitoyi imaphatikizapo kukhazikitsa zilankhulo zopitilira 30, kuphatikiza Java, C ++, Python, Javascript, ndi zina zambiri. Kuphatikiza apo, kuphatikizanso mafilimu oposa 20+ kapena mitundu ina, kuphatikizaponso.js, ruby ​​pa njanji, asp.at, ndi zina zambiri.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "Pulogalamu ya Grocery",
-                "text": "Kugwiritsa ntchito kwathunthu kwa Slazor 9. Pulogalamuyi imatsata wowongolera / ntchito / Retitory mawonekedwe ndi bungwe la bungwe lolimba polimbikira ndikuphatikiza zoyeserera kwathunthu.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Ntchito Yothandizira",
-                "text": "Pulojekiti yomwe imagwirizana pakati pa zilankhulo zosiyanasiyana. Pakadali pano pali zilankhulo 15 zosiyanasiyana ndi njira 18 zophedwa.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Kulembetsa",
-                "text": "Kulembetsa kokwanira kwa Demo (Pos) Kulembetsa ndi makina oyang'anira oyang'anira omangidwa ndi anglar 17+ ndi node.js. Ntchitoyi ikuwonetsa dongosolo la kalasi ya katswiri wokhala ndi chitsimikizo cha ogwiritsa ntchito, kuwongolera kwa ntchito, kufufuza, komanso kukonza madandaulo.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "Json & Yaml Auto Wosefera",
-                "text": "Cholembera & Autofmatter kwa mafayilo a JSS & Yaml. Pulojekitiyi imagwiritsidwa ntchito popanga mafayilo a JSS & Yaml, zomwe ndizothandiza kwambiri kusunga nambala yoyera komanso yolinganizidwa. Omangidwa ndi kupita, opangidwa ndi Websembly, ndikuphatikizidwa ndi mbiri yanga ngati polojekiti yawebusayiti. Mitundu yambiri yobwera mtsogolo.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Injini yoyambira",
-                "text": "Kuyerekeza kwamakono ndi kunyamuka kwa SaaS kwa makontrakitala ndi oyerekeza. Imalowetsa mafayilo a CSV ndi Excel, mizati ya mamapu, imawerengera kukumba ngalande ndi kuchuluka kwa nthaka, imatsata ntchito ndi kuyika, ndikupanga malingaliro okonzekera makasitomala a PDF ndi Mawu omwe ali ndi mayendedwe opukutidwa a React + Express.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Minecraft json jenereta",
-                "text": "Kupepuka Jsomort yomangidwa ku Python ya minecraffcrocy rontract & ma tambala. Pulojekitiyi imagwiritsidwa ntchito kupanga mafayilo a JSS, kuphatikiza zinthu zina, zotchinga, ndi mabungwe. Zothandiza kwambiri osati kungopanga ma datapapucks, koma kwa ma mods komanso kusinthira kwa mod.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Zochitika zanga zamaphunziro",
-                "text": "Ndili ndi ntchito zanga, ndinapeza maluso ambiri ochokera ku maphunziro. Dinani apa kuti muwone mbiri yanga ya LinkedIn kuti mumve zambiri.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Luso langa laukadaulo",
-                "text": "Ndili ndi ntchito zanga, ndinapeza maluso ambiri ochokera kwa akatswiri. Dinani apa kuti muwone mbiri yanga ya LinkedIn kuti mumve zambiri.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Patrick Hostin Portfolio Webusayiti",
-                "text": "Webusayiti iyi ndi tsamba langa lanyumba, lomwe limapangidwa ndi zokambirana.S. Pulojekitiyi imagwiritsidwa ntchito kuwonetsa luso langa ndi mapulojekiti, komanso kupereka nsanja ya olemba anzawo ntchito kuti mundilumikizane ndi ine. Ntchitoyi imagwiritsidwa ntchito popanga pa intaneti.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Laibulale ya Patrick's Luke",
-                "text": "Laibulale yothandiza ya malembedwe a Lua kuti afotokozere zamtsogolo. Laibulaleyi imagwiritsidwa ntchito kuyendetsa ntchito mu zolembedwa za Lua, zomwe zimatha kukhala ndi ntchito yogwira ntchito, chifukwa Lua nthawi zambiri imakhala chilankhulo chofulumira kuposa Python ndi Ruby.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Microsoft's Microsoft Expreat Spellings (VBA)",
-                "text": "Laibulale yothandiza ya VBASOft Excel. Laibulaleyi imagwiritsidwa ntchito kuyendetsa ntchito mu expreamsheets.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Patrick's Neovim",
-                "text": "Kusintha kwanga kwa Neovim. Pulojeyiyo imagwiritsidwa ntchito kukhazikitsa neovim ku kukonda kwanga, kuphatikizapo makapiko amtundu, mitu, ndi mapulagipuli. Pulojekitiyi imagwiritsidwa ntchito popanga wogwiritsa ntchito bwino kwambiri komanso bwino kugwiritsa ntchito kwanga.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Patrick Map Jenereta",
-                "text": "A United States County & Boma Map, omangidwa ndi Python pogwiritsa ntchito malaibulale a Geoopandas ndi matplotlib. Ntchitoyi imagwiritsidwa ntchito kupanga mamapu a United States, kuphatikizapo mamapu a County ndi RET. Ntchitoyi imagwiritsidwa ntchito popanga mamapu azithunzi kuti muoneke mafayilo ndi kusanthula.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Laibulale ya Patrickhell",
-                "text": "Laibulale yofunika ya zolemba za Powershell kuti zilembedwe zamtsogolo. Zothandiza ndi mbiri ya $ Mbiri, ndimapeza zothandiza kwambiri pazinthu zokha kuchokera ku Windows terminal, chifukwa ndimangosuta Windows OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Laibulale ya patrick",
-                "text": "Laibulale yofunika ya malembedwe a ruby ​​kuti mufotokozere zamtsogolo. Zothandiza mtsogolo pamalingaliro achitukuko.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Maluso a PDF Omanga",
-                "text": "Womanga wa PDF wopangidwa ndi Python kudzera pa pdfkit ndi jinja2, pafupi ndi HTML ndi JOSTML. Ntchitoyi imagwiritsidwa ntchito kupanga mafayilo a PDF kuchokera pamndandanda wa maluso ndi mapulojekiti. Pulojekitiyi itha kugwiritsidwa ntchito popanga pulogalamu ya PDF, yomwe ndiyothandiza kwambiri pantchito.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Ntchito ya Rijandl Encryption",
-                "text": "Banja la 10+ kukhazikitsidwa kwa Rijan Excrryptm mu 128, 192, ndi 256. Ntchitoyi imagwiritsidwa ntchito kuwonetsa Rijarption ya Rijarithm algorithm m'zilankhulo zosiyanasiyana. Ntchitoyi imagwiritsidwa ntchito popanga banja lokhazikika la Rijan Excrryption Algorithm.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "PrereammcCC MAGRAFT DE",
-                "text": "MINDCRACRACRACRACRACRACRACT DZIKO LAPANSI DZIKO LAPANSI, zida, gulu lankhondo, mipata, mizere, ndi zina zambiri pamasewera. Omangidwa ndi mitundu ya Java 8-17 pa kusankha mitundu yamimba pakati pa 1.16 ndi 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Chinenero cha TIGER",
-                "text": "Chilankhulo cha makonzedwe omwe adamangidwa mbali zonse ziwiri & dzimbiri kuti muyesere kupanga ndi magwiridwe antchito. Kukhazikitsidwa patsamba la portfolio pogwiritsa ntchito msonkhano wa Webusayiti.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tsamba la Tiger Laling",
-                "text": "Webusayiti yomwe ndidapanga mu 2024 ya TIGER Prossing zabwino, kampani yamiyala ku Clemson, SP. Omangidwa ndi zokambirana.S.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Polojekiti yamakina",
-                "text": "Banja lopitilira 30+ za makina otembenuka. Ankakonda kuwonetsa kuti zindikirani zilankhulo zosiyanasiyana zofufuzira, makamaka chilankhulo cha akanema.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Maluso Aukadaulo",
+      "header1": "Zinenero Zopanga Mapulogalamu",
+      "header2": "Frameworks & Library",
+      "header3": "Zida & Technologies"
+    },
+    "services": {
+      "title": "Ntchito Zanga",
+      "entries": [
+        {
+          "title": "Full Stack Engineering",
+          "text": "Ndimayang'anira kutumiza kwazinthu kumapeto-kumapeto: kumasulira mayendedwe abizinesi kukhala malire adongosolo, mitundu ya data, ma API, ndi malo olumikizirana, kenako ndikugwira ntchitoyo poyesa, kutumiza, ndi kubwereza. Cholinga chake ndi mapulogalamu omwe gulu lingathe kusintha ndikugwira ntchito, osati kusonkhanitsa zowonetsera zochotsedwa."
+        },
+        {
+          "title": "Zomangamanga za Product & Platform",
+          "text": "Ndimasankha mapulaneti ndi machitidwe kutengera vuto: layered .NET services for business domains, component-driven Angular or React applications for complex operations, relational zitsanzo za data zamayendetsedwe oyankha, ndi kuphatikiza kopangidwa ndi njira zolephereka, kuwongolera mwayi wofikira, ndi kusungitsa m'malingaliro."
+        },
+        {
+          "title": "Kutumiza Kokonzeka",
+          "text": "Ndimamanga ndi zowona nditatha kukhazikitsidwa: zinsinsi zomwe sizimayendetsedwa ndi gwero, njira zakusamuka zachinsinsi, chilolezo chotengera maudindo, kutsimikizika pamalire adongosolo, zoyeserera zokha, kuzindikira kwa CI/CD, komanso kuwonetsetsa kothandiza. Izi ndizomwe zimasinthira prototype kukhala mapulogalamu odalirika."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Mbiri",
+    "filter_by": "Zosefera Zosefera Ndi:",
+    "entries": {
+      "biblioteca": {
+        "title": "Biblioteca JSON",
+        "text": "Chitoliro chokhazikika cha Python chomwe chimasintha gwero limodzi lokhazikika kukhala malo opezeka padziko lonse lapansi. Imagwira ntchito zomasulira ngati njira yosungika m'malo mochita kukopera masamba pamanja, zomwe zimalola tsambalo kuti lizikula m'zilankhulo zoposa 100 ndikupangitsa kuti padziko lonse lapansi kufikire uthenga wabwino. kuthekera kogwiritsa ntchito m'malo mwa nthawi imodzi.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Gwirizanitsani Zinayi",
+        "text": "Banja lalikulu la kukhazikitsidwa kopitilira 50+ kwamasewera a Connect Four. Ntchitoyi ikuphatikiza kukhazikitsidwa m'zilankhulo zopitilira 30, kuphatikiza Java, C++, Python, JavaScript, ndi zina. Kuphatikiza apo, imaphatikizanso mitundu yopitilira 20+ kapena mitundu ina, kuphatikiza React.js, Ruby on Rails, ASP.NET, ndi zina zambiri.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "Grocery App",
+        "text": "Pulogalamu yathunthu ya NET 9 Blazor Server yomwe imawonetsa mamangidwe adala kumbuyo kwa kayendetsedwe ka bizinesi. Kugawanika kwa olamulira / ntchito / chosungira kumasunga malamulo ogwiritsira ntchito, kupeza deta, ndi kuwonetserako mopanda kuyesedwa; Entity Framework Core imapereka kulimbikira kokhazikika; ndi comprehensive test suite imateteza machitidwe pamene zinthu zikusintha.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Pulogalamu ya Interop",
+        "text": "Kulumikizana kwa zilankhulo zosiyanasiyana komwe kumatengera zilankhulo 15 zamapulogalamu ndi machitidwe 18. Pulojekitiyi imafufuza malire omwe machitidwe nthawi zambiri amakhala osalimba: makontrakitala okonza, kusinthana kwa data, machitidwe othamanga, ndi njira zobwerezabwereza zophatikizana. Imawonetsa malingaliro amachitidwe omwe amafunikira ngati chinthu chili chachikulu kuposa stack imodzi.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Register ya Inventory",
+        "text": "POS yodzaza ndi zida zonse zomangidwa ndi Angular 17+ ndi Node.js. Imawonetsa zovuta zogwirira ntchito za dongosolo la B2B: ogwiritsa ntchito otsimikizika, kuwongolera kotsata njira, kulondola kwazinthu, komanso kubweza kwachipongwe. Pulojekitiyi idapangidwa mozungulira ntchito yeniyeni yomwe gulu lolembetsa limagwira, osati mndandanda wazinthu zamadongosolo.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "JSON & YAML Auto Formatter",
+        "text": "Chida chovomerezeka cha JSON ndi YAML chozikidwa pa msakatuli ndi masanjidwe opangidwa mu Go ndikupangidwa ku WebAssembly. Kusuntha injini yoyimitsa mu WASM kumapangitsa kuti kulumikizana kukhale koyankhidwa komanso komweko kwa msakatuli kwinaku mukugwiritsa ntchito chowerengera chenicheni kuti mugwire zolowa zosavomerezeka. Ndi chitsanzo chokhazikika pakusankha kamangidwe ka nthawi yoyendetsera ntchito, kusuntha, komanso kudalira kwa ogwiritsa ntchito.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Injini yoyambira",
+        "text": "Kuyerekeza kwa SaaS yomanga yomanga mozungulira mayendedwe okwera mtengo, omwe amakhala ndi zolakwika. Chogulitsa cha React + Express chimalowetsa data ya CSV ndi Excel, imayika mizere yosagwirizana kukhala mtundu wogwiritsiridwa ntchito, kuwerengera kukumba ngalande ndi kuchuluka kwa nthaka, kutsata ntchito ndi ntchito. markup, ndikupanga ma PDF okonzeka ndi kasitomala ndi Mawu. Uwu ndi uinjiniya wanthawi zonse wazinthu zonse: kusanthula deta, malamulo owerengera, kayendedwe kantchito kopukutidwa, ndi zoperekedwa zomwe zimathandiza bizinesi kuchoka pabizinesi kupita kubizinesi.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Minecraft JSON Jenereta",
+        "text": "Jenereta yopepuka ya JSON yomangidwa mu Python ya Minecraft zothandizira & mapaketi a data. Pulojekitiyi imagwiritsidwa ntchito popanga mafayilo a JSON a ma mods a Minecraft, kuphatikiza zinthu zokhazikika, midadada, ndi mabungwe. Zothandiza kwambiri osati kungopanga ma datapacks, koma ma mods komanso kudzera pakusintha dzina la mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "Maphunziro Anga",
+        "text": "Pamodzi ndi ntchito zanga zanga, ndaphunziranso maluso ambiri kuchokera ku maphunziro. Dinani apa kuti muwone mbiri yanga ya LinkedIn kuti mudziwe zambiri.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "Katswiri Wanga",
+        "text": "Zaka zisanu ndi chimodzi kuphatikiza zaukadaulo waukadaulo pamagulu azogulitsa, nsanja zamabizinesi, ndi mapulogalamu omwe amayang'ana makasitomala. Ntchito yanga yaphatikizira kupanga magawo ogwiritsiridwa ntchito bwino, kugwirizanitsa njira zoperekera, ndikupanga zisankho zaukadaulo ndi moyo wazinthu, magwiridwe antchito. chiopsezo, komanso umwini wanthawi yayitali.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Webusaiti ya Patrick Goodwin Portfolio",
+        "text": "Dongosolo lopanga la React lomwe limayang'anira kupezeka ndi kufikira padziko lonse lapansi ngati zofunikira zauinjiniya. Mulinso njira yomasulira yokhazikika ya zilankhulo 100+, zida zogwirizanirana mothandizidwa ndi WebAssembly, ma UI omvera komanso ofikirika, komanso kamangidwe ka polojekiti. zokonzedwa kuti zikule pamene ntchito yatsopano ikutumizidwa.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Patrick's Lua Script Library",
+        "text": "Laibulale yothandiza ya zolemba za Lua kuti zigwiritsidwe ntchito mtsogolo. Laibulaleyi imagwiritsidwa ntchito popanga ntchito m'malemba a Lua, omwe amatha kugwira ntchito zofunika kwambiri, chifukwa Chilua nthawi zambiri chimakhala chilankhulo chofulumira kuposa Python ndi Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
+        "text": "Laibulale yothandiza ya zolemba za VBA za Microsoft Excel. Laibulale iyi imagwiritsidwa ntchito kupanga ntchito mu Excel spreadsheets.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Patrick's Neovim Config",
+        "text": "Kusintha kwanga kwa Neovim. Pulojekitiyi imagwiritsidwa ntchito kukonza Neovim momwe ndimakonda, kuphatikiza zomangirira, mitu, ndi mapulagini. Pulojekitiyi imagwiritsidwa ntchito kuti Neovim ikhale yosavuta kugwiritsa ntchito komanso yothandiza kuti ndigwiritse ntchito ndekha.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Patrick's Map Generator",
+        "text": "Chida chofotokozera za Python geospatial chomangidwa ndi GeoPandas ndi Matplotlib kuti apange mamapu aku US ndi mayiko. Imatembenuza zidziwitso zapamalo kukhala zowunikira zowerengeka, kuwonetsa malingaliro a mapaipi a data: sankhani malaibulale oyenerera, sinthani zolowetsa, ndikupanga zotuluka zomwe thandizirani zisankho zomveka bwino.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Patrick's PowerShell Script Library",
+        "text": "Laibulale yothandiza ya zolembedwa za PowerShell kuti mugwiritse ntchito mtsogolo. Zothandiza ndi mawonekedwe a $profile script, ndimapeza kuti izi ndizothandiza kwambiri pakupanga ntchito kuchokera pa Windows terminal, chifukwa ndimakonda kugwiritsa ntchito Windows OS.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Patrick's Ruby Script Library",
+        "text": "Laibulale yothandiza ya zolemba za Ruby kuti zigwiritsidwe ntchito mtsogolo. Zothandiza pamalingaliro amtsogolo a Ruby pa Rails.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Wopanga Maluso a PDF",
+        "text": "Mayendedwe opangira zikalata opangidwa ndi Python, Pdfkit, Jinja2, HTML, ndi data yokhazikika ya JSON. Imalekanitsa zidziwitso zomwe zingagwiritsidwenso ntchito ndi ma tempuleti owonetsera kuti apange ma PDF ogwirizana nthawi zonse, njira yothandiza yochepetsera ntchito zamanja ndikupanga zolemba zamabizinesi. zobwerezedwa.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Rijandel Encryption Project",
+        "text": "Gulu lofananiza la 10+ Rijndael kukhazikitsa pamitundu yonse ya 128-, 192-, ndi 256-bit. Kukhazikitsanso ma aligorivimu okhudzana ndi chitetezo m'zilankhulo zonse ndi njira yodziletsa mwatsatanetsatane, machitidwe oyesera, ndi malire a kutha kwa chilankhulo, nzeru zonse zothandiza kwa machitidwe amene amasamalira deta tcheru.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "SupremeMC Minecraft Mod",
+        "text": "Minecraft Mod yomwe imawonjezera zida zamakono, zida, magulu a anthu, midadada, miyeso, ndi zina zambiri pamasewera. Zomangidwa ndi mitundu ya Java 8-17 pazosankha za Minecraft pakati pa 1.16 ndi 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Chilankhulo cha Tiger Programming",
+        "text": "Chilankhulo chokhazikika komanso chomasulira chomwe chimapangidwa mu Go kuti mufufuze kamangidwe ka chilankhulo, machitidwe, ndi kusintha kwa magwiridwe antchito. Kuziphatikiza ku WebAssembly ndikuziphatikiza muzolemba kumapanga malo enieni, owoneka bwino aukadaulo wamakina m'malo mosiya ntchitoyo ngati ntchito. kuyesa kosungira kokha.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Tsamba la Tiger Tailgating Pros",
+        "text": "Webusayiti ya React yoperekedwa ku bizinesi ya Clemson, SC. Ntchitoyi imatanthawuza kupereka kwabizinesi yaying'ono kukhala ulendo womveka wamakasitomala komanso kupezeka kodalirika pa intaneti, kugwiritsa ntchito malingaliro azinthu kuthandiza bungwe lenileni kusintha chidwi. kufunsa ndi ndalama.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Makina a Turing Project",
+        "text": "Banja laopitilira 30+ akugwiritsa ntchito Makina a Turing. Amagwiritsidwa ntchito kuwonetsa kukwanira kwa zilankhulo zosiyanasiyana zopangira kafukufuku, makamaka pa Chiyankhulo cha Tiger Programming.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Chilankhulo cha Tiger Programming"
+  },
+  "contact": {
+    "title": "Ndiuzeni Ine",
+    "header": "Zambiri zamalumikizidwe",
+    "email": "pattygsocials@gmail.com",
+    "description": "Ndimayankha mafunso kuchokera ku imelo ndi mauthenga a LinkedIn. Ndidzabweranso ngati nambala yanga iperekedwa kudzera mukuyambanso kapena ayi, ngakhale ndimakonda kusunga nambala yanga yachinsinsi."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Chida chamtundu wa asakatuli chomwe chimatsimikizira ndikusintha JSON ndi YAML pogwiritsa ntchito injini ya Go yopangidwa ku WebAssembly. Zomangamanga zimangoyang'ana pafupi ndi wogwiritsa ntchito kuti ayankhe mwachangu, mwachinsinsi kwinaku akukhazikitsa malamulo enieni a syntax pamalire a data. Ndi chitsanzo chophatikizika chopanga njira yodalirika yoyendetsera ntchito mozungulira kulondola, magwiridwe antchito, ndi kudalirika.",
+    "more_info1": "Kuti mudziwe zambiri, onani README mu",
+    "more_info2": "JSON/YAML Formatter Repository.",
+    "format_as": "Pangani Monga:",
+    "auto_detect": "Dziwani Zokha",
+    "format": "Lint & Format",
+    "valid_json": "✓ JSON yovomerezeka",
+    "valid_yaml": "✓ YAML yovomerezeka",
+    "invalid_json": "JSON yolakwika",
+    "invalid_yaml": "YAML yolakwika",
+    "empty_input": "Chonde lowetsani JSON kapena YAML kuti mutsegule.",
+    "too_large": "Zolowetsa zazikulu kwambiri (zololedwa zosaposa 1MB).",
+    "fixed_yaml_spacing": "⚠ YAML inali ndi masipatala/mapindikidwe olakwika koma idasinthidwa zokha ndikusinthidwa.",
+    "loading": "Tikutsegula fomati...",
+    "waiting_for_input": "Tikuyembekezera zolowetsa...",
+    "load_failed": "Takanika kutsitsa zofomati.",
+    "output": "Zotulutsa:",
+    "input_code": "Zolowetsa",
+    "json_examples": "Zitsanzo za JSON",
+    "yaml_examples": "Zitsanzo za YAML"
+  },
+  "tiger": {
+    "title": "Chinenero cha Tiger",
+    "description": "Kambuku ndi chilankhulo chokhazikika ndipo omasulira a Go adapangidwa kuti afufuze kamangidwe ka nthawi, chilankhulo cha chilankhulo, komanso kusinthana kwa magwiridwe antchito. Kuphatikizira womasulira ku WebAssembly kumapangitsa kuti makina azigwira ntchito molumikizana, pogwiritsa ntchito asakatuli: ogwiritsa ntchito amatha kugwiritsa ntchito mapulogalamu mwachindunji pomwe nthawi yothamanga imakhala yosasunthika. ndi kulekanitsidwa ndi pulogalamu yolandila.",
+    "more_info1": "Kuti mudziwe zambiri, onani README mu",
+    "more_info2": "Tiger Programming Language GitHub Repository.",
+    "select_engine": "Sankhani Injini:",
+    "tiger_code": "Tiger kodi:",
+    "run_tiger": "Thamangani Tiger",
+    "output": "Zotulutsa:"
+  },
+  "tab": {
+    "title": "Patrick Goodwin",
+    "description": "Katswiri wamkulu wodzaza zonse wazaka 6+ wodziwa kupanga zinthu za SaaS, makina opanga, ndi mapulogalamu opangira ndalama."
+  },
+  "copy": {
+    "text": "Koperani",
+    "copied": "Zakopedwa!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Nditsateni"
+  },
+  "languages": {
+    "title": "Portfolio Translator",
+    "description": "Dziwani momwe mbiri yanga imafikira alendo ochokera padziko lonse lapansi mothandizidwa ndi zilankhulo zopitilira 100.",
+    "global_accessibility": {
+      "title": "Global Accessibility",
+      "description": "Mbiri yanga ikupezeka m'zilankhulo zopitilira {count}, zomwe zimapangitsa kuti alendo ochokera padziko lonse lapansi azifikirika. Njira iyi ya zinenero zambiri imasonyeza kudzipereka kwanga ku kuphatikizidwa ndi kufikira padziko lonse lapansi pakupanga mapulogalamu.",
+      "stats": {
+        "languages_supported": "Zinenero Anathandiza",
+        "countries_represented": "Mayiko Akuimiridwa",
+        "continents_covered": "Makontinenti Ophimbidwa"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Chinenero cha TIGER"
-    },
-    "contact": {
-        "title": "Lumikizanani ndi ine",
-        "header": "Zambiri zamalumikizidwe",
-        "email": "Pattygsocials@gmail.com",
-        "description": "Ndimayankha ndikufunsa kuchokera ku imelo, mauthenga a Linkekeni, ndi Mauthenga a . Ndidzabweranso ngati nambala yanga yaperekedwa kudzera pa India Kuyambiranso kapena ayi, ngakhale ndimakonda kusunga nambala yanga yafoni."
-    },
-    "formatter": {
-        "title": "Jsomo & Yaml",
-        "description": "Wojambula wa JSON & YAML ndi chida chomwe chimakupatsani mwayi kwa mafayilo a JSS ndi Yaml. Amamangidwa ndi kupita ndi kupezeka paganyu, ndipo adapangidwa kuti azisala kudya komanso ogwira. Wopanga mawonekedwe amapangidwa kuti akhale osavuta kugwiritsa ntchito, ndi mawonekedwe osavuta omwe amakupatsani mwayi mu json kapena kilal code ya yaml ndikuyimitsa batani la batani.",
-        "more_info1": "Kuti mumve zambiri, onani zowerenga mu",
-        "more_info2": "Jsomo / Yaml Phativery.",
-        "format_as": "Mtundu monga:",
-        "auto_detect": "Auto Yandikira",
-        "format": "Kalembedwe",
-        "valid_json": "✓ JSON yovomerezeka",
-        "valid_yaml": "✓ YAML yovomerezeka",
-        "invalid_json": "JSON yolakwika",
-        "invalid_yaml": "YAML yolakwika",
-        "empty_input": "Chonde lowetsani JSON kapena YAML kuti mutsegule.",
-        "too_large": "Zolowetsa zazikulu kwambiri (zololedwa zosaposa 1MB).",
-        "fixed_yaml_spacing": "⚠ YAML inali ndi masipatala/mapindikidwe olakwika koma idasinthidwa zokha ndikusinthidwa."
-    },
-    "tiger": {
-        "title": "Chilankhulo cha Tiger",
-        "description": "Chilankhulo cha Tiger ndi chilankhulo chazomwe chimamangidwa mu & dzimbiri kuti ayesere kupanga ndi magwiridwe antchito. Kukhazikitsidwa patsamba la portfolio pogwiritsa ntchito msonkhano wa Webusayiti. Chilankhulo cha Tiger ndi chilankhulo chazomwe chimamangidwa mu & dzimbiri kuti ayesere kupanga ndi magwiridwe antchito. Kukhazikitsidwa patsamba la portfolio pogwiritsa ntchito msonkhano wa Webusayiti.",
-        "more_info1": "Kuti mumve zambiri, onani zowerenga mu",
-        "more_info2": "TIGER Pulogalamu ya Tiger Chilankhulo cha Githab.",
-        "select_engine": "Sankhani injini:",
-        "tiger_code": "Khodi ya Tiger:",
-        "run_tiger": "Thamangani Tiger",
-        "output": "\""
-    },
-    "tab": {
-        "title": "Patrick Grandwin",
-        "description": "Makina ophatikizira mapulogalamu okhazikitsidwa ndi Central Florida"
-    },
-    "copy": {
-        "text": "Kukopa",
-        "copied": "Anakopera!"
-    },
-    "social_media": {
-        "github": "Gatub",
-        "linkedin": "Linecin",
-        "youtube": "Youtube",
-        "text_strip": "Nditsateni"
-    },
-    "languages": {
-        "title": "Womasulira portfolio",
-        "description": "Dziwani momwe mbiri yanga imagwiritsidwira ntchito kwa alendo ochokera kudziko lonse lapansi ndi chithandizo cha zilankhulo zopitilira 100.",
-        "global_accessibility": {
-            "title": "Kukwaniritsidwa Kwapadziko Lonse",
-            "description": "Mbiri yanga ikupezeka powerengera zilankhulo, zomwe zimapangitsa kuti zikhale alendo padziko lonse lapansi. Njira yodziwikiratu imawonetsera kudzipereka kwanga ku kuvutika ndi kufikira pulogalamuyi.",
-            "stats": {
-                "languages_supported": "Zilankhulo zothandizidwa",
-                "countries_represented": "Mayiko omwe akuimiridwa",
-                "continents_covered": "Ma kontinenti ophimbidwa"
-            }
+    "features": {
+      "title": "Mawonekedwe",
+      "items": [
+        {
+          "title": "Zomasulira zenizeni:",
+          "description": "Sinthani zinenero nthawi yomweyo ndi chosankha chinenero"
         },
-        "features": {
-            "title": "Mawonekedwe",
-            "items": [
-                {
-                    "title": "Tsitsi lenileni:",
-                    "description": "Sinthani zilankhulo nthawi yomweyo ndi osankha chilankhulo"
-                },
-                {
-                    "title": "Chilankhulo cha Url:",
-                    "description": "Zokonda zilankhulo zimasungidwa mu URL"
-                },
-                {
-                    "title": "Thandizo la Zachitetezo:",
-                    "description": "Kumasulira koyenera ngati Chiarabu, Chitchaina, Hindi, ndi zina zambiri"
-                },
-                {
-                    "title": "Zomverera zachikhalidwe:",
-                    "description": "Matembenuzidwe amalingalira za nkhani za chikhalidwe, osati tanthauzo lenileni"
-                },
-                {
-                    "title": "Seo adakwanitsa:",
-                    "description": "Chosiyanasiyana cha chinenerocho chimakonzedwa kuti zisakane"
-                }
-            ]
+        {
+          "title": "Chilankhulo Chotengera URL:",
+          "description": "Zokonda chilankhulo zimasungidwa mu URL"
         },
-        "world_map": {
-            "title": "Mapa malo",
-            "description": "Yendani ndi mayiko pamapu kuti awone zilankhulo zawo zothandizidwa:",
-            "languages_label": "Zilankhulo",
-            "legend": {
-                "supported": "Zilankhulo zothandizidwa",
-                "not_supported": "Palibe Chithandizo cha Chiwerengero"
-            },
-            "zoom_controls": {
-                "zoom_in": "Onjezerani",
-                "zoom_out": "Sinthani",
-                "reset": "Kubwezeretsanso"
-            }
+        {
+          "title": "Native Script Support:",
+          "description": "Kumasulira koyenera kwa zolembedwa ngati Chiarabu, Chitchaina, Chihindi, ndi zina"
         },
-        "supported_languages": {
-            "title": "Ziyankhulo Zothandizidwa"
+        {
+          "title": "Chikhalidwe Chokhudzika:",
+          "description": "Omasulira amaganizira za chikhalidwe, osati tanthauzo lenileni"
         },
-        "interactive_country_map": {
-            "title": "Mapa Map",
-            "description": "Yendani ndi mayiko omwe ali m'munsi mwa kuwona zilankhulo zawo zothandizidwa:",
-            "language_count": {
-                "single": "chinenero",
-                "multiple": "zilankhulo"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Palibe Chithandizo cha Chiwonetsero"
+        {
+          "title": "SEO Wokometsedwa:",
+          "description": "Chiyankhulo chilichonse chimakongoletsedwa ndi injini zosakira"
         }
+      ]
     },
-    "logotext": "Pandosi"
+    "world_map": {
+      "title": "Interactive World Map",
+      "description": "Yendani pamwamba pa mayiko pamapu kuti muwone zilankhulo zawo:",
+      "languages_label": "Zinenero",
+      "legend": {
+        "supported": "Zinenero Anathandiza",
+        "not_supported": "Palibe Language Support"
+      },
+      "zoom_controls": {
+        "zoom_in": "Onetsani Zoom",
+        "zoom_out": "Onetsani Zoom Out",
+        "reset": "Bwezerani Mawonedwe"
+      }
+    },
+    "supported_languages": {
+      "title": "Zinenero Zothandizidwa"
+    },
+    "interactive_country_map": {
+      "title": "Interactive Country Map",
+      "description": "Yang'anani m'maiko pansipa kuti muwone zilankhulo zomwe amathandizira:",
+      "language_count": {
+        "single": "chinenero",
+        "multiple": "zilankhulo"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Palibe chilankhulo chothandizira"
+    }
+  },
+  "logotext": "PATRICK"
 }

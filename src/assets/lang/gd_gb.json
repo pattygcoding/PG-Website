@@ -1,330 +1,337 @@
 {
-    "name": "Patrick Goodwin",
-    "menu": {
-        "home": "Dachaigh",
-        "about": "Mu mo dheidhinn",
-        "portfolio": "Pasgan",
-        "projects": "Pròiseactan làrach-lìn",
-        "tiger": "Cànan tìgear",
-        "portfolio_translator": "Eadar-theangaiche porfolio",
-        "formatter": "Ùine JSON & Yaml",
-        "contact": "Cuir fios thugam"
+  "name": "Pàdraig Goodwin",
+  "menu": {
+    "home": "Dhachaigh",
+    "about": "Mu mo dheidhinn",
+    "portfolio": "Pasgan",
+    "projects": "Pròiseactan làrach-lìn a",
+    "tiger": "Cànan Tìgear",
+    "portfolio_translator": "Eadar-theangaiche Portfolio",
+    "formatter": "Cruthadair JSON & YAML",
+    "contact": "Cuir fios thugam"
+  },
+  "home": {
+    "title": "Àrd Einnseanair Làn-Stack | Bathar & Siostaman",
+    "animated": {
+      "first": "Àrd Einnseanair Làn-stack",
+      "second": "Neach-togail siostaman & ailtireachd",
+      "third": "Einnseanair toraidh SaaS",
+      "fourth": "Bathar-bog earbsach, Builean Gnìomhachais"
     },
-    "home": {
-        "title": "Dachaigh",
-        "animated": {
-            "first": "Innleadair bathar-bog làn chruaidh",
-            "second": "Leasaiche lìn",
-            "third": "Leasaiche geama",
-            "fourth": "CRUTHACHADH Susbaint"
-        },
-        "footer": "Làrach-lìn a-nis eadar-theangachadh & a tha rim faighinn ann an 100+ cànan 100+!",
-        "descriptionA": "Einnseanair Bathar-bog Làn-Stack làn-chàireachadh làn-chàireachadh làn-chàireachadh làn-ghlan-stac",
-        "descriptionB": "A bharrachd air an sin, tha mi nam eòlaiche susbaint cruinn-eòlas a fhuair e gu soirbheachail, , Youtube, agus Ionad Luchd-leantainn Dìomhaireachd is tarraingeach.",
-        "portfolio_button": "Mo phasgan",
-        "contact_button": "Cuir fios thugam",
-        "about_button": "Mu mo dheidhinn"
+    "footer": "Làrach-lìn a-nis air eadar-theangachadh & ri fhaighinn ann an 100+ cànan!",
+    "descriptionA": "Àrd innleadair làn-chruach le 6+ bliadhna de eòlas a’ toirt thoraidhean bho riatanasan teagmhach gu siostaman cinneasachaidh earbsach. Bidh mi a’ dealbhadh an ailtireachd air cùl tagraidhean React, Angular, .NET, Node.js, Java, C#, Go, agus SQL: crìochan seirbheis soilleir, modalan dàta seasmhach, pàtrain ruigsinneachd tèarainte, agus faodaidh sgiobaidhean slighean lìbhrigidh obrachadh le misneachd.",
+    "descriptionB": "Bidh an obair agam a’ ceangal cho-dhùnaidhean innleadaireachd ri builean gnìomhachais. Bho SaaS tuairmseach togail a thionndaidheas dàta cliath-dhuilleag gu molaidhean deiseil teachdaiche gu àrd-ùrlaran lìn a ghineadh teachd-a-steach, bidh mi a’ togail bathar-bog timcheall air an t-sruth-obrach, cunnart, agus luach a ghabhas tomhas a tha cudromach dha na daoine a tha ga chleachdadh.",
+    "portfolio_button": "Mo Chùrsa",
+    "contact_button": "Cuir fios thugam",
+    "about_button": "Mu mo dheidhinn"
+  },
+  "about": {
+    "title": "Mu mo dheidhinn",
+    "personal_summary": {
+      "title": "Geàrr-chunntas pearsanta",
+      "text": "Tha mi nam àrd-innleadair làn-chruach stèidhichte ann an Orlando, FL aig a bheil an t-slighe bho dhuilgheadas toraidh gu toradh cinneasachaidh. Bidh mi a’ dèanamh roghainnean teicneòlais ann an seirbheis an t-siostaim: .NET agus Entity Framework Core nuair a tha àrainn le structar làidir agus cùis leantalachd deuchainneach; Angular no React nuair a tha e iom-fhillte feumaidh sruthan-obrach eadar-aghaidh a tha seasmhach; Node.js no Rach nuair a dh’ fheumas inneal API, amalachadh, no àrd-choileanadh ùine ruith le fòcas. Thairis air toraidhean SaaS, sruthan-obrach a-staigh, agus àrd-ùrlaran mu choinneamh teachdaiche, bidh mi a’ stiùireadh le malairtidhean soilleir, dealbhadh tèarainte is tapaidh, deuchainn fèin-ghluasadach, agus cleachdaidhean lìbhrigidh a cuidich sgiobaidhean bathar-bog luachmhor a chuir air falbh gun a bhith a’ fàgail fiachan obrachaidh air dheireadh."
     },
-    "about": {
-        "title": "Mu mo dheidhinn",
-        "personal_summary": {
-            "title": "Geàrr-chunntas Pearsanta",
-            "text": "Mar leasaiche-claige làn chruach àrd stèidhichte ann an Orlando, fl a dhealbhaich e eòlas ann an diofar theicneòlasan, bho Java agus C ++ agus Nede.js. Le clàr slighe de phròiseactan aghaidh, a 'toirt a-steach leasachadh prògram beag Java airson Minecraft agus làrach-lìn buannachdail do dhraibhearan truca, tha mi air ceannardas agus ùr-ghnàthachadh a thaisbeanadh. Tha mo dhealas airson sàr-mhathais follaiseach anns a 'chomas agam gus fuasgladhan iom-fhillte a lìbhrigeadh a chuireas ri eòlas luchd-cleachdaidh agus a' stiùireadh soirbheachas eagrachaidh."
+    "professional_experience": {
+      "title": "Eòlas Proifeiseanta",
+      "entries": [
+        {
+          "jobtitle": "Àrd-innleadair bathar-bog",
+          "where": "Dealbhadh eadar-ghnìomhach",
+          "date": "2025 - An-dràsta"
         },
-        "professional_experience": {
-            "title": "Eòlas proifeasanta",
-            "entries": [
-                {
-                    "jobtitle": "Innleadair bathar-bog òigridh",
-                    "where": "Orion180 àrachas",
-                    "date": "2024 - an-diugh"
-                },
-                {
-                    "jobtitle": "Founder & Làn-chleachdadh Làn-stuthan Stack",
-                    "where": "Suprememc",
-                    "date": "2020 - 2024"
-                },
-                {
-                    "jobtitle": "Innleadair bathar-bog làn chruaidh",
-                    "where": "Luathachadh ionnsachadh",
-                    "date": "2023"
-                },
-                {
-                    "jobtitle": "Prìomh leasaiche lìn (Prògram Oileanach)",
-                    "where": "Prògram GDI Oilthigh Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Neach-stiùiridh deasg",
-                    "where": "Oilthigh Clemson",
-                    "date": "2021 - 2022"
-                },
-                {
-                    "jobtitle": "Neach-stiùiridh deasg",
-                    "where": "Oilthigh Clemson",
-                    "date": "2021 - 2022"
-                }
-            ]
+        {
+          "jobtitle": "Innleadair bathar-bog",
+          "where": "Àrachas Orion180",
+          "date": "2024 - 2025"
         },
-        "technical_skills": {
-            "title": "Sgilean Teicnigeach",
-            "header1": "Cànanan Prògramadh",
-            "header2": "Frèamaichean & leabharlannan",
-            "header3": "Innealan & teicneòlasan"
+        {
+          "jobtitle": "Innleadair bathar-bog",
+          "where": "Àrd-Mhc",
+          "date": "2020 - 2024"
         },
-        "services": {
-            "title": "Mo sheirbheisean",
-            "entries": [
-                {
-                    "title": "Innleadaireachd Clò-chruaidh",
-                    "text": "Bidh mi a 'tabhann fuasglaidhean coileanta thar gach cuid leasachadh aghaidh agus crìoch air ais, a' dèanamh cinnteach gum bi amalachadh agus comas-gnìomha gun fhiosta air feadh a 'chruach-bhàmh-bhathar-bog gu lèir."
-                },
-                {
-                    "title": "Leasachadh lìn",
-                    "text": "Le eòlas ann an HTML, CSS, agus Javas na frèamraidhean mar Reacks.js, tha mi a 'dèanamh làraich-lìn tarraingeach agus càirdeil do luchd-cleachdaidh gus coinneachadh ri feumalachdan agus roghainnean sònraichte luchd-cleachdaidh."
-                },
-                {
-                    "title": "Leasachadh Gèam",
-                    "text": "Cànanan lughdachadh leithid Java agus C ++, tha mi a 'cruthachadh eòlasan gèam truaidh, bho bhun-bheachd agus dealbhadh, a' dèanamh cinnteach à cuirm geama agus rèidh."
-                }
-            ]
+        {
+          "jobtitle": "Innleadair bathar-bog",
+          "where": "Luathaich Ionnsachadh",
+          "date": "2023"
+        },
+        {
+          "jobtitle": "Prìomh Einnseanair Bathar-bog (Prògram Oileanach)",
+          "where": "Prògram GDI Oilthigh Clemson",
+          "date": "2021 - 2022"
+        },
+        {
+          "jobtitle": "Neach-stiùiridh Deasg",
+          "where": "Oilthigh Clemson",
+          "date": "2021 - 2022"
         }
+      ]
     },
-    "portfolio": {
-        "title": "Pasgan",
-        "filter_by": "Pasgan sìoltachan le:",
-        "entries": {
-            "biblioteca": {
-                "title": "Biblioteca JSON",
-                "text": "Pròiseact python a bhios a 'sgioblachadh eadar-theangachadh cànain. A 'ceadachadh mo pasgan làrach-lìn eadar-theangachadh gu 70+ Cànanan, a' toirt a-steach Spàinntis, Fraingis, Arabach, agus mòran eile. Tha am pròiseact seo air a chleachdadh gus làrach-lìn ioma-chànanach a chruthachadh, a tha glè fheumail air luchd-èisteachd nas fharsainge a ruighinn. Leis a 'phròiseact seo, faodaidh còrr air 99% den t-saoghal mo chùram a leughadh ann an cànan fileanta.",
-                "link": "https://github.com/pattygcoding/Biblioteca-JSON"
-            },
-            "connect_four": {
-                "title": "Ceangail ceithir",
-                "text": "Teaghlach mòr de chòrr air 50+ cruthachaidh de cheithir geama Ceangailte. Tha am pròiseact seo a 'toirt a-steach structaran ann an còrr air 30 de chànanan prògramadh, a' toirt a-steach Java, Python, Javas, agus barrachd. A bharrachd air an sin, tha e cuideachd a 'toirt a-steach còrr air 20+ frèam fhilmichean no cruthan eile, nam measg retact.js, ruby ​​air rèil, ASP.net agus barrachd agus barrachd.",
-                "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
-            },
-            "grocery_app": {
-                "title": "App grosaireachd",
-                "text": "Làn-stac iomlan .Net 9 tagradh Blazor Frithealaiche airson a bhith a 'riaghladh nithean grosaireachd. Tha an tagradh a 'leantainn Pàtran Rianadair / Seirbheis / Ath-stòradh le Frèam ENTIFrity City airson Someringce Entersurce Stand.",
-                "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
-            },
-            "interop": {
-                "title": "Pròiseact Interop",
-                "text": "Pròiseact a tha ag inntinn a 'dèanamh ath-dhealbhachadh eadar diofar chànanan prògramaidh. An-dràsta tha 15 cànanan prògramadh de dhiofar chànanan agus 18 pàtrain cur gu bàs.",
-                "link": "https://github.com/pattygcoding/Interop-Samples"
-            },
-            "inventory_register": {
-                "title": "Clàr Cunntais",
-                "text": "LÀRACH DEMO làn-stac làn-stac (Pìos) le Siostam Riaghlaidh Cunntais air a thogail le ceàrnaiche ceàrnach 17+ agus bòd.js. Tha an tagradh seo a 'sealltainn siostam pasgan aig ìre proifeasanta le dearbhadh cleachdaiche, smachd ruigsinneachd stèidhichte air dreuchd, clàr-seilbhe roinneadh, agus giullachd pàighidh meallta.",
-                "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
-            },
-            "formatter": {
-                "title": "Ùine JSON & Yaml Auto",
-                "text": "Linter & fèin-leasachail airson faidhlichean JSON & Yaml. Tha am pròiseact seo air a chleachdadh gus foirmean JSON & Yampl a chruthachadh, a tha glè fheumail airson còd a chumail glan agus air a chuir air dòigh. Air a thogail le Go, air a chur ri chèile le Wagalebobry, agus freumhaichte a-steach don phasgan agam mar phròiseact làrach-lìn. Barrachd chruthan ri thighinn san àm ri teachd.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
-            },
-            "takeoff_engine": {
-                "title": "Inneal toirt air falbh",
-                "text": "Measadh togail ùr-nodha agus toirt air falbh SaaS airson cunnradairean agus luchd-measaidh. Bidh e a’ toirt a-steach faidhlichean CSV agus Excel, colbhan mapaichean fèin-ghluasadach, a’ tomhas cladhach trainnsichean agus meud obair-talmhainn, a’ cumail sùil air saothair agus comharrachadh, agus a’ gineadh molaidhean tairgse PDF agus Word deiseil le teachdaichean le sruth-obrach snasta React + Express.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
-            },
-            "minecraft_json_generator": {
-                "title": "Gineadair minecraft JSON",
-                "text": "Gineadair Bookight JSON air a thogail ann am Python airson Goireasan Mèinntc & Pacaidean dàta. Tha am pròiseact seo air a chleachdadh gus faidhlichean Jicors a ghineadh airson Mòdan Minecraft, a 'toirt a-steach stuthan gnàthaichte, blocaichean, agus eintiteasan. Gu math feumail airson nach e a-mhàin a 'cruthachadh dàta gnàthaichte, ach airson Mòdan a bharrachd air feart ath-atharrachadh ainm a' Mhòid.",
-                "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
-            },
-            "educational_experience": {
-                "title": "Mo eòlas foghlaim",
-                "text": "Còmhla ri mo phròiseactan pearsanta, tha mi cuideachd air grunn sgilean fhaighinn bho eòlas foghlaim. Cliog an seo gus sùil a thoirt air a 'phròifil Lintentin agam airson tuilleadh fiosrachaidh.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "professional_experience": {
-                "title": "Mo eòlas proifeasanta",
-                "text": "Còmhla ri mo phròiseactan pearsanta, tha mi cuideachd air grunn sgilean fhaighinn bho eòlas proifeasanta. Cliog an seo gus sùil a thoirt air a 'phròifil Lintentin agam airson tuilleadh fiosrachaidh.",
-                "link": "https://www.linkedin.com/in/patrickgoodwin7"
-            },
-            "portfolio_website": {
-                "title": "Làrach-lìn pasgan Patfolio Patfown",
-                "text": "Is e an làrach-lìn seo mo làrach-lìn portfolio pearsanta, air a thogail le react.js. Tha am pròiseact seo air a chleachdadh gus mo sgilean agus mo phàrantan a thaisbeanadh, a bharrachd air àrd-ùrlar a thoirt seachad airson luchd-fastaidh a dh 'fhaodadh fios a chuir thugam. Tha am pròiseact seo air a chleachdadh gus làthaireachd proifeasanta air-loidhne a chruthachadh.",
-                "link": "https://www.pattygcoding.com"
-            },
-            "lua_library": {
-                "title": "Leabharlann sgriobt lua patrick",
-                "text": "Leabharlann feumail de sgriobtaichean lua airson iomradh san àm ri teachd. Tha an leabharlann seo air a chleachdadh gus gnìomhan a dhèanamh fèin-ghluasadach ann an sgriobtaichean Lua, a dh 'fhaodadh a thighinn a-steach airson gnìomhan feumach coileanaidh, oir mar as trice tha Lua mar chànan sgrìobhaidh nas luaithe agus ruby ​​mar as trice.",
-                "link": "https://github.com/pattygcoding/Lua-Scripts"
-            },
-            "excel_scripts": {
-                "title": "Sgriobtaichean spreadhaidh Microsoft Aidicollaich Patrick (VBA)",
-                "text": "Leabharlann feumail de sgriobtaichean VBA airson Microsoft Excel. Tha an leabharlann seo air a chleachdadh gus gnìomhan a dhèanamh fèin-ghluasadach ann an claigesheets Excel.",
-                "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
-            },
-            "neovim_config": {
-                "title": "Config Neovim Patrick",
-                "text": "Mo rèiteachadh pearsanta neo-làthaireach. Tha am pròiseact seo air a chleachdadh gus Neovim a rèiteachadh gus mo choiteachadh, a 'gabhail a-steach prìomh ainmean àbhaisteach, cuspairean agus plugins. Tha am pròiseact seo air a chleachdadh gus a dhèanamh nas fhasg Neovim agus èifeachdach airson mo chleachdadh pearsanta.",
-                "link": "https://github.com/pattygcoding/Neovim-Config"
-            },
-            "python_maps": {
-                "title": "Gineadair mapa patrick",
-                "text": "Gineadair mapa na Stàitean & Mapa Stàite na Stàitean Aonaichte Stàitean, air a thogail le Python a 'cleachdadh leabharlann Geopdadas agus Matplotlib. Tha am pròiseact seo air a chleachdadh gus mapaichean de na Stàitean Aonaichte a ghineadh, a 'toirt a-steach siorrachd agus mapaichean stàite. Tha am pròiseact seo air a chleachdadh gus mapaichean gnàthaichte a chruthachadh airson sealladh dàta agus mion-sgrùdadh.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
-            },
-            "powershell_library": {
-                "title": "Leabharlann Sgriobt de Powerthellhell Patrick",
-                "text": "Leabharlann feumail de sgriobtaichean cumhetsfets airson iomradh san àm ri teachd. Feumail leis a 'phrìomh fheart sgriobt $ Pròiseact, tha mi nam fìor chuideachail airson gnìomhan fèin-ghluasadach bho cheann-uidhe Windows, oir tha mi nam neach-cleachdaidh tric de na h-US OS.",
-                "link": "https://github.com/pattygcoding/Powershell-Scripts"
-            },
-            "ruby_library": {
-                "title": "Leabharlann Sgriobt Rubrick Patrick",
-                "text": "Leabharlann feumail de sgriobtaichean Ruby airson iomradh san àm ri teachd. Feumail airson ruby ​​san àm ri teachd air rèilichean leasachaidh a dhèanamh air bun-bheachdan leasachaidh.",
-                "link": "https://github.com/pattygcoding/Ruby-Scripts"
-            },
-            "pdf_builder": {
-                "title": "Neach-togail sgilean PDFF",
-                "text": "Neach-togail pdf gnàthaichte a chaidh a thogail le Python tro na leudachain PFFKit agus Jinja2, còmhla ri cruth HTML agus JSON. Tha am pròiseact seo air a chleachdadh gus faidhlichean PDF a ghineadh bho liosta de sgilean agus phròiseactan. Faodar am pròiseact seo a chleachdadh gus ath-thòiseachadh PDF Cusbaigeach a chruthachadh, a tha glè fheumail airson tagraidhean obrach.",
-                "link": "https://github.com/pattygcoding/PDFBuilderPublic"
-            },
-            "rijandel_encryption": {
-                "title": "Pròiseact Criotryd Rijsanl",
-                "text": "Teaghlach de 10+ cunntais de Algorithm Encrydm Rijandel ann an 128, 192, agus 256 pìosan. Tha am pròiseact seo air a chleachdadh gus a bhith a 'nochdadh Algorithm Encryption Rijandel ann an diofar chànanan prògramaidh. Tha am pròiseact seo air a chleachdadh gus teaghlach de bhuileachadh a chruthachadh de algorithm criomataidh Rijandm.",
-                "link": "https://github.com/pattygcoding/SupremeMC"
-            },
-            "suprememc": {
-                "title": "Mod Minemccraft Minecraft",
-                "text": "Mod minecraft a chuireas innealan àbhaisteach, armachd, mobs, blocaichean, tomhasan, agus mòran a bharrachd nam feartan san gheama. Air a thogail le dreachan java 8-17 airson dreachan MINECRACT a thaghadh eadar 1.16 agus 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
-            },
-            "tiger_programming_language": {
-                "title": "Cànan prògramadh tìgear",
-                "text": "Cànan prògramadh àbhaisteach air a thogail anns gach cuid Go & Rùthan gus dealbhadh is coileanadh eadar-theangachaidh a dhèanamh. Air a bhuileachadh air an làrach-lìn a 'chùmhnain a' cleachdadh Seanadh Lìn.",
-                "link": "https://www.pattygcoding.com/tiger"
-            },
-            "tiger_tailgating_pros": {
-                "title": "Tìgear làrach-lìn ProS a 'tarraing",
-                "text": "Làrach-lìn a thog mi ann an 2024 airson Tìgear Tìglaidh Tìgear, companaidh tailgation ann an Clemson, SC. Air a thogail le react.js.",
-                "link": "https://github.com/pattygcoding/TTProsBeta"
-            },
-            "turing_machine": {
-                "title": "Pròiseact Machine Trighd",
-                "text": "Teaghlach de chòrr air 30+ Cruthachadh an inneal troimh-chladail. Air a chleachdadh gus ar-a-mach àrda airson diofar chànanan prògramaidh airson rannsachadh, gu sònraichte dha cànan prògramadh tìgear.",
-                "link": "https://github.com/pattygcoding/Turing-Machines"
-            }
+    "technical_skills": {
+      "title": "Sgilean Teicnigeach",
+      "header1": "Cànanan Prògramadh",
+      "header2": "Frèamaichean & Leabharlannan",
+      "header3": "Innealan & Teicneòlasan"
+    },
+    "services": {
+      "title": "Mo Sheirbheisean",
+      "entries": [
+        {
+          "title": "Innleadaireachd Làn Stack",
+          "text": "Bidh mi a’ stiùireadh lìbhrigeadh toraidh deireadh-gu-deireadh: ag eadar-theangachadh sruthan obrach gnìomhachais gu crìochan siostam, modalan dàta, APIan, agus eadar-aghaidh, an uairsin a’ giùlan na h-obrach tro dheuchainn, cleachdadh, agus ath-aithris. Is e an amas bathar-bog as urrainn do sgioba atharrachadh agus obrachadh, chan e cruinneachadh de scrionaichean neo-cheangailte."
+        },
+        {
+          "title": "Ailtireachd Bathar & Àrd-ùrlar",
+          "text": "Bidh mi a’ taghadh àrd-ùrlaran agus pàtrain stèidhichte air an duilgheadas: seirbheisean .NET le sreathan airson raointean gnìomhachais, tagraidhean Angular no React air an stiùireadh le co-phàirtean airson obrachaidhean iom-fhillte, dàimheil modalan dàta airson sruthan-obrach cunntachail, agus aonachadh air a dhealbhadh le modhan fàilligeadh, smachd ruigsinneachd, agus seasmhachd san amharc."
+        },
+        {
+          "title": "Riochdachadh-Lìbhrigeadh Deiseil",
+          "text": "Bidh mi a’ togail leis na fìrinnean às deidh an cur air bhog san amharc: dìomhaireachdan air an cumail a-mach à smachd stòr, slighean imrich stòr-dàta soilleir, cead stèidhichte air dreuchd, dearbhadh aig crìochan siostam, deuchainnean fèin-ghluasadach, mothachadh CI/CD, agus amharc practaigeach. Is iad sin na mion-fhiosrachadh a thionndaidheas prototype gu bathar-bog earbsach."
         }
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Pasgan",
+    "filter_by": "Criathraich pasgan le:",
+    "entries": {
+      "biblioteca": {
+        "title": "Leabhar JSON",
+        "text": "Pìob-loidhne ionadail stèidhichte air Python a thionndaidheas aon stòr susbaint structaraichte gu pasgan a tha ruigsinneach air feadh na cruinne. Bidh e a’ làimhseachadh dàta eadar-theangachaidh mar shiostam a ghabhas a chumail suas seach leth-bhreac de dhuilleag le làimh, a’ leigeil leis an làrach sgèile thairis air 100+ cànan agus a’ dèanamh ruigsinneachd cruinneil na comas obrachaidh an àite feart aon-ùine.",
+        "link": "https://github.com/pattygcoding/Biblioteca-JSON"
+      },
+      "connect_four": {
+        "title": "Ceangail Ceithir",
+        "text": "Teaghlach mòr de chòrr air 50+ buileachadh den gheama Connect Four. Tha am pròiseact seo a’ toirt a-steach buileachadh ann an còrr air 30 cànan prògramaidh eadar-dhealaichte, nam measg Java, C ++, Python, JavaScript, agus barrachd. A bharrachd air an sin, tha e cuideachd a’ toirt a-steach còrr air 20+ frèaman eadar-dhealaichte no cruthan eile, nam measg React.js, Ruby on Rails, ASP.NET, agus barrachd.",
+        "link": "https://github.com/pattygcoding/Connect-Four-Language-Tree"
+      },
+      "grocery_app": {
+        "title": "App grosaireachd",
+        "text": "Iarrtas làn-chruach .NET 9 Blazor Server a sheallas ailtireachd backend a dh’aona ghnothach airson sruth-obrach gnìomhachais. Bidh an sgaradh rianadair / seirbheis / stòr a’ cumail riaghailtean tagraidh, ruigsinneachd dàta, agus taisbeanadh gu neo-eisimeileach; Tha Entity Framework Core a’ toirt seachad seasmhachd seasmhach; agus an Bidh sreath deuchainn coileanta a’ dìon giùlan mar a bhios an toradh a ’fàs.",
+        "link": "https://github.com/pattygcoding/Grocery-App-Blazor"
+      },
+      "interop": {
+        "title": "Pròiseact interop",
+        "text": "Iomradh air eadar-obrachadh thar-chànan a’ spangachadh 15 cànan prògramaidh agus 18 pàtrain cur gu bàs. Bidh am pròiseact a’ sgrùdadh na crìche far a bheil siostaman gu tric a’ fàs cugallach: cùmhnantan pròiseas, iomlaid dàta, giùlan runtime, agus slighean amalachaidh a ghabhas ath-aithris. Tha e a’ nochdadh smaoineachadh nan siostaman a tha a dhìth nuair a tha toradh nas motha na aon chruach.",
+        "link": "https://github.com/pattygcoding/Interop-Samples"
+      },
+      "inventory_register": {
+        "title": "Clàr Cunntais",
+        "text": "Sruth-obrach làn-chruach POS agus clàr-seilbhe air a thogail le Angular 17+ agus Node.js. Bidh e a’ modail draghan obrachaidh siostam B2B: luchd-cleachdaidh dearbhte, smachd ruigsinneachd stèidhichte air dreuchd, cruinneas clàr-seilbhe, agus sruth pàighidh meallta. Tha am pròiseact air a dhealbhadh timcheall air an fhìor obair a bhios sgioba clàraidh a’ dèanamh, chan e dìreach catalog de fheartan frèam.",
+        "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
+      },
+      "formatter": {
+        "title": "Cruth fèin-ghluasadach JSON & YAML",
+        "text": "Inneal dearbhaidh is cruth stèidhichte air brabhsair JSON agus YAML air a thogail ann an Go agus air a chur ri chèile gu WebAssembly. Le bhith a’ gluasad an einnsean parsaidh gu WASM bidh an eadar-obrachadh freagairteach agus ionadail don bhrobhsair fhad ‘s a bhios tu a’ cleachdadh fìor parser gus cuir a-steach neo-dhligheach a ghlacadh. Tha e na eisimpleir cuimsichte de bhith a’ taghadh ailtireachd runtime airson coileanadh, so-ghiùlain, agus earbsa luchd-cleachdaidh.",
+        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+      },
+      "takeoff_engine": {
+        "title": "Inneal toirt air falbh",
+        "text": "Togail tuairmseach SaaS air a thogail timcheall air sruth-obrach cunnradair cosgail, buailteach do mhearachdan. Bidh toradh React + Express a’ toirt a-steach dàta CSV agus Excel, a’ mapadh cholbhan neo-chunbhalach a-steach do mhodail àrainn a ghabhas cleachdadh, a’ tomhas cladhach trainnsichean agus meud obair-talmhainn, a’ cumail sùil air saothair agus markup, agus a’ toirt a-mach molaidhean PDF agus Word a tha deiseil le teachdaiche. Is e seo innleadaireachd cuairt-beatha làn toraidh: parsadh dàta, riaghailtean àireamhachaidh, sruth-obrach gnìomhaiche snasail, agus toraidhean lìbhrigidh a chuidicheas gnìomhachas gluasad bho chuir a-steach amh gu tairgse.",
+        "link": "https://github.com/pattygcoding/takeoff-engine"
+      },
+      "minecraft_json_generator": {
+        "title": "Gineadair JSON airson minecraft",
+        "text": "Gineadair JSON aotrom air a thogail ann am Python airson goireasan Minecraft & pacaidean dàta. Tha am pròiseact seo air a chleachdadh gus faidhlichean JSON a ghineadh airson mòdan Minecraft, a’ toirt a-steach nithean àbhaisteach, blocaichean, agus buidhnean. Glè fheumail chan ann a-mhàin airson a bhith a’ cruthachadh datapacks àbhaisteach, ach airson mòdan cuideachd tron ​​​​fheart atharrachadh ainm mod.",
+        "link": "https://github.com/pattygcoding/Minecraft-JSON-Generator"
+      },
+      "educational_experience": {
+        "title": "An t-eòlas foghlaim agam",
+        "text": "Còmhla ri mo phròiseactan pearsanta, tha mi cuideachd air grunn sgilean fhaighinn bho eòlas foghlaim. Cliog an seo gus mo phròifil LinkedIn fhaicinn airson tuilleadh fiosrachaidh.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "professional_experience": {
+        "title": "An t-eòlas proifeasanta agam",
+        "text": "Sia bliadhna a bharrachd de eòlas innleadaireachd proifeasanta thairis air sgiobaidhean toraidh, àrd-ùrlaran gnìomhachais, agus bathar-bog mu choinneamh teachdaiche. Tha an obair agam air a bhith a’ toirt a-steach a bhith a’ togail sreathan tagraidh a ghabhas cumail suas, a’ co-obrachadh thar chuspairean lìbhrigidh, agus a’ dèanamh cho-dhùnaidhean teicnigeach le cuairt-beatha toraidh, obrachaidh cunnart, agus seilbh fad-ùine ann an sealladh.",
+        "link": "https://www.linkedin.com/in/patrickgoodwin7"
+      },
+      "portfolio_website": {
+        "title": "Làrach-lìn Patrick Goodwin Portfolio",
+        "text": "Pasgan React le inntinn cinneasachaidh a bhios a’ làimhseachadh ruigsinneachd agus ruigsinneachd cruinneil mar riatanasan innleadaireachd. Tha e a’ toirt a-steach loidhne-phìoban eadar-theangachaidh seasmhach airson 100+ cànan, innealan eadar-ghnìomhach le taic bho WebAssembly, pàtrain UI freagairteach agus ruigsinneach, agus ailtireachd pròiseict. air a dhealbhadh gus fàs mar a thèid obair ùr a chuir air falbh.",
+        "link": "https://www.pattygcoding.com"
+      },
+      "lua_library": {
+        "title": "Leabharlann Sgriobt Patrick's Lua",
+        "text": "Leabharlann feumail de sgriobtaichean Lua airson iomradh san àm ri teachd. Tha an leabharlann seo air a chleachdadh gus gnìomhan ann an sgriobtaichean Lua a dhèanamh fèin-ghluasadach, a dh’ fhaodadh a bhith feumail airson gnìomhan a tha feumach air coileanadh, leis gu bheil Lua mar as trice na chànan sgrìobhaidh nas luaithe na an dà chuid Python agus Ruby.",
+        "link": "https://github.com/pattygcoding/Lua-Scripts"
+      },
+      "excel_scripts": {
+        "title": "Sgriobtaichean Spreadsheet Microsoft Excel (VBA) aig Pàdraig",
+        "text": "Leabharlann feumail de sgriobtaichean VBA airson Microsoft Excel. Tha an leabharlann seo air a chleachdadh gus gnìomhan ann an duilleagan-clèithe Excel a dhèanamh fèin-ghluasadach.",
+        "link": "https://github.com/pattygcoding/Spreadsheet-Scripts"
+      },
+      "neovim_config": {
+        "title": "Config Pàdraig Neovim",
+        "text": "An rèiteachadh pearsanta Neovim agam. Tha am pròiseact seo air a chleachdadh gus Neovim a rèiteachadh mar a thogras mi, a’ toirt a-steach iuchraichean gnàthaichte, cuspairean, agus plugins. Tha am pròiseact seo air a chleachdadh gus Neovim a dhèanamh nas fhasa a chleachdadh agus nas èifeachdaiche airson mo chleachdadh pearsanta.",
+        "link": "https://github.com/pattygcoding/Neovim-Config"
+      },
+      "python_maps": {
+        "title": "Gineadair mapa Pàdraig",
+        "text": "Inneal aithris geospatial Python air a thogail le GeoPandas agus Matplotlib gus mapaichean siorrachd is stàite na SA a ghineadh. Bidh e a’ tionndadh dàta cruinn-eòlasach gu artifacts mion-sgrùdadh a ghabhas leughadh, a’ nochdadh sealladh loidhne-phìoban dàta: tagh na leabharlannan fearainn ceart, gnàthaich cuir a-steach, agus thoir a-mach toraidhean a cuir taic ri co-dhùnaidhean soilleir.",
+        "link": "https://i.imgur.com/HxYLSXC.png"
+      },
+      "powershell_library": {
+        "title": "Leabharlann Sgriobt Patrick's PowerShell",
+        "text": "Leabharlann feumail de sgriobtaichean PowerShell airson iomradh san àm ri teachd. Feumail leis an fheart sgriobt $profile, tha seo air leth cuideachail airson gnìomhan fèin-ghluasadach bho cheann-uidhe Windows, leis gu bheil mi tric a’ cleachdadh an OS Windows.",
+        "link": "https://github.com/pattygcoding/Powershell-Scripts"
+      },
+      "ruby_library": {
+        "title": "Leabharlann Sgriobt Patrick's Ruby",
+        "text": "Leabharlann feumail de sgriobtaichean Ruby airson iomradh san àm ri teachd. Feumail airson bun-bheachdan leasachaidh Ruby on Rails san àm ri teachd.",
+        "link": "https://github.com/pattygcoding/Ruby-Scripts"
+      },
+      "pdf_builder": {
+        "title": "Neach-togail sgilean pdf",
+        "text": "Sruth-obrach gineadh sgrìobhainnean air a thogail le Python, Pdfkit, Jinja2, HTML, agus dàta structarail JSON. Bidh e a’ sgaradh dàta ath-chleachdadh bho theamplaidean taisbeanaidh gus ath-thòiseachadh PDF sònraichte a ghineadh gu cunbhalach, pàtran practaigeach airson obair làimhe a lughdachadh agus sgrìobhainnean gnìomhachais a dhèanamh. ath-aithris.",
+        "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "rijandel_encryption": {
+        "title": "Pròiseact crioptachaidh Rijandel",
+        "text": "Seata coimeasach de bhuileachadh 10+ Rijndael thairis air tionndaidhean 128-, 192-, agus 256-bit. Is e eacarsaich smachdail a th’ ann a bhith ag ath-chur algairim a tha mothachail air tèarainteachd thar chànanan ann an dearbh shònrachaidhean, giùlan deuchainneach, agus crìochan comas giùlain ìre cànain, a h-uile instinct feumail airson siostaman a bhios a’ làimhseachadh dàta mothachail.",
+        "link": "https://github.com/pattygcoding/SupremeMC"
+      },
+      "suprememc": {
+        "title": "Mòd minecraft superMC",
+        "text": "Mòd Minecraft a chuireas innealan àbhaisteach, armachd, mobs, blocaichean, tomhasan, agus mòran a bharrachd fheartan ris a’ gheama. Air a thogail le dreachan Java 8-17 airson dreachan taghte de Minecraft eadar 1.16 agus 1.20.",
+        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+      },
+      "tiger_programming_language": {
+        "title": "Cànain Prògramadh Tìgear",
+        "text": "Cànan prògramaidh àbhaisteach agus eadar-theangair air a thogail ann an Go gus sgrùdadh a dhèanamh air dealbhadh ùine ruith cànain, giùlan cur gu bàs, agus malairt coileanaidh. Le bhith ga chur ri chèile gu WebAssembly agus ga fhighe a-steach don phasgan a’ cruthachadh uachdar toraidh fìor, faicsinneach airson innleadaireachd aig ìre shiostaman seach a bhith a’ fàgail na h-obrach mar deuchainn ionad-tasgaidh a-mhàin.",
+        "link": "https://www.pattygcoding.com/tiger"
+      },
+      "tiger_tailgating_pros": {
+        "title": "Làrach-lìn Tiger Tailgating Pros",
+        "text": "Làrach-lìn React air a lìbhrigeadh airson gnìomhachas tàillearachd Clemson, SC. Bidh an obair ag eadar-theangachadh tairgse gnìomhachas beag gu turas teachdaiche soilleir agus làthaireachd earbsach air an lìon, a’ cleachdadh smaoineachadh toraidh gus fìor bhuidheann a chuideachadh gus ùidh a thionndadh ann an rannsachaidhean agus teachd a-steach.",
+        "link": "https://github.com/pattygcoding/TTProsBeta"
+      },
+      "turing_machine": {
+        "title": "Pròiseact inneal Turing",
+        "text": "Teaghlach de chòrr air 30+ buileachadh den Turing Machine. Air a chleachdadh gus iomlanachd turaidh a nochdadh airson diofar chànanan prògramaidh airson rannsachadh, gu sònraichte airson Cànan Prògramadh Tìgear.",
+        "link": "https://github.com/pattygcoding/Turing-Machines"
+      }
+    }
+  },
+  "tiger_programming_language": {
+    "title": "Cànain Prògramadh Tìgear"
+  },
+  "contact": {
+    "title": "Cuir fios thugam",
+    "header": "Fiosrachadh conaltraidh",
+    "email": "pattygsocials@gmail.com",
+    "description": "Bidh mi a’ freagairt cheistean bho phost-d agus teachdaireachdan LinkedIn. Cuiridh mi fios air ais cuideachd ma thèid an àireamh agam a thoirt seachad tro ath-thòiseachadh no eile, ged is fheàrr leam an àireamh fòn agam a chumail prìobhaideach."
+  },
+  "formatter": {
+    "title": "JSON & YAML Linter",
+    "description": "Inneal càileachd dàta stèidhichte air brabhsair a bhios a’ dearbhadh agus a’ cruth JSON agus YAML a’ cleachdadh einnsean Go air a chur ri chèile gu WebAssembly. Bidh an ailtireachd a’ cumail parsadh faisg air an neach-cleachdaidh airson fios air ais luath, prìobhaideach fhad ‘s a tha e a’ cur an gnìomh fìor riaghailtean co-chòrdadh aig crìoch an dàta. Tha e na eisimpleir teann de bhith a’ dealbhadh sruth-obrach leasaiche earbsach timcheall air ceartachd, coileanadh agus earbsa.",
+    "more_info1": "Airson tuilleadh fiosrachaidh, thoir sùil air an README anns an",
+    "more_info2": "Stòr cruth JSON/YAML.",
+    "format_as": "Cruth mar:",
+    "auto_detect": "Dearbhaich fèin-ghluasadach",
+    "format": "Lint & cruth",
+    "valid_json": "✓ JSON dligheach",
+    "valid_yaml": "✓ YAML dligheach",
+    "invalid_json": "JSON mì-dhligheach",
+    "invalid_yaml": "YAML mì-dhligheach",
+    "empty_input": "Feuch an cuir thu a-steach cuid de JSON no YAML gu lint.",
+    "too_large": "Cur a-steach ro mhòr (1MB aig a’ char as àirde ceadaichte).",
+    "fixed_yaml_spacing": "⚠ Bha beàrnan/dealachadh mì-dhligheach aig YAML ach chaidh a stèidheachadh gu fèin-ghluasadach agus a chruth.",
+    "loading": "A luchdachadh a-nuas formatter.. .",
+    "waiting_for_input": "A’ feitheamh ri cuir a-steach...",
+    "load_failed": "Cha b' urrainn dhuinn an cruth-clò a luchdachadh.",
+    "output": "Toradh:",
+    "input_code": "Cuir a-steach",
+    "json_examples": "Eisimpleirean JSON",
+    "yaml_examples": "Eisimpleirean YAML"
+  },
+  "tiger": {
+    "title": "Cànan Tìgear",
+    "description": "Tha Tìgear na chànan prògramaidh àbhaisteach agus eadar-theangair Go a chaidh a thogail gus sgrùdadh a dhèanamh air ailtireachd runtime, semantics cànain, agus malairt coileanaidh. Le bhith a’ cur ri chèile an eadar-theangair gu WebAssembly bidh na siostaman sin ag obair gu bhith nan toradh eadar-ghnìomhach, stèidhichte air brabhsair: faodaidh luchd-cleachdaidh prògraman a chuir an gnìomh gu dìreach fhad ‘s a bhios an ùine ruith fhathast so-ghiùlain agus dealaichte bhon tagradh aoigheachd.",
+    "more_info1": "Airson tuilleadh fiosrachaidh, thoir sùil air an README anns an",
+    "more_info2": "Stòr cànan prògramadh tìgear GitHub.",
+    "select_engine": "Tagh einnsean:",
+    "tiger_code": "Còd Tìgear:",
+    "run_tiger": "Ruith Tìgear",
+    "output": "Toradh:"
+  },
+  "tab": {
+    "title": "Pàdraig Goodwin",
+    "description": "Àrd innleadair làn-chruach le 6+ bliadhna de eòlas a’ dealbhadh thoraidhean SaaS, siostaman cinneasachaidh, agus bathar-bog gineadh teachd-a-steach."
+  },
+  "copy": {
+    "text": "Dèan lethbhreac",
+    "copied": "Rinn lethbhreac!"
+  },
+  "social_media": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "text_strip": "Lean mi"
+  },
+  "languages": {
+    "title": "Eadar-theangaiche Portfolio",
+    "description": "Faigh a-mach mar a tha am pasgan agam ruigsinneach do luchd-tadhail bho air feadh an t-saoghail le taic airson còrr air 100 cànan.",
+    "global_accessibility": {
+      "title": "Ruigsinneachd Cruinneil",
+      "description": "Tha am pasgan agam ri fhaighinn ann an còrr air {count} cànan, ga dhèanamh ruigsinneach do luchd-tadhail bho air feadh an t-saoghail. Tha an dòigh-obrach ioma-chànanach seo a’ nochdadh mo dhealas a thaobh in-ghabhalachd agus ruigsinneachd cruinneil ann an leasachadh bathar-bog.",
+      "stats": {
+        "languages_supported": "Cànanan le taic",
+        "countries_represented": "Dùthchannan air an riochdachadh",
+        "continents_covered": "Mòr-thìrean air an còmhdach"
+      }
     },
-    "tiger_programming_language": {
-        "title": "Cànan prògramadh tìgear"
-    },
-    "contact": {
-        "title": "Cuir fios thugam",
-        "header": "Fiosrachadh conaltraidh",
-        "email": "pattygoscials@gmail.com",
-        "description": "Bidh mi a 'freagairt cheistean bho phost-d, teachdaireachdan ceangailte agus teachdaireachdan . Cuiridh mi fios air ais ma thèid an àireamh agam a thoirt seachad tro ath-thòiseachadh no air dhòigh eile, ged is fheàrr leam an àireamh fòn agam a chumail prìobhaideach."
-    },
-    "formatter": {
-        "title": "Ùine JSON & Yaml",
-        "description": "Tha an cruth Json & Yaml na inneal a leigeas leat foirmean JSON agus YAML a chruthachadh. Tha e air a thogail le Go agus Haseasssebly, agus tha e air a dhealbhadh gus a bhith luath agus èifeachdach. Tha an cruth air a dhealbhadh gus a bhith furasta a chleachdadh, le eadar-aghaidh shìmplidh a leigeas leat a bhith a 'pasgadh san chòd json no yaml agad agus a chruth ris le cliog air putan.",
-        "more_info1": "Airson tuilleadh fiosrachaidh, thoir sùil air an leughadair anns an",
-        "more_info2": "Stòr-cruth JSON / Yaml.",
-        "format_as": "Cruth mar:",
-        "auto_detect": "Lorg fèin-ghluasadach",
-        "format": "Cruth",
-        "valid_json": "✓ JSON dligheach",
-        "valid_yaml": "✓ YAML dligheach",
-        "invalid_json": "JSON mì-dhligheach",
-        "invalid_yaml": "Invalid YAML",
-        "empty_input": "Please enter some JSON or YAML to lint.",
-        "too_large": "Cur a-steach ro mhòr (1MB aig a’ char as àirde ceadaichte).",
-        "fixed_yaml_spacing": "⚠ Bha beàrnan/dealachadh mì-dhligheach aig YAML ach chaidh a stèidheachadh gu fèin-ghluasadach agus a chruth."
-    },
-    "tiger": {
-        "title": "Cànan tìgear",
-        "description": "Tha an cànan prògramadh tìgear na chànan prògramaidh àbhaisteach a chaidh a thogail anns gach cuid Go & Rùthan gus dealbhadh is coileanadh eadar-theangair a dhèanamh. Air a bhuileachadh air an làrach-lìn a 'chùmhnain a' cleachdadh Seanadh Lìn. Tha an cànan prògramadh tìgear na chànan prògramaidh àbhaisteach a chaidh a thogail anns gach cuid Go & Rùthan gus dealbhadh is coileanadh eadar-theangair a dhèanamh. Air a bhuileachadh air an làrach-lìn a 'chùmhnain a' cleachdadh Seanadh Lìn.",
-        "more_info1": "Airson tuilleadh fiosrachaidh, thoir sùil air an leughadair anns an",
-        "more_info2": "Dreuchd Tìgidh Gnìomh Cànan Github cànain.",
-        "select_engine": "Tagh einnsean:",
-        "tiger_code": "Còd Tìgear:",
-        "run_tiger": "Ruith tìgear",
-        "output": "Toradh:"
-    },
-    "tab": {
-        "title": "Patrick Goodwin",
-        "description": "Einnseanair Bathar-bog lìonaidh stèidhichte ann am meadhan Florida"
-    },
-    "copy": {
-        "text": "Leth-bhreac",
-        "copied": "Copaidh!"
-    },
-    "social_media": {
-        "github": "Github",
-        "linkedin": "LinkedIn",
-        "youtube": "Youtube",
-        "text_strip": "Lean mi"
-    },
-    "languages": {
-        "title": "Eadar-theangaiche porfolio",
-        "description": "Faigh a-mach mar a tha mo pasgan ruigsinneach do luchd-tadhail bho air feadh an t-saoghail le taic airson còrr air 100 cànan.",
-        "global_accessibility": {
-            "title": "Ruigsinneachd Cruinneil",
-            "description": "Tha mo phasgan ri fhaighinn ann an {cunntadh} cànanan, ga dhèanamh ruigsinneach do luchd-tadhail bho air feadh an t-saoghail. Tha an dòigh-obrach ioma-chànanach seo a 'nochdadh mo dhealas a thaobh in-ghabhaltas agus ruigsinneachd cruinneil ann an leasachadh bathar-bog.",
-            "stats": {
-                "languages_supported": "Cànanan a 'faighinn taic",
-                "countries_represented": "Dùthchannan air an riochdachadh",
-                "continents_covered": "Mòr-mhìrean còmhdaichte"
-            }
+    "features": {
+      "title": "Feartan",
+      "items": [
+        {
+          "title": "Eadar-theangachadh fìor-ùine:",
+          "description": "Atharraich cànanan sa bhad leis an tagraiche cànain"
         },
-        "features": {
-            "title": "Feartan",
-            "items": [
-                {
-                    "title": "Eadar-theangachadh fìor-ùine:",
-                    "description": "Cuir cànanan cànan sa bhad leis an neach-roghnaiche cànain"
-                },
-                {
-                    "title": "Cànan stèidhichte URL:",
-                    "description": "Tha roghainnean cànain air a ghleidheadh ​​anns an URL"
-                },
-                {
-                    "title": "Taic sgriobt dùthchasach:",
-                    "description": "A 'toirt seachad sgriobtaichean mar Arabais, Sìnis, Hindi, agus barrachd"
-                },
-                {
-                    "title": "Cunngarrach cultarach:",
-                    "description": "Eadar-theangachadh beachdaich air co-theacsa cultarail, chan e dìreach ciall litearra"
-                },
-                {
-                    "title": "Seo optimized:",
-                    "description": "Tha gach cànan a 'dèanamh iomagain air a mheudachadh airson einnseanan sgrùdaidh"
-                }
-            ]
+        {
+          "title": "Cànan stèidhichte air URL:",
+          "description": "Tha roghainnean cànain air an glèidheadh ​​san URL"
         },
-        "world_map": {
-            "title": "Mapa na cruinne eadar-ghnìomhach",
-            "description": "Oidhche thairis air dùthchannan air a 'mhapa gus na cànanan taic aca fhaicinn:",
-            "languages_label": "Cànanan",
-            "legend": {
-                "supported": "Cànanan a 'faighinn taic",
-                "not_supported": "Gun taic cànain"
-            },
-            "zoom_controls": {
-                "zoom_in": "Gluais a-steach",
-                "zoom_out": "Gluais a-mach",
-                "reset": "Sealladh ath-shuidheachadh"
-            }
+        {
+          "title": "Taic Sgriobt Dùthchasach:",
+          "description": "Dèanamh ceart de sgriobtaichean mar Arabais, Sìneach, Hindi, agus barrachd"
         },
-        "supported_languages": {
-            "title": "Cànanan le taic"
+        {
+          "title": "Mothachadh Cultarach:",
+          "description": "Bidh eadar-theangachaidhean a’ beachdachadh air co-theacs cultarach, chan e dìreach brìgh litireil"
         },
-        "interactive_country_map": {
-            "title": "Mapa dùthcha eadar-ghnìomhach",
-            "description": "Slighe thairis air Dùthchannan gu h-ìosal gus na cànanan taic aca fhaicinn:",
-            "language_count": {
-                "single": "Cànan",
-                "multiple": "Cànanan"
-            }
-        },
-        "tooltips": {
-            "no_language_support": "Gun taic cànain"
+        {
+          "title": "SEO Optimized:",
+          "description": "Tha gach caochladh cànain air a bharrrachadh airson einnseanan luirg"
         }
+      ]
     },
-    "logotext": "Patrick"
+    "world_map": {
+      "title": "Mapa eadar-ghnìomhach an t-saoghail a",
+      "description": "Gabh thairis air dùthchannan air a’ mhapa gus na cànanan le taic aca fhaicinn:",
+      "languages_label": "Cànanan",
+      "legend": {
+        "supported": "Cànanan le taic",
+        "not_supported": "Gun taic cànain"
+      },
+      "zoom_controls": {
+        "zoom_in": "Gluais a-steach",
+        "zoom_out": "Gluais a-mach",
+        "reset": "Ath-shuidhich Sealladh"
+      }
+    },
+    "supported_languages": {
+      "title": "Cànanan le taic"
+    },
+    "interactive_country_map": {
+      "title": "Mapa dùthchail eadar-ghnìomhach",
+      "description": "Gabh thairis air na dùthchannan gu h-ìosal gus na cànanan le taic aca fhaicinn:",
+      "language_count": {
+        "single": "cànain",
+        "multiple": "cànainean"
+      }
+    },
+    "tooltips": {
+      "no_language_support": "Gun taic cànain"
+    }
+  },
+  "logotext": "PATRIC"
 }
