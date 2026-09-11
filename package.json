@@ -29,6 +29,9 @@
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
         "eject": "react-app-rewired eject",
+        "translate": "python src/assets/lang/lang.py",
+        "translate:skip": "python src/assets/lang/lang.py --skip",
+        "translate:retry": "python src/assets/lang/lang.py --retry",
         "predeploy": "yarn build && copy build\\index.html build\\404.html",
         "deploy": "gh-pages -d build"
     },
