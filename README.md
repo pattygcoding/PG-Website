@@ -142,9 +142,16 @@ The website features an advanced multilingual system supporting 100+ languages:
 ```bash
 # Translate all content to all supported languages
 python src/assets/lang/lang.py
+# or via yarn
+yarn translate
 
 # Skip already translated content (recommended for updates)
 python src/assets/lang/lang.py -skip
+
+# Target specific JSON key(s) or key array across language files
+yarn translate "['home.animated.second', 'home.animated.third']"
+# or using -k / --keys flag
+python src/assets/lang/lang.py -k home.animated.second home.animated.third
 ```
 
 ### Translation Features
