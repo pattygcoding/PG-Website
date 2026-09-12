@@ -139,9 +139,11 @@ const Home = () => {
 							<div className="code-content">
 								<div><span className="code-line">01</span><span className="code-keyword">const</span> engineer = &#123;</div>
 								<div><span className="code-line">02</span>&nbsp;&nbsp;focus: <span className="code-string">'useful software'</span>,</div>
-								<div><span className="code-line">03</span>&nbsp;&nbsp;stack: [<span className="code-string">'React'</span>, <span className="code-string">'Angular'</span>, <span className="code-string">'.NET'</span>, <span className="code-string">'Node.js'</span>, <span className="code-string">'Java'</span>, <span className="code-string">'C#'</span>, <span className="code-string">'Go'</span>, <span className="code-string">'SQL'</span>],</div>
-								<div><span className="code-line">04</span>&nbsp;&nbsp;ships: <span className="code-boolean">true</span></div>
-								<div><span className="code-line">05</span>&#125;;<span className="code-caret"></span></div>
+								<div><span className="code-line">03</span>&nbsp;&nbsp;stack: [<span className="code-string">'React'</span>, <span className="code-string">'Angular'</span>,</div>
+								<div><span className="code-line">04</span>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-string">'.NET'</span>, <span className="code-string">'Node.js'</span>, <span className="code-string">'Java'</span>,</div>
+								<div><span className="code-line">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-string">'C#'</span>, <span className="code-string">'Go'</span>, <span className="code-string">'SQL'</span>],</div>
+								<div><span className="code-line">06</span>&nbsp;&nbsp;ships: <span className="code-boolean">true</span></div>
+								<div><span className="code-line">07</span>&#125;;<span className="code-caret"></span></div>
 							</div>
 						</div>
 
