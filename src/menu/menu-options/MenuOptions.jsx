@@ -17,7 +17,7 @@ import {
 	VscMail,
 	VscClose,
 } from "react-icons/vsc";
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGamepad, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import "./MenuOptions.css";
 
 const MenuOptions = ({ handleToggle, closeMenu }) => {
@@ -25,12 +25,14 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 	const location = useLocation();
 	const [showProjects, setShowProjects] = useState(
 		location.pathname.startsWith("/tiger") ||
+		location.pathname.startsWith("/snake") ||
 		location.pathname.startsWith("/languages") ||
 		location.pathname.startsWith("/formatter")
 	);
 
 	const isProjectActive =
 		location.pathname.startsWith("/tiger") ||
+		location.pathname.startsWith("/snake") ||
 		location.pathname.startsWith("/languages") ||
 		location.pathname.startsWith("/formatter");
 
@@ -86,7 +88,7 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 									to={l.menu.home}
 									index="01 //"
 									label={t("menu.home")}
-									desc="sys.root // main overview"
+									desc={t("menu.home_description")}
 									tag="[ROOT]"
 									icon={VscHome}
 									onClick={handleItemClick}
@@ -95,7 +97,7 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 									to={l.menu.about}
 									index="02 //"
 									label={t("menu.about")}
-									desc="engineer profile // bio & stack"
+									desc={t("menu.about_description")}
 									tag="[BIO]"
 									icon={VscAccount}
 									onClick={handleItemClick}
@@ -104,7 +106,7 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 									to={l.menu.portfolio}
 									index="03 //"
 									label={t("menu.portfolio")}
-									desc="software catalog // featured works"
+									desc={t("menu.portfolio_description")}
 									tag="[WORKS]"
 									icon={VscBriefcase}
 									onClick={handleItemClick}
@@ -126,11 +128,11 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 												</span>
 												<div className="tech__item_text_group">
 													<span className="tech__item_label">{t("menu.projects")}</span>
-													<span className="tech__item_desc">interactive tools & compilers</span>
+													<span className="tech__item_desc">{t("menu.projects_description")}</span>
 												</div>
 											</div>
 											<div className="tech__menu_item_right">
-												<span className="tech__item_tag">[3 MODULES]</span>
+												<span className="tech__item_tag">[4 MODULES]</span>
 												<span className="tech__chevron_icon">
 													{showProjects ? <VscChevronUp /> : <VscChevronDown />}
 												</span>
@@ -146,17 +148,27 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 													to={l.menu.tiger}
 													index="04.1"
 													label={t("menu.tiger")}
-													desc="custom compiler & AST visualizer"
+													desc={t("menu.tiger_description")}
 													tag="[COMPILER]"
 													icon={VscTerminal}
 													isSubmenu={true}
 													onClick={handleItemClick}
 												/>
 												<MenuItem
-													to={l.menu.languages}
+													to={l.menu.snake}
 													index="04.2"
+													label={t("menu.snake")}
+													desc={t("menu.snake_description")}
+													tag="[GAME]"
+													icon={FaGamepad}
+													isSubmenu={true}
+													onClick={handleItemClick}
+												/>
+												<MenuItem
+													to={l.menu.languages}
+													index="04.3"
 													label={t("menu.portfolio_translator")}
-													desc="100+ language matrix & i18n"
+													desc={t("menu.portfolio_translator_description")}
 													tag="[I18N]"
 													icon={VscGlobe}
 													isSubmenu={true}
@@ -164,9 +176,9 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 												/>
 												<MenuItem
 													to={l.menu.formatter}
-													index="04.3"
+													index="04.4"
 													label={t("menu.formatter")}
-													desc="syntax validator & converter"
+													desc={t("menu.formatter_description")}
 													tag="[PARSER]"
 													icon={VscJson}
 													isSubmenu={true}
@@ -181,7 +193,7 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 									to={l.menu.contact}
 									index="05 //"
 									label={t("menu.contact")}
-									desc="open transmission // get in touch"
+									desc={t("menu.contact_description")}
 									tag="[COMMS]"
 									icon={VscMail}
 									onClick={handleItemClick}

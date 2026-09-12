@@ -116,9 +116,58 @@ target_languages = [
     "zu_za"
 ]
 
-skip_existing = "-skip" in sys.argv or "--skip" in sys.argv
-retry_failed = "-retry" in sys.argv or "--retry" in sys.argv
-requested_langs = [arg for arg in sys.argv[1:] if arg in target_languages]
+def extract_keys_from_args(key_args):
+    if not key_args:
+        return []
+    filtered_args = [a for a in key_args if a not in ("-k", "--keys", "-key", "--key")]
+    raw_text = " ".join(filtered_args).strip()
+    if not raw_text:
+        return []
+    tokens = re.findall(r"[a-zA-Z0-9_\-.]+", raw_text)
+    keys = []
+    for t in tokens:
+        t_clean = t.strip(".")
+        if t_clean and t_clean not in keys:
+            keys.append(t_clean)
+    return keys
+
+def parse_cli_args(argv):
+    skip_existing = False
+    retry_failed = False
+    requested_langs = []
+    key_args = []
+
+    i = 0
+    while i < len(argv):
+        arg = argv[i]
+        if arg in ("-skip", "--skip"):
+            skip_existing = True
+            i += 1
+        elif arg in ("-retry", "--retry"):
+            retry_failed = True
+            i += 1
+        elif arg in ("-k", "--keys", "-key", "--key"):
+            i += 1
+            while i < len(argv):
+                next_arg = argv[i]
+                if next_arg in ("-skip", "--skip", "-retry", "--retry"):
+                    break
+                if next_arg in target_languages:
+                    requested_langs.append(next_arg)
+                else:
+                    key_args.append(next_arg)
+                i += 1
+        elif arg in target_languages:
+            requested_langs.append(arg)
+            i += 1
+        else:
+            key_args.append(arg)
+            i += 1
+
+    target_keys = extract_keys_from_args(key_args)
+    return skip_existing, retry_failed, requested_langs, target_keys
+
+skip_existing, retry_failed, requested_langs, target_keys = parse_cli_args(sys.argv[1:])
 
 REQUEST_INTERVAL = 0.3
 PROVIDER_COOLDOWN = 60
@@ -322,6 +371,20 @@ def get_nested_value(obj, path):
         obj = obj[key]
     return obj
 
+def merge_json_structures(base_data, existing_data):
+    merged = deepcopy(base_data)
+    if not isinstance(existing_data, dict):
+        return merged
+    all_paths = collect_string_paths(base_data)
+    for path in all_paths:
+        try:
+            val = get_nested_value(existing_data, path)
+            if val is not None and isinstance(val, str) and val.strip() != "":
+                set_nested_value(merged, path, val)
+        except (KeyError, IndexError, TypeError):
+            pass
+    return merged
+
 def periodic_progress(total, progress_ref, stop_flag):
     while not stop_flag[0]:
         print(f"✔️ {progress_ref[0]}/{total} lines translated")
@@ -377,9 +440,25 @@ def translate_text(translator, original):
                 translated = translated.replace(f"__VAR_{i}__", placeholder)
     return translated
 
-def translate_one_by_one(json_data, target_language, existing_translations=None):
-    string_paths = collect_string_paths(json_data)
+def translate_one_by_one(json_data, target_language, existing_translations=None, target_keys=None, base_json=None):
+    if base_json is None:
+        base_json = json_data
+
+    string_paths = collect_string_paths(base_json)
+
+    if target_keys:
+        filtered_paths = []
+        for path in string_paths:
+            path_str = ".".join(str(p) for p in path)
+            if any(path_str == tk or path_str.startswith(tk + ".") for tk in target_keys):
+                filtered_paths.append(path)
+        string_paths = filtered_paths
+
     total = len(string_paths)
+    if total == 0:
+        print(f"\nNo matching target keys to translate for '{target_language}'.")
+        return json_data
+
     progress = [0]
     stop_flag = [False]
 
@@ -396,13 +475,13 @@ def translate_one_by_one(json_data, target_language, existing_translations=None)
     thread.start()
 
     for path in string_paths:
-        original = get_nested_value(json_data, path)
+        original = get_nested_value(base_json, path)
 
         if not original or not original.strip() or original.strip().lower().startswith("http"):
             progress[0] += 1
             continue
 
-        if skip_existing and existing_translations:
+        if not target_keys and skip_existing and existing_translations:
             try:
                 existing_value = get_nested_value(existing_translations, path)
                 if existing_value and existing_value.strip() != "":
@@ -446,8 +525,16 @@ def write_pretty_json(data, target_language):
     except Exception as e:
         print(f"Failed to write output file: {e}")
 
-def retry_failed_translations(base_json, existing_json, target_language):
+def retry_failed_translations(base_json, existing_json, target_language, target_keys=None):
     string_paths = collect_string_paths(base_json)
+    if target_keys:
+        filtered_paths = []
+        for path in string_paths:
+            path_str = ".".join(str(p) for p in path)
+            if any(path_str == tk or path_str.startswith(tk + ".") for tk in target_keys):
+                filtered_paths.append(path)
+        string_paths = filtered_paths
+
     failed_paths = []
     for path in string_paths:
         original = get_nested_value(base_json, path)
@@ -504,20 +591,55 @@ def retry_failed_translations(base_json, existing_json, target_language):
 if __name__ == "__main__":
     base_json = lint_json_file()
     if base_json is not None:
+        skip_existing, retry_failed, requested_langs, target_keys = parse_cli_args(sys.argv[1:])
         langs_to_process = requested_langs if requested_langs else target_languages
+
+        if target_keys:
+            all_paths = collect_string_paths(base_json)
+            all_key_strs = [".".join(str(p) for p in path) for path in all_paths]
+            matched_keys = []
+            for tk in target_keys:
+                if any(k == tk or k.startswith(tk + ".") for k in all_key_strs):
+                    matched_keys.append(tk)
+                else:
+                    print(f"Warning: Target key '{tk}' was not found in {source_locale}.json.")
+            if matched_keys:
+                print(f"Targeting key(s): {matched_keys}")
+            else:
+                print("No matching target keys found in base JSON file.")
+
         if retry_failed:
             for lang_code in langs_to_process:
                 existing_translations = load_existing_translations(lang_code)
                 if existing_translations is None:
                     print(f"No existing translation file for '{lang_code}', skipping retry.")
                     continue
-                fixed_json = retry_failed_translations(base_json, existing_translations, lang_code)
+                fixed_json = retry_failed_translations(
+                    base_json, existing_translations, lang_code, target_keys=target_keys
+                )
                 if fixed_json is not None:
                     write_pretty_json(fixed_json, lang_code)
         else:
             for lang_code in langs_to_process:
-                data_copy = deepcopy(base_json)
-                existing_translations = load_existing_translations(lang_code) if skip_existing else None
-                translated_json = translate_one_by_one(data_copy, lang_code, existing_translations)
+                existing_translations = load_existing_translations(lang_code)
+                if target_keys:
+                    if existing_translations:
+                        data_copy = merge_json_structures(base_json, existing_translations)
+                    else:
+                        data_copy = deepcopy(base_json)
+                    translated_json = translate_one_by_one(
+                        data_copy,
+                        lang_code,
+                        existing_translations,
+                        target_keys=target_keys,
+                        base_json=base_json,
+                    )
+                else:
+                    data_copy = deepcopy(base_json)
+                    existing_translations = existing_translations if skip_existing else None
+                    translated_json = translate_one_by_one(data_copy, lang_code, existing_translations)
+
+                if translated_json is not None:
+                    write_pretty_json(translated_json, lang_code)
                 if translated_json is not None:
                     write_pretty_json(translated_json, lang_code)
