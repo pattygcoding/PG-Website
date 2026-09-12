@@ -1,17 +1,48 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { FaGamepad } from "react-icons/fa";
-import { FiCpu } from "react-icons/fi";
+import { FiArrowDown, FiArrowLeft, FiArrowRight, FiArrowUp, FiCpu } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import "./Snake.css";
 
 const MINIQUAD_BUNDLE_URL = "https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js";
 
+const directionControls = [
+	{ code: "ArrowUp", label: "Move up", icon: FiArrowUp, position: "up" },
+	{ code: "ArrowLeft", label: "Move left", icon: FiArrowLeft, position: "left" },
+	{ code: "ArrowRight", label: "Move right", icon: FiArrowRight, position: "right" },
+	{ code: "ArrowDown", label: "Move down", icon: FiArrowDown, position: "down" },
+];
+
 const Snake = () => {
 	const { t } = useLang();
 	const canvasRef = useRef(null);
 	const [gameStatus, setGameStatus] = useState(t("snake.loading"));
+
+	const sendDirectionEvent = (code, type) => {
+		const canvas = canvasRef.current;
+		if (!canvas) return;
+
+		canvas.focus({ preventScroll: true });
+		canvas.dispatchEvent(new KeyboardEvent(type, {
+			key: code,
+			code,
+			bubbles: true,
+			cancelable: true,
+		}));
+	};
+
+	const pressDirection = (event, code) => {
+		event.preventDefault();
+		event.currentTarget.setPointerCapture?.(event.pointerId);
+		sendDirectionEvent(code, "keydown");
+	};
+
+	const releaseDirection = (event, code) => {
+		event.preventDefault();
+		sendDirectionEvent(code, "keyup");
+	};
 
 	useEffect(() => {
 		const script = document.createElement("script");
@@ -74,6 +105,21 @@ const Snake = () => {
 							tabIndex="0"
 							aria-label={t("snake.aria_label")}
 						/>
+					</div>
+					<div className="snake-dpad" aria-label="Snake direction controls">
+						{directionControls.map(({ code, label, icon: DirectionIcon, position }) => (
+							<button
+								type="button"
+								className={`snake-dpad-button snake-dpad-${position}`}
+								aria-label={label}
+								onPointerDown={(event) => pressDirection(event, code)}
+								onPointerUp={(event) => releaseDirection(event, code)}
+								onPointerCancel={(event) => releaseDirection(event, code)}
+							>
+								<DirectionIcon aria-hidden="true" />
+							</button>
+						))}
+						<span className="snake-dpad-center" aria-hidden="true"></span>
 					</div>
 				</section>
 			</main>
