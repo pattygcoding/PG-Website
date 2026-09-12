@@ -6,9 +6,19 @@
         "portfolio": "Portfolio",
         "projects": "Website Projects",
         "tiger": "Tiger Language",
+        "snake": "Snake Game",
         "portfolio_translator": "Portfolio Translator",
         "formatter": "JSON & YAML Formatter",
-        "contact": "Contact Me"
+        "contact": "Contact Me",
+        "home_description": "sys.root // main overview",
+        "about_description": "engineer profile // bio & stack",
+        "portfolio_description": "software catalog // featured works",
+        "projects_description": "interactive tools & compilers",
+        "tiger_description": "custom compiler & AST visualizer",
+        "snake_description": "classic arcade game / WASM",
+        "portfolio_translator_description": "100+ language matrix & i18n",
+        "formatter_description": "syntax validator & converter",
+        "contact_description": "open transmission // get in touch"
     },
     "home": {
         "title": "Senior Full-Stack Engineer | Product & Systems",
@@ -23,7 +33,21 @@
         "descriptionB": "My work connects engineering decisions to business outcomes. From a construction-estimating SaaS that turns spreadsheet data into client-ready proposals to revenue-generating web platforms, I build software around the workflow, risk, and measurable value that matter to the people using it.",
         "portfolio_button": "My Portfolio",
         "contact_button": "Contact Me",
-        "about_button": "About Me"
+        "about_button": "About Me",
+        "featured": {
+            "kicker": "Featured Projects / 06",
+            "title": "Selected Work",
+            "description": "Six projects that best represent how I turn ambitious ideas into polished, working software.",
+            "view_project": "View Project",
+            "open_project": "Open Live Project",
+            "view_all": "Explore the full portfolio",
+            "badges": {
+                "saas": "SaaS",
+                "full_website": "Full Website",
+                "available_here": "Available Here",
+                "minecraft_mod": "Minecraft Mod"
+            }
+        }
     },
     "about": {
         "title": "About Me",
@@ -132,7 +156,7 @@
             "takeoff_engine": {
                 "title": "Takeoff Engine",
                 "text": "A construction estimating SaaS built around a costly, error-prone contractor workflow. The React + Express product ingests CSV and Excel data, maps inconsistent columns into a usable domain model, calculates trench excavation and earthwork volumes, tracks labor and markup, and produces client-ready PDF and Word proposals. This is full product lifecycle engineering: data parsing, calculation rules, a polished operator workflow, and deliverables that help a business move from raw inputs to a bid.",
-                "link": "https://github.com/pattygcoding/takeoff-engine"
+                "link": "https://takeoffengine.com"
             },
             "minecraft_json_generator": {
                 "title": "Minecraft JSON Generator",
@@ -196,8 +220,13 @@
             },
             "suprememc": {
                 "title": "SupremeMC Minecraft Mod",
-                "text": "A Minecraft Mod that adds custom tools, armor, mobs, blocks, dimensions, and many more features to the game. Built with Java versions 8-17 for select Minecraft versions between 1.16 and 1.20.",
-                "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+                "text": "A Minecraft Mod that adds custom tools, armor, mobs, blocks, dimensions, and many more features to the game. Built primarily with Java and Kotlin, with support spanning Minecraft versions 1.16 through 26.2.",
+                "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+            },
+            "snake": {
+                "title": "Snake Game",
+                "text": "A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly, and rendered through HTML5 Canvas. It combines deterministic 0.12-second game ticks with smooth interpolated movement, explicit game phases, responsive controls, collision and win-state handling, and a focused test suite covering the core game rules.",
+                "link": "https://www.pattygcoding.com/snake"
             },
             "tiger_programming_language": {
                 "title": "Tiger Programming Language",
@@ -257,6 +286,18 @@
         "tiger_code": "Tiger Code:",
         "run_tiger": "Run Tiger",
         "output": "Output:"
+    },
+    "snake": {
+        "title": "Snake Game",
+        "description": "A classic arcade game built with Rust and WebAssembly. Collect food, grow your snake, and keep clear of the walls and your own trail.",
+        "kicker": "WEBASSEMBLY / MINIQAD",
+        "section_label": "PLAYGROUND",
+        "game_title": "Snake",
+        "loading": "Loading game...",
+        "ready": "Ready to play",
+        "start_failed": "Unable to start the game",
+        "runtime_failed": "Unable to load the game runtime",
+        "aria_label": "Snake game. Arrow keys or WASD to move, Space to start or restart, P to pause."
     },
     "tab": {
         "title": "Patrick Goodwin",

@@ -12,6 +12,7 @@ const ErrorPage = lazy(() => import("@/pages/error/Error"));
 const Tiger = lazy(() => import("@/pages/projects/tiger/Tiger"));
 const Languages = lazy(() => import("@/pages/projects/languages/Languages"));
 const Formatter = lazy(() => import("@/pages/projects/formatter/Formatter"));
+const Snake = lazy(() => import("@/pages/projects/snake/Snake"));
 
 function AppRoutes() {
 	return (
@@ -24,6 +25,7 @@ function AppRoutes() {
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/error" element={<ErrorPage />} />
 					<Route path="/tiger" element={<Tiger />} />
+					<Route path="/snake" element={<Snake />} />
 					<Route path="/languages" element={<Languages />} />
 					<Route path="/formatter" element={<Formatter />} />
 					<Route path="*" element={<Home />} />
