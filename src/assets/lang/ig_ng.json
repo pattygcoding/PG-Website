@@ -6,9 +6,19 @@
     "portfolio": "Pọtụfoliyo",
     "projects": "Ọrụ weebụsaịtị",
     "tiger": "Asụsụ Agụ",
+    "snake": "Egwuregwu agwọ",
     "portfolio_translator": "Ntụgharị Pọtụfoliyo",
     "formatter": "JSON & YAML nhazi",
-    "contact": "Kpọtụrụ m"
+    "contact": "Kpọtụrụ m",
+    "home_description": "sys.root // isi nyocha",
+    "about_description": "profaịlụ engineer // bio & tojupụtara",
+    "portfolio_description": "katalọgụ software // arụ ọrụ egosipụtara",
+    "projects_description": "ngwa mmekọrịta & nchịkọta",
+    "tiger_description": "omenala compiler & AST visualizer",
+    "snake_description": "kpochapụwo arcade egwuregwu / WASM",
+    "portfolio_translator_description": "100+ asụsụ matriks & i18n",
+    "formatter_description": "syntax validator & Ntụgharị",
+    "contact_description": "meghere nnyefe // nweta kọntaktị"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Ngwaahịa & Sistemu",
@@ -23,7 +33,21 @@
     "descriptionB": "Ọrụ m jikọtara mkpebi injinia na nsonaazụ azụmaahịa. Site na SaaS na-eme atụmatụ na-ewu nke na-atụgharị data akwụkwọ akụkọ ka ọ bụrụ atụmatụ ndị ahịa dị njikere maka nyiwe weebụ na-enweta ego, m na-ewulite ngwanrọ gburugburu usoro ọrụ, ihe egwu, na uru bara uru bara uru maka ndị na-eji ya.",
     "portfolio_button": "Pọtụfoliyo m",
     "contact_button": "Kpọtụrụ m",
-    "about_button": "Gbasara m"
+    "about_button": "Gbasara m",
+    "featured": {
+      "kicker": "Ọrụ egosipụtara / 06",
+      "title": "Ọrụ ahọpụtara",
+      "description": "Ọrụ isii nke kacha anọchite anya otu m ga-esi gbanwee echiche nwere oke ochicho ka ọ bụrụ nke a na-egbu maramara, ngwa na-arụ ọrụ.",
+      "view_project": "Lelee oru ngo",
+      "open_project": "Mepee Live Project",
+      "view_all": "Chọgharịa pọtụfoliyo ahụ n'uju",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Weebụsaịtị zuru ezu",
+        "available_here": "Dị Ebe a",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Gbasara m",
@@ -119,6 +143,11 @@
         "text": "POS zuru ezu na ngwa ahịa ngwa ahịa ejiri Angular 17+ na Node.js rụọ. Ọ na-egosiputa nchegbu arụ ọrụ nke sistemu B2B: ndị ọrụ akwadoro, njikwa ohere dabere na ọrụ, izi ezi ngwa ahịa, na usoro ịkwụ ụgwọ aghụghọ. Emebere oru ngo a gburugburu ọrụ otu ndị otu ndebanye aha na-arụ, ọ bụghị naanị katalọgụ nke atụmatụ.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Nkwụ ụgwọ OBOL",
+        "text": "Sistemụ nhazi ụgwọ ọnwa mpaghara ejiri GnuCOBOL rụọ, akwụkwọ ndebanye SQLite ugboro abụọ, yana dashboard arụmọrụ Svelte. Ọ na-eji mgbakọ na mwepụ integer-cent, nhazi ụgwọ ọrụ batch, yana dashboard loopback iji mee ka usoro ego na-arụ ọrụ nke ọma, nke a na-anwale, na arụ ọrụ.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Onye nhazi akpaaka",
         "text": "Ngwa nkwado JSON na YAML dabere na ihe nchọgharị wuru na Go wee chịkọta ya na WebAssembly. Ịbugharị injin ntugharị n'ime WASM na-eme ka mmekọrịta ahụ na-anabata na mpaghara na ihe nchọgharị ahụ ka ị na-etinye ezigbo nzacha iji nweta ntinye na-ezighi ezi. Ọ bụ ihe atụ lekwasịrị anya nke ịhọrọ nhazi oge ịgba ọsọ maka ịrụ ọrụ, ibugharị, na ntụkwasị obi onye ọrụ.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "A Minecraft Mod nke na-agbakwunye ngwa ọdịnala, ngwa agha, mobs, ngọngọ, akụkụ na ọtụtụ atụmatụ ndị ọzọ na egwuregwu ahụ. Ejiri ụdị Java 8-17 rụọ ya maka họrọ ụdịdị Minecraft n'etiti 1.16 na 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Egwuregwu agwọ",
+        "text": "Igwe Snake a na-egbu maramara nke ejiri Rust na Macroquad rụọ, nke achịkọtara na WebAssembly, wee mepụta ya site na HTML5 Canvas. Ọ na-ejikọta akara egwuregwu 0.12 nke abụọ na-ekpebi mmegharị nke ọma, usoro egwuregwu doro anya, njikwa nzaghachi, nkukota na njikwa steeti, yana ule lekwasịrị anya. suite na-ekpuchi isi iwu egwuregwu.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Asụsụ Mmemme Agụ",
@@ -252,6 +286,18 @@
     "tiger_code": "Koodu agụ:",
     "run_tiger": "Gbaa Agụ",
     "output": "Mpụta:"
+  },
+  "snake": {
+    "title": "Egwuregwu agwọ",
+    "description": "Egwuregwu ịgba egwu ama ama nke ejiri Rust na WebAssembly rụọ. Chịkọta nri, tolite agwọ gị, ma zere mgbidi na ụzọ nke gị.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "EGWUO",
+    "game_title": "Agwo",
+    "loading": "Na-ebu egwuregwu...",
+    "ready": "Njikere igwu egwu",
+    "start_failed": "Enweghị ike ibido egwuregwu ahụ",
+    "runtime_failed": "Enweghị ike ibunye oge ịgba ọsọ egwuregwu",
+    "aria_label": "Egwuregwu agwọ. Igodo akụ ma ọ bụ WASD ịkwaga, Oghere ịmalite ma ọ bụ malitegharịa, P ka kwụsịtụ."
   },
   "tab": {
     "title": "Patrick Goodwin",

@@ -6,9 +6,19 @@
     "portfolio": "Portofolio",
     "projects": "Proyek Situs Web",
     "tiger": "Bahasa Harimau",
+    "snake": "Permainan Ular",
     "portfolio_translator": "Penerjemah Portofolio",
     "formatter": "Pemformat JSON & YAML",
-    "contact": "Hubungi saya"
+    "contact": "Hubungi saya",
+    "home_description": "sys.root // ikhtisar utama",
+    "about_description": "profil insinyur // bio & tumpukan",
+    "portfolio_description": "katalog perangkat lunak // karya unggulan",
+    "projects_description": "alat & kompiler interaktif",
+    "tiger_description": "kompiler khusus & visualisator AST",
+    "snake_description": "game arcade klasik / WASM",
+    "portfolio_translator_description": "100+ matriks bahasa & i18n",
+    "formatter_description": "validator & konverter sintaksis",
+    "contact_description": "buka transmisi // hubungi"
   },
   "home": {
     "title": "Insinyur Full-Stack Senior | Produk & Sistem",
@@ -23,7 +33,21 @@
     "descriptionB": "Pekerjaan saya menghubungkan keputusan teknik dengan hasil bisnis. Dari SaaS perkiraan konstruksi yang mengubah data spreadsheet menjadi proposal siap klien hingga platform web yang menghasilkan pendapatan, saya membangun perangkat lunak berdasarkan alur kerja, risiko, dan nilai terukur yang penting bagi orang yang menggunakannya.",
     "portfolio_button": "Portofolio saya",
     "contact_button": "Hubungi saya",
-    "about_button": "Tentang Saya"
+    "about_button": "Tentang Saya",
+    "featured": {
+      "kicker": "Proyek Unggulan / 06",
+      "title": "Pekerjaan yang Dipilih",
+      "description": "Enam proyek yang paling mewakili cara saya mengubah ide ambisius menjadi perangkat lunak yang berfungsi dengan baik.",
+      "view_project": "Lihat Proyek",
+      "open_project": "Buka Proyek Langsung",
+      "view_all": "Jelajahi portofolio lengkap",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Situs Web Lengkap",
+        "available_here": "Tersedia Di Sini",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    }
   },
   "about": {
     "title": "Tentang Saya",
@@ -119,6 +143,11 @@
         "text": "Alur kerja POS dan inventaris full-stack yang dibangun dengan Angular 17+ dan Node.js. Ini memodelkan masalah operasional sistem B2B: pengguna yang diautentikasi, kontrol akses berbasis peran, keakuratan inventaris, dan aliran pembayaran tiruan. Proyek ini dirancang berdasarkan pekerjaan sebenarnya yang dilakukan tim register, bukan hanya katalog fitur kerangka kerja.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PenggajianOBOL",
+        "text": "Sistem pemrosesan penggajian lokal yang dibangun dengan GnuCOBOL, buku besar entri ganda SQLite, dan dasbor operasi Svelte. Ini menggunakan matematika bilangan bulat, pemrosesan penggajian batch, dan dasbor loopback untuk membuat alur kerja keuangan menjadi eksplisit, dapat diuji, dan akuntabel secara operasional.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Pemformat Otomatis JSON & YAML",
         "text": "Alat validasi dan pemformatan JSON dan YAML berbasis browser yang dibangun di Go dan dikompilasi ke WebAssembly. Memindahkan mesin parsing ke WASM menjaga interaksi tetap responsif dan lokal pada browser sambil menerapkan parser nyata untuk menangkap input yang tidak valid. Ini adalah contoh terfokus dalam memilih arsitektur runtime untuk kinerja, portabilitas, dan kepercayaan pengguna.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Mod Minecraft Tertinggi",
         "text": "Mod Minecraft yang menambahkan alat khusus, baju besi, monster, balok, dimensi, dan banyak lagi fitur lainnya ke dalam game. Dibangun dengan Java versi 8-17 untuk versi Minecraft tertentu antara 1.16 dan 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Permainan Ular",
+        "text": "Mesin Snake yang dipoles dibuat dengan Rust dan Macroquad, dikompilasi ke WebAssembly, dan dirender melalui Kanvas HTML5. Ini menggabungkan tick permainan 0,12 detik deterministik dengan gerakan interpolasi halus, fase permainan eksplisit, kontrol responsif, penanganan tabrakan dan kondisi menang, dan tes terfokus suite yang mencakup aturan inti permainan.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Bahasa Pemrograman Harimau",
@@ -252,6 +286,18 @@
     "tiger_code": "Kode Harimau:",
     "run_tiger": "Jalankan Harimau",
     "output": "Keluaran:"
+  },
+  "snake": {
+    "title": "Permainan Ular",
+    "description": "Game arcade klasik yang dibuat dengan Rust dan WebAssembly. Kumpulkan makanan, tumbuhkan ular Anda, dan jauhi tembok dan jejak Anda sendiri.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "TEMPAT BERMAIN",
+    "game_title": "Ular",
+    "loading": "Memuat permainan...",
+    "ready": "Siap untuk bermain",
+    "start_failed": "Tidak dapat memulai permainan",
+    "runtime_failed": "Tidak dapat memuat waktu proses game",
+    "aria_label": "Permainan ular. Tombol panah atau WASD untuk berpindah, Spasi untuk memulai atau memulai kembali, P untuk menjeda."
   },
   "tab": {
     "title": "Patrick Goodwin",

@@ -6,9 +6,19 @@
     "portfolio": "Portefeuille",
     "projects": "Websiteprojecten",
     "tiger": "Tijger Taal",
+    "snake": "Slangenspel",
     "portfolio_translator": "Portfoliovertaler",
     "formatter": "JSON & YAML-formatter",
-    "contact": "Neem contact met mij op"
+    "contact": "Neem contact met mij op",
+    "home_description": "sys.root // hoofdoverzicht",
+    "about_description": "ingenieursprofiel // bio & stack",
+    "portfolio_description": "softwarecatalogus // aanbevolen werken",
+    "projects_description": "interactieve tools en compilers",
+    "tiger_description": "aangepaste compiler en AST-visualizer",
+    "snake_description": "klassiek arcadespel / WASM",
+    "portfolio_translator_description": "100+ taalmatrix & i18n",
+    "formatter_description": "syntaxisvalidator en -converter",
+    "contact_description": "open transmissie // neem contact op"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Producten en systemen",
@@ -23,7 +33,21 @@
     "descriptionB": "Mijn werk verbindt technische beslissingen met bedrijfsresultaten. Van een SaaS voor constructieschatting die spreadsheetgegevens omzet in klantklare voorstellen tot inkomstengenererende webplatforms, ik bouw software rond de workflow, risico's en risico's. meetbare waarde die belangrijk is voor de mensen die er gebruik van maken.",
     "portfolio_button": "Mijn portefeuille",
     "contact_button": "Neem contact met mij op",
-    "about_button": "Over mij"
+    "about_button": "Over mij",
+    "featured": {
+      "kicker": "Uitgelichte projecten / 06",
+      "title": "Geselecteerd werk",
+      "description": "Zes projecten die het beste weergeven hoe ik ambitieuze ideeën omzet in gepolijste, werkende software.",
+      "view_project": "Bekijk project",
+      "open_project": "Open Live-project",
+      "view_all": "Ontdek het volledige portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Volledige website",
+        "available_here": "Hier beschikbaar",
+        "minecraft_mod": "Minecraft-mod"
+      }
+    }
   },
   "about": {
     "title": "Over mij",
@@ -119,6 +143,11 @@
         "text": "Een full-stack POS- en inventarisworkflow gebouwd met Angular 17+ en Node.js. Het modelleert de operationele problemen van een B2B-systeem: geauthenticeerde gebruikers, op rollen gebaseerde toegangscontrole, voorraadnauwkeurigheid en een nepbetalingsstroom. Het project is ontworpen rond het daadwerkelijke werk dat een registerteam uitvoert, niet alleen maar een catalogus van raamwerkfuncties.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Een lokaal loonverwerkingssysteem gebouwd met GnuCOBOL, een SQLite-grootboek met dubbele invoer en een Svelte-operatiedashboard. Het maakt gebruik van berekeningen op hele centen, batchverwerking van salarisadministraties en een loopback-dashboard om financiële workflows expliciet, testbaar en operationeel verantwoord te maken.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML automatische formatter",
         "text": "Een browsergebaseerde JSON- en YAML-validatie- en opmaaktool ingebouwd in Go en gecompileerd naar WebAssembly. Door de parseerengine naar WASM te verplaatsen, blijft de interactie responsief en lokaal voor de browser, terwijl een echte parser wordt toegepast om ongeldige invoer op te vangen. Het is een gericht voorbeeld van het kiezen van een runtime-architectuur op basis van prestaties, draagbaarheid en gebruikersvertrouwen.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft-mod",
         "text": "Een Minecraft-mod die aangepaste gereedschappen, bepantsering, mobs, blokken, afmetingen en nog veel meer functies aan het spel toevoegt. Gebouwd met Java-versies 8-17 voor geselecteerde Minecraft-versies tussen 1.16 en 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Slangenspel",
+        "text": "Een gepolijste Snake-engine gebouwd met Rust en Macroquad, gecompileerd naar WebAssembly en weergegeven via HTML5 Canvas. Het combineert deterministische speltikken van 0,12 seconden met vloeiende geïnterpoleerde bewegingen, expliciete spelfasen, responsieve besturing, afhandeling van botsingen en win-statussen, en een gerichte test suite die de kernspelregels behandelt.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger-programmeertaal",
@@ -252,6 +286,18 @@
     "tiger_code": "Tijgercode:",
     "run_tiger": "Ren Tijger",
     "output": "Uitgang:"
+  },
+  "snake": {
+    "title": "Slangenspel",
+    "description": "Een klassiek arcadespel gebouwd met Rust en WebAssembly. Verzamel voedsel, laat je slang groeien en blijf uit de buurt van de muren en je eigen spoor.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "SPEELPLAATS",
+    "game_title": "Slang",
+    "loading": "Spel laden...",
+    "ready": "Klaar om te spelen",
+    "start_failed": "Kan het spel niet starten",
+    "runtime_failed": "Kan de runtime van het spel niet laden",
+    "aria_label": "Slangenspel. Pijltjestoetsen of WASD om te bewegen, Spatie om te starten of opnieuw te starten, P om te pauzeren."
   },
   "tab": {
     "title": "Patrick Goedwin",

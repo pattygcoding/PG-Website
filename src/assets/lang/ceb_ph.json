@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Mga Proyekto sa Website",
     "tiger": "Pinulongan sa Tigre",
+    "snake": "Dula sa Bitin",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Kontaka Ako"
+    "contact": "Kontaka Ako",
+    "home_description": "sys.root // main overview",
+    "about_description": "profile sa engineer // bio & stack",
+    "portfolio_description": "software catalog // gipakita nga mga buhat",
+    "projects_description": "interactive nga mga himan & compiler",
+    "tiger_description": "custom compiler ug AST visualizer",
+    "snake_description": "klasiko nga dula sa arcade / WASM",
+    "portfolio_translator_description": "100+ nga language matrix & i18n",
+    "formatter_description": "syntax validator ug converter",
+    "contact_description": "bukas nga transmission // kontaka"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto ug Sistema",
@@ -23,7 +33,21 @@
     "descriptionB": "Ang akong trabaho nagkonektar sa mga desisyon sa engineering ngadto sa mga resulta sa negosyo. Gikan sa usa ka construction-estimating SaaS nga naghimo sa spreadsheet data ngadto sa kliyente-ready proposals ngadto sa revenue-generating web platforms, nagtukod ko og software sa palibot sa workflow, risgo, ug masukod nga bili nga importante sa mga tawo nga naggamit niini.",
     "portfolio_button": "Akong Portfolio",
     "contact_button": "Kontaka Ako",
-    "about_button": "Mahitungod Kanako"
+    "about_button": "Mahitungod Kanako",
+    "featured": {
+      "kicker": "Gipili nga mga Proyekto / 06",
+      "title": "Pinili nga Trabaho",
+      "description": "Unom ka mga proyekto nga labing maayo nga nagrepresentar kung giunsa nako gihimo ang mga ambisyoso nga mga ideya nga gipasinaw, nagtrabaho nga software.",
+      "view_project": "Tan-awa ang Proyekto",
+      "open_project": "Ablihi ang Live Project",
+      "view_all": "Susihon ang tibuuk nga portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Bug-os nga Website",
+        "available_here": "Anaa Dinhi",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Mahitungod Kanako",
@@ -119,6 +143,11 @@
         "text": "Usa ka full-stack nga POS ug imbentaryo nga workflow nga gitukod uban ang Angular 17+ ug Node.js. Gi-modelo niini ang mga kabalaka sa operasyon sa usa ka sistema sa B2B: gipamatud-an nga mga tiggamit, kontrol sa pag-access nga gibase sa papel, katukma sa imbentaryo, ug usa ka pagbiaybiay nga dagan sa pagbayad. Ang proyekto gidisenyo sa palibot sa aktuwal nga trabaho nga gihimo sa usa ka rehistro nga team, dili lang usa ka katalogo sa mga bahin sa balangkas.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Usa ka lokal nga sistema sa pagproseso sa payroll nga gitukod gamit ang GnuCOBOL, usa ka SQLite double-entry ledger, ug usa ka dashboard sa operasyon sa Svelte. Gigamit niini ang integer-cent math, pagproseso sa batch payroll, ug usa ka loopback dashboard aron mahimong klaro, masulayan, ug may tulubagon ang mga pinansyal nga workflow.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Usa ka browser-based nga JSON ug YAML validation ug formatting tool nga gitukod sa Go ug gihugpong sa WebAssembly. Ang pagbalhin sa parsing engine ngadto sa WASM mopadayon sa interaksyon nga responsive ug lokal sa browser samtang nag-aplay ug tinuod nga parser aron makuha ang dili balido nga input. Kini usa ka gipunting nga panig-ingnan sa pagpili sa usa ka runtime nga arkitektura alang sa pasundayag, kadali, ug pagsalig sa gumagamit.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Usa ka Minecraft Mod nga nagdugang custom nga mga himan, armor, mob, block, dimensyon, ug daghan pa nga mga bahin sa dula. Gitukod uban sa Java nga bersyon 8-17 alang sa pinili nga Minecraft nga mga bersyon tali sa 1.16 ug 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Dula sa Bitin",
+        "text": "Usa ka gipasinaw nga makina sa Snake nga gihimo gamit ang Rust ug Macroquad, giipon sa WebAssembly, ug gihubad pinaagi sa HTML5 Canvas. Gihiusa niini ang deterministiko nga 0.12-segundos nga mga ticks sa dula nga adunay hapsay nga interpolated nga paglihok, klaro nga mga hugna sa dula, responsive nga mga kontrol, pagbangga ug pagdumala sa win-state, ug usa ka nakapunting nga pagsulay. suite nga naglangkob sa kinauyokan nga mga lagda sa dula.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Pinulongan sa Pagprograma sa Tigre",
@@ -252,6 +286,18 @@
     "tiger_code": "Kodigo sa tigre:",
     "run_tiger": "Dagan Tigre",
     "output": "Output:"
+  },
+  "snake": {
+    "title": "Dula sa Bitin",
+    "description": "Usa ka klasiko nga dula sa arcade nga gihimo gamit ang Rust ug WebAssembly. Pagkolekta og pagkaon, pagpatubo sa imong bitin, ug pagpalayo sa mga bungbong ug sa imong kaugalingong agianan.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "DULAAN",
+    "game_title": "Bitin",
+    "loading": "Nagkarga sa dula...",
+    "ready": "Andam sa pagdula",
+    "start_failed": "Dili masugdan ang dula",
+    "runtime_failed": "Dili ma-load ang runtime sa dula",
+    "aria_label": "Snake game. mga yawe sa udyong o WASD sa paglihok, Space sa pagsugod o pagsugod pag-usab, P sa paghunong."
   },
   "tab": {
     "title": "Patrick Goodwin",

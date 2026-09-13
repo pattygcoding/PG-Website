@@ -6,9 +6,19 @@
     "portfolio": "Portofoliu",
     "projects": "Proiecte de site",
     "tiger": "Limba tigrului",
+    "snake": "Jocul șarpelui",
     "portfolio_translator": "Traducător de portofoliu",
     "formatter": "Formatator JSON și YAML",
-    "contact": "Contactați-mă"
+    "contact": "Contactați-mă",
+    "home_description": "sys.root // prezentare generală principală",
+    "about_description": "profil inginer // bio & stack",
+    "portfolio_description": "catalog software // lucrări prezentate",
+    "projects_description": "instrumente interactive și compilatoare",
+    "tiger_description": "compilator personalizat și vizualizator AST",
+    "snake_description": "joc arcade clasic / WASM",
+    "portfolio_translator_description": "100+ matrice de limbi și i18n",
+    "formatter_description": "validator de sintaxă și convertor",
+    "contact_description": "transmisie deschisă // ia legătura"
   },
   "home": {
     "title": "Inginer Senior Full-Stack | Produs și sisteme",
@@ -23,7 +33,21 @@
     "descriptionB": "Munca mea conectează deciziile de inginerie cu rezultatele afacerii. De la un SaaS de estimare a construcției care transformă datele din foile de calcul în propuneri pregătite pentru clienți până la platforme web generatoare de venituri, construiesc software în jurul fluxului de lucru, riscului și valoare măsurabilă care contează pentru persoanele care o folosesc.",
     "portfolio_button": "Portofoliul meu",
     "contact_button": "Contactați-mă",
-    "about_button": "Despre mine"
+    "about_button": "Despre mine",
+    "featured": {
+      "kicker": "Proiecte prezentate / 06",
+      "title": "Lucrare aleasă",
+      "description": "Șase proiecte care reprezintă cel mai bine modul în care transform ideile ambițioase în software rafinat și funcțional.",
+      "view_project": "Vizualizați proiectul",
+      "open_project": "Deschideți Live Project",
+      "view_all": "Explorați portofoliul complet",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Site complet",
+        "available_here": "Disponibil aici",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Despre mine",
@@ -119,6 +143,11 @@
         "text": "Un flux de lucru POS și inventar complet construit cu Angular 17+ și Node.js. Modelează preocupările operaționale ale unui sistem B2B: utilizatori autentificați, control al accesului bazat pe roluri, acuratețea inventarului și un flux de plată simulat. Proiectul este conceput în jurul activității efective pe care o desfășoară o echipă de registru, nu doar a unui catalog de caracteristici cadru.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "SalarizareOBOL",
+        "text": "Un sistem local de procesare a salariilor construit cu GnuCOBOL, un registru cu intrare dublă SQLite și un tablou de bord Svelte pentru operațiuni. Folosește matematica de cenți întregi, procesarea loturilor de plată și un tablou de bord loopback pentru a face fluxurile de lucru financiare explicite, testabile și responsabile din punct de vedere operațional.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Formatator automat JSON și YAML",
         "text": "Un instrument de validare și formatare JSON și YAML bazat pe browser, construit în Go și compilat în WebAssembly. Mutarea motorului de analiză în WASM menține interacțiunea receptivă și locală pentru browser, în timp ce se aplică un parser real pentru a captura intrările nevalide. Este un exemplu concentrat de alegere a unei arhitecturi de rulare pentru performanță, portabilitate și încrederea utilizatorilor.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Un mod Minecraft care adaugă instrumente personalizate, armuri, mafiote, blocuri, dimensiuni și multe alte funcții la joc. Construit cu versiunile Java 8-17 pentru anumite versiuni Minecraft între 1.16 și 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Jocul șarpelui",
+        "text": "Un motor Snake lustruit construit cu Rust și Macroquad, compilat în WebAssembly și redat prin HTML5 Canvas. Combină bifături deterministe de joc de 0,12 secunde cu mișcare interpolată lină, faze de joc explicite, controale receptive, manevrarea coliziunilor și a stării de câștig și un test concentrat. suită care acoperă regulile de bază ale jocului.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Limbajul de programare Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Cod tigru:",
     "run_tiger": "Fugi Tiger",
     "output": "Ieșire:"
+  },
+  "snake": {
+    "title": "Jocul șarpelui",
+    "description": "Un joc arcade clasic construit cu Rust și WebAssembly. Adunați mâncare, creșteți-vă șarpele și feriți-vă de pereți și de propria urme.",
+    "kicker": "WEBASSEMBLE / MINIQAD",
+    "section_label": "LOC DE JOOCĂ",
+    "game_title": "Şarpe",
+    "loading": "Se încarcă jocul...",
+    "ready": "Gata de joc",
+    "start_failed": "Nu se poate începe jocul",
+    "runtime_failed": "Imposibil de încărcat durata de rulare a jocului",
+    "aria_label": "Joc cu șarpe. Tastele săgeți sau WASD pentru a muta, Spațiu pentru a începe sau reporni, P pentru a întrerupe."
   },
   "tab": {
     "title": "Patrick Goodwin",

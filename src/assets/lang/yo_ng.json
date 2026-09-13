@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Aaye ayelujara Projects",
     "tiger": "Ede Tiger",
+    "snake": "Ejo Ere",
     "portfolio_translator": "Onitumọ Portfolio",
     "formatter": "JSON & YAML oluṣeto",
-    "contact": "Kan si mi"
+    "contact": "Kan si mi",
+    "home_description": "sys.root // akọkọ Akopọ",
+    "about_description": "profaili ẹlẹrọ // bio & akopọ",
+    "portfolio_description": "software katalogi // ifihan awọn iṣẹ",
+    "projects_description": "ohun ibanisọrọ irinṣẹ & alakojo",
+    "tiger_description": "aṣa alakojo & AST visualizer",
+    "snake_description": "Ayebaye Olobiri ere / WASM",
+    "portfolio_translator_description": "100+ ede matrix & i18n",
+    "formatter_description": "olufọwọsi sintasi & oluyipada",
+    "contact_description": "ìmọ gbigbe // gba ni ifọwọkan"
   },
   "home": {
     "title": "Olùkọ Full-Stack Engineer | Ọja & Awọn ọna ṣiṣe",
@@ -23,7 +33,21 @@
     "descriptionB": "Iṣẹ mi so awọn ipinnu imọ-ẹrọ pọ si awọn abajade iṣowo. Lati SaaS ti o ni iṣiro-itumọ ti o yi data iwe kaunti pada si awọn igbero ti o ti ṣetan alabara si awọn iru ẹrọ wẹẹbu ti n ṣe ipilẹṣẹ owo-wiwọle, Mo kọ sọfitiwia ni ayika ṣiṣan iṣẹ, eewu, ati idiwon iye ti o pataki si awọn eniyan lilo o.",
     "portfolio_button": "Portfolio mi",
     "contact_button": "Kan si mi",
-    "about_button": "Nipa mi"
+    "about_button": "Nipa mi",
+    "featured": {
+      "kicker": "Ifihan Awọn iṣẹ akanṣe / 06",
+      "title": "Iṣẹ ti a yan",
+      "description": "Awọn iṣẹ akanṣe mẹfa ti o dara julọ ṣe aṣoju bii MO ṣe tan awọn imọran ifẹ si didan, sọfitiwia ṣiṣẹ.",
+      "view_project": "Wo Project",
+      "open_project": "Ṣii Live Project",
+      "view_all": "Ye ni kikun portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Oju opo wẹẹbu ni kikun",
+        "available_here": "Wa Nibi",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Nipa mi",
@@ -119,6 +143,11 @@
         "text": "Akopọ POS ni kikun ati ṣiṣan ṣiṣan ọja ti a ṣe pẹlu Angular 17+ ati Node.js. O ṣe apẹẹrẹ awọn ifiyesi iṣiṣẹ ti eto B2B kan: awọn olumulo ti o jẹri, iṣakoso iraye si ipa-ipa, iṣedede akojo oja, ati sisan isanwo ẹlẹgàn. Ise agbese na ni a ṣe ni ayika iṣẹ gangan ti ẹgbẹ iforukọsilẹ ṣe, kii ṣe katalogi ti awọn ẹya ilana.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Eto isanwo isanwo ti agbegbe ti a ṣe pẹlu GnuCOBOL, iwe afọwọkọ titẹ sii meji SQLite, ati dasibodu awọn iṣẹ Svelte kan. O nlo mathematiki odidi-centiger, sisẹ isanwo-oṣuwọn ipele, ati dasibodu loopback lati jẹ ki awọn iṣan-iṣẹ iṣowo owo han gbangba, jẹ idanwo, ati jiyin iṣẹ ṣiṣe.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "JSON ti o da lori ẹrọ aṣawakiri ati afọwọsi YAML ati ohun elo kika ti a ṣe sinu Go ati ṣajọ si WebAssembly. Gbigbe ẹrọ itọka sinu WASM jẹ ki ibaraenisepo jẹ idahun ati agbegbe si ẹrọ aṣawakiri lakoko lilo parser gidi kan lati mu titẹ sii ti ko tọ. O jẹ apẹẹrẹ aifọwọyi ti yiyan faaji asiko asiko fun iṣẹ ṣiṣe, gbigbe, ati igbẹkẹle olumulo.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Mod Minecraft ti o ṣafikun awọn irinṣẹ aṣa, ihamọra, awọn agbajo eniyan, awọn bulọọki, awọn iwọn, ati ọpọlọpọ awọn ẹya diẹ sii si ere naa. Ti a ṣe pẹlu awọn ẹya Java 8-17 fun yiyan awọn ẹya Minecraft laarin 1.16 ati 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Ejo Ere",
+        "text": "Ẹrọ Ejo didan ti a ṣe pẹlu Rust ati Macroquad, ti a ṣajọ si WebAssembly, ati ti a ṣe nipasẹ HTML5 Canvas. O darapọ awọn ami ere ipinnu 0.12-keji pẹlu gbigbe interpolated didan, awọn ipele ere ti o fojuhan, awọn idari idahun, ikọlu ati mimu-ipinlẹ win, ati idanwo idojukọ suite ibora ti awọn mojuto game ofin.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Ede siseto Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Koodu Tiger:",
     "run_tiger": "Run Tiger",
     "output": "Abajade:"
+  },
+  "snake": {
+    "title": "Ejo Ere",
+    "description": "Ere Olobiri Ayebaye ti a ṣe pẹlu ipata ati WebAssembly. Gba ounjẹ, dagba ejo rẹ, ki o yago fun awọn odi ati ipa-ọna tirẹ.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "ILE ERE",
+    "game_title": "Ejo",
+    "loading": "Ere ikojọpọ...",
+    "ready": "Setan lati mu",
+    "start_failed": "Ko le bẹrẹ ere naa",
+    "runtime_failed": "Ko le ṣe fifuye akoko asiko ere naa",
+    "aria_label": "Ejo ere. Awọn bọtini itọka tabi WASD lati gbe, Aye lati bẹrẹ tabi tun bẹrẹ, P lati da duro."
   },
   "tab": {
     "title": "Patrick Goodwin",

@@ -6,9 +6,19 @@
     "portfolio": "資料夾",
     "projects": "網站項目",
     "tiger": "虎語",
+    "snake": "貪吃蛇遊戲",
     "portfolio_translator": "作品集翻譯",
     "formatter": "JSON 和 YAML 格式化程序",
-    "contact": "聯絡我"
+    "contact": "聯絡我",
+    "home_description": "sys.root // 主要概述",
+    "about_description": "工程師簡介 // 履歷和堆疊",
+    "portfolio_description": "軟體目錄//特色作品",
+    "projects_description": "互動式工具和編譯器",
+    "tiger_description": "自訂編譯器和 AST 視覺化工具",
+    "snake_description": "經典街機遊戲 / WASM",
+    "portfolio_translator_description": "100+ 語言矩陣和 i18n",
+    "formatter_description": "語法驗證器和轉換器",
+    "contact_description": "開啟傳輸//取得聯繫"
   },
   "home": {
     "title": "高級全端工程師|產品與系統",
@@ -23,7 +33,21 @@
     "descriptionB": "我的工作將工程決策與業務成果連結起來。 從將電子表格資料轉換為客戶就緒提案的施工估算 SaaS，到創造收入的 Web 平台，我圍繞工作流程、風險和 對使用它的人來說很重要的可衡量的價值。",
     "portfolio_button": "我的投資組合",
     "contact_button": "聯絡我",
-    "about_button": "關於我"
+    "about_button": "關於我",
+    "featured": {
+      "kicker": "特色項目 / 06",
+      "title": "作品選",
+      "description": "六個項目最能代表我如何將雄心勃勃的想法轉化為精美的可用軟體。",
+      "view_project": "查看項目",
+      "open_project": "打開實時項目",
+      "view_all": "探索完整的產品組合",
+      "badges": {
+        "saas": "軟體即服務",
+        "full_website": "完整網站",
+        "available_here": "此處可用",
+        "minecraft_mod": "我的世界模組"
+      }
+    }
   },
   "about": {
     "title": "關於我",
@@ -119,6 +143,11 @@
         "text": "使用 Angular 17+ 和 Node.js 建立的全端 POS 和庫存工作流程。 它對 B2B 系統的操作問題進行建模：經過身份驗證的使用者、基於角色的存取控制、庫存準確性和模擬支付流程。 該專案是圍繞註冊團隊執行的實際工作而設計的，而不僅僅是框架功能的目錄。",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "薪資OBOL",
+        "text": "使用 GnuCOBOL、SQLite 複式記帳本和 Svelte 作業儀表板建構的本地薪資處理系統。 它使用整數數學、大量薪資處理和環回儀表板來使財務工作流程明確、可測試且可操作負責。",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON 和 YAML 自動格式化程序",
         "text": "一個基於瀏覽器的 JSON 和 YAML 驗證和格式化工具，用 Go 建置並編譯為 WebAssembly。 將解析引擎移至 WASM 中可保持互動的響應性和瀏覽器本地化，同時應用真正的解析器來擷取無效輸入。 它是選擇運行時架構以實現效能、可移植性和用戶信任的重點範例。",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft 模組",
         "text": "一個《我的世界》模組，為遊戲添加了自訂工具、盔甲、生物、方塊、尺寸和更多功能。 使用 Java 版本 8-17 構建，適用於 1.16 和 1.20 之間的選定 Minecraft 版本。",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "貪吃蛇遊戲",
+        "text": "一個用 Rust 和 Macroquad 建立的完善的 Snake 引擎，編譯為 WebAssembly，並透過 HTML5 Canvas 渲染。 它將確定性的 0.12 秒遊戲滴答聲與平滑的插值運動、明確的遊戲階段、響應控制、碰撞和獲勝狀態處理以及集中測試相結合 涵蓋核心遊戲規則的套件。",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "老虎程式語言",
@@ -252,6 +286,18 @@
     "tiger_code": "老虎代碼：",
     "run_tiger": "跑虎",
     "output": "輸出："
+  },
+  "snake": {
+    "title": "貪吃蛇遊戲",
+    "description": "使用 Rust 和 WebAssembly 構建的經典街機遊戲。收集食物，培育你的蛇，並遠離牆壁和你自己的足跡。",
+    "kicker": "網路組裝 / MINIQAD",
+    "section_label": "操場",
+    "game_title": "蛇",
+    "loading": "正在載入遊戲...",
+    "ready": "準備玩了",
+    "start_failed": "無法開始遊戲",
+    "runtime_failed": "無法載入遊戲運行時",
+    "aria_label": "貪吃蛇遊戲。箭頭鍵或 WASD 移動，空白鍵開始或重新啟動，P 暫停。"
   },
   "tab": {
     "title": "帕特里克·古德溫",

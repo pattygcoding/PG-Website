@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Projekty webových stránek",
     "tiger": "Tygří jazyk",
+    "snake": "Hra had",
     "portfolio_translator": "Překladač portfolia",
     "formatter": "Formát JSON a YAML",
-    "contact": "Kontaktujte mě"
+    "contact": "Kontaktujte mě",
+    "home_description": "sys.root // hlavní přehled",
+    "about_description": "inženýrský profil // bio & stack",
+    "portfolio_description": "katalog softwaru // uváděná díla",
+    "projects_description": "interaktivní nástroje a kompilátory",
+    "tiger_description": "vlastní kompilátor a vizualizér AST",
+    "snake_description": "Klasická arkádová hra.",
+    "portfolio_translator_description": "Více než 100 jazykových matic a i18n",
+    "formatter_description": "validátor syntaxe a konvertor",
+    "contact_description": "otevřený přenos // ozvěte se"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkt a systémy",
@@ -23,7 +33,21 @@
     "descriptionB": "Moje práce propojuje inženýrská rozhodnutí s obchodními výsledky. Od SaaS pro odhadování konstrukce, který přeměňuje data v tabulkách na návrhy připravené pro klienty až po webové platformy generující příjmy, vytvářím software pro pracovní postup, rizika a měřitelnou hodnotu, na které záleží lidem, kteří ji používají.",
     "portfolio_button": "Moje portfolio",
     "contact_button": "Kontaktujte mě",
-    "about_button": "O mně"
+    "about_button": "O mně",
+    "featured": {
+      "kicker": "Doporučené projekty / 06",
+      "title": "Vybrané dílo",
+      "description": "Šest projektů, které nejlépe reprezentují, jak přeměňuji ambiciózní nápady na vyladěný, fungující software.",
+      "view_project": "Celý článek",
+      "open_project": "Otevřít živý projekt",
+      "view_all": "Prozkoumejte celé portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Kompletní webová stránka",
+        "available_here": "K DISPOZICI ZDE",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "O mně",
@@ -119,6 +143,11 @@
         "text": "Full-stack POS a pracovní postup inventáře vytvořený pomocí Angular 17+ a Node.js. Modeluje provozní záležitosti systému B2B: ověřené uživatele, řízení přístupu na základě rolí, přesnost inventáře a falešný platební tok. Projekt je navržen na základě skutečné práce, kterou provádí tým registrů, nikoli pouze katalogu funkcí rámce.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Místní systém zpracování mezd postavený na GnuCOBOL, podvojné účetní knize SQLite a řídicím panelu operací Svelte. Využívá matematiku celých čísel, dávkové zpracování mezd a řídicí panel zpětné smyčky, aby byly finanční pracovní postupy explicitní, testovatelné a provozně odpovědné.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Automatický formátovač JSON a YAML",
         "text": "Nástroj pro ověřování a formátování JSON a YAML založený na prohlížeči vestavěný v Go a kompilovaný do WebAssembly. Přesunutí modulu analýzy do WASM udržuje interakci citlivou a místní pro prohlížeč a zároveň používá skutečný analyzátor k zachycení neplatného vstupu. Je to zaměřený příklad výběru runtime architektury pro výkon, přenositelnost a důvěru uživatelů.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod, který do hry přidává vlastní nástroje, brnění, moby, bloky, rozměry a mnoho dalších funkcí. Postaveno s Java verzemi 8-17 pro vybrané verze Minecraftu mezi 1.16 a 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Hra s hadem",
+        "text": "Vyleštěný Snake engine postavený z Rust a Macroquad, zkompilovaný do WebAssembly a vykreslený přes HTML5 Canvas. Kombinuje deterministické 0,12sekundové herní tikety s plynulým interpolovaným pohybem, explicitními herními fázemi, citlivými ovládacími prvky, manipulací s kolizí a vítězným stavem a soustředěným testem sada pokrývající základní pravidla hry.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Programovací jazyk Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Tygří kód:",
     "run_tiger": "Spusťte Tigera",
     "output": "výstup:"
+  },
+  "snake": {
+    "title": "Hra s hadem",
+    "description": "Klasická arkádová hra vytvořená pomocí Rust a WebAssembly. Sbírej jídlo, vypěstuj si hada a vyhýbej se zdem a vlastní stopě.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "Dětské hřiště",
+    "game_title": "had",
+    "loading": "Načítání herních dat...",
+    "ready": "Připraveni hrát? ",
+    "start_failed": "Nelze spustit hru",
+    "runtime_failed": "Nelze načíst herní runtime",
+    "aria_label": "Hra Snake. Klávesy se šipkami nebo WASD pro pohyb, Space pro spuštění nebo restart, P pro pozastavení."
   },
   "tab": {
     "title": "Patrik Goodwin",

@@ -6,9 +6,19 @@
     "portfolio": "תִיק",
     "projects": "פרויקטים באתר",
     "tiger": "שפת הנמר",
+    "snake": "משחק נחש",
     "portfolio_translator": "מתרגם תיקים",
     "formatter": "מעצב JSON ו-YAML",
-    "contact": "צור איתי קשר"
+    "contact": "צור איתי קשר",
+    "home_description": "sys.root // סקירה כללית",
+    "about_description": "פרופיל מהנדס // ביו & מחסנית",
+    "portfolio_description": "קטלוג תוכנה // יצירות מוצגות",
+    "projects_description": "כלים ומהדרים אינטראקטיביים",
+    "tiger_description": "מהדר מותאם אישית ו-AST Visualizer",
+    "snake_description": "משחק ארקייד קלאסי / WASM",
+    "portfolio_translator_description": "100+ מטריצת שפה ו-i18n",
+    "formatter_description": "מאמת וממיר תחביר",
+    "contact_description": "פתח שידור // צור קשר"
   },
   "home": {
     "title": "מהנדס בכיר מחסנית מלאה | מוצר ומערכות",
@@ -23,7 +33,21 @@
     "descriptionB": "העבודה שלי מחברת החלטות הנדסיות לתוצאות עסקיות. מ-SaaS להערכת בנייה שהופך נתוני גיליונות אלקטרוניים להצעות מוכנות ללקוח ועד לפלטפורמות אינטרנט מניבות הכנסות, אני בונה תוכנה סביב זרימת העבודה, הסיכון והסיכון. ערך מדיד שחשוב לאנשים המשתמשים בו.",
     "portfolio_button": "התיק שלי",
     "contact_button": "צור איתי קשר",
-    "about_button": "עליי"
+    "about_button": "עליי",
+    "featured": {
+      "kicker": "פרויקטים מומלצים / 06",
+      "title": "עבודה נבחרה",
+      "description": "שישה פרויקטים המייצגים בצורה הטובה ביותר איך אני הופך רעיונות שאפתניים לתוכנה מלוטשת ועובדת.",
+      "view_project": "צפה בפרויקט",
+      "open_project": "פתח את Live Project",
+      "view_all": "חקור את תיק העבודות המלא",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "אתר אינטרנט מלא",
+        "available_here": "זמין כאן",
+        "minecraft_mod": "מיינקראפט מוד"
+      }
+    }
   },
   "about": {
     "title": "עליי",
@@ -119,6 +143,11 @@
         "text": "זרימת עבודה של POS ומלאי מלאי בנוי עם Angular 17+ ו-Node.js. הוא מדגים את הדאגות התפעוליות של מערכת B2B: משתמשים מאומתים, בקרת גישה מבוססת תפקידים, דיוק מלאי ותזרים תשלומים מדומה. הפרויקט מתוכנן סביב העבודה בפועל שצוות רישום מבצע, לא רק קטלוג של תכונות מסגרת.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "שכרOBOL",
+        "text": "מערכת מקומית לעיבוד שכר הבנויה עם GnuCOBOL, ספר חשבונות SQLite כפול, ולוח מחוונים של Svelte. הוא משתמש במתמטיקה של סנט שלמים, עיבוד שכר אצווה ולוח מחוונים של לולאה חוזרת כדי להפוך זרימות עבודה פיננסיות למפורשות, ניתנות לבדיקה וחשבון תפעולי.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "פורמט אוטומטי של JSON ו-YAML",
         "text": "כלי אימות ועיצוב מבוסס-דפדפן JSON ו-YAML שנבנה ב-Go והידור ל-WebAssembly. העברת מנוע הניתוח ל-WASM שומר על האינטראקציה מגיבה ומקומית לדפדפן תוך החלת מנתח אמיתי כדי לתפוס קלט לא חוקי. זוהי דוגמה ממוקדת לבחירת ארכיטקטורת זמן ריצה לביצועים, ניידות ואמון המשתמש.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "מוד של Minecraft שמוסיף למשחק כלים מותאמים אישית, שריון, אספסוף, בלוקים, מידות ועוד הרבה תכונות. נבנה עם גרסאות Java 8-17 עבור גרסאות נבחרות של Minecraft בין 1.16 ל-1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "משחק נחש",
+        "text": "מנוע סנייק מלוטש שנבנה עם Rust ו-Macroquad, הידור ל-WebAssembly ועובד באמצעות HTML5 Canvas. הוא משלב תקלות משחק דטרמיניסטיות של 0.12 שניות עם תנועה חלקה באינטרפולציה, שלבי משחק מפורשים, בקרות תגובה, טיפול בהתנגשות ומצב ניצחון, ומבחן ממוקד חבילה המכסה את כללי המשחק המרכזיים.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "שפת תכנות טייגר",
@@ -252,6 +286,18 @@
     "tiger_code": "קוד טייגר:",
     "run_tiger": "הפעל את טייגר",
     "output": "תְפוּקָה:"
+  },
+  "snake": {
+    "title": "משחק נחש",
+    "description": "משחק ארקייד קלאסי שנבנה עם Rust ו-WebAssembly. אספו מזון, גדלו את הנחש שלכם והתרחקו מהקירות ומהשביל שלכם.",
+    "kicker": "אספת אינטרנט / MINIQAD",
+    "section_label": "מִגרָשׁ מִשְׂחָקִים",
+    "game_title": "נָחָשׁ",
+    "loading": "טוען משחק...",
+    "ready": "מוכן לשחק",
+    "start_failed": "לא מצליח להתחיל את המשחק",
+    "runtime_failed": "לא ניתן לטעון את זמן הריצה של המשחק",
+    "aria_label": "משחק נחשים. מקשי החצים או WASD כדי להזיז, רווח כדי להתחיל או להפעיל מחדש, P כדי להשהות."
   },
   "tab": {
     "title": "פטריק גודווין",

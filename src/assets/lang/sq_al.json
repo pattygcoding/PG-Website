@@ -6,9 +6,19 @@
     "portfolio": "Portofoli",
     "projects": "Projektet e faqes në internet",
     "tiger": "Gjuha e Tigrit",
+    "snake": "Lojë me gjarpër",
     "portfolio_translator": "Përkthyes portofoli",
     "formatter": "Formatuesi JSON & YAML",
-    "contact": "Më kontaktoni"
+    "contact": "Më kontaktoni",
+    "home_description": "sys.root // pasqyra kryesore",
+    "about_description": "profili i inxhinierit // bio & stack",
+    "portfolio_description": "katalog softuerësh // vepra të paraqitura",
+    "projects_description": "mjete interaktive dhe përpilues",
+    "tiger_description": "përpilues i personalizuar dhe vizualizues AST",
+    "snake_description": "lojë klasike arcade / WASM",
+    "portfolio_translator_description": "100+ matricë gjuhësore dhe i18n",
+    "formatter_description": "Vlerësuesi dhe konvertuesi i sintaksës",
+    "contact_description": "transmetim i hapur // kontakto"
   },
   "home": {
     "title": "Inxhinier i Lartë i Stack-it të Plotë | Produkti dhe Sistemet",
@@ -23,7 +33,21 @@
     "descriptionB": "Puna ime lidh vendimet inxhinierike me rezultatet e biznesit. Nga një SaaS që vlerëson ndërtimin që i kthen të dhënat e fletëllogaritjes në propozime të gatshme për klientin në platformat e internetit që gjenerojnë të ardhura, unë ndërtoj softuer rreth rrjedhës së punës, rrezikut dhe vlera e matshme që ka rëndësi për njerëzit që e përdorin atë.",
     "portfolio_button": "Portofoli im",
     "contact_button": "Më kontaktoni",
-    "about_button": "Rreth meje"
+    "about_button": "Rreth meje",
+    "featured": {
+      "kicker": "Projektet e veçuara / 06",
+      "title": "Puna e zgjedhur",
+      "description": "Gjashtë projekte që përfaqësojnë më së miri mënyrën se si unë i kthej idetë ambicioze në softuer të lëmuar dhe funksional.",
+      "view_project": "Shiko Projektin",
+      "open_project": "Hap Projektin Live",
+      "view_all": "Eksploroni portofolin e plotë",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Faqja e plotë e internetit",
+        "available_here": "Në dispozicion këtu",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Rreth meje",
@@ -119,6 +143,11 @@
         "text": "Një fluks pune i plotë POS dhe inventar i ndërtuar me Angular 17+ dhe Node.js. Ai modelon shqetësimet operacionale të një sistemi B2B: përdoruesit e vërtetuar, kontrolli i aksesit i bazuar në role, saktësia e inventarit dhe një rrjedhë pagese e simuluar. Projekti është projektuar rreth punës aktuale që kryen një ekip i regjistrave, jo vetëm një katalog të veçorive të kornizës.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Lista e pagaveOBOL",
+        "text": "Një sistem lokal përpunimi i listës së pagave i ndërtuar me GnuCOBOL, një regjistër me hyrje të dyfishtë SQLite dhe një panel operativ Svelte. Ai përdor matematikë me cent të plotë, përpunimin e listës së pagave në grup, dhe një panel kontrolli për t'i bërë flukset e punës financiare të qarta, të testueshme dhe të përgjegjshme operative.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Formatuesi automatik JSON & YAML",
         "text": "Një mjet verifikimi dhe formatimi i bazuar në shfletues JSON dhe YAML i ndërtuar në Go dhe i përpiluar në WebAssembly. Lëvizja e motorit analizues në WASM e mban ndërveprimin të përgjegjshëm dhe lokal në shfletuesin ndërsa aplikon një analizues të vërtetë për të kapur hyrjen e pavlefshme. Është një shembull i fokusuar i zgjedhjes së një arkitekture të kohës së funksionimit për performancën, transportueshmërinë dhe besimin e përdoruesit.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Një mod i Minecraft që shton mjete të personalizuara, forca të blinduara, turma, blloqe, dimensione dhe shumë veçori të tjera në lojë. Ndërtuar me versionet Java 8-17 për versione të zgjedhura të Minecraft midis 1.16 dhe 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Lojë me gjarpër",
+        "text": "Një motor i lëmuar Snake i ndërtuar me Rust dhe Macroquad, i përpiluar në WebAssembly dhe i dhënë përmes HTML5 Canvas. Ai kombinon shenjat përcaktuese të lojës prej 0,12 sekondash me lëvizjen e ndërsjellë të qetë, fazat e qartë të lojës, kontrollet reaguese, trajtimin e përplasjes dhe gjendjes fituese dhe një test të fokusuar suitë që mbulon rregullat kryesore të lojës.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Gjuha e programimit Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Kodi Tiger:",
     "run_tiger": "Vraponi Tiger",
     "output": "Prodhimi:"
+  },
+  "snake": {
+    "title": "Lojë me gjarpër",
+    "description": "Një lojë klasike arcade e ndërtuar me Rust dhe WebAssembly. Mblidhni ushqim, rriteni gjarpërin tuaj dhe qëndroni larg mureve dhe gjurmëve tuaja.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "KËSHT LOJRAsh",
+    "game_title": "Gjarpër",
+    "loading": "Loja po ngarkohet...",
+    "ready": "Gati për të luajtur",
+    "start_failed": "Në pamundësi për të filluar lojën",
+    "runtime_failed": "Nuk mund të ngarkohet koha e ekzekutimit të lojës",
+    "aria_label": "Lojë me gjarpër. Tastet me shigjeta ose WASD për të lëvizur, Hapësira për të nisur ose rifilluar, P për të ndaluar."
   },
   "tab": {
     "title": "Patrick Goodwin",

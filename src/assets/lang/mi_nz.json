@@ -6,9 +6,19 @@
     "portfolio": "Kōpaki",
     "projects": "Kaupapa Paetukutuku",
     "tiger": "Te Reo Tiger",
+    "snake": "Keemu Nakahi",
     "portfolio_translator": "Kaiwhakamaori kōpaki",
     "formatter": "JSON & YAML Whakahōputu",
-    "contact": "Whakapā Mai"
+    "contact": "Whakapā Mai",
+    "home_description": "sys.root // tirohanga matua",
+    "about_description": "kōtaha engineer // bio & tāpae",
+    "portfolio_description": "Putumōhio pūmanawa // ngā mahi e whakaatuhia ana",
+    "projects_description": "taputapu pāhekoheko & whakahiato",
+    "tiger_description": "te whakahiato ritenga me te kaitirotiro AST",
+    "snake_description": "kēmu arcade matarohia / WASM",
+    "portfolio_translator_description": "100+ matrix reo & i18n",
+    "formatter_description": "te whakapumau me te kaitahuri",
+    "contact_description": "tuwhera tuku // whakapā atu"
   },
   "home": {
     "title": "Kaihanga Kaihanga Katoa | Hua me nga punaha",
@@ -23,7 +33,21 @@
     "descriptionB": "Ko aku mahi e hono ana i nga whakataunga miihini ki nga hua pakihi. Mai i te SaaS hanga-hanga e huri ana i nga raraunga ripanga ki nga tono kua rite ki nga kaihoko ki nga papaaho tukutuku whakaputa moni, ka hangaia e ahau he rorohiko huri noa i te rerenga mahi, te tupono, me te uara ine e whai take ana ki nga tangata e whakamahi ana.",
     "portfolio_button": "Taku Kōpaki",
     "contact_button": "Whakapā Mai",
-    "about_button": "Mō ahau"
+    "about_button": "Mō ahau",
+    "featured": {
+      "kicker": "Kaupapa Whakaatuhia / 06",
+      "title": "Mahi kua tohua",
+      "description": "E ono nga kaupapa e tino tohu ana me pehea taku huri i nga whakaaro hao ki roto i te rorohiko whakakoi, mahi.",
+      "view_project": "Tiro Kaupapa",
+      "open_project": "Tuwhera Kaupapa Ora",
+      "view_all": "Tūhurahia te kōpaki katoa",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Paetukutuku Katoa",
+        "available_here": "Wātea ki konei",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Mō ahau",
@@ -119,6 +143,11 @@
         "text": "He POS me te rerenga mahi pukapuka-katoa i hangaia me te Angular 17+ me te Node.js. Ka whakatauira i nga awangawanga whakahaere o te punaha B2B: nga kaiwhakamahi kua whakamotuhēhēhia, te mana uru ki runga i te turanga, te tika o te raarangi, me te rerenga utu whakahi. I hoahoatia te kaupapa i runga i nga mahi tuturu e mahia ana e te roopu rehita, ehara i te raarangi o nga ahuatanga anga.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "He punaha tukatuka utu a rohe i hangaia me GnuCOBOL, he pukapuka pukapuka whakauru-rua SQLite, me te papatohu whakahaere Svelte. Ka whakamahia e ia te pangarau tauoti, te tukatuka utu putea, me te papatohu whakamuri kia marama ai nga rerengamahi putea, kia whakamatauria, kia whai kawenga mahi.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Whakahōputu Aunoa",
         "text": "He taputapu whakamana a JSON me te YAML i runga i te tirotiro i hangaia i roto i te Haere me te whakahiato ki te WebAssembly. Ko te neke i te miihini parsing ki roto i te WASM ka mau tonu te taunekeneke ki te aro me te rohe ki te kaitirotiro i te wa e tono ana he parser tuuturu hei hopu i te whakauru muhu. He tauira arotahi mo te kowhiri i te hoahoanga wa whakahaere mo te mahi, te kawe, me te whakawhirinaki a te kaiwhakamahi.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "He Minecraft Mod e taapiri ana i nga taputapu ritenga, te patu, te mob, te poraka, te rahi, me te maha atu o nga ahuatanga ki te keemu. I hangaia me nga putanga Java 8-17 mo nga momo putanga Minecraft i waenga i te 1.16 me te 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Keemu Nakahi",
+        "text": "He miihini Snake kua oti te hanga ki te Rust me te Macroquad, i whakahiato ki te WebAssembly, ka tukuna ma te HTML5 Canvas. Ka whakakotahihia e ia nga tohu keemu 0.12-tuarua me nga nekehanga maeneene, nga waahanga keemu marama, nga mana urupare, te tukinga me te whakahaerenga-wini, me te whakamatautau arotahi. huinga e hipoki ana i nga ture keemu matua.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Te Reo Papatono Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Waehere Tiger:",
     "run_tiger": "Rere Tiger",
     "output": "Putanga:"
+  },
+  "snake": {
+    "title": "Keemu Nakahi",
+    "description": "He kēmu arcade matarohia i hangaia me Rust me WebAssembly. Kohikohi kai, whakatipuhia to nakahi, kia matara atu i nga pakitara me to ara ake.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "TE WANANGA",
+    "game_title": "Nakahi",
+    "loading": "Uta keemu...",
+    "ready": "Kua reri ki te takaro",
+    "start_failed": "Kaore e taea te timata te keemu",
+    "runtime_failed": "Kāore e taea te uta i te wā whakahaere kēmu",
+    "aria_label": "kēmu nakahi. Ko nga taviri pere, ko te WASD ranei hei neke, Mokowhiti hei timata, hei whakaara ano ranei, P hei okioki."
   },
   "tab": {
     "title": "Patrick Goodwin",

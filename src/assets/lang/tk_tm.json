@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Sahypa taslamalary",
     "tiger": "Igerolbars dili",
+    "snake": "Akeylan oýny",
     "portfolio_translator": "Portfolio terjimeçisi",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Meniň bilen habarlaşyň"
+    "contact": "Meniň bilen habarlaşyň",
+    "home_description": "sys.root // esasy syn",
+    "about_description": "inerener profili // bio & stack",
+    "portfolio_description": "programma üpjünçiligi katalogy // aýratynlyklar",
+    "projects_description": "interaktiw gurallar we düzüjiler",
+    "tiger_description": "ýörite düzüji we AST wizualizator",
+    "snake_description": "nusgawy arka oýun / WASM",
+    "portfolio_translator_description": "100+ dil matrisasy & i18n",
+    "formatter_description": "sintaksis tassyklaýjy we öwrüji",
+    "contact_description": "açyk geçiriş // habarlaşyň"
   },
   "home": {
     "title": "Uly derejeli in Engineener | Önüm we ulgamlar",
@@ -23,7 +33,21 @@
     "descriptionB": "Işim in engineeringenerçilik kararlaryny iş netijeleri bilen baglanyşdyrýar. Elektron tablisasynyň maglumatlaryny müşderi taýýar tekliplere girdeji getirýän web platformalaryna öwürýän gurluşyk-baha SaaS-dan başlap, iş prosesiniň, töwekgelçiligiň we programma üpjünçiligini döredýärin. ulanýan adamlar üçin möhüm ähmiýete eýe.",
     "portfolio_button": "Portfolio",
     "contact_button": "Meniň bilen habarlaşyň",
-    "about_button": "Men hakda"
+    "about_button": "Men hakda",
+    "featured": {
+      "kicker": "Aýratyn taslamalar / 06",
+      "title": "Saýlanan iş",
+      "description": "Uly taslamalary nädip ýalpyldawuk, işleýän programma üpjünçiligine öwürýändigimi iň gowy görkezýän alty taslama.",
+      "view_project": "Taslamany görmek",
+      "open_project": "Göni taslamany açyň",
+      "view_all": "Doly bukjany öwreniň",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Doly web sahypasy",
+        "available_here": "Bu ýerde bar",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Men hakda",
@@ -119,6 +143,11 @@
         "text": "Angular 17+ we Node.js. bilen gurlan doly görnüşli POS we inwentar iş prosesi. B2B ulgamynyň amaly aladalaryny modelleşdirýär: tassyklanan ulanyjylar, roly esasly giriş gözegçiligi, inwentar takyklygy we töleg tölegi. Taslama, diňe bir çarçuwaly aýratynlyklaryň katalogy däl-de, bellige alyş toparynyň ýerine ýetirýän işleriniň töwereginde düzülendir.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Aýlyk haklary",
+        "text": "GnuCOBOL, SQLite goşa giriş ýazgysy we Svelte operasiýa paneli bilen gurlan ýerli aýlyk işleýiş ulgamy. Maliýe iş akymlaryny aç-açan, synagdan geçirip boljak we amaly taýdan jogapkär etmek üçin bitewi merkezli matematika, toparlaýyn aýlyk işlenişini we aýlawly dolandyryş panelini ulanýar.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML awto formatlaýjy",
         "text": "Go-da gurlan we WebAssemble-e düzülen brauzer esasly JSON we YAML tassyklama we formatlaýyş guraly. Derňew motoryny WASM-a geçirmek, nädogry giriş almak üçin hakyky seljeriji ulanylanda, brauzerde özara täsirini täsirli we ýerli saklaýar. Iş ýerine ýetirijiligi, göterijiligi we ulanyjy ynamy üçin iş wagtynyň arhitekturasyny saýlamagyň esasy mysaly.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Oýna ýörite gurallary, sowutlary, märekäni, bloklary, ölçegleri we başga-da köp aýratynlyklary goşýan Minecraft Mod. 1.16 bilen 1.20 aralygyndaky Minecraft wersiýalaryny saýlamak üçin Java wersiýalary 8-17 bilen guruldy.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Akeylan oýny",
+        "text": "“Rust” we “Macroquad” bilen gurlan, “WebAssemble” -e düzülen we HTML5 Canvas arkaly görkezilen ýylmanan ýylan dwigateli. Determiniki 0.12 sekuntlyk oýun belliklerini interpolirlenen hereket, aç-açan oýun tapgyrlary, täsirli dolandyryşlar, çaknyşyk we ýeňiş gazanmak we gönükdirilen synag bilen birleşdirýär esasy oýun düzgünlerini öz içine alýan toplum.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Igerolbars programma dili",
@@ -252,6 +286,18 @@
     "tiger_code": "Igerolbars kody:",
     "run_tiger": "Igerolbars işlediň",
     "output": "Çykyş:"
+  },
+  "snake": {
+    "title": "Akeylan oýny",
+    "description": "“Rust” we “WebAssemble” bilen gurlan nusgawy arka oýun. Iýmit ýygnaň, ýylanyňyzy ösdüriň we diwarlardan we öz yzyňyzdan daşda duruň.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "Oýun",
+    "game_title": "Akeylan",
+    "loading": "Oýun ýüklenýär ...",
+    "ready": "Oýun etmäge taýyn",
+    "start_failed": "Oýun başlap bilmedim",
+    "runtime_failed": "Oýun iş wagtyny ýükläp bolmaýar",
+    "aria_label": "Akeylan oýny. Ok düwmeleri ýa-da hereket etmek üçin WASD, Başlamak ýa-da täzeden başlamak üçin boşluk, dynmak üçin P."
   },
   "tab": {
     "title": "Patrik Gudwin",

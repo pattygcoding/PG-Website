@@ -6,9 +6,19 @@
     "portfolio": "ፖርትፎሊዮ",
     "projects": "የድር ጣቢያ ፕሮጀክቶች",
     "tiger": "የነብር ቋንቋ",
+    "snake": "የእባብ ጨዋታ",
     "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
     "formatter": "JSON እና YAML ቅርጸት",
-    "contact": "አግኙኝ።"
+    "contact": "አግኙኝ።",
+    "home_description": "sys.root // ዋና አጠቃላይ እይታ",
+    "about_description": "የኢንጂነር ፕሮፋይል // ባዮ እና ቁልል",
+    "portfolio_description": "የሶፍትዌር ካታሎግ // ተለይተው የቀረቡ ስራዎች",
+    "projects_description": "በይነተገናኝ መሳሪያዎች እና አቀናባሪዎች",
+    "tiger_description": "ብጁ ማጠናከሪያ እና AST ምስላዊ",
+    "snake_description": "ክላሲክ የመጫወቻ ማዕከል ጨዋታ / WASM",
+    "portfolio_translator_description": "100+ ቋንቋ ማትሪክስ እና i18n",
+    "formatter_description": "የአገባብ አረጋጋጭ እና መቀየሪያ",
+    "contact_description": "ክፍት ስርጭት // ተገናኝ"
   },
   "home": {
     "title": "ሲኒየር ሙሉ-ቁልል መሐንዲስ | ምርት እና ስርዓቶች",
@@ -23,7 +33,21 @@
     "descriptionB": "የእኔ ስራ የምህንድስና ውሳኔዎችን ከንግድ ውጤቶች ጋር ያገናኛል. ከግንባታ ከሚገመተው SaaS የተመን ሉህ መረጃን ለደንበኛ ዝግጁ ሀሳቦችን ወደ ገቢ አስመጪ የድር መድረኮች የሚቀይር ሶፍትዌር በስራ ሂደት፣ አደጋ እና ለሚጠቀሙት ሰዎች አስፈላጊ የሆነው ሊለካ የሚችል እሴት።",
     "portfolio_button": "የእኔ ፖርትፎሊዮ",
     "contact_button": "አግኙኝ።",
-    "about_button": "ስለ እኔ"
+    "about_button": "ስለ እኔ",
+    "featured": {
+      "kicker": "ተለይተው የቀረቡ ፕሮጀክቶች / 06",
+      "title": "የተመረጠ ሥራ",
+      "description": "የሥልጣን ጥመኛ ሀሳቦችን ወደ የተወለወለ፣ የሚሰራ ሶፍትዌር እንዴት እንደምቀይር የሚወክሉ ስድስት ፕሮጀክቶች።",
+      "view_project": "ፕሮጀክት ይመልከቱ",
+      "open_project": "የቀጥታ ፕሮጀክት ክፈት",
+      "view_all": "ሙሉውን ፖርትፎሊዮ ያስሱ",
+      "badges": {
+        "saas": "ሳአኤስ",
+        "full_website": "ሙሉ ድር ጣቢያ",
+        "available_here": "እዚህ ይገኛል።",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "ስለ እኔ",
@@ -119,6 +143,11 @@
         "text": "ከAngular 17+ እና Node.js ጋር የተገነባ ባለ ሙሉ ቁልል POS እና የእቃ ዝርዝር የስራ ፍሰት። የB2B ስርዓትን ተግባራዊ ስጋቶች ሞዴል ያደርጋል፡ የተረጋገጡ ተጠቃሚዎች፣ ሚና ላይ የተመሰረተ የመዳረሻ ቁጥጥር፣ የእቃ ዝርዝር ትክክለኛነት እና የማስመሰል ክፍያ ፍሰት። ፕሮጀክቱ የተነደፈው የማዕቀፍ ባህሪያት ካታሎግ ብቻ ሳይሆን የመመዝገቢያ ቡድን በሚያከናውነው ትክክለኛ ስራ ዙሪያ ነው።",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "ክፍያ OBOL",
+        "text": "በGnuCOBOL፣ በSQLite ድርብ መግቢያ ደብተር እና በስቬልት ኦፕሬሽኖች ዳሽቦርድ የተገነባ የአካባቢ የደመወዝ ክፍያ ሂደት። የኢንቲጀር-ሴንት ሂሳብ፣ የደመወዝ ክፍያ ሂደት እና የ loopback ዳሽቦርድ የፋይናንሺያል የስራ ሂደቶችን ግልፅ፣ ሊሞከር የሚችል እና በስራ ላይ የሚውል ተጠያቂ ለማድረግ ይጠቀማል።",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON እና YAML አውቶማቲክ ቅርጸት",
         "text": "በአሳሽ ላይ የተመሰረተ JSON እና YAML የማረጋገጫ እና የቅርጸት መሳሪያ በGo ውስጥ የተሰራ እና ወደ WebAssembly የተጠናቀረ። ትክክለኛ ያልሆነ ግቤት ለማግኘት ትክክለኛ ተንታኝን በመተግበር ላይ ያለውን መተንተን ሞተሩን ወደ WASM መውሰድ መስተጋብር ምላሽ ሰጭ እና ለአሳሹ አካባቢያዊ ያደርገዋል። ለአፈጻጸም፣ ተንቀሳቃሽነት እና የተጠቃሚ እምነት የሩጫ ጊዜ አርክቴክቸርን የመምረጥ ያተኮረ ምሳሌ ነው።",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "በጨዋታው ላይ ብጁ መሳሪያዎችን ፣ ጋሻዎችን ፣ ሞብስን ፣ ብሎኮችን ፣ ልኬቶችን እና ሌሎች ብዙ ባህሪያትን የሚጨምር Minecraft Mod። በ1.16 እና 1.20 መካከል ለሚመረጡ Minecraft ስሪቶች በጃቫ ስሪቶች 8-17 የተሰራ።",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "የእባብ ጨዋታ",
+        "text": "በራስት እና በማክሮ ኳድ የተሰራ፣ ወደ WebAssembly የተጠናቀረ እና በHTML5 Canvas የተሰራ የተጣራ የእባብ ሞተር። ወሳኙ የ0.12-ሰከንድ የጨዋታ መዥገሮች ለስላሳ የተጠላለፉ እንቅስቃሴዎች፣ ግልጽ የጨዋታ ደረጃዎች፣ ምላሽ ሰጪ ቁጥጥሮች፣ ግጭት እና የአሸናፊ ግዛት አያያዝ እና ትኩረት የተደረገ ሙከራን ያጣምራል። ዋና የጨዋታ ህጎችን የሚሸፍን ስብስብ።",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "ነብር ፕሮግራሚንግ ቋንቋ",
@@ -252,6 +286,18 @@
     "tiger_code": "የነብር ኮድ፡-",
     "run_tiger": "ነብርን አሂድ",
     "output": "ውጤት፡"
+  },
+  "snake": {
+    "title": "የእባብ ጨዋታ",
+    "description": "ከ Rust እና WebAssembly ጋር አብሮ የተሰራ ክላሲክ የመጫወቻ ማዕከል ጨዋታ። ምግብ ይሰብስቡ፣ እባብዎን ያሳድጉ እና ከግድግዳዎ እና ከራስዎ ዱካ ይራቁ።",
+    "kicker": "የድር ጣቢያ / ሚኒቃድ",
+    "section_label": "PLAYGROUND",
+    "game_title": "እባብ",
+    "loading": "ጨዋታን በመጫን ላይ...",
+    "ready": "ለመጫወት ዝግጁ",
+    "start_failed": "ጨዋታውን መጀመር አልተቻለም",
+    "runtime_failed": "የጨዋታውን ሩጫ ጊዜ መጫን አልተቻለም",
+    "aria_label": "የእባብ ጨዋታ። የቀስት ቁልፎች ወይም ለመንቀሳቀስ WASD፣ ቦታ ለመጀመር ወይም እንደገና ለመጀመር፣ P ለአፍታ ለማቆም።"
   },
   "tab": {
     "title": "ፓትሪክ Goodwin",

@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Website Projects",
     "tiger": "Tiger Language",
+    "snake": "Igra zmija",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "JSON & YAML Formater",
-    "contact": "Kontaktirajte me"
+    "contact": "Kontaktirajte me",
+    "home_description": "sys.root // glavni pregled",
+    "about_description": "profil inženjera // bio & stack",
+    "portfolio_description": "katalog softvera // istaknuta djela",
+    "projects_description": "interaktivni alati i kompajleri",
+    "tiger_description": "prilagođeni kompajler i AST vizualizator",
+    "snake_description": "klasična arkadna igra / WASM",
+    "portfolio_translator_description": "100+ jezična matrica i i18n",
+    "formatter_description": "validator i konverter sintakse",
+    "contact_description": "otvoreni prijenos // javite se"
   },
   "home": {
     "title": "Senior Full-Stack inženjer | Proizvodi i sistemi",
@@ -23,7 +33,21 @@
     "descriptionB": "Moj rad povezuje inženjerske odluke sa poslovnim rezultatima. Od SaaS-a za procjenu konstrukcije koji pretvara podatke iz proračunskih tablica u prijedloge spremne za klijente do web platformi koje generiraju prihod, gradim softver oko toka posla, rizika i mjerljive vrijednosti koje su važne ljudima koji ga koriste.",
     "portfolio_button": "Moj portfolio",
     "contact_button": "Kontaktirajte me",
-    "about_button": "O meni"
+    "about_button": "O meni",
+    "featured": {
+      "kicker": "Istaknuti projekti / 06",
+      "title": "Odabrani rad",
+      "description": "Šest projekata koji najbolje predstavljaju način na koji pretvaram ambiciozne ideje u uglađeni, funkcionalni softver.",
+      "view_project": "Pogledaj projekat",
+      "open_project": "Otvorite Live Project",
+      "view_all": "Istražite cijeli portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Full Website",
+        "available_here": "Dostupno ovdje",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "O meni",
@@ -119,6 +143,11 @@
         "text": "Puni tok POS i inventara izgrađen sa Angular 17+ i Node.js. Modelira operativne probleme B2B sistema: autentifikovani korisnici, kontrola pristupa zasnovana na ulogama, tačnost inventara i lažni tok plaćanja. Projekat je dizajniran oko stvarnog posla koji obavlja tim registra, a ne samo katalog karakteristika okvira.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Lokalni sistem za obradu platnog spiska izgrađen sa GnuCOBOL-om, SQLite knjigovodstvenom knjigom sa dvostrukim unosom i Svelte operativnom kontrolnom tablom. Koristi matematiku cijelih centa, grupnu obradu platnog spiska i kontrolnu ploču s petljom kako bi finansijske tokove posla učinili eksplicitnim, testiranim i operativno odgovornim.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Alat za JSON i YAML validaciju i formatiranje zasnovan na pretraživaču izgrađen u Go i preveden u WebAssembly. Premještanje motora za raščlanjivanje u WASM održava interakciju osjetljivom i lokalnom za pretraživač dok se primjenjuje pravi parser za hvatanje nevažećeg unosa. To je fokusiran primjer odabira runtime arhitekture za performanse, prenosivost i povjerenje korisnika.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft mod koji igrici dodaje prilagođene alate, oklop, mobove, blokove, dimenzije i mnoge druge značajke. Napravljen sa Java verzijama 8-17 za odabrane Minecraft verzije između 1.16 i 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Igra zmija",
+        "text": "Uglađeni Snake engine napravljen sa Rust-om i Macroquadom, kompajliran u WebAssembly i prikazan kroz HTML5 Canvas. Kombinira determinističke tikete igre od 0,12 sekundi s glatkim interpoliranim kretanjem, eksplicitnim fazama igre, brzim kontrolama, upravljanjem sudarima i pobjedničkim stanjem, te fokusiranim testom paket koji pokriva osnovna pravila igre.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger programski jezik",
@@ -252,6 +286,18 @@
     "tiger_code": "kod tigra:",
     "run_tiger": "Trči Tiger",
     "output": "Izlaz:"
+  },
+  "snake": {
+    "title": "Igra zmija",
+    "description": "Klasična arkadna igra napravljena uz Rust i WebAssembly. Skupljajte hranu, uzgajajte svoju zmiju i držite se dalje od zidova i vlastitog traga.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PLAYGROUND",
+    "game_title": "Zmija",
+    "loading": "Učitavanje igre...",
+    "ready": "Spreman za igru",
+    "start_failed": "Nije moguće pokrenuti igru",
+    "runtime_failed": "Nije moguće učitati vrijeme izvođenja igre",
+    "aria_label": "Igra zmija. Tipke sa strelicama ili WASD za pomicanje, razmak za početak ili ponovno pokretanje, P za pauziranje."
   },
   "tab": {
     "title": "Patrick Goodwin",

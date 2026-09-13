@@ -6,9 +6,19 @@
     "portfolio": "ፖርትፎሊዮ",
     "projects": "ፕሮጀክትታት መርበብ ሓበሬታ",
     "tiger": "ቋንቋ ትግራዋይ",
+    "snake": "ጸወታ ተመን",
     "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
     "formatter": "JSON & YAML ፎርማተር",
-    "contact": "ርኸቡኒ"
+    "contact": "ርኸቡኒ",
+    "home_description": "sys.root // ቀንዲ ሓፈሻዊ ትሕዝቶ",
+    "about_description": "መሃንድስ ፕሮፋይል // bio & stack",
+    "portfolio_description": "ሶፍትዌር ካታሎግ // ፍሉይ ስራሓት",
+    "projects_description": "መስተጋብራዊ መሳርሒታት & ኣከባበርቲ",
+    "tiger_description": "ብሕታዊ ኣከባቢርካ & AST ቪዥዋላይዘር",
+    "snake_description": "ክላሲካል ኣርኬድ ጸወታ / WASM",
+    "portfolio_translator_description": "100+ ቋንቋ ማትሪክስ & i18n",
+    "formatter_description": "ስነ-ቓል ምጽዳቕ & ቀያሪ",
+    "contact_description": "ክፉት ምትሕልላፍ // ርክብ ምግባር"
   },
   "home": {
     "title": "ላዕለዋይ ሙሉእ-ስታክ መሃንድስ | ፍርያትን ስርዓታትን",
@@ -23,7 +33,21 @@
     "descriptionB": "ስርሐይ ንውሳነታት ምህንድስና ምስ ውጽኢት ንግዲ የራኽቦ። ካብቲ ንህንጸት ዝግምት SaaS ንዳታ ስፕረድሺት ናብ ዓሚል ድሉው ዝኾነ ፕሮፖዛላት ዝቕይር ክሳብ ኣታዊ ዘምጽኡ ዌብ ፕላትፎርማት፡ ኣብ ዙርያ ዋሕዚ ስራሕ፡ ሓደጋን... ነቶም ዝጥቀሙሉ ሰባት ኣገዳሲ ዝኾነ ዝዕቀን ዋጋ።",
     "portfolio_button": "ፖርትፎሊዮይ",
     "contact_button": "ርኸቡኒ",
-    "about_button": "ብዛዕባይ"
+    "about_button": "ብዛዕባይ",
+    "featured": {
+      "kicker": "ፍሉያት ፕሮጀክትታት / 06",
+      "title": "ዝተመርጸ ስራሕ",
+      "description": "ሽዱሽተ ፕሮጀክትታት ከመይ ጌረ ንዓቢ ዕላማ ዘለዎም ሓሳባት ናብ ንጹህን ዝሰርሕን ሶፍትዌር ከም ዝቕይሮም ዝውክሉ።",
+      "view_project": "ፕሮጀክት ርአ",
+      "open_project": "ክፉት ቀጥታዊ ፕሮጀክት",
+      "view_all": "ምሉእ ፖርትፎሊዮ ዳህሰሱ",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "ምሉእ መርበብ ሓበሬታ",
+        "available_here": "ኣብዚ ይርከብ።",
+        "minecraft_mod": "ማይንክራፍት ሞድ"
+      }
+    }
   },
   "about": {
     "title": "ብዛዕባይ",
@@ -119,6 +143,11 @@
         "text": "ብ Angular 17+ን Node.jsን ዝተሃንጸ ምሉእ ስታክ POSን inventory workflowን እዩ። ንሱ ንናይ ሓደ B2B ስርዓት ስርሒታዊ ስክፍታታት ሞዴል ይገብሮ: ዝተረጋገጹ ተጠቀምቲ: ተራ መሰረት ዝገበረ ምቁጽጻር መእተዊ: ልክዕነት ንብረት: ከምኡውን ናይ ሞክ ክፍሊት ዋሕዚ። እቲ ፕሮጀክት ኣብ ዙርያ እቲ ሓደ መዝገብ ጉጅለ ​​ዝፍጽሞ ጭቡጥ ስራሕ እምበር ካታሎግ ናይ ማዕቀፍ ባህርያት ጥራይ ኣይኮነን ዝተነድፈ።",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "ክፍሊት ደሞዝOBOL",
+        "text": "ብGnuCOBOL ዝተሃንጸ ናይ ከባቢ ደሞዝ መስርሕ ስርዓት፣ SQLite ድርብ መእተዊ መዝገብን Svelte operations dashboardን። ንፋይናንሳዊ ዋሕዚ ስራሕ ግሉጽ፡ ዝፍተንን ብስርሒት ተሓታቲን ንምግባር ምሉእ ቁጽሪ ሳንቲም ሒሳብ፡ መስርሕ ደሞዝ ዕስለ፡ ከምኡ’ውን ሉፕባክ ዳሽቦርድ ይጥቀም።",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML ኣውቶ ፎርማተር",
         "text": "ኣብ Go ዝተሃንጸን ናብ WebAssembly ዝተጠርነፈን ኣብ መርበብ ሓበሬታ ዝተመርኮሰ JSONን YAMLን ናይ ምጽዳቕን ቅርጺን መሳርሒ። ነቲ ናይ ምፍታሽ ሞተር ናብ WASM ምግዓዝ ነቲ ምትእስሳር ምላሽ ዝህብን ንብራውዘር ከባብያውን ይገብሮ ኣብ ርእሲኡ ድማ ዘይሕጋዊ ምእታው ንምሓዝ ሓቀኛ ፓርሰር ኣብ ግብሪ ይውዕል። ንኣፈጻጽማ፣ ተንቀሳቓሲነትን ምትእምማን ተጠቃሚን ዝኸውን ናይ ምዝዋር ግዜ ስነ ህንጻ ​​ንምምራጽ ትኹረት ዝገበረ ኣብነት እዩ።",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "ሱፕሪምኤምሲ ማይንክራፍት ሞድ",
         "text": "ንጸወታ ብሕታዊ መሳርሒታት፡ ዕጥቂ፡ ዕስለ፡ ብሎክ፡ መለክዒታትን ካልእ ብዙሕ ባህርያትን ዝውስኽ Minecraft Mod። ምስ ጃቫ ስሪት 8-17 ንዝተመርጹ ስሪት ማይንክራፍት ኣብ መንጎ 1.16ን 1.20ን ዝተሃንጸ።",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "ጸወታ ተመን",
+        "text": "ብ Rustን Macroquadን ዝተሃንጸ ንጹህ Snake ሞተር፡ ናብ WebAssembly ዝተጠርነፈ፡ ብመንገዲ HTML5 Canvas ድማ ምቕራብ። ንሱ ውሳኒ 0.12 ካልኢት ጸወታ ቲክስ ምስ ስሉጥ ምትእትታው ምንቅስቓስ፡ ግሉጽ ምዕራፋት ጸወታ፡ ምላሽ ዝህብ ቁጽጽር፡ ምግጫውን ዓወት-ሃለዋትን ኣተሓሕዛ፡ ከምኡ’ውን ትኹረት ዝገበረ ፈተና የወሃህድ suite ንቐንዲ ሕግታት ጸወታ ዝሽፍን እዩ።",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "ቋንቋ ፕሮግራሚንግ ትግራዋይ",
@@ -252,6 +286,18 @@
     "tiger_code": "ትግራዋይ ኮድ:",
     "run_tiger": "ሩን ትግራዋይ",
     "output": "ውጽኢት፤"
+  },
+  "snake": {
+    "title": "ጸወታ ተመን",
+    "description": "ብ Rustን WebAssemblyን ዝተሃንጸ ክላሲካል ኣርኬድ ጸወታ። መግቢ ኣኪብካ ተመንካ ኣዕብዮ፡ ካብ መናድቕን ናይ ገዛእ ርእስኻ ኣሰርን ድማ ርሓቕ።",
+    "kicker": "መርበብ ሓበሬታ / MINIQAD",
+    "section_label": "መጻወቲ ሜዳ",
+    "game_title": "ተመን",
+    "loading": "ጸወታ ይጽዕን ኣሎ...",
+    "ready": "ንኽትጻወት ድሉው",
+    "start_failed": "ጸወታ ክጅምር ኣይከኣለን",
+    "runtime_failed": "ናይ ጸወታ ምዝዋር ግዜ ክጽዕን ኣይከኣለን",
+    "aria_label": "ናይ ተመን ጸወታ። መፍትሕ ቀስቲ ወይ WASD ንምንቅስቓስ፣ Space ንምጅማር ወይ ዳግማይ ንምጅማር፣ P ንምቁራጽ።"
   },
   "tab": {
     "title": "ፓትሪክ ጉድዊን ዝበሃሉ ምሁራት ምዃኖም ይፍለጥ",

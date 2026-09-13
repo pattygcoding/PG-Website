@@ -6,9 +6,19 @@
     "portfolio": "Fayil",
     "projects": "Ayyukan Yanar Gizo",
     "tiger": "Harshen Tiger",
+    "snake": "Wasan Maciji",
     "portfolio_translator": "Mai Fassarar Fayil",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Tuntube Ni"
+    "contact": "Tuntube Ni",
+    "home_description": "sys.root // babban dubawa",
+    "about_description": "profile engineer // bio & stack",
+    "portfolio_description": "catalog software // ayyukan da aka nuna",
+    "projects_description": "m kayan aikin & compilers",
+    "tiger_description": "custom compiler & AST visualizer",
+    "snake_description": "classic Arcade game / WASM",
+    "portfolio_translator_description": "100+ harshe matrix & i18n",
+    "formatter_description": "syntax validator & Converter",
+    "contact_description": "bude watsa // a tuntube"
   },
   "home": {
     "title": "Babban Injiniya Cikakkun Tari | Samfura & Tsarin",
@@ -23,7 +33,21 @@
     "descriptionB": "Aikina yana haɗa shawarar injiniya zuwa sakamakon kasuwanci. Daga SaaS mai ƙididdige gine-gine wanda ke juya bayanan maƙunsar bayanai zuwa shawarwarin shirye-shiryen abokin ciniki zuwa dandamalin yanar gizo masu samar da kudaden shiga, Ina gina software a kusa da ayyukan aiki, haɗari, da auna ma'auni mai mahimmanci ga mutanen da ke amfani da shi.",
     "portfolio_button": "Fayil nawa",
     "contact_button": "Tuntube Ni",
-    "about_button": "Akai na"
+    "about_button": "Akai na",
+    "featured": {
+      "kicker": "Fitattun Ayyuka / 06",
+      "title": "Zaɓaɓɓen Aiki",
+      "description": "Ayyuka shida waɗanda ke wakiltar mafi kyawun yadda na juya ra'ayoyi masu ban sha'awa zuwa gogewa, software mai aiki.",
+      "view_project": "Duba Project",
+      "open_project": "Buɗe Ayyukan Live",
+      "view_all": "Bincika cikakken fayil ɗin",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Cikakken Yanar Gizo",
+        "available_here": "Akwai Anan",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Akai na",
@@ -119,6 +143,11 @@
         "text": "Cikakken POS mai cike da kayan aiki da kayan aiki da aka gina tare da Angular 17+ da Node.js. Yana misalta abubuwan da ke damun tsarin aiki na tsarin B2B: ingantattun masu amfani, sarrafa tushen rawar aiki, daidaiton ƙira, da kwararar biyan kuɗi na izgili. An tsara aikin a kusa da ainihin aikin da ƙungiyar rajista ke yi, ba kawai kasida na fasalulluka ba.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Farashin OBOL",
+        "text": "Tsarin sarrafa biyan albashi na gida wanda aka gina tare da GnuCOBOL, SQLite ledar shigarwa sau biyu, da dashboard ayyuka na Svelte. Yana amfani da lissafin lamba-cent, sarrafa tsarin biyan albashi, da dashboard ɗin madauki don sanya tafiyar da ayyukan kuɗi a bayyane, abin iya gwadawa, da kuma aiwatar da lissafi.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formater",
         "text": "JSON na tushen burauza da ingantaccen kayan aikin YAML da aka gina a cikin Go kuma an haɗa su zuwa WebAssembly. Matsar da injin fasinja zuwa WASM yana sa hulɗar ta kasance mai amsawa kuma ta gida ga mai binciken yayin da ake amfani da fasinja na gaske don kama shigar da ba daidai ba. Misali ne da aka mayar da hankali na zabar tsarin gine-ginen lokacin aiki don aiki, ɗaukakawa, da amanar mai amfani.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Mod ɗin Minecraft wanda ke ƙara kayan aikin al'ada, sulke, ƙungiyoyin jama'a, tubalan, girma, da ƙari masu yawa ga wasan. Gina tare da nau'ikan Java 8-17 don zaɓi nau'ikan Minecraft tsakanin 1.16 da 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Wasan Maciji",
+        "text": "Injin maciji mai gogewa wanda aka gina tare da Tsatsa da Macroquad, an haɗa shi zuwa WebAssembly, kuma an yi shi ta hanyar HTML5 Canvas. Yana haɗa ƙayyadaddun tikitin wasa na 0.12 na biyu tare da motsi mai santsi, ƙayyadaddun matakan wasan, sarrafawar amsawa, karo da sarrafa nasara-jihar, da gwajin mayar da hankali suite da ke rufe ainihin dokokin wasan.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Lambar Tiger:",
     "run_tiger": "Run Tiger",
     "output": "Fitowa:"
+  },
+  "snake": {
+    "title": "Wasan Maciji",
+    "description": "Wasan wasan kwaikwayo na gargajiya da aka gina tare da Rust da WebAssembly. Tattara abinci, shuka maciji, kuma ku nisanta daga bango da hanyar ku.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "GUDUN WASA",
+    "game_title": "Maciji",
+    "loading": "Ana loda wasan...",
+    "ready": "Shirye don yin wasa",
+    "start_failed": "An kasa fara wasan",
+    "runtime_failed": "Ba a iya loda lokacin gudu na wasan ba",
+    "aria_label": "Wasan maciji. Maɓallan kibiya ko WASD don motsawa, sarari don farawa ko sake farawa, P don tsayawa."
   },
   "tab": {
     "title": "Patrick Goodwin",

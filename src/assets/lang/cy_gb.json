@@ -6,9 +6,19 @@
     "portfolio": "Portffolio",
     "projects": "Prosiectau Gwefan",
     "tiger": "Iaith Teigr",
+    "snake": "Gêm Neidr",
     "portfolio_translator": "Cyfieithydd Portffolio",
     "formatter": "Fformatiwr JSON & YAML",
-    "contact": "Cysylltwch â Fi"
+    "contact": "Cysylltwch â Fi",
+    "home_description": "sys.root // prif drosolwg",
+    "about_description": "proffil peiriannydd // bio & stack",
+    "portfolio_description": "catalog meddalwedd // gweithiau dan sylw",
+    "projects_description": "offer a chasglwyr rhyngweithiol",
+    "tiger_description": "casglwr arfer & delweddwr AST",
+    "snake_description": "gêm arcêd glasurol / WASM",
+    "portfolio_translator_description": "100+ matrics iaith & i18n",
+    "formatter_description": "dilysydd cystrawen a thrawsnewidydd",
+    "contact_description": "trawsyrru agored // cysylltwch"
   },
   "home": {
     "title": "Uwch Beiriannydd Pentwr | Cynnyrch a Systemau",
@@ -23,7 +33,21 @@
     "descriptionB": "Mae fy ngwaith yn cysylltu penderfyniadau peirianneg â chanlyniadau busnes. O SaaS sy'n amcangyfrif adeiladu sy'n troi data taenlen yn gynigion parod cleientiaid i lwyfannau gwe sy'n cynhyrchu refeniw, rwy'n adeiladu meddalwedd o amgylch y llif gwaith, risg, a gwerth mesuradwy sy'n bwysig i'r bobl sy'n ei ddefnyddio.",
     "portfolio_button": "Fy Mhortffolio",
     "contact_button": "Cysylltwch â Fi",
-    "about_button": "Amdanaf fi"
+    "about_button": "Amdanaf fi",
+    "featured": {
+      "kicker": "Prosiectau dan Sylw / 06",
+      "title": "Gwaith Dethol",
+      "description": "Chwe phrosiect sy'n cynrychioli'r ffordd orau o droi syniadau uchelgeisiol yn feddalwedd caboledig, gweithio.",
+      "view_project": "Gweld y Prosiect",
+      "open_project": "Agor Prosiect Byw",
+      "view_all": "Archwilio'r portffolio llawn",
+      "badges": {
+        "saas": "SAAS",
+        "full_website": "Gwefan Lawn",
+        "available_here": "Ar gael Yma",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Amdanaf fi",
@@ -119,6 +143,11 @@
         "text": "Llif gwaith POS pentwr llawn a rhestr eiddo wedi'i adeiladu gydag Angular 17+ a Node.js. Mae'n modelu pryderon gweithredol system B2B: defnyddwyr dilys, rheolaeth mynediad yn seiliedig ar rôl, cywirdeb rhestr eiddo, a llif ffug taliadau. Mae'r prosiect wedi'i gynllunio o amgylch y gwaith gwirioneddol y mae tîm cofrestr yn ei wneud, nid dim ond catalog o nodweddion fframwaith.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "System brosesu cyflogres leol a adeiladwyd gyda GnuCOBOL, cyfriflyfr mynediad dwbl SQLite, a dangosfwrdd gweithrediadau Svelte. Mae'n defnyddio mathemateg cyfanrif - ganolog, prosesu cyflogres swp, a dangosfwrdd cylchdroi i wneud llifoedd gwaith ariannol yn eglur, yn brofadwy ac yn atebol yn weithredol.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Fformatiwr Auto JSON & YAML",
         "text": "Offeryn dilysu a fformatio JSON ac YAML sy'n seiliedig ar borwr a adeiladwyd yn Go ac a luniwyd i WebAssembly. Mae symud yr injan dosrannu i WASM yn cadw'r rhyngweithiad yn ymatebol ac yn lleol i'r porwr wrth gymhwyso parser go iawn i ddal mewnbwn annilys. Mae'n enghraifft benodol o ddewis pensaernïaeth amser rhedeg ar gyfer perfformiad, hygludedd ac ymddiriedaeth defnyddwyr.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Mod Minecraft SuperMC",
         "text": "Mod Minecraft sy'n ychwanegu offer arfer, arfwisg, mobs, blociau, dimensiynau, a llawer mwy o nodweddion i'r gêm. Wedi'i adeiladu gyda fersiynau Java 8-17 ar gyfer fersiynau dethol o Minecraft rhwng 1.16 a 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Neidr Gêm",
+        "text": "Peiriant Neidr caboledig wedi'i adeiladu gyda Rust a Macroquad, wedi'i lunio i WebAssembly, a'i rendro trwy HTML5 Canvas. Mae'n cyfuno ticiau gêm 0.12- eiliad penderfynol gyda symudiad rhyngosod llyfn, cyfnodau gêm penodol, rheolaethau ymatebol, gwrthdrawiad a thrin y wladwriaeth fuddugol, a phrawf â ffocws chwaraewch y gêm ar - lein am reolau ar - lein.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Iaith Rhaglennu Teigr",
@@ -252,6 +286,18 @@
     "tiger_code": "Cod teigr:",
     "run_tiger": "Rhedeg Teigr",
     "output": "Allbwn:"
+  },
+  "snake": {
+    "title": "Neidr Gêm",
+    "description": "Mae gêm arcêd clasurol a adeiladwyd gyda rhwd a WebAssembly. Casglwch fwyd, tyfwch eich neidr, a chadwch yn glir o'r waliau a'ch llwybr eich hun.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "MAES CHWARAE",
+    "game_title": "Neidr",
+    "loading": "Yn llwytho gêm...",
+    "ready": "Parod i Chwarae",
+    "start_failed": "Methu cychwyn y gêm",
+    "runtime_failed": "Methu llwytho amser rhedeg y gêm",
+    "aria_label": "Neidr gêm. Bysellau saeth neu WASD i symud, Gofod i ddechrau neu ailgychwyn, P i oedi."
   },
   "tab": {
     "title": "Padrig Goodwin",

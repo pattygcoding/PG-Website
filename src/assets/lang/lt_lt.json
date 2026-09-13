@@ -6,9 +6,19 @@
     "portfolio": "Portfelis",
     "projects": "Svetainių projektai",
     "tiger": "Tigro kalba",
+    "snake": "Gyvatės žaidimas",
     "portfolio_translator": "Portfelio vertėjas",
     "formatter": "JSON ir YAML formatuoklis",
-    "contact": "Susisiekite su manimi"
+    "contact": "Susisiekite su manimi",
+    "home_description": "sys.root // pagrindinė apžvalga",
+    "about_description": "inžinieriaus profilis // bio & stack",
+    "portfolio_description": "programinės įrangos katalogas // siūlomi darbai",
+    "projects_description": "interaktyvūs įrankiai ir kompiliatoriai",
+    "tiger_description": "pasirinktinis kompiliatorius ir AST vizualizatorius",
+    "snake_description": "klasikinis arkadinis žaidimas / WASM",
+    "portfolio_translator_description": "100 ir daugiau kalbų matrica ir i18n",
+    "formatter_description": "sintaksės tikrintuvas ir keitiklis",
+    "contact_description": "atidaryti transmisiją // susisiekite"
   },
   "home": {
     "title": "Vyresnysis pilno krūvio inžinierius | Produktai ir sistemos",
@@ -23,7 +33,21 @@
     "descriptionB": "Mano darbas sieja inžinerinius sprendimus su verslo rezultatais. Nuo konstravimo įvertinimo SaaS, kuris skaičiuoklės duomenis paverčia klientui paruoštais pasiūlymais, iki pajamas generuojančių žiniatinklio platformų, kuriu programinę įrangą atsižvelgiant į darbo eigą, riziką ir išmatuojama vertė, svarbi ją naudojantiems žmonėms.",
     "portfolio_button": "Mano portfelis",
     "contact_button": "Susisiekite su manimi",
-    "about_button": "Apie mane"
+    "about_button": "Apie mane",
+    "featured": {
+      "kicker": "Teminiai projektai / 06",
+      "title": "Pasirinktas darbas",
+      "description": "Šeši projektai, geriausiai atspindintys, kaip ambicingas idėjas paverčiau nušlifuota, veikiančia programine įranga.",
+      "view_project": "Žiūrėti projektą",
+      "open_project": "Atidarykite tiesioginį projektą",
+      "view_all": "Ištirkite visą portfelį",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Pilna svetainė",
+        "available_here": "Galima čia",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Apie mane",
@@ -119,6 +143,11 @@
         "text": "Visiška POS ir atsargų darbo eiga, sukurta naudojant Angular 17+ ir Node.js. Jis modeliuoja B2B sistemos veikimo problemas: autentifikuotus vartotojus, vaidmenimis pagrįstą prieigos kontrolę, atsargų tikslumą ir netikrą mokėjimų srautą. Projektas sukurtas atsižvelgiant į faktinį registro komandos atliekamą darbą, o ne tik sistemos funkcijų katalogą.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Darbo užmokestisOBOL",
+        "text": "Vietinė darbo užmokesčio apskaitos sistema, sukurta naudojant GnuCOBOL, SQLite dvigubo įrašo knygą ir Svelte operacijų prietaisų skydelį. Jame naudojama sveikųjų centų matematika, paketinis darbo užmokesčio apskaičiavimas ir grįžtamojo ryšio prietaisų skydelis, kad finansinės darbo eigos būtų aiškios, patikrinamos ir operatyviai atskaitingos.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON ir YAML automatinis formatavimas",
         "text": "Naršyklėje pagrįstas JSON ir YAML patvirtinimo ir formatavimo įrankis, sukurtas „Go“ ir sukompiliuotas į „WebAssembly“. Perkėlus analizavimo variklį į WASM, sąveika išlieka jautri ir vietinė naršyklėje, o taikant tikrą analizatorių, kad gautų neteisingą įvestį. Tai ryškus vykdymo laiko architektūros pasirinkimo pavyzdys, siekiant užtikrinti našumą, perkeliamumą ir vartotojų pasitikėjimą.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "„Minecraft Mod“ prideda prie žaidimo pasirinktinius įrankius, šarvus, minias, blokus, matmenis ir daugybę kitų funkcijų. Sukurta naudojant 8–17 „Java“ versijas tam tikroms „Minecraft“ versijoms nuo 1.16 iki 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Gyvatės žaidimas",
+        "text": "Nušlifuotas gyvatės variklis, sukurtas naudojant Rust ir Macroquad, sukompiliuotas į WebAssembly ir pateiktas naudojant HTML5 Canvas. Jame deterministiniai 0,12 sekundės žaidimo žymekliai sujungiami su sklandžiu interpoliuotu judesiu, aiškiomis žaidimo fazėmis, reaguojančiais valdikliais, susidūrimo ir laimėjimo būsenos valdymu bei sutelktu testu rinkinys, apimantis pagrindines žaidimo taisykles.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tigro programavimo kalba",
@@ -252,6 +286,18 @@
     "tiger_code": "Tigro kodas:",
     "run_tiger": "Paleisti Tigrą",
     "output": "Išvestis:"
+  },
+  "snake": {
+    "title": "Gyvatės žaidimas",
+    "description": "Klasikinis arkadinis žaidimas, sukurtas naudojant Rust ir WebAssembly. Rinkite maistą, auginkite savo gyvatę ir būkite atokiau nuo sienų bei savo pėdsakų.",
+    "kicker": "TINTERNETINIAI SUSTABDYMAI / MINIQAD",
+    "section_label": "ŽAIDIMŲ AIKŠTELĖ",
+    "game_title": "Gyvatė",
+    "loading": "Įkeliamas žaidimas...",
+    "ready": "Paruošta žaisti",
+    "start_failed": "Nepavyko pradėti žaidimo",
+    "runtime_failed": "Nepavyko įkelti žaidimo vykdymo laiko",
+    "aria_label": "Gyvatės žaidimas. Rodyklių klavišai arba WASD, kad judėtumėte, tarpo klavišas, kad pradėtumėte arba paleistumėte iš naujo, P, kad pristabdytumėte."
   },
   "tab": {
     "title": "Patrikas Gudvinas",

@@ -6,9 +6,19 @@
     "portfolio": "portfolio-",
     "projects": "Tetikasa tranokala",
     "tiger": "Fiteny tigra",
+    "snake": "Lalao Snake",
     "portfolio_translator": "Mpandika Portfolio",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "home_description": "sys.root // topimaso lehibe",
+    "about_description": "mombamomba ny injeniera // bio & stack",
+    "portfolio_description": "logiciel catalog // asa nasongadina",
+    "projects_description": "fitaovana interactive & compiler",
+    "tiger_description": "compiler manokana & AST visualizer",
+    "snake_description": "lalao arcade mahazatra / WASM",
+    "portfolio_translator_description": "100+ fiteny matrix & i18n",
+    "formatter_description": "syntax validator & mpanova",
+    "contact_description": "open transmission // mifandray"
   },
   "home": {
     "title": "Senior Full Stack Engineer | Vokatra & Rafitra",
@@ -23,7 +33,21 @@
     "descriptionB": "Ny asako dia mampifandray ny fanapahan-kevitry ny injeniera amin'ny vokatra ara-barotra. Avy amin'ny SaaS manombatombana fanorenana izay mamadika ny angon-drakitra amin'ny takelaka ho tolo-kevitra vonona ho an'ny mpanjifa mankany amin'ny sehatra tranonkala miteraka fidiram-bola, dia manorina rindrambaiko manodidina ny fizotran'ny asa, ny risika ary ny risika aho. sanda azo refesina izay manan-danja amin'ny olona mampiasa azy.",
     "portfolio_button": "My Portfolio",
     "contact_button": "Contact Me",
-    "about_button": "Momba ahy"
+    "about_button": "Momba ahy",
+    "featured": {
+      "kicker": "Tetikasa Asongadina / 06",
+      "title": "Asa voafantina",
+      "description": "Tetikasa enina izay maneho tsara indrindra ny fomba hamadihana ireo hevitra mitsiriritra ho lasa lozisialy voaporitra sy miasa.",
+      "view_project": "View Project",
+      "open_project": "Sokafy Live Project",
+      "view_all": "Jereo ny portfolio feno",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Tranonkala feno",
+        "available_here": "Hita eto",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Momba ahy",
@@ -119,6 +143,11 @@
         "text": "POS feno stack sy workflow namboarina miaraka amin'ny Angular 17+ sy Node.js. Izy io dia manome modely ny olana momba ny fiasan'ny rafitra B2B: mpampiasa voamarina, fanaraha-maso ny fidirana mifototra amin'ny anjara asa, ny fahamarinan'ny lisitra ary ny fandoavana vola maneso. Ny tetikasa dia natao manodidina ny asa tena ataon'ny ekipan'ny fisoratana anarana, fa tsy ny katalaogin'ny endri-javatra rafitra.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Rafitra fanodinana karama eo an-toerana naorina miaraka amin'ny GnuCOBOL, bokim-bola fidirana roa SQLite, ary dashboard fiasan'ny Svelte. Mampiasa kajy integer-cent, fanodinana karama andiany, ary dashboard loopback izy io mba hahatonga ny fizotran'ny asa ara-bola ho mazava, azo andrana ary ho tompon'andraikitra amin'ny asa.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Fitaovana fanamafisana JSON sy YAML miorina amin'ny navigateur namboarina tao amin'ny Go ary natambatra ho WebAssembly. Ny famindra ny motera fanaparitahana ao amin'ny WASM dia mitazona ny fifaneraserana ho mamaly sy eo an-toerana amin'ny navigateur rehefa mampihatra parser tena izy mba hahazoana fidirana tsy mety. Izy io dia ohatra iray mifantoka amin'ny fisafidianana rafitra fampandehanana ho an'ny fampisehoana, ny fahafaha-mitondra ary ny fahatokisan'ny mpampiasa.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod izay manampy fitaovana mahazatra, fiadiana, mobs, sakana, refy ary endri-javatra maro hafa amin'ny lalao. Namboarina tamin'ny dikan-teny Java 8-17 ho an'ny dikan-teny Minecraft voafantina eo anelanelan'ny 1.16 sy 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Lalao Snake",
+        "text": "Motera Snake voapoizina namboarina tamin'ny Rust sy Macroquad, natambatra tao amin'ny WebAssembly, ary nadika tamin'ny HTML5 Canvas. Izy io dia manambatra ny ticks lalao 0.12-segondra miaraka amin'ny hetsika mifamatotra malefaka, dingana mazava amin'ny lalao, fanaraha-maso mamaly, fifandonana ary fitantanana fanjakana mandresy, ary fitsapana mifantoka. suite mandrakotra ny fitsipiky ny lalao fototra.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger Code:",
     "run_tiger": "Mihazakazaka Tiger",
     "output": "Output:"
+  },
+  "snake": {
+    "title": "Lalao Snake",
+    "description": "Lalao arcade mahazatra namboarina miaraka amin'ny Rust sy WebAssembly. Angony sakafo, ampitomboy ny bibilavao, ary alaviro ny rindrina sy ny lalanao.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "tokotanin-tsekoly",
+    "game_title": "MENARANA",
+    "loading": "Mametraka lalao...",
+    "ready": "Vonona hilalao",
+    "start_failed": "Tsy afaka nanomboka ny lalao",
+    "runtime_failed": "Tsy afaka mampiditra ny fotoam-pilalaovana lalao",
+    "aria_label": "Lalao Snake. Fanalahidin'ny zana-tsipìka na WASD hifindra, Space hanombohana na hanombohana, P hiato."
   },
   "tab": {
     "title": "Patrick Goodwin",

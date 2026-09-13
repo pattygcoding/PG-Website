@@ -6,9 +6,19 @@
     "portfolio": "Portfölj",
     "projects": "Webbplatsprojekt",
     "tiger": "Tigerspråk",
+    "snake": "Snake Game",
     "portfolio_translator": "Portföljöversättare",
     "formatter": "JSON & YAML-formaterare",
-    "contact": "Kontakta mig"
+    "contact": "Kontakta mig",
+    "home_description": "sys.root // huvudöversikt",
+    "about_description": "ingenjörsprofil // bio & stack",
+    "portfolio_description": "programvarukatalog // utvalda verk",
+    "projects_description": "interaktiva verktyg och kompilatorer",
+    "tiger_description": "anpassad kompilator och AST-visualiserare",
+    "snake_description": "klassiskt arkadspel / WASM",
+    "portfolio_translator_description": "100+ språkmatris & i18n",
+    "formatter_description": "syntaxvalidator och omvandlare",
+    "contact_description": "öppen sändning // hör av dig"
   },
   "home": {
     "title": "Senior full-stack ingenjör | Produkt & System",
@@ -23,7 +33,21 @@
     "descriptionB": "Mitt arbete kopplar tekniska beslut till affärsresultat. Från en konstruktionsuppskattande SaaS som förvandlar kalkylbladsdata till kundfärdiga förslag till intäktsgenererande webbplattformar, jag bygger mjukvara kring arbetsflödet, risker och mätbara värden som är viktiga för de som använder den.",
     "portfolio_button": "Min portfölj",
     "contact_button": "Kontakta mig",
-    "about_button": "Om mig"
+    "about_button": "Om mig",
+    "featured": {
+      "kicker": "Utvalda projekt / 06",
+      "title": "Valt arbete",
+      "description": "Sex projekt som bäst representerar hur jag förvandlar ambitiösa idéer till polerad, fungerande mjukvara.",
+      "view_project": "Visa projekt",
+      "open_project": "Öppna Live Project",
+      "view_all": "Utforska hela portföljen",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Hela webbplatsen",
+        "available_here": "Finns här",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Om mig",
@@ -119,6 +143,11 @@
         "text": "Ett POS- och inventeringsarbetsflöde i full stack byggt med Angular 17+ och Node.js. Den modellerar de operativa problemen för ett B2B-system: autentiserade användare, rollbaserad åtkomstkontroll, lagernoggrannhet och ett falskt betalningsflöde. Projektet är utformat kring det faktiska arbete som ett registerteam utför, inte bara en katalog över ramfunktioner.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "LönOBOL",
+        "text": "Ett lokalt lönebearbetningssystem byggt med GnuCOBOL, en SQLite dubbelbokföring och en Svelte operations dashboard. Den använder heltal-cent matematik, batch lönebearbetning och en loopback-instrumentpanel för att göra finansiella arbetsflöden tydliga, testbara och operativt ansvarsfulla.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Autoformaterare",
         "text": "Ett webbläsarbaserat JSON- och YAML-validerings- och formateringsverktyg inbyggt i Go och kompilerat till WebAssembly. Att flytta analysmotorn till WASM håller interaktionen lyhörd och lokal för webbläsaren samtidigt som en riktig parser används för att fånga ogiltig inmatning. Det är ett fokuserat exempel på att välja en runtime-arkitektur för prestanda, portabilitet och användarförtroende.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "En Minecraft Mod som lägger till anpassade verktyg, rustningar, mobs, block, dimensioner och många fler funktioner till spelet. Byggd med Java-versioner 8-17 för utvalda Minecraft-versioner mellan 1.16 och 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Snake Game",
+        "text": "En polerad Snake-motor byggd med Rust och Macroquad, kompilerad till WebAssembly och renderad genom HTML5 Canvas. Den kombinerar deterministiska 0,12-sekunders spelticks med mjuk interpolerad rörelse, explicita spelfaser, responsiva kontroller, kollision och win-state-hantering och ett fokuserat test svit som täcker de centrala spelreglerna.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger programmeringsspråk",
@@ -252,6 +286,18 @@
     "tiger_code": "Tigerkod:",
     "run_tiger": "Kör Tiger",
     "output": "Produktion:"
+  },
+  "snake": {
+    "title": "Snake Game",
+    "description": "Ett klassiskt arkadspel byggt med Rust och WebAssembly. Samla mat, odla din orm och håll dig borta från väggarna och ditt eget spår.",
+    "kicker": "WEBMONTERING / MINIQAD",
+    "section_label": "LEKPLATS",
+    "game_title": "Orm",
+    "loading": "Laddar spel...",
+    "ready": "Klar att spela",
+    "start_failed": "Det gick inte att starta spelet",
+    "runtime_failed": "Det gick inte att ladda spelets körtid",
+    "aria_label": "Snake spel. Piltangenter eller WASD för att flytta, mellanslag för att starta eller starta om, P för att pausa."
   },
   "tab": {
     "title": "Patrick Goodwin",

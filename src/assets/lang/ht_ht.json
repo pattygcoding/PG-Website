@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Pwojè sit entènèt",
     "tiger": "Lang tig",
+    "snake": "Jwèt Koulèv",
     "portfolio_translator": "Portfolio tradiktè",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Kontakte mwen"
+    "contact": "Kontakte mwen",
+    "home_description": "sys.root // apèsi prensipal la",
+    "about_description": "pwofil enjenyè // bio & pile",
+    "portfolio_description": "katalòg lojisyèl // prezante travay",
+    "projects_description": "zouti entèaktif ak konpilateur",
+    "tiger_description": "du koutim & AST visualizer",
+    "snake_description": "jwèt arcade klasik / WASM",
+    "portfolio_translator_description": "100+ lang matris & i18n",
+    "formatter_description": "Validatè sentaks ak konvètisè",
+    "contact_description": "transmisyon louvri // pran kontak"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Pwodwi & Sistèm",
@@ -23,7 +33,21 @@
     "descriptionB": "Travay mwen an konekte desizyon jeni ak rezilta biznis yo. Soti nan yon SaaS estimasyon konstriksyon ki vire done fèy kalkil an pwopozisyon kliyan pare pou rive nan platfòm entènèt ki gen revni, mwen konstwi lojisyèl alantou workflow, risk, ak valè mezirab ki enpòtan pou moun ki sèvi ak li.",
     "portfolio_button": "Portfolio mwen an",
     "contact_button": "Kontakte mwen",
-    "about_button": "Sou mwen"
+    "about_button": "Sou mwen",
+    "featured": {
+      "kicker": "Pwojè ki prezante / 06",
+      "title": "Travay Chwazi",
+      "description": "Sis pwojè ki pi byen reprezante fason mwen fè lide anbisye nan lojisyèl poli, k ap travay.",
+      "view_project": "Gade pwojè",
+      "open_project": "Louvri Pwojè Live",
+      "view_all": "Eksplore dosye konplè a",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Sit wèb konplè",
+        "available_here": "Disponib isit la",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Sou mwen",
@@ -119,6 +143,11 @@
         "text": "Yon POS konplè ak workflow envantè ki te bati ak Angular 17+ ak Node.js. Li modèl enkyetid operasyonèl yo nan yon sistèm B2B: itilizatè otantifye, kontwòl aksè ki baze sou wòl, presizyon envantè, ak yon koule peman mok. Pwojè a fèt nan travay aktyèl yon ekip anrejistre fè, pa sèlman yon katalòg karakteristik kad.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Yon sistèm pwosesis pewòl lokal ki bati ak GnuCOBOL, yon Ledger doub-antre SQLite, ak yon tablodbò operasyon Svelte. Li itilize matematik sant antye, pwosesis pewòl pakèt, ak yon tablodbò loopback pou fè workflows finansye yo klè, teste, ak fonksyonman responsab.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Yon navigatè ki baze sou JSON ak YAML validation ak zouti fòma bati nan Go ak konpile nan WebAssembly. Deplase motè analiz la nan WASM kenbe entèraksyon an reponn ak lokal nan navigatè a pandan y ap aplike yon analizeur reyèl pou trape opinyon envalid. Li se yon egzanp konsantre sou chwazi yon achitekti ègzekutabl pou pèfòmans, portabilite, ak konfyans itilizatè.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Yon Mod Minecraft ki ajoute zouti koutim, zam, foul, blòk, dimansyon, ak anpil lòt karakteristik nan jwèt la. Bati ak Java vèsyon 8-17 pou chwazi vèsyon Minecraft ant 1.16 ak 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Jwèt Koulèv",
+        "text": "Yon motè Snake poli bati ak Rust ak Macroquad, konpile nan WebAssembly, epi rann atravè HTML5 Canvas. Li konbine tik jwèt detèminist 0.12 segonn ak mouvman entèpolasyon lis, faz jwèt klè, kontwòl repons, kolizyon ak manyen eta genyen, ak yon tès konsantre. suite ki kouvri règ jwèt debaz yo.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Kòd tig:",
     "run_tiger": "Kouri Tiger",
     "output": "Sòti:"
+  },
+  "snake": {
+    "title": "Jwèt Koulèv",
+    "description": "Yon jwèt arcade klasik bati ak Rust ak WebAssembly. Kolekte manje, grandi koulèv ou, epi kenbe lwen mi yo ak santye pwòp ou yo.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "lakou rekreyasyon",
+    "game_title": "Koulèv",
+    "loading": "Chaje jwèt...",
+    "ready": "Pare pou jwe",
+    "start_failed": "Pa kapab kòmanse jwèt la",
+    "runtime_failed": "Pa kapab chaje tan jwèt la",
+    "aria_label": "Jwèt koulèv. Kle flèch oswa WASD pou deplase, Espas pou kòmanse oswa rekòmanse, P pou pran yon poz."
   },
   "tab": {
     "title": "Patrick Goodwin",

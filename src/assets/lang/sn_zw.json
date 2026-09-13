@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Webhusaiti Projects",
     "tiger": "Tiger Mutauro",
+    "snake": "Nyoka Game",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Ndibate"
+    "contact": "Ndibate",
+    "home_description": "sys.root // main overview",
+    "about_description": "injiniya mbiri // bio & stack",
+    "portfolio_description": "software catalog // inoratidzwa mabasa",
+    "projects_description": "interactive zvishandiso & compilers",
+    "tiger_description": "tsika compiler & AST visualizer",
+    "snake_description": "classic arcade mutambo / WASM",
+    "portfolio_translator_description": "100+ mutauro matrix & i18n",
+    "formatter_description": "syntax validator & converter",
+    "contact_description": "vhura kutumira // kubata"
   },
   "home": {
     "title": "Mukuru Akazara-Stack Injiniya | Product & Systems",
@@ -23,7 +33,21 @@
     "descriptionB": "Basa rangu rinobatanidza sarudzo dzeinjiniya kune zvabuda mubhizinesi. Kubva kune yekuvaka-yekufungidzira SaaS inoshandura dheti dhata kuita mutengi-akagadzirira mazano kune anogadzira mari ewebhu mapuratifomu, ini ndinovaka software yakatenderedza mafambiro ebasa, njodzi, uye. kukosha kunoyerwa kunokosha kuvanhu vanoishandisa.",
     "portfolio_button": "My Portfolio",
     "contact_button": "Ndibate",
-    "about_button": "Nezvangu"
+    "about_button": "Nezvangu",
+    "featured": {
+      "kicker": "Featured Projects / 06",
+      "title": "Basa Rakasarudzwa",
+      "description": "Mapurojekiti matanhatu anomiririra zvakanyanya maitiro andinoshandura mazano ekuda kuva akakwenenzverwa, anoshanda software.",
+      "view_project": "View Project",
+      "open_project": "Vhura Live Project",
+      "view_all": "Ongorora iyo yakazara portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Webhusaiti Yakazara",
+        "available_here": "Inowanikwa Pano",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Nezvangu",
@@ -119,6 +143,11 @@
         "text": "Iyo yakazara-stack POS uye hesitori workflow yakavakwa neAngular 17+ uye Node.js. Iyo inoenzanisira zvinonetsa zvekushanda kweB2B system: vashandisi vakatendeseka, basa-rinoenderana nekuwana kudzora, kurongeka kweiyo, uye kuyerera kwekubhadhara kwekunyomba. Iyo purojekiti yakagadzirirwa kutenderedza basa chairo rinoitwa neboka rerejista, kwete chete katalog yemaitiro ehurongwa.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Iyo yemuno payroll process system yakavakwa neGnuCOBOL, SQLite kaviri-yekupinda ledger, uye Svelte mashandiro dashboard. Inoshandisa integer-cent math, batch payroll processing, uye loopback dashboard kuita kuti mafambiro emari ave pachena, anoedza, uye azvidavirire.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Bhurawuza-yakavakirwa JSON uye YAML kusimbiswa uye fomati chishandiso chakavakirwa muGo uye chakagadzirirwa kuWebAssembly. Kufambisa injini yekufambisa muWASM inochengeta kupindirana kuchipindura uye kwenzvimbo kune bhurawuza paunenge uchishandisa parser chaiyo kuti ubate iyo isiriyo yekuisa. Iwo muenzaniso wakatarisana wekusarudza yekumhanyisa nguva yekuvaka yekuita, kutakurika, uye mushandisi kuvimba.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "A Minecraft Mod iyo inowedzera maturusi echinyakare, nhumbi dzokurwa, mhomho, zvidhinha, zvimiro, uye zvimwe zvakawanda kumutambo. Yakavakwa neJava shanduro 8-17 yekusarudza Minecraft shanduro pakati pe1.16 ne1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Nyoka Game",
+        "text": "Injini yakakwenenzverwa yeNyoka yakavakwa neRust uye Macroquad, yakaunganidzwa kuWebAssembly, uye yakashandurwa kuburikidza neHTML5 Canvas. Inosanganisa dhizaini 0.12-yechipiri mutambo zvikwekwe zvine mutsindo wakapindirwa mafambiro, akajeka emitambo nhanho, anoteerera anotonga, kudhumhana uye kukunda-nyika kubata, uye bvunzo yakanangana. suite inovhara misimboti yemitambo mitemo.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Mutauro",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger Code:",
     "run_tiger": "Mhanya Tiger",
     "output": "Zvakabuda:"
+  },
+  "snake": {
+    "title": "Nyoka Game",
+    "description": "A classic arcade mutambo wakavakwa neRust uye WebAssembly. Unganidza chikafu, gadzira nyoka yako, uye ugare kure nemadziro nenzira yako.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PLAYGround",
+    "game_title": "Nyoka",
+    "loading": "Kurodha mutambo...",
+    "ready": "Wakagadzirira kutamba",
+    "start_failed": "Tatadza kutanga mutambo",
+    "runtime_failed": "Tatadza kurodha nguva yemutambo",
+    "aria_label": "Mutambo wenyoka. Arrow makiyi kana WASD kufamba, Space kutanga kana kutangazve, P kumbomira."
   },
   "tab": {
     "title": "Patrick Goodwin",

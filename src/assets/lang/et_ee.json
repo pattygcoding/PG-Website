@@ -6,9 +6,19 @@
     "portfolio": "Portfell",
     "projects": "Veebisaidi projektid",
     "tiger": "Tiigri keel",
+    "snake": "Madu mäng",
     "portfolio_translator": "Portfelli tõlkija",
     "formatter": "JSON ja YAML vormindaja",
-    "contact": "Võtke minuga ühendust"
+    "contact": "Võtke minuga ühendust",
+    "home_description": "sys.root // põhiülevaade",
+    "about_description": "inseneri profiil // bio & pinu",
+    "portfolio_description": "tarkvarakataloog // esiletoodud teosed",
+    "projects_description": "interaktiivsed tööriistad ja kompilaatorid",
+    "tiger_description": "kohandatud kompilaator ja AST visualiseerija",
+    "snake_description": "klassikaline arkaadmäng / WASM",
+    "portfolio_translator_description": "100+ keelemaatriks ja i18n",
+    "formatter_description": "süntaksi valideerija ja muundur",
+    "contact_description": "ava edastus // võta ühendust"
   },
   "home": {
     "title": "Full-Stack'i vaneminsener | Tooted ja süsteemid",
@@ -23,7 +33,21 @@
     "descriptionB": "Minu töö seob inseneriotsused äritulemustega. Alates ehituse hinnangulisest SaaS-ist, mis muudab arvutustabeli andmed kliendi jaoks valmis ettepanekuteks kuni tulu teenivate veebiplatvormideni, koostan tarkvara, mis põhineb töövoo, riskide ja mõõdetav väärtus, mis on seda kasutavatele inimestele oluline.",
     "portfolio_button": "Minu portfell",
     "contact_button": "Võtke minuga ühendust",
-    "about_button": "Minu kohta"
+    "about_button": "Minu kohta",
+    "featured": {
+      "kicker": "ESILETÕSTETUD PROJEKTID",
+      "title": "Valitud töö",
+      "description": "Kuus projekti, mis esindavad kõige paremini seda, kuidas ma muudan ambitsioonikad ideed lihvitud, toimivaks tarkvaraks.",
+      "view_project": "Vaata projekti",
+      "open_project": "Ava reaalajas projekt",
+      "view_all": "Tutvu kogu portfoolioga",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Täielik veebisait",
+        "available_here": "SAADAVAL SIIN",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Minu kohta",
@@ -119,6 +143,11 @@
         "text": "Täielik müügikohtade ja varude töövoog, mis on loodud Angular 17+ ja Node.js-iga. See modelleerib B2B-süsteemi tööprobleeme: autentitud kasutajad, rollipõhine juurdepääsukontroll, varude täpsus ja vale maksevoog. Projekt on üles ehitatud registrimeeskonna tegelikule tööle, mitte ainult raamistiku funktsioonide kataloogile.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PalgaarvestusOBOL",
+        "text": "Kohalik palgatöötlussüsteem, mis on ehitatud GnuCOBOLi, SQLite 'i kahekordse kirjendamise pearaamatu ja Svelte operatsioonide armatuurlauaga. See kasutab täisarvulise sendi matemaatikat, palgaarvestuse töötlemist ja tagasiside töölauda, et muuta finantstöövood selgesõnaliseks, testitavaks ja operatiivselt vastutavaks.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON ja YAML automaatne vormindaja",
         "text": "Brauseripõhine JSON- ja YAML-i valideerimis- ja vormindamistööriist, mis on sisse ehitatud Go-sse ja kompileeritud WebAssemblysse. Sõelumismootori teisaldamine WASM-i hoiab interaktsiooni brauseri jaoks tundlikuna ja lokaalsena, rakendades samal ajal tõelist parserit, et tabada vale sisend. See on keskendunud näide käitusaegse arhitektuuri valimisest jõudluse, kaasaskantavuse ja kasutaja usalduse jaoks.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecrafti mod",
         "text": "Minecrafti modifikatsioon, mis lisab mängule kohandatud tööriistu, raudrüüd, mobe, plokke, mõõtmeid ja palju muid funktsioone. Loodud Java versioonidega 8–17 teatud Minecrafti versioonide jaoks vahemikus 1.16–1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Maomäng",
+        "text": "Poleeritud madumootor, mis on ehitatud rooste ja makrokvadiga, kompileeritud WebAssembly 'i ja sulatatud HTML5 lõuendi kaudu. See ühendab deterministliku0,12-sekundilise mängu puugid sujuva interpoleeritud liikumise, selgesõnalise mängufaasi, reageeriva juhtimise, kokkupõrke ja võiduseisundi käsitlemise ning keskendunud testiga komplekt, mis hõlmab põhilisi mängureegleid.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiigri programmeerimiskeel",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiigri kood:",
     "run_tiger": "Jookse Tiiger",
     "output": "Väljund:"
+  },
+  "snake": {
+    "title": "Maomäng",
+    "description": "Klassikaline arkaadmäng, mis on ehitatud Rust ja WebAssembly abil. Kogu toitu, kasvata oma madu ja hoia eemale seintest ja oma jälgedest.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "mänguväljak",
+    "game_title": "Tigu",
+    "loading": "Mängu laadimine...",
+    "ready": "Valmis esitamiseks",
+    "start_failed": "Mängu ei saa alustada",
+    "runtime_failed": "Mängu käitusaega ei saa laadida",
+    "aria_label": "Maomäng. Liigutamiseks nooleklahvid või WASD, käivitamiseks või taaskäivitamiseks tühik, peatamiseks P."
   },
   "tab": {
     "title": "Patrick Goodwin",

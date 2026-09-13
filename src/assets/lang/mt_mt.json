@@ -6,9 +6,19 @@
     "portfolio": "Portafoll",
     "projects": "Proġetti tal-Websajt",
     "tiger": "Lingwa Tiger",
+    "snake": "Logħba tas-Serp",
     "portfolio_translator": "Traduttur tal-portafoll",
     "formatter": "Formatter JSON & YAML",
-    "contact": "Ikkuntattjani"
+    "contact": "Ikkuntattjani",
+    "home_description": "sys.root // ħarsa ġenerali prinċipali",
+    "about_description": "profil inġinier // bio & munzell",
+    "portfolio_description": "katalgu tas-softwer // dehru xogħlijiet",
+    "projects_description": "għodod interattivi u kompilaturi",
+    "tiger_description": "kompilatur tad-dwana & viżwalizzatur AST",
+    "snake_description": "logħba arcade klassika / WASM",
+    "portfolio_translator_description": "100+ matriċi tal-lingwa & i18n",
+    "formatter_description": "validatur u konvertitur tas-sintassi",
+    "contact_description": "trasmissjoni miftuħa // tagħmel kuntatt"
   },
   "home": {
     "title": "Inġinier Anzjan Full-Stack | Prodott u Sistemi",
@@ -23,7 +33,21 @@
     "descriptionB": "Ix-xogħol tiegħi jgħaqqad id-deċiżjonijiet tal-inġinerija mar-riżultati tan-negozju. Minn SaaS li jistma l-kostruzzjoni li jibdel id-dejta tal-ispreadsheet fi proposti lesti għall-klijenti għal pjattaformi tal-web li jiġġeneraw id-dħul, nibni softwer madwar il-fluss tax-xogħol, ir-riskju, u valur li jista’ jitkejjel li jimpurtah għan-nies li jużawh.",
     "portfolio_button": "Portafoll Tiegħi",
     "contact_button": "Ikkuntattjani",
-    "about_button": "Dwari"
+    "about_button": "Dwari",
+    "featured": {
+      "kicker": "Proġetti Dehru / 06",
+      "title": "Xogħol Magħżul",
+      "description": "Sitt proġetti li jirrappreżentaw l-aħjar kif inbiddel ideat ambizzjużi f’software illustrat u li jaħdem.",
+      "view_project": "Ara Proġett",
+      "open_project": "Miftuħ Proġett Ħaj",
+      "view_all": "Esplora l-portafoll sħiħ",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Websajt sħiħ",
+        "available_here": "Disponibbli Hawnhekk",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Dwari",
@@ -119,6 +143,11 @@
         "text": "Fluss ta' xogħol ta' POS u inventarju full-stack mibni b'Angular 17+ u Node.js. Jimudella t-tħassib operattiv ta 'sistema B2B: utenti awtentikati, kontroll tal-aċċess ibbażat fuq ir-rwoli, preċiżjoni tal-inventarju, u fluss ta' ħlas finta. Il-proġett huwa mfassal madwar ix-xogħol attwali li jwettaq tim tar-reġistru, mhux biss katalgu ta' karatteristiċi ta' qafas.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Sistema lokali għall-ipproċessar tal-pagi mibnija bi GnuCOBOL, reġistru ta’ dħul doppju SQLite, u dashboard tal-operazzjonijiet Svelte. Juża matematika ta’ ċenteżmu interi, proċessar tal-pagi tal-lott, u dashboard loopback biex jagħmel il-flussi tax-xogħol finanzjarji espliċiti, ttestjati, u operazzjonalment responsabbli.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Għodda għall-validazzjoni u l-ifformattjar tal-JSON u YAML ibbażata fuq il-brawżer mibnija f'Go u kkompilata f'WebAssembly. Iċ-ċaqliq tal-magna tal-parsing f'WASM iżomm l-interazzjoni reattiva u lokali għall-browser filwaqt li tapplika parser reali biex jaqbad input invalidu. Huwa eżempju ffukat tal-għażla ta 'arkitettura runtime għall-prestazzjoni, il-portabbiltà, u l-fiduċja tal-utent.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Mod ta 'Minecraft li jżid għodda tad-dwana, armatura, mobs, blokki, dimensjonijiet, u ħafna aktar karatteristiċi għal-logħba. Mibnija bil-verżjonijiet Java 8-17 għal verżjonijiet Minecraft magħżula bejn 1.16 u 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Logħba tas-Serp",
+        "text": "Magna Snake illustrata mibnija b'Rut u Macroquad, miġbura f'WebAssembly, u mogħtija permezz ta' HTML5 Canvas. Jikkombina qurdien tal-logħob deterministiċi ta' 0.12 sekondi b'moviment interpolat bla xkiel, fażijiet espliċiti tal-logħob, kontrolli li jirrispondu, ħabta u tqandil ta' win-state, u test iffukat suite li tkopri r-regoli ewlenin tal-logħob.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Kodiċi Tiger:",
     "run_tiger": "Mexxi Tiger",
     "output": "Output:"
+  },
+  "snake": {
+    "title": "Logħba tas-Serp",
+    "description": "Logħba arcade klassika mibnija b'Rut u WebAssembly. Iġbor l-ikel, kabbar is-serp tiegħek, u żomm 'il bogħod mill-ħitan u t-traċċa tiegħek.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PLAYGROUND",
+    "game_title": "Serp",
+    "loading": "Tagħbija logħba...",
+    "ready": "Lest biex jilgħab",
+    "start_failed": "Ma tistax tibda l-logħba",
+    "runtime_failed": "Mhux kapaċi tagħbija l-runtime tal-logħba",
+    "aria_label": "Logħba tas-serp. Ċwievet tal-vleġġa jew WASD biex tiċċaqlaq, Spazju biex tibda jew terġa 'tibda, P biex tieqaf."
   },
   "tab": {
     "title": "Patrick Goodwin",

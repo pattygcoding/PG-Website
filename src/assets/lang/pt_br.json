@@ -6,9 +6,19 @@
     "portfolio": "Portfólio",
     "projects": "Projetos de sites",
     "tiger": "Linguagem do Tigre",
+    "snake": "Jogo de cobra",
     "portfolio_translator": "Tradutor de portfólio",
     "formatter": "Formatador JSON e YAML",
-    "contact": "Entre em contato comigo"
+    "contact": "Entre em contato comigo",
+    "home_description": "sys.root // visão geral principal",
+    "about_description": "perfil do engenheiro // bio & stack",
+    "portfolio_description": "catálogo de software // trabalhos em destaque",
+    "projects_description": "ferramentas interativas e compiladores",
+    "tiger_description": "compilador personalizado e visualizador AST",
+    "snake_description": "jogo de arcade clássico / WASM",
+    "portfolio_translator_description": "Mais de 100 matrizes de idiomas e i18n",
+    "formatter_description": "validador e conversor de sintaxe",
+    "contact_description": "transmissão aberta // entre em contato"
   },
   "home": {
     "title": "Engenheiro Full Stack Sênior | Produto e Sistemas",
@@ -23,7 +33,21 @@
     "descriptionB": "Meu trabalho conecta decisões de engenharia aos resultados de negócios. Desde um SaaS de estimativa de construção que transforma dados de planilhas em propostas prontas para o cliente até plataformas web geradoras de receita, eu construo software em torno do fluxo de trabalho, risco e valor mensurável que importa para as pessoas que o utilizam.",
     "portfolio_button": "Meu portfólio",
     "contact_button": "Entre em contato comigo",
-    "about_button": "Sobre mim"
+    "about_button": "Sobre mim",
+    "featured": {
+      "kicker": "Projetos em Destaque / 06",
+      "title": "Trabalho Selecionado",
+      "description": "Seis projetos que melhor representam como transformo ideias ambiciosas em software funcional e sofisticado.",
+      "view_project": "Ver projeto",
+      "open_project": "Abrir projeto ao vivo",
+      "view_all": "Explore o portfólio completo",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Site completo",
+        "available_here": "Disponível aqui",
+        "minecraft_mod": "Modo Minecraft"
+      }
+    }
   },
   "about": {
     "title": "Sobre mim",
@@ -119,6 +143,11 @@
         "text": "Um fluxo de trabalho completo de PDV e inventário criado com Angular 17+ e Node.js. Ele modela as preocupações operacionais de um sistema B2B: usuários autenticados, controle de acesso baseado em funções, precisão de inventário e fluxo de pagamento simulado. O projeto é elaborado em torno do trabalho real que uma equipe de registro realiza, e não apenas de um catálogo de recursos da estrutura.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Folha de pagamentoOBOL",
+        "text": "Um sistema de processamento de folha de pagamento local construído com GnuCOBOL, um livro razão de dupla entrada SQLite e um painel de operações Svelte. Ele usa matemática de centavos inteiros, processamento de folha de pagamento em lote e um painel de loopback para tornar os fluxos de trabalho financeiros explícitos, testáveis ​​e operacionalmente responsáveis.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Formatador automático JSON e YAML",
         "text": "Uma ferramenta de validação e formatação JSON e YAML baseada em navegador, construída em Go e compilada para WebAssembly. Mover o mecanismo de análise para WASM mantém a interação responsiva e local para o navegador enquanto aplica um analisador real para capturar entradas inválidas. É um exemplo focado de escolha de uma arquitetura de tempo de execução para desempenho, portabilidade e confiança do usuário.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Supremo MC Minecraft Mod",
         "text": "Um mod do Minecraft que adiciona ferramentas personalizadas, armaduras, mobs, blocos, dimensões e muitos mais recursos ao jogo. Construído com Java versões 8-17 para versões selecionadas do Minecraft entre 1.16 e 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Jogo de cobra",
+        "text": "Um mecanismo Snake sofisticado construído com Rust e Macroquad, compilado para WebAssembly e renderizado por meio de HTML5 Canvas. Ele combina tiques determinísticos de jogo de 0,12 segundos com movimento interpolado suave, fases de jogo explícitas, controles responsivos, manipulação de colisão e estado de vitória e um teste focado suíte que cobre as regras básicas do jogo.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Linguagem de programação Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Código Tigre:",
     "run_tiger": "Corra tigre",
     "output": "Saída:"
+  },
+  "snake": {
+    "title": "Jogo de cobra",
+    "description": "Um clássico jogo de arcade desenvolvido com Rust e WebAssembly. Colete comida, crie sua cobra e fique longe das paredes e de sua própria trilha.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PARQUE PARQUE",
+    "game_title": "Cobra",
+    "loading": "Carregando jogo...",
+    "ready": "Pronto para jogar",
+    "start_failed": "Não é possível iniciar o jogo",
+    "runtime_failed": "Não foi possível carregar o tempo de execução do jogo",
+    "aria_label": "Jogo de cobra. Teclas de seta ou WASD para mover, Espaço para iniciar ou reiniciar, P para pausar."
   },
   "tab": {
     "title": "Patrick Goodwin",

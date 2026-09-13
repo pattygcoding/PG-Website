@@ -6,9 +6,19 @@
     "portfolio": "Portföy",
     "projects": "Web Sitesi Projeleri",
     "tiger": "Kaplan Dili",
+    "snake": "Yılan Oyunu",
     "portfolio_translator": "Portföy Çevirmeni",
     "formatter": "JSON ve YAML Biçimlendirici",
-    "contact": "Bana Ulaşın"
+    "contact": "Bana Ulaşın",
+    "home_description": "sys.root // ana genel bakış",
+    "about_description": "mühendis profili // biyo ve yığın",
+    "portfolio_description": "yazılım kataloğu // öne çıkan çalışmalar",
+    "projects_description": "etkileşimli araçlar ve derleyiciler",
+    "tiger_description": "özel derleyici ve AST görselleştiricisi",
+    "snake_description": "klasik atari oyunu / WASM",
+    "portfolio_translator_description": "100'den fazla dil matrisi ve i18n",
+    "formatter_description": "sözdizimi doğrulayıcı ve dönüştürücü",
+    "contact_description": "iletimi aç // iletişime geç"
   },
   "home": {
     "title": "Kıdemli Tam Yığın Mühendisi | Ürün ve Sistemler",
@@ -23,7 +33,21 @@
     "descriptionB": "Çalışmalarım mühendislik kararlarını iş sonuçlarına bağlıyor. Elektronik tablo verilerini müşteriye hazır tekliflere dönüştüren inşaat tahminli SaaS'tan gelir getirici web platformlarına kadar, iş akışı, risk ve onu kullanan insanlar için önemli olan ölçülebilir değer.",
     "portfolio_button": "Portföyüm",
     "contact_button": "Bana Ulaşın",
-    "about_button": "Hakkımda"
+    "about_button": "Hakkımda",
+    "featured": {
+      "kicker": "Öne Çıkan Projeler / 06",
+      "title": "Seçilmiş Çalışma",
+      "description": "İddialı fikirleri gösterişli, çalışan yazılımlara nasıl dönüştürdüğümü en iyi temsil eden altı proje.",
+      "view_project": "Projeyi Görüntüle",
+      "open_project": "Canlı Projeyi Aç",
+      "view_all": "Portföyün tamamını keşfedin",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Tam Web Sitesi",
+        "available_here": "Burada mevcut",
+        "minecraft_mod": "Minecraft Modu"
+      }
+    }
   },
   "about": {
     "title": "Hakkımda",
@@ -119,6 +143,11 @@
         "text": "Angular 17+ ve Node.js ile oluşturulmuş tam kapsamlı bir POS ve envanter iş akışı. Bir B2B sisteminin operasyonel kaygılarını modeller: kimliği doğrulanmış kullanıcılar, rol tabanlı erişim kontrolü, envanter doğruluğu ve sahte ödeme akışı. Proje, yalnızca çerçeve özelliklerinin bir kataloğu değil, bir kayıt ekibinin gerçekleştirdiği fiili çalışma etrafında tasarlanmıştır.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "BordroOBOL",
+        "text": "GnuCOBOL, SQLite çift girişli defter ve Svelte operasyon kontrol paneli ile oluşturulmuş yerel bir bordro işleme sistemi. Finansal iş akışlarını açık, test edilebilir ve operasyonel olarak hesap verebilir hale getirmek için tamsayılı matematik, toplu bordro işleme ve geridöngü kontrol panelini kullanır.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON ve YAML Otomatik Formatlayıcı",
         "text": "Go'da yerleşik ve WebAssembly'da derlenmiş, tarayıcı tabanlı bir JSON ve YAML doğrulama ve biçimlendirme aracı. Ayrıştırma motorunu WASM'ye taşımak, geçersiz girişi yakalamak için gerçek bir ayrıştırıcı uygularken etkileşimin tarayıcıya duyarlı ve yerel olmasını sağlar. Performans, taşınabilirlik ve kullanıcı güveni için bir çalışma zamanı mimarisi seçmenin odaklanmış bir örneğidir.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Modu",
         "text": "Oyuna özel araçlar, zırhlar, çeteler, bloklar, boyutlar ve daha birçok özellik ekleyen bir Minecraft Modu. 1.16 ve 1.20 arasındaki belirli Minecraft sürümleri için Java 8-17 sürümleriyle oluşturulmuştur.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Yılan Oyunu",
+        "text": "Rust ve Macroquad ile oluşturulmuş, WebAssembly'de derlenmiş ve HTML5 Canvas aracılığıyla işlenen gösterişli bir Snake motoru. Belirleyici 0,12 saniyelik oyun tıklamalarını yumuşak enterpolasyonlu hareket, açık oyun aşamaları, duyarlı kontroller, çarpışma ve kazanma durumu yönetimi ve odaklanmış bir testle birleştirir. temel oyun kurallarını kapsayan süit.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programlama Dili",
@@ -252,6 +286,18 @@
     "tiger_code": "Kaplan Kodu:",
     "run_tiger": "Kaplanı Çalıştır",
     "output": "Çıkış:"
+  },
+  "snake": {
+    "title": "Yılan Oyunu",
+    "description": "Rust ve WebAssembly ile oluşturulmuş klasik bir arcade oyunu. Yiyecek toplayın, yılanınızı büyütün ve duvarlardan ve kendi izlerinizden uzak durun.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "OYUN ALANI",
+    "game_title": "Yılan",
+    "loading": "Oyun yükleniyor...",
+    "ready": "Oynamaya hazır",
+    "start_failed": "Oyun başlatılamıyor",
+    "runtime_failed": "Oyunun çalışma zamanı yüklenemiyor",
+    "aria_label": "Yılan oyunu. Hareket etmek için ok tuşları veya WASD, başlatmak veya yeniden başlatmak için Space, duraklatmak için P."
   },
   "tab": {
     "title": "Patrick Goodwin",

@@ -6,9 +6,19 @@
     "portfolio": "Iphothifoliyo",
     "projects": "Amaphrojekthi Wewebhusayithi",
     "tiger": "Ulimi Lwengwe",
+    "snake": "Umdlalo Wenyoka",
     "portfolio_translator": "Umhumushi wephothifoliyo",
     "formatter": "Ifomethi ye-JSON ne-YAML",
-    "contact": "Thinta mina"
+    "contact": "Thinta mina",
+    "home_description": "sys.root // ukubuka konke okuyinhloko",
+    "about_description": "iphrofayili kanjiniyela // i-bio & isitaki",
+    "portfolio_description": "ikhathalogi yesoftware // imisebenzi efakiwe",
+    "projects_description": "amathuluzi interactive & compilers",
+    "tiger_description": "inhlanganisela yangokwezifiso nesibonisi se-AST",
+    "snake_description": "umdlalo we-arcade wakudala / WASM",
+    "portfolio_translator_description": "I-matrix yolimi engu-100+ ne-i18n",
+    "formatter_description": "i-syntax validator & converter",
+    "contact_description": "vula ukudluliselwa // thintana"
   },
   "home": {
     "title": "Unjiniyela Omkhulu Ogcwele Isitaki | Umkhiqizo Nezinhlelo",
@@ -23,7 +33,21 @@
     "descriptionB": "Umsebenzi wami uxhumanisa izinqumo zobunjiniyela nemiphumela yebhizinisi. Kusukela ku-SaaS elinganisela ukwakhiwa eshintsha idatha yesipredishithi ibe iziphakamiso ezilungele amakhasimende ukuya kumapulatifomu ewebhu angenisa imali, ngakha isofthiwe ezungeze ukuhamba komsebenzi, ubungozi, kanye inani elilinganisekayo elibalulekile kubantu abalisebenzisayo.",
     "portfolio_button": "Iphothifoliyo Yami",
     "contact_button": "Thinta mina",
-    "about_button": "Mayelana nami"
+    "about_button": "Mayelana nami",
+    "featured": {
+      "kicker": "Amaphrojekthi afakiwe / 06",
+      "title": "Umsebenzi Okhethiwe",
+      "description": "Amaphrojekthi ayisithupha amele kangcono ukuthi ngiguqula kanjani imibono yokuvelela ibe isoftware ephucuziwe, esebenzayo.",
+      "view_project": "Buka iphrojekthi",
+      "open_project": "Vula Iphrojekthi Ebukhoma",
+      "view_all": "Hlola iphothifoliyo ephelele",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Iwebhusayithi Egcwele",
+        "available_here": "Iyatholakala Lapha",
+        "minecraft_mod": "I-Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Mayelana nami",
@@ -119,6 +143,11 @@
         "text": "I-POS yesitaki esigcwele nokugeleza komsebenzi we-inventory eyakhelwe nge-Angular 17+ ne-Node.js. Imodela ukukhathazeka kokusebenza kohlelo lwe-B2B: abasebenzisi abagunyaziwe, ukulawula ukufinyelela okusekelwe endimeni, ukunemba kwe-inventory, kanye nokugeleza kwenkokhelo mbumbulu. Iphrojekthi yakhelwe emsebenzini wangempela owenziwa yithimba lerejista, hhayi nje ikhathalogi yezici zohlaka.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "I-PayrollOBOL",
+        "text": "Uhlelo lwasendaweni lokucubungula ukukhokhelwa olwakhiwe nge-GnuCOBOL, ileja yokufaka kabili ye-SQLite, kanye nedeshibhodi yemisebenzi ye-Svelte. Isebenzisa izibalo ze-integer-cent, i-batch payroll processing, kanye nedeshibhodi ye-loopback ukwenza ukuhamba komsebenzi kwezezimali kube sobala, kuhloleke, futhi kuphenduleke ngokusebenza.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "I-JSON & YAML Auto Formatter",
         "text": "Ithuluzi elisekelwe kusiphequluli le-JSON ne-YAML lokuqinisekisa kanye nethuluzi lokufometha elakhelwe ku-Go futhi lahlanganiswa ku-WebAssembly. Ukuhambisa injini yokuhlaziya iye ku-WASM kugcina ukusebenzisana kusabela futhi kwasendaweni esipheqululini ngenkathi usebenzisa umhlahleli wangempela ukuze ubambe okokufaka okungavumelekile. Kuyisibonelo esigxilisiwe sokukhetha ukwakheka kwesikhathi sokusebenza sokusebenza, ukuphatheka, nokwethenjwa komsebenzisi.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "I-SupremeMC Minecraft Mod",
         "text": "I-Minecraft Mod enezela amathuluzi angokwezifiso, izikhali, izixuku, amabhlogo, ubukhulu, nezinye izici eziningi kugeyimu. Yakhelwe ngezinguqulo ze-Java 8-17 ngezinguqulo ezikhethiwe ze-Minecraft phakathi kuka-1.16 no-1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Umdlalo Wenyoka",
+        "text": "Injini yeNyoka ephucuziwe eyakhiwe nge-Rust ne-Macroquad, ehlanganiswe ku-WebAssembly, futhi yanikezwa nge-HTML5 Canvas. Ihlanganisa imikhaza yegeyimu eyimizuzwana engu-0.12 nokunyakaza okuxubene kahle, izigaba zegeyimu ezisobala, izilawuli ezisabelayo, ukungqubuzana nokubamba kwe-win-state, kanye nokuhlolwa okugxilile. suite ehlanganisa imithetho esemqoka yomdlalo.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "I-Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Ikhodi ye-Tiger:",
     "run_tiger": "Gijimani Tiger",
     "output": "Okukhiphayo:"
+  },
+  "snake": {
+    "title": "Umdlalo Wenyoka",
+    "description": "Umdlalo we-arcade wakudala owakhiwe nge-Rust ne-WebAssembly. Qoqa ukudla, ukhulise inyoka yakho, futhi ugweme izindonga nomkhondo wakho.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PLAYGROUND",
+    "game_title": "Inyoka",
+    "loading": "Ilayisha umdlalo...",
+    "ready": "Ilungele ukudlala",
+    "start_failed": "Ayikwazi ukuqala umdlalo",
+    "runtime_failed": "Ayikwazi ukulayisha isikhathi sokusebenza somdlalo",
+    "aria_label": "Umdlalo wenyoka. Okhiye bemicibisholo noma i-WASD yokuhamba, Isikhala sokuqalisa noma ukuqala kabusha, P ukumisa kancane."
   },
   "tab": {
     "title": "UPatrick Goodwin",

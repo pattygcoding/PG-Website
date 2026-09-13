@@ -6,9 +6,19 @@
     "portfolio": "Portefeulje",
     "projects": "Webwerf projekte",
     "tiger": "Tiger Taal",
+    "snake": "Slang spel",
     "portfolio_translator": "Portefeuljevertaler",
     "formatter": "JSON- en YAML-formateerder",
-    "contact": "Kontak My"
+    "contact": "Kontak My",
+    "home_description": "sys.root // hoofoorsig",
+    "about_description": "ingenieur profiel // bio & stapel",
+    "portfolio_description": "sagteware katalogus // featured werke",
+    "projects_description": "interaktiewe gereedskap en samestellers",
+    "tiger_description": "pasgemaakte samesteller en AST-visualiseerder",
+    "snake_description": "klassieke arcade game / WASM",
+    "portfolio_translator_description": "100+ taalmatriks & i18n",
+    "formatter_description": "sintaksis valideerder en omskakelaar",
+    "contact_description": "oop transmissie // kontak"
   },
   "home": {
     "title": "Senior Full-Stack Ingenieur | Produk & Stelsels",
@@ -23,7 +33,21 @@
     "descriptionB": "My werk verbind ingenieursbesluite met besigheidsuitkomste. Van 'n konstruksie-skattende SaaS wat sigbladdata in kliëntgereed voorstelle verander tot inkomstegenererende webplatforms, bou ek sagteware rondom die werkvloei, risiko en meetbare waarde wat saak maak vir die mense wat dit gebruik.",
     "portfolio_button": "My Portefeulje",
     "contact_button": "Kontak My",
-    "about_button": "Oor My"
+    "about_button": "Oor My",
+    "featured": {
+      "kicker": "Uitstalprojekte / 06",
+      "title": "Geselekteerde werk",
+      "description": "Ses projekte wat die beste verteenwoordig hoe ek ambisieuse idees omskep in gepoleerde, werkende sagteware.",
+      "view_project": "Bekyk projek",
+      "open_project": "Maak regstreekse projek oop",
+      "view_all": "Verken die volledige portefeulje",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Volledige webwerf",
+        "available_here": "Hier beskikbaar",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Oor My",
@@ -119,6 +143,11 @@
         "text": "'n Volstapel-POS- en voorraadwerkvloei gebou met Angular 17+ en Node.js. Dit modelleer die operasionele bekommernisse van 'n B2B-stelsel: geverifieerde gebruikers, rolgebaseerde toegangsbeheer, voorraadakkuraatheid en 'n skynbetalingsvloei. Die projek is ontwerp rondom die werklike werk wat 'n registerspan verrig, nie net 'n katalogus van raamwerkkenmerke nie.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "'n Plaaslike betaalstaatverwerkingstelsel gebou met GnuCOBOL, 'n SQLite dubbelinskrywing grootboek, en 'n Svelte-bedrywighede-kontroleskerm. Dit gebruik heelgetalsent-wiskunde, bondelbetaalstaatverwerking en 'n teruglus-kontroleskerm om finansiële werkvloeie eksplisiet, toetsbaar en operasioneel verantwoordbaar te maak.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Outoformateerder",
         "text": "'n Blaaier-gebaseerde JSON- en YAML-validerings- en formateringsinstrument wat in Go ingebou is en saamgestel is na WebAssembly. Deur die ontleedenjin na WASM te skuif, hou die interaksie reageer en plaaslik op die blaaier terwyl 'n regte ontleder toegepas word om ongeldige insette te kry. Dit is 'n gefokusde voorbeeld van die keuse van 'n runtime-argitektuur vir werkverrigting, oordraagbaarheid en gebruikersvertroue.",
@@ -127,7 +156,7 @@
       "takeoff_engine": {
         "title": "Opstyg-enjin",
         "text": "'n Konstruksie wat SaaS skat, gebou rondom 'n duur, foutgevoelige kontrakteur-werkvloei. Die React + Express-produk neem CSV- en Excel-data in, karteer inkonsekwente kolomme in 'n bruikbare domeinmodel, bereken slootuitgrawings en grondwerkvolumes, spoor arbeid en markup, en produseer kliënt-gereed PDF- en Word-voorstelle. Dit is volledige produklewensiklusingenieurswese: data-ontleding, berekeningsreëls, 'n gepoleerde operateur-werkvloei, en aflewerbares wat 'n besigheid help om van rou insette na 'n bod te beweeg.",
-        "link": "https://github.com/pattygcoding/takeoff-engine"
+        "link": "https://takeoffengine.com"
       },
       "minecraft_json_generator": {
         "title": "Minecraft JSON Generator",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "'n Minecraft-mod wat pasgemaakte gereedskap, wapenrusting, skare, blokke, afmetings en vele meer kenmerke by die speletjie voeg. Gebou met Java-weergawes 8-17 vir uitgesoekte Minecraft-weergawes tussen 1.16 en 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Slang spel",
+        "text": "'n Gepoleerde Snake-enjin gebou met Rust en Macroquad, saamgestel na WebAssembly, en weergegee deur HTML5 Canvas. Dit kombineer deterministiese 0.12-sekonde-spelbosluise met gladde geïnterpoleerde beweging, eksplisiete spelfases, responsiewe kontroles, botsing en wen-toestand hantering, en 'n gefokusde toets suite wat die kern spelreëls dek.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger-programmeertaal",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger Kode:",
     "run_tiger": "Hardloop Tiger",
     "output": "Uitset:"
+  },
+  "snake": {
+    "title": "Slang spel",
+    "description": "'n Klassieke arcade game gebou met Rust en WebAssembly. Versamel kos, groei jou slang en hou weg van die mure en jou eie spoor.",
+    "kicker": "WEBABYEENKOMS / MINIQAD",
+    "section_label": "SPEELGROND",
+    "game_title": "Slang",
+    "loading": "Laai tans speletjie …",
+    "ready": "Gereed om te speel",
+    "start_failed": "Kan nie die speletjie begin nie",
+    "runtime_failed": "Kan nie die spellooptyd laai nie",
+    "aria_label": "Slang spel. Pyltjie sleutels of WASD om te beweeg, spasie om te begin of weer te begin, P om te breek."
   },
   "tab": {
     "title": "Patrick Goodwin",

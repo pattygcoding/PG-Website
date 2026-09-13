@@ -6,9 +6,19 @@
     "portfolio": "Palapala",
     "projects": "Nā papahana pūnaewele",
     "tiger": "ʻŌlelo Tiga",
+    "snake": "Pāʻani Nahesa",
     "portfolio_translator": "Unuhi unuhi",
     "formatter": "JSON & YAML mea hoʻopono",
-    "contact": "Hoʻokaʻaʻike mai iaʻu"
+    "contact": "Hoʻokaʻaʻike mai iaʻu",
+    "home_description": "sys.root // ʻike nui",
+    "about_description": "hōʻike ʻenehana // bio & pūʻulu",
+    "portfolio_description": "papa inoa polokalamu // nā hana i hōʻike ʻia",
+    "projects_description": "mea paahana & mea houluulu",
+    "tiger_description": "mea hoʻopili maʻamau a me AST mea nānā",
+    "snake_description": "pāʻani arcade maʻamau / WASM",
+    "portfolio_translator_description": "100+ huahelu ʻōlelo & i18n",
+    "formatter_description": "hōʻoia syntax & mea hoʻololi",
+    "contact_description": "wehe wehe // hoʻopili"
   },
   "home": {
     "title": "Luna Nui Nui | Huahana & Pūnaehana",
@@ -23,7 +33,21 @@
     "descriptionB": "Hoʻopili kaʻu hana i nā hoʻoholo ʻenehana i nā hopena ʻoihana. Mai kahi SaaS e hoʻohālikelike ana i ke kūkulu ʻana e hoʻohuli ana i ka ʻikepili pālahalaha i mau manaʻo mākaukau i ka poʻe kūʻai aku i nā paena pūnaewele e loaʻa kālā, kūkulu wau i nā polokalamu e pili ana i ke kahe hana, ka pilikia, a ka waiwai ana e pili ana i ka poe e hoohana ana.",
     "portfolio_button": "ʻO kaʻu waihona",
     "contact_button": "Hoʻokaʻaʻike mai iaʻu",
-    "about_button": "E pili ana iaʻu"
+    "about_button": "E pili ana iaʻu",
+    "featured": {
+      "kicker": "Nā papahana i manaʻo ʻia / 06",
+      "title": "Hana i wae ʻia",
+      "description": "ʻEono papahana e hōʻike maikaʻi loa ana i kaʻu hoʻololi ʻana i nā manaʻo ambisious i loko o nā lako polokalamu hana.",
+      "view_project": "Nānā Papahana",
+      "open_project": "Wehe i ka papahana Live",
+      "view_all": "E ʻimi i ke kōpili piha",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Pūnaewele piha",
+        "available_here": "Loaʻa maanei",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "E pili ana iaʻu",
@@ -119,6 +143,11 @@
         "text": "ʻO kahi POS piha piha a me ka papa hana waihona i kūkulu ʻia me Angular 17+ a me Node.js. Hoʻohālike ia i nā hopohopo hana o kahi ʻōnaehana B2B: nā mea hoʻohana i hōʻoiaʻiʻo ʻia, ka mana o ke komo ʻana i ke kuleana, ka pololei o ka waihona kālā, a me ke kahe uku hoʻohenehene. Hoʻolālā ʻia ka pāhana e pili ana i ka hana maoli a kahi hui kākau inoa e hana ai, ʻaʻole wale he papa inoa o nā hiʻohiʻona framework.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Uku OBOL",
+        "text": "ʻO kahi ʻōnaehana hoʻoili uku kūloko i kūkulu ʻia me GnuCOBOL, kahi papa helu helu pālua SQLite, a me kahi dashboard hana Svelte. Hoʻohana ʻo ia i ka makemakika integer-cent, ka hoʻoili ʻana i ka uku uku, a me kahi dashboard loopback e hana i nā kaʻina hana kālā i maopopo, hoʻāʻo ʻia, a me ke kuleana o ka hana.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Mea hoʻopono",
         "text": "ʻO JSON a me YAML i hoʻokumu ʻia i ka polokalamu kele pūnaewele hōʻoia a me ka hoʻopili ʻana i nā hāmeʻa i kūkulu ʻia ma Go a hōʻuluʻulu ʻia i WebAssembly. ʻO ka hoʻoneʻe ʻana i ka ʻenekini parsing i WASM e mālama i ka pane ʻana a me ka kūloko i ka polokalamu kele pūnaewele ʻoiai e noi ana i kahi parser maoli e hopu i ka hoʻokomo hewa ʻole. He laʻana koʻikoʻi ia o ke koho ʻana i kahi hoʻolālā runtime no ka hana, portability, a me ka hilinaʻi mea hoʻohana.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "ʻO Minecraft Mod e hoʻohui i nā mea hana maʻamau, nā mea kaua, nā mob, nā poloka, nā ana, a me nā hiʻohiʻona hou aku i ka pāʻani. Kūkulu ʻia me nā mana Java 8-17 no nā mana Minecraft koho ma waena o 1.16 a me 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Pāʻani Nahesa",
+        "text": "He ʻenekini Snake i kālai ʻia me Rust a me Macroquad, i hoʻohui ʻia i WebAssembly, a hoʻolilo ʻia ma o HTML5 Canvas. Hoʻohui ia i nā ticks pāʻani deterministic 0.12-kekona me ka neʻe ʻana o ka interpolated neʻe, nā pae pāʻani kikoʻī, nā mana pane, ka hui ʻana a me ka hoʻokele win-state, a me ka hoʻāʻo ʻana. suite e uhi ana i nā lula pāʻani koʻikoʻi.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "ʻŌlelo Papahana Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Kāhea Tiger:",
     "run_tiger": "Holo Tiger",
     "output": "Puka:"
+  },
+  "snake": {
+    "title": "Pāʻani Nahesa",
+    "description": "He pāʻani arcade maʻamau i kūkulu ʻia me Rust a me WebAssembly. E hōʻiliʻili i ka meaʻai, e ulu i kāu nahesa, a e hoʻokaʻawale i nā paia a me kou ala ponoʻī.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PĀPAʻI",
+    "game_title": "Nahesa",
+    "loading": "Ke hoʻouka nei i ka pāʻani...",
+    "ready": "Mākaukau e pāʻani",
+    "start_failed": "ʻAʻole hiki ke hoʻomaka i ka pāʻani",
+    "runtime_failed": "ʻAʻole hiki ke hoʻouka i ka wā holo o ka pāʻani",
+    "aria_label": "Pāʻani nahesa. Nā kī pua a i ʻole WASD e neʻe ai, Space e hoʻomaka a hoʻomaka hou paha, P e hoʻomaha."
   },
   "tab": {
     "title": "Patrick Goodwin",

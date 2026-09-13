@@ -168,6 +168,7 @@
 	border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
+	position: relative;
 }
 
 .zoom-controls {
@@ -196,14 +197,33 @@
 
 /* Ensure SVG geography paths have proper hover styling */
 .world-map-container svg path {
-	transition: fill 0.12s ease, stroke-width 0.12s ease !important;
+	transition: fill 0.12s ease !important;
 	vector-effect: non-scaling-stroke;
 }
 
 .world-map-container svg path:hover {
 	cursor: pointer !important;
-	stroke-width: 1.5 !important;
-	filter: brightness(1.1) !important;
+}
+
+.world-map-container svg circle.island-marker {
+	cursor: pointer;
+	transition: fill 0.12s ease !important;
+	vector-effect: non-scaling-stroke;
+}
+
+.world-map-container svg circle.island-marker:hover {
+	cursor: pointer !important;
+	fill: #b3261e !important;
+}
+
+.legend-marker-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ef3e32;
+	border: 1.5px solid #ffffff;
+	box-shadow: 0 0 4px rgba(239, 62, 50, 0.6);
+	flex-shrink: 0;
 }
 
 .map-legend {
@@ -319,6 +339,12 @@
 }
 
 @media (max-width: 768px) {
+	.country-tooltip {
+		max-width: calc(100vw - 32px);
+		font-size: 0.85rem;
+		padding: 0.6rem 0.85rem;
+	}
+
 	.language-stats {
 		grid-template-columns: 1fr;
 		gap: 1rem;
@@ -699,7 +725,6 @@
 
 .languages-page .react-transform-component {
 	height: 100% !important;
-	will-change: transform;
 }
 
 .languages-page .world-map-container.is-transforming .react-transform-wrapper {
@@ -723,6 +748,8 @@
 	display: block;
 	width: 100%;
 	height: 100%;
+	shape-rendering: geometricPrecision;
+	text-rendering: geometricPrecision;
 }
 
 .languages-page .map-legend {
@@ -744,6 +771,16 @@
 
 .languages-page .legend-color.not-supported {
 	background: #303238;
+}
+
+.languages-page .legend-marker-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: var(--languages-accent, #ef3e32);
+	border: 1.5px solid #ffffff;
+	box-shadow: 0 0 4px rgba(239, 62, 50, 0.6);
+	flex-shrink: 0;
 }
 
 .languages-page .language-features ul {

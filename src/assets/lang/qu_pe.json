@@ -6,9 +6,19 @@
     "portfolio": "Cartera nisqa",
     "projects": "Web nisqapi Proyectokuna",
     "tiger": "Tigre Simi",
+    "snake": "Mach'aqway Pukllay",
     "portfolio_translator": "Carteramanta tikraq",
     "formatter": "JSON & YAML Formato",
-    "contact": "Contacto Ñuqawan"
+    "contact": "Contacto Ñuqawan",
+    "home_description": "sys.root // hatun qhaway",
+    "about_description": "ingeniero perfil // bio & pila",
+    "portfolio_description": "software catálogo // rikuchisqa llamk'aykuna",
+    "projects_description": "interactivo yanapakuykuna & compiladores",
+    "tiger_description": "ruwasqa compilador & AST qhawachiq",
+    "snake_description": "clásico arcade pukllay / WASM",
+    "portfolio_translator_description": "100+ simi matriz & i18n",
+    "formatter_description": "sintaxis validador & tikraq",
+    "contact_description": "kichasqa transmisión // rimanakuy"
   },
   "home": {
     "title": "Kuraq Ingeniero Full-Pila | Producto & Sistemas nisqakuna",
@@ -23,7 +33,21 @@
     "descriptionB": "Llamkayniyqa ingenieriamanta tanteaykunata negocio ruwaypa ruwayninkunawanmi tinkuchin. Huk ruway-yupay SaaS kaqmanta mayqinchus hoja de cálculo willayta cliente-listo propuestakunaman tikran qullqita ruwaq web plataformakunaman, software ruwani llamkana puriy, riesgo chaymanta tupunapaq chaninchasqa, chayta llamk’achiq runakunapaq ancha chaniyuq.",
     "portfolio_button": "Mi Cartera",
     "contact_button": "Contacto Ñuqawan",
-    "about_button": "Ñoqamanta"
+    "about_button": "Ñoqamanta",
+    "featured": {
+      "kicker": "Proyectos Destacados / 06",
+      "title": "Akllasqa Llamkay",
+      "description": "Soqta proyectokuna aswan allinta representan imaynatachus ambicioso yuyaykunata llimp’isqa, llamk’aq softwareman tikrani.",
+      "view_project": "Proyectota qhaway",
+      "open_project": "Kichay Kawsaq Proyecto",
+      "view_all": "Hunt’asqa cartera nisqapi t’aqwiriy",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Lliw Web nisqa",
+        "available_here": "Kaypi tarikun",
+        "minecraft_mod": "Minecraft nisqa Mod"
+      }
+    }
   },
   "about": {
     "title": "Ñoqamanta",
@@ -119,6 +143,11 @@
         "text": "Huk hunt'asqa pila POS chaymanta inventario llamkana puriy Angular 17+ chaymanta Node.js kaqwan ruwasqa. Huk B2B sistemapa llamkanamanta llakikuyninkunata modelon ruwan: chiqaqchasqa ruwaqkuna, ruwaymanhina yaykuy kamachiy, inventario chiqan kay chaymanta huk simulado qullqi quy flujo. Proyectoqa ruwasqa kachkan chiqap llamkaypa muyuriqninpi huk registro equipo ruwasqanmanta, manam huk catálogollachu marco ruwaykunamanta.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Nómina nisqaOBOL",
+        "text": "Huk kitipi qullqi quy llamkana llamkana GnuCOBOL kaqwan ruwasqa, huk SQLite iskay yaykuy hatun qillqa mayt'u kaqwan, chaymanta huk Svelte llamkanakuna tabla kaqwan. Huk hunt'asqa yupay-centavo matemáticas kaqwan, huñu qullqi quy ruwayta chaymanta huk loopback dashboard kaqwan llamk'achin qullqi llamkanakuna sut'i, pruebapaq chaymanta llamkanamanta cuenta quypaq ruwanapaq.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formato",
         "text": "Huk maskaqpi ruwasqa JSON chaymanta YAML chiqaqchay chaymanta formato yanapakuy Go kaqpi ruwasqa chaymanta WebAssembly kaqman huñusqa. T'aqwiq motorta WASM kaqman kuyuchiyqa tinkiyta kutichiq chaymanta llaqtayuq maskaqman waqaychan chiqa t'aqwiq churachkaspa mana allin yaykuy hap'inapaq. Huk enfocadu ejemplon huk purichiy pacha arquitectura akllanapaq ruwanapaq, apaykachanapaq chaymanta ruwaqpa hapipakuyninpaq.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft nisqa Mod",
         "text": "Huk Minecraft Mod chaymanta yapan sapanchasqa yanapakuykunata, armadura, mobs, bloquekuna, dimensiones, chaymanta aswan achka ruwanakuna pukllayman. Java 8-17 layakunawan ruwasqa akllasqa Minecraft layakuna 1.16 chaymanta 1.20 kaqpura.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Snake Game",
+        "text": "Rustwan Macroquadwan ruwasqa llimp'isqa Snake motor, WebAssembly nisqaman huñusqa, HTML5 Canvas nisqawan ruwasqa. Huñun determinista 0.12 iskay kaq pukllay ticks kaqwan sumaq interpolado kuyuywan, explícito pukllay fasekunawan, kutichiq controlkunawan, choque chaymanta gana-estado kamachiywan, chaymanta huk prueba enfocada kaqwan suite nisqapi pukllay kamachiykunata qataspa.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tigre Programación nisqa simi",
@@ -252,6 +286,18 @@
     "tiger_code": "Tigre Código:",
     "run_tiger": "Ruway Tigre",
     "output": "Lluqsisqa: ."
+  },
+  "snake": {
+    "title": "Mach'aqway Pukllay",
+    "description": "Rustwan WebAssemblywan ruwasqa huk klasiku arcade pukllay. Mikhunata huñuy, mach’aqwaykita wiñachiy, pirqakunamanta, kikiykiq purisqaykimantapas karunchakuy.",
+    "kicker": "MONTAJE WEB / MINIQAD",
+    "section_label": "PUKLLANAPAQ",
+    "game_title": "Machaqway",
+    "loading": "Pukllayta kargachkan...",
+    "ready": "Pukllanapaq wakichisqa",
+    "start_failed": "Pukllayta qallariyta mana atispa",
+    "runtime_failed": "Pukllay purichiy pachata mana kargayta atispa",
+    "aria_label": "Mach’aqway pukllay. Flechakuna utaq WASD kuyuchinapaq, Espacio qallariypaq utaq musuqmanta qallarinapaq, P samaypaq."
   },
   "tab": {
     "title": "Patrick Goodwin sutiyuq runa",

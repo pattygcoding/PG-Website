@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Website Projects",
     "tiger": "Lingua tigris",
+    "snake": "Serpens Ludus",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "home_description": "sys.root // main overview",
+    "about_description": "ingeniarius profile // bio & acervus",
+    "portfolio_description": "software catalog // featured works",
+    "projects_description": "interactive instrumenta & compilers",
+    "tiger_description": "consuetudo compiler & AST visualizer",
+    "snake_description": "classic cryptoporticus ludum / WASM",
+    "portfolio_translator_description": "100+ lingua matrix & i18n",
+    "formatter_description": "syntax validator & converter",
+    "contact_description": "aperta tradenda // ut in tactu"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Product & Systems",
@@ -23,7 +33,21 @@
     "descriptionB": "Meus labor coniungit machinationem decisionum ad res prouentuum. Ex constructione-aestimatione SaaS quae notitias propagatores vertit in propositiones clientis paratas ad tabulas interretiales reditus generandas, programmatum circum fabrica, periculum, fabricam et fabricam. quantivis pretii ea res ad populum utatur.",
     "portfolio_button": "My Portfolio",
     "contact_button": "Contact Me",
-    "about_button": "De Me"
+    "about_button": "De Me",
+    "featured": {
+      "kicker": "Featured Projects / 06",
+      "title": "Electus Opus",
+      "description": "Sex incepta quae optima repraesentant quomodo ambitiosas ideas in politias operando utaris convertam.",
+      "view_project": "Visum Project",
+      "open_project": "Apertum Ago Project",
+      "view_all": "Explorarent plenam portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Plena Website",
+        "available_here": "Praesto Here",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "De Me",
@@ -119,6 +143,11 @@
         "text": "BIBLIOTHECA POS et inventarium officinarum angularium 17+ et Node.js constructum. Exemplorum curationes operationales systematis B2B: utentes authenticos, partes-fundatas accessus moderaminis, accurationis inventarii et fluxus solutionis fictae. Proiectum designatum circa ipsum opus actis mandare facit, non solum electronicum notarum machinarum.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Stipendiarii processus systematis localis cum GnuCOBOL constructum, tabellarium SQLite duplex introitum, et operationes Svelte ashboardday. Integrum cent math, batch stipendia processus, et loopback ashboardday ad officinas oeconomicas expressas, testabiles, et operationaliter rationem reddere.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "A navigatorio substructio JSON et YAML sanatio et instrumentum formatting in Go constructum et ad WebAssembly compilavit. Movens machinam parsing in WASM conservat commercium responsivum et localem ad navigatorem dum applicando parser realis ad input irritum capiendum. Exemplum focused est eligendi runtime architecturae perficiendi, portabilitatis, et fidei usoris.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "A Minecraft Mod quae instrumenta consuetudinis, arma, turbae, caudices, dimensiones addit, et plura lineamenta ad ludum. Aedificavit cum Java versionibus 8-17 ad selectas versiones Minecraft inter 1.16 et 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Serpens Ludus",
+        "text": "Serpens machinam politam cum Rust et Macroquad fabricatam, ad WebAssembly compilavit, et per HTML5 Canvas redditam. 0.12 secundus lusus ricini deterministicus componit cum motu lenis interpolatis, phasmata lusoria expressa, moderamina responsiva, conflictum et tractationem status conciliandi, et experimentum usitatum core lusus suite tegmen regit.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Linguae tigris programmatio",
@@ -252,6 +286,18 @@
     "tiger_code": "Codex Tigris:",
     "run_tiger": "Curre Tigris",
     "output": "Output:"
+  },
+  "snake": {
+    "title": "Serpens Ludus",
+    "description": "Gymnasium classicum cum Rust et WebAssembly constructum. Collige cibum, cresce serpentem tuum, Et serva muros et vestigia tua.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "THEATRUM",
+    "game_title": "Serpens",
+    "loading": "Ludus Loading...",
+    "ready": "Promptus ad ludere",
+    "start_failed": "'Non incipere ludum",
+    "runtime_failed": "Non potest load ludum runtime",
+    "aria_label": "Serpens ludus. Sagittae claves vel WASD movere, Space incipere vel sileo, P morari."
   },
   "tab": {
     "title": "Patricius Goodwin",
