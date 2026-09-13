@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Websäit Projeten",
     "tiger": "Tiger Sprooch",
+    "snake": "Schlaang Spill",
     "portfolio_translator": "Portfolio Iwwersetzer",
     "formatter": "JSON & YAML Formater",
-    "contact": "Kontaktéiert mech"
+    "contact": "Kontaktéiert mech",
+    "home_description": "sys.root // Haaptrei Iwwersiicht",
+    "about_description": "Ingenieur Profil // Bio & Stack",
+    "portfolio_description": "Software Katalog // Featured Wierker",
+    "projects_description": "interaktiv Tools & Compilers",
+    "tiger_description": "Benotzerdefinéiert Compiler & AST Visualizer",
+    "snake_description": "klassesch Arkad Spill / WASM",
+    "portfolio_translator_description": "100+ Sprooch Matrixentgasung & i18n",
+    "formatter_description": "Syntax Validator & Konverter",
+    "contact_description": "oppen Iwwerdroung // a Kontakt"
   },
   "home": {
     "title": "Senior Full-Stack Ingenieur | Produit & Systemer",
@@ -23,7 +33,21 @@
     "descriptionB": "Meng Aarbecht verbënnt Ingenieursentscheedungen mat Geschäftsresultater. Vun engem Konstruktiounsschätzende SaaS deen Spreadsheetdaten a Client-prett Propositioune fir Akommes generéierend Webplattformen ëmgewandelt, bauen ech Software ronderëm de Workflow, Risiko, a moossbare Wäert dee wichteg ass fir d'Leit déi se benotzen.",
     "portfolio_button": "Meng Portfolio",
     "contact_button": "Kontaktéiert mech",
-    "about_button": "Iwwer mech"
+    "about_button": "Iwwer mech",
+    "featured": {
+      "kicker": "Feature Projeten / 06",
+      "title": "Ausgewielten Aarbecht",
+      "description": "Sechs Projeten déi am beschten duerstellen wéi ech ambitiéis Iddien a poléiert, funktionéierend Software ëmsetzen.",
+      "view_project": "View Project",
+      "open_project": "Open Live Project",
+      "view_all": "Entdeckt de komplette Portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Voll Websäit",
+        "available_here": "Hei verfügbar",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Iwwer mech",
@@ -119,6 +143,11 @@
         "text": "E Full-Stack POS an Inventar Workflow gebaut mat Angular 17+ an Node.js. Et modelléiert déi operationell Bedenken vun engem B2B System: authentifizéiert Benotzer, Roll-baséiert Zougangskontroll, Inventargenauegkeet an e Spottbezuelungsfloss. De Projet ass ronderëm déi aktuell Aarbecht entworf déi e Registerteam mécht, net nëmmen e Katalog vu Kaderfunktiounen.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "E lokale Lounveraarbechtungssystem gebaut mat GnuCOBOL, engem SQLite Duebelentrée Ledger, an engem Svelte Operatiouns Dashboard. Et benotzt Integer-Cent Mathematik, Batch Payroll Veraarbechtung, an e Loopback Dashboard fir finanziell Workflows explizit, testbar an operationell verantwortlech ze maachen.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formater",
         "text": "E Browser-baséiert JSON an YAML Validatiouns- a Formatéierungsinstrument a Go gebaut a kompiléiert op WebAssembly. Beweegt de Parsingmotor an WASM hält d'Interaktioun reaktiounsfäeger a lokal fir de Browser wärend e richtege Parser applizéiert gëtt fir ongülteg Input ze fangen. Et ass e fokusséiert Beispill fir eng Runtimearchitektur fir Leeschtung, Portabilitéit a Benotzervertrauen ze wielen.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "E Minecraft Mod deen personaliséiert Tools, Rüstung, Mobs, Blocks, Dimensiounen a vill méi Features zum Spill bäidréit. Gebaut mat Java Versiounen 8-17 fir ausgewielte Minecraft Versiounen tëscht 1.16 an 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Schlaang Spill",
+        "text": "E poléierte Schlaangmotor gebaut mat Rust a Macroquad, kompiléiert op WebAssembly, an duerch HTML5 Canvas gemaach. Et kombinéiert deterministesch 0,12 Sekonnen Spillticks mat glatter interpoléierter Bewegung, explizit Spillphasen, reaktiounsfäeger Kontrollen, Kollisioun a Win-State Handling, an e fokusséierten Test Suite deckt de Kär Spillregelen.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programméiersprooch",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger Code:",
     "run_tiger": "Run Tiger",
     "output": "Ausgang:"
+  },
+  "snake": {
+    "title": "Schlaang Spill",
+    "description": "E klassescht Arcade-Spill gebaut mat Rust a WebAssembly. Sammelt Iessen, wuesst Är Schlaang, a bleift kloer vun de Maueren an Ären eegenen Trail.",
+    "kicker": "WEBASSEMBLE / MINIQAD",
+    "section_label": "Spillplaz",
+    "game_title": "Schlaang",
+    "loading": "Spill lueden ...",
+    "ready": "Prett ze spillen",
+    "start_failed": "Kann d'Spill net starten",
+    "runtime_failed": "Kann d'Spill Runtime net lueden",
+    "aria_label": "Schlaang Spill. Pfeiltasten oder WASD fir ze réckelen, Space fir unzefänken oder nei ze starten, P fir ze pausen."
   },
   "tab": {
     "title": "Patrick Goodwin",

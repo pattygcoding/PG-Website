@@ -6,9 +6,19 @@
     "portfolio": "Punann",
     "projects": "Tionscadail Láithreán Gréasáin",
     "tiger": "Teanga Tíogair",
+    "snake": "Cluiche Snake",
     "portfolio_translator": "Aistritheoir Punann",
     "formatter": "Formáideoir JSON & YAML",
-    "contact": "Déan Teagmháil liom"
+    "contact": "Déan Teagmháil liom",
+    "home_description": "sys.root // forbhreathnú príomhúil",
+    "about_description": "próifíl innealtóra // bith & stack",
+    "portfolio_description": "catalóg bogearraí // saothair faoi thrácht",
+    "projects_description": "uirlisí idirghníomhacha & tiomsaitheoirí",
+    "tiger_description": "tiomsaitheoir saincheaptha & léirshamhlú AST",
+    "snake_description": "cluiche stuara clasaiceach / WASM",
+    "portfolio_translator_description": "100+ maitrís teanga & i18n",
+    "formatter_description": "bailíochtóir & tiontaire comhréire",
+    "contact_description": "tarchur oscailte // téigh i dteagmháil"
   },
   "home": {
     "title": "Innealtóir Sinsearach Iomlán Cruach | Táirge & Córais",
@@ -23,7 +33,21 @@
     "descriptionB": "Ceanglaíonn mo chuid oibre cinntí innealtóireachta le torthaí gnó. Ó SaaS a dhéanann meastachán tógála a athraíonn sonraí scarbhileog ina dtograí atá réidh le cliaint go hardáin ghréasáin a ghineann ioncam, tógaim bogearraí timpeall ar an sreabhadh oibre, riosca agus luach intomhaiste atá tábhachtach do na daoine a úsáideann é.",
     "portfolio_button": "Mo Phunann",
     "contact_button": "Déan Teagmháil liom",
-    "about_button": "Maidir liomsa"
+    "about_button": "Maidir liomsa",
+    "featured": {
+      "kicker": "Tionscadail Réadmhaoin/06",
+      "title": "Obair Roghnaithe",
+      "description": "Sé thionscadal is fearr a léiríonn conas a dhéanaim bogearraí oibre snasta a dhéanamh de smaointe uaillmhianacha.",
+      "view_project": "Féach ar an Tionscadal",
+      "open_project": "Tionscadal Beo Oscailte",
+      "view_all": "Déan iniúchadh ar an bpunann iomlán",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Láithreán gréasáin iomlán",
+        "available_here": "Ar fáil Anseo",
+        "minecraft_mod": "Minecraft mod"
+      }
+    }
   },
   "about": {
     "title": "Maidir liomsa",
@@ -119,6 +143,11 @@
         "text": "Sreabhadh oibre POS lánchruach agus fardail tógtha le Angular 17+ agus Node.js. Múnlaíonn sé na hábhair imní oibriúcháin a bhaineann le córas B2B: úsáideoirí fíordheimhnithe, rialú rochtana ról-bhunaithe, cruinneas fardail, agus sreabhadh íocaíochta bréige. Tá an tionscadal deartha timpeall ar an obair iarbhír a dhéanann foireann cláir, ní hamháin ar chatalóg de ghnéithe creata.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PárollaOBOL",
+        "text": "Córas próiseála párolla áitiúil a tógadh le GnuCOBOL, mórleabhar iontrála dúbailte SQLite, agus painéal oibríochtaí Svelte. Úsáideann sé mata slánuimhir, próiseáil párolla baisc, agus painéal lúb siar chun sreafaí oibre airgeadais a dhéanamh soiléir, intástáilte agus cuntasach go hoibríochtúil.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Formáiditheoir Uathoibríoch JSON & YAML",
         "text": "Uirlis bhailíochtaithe agus formáidithe JSON agus YAML atá bunaithe ar bhrabhsálaí a tógadh in Go agus a tiomsaíodh do WebAssembly. Má bhogtar an t-inneall parsála go WASM coinnítear an t-idirghníomhú sofhreagrach agus áitiúil don bhrabhsálaí agus é ag cur fíor-pharsálaí i bhfeidhm chun ionchur neamhbhailí a ghabháil. Is sampla dírithe é de ailtireacht ama rite a roghnú le haghaidh feidhmíochta, iniomparthacht agus muinín úsáideora.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Mod le haghaidh minecraft SupremeMC",
         "text": "Mod Minecraft a chuireann uirlisí saincheaptha, armúr, mobs, bloic, toisí, agus go leor gnéithe eile leis an gcluiche. Tógtha le leaganacha Java 8-17 le haghaidh leaganacha roghnaithe Minecraft idir 1.16 agus 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Cluiche Snake",
+        "text": "Inneall Snake snasta tógtha le Rust agus Macroquad, tiomsaithe do WebAssembly, agus rindreáilte trí Chanbhás HTML5. Comhcheanglaíonn sé sceartáin chinntitheacha cluiche 0.12 soicind le gluaiseacht idirshuite mín, céimeanna soiléire cluiche, rialuithe sofhreagracha, láimhseáil imbhuailte agus bua-staid, agus tástáil dhírithe suite a chlúdaíonn na rialacha lárnacha cluiche.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Teanga Ríomhchlárúcháin Tíogair",
@@ -252,6 +286,18 @@
     "tiger_code": "Cód Tíogair:",
     "run_tiger": "Rith Tíogair",
     "output": "Aschur:"
+  },
+  "snake": {
+    "title": "Cluiche Snake",
+    "description": "Cluiche stuara clasaiceach tógtha le Rust agus WebAssembly. Bailigh bia, fás do nathair, agus coinnigh glan ó na ballaí agus do rian féin.",
+    "kicker": "SUÍOMH GRÉASÁIN / MINIQAD",
+    "section_label": "RÓS SÚGARTHA",
+    "game_title": "nathair",
+    "loading": "Cluiche á lódáil...",
+    "ready": "Réidh le himirt",
+    "start_failed": "Ní féidir an cluiche a thosú",
+    "runtime_failed": "Ní féidir am rite an chluiche a lódáil",
+    "aria_label": "Cluiche nathair. Saigheadeochracha nó WASD le bogadh, Spás le tosú nó le atosú, P le sos."
   },
   "tab": {
     "title": "Patrick Goodwin",

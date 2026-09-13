@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Mga Proyekto sa Website",
     "tiger": "Wika ng Tigre",
+    "snake": "Larong Ahas",
     "portfolio_translator": "Tagasalin ng Portfolio",
     "formatter": "JSON at YAML Formatter",
-    "contact": "Kontakin Ako"
+    "contact": "Kontakin Ako",
+    "home_description": "sys.root // pangunahing pangkalahatang-ideya",
+    "about_description": "profile ng engineer // bio at stack",
+    "portfolio_description": "software catalog // mga itinatampok na gawa",
+    "projects_description": "mga interactive na tool at compiler",
+    "tiger_description": "custom na compiler at AST visualizer",
+    "snake_description": "klasikong arcade game / WASM",
+    "portfolio_translator_description": "100+ language matrix at i18n",
+    "formatter_description": "syntax validator at converter",
+    "contact_description": "bukas na transmission // makipag-ugnayan"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto at Sistema",
@@ -23,7 +33,21 @@
     "descriptionB": "Iniuugnay ng aking trabaho ang mga desisyon sa engineering sa mga resulta ng negosyo. Mula sa isang construction-estimating SaaS na ginagawang mga panukalang handa ng kliyente ang data ng spreadsheet hanggang sa mga web platform na nakakakuha ng kita, bumubuo ako ng software sa paligid ng workflow, panganib, at masusukat na halaga na mahalaga sa mga taong gumagamit nito.",
     "portfolio_button": "Aking Portfolio",
     "contact_button": "Kontakin Ako",
-    "about_button": "Tungkol sa Akin"
+    "about_button": "Tungkol sa Akin",
+    "featured": {
+      "kicker": "Mga Tampok na Proyekto / 06",
+      "title": "Napiling Trabaho",
+      "description": "Anim na proyekto na pinakamahusay na kumakatawan sa kung paano ko ginagawa ang mga ambisyosong ideya sa makintab at gumaganang software.",
+      "view_project": "Tingnan ang Proyekto",
+      "open_project": "Buksan ang Live Project",
+      "view_all": "Galugarin ang buong portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Buong Website",
+        "available_here": "Available Dito",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Tungkol sa Akin",
@@ -119,6 +143,11 @@
         "text": "Isang full-stack na POS at daloy ng trabaho ng imbentaryo na binuo gamit ang Angular 17+ at Node.js. Itinulad nito ang mga alalahanin sa pagpapatakbo ng isang B2B system: mga authenticated na user, control-based na access control, katumpakan ng imbentaryo, at isang kunwaring daloy ng pagbabayad. Ang proyekto ay idinisenyo sa paligid ng aktwal na gawain na ginagawa ng isang pangkat ng rehistro, hindi lamang isang katalogo ng mga tampok ng balangkas.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Isang lokal na sistema ng pagpoproseso ng payroll na binuo gamit ang GnuCOBOL, isang SQLite double-entry ledger, at isang Svelte operations dashboard. Gumagamit ito ng integer-cent math, batch payroll processing, at loopback dashboard para gawing tahasan, masusubok, at may pananagutan ang mga financial workflow.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON at YAML Auto Formatter",
         "text": "Isang browser-based na JSON at YAML validation at formatting tool na binuo sa Go at pinagsama-sama sa WebAssembly. Ang paglipat ng parsing engine sa WASM ay nagpapanatili sa pakikipag-ugnayan na tumutugon at lokal sa browser habang nag-aaplay ng tunay na parser upang makakuha ng di-wastong input. Ito ay isang nakatutok na halimbawa ng pagpili ng isang runtime architecture para sa performance, portability, at tiwala ng user.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Isang Minecraft Mod na nagdaragdag ng mga custom na tool, armor, mob, block, dimensyon, at marami pang feature sa laro. Binuo gamit ang mga bersyon ng Java 8-17 para sa mga piling bersyon ng Minecraft sa pagitan ng 1.16 at 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Larong Ahas",
+        "text": "Isang pinakintab na makina ng Snake na binuo gamit ang Rust at Macroquad, na pinagsama sa WebAssembly, at na-render sa pamamagitan ng HTML5 Canvas. Pinagsasama nito ang mga deterministikong 0.12-segundong game ticks na may makinis na interpolated na paggalaw, tahasang mga yugto ng laro, tumutugon na mga kontrol, banggaan at win-state handling, at isang nakatutok na pagsubok suite na sumasaklaw sa mga pangunahing panuntunan ng laro.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Wika ng Tiger Programming",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger Code:",
     "run_tiger": "Patakbuhin ang Tigre",
     "output": "Output:"
+  },
+  "snake": {
+    "title": "Larong Ahas",
+    "description": "Isang klasikong arcade game na binuo gamit ang Rust at WebAssembly. Mangolekta ng pagkain, palaguin ang iyong ahas, at iwasan ang mga pader at ang iyong sariling landas.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PLAYGROUND",
+    "game_title": "ahas",
+    "loading": "Nilo-load ang laro...",
+    "ready": "Handa nang maglaro",
+    "start_failed": "Hindi masimulan ang laro",
+    "runtime_failed": "Hindi ma-load ang runtime ng laro",
+    "aria_label": "Larong ahas. Mga arrow key o WASD para ilipat, Space para magsimula o mag-restart, P para i-pause."
   },
   "tab": {
     "title": "Patrick Goodwin",

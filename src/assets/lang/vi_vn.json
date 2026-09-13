@@ -6,9 +6,19 @@
     "portfolio": "danh mục đầu tư",
     "projects": "Dự án trang web",
     "tiger": "Ngôn ngữ hổ",
+    "snake": "Trò chơi rắn",
     "portfolio_translator": "Trình dịch danh mục đầu tư",
     "formatter": "Trình định dạng JSON & YAML",
-    "contact": "Liên hệ với tôi"
+    "contact": "Liên hệ với tôi",
+    "home_description": "sys.root // tổng quan chính",
+    "about_description": "hồ sơ kỹ sư // sinh học & ngăn xếp",
+    "portfolio_description": "danh mục phần mềm // tác phẩm nổi bật",
+    "projects_description": "công cụ tương tác và trình biên dịch",
+    "tiger_description": "trình biên dịch tùy chỉnh & trình hiển thị AST",
+    "snake_description": "trò chơi arcade cổ điển / WASM",
+    "portfolio_translator_description": "Hơn 100 ma trận ngôn ngữ & i18n",
+    "formatter_description": "trình xác nhận và chuyển đổi cú pháp",
+    "contact_description": "mở đường truyền // liên lạc"
   },
   "home": {
     "title": "Kỹ sư Full-Stack cấp cao | Sản phẩm & Hệ thống",
@@ -23,7 +33,21 @@
     "descriptionB": "Công việc của tôi kết nối các quyết định kỹ thuật với kết quả kinh doanh. Từ SaaS ước tính xây dựng biến dữ liệu bảng tính thành đề xuất sẵn sàng cho khách hàng đến nền tảng web tạo doanh thu, tôi xây dựng phần mềm xoay quanh quy trình làm việc, rủi ro và giá trị có thể đo lường được và quan trọng đối với người sử dụng nó.",
     "portfolio_button": "Danh mục đầu tư của tôi",
     "contact_button": "Liên hệ với tôi",
-    "about_button": "Giới thiệu về tôi"
+    "about_button": "Giới thiệu về tôi",
+    "featured": {
+      "kicker": "Dự án nổi bật / 06",
+      "title": "Tác phẩm đã chọn",
+      "description": "Sáu dự án thể hiện rõ nhất cách tôi biến những ý tưởng đầy tham vọng thành phần mềm hoạt động hoàn hảo.",
+      "view_project": "Xem dự án",
+      "open_project": "Mở dự án trực tiếp",
+      "view_all": "Khám phá danh mục đầu tư đầy đủ",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Trang web đầy đủ",
+        "available_here": "Có sẵn ở đây",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Giới thiệu về tôi",
@@ -119,6 +143,11 @@
         "text": "Quy trình kiểm kê và POS đầy đủ được xây dựng bằng Angular 17+ và Node.js. Nó mô hình hóa các mối quan tâm vận hành của hệ thống B2B: người dùng được xác thực, kiểm soát truy cập dựa trên vai trò, độ chính xác của hàng tồn kho và luồng thanh toán mô phỏng. Dự án được thiết kế xoay quanh công việc thực tế mà nhóm đăng ký thực hiện chứ không chỉ là danh mục các tính năng khung.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "OBOL bảng lương",
+        "text": "Một hệ thống xử lý bảng lương cục bộ được xây dựng bằng GnuCOBOL, sổ cái nhập kép SQLite và bảng điều khiển hoạt động Svelte. Nó sử dụng toán học số nguyên, xử lý bảng lương hàng loạt và bảng điều khiển lặp lại để làm cho quy trình công việc tài chính trở nên rõ ràng, có thể kiểm tra và chịu trách nhiệm vận hành.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Trình định dạng tự động JSON & YAML",
         "text": "Một công cụ định dạng và xác thực JSON và YAML dựa trên trình duyệt được tích hợp trong Go và được biên dịch sang WebAssugging. Việc di chuyển công cụ phân tích cú pháp vào WASM giúp tương tác phản hồi nhanh và cục bộ với trình duyệt trong khi áp dụng trình phân tích cú pháp thực sự để bắt đầu vào không hợp lệ. Đây là một ví dụ tập trung về việc chọn kiến ​​trúc thời gian chạy dựa trên hiệu suất, tính di động và sự tin cậy của người dùng.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Mod Minecraft tối cao",
         "text": "Một Minecraft Mod bổ sung thêm các công cụ tùy chỉnh, áo giáp, mob, khối, kích thước và nhiều tính năng khác cho trò chơi. Được xây dựng bằng các phiên bản Java 8-17 cho các phiên bản Minecraft được chọn trong khoảng từ 1.16 đến 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Trò chơi rắn",
+        "text": "Một công cụ Snake bóng bẩy được xây dựng bằng Rust và Macroquad, được biên dịch sang WebAssembly và được hiển thị thông qua HTML5 Canvas. Nó kết hợp các tích tắc trò chơi 0,12 giây xác định với chuyển động nội suy mượt mà, các giai đoạn trò chơi rõ ràng, điều khiển phản hồi, xử lý va chạm và trạng thái thắng cũng như bài kiểm tra tập trung bộ bao gồm các quy tắc trò chơi cốt lõi.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Ngôn ngữ lập trình Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Mã hổ:",
     "run_tiger": "Chạy hổ",
     "output": "Đầu ra:"
+  },
+  "snake": {
+    "title": "Trò chơi rắn",
+    "description": "Một trò chơi arcade cổ điển được xây dựng bằng Rust và WebAssugging. Thu thập thức ăn, nuôi rắn và tránh xa các bức tường cũng như đường đi của riêng bạn.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "SÂN CHƠI",
+    "game_title": "Rắn",
+    "loading": "Đang tải trò chơi...",
+    "ready": "Sẵn sàng để chơi",
+    "start_failed": "Không thể bắt đầu trò chơi",
+    "runtime_failed": "Không thể tải thời gian chạy trò chơi",
+    "aria_label": "Trò chơi rắn. Phím mũi tên hoặc WASD để di chuyển, Space để bắt đầu hoặc khởi động lại, P để tạm dừng."
   },
   "tab": {
     "title": "Patrick Goodwin",

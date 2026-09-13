@@ -6,9 +6,19 @@
     "portfolio": "Mbiri",
     "projects": "Webusaiti Projects",
     "tiger": "Chinenero cha Tiger",
+    "snake": "Masewera a Njoka",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Ndiuzeni Ine"
+    "contact": "Ndiuzeni Ine",
+    "home_description": "sys.root // mwachidule",
+    "about_description": "mbiri ya injiniya // bio & stack",
+    "portfolio_description": "pulogalamu yamapulogalamu // ntchito zowonetsedwa",
+    "projects_description": "zida zokambirana & compilers",
+    "tiger_description": "wopanga makina & AST visualizer",
+    "snake_description": "masewera apamwamba a masewera / WASM",
+    "portfolio_translator_description": "100+ zilankhulo zazikulu & i18n",
+    "formatter_description": "syntax validator & converter",
+    "contact_description": "tsegulani // kulumikizana"
   },
   "home": {
     "title": "Katswiri Wathunthu Wokhazikika | Product & Systems",
@@ -23,7 +33,21 @@
     "descriptionB": "Ntchito yanga imagwirizanitsa zisankho zaumisiri ndi zotsatira zabizinesi. Kuchokera ku SaaS yoyerekeza yomanga yomwe imatembenuza zidziwitso zamasamba kukhala malingaliro okonzekera kasitomala ku nsanja zopangira ndalama, ndimapanga mapulogalamu mozungulira kayendetsedwe ka ntchito, chiopsezo, ndi mtengo woyezera womwe umafunikira kwa anthu omwe akuugwiritsa ntchito.",
     "portfolio_button": "Mbiri yanga",
     "contact_button": "Ndiuzeni Ine",
-    "about_button": "Za ine"
+    "about_button": "Za ine",
+    "featured": {
+      "kicker": "Ma projekiti Owonetsedwa / 06",
+      "title": "Ntchito Yosankhidwa",
+      "description": "Mapulojekiti asanu ndi limodzi omwe amayimira bwino momwe ndimasinthira malingaliro olakalaka kukhala mapulogalamu opukutidwa, ogwirira ntchito.",
+      "view_project": "Onani Project",
+      "open_project": "Open Live Project",
+      "view_all": "Onani mbiri yonse",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Webusaiti Yathunthu",
+        "available_here": "Likupezeka Pano",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Za ine",
@@ -119,6 +143,11 @@
         "text": "POS yodzaza ndi zida zonse zomangidwa ndi Angular 17+ ndi Node.js. Imawonetsa zovuta zogwirira ntchito za dongosolo la B2B: ogwiritsa ntchito otsimikizika, kuwongolera kotsata njira, kulondola kwazinthu, komanso kubweza kwachipongwe. Pulojekitiyi idapangidwa mozungulira ntchito yeniyeni yomwe gulu lolembetsa limagwira, osati mndandanda wazinthu zamadongosolo.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Dongosolo lakukonza zolipira kwanuko lomwe limamangidwa ndi GnuCOBOL, leja yolowera kawiri ya SQLite, ndi dashboard ya Svelte. Imagwiritsa ntchito masamu owerengeka, ma batch payroll processing, ndi loopback dashboard kuti mayendedwe azachuma azikhala omveka bwino, oyesedwa, komanso oyankha.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Chida chovomerezeka cha JSON ndi YAML chozikidwa pa msakatuli ndi masanjidwe opangidwa mu Go ndikupangidwa ku WebAssembly. Kusuntha injini yoyimitsa mu WASM kumapangitsa kuti kulumikizana kukhale koyankhidwa komanso komweko kwa msakatuli kwinaku mukugwiritsa ntchito chowerengera chenicheni kuti mugwire zolowa zosavomerezeka. Ndi chitsanzo chokhazikika pakusankha kamangidwe ka nthawi yoyendetsera ntchito, kusuntha, komanso kudalira kwa ogwiritsa ntchito.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod yomwe imawonjezera zida zamakono, zida, magulu a anthu, midadada, miyeso, ndi zina zambiri pamasewera. Zomangidwa ndi mitundu ya Java 8-17 pazosankha za Minecraft pakati pa 1.16 ndi 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Masewera a Njoka",
+        "text": "Injini yopukutidwa ya Nyoka yomangidwa ndi Rust ndi Macroquad, yopangidwa ku WebAssembly, ndikuperekedwa kudzera mu HTML5 Canvas. Zimaphatikiza nkhupakupa zamasewera a 0.12-sekondi imodzi yokhala ndi mayendedwe osalala, magawo amasewera, zowongolera zomwe zimayankhidwa, kugundana ndi kuwongolera boma, komanso kuyesa koyang'ana. suite yomwe ikukhudza malamulo amasewera.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Chilankhulo cha Tiger Programming",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger kodi:",
     "run_tiger": "Thamangani Tiger",
     "output": "Zotulutsa:"
+  },
+  "snake": {
+    "title": "Masewera a Njoka",
+    "description": "Masewera apamwamba kwambiri opangidwa ndi Rust ndi WebAssembly. Sonkhanitsani chakudya, kulitsani njoka yanu, ndipo samalani ndi makoma ndi njira yanu.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "MASEWERO",
+    "game_title": "Njoka",
+    "loading": "Tikutsegula masewera...",
+    "ready": "Wokonzeka kusewera",
+    "start_failed": "Takanika kuyambitsa masewerawa",
+    "runtime_failed": "Takanika kutsegula nthawi yotsegulira masewerawo",
+    "aria_label": "Masewera a njoka. Makiyi a mivi kapena WASD kuti musunthe, Malo oti muyambitse kapena kuyambiranso, P kuyimitsa."
   },
   "tab": {
     "title": "Patrick Goodwin",

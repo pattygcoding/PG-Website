@@ -6,9 +6,19 @@
     "portfolio": "Portefeuille ya mosala",
     "projects": "Ba Projets ya Site Internet",
     "tiger": "Monoko ya Tigre",
+    "snake": "Lisano ya Nyoka",
     "portfolio_translator": "Mobongoli ya Portefeuille",
     "formatter": "JSON & YAML Mosali ya format",
-    "contact": "Contactez Ngai"
+    "contact": "Contactez Ngai",
+    "home_description": "sys.root // botali ya monene",
+    "about_description": "profil ya ingénieur // bio & stack",
+    "portfolio_description": "catalogue logiciel // misala oyo elakisami",
+    "projects_description": "bisaleli ya interactif & ba compilateurs",
+    "tiger_description": "compilateur personnalisé & visualisateur ya AST",
+    "snake_description": "lisano ya arcade classique / WASM",
+    "portfolio_translator_description": "100+ matrice ya monoko & i18n",
+    "formatter_description": "validateur & convertisseur ya syntaxe",
+    "contact_description": "transmission ya polele // kozua contact"
   },
   "home": {
     "title": "Ingénieur ya Likolo ya Stack Complète | Produit & Systèmes ya kosala",
@@ -23,7 +33,21 @@
     "descriptionB": "Mosala na ngai ekangisaka mikano ya ingénierie na mbano ya mombongo. Kobanda na SaaS oyo ekanisaka botongi oyo ebongoli ba données ya feuille de calcul na ba propositions prêtes ya client tii na ba plateformes web oyo ezuaka revenu, natongaka logiciel zinga zinga ya flux ya mosala, risque, pe motuya oyo ekoki komekama oyo ezali na ntina mpo na bato oyo bazali kosalela yango.",
     "portfolio_button": "Portefeuille na ngai",
     "contact_button": "Contactez Ngai",
-    "about_button": "Na ntina na Ngai"
+    "about_button": "Na ntina na Ngai",
+    "featured": {
+      "kicker": "Misala oyo elakisami / 06",
+      "title": "Mosala oyo eponami",
+      "description": "Misala motoba oyo ezali komonisa malamu ndenge oyo nabongoli makanisi ya lokumu na logiciel poli, oyo ezali kosala.",
+      "view_project": "Tala Projet ya",
+      "open_project": "Projet ya Fungola En direct",
+      "view_all": "Tala portefeuille mobimba",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Site Internet mobimba",
+        "available_here": "Ezali Awa",
+        "minecraft_mod": "Minecraft Mod ya mosala"
+      }
+    }
   },
   "about": {
     "title": "Na ntina na Ngai",
@@ -119,6 +143,11 @@
         "text": "POS ya stack mobimba mpe flux ya mosala ya inventaire oyo etongami na Angular 17+ mpe Node.js. Ezali ko modeler ba soucis opérationnels ya système B2B : ba usagers authentiqués, contrôle d’accès basé na rôle, précision ya inventaire, mpe flux ya payement mock. Projet esalemi zinga zinga ya mosala ya solo oyo équipe ya registre esalaka, kaka te catalogue ya ba fonctionnalités ya cadre.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Lifuta ya lifutiOBOL",
+        "text": "Système ya traitement ya payroll local oyo etongami na GnuCOBOL, ledger ya double entrée ya SQLite, mpe tableau de bord ya ba opérations ya Svelte. Esalelaka matematiki ya nombre entier, traitement ya payroll ya batch, mpe tableau de boucle ya boucle mpo na kosala que ba flux ya mosala ya mosolo ezala polele, emekama, mpe ezala responsable na opérationnel.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Formateur ya Automatique",
         "text": "Esaleli ya bondimi mpe ya formatage JSON mpe YAML oyo esalemi na navigateur oyo etongami na Go mpe esangisi na WebAssembly. Kokende na moteur ya parsing na WASM ebatelaka interaction responsive mpe locale na navigateur tango ozali kosalela parser ya solo mpo na kokanga entrée invalide. Ezali ndakisa oyo etali mingi ya kopona architecture ya tango ya kosala mpo na performance, portability, mpe confiance ya mosaleli.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod ya kosala",
         "text": "Mod ya Minecraft oyo ebakisi bisaleli ya moto ye moko, bibundeli, mobs, ba blocs, ba dimensions, mpe makambo mosusu mingi na lisano. Etongami na ba versions ya Java 8-17 pona ba versions ya Minecraft oyo eponami kati ya 1.16 na 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Lisano ya Nyoka",
+        "text": "Moteur Snake polished oyo etongamaki na Rust na Macroquad, compilé na WebAssembly, mpe e rendre na nzela ya HTML5 Canvas. Esangisaka ba ticks ya jeu ya 0,12 secondes déterministes na mouvement interpolé ya doux, ba phases ya jeu explicites, ba contrôles responsifs, collision na manipulation ya état gagner, mpe test focusé suite oyo ezipaka mibeko ya moboko ya lisano.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Langue ya Programmation ya Tigre",
@@ -252,6 +286,18 @@
     "tiger_code": "Code ya Tigre:",
     "run_tiger": "Kima Tigre",
     "output": "Bobimisi:"
+  },
+  "snake": {
+    "title": "Lisano ya Nyoka",
+    "description": "Jeu ya arcade classique oyo etongami na Rust na WebAssembly. Sangisa bilei, kolona nyoka na yo, mpe kozala mosika na bifelo mpe nzela na yo moko.",
+    "kicker": "WEBASSEMBLY / MINIQAD NA LIBOSO",
+    "section_label": "TERRAIN YA LISANGA",
+    "game_title": "Nyoka",
+    "loading": "Ko charger jeu...",
+    "ready": "Prêt ya kosakana",
+    "start_failed": "Kozanga makoki ya kobanda lisano",
+    "runtime_failed": "Ekoki te ko charger temps ya course ya jeu",
+    "aria_label": "Lisano ya nyoka. Ba touches ya flèches to WASD pona ko déplacer, Espace pona kobanda to ko restarter, P pona ko pause."
   },
   "tab": {
     "title": "Patrick Goodwin, oyo azali na mbongo mingi",

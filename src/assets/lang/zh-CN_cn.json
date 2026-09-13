@@ -6,9 +6,19 @@
     "portfolio": "文件夹",
     "projects": "网站项目",
     "tiger": "虎语",
+    "snake": "贪吃蛇游戏",
     "portfolio_translator": "作品集翻译",
     "formatter": "JSON 和 YAML 格式化程序",
-    "contact": "联系我"
+    "contact": "联系我",
+    "home_description": "sys.root // 主要概述",
+    "about_description": "工程师简介 // 简历和堆栈",
+    "portfolio_description": "软件目录//特色作品",
+    "projects_description": "interactive tools & compilers",
+    "tiger_description": "custom compiler & AST visualizer",
+    "snake_description": "经典街机游戏 / WASM",
+    "portfolio_translator_description": "100+ 语言矩阵和 i18n",
+    "formatter_description": "语法验证器和转换器",
+    "contact_description": "打开传输//取得联系"
   },
   "home": {
     "title": "高级全栈工程师|产品与系统",
@@ -23,7 +33,21 @@
     "descriptionB": "我的工作将工程决策与业务成果联系起来。 从将电子表格数据转换为客户就绪提案的施工估算 SaaS，到创收的 Web 平台，我围绕工作流程、风险和 对使用它的人来说很重要的可衡量的价值。",
     "portfolio_button": "我的投资组合",
     "contact_button": "联系我",
-    "about_button": "关于我"
+    "about_button": "关于我",
+    "featured": {
+      "kicker": "特色项目 / 06",
+      "title": "作品选",
+      "description": "六个项目最能代表我如何将雄心勃勃的想法转化为精美的可用软件。",
+      "view_project": "查看项目",
+      "open_project": "打开实时项目",
+      "view_all": "探索完整的产品组合",
+      "badges": {
+        "saas": "软件即服务",
+        "full_website": "完整网站",
+        "available_here": "此处可用",
+        "minecraft_mod": "我的世界模组"
+      }
+    }
   },
   "about": {
     "title": "关于我",
@@ -119,6 +143,11 @@
         "text": "使用 Angular 17+ 和 Node.js 构建的全栈 POS 和库存工作流程。 它对 B2B 系统的操作问题进行建模：经过身份验证的用户、基于角色的访问控制、库存准确性和模拟支付流程。 该项目是围绕注册团队执行的实际工作而设计的，而不仅仅是框架功能的目录。",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "薪资OBOL",
+        "text": "使用 GnuCOBOL、SQLite 复式记账本和 Svelte 操作仪表板构建的本地薪资处理系统。 它使用整数数学、批量工资单处理和环回仪表板来使财务工作流程明确、可测试且可操作负责。",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON 和 YAML 自动格式化程序",
         "text": "一个基于浏览器的 JSON 和 YAML 验证和格式化工具，用 Go 构建并编译为 WebAssembly。 将解析引擎移至 WASM 中可保持交互的响应性和浏览器本地化，同时应用真正的解析器来捕获无效输入。 它是选择运行时架构以实现性能、可移植性和用户信任的重点示例。",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft 模组",
         "text": "一个《我的世界》模组，为游戏添加了自定义工具、盔甲、生物、方块、尺寸和更多功能。 使用 Java 版本 8-17 构建，适用于 1.16 和 1.20 之间的选定 Minecraft 版本。",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "贪吃蛇游戏",
+        "text": "一个用 Rust 和 Macroquad 构建的完善的 Snake 引擎，编译为 WebAssembly，并通过 HTML5 Canvas 渲染。 它将确定性的 0.12 秒游戏滴答声与平滑的插值运动、明确的游戏阶段、响应控制、碰撞和获胜状态处理以及集中测试相结合 涵盖核心游戏规则的套件。",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "老虎编程语言",
@@ -252,6 +286,18 @@
     "tiger_code": "老虎代码：",
     "run_tiger": "跑虎",
     "output": "输出："
+  },
+  "snake": {
+    "title": "贪吃蛇游戏",
+    "description": "使用 Rust 和 WebAssembly 构建的经典街机游戏。收集食物，培育你的蛇，并远离墙壁和你自己的足迹。",
+    "kicker": "网络组装 / MINIQAD",
+    "section_label": "操场",
+    "game_title": "蛇",
+    "loading": "正在加载游戏...",
+    "ready": "准备玩了",
+    "start_failed": "无法开始游戏",
+    "runtime_failed": "无法加载游戏运行时",
+    "aria_label": "贪吃蛇游戏。箭头键或 WASD 移动，空格键开始或重新启动，P 暂停。"
   },
   "tab": {
     "title": "帕特里克·古德温",

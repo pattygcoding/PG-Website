@@ -6,9 +6,19 @@
     "portfolio": "Portfelj",
     "projects": "Projekti spletnih strani",
     "tiger": "Tigrov jezik",
+    "snake": "Igra Kača",
     "portfolio_translator": "Prevajalec portfelja",
     "formatter": "Oblikovalnik JSON & YAML",
-    "contact": "Kontaktiraj me"
+    "contact": "Kontaktiraj me",
+    "home_description": "sys.root // glavni pregled",
+    "about_description": "profil inženirja // bio & stack",
+    "portfolio_description": "katalog programske opreme // predstavljena dela",
+    "projects_description": "interaktivna orodja in prevajalniki",
+    "tiger_description": "prevajalnik po meri in vizualizator AST",
+    "snake_description": "klasična arkadna igra / WASM",
+    "portfolio_translator_description": "100+ jezikovna matrika & i18n",
+    "formatter_description": "validator in pretvornik sintakse",
+    "contact_description": "odprti prenos // stopite v stik"
   },
   "home": {
     "title": "Senior Full-Stack inženir | Izdelek in sistemi",
@@ -23,7 +33,21 @@
     "descriptionB": "Moje delo povezuje inženirske odločitve s poslovnimi rezultati. Od SaaS za ocenjevanje konstrukcije, ki podatke iz preglednic spremeni v predloge, pripravljene za odjemalca, do spletnih platform, ki ustvarjajo prihodek, gradim programsko opremo, ki temelji na delovnem toku, tveganju in merljiva vrednost, ki je pomembna za ljudi, ki jo uporabljajo.",
     "portfolio_button": "Moj portfelj",
     "contact_button": "Kontaktiraj me",
-    "about_button": "O meni"
+    "about_button": "O meni",
+    "featured": {
+      "kicker": "Predstavljeni projekti / 06",
+      "title": "Izbrano delo",
+      "description": "Šest projektov, ki najbolje predstavljajo, kako ambiciozne zamisli spreminjam v uglajeno delujočo programsko opremo.",
+      "view_project": "Ogled projekta",
+      "open_project": "Odprite Live Project",
+      "view_all": "Raziščite celoten portfelj",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Celotno spletno mesto",
+        "available_here": "Na voljo tukaj",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "O meni",
@@ -119,6 +143,11 @@
         "text": "Celoten sklad POS in delovni tok inventarja, zgrajen z Angular 17+ in Node.js. Modelira operativne pomisleke sistema B2B: overjene uporabnike, nadzor dostopa na podlagi vlog, točnost inventarja in lažni tok plačil. Projekt je zasnovan okoli dejanskega dela, ki ga izvaja ekipa registra, ne le kataloga funkcij ogrodja.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PlačilOBOL",
+        "text": "Lokalni sistem za obdelavo plač, zgrajen z GnuCOBOL, knjigo z dvojnim vnosom SQLite in operacijsko nadzorno ploščo Svelte. Uporablja matematiko celih centov, paketno obdelavo izplačil in nadzorno ploščo s povratno zanko, da naredi finančne delovne tokove jasne, preizkušljive in operativno odgovorne.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Orodje za preverjanje veljavnosti in formatiranje JSON in YAML v brskalniku, zgrajeno v Go in prevedeno v WebAssembly. Premik mehanizma za razčlenjevanje v WASM ohranja interakcijo odzivno in lokalno za brskalnik, medtem ko uporablja pravi razčlenjevalnik za lovljenje neveljavnih vnosov. Je osredotočen primer izbire izvajalne arhitekture za zmogljivost, prenosljivost in zaupanje uporabnikov.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Mod SupremeMC Minecraft",
         "text": "Minecraft Mod, ki igri doda orodja po meri, oklepe, mafije, bloke, dimenzije in številne druge funkcije. Zgrajen z različicami Jave 8–17 za izbrane različice Minecrafta med 1.16 in 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Igra Kača",
+        "text": "Uglajen motor Snake, zgrajen z Rust in Macroquad, preveden v WebAssembly in upodobljen prek HTML5 Canvas. Združuje deterministične 0,12-sekundne tike igre z gladkim interpoliranim gibanjem, eksplicitnimi fazami igre, odzivnimi kontrolami, obravnavanjem trkov in stanja zmage ter osredotočenim testom zbirka, ki pokriva osnovna pravila igre.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Programski jezik Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Koda tigra:",
     "run_tiger": "Teci Tiger",
     "output": "Izhod:"
+  },
+  "snake": {
+    "title": "Igra Kača",
+    "description": "Klasična arkadna igra, izdelana z Rust in WebAssembly. Zbirajte hrano, vzgojite svojo kačo in se izogibajte stenam in lastni sledi.",
+    "kicker": "SPLETNI SESTAV / MINIQAD",
+    "section_label": "IGRIŠČE",
+    "game_title": "kača",
+    "loading": "Nalaganje igre ...",
+    "ready": "Pripravljen za igro",
+    "start_failed": "Ni mogoče začeti igre",
+    "runtime_failed": "Ni mogoče naložiti izvajalnega okolja igre",
+    "aria_label": "Igra kača. Puščične tipke ali WASD za premikanje, preslednica za začetek ali ponovni zagon, P za premor."
   },
   "tab": {
     "title": "Patrick Goodwin",

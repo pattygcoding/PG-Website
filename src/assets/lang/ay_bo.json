@@ -6,9 +6,19 @@
     "portfolio": "Cartera ukax mä jach’a uñacht’äwiwa",
     "projects": "Sitio Web ukan Proyectos ukanaka",
     "tiger": "Tigre Aru",
+    "snake": "Katari Anataña",
     "portfolio_translator": "Cartera Jaqukipiri",
     "formatter": "JSON & YAML Formato ukax mä juk’a pachanakanwa",
-    "contact": "Nayampi aruskipt’aña"
+    "contact": "Nayampi aruskipt’aña",
+    "home_description": "sys.root // jach’a uñakipaña",
+    "about_description": "perfil de ingeniero // bio & pila ukax mä jach’a uñacht’äwiwa",
+    "portfolio_description": "software catálogo // uñacht’ayat lurawinaka",
+    "projects_description": "herramientas interactivas & compiladores ukanaka",
+    "tiger_description": "compilador personalizado & AST uñacht’ayaña",
+    "snake_description": "arcade clásico anatt’awi / WASM",
+    "portfolio_translator_description": "100+ aru matriz & i18n",
+    "formatter_description": "sintaxis chiqanchaña & jaqukipiri",
+    "contact_description": "jist’arat transmisión // uñt’ayasiñataki"
   },
   "home": {
     "title": "Jilïr Ingeniero Full-Stack ukan irnaqiri | Producto & Sistemas ukanaka",
@@ -23,7 +33,21 @@
     "descriptionB": "Nayan lurawijax ingeniería amtanakamp negocios ukan askinak jikxatañampiw mayachthapi. Mä SaaS lurañ-estimación ukanx hoja de cálculo ukan yatiyawinakap cliente- wakicht’at propuesta ukar tukuyi, qullqi jikxatañ plataformas web ukar uñtasita, software ukar lurañ thakhi, riesgo ukat... valor medible ukax uka apnaqir jaqinakatakix wali askiwa.",
     "portfolio_button": "Nayan Carterajaxa",
     "contact_button": "Nayampi aruskipt’aña",
-    "about_button": "Nayat sipansa"
+    "about_button": "Nayat sipansa",
+    "featured": {
+      "kicker": "Uñacht’ayat Proyectos / 06",
+      "title": "Ajllit Irnaqawi",
+      "description": "Suxta proyectos ukanakax kunjams jach’a amtäwinak software pulido, irnaqir ukar tukuyta uk juk’amp uñacht’ayi.",
+      "view_project": "Proyecto uñakipaña",
+      "open_project": "Proyecto Vivo jist’araña",
+      "view_all": "Uka cartera phuqhat uñakipt’aña",
+      "badges": {
+        "saas": "SaaS ukax mä juk’a pachanakanwa",
+        "full_website": "Phuqata Sitio Web ukan uñt’ayata",
+        "available_here": "Aka chiqanw utji",
+        "minecraft_mod": "Minecraft ukax mä juk’a pachanakanwa"
+      }
+    }
   },
   "about": {
     "title": "Nayat sipansa",
@@ -119,6 +143,11 @@
         "text": "Mä POS phuqhat pila ukat inventario lurañ thakhi Angular 17+ ukat Node.js ukanakamp luratawa. Ukax mä sistema B2B ukan operativo llakinakapat modelo ukham uñacht’ayi: chiqapar uñjat apnaqirinaka, control de acceso basado en rol, inventario ukan chiqapar uñjata, ukat mä simulacro de pago flujo. Proyecto ukax chiqpach lurawinak mä equipo de registro ukan luratanakap muyuntat luratawa, janiw mä catálogo de características de marco ukakikiti.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Payllañ uñt’ayawiOBOL",
+        "text": "Mä sistema local de procesamiento de nómina ukax GnuCOBOL ukampiw lurata, mä libro mayor de doble entrada SQLite ukat mä tablón de operaciones Svelte ukampi. Ukax matemáticas de centavo entero, nómina de lotes ukat mä tablón de bucle back ukampiw qullqi tuqit irnaqañ thakhinak qhananchañataki, yant’añataki, ukat operativo tuqit cuenta churañataki.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formato ukax mä juk’a pachanakanwa",
         "text": "Mä navegador ukan JSON ukat YAML ukan chiqanchawi ukat formato ukan herramienta ukaw Go ukan lurata ukatx WebAssembly ukar apthapitawa. Motor de parsing WASM ukar apayañax interacción ukax respuesta ukat local ukaruw uñji, ukampirus chiqpach parser ukampiw jan wali mantañanak katjañatakix apnaqasi. Mä uñacht’awiwa, mä arquitectura de ejecución de tiempo ajlliñatakiwa, lurañataki, apañataki, ukhamaraki apnaqiriru atinisiñapataki.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft ukax mä juk’a pachanakanwa",
         "text": "Mä Minecraft Mod ukax herramientas personalizadas, armaduras, mobs, bloques, dimensiones ukat juk’amp walja lurawinakampiw anatañar yapxati. Java 8-17 uka versión ukanakamp luratawa, Minecraft ukan ajllit versión 1.16 ukat 1.20 ukanakan.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Katari Anataña",
+        "text": "Mä Snake motor pulido Rust ukat Macroquad ukanakamp luratawa, WebAssembly ukar apthapitawa, ukatx HTML5 Canvas tuqiw uñacht’ayata. Ukax determinista 0,12 segundos anatañ ticks ukanakamp mayachthapi, suman interpolado movimiento, explícitos de juegos fases, controles responsivos, colisión ukat ganancia-estado apnaqaña, ukat mä yant’aw enfocado suite ukax anatañ kamachinakaruw uñt’ayi.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tigre Programación ukax mä juk’a pachanakanwa",
@@ -252,6 +286,18 @@
     "tiger_code": "Tigre Código:",
     "run_tiger": "T’ijt’aña Tigre",
     "output": "Ukax akhamawa:"
+  },
+  "snake": {
+    "title": "Katari Anataña",
+    "description": "Mä clásico arcade anatäwix Rust ukat WebAssembly ukanakamp luratawa. Manq’a apthapipxam, katari yapuchapxam, ukat pirqanakatsa ukat juma pachpa thakhimat jithiqtapxam.",
+    "kicker": "WEBASSEMBLY / MINIQAD ukax mä juk’a pachanakanwa",
+    "section_label": "ANAT’AÑATAKI",
+    "game_title": "Katari",
+    "loading": "Anatañanak apkatañataki...",
+    "ready": "Anatañataki wakicht’ata",
+    "start_failed": "Janiw anatañ qalltañjamäkiti",
+    "runtime_failed": "Janiw anatañ pachax cargañjamäkiti",
+    "aria_label": "Katari anatt’awi. Flechas jan ukax WASD ukax sarañataki, Espacio ukax qalltañataki jan ukax wasitat qalltañataki, P ukax samart’añataki."
   },
   "tab": {
     "title": "Patrick Goodwin sat jilataw ukham luräna",

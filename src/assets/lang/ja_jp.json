@@ -6,9 +6,19 @@
     "portfolio": "ポートフォリオ",
     "projects": "ウェブサイトプロジェクト",
     "tiger": "タイガー言語",
+    "snake": "スネークゲーム",
     "portfolio_translator": "ポートフォリオ翻訳者",
     "formatter": "JSON および YAML フォーマッタ",
-    "contact": "連絡してください"
+    "contact": "連絡してください",
+    "home_description": "sys.root // 主な概要",
+    "about_description": "エンジニアプロフィール // 経歴とスタック",
+    "portfolio_description": "ソフトウェアカタログ // 注目作品",
+    "projects_description": "インタラクティブなツールとコンパイラ",
+    "tiger_description": "カスタムコンパイラとASTビジュアライザ",
+    "snake_description": "古典的なアーケード ゲーム / WASM",
+    "portfolio_translator_description": "100 以上の言語マトリックスと i18n",
+    "formatter_description": "構文バリデーターとコンバーター",
+    "contact_description": "オープン送信 // 連絡を取る"
   },
   "home": {
     "title": "シニア フルスタック エンジニア |製品とシステム",
@@ -23,7 +33,21 @@
     "descriptionB": "私の仕事は、エンジニアリング上の意思決定をビジネスの成果に結びつけます。 スプレッドシート データを顧客対応の提案書に変換する建設見積り SaaS から、収益を生み出す Web プラットフォームまで、ワークフロー、リスク、および 使う人にとって重要な測定可能な価値。",
     "portfolio_button": "私のポートフォリオ",
     "contact_button": "連絡してください",
-    "about_button": "私について"
+    "about_button": "私について",
+    "featured": {
+      "kicker": "注目のプロジェクト / 06",
+      "title": "入選作品",
+      "description": "私が野心的なアイデアを洗練された実用的なソフトウェアに変える方法を最もよく表している 6 つのプロジェクト。",
+      "view_project": "プロジェクトを見る",
+      "open_project": "ライブプロジェクトを開く",
+      "view_all": "完全なポートフォリオを探索する",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "フルウェブサイト",
+        "available_here": "ここで入手可能",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "私について",
@@ -119,6 +143,11 @@
         "text": "Angular 17 以降と Node.js で構築されたフルスタックの POS および在庫ワークフロー。 これは、B2B システムの運用上の懸念事項 (認証されたユーザー、ロールベースのアクセス制御、在庫の正確性、模擬支払いフロー) をモデル化します。 このプロジェクトは、フレームワーク機能のカタログだけではなく、登録チームが実行する実際の作業を中心に設計されています。",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "給与OBOL",
+        "text": "GnuCOBOL、SQLite 複式簿記、および Svelte オペレーション ダッシュボードで構築されたローカル給与処理システム。 整数計算、バッチ給与処理、ループバック ダッシュボードを使用して、財務ワークフローを明示的、テスト可能、および運用上の責任を持たせます。",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON および YAML 自動フォーマッタ",
         "text": "Go で構築され、WebAssembly にコンパイルされる、ブラウザーベースの JSON および YAML 検証および書式設定ツール。 解析エンジンを WASM に移動すると、実際のパーサーを適用して無効な入力をキャッチしながら、対話の応答性とブラウザーに対するローカル性が維持されます。 これは、パフォーマンス、移植性、ユーザーの信頼を重視してランタイム アーキテクチャを選択する例です。",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "カスタム ツール、アーマー、モブ、ブロック、ディメンション、その他多くの機能をゲームに追加する Minecraft Mod。 1.16 ～ 1.20 の一部の Minecraft バージョン用に Java バージョン 8 ～ 17 で構築されています。",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "スネークゲーム",
+        "text": "Rust と Macroquad で構築され、WebAssembly にコンパイルされ、HTML5 Canvas を通じてレンダリングされる洗練された Snake エンジン。 決定的な 0.12 秒のゲーム ティックと、スムーズな補間動作、明示的なゲーム フェーズ、応答性の高いコントロール、衝突および勝利状態の処理、および集中的なテストを組み合わせています。 ゲームのコアルールをカバーするスイート。",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger プログラミング言語",
@@ -252,6 +286,18 @@
     "tiger_code": "タイガーコード:",
     "run_tiger": "ランタイガー",
     "output": "出力："
+  },
+  "snake": {
+    "title": "スネークゲーム",
+    "description": "Rust と WebAssembly で構築された古典的なアーケード ゲーム。食べ物を集め、ヘビを育て、壁や自分の足跡を避けてください。",
+    "kicker": "WEBASSEMBLY / ミニカッド",
+    "section_label": "遊び場",
+    "game_title": "蛇",
+    "loading": "ゲームをロード中...",
+    "ready": "遊ぶ準備ができました",
+    "start_failed": "ゲームを開始できません",
+    "runtime_failed": "ゲームランタイムをロードできません",
+    "aria_label": "ヘビゲーム。矢印キーまたは WASD で移動、Space で開始または再起動、P で一時停止します。"
   },
   "tab": {
     "title": "パトリック・グッドウィン",

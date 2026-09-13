@@ -6,9 +6,19 @@
     "portfolio": "Cartera",
     "projects": "Projectes web",
     "tiger": "Llengua Tigre",
+    "snake": "Joc de la serp",
     "portfolio_translator": "Traductor de cartera",
     "formatter": "Formatador JSON i YAML",
-    "contact": "Contacta amb mi"
+    "contact": "Contacta amb mi",
+    "home_description": "sys.root // visió general principal",
+    "about_description": "perfil d'enginyer // bio & stack",
+    "portfolio_description": "catàleg de programari // obres destacades",
+    "projects_description": "eines interactives i compiladors",
+    "tiger_description": "compilador personalitzat i visualitzador AST",
+    "snake_description": "joc arcade clàssic / WASM",
+    "portfolio_translator_description": "Més de 100 matrius d'idiomes i i18n",
+    "formatter_description": "validador i convertidor de sintaxi",
+    "contact_description": "transmissió oberta // posar-se en contacte"
   },
   "home": {
     "title": "Enginyer sènior Full-Stack | Producte i Sistemes",
@@ -23,7 +33,21 @@
     "descriptionB": "El meu treball connecta les decisions d'enginyeria amb els resultats empresarials. Des d'un SaaS d'estimació de construcció que converteix les dades del full de càlcul en propostes preparades per al client fins a plataformes web que generen ingressos, creo programari al voltant del flux de treball, el risc i valor mesurable que importa a les persones que l'utilitzen.",
     "portfolio_button": "La meva cartera",
     "contact_button": "Contacta amb mi",
-    "about_button": "Sobre mi"
+    "about_button": "Sobre mi",
+    "featured": {
+      "kicker": "Projectes destacats / 06",
+      "title": "Obra seleccionada",
+      "description": "Sis projectes que representen millor com transformo idees ambicioses en programari polit i funcional.",
+      "view_project": "Veure projecte",
+      "open_project": "Obriu el projecte en directe",
+      "view_all": "Exploreu la cartera completa",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Lloc web complet",
+        "available_here": "Disponible aquí",
+        "minecraft_mod": "Minecraft mod"
+      }
+    }
   },
   "about": {
     "title": "Sobre mi",
@@ -119,6 +143,11 @@
         "text": "Un flux de treball d'inventari i POS de pila completa creat amb Angular 17+ i Node.js. Modela les preocupacions operatives d'un sistema B2B: usuaris autenticats, control d'accés basat en rols, precisió de l'inventari i un flux de pagament simulat. El projecte està dissenyat al voltant del treball real que realitza un equip de registre, no només d'un catàleg de funcions del marc.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "NóminaOBOL",
+        "text": "Un sistema local de processament de nòmines construït amb GnuCOBOL, un registre de doble entrada SQLite i un tauler d'operacions Svelte. Utilitza matemàtiques de cents enters, processament de nòmines per lots i un tauler de control de bucle per fer que els fluxos de treball financers siguin explícits, comprovables i operacionalment responsables.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Formatador automàtic JSON i YAML",
         "text": "Una eina de validació i format JSON i YAML basada en navegador integrada a Go i compilada a WebAssembly. Moure el motor d'anàlisi a WASM manté la interacció sensible i local al navegador mentre s'aplica un analitzador real per capturar entrada no vàlida. És un exemple enfocat de triar una arquitectura de temps d'execució per al rendiment, la portabilitat i la confiança dels usuaris.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Un mod de Minecraft que afegeix eines personalitzades, armadures, mobs, blocs, dimensions i moltes més funcions al joc. Creat amb les versions de Java 8-17 per a algunes versions de Minecraft entre 1.16 i 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Joc de la serp",
+        "text": "Un motor Snake polit construït amb Rust i Macroquad, compilat a WebAssembly i representat mitjançant HTML5 Canvas. Combina ticks deterministes de joc de 0,12 segons amb un moviment interpolat suau, fases de joc explícites, controls sensibles, maneig de col·lisió i estat de victòria i una prova centrada. suite que cobreix les regles bàsiques del joc.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Llenguatge de programació Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Codi del tigre:",
     "run_tiger": "Corre Tiger",
     "output": "Sortida:"
+  },
+  "snake": {
+    "title": "Joc de la serp",
+    "description": "Un joc arcade clàssic construït amb Rust i WebAssembly. Recolliu aliments, feu créixer la vostra serp i manteniu-vos lluny de les parets i del vostre propi camí.",
+    "kicker": "ASSEMBLEA WEB / MINIQAD",
+    "section_label": "PARC DE JOCS",
+    "game_title": "Serp",
+    "loading": "S'està carregant el joc...",
+    "ready": "A punt per jugar",
+    "start_failed": "No es pot iniciar el joc",
+    "runtime_failed": "No es pot carregar el temps d'execució del joc",
+    "aria_label": "Joc de la serp. Tecles de fletxa o WASD per moure's, espai per començar o reiniciar, P per fer una pausa."
   },
   "tab": {
     "title": "Patrick Goodwin",

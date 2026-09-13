@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Mashaariicda Mareegaha",
     "tiger": "Luuqadda Shabeelka",
+    "snake": "Ciyaar Mas",
     "portfolio_translator": "Turjumaan Portfolio",
     "formatter": "JSON & YAML Formatter",
-    "contact": "ila soo xidhiidh"
+    "contact": "ila soo xidhiidh",
+    "home_description": "sys.root // dulmar guud",
+    "about_description": "profile engineer // bio & stack",
+    "portfolio_description": "Buug-yaraha software // shaqooyinka muuqda",
+    "projects_description": "qalabka is-dhexgalka & isku-dubaridyada",
+    "tiger_description": "iskudubarid gaar ah & AST visualizer",
+    "snake_description": "ciyaarta Arcade classic / WASM",
+    "portfolio_translator_description": "100+ luqadda matrix & i18n",
+    "formatter_description": "ansax syntax & beddele",
+    "contact_description": "gudbinta furan // la xidhiidh"
   },
   "home": {
     "title": "Injineer buuxa oo buuxa | Badeecada & Nidaamyada",
@@ -23,7 +33,21 @@
     "descriptionB": "Shaqadaydu waxay ku xidhaa go'aamada injineernimada iyo natiijooyinka ganacsiga. Laga soo bilaabo dhismo-qiyaasta SaaS oo u beddela xogta xaashida soo jeedinta diyaarka ah ee macmiilka si ay dakhli-abuurista shabakadaha internetka, waxaan u dhisaa software ku wareegsan socodka shaqada, khatarta, iyo qiimaha la qiyaasi karo ee muhiimka u ah dadka isticmaalaya.",
     "portfolio_button": "Bootfooliyadayda",
     "contact_button": "ila soo xidhiidh",
-    "about_button": "Aniga igu saabsan"
+    "about_button": "Aniga igu saabsan",
+    "featured": {
+      "kicker": "Mashaariicda Muuqda/06",
+      "title": "Shaqada la doortay",
+      "description": "Lix mashruuc oo sida ugu fiican u taagan sida aan ugu beddelo fikradaha hamiga leh ee software-ka si fiican u shaqeeya.",
+      "view_project": "Daawo Mashruuca",
+      "open_project": "Mashruuc Live Furan",
+      "view_all": "Baadh faylalka buuxa",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Websaydh buuxa",
+        "available_here": "Halkan laga heli karo",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Aniga igu saabsan",
@@ -119,6 +143,11 @@
         "text": "POS-buuxa iyo socodka shaqada alaabada oo lagu dhisay xagal 17+ iyo Node.js. Waxay qaabaysaa walaacyada hawlgelinta ee nidaamka B2B: isticmaalayaasha la xaqiijiyay, kontoroolka gelitaanka doorka-ku-salaysan, saxnaanta alaabada, iyo socodka lacag-bixinta jees-jeeska ah. Mashruucu waxa loo nashqadeeyay shaqada dhabta ah ee ay kooxda diwaangelintu qabtaan, ma aha oo kaliya buug-tusaha qaab-dhismeedka.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Mushahar OBOL",
+        "text": "Nidaam ka baaraandega mushaar bixinta maxalli ah oo lagu dhisay GnuCOBOL, Ledge-gel double SQLite, iyo dashboard hawleedka Svelte. Waxay adeegsataa xisaabta-center-center, habaynta mushaharka dufcada, iyo dashboard-ka loopback si ay socodka shaqada maaliyadeed uga dhigto mid cad, la tijaabin karo, oo si hawl-gal ah loola xisaabtami karo.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formater",
         "text": "JSON ku salaysan browserka iyo ansaxinta YAML iyo qalab lagu dhisay Go oo lagu soo ururiyay WebAssembly. U raridda mishiinka wax-kala-soocidda ee WASM waxay ka dhigaysaa is-dhexgalka mid ka jawaabaya oo maxalli ah browserka iyada oo la adeegsanayo parser-ka dhabta ah si loo qabto gelinta aan sax ahayn. Waa tusaale diirada saaraya doorashada qaab dhismeedka runtime ee waxqabadka, qaadida, iyo aaminaadda isticmaalaha.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Mod Minecraft ah oo ku dara qalab gaar ah, hub, mobsiyo, baloogyo, cabbiro, iyo astaamo kaloo badan oo ciyaarta ah. Lagu dhisay noocyada Java 8-17 ee xulashada noocyada Minecraft inta u dhaxaysa 1.16 iyo 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Ciyaar Mas",
+        "text": "Matoorka Snake ee dhalaalaya oo lagu dhisay Rust iyo Macroquad, oo lagu soo ururiyay WebAssembly, oo lagu sameeyay HTML5 Canvas. Waxay isku daraysaa shilinta ciyaarta 0.12-ilbiriqsi oo leh dhaqdhaqaaq toosan oo isdhexgal ah, wejiyada ciyaarta ee cad, kontaroolada jawaabta, isku dhaca iyo maaraynta gobolka-guulaysiga, iyo imtixaan diirada saaraya Suite daboolaya xeerarka ciyaarta xudunta u ah.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Lambarka Shabeelka:",
     "run_tiger": "Orod Shabeel",
     "output": "Natiijada:"
+  },
+  "snake": {
+    "title": "Ciyaar Mas",
+    "description": "Ciyaar arcade caadi ah oo lagu dhisay Rust iyo WebAssembly. Cunto ururi, kori abeesada, oo ka fogow darbiyada iyo raadkaaga.",
+    "kicker": "WEBASSEMBLY / MINIQAAD",
+    "section_label": "GUURKA CIYAARTA",
+    "game_title": "Mas",
+    "loading": "Ciyaarta soo rartay...",
+    "ready": "Diyaar u ah inuu ciyaaro",
+    "start_failed": "Aan awoodin in uu bilaabo ciyaarta",
+    "runtime_failed": "Aan awoodin in la shubo wakhtiga runtu ciyaarta",
+    "aria_label": "Ciyaar abeesada. Furaha fallaadha ama WASD si loo dhaqaaqo, Meel bannaan oo lagu bilaabo ama dib loo bilaabo, P si loo hakiyo."
   },
   "tab": {
     "title": "Patrick Goodwin",

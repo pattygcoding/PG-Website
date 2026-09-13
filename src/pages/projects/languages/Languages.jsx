@@ -1,106 +1,292 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { FiGlobe, FiMinus, FiPlus, FiRefreshCw, FiZap } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import ReactCountryFlag from "react-country-flag";
-import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import langMapData from "@/assets/maps/lang_map.json";
+import islandMarkers from "@/assets/maps/island_markers.json";
 import "./Languages.css";
 
 const Languages = () => {
     const { t } = useLang();
     const mapContainerRef = useRef(null);
     const tooltipRef = useRef(null);
-    const [tooltip, setTooltip] = useState({ visible: false, x: 0, y: 0, content: "", country: null });
+    const touchStartPos = useRef({ x: 0, y: 0 });
+    const lastTapTime = useRef(0);
+    const [tooltip, setTooltip] = useState({
+        visible: false,
+        x: 0,
+        y: 0,
+        content: "",
+        country: null
+    });
+    const [mapScale, setMapScale] = useState(1);
+    const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.innerWidth <= 768);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+    // Dismiss tooltip when clicking/tapping outside geography paths or markers
+    useEffect(() => {
+        if (!tooltip.visible) return;
+
+        const handleOutsideClick = (e) => {
+            const targetTag = e.target?.tagName?.toLowerCase();
+            if (targetTag !== "path" && targetTag !== "circle") {
+                setTooltip({ visible: false, x: 0, y: 0, content: "", country: null });
+            }
+        };
+
+        const timer = setTimeout(() => {
+            document.addEventListener("click", handleOutsideClick);
+            document.addEventListener("touchstart", handleOutsideClick);
+        }, 100);
+
+        return () => {
+            clearTimeout(timer);
+            document.removeEventListener("click", handleOutsideClick);
+            document.removeEventListener("touchstart", handleOutsideClick);
+        };
+    }, [tooltip.visible]);
 
     // Get data from imported JSON
     const COUNTRIES = langMapData.countries;
     const LANGUAGES = langMapData.languages;
     const COUNTRY_NAME_MAPPING = langMapData.countryNameMapping;
 
-    // Group languages by country for easy lookup
+    // Group languages by country for easy lookup (filtering out any unmapped or missing language codes)
     const countryLanguages = Object.keys(COUNTRIES).reduce((acc, countryCode) => {
         const country = COUNTRIES[countryCode];
-        acc[countryCode] = country.languages.map(langCode => ({
-            code: langCode,
-            ...LANGUAGES[langCode]
-        }));
+        acc[countryCode] = (country.languages || [])
+            .map(langCode => {
+                const langObj = LANGUAGES[langCode];
+                if (!langObj) return null;
+                return {
+                    code: langCode,
+                    ...langObj
+                };
+            })
+            .filter(Boolean);
         return acc;
     }, {});
 
+    const resolveCountryISO2 = (geoOrName) => {
+        if (!geoOrName) return null;
+        const countryName = typeof geoOrName === "string" 
+            ? geoOrName 
+            : (geoOrName.properties?.NAME || geoOrName.properties?.NAME_EN || geoOrName.properties?.name || geoOrName.properties?.ADMIN);
+        
+        if (!countryName) return null;
 
-    const handleMapCountryHover = (geo, event) => {
-        const countryName = geo.properties.name;
-
-        moveTooltip(event);
-
-        let countryISO2 = null;
-
-        if (!countryISO2 && countryName) {
-            countryISO2 = COUNTRY_NAME_MAPPING[countryName];
+        if (COUNTRY_NAME_MAPPING[countryName]) {
+            return COUNTRY_NAME_MAPPING[countryName];
         }
 
-        if (!countryISO2 && countryName) {
-            // Try some common variations
-            const variations = [
-                countryName.replace(/\s+/g, ''),
-                countryName.replace(' and ', ' & '),
-                countryName.replace(' & ', ' and '),
-                countryName.replace('Rep.', 'Republic'),
-                countryName.replace('Republic', 'Rep.'),
-                countryName.replace('Democratic Republic of the', 'DRC'),
-                countryName.replace('United States', 'USA'),
-                countryName.replace('United Kingdom', 'UK')
-            ];
+        const variations = [
+            countryName.replace(/\s+/g, ''),
+            countryName.replace(' and ', ' & '),
+            countryName.replace(' & ', ' and '),
+            countryName.replace('Rep.', 'Republic'),
+            countryName.replace('Republic', 'Rep.'),
+            countryName.replace('Democratic Republic of the', 'DRC'),
+            countryName.replace('United States', 'USA'),
+            countryName.replace('United Kingdom', 'UK')
+        ];
 
-            for (const variation of variations) {
-                if (COUNTRY_NAME_MAPPING[variation]) {
-                    countryISO2 = COUNTRY_NAME_MAPPING[variation];
-                    break;
-                }
+        for (const variation of variations) {
+            if (COUNTRY_NAME_MAPPING[variation]) {
+                return COUNTRY_NAME_MAPPING[variation];
             }
         }
 
-        if (countryISO2 && countryLanguages[countryISO2]) {
-            const languages = countryLanguages[countryISO2];
-            const languageNames = languages.map(lang => lang.nativeName).join(", ");
-            const content = `${countryName} ${t("languages.world_map.languages_label") || "Languages"}: ${languageNames}`;
-            setTooltip({
-                visible: true,
-                x: event.clientX + 12,
-                y: event.clientY - 12,
-                content,
-                country: countryISO2
-            });
-        } else if (countryName) {
-            // Show country name even if no languages supported
-            setTooltip({
-                visible: true,
-                x: event.clientX + 12,
-                y: event.clientY - 12,
-                content: `${countryName} - ${t("languages.tooltips.no_language_support") || "No language support"}`,
-                country: null
-            });
+        // Direct lookup by ISO2 code if countryName matches a code
+        const upper = countryName.toUpperCase();
+        if (COUNTRIES[upper]) return upper;
+
+        // Search by country name in COUNTRIES object
+        for (const [code, c] of Object.entries(COUNTRIES)) {
+            if (c.name && c.name.toLowerCase() === countryName.toLowerCase()) {
+                return code;
+            }
         }
+
+        return null;
+    };
+
+    const getTooltipDataForCountry = (countryISO2, fallbackName) => {
+        const countryInfo = countryISO2 ? COUNTRIES[countryISO2] : null;
+        const displayName = countryInfo?.name || fallbackName || countryISO2;
+
+        if (countryISO2 && countryLanguages[countryISO2] && countryLanguages[countryISO2].length > 0) {
+            const languages = countryLanguages[countryISO2];
+            const languageNames = languages
+                .map(lang => lang.nativeName || lang.name)
+                .filter(Boolean)
+                .join(", ");
+            const content = `${displayName} ${t("languages.world_map.languages_label") || "Languages"}: ${languageNames}`;
+            return { content, country: countryISO2 };
+        } else if (displayName) {
+            const content = `${displayName} - ${t("languages.tooltips.no_language_support") || "No language support"}`;
+            return { content, country: null };
+        }
+
+        return null;
+    };
+
+    const getCountryTooltipData = (geo) => {
+        const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
+        const countryISO2 = resolveCountryISO2(geo);
+        return getTooltipDataForCountry(countryISO2, countryName);
+    };
+
+    const showCountryTooltipAt = (countryCode, fallbackName, clientX, clientY) => {
+        const data = getTooltipDataForCountry(countryCode, fallbackName);
+        if (!data) return;
+
+        const padding = 12;
+        const tooltipWidth = 260;
+        const tooltipHeight = 50;
+
+        let x = clientX + 12;
+        let y = clientY - 40;
+
+        if (x + tooltipWidth > window.innerWidth - padding) {
+            x = Math.max(padding, clientX - tooltipWidth - 12);
+        }
+        if (x < padding) {
+            x = padding;
+        }
+        if (y < padding) {
+            y = clientY + 24;
+        }
+        if (y + tooltipHeight > window.innerHeight - padding) {
+            y = window.innerHeight - tooltipHeight - padding;
+        }
+
+        setTooltip({
+            visible: true,
+            x,
+            y,
+            content: data.content,
+            country: data.country
+        });
+    };
+
+    const showTooltipAt = (geo, clientX, clientY) => {
+        const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
+        const countryISO2 = resolveCountryISO2(geo);
+        showCountryTooltipAt(countryISO2, countryName, clientX, clientY);
+    };
+
+    const handleMapCountryHover = (geo, event) => {
+        if (isMobile) return;
+
+        const data = getCountryTooltipData(geo);
+        if (!data) return;
+
+        moveTooltip(event);
+
+        setTooltip({
+            visible: true,
+            x: event.clientX + 12,
+            y: event.clientY - 12,
+            content: data.content,
+            country: data.country
+        });
+    };
+
+    const handleMarkerHover = (marker, event) => {
+        if (isMobile) return;
+
+        const data = getTooltipDataForCountry(marker.code, marker.name);
+        if (!data) return;
+
+        moveTooltip(event);
+
+        setTooltip({
+            visible: true,
+            x: event.clientX + 12,
+            y: event.clientY - 12,
+            content: data.content,
+            country: data.country
+        });
     };
 
     const handleMapCountryLeave = () => {
+        if (isMobile) return;
         setTooltip({ visible: false, x: 0, y: 0, content: "", country: null });
     };
 
     const moveTooltip = (event) => {
+        if (isMobile) return;
         if (tooltipRef.current) {
             tooltipRef.current.style.transform = `translate3d(${event.clientX + 12}px, ${event.clientY - 12}px, 0)`;
         }
     };
 
+    const handleTouchStart = (event) => {
+        if (event.touches && event.touches.length > 0) {
+            touchStartPos.current = {
+                x: event.touches[0].clientX,
+                y: event.touches[0].clientY
+            };
+        }
+    };
+
+    const handleTouchEnd = (geo, event) => {
+        if (event.changedTouches && event.changedTouches.length > 0) {
+            const touch = event.changedTouches[0];
+            const dist = Math.hypot(
+                touch.clientX - touchStartPos.current.x,
+                touch.clientY - touchStartPos.current.y
+            );
+            if (dist < 10) {
+                lastTapTime.current = Date.now();
+                showTooltipAt(geo, touch.clientX, touch.clientY);
+            }
+        }
+    };
+
+    const handleMarkerTouchEnd = (marker, event) => {
+        if (event.changedTouches && event.changedTouches.length > 0) {
+            const touch = event.changedTouches[0];
+            const dist = Math.hypot(
+                touch.clientX - touchStartPos.current.x,
+                touch.clientY - touchStartPos.current.y
+            );
+            if (dist < 10) {
+                lastTapTime.current = Date.now();
+                showCountryTooltipAt(marker.code, marker.name, touch.clientX, touch.clientY);
+            }
+        }
+    };
+
+    const handleMapCountryClick = (geo, event) => {
+        if (Date.now() - lastTapTime.current < 500) return;
+        const clientX = event.clientX || 0;
+        const clientY = event.clientY || 0;
+        showTooltipAt(geo, clientX, clientY);
+    };
+
+    const handleMarkerClick = (marker, event) => {
+        if (Date.now() - lastTapTime.current < 500) return;
+        const clientX = event.clientX || 0;
+        const clientY = event.clientY || 0;
+        showCountryTooltipAt(marker.code, marker.name, clientX, clientY);
+    };
+
     const setMapTransforming = (isTransforming) => {
         mapContainerRef.current?.classList.toggle("is-transforming", isTransforming);
-
-        if (tooltipRef.current) {
-            tooltipRef.current.style.visibility = isTransforming ? "hidden" : "";
+        if (isTransforming && !isMobile) {
+            setTooltip({ visible: false, x: 0, y: 0, content: "", country: null });
         }
     };
 
@@ -154,7 +340,11 @@ const Languages = () => {
                             <span>02 / COVERAGE</span>
                             <div>
                                 <h2>{t("languages.world_map.title") || "Interactive World Map"}</h2>
-                                <p>{t("languages.world_map.description") || "Hover over countries on the map to see their supported languages:"}</p>
+                                <p>
+                                    {isMobile
+                                        ? (t("languages.world_map.description") || "").replace(/hover over/i, "click or tap on") || "Click or tap on countries on the map to see their supported languages:"
+                                        : (t("languages.world_map.description") || "Hover over countries on the map to see their supported languages:")}
+                                </p>
                             </div>
                         </div>
 
@@ -163,17 +353,23 @@ const Languages = () => {
                             <TransformWrapper
                                 initialScale={1}
                                 minScale={0.5}
-                                maxScale={4}
+                                maxScale={12}
                                 centerZoomedOut
                                 limitToBounds
-                                wheel={{ step: 0.08 }}
-                                doubleClick={{ disabled: false }}
+                                smooth
+                                wheel={{ step: 0.15 }}
+                                doubleClick={{ disabled: false, step: 1.5 }}
                                 pinch={{ step: 5 }}
                                 panning={{ excluded: ["button", "input", "textarea", "select"], velocityDisabled: true }}
                                 onPanningStart={() => setMapTransforming(true)}
                                 onPanningStop={() => setMapTransforming(false)}
                                 onZoomStart={() => setMapTransforming(true)}
-                                onZoomStop={() => setMapTransforming(false)}
+                                onZoomStop={(ref) => {
+                                    setMapTransforming(false);
+                                    if (ref.state?.scale) {
+                                        setMapScale(ref.state.scale);
+                                    }
+                                }}
                             >
                                 {({ zoomIn, zoomOut, resetTransform }) => (
                                     <>
@@ -191,34 +387,28 @@ const Languages = () => {
                                                     projectionConfig={{
                                                         scale: 140,
                                                     }}
+                                                    style={{
+                                                        width: "100%",
+                                                        height: "100%",
+                                                        shapeRendering: "geometricPrecision"
+                                                    }}
                                                 >
                                                     <Geographies
-                                                        geography="https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"
+                                                        geography={`${process.env.PUBLIC_URL || ""}/assets/maps/countries-50m.json`}
                                                         stroke="#FFFFFF"
                                                         strokeWidth={0.5}
                                                     >
                                                         {({ geographies }) =>
                                                             geographies.map((geo) => {
-                                                               
-                                                                const countryName = geo.properties.NAME || geo.properties.NAME_EN || geo.properties.name || geo.properties.ADMIN;
-
-                                                                // Try multiple methods to get ISO2 code
-                                                                let countryISO2 = null;
-
-
-
-                                                                // Method 3: Country name mapping
-                                                                if (!countryISO2 && countryName) {
-                                                                    countryISO2 = COUNTRY_NAME_MAPPING[countryName];
-                                                                }
-
-                                                                const hasLanguages = (countryISO2 && countryLanguages[countryISO2]);
+                                                                const countryISO2 = resolveCountryISO2(geo);
+                                                                const hasLanguages = Boolean(countryISO2 && countryLanguages[countryISO2] && countryLanguages[countryISO2].length > 0);
+                                                                const isSelected = Boolean(tooltip.visible && tooltip.country && tooltip.country === countryISO2);
 
                                                                 return (
                                                                     <Geography
                                                                         key={geo.rsmKey}
                                                                         geography={geo}
-                                                                        fill={hasLanguages ? "#ef3e32" : "#303238"}
+                                                                        fill={isSelected ? (hasLanguages ? "#b3261e" : "#222428") : (hasLanguages ? "#ef3e32" : "#303238")}
                                                                         stroke="#FFFFFF"
                                                                         strokeWidth={0.5}
                                                                         onMouseEnter={(event) => {
@@ -230,16 +420,66 @@ const Languages = () => {
                                                                         onMouseMove={(event) => {
                                                                             moveTooltip(event);
                                                                         }}
+                                                                        onTouchStart={(event) => {
+                                                                            handleTouchStart(event);
+                                                                        }}
+                                                                        onTouchEnd={(event) => {
+                                                                            handleTouchEnd(geo, event);
+                                                                        }}
+                                                                        onClick={(event) => {
+                                                                            event.stopPropagation();
+                                                                            handleMapCountryClick(geo, event);
+                                                                        }}
                                                                         style={{
                                                                             default: { outline: "none" },
-                                                                            hover: { fill: hasLanguages ? "#ff6258" : "#3d4047", outline: "none", cursor: "pointer" },
-                                                                            pressed: { outline: "none" }
+                                                                            hover: { fill: hasLanguages ? "#b3261e" : "#222428", outline: "none", cursor: "pointer" },
+                                                                            pressed: { fill: hasLanguages ? "#9c1b14" : "#1a1b1e", outline: "none" }
                                                                         }}
                                                                     />
                                                                 );
                                                             })
                                                         }
                                                     </Geographies>
+                                                    {islandMarkers.map((marker) => {
+                                                        const hasLanguages = Boolean(countryLanguages[marker.code]);
+                                                        const isMarkerSelected = Boolean(tooltip.visible && tooltip.country && tooltip.country === marker.code);
+                                                        const currentScale = mapScale || 1;
+                                                        const markerRadius = (2.8 * Math.pow(currentScale, 0.35)) / currentScale;
+                                                        const markerStrokeWidth = 0.7 / currentScale;
+                                                        return (
+                                                            <Marker
+                                                                key={`island-${marker.code}`}
+                                                                coordinates={marker.coordinates}
+                                                                onMouseEnter={(event) => {
+                                                                    handleMarkerHover(marker, event);
+                                                                }}
+                                                                onMouseLeave={() => {
+                                                                    handleMapCountryLeave();
+                                                                }}
+                                                                onMouseMove={(event) => {
+                                                                    moveTooltip(event);
+                                                                }}
+                                                                onTouchStart={(event) => {
+                                                                    handleTouchStart(event);
+                                                                }}
+                                                                onTouchEnd={(event) => {
+                                                                    handleMarkerTouchEnd(marker, event);
+                                                                }}
+                                                                onClick={(event) => {
+                                                                    event.stopPropagation();
+                                                                    handleMarkerClick(marker, event);
+                                                                }}
+                                                            >
+                                                                <circle
+                                                                    r={markerRadius}
+                                                                    fill={isMarkerSelected ? (hasLanguages ? "#b3261e" : "#222428") : (hasLanguages ? "#ef3e32" : "#303238")}
+                                                                    stroke="#FFFFFF"
+                                                                    strokeWidth={markerStrokeWidth}
+                                                                    className="island-marker"
+                                                                />
+                                                            </Marker>
+                                                        );
+                                                    })}
                                                 </ComposableMap>
                                             </div>
                                         </TransformComponent>

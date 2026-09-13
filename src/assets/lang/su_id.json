@@ -6,9 +6,19 @@
     "portfolio": "Portopolio",
     "projects": "Proyék Website",
     "tiger": "Basa Macan",
+    "snake": "Kaulinan oray",
     "portfolio_translator": "Portopolio Panarjamah",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Kontak kuring"
+    "contact": "Kontak kuring",
+    "home_description": "sys.root // Tinjauan utama",
+    "about_description": "profil insinyur // bio & tumpukan",
+    "portfolio_description": "katalog software // karya unggulan",
+    "projects_description": "parabot interaktif & compiler",
+    "tiger_description": "kompiler khusus & visualizer AST",
+    "snake_description": "kaulinan arcade Palasik / WASM",
+    "portfolio_translator_description": "100+ matriks basa & i18n",
+    "formatter_description": "validator sintaksis & konverter",
+    "contact_description": "transmisi kabuka // ngahubungan"
   },
   "home": {
     "title": "Senior Full-stack Insinyur | Produk & Sistem",
@@ -23,7 +33,21 @@
     "descriptionB": "Karya kuring nyambungkeun kaputusan rékayasa kana hasil bisnis. Tina SaaS perkiraan-konstruksi anu ngarobih data spreadsheet janten usulan anu siap klien pikeun platform wéb anu ngahasilkeun pendapatan, kuring ngawangun parangkat lunak sakitar alur kerja, résiko, sareng nilai ukuran anu penting pikeun jalma anu ngagunakeunana.",
     "portfolio_button": "Portopolio abdi",
     "contact_button": "Kontak kuring",
-    "about_button": "Tentang abdi"
+    "about_button": "Tentang abdi",
+    "featured": {
+      "kicker": "Proyék Diulas / 06",
+      "title": "Karya Dipilih",
+      "description": "Genep proyék anu pangalusna ngagambarkeun kumaha kuring ngarobah gagasan ambisius kana digosok, software digawé.",
+      "view_project": "Témbongkeun Project",
+      "open_project": "Buka Live Project",
+      "view_all": "Ngajalajah portopolio pinuh",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Website lengkep",
+        "available_here": "Sadia Ieuh",
+        "minecraft_mod": "Minecraft Emod"
+      }
+    }
   },
   "about": {
     "title": "Tentang abdi",
@@ -119,6 +143,11 @@
         "text": "A POS full-tumpukan jeung workflow inventory diwangun ku sudut 17+ jeung Node.js. Éta modél masalah operasional sistem B2B: pangguna anu dioténtikasi, kontrol aksés dumasar-peran, akurasi inventaris, sareng aliran pembayaran bohongan. Proyék ieu dirancang sabudeureun karya sabenerna hiji tim register ngalakukeun, teu ngan hiji katalog fitur kerangka.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Sistem pamrosésan gaji lokal diwangun ku GnuCOBOL, ledger ganda-éntri SQLite, sareng dasbor operasi Svelte. Éta ngagunakeun math integer-cent, pamrosesan gaji angkatan, sareng dasbor loopback pikeun ngajantenkeun alur kerja kauangan eksplisit, tiasa diuji, sareng akuntabel sacara operasional.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Alat validasi sareng pormat JSON sareng YAML basis browser anu diwangun dina Go sareng disusun kana WebAssembly. Mindahkeun mesin parsing kana WASM ngajaga interaksi responsif sareng lokal ka browser bari nerapkeun parser nyata pikeun nyekel input anu teu sah. Ieu mangrupikeun conto anu difokuskeun pikeun milih arsitéktur runtime pikeun pagelaran, portabilitas, sareng kapercayaan pangguna.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Emod",
         "text": "Modél Minecraft anu nambihan alat khusus, waja, mobs, blok, dimensi, sareng seueur deui fitur pikeun kaulinan. Diwangun ku vérsi Java 8-17 pikeun vérsi Minecraft anu dipilih antara 1.16 sareng 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Kaulinan oray",
+        "text": "Mesin Oray anu digosok diwangun ku Rust sareng Macroquad, disusun kana WebAssembly, sareng didamel ngalangkungan HTML5 Canvas. Ieu ngagabungkeun deterministik 0.12 detik game ticks jeung gerakan interpolasi lemes, fase game eksplisit, kontrol responsif, tabrakan jeung win-state penanganan, jeung test fokus. suite ngawengku aturan kaulinan inti.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Basa Pemrograman Macan",
@@ -252,6 +286,18 @@
     "tiger_code": "Kode Macan:",
     "run_tiger": "Lumpat Macan",
     "output": "Kaluaran:"
+  },
+  "snake": {
+    "title": "Kaulinan oray",
+    "description": "Kaulinan arcade klasik anu diwangun ku Rust sareng WebAssembly. Kumpulkeun dahareun, tumuwuh oray anjeun, sarta tetep jelas tina tembok jeung jalan satapak anjeun sorangan.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "TAMAN ulin",
+    "game_title": "oray",
+    "loading": "Ngamuat kaulinan...",
+    "ready": "Siap maén",
+    "start_failed": "Teu bisa ngamimitian kaulinan",
+    "runtime_failed": "Teu bisa ngamuat runtime kaulinan",
+    "aria_label": "Kaulinan oray. Tombol panah atanapi WASD pikeun mindahkeun, Spasi pikeun ngamimitian atanapi balikan deui, P pikeun ngareureuhkeun."
   },
   "tab": {
     "title": "Patrick Goodwin",

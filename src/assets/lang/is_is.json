@@ -6,9 +6,19 @@
     "portfolio": "Eignasafn",
     "projects": "Vefverkefni",
     "tiger": "Tiger tungumál",
+    "snake": "Snake leikur",
     "portfolio_translator": "Portfolio þýðandi",
     "formatter": "JSON & YAML formatter",
-    "contact": "Hafðu samband við mig"
+    "contact": "Hafðu samband við mig",
+    "home_description": "sys.root // aðalyfirlit",
+    "about_description": "verkfræðingasnið // líffræði og stafla",
+    "portfolio_description": "hugbúnaðarlisti // sýnd verk",
+    "projects_description": "gagnvirk verkfæri og þýðendur",
+    "tiger_description": "sérsniðinn þýðandi og AST sjónrænni",
+    "snake_description": "klassískur spilakassaleikur / WASM",
+    "portfolio_translator_description": "100+ tungumálafylki & i18n",
+    "formatter_description": "setningafræðiprófari og breytir",
+    "contact_description": "opin sending // hafðu samband"
   },
   "home": {
     "title": "Senior full-Stack verkfræðingur | Vara og kerfi",
@@ -23,7 +33,21 @@
     "descriptionB": "Starf mitt tengir verkfræðilegar ákvarðanir við afkomu fyrirtækja. Allt frá byggingarmati SaaS sem breytir gögnum í töflureikni í tillögur sem eru tilbúnar fyrir viðskiptavini yfir í tekjuskapandi vefpalla, ég byggi hugbúnað í kringum verkflæði, áhættu og mælanleg verðmæti sem skipta máli fyrir fólkið sem notar það.",
     "portfolio_button": "Eignasafnið mitt",
     "contact_button": "Hafðu samband við mig",
-    "about_button": "Um mig"
+    "about_button": "Um mig",
+    "featured": {
+      "kicker": "Valin verkefni / 06",
+      "title": "Valið verk",
+      "description": "Sex verkefni sem sýna best hvernig ég breyti metnaðarfullum hugmyndum í fágaðan, virkan hugbúnað.",
+      "view_project": "Skoða verkefni",
+      "open_project": "Opnaðu Live Project",
+      "view_all": "Skoðaðu eignasafnið í heild sinni",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Heil vefsíða",
+        "available_here": "Fáanlegt Hér",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Um mig",
@@ -119,6 +143,11 @@
         "text": "Verkflæði fyrir sölu- og birgðasölu í fullum stafla byggt með Angular 17+ og Node.js. Það mótar rekstraráhyggjur B2B kerfis: sannvotta notendur, hlutverkatengda aðgangsstýringu, birgðanákvæmni og sýndargreiðsluflæði. Verkefnið er hannað í kringum raunverulega vinnu sem skráateymi framkvæmir, ekki bara vörulista yfir rammaeiginleika.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Launaskrá OBOL",
+        "text": "Staðbundið launavinnslukerfi byggt með GnuCOBOL, SQLite tvífærslubók og Svelte rekstrarmælaborði. Það notar heiltölu-cent stærðfræði, lotuvinnslu launaskrár og afturlykkja mælaborð til að gera fjárhagslegt verkflæði skýrt, prófanlegt og rekstrarlega ábyrgt.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML sjálfvirkt formatter",
         "text": "Vafrabundið JSON og YAML staðfestingar- og sniðverkfæri innbyggt í Go og sett saman í WebAssembly. Með því að færa þáttunarvélina yfir í WASM heldur samskiptin viðbragðsgóð og staðbundin fyrir vafranum á meðan raunverulegur flokkari er notaður til að ná ógildu inntaki. Það er einbeitt dæmi um að velja keyrsluarkitektúr fyrir frammistöðu, flytjanleika og traust notenda.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod sem bætir sérsniðnum verkfærum, brynjum, múg, kubbum, víddum og mörgum fleiri eiginleikum í leikinn. Byggt með Java útgáfum 8-17 fyrir valdar Minecraft útgáfur á milli 1.16 og 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Snake leikur",
+        "text": "Fáguð Snake vél smíðuð með Rust og Macroquad, sett saman í WebAssembly og birt í gegnum HTML5 Canvas. Það sameinar ákveðinn 0,12 sekúndna leikjatikk með mjúkum innskotshreyfingum, skýrum leikstigum, móttækilegum stjórntækjum, meðhöndlun áreksturs og vinna-ástands, og einbeitt prófun föruneyti sem nær yfir helstu leikreglur.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger forritunarmál",
@@ -252,6 +286,18 @@
     "tiger_code": "Tígriskóði:",
     "run_tiger": "Hlaupa Tiger",
     "output": "Framleiðsla:"
+  },
+  "snake": {
+    "title": "Snake leikur",
+    "description": "Klassískur spilakassaleikur byggður með Rust og WebAssembly. Safnaðu mat, ræktaðu snákinn þinn og haltu þig frá veggjunum og þinni eigin slóð.",
+    "kicker": "VEFSAMBAND / MINIQAD",
+    "section_label": "LEIKVALLUR",
+    "game_title": "Snákur",
+    "loading": "Hleður leik...",
+    "ready": "Tilbúinn til leiks",
+    "start_failed": "Ekki tókst að hefja leikinn",
+    "runtime_failed": "Ekki er hægt að hlaða spilunartíma",
+    "aria_label": "Snáka leikur. Örvatakkana eða WASD til að færa, bil til að byrja eða endurræsa, P til að gera hlé."
   },
   "tab": {
     "title": "Patrick Goodwin",

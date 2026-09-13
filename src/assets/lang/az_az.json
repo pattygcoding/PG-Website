@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Veb sayt layihələri",
     "tiger": "Pələng dili",
+    "snake": "İlan Oyunu",
     "portfolio_translator": "Portfolio Tərcüməçi",
     "formatter": "JSON və YAML Formatlayıcısı",
-    "contact": "Mənimlə əlaqə saxlayın"
+    "contact": "Mənimlə əlaqə saxlayın",
+    "home_description": "sys.root // əsas baxış",
+    "about_description": "mühəndis profili // bio və yığın",
+    "portfolio_description": "proqram kataloqu // seçilən əsərlər",
+    "projects_description": "interaktiv alətlər və kompilyatorlar",
+    "tiger_description": "xüsusi tərtibçi və AST vizualizatoru",
+    "snake_description": "klassik arcade oyunu / WASM",
+    "portfolio_translator_description": "100+ dil matrisi və i18n",
+    "formatter_description": "sintaksis təsdiqləyicisi və çevirici",
+    "contact_description": "açıq ötürülmə // əlaqə qurmaq"
   },
   "home": {
     "title": "Baş Tam Stack Mühəndisi | Məhsul və Sistemlər",
@@ -23,7 +33,21 @@
     "descriptionB": "İşim mühəndislik qərarlarını biznes nəticələri ilə əlaqələndirir. Cədvəl məlumatlarını müştəri üçün hazır təkliflərə çevirən tikinti-təxmin edən SaaS-dən gəlir gətirən veb platformalara qədər, mən iş axını, risk və risklər ətrafında proqram təminatı qururam. istifadə edən insanlar üçün əhəmiyyətli olan ölçülə bilən dəyər.",
     "portfolio_button": "Mənim Portfolio",
     "contact_button": "Mənimlə əlaqə saxlayın",
-    "about_button": "Haqqımda"
+    "about_button": "Haqqımda",
+    "featured": {
+      "kicker": "Seçilmiş Layihələr / 06",
+      "title": "Seçilmiş İş",
+      "description": "İddialı ideyaları cilalanmış, işləyən proqrama necə çevirdiyimi ən yaxşı şəkildə təmsil edən altı layihə.",
+      "view_project": "Layihəyə Baxın",
+      "open_project": "Canlı Layihəni açın",
+      "view_all": "Tam portfeli araşdırın",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Tam Veb sayt",
+        "available_here": "Burada mövcuddur",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Haqqımda",
@@ -119,6 +143,11 @@
         "text": "Angular 17+ və Node.js ilə qurulmuş tam yığın POS və inventar iş prosesi. O, B2B sisteminin əməliyyat problemlərini modelləşdirir: autentifikasiya edilmiş istifadəçilər, rola əsaslanan giriş nəzarəti, inventar dəqiqliyi və saxta ödəniş axını. Layihə yalnız çərçivə xüsusiyyətlərinin kataloqu deyil, qeydiyyat komandasının yerinə yetirdiyi faktiki iş ətrafında hazırlanmışdır.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Əmək haqqı OBOL",
+        "text": "GnuCOBOL, SQLite ikili qeyd dəftəri və Svelte əməliyyatlar paneli ilə qurulmuş yerli əmək haqqı emal sistemi. O, maliyyə iş axınlarını aydın, sınaqdan keçirilə bilən və əməliyyat baxımından hesabatlı etmək üçün tam faizlik riyaziyyatdan, toplu əmək haqqının işlənməsindən və geri dönmə tablosundan istifadə edir.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Avtomatik Formatlayıcı",
         "text": "Brauzer əsaslı JSON və YAML doğrulama və formatlaşdırma aləti Go-da qurulmuş və WebAssembly-də tərtib edilmişdir. Təhlil mühərrikinin WASM-ə köçürülməsi etibarsız daxiletməni tutmaq üçün real təhlilçi tətbiq edərkən qarşılıqlı əlaqəni brauzer üçün cavabdeh və yerli saxlayır. Performans, daşınma və istifadəçi etibarı üçün iş vaxtı arxitekturasının seçilməsinin diqqət mərkəzində olan nümunəsidir.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Oyuna xüsusi alətlər, zirehlər, dəstələr, bloklar, ölçülər və daha çox funksiyalar əlavə edən Minecraft Mod. 1.16 və 1.20 arasında seçilmiş Minecraft versiyaları üçün Java 8-17 versiyaları ilə qurulmuşdur.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "İlan Oyunu",
+        "text": "Rust və Macroquad ilə qurulmuş, WebAssembly-də tərtib edilmiş və HTML5 Canvas vasitəsilə təqdim edilmiş cilalanmış Snake mühərriki. O, deterministik 0,12 saniyəlik oyun gənələrini hamar interpolyasiya edilmiş hərəkət, açıq oyun mərhələləri, cavab verən idarəetmələr, toqquşma və qalibiyyət vəziyyətinin idarə edilməsi və fokuslanmış test ilə birləşdirir. əsas oyun qaydalarını əhatə edən paket.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Proqramlaşdırma Dili",
@@ -252,6 +286,18 @@
     "tiger_code": "Pələng Kodu:",
     "run_tiger": "Run Tiger",
     "output": "Çıxış:"
+  },
+  "snake": {
+    "title": "İlan Oyunu",
+    "description": "Rust və WebAssembly ilə qurulmuş klassik arcade oyunu. Yemək toplayın, ilanınızı böyütün və divarlardan və öz cığırınızdan uzaqlaşın.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "OYUN MEYDANI",
+    "game_title": "ilan",
+    "loading": "Oyun yüklənir...",
+    "ready": "Oynamağa hazırdır",
+    "start_failed": "Oyuna başlamaq mümkün deyil",
+    "runtime_failed": "Oyunun icra müddətini yükləmək mümkün deyil",
+    "aria_label": "İlan oyunu. Hərəkət etmək üçün ox düymələri və ya WASD, başlamaq və ya yenidən başlatmaq üçün boşluq, fasilə üçün P."
   },
   "tab": {
     "title": "Patrik Qudvin",

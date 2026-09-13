@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Verkkosivustoprojektit",
     "tiger": "Tiikerin kieli",
+    "snake": "Käärmepeli",
     "portfolio_translator": "Portfolion kääntäjä",
     "formatter": "JSON- ja YAML-muotoilija",
-    "contact": "Ota minuun yhteyttä"
+    "contact": "Ota minuun yhteyttä",
+    "home_description": "sys.root //pääkatsaus",
+    "about_description": "insinöörin profiili // bio & pino",
+    "portfolio_description": "ohjelmistoluettelo// varustellut työt",
+    "projects_description": "vuorovaikutteiset työkalut ja kääntäjät",
+    "tiger_description": "mukautettu kääntäjä ja AST-visualisoija",
+    "snake_description": "klassinen arcade-peli / WASM",
+    "portfolio_translator_description": "Yli 100 kielimatriisia & i18n",
+    "formatter_description": "syntaksin validoija ja muunnin",
+    "contact_description": "avaa lähetys // ota yhteyttä"
   },
   "home": {
     "title": "Vanhempi Full-Stack-insinööri | Tuotteet ja järjestelmät",
@@ -23,7 +33,21 @@
     "descriptionB": "Työni yhdistää insinööripäätökset liiketoiminnan tuloksiin. Rakennan arvioiva SaaS, joka muuttaa laskentataulukkotiedot asiakasvalmiiksi ehdotuksiksi tuloja tuottaviin verkkoalustoihin. Rakennan ohjelmistoja työnkulun, riskien ja mitattavissa oleva arvo, jolla on merkitystä sitä käyttäville ihmisille.",
     "portfolio_button": "Oma portfolioni",
     "contact_button": "Ota minuun yhteyttä",
-    "about_button": "Tietoja minusta"
+    "about_button": "Tietoja minusta",
+    "featured": {
+      "kicker": "Esitellyt projektit",
+      "title": "Valittu työ",
+      "description": "Kuusi projektia, jotka edustavat parhaiten sitä, miten muutan kunnianhimoiset ideat kiillotetuiksi, toimiviksi ohjelmistoiksi.",
+      "view_project": "Näytä projekti",
+      "open_project": "Avaa live-projekti",
+      "view_all": "Tutustu koko portfolioon",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Koko verkkosivusto",
+        "available_here": "Käytettävissä täällä.",
+        "minecraft_mod": "Minecraft-moduuli"
+      }
+    }
   },
   "about": {
     "title": "Tietoja minusta",
@@ -119,6 +143,11 @@
         "text": "Täysi pino myyntipiste- ja varastotyönkulku, joka on rakennettu Angular 17+:lla ja Node.js:llä. Se mallintaa B2B-järjestelmän toiminnallisia huolenaiheita: todennetut käyttäjät, roolipohjainen kulunvalvonta, varaston tarkkuus ja valemaksuvirta. Projekti on suunniteltu rekisteritiimin todellisen työn ympärille, ei vain kehysominaisuuksien luetteloon.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PalkanmaksuOBOL",
+        "text": "Paikallinen palkanlaskentajärjestelmä, joka on rakennettu GnuCOBOLilla, SQLite-kaksoiskirjauksella ja Svelte-toimintojen koontinäytöllä. Se käyttää kokonaislukusenttistä matematiikkaa, palkanlaskennan käsittelyä ja silmukan hallintapaneelia tehdäkseen taloudellisista työnkuluista selkeitä, testattavia ja toiminnallisesti vastuullisia.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON ja YAML automaattinen muotoilu",
         "text": "Selainpohjainen JSON- ja YAML-tarkistus- ja -muotoilutyökalu, joka on sisäänrakennettu Gossa ja käännetty WebAssemblyyn. Jäsennysmoottorin siirtäminen WASM:iin pitää vuorovaikutuksen responsiivisena ja paikallisena selaimelle samalla kun käytetään oikeaa jäsentäjää virheellisen syötteen havaitsemiseksi. Se on keskittynyt esimerkki suoritusaikaisen arkkitehtuurin valitsemisesta suorituskyvyn, siirrettävyyden ja käyttäjien luottamuksen kannalta.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod, joka lisää peliin mukautettuja työkaluja, panssaria, väkijoukkoja, lohkoja, mittoja ja monia muita ominaisuuksia. Rakennettu Java-versioilla 8-17 tietyille Minecraft-versioille 1.16-1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Käärmepeli",
+        "text": "Kiillotettu käärmemoottori, joka on rakennettu Rustista ja Macroquadista, käännetty WebAssemblyyn ja renderöity HTML5 Canvasilla. Siinä yhdistyvät deterministiset 0,12sekunnin pelimerkit, sujuva interpoloitu liike, eksplisiittiset pelivaiheet, reagoivat ohjaimet, törmäys- ja voittotilan käsittely sekä kohdennettu testi sviitti, joka kattaa keskeiset pelisäännöt.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger ohjelmointikieli",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiikerikoodi:",
     "run_tiger": "Juokse Tiger",
     "output": "Lähtö:"
+  },
+  "snake": {
+    "title": "Käärmepeli",
+    "description": "Klassinen arcade-peli, joka on rakennettu Rustin ja WebAssemblyn avulla. Kerää ruokaa, kasvata käärmeesi ja pysy kaukana seinistä ja omasta polustasi.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "LEIKKIPUISTO",
+    "game_title": "Käärme",
+    "loading": "Ladataan peliä...",
+    "ready": "Valmis soittamaan",
+    "start_failed": "Peliä ei voida aloittaa",
+    "runtime_failed": "Pelin ajonaikaa ei voida ladata",
+    "aria_label": "Käärmepeli. Nuolinäppäimillä tai WASD-näppäimellä voit siirtyä, Välilyönnillä aloittaa tai käynnistää uudelleen, P-näppäimellä keskeyttää."
   },
   "tab": {
     "title": "Patrick Goodwin",

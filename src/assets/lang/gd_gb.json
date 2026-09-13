@@ -6,9 +6,19 @@
     "portfolio": "Pasgan",
     "projects": "Pròiseactan làrach-lìn a",
     "tiger": "Cànan Tìgear",
+    "snake": "Gèam nathair",
     "portfolio_translator": "Eadar-theangaiche Portfolio",
     "formatter": "Cruthadair JSON & YAML",
-    "contact": "Cuir fios thugam"
+    "contact": "Cuir fios thugam",
+    "home_description": "sys.root // prìomh shealladh",
+    "about_description": "pròifil innleadair // bio & stac",
+    "portfolio_description": "catalog bathar-bog // obraichean sònraichte",
+    "projects_description": "innealan eadar-ghnìomhach agus luchd-cruinneachaidh",
+    "tiger_description": "inneal-cruinneachaidh gnàthaichte & AST visualizer",
+    "snake_description": "geama arcade clasaigeach / WASM",
+    "portfolio_translator_description": "100+ cànan matrix & i18n",
+    "formatter_description": "neach-dearbhaidh syntax & inneal-tionndaidh",
+    "contact_description": "sgaoileadh fosgailte // cuir fios thugainn"
   },
   "home": {
     "title": "Àrd Einnseanair Làn-Stack | Bathar & Siostaman",
@@ -23,7 +33,21 @@
     "descriptionB": "Bidh an obair agam a’ ceangal cho-dhùnaidhean innleadaireachd ri builean gnìomhachais. Bho SaaS tuairmseach togail a thionndaidheas dàta cliath-dhuilleag gu molaidhean deiseil teachdaiche gu àrd-ùrlaran lìn a ghineadh teachd-a-steach, bidh mi a’ togail bathar-bog timcheall air an t-sruth-obrach, cunnart, agus luach a ghabhas tomhas a tha cudromach dha na daoine a tha ga chleachdadh.",
     "portfolio_button": "Mo Chùrsa",
     "contact_button": "Cuir fios thugam",
-    "about_button": "Mu mo dheidhinn"
+    "about_button": "Mu mo dheidhinn",
+    "featured": {
+      "kicker": "Prìomh Phròiseactan / 06",
+      "title": "Obair Taghte",
+      "description": "Sia pròiseactan as fheàrr a tha a’ riochdachadh mar a thionndaidheas mi beachdan àrd-amasach gu bathar-bog snasail, obrach.",
+      "view_project": "Seall am Pròiseact",
+      "open_project": "Pròiseact beò fosgailte",
+      "view_all": "Rannsaich am pasgan iomlan",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Làrach-lìn slàn",
+        "available_here": "Ri fhaighinn an seo",
+        "minecraft_mod": "Minecraft mòd"
+      }
+    }
   },
   "about": {
     "title": "Mu mo dheidhinn",
@@ -119,6 +143,11 @@
         "text": "Sruth-obrach làn-chruach POS agus clàr-seilbhe air a thogail le Angular 17+ agus Node.js. Bidh e a’ modail draghan obrachaidh siostam B2B: luchd-cleachdaidh dearbhte, smachd ruigsinneachd stèidhichte air dreuchd, cruinneas clàr-seilbhe, agus sruth pàighidh meallta. Tha am pròiseact air a dhealbhadh timcheall air an fhìor obair a bhios sgioba clàraidh a’ dèanamh, chan e dìreach catalog de fheartan frèam.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PàighidhOBOL",
+        "text": "Siostam giullachd pàighidh ionadail air a thogail le GnuCOBOL, leabhar-cunntais dùbailte SQLite, agus deas-bhòrd gnìomhachd Svelte. Bidh e a’ cleachdadh matamataigs integer-cent, giollachd pàighidh baidse, agus deas-bhòrd loopback gus sruthan-obrach ionmhais a dhèanamh soilleir, deuchainneach agus cunntachail a thaobh gnìomhachd.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Cruth fèin-ghluasadach JSON & YAML",
         "text": "Inneal dearbhaidh is cruth stèidhichte air brabhsair JSON agus YAML air a thogail ann an Go agus air a chur ri chèile gu WebAssembly. Le bhith a’ gluasad an einnsean parsaidh gu WASM bidh an eadar-obrachadh freagairteach agus ionadail don bhrobhsair fhad ‘s a bhios tu a’ cleachdadh fìor parser gus cuir a-steach neo-dhligheach a ghlacadh. Tha e na eisimpleir cuimsichte de bhith a’ taghadh ailtireachd runtime airson coileanadh, so-ghiùlain, agus earbsa luchd-cleachdaidh.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Mòd minecraft superMC",
         "text": "Mòd Minecraft a chuireas innealan àbhaisteach, armachd, mobs, blocaichean, tomhasan, agus mòran a bharrachd fheartan ris a’ gheama. Air a thogail le dreachan Java 8-17 airson dreachan taghte de Minecraft eadar 1.16 agus 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Gèam nathair",
+        "text": "Einnsean nathair snasta air a thogail le Rust agus Macroquad, air a chur ri chèile gu WebAssembly, agus air a thoirt seachad tro Canabhas HTML5. Bidh e a’ cothlamadh breaban geam dearbhte 0.12-diog le gluasad eadar-ghluasadach rèidh, ìrean geama soilleir, smachdan freagairteach, làimhseachadh bualadh agus buannachadh-stàite, agus deuchainn cuimsichte. sreath a’ còmhdach prìomh riaghailtean geama.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Cànain Prògramadh Tìgear",
@@ -252,6 +286,18 @@
     "tiger_code": "Còd Tìgear:",
     "run_tiger": "Ruith Tìgear",
     "output": "Toradh:"
+  },
+  "snake": {
+    "title": "Gèam nathair",
+    "description": "Gèam arcade clasaigeach air a thogail le Rust agus WebAssembly. Cruinnich biadh, fàs do nathair, agus cùm air falbh bho na ballachan agus an t-slighe agad fhèin.",
+    "kicker": "LAOIDH / MINIQAD",
+    "section_label": "CLÀRADH",
+    "game_title": "Nathair",
+    "loading": "A 'luchdachadh cluich...",
+    "ready": "Deiseil airson cluich",
+    "start_failed": "Cha ghabh an geama a thòiseachadh",
+    "runtime_failed": "Cha ghabh ùine ruith nan geamannan a luchdachadh",
+    "aria_label": "Geama nathair. Iuchraichean saighead no WASD airson gluasad, Àite airson tòiseachadh no ath-thòiseachadh, P airson stad."
   },
   "tab": {
     "title": "Pàdraig Goodwin",

@@ -6,9 +6,19 @@
     "portfolio": "Teczka",
     "projects": "Projekty stron internetowych",
     "tiger": "Język tygrysa",
+    "snake": "Gra w węża",
     "portfolio_translator": "Tłumacz portfolio",
     "formatter": "Formater JSON i YAML",
-    "contact": "Skontaktuj się ze mną"
+    "contact": "Skontaktuj się ze mną",
+    "home_description": "sys.root // przegląd główny",
+    "about_description": "profil inżyniera // biografia i stos",
+    "portfolio_description": "katalog oprogramowania // polecane prace",
+    "projects_description": "interaktywne narzędzia i kompilatory",
+    "tiger_description": "niestandardowy kompilator i wizualizator AST",
+    "snake_description": "klasyczna gra zręcznościowa / WASM",
+    "portfolio_translator_description": "Ponad 100 języków i i18n",
+    "formatter_description": "Walidator i konwerter składni",
+    "contact_description": "otwarta transmisja // skontaktuj się z nami"
   },
   "home": {
     "title": "Starszy inżynier pełnoetatowy | Produkty i systemy",
@@ -23,7 +33,21 @@
     "descriptionB": "Moja praca łączy decyzje inżynieryjne z wynikami biznesowymi. Od platformy SaaS służącej do szacowania konstrukcji, która zamienia dane z arkusza kalkulacyjnego w gotowe propozycje dla klienta, po platformy internetowe generujące przychody – tworzę oprogramowanie uwzględniające przepływ pracy, ryzyko i wymierną wartość, która ma znaczenie dla osób z niej korzystających.",
     "portfolio_button": "Mój portfel",
     "contact_button": "Skontaktuj się ze mną",
-    "about_button": "O mnie"
+    "about_button": "O mnie",
+    "featured": {
+      "kicker": "Wyróżnione projekty / 06",
+      "title": "Wybrana praca",
+      "description": "Sześć projektów, które najlepiej odzwierciedlają sposób, w jaki zamieniam ambitne pomysły w dopracowane, działające oprogramowanie.",
+      "view_project": "Zobacz projekt",
+      "open_project": "Otwórz projekt aktywny",
+      "view_all": "Poznaj pełne portfolio",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Pełna strona internetowa",
+        "available_here": "Dostępne tutaj",
+        "minecraft_mod": "Mod Minecrafta"
+      }
+    }
   },
   "about": {
     "title": "O mnie",
@@ -119,6 +143,11 @@
         "text": "Pełny przepływ pracy w punktach sprzedaży i zapasach zbudowany w Angular 17+ i Node.js. Modeluje problemy operacyjne systemu B2B: uwierzytelnieni użytkownicy, kontrola dostępu oparta na rolach, dokładność zapasów i pozorowany przepływ płatności. Projekt został zaprojektowany w oparciu o rzeczywistą pracę wykonywaną przez zespół rejestrujący, a nie tylko o katalog funkcji frameworka.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Lista płacOBOL",
+        "text": "Lokalny system przetwarzania płac zbudowany przy użyciu GnuCOBOL, księgi podwójnego zapisu SQLite i pulpitu operacyjnego Svelte. Wykorzystuje matematykę liczb całkowitych, wsadowe przetwarzanie płac i pulpit nawigacyjny pętli zwrotnej, aby przepływy pracy finansowe były przejrzyste, testowalne i odpowiedzialne operacyjnie.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "Automatyczne formatowanie JSON i YAML",
         "text": "Oparte na przeglądarce narzędzie do sprawdzania poprawności i formatowania JSON i YAML, wbudowane w Go i skompilowane do WebAssembly. Przeniesienie silnika analizującego do WASM sprawia, że ​​interakcja jest responsywna i lokalna w przeglądarce, przy jednoczesnym zastosowaniu prawdziwego analizatora składni w celu wyłapania nieprawidłowych danych wejściowych. Jest to konkretny przykład wyboru architektury wykonawczej ze względu na wydajność, przenośność i zaufanie użytkowników.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Mod do Minecrafta SupremeMC",
         "text": "Mod Minecraft, który dodaje do gry niestandardowe narzędzia, zbroję, moby, bloki, wymiary i wiele innych funkcji. Zbudowany w wersjach Java 8-17 dla wybranych wersji Minecrafta od 1.16 do 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Gra w węża",
+        "text": "Dopracowany silnik Snake zbudowany przy użyciu Rust i Macroquad, skompilowany do WebAssembly i renderowany poprzez HTML5 Canvas. Łączy deterministyczne takty gry trwające 0,12 sekundy z płynnym interpolowanym ruchem, wyraźnymi fazami gry, responsywnym sterowaniem, obsługą kolizji i stanu wygranej oraz ukierunkowanym testem pakiet obejmujący podstawowe zasady gry.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Język programowania Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Kod Tygrysa:",
     "run_tiger": "Biegnij Tygrysie",
     "output": "Wyjście:"
+  },
+  "snake": {
+    "title": "Gra w węża",
+    "description": "Klasyczna gra zręcznościowa zbudowana w Rust i WebAssembly. Zbieraj jedzenie, hoduj węża i trzymaj się z daleka od ścian i własnego szlaku.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "PLAC GIER I ZABAW",
+    "game_title": "Wąż",
+    "loading": "Ładowanie gry...",
+    "ready": "Gotowy do gry",
+    "start_failed": "Nie można rozpocząć gry",
+    "runtime_failed": "Nie można wczytać środowiska uruchomieniowego gry",
+    "aria_label": "Gra w węża. Klawisze strzałek lub WASD do poruszania się, spacja do uruchamiania lub ponownego uruchamiania, P do pauzy."
   },
   "tab": {
     "title": "Patricka Goodwina",

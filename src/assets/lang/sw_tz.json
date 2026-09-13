@@ -6,9 +6,19 @@
     "portfolio": "Kwingineko",
     "projects": "Miradi ya Tovuti",
     "tiger": "Lugha ya Tiger",
+    "snake": "Mchezo wa Nyoka",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "Muundo wa JSON & YAML",
-    "contact": "Wasiliana Nami"
+    "contact": "Wasiliana Nami",
+    "home_description": "sys.root // muhtasari mkuu",
+    "about_description": "wasifu wa mhandisi // wasifu na stack",
+    "portfolio_description": "katalogi ya programu // kazi zilizoangaziwa",
+    "projects_description": "zana ingiliani & wakusanyaji",
+    "tiger_description": "mkusanyaji maalum & taswira ya AST",
+    "snake_description": "mchezo wa kisasa wa arcade / WASM",
+    "portfolio_translator_description": "100+ lugha matrix & i18n",
+    "formatter_description": "kihalalishi cha sintaksia & kibadilishaji",
+    "contact_description": "fungua maambukizi // wasiliana"
   },
   "home": {
     "title": "Mhandisi Mwandamizi wa Rafu Kamili | Bidhaa na Mifumo",
@@ -23,7 +33,21 @@
     "descriptionB": "Kazi yangu inaunganisha maamuzi ya uhandisi na matokeo ya biashara. Kutoka kwa SaaS ya makadirio ya ujenzi ambayo hubadilisha data ya lahajedwali kuwa mapendekezo tayari kwa mteja hadi majukwaa ya wavuti ya kuzalisha mapato, ninaunda programu karibu na mtiririko wa kazi, hatari na. thamani inayopimika ambayo ni muhimu kwa watu wanaoitumia.",
     "portfolio_button": "Kwingineko Yangu",
     "contact_button": "Wasiliana Nami",
-    "about_button": "Kuhusu Mimi"
+    "about_button": "Kuhusu Mimi",
+    "featured": {
+      "kicker": "Miradi Iliyoangaziwa / 06",
+      "title": "Kazi Iliyochaguliwa",
+      "description": "Miradi sita inayowakilisha vyema jinsi ninavyogeuza mawazo kabambe kuwa programu iliyoboreshwa, inayofanya kazi.",
+      "view_project": "Tazama Mradi",
+      "open_project": "Fungua Mradi wa Moja kwa Moja",
+      "view_all": "Chunguza kwingineko kamili",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Tovuti Kamili",
+        "available_here": "Inapatikana Hapa",
+        "minecraft_mod": "Moduli ya Minecraft"
+      }
+    }
   },
   "about": {
     "title": "Kuhusu Mimi",
@@ -119,6 +143,11 @@
         "text": "POS yenye rundo kamili na mtiririko wa kazi wa orodha uliojengwa kwa Angular 17+ na Node.js. Ni mfano wa masuala ya uendeshaji wa mfumo wa B2B: watumiaji walioidhinishwa, udhibiti wa ufikiaji kulingana na jukumu, usahihi wa hesabu, na mtiririko wa malipo ya dhihaka. Mradi umeundwa kulingana na kazi halisi ambayo timu ya usajili hufanya, sio tu orodha ya vipengele vya mfumo.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Mfumo wa uchakataji wa mishahara wa ndani uliojengwa kwa GnuCOBOL, leja ya kuingiza mara mbili ya SQLite na dashibodi ya shughuli za Svelte. Inatumia hesabu ya asilimia kamili, usindikaji wa malipo ya kundi, na dashibodi ya kurudi nyuma ili kufanya utendakazi wa kifedha uwe wazi, uweze kufanyiwa majaribio, na uwajibike kiutendaji.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Umbizo Otomatiki",
         "text": "Chombo kinachotegemea kivinjari cha JSON na YAML cha uthibitishaji na uumbizaji kilichoundwa katika Go na kukusanywa kwa WebAssembly. Kuhamisha injini ya uchanganuzi kwenye WASM huweka mwingiliano kuwa wa mwitikio na wa ndani kwa kivinjari huku ukitumia kichanganuzi halisi kupata ingizo lisilo sahihi. Ni mfano mahususi wa kuchagua usanifu wa wakati wa utekelezaji kwa ajili ya utendaji, kubebeka na uaminifu wa mtumiaji.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "Moduli ya SupremeMC Minecraft",
         "text": "Mod ya Minecraft ambayo huongeza zana maalum, silaha, makundi, vitalu, vipimo na vipengele vingi zaidi kwenye mchezo. Imejengwa kwa matoleo ya Java 8-17 kwa matoleo yaliyochaguliwa ya Minecraft kati ya 1.16 na 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Mchezo wa Nyoka",
+        "text": "Injini iliyoboreshwa ya Snake iliyojengwa kwa Rust na Macroquad, iliyokusanywa kwa WebAssembly, na kutekelezwa kupitia HTML5 Canvas. Inachanganya tiki za mchezo wa sekunde 0.12 na harakati laini zilizoingiliwa, awamu za mchezo wazi, vidhibiti vya kuitikia, mgongano na ushughulikiaji wa kushinda-hali, na jaribio la umakini. Suite inayofunika sheria kuu za mchezo.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Lugha ya Kupanga Tiger",
@@ -252,6 +286,18 @@
     "tiger_code": "Msimbo wa Tiger:",
     "run_tiger": "Kukimbia Tiger",
     "output": "Pato:"
+  },
+  "snake": {
+    "title": "Mchezo wa Nyoka",
+    "description": "Mchezo wa kawaida wa ukumbi wa michezo uliojengwa na Rust na WebAssembly. Kusanya chakula, ukue nyoka wako, na uweke mbali na kuta na njia yako mwenyewe.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "UWANJA WA KUCHEZA",
+    "game_title": "Nyoka",
+    "loading": "Inapakia mchezo...",
+    "ready": "Tayari kucheza",
+    "start_failed": "Imeshindwa kuanza mchezo",
+    "runtime_failed": "Imeshindwa kupakia wakati wa mchezo",
+    "aria_label": "Mchezo wa nyoka. Vitufe vya vishale au WASD ya kusonga, Nafasi ya kuanza au kuwasha upya, P kusitisha."
   },
   "tab": {
     "title": "Patrick Goodwin",

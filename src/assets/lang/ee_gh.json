@@ -6,9 +6,19 @@
     "portfolio": "Dɔwɔƒe si Kpɔa Dɔwɔnyawo Gbɔ",
     "projects": "Nyatakakadzraɖoƒe ƒe Dɔwɔnawo",
     "tiger": "Tiger Gbegbɔgblɔ",
+    "snake": "Snake Game",
     "portfolio_translator": "Portfolio Gbegɔmeɖela",
     "formatter": "JSON & YAML Dɔwɔɖoɖo",
-    "contact": "Te Ðe Ŋunye"
+    "contact": "Te Ðe Ŋunye",
+    "home_description": "eye To Eye/Mainview",
+    "about_description": "profile // BIO & Stack",
+    "portfolio_description": "katalog// featured works",
+    "projects_description": "interactive Tools & Compilers",
+    "tiger_description": "eye & AST Visualizer",
+    "snake_description": "klasik Arcade Game / WASM",
+    "portfolio_translator_description": "100+ gbe matrix & i18n",
+    "formatter_description": "syntax validator & converter",
+    "contact_description": "ɖoe Ɖe Amewo Ɖoe Ɖe Amewo"
   },
   "home": {
     "title": "Senior Full-Stack Mɔ̃ɖaŋudɔwɔla | Adzɔnuwo & Dɔwɔɖoɖowo",
@@ -23,7 +33,21 @@
     "descriptionB": "Nye dɔa doa ƒome kple mɔ̃ɖaŋu ŋuti nyametsotsowo kple asitsatsa me tsonu. Tso SaaS si bua xɔtutu ŋu si trɔa spreadsheet data wozua aɖaŋuɖoɖo siwo sɔ na asisiwo dzi va ɖo nyatakakadzraɖoƒe siwo naa gakpɔkpɔ dzi la, metua kɔmpiutadziɖoɖowo ƒoa xlã dɔwɔwɔ, afɔku, kple... asixɔxɔ si woate ŋu adzidze si le vevie na ame siwo zãnɛ.",
     "portfolio_button": "Nye Agbalẽdzraɖoƒe",
     "contact_button": "Te Ðe Ŋunye",
-    "about_button": "Tso Nye Ŋu"
+    "about_button": "Tso Nye Ŋu",
+    "featured": {
+      "kicker": "Dɔwɔɖui / 06",
+      "title": "Tianyi Work",
+      "description": "Nu ade siwo ɖea ale si meƒoa nu tso nu siwo ŋu didi le ŋu la gɔme nyuie wu la nye kɔmpiuta siwo wɔa dɔ nyuie.",
+      "view_project": "Ŋkuléle Ðe Nu Siwo",
+      "open_project": "Dɔwɔɖui si le agbe",
+      "view_all": "Xlẽ nu tso nu siwo katã le eme la ŋu",
+      "badges": {
+        "saas": "SaaS nyaa si",
+        "full_website": "Wholesale Eye Website",
+        "available_here": "Woate ŋu akpɔe le afi sia",
+        "minecraft_mod": "Minecraft Modwo"
+      }
+    }
   },
   "about": {
     "title": "Tso Nye Ŋu",
@@ -119,6 +143,11 @@
         "text": "POS blibo kple nudzraɖoƒe ƒe dɔwɔwɔ si wotu kple Angular 17+ kple Node.js. Ewɔa kpɔɖeŋu na B2B ɖoɖo ƒe dɔwɔwɔ ŋuti dzimaɖitsitsiwo: ezãla siwo ŋu woɖo kpee, akpa si wowɔna dzi kpɔkpɔ le mɔɖeɖe ɖe nu ŋu dzi, nudzraɖoƒewo ƒe nyateƒetoto, kple fexexe ƒe sisi si wowɔna abe fefe ene. Wotrɔ asi le dɔa ŋu ƒo xlã dɔ ŋutɔŋutɔ si agbalẽŋlɔlawo ƒe ƒuƒoƒo aɖe wɔna, ke menye ɖoɖowɔɖia ƒe nɔnɔmewo ƒe xexlẽdzesiwo ɖeɖeko o.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL nyaa si",
+        "text": "A local payroll processing system si wotu kple GnuCOBOL, SQLite double-entry ledger, kple Svelte operations dashboard. Ezãa akɔntabubu si me numekɔkɔwo le, ga home ŋuti dɔ wɔwɔ, kple loopback dashboard tsɔ wɔa ganyawo ƒe dɔwo ŋu dɔ nyuie, woate ŋu akpɔ wo adze sii, eye woawɔ dɔ nyuie.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto ƒe Nɔnɔmewɔwɔ",
         "text": "JSON kple YAML ƒe kpeɖodzinana kple ɖoɖowɔwɔ dɔwɔnu si wotu ɖe browser dzi si wotu ɖe Go me eye woƒoe nu ƒu ɖe WebAssembly me. Ne èʋu parsing engine la yi WASM me la, enaa kadodoa nɔa ŋu ɖom eye wònɔa teƒe ɖeka na browser la esime nèle parser ŋutɔŋutɔ zãm be yealé nya siwo mesɔ o. Enye kpɔɖeŋu si ŋu wotsi dzi ɖo le tiatiawɔɣi ƒe xɔtuɖaŋu na dɔwɔwɔ, tsɔtsɔ yi teƒe bubu, kple zãla ƒe kakaɖedzi.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft ƒe mɔnu",
         "text": "Minecraft Mod si tsɔa dɔwɔnu siwo wowɔ ɖe ɖoɖo nu, aʋawɔnuwo, amehawo, blocks, dimensions, kple nu bubu geɖewo kpena ɖe fefea ŋu. Wotue kple Java ƒe tɔtrɔ 8-17 na Minecraft ƒe tɔtrɔ tiatia siwo le 1.16 kple 1.20 dome.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Snake Game",
+        "text": "Wotu mɔ̃ si wotsɔ Rust kple Macroquad wɔ la ɖe WebAssoci, eye woɖe egɔme to HTML5 Canvas dzi. Ewɔa game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kpakple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd suite si ƒo nu tso game ƒe se vevi aɖewo ŋu.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger ƒe Ðoɖowɔɖi Gbegbɔgblɔ",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger ƒe Sedede:",
     "run_tiger": "Duƒuƒu Tiger",
     "output": "Nusi dona tso eme:"
+  },
+  "snake": {
+    "title": "Snake Game",
+    "description": "Enye game si wotu ɖe Rust kple WebAssociation dzi. Ƒo nuɖuɖu nu ƒu, tsi wò da la, eye nàlé ŋku ɖe gliwo kple wò ŋutɔ wò mɔwo ŋu.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "Ekpeye - PLAYGROUND",
+    "game_title": "Daewo Daewo",
+    "loading": "Game Loading...",
+    "ready": "Klaye Klaye",
+    "start_failed": "Womate ŋu adze fefe la gɔme o",
+    "runtime_failed": "Can 't load the game runtime",
+    "aria_label": "Da ƒe fefe. Aʋawɔnu ƒe safuiwo alo WASD be nàʋu, teƒe si nàdze egɔme alo nàdze egɔme ake, P be nàdzudzɔ."
   },
   "tab": {
     "title": "Patrick Goodwin ƒe agbalẽa",

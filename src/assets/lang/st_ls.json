@@ -6,9 +6,19 @@
     "portfolio": "Portfolio",
     "projects": "Merero ea Webosaete",
     "tiger": "Leleme la Nkwe",
+    "snake": "Papali ea Noha",
     "portfolio_translator": "Mofetoleli oa Portfolio",
     "formatter": "JSON & YAML Formatter",
-    "contact": "Ikopanye le 'Na"
+    "contact": "Ikopanye le 'Na",
+    "home_description": "sys.root // kakaretso ya kakaretso",
+    "about_description": "boemo ba moenjiniere // bio & stack",
+    "portfolio_description": "lethathamo la software // mesebetsi e hlahang",
+    "projects_description": "lisebelisoa tse sebetsanang le li-compilers",
+    "tiger_description": "moqapi oa tloaelo le sebono sa AST",
+    "snake_description": "papali ea khale ea papali / WASM",
+    "portfolio_translator_description": "100+ puo ea matrix & i18n",
+    "formatter_description": "syntax validator & converter",
+    "contact_description": "phetiso/ Boetsuwa ba ho kena"
   },
   "home": {
     "title": "Moenjiniere ea Phahameng ka ho Fetisisa | Sehlahisoa & Litsamaiso",
@@ -23,7 +33,21 @@
     "descriptionB": "Mosebetsi oa ka o hokahanya liqeto tsa boenjiniere le sephetho sa khoebo. Ho tsoa ho SaaS e hakanyang kaho e fetolang data ea spreadsheet hore e be litlhahiso tse itokiselitseng bareki ho li-platform tsa marang-rang tse hlahisang chelete, ke theha software ho potoloha phallo ea mosebetsi, kotsi, le boleng bo lekanngoang boo batho ba bo sebelisang.",
     "portfolio_button": "Portfolio ea ka",
     "contact_button": "Ikopanye le 'Na",
-    "about_button": "Ka 'na"
+    "about_button": "Ka 'na",
+    "featured": {
+      "kicker": "Merero e kenyellelitsoeng / 06",
+      "title": "Mosebetsi o Khethiloeng",
+      "description": "Merero e ts'eletseng e emelang hantle tsela eo ke fetolang mehopolo ea boikhohomoso hore e be software e ntlafalitsoeng, e sebetsang.",
+      "view_project": "Sheba Morero",
+      "open_project": "Open Live Project",
+      "view_all": "Lekola potefolio e felletseng",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Webosaete e felletseng",
+        "available_here": "E fumaneha Mona",
+        "minecraft_mod": "Mokhoa oa ho sebelisa Minecraft"
+      }
+    }
   },
   "about": {
     "title": "Ka 'na",
@@ -119,6 +143,11 @@
         "text": "POS e tletseng stack le inventory workflow e hahiloeng ka Angular 17+ le Node.js. E fana ka mohlala oa matšoenyeho a ts'ebetso ea sistimi ea B2B: basebelisi ba netefalitsoeng, taolo ea phihlello e thehiloeng ho karolo, ho nepahala ha lethathamo, le phallo ea litefo tse somang. Morero o entsoe ho potoloha mosebetsi oa 'nete oo sehlopha sa ngoliso se o etsang, eseng lethathamo la likarolo tsa moralo.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "Sistimi ea lehae ea ts'ebetso ea meputso e hahiloeng ka GnuCOBOL, bukana ea SQLite e kenang habeli, le dashboard ea ts'ebetso ea Svelte. E sebelisa lipalo-palo tse felletseng, ts'ebetso ea li-batch payroll, le dashboard ea loopback ho etsa hore ts'ebetso ea lichelete e be e hlakileng, e lekoe, 'me e ikarabelle.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Sesebelisoa sa netefatso sa JSON le YAML se thehiloeng ho sebatli le sesebelisoa sa fomete se hahiloeng ho Go mme se hlophisoa ho WebAssembly. Ho tsamaisa enjene ea ho fetisa ho WASM ho boloka tšebelisano e le eona e arabelang ebile e le sebakeng sa sebatli ha u ntse u sebelisa parser ea 'nete ho ts'oara lintlha tse fosahetseng. Ke mohlala o tsepamisitsoeng oa ho khetha moralo oa nako ea ho sebetsa bakeng sa ts'ebetso, ho nkeha habonolo, le ts'epo ea basebelisi.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod e eketsang lisebelisoa tsa tloaelo, lihlomo, matšoele, li-blocks, boholo le likarolo tse ling tse ngata papaling. E hahiloe ka mefuta ea 8-17 ea Java bakeng sa mefuta e khethiloeng ea Minecraft lipakeng tsa 1.16 le 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Papali ea Noha",
+        "text": "Enjene e bentšitsoeng ea Noha e hahiloeng ka Rust le Macroquad, e hlophisitsoeng ho WebAssembly, 'me ea etsoa ka HTML5 Canvas. E kopanya li-ticks tsa deterministic 0.12-metsotsoana tse nang le motsamao o bonolo, mekhahlelo ea papali e hlakileng, litaolo tse arabelang, ho thulana le ho sebetsana le maemo, le teko e tsepamisitsoeng. suite e koahelang melao ea mantlha ea papali.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Khoutu ea Nkwe:",
     "run_tiger": "Matha Nkoe",
     "output": "Sephetho:"
+  },
+  "snake": {
+    "title": "Papali ea Noha",
+    "description": "Papali ea khale ea arcade e hahiloeng ka Rust le WebAssembly. Bokella lijo, u leme noha ea hau, 'me u qobe marako le tsela ea hau.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "LEBAKA LA SEBAKA",
+    "game_title": "Noha",
+    "loading": "E kenya papali...",
+    "ready": "E loketse ho bapala",
+    "start_failed": "Ha e khone ho qala papali",
+    "runtime_failed": "Ha e khone ho bula nako ea papali",
+    "aria_label": "Papali ea noha. Likonopo tsa metsu kapa WASD ho tsamaea, Sebaka sa ho qala kapa ho qala bocha, P ho emisa."
   },
   "tab": {
     "title": "Patrick Goodwin",

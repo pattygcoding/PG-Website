@@ -6,9 +6,19 @@
     "portfolio": "ຫຼັກຊັບ",
     "projects": "ໂຄງການເວັບໄຊທ໌",
     "tiger": "ພາສາເສືອ",
+    "snake": "ເກມງູ",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "JSON & YAML Formatter",
-    "contact": "ຕິດຕໍ່ຂ້ອຍ"
+    "contact": "ຕິດຕໍ່ຂ້ອຍ",
+    "home_description": "sys.root // ພາບລວມຕົ້ນຕໍ",
+    "about_description": "ໂປຣໄຟລ໌ວິສະວະກອນ // bio & stack",
+    "portfolio_description": "ລາຍການຊອບແວ // ຜົນງານທີ່ໂດດເດັ່ນ",
+    "projects_description": "ເຄື່ອງມືແບບໂຕ້ຕອບ ແລະຕົວສັງລວມ",
+    "tiger_description": "compiler ແບບກຳນົດເອງ ແລະ AST visualizer",
+    "snake_description": "ເກມເກມຄລາສສິກ / WASM",
+    "portfolio_translator_description": "100+ ພາສາ matrix & i18n",
+    "formatter_description": "syntax validator & converter",
+    "contact_description": "ເປີດລະບົບສາຍສົ່ງ // ຕິດຕໍ່ໄດ້"
   },
   "home": {
     "title": "ອາວຸໂສ Full-Stack Engineer | ຜະລິດຕະພັນ & ລະບົບ",
@@ -23,7 +33,21 @@
     "descriptionB": "ວຽກງານຂອງຂ້ອຍເຊື່ອມຕໍ່ການຕັດສິນໃຈດ້ານວິສະວະກໍາກັບຜົນໄດ້ຮັບທາງທຸລະກິດ. ຈາກການປະເມີນການກໍ່ສ້າງ SaaS ທີ່ປ່ຽນຂໍ້ມູນສະເປຣດຊີດໃຫ້ເປັນຂໍ້ສະເຫນີທີ່ລູກຄ້າກຽມພ້ອມໃຫ້ກັບແພລະຕະຟອມເວັບທີ່ສ້າງລາຍໄດ້, ຂ້ອຍສ້າງຊອບແວຮອບໆວຽກ, ຄວາມສ່ຽງ ແລະ ມູນຄ່າທີ່ສາມາດວັດແທກໄດ້ທີ່ມີຄວາມສໍາຄັນກັບປະຊາຊົນທີ່ໃຊ້ມັນ.",
     "portfolio_button": "ຫຼັກຊັບຂອງຂ້ອຍ",
     "contact_button": "ຕິດຕໍ່ຂ້ອຍ",
-    "about_button": "ກ່ຽວກັບຂ້ອຍ"
+    "about_button": "ກ່ຽວກັບຂ້ອຍ",
+    "featured": {
+      "kicker": "ໂຄງການແນະນຳ /06",
+      "title": "ວຽກທີ່ເລືອກ",
+      "description": "ຫົກໂຄງການທີ່ເປັນຕົວແທນທີ່ດີທີ່ສຸດວ່າຂ້ອຍປ່ຽນຄວາມຄິດທີ່ມີຄວາມທະເຍີທະຍານໄປສູ່ຊອບແວທີ່ເຮັດວຽກທີ່ຂັດມັນ.",
+      "view_project": "ເບິ່ງໂຄງການ",
+      "open_project": "ເປີດໂຄງການສົດ",
+      "view_all": "ສຳຫຼວດຫຼັກຊັບເຕັມຮູບແບບ",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "ເວັບໄຊທ໌ເຕັມ",
+        "available_here": "ມີຢູ່ນີ້",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "ກ່ຽວກັບຂ້ອຍ",
@@ -119,6 +143,11 @@
         "text": "POS ເຕັມ stack ແລະຂັ້ນຕອນການເຮັດວຽກຂອງສິນຄ້າຄົງຄັງທີ່ສ້າງຂຶ້ນດ້ວຍ Angular 17+ ແລະ Node.js. ມັນສ້າງແບບຈໍາລອງຄວາມກັງວົນດ້ານການດໍາເນີນງານຂອງລະບົບ B2B: ຜູ້ໃຊ້ທີ່ຜ່ານການຮັບຮອງຄວາມຖືກຕ້ອງ, ການຄວບຄຸມການເຂົ້າເຖິງໂດຍອີງໃສ່ບົດບາດ, ຄວາມຖືກຕ້ອງຂອງສິນຄ້າຄົງຄັງ, ແລະກະແສການຈ່າຍເງິນແບບຈໍາລອງ. ໂຄງ​ການ​ດັ່ງ​ກ່າວ​ໄດ້​ຖືກ​ອອກ​ແບບ​ປະ​ມານ​ການ​ເຮັດ​ວຽກ​ຕົວ​ຈິງ​ທີ່​ທີມ​ງານ​ການ​ລົງ​ທະ​ບຽນ​ປະ​ຕິ​ບັດ​, ບໍ່​ພຽງ​ແຕ່​ລາຍ​ການ​ລັກ​ສະ​ນະ​ກອບ​.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PayrollOBOL",
+        "text": "ລະບົບການປະມວນຜົນເງິນເດືອນທ້ອງຖິ່ນທີ່ສ້າງຂຶ້ນດ້ວຍ GnuCOBOL, ບັນຊີລາຍການບັນຊີຄູ່ SQLite, ແລະກະດານປະຕິບັດການ Svelte. ມັນໃຊ້ຄະນິດສາດຈຳນວນເຕັມເປີເຊັນ, ການປະມວນຜົນບັນຊີລາຍຈ່າຍ batch, ແລະ dashboard loopback ເພື່ອເຮັດໃຫ້ການເຮັດວຽກທາງດ້ານການເງິນມີຄວາມຊັດເຈນ, ສາມາດທົດສອບໄດ້, ແລະມີຄວາມຮັບຜິດຊອບໃນການດໍາເນີນງານ.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML ຮູບແບບອັດຕະໂນມັດ",
         "text": "ເຄື່ອງມືການກວດສອບ ແລະການຈັດຮູບແບບ JSON ແລະ YAML ທີ່ອີງໃສ່ໂປຣແກຣມທ່ອງເວັບທີ່ສ້າງຂຶ້ນໃນ Go ແລະຖືກລວບລວມໃສ່ WebAssembly. ການເຄື່ອນຍ້າຍເຄື່ອງຈັກວິເຄາະເຂົ້າໄປໃນ WASM ຮັກສາປະຕິສໍາພັນທີ່ຕອບສະຫນອງແລະທ້ອງຖິ່ນກັບຕົວທ່ອງເວັບໃນຂະນະທີ່ນໍາໃຊ້ຕົວວິເຄາະທີ່ແທ້ຈິງເພື່ອຈັບຂໍ້ມູນທີ່ບໍ່ຖືກຕ້ອງ. ມັນເປັນຕົວຢ່າງທີ່ສຸມໃສ່ການເລືອກສະຖາປັດຕະຍະກໍາ runtime ສໍາລັບການປະຕິບັດ, ການພົກພາ, ແລະຄວາມໄວ້ວາງໃຈຂອງຜູ້ໃຊ້.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod ທີ່ເພີ່ມເຄື່ອງມືທີ່ກໍາຫນົດເອງ, ເກາະ, mobs, ຕັນ, ຂະຫນາດ, ແລະລັກສະນະອື່ນໆຈໍານວນຫຼາຍໃຫ້ກັບເກມ. ສ້າງຂຶ້ນດ້ວຍ Java ເວີຊັ່ນ 8-17 ສຳລັບເລືອກລຸ້ນ Minecraft ລະຫວ່າງ 1.16 ແລະ 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "ເກມງູ",
+        "text": "ເຄື່ອງຈັກ Snake ຂັດທີ່ສ້າງຂຶ້ນດ້ວຍ Rust ແລະ Macroquad, ລວບລວມກັບ WebAssembly, ແລະສະແດງຜ່ານ HTML5 Canvas. ມັນລວມເອົາຫມາຍຕິກເກມທີ່ກໍານົດເວລາ 0.12 ວິນາທີທີ່ມີການເຄື່ອນໄຫວ interpolated ລຽບ, ໄລຍະເກມທີ່ຊັດເຈນ, ການຄວບຄຸມການຕອບສະຫນອງ, ການປະທະກັນແລະການຊະນະລັດ, ແລະການທົດສອບທີ່ສຸມໃສ່. ຊຸດທີ່ກວມເອົາກົດລະບຽບເກມຫຼັກ.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
@@ -252,6 +286,18 @@
     "tiger_code": "Tiger ລະຫັດ:",
     "run_tiger": "ແລ່ນ Tiger",
     "output": "ຜົນຜະລິດ:"
+  },
+  "snake": {
+    "title": "ເກມງູ",
+    "description": "ເກມອາເຄດຄລາດສິກທີ່ສ້າງຂຶ້ນດ້ວຍ Rust ແລະ WebAssembly. ເກັບອາຫານ, ປູກງູຂອງເຈົ້າ, ແລະຮັກສາຄວາມຊັດເຈນຂອງຝາແລະເສັ້ນທາງຂອງເຈົ້າເອງ.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "ເດີ່ນຫຼິ້ນ",
+    "game_title": "ງູ",
+    "loading": "ກຳລັງໂຫຼດເກມ...",
+    "ready": "ພ້ອມຫຼິ້ນ",
+    "start_failed": "ບໍ່ສາມາດເລີ່ມເກມໄດ້",
+    "runtime_failed": "ບໍ່ສາມາດໂຫຼດເວລາແລ່ນເກມໄດ້",
+    "aria_label": "ເກມງູ. ປຸ່ມລູກສອນ ຫຼື WASD ເພື່ອຍ້າຍ, ຍະຫວ່າງເພື່ອເລີ່ມຕົ້ນ ຫຼືຣີສະຕາດ, P ເພື່ອຢຸດຊົ່ວຄາວ."
   },
   "tab": {
     "title": "Patrick Goodwin",

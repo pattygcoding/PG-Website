@@ -6,9 +6,19 @@
     "portfolio": "Portfel",
     "projects": "Veb-sayt loyihalari",
     "tiger": "Yo'lbars tili",
+    "snake": "Ilon o'yini",
     "portfolio_translator": "Portfolio tarjimoni",
     "formatter": "JSON va YAML formatlagichi",
-    "contact": "Men bilan bog'laning"
+    "contact": "Men bilan bog'laning",
+    "home_description": "sys.root // asosiy ko'rinish",
+    "about_description": "muhandis profili // bio & stack",
+    "portfolio_description": "dasturiy ta'minot katalogi // taniqli asarlar",
+    "projects_description": "interaktiv vositalar va kompilyatorlar",
+    "tiger_description": "maxsus kompilyator va AST vizualizatori",
+    "snake_description": "klassik arkada o'yini / WASM",
+    "portfolio_translator_description": "100+ til matritsasi va i18n",
+    "formatter_description": "sintaksis tekshiruvi va konvertor",
+    "contact_description": "ochiq uzatish // bog'laning"
   },
   "home": {
     "title": "Katta to'liq stack muhandisi | Mahsulot va tizimlar",
@@ -23,7 +33,21 @@
     "descriptionB": "Mening ishim muhandislik qarorlarini biznes natijalari bilan bog'laydi. Elektron jadval ma'lumotlarini mijozlar uchun tayyor takliflarga aylantiradigan qurilishni taxmin qiluvchi SaaS-dan daromad keltiruvchi veb-platformalarga qadar men ish jarayoni, xavf va xavflar atrofida dasturiy ta'minot yarataman. uni ishlatadigan odamlar uchun muhim bo'lgan o'lchanadigan qiymat.",
     "portfolio_button": "Mening portfelim",
     "contact_button": "Men bilan bog'laning",
-    "about_button": "Men haqimda"
+    "about_button": "Men haqimda",
+    "featured": {
+      "kicker": "Tanlangan loyihalar / 06",
+      "title": "Tanlangan ish",
+      "description": "Men ambitsiyali g'oyalarni sayqallangan, ishlaydigan dasturiy ta'minotga aylantirishimni eng yaxshi ifodalovchi oltita loyiha.",
+      "view_project": "Loyihani ko'rish",
+      "open_project": "Jonli loyihani oching",
+      "view_all": "To'liq portfelni o'rganing",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "To'liq veb-sayt",
+        "available_here": "Bu yerda mavjud",
+        "minecraft_mod": "Minecraft mod"
+      }
+    }
   },
   "about": {
     "title": "Men haqimda",
@@ -119,6 +143,11 @@
         "text": "Angular 17+ va Node.js bilan yaratilgan to'liq stekli POS va inventar ish jarayoni. U B2B tizimining operatsion muammolarini modellashtiradi: autentifikatsiya qilingan foydalanuvchilar, rolga asoslangan kirishni boshqarish, inventarizatsiyaning aniqligi va soxta to'lovlar oqimi. Loyiha faqat ramka xususiyatlari katalogi emas, balki ro'yxatga olish guruhi bajaradigan haqiqiy ish atrofida ishlab chiqilgan.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Ish haqi OBOL",
+        "text": "GnuCOBOL, SQLite ikki yozuvli daftar va Svelte operatsiyalari boshqaruv paneli bilan yaratilgan mahalliy ish haqini qayta ishlash tizimi. Moliyaviy ish oqimlarini aniq, sinovdan o'tkazish va operatsion jihatdan javobgar qilish uchun u butun sent matematikasi, to'plamli ish haqini qayta ishlash va orqaga qaytish boshqaruv panelidan foydalanadi.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON va YAML avtomatik formatlovchi",
         "text": "Brauzerga asoslangan JSON va YAML tekshirish va formatlash vositasi Go-da o'rnatilgan va WebAssembly-ga kompilyatsiya qilingan. Tahlil mexanizmini WASM-ga o'tkazish noto'g'ri kiritilgan ma'lumotlarni ushlash uchun haqiqiy tahlilchini qo'llash bilan o'zaro ta'sirni brauzer uchun sezgir va mahalliy qiladi. Bu unumdorlik, portativlik va foydalanuvchi ishonchi uchun ish vaqti arxitekturasini tanlashning aniq namunasidir.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "O'yinga maxsus asboblar, zirhlar, to'dalar, bloklar, o'lchamlar va boshqa ko'plab xususiyatlarni qo'shadigan Minecraft Modi. 1.16 va 1.20 oralig'ida tanlangan Minecraft versiyalari uchun Java 8-17 versiyalari bilan yaratilgan.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Ilon o'yini",
+        "text": "Rust va Macroquad bilan qurilgan, WebAssembly-ga kompilyatsiya qilingan va HTML5 Canvas orqali taqdim etilgan sayqallangan Snake dvigateli. U deterministik 0,12 soniyalik o'yin belgilarini silliq interpolyatsiya qilingan harakat, aniq o'yin bosqichlari, sezgir boshqaruvlar, to'qnashuv va g'alaba holatini boshqarish va yo'naltirilgan test bilan birlashtiradi. o'yinning asosiy qoidalarini o'z ichiga olgan to'plam.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger dasturlash tili",
@@ -252,6 +286,18 @@
     "tiger_code": "Yo'lbars kodi:",
     "run_tiger": "Yugurish Tiger",
     "output": "Chiqish:"
+  },
+  "snake": {
+    "title": "Ilon o'yini",
+    "description": "Rust va WebAssembly bilan yaratilgan klassik arkada oʻyini. Oziq-ovqat to'plang, iloningizni o'stiring va devorlardan va o'z izingizdan uzoqroq turing.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "O'YIN MAYDONI",
+    "game_title": "Ilon",
+    "loading": "Oʻyin yuklanmoqda...",
+    "ready": "Oʻynashga tayyor",
+    "start_failed": "Oʻyinni boshlab boʻlmadi",
+    "runtime_failed": "O‘yin vaqtini yuklab bo‘lmadi",
+    "aria_label": "Ilon o'yini. Ko'chirish uchun o'q tugmalari yoki WASD, boshlash yoki qayta ishga tushirish uchun bo'sh joy, to'xtatib turish uchun P."
   },
   "tab": {
     "title": "Patrik Gudvin",

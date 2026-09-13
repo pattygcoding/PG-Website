@@ -6,9 +6,19 @@
     "portfolio": "Portfólió",
     "projects": "Weboldal projektek",
     "tiger": "Tigris nyelv",
+    "snake": "Snake Game",
     "portfolio_translator": "Portfólió fordító",
     "formatter": "JSON és YAML formázó",
-    "contact": "Lépjen kapcsolatba velem"
+    "contact": "Lépjen kapcsolatba velem",
+    "home_description": "sys.root // fő áttekintés",
+    "about_description": "mérnök profil // bio & stack",
+    "portfolio_description": "szoftverkatalógus // kiemelt művek",
+    "projects_description": "interaktív eszközök és fordítók",
+    "tiger_description": "egyéni fordító és AST megjelenítő",
+    "snake_description": "klasszikus arcade játék / WASM",
+    "portfolio_translator_description": "100+ nyelvi mátrix és i18n",
+    "formatter_description": "szintaxis-ellenőrző és konvertáló",
+    "contact_description": "átvitel megnyitása // vegye fel a kapcsolatot"
   },
   "home": {
     "title": "Senior Full Stack mérnök | Termékek és rendszerek",
@@ -23,7 +33,21 @@
     "descriptionB": "Munkám összekapcsolja a mérnöki döntéseket az üzleti eredményekkel. A munkafolyamat, a kockázatok és a kockázatok körébe tartozó szoftvereket építek egy konstrukciós becslést végző SaaS-től, amely a táblázatos adatokat ügyfélkész javaslatokká alakítja át, egészen a bevételt generáló webes platformokig. mérhető érték, amely fontos az azt használó emberek számára.",
     "portfolio_button": "Saját portfólió",
     "contact_button": "Lépjen kapcsolatba velem",
-    "about_button": "Rólam"
+    "about_button": "Rólam",
+    "featured": {
+      "kicker": "Kiemelt projektek / 06",
+      "title": "Kiválasztott munka",
+      "description": "Hat projekt, amely a legjobban azt mutatja be, hogyan alakítom át az ambiciózus ötleteket csiszolt, működő szoftverekké.",
+      "view_project": "Projekt megtekintése",
+      "open_project": "Nyissa meg a Live Projectet",
+      "view_all": "Fedezze fel a teljes portfóliót",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Teljes Weboldal",
+        "available_here": "Itt érhető el",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Rólam",
@@ -119,6 +143,11 @@
         "text": "Az Angular 17+ és a Node.js programokkal készült, teljes POS- és készletmunkafolyamat. Modellezi a B2B rendszer működési szempontjait: hitelesített felhasználók, szerepkör alapú hozzáférés-vezérlés, leltár pontossága és hamis fizetési folyamat. A projekt a regisztercsapat által végzett tényleges munka köré épül, nem csupán a keretrendszer jellemzőinek katalógusára.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "BérszámfejtésOBOL",
+        "text": "A GnuCOBOL-lal, egy SQLite kettős könyvelési könyvvel és egy Svelte műveleti irányítópulttal felépített helyi bérszámfejtő rendszer. Egész centes matematikát, kötegelt bérszámfejtést és visszahurkolt irányítópultot használ, hogy a pénzügyi munkafolyamatokat egyértelművé, tesztelhetővé és működésileg elszámoltathatóvá tegye.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON és YAML automatikus formázó",
         "text": "Böngészőalapú JSON- és YAML-ellenőrző és -formázó eszköz, amely a Go-ba épült és WebAssembly-re lett fordítva. Ha az elemző motort a WASM-be helyezi át, az interakció érzékeny és lokális marad a böngésző számára, miközben valódi értelmezőt alkalmaz az érvénytelen bevitel elkapására. Ez egy fókuszált példa a futásidejű architektúra kiválasztására a teljesítmény, a hordozhatóság és a felhasználói bizalom érdekében.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Egy Minecraft Mod, amely egyedi eszközöket, páncélokat, mobokat, blokkokat, méreteket és még sok más funkciót ad a játékhoz. Java 8-17-es verziókkal építve bizonyos Minecraft 1.16 és 1.20 közötti verziókhoz.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Snake Game",
+        "text": "Csiszolt Snake motor Rust és Macroquad segítségével, WebAssembly-re fordítva, és HTML5 Canvason keresztül renderelve. Egyesíti a determinisztikus 0,12 másodperces játékkulcsokat sima interpolált mozgással, explicit játékfázisokkal, reagáló vezérléssel, ütközés- és nyerőállapot-kezeléssel, valamint egy fókuszált teszttel sorozat, amely lefedi az alapvető játékszabályokat.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tigris programozási nyelv",
@@ -252,6 +286,18 @@
     "tiger_code": "Tigris kód:",
     "run_tiger": "Fuss Tiger",
     "output": "Kimenet:"
+  },
+  "snake": {
+    "title": "Snake Game",
+    "description": "Klasszikus arcade játék Rust és WebAssembly segítségével. Gyűjts élelmet, neveld ki a kígyódat, és tartsd távol a falakat és a saját nyomaidat.",
+    "kicker": "WEBSZERELÉS / MINIQAD",
+    "section_label": "JÁTSZÓTÉR",
+    "game_title": "Kígyó",
+    "loading": "Játék betöltése...",
+    "ready": "Készen áll a játékra",
+    "start_failed": "Nem lehet elindítani a játékot",
+    "runtime_failed": "Nem sikerült betölteni a játék futási idejét",
+    "aria_label": "Kígyó játék. Nyilak vagy WASD a mozgáshoz, szóköz az indításhoz vagy újraindításhoz, P a szünethez."
   },
   "tab": {
     "title": "Patrick Goodwin",

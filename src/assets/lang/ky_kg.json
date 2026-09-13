@@ -6,9 +6,19 @@
     "portfolio": "Портфолио",
     "projects": "Вебсайт долбоорлору",
     "tiger": "Tiger Language",
+    "snake": "Жылан оюну",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "JSON & YAML форматтоочу",
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "home_description": "sys.root // негизги сереп",
+    "about_description": "инженер профили // био & стек",
+    "portfolio_description": "программалык камсыздоо каталогу // өзгөчөлөнгөн чыгармалар",
+    "projects_description": "интерактивдүү куралдар жана компиляторлор",
+    "tiger_description": "ыңгайлаштырылган компилятор жана AST визуализатор",
+    "snake_description": "классикалык аркада оюну / WASM",
+    "portfolio_translator_description": "100+ тил матрицасы жана i18n",
+    "formatter_description": "синтаксис валидатору жана конвертер",
+    "contact_description": "ачык берүү // байланышуу"
   },
   "home": {
     "title": "Толук стек боюнча улук инженер | Продукт жана системалар",
@@ -23,7 +33,21 @@
     "descriptionB": "Менин ишим инженердик чечимдерди бизнестин натыйжалары менен байланыштырат. Электрондук жадыбал маалыматтарын кардар үчүн даяр сунуштарга айландырган курулуш-баалоочу SaaSден киреше алып келүүчү веб-платформаларга чейин мен программалык камсыздоону жумуш процессинин, тобокелдиктин жана аны колдонгон адамдар үчүн маанилүү болгон өлчөнгөн баалуулук.",
     "portfolio_button": "My Portfolio",
     "contact_button": "Contact Me",
-    "about_button": "Мен жөнүндө"
+    "about_button": "Мен жөнүндө",
+    "featured": {
+      "kicker": "Өзгөчөлөнгөн долбоорлор / 06",
+      "title": "Тандалган иш",
+      "description": "Мен амбициялуу идеяларды жылмаланган, иштеген программага кантип айландырганымды эң жакшы чагылдырган алты долбоор.",
+      "view_project": "Долбоорду көрүү",
+      "open_project": "Live долбоорун ачуу",
+      "view_all": "Толук портфолиону изилдеңиз",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Толук веб-сайт",
+        "available_here": "Бул жерде жеткиликтүү",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Мен жөнүндө",
@@ -119,6 +143,11 @@
         "text": "Angular 17+ жана Node.js менен курулган толук стек POS жана инвентаризация иш процесси. Ал B2B тутумунун операциялык көйгөйлөрүн моделдейт: аутентификацияланган колдонуучулар, ролго негизделген кирүүнү башкаруу, инвентаризациянын тактыгы жана жасалма төлөм агымы. Долбоор алкактык функциялардын каталогу эмес, реестр тобу аткарган иш жүзүндө иштелип чыккан.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Эмгек акыОБОЛ",
+        "text": "A local payroll processing system built with GnuCOBOL, a SQLite double-entry ledger, and a Svelte operations dashboard. It uses integer-cent math, batch payroll processing, and a loopback dashboard to make financial workflows explicit, testable, and operationally accountable.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
         "text": "Серепчиге негизделген JSON жана YAML текшерүү жана форматтоо куралы Go ичинде орнотулган жана WebAssembly'ге түзүлгөн. Талдоочу кыймылдаткычты WASMге жылдыруу жараксыз киргизүүнү кармоо үчүн чыныгы талдоочуну колдонуу менен өз ара аракеттенүүнү серепчиге жооп кайтарып жана жергиликтүү сактап калат. Бул аткаруу, көчүрүү жана колдонуучунун ишеними үчүн иштөө убактысынын архитектурасын тандоонун багытталган мисалы.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Оюнга ыңгайлаштырылган куралдарды, курал-жарактарды, топторду, блокторду, өлчөмдөрдү жана башка көптөгөн функцияларды кошкон Minecraft Mod. 1.16 жана 1.20 ортосундагы тандалган Minecraft версиялары үчүн Java 8-17 версиялары менен курулган.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Snake Game",
+        "text": "Rust жана Macroquad менен курулган, WebAssembly'ге компиляцияланган жана HTML5 Canvas аркылуу жасалган жылмаланган жылан кыймылдаткычы. Ал детерминисттик 0,12 секунддук оюн кенелерин жылмакай интерполяцияланган кыймыл, ачык оюн фазалары, жооп берүүчү башкаруу, кагылышуу жана жеңүүчү абалды башкаруу жана багытталган тест менен айкалыштырат. оюндун негизги эрежелерин камтыган сюита.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tiger программалоо тили",
@@ -252,6 +286,18 @@
     "tiger_code": "Жолборс коду:",
     "run_tiger": "Run Tiger",
     "output": "Чыгуу:"
+  },
+  "snake": {
+    "title": "Жылан оюну",
+    "description": "Rust жана WebAssembly менен курулган классикалык аркада оюну. Тамак-аш чогултуп, жыланыңызды өстүрүңүз жана дубалдардан жана өз изиңизден алыс болуңуз.",
+    "kicker": "WEBASSEMBLY / MINIQAD",
+    "section_label": "Оюн аянтчасы",
+    "game_title": "Жылан",
+    "loading": "Оюн жүктөлүүдө...",
+    "ready": "Оюнга даяр",
+    "start_failed": "Оюнду баштоо мүмкүн эмес",
+    "runtime_failed": "Оюндун иштөө убактысын жүктөө мүмкүн эмес",
+    "aria_label": "Жылан оюну. Жылдыруу үчүн жебе баскычтары же WASD, баштоо же өчүрүү үчүн боштук, тыныгуу үчүн P."
   },
   "tab": {
     "title": "Патрик Гудвин",

@@ -6,9 +6,19 @@
     "portfolio": "Portfelis",
     "projects": "Vietņu projekti",
     "tiger": "Tīģera valoda",
+    "snake": "Čūskas spēle",
     "portfolio_translator": "Portfeļa tulkotājs",
     "formatter": "JSON un YAML formatētājs",
-    "contact": "Sazinieties ar mani"
+    "contact": "Sazinieties ar mani",
+    "home_description": "sys.root // galvenais pārskats",
+    "about_description": "inženiera profils // bio un kaudze",
+    "portfolio_description": "programmatūras katalogs // piedāvātie darbi",
+    "projects_description": "interaktīvie rīki un kompilatori",
+    "tiger_description": "pielāgots kompilators un AST vizualizētājs",
+    "snake_description": "klasiska arkādes spēle / WASM",
+    "portfolio_translator_description": "100+ valodu matrica un i18n",
+    "formatter_description": "sintakses pārbaudītājs un pārveidotājs",
+    "contact_description": "atvērt pārraidi // sazinieties"
   },
   "home": {
     "title": "Vecākais Full-Stack inženieris | Produkti un sistēmas",
@@ -23,7 +33,21 @@
     "descriptionB": "Mans darbs saista inženiertehniskos lēmumus ar biznesa rezultātiem. Sākot ar konstruēšanas aprēķinu SaaS, kas pārvērš izklājlapu datus klientam sagatavotos priekšlikumos un beidzot ar ieņēmumus ģenerējošām tīmekļa platformām, es veidoju programmatūru, ņemot vērā darbplūsmu, riskus un izmērāma vērtība, kas ir svarīga cilvēkiem, kuri to izmanto.",
     "portfolio_button": "Mans Portfelis",
     "contact_button": "Sazinieties ar mani",
-    "about_button": "Par Mani"
+    "about_button": "Par Mani",
+    "featured": {
+      "kicker": "Piedāvātie projekti / 06",
+      "title": "Izvēlētais darbs",
+      "description": "Seši projekti, kas vislabāk atspoguļo to, kā es ambiciozas idejas pārvēršu noslīpētā, strādājošā programmatūrā.",
+      "view_project": "Skatīt projektu",
+      "open_project": "Atveriet Live Project",
+      "view_all": "Izpētiet visu portfeli",
+      "badges": {
+        "saas": "SaaS",
+        "full_website": "Pilna vietne",
+        "available_here": "Pieejams Šeit",
+        "minecraft_mod": "Minecraft mod"
+      }
+    }
   },
   "about": {
     "title": "Par Mani",
@@ -119,6 +143,11 @@
         "text": "Pilna POS un krājumu darbplūsma, kas izveidota, izmantojot Angular 17+ un Node.js. Tas modelē B2B sistēmas darbības problēmas: autentificēti lietotāji, uz lomām balstīta piekļuves kontrole, krājumu precizitāte un viltota maksājumu plūsma. Projekts ir izstrādāts, ņemot vērā faktisko darbu, ko veic reģistra komanda, nevis tikai ietvara līdzekļu katalogu.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Algu sarakstsOBOL",
+        "text": "Vietējā algu apstrādes sistēma, kas izveidota, izmantojot GnuCOBOL, SQLite dubultā ieraksta virsgrāmatu un Svelte operāciju informācijas paneli. Tas izmanto veselu skaitļu centu matemātiku, pakešu algu apstrādi un cilpas informācijas paneli, lai padarītu finanšu darbplūsmas skaidras, pārbaudāmas un operatīvi atbildīgas.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON un YAML automātiskais formatētājs",
         "text": "Uz pārlūkprogrammu balstīts JSON un YAML validācijas un formatēšanas rīks, kas iebūvēts Go un kompilēts WebAssembly. Pārvietojot parsēšanas programmu uz WASM, mijiedarbība tiek saglabāta atsaucīga un lokāla pārlūkprogrammai, vienlaikus izmantojot īstu parsētāju, lai uztvertu nederīgu ievadi. Tas ir mērķtiecīgs piemērs izpildlaika arhitektūras izvēlei veiktspējai, pārnesamībai un lietotāju uzticībai.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
         "text": "Minecraft Mod, kas spēlei pievieno pielāgotus rīkus, bruņas, mobus, blokus, izmērus un daudzas citas funkcijas. Izstrādāts ar Java versijām 8–17 atsevišķām Minecraft versijām no 1.16 līdz 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Čūskas spēle",
+        "text": "Pulēta Snake dzinējs, kas izveidots ar Rust un Macroquad, kompilēts WebAssembly un renderēts, izmantojot HTML5 Canvas. Tas apvieno deterministiskus 0,12 sekunžu spēles atzīmes ar vienmērīgu interpolētu kustību, skaidras spēles fāzes, atsaucīgas vadības ierīces, sadursmju un uzvaras stāvokļa apstrādi, kā arī mērķtiecīgu testu. komplekts, kas aptver spēles galvenos noteikumus.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tīģera programmēšanas valoda",
@@ -252,6 +286,18 @@
     "tiger_code": "Tīģera kods:",
     "run_tiger": "Palaist Tīģeri",
     "output": "Izvade:"
+  },
+  "snake": {
+    "title": "Čūskas spēle",
+    "description": "Klasiska arkādes spēle, kas veidota ar Rust un WebAssembly. Vāciet pārtiku, audzējiet savu čūsku un turiet prom no sienām un savas takas.",
+    "kicker": "TĪMEKĻA MONTĀŽA / MINIQAD",
+    "section_label": "SPĒĻU LAUKUMS",
+    "game_title": "Čūska",
+    "loading": "Notiek spēles ielāde...",
+    "ready": "Gatavs spēlēt",
+    "start_failed": "Nevar sākt spēli",
+    "runtime_failed": "Nevar ielādēt spēles izpildlaiku",
+    "aria_label": "Čūskas spēle. Bultu taustiņi vai WASD, lai pārvietotos, Space, lai sāktu vai restartētu, P, lai apturētu."
   },
   "tab": {
     "title": "Patriks Gudvins",

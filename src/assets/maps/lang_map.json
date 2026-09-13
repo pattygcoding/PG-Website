@@ -1021,9 +1021,7 @@
             "iso3": "ESP",
             "languages": [
                 "es_mx",
-                "ca_ad",
-                "eu_es",
-                "gl_es"
+                "ca_ad"
             ]
         },
         "SE": {
@@ -1117,7 +1115,7 @@
             "iso2": "BT",
             "iso3": "BTN",
             "languages": [
-                "dz_bt"
+                "ne_np"
             ]
         },
         "BN": {
@@ -1141,7 +1139,8 @@
             "iso2": "CN",
             "iso3": "CHN",
             "languages": [
-                "zh-CN_cn"
+                "zh-CN_cn",
+                "zh-TW_tw"
             ]
         },
         "IN": {
@@ -1180,8 +1179,7 @@
             "iso2": "IQ",
             "iso3": "IRQ",
             "languages": [
-                "ar_sa",
-                "ku_iq"
+                "ar_sa"
             ]
         },
         "IL": {
@@ -1330,7 +1328,8 @@
             "iso3": "PHL",
             "languages": [
                 "tl_ph",
-                "ceb_ph"
+                "ceb_ph",
+                "en_us"
             ]
         },
         "QA": {
@@ -1531,8 +1530,7 @@
             "iso2": "WS",
             "iso3": "WSM",
             "languages": [
-                "en_us",
-                "sm_ws"
+                "en_us"
             ]
         },
         "SB": {
@@ -1548,8 +1546,7 @@
             "iso2": "TO",
             "iso3": "TON",
             "languages": [
-                "en_us",
-                "to_to"
+                "en_us"
             ]
         },
         "TV": {
@@ -1678,7 +1675,14 @@
             "name": "Antarctica",
             "iso2": "AQ",
             "iso3": "ATA",
-            "languages": ["en_us", "es_mx", "no_no", "fr_fr", "ru_ru", "zh-CN_cn"]
+            "languages": [
+                "en_us",
+                "es_mx",
+                "no_no",
+                "fr_fr",
+                "ru_ru",
+                "zh-CN_cn"
+            ]
         },
         "FK": {
             "name": "Falkland Islands",
@@ -1709,6 +1713,7 @@
             "iso2": "TW",
             "iso3": "TWN",
             "languages": [
+                "zh-CN_cn",
                 "zh-TW_tw"
             ]
         },
@@ -1718,6 +1723,298 @@
             "iso3": "PRI",
             "languages": [
                 "es_mx",
+                "en_us"
+            ]
+        },
+        "NU": {
+            "name": "Niue",
+            "iso2": "NU",
+            "iso3": "NU",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "CK": {
+            "name": "Cook Islands",
+            "iso2": "CK",
+            "iso3": "CK",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "GU": {
+            "name": "Guam",
+            "iso2": "GU",
+            "iso3": "GU",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "MP": {
+            "name": "Northern Mariana Islands",
+            "iso2": "MP",
+            "iso3": "MP",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "AS": {
+            "name": "American Samoa",
+            "iso2": "AS",
+            "iso3": "AS",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "PF": {
+            "name": "French Polynesia",
+            "iso2": "PF",
+            "iso3": "PF",
+            "languages": [
+                "fr_fr"
+            ]
+        },
+        "WF": {
+            "name": "Wallis and Futuna",
+            "iso2": "WF",
+            "iso3": "WF",
+            "languages": [
+                "fr_fr"
+            ]
+        },
+        "SH": {
+            "name": "Saint Helena",
+            "iso2": "SH",
+            "iso3": "SH",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "KY": {
+            "name": "Cayman Islands",
+            "iso2": "KY",
+            "iso3": "KY",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "VG": {
+            "name": "British Virgin Islands",
+            "iso2": "VG",
+            "iso3": "VG",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "VI": {
+            "name": "U.S. Virgin Islands",
+            "iso2": "VI",
+            "iso3": "VI",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "AI": {
+            "name": "Anguilla",
+            "iso2": "AI",
+            "iso3": "AI",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "MS": {
+            "name": "Montserrat",
+            "iso2": "MS",
+            "iso3": "MS",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "TC": {
+            "name": "Turks and Caicos Islands",
+            "iso2": "TC",
+            "iso3": "TC",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "AW": {
+            "name": "Aruba",
+            "iso2": "AW",
+            "iso3": "AW",
+            "languages": [
+                "nl_nl",
+                "es_mx",
+                "en_us"
+            ]
+        },
+        "CW": {
+            "name": "Curaçao",
+            "iso2": "CW",
+            "iso3": "CW",
+            "languages": [
+                "nl_nl",
+                "es_mx",
+                "en_us"
+            ]
+        },
+        "SX": {
+            "name": "Sint Maarten",
+            "iso2": "SX",
+            "iso3": "SX",
+            "languages": [
+                "nl_nl",
+                "en_us"
+            ]
+        },
+        "BM": {
+            "name": "Bermuda",
+            "iso2": "BM",
+            "iso3": "BM",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "PM": {
+            "name": "Saint Pierre and Miquelon",
+            "iso2": "PM",
+            "iso3": "PM",
+            "languages": [
+                "fr_fr"
+            ]
+        },
+        "GI": {
+            "name": "Gibraltar",
+            "iso2": "GI",
+            "iso3": "GI",
+            "languages": [
+                "en_us",
+                "es_mx"
+            ]
+        },
+        "GG": {
+            "name": "Guernsey",
+            "iso2": "GG",
+            "iso3": "GG",
+            "languages": [
+                "en_us",
+                "fr_fr"
+            ]
+        },
+        "JE": {
+            "name": "Jersey",
+            "iso2": "JE",
+            "iso3": "JE",
+            "languages": [
+                "en_us",
+                "fr_fr"
+            ]
+        },
+        "IM": {
+            "name": "Isle of Man",
+            "iso2": "IM",
+            "iso3": "IM",
+            "languages": [
+                "en_us",
+                "gd_gb"
+            ]
+        },
+        "FO": {
+            "name": "Faroe Islands",
+            "iso2": "FO",
+            "iso3": "FO",
+            "languages": [
+                "da_dk"
+            ]
+        },
+        "MO": {
+            "name": "Macau",
+            "iso2": "MO",
+            "iso3": "MO",
+            "languages": [
+                "zh-CN_cn",
+                "pt_br"
+            ]
+        },
+        "HK": {
+            "name": "Hong Kong",
+            "iso2": "HK",
+            "iso3": "HK",
+            "languages": [
+                "zh-TW_tw",
+                "zh-CN_cn",
+                "en_us"
+            ]
+        },
+        "IO": {
+            "name": "British Indian Ocean Territory",
+            "iso2": "IO",
+            "iso3": "IO",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "CX": {
+            "name": "Christmas Island",
+            "iso2": "CX",
+            "iso3": "CX",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "CC": {
+            "name": "Cocos (Keeling) Islands",
+            "iso2": "CC",
+            "iso3": "CC",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "NF": {
+            "name": "Norfolk Island",
+            "iso2": "NF",
+            "iso3": "NF",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "PN": {
+            "name": "Pitcairn Islands",
+            "iso2": "PN",
+            "iso3": "PN",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "BL": {
+            "name": "Saint Barthélemy",
+            "iso2": "BL",
+            "iso3": "BL",
+            "languages": [
+                "fr_fr"
+            ]
+        },
+        "GS": {
+            "name": "South Georgia and the South Sandwich Islands",
+            "iso2": "GS",
+            "iso3": "GS",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "AC": {
+            "name": "Ascension Island",
+            "iso2": "AC",
+            "iso3": "AC",
+            "languages": [
+                "en_us"
+            ]
+        },
+        "TA": {
+            "name": "Tristan da Cunha",
+            "iso2": "TA",
+            "iso3": "TA",
+            "languages": [
                 "en_us"
             ]
         }
@@ -2325,6 +2622,41 @@
         }
     },
     "countryNameMapping": {
+        "eSwatini": "SZ",
+        "Åland": "FI",
+        "United States of America": "US",
+        "Dem. Rep. Congo": "CD",
+        "Dominican Rep.": "DO",
+        "Central African Rep.": "CF",
+        "Bosnia and Herz.": "BA",
+        "Eq. Guinea": "GQ",
+        "S. Sudan": "SS",
+        "W. Sahara": "EH",
+        "Côte d'Ivoire": "CI",
+        "Cote d'Ivoire": "CI",
+        "São Tomé and Principe": "ST",
+        "Sao Tome and Principe": "ST",
+        "St. Vin. and Gren.": "VC",
+        "St. Kitts and Nevis": "KN",
+        "Antigua and Barb.": "AG",
+        "Solomon Is.": "SB",
+        "Marshall Is.": "MH",
+        "N. Mariana Is.": "MP",
+        "U.S. Virgin Is.": "VI",
+        "Falkland Is.": "FK",
+        "Cayman Is.": "KY",
+        "British Virgin Is.": "VG",
+        "Turks and Caicos Is.": "TC",
+        "Cook Is.": "CK",
+        "St. Pierre and Miquelon": "PM",
+        "Wallis and Futuna Is.": "WF",
+        "St-Martin": "SX",
+        "Fr. Polynesia": "PF",
+        "Fr. S. Antarctic Lands": "TF",
+        "Faeroe Is.": "FO",
+        "N. Cyprus": "CY",
+        "Macao": "MO",
+        "Vatican": "VA",
         "Kosovo": "XK",
         "Somaliland": "SO",
         "Greenland": "GL",
@@ -2488,7 +2820,6 @@
         "Saint Vincent and the Grenadines": "VC",
         "Samoa": "WS",
         "San Marino": "SM",
-        "Sao Tome and Principe": "ST",
         "Saudi Arabia": "SA",
         "Senegal": "SN",
         "Republic of Serbia": "RS",
@@ -2524,7 +2855,12 @@
         "Uganda": "UG",
         "Ukraine": "UA",
         "United Arab Emirates": "AE",
+        "United Kingdom": "GB",
         "England": "GB",
+        "Scotland": "GB",
+        "Wales": "GB",
+        "Northern Ireland": "GB",
+        "Great Britain": "GB",
         "United States": "US",
         "USA": "US",
         "Uruguay": "UY",
@@ -2537,6 +2873,68 @@
         "Zambia": "ZM",
         "Zimbabwe": "ZW",
         "Falkland Islands": "FK",
-        "French Southern and Antarctic Lands": "TF"
+        "French Southern and Antarctic Lands": "TF",
+        "Niue": "NU",
+        "Cook Islands": "CK",
+        "Guam": "GU",
+        "Northern Mariana Islands": "MP",
+        "American Samoa": "AS",
+        "French Polynesia": "PF",
+        "Wallis and Futuna": "WF",
+        "Saint Helena": "SH",
+        "Cayman Islands": "KY",
+        "British Virgin Islands": "VG",
+        "U.S. Virgin Islands": "VI",
+        "Anguilla": "AI",
+        "Montserrat": "MS",
+        "Turks and Caicos Islands": "TC",
+        "Aruba": "AW",
+        "Curaçao": "CW",
+        "Sint Maarten": "SX",
+        "Bermuda": "BM",
+        "Saint Pierre and Miquelon": "PM",
+        "Gibraltar": "GI",
+        "Guernsey": "GG",
+        "Jersey": "JE",
+        "Isle of Man": "IM",
+        "Faroe Islands": "FO",
+        "Macau": "MO",
+        "Hong Kong": "HK",
+        "Eswatini": "SZ",
+        "Guinea-Bissau": "GW",
+        "Tanzania": "TZ",
+        "Serbia": "RS",
+        "Palestine": "PS",
+        "Bahamas": "BS",
+        "State of Palestine": "PS",
+        "Curacao": "CW",
+        "Brunei Darussalam": "BN",
+        "Syrian Arab Republic": "SY",
+        "Iran, Islamic Republic of": "IR",
+        "Lao People's Democratic Republic": "LA",
+        "Viet Nam": "VN",
+        "Republic of Moldova": "MD",
+        "Cape Verde": "CV",
+        "Bolivia, Plurinational State of": "BO",
+        "Venezuela, Bolivarian Republic of": "VE",
+        "Taiwan, Province of China": "TW",
+        "Republic of Congo": "CG",
+        "DR Congo": "CD",
+        "British Indian Ocean Territory": "IO",
+        "Christmas Island": "CX",
+        "Cocos (Keeling) Islands": "CC",
+        "Norfolk Island": "NF",
+        "Pitcairn Islands": "PN",
+        "Saint Barthélemy": "BL",
+        "South Georgia and the South Sandwich Islands": "GS",
+        "Ascension Island": "AC",
+        "Tristan da Cunha": "TA",
+        "Br. Indian Ocean Ter.": "IO",
+        "Pitcairn Is.": "PN",
+        "St-Barthélemy": "BL",
+        "St. Barthélemy": "BL",
+        "S. Geo. and the Is.": "GS",
+        "Indian Ocean Ter.": "IO",
+        "Ascension": "AC"
     }
 }

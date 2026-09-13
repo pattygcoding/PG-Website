@@ -6,9 +6,19 @@
     "portfolio": "Cartera rehegua",
     "projects": "Proyectos Web rehegua",
     "tiger": "Tigre Ñe’ẽ",
+    "snake": "Mbói Ñembosarái",
     "portfolio_translator": "Traductor de Cartera rehegua",
     "formatter": "JSON & YAML Formato rehegua",
-    "contact": "Eñe’ẽ Chendive"
+    "contact": "Eñe’ẽ Chendive",
+    "home_description": "sys.root // jehechauka tenondegua",
+    "about_description": "perfil ingeniero // bio & pila rehegua",
+    "portfolio_description": "software catálogo // tembiapo ojehechaukáva",
+    "projects_description": "tembipuru & compilador interactivo rehegua",
+    "tiger_description": "compilador personalizado & AST jehechaukaha",
+    "snake_description": "juego de arcade clásico / WASM rehegua",
+    "portfolio_translator_description": "100+ matriz ñe’ẽ rehegua & i18n",
+    "formatter_description": "ñe’ẽjoaju jekuaaukaha & mboajepyréva",
+    "contact_description": "transmisión abierta // oñembojoaju"
   },
   "home": {
     "title": "Ingeniero Senior de Pila Completa | Producto & Sistemas rehegua",
@@ -23,7 +33,21 @@
     "descriptionB": "Che rembiapo ombojoaju umi decisión ingeniería rehegua umi resultado negocio rehegua ndive. Peteĩ SaaS oestimáva construcción-gui omoambuéva umi dato hoja de cálculo rehegua propuesta cliente-pe g̃uarã listo-pe umi plataforma web omoheñóiva ingreso-pe, amopu’ã software tembiapo rape jerére, riesgo ha valor medible oimportáva umi tapicha oiporúvape ĝuarã.",
     "portfolio_button": "Che Cartera rehegua",
     "contact_button": "Eñe’ẽ Chendive",
-    "about_button": "Che rehegua"
+    "about_button": "Che rehegua",
+    "featured": {
+      "kicker": "Proyectos ojehechaukáva / 06",
+      "title": "Tembiapo ojeporavóva",
+      "description": "Seis proyecto orrepresenta porãvéva mba’éichapa amoambue umi idea ambiciosa software pulido ha omba’apóvape.",
+      "view_project": "Proyecto rehegua jehecha",
+      "open_project": "Proyecto En vivo Abierto rehegua",
+      "view_all": "Ojeporeka cartera completa rehe",
+      "badges": {
+        "saas": "SaaS rehegua",
+        "full_website": "Página Web Henyhẽva",
+        "available_here": "Ojeguereko Ko'ápe",
+        "minecraft_mod": "Minecraft rehegua Mod"
+      }
+    }
   },
   "about": {
     "title": "Che rehegua",
@@ -119,6 +143,11 @@
         "text": "Peteĩ POS pila completa ha inventario rembiapo rape oñemopuꞌavaꞌekue Angular 17+ ha Node.js ndive. Omodela umi preocupación operativa peteĩ sistema B2B rehegua: usuario autenticado, control de acceso basado rol-pe, inventario exactitud ha peteĩ flujo de pago simulado. Ko proyecto ojejapo tembiapo añeteguáva jerére peteĩ equipo de registro ojapóva, ndahaꞌei peteĩ catálogo de características marco rehegua añónte.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "Nómina reheguaOBOL",
+        "text": "Peteĩ sistema procesamiento nómina local rehegua oñemopuꞌavaꞌekue GnuCOBOL ndive, peteĩ libro mayor doble entrada SQLite rehegua ha peteĩ cuadro de mando operaciones Svelte rehegua. Oipuru matemática centavo entero rehegua, procesamiento nómina lote rehegua ha peteĩ panel loopback ojapo hag̃ua umi flujo de trabajo financiero explícito, prueba ha operativamente responsable.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Formato Automóvil rehegua",
         "text": "Peteĩ tembipuru JSON ha YAML jekuaauka ha formato rehegua oñemopyendáva kundahárape oñemopuꞌavaꞌekue Go-pe ha oñemboheko WebAssembly-pe. Oñemonguꞌevo motor de parsing WASM-pe omantene interacción ombohováiva ha local kundahárape ojeporu aja peteĩ parser añetegua ojejagarra hag̃ua entrada ndoikóiva. Haꞌehína peteĩ techapyrã oñembohapéva ojeporavóva peteĩ arquitectura ejecución rehegua ojejapo hag̃ua, ojegueraha hag̃ua ha puruhára ojerovia hag̃ua.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minecraft rehegua Mod",
         "text": "Peteĩ Minecraft Mod omoĩva tembipuru personalizado, armadura, mob, bloque, dimensión ha hetaiteve mbaꞌeporã ñembosaráipe. Oñemopuꞌa Java versión 8-17 reheve umi versión Minecraft ojeporavóvape g̃uarã 1.16 ha 1.20 mbytépe.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Mbói Ñembosarái",
+        "text": "Peteĩ motor Snake ojepolivaꞌekue oñemopuꞌavaꞌekue Rust ha Macroquad rupive, oñemboheko WebAssembly-pe, ha oñembohasáva HTML5 Canvas rupive. Ombojoaju determinista 0,12 segundos ñembosarái ryru movimiento interpolado suave, fase ñembosarái explícita, control ombohováiva, choque ha ganancia-estado manejo, ha peteĩ prueba enfocada suite ocubri umi regla ñembosarái núcleo rehegua.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tigre Ñe’ẽtekuaa rehegua",
@@ -252,6 +286,18 @@
     "tiger_code": "Código Tigre rehegua:",
     "run_tiger": "Eñani Tigre",
     "output": "Osẽva: 1.1."
+  },
+  "snake": {
+    "title": "Mbói Ñembosarái",
+    "description": "Peteĩ ñembosarái arcade clásico oñemopu’ãva Rust ha WebAssembly rupive. Embyaty tembi’u, emongakuaa nde mbói ha eñemomombyry umi muro ha nde rapére.",
+    "kicker": "MONTAJE WEB / MINIQAD rehegua",
+    "section_label": "ÑEMBOGUATA ÑE’ẼTEKUAA",
+    "game_title": "Mbói",
+    "loading": "Ojekarga hína ñembosarái...",
+    "ready": "Oĩma oñembosarái haguã",
+    "start_failed": "Ndaikatúi oñepyrũ ñembosarái",
+    "runtime_failed": "Ndaikatúi ojekarga ñembosarái jeguata jave",
+    "aria_label": "Mbói ñembosarái. Umi tecla flecha térã WASD oñemomýi hag̃ua, Espacio oñepyrũ térã oñepyrũ jey hag̃ua, P ojepytuꞌu hag̃ua."
   },
   "tab": {
     "title": "Patrick Goodwin rehegua",

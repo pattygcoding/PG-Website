@@ -6,9 +6,19 @@
     "portfolio": "Pɔtfɔlio we dɛn kɔl",
     "projects": "Wɛbsayt Projɛkt dɛn",
     "tiger": "Tayga Langwej",
+    "snake": "Snek Gem",
     "portfolio_translator": "Pɔtfɔlio Transletɔ",
     "formatter": "JSON & YAML Fɔmat",
-    "contact": "Kontakt Mi"
+    "contact": "Kontakt Mi",
+    "home_description": "sys.root // men ɔvaviu",
+    "about_description": "injinia profayl // bio & stak",
+    "portfolio_description": "softwea katalog // fichu wok dɛn",
+    "projects_description": "intaraktiv tul dɛn & kɔmpayla dɛn",
+    "tiger_description": "kɔstɔm kɔmpayla & AST vijualiza",
+    "snake_description": "klassik arcade gem / WASM",
+    "portfolio_translator_description": "100+ langwej matris & i18n",
+    "formatter_description": "sintaks validator & kɔnvɔta",
+    "contact_description": "opin transmishɔn // gɛt kɔntakt"
   },
   "home": {
     "title": "Sinia Ful-Stak Injinia | Prodakt & Sistem dɛn",
@@ -23,7 +33,21 @@
     "descriptionB": "Mi wok de kɔnɛkt di tin dɛn we a kin disayd fɔ du wit injinɛri to di tin dɛn we kin apin to di biznɛs. Frɔm wan kɔnstrɔkshɔn-ɛstimat SaaS we de tɔn sprɛdshit data to klaynt-rɛdi prɔpɔzal to rɛvɛnyu-jɛnereshɔn wɛb pletfɔm, a bil sɔftwɛl rawnd di wokflɔ, risk, ɛn valyu we dɛn kin mɛzhɔ we impɔtant to di pipul dɛn we de yuz am.",
     "portfolio_button": "Mi Pɔtfɔlio",
     "contact_button": "Kontakt Mi",
-    "about_button": "Bɔt Mi"
+    "about_button": "Bɔt Mi",
+    "featured": {
+      "kicker": "Di Projɛkt dɛn we dɛn dɔn sho / 06",
+      "title": "Wok we dɛn dɔn pik",
+      "description": "Siks projɛkt dɛn we de ripresent di bɛst we aw a de tɔn ambishɔs aydia dɛn to polish, wok softwe.",
+      "view_project": "View Projek we yu go si",
+      "open_project": "Opin Layf Projɛkt",
+      "view_all": "Eksplɔrɔ di ful pɔtfolio",
+      "badges": {
+        "saas": "SaaS we dɛn kɔl",
+        "full_website": "Ful Wɛbsayt",
+        "available_here": "Yu kin gɛt am na ya",
+        "minecraft_mod": "Minecraft Mod"
+      }
+    }
   },
   "about": {
     "title": "Bɔt Mi",
@@ -119,6 +143,11 @@
         "text": "Wan ful-stak POS ɛn invɛntari wokflɔ we dɛn bil wit Angular 17+ ɛn Node.js. I de mɔdel di ɔpreshɔnal kɔnsyans dɛm fɔ wan B2B sistɛm: ɔthɛntiket yuza dɛm, rol-bɛs akses kɔntrol, invɛntari akkuracy, ɛn wan mɔk pemɛnt flɔ. Di projɛkt de disayn arawnd di aktual wok we wan rɛjista tim de du, nɔto jɔs wan katalog fɔ di fremwɔk ficha dɛn.",
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
+      "payrollobol": {
+        "title": "PeyrɔlOBOL",
+        "text": "Wan lokal pe rɔl prɔsesin sistɛm we dɛn bil wit GnuCOBOL, wan SQLite dɛbul-ɛntri lɛdja, ɛn wan Svelte ɔpreshɔn dɛshbɔd. I de yuz intaj-sɛnt mats, batch pe rɔl prɔsesin, ɛn wan lɔpbak dɛshbɔd fɔ mek faynɛns wokflɔ klia, tɛst, ɛn ɔpreshɔnal akauntabl.",
+        "link": "https://github.com/pattygcoding/PayrollOBOL"
+      },
       "formatter": {
         "title": "JSON & YAML Ɔto Fɔmat",
         "text": "Wan brawza-based JSON ɛn YAML validɛshɔn ɛn fɔmat tul we dɛn bil insay Go ɛn kɔmpilayt to WebAssembly. We yu muv di parsing injin insay WASM, i de kip di intarakshɔn rispɔnsiv ɛn lokal to di brawza we yu de aplay rial pars fɔ kech invalid input. Na wan fɔs ɛgzampul fɔ pik wan rɔntaym akitɛkɛt fɔ pefɔmɛns, pɔtabiliti, ɛn yuz trɔst.",
@@ -192,7 +221,12 @@
       "suprememc": {
         "title": "SupremeMC Minekraft Mod",
         "text": "Wan Minecraft Mod we de ad kɔstɔm tul dɛn, armor, mob, blɔk, dimɛnshɔn, ɛn bɔku ɔda tin dɛn to di gem. Dɛn bil am wit Java vɛshɔn 8-17 fɔ sɛlɛkɛt Minecraft vɛshɔn dɛn bitwin 1.16 ɛn 1.20.",
-        "link": "https://www.curseforge.com/minecraft/mc-mods/suprememc"
+        "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
+      },
+      "snake": {
+        "title": "Snek Gem",
+        "text": "Wan polish Snek injin we dɛn bil wit Rust ɛn Macroquad, we dɛn kɔmpilayt to WebAssembly, ɛn we dɛn rɛnd tru HTML5 Kanvas. I de kɔba ditɛministic 0.12-sɛkɔn gem tik wit smol intapɔlayt muvmɛnt, ɛksplisit gem faz, rispɔnsiv kɔntrol, kɔlishin ɛn win-stet hanlin, ɛn wan fɔs tɛst suit we de kɔba di kɔr gem lɔ dɛn.",
+        "link": "https://www.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
         "title": "Tayga Progrɛm Langwej",
@@ -252,6 +286,18 @@
     "tiger_code": "Tayga Kɔd: .",
     "run_tiger": "Rɔn Tayga",
     "output": "Di tin we dɛn kin pul: ."
+  },
+  "snake": {
+    "title": "Snek Gem",
+    "description": "Wan klashik arɛd gem we dɛn bil wit Rust ɛn WebAssembly. Kɔlekt it, gro yu snek, ɛn kip klin frɔm di wɔl ɛn yu yon rod.",
+    "kicker": "WƐBƐSƐMBLI / MINIQAD",
+    "section_label": "PLE GROUND",
+    "game_title": "Snek",
+    "loading": "Loading gem we yu de lod...",
+    "ready": "Ridi fɔ ple",
+    "start_failed": "Nɔ ebul fɔ stat di gem",
+    "runtime_failed": "Nɔ ebul fɔ lod di gem rɔntaym",
+    "aria_label": "Snek gem. Aro ki ɔ WASD fɔ muv, Spays fɔ stat ɔ stat bak, P fɔ stɔp."
   },
   "tab": {
     "title": "Patrik Gudwin bin de",
