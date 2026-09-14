@@ -8,7 +8,8 @@ import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import langMapData from "@/assets/maps/lang_map.json";
 import islandMarkers from "@/assets/maps/island_markers.json";
-import "./Languages.css";
+import "@/components/page-shell/PageShell.css";
+import "./LanguageAtlas.css";
 
 const Languages = () => {
     const { t } = useLang();
@@ -292,33 +293,17 @@ const Languages = () => {
 
     return (
         <HelmetProvider>
-            <main className="languages-page">
+            <main className="languages-page portfolio-shell">
                 <Tab title={t("languages.title") || "Portfolio Translator"} />
 
-                <header className="languages-hero">
-                    <div className="languages-hero-grid" aria-hidden="true"></div>
-                    <div className="languages-kicker"><FiGlobe /> GLOBAL_INTERFACE / I18N</div>
+                <header className="page-heading">
+                    <div className="page-eyebrow"><span>03 / {t("languages.title")}</span><span><FiGlobe aria-hidden="true" /> I18N</span></div>
                     <h1>{t("languages.title") || "Portfolio Translator"}</h1>
                     <p>{t("languages.description") || "Discover how my portfolio is accessible to visitors from around the world with support for over 100 languages."}</p>
-                    <div className="language-orbit" aria-hidden="true">
-                        <span>EN</span><span>ES</span><span>日</span><span>ع</span><span>हिं</span>
-                        <FiGlobe />
-                    </div>
                 </header>
 
                 <div className="languages-content">
-                    <section className="languages-intro">
-                        <div className="languages-section-heading">
-                            <span>01 / ACCESS</span>
-                            <div>
-                                <h2>{t("languages.global_accessibility.title") || "Global Accessibility"}</h2>
-                                <p dangerouslySetInnerHTML={{
-                                    __html: (t("languages.global_accessibility.description") || "My portfolio is available in over {count} languages, making it accessible to visitors from around the world. This multilingual approach demonstrates my commitment to inclusivity and global reach in software development.")
-                                        .replace("{count}", `<strong>100</strong>`)
-                                }} />
-                            </div>
-                        </div>
-
+                    <section className="languages-intro" aria-label={t("languages.global_accessibility.title")}>
                         <div className="language-stats">
                             <div className="stat-item">
                                 <h3>101</h3>
@@ -337,19 +322,14 @@ const Languages = () => {
 
                     <section className="world-map-section">
                         <div className="languages-section-heading">
-                            <span>02 / COVERAGE</span>
+                            <span>01</span>
                             <div>
                                 <h2>{t("languages.world_map.title") || "Interactive World Map"}</h2>
-                                <p>
-                                    {isMobile
-                                        ? (t("languages.world_map.description") || "").replace(/hover over/i, "click or tap on") || "Click or tap on countries on the map to see their supported languages:"
-                                        : (t("languages.world_map.description") || "Hover over countries on the map to see their supported languages:")}
-                                </p>
                             </div>
                         </div>
 
                         <div className="world-map-container" ref={mapContainerRef}>
-                            <div className="map-topbar"><span><i></i> LIVE COVERAGE MAP</span><strong>203 REGIONS</strong></div>
+                            <div className="map-topbar"><span><FiGlobe aria-hidden="true" />{t("languages.world_map.title")}</span><strong>203</strong></div>
                             <TransformWrapper
                                 initialScale={1}
                                 minScale={0.5}
@@ -374,9 +354,9 @@ const Languages = () => {
                                 {({ zoomIn, zoomOut, resetTransform }) => (
                                     <>
                                         <div className="zoom-controls">
-											<button type="button" onClick={() => zoomIn()} title={t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"}><FiPlus /><span>{t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"}</span></button>
-											<button type="button" onClick={() => zoomOut()} title={t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"}><FiMinus /><span>{t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"}</span></button>
-											<button type="button" onClick={() => resetTransform()} title={t("languages.world_map.zoom_controls.reset") || "Reset"}><FiRefreshCw /><span>{t("languages.world_map.zoom_controls.reset") || "Reset"}</span></button>
+                                            <button type="button" onClick={() => zoomIn()} aria-label={t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"} title={t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"}><FiPlus /></button>
+                                            <button type="button" onClick={() => zoomOut()} aria-label={t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"} title={t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"}><FiMinus /></button>
+                                            <button type="button" onClick={() => resetTransform()} aria-label={t("languages.world_map.zoom_controls.reset") || "Reset"} title={t("languages.world_map.zoom_controls.reset") || "Reset"}><FiRefreshCw /></button>
                                         </div>
                                         <TransformComponent>
                                             <div className="map-wrapper">
@@ -408,7 +388,7 @@ const Languages = () => {
                                                                     <Geography
                                                                         key={geo.rsmKey}
                                                                         geography={geo}
-                                                                        fill={isSelected ? (hasLanguages ? "#b3261e" : "#222428") : (hasLanguages ? "#ef3e32" : "#303238")}
+                                                                        fill={isSelected ? (hasLanguages ? "var(--accent-color)" : "#222428") : (hasLanguages ? "var(--accent-color)" : "#303238")}
                                                                         stroke="#FFFFFF"
                                                                         strokeWidth={0.5}
                                                                         onMouseEnter={(event) => {
@@ -432,8 +412,8 @@ const Languages = () => {
                                                                         }}
                                                                         style={{
                                                                             default: { outline: "none" },
-                                                                            hover: { fill: hasLanguages ? "#b3261e" : "#222428", outline: "none", cursor: "pointer" },
-                                                                            pressed: { fill: hasLanguages ? "#9c1b14" : "#1a1b1e", outline: "none" }
+                                                                            hover: { fill: hasLanguages ? "var(--accent-color)" : "#222428", outline: "none", cursor: "pointer" },
+                                                                            pressed: { fill: hasLanguages ? "var(--accent-color)" : "#1a1b1e", outline: "none" }
                                                                         }}
                                                                     />
                                                                 );
@@ -472,7 +452,7 @@ const Languages = () => {
                                                             >
                                                                 <circle
                                                                     r={markerRadius}
-                                                                    fill={isMarkerSelected ? (hasLanguages ? "#b3261e" : "#222428") : (hasLanguages ? "#ef3e32" : "#303238")}
+                                                                    fill={isMarkerSelected ? (hasLanguages ? "var(--accent-color)" : "#222428") : (hasLanguages ? "var(--accent-color)" : "#303238")}
                                                                     stroke="#FFFFFF"
                                                                     strokeWidth={markerStrokeWidth}
                                                                     className="island-marker"
@@ -501,9 +481,21 @@ const Languages = () => {
 
 
 
+                    <section className="languages-access">
+                        <div className="languages-section-heading">
+                            <span>02</span>
+                            <div>
+                                <h2>{t("languages.global_accessibility.title") || "Global Accessibility"}</h2>
+                                <p dangerouslySetInnerHTML={{
+                                    __html: (t("languages.global_accessibility.description") || "My portfolio is available in over {count} languages, making it accessible to visitors from around the world. This multilingual approach demonstrates my commitment to inclusivity and global reach in software development.")
+                                        .replace("{count}", `<strong>100</strong>`)
+                                }} />
+                            </div>
+                        </div>
+                    </section>
                     <section className="language-features">
                         <div className="languages-section-heading">
-                            <span>03 / SYSTEM</span>
+                            <span>03</span>
                             <div><h2>{t("languages.features.title") || "Features"}</h2></div>
                         </div>
                         <ul>

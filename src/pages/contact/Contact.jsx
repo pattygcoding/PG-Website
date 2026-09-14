@@ -1,49 +1,36 @@
 import React from "react";
 import { HelmetProvider } from "react-helmet-async";
-import { FiArrowUpRight, FiGithub, FiLinkedin, FiMail, FiMessageSquare, FiSend } from "react-icons/fi";
+import { FiArrowUpRight, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import links from "@/assets/links/links.json";
-import "./Contact.css";
+import "@/components/page-shell/PageShell.css";
+import "./ContactChannels.css";
 
 const Contact = () => {
 	const { t } = useLang();
 
 	return (
 		<HelmetProvider>
-			<main className="contact-page">
+			<main className="contact-page portfolio-shell">
 				<Tab title={t("contact.title")} />
-				<section className="contact-stage">
-					<div className="contact-grid" aria-hidden="true"></div>
-					<div className="contact-copy">
-						<div className="contact-kicker"><span></span> OPEN_CHANNEL / 01</div>
+				<header className="page-heading">
+						<div className="page-eyebrow"><span>{t("contact.title")}</span><span>Patrick Goodwin / 04</span></div>
 						<h1>{t("contact.title")}</h1>
 						<p>{t("contact.description")}</p>
-						<a className="contact-primary-action" href={`mailto:${t("contact.email")}`}>
-							<FiSend /><span>START A CONVERSATION</span><FiArrowUpRight />
-						</a>
-					</div>
-
-					<div className="contact-console">
-						<div className="console-header">
-							<div><i></i><i></i><i></i></div>
-							<span>CONTACT_CHANNEL.EXE</span>
-							<FiMessageSquare />
-						</div>
-						<div className="console-body">
-							<div className="console-status"><i></i><span>STATUS</span><strong>ONLINE</strong></div>
-							<div className="contact-label">{t("contact.header")}</div>
+				</header>
+				<section className="contact-channels" aria-label={t("contact.header")}>
+						<div className="contact-direct">
+							<div className="contact-section-label"><span>01 / Email</span><FiMail aria-hidden="true" /></div>
+							<h2>{t("contact.header")}</h2>
 							<a className="contact-email" href={`mailto:${t("contact.email")}`}>
-								<FiMail /><span>{t("contact.email")}</span><FiArrowUpRight />
+								<span>{t("contact.email")}</span><FiArrowUpRight aria-hidden="true" />
 							</a>
-							<div className="contact-divider"><span>OTHER CHANNELS</span></div>
-							<nav className="contact-socials" aria-label="Social contact links">
-								<a href={links.social_media.linkedin} target="_blank" rel="noopener noreferrer"><FiLinkedin /><span>LinkedIn</span><FiArrowUpRight /></a>
-								<a href={links.social_media.github} target="_blank" rel="noopener noreferrer"><FiGithub /><span>GitHub</span><FiArrowUpRight /></a>
-							</nav>
-							<div className="console-footer"><span>RESPONSE_MODE</span><strong>EMAIL_PREFERRED</strong></div>
 						</div>
-					</div>
+						<nav className="contact-socials" aria-label="Social contact links">
+							<a href={links.social_media.linkedin} target="_blank" rel="noopener noreferrer"><span className="contact-social-index">02</span><FiLinkedin /><span>LinkedIn</span><FiArrowUpRight /></a>
+							<a href={links.social_media.github} target="_blank" rel="noopener noreferrer"><span className="contact-social-index">03</span><FiGithub /><span>GitHub</span><FiArrowUpRight /></a>
+						</nav>
 				</section>
 			</main>
 		</HelmetProvider>

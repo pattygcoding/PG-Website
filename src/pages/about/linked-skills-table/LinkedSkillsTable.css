@@ -32,9 +32,8 @@
     cursor: pointer;
 }
 
-/* Arrow hover stays red */
 .arrow-toggle:hover {
-    color: red !important;
+    color: var(--about-accent, var(--accent-color)) !important;
 }
 
 
@@ -126,9 +125,8 @@
     background-color: transparent !important;
 }
 
-/* Only apply red on the arrow cell */
 .arrow-toggle:hover {
-    color: red !important;
+    color: var(--about-accent, var(--accent-color)) !important;
 }
 
 .table-hover tbody tr:hover td,
@@ -137,7 +135,7 @@
 }
 
 .clickable-row:hover td {
-    background-color: red !important;
+    background-color: color-mix(in srgb, var(--about-accent, var(--accent-color)) 14%, transparent) !important;
     color: var(--text-color);
     /* keep your theme text color */
 }
@@ -186,7 +184,7 @@
 
 .skill-module:hover,
 .skill-module.is-open {
-    border-color: var(--about-accent, #ef3e32);
+    border-color: var(--about-accent, var(--accent-color));
     background: var(--editor-bg);
 }
 
@@ -220,7 +218,7 @@
 }
 
 .has-samples .skill-evidence {
-    color: var(--about-accent, #ef3e32);
+    color: var(--about-accent, var(--accent-color));
 }
 
 .skill-chevron {
@@ -257,11 +255,11 @@
 
 .skill-project-link svg {
     flex: 0 0 auto;
-    color: var(--about-accent, #ef3e32);
+    color: var(--about-accent, var(--accent-color));
 }
 
 .skill-project-link:hover {
-    color: var(--about-accent, #ef3e32);
+    color: var(--about-accent, var(--accent-color));
 }
 
 .skill-no-projects {

@@ -9,7 +9,6 @@ const MenuBottomStrip = () => {
 		<div className="menu_footer position-absolute w-100">
 			<a href={l.social_media.linkedin}>{t.social_media.linkedin}</a>
 			<a href={l.social_media.github}>{t.social_media.github}</a>
-			<a href={l.social_media.youtube}>{t.social_media.youtube}</a>
 		</div>
 	);
 };
