@@ -130,7 +130,6 @@ export default function EngineeringAtlas() {
                         )}
                         <div className="atlas-map-footer">
                             <span><i className="atlas-line-key" />{labels.family_connection}</span>
-                            <span><i className="atlas-line-key atlas-line-key--hub" />{labels.portfolio_connection}</span>
                             {(query || domain !== "all") && <button type="button" onClick={resetFilters}><FiX aria-hidden="true" />{labels.reset}</button>}
                             <span>{labels.browser_native}</span>
                         </div>

@@ -71,6 +71,11 @@ test("every atlas project has existing artwork, a destination, and English conte
     });
 });
 
+test("uses title case for atlas family labels", () => {
+    expect(english.home.atlas.family_connection).toBe("Project Connection");
+    expect(english.home.atlas.families.libraries).toBe("Script Libraries");
+});
+
 test("search uses translated display labels rather than internal identifiers", () => {
     expect(filterAtlasProjects("all", "WebAssembly", english.portfolio.entries, english.home.atlas.skills).map(({ id }) => id)).toEqual(["formatter", "portfolio_website", "snake", "tiger_programming_language"]);
     expect(filterAtlasProjects("all", ".NET", english.portfolio.entries, { ...ATLAS_SKILL_LABELS, ...english.home.atlas.skills }).map(({ id }) => id)).toContain("grocery_app");
