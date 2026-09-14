@@ -31,12 +31,12 @@ const LinkedSkillsTable = ({ header, list, projects }) => {
 
 		if (isOpen) {
 			// collapse
-			window.history.replaceState(null, "", location.pathname);
+			window.history.replaceState(window.history.state, "", `${location.pathname}${location.search}`);
 			setOpenRows({});
 			currentHashRef.current = null;
 		} else {
 			// expand
-			window.history.replaceState(null, "", `${location.pathname}#${skillId}`);
+			window.history.replaceState(window.history.state, "", `${location.pathname}${location.search}#${skillId}`);
 			setOpenRows({ [index]: true });
 			currentHashRef.current = skillId;
 		}
@@ -95,6 +95,7 @@ const LinkedSkillsTable = ({ header, list, projects }) => {
 								</button>
 								<Collapse in={isOpen}>
 									<div id={`${item.id}-projects`} className="skill-projects">
+										<div className="skill-project-list">
 										{item.code_samples.length > 0 ? (
 											item.code_samples.map((s, j) => (
 													<a
@@ -110,6 +111,7 @@ const LinkedSkillsTable = ({ header, list, projects }) => {
 											) : (
 												<span className="skill-no-projects">Experience listed; project sample not published.</span>
 											)}
+										</div>
 										</div>
 										</Collapse>
 							</article>
