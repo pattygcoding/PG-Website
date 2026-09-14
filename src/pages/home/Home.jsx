@@ -7,6 +7,7 @@ import { FiArrowRight, FiArrowUpRight, FiCode, FiGlobe, FiLayers, FiStar } from 
 import { useLang } from "@/lang/languageContext";
 import { LangAwareLink } from "@/components/lang-aware-link";
 import links from "@/assets/links/links.json";
+import EngineeringAtlas, { AtlasInvitation } from "./engineering-atlas/EngineeringAtlas";
 import "./Home.css";
 
 const Home = () => {
@@ -118,6 +119,7 @@ const Home = () => {
 								<span>{t("home.footer")}</span>
 								<FiArrowUpRight aria-hidden="true" />
 							</Link>
+							<AtlasInvitation />
 						</div>
 					</div>
 
@@ -157,6 +159,8 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
+
+				<EngineeringAtlas />
 
 				<section className="featured-work" aria-labelledby="featured-work-title">
 					<header className="featured-work-header">

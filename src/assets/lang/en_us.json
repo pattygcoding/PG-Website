@@ -34,6 +34,97 @@
         "portfolio_button": "My Portfolio",
         "contact_button": "Contact Me",
         "about_button": "About Me",
+        "atlas": {
+            "invitation_kicker": "A different perspective on the work",
+            "invitation": "Explore the engineering atlas",
+            "kicker": "Complete portfolio / connected thinking",
+            "title": "Engineering Atlas",
+            "projects": "Projects",
+            "technologies": "Technologies",
+            "connections": "Connections",
+            "center": "Engineering atlas",
+            "filter_label": "Project categories",
+            "domains": { "all": "All work", "products": "Products", "systems": "Systems", "experiences": "Experiences" },
+            "search": "Find a project or technology",
+            "view_label": "Atlas view",
+            "map_view": "Map view",
+            "map_navigation": "Portfolio map navigation",
+            "zoom_in": "Zoom in",
+            "zoom_out": "Zoom out",
+            "zoom_level": "Map zoom level",
+            "fit_all": "Fit all projects",
+            "center_selected": "Center selected project",
+            "all_technologies": "All technologies",
+            "list_view": "List view",
+            "pause": "Pause signal animation",
+            "resume": "Resume signal animation",
+            "project_selector": "Explore projects",
+            "inspector": "Selected project details",
+            "shared_stack": "Shared technology",
+            "family_connection": "Project family",
+            "portfolio_connection": "Portfolio connection",
+            "families": {
+                "portfolio": "Portfolio hub",
+                "business": "Business applications",
+                "minecraft": "SupremeMC & Minecraft",
+                "wasm": "WebAssembly projects",
+                "libraries": "Script libraries",
+                "languages": "Language experiments",
+                "automation": "Automation & data tools",
+                "experience": "Professional & educational experience"
+            },
+            "browser_native": "Browser-native / no server",
+            "no_results": "No matching projects",
+            "no_selection": "No project selected.",
+            "reset": "Clear filters",
+            "engineering_lens": "Engineering perspective",
+            "connected_work": "Connected work",
+            "open_live": "Open live project",
+            "open_project": "Explore project",
+            "footer": "Different domains. One connected engineering practice.",
+            "contact": "Let's build what comes next",
+            "skills": {
+                "yaml": "YAML", "julia": "Julia", "objectivec": "Objective-C",
+                "react": "React", "node": "Node.js", "pipelines": "Data pipelines", "angular": "Angular",
+                "access": "Access control", "dotnet": ".NET", "sql": "SQL", "testing": "Testing",
+                "cobol": "COBOL", "svelte": "Svelte", "interop": "Interoperability", "go": "Go",
+                "wasm": "WebAssembly", "accessibility": "Accessibility", "python": "Python"
+            },
+            "stories": {
+                "takeoff_engine": {
+                    "summary": "Inconsistent spreadsheets in. Construction estimates and client-ready proposals out. A SaaS product built around the contractor's actual workflow.",
+                    "lens": "Flexible imports need a strict internal model: accepting more formats must not weaken the calculation rules that a bid depends on."
+                },
+                "inventory_register": {
+                    "summary": "An Angular and Node.js point-of-sale workflow connecting authenticated users, inventory accuracy, and a mock payment flow.",
+                    "lens": "A register is more than a checkout screen. Roles, stock changes, and payment states need explicit boundaries to keep the workflow accountable."
+                },
+                "grocery_app": {
+                    "summary": "A .NET 9 Blazor application with controller, service, and repository boundaries, Entity Framework Core persistence, and a comprehensive test suite.",
+                    "lens": "Separation earns its place when business rules can be tested independently of the interface and persistence layer."
+                },
+                "payrollobol": {
+                    "summary": "GnuCOBOL payroll processing meets a SQLite double-entry ledger and a Svelte operations dashboard.",
+                    "lens": "Financial correctness starts with representation: integer-cent arithmetic and balanced ledger entries make money movement explicit."
+                },
+                "interop": {
+                    "summary": "A cross-language reference spanning 15 programming languages and 18 execution patterns, exploring what happens at runtime boundaries.",
+                    "lens": "The hard part is the contract between runtimes: data exchange, process behavior, and repeatable execution matter more than syntax."
+                },
+                "formatter": {
+                    "summary": "A real Go parsing engine compiled to WebAssembly. JSON and YAML validation and formatting run locally in the browser.",
+                    "lens": "Moving the parser to the browser trades a larger client payload for local processing, portability, and fewer server dependencies."
+                },
+                "portfolio_website": {
+                    "summary": "The site you're in: a React portfolio with 100+ languages, accessible interactions, and working WebAssembly tools.",
+                    "lens": "A static deployment does not have to mean a static experience. Rich interactions can live on the client without an application server."
+                },
+                "biblioteca": {
+                    "summary": "A Python localization pipeline that turns a single structured content source into a portfolio available in 100+ languages.",
+                    "lens": "Global reach is a data-maintenance problem as much as a translation problem. One source of truth keeps content changes manageable."
+                }
+            }
+        },
         "featured": {
             "kicker": "Featured Projects / 06",
             "title": "Selected Work",

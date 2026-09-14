@@ -18,6 +18,7 @@ const ThemeToggle = () => {
 			className="theme-switch"
 			onClick={toggleTheme}
 			aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+			title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
 			aria-pressed={theme === "dark"}
 		>
 			<span className="theme-switch__sky" aria-hidden="true">
