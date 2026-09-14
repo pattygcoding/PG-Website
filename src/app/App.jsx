@@ -7,6 +7,7 @@ import {
 import withRouter from "../hooks/withRouter";
 import { AppRoutes } from "@/routes";
 import { Menu } from "@/menu";
+import ThemeBackground from "../components/theme-background/ThemeBackground";
 import "./App.css";
 
 function _ScrollToTop(props) {
@@ -21,6 +22,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 export default function App() {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
+			<ThemeBackground />
 			<ScrollToTop>
 				<Menu />
 				<AppRoutes />
