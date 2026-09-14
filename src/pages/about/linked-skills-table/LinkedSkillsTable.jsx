@@ -56,15 +56,13 @@ const LinkedSkillsTable = ({ header, list, projects }) => {
 		setOpenRows({ [idx]: true });
 		currentHashRef.current = hash;
 
-		if (!window.__hasScrolledToHash) {
-			setTimeout(() => {
-				const el = skillRefs.current[hash];
-				if (el) {
-					el.scrollIntoView({ behavior: "smooth", block: "center" });
-				}
-				window.__hasScrolledToHash = true;
-			}, 100);
-		}
+		const timeout = setTimeout(() => {
+			const el = skillRefs.current[hash];
+			if (el) {
+				el.scrollIntoView({ behavior: "auto", block: "start" });
+			}
+		}, 350);
+		return () => clearTimeout(timeout);
 	}, [location.hash, sortedList]);
 
 	return (
