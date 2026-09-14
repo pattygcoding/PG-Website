@@ -246,12 +246,22 @@
     92% { opacity: 0; transform: translate3d(340px, 212px, 0) rotate(32deg) scaleX(1); }
 }
 
-@media (max-width: 600px) {
-    .theme-atmosphere__star:nth-child(5n) { display: none; }
+@media (max-width: 800px), (pointer: coarse) {
     .theme-atmosphere__sun { width: 64px; right: 9%; top: 14%; }
-    .theme-atmosphere__orbit { width: max(155vw, 850px); left: 64%; top: 46%; }
-    .theme-atmosphere__galaxy { opacity: 0.3; }
+    .theme-atmosphere__orbit { width: min(100vw, 700px); left: 64%; top: 46%; will-change: auto; }
+    .theme-atmosphere__galaxy { opacity: 0.3; mask-image: none; }
+    .theme-atmosphere__stars { inset: 0; }
+    .theme-atmosphere__day { will-change: auto; }
+    .theme-atmosphere__sunlight { inset: 0; mask-image: none; }
+    .theme-atmosphere__clouds {
+        inset: 0;
+        background-image: url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=75");
+        mix-blend-mode: normal;
+        mask-image: none;
+    }
     .theme-atmosphere__clouds--near { display: none; }
+    .theme-atmosphere[data-resting-theme="light"] :is(.theme-atmosphere__night, .theme-atmosphere__orbit, .theme-atmosphere__veil, .theme-atmosphere__meteors),
+    .theme-atmosphere[data-resting-theme="dark"] .theme-atmosphere__day { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

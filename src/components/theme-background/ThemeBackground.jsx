@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./ThemeBackground.css";
 
 const stars = Array.from({ length: 360 }, (_, index) => {
@@ -20,6 +20,20 @@ const stars = Array.from({ length: 360 }, (_, index) => {
 });
 
 export default function ThemeBackground() {
+    const [compactScene, setCompactScene] = useState(() => window.matchMedia("(max-width: 800px), (pointer: coarse)").matches);
+
+    useEffect(() => {
+        const media = window.matchMedia("(max-width: 800px), (pointer: coarse)");
+        const update = () => setCompactScene(media.matches);
+        media.addEventListener("change", update);
+        update();
+        return () => media.removeEventListener("change", update);
+    }, []);
+
+    return <AnimatedThemeBackground compact={compactScene} />;
+}
+
+function AnimatedThemeBackground({ compact }) {
     const atmosphereRef = useRef(null);
 
     useEffect(() => {
@@ -106,7 +120,7 @@ export default function ThemeBackground() {
                 />
                 {["distant", "near"].map((depth, layer) => (
                     <div className={`theme-atmosphere__stars theme-atmosphere__stars--${depth}`} key={depth}>
-                        {stars.map((style, index) => index % 2 === layer && (
+                        {stars.map((style, index) => index % 2 === layer && (!compact || index % 10 < 2) && (
                             <span className="theme-atmosphere__star" style={style} key={index}>
                                 <span className={index % 17 === 0 ? "is-bright" : undefined} />
                             </span>
