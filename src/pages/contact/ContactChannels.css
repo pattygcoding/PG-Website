@@ -1,0 +1,34 @@
+.contact-page { min-height: calc(100vh - 60px); }
+.contact-page .page-heading { padding-bottom: 56px; }
+.contact-page .page-heading h1 { font-size: 5.5rem; }
+.contact-channels { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); border-top: 1px solid var(--page-line); border-bottom: 1px solid var(--page-line); }
+.contact-direct { min-width: 0; padding: 32px 48px 48px 0; border-right: 1px solid var(--page-line); }
+.contact-section-label { display: flex; align-items: center; justify-content: space-between; color: var(--page-accent); font-family: monospace; font-size: 0.78rem; }
+.contact-section-label svg { font-size: 1.25rem; }
+.contact-direct h2 { margin: 40px 0 20px; font-size: 1.35rem; line-height: 1.5; }
+.contact-email { display: flex; align-items: center; justify-content: space-between; gap: 20px; color: var(--text-color); font-size: 1.6rem; text-decoration-thickness: 1px; text-underline-offset: 8px; }
+.contact-email span { min-width: 0; overflow-wrap: anywhere; }
+.contact-email svg { flex-shrink: 0; color: var(--page-accent); }
+.contact-email:hover { color: var(--page-accent); }
+.contact-socials { display: flex; flex-direction: column; padding-left: 40px; }
+.contact-socials a { flex: 1; display: grid; grid-template-columns: 24px 24px minmax(0, 1fr) 24px; align-items: center; gap: 18px; min-height: 112px; padding: 24px 0; text-decoration: none; font-size: 1.2rem; }
+.contact-socials a + a { border-top: 1px solid var(--page-line); }
+.contact-social-index { color: var(--page-muted); font-family: monospace; font-size: 0.7rem; }
+.contact-socials a > svg:last-child { color: var(--page-accent); transition: transform 180ms ease; }
+.contact-socials a:hover { color: var(--page-accent); }
+.contact-socials a:hover > svg:last-child { transform: translate(3px, -3px); }
+@media (max-width: 1100px) {
+    .contact-page .page-heading h1 { font-size: 4.5rem; }
+    .contact-direct { padding-right: 28px; }
+    .contact-email { font-size: 1.2rem; }
+    .contact-socials { padding-left: 28px; }
+}
+@media (max-width: 767px) {
+    .contact-page .page-heading { padding-bottom: 32px; }
+    .contact-page .page-heading h1 { font-size: 3.4rem; }
+    .contact-channels { grid-template-columns: 1fr; }
+    .contact-direct { border-right: 0; padding: 24px 0 36px; }
+    .contact-direct h2 { margin-top: 28px; font-size: 1.2rem; }
+    .contact-socials { padding: 0; border-top: 1px solid var(--page-line); }
+    .contact-socials a { min-height: 88px; font-size: 1.05rem; }
+}

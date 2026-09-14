@@ -1,15 +1,14 @@
 .about-page {
-    --about-accent: #f05a4f;
+    --about-accent: var(--accent-color);
     --about-line: color-mix(in srgb, var(--text-color) 18%, transparent);
     --about-muted: color-mix(in srgb, var(--text-color) 72%, var(--bg-color));
-    --about-surface: color-mix(in srgb, var(--bg-color) 94%, transparent);
+    --about-surface: color-mix(in srgb, var(--bg-color) 58%, transparent);
     width: min(1280px, calc(100% - 112px));
     margin: 0 auto;
     padding: 42px 0 80px;
     letter-spacing: 0;
 }
 
-[data-theme="light"] .about-page { --about-accent: #b72d25; }
 .about-page * { letter-spacing: 0; }
 .about-page a:focus-visible, .about-page button:focus-visible { outline: 2px solid var(--about-accent); outline-offset: 5px; }
 .about-hero { padding: 18px 0 48px; }
@@ -63,8 +62,8 @@
 .about-page .skill-group-heading h3 { font-size: 1rem; }
 .about-page .skill-group-heading span { white-space: normal; text-align: right; }
 .about-page .skill-matrix { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-.about-page .skill-module { background: var(--about-surface); border-radius: 4px; scroll-margin-top: 90px; }
-.about-page .skill-module > button { min-height: 58px; padding: 12px 16px; border-radius: 4px; }
+.about-page .skill-module { background: var(--about-surface); border-radius: 4px; scroll-margin-top: 90px; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.about-page .skill-module > button { min-height: 58px; padding: 12px 16px; border-radius: 4px; background: transparent; }
 .about-page .skill-name { font-size: 0.86rem; }
 .about-page .skill-evidence { font-size: 0.62rem; }
 .about-page .skill-module.is-open { grid-column: 1 / -1; border-color: var(--about-accent); }

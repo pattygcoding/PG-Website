@@ -25,7 +25,7 @@
 }
 
 .brand__symbol {
-    color: var(--text-color-3, #cc0000);
+    color: var(--text-color-3, var(--accent-color));
     font-weight: 800;
     font-size: 1.25rem;
 }
@@ -35,7 +35,7 @@
 }
 
 .brand__blink {
-    color: var(--text-color-3, #cc0000);
+    color: var(--text-color-3, var(--accent-color));
     font-weight: 800;
     animation: techBlink 1.2s infinite;
 }
@@ -70,21 +70,21 @@
 }
 
 .menu-is-active .brand__symbol,
-.menu-is-active .brand__blink { color: #89e0c2; }
+.menu-is-active .brand__blink { color: var(--accent-color); }
 .menu-is-active .brand__blink { animation: none; }
 .site__header.menu-is-active { padding-bottom: 10px; background: rgb(6 9 14 / 90%); border-bottom: 1px solid rgb(226 240 237 / 16%); }
-.menu-is-active .lang-wrapper { position: static; --text-color-3: #89e0c2; --card-bg: #111b1c; }
+.menu-is-active .lang-wrapper { position: static; --text-color-3: var(--accent-color); --card-bg: #111b1c; }
 .menu-is-active .lang-toggle { background: transparent; }
 .menu-is-active .lang-dropdown { right: 0; width: min(22rem, calc(100vw - 48px)); }
 .menu__button.tech__toggle_btn { width: 50px; padding: 0; border-radius: 50%; }
-.menu__button:focus-visible { outline: 2px solid #89e0c2; outline-offset: 3px; }
+.menu__button:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 3px; }
 [data-theme="light"] .site__header.menu-is-active { background: rgb(231 245 240 / 94%); border-color: rgb(19 63 61 / 20%); }
-[data-theme="light"] .menu-is-active .lang-wrapper { --text-color-3: #096b57; --card-bg: #e7f5f0; }
+[data-theme="light"] .menu-is-active .lang-wrapper { --text-color-3: var(--accent-color); --card-bg: #e7f5f0; }
 [data-theme="light"] .tech__toggle_btn.is-active { background: rgb(9 107 87 / 8%); border-color: rgb(9 107 87 / 30%); }
 [data-theme="light"] .tech__toggle_btn.is-active svg,
 [data-theme="light"] .menu-is-active .brand__symbol,
-[data-theme="light"] .menu-is-active .brand__blink { color: #096b57; }
-[data-theme="light"] .menu__button:focus-visible { outline-color: #096b57; }
+[data-theme="light"] .menu-is-active .brand__blink { color: var(--accent-color); }
+[data-theme="light"] .menu__button:focus-visible { outline-color: var(--accent-color); }
 
 .menu__button {
     color: var(--text-color);

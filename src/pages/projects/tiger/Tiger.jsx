@@ -1,12 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { FaPlay } from "react-icons/fa";
-import { FiArrowUpRight, FiCpu, FiGithub } from "react-icons/fi";
+import { FiArrowUpRight, FiGithub } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
 import { tokenize } from "./highlight.mjs";
 import "./Tiger.css";
+import "@/components/page-shell/PageShell.css";
 
 const tigerSamples = [
 	"hello_world.tg",
@@ -121,25 +122,14 @@ const Tiger = () => {
 
 	return (
 		<HelmetProvider>
-			<main className="tiger-page">
+			<main className="tiger-lab portfolio-shell">
 				<Tab title={t("tiger.title")} />
-				<header className="tiger-hero">
-					<div className="tiger-hero-grid" aria-hidden="true"></div>
-					<div className="tiger-hero-copy">
-						<div className="tiger-kicker"><span>TG</span> CUSTOM_LANGUAGE / WASM</div>
+				<header className="page-heading">
+						<div className="page-eyebrow"><span>01 / Tiger</span><a href={l.tiger} target="_blank" rel="noopener noreferrer"><FiGithub /><span>{t("tiger.more_info2")}</span><FiArrowUpRight /></a></div>
 						<h1>{t("tiger.title")}</h1>
 						<p>{t("tiger.description")}</p>
-						<a href={l.tiger} target="_blank" rel="noopener noreferrer" className="tiger-repository-link">
-							<FiGithub /><span>{t("tiger.more_info2")}</span><FiArrowUpRight />
-						</a>
-					</div>
-					<div className="tiger-specs" aria-hidden="true">
-						<div><span>RUNTIME</span><strong>GO / WASM</strong></div>
-						<div><span>MODE</span><strong>INTERPRETED</strong></div>
-						<div><span>SAMPLES</span><strong>{String(tigerSamples.length).padStart(2, "0")}</strong></div>
-						<FiCpu />
-					</div>
 				</header>
+				<div className="tiger-runtime-summary"><span>Go / WebAssembly</span><span>Interpreted</span><span>{String(tigerSamples.length).padStart(2, "0")} .tg</span></div>
 
 				<section className="tiger-workspace" aria-label={t("tiger.title")}>
 					<header className="tiger-toolbar">

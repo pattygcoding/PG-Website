@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { FaMagic } from "react-icons/fa";
-import { FiArrowUpRight, FiCheckCircle, FiFileText, FiGithub } from "react-icons/fi";
+import { FiArrowUpRight, FiGithub } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { CopyButton } from "@/components/copy-button";
 import { useLang } from "@/lang/languageContext";
@@ -9,7 +9,8 @@ import l from "@/assets/links/links.json";
 import Prism from "prismjs";
 import "prismjs/components/prism-json";
 import "prismjs/components/prism-yaml";
-import "./Formatter.css";
+import "@/components/page-shell/PageShell.css";
+import "./FormatterWorkbench.css";
 
 const jsonSamples = [
 	"simple_object.json",
@@ -153,26 +154,12 @@ const Formatter = () => {
 
 	return (
 		<HelmetProvider>
-			<main className="formatter-page">
+			<main className="formatter-page portfolio-shell">
 				<Tab title={t("formatter.title")} />
-				<header className="formatter-hero">
-					<div className="formatter-hero-grid" aria-hidden="true"></div>
-					<div className="formatter-hero-copy">
-						<div className="formatter-kicker"><FiFileText /> DATA_TOOL / WASM</div>
+				<header className="page-heading">
+						<div className="page-eyebrow"><span>02 / JSON + YAML</span><a href={l.formatter} target="_blank" rel="noopener noreferrer"><FiGithub /><span>{t("formatter.more_info2")}</span><FiArrowUpRight /></a></div>
 						<h1>{t("formatter.title")}</h1>
 						<p>{t("formatter.description")}</p>
-						<a href={l.formatter} target="_blank" rel="noopener noreferrer" className="formatter-repository-link">
-							<FiGithub /><span>{t("formatter.more_info2")}</span><FiArrowUpRight />
-						</a>
-					</div>
-					<div className="formatter-flow" aria-hidden="true">
-						<div><span>01</span><strong>PASTE</strong><small>RAW DATA</small></div>
-						<i></i>
-						<div><span>02</span><strong>VALIDATE</strong><small>WASM ENGINE</small></div>
-						<i></i>
-						<div><span>03</span><strong>FORMAT</strong><small>CLEAN OUTPUT</small></div>
-						<FiCheckCircle />
-					</div>
 				</header>
 
 				<section className="formatter-workspace" aria-label={t("formatter.title")}>
@@ -184,6 +171,7 @@ const Formatter = () => {
 									key={pill.value}
 									type="button"
 									className={`formatter-pill${formatMode === pill.value ? " active" : ""}`}
+									aria-pressed={formatMode === pill.value}
 									onClick={() => setFormatMode(pill.value)}
 								>
 									{pill.label || t(pill.labelKey)}

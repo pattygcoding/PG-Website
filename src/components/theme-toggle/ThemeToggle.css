@@ -224,11 +224,11 @@
 }
 
 .theme-switch:hover .theme-switch__sky {
-    border-color: var(--text-color-3, #cc0000);
+    border-color: var(--text-color-3, var(--accent-color));
 }
 
 .theme-switch:focus-visible {
-    outline: 2px solid var(--text-color-3, #cc0000);
+    outline: 2px solid var(--text-color-3, var(--accent-color));
     outline-offset: 2px;
 }
 

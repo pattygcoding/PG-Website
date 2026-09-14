@@ -126,7 +126,7 @@
     place-items: center;
     border: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
     background: var(--bg-color);
-    color: var(--about-accent, #ef3e32);
+    color: var(--about-accent, var(--accent-color));
 }
 
 .career-date {

@@ -9,6 +9,7 @@ import { LangAwareLink } from "@/components/lang-aware-link";
 import links from "@/assets/links/links.json";
 import EngineeringAtlas, { AtlasInvitation } from "./engineering-atlas/EngineeringAtlas";
 import "./Home.css";
+import "./HomeShowcase.css";
 
 const Home = () => {
 	const { t } = useLang();
@@ -69,16 +70,17 @@ const Home = () => {
 
 	return (
 		<HelmetProvider>
-			<section id="home" className="home">
+			<section id="home" className="home home--showcase">
 				<Tab title={t("home.title")} />
 				<div className="intro_sec">
+					<div className="hero-coordinate" aria-hidden="true">PG / ENGINEERING &amp; PRODUCT / 01</div>
 					<div className="hero-copy">
 						<div className="intro">
 							<div className="hero-kicker">
 								<span className="hero-kicker-mark" aria-hidden="true"></span>
 								{t("home.title")}
 							</div>
-							<h1 className="hero-name">{t("name")}</h1>
+							<h1 className="hero-name">{t("name").split(" ").map((part, index) => <span key={`${part}-${index}`}>{part}{" "}</span>)}</h1>
 							<div className="hero-role" aria-live="polite">
 									<Typewriter
 										options={{
@@ -119,20 +121,27 @@ const Home = () => {
 								<span>{t("home.footer")}</span>
 								<FiArrowUpRight aria-hidden="true" />
 							</Link>
-							<AtlasInvitation />
 						</div>
 					</div>
+					<div className="hero-bottom-line"><AtlasInvitation /><span aria-hidden="true">REACT / .NET / SQL <FiArrowRight /></span></div>
+				</div>
 
-					<div className="hero-visual" aria-hidden="true">
+				<div className="hero-evidence">
+					<div className="hero-visual">
 						<div className="visual-grid"></div>
-						<div className="visual-index">PG / 01</div>
+						<div className="visual-index" aria-hidden="true">PG / 02</div>
 						<div className="portrait-frame">
-							<div className="home_img"></div>
+							<div
+								className="home_img"
+								role="img"
+								aria-label={t("name")}
+								style={{ "--home-image": "url('/assets/images/logo.png')" }}
+							></div>
 							<div className="portrait-corner portrait-corner-top"></div>
 							<div className="portrait-corner portrait-corner-bottom"></div>
 						</div>
 
-						<div className="code-window">
+						<div className="code-window" aria-hidden="true">
 							<div className="code-window-bar">
 								<div className="window-dots"><i></i><i></i><i></i></div>
 								<span>patrick.ts</span>
@@ -162,7 +171,7 @@ const Home = () => {
 
 				<EngineeringAtlas />
 
-				<section className="featured-work" aria-labelledby="featured-work-title">
+				<section className="featured-work" id="featured-work" aria-labelledby="featured-work-title">
 					<header className="featured-work-header">
 						<div>
 							<span className="featured-work-kicker"><FiStar aria-hidden="true" /> {t("home.featured.kicker")}</span>
@@ -173,10 +182,10 @@ const Home = () => {
 
 					<div className="featured-project-grid">
 						{featuredProjects.map((project, index) => (
-							<article className={`featured-project${project.featured ? " featured-project--lead" : ""}`} key={project.key}>
+							<article className={`featured-project featured-project--${project.key}${project.featured ? " featured-project--lead" : ""}`} key={project.key}>
 								{renderProjectLink(project, <>
 									<div className="featured-project-visual">
-										<img src={`/assets/images/${project.image}`} alt={`${project.data.title} logo`} />
+											<img src={`/assets/images/${project.image}`} alt={`${project.data.title} logo`} loading="lazy" decoding="async" />
 										<span className="featured-project-number">{String(index + 1).padStart(2, "0")}</span>
 										<span className="featured-project-arrow"><FiArrowUpRight aria-hidden="true" /></span>
 									</div>
@@ -201,6 +210,11 @@ const Home = () => {
 						<FiArrowUpRight aria-hidden="true" />
 					</LangAwareLink>
 				</section>
+				<footer className="home-contact">
+					<span className="home-contact-index" aria-hidden="true">PG / NEXT</span>
+					<LangAwareLink to="/contact"><span>{t("home.contact_button")}</span><FiArrowUpRight aria-hidden="true" /></LangAwareLink>
+					<div><span>{t("name")}</span><span>React / TypeScript / .NET / SQL</span></div>
+				</footer>
 			</section>
 		</HelmetProvider>
 	);

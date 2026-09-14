@@ -4,7 +4,8 @@
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
+    --text-color-3: var(--accent-color);
+    --accent-color: #a5edcf;
     --overlay-color: rgb(12 12 12 / 63%);
     --editor-bg: #222;
 	--editor-text: #ddd;
@@ -22,7 +23,8 @@
     --secondary-color: #000;
     --text-color: #000;
     --text-color-2: #000;
-    --text-color-3: rgb(204, 0, 0);
+    --text-color-3: var(--accent-color);
+    --accent-color: #21654e;
     --overlay-color: rgb(255 255 255 / 70%);
 	--editor-bg: #f0f0f0;
 	--editor-text: #111;

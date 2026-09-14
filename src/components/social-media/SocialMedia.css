@@ -1,86 +1,114 @@
 .stick_follow_icon {
-    top: 50%;
-    left: 30px;
-    width: 20px;
-    height: 200px;
     position: fixed;
-    margin-top: -100px;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    z-index: 20;
+}
+
+.stick_follow_panel {
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
 }
 
 .stick_follow_icon ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
 }
 
 .stick_follow_icon svg {
-    width: 1.3em;
-    height: 1.3em;
-    fill: var(--text-color)
+    width: 0.96em;
+    height: 0.96em;
+    fill: var(--text-color);
+    transition: transform 0.2s ease, fill 0.2s ease, opacity 0.2s ease;
+    opacity: 0.9;
+}
+
+.stick_follow_icon a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.stick_follow_icon a:hover,
+.stick_follow_icon a:focus-visible {
+    background: transparent;
+    transform: translateY(-1px);
+}
+
+.stick_follow_icon a:hover svg,
+.stick_follow_icon a:focus-visible svg {
+    fill: #9fe7d4;
+    opacity: 1;
+    transform: scale(1.04);
 }
 
 .stick_follow_icon p {
-    top: 70px;
-    left: -24px;
-    width: 68px;
-    height: 20px;
-    color: var(--text-color);
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.2;
-    white-space: nowrap;
     position: relative;
-    transform: rotate( -90deg);
+    margin: 0;
+    color: rgba(255, 255, 255, 0.82);
+    font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", monospace;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transform: rotate(-90deg) translateX(-24px);
+    transform-origin: center;
+    opacity: 0.85;
 }
 
 .stick_follow_icon ul li {
     display: block;
-    font-size: 12px;
     text-align: center;
-    margin-bottom: 10px;
-    transition: all .3s;
-}
-
-.stick_follow_icon p:after {
-    top: 9px;
-    right: -48px;
-    width: 40px;
-    height: 1px;
-    content: "";
-    display: block;
-    position: absolute;
-    background-color: var(--text-color);
+    transition: all 0.3s ease;
 }
 
 @media only screen and (max-width: 991px) {
     .stick_follow_icon {
-        width: unset;
-        height: unset;
         position: static;
-        margin-top: unset;
+        transform: none;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        padding: 40px 0;
         align-items: center;
+        gap: 12px;
+        padding: 30px 0 16px;
     }
-    .stick_follow_icon p {
-        top: unset;
-        left: unset;
-        width: unset;
-        height: unset;
-        white-space: nowrap;
-        position: relative;
-        transform: unset;
-        font-size: 17px;
-        margin-right: 65px;
+
+    .stick_follow_panel {
+        padding: 0;
     }
+
     .stick_follow_icon ul {
-        margin-bottom: 20px;
+        flex-direction: row;
+        gap: 8px;
     }
-    .stick_follow_icon ul li {
-        display: inline;
-        margin-bottom: 29px;
-        margin-right: 10px;
+
+    .stick_follow_icon p {
+        transform: none;
+        font-size: 9px;
+        letter-spacing: 0.12em;
+        margin: 0;
+    }
+
+    .stick_follow_icon p:before {
+        display: none;
     }
 }

@@ -32,7 +32,7 @@
     --atlas-surface: #111314;
     --atlas-node: #191c1d;
     --atlas-grid: #292d2e;
-    --atlas-signal: #ec6557;
+    --atlas-signal: var(--accent-color);
     --atlas-mint: #80c8ac;
     --atlas-gold: #e0bd74;
     color: var(--atlas-ink);
@@ -49,7 +49,7 @@
     --atlas-surface: #f4f6f5;
     --atlas-node: #ffffff;
     --atlas-grid: #dce2df;
-    --atlas-signal: #b83026;
+    --atlas-signal: var(--accent-color);
     --atlas-mint: #28745b;
     --atlas-gold: #856017;
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiArrowUpRight, FiArrowRight, FiPlus, FiMinus } from "react-icons/fi";
-import { FaGithub, FaLinkedin, FaYoutube, FaGamepad } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGamepad } from "react-icons/fa";
 import { VscTerminal, VscGlobe, VscJson } from "react-icons/vsc";
 import l from "@/assets/links/links.json";
 import { useLang } from "@/lang/languageContext";
@@ -94,7 +94,7 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 				<footer className="atlas-menu__footer">
 					<span className="atlas-menu__copyright">Patrick Goodwin <span>/ {new Date().getFullYear()}</span></span>
 					<div className="atlas-menu__socials">
-						{[{ name: "GitHub", key: "github", icon: FaGithub }, { name: "LinkedIn", key: "linkedin", icon: FaLinkedin }, { name: "YouTube", key: "youtube", icon: FaYoutube }].map(({ name, key, icon: Icon }) => (
+						{[{ name: "GitHub", key: "github", icon: FaGithub }, { name: "LinkedIn", key: "linkedin", icon: FaLinkedin }].map(({ name, key, icon: Icon }) => (
 							<a key={key} href={l.social_media[key]} target="_blank" rel="noopener noreferrer" title={`${name} (opens in a new tab)`}><Icon aria-hidden="true" /><span>{name}</span><FiArrowUpRight aria-hidden="true" /></a>
 						))}
 					</div>
