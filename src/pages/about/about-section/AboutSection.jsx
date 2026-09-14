@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutSection.css";
 
-const AboutSection = ({ index, label, title, children }) => (
-	<section className="about-section sec_sp">
+const AboutSection = ({ id, index, label, title, children }) => (
+	<section id={id} className="about-section sec_sp">
 		<header className="about-section-heading">
 			<div className="section-index">{index}</div>
 			<div>

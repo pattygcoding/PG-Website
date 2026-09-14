@@ -1,31 +1,36 @@
-import React, { useState, useMemo } from "react";
+import React, { useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import {
 	DropdownButton,
 	Dropdown,
 	FormControl
 } from "react-bootstrap";
-import { FiArrowUpRight, FiFilter, FiGrid, FiX } from "react-icons/fi";
+import { FiArrowUpRight, FiCheck, FiFilter, FiGrid, FiList, FiSearch, FiX } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import links from "@/assets/links/links.json";
 import skills from "@/assets/skills/skills.json";
 import projectsData from "@/assets/projects/projects.json";
-import { useLocation } from "react-router-dom";
-import "./Portfolio.css";
+import { useLocation, useNavigate } from "react-router-dom";
+import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
+import { readSkillSelection, writeSkillSelection, collectGroupSkills, matchesSkills } from "./portfolioFilters";
+import "./PortfolioArchive.css";
+
+const allSkills = [...skills.languages, ...skills.frameworks, ...skills.other_technologies];
+const skillNames = Object.fromEntries(allSkills.map((skill) => [skill.id, skill.name]));
+const groupToSkillsMap = collectGroupSkills(projectsData.projects);
+const featuredOrder = ["takeoff_engine", "inventory_register", "grocery_app", "tiger_programming_language", "payrollobol", "formatter", "interop"];
 
 const Portfolio = () => {
 	const { t } = useLang();
 	const entries = t("portfolio.entries");
 	const images = links.portfolio;
 	const location = useLocation();
-
-	// URL-backed selection state
-	const [selectedSkills, setSelectedSkills] = useState(() => {
-		const params = new URLSearchParams(location.search);
-		const skillString = params.get("skills");
-		return skillString ? skillString.split(",") : [];
-	});
+	const navigate = useNavigate();
+	const selectedSkills = readSkillSelection(location.search, location.hash);
+	const [projectQuery, setProjectQuery] = useState("");
+	const [view, setView] = useState("grid");
+	const [sort, setSort] = useState("featured");
 
 	// search terms for each dropdown
 	const [searchTerm, setSearchTerm] = useState({
@@ -38,33 +43,17 @@ const Portfolio = () => {
 		return `/assets/images/${filename}`;
 	};
 
-	const allSkills = useMemo(
-		() => [...skills.languages, ...skills.frameworks, ...skills.other_technologies],
-		[]
-	);
-
-	const skillNames = useMemo(
-		() => Object.fromEntries(allSkills.map((skill) => [skill.id, skill.name])),
-		[allSkills]
-	);
-	
-	// Update URL
 	const updateURL = (updated) => {
-		const params = new URLSearchParams(location.search);
-		if (updated.length) params.set("skills", updated.join(","));
-		else params.delete("skills");
-		window.history.replaceState(null, "", `${location.pathname}?${params}`);
+		navigate({ pathname: location.pathname, search: writeSkillSelection(location.search, updated), hash: "" }, { replace: true, preventScrollReset: true });
 	};
 
 	const handleSkillSelect = (skillId) => {
-		setSelectedSkills((prev) => {
-			const updated = prev.includes(skillId)
-				? prev.filter((id) => id !== skillId)
-				: [...prev, skillId];
-			updateURL(updated);
-			return updated;
-		});
+		updateURL(selectedSkills.includes(skillId)
+			? selectedSkills.filter((id) => id !== skillId)
+			: [...selectedSkills, skillId]);
 	};
+
+	const resetFilters = () => { setProjectQuery(""); updateURL([]); };
 
 	const renderDropdown = (title, skillList, keyName) => {
 		const term = searchTerm[keyName].toLowerCase();
@@ -82,11 +71,12 @@ const Portfolio = () => {
 				title={dynamicTitle}
 				variant="outline-secondary"
 				className="filter-dropdown"
+				autoClose="outside"
 				renderMenuOnMount
 			>
 				<FormControl
-					autoFocus
 					placeholder={`Search ${title}…`}
+					aria-label={`Search ${title}`}
 					className="dropdown-search"
 					value={searchTerm[keyName]}
 					onChange={(e) =>
@@ -101,39 +91,37 @@ const Portfolio = () => {
 					<Dropdown.Item
 						key={skill.id}
 						active={selectedSkills.includes(skill.id)}
+						as="button"
+						aria-pressed={selectedSkills.includes(skill.id)}
 						onClick={() => handleSkillSelect(skill.id)}
 					>
-						{skill.name}
+						<span>{skill.name}</span>{selectedSkills.includes(skill.id) && <FiCheck />}
 					</Dropdown.Item>
 				))}
+				{filtered.length === 0 && <div className="dropdown-no-results">{t("home.atlas.no_results")}</div>}
 			</DropdownButton>
 		);
 	};
 
-	const groupToSkillsMap = useMemo(() => {
-		const map = {};
-		projectsData.projects.forEach((p) => {
-			map[p.group] ||= new Set();
-			p.skills.forEach((s) => map[p.group].add(s));
+	const visibleEntries = Object.entries(entries)
+		.filter(([key, data]) => {
+			const technologyText = [...(groupToSkillsMap[key] || [])].map((id) => skillNames[id] || id).join(" ");
+			return matchesSkills(groupToSkillsMap[key], selectedSkills)
+				&& `${data.title} ${data.text} ${technologyText}`.toLowerCase().includes(projectQuery.trim().toLowerCase());
+		})
+		.sort(([firstKey, first], [secondKey, second]) => {
+			if (sort === "featured") {
+				const firstRank = featuredOrder.includes(firstKey) ? featuredOrder.indexOf(firstKey) : featuredOrder.length;
+				const secondRank = featuredOrder.includes(secondKey) ? featuredOrder.indexOf(secondKey) : featuredOrder.length;
+				if (firstRank !== secondRank) return firstRank - secondRank;
+			}
+			return first.title.localeCompare(second.title);
 		});
-		return map;
-	}, [projectsData]);
-
-	const isProjectVisible = (group) => {
-		if (!selectedSkills.length) return true;
-		const set = groupToSkillsMap[group] || new Set();
-		return selectedSkills.some((s) => set.has(s));
-	};
-
-	const visibleEntries = useMemo(() => {
-		return Object.entries(entries)
-			.filter(([key]) => isProjectVisible(key))
-			.sort(([, a], [, b]) => a.title.localeCompare(b.title));
-	}, [entries, selectedSkills, groupToSkillsMap]);
 
 	const getProjectSkills = (group) => {
-		const project = projectsData.projects.find((item) => item.group === group);
-		return project ? project.skills.map((id) => skillNames[id]).filter(Boolean).slice(0, 4) : [];
+		return [...(groupToSkillsMap[group] || [])].filter((id) => skillNames[id])
+			.sort((first, second) => Number(selectedSkills.includes(second)) - Number(selectedSkills.includes(first)))
+			.slice(0, 6);
 	};
 
 	return (
@@ -141,20 +129,16 @@ const Portfolio = () => {
 			<main className="portfolio-page">
 				<Tab title={t("portfolio.title")} />
 				<header className="portfolio-hero">
-					<div className="portfolio-hero-grid" aria-hidden="true"></div>
-					<div className="portfolio-kicker"><FiGrid /> PROJECT_ARCHIVE / {String(Object.keys(entries).length).padStart(2, "0")}</div>
-					<h1>{t("portfolio.title")}</h1>
-					<div className="portfolio-hero-meta">
-						<span>FULL STACK</span><i></i><span>WEB</span><i></i><span>LANGUAGES</span><i></i><span>TOOLS</span>
+					<div className="portfolio-kicker"><span>{t("name")}</span><span>{t("home.atlas.projects")} / {String(Object.keys(entries).length).padStart(2, "0")}</span></div>
+					<div className="portfolio-title-row">
+						<h1>{t("portfolio.title")}<span>.</span></h1>
+						<p>{t("home.atlas.footer")}</p>
 					</div>
 				</header>
 
-				<section className="portfolio-browser">
+				<section className="portfolio-browser" aria-label={t("portfolio.title")}>
 					<div className="portfolio-toolbar">
-						<div className="filter-heading">
-							<FiFilter />
-							<div><span>// FILTER_INDEX</span><h2>{t("portfolio.filter_by")}</h2></div>
-						</div>
+						<label className="portfolio-search"><FiSearch /><input type="search" value={projectQuery} onChange={(event) => setProjectQuery(event.target.value)} placeholder={t("home.atlas.search")} aria-label={t("home.atlas.search")} /></label>
 						<div className="dropdown-wrap-container">
 							{renderDropdown(t("about.technical_skills.header1"), skills.languages, "languages")}
 							{renderDropdown(t("about.technical_skills.header2"), skills.frameworks, "frameworks")}
@@ -169,51 +153,59 @@ const Portfolio = () => {
 									{skillNames[skillId] || skillId}<FiX />
 								</button>
 							))}
-							<button type="button" className="clear-filters" onClick={() => { setSelectedSkills([]); updateURL([]); }}>CLEAR ALL</button>
+							<button type="button" className="clear-filters" onClick={resetFilters}>{t("home.atlas.reset")}</button>
 						</div>
 					)}
 
 					<div className="portfolio-results-line">
-						<span>SHOWING {String(visibleEntries.length).padStart(2, "0")} / {String(Object.keys(entries).length).padStart(2, "0")}</span>
-						<i></i>
+						<span aria-live="polite" aria-atomic="true"><strong>{String(visibleEntries.length).padStart(2, "0")}</strong> / {String(Object.keys(entries).length).padStart(2, "0")} {t("home.atlas.projects")}</span>
+						<div className="portfolio-view-tools">
+							<select aria-label="Sort projects" value={sort} onChange={(event) => setSort(event.target.value)}><option value="featured">{t("home.featured.title")}</option><option value="alphabetical">A - Z</option></select>
+							<div className="portfolio-view-switch" role="group" aria-label="Project view">
+								<button type="button" aria-label="Grid view" title="Grid view" aria-pressed={view === "grid"} onClick={() => setView("grid")}><FiGrid /></button>
+								<button type="button" aria-label="List view" title="List view" aria-pressed={view === "list"} onClick={() => setView("list")}><FiList /></button>
+							</div>
+						</div>
 					</div>
 
-					<div className="portfolio-grid">
+					<div className={`portfolio-grid portfolio-view-${view}`}>
 					{visibleEntries.map(([key, data], index) => {
 						const projectSkills = getProjectSkills(key);
 						return (
-						<article className="portfolio-project" key={key}>
+						<article className={`portfolio-project ${index === 0 && sort === "featured" ? "project-featured" : ""}`} key={key} data-project={key}>
 							<a
 								href={data.link}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="portfolio-project-link"
+								className="project-image-wrap"
+								aria-label={`${t("home.featured.view_project")}: ${data.title}`}
 							>
-								<div className="project-image-wrap">
 									<img
 										src={resolveImage(images[key] || images.default)}
 										alt={data.title}
 										className="portfolio-card-img"
-										onError={(event) => { event.currentTarget.src = resolveImage(images.default); }}
+										loading={index < 3 ? "eager" : "lazy"}
+										onError={(event) => { if (!event.currentTarget.src.endsWith(images.default)) event.currentTarget.src = resolveImage(images.default); }}
 									/>
 									<span className="project-index">{String(index + 1).padStart(2, "0")}</span>
-									<span className="project-open"><FiArrowUpRight /></span>
-								</div>
-								<div className="project-body">
-									<h2>{data.title}</h2>
-									<p>{data.text}</p>
-									{projectSkills.length > 0 && <div className="project-tags">{projectSkills.map((skill) => <span key={skill}>{skill}</span>)}</div>}
-								</div>
+									<span className="project-open" aria-hidden="true"><FiArrowUpRight /></span>
 							</a>
+								<div className="project-body">
+									{index === 0 && sort === "featured" && <div className="project-feature-label">{t("home.featured.title")}</div>}
+									<h2><a href={data.link} target="_blank" rel="noopener noreferrer">{data.title}</a></h2>
+									<p>{data.text}</p>
+									{projectSkills.length > 0 && <div className="project-tags">{projectSkills.map((skill) => <LangAwareLink key={skill} className={selectedSkills.includes(skill) ? "is-selected" : ""} to={{ pathname: "/about", search: "?", hash: `#${skill}` }}>#{skillNames[skill]}</LangAwareLink>)}</div>}
+								</div>
 						</article>
 						);
 					})}
 					</div>
 
 					{visibleEntries.length === 0 && (
-						<div className="portfolio-empty"><FiFilter /><h2>No matching projects</h2><button type="button" onClick={() => { setSelectedSkills([]); updateURL([]); }}>RESET FILTERS</button></div>
+						<div className="portfolio-empty"><FiFilter /><h2>{t("home.atlas.no_results")}</h2><button type="button" onClick={resetFilters}>{t("home.atlas.reset")}</button></div>
 					)}
 				</section>
+				<footer className="portfolio-closing"><LangAwareLink to="/about">{t("home.about_button")}<FiArrowUpRight /></LangAwareLink><LangAwareLink to="/contact">{t("home.atlas.contact")}<FiArrowUpRight /></LangAwareLink></footer>
 			</main>
 		</HelmetProvider>
 	);

@@ -1,319 +1,104 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
-import { MenuItem } from "./menu-item";
+import { Link, useLocation } from "react-router-dom";
+import { FiArrowUpRight, FiArrowRight, FiPlus, FiMinus } from "react-icons/fi";
+import { FaGithub, FaLinkedin, FaYoutube, FaGamepad } from "react-icons/fa";
+import { VscTerminal, VscGlobe, VscJson } from "react-icons/vsc";
 import l from "@/assets/links/links.json";
 import { useLang } from "@/lang/languageContext";
-import {
-	VscChevronDown,
-	VscChevronUp,
-	VscFolder,
-	VscFolderOpened,
-	VscTerminal,
-	VscGlobe,
-	VscJson,
-	VscHome,
-	VscAccount,
-	VscBriefcase,
-	VscMail,
-	VscClose,
-} from "react-icons/vsc";
-import { FaGamepad, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import "./MenuOptions.css";
+
+const destinations = [
+	{ key: "home", number: "01", path: l.menu.home },
+	{ key: "about", number: "02", path: l.menu.about },
+	{ key: "portfolio", number: "03", path: l.menu.portfolio },
+	{ key: "projects", number: "04" },
+	{ key: "contact", number: "05", path: l.menu.contact },
+];
+
+const projects = [
+	{ key: "tiger", path: l.menu.tiger, icon: VscTerminal },
+	{ key: "snake", path: l.menu.snake, icon: FaGamepad },
+	{ key: "portfolio_translator", path: l.menu.languages, icon: VscGlobe },
+	{ key: "formatter", path: l.menu.formatter, icon: VscJson },
+];
 
 const MenuOptions = ({ handleToggle, closeMenu }) => {
 	const { t } = useLang();
-	const location = useLocation();
-	const [showProjects, setShowProjects] = useState(
-		location.pathname.startsWith("/tiger") ||
-		location.pathname.startsWith("/snake") ||
-		location.pathname.startsWith("/languages") ||
-		location.pathname.startsWith("/formatter")
-	);
-
-	const isProjectActive =
-		location.pathname.startsWith("/tiger") ||
-		location.pathname.startsWith("/snake") ||
-		location.pathname.startsWith("/languages") ||
-		location.pathname.startsWith("/formatter");
-
-	const handleItemClick = (e) => {
-		if (closeMenu) {
-			closeMenu();
-		} else if (handleToggle) {
-			handleToggle();
-		}
-	};
+	const { pathname } = useLocation();
+	const activeProject = projects.some(({ path }) => pathname === path || pathname.startsWith(`${path}/`));
+	const current = destinations.find(({ path }) => path === pathname) || destinations[activeProject ? 3 : 0];
+	const [selected, setSelected] = useState(current);
+	const [showProjects, setShowProjects] = useState(activeProject);
+	const dismiss = closeMenu || handleToggle;
 
 	return (
-		<div className="tech__menu_overlay">
-			{/* HUD / Telemetry Header */}
-			<div className="tech__hud_header">
-				<div className="tech__hud_left">
-					<span className="tech__pulse_indicator">
-						<span className="tech__pulse_dot"></span>
-						<span className="tech__hud_status">SYS_STATUS // ONLINE</span>
-					</span>
-					<span className="tech__hud_divider">|</span>
-					<span className="tech__hud_tag">NAV_MATRIX v2.5</span>
-				</div>
-				<div className="tech__hud_center d-none d-md-block">
-					<span className="tech__hud_coords">LOC: 28.5383° N, 81.3792° W [ORL, FL]</span>
-				</div>
-				<div className="tech__hud_right">
-					<button
-						type="button"
-						className="tech__hud_close_btn"
-						onClick={closeMenu || handleToggle}
-						title="Close navigation (ESC)"
-					>
-						<span className="d-none d-sm-inline">[ESC]</span> CLOSE <VscClose />
-					</button>
-				</div>
+		<div className="atlas-menu">
+			<div className="atlas-menu__scenery" aria-hidden="true">
+				<div className="atlas-menu__galaxy" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/assets/images/galaxy-m101.jpg")` }} />
+				<div className="atlas-menu__coast" />
 			</div>
-
-			{/* Main Scrollable Grid Content */}
-			<div className="tech__menu_scroll_area">
-				<div className="container tech__menu_container">
-					<div className="row g-4 align-items-start">
-						{/* Left Column: Primary Navigation */}
-						<div className="col-12 col-lg-7">
-							<div className="tech__section_header">
-								<span className="tech__section_prompt">&gt;</span>
-								<span className="tech__section_title">PRIMARY_DIRECTIVES</span>
-								<span className="tech__section_line"></span>
-							</div>
-
-							<ul className="tech__nav_list">
-								<MenuItem
-									to={l.menu.home}
-									index="01 //"
-									label={t("menu.home")}
-									desc={t("menu.home_description")}
-									tag="[ROOT]"
-									icon={VscHome}
-									onClick={handleItemClick}
-								/>
-								<MenuItem
-									to={l.menu.about}
-									index="02 //"
-									label={t("menu.about")}
-									desc={t("menu.about_description")}
-									tag="[BIO]"
-									icon={VscAccount}
-									onClick={handleItemClick}
-								/>
-								<MenuItem
-									to={l.menu.portfolio}
-									index="03 //"
-									label={t("menu.portfolio")}
-									desc={t("menu.portfolio_description")}
-									tag="[WORKS]"
-									icon={VscBriefcase}
-									onClick={handleItemClick}
-								/>
-
-								{/* Website Projects Accordion */}
-								<li className="menu_item tech__menu_item tech__project_group">
-									<button
-										type="button"
-										className={`tech__menu_link tech__menu_btn ${isProjectActive ? "is-active" : ""}`}
-										onClick={() => setShowProjects(!showProjects)}
-										aria-expanded={showProjects}
-									>
-										<div className="tech__menu_item_inner">
-											<div className="tech__menu_item_left">
-												<span className="tech__item_index">04 //</span>
-												<span className="tech__item_icon">
-													{showProjects ? <VscFolderOpened /> : <VscFolder />}
-												</span>
-												<div className="tech__item_text_group">
-													<span className="tech__item_label">{t("menu.projects")}</span>
-													<span className="tech__item_desc">{t("menu.projects_description")}</span>
-												</div>
-											</div>
-											<div className="tech__menu_item_right">
-												<span className="tech__item_tag">[4 MODULES]</span>
-												<span className="tech__chevron_icon">
-													{showProjects ? <VscChevronUp /> : <VscChevronDown />}
-												</span>
-											</div>
-										</div>
-									</button>
-
-									{showProjects && (
-										<div className="tech__submenu_container">
-											<div className="tech__submenu_line"></div>
-											<ul className="tech__submenu_list">
-												<MenuItem
-													to={l.menu.tiger}
-													index="04.1"
-													label={t("menu.tiger")}
-													desc={t("menu.tiger_description")}
-													tag="[COMPILER]"
-													icon={VscTerminal}
-													isSubmenu={true}
-													onClick={handleItemClick}
-												/>
-												<MenuItem
-													to={l.menu.snake}
-													index="04.2"
-													label={t("menu.snake")}
-													desc={t("menu.snake_description")}
-													tag="[GAME]"
-													icon={FaGamepad}
-													isSubmenu={true}
-													onClick={handleItemClick}
-												/>
-												<MenuItem
-													to={l.menu.languages}
-													index="04.3"
-													label={t("menu.portfolio_translator")}
-													desc={t("menu.portfolio_translator_description")}
-													tag="[I18N]"
-													icon={VscGlobe}
-													isSubmenu={true}
-													onClick={handleItemClick}
-												/>
-												<MenuItem
-													to={l.menu.formatter}
-													index="04.4"
-													label={t("menu.formatter")}
-													desc={t("menu.formatter_description")}
-													tag="[PARSER]"
-													icon={VscJson}
-													isSubmenu={true}
-													onClick={handleItemClick}
-												/>
+			<div className="atlas-menu__content">
+				<div className="atlas-menu__masthead">
+					<div><span className="atlas-menu__eyebrow">Patrick Goodwin</span><span className="atlas-menu__profession">Senior Software Engineer</span></div>
+					<span className="atlas-menu__location">Orlando, FL <span aria-hidden="true">/</span> Remote</span>
+				</div>
+				<div className="atlas-menu__layout">
+					<nav className="atlas-menu__navigation" aria-label="Main navigation">
+						<ul className="atlas-menu__destinations">
+							{destinations.map((destination, index) => {
+								const isProjects = destination.key === "projects";
+								const isCurrent = current.key === destination.key;
+								const content = <>
+									<span className="atlas-menu__index">{destination.number}</span>
+									<span className="atlas-menu__label">{t(`menu.${destination.key}`)}</span>
+									<span className="atlas-menu__link-icon" aria-hidden="true">{isProjects ? (showProjects ? <FiMinus /> : <FiPlus />) : <FiArrowUpRight />}</span>
+								</>;
+								const linkProps = {
+									className: `atlas-menu__destination ${selected.key === destination.key ? "is-selected" : ""} ${isCurrent ? "is-current" : ""}`,
+									onMouseEnter: () => setSelected(destination),
+									onFocus: () => setSelected(destination),
+								};
+								return (
+									<li className="atlas-menu__entry" key={destination.key} style={{ "--entry-delay": `${index * 55}ms` }}>
+										{isProjects ? <button {...linkProps} type="button" aria-expanded={showProjects} aria-controls="menu-projects" onClick={() => setShowProjects((open) => !open)}>{content}</button>
+											: <Link {...linkProps} to={destination.path} aria-current={isCurrent ? "page" : undefined} onClick={dismiss}>{content}</Link>}
+										{isProjects && showProjects && (
+											<ul className="atlas-menu__projects" id="menu-projects">
+												{projects.map(({ key, path, icon: Icon }) => <li key={key}>
+													<Link to={path} onClick={dismiss} aria-current={pathname === path ? "page" : undefined}>
+														<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
+													</Link>
+												</li>)}
 											</ul>
-										</div>
-									)}
-								</li>
-
-								<MenuItem
-									to={l.menu.contact}
-									index="05 //"
-									label={t("menu.contact")}
-									desc={t("menu.contact_description")}
-									tag="[COMMS]"
-									icon={VscMail}
-									onClick={handleItemClick}
-								/>
-							</ul>
-						</div>
-
-						{/* Right Column: Telemetry Specs & Social Hub */}
-						<div className="col-12 col-lg-5">
-							{/* Terminal Console Card */}
-							<div className="tech__card tech__terminal_card mb-4">
-								<div className="tech__card_header">
-									<div className="tech__card_dots">
-										<span className="dot dot-red"></span>
-										<span className="dot dot-yellow"></span>
-										<span className="dot dot-green"></span>
-									</div>
-									<span className="tech__card_title">specs@pattyg:~</span>
-								</div>
-								<div className="tech__terminal_body">
-									<div className="tech__term_row">
-										<span className="term_prompt">$</span>
-										<span className="term_cmd">whoami</span>
-									</div>
-									<div className="term_output term_highlight">
-										Patrick Goodwin // Senior Software Engineer
-									</div>
-
-									<div className="tech__term_row mt-2">
-										<span className="term_prompt">$</span>
-										<span className="term_cmd">sys.location</span>
-									</div>
-									<div className="term_output">
-										Orlando, FL, USA (Remote / Hybrid)
-									</div>
-
-									<div className="tech__term_row mt-2">
-										<span className="term_prompt">$</span>
-										<span className="term_cmd">stack --primary</span>
-									</div>
-									<div className="term_output">
-										React • TypeScript • Node.js • .NET • Java • Python
-									</div>
-
-									<div className="tech__term_row mt-2">
-										<span className="term_prompt">$</span>
-										<span className="term_cmd">status</span>
-									</div>
-									<div className="term_output term_badge_status">
-										<span className="status_dot"></span> OPEN TO CONNECT & COLLABORATE
-									</div>
-								</div>
-							</div>
-
-							{/* Social Media Terminal Card */}
-							<div className="tech__card tech__social_card">
-								<div className="tech__card_header">
-									<span className="tech__card_badge">// COMM_CHANNELS</span>
-									<span className="tech__card_sub">SOCIAL TRANSMISSION</span>
-								</div>
-								<div className="tech__social_grid">
-									<a
-										href={l.social_media.github}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="tech__social_link"
-									>
-										<span className="social_icon_wrap">
-											<FaGithub />
-										</span>
-										<div className="social_text_wrap">
-											<span className="social_name">GitHub</span>
-											<span className="social_handle">@pattygcoding</span>
-										</div>
-									</a>
-									<a
-										href={l.social_media.linkedin}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="tech__social_link"
-									>
-										<span className="social_icon_wrap">
-											<FaLinkedin />
-										</span>
-										<div className="social_text_wrap">
-											<span className="social_name">LinkedIn</span>
-											<span className="social_handle">/patrickgoodwin7</span>
-										</div>
-									</a>
-									<a
-										href={l.social_media.youtube}
-										target="_blank"
-										rel="noopener noreferrer"
-										className="tech__social_link"
-									>
-										<span className="social_icon_wrap">
-											<FaYoutube />
-										</span>
-										<div className="social_text_wrap">
-											<span className="social_name">YouTube</span>
-											<span className="social_handle">@patty_g7</span>
-										</div>
-									</a>
-								</div>
+										)}
+									</li>
+								);
+							})}
+						</ul>
+					</nav>
+					<aside className="atlas-menu__preview" aria-label="Destination preview">
+						<div className="atlas-menu__preview-top"><span>PG / INDEX</span><span>{selected.number} <span className="atlas-menu__muted">/ 05</span></span></div>
+						<div className="atlas-menu__preview-body" key={selected.key}>
+							<span className="atlas-menu__coordinate" aria-hidden="true">{selected.number}</span>
+							<div className="atlas-menu__preview-copy">
+								<span className="atlas-menu__route">{selected.path || "/projects"}</span>
+								<h2>{t(`menu.${selected.key}`)}</h2>
+								<p>{t(`menu.${selected.key}_description`)}</p>
+								{selected.path ? <Link to={selected.path} className="atlas-menu__preview-link" onClick={dismiss} aria-label={t(`menu.${selected.key}`)}><FiArrowRight aria-hidden="true" /></Link>
+									: <div className="atlas-menu__project-count"><span>04</span> React / WebAssembly / Python</div>}
 							</div>
 						</div>
+						<div className="atlas-menu__signature"><span>React / TypeScript / .NET</span><span>Java / Python / Node.js</span></div>
+					</aside>
+				</div>
+				<footer className="atlas-menu__footer">
+					<span className="atlas-menu__copyright">Patrick Goodwin <span>/ {new Date().getFullYear()}</span></span>
+					<div className="atlas-menu__socials">
+						{[{ name: "GitHub", key: "github", icon: FaGithub }, { name: "LinkedIn", key: "linkedin", icon: FaLinkedin }, { name: "YouTube", key: "youtube", icon: FaYoutube }].map(({ name, key, icon: Icon }) => (
+							<a key={key} href={l.social_media[key]} target="_blank" rel="noopener noreferrer" title={`${name} (opens in a new tab)`}><Icon aria-hidden="true" /><span>{name}</span><FiArrowUpRight aria-hidden="true" /></a>
+						))}
 					</div>
-				</div>
-			</div>
-
-			{/* Telemetry Footer */}
-			<div className="tech__hud_footer">
-				<div className="container-fluid d-flex flex-wrap align-items-center justify-content-between">
-					<span className="tech__footer_copy">
-						PATRICK GOODWIN © {new Date().getFullYear()} // ALL SYSTEMS OPERATIONAL
-					</span>
-					<span className="tech__footer_meta d-none d-sm-inline">
-						PROTOCOL: ENCRYPTED // REACT_SPA
-					</span>
-				</div>
+				</footer>
 			</div>
 		</div>
 	);
