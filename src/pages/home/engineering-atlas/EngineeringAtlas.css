@@ -144,6 +144,8 @@
 .atlas-open:hover { background: var(--atlas-signal); color: var(--atlas-surface); }
 .atlas-open svg { flex-shrink: 0; }
 .atlas-related { margin-top: 26px; }
+.atlas-related summary { padding: 12px 0; cursor: pointer; font: 0.72rem 'Space Grotesk', sans-serif; text-transform: uppercase; color: var(--atlas-muted); }
+.atlas-related summary:focus-visible { outline: 2px solid var(--atlas-signal); outline-offset: 4px; }
 .atlas-related button { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; border: 0; border-top: 1px solid var(--atlas-grid); background: transparent; padding: 10px 0; font-size: 0.72rem; text-align: left; }
 .atlas-related button:hover { color: var(--atlas-signal); }
 .atlas-related button small { display: block; font: 0.6rem monospace; margin-top: 4px; color: var(--atlas-muted); }

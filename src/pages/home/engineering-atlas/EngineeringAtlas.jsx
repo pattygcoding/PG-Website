@@ -27,6 +27,7 @@ export default function EngineeringAtlas() {
     const [query, setQuery] = useState("");
     const [view, setView] = useState("map");
     const [paused, setPaused] = useState(false);
+    const [relatedOpen, setRelatedOpen] = useState(() => !window.matchMedia("(max-width: 800px)").matches);
     const inspectorRef = useRef(null);
     const entries = Object.fromEntries(ATLAS_PROJECTS.map(({ id }) => [id, t(`portfolio.entries.${id}`)]));
     const labels = {
@@ -145,10 +146,10 @@ export default function EngineeringAtlas() {
                             {selected.skills.length > 8 && <details className="atlas-all-skills"><summary>{labels.all_technologies} ({selected.skills.length})</summary><div className="atlas-stack">{selected.skills.slice(8).map((skill) => <span key={skill}>{labels.skills[skill]}</span>)}</div></details>}
                             {labels.stories[selected.id]?.lens && <div className="atlas-lens"><h4>{labels.engineering_lens}</h4><p>{labels.stories[selected.id].lens}</p></div>}
                             {selected.to ? <LangAwareLink to={selected.to} className="atlas-open">{openContent}</LangAwareLink> : <a href={entries[selected.id].link} target="_blank" rel="noopener noreferrer" className="atlas-open">{openContent}</a>}
-                            {connected.length > 0 && <div className="atlas-related"><h4>{labels.connected_work}</h4>{connected.map((id) => {
+                            {connected.length > 0 && <details className="atlas-related" open={relatedOpen}><summary onClick={(event) => { event.preventDefault(); setRelatedOpen((open) => !open); }}>{labels.connected_work}</summary>{connected.map((id) => {
                                 const relationship = selected.id === ATLAS_HUB || id === ATLAS_HUB ? "portfolio" : selected.family;
                                 return <button type="button" key={id} onClick={() => selectRelated(id)}><span>{entries[id].title}<small>{labels.families[relationship]}</small></span><FiArrowRight aria-hidden="true" /></button>;
-                            })}</div>}
+                            })}</details>}
                         </div> : <p className="atlas-inspector-empty">{labels.no_selection}</p>}
                     </aside>
                 </div>

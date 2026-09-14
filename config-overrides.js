@@ -8,3 +8,12 @@ module.exports = function override(config) {
     };
     return config;
 };
+
+module.exports.jest = (config) => ({
+    ...config,
+    moduleNameMapper: {
+        ...config.moduleNameMapper,
+        "^@/(.*)$": "<rootDir>/src/$1",
+        "^#/(.*)$": "<rootDir>/public/$1",
+    },
+});

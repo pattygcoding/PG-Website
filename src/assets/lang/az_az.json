@@ -34,6 +34,115 @@
     "portfolio_button": "Mənim Portfolio",
     "contact_button": "Mənimlə əlaqə saxlayın",
     "about_button": "Haqqımda",
+    "atlas": {
+      "invitation_kicker": "İşə fərqli baxış",
+      "invitation": "Mühəndislik atlaslarını araşdırın",
+      "kicker": "Bütöv portfel / əlaqəli düşüncə",
+      "title": "Mühəndislik Atlası",
+      "projects": "Lahiyələr:",
+      "technologies": "Texnologiyalar",
+      "connections": "Əlaqələr",
+      "center": "Mühəndislik atlası",
+      "filter_label": "Layihə kateqoriyaları",
+      "domains": {
+        "all": "Bütün işlər",
+        "products": "Məhsullar",
+        "systems": "Sistemlər",
+        "experiences": "yaradacaq. "
+      },
+      "search": "Layihə və ya texnologiya tapın",
+      "view_label": "Atıla-atıla",
+      "map_view": "Xəritə görünüşü",
+      "map_navigation": "Portfelin xəritə naviqasiyası",
+      "zoom_in": "Yaxınlaşdır",
+      "zoom_out": "Uzaqlaşdır",
+      "zoom_level": "MAP böyütmə səviyyəsi",
+      "fit_all": "Bütün layihələrə uyğunlaşın",
+      "center_selected": "Mərkəz seçilmiş layihə",
+      "all_technologies": "Bütün texnologiyalar",
+      "list_view": "Siyahı görünüşü",
+      "pause": "Siqnal animasiyasına fasilə ver",
+      "resume": "Siqnal animasiyasını bərpa edin",
+      "project_selector": "Layihələri araşdırın",
+      "inspector": "Seçilmiş layihə təfərrüatları",
+      "shared_stack": "Ortaq texnologiya",
+      "family_connection": "Layihə ailəsi",
+      "portfolio_connection": "Portfel əlaqəsi",
+      "families": {
+        "portfolio": "Portfel mərkəzi",
+        "business": "İşgüzar tətbiqlər",
+        "minecraft": "SupremeMC və Minecraft",
+        "wasm": "WebAssembly layihələri",
+        "libraries": "Skript kitabxanaları",
+        "languages": "Dil təcrübələri",
+        "automation": "Avtomatlaşdırma və məlumat alətləri",
+        "experience": "Peşəkar və təhsil təcrübəsi"
+      },
+      "browser_native": "Brauzer - yerli/server yoxdur",
+      "no_results": "Uyğun layihə yoxdur",
+      "no_selection": "Heç bir layihə seçilməyib.",
+      "reset": "Filtrləri təmizlə",
+      "engineering_lens": "Mühəndislik perspektivi",
+      "connected_work": "Əlaqələndirilmiş iş",
+      "open_live": "Canlı layihəni aç",
+      "open_project": "Layihəni araşdır",
+      "footer": "Müxtəlif domenlər. Bir bağlı mühəndislik təcrübəsi.",
+      "contact": "Gəlin sonra nə olacağını quraq",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Culiya",
+        "objectivec": "Məqsəd-C",
+        "react": "Reaktiv et",
+        "node": "Node.js",
+        "pipelines": "Məlumat boru kəmərləri",
+        "angular": "Bucaqlı",
+        "access": "Girişə Nəzarət",
+        "dotnet": ".net",
+        "sql": "SQL",
+        "testing": "Test",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Qarşılıqlı fəaliyyət",
+        "go": "Gedin",
+        "wasm": "WebAssembly",
+        "accessibility": "Xüsusi İmkanlar",
+        "python": "Python faylları"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Uyğun olmayan tablolar. Tikinti təxminləri və müştəriyə hazır təkliflər. Podratçının faktiki iş prosesi ətrafında qurulmuş SaaS məhsulu.",
+          "lens": "Yumşaq idxalın ciddi daxili modelə ehtiyacı var: daha çox format qəbul etmək təklifin asılı olduğu hesablama qaydalarını zəiflətməməlidir."
+        },
+        "inventory_register": {
+          "summary": "Əsl istifadəçiləri, inventar dəqiqliyini və istehza ilə ödəniş axınını birləşdirən Bucaqlı və Node.js nöqtəli iş axını.",
+          "lens": "Qeydiyyat çıxış ekranından daha çoxdur. Rollar, səhm dəyişiklikləri və ödəniş vəziyyətləri iş prosesini məsuliyyətli saxlamaq üçün açıq sərhədlərə ehtiyac duyur."
+        },
+        "grocery_app": {
+          "summary": "Nəzarətçi, xidmət və yaddaş sərhədləri, Müəssisə Çərçivəsi Əsas Davamlılığı və hərtərəfli sınaq dəsti olan Net 9 Blazor tətbiqi.",
+          "lens": "Ayrılıq öz yerini biznes qaydaları interfeys və əzmkarlıq təbəqəsindən asılı olmayaraq sınaqdan keçirilə bildikdə qazanır."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL əmək haqqı emalı SQLite cüt girişli karniz və Svelte əməliyyatlar göstəricilər panelinə cavab verir.",
+          "lens": "Maliyyə düzgünlüyü təmsilçilikdən başlayır: tam mərkəzli arifmetik və balanslaşdırılmış leder girişləri pul hərəkətini açıq edir."
+        },
+        "interop": {
+          "summary": "15 proqramlaşdırma dili və 18 icra nümunəsini əhatə edən və iş vaxtı sərhədlərində nə baş verdiyini araşdıran çarpaz dilli istinad.",
+          "lens": "Çətin olan müddətlər arasındakı müqavilədir: məlumat mübadiləsi, proses davranışı və təkrar icra sintaksisdən daha çox əhəmiyyət kəsb edir."
+        },
+        "formatter": {
+          "summary": "WebAssembly-a tərtib edilmiş həqiqi Go parnik mühərriki. JSON VƏ YAML-ın yoxlanması və formatlanması brauzerdə lokal şəkildə icra edilir.",
+          "lens": "Parserin brauzerə köçürülməsi yerli emal, daşınma və daha az server asılılığı üçün daha böyük müştəri yükünü ticarət edir."
+        },
+        "portfolio_website": {
+          "summary": "Daxil olduğunuz sayt: 100+ dil, əlçatan qarşılıqlı əlaqələr və WebAssembly alətləri ilə işləyən React portfeli.",
+          "lens": "Statik yerləşdirmə statik təcrübə demək deyil. Zəngin qarşılıqlı əlaqələr tətbiq serveri olmadan müştəridə yaşaya bilər."
+        },
+        "biblioteca": {
+          "summary": "Bir strukturlu məzmun mənbəyini 100+ dildə mövcud portfelə çevirən Python lokalizasiya boru kəməri.",
+          "lens": "Qlobal əlaqə tərcümə problemi qədər məlumat baxım problemidir. Həqiqətin bir mənbəyi məzmun dəyişikliklərini idarə edilə bilən saxlayır."
+        }
+      }
+    },
     "featured": {
       "kicker": "Seçilmiş Layihələr / 06",
       "title": "Seçilmiş İş",

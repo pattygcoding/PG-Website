@@ -1,6 +1,9 @@
 import { useEffect, useRef } from "react";
 import { ATLAS_PROJECTS, ATLAS_CONNECTIONS } from "./atlasModel";
 
+export const getAtlasPixelRatio = (width, height, devicePixelRatio = 1) =>
+    Math.min(devicePixelRatio, 1.5, 2048 / Math.max(1, width), 2048 / Math.max(1, height), Math.sqrt(3000000 / Math.max(1, width * height)));
+
 const pointOnCurve = (start, control, end, progress) => ({
     x: (1 - progress) ** 2 * start.x + 2 * (1 - progress) * progress * control.x + progress ** 2 * end.x,
     y: (1 - progress) ** 2 * start.y + 2 * (1 - progress) * progress * control.y + progress ** 2 * end.y,
@@ -44,9 +47,9 @@ export default function AtlasCanvas({ selected, visibleIds, paused }) {
         const resize = () => {
             width = canvas.clientWidth;
             height = canvas.clientHeight;
-            const ratio = Math.min(window.devicePixelRatio || 1, 1.5);
-            canvas.width = Math.round(width * ratio);
-            canvas.height = Math.round(height * ratio);
+            const ratio = getAtlasPixelRatio(width, height, window.devicePixelRatio || 1);
+            canvas.width = Math.floor(width * ratio);
+            canvas.height = Math.floor(height * ratio);
             context.setTransform(ratio, 0, 0, ratio, 0, 0);
             readColors();
         };
@@ -142,6 +145,8 @@ export default function AtlasCanvas({ selected, visibleIds, paused }) {
             document.removeEventListener("visibilitychange", updateActivity);
             motionQuery.removeEventListener("change", requestDraw);
             invalidateRef.current = () => {};
+            canvas.width = 0;
+            canvas.height = 0;
         };
     }, []);
 
