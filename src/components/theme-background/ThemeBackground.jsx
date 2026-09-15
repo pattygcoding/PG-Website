@@ -106,12 +106,20 @@ function AnimatedThemeBackground({ compact }) {
     return (
         <div className="theme-atmosphere" aria-hidden="true" ref={atmosphereRef}>
             <div className="theme-atmosphere__night" />
-            <div className="theme-atmosphere__day">
+            <div
+                className="theme-atmosphere__day"
+                style={{ "--cloud-texture": `url("${process.env.PUBLIC_URL}/assets/images/cirrus-clouds.jpg")` }}
+            >
                 <div className="theme-atmosphere__beach" />
                 <div className="theme-atmosphere__sunlight" />
                 <div className="theme-atmosphere__sun" />
-                <div className="theme-atmosphere__clouds theme-atmosphere__clouds--distant" />
-                <div className="theme-atmosphere__clouds theme-atmosphere__clouds--near" />
+                <div className="theme-atmosphere__clouds theme-atmosphere__clouds--distant">
+                    <span className="theme-atmosphere__cloud" />
+                    <span className="theme-atmosphere__cloud" />
+                </div>
+                <div className="theme-atmosphere__clouds theme-atmosphere__clouds--near">
+                    <span className="theme-atmosphere__cloud" />
+                </div>
                 <div className="theme-atmosphere__horizon" />
             </div>
             <div className="theme-atmosphere__orbit">

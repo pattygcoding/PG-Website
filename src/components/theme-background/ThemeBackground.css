@@ -93,22 +93,51 @@
 
 .theme-atmosphere__clouds {
     position: absolute;
-    inset: 0 -10% 63%;
-    background: radial-gradient(ellipse at 20% 45%, rgb(255 255 255 / 70%), transparent 36%), radial-gradient(ellipse at 74% 28%, rgb(255 255 255 / 65%), transparent 32%);
-    opacity: 0.45;
+    inset: 7% 0 auto;
+    height: clamp(180px, 36vh, 300px);
+    mix-blend-mode: screen;
+    --cloud-width: clamp(240px, 42vw, 620px);
+    --cloud-duration: 140s;
 }
 
 .theme-atmosphere__clouds--distant {
     translate: 0 calc(var(--scroll-depth) * -0.3);
-    animation: atmosphere-cloud-drift 48s ease-in-out infinite alternate;
+}
+
+.theme-atmosphere__cloud {
+    position: absolute;
+    left: calc(-1 * var(--cloud-width));
+    width: var(--cloud-width);
+    height: 100%;
+    background: var(--cloud-texture) center 90% / cover no-repeat;
+    filter: grayscale(1) brightness(0.95) contrast(1.65) blur(1.2px);
+    -webkit-mask-image: radial-gradient(ellipse closest-side, #000 35%, rgb(0 0 0 / 90%) 58%, transparent 100%);
+    mask-image: radial-gradient(ellipse closest-side, #000 35%, rgb(0 0 0 / 90%) 58%, transparent 100%);
+    opacity: 0.95;
+    animation: atmosphere-cloud-drift var(--cloud-duration) linear infinite;
+    animation-delay: -30s;
+}
+
+.theme-atmosphere__cloud + .theme-atmosphere__cloud {
+    top: -16%;
+    height: 78%;
+    background-position: right 78%;
+    opacity: 0.9;
+    animation-delay: -102s;
 }
 
 .theme-atmosphere__clouds--near {
-    inset: 12% -20% 65%;
-    opacity: 0.18;
-    transform: scaleX(-1);
+    top: 12%;
+    height: clamp(160px, 32vh, 260px);
+    --cloud-width: clamp(200px, 34vw, 500px);
+    --cloud-duration: 105s;
     translate: 0 calc(var(--scroll-depth) * -0.65);
-    animation: atmosphere-cloud-drift-near 34s ease-in-out infinite alternate;
+}
+
+.theme-atmosphere__clouds--near .theme-atmosphere__cloud {
+    background-position: left bottom;
+    opacity: 0.92;
+    animation-delay: -57s;
 }
 
 .theme-atmosphere__horizon {
@@ -223,7 +252,7 @@
     animation-play-state: paused;
 }
 
-.theme-atmosphere[data-resting-theme="dark"] .theme-atmosphere__clouds,
+.theme-atmosphere[data-resting-theme="dark"] .theme-atmosphere__cloud,
 .theme-atmosphere[data-resting-theme="dark"] .theme-atmosphere__sunlight {
     animation-play-state: paused;
 }
@@ -242,11 +271,8 @@
 }
 
 @keyframes atmosphere-cloud-drift {
-    to { transform: translate3d(5%, -2%, 0) scale(1.04); }
-}
-
-@keyframes atmosphere-cloud-drift-near {
-    to { transform: scaleX(-1) translate3d(5%, 2%, 0); }
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(calc(100vw + var(--cloud-width)), 0, 0); }
 }
 
 @keyframes atmosphere-meteor {
@@ -263,7 +289,8 @@
     .theme-atmosphere__day { will-change: auto; }
     .theme-atmosphere__sunlight { inset: 0; mask-image: none; }
     .theme-atmosphere__clouds {
-        inset: 0 -10% 63%;
+        top: 7%;
+        --cloud-duration: 85s;
     }
     .theme-atmosphere__beach {
         background-size: max(100%, 138vh) auto;
@@ -271,12 +298,15 @@
         -webkit-mask-image: linear-gradient(180deg, transparent 25%, #000 45%);
         mask-image: linear-gradient(180deg, transparent 25%, #000 45%);
     }
-    .theme-atmosphere__clouds--near { display: none; }
+    .theme-atmosphere__clouds--near { top: 12%; --cloud-duration: 68s; }
     .theme-atmosphere[data-resting-theme="light"] :is(.theme-atmosphere__night, .theme-atmosphere__orbit, .theme-atmosphere__veil, .theme-atmosphere__meteors),
     .theme-atmosphere[data-resting-theme="dark"] .theme-atmosphere__day { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .theme-atmosphere__cloud { transform: translateX(28vw); }
+    .theme-atmosphere__cloud + .theme-atmosphere__cloud { transform: translateX(90vw); }
+    .theme-atmosphere__clouds--near .theme-atmosphere__cloud { transform: translateX(62vw); }
     .theme-atmosphere *,
     .theme-atmosphere *::before,
     .theme-atmosphere *::after {
