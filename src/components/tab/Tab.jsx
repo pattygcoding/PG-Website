@@ -4,7 +4,7 @@ import t from '@/assets/lang/en_us.json';
 
 const Tab = ({ title }) => {
 	return (
-		<Helmet>
+		<Helmet defer={false}>
 			<meta charSet="utf-8" />
 			<title> {title} - {t.tab.title}</title>
 			<meta name="description" content={t.tab.description} />

@@ -9,15 +9,15 @@ const SocialMedia = () => {
 	const { t } = useLang();
 
 	return (
-		<div className="stick_follow_icon" aria-label="Social media links">
+		<nav className="stick_follow_icon" aria-label="Social media links">
 			<div className="stick_follow_panel">
 				<ul>
-					<SocialIcon url={l.social_media.linkedin} Icon={FaLinkedin} />
-					<SocialIcon url={l.social_media.github} Icon={FaGithub} />
+					<SocialIcon url={l.social_media.linkedin} Icon={FaLinkedin} label="LinkedIn" />
+					<SocialIcon url={l.social_media.github} Icon={FaGithub} label="GitHub" />
 				</ul>
 			</div>
 			<p>{t("social_media.text_strip")}</p>
-		</div>
+		</nav>
 	);
 };
 

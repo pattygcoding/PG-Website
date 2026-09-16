@@ -23,6 +23,7 @@ export default function App() {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
 			<ThemeBackground />
+			<a className="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
 			<ScrollToTop>
 				<Menu />
 				<AppRoutes />

@@ -68,7 +68,7 @@ const Menu = () => {
 
 	return (
 		<>
-			<header ref={headerRef} className={`fixed-top site__header ${isMenuOpen ? "menu-is-active" : ""}`} role={isMenuOpen ? "dialog" : undefined} aria-modal={isMenuOpen ? "true" : undefined} aria-label={isMenuOpen ? "Site navigation" : undefined}>
+			<div ref={headerRef} className={`fixed-top site__header ${isMenuOpen ? "menu-is-active" : ""}`} role={isMenuOpen ? "dialog" : "banner"} aria-modal={isMenuOpen ? "true" : undefined} aria-label={isMenuOpen ? "Site navigation" : undefined}>
 				<div className="d-flex align-items-center justify-content-between header__container">
 					<Link className="navbar-brand nav_ac tech__brand" to="/" onClick={closeMenu}>
 						<span className="brand__symbol">&gt;</span>
@@ -95,7 +95,7 @@ const Menu = () => {
 				<div id="site-navigation" className={`site__navigation ${isMenuOpen ? "menu__opend" : ""}`}>
 					{isMenuOpen && <MenuOptions handleToggle={handleToggle} closeMenu={closeMenu} />}
 				</div>
-			</header>
+			</div>
 		</>
 	);
 };

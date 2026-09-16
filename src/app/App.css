@@ -18,3 +18,18 @@
 body, * {
 	cursor: auto !important;
 }
+
+.skip-link:focus {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    z-index: 10010;
+    padding: 12px 16px;
+    background: Canvas;
+    color: CanvasText;
+    outline: 2px solid currentColor;
+}
+
+#main-content:focus {
+    outline: none;
+}

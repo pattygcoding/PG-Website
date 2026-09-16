@@ -20,11 +20,11 @@ const Snake = () => {
 	const canvasRef = useRef(null);
 	const [gameStatus, setGameStatus] = useState(t("snake.loading"));
 
-	const sendDirectionEvent = (code, type) => {
+	const sendDirectionEvent = (code, type, focusCanvas = true) => {
 		const canvas = canvasRef.current;
 		if (!canvas) return;
 
-		canvas.focus({ preventScroll: true });
+		if (focusCanvas) canvas.focus({ preventScroll: true });
 		canvas.dispatchEvent(new KeyboardEvent(type, {
 			key: code,
 			code,
@@ -52,7 +52,6 @@ const Snake = () => {
 		script.onload = () => {
 			try {
 				window.load("/wasm/snake.wasm");
-				canvasRef.current?.focus();
 				setGameStatus(t("snake.ready"));
 			} catch (error) {
 				console.error("Failed to start Snake:", error);
@@ -73,21 +72,12 @@ const Snake = () => {
 
 	return (
 		<HelmetProvider>
-			<main className="snake-page">
+			<main className="snake-page portfolio-shell">
 				<Tab title={t("snake.title")} />
-				<header className="snake-hero">
-					<div className="snake-hero-grid" aria-hidden="true"></div>
-					<div className="snake-hero-copy">
-						<div className="snake-kicker"><span>RS</span> {t("snake.kicker")}</div>
-						<h1>{t("snake.title")}</h1>
-						<p>{t("snake.description")}</p>
-					</div>
-					<div className="snake-specs" aria-hidden="true">
-						<div><span>RUNTIME</span><strong>RUST / WASM</strong></div>
-						<div><span>ENGINE</span><strong>MINIQUAD</strong></div>
-						<div><span>GRID</span><strong>20 × 20</strong></div>
-						<FiCpu />
-					</div>
+				<header className="page-heading">
+					<div className="page-eyebrow"><span>04 / {t("snake.title")}</span><span><FiCpu aria-hidden="true" /> RUST / WASM</span></div>
+					<h1>{t("snake.title")}</h1>
+					<p>{t("snake.description")}</p>
 				</header>
 
 				<section className="snake-game-section" aria-labelledby="snake-game-title">
@@ -96,7 +86,7 @@ const Snake = () => {
 							<span className="snake-section-label">{t("snake.section_label")}</span>
 							<h2 id="snake-game-title">{t("snake.game_title")}</h2>
 						</div>
-						<span className="snake-status"><i></i>{gameStatus}</span>
+						<span className="snake-status" role="status"><i></i>{gameStatus}</span>
 					</div>
 					<div className="snake-canvas-frame">
 						<canvas
@@ -106,12 +96,19 @@ const Snake = () => {
 							aria-label={t("snake.aria_label")}
 						/>
 					</div>
-					<div className="snake-dpad" aria-label="Snake direction controls">
+					<div className="snake-dpad" role="group" aria-label="Snake direction controls">
 						{directionControls.map(({ code, label, icon: DirectionIcon, position }) => (
 							<button
+								key={code}
 								type="button"
 								className={`snake-dpad-button snake-dpad-${position}`}
 								aria-label={label}
+								onClick={(event) => {
+									if (event.detail === 0) {
+										sendDirectionEvent(code, "keydown", false);
+										sendDirectionEvent(code, "keyup", false);
+									}
+								}}
 								onPointerDown={(event) => pressDirection(event, code)}
 								onPointerUp={(event) => releaseDirection(event, code)}
 								onPointerCancel={(event) => releaseDirection(event, code)}

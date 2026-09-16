@@ -196,7 +196,7 @@ const Tiger = () => {
 
 						<section className="tiger-output-panel" aria-labelledby="tiger-output-title">
 							<h2 id="tiger-output-title">{t("tiger.output")}</h2>
-							<pre className="tiger-output" tabIndex="0">{output}</pre>
+							<pre className="tiger-output" role="status" aria-live="polite" aria-atomic="true" aria-labelledby="tiger-output-title" tabIndex="0">{output}</pre>
 						</section>
 					</div>
 				</section>

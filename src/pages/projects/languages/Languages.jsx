@@ -25,6 +25,7 @@ const Languages = () => {
         country: null
     });
     const [mapScale, setMapScale] = useState(1);
+    const [focusedCountry, setFocusedCountry] = useState(null);
     const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.innerWidth <= 768);
 
     useEffect(() => {
@@ -46,6 +47,11 @@ const Languages = () => {
             }
         };
 
+        const handleEscape = (event) => {
+            if (event.key === "Escape") setTooltip((previous) => ({ ...previous, visible: false }));
+        };
+        document.addEventListener("keydown", handleEscape);
+
         const timer = setTimeout(() => {
             document.addEventListener("click", handleOutsideClick);
             document.addEventListener("touchstart", handleOutsideClick);
@@ -55,6 +61,7 @@ const Languages = () => {
             clearTimeout(timer);
             document.removeEventListener("click", handleOutsideClick);
             document.removeEventListener("touchstart", handleOutsideClick);
+            document.removeEventListener("keydown", handleEscape);
         };
     }, [tooltip.visible]);
 
@@ -291,6 +298,32 @@ const Languages = () => {
         }
     };
 
+    const focusCountry = (event, id, countryCode, name) => {
+        setFocusedCountry(id);
+        const bounds = event.currentTarget.getBoundingClientRect();
+        showCountryTooltipAt(countryCode, name, bounds.left + bounds.width / 2, bounds.top + bounds.height / 2);
+    };
+
+    const handleCountryKeyDown = (event) => {
+        const controls = Array.from(mapContainerRef.current.querySelectorAll('[data-map-country]'));
+        const currentIndex = controls.indexOf(event.currentTarget);
+        const offsets = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
+        let nextIndex;
+        if (event.key in offsets) nextIndex = (currentIndex + offsets[event.key] + controls.length) % controls.length;
+        else if (event.key === "Home") nextIndex = 0;
+        else if (event.key === "End") nextIndex = controls.length - 1;
+        else if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            event.currentTarget.dispatchEvent(new FocusEvent("focusin", { bubbles: true }));
+            return;
+        }
+        if (nextIndex !== undefined) {
+            event.preventDefault();
+            event.stopPropagation();
+            controls[nextIndex].focus();
+        }
+    };
+
     return (
         <HelmetProvider>
             <main className="languages-page portfolio-shell">
@@ -306,15 +339,15 @@ const Languages = () => {
                     <section className="languages-intro" aria-label={t("languages.global_accessibility.title")}>
                         <div className="language-stats">
                             <div className="stat-item">
-                                <h3>101</h3>
+                                <span className="language-stat-number">101</span>
                                 <p>{t("languages.global_accessibility.stats.languages_supported") || "Languages Supported"}</p>
                             </div>
                             <div className="stat-item">
-                                <h3>203</h3>
+                                <span className="language-stat-number">203</span>
                                 <p>{t("languages.global_accessibility.stats.countries_represented") || "Countries Represented"}</p>
                             </div>
                             <div className="stat-item">
-                                <h3>7</h3>
+                                <span className="language-stat-number">7</span>
                                 <p>{t("languages.global_accessibility.stats.continents_covered") || "Continents Covered"}</p>
                             </div>
                         </div>
@@ -361,6 +394,9 @@ const Languages = () => {
                                         <TransformComponent>
                                             <div className="map-wrapper">
                                                 <ComposableMap
+                                                    role="group"
+                                                    aria-label={t("languages.world_map.title")}
+                                                    aria-describedby="map-keyboard-help"
                                                     projection="geoMercator"
                                                     width={1000}
                                                     height={562}
@@ -379,8 +415,9 @@ const Languages = () => {
                                                         strokeWidth={0.5}
                                                     >
                                                         {({ geographies }) =>
-                                                            geographies.map((geo) => {
+                                                            geographies.map((geo, index) => {
                                                                 const countryISO2 = resolveCountryISO2(geo);
+                                                                const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
                                                                 const hasLanguages = Boolean(countryISO2 && countryLanguages[countryISO2] && countryLanguages[countryISO2].length > 0);
                                                                 const isSelected = Boolean(tooltip.visible && tooltip.country && tooltip.country === countryISO2);
 
@@ -388,6 +425,13 @@ const Languages = () => {
                                                                     <Geography
                                                                         key={geo.rsmKey}
                                                                         geography={geo}
+                                                                        data-map-country={geo.rsmKey}
+                                                                        role="button"
+                                                                        tabIndex={focusedCountry === geo.rsmKey || (!focusedCountry && index === 0) ? 0 : -1}
+                                                                        aria-label={getCountryTooltipData(geo)?.content || countryName}
+                                                                        onFocus={(event) => focusCountry(event, geo.rsmKey, countryISO2, countryName)}
+                                                                        onBlur={() => setTooltip((previous) => ({ ...previous, visible: false }))}
+                                                                        onKeyDown={handleCountryKeyDown}
                                                                         fill={isSelected ? (hasLanguages ? "var(--accent-color)" : "#222428") : (hasLanguages ? "var(--accent-color)" : "#303238")}
                                                                         stroke="#FFFFFF"
                                                                         strokeWidth={0.5}
@@ -430,6 +474,13 @@ const Languages = () => {
                                                             <Marker
                                                                 key={`island-${marker.code}`}
                                                                 coordinates={marker.coordinates}
+                                                                data-map-country={`island-${marker.code}`}
+                                                                role="button"
+                                                                tabIndex={focusedCountry === `island-${marker.code}` ? 0 : -1}
+                                                                aria-label={getTooltipDataForCountry(marker.code, marker.name)?.content || marker.name}
+                                                                onFocus={(event) => focusCountry(event, `island-${marker.code}`, marker.code, marker.name)}
+                                                                onBlur={() => setTooltip((previous) => ({ ...previous, visible: false }))}
+                                                                onKeyDown={handleCountryKeyDown}
                                                                 onMouseEnter={(event) => {
                                                                     handleMarkerHover(marker, event);
                                                                 }}
@@ -477,6 +528,7 @@ const Languages = () => {
                                 <span>{t("languages.world_map.legend.not_supported") || "No Language Support"}</span>
                             </div>
                         </div>
+                        <p id="map-keyboard-help" className="visually-hidden" lang="en">Use arrow keys to explore countries, Home or End to jump to the first or last country, and Escape to dismiss country details. Tab leaves the map.</p>
                     </section>
 
 

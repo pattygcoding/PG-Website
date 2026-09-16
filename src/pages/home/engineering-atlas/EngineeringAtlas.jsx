@@ -135,7 +135,7 @@ export default function EngineeringAtlas() {
                         </div>
                     </div>
 
-                    <aside ref={inspectorRef} className="atlas-inspector" id="atlas-inspector" aria-label={labels.inspector}>
+                    <section ref={inspectorRef} className="atlas-inspector" id="atlas-inspector" aria-label={labels.inspector}>
                         {selected ? <div key={selected.id} className="atlas-inspector-content">
                             <div className="atlas-inspector-top"><span>{labels.domains[selected.domain]}</span><span>{String(ATLAS_PROJECTS.indexOf(selected) + 1).padStart(2, "0")} / {String(ATLAS_PROJECTS.length).padStart(2, "0")}</span></div>
                             <div className="atlas-project-art"><img src={`/assets/images/${links.portfolio[selected.image] || links.portfolio.default}`} alt="" loading="lazy" width="180" height="120" /></div>
@@ -150,7 +150,7 @@ export default function EngineeringAtlas() {
                                 return <button type="button" key={id} onClick={() => selectRelated(id)}><span>{entries[id].title}<small>{labels.families[relationship]}</small></span><FiArrowRight aria-hidden="true" /></button>;
                             })}</details>}
                         </div> : <p className="atlas-inspector-empty">{labels.no_selection}</p>}
-                    </aside>
+                    </section>
                 </div>
                 <footer className="atlas-footer"><span>{labels.footer}</span><LangAwareLink to="/contact">{labels.contact}<FiArrowUpRight aria-hidden="true" /></LangAwareLink></footer>
             </div>
