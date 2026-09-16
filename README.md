@@ -36,7 +36,7 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 ### 🎨 **Modern UI/UX**
 - **Responsive Design**: Mobile-first approach with Bootstrap 5
 - **Interactive Animations**: Typewriter effects, smooth transitions, and hover animations
-- **Accessible Design**: ARIA compliant with keyboard navigation support
+- **Accessibility**: Keyboard navigation, semantic landmarks, language metadata, and screen-reader announcements; see [accessibility notes](ACCESSIBILITY.md) for verification and known limitations
 - **Professional Theming**: Clean, modern interface with consistent branding
 
 ---

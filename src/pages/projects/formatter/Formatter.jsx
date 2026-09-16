@@ -247,6 +247,10 @@ const Formatter = () => {
 							<CopyButton textToCopy={output} />
 							<pre
 								className="formatter-output"
+								role="status"
+								aria-live="polite"
+								aria-atomic="true"
+								aria-labelledby="formatter-output-title"
 								tabIndex="0"
 								dangerouslySetInnerHTML={{ __html: highlightedOutput }}
 							/>

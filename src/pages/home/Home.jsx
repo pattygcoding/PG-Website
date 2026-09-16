@@ -70,7 +70,7 @@ const Home = () => {
 
 	return (
 		<HelmetProvider>
-			<section id="home" className="home home--showcase">
+			<main id="home" className="home home--showcase">
 				<Tab title={t("home.title")} />
 				<div className="intro_sec">
 					<div className="hero-coordinate" aria-hidden="true">PG / ENGINEERING &amp; PRODUCT / 01</div>
@@ -81,7 +81,8 @@ const Home = () => {
 								{t("home.title")}
 							</div>
 							<h1 className="hero-name">{t("name").split(" ").map((part, index) => <span key={`${part}-${index}`}>{part}{" "}</span>)}</h1>
-							<div className="hero-role" aria-live="polite">
+							<span className="visually-hidden">{["first", "second", "third", "fourth"].map((key) => t(`home.animated.${key}`)).join(". ")}</span>
+							<div className="hero-role" aria-hidden="true">
 									<Typewriter
 										options={{
 											strings: [
@@ -215,7 +216,7 @@ const Home = () => {
 					<LangAwareLink to="/contact"><span>{t("home.contact_button")}</span><FiArrowUpRight aria-hidden="true" /></LangAwareLink>
 					<div><span>{t("name")}</span><span>React / TypeScript / .NET / SQL</span></div>
 				</footer>
-			</section>
+			</main>
 		</HelmetProvider>
 	);
 };

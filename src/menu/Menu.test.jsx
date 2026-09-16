@@ -79,7 +79,7 @@ test("automatically expands the current project's group", () => {
 test("wraps Tab and Shift+Tab inside the menu", () => {
 	jest.spyOn(HTMLElement.prototype, "getClientRects").mockReturnValue([{}]);
 	renderMenu();
-	const first = container.querySelector("header a");
+	const first = container.querySelector(".site__header a");
 	const last = container.querySelector('.atlas-menu__socials a:last-child');
 	act(() => last.focus());
 	act(() => window.dispatchEvent(new KeyboardEvent("keydown", { key: "Tab", cancelable: true })));
