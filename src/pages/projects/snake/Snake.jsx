@@ -86,7 +86,7 @@ const Snake = () => {
 							<span className="snake-section-label">{t("snake.section_label")}</span>
 							<h2 id="snake-game-title">{t("snake.game_title")}</h2>
 						</div>
-						<span className="snake-status" role="status"><i></i>{gameStatus}</span>
+						<span className="snake-status" role="status">{gameStatus}</span>
 					</div>
 					<div className="snake-canvas-frame">
 						<canvas

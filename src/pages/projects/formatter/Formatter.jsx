@@ -165,7 +165,7 @@ const Formatter = () => {
 				<section className="formatter-workspace" aria-label={t("formatter.title")}>
 					<header className="formatter-toolbar">
 						<div className="formatter-pills" role="group" aria-label={t("formatter.format_as")}>
-							<span className={`formatter-engine-status ${isReady ? "is-ready" : ""}`}><i></i>WASM</span>
+							<span className={`formatter-engine-status ${isReady ? "is-ready" : ""}`}>WASM</span>
 							{pills.map((pill) => (
 								<button
 									key={pill.value}

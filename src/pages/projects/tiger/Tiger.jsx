@@ -137,7 +137,7 @@ const Tiger = () => {
 							<span className="tiger-file-mark" aria-hidden="true">T</span>
 							<span>{selectedSample}</span>
 							<span className={`tiger-engine-status ${isReady ? "is-ready" : ""}`}>
-								<i></i>{isReady ? "ENGINE ONLINE" : "ENGINE LOADING"}
+								{isReady ? "ENGINE ONLINE" : "ENGINE LOADING"}
 							</span>
 						</div>
 						<div className="tiger-toolbar-actions">

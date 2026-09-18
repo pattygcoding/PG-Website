@@ -83,7 +83,6 @@
 .atlas-map-region { min-width: 0; display: flex; flex-direction: column; container-type: inline-size; }
 .atlas-map-status { min-height: 54px; display: flex; align-items: center; gap: 9px; padding: 16px 22px 12px 0; color: var(--atlas-muted); font: 0.66rem monospace; }
 .atlas-map-status > span:last-child { margin-left: auto; }
-.atlas-status-dot { height: 6px; width: 6px; flex-shrink: 0; border-radius: 50%; background: var(--atlas-mint); }
 .atlas-board { position: relative; height: 640px; flex: 0 0 640px; }
 .atlas-board--map { overflow: hidden; border: 1px solid var(--atlas-grid); }
 .atlas-map-viewport { position: relative; width: 100%; height: 100%; overflow: hidden; }
