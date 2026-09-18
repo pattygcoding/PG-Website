@@ -505,76 +505,63 @@ section {
     bottom: 3%;
     width: min(360px, 66%);
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.17);
-    background: rgba(14, 14, 16, 0.94);
-    color: #d8d8dc;
-    box-shadow: 0 22px 60px rgba(0, 0, 0, 0.28);
-    backdrop-filter: blur(14px);
-    animation: heroFloat 5s ease-in-out infinite;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 6px;
+    background: rgba(8, 10, 12, 0.96);
+    color: #e5e7eb;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+    animation: none;
 }
 
 .code-window-bar {
-    height: 40px;
-    padding: 0 13px;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    display: flex;
     align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    color: #96969e;
-    font-family: monospace;
-    font-size: 0.68rem;
+    justify-content: center;
+    height: 26px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+    background: rgba(255, 255, 255, 0.015);
+    color: #8a919d;
+    font-family: 'Consolas', 'SFMono-Regular', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.2em;
+    text-transform: lowercase;
 }
 
-.code-window-bar > svg {
-    justify-self: end;
+.code-window-title {
+    transform: translateY(-1px);
+    opacity: 0.9;
 }
 
 .window-dots {
-    display: flex;
-    gap: 5px;
-}
-
-.window-dots i {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #666;
-}
-
-.window-dots i:first-child {
-    background: var(--hero-accent);
+    display: none;
 }
 
 .code-content {
     padding: 18px 18px 20px;
-    font-family: 'Courier New', monospace;
-    font-size: clamp(0.65rem, 1vw, 0.78rem);
-    line-height: 1.85;
+    font-family: 'Consolas', 'SFMono-Regular', 'Courier New', monospace;
+    font-size: clamp(0.72rem, 1vw, 0.82rem);
+    line-height: 1.9;
     white-space: nowrap;
-}
-
-.code-line {
-    margin-right: 16px;
-    color: #5e5e67;
-    user-select: none;
+    background: rgba(9, 11, 14, 0.98);
+    color: #e5e7eb;
 }
 
 .code-keyword,
 .code-boolean {
-    color: var(--accent-color);
+    color: #f3f4f6;
 }
 
 .code-string {
-    color: #92d192;
+    color: #b4f7c4;
 }
 
 .code-caret {
     width: 7px;
     height: 1.1em;
-    margin-left: 5px;
+    margin-left: 4px;
     display: inline-block;
     vertical-align: -2px;
-    background: var(--hero-accent);
+    background: #d1d5db;
     animation: caretBlink 1s steps(1) infinite;
 }
 

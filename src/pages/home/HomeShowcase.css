@@ -109,11 +109,12 @@
 .home--showcase .experience-badge { position: static; width: auto; aspect-ratio: auto; align-items: flex-start; border: 0; box-shadow: none; background: none; color: var(--showcase-ink); grid-column: 2; grid-row: 1; }
 .home--showcase .experience-badge strong { font: 500 4.5rem / 1 'Space Grotesk', sans-serif; }
 .home--showcase .experience-badge span { font-size: 0.9rem; text-align: left; line-height: 1.6; color: var(--hero-muted); }
-.home--showcase .code-window { position: relative; inset: auto; width: 100%; min-width: 0; grid-column: 3; grid-row: 1; animation: none; background: #101a17; border: 1px solid #a5edcf30; border-radius: 6px; box-shadow: 0 10px 40px #0002; }
-.home--showcase .code-window-bar { height: 32px; }
-.home--showcase .code-content { padding: 18px; font-size: 0.95rem; overflow-x: auto; }
-.home--showcase .code-keyword, .home--showcase .code-boolean { color: #f2ae8d; }
-.home--showcase .code-string { color: #a5edcf; }
+.home--showcase .code-window { position: relative; inset: auto; width: 100%; min-width: 0; grid-column: 3; grid-row: 1; animation: none; background: rgba(8, 10, 12, 0.96); border: 1px solid rgba(148, 163, 184, 0.18); border-radius: 6px; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18); }
+.home--showcase .code-window-bar { display: flex; align-items: center; justify-content: center; height: 24px; background: rgba(255, 255, 255, 0.015); border-bottom-color: rgba(148, 163, 184, 0.12); }
+.home--showcase .code-window-title { font-size: 0.58rem; letter-spacing: 0.2em; text-transform: lowercase; }
+.home--showcase .code-content { padding: 18px; font-size: 0.95rem; overflow-x: auto; background: rgba(9, 11, 14, 0.98); }
+.home--showcase .code-keyword, .home--showcase .code-boolean { color: #f3f4f6; }
+.home--showcase .code-string { color: #b4f7c4; }
 .home--showcase .capability-rail { position: static; display: flex; flex-direction: column; gap: 18px; transform: none; grid-column: 4; grid-row: 1; }
 .home--showcase .capability-rail span { color: var(--hero-muted); font-size: 0.9rem; }
 .home--showcase .capability-rail svg { color: var(--hero-accent); font-size: 1rem; }

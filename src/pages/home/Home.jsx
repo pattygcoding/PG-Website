@@ -144,16 +144,14 @@ const Home = () => {
 
 						<div className="code-window" aria-hidden="true">
 							<div className="code-window-bar">
-								<div className="window-dots"><i></i><i></i><i></i></div>
-								<span>patrick.ts</span>
-								<FiCode />
+								<span className="code-window-title">engineer.ts</span>
 							</div>
 							<div className="code-content">
-								<div><span className="code-line">01</span><span className="code-keyword">const</span> engineer = &#123;</div>
-								<div><span className="code-line">02</span>&nbsp;&nbsp;focus: <span className="code-string">'useful software'</span>,</div>
-								<div><span className="code-line">03</span>&nbsp;&nbsp;stack: [<span className="code-string">'React'</span>, <span className="code-string">'.NET'</span>, <span className="code-string">'SQL'</span>],</div>
-								<div><span className="code-line">04</span>&nbsp;&nbsp;ships: <span className="code-boolean">true</span></div>
-								<div><span className="code-line">05</span>&#125;;<span className="code-caret"></span></div>
+								<div><span className="code-keyword">const</span> engineer = &#123;</div>
+								<div>&nbsp;&nbsp;focus: <span className="code-string">'useful software'</span>,</div>
+								<div>&nbsp;&nbsp;stack: [<span className="code-string">'React'</span>, <span className="code-string">'.NET'</span>, <span className="code-string">'SQL'</span>],</div>
+								<div>&nbsp;&nbsp;ships: <span className="code-boolean">true</span></div>
+								<div>&#125;;<span className="code-caret"></span></div>
 							</div>
 						</div>
 
