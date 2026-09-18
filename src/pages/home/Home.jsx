@@ -147,10 +147,10 @@ const Home = () => {
 								<span className="code-window-title">engineer.ts</span>
 							</div>
 							<div className="code-content">
-								<div><span className="code-keyword">const</span> engineer = &#123;</div>
-								<div>&nbsp;&nbsp;focus: <span className="code-string">'useful software'</span>,</div>
-								<div>&nbsp;&nbsp;stack: [<span className="code-string">'React'</span>, <span className="code-string">'.NET'</span>, <span className="code-string">'SQL'</span>],</div>
-								<div>&nbsp;&nbsp;ships: <span className="code-boolean">true</span></div>
+								<div><span className="code-keyword">const</span> engineer: <span className="code-type">&#123; focus: string; stack: string[]; ships: boolean; &#125;</span> = &#123;</div>
+								<div>&nbsp;&nbsp;focus: <span className="code-string">"useful software"</span>,</div>
+								<div>&nbsp;&nbsp;stack: [<span className="code-string">"React"</span>, <span className="code-string">".NET"</span>, <span className="code-string">"SQL"</span>],</div>
+								<div>&nbsp;&nbsp;ships: <span className="code-boolean">true</span>,</div>
 								<div>&#125;;<span className="code-caret"></span></div>
 							</div>
 						</div>
