@@ -91,7 +91,7 @@ export default function EngineeringAtlas() {
                 <div className="atlas-workspace">
                     <div className={`atlas-map-region atlas-map-region--${view}`}>
                         <div className="atlas-map-status" aria-live="polite">
-                            <span className="atlas-status-dot" />{visible.length} / {ATLAS_PROJECTS.length} {labels.projects}
+                            <span>{visible.length} / {ATLAS_PROJECTS.length} {labels.projects}</span>
                             <span>{activeConnections.length} {labels.connections}</span>
                         </div>
                         {visible.length ? (

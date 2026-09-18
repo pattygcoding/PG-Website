@@ -48,16 +48,8 @@
 .snake-status {
 	display: flex;
 	align-items: center;
-	gap: 0.45rem;
 	color: var(--text-color);
 	font: 600 0.8rem "Space Grotesk", sans-serif;
-}
-
-.snake-status i {
-	width: 0.55rem;
-	height: 0.55rem;
-	border-radius: 50%;
-	background: #3ac763;
 }
 
 .snake-canvas-frame {

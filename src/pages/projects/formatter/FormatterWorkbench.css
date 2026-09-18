@@ -30,9 +30,7 @@
 .formatter-run-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 108px; min-height: 48px; padding: 10px 18px; border: 0; background: var(--formatter-accent); color: #fff; font: 700 0.9rem 'Space Grotesk', sans-serif; }
 .formatter-run-button:hover:not(:disabled) { background: color-mix(in srgb, var(--formatter-accent) 82%, #000); }
 .formatter-run-button:disabled { cursor: wait !important; opacity: 0.55; }
-.formatter-engine-status { display: flex; align-items: center; gap: 8px; margin-right: 12px; color: var(--formatter-muted); font: 0.65rem monospace; }
-.formatter-engine-status i { width: 6px; height: 6px; border-radius: 50%; background: #d9a441; }
-.formatter-engine-status.is-ready i { background: #55c983; box-shadow: 0 0 0 3px #55c98320; }
+.formatter-engine-status { display: flex; align-items: center; margin-right: 12px; color: var(--formatter-muted); font: 0.65rem monospace; }
 .formatter-compiler { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); height: clamp(420px, 58vh, 650px); min-height: 0; }
 .formatter-editor-panel { display: grid; grid-template-columns: 48px minmax(0, 1fr); min-width: 0; min-height: 0; background: var(--formatter-panel); border-right: 1px solid var(--formatter-divider); position: relative; }
 .formatter-line-numbers { overflow: hidden; padding: 1rem 0; border-right: 1px solid var(--formatter-divider); color: var(--formatter-muted); font: 14px/1.6 Consolas, 'Courier New', monospace; text-align: right; user-select: none; }

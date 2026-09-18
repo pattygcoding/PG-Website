@@ -301,23 +301,10 @@
 	padding-left: 14px;
 	display: flex;
 	align-items: center;
-	gap: 7px;
 	border-left: 1px solid var(--tiger-divider);
 	color: var(--tiger-muted);
 	font-size: 0.55rem;
 	letter-spacing: 0.08em;
-}
-
-.tiger-engine-status i {
-	width: 6px;
-	height: 6px;
-	border-radius: 50%;
-	background: #d9a441;
-}
-
-.tiger-engine-status.is-ready i {
-	background: #55c983;
-	box-shadow: 0 0 0 3px rgba(85, 201, 131, 0.12);
 }
 
 @media (max-width: 767px) {
