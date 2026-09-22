@@ -152,6 +152,34 @@ const Formatter = () => {
 		if (numbers) numbers.scrollTop = editor.scrollTop;
 	};
 
+	const handleEditorKeyDown = (event) => {
+		if (event.key !== "Tab") return;
+		event.preventDefault();
+
+		const editor = event.currentTarget;
+		const { selectionStart, selectionEnd, value } = editor;
+		const indent = "    ";
+
+		if (event.shiftKey) {
+			const lineStart = value.lastIndexOf("\n", selectionStart - 1) + 1;
+			if (!value.slice(lineStart, lineStart + indent.length).match(/^ {1,4}/)) return;
+			const removed = value.slice(lineStart).match(/^ {1,4}/)[0];
+			const nextValue = value.slice(0, lineStart) + value.slice(lineStart + removed.length);
+			setCode(nextValue);
+			requestAnimationFrame(() => {
+				editor.selectionStart = selectionStart - removed.length;
+				editor.selectionEnd = selectionEnd - removed.length;
+			});
+			return;
+		}
+
+		const nextValue = value.slice(0, selectionStart) + indent + value.slice(selectionEnd);
+		setCode(nextValue);
+		requestAnimationFrame(() => {
+			editor.selectionStart = editor.selectionEnd = selectionStart + indent.length;
+		});
+	};
+
 	return (
 		<HelmetProvider>
 			<main className="formatter-page portfolio-shell">
@@ -236,6 +264,7 @@ const Formatter = () => {
 								value={code}
 								onChange={(event) => setCode(event.target.value)}
 								onScroll={syncEditorScroll}
+								onKeyDown={handleEditorKeyDown}
 								aria-label={t("formatter.input_code")}
 								spellCheck="false"
 								wrap="off"

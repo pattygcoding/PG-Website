@@ -204,6 +204,7 @@
 .tiger-code-highlight .token-literal { color: #d19a66; }
 .tiger-code-highlight .token-builtin { color: #61afef; }
 .tiger-code-highlight .token-string { color: #98c379; }
+.tiger-code-highlight .token-string-escape { color: #e5c07b; }
 .tiger-code-highlight .token-comment { color: #6a737d; }
 .tiger-code-highlight .token-number { color: #c678dd; }
 .tiger-code-highlight .token-identifier { color: inherit; }
@@ -214,6 +215,7 @@
 [data-theme="light"] .tiger-code-highlight .token-literal { color: #986801; }
 [data-theme="light"] .tiger-code-highlight .token-builtin { color: #4078f2; }
 [data-theme="light"] .tiger-code-highlight .token-string { color: #50a14f; }
+[data-theme="light"] .tiger-code-highlight .token-string-escape { color: #c18401; }
 [data-theme="light"] .tiger-code-highlight .token-comment { color: #77818c; }
 [data-theme="light"] .tiger-code-highlight .token-number { color: #986801; }
 [data-theme="light"] .tiger-code-highlight .token-operator { color: #0184bb; }
