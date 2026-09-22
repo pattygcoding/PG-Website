@@ -1,3 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
+# Allow all crawlers to index the public site.
 User-agent: *
-Disallow:
+Allow: /
+
+# Point search engines to the sitemap for better discovery.
+Sitemap: https://www.pattygcoding.com/sitemap.xml
