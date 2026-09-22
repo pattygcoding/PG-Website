@@ -5,12 +5,24 @@ const keywords = new Set([
 	"this", "public", "private", "protected", "try", "catch", "throw",
 ]);
 const literals = new Set(["true", "false", "null"]);
-const builtins = new Set(["print", "str", "len", "range"]);
-const tokenPattern = /\/\/[^\n]*|\/\*[\s\S]*?(?:\*\/|$)|"(?:\\[^\r\n]|[^"\\\r\n])*\\?"?|'(?:\\[^\r\n]|[^'\\\r\n])*\\?'?|[0-9]+(?:\.[0-9]+)?(?:[eE][+-]?[0-9]*)?|[\p{L}_][\p{L}\p{Nd}_]*|[=!<>]=|\+\+|--|[=<>+*/%\-]|[()[\]{}:;,.]|\s+|[^]/gu;
+const builtins = new Set(["print", "str", "len", "range", "size", "length"]);
+const tokenPattern = /\/\/[^\n]*|\/\*[\s\S]*?(?:\*\/|$)|"(?:\\[^\r\n]|[^"\\\r\n])*\\?"?|'(?:\\[^\r\n]|[^'\\\r\n])*\\?'?|[0-9]+(?:\.[0-9]+)?(?:[eE][+-]?[0-9]*)?|[\p{L}_][\p{L}\p{Nd}_]*|[=!<>]=|\+=|-=|\*=|\/=|%=|\+\+|--|[=<>+*/%\-]|[()[\]{}:;,.]|\s+|[^]/gu;
 
 export function tokenize(source) {
 	const result = [];
 	let position = 0;
+
+	function pushString(text) {
+		let start = 0;
+		for (let index = 0; index < text.length - 1; index++) {
+			if (text[index] !== "\\") continue;
+			if (index > start) result.push({ text: text.slice(start, index), kind: "string" });
+			result.push({ text: text.slice(index, index + 2), kind: "string-escape" });
+			index++;
+			start = index + 1;
+		}
+		if (start < text.length) result.push({ text: text.slice(start), kind: "string" });
+	}
 
 	function consume(depth = 0) {
 		if (depth < 512 && /^[fF]["']/.test(source.slice(position, position + 2))) {
@@ -22,7 +34,10 @@ export function tokenize(source) {
 		position += text.length;
 		let kind = "plain";
 		if (text.startsWith("//") || text.startsWith("/*")) kind = "comment";
-		else if (text[0] === '"' || text[0] === "'") kind = "string";
+		else if (text[0] === '"' || text[0] === "'") {
+			pushString(text);
+			return;
+		}
 		else if (/^[0-9]/.test(text)) kind = "number";
 		else if (keywords.has(text)) kind = "keyword";
 		else if (literals.has(text)) kind = "literal";
@@ -38,7 +53,7 @@ export function tokenize(source) {
 		let start = position;
 		position += 2;
 		function flush() {
-			if (position > start) result.push({ text: source.slice(start, position), kind: "string" });
+			if (position > start) pushString(source.slice(start, position));
 		}
 		while (position < source.length) {
 			const char = source[position];
