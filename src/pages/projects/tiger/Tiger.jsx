@@ -11,6 +11,8 @@ import "@/components/page-shell/PageShell.css";
 
 const tigerSamples = [
 	"hello_world.tg",
+	"account_audit.tg",
+	"batch_queue.tg",
 	"closure_studio.tg",
 	"event_simulation.tg",
 	"geometry_workshop.tg",
