@@ -1,8 +1,3 @@
-<!--
-  Drop this content into your pattygcoding/pattygcoding repository as README.md
-  to display it on your GitHub profile front page.
--->
-
 <div align="center">
 
 # Patrick Goodwin
@@ -17,13 +12,13 @@
 
 </div>
 
-Senior full-stack engineer with **6+ years** of experience taking products from ambiguous requirements to reliable production systems. I design the architecture behind React, Angular, .NET, Node.js, Java, C#, Go, and SQL applications — clear service boundaries, durable data models, secure access patterns, and delivery paths teams can operate with confidence.
+Senior full-stack engineer with 6+ years of experience taking products from ambiguous requirements to reliable production systems. I design the architecture behind React, Angular, .NET, Node.js, Java, C#, Go, and SQL applications — clear service boundaries, durable data models, secure access patterns, and delivery paths teams can operate with confidence.
 
 My work connects engineering decisions to business outcomes. From a construction-estimating SaaS that turns spreadsheet data into client-ready proposals to revenue-generating web platforms, I build software around the workflow, risk, and measurable value that matter to the people using it.
 
 ---
 
-## 🚀 Selected Work
+## Selected Work
 
 <table>
   <tr>
@@ -47,14 +42,7 @@ My work connects engineering decisions to business outcomes. From a construction
       A Minecraft mod adding custom tools, armor, mobs, blocks, and dimensions, built primarily in Java and Kotlin with support spanning Minecraft versions 1.16 through 26.2.
     </td>
   </tr>
-  <tr>
-    <td width="120"><img src="https://www.pattygcoding.com/assets/images/snake.png" width="90" /></td>
-    <td>
-      <a href="https://www.pattygcoding.com/snake"><strong>Snake</strong></a> — <code>Available Here</code><br />
-      A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly and rendered through HTML5 Canvas, with deterministic ticks, smooth interpolation, and a focused test suite.
-    </td>
-  </tr>
-  <tr>
+    <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/logo.png" width="90" /></td>
     <td>
       <a href="https://www.pattygcoding.com"><strong>Patrick Goodwin Portfolio</strong></a> — <code>Full Website</code><br />
@@ -62,30 +50,31 @@ My work connects engineering decisions to business outcomes. From a construction
     </td>
   </tr>
   <tr>
-    <td width="120"><img src="https://www.pattygcoding.com/assets/images/biblioteca.png" width="90" /></td>
+    <td width="120"><img src="https://www.pattygcoding.com/assets/images/snake.png" width="90" /></td>
     <td>
-      <a href="https://github.com/pattygcoding/Biblioteca-JSON"><strong>Biblioteca JSON</strong></a> — <code>Available Here</code><br />
-      A Python localization pipeline that turns one structured content source into a portfolio available in 100+ languages — global reach treated as a data-maintenance system, not a one-time translation.
+      <a href="https://www.pattygcoding.com/snake"><strong>Snake</strong></a> — <code>Available Here</code><br />
+      A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly and rendered through HTML5 Canvas, with deterministic ticks, smooth interpolation, and a focused test suite.
     </td>
   </tr>
 </table>
 
 <div align="right"><a href="https://www.pattygcoding.com/portfolio">Explore the full portfolio →</a></div>
 
-### More notable builds
+### Other Notable Builds
 
-- 🎮 **[Connect Four Language Tree](https://github.com/pattygcoding/Connect-Four-Language-Tree)** — 50+ implementations of Connect Four across 30+ languages and 20+ frameworks (React, Rails, ASP.NET, and more)
-- 🔗 **[Interop Samples](https://github.com/pattygcoding/Interop-Samples)** — a cross-language interoperability reference spanning 15 languages and 18 execution patterns
-- 🔐 **[Rijndael Encryption](https://github.com/pattygcoding/SupremeMC)** — 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
-- 🖥️ **[Turing Machines](https://github.com/pattygcoding/Turing-Machines)** — 30+ implementations demonstrating Turing completeness across languages
-- 🛒 **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)** — .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
-- 📦 **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)** — Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
-- 💵 **[PayrollOBOL](https://github.com/pattygcoding/PayrollOBOL)** — GnuCOBOL payroll processing with a SQLite double-entry ledger and Svelte dashboard
-- 🧰 **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)** — a real Go parser compiled to WebAssembly, validating and formatting entirely in-browser
+- **[Connect Four Language Tree](https://github.com/pattygcoding/Connect-Four-Language-Tree)** — 50+ implementations of Connect Four across 30+ languages and 20+ frameworks (React, Rails, ASP.NET, and more)
+- **[Interop Samples](https://github.com/pattygcoding/Interop-Samples)** — a cross-language interoperability reference spanning 15 languages and 18 execution patterns
+- **[Rijndael Encryption](https://github.com/pattygcoding/SupremeMC)** — 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
+- **[Turing Machines](https://github.com/pattygcoding/Turing-Machines)** — 30+ implementations demonstrating Turing completeness across languages
+- **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)** — .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
+- **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)** — Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
+- **[PayrollOBOL](https://github.com/pattygcoding/PayrollOBOL)** — GnuCOBOL payroll processing with a SQLite double-entry ledger and Svelte dashboard
+- **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)** — a real Go parser compiled to WebAssembly, validating and formatting entirely in-browser
+- **[Biblioteca JSON](https://github.com/pattygcoding/Biblioteca-JSON)** — a Python library catalog exercise backed by JSON data storage
 
 ---
 
-## 🛠️ Toolkit
+## Toolkit
 
 **Top Languages**
 
@@ -121,6 +110,7 @@ My work connects engineering decisions to business outcomes. From a construction
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Ruby on Rails](https://img.shields.io/badge/-Rails-CC0000?style=for-the-badge&logo=rubyonrails&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Svelte](https://img.shields.io/badge/-Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
