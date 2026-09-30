@@ -6,6 +6,7 @@
         "portfolio": "Portfolio",
         "projects": "Website Projects",
         "tiger": "Tiger Language",
+        "alkalab": "Alkalab",
         "snake": "Snake Game",
         "portfolio_translator": "Portfolio Translator",
         "formatter": "JSON & YAML Formatter",
@@ -16,6 +17,7 @@
         "projects_description": "interactive tools & compilers",
         "tiger_description": "custom compiler & AST visualizer",
         "snake_description": "classic arcade game / WASM",
+        "alkalab_description": "chemistry lab simulation / WASM",
         "portfolio_translator_description": "100+ language matrix & i18n",
         "formatter_description": "syntax validator & converter",
         "contact_description": "open transmission // get in touch"
@@ -314,6 +316,11 @@
                 "text": "A Minecraft Mod that adds custom tools, armor, mobs, blocks, dimensions, and many more features to the game. Built primarily with Java and Kotlin, with support spanning Minecraft versions 1.16 through 26.2.",
                 "link": "https://github.com/pattygcoding/SupremeMC-26.2-Mod"
             },
+            "alkalab": {
+                "title": "Alkalab",
+                "text": "A powder-sand chemistry lab built in Rust and compiled to WebAssembly. Paint sand, water, lava, steel, calcium carbide, or a lump of sodium and watch the physics and chemistry fight it out: sodium detonates in water, calcium carbide fizzes acetylene, lava fuses sand into glass, and density alone sorts oil, mercury, and sand. The engine runs 32 materials and 40 declarative reaction rules over a flat cell buffer, rendering pixels straight out of wasm linear memory with no per-frame copies.",
+                "link": "https://www.pattygcoding.com/alkalab"
+            },
             "snake": {
                 "title": "Snake Game",
                 "text": "A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly, and rendered through HTML5 Canvas. It combines deterministic 0.12-second game ticks with smooth interpolated movement, explicit game phases, responsive controls, collision and win-state handling, and a focused test suite covering the core game rules.",
@@ -389,6 +396,61 @@
         "start_failed": "Unable to start the game",
         "runtime_failed": "Unable to load the game runtime",
         "aria_label": "Snake game. Arrow keys or WASD to move, Space to start or restart, P to pause."
+    },
+    "alkalab": {
+        "title": "Alkalab",
+        "description": "Alkalab is a powder-sand chemistry lab that runs in the browser, written in Rust and compiled to WebAssembly.",
+        "more_info2": "Alkalab GitHub Repository.",
+        "section_label": "CHEMISTRY SANDBOX",
+        "lab_title": "Reaction Chamber",
+        "loading": "Loading lab...",
+        "ready": "Ready",
+        "runtime_failed": "Unable to load the lab runtime",
+        "aria_label": "Alkalab sandbox. Drag to paint, right-click to erase, Space to pause, S to step, C to clear, Ctrl+Z to undo, X for the boom tool.",
+        "hud": {
+            "fps": "fps",
+            "speed": "tick/frame",
+            "frame": "ticks",
+            "particles": "cells"
+        },
+        "controls": {
+            "brush": "Brush",
+            "shape": "Shape",
+            "circle": "Circle",
+            "square": "Square",
+            "spray": "Spray",
+            "boom": "Boom",
+            "pause": "Pause",
+            "play": "Play",
+            "step": "Step",
+            "clear": "Clear",
+            "undo": "Undo",
+            "save": "Save PNG",
+            "speed": "Speed"
+        },
+        "panels": {
+            "experiments": "Experiments",
+            "elements": "Elements",
+            "log": "Reaction log",
+            "notes": "How it works",
+            "empty_log": "Nothing has reacted yet."
+        },
+        "presets": {
+            "sodium_water": "Sodium vs water",
+            "volcano": "Volcano",
+            "density_column": "Density column",
+            "vine": "Vine",
+            "demolition": "Demolition",
+            "carbide_cannon": "Carbide cannon"
+        },
+        "notes": [
+            "One flat buffer: the grid is a single Vec<Cell>, (x, y) maps to y * width + x, and a one-cell inert border removes every bounds check.",
+            "Bottom-up ticks: rows scan bottom to top so falling material cannot update twice, and the column direction flips each frame so water has no favourite side.",
+            "Density, not special cases: sand sinks in water, oil floats on it, and mercury sinks through both, all from one comparison.",
+            "Zero-copy pixels: Rust renders straight into a Uint8ClampedArray view of wasm memory, so nothing crosses the boundary per frame.",
+            "Declarative chemistry: 2 Na + 2 H2O -> 2 NaOH + H2, CaC2 + 2 H2O -> Ca(OH)2 + C2H2, and lava + sand -> glass are single table rows."
+        ],
+        "hint": "Drag to paint \u00b7 right-click to erase \u00b7 Space pause \u00b7 S step \u00b7 C clear \u00b7 Ctrl+Z undo \u00b7 X boom tool"
     },
     "tab": {
         "title": "Patrick Goodwin",
