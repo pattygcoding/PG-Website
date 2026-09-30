@@ -50,6 +50,13 @@ My work connects engineering decisions to business outcomes. From a construction
     </td>
   </tr>
   <tr>
+    <td width="120"><img src="https://www.pattygcoding.com/assets/images/alkalab.png" width="90" /></td>
+    <td>
+      <a href="https://www.pattygcoding.com/alkalab"><strong>Alkalab</strong></a> — <code>Available Here</code><br />
+      A powder-sand chemistry lab built in Rust and compiled to WebAssembly — sodium detonates in water, carbide fizzes acetylene, and lava fuses sand into glass across 32 materials and 40 declarative reaction rules, with pixels rendered straight out of wasm linear memory and no per-frame copies.
+    </td>
+  </tr>
+  <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/snake.png" width="90" /></td>
     <td>
       <a href="https://www.pattygcoding.com/snake"><strong>Snake</strong></a> — <code>Available Here</code><br />

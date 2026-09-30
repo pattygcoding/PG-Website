@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FiArrowUpRight, FiArrowRight, FiPlus, FiMinus } from "react-icons/fi";
 import { FaGithub, FaLinkedin, FaGamepad } from "react-icons/fa";
+import { GiTestTubes } from "react-icons/gi";
 import { VscTerminal, VscGlobe, VscJson } from "react-icons/vsc";
 import l from "@/assets/links/links.json";
 import { useLang } from "@/lang/languageContext";
@@ -17,6 +18,7 @@ const destinations = [
 
 const projects = [
 	{ key: "tiger", path: l.menu.tiger, icon: VscTerminal },
+	{ key: "alkalab", path: l.menu.alkalab, icon: GiTestTubes },
 	{ key: "snake", path: l.menu.snake, icon: FaGamepad },
 	{ key: "portfolio_translator", path: l.menu.languages, icon: VscGlobe },
 	{ key: "formatter", path: l.menu.formatter, icon: VscJson },

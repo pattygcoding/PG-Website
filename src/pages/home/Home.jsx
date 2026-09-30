@@ -33,6 +33,12 @@ const Home = () => {
 			badges: [t("home.featured.badges.minecraft_mod")],
 		},
 		{
+			key: "alkalab",
+			image: links.portfolio.alkalab,
+			to: "/alkalab",
+			badges: [t("home.featured.badges.available_here")],
+		},
+		{
 			key: "snake",
 			image: links.portfolio.snake,
 			to: "/snake",

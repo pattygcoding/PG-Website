@@ -16,16 +16,16 @@ const featuredProjects = [
 const skillAliases = { reactjs: "react", nodejs: "node", webassembly: "wasm", unit_testing: "testing", postgreql: "postgresql" };
 export const ATLAS_SKILL_LABELS = Object.fromEntries(Object.values(skillsData).flat().map(({ id, name }) => [skillAliases[id] || id, name]));
 const domains = {
-    connect_four: "experiences", snake: "experiences", suprememc: "experiences",
+    connect_four: "experiences", alkalab: "experiences", snake: "experiences", suprememc: "experiences",
     tiger_tailgating_pros: "products", educational_experience: "experiences", professional_experience: "experiences",
 };
-const routes = { tiger_programming_language: "/tiger", snake: "/snake" };
+const routes = { tiger_programming_language: "/tiger", alkalab: "/alkalab", snake: "/snake" };
 const projectIds = [...featuredProjects.map(({ id }) => id), ...Object.keys(english.portfolio.entries).filter((id) => !featuredProjects.some((project) => project.id === id))];
 export const ATLAS_HUB = "portfolio_website";
 export const ATLAS_FAMILIES = [
     { id: "business", projects: ["takeoff_engine", "inventory_register", "grocery_app", "payrollobol", "tiger_tailgating_pros"] },
     { id: "minecraft", projects: ["suprememc", "minecraft_json_generator"] },
-    { id: "wasm", projects: ["formatter", "snake", "tiger_programming_language"] },
+    { id: "wasm", projects: ["formatter", "alkalab", "snake", "tiger_programming_language"] },
     { id: "libraries", projects: ["powershell_library", "ruby_library", "lua_library", "excel_scripts"] },
     { id: "languages", projects: ["interop", "connect_four", "turing_machine", "rijandel_encryption"] },
     { id: "automation", projects: ["biblioteca", "python_maps", "pdf_builder", "neovim_config"] },
