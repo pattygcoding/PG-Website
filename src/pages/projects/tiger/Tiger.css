@@ -3,6 +3,7 @@
 	--tiger-panel: #101216;
 	--tiger-muted: #9ca3af;
 	--tiger-divider: #3b4048;
+	--tiger-error: #ff6b7a;
 	--tiger-accent: var(--accent-color);
 	--tiger-accent-hover: color-mix(in srgb, var(--tiger-accent) 82%, #000);
 	border: 1px solid var(--tiger-divider);
@@ -19,6 +20,7 @@
 	--tiger-panel: #ffffff;
 	--tiger-muted: #68707c;
 	--tiger-divider: #cfd4da;
+	--tiger-error: #b42335;
 	color: #17191d;
 }
 
@@ -204,7 +206,7 @@
 .tiger-code-highlight .token-literal { color: #d19a66; }
 .tiger-code-highlight .token-builtin { color: #61afef; }
 .tiger-code-highlight .token-string { color: #98c379; }
-.tiger-code-highlight .token-string-escape { color: #e5c07b; }
+.tiger-code-highlight .token-escape { color: #e5c07b; }
 .tiger-code-highlight .token-comment { color: #6a737d; }
 .tiger-code-highlight .token-number { color: #c678dd; }
 .tiger-code-highlight .token-identifier { color: inherit; }
@@ -215,7 +217,7 @@
 [data-theme="light"] .tiger-code-highlight .token-literal { color: #986801; }
 [data-theme="light"] .tiger-code-highlight .token-builtin { color: #4078f2; }
 [data-theme="light"] .tiger-code-highlight .token-string { color: #50a14f; }
-[data-theme="light"] .tiger-code-highlight .token-string-escape { color: #c18401; }
+[data-theme="light"] .tiger-code-highlight .token-escape { color: #c18401; }
 [data-theme="light"] .tiger-code-highlight .token-comment { color: #77818c; }
 [data-theme="light"] .tiger-code-highlight .token-number { color: #986801; }
 [data-theme="light"] .tiger-code-highlight .token-operator { color: #0184bb; }
@@ -250,6 +252,47 @@
 	color: inherit;
 	font: 14px/1.6 Consolas, "Courier New", monospace;
 	white-space: pre;
+}
+
+.tiger-stdin {
+	width: 24ch;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-bottom: 1px dashed var(--tiger-accent);
+	border-radius: 0;
+	outline: 0;
+	background: transparent;
+	color: var(--tiger-accent);
+	caret-color: var(--tiger-accent);
+	font: inherit;
+}
+
+.tiger-stdin:focus-visible {
+	border-bottom-style: solid;
+	background: color-mix(in srgb, var(--tiger-accent) 12%, transparent);
+}
+
+.tiger-output-error {
+	color: var(--tiger-error);
+}
+
+.tiger-stop-button {
+	background: var(--tiger-error);
+}
+
+.tiger-stop-button:hover:not(:disabled) {
+	background: color-mix(in srgb, var(--tiger-error) 82%, #000);
+}
+
+.tiger-engine-status.is-running,
+.tiger-engine-status.is-input {
+	color: var(--tiger-accent);
+}
+
+.tiger-engine-status.is-unavailable {
+	color: var(--tiger-error);
 }
 
 .tiger-workspace * {

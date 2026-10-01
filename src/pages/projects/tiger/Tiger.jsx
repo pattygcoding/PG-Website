@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
-import { FaPlay } from "react-icons/fa";
+import { FaPlay, FaStop } from "react-icons/fa";
 import { FiArrowUpRight, FiGithub } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
@@ -11,19 +11,29 @@ import "@/components/page-shell/PageShell.css";
 
 const tigerSamples = [
 	"hello_world.tg",
-	"account_audit.tg",
-	"batch_queue.tg",
-	"closure_studio.tg",
-	"event_simulation.tg",
-	"geometry_workshop.tg",
-	"graph_routes.tg",
+	"bank_ledger.tg",
+	"connect_four.tg",
+	"expression_calculator.tg",
+	"file_journal.tg",
+	"functional_toolkit.tg",
+	"game_of_life.tg",
+	"interactive_quiz.tg",
 	"inventory_report.tg",
-	"library_catalog.tg",
-	"number_lab.tg",
-	"rule_engine.tg",
-	"task_board.tg",
-	"text_pipeline.tg",
+	"matrix_lab.tg",
+	"shape_gallery.tg",
+	"task_scheduler.tg",
+	"text_studio.tg",
+	"turing_machine.tg",
+	"vending_machine.tg",
 ];
+
+const statusLabels = {
+	loading: "ENGINE LOADING",
+	ready: "ENGINE ONLINE",
+	running: "RUNNING",
+	input: "AWAITING INPUT",
+	unavailable: "ENGINE OFFLINE",
+};
 
 const Tiger = () => {
 	const { t } = useLang();
@@ -31,10 +41,16 @@ const Tiger = () => {
 	const [code, setCode] = useState("");
 	const [selectedSample, setSelectedSample] = useState("hello_world.tg");
 	const [output, setOutput] = useState("Loading engine...");
-	const [isReady, setIsReady] = useState(false);
+	const [error, setError] = useState("");
+	const [status, setStatus] = useState("loading");
+	const [inputValue, setInputValue] = useState("");
 	const codeEditorRef = useRef(null);
+	const outputRef = useRef(null);
+	const inputRef = useRef(null);
+	const workerRef = useRef(null);
 
-	const goLoaded = useRef(false);
+	const isRunning = status === "running" || status === "input";
+	const isReady = status !== "loading" && status !== "unavailable";
 
 	const loadSample = async (sampleName) => {
 		setSelectedSample(sampleName);
@@ -47,7 +63,7 @@ const Tiger = () => {
 			setCode(await response.text());
 		} catch (err) {
 			console.error("Failed to load Tiger sample:", err);
-			setOutput(`Failed to load ${sampleName}.`);
+			setError(`Failed to load ${sampleName}.`);
 		}
 	};
 
@@ -55,56 +71,76 @@ const Tiger = () => {
 		loadSample("hello_world.tg");
 	}, []);
 
-	useEffect(() => {
-		const loadEngine = async () => {
-			try {
-				await new Promise((resolve, reject) => {
-					const script = document.createElement("script");
-					script.src = "/wasm_exec.js";
-					script.onload = resolve;
-					script.onerror = reject;
-					document.body.appendChild(script);
-				});
-
-				const go = new window.Go();
-				const result = await WebAssembly.instantiateStreaming(fetch("/wasm/tiger.wasm"), go.importObject);
-				go.run(result.instance).catch((err) => {
-					console.error("Go runtime error:", err);
-				});
-
-				for (let attempt = 0; attempt < 50 && typeof window.tigerRun !== "function"; attempt += 1) {
-					await new Promise((resolve) => setTimeout(resolve, 10));
-				}
-
-				if (typeof window.tigerRun !== "function") {
-					throw new Error("Tiger WASM runtime did not initialize.");
-				}
-
-				goLoaded.current = true;
-
-				setOutput("Engine loaded. Run code.");
-				setIsReady(true);
-			} catch (err) {
-				console.error("Failed to load engine:", err);
-				setOutput("Failed to load WASM engine.");
+	const startWorker = () => {
+		workerRef.current?.terminate();
+		setStatus("loading");
+		setInputValue("");
+		const worker = new Worker("/wasm/tiger-worker.js");
+		workerRef.current = worker;
+		const fail = (message) => {
+			if (workerRef.current !== worker) return;
+			setError(message || "Failed to load WASM engine.");
+			setStatus("unavailable");
+			worker.terminate();
+		};
+		worker.onmessage = ({ data }) => {
+			if (workerRef.current !== worker) return;
+			if (data.type === "ready") {
+				setOutput((current) => current === "Loading engine..." ? "Engine loaded. Run code." : current);
+				setStatus("ready");
+			} else if (data.type === "output") {
+				setOutput((current) => current + data.text);
+			} else if (data.type === "input") {
+				setStatus("input");
+			} else if (data.type === "result") {
+				setError(data.error || "");
+				setStatus("ready");
+			} else if (data.type === "fatal") {
+				fail(data.error);
 			}
 		};
+		worker.onerror = (event) => fail(event.message);
+	};
 
-		loadEngine();
+	useEffect(() => {
+		startWorker();
+		return () => {
+			workerRef.current?.terminate();
+			workerRef.current = null;
+		};
 	}, []);
 
+	useEffect(() => {
+		if (outputRef.current) outputRef.current.scrollTop = outputRef.current.scrollHeight;
+	}, [output, status, error]);
+
+	useEffect(() => {
+		if (status === "input") inputRef.current?.focus({ preventScroll: true });
+	}, [status]);
+
 	const runTiger = () => {
-		try {
-			if (!goLoaded.current || typeof window.tigerRun !== "function") {
-				setOutput("Go engine not ready.");
-				return;
-			}
-			const result = window.tigerRun(code);
-			setOutput(result.error || result.output || "");
-		} catch (err) {
-			console.error("Runtime error:", err);
-			setOutput(`Runtime error:\n${err}`);
-		}
+		if (!workerRef.current || status !== "ready") return;
+		setOutput("");
+		setError("");
+		setStatus("running");
+		workerRef.current.postMessage({ type: "run", source: code, filename: selectedSample });
+	};
+
+	const stopTiger = () => {
+		startWorker();
+		setError("Execution stopped.");
+	};
+
+	// Enter sends the line; Ctrl+D closes input, matching the Tiger playground.
+	const handleInputKeyDown = (event) => {
+		const endOfInput = event.ctrlKey && (event.key === "d" || event.key === "D");
+		if (event.key !== "Enter" && !endOfInput) return;
+		event.preventDefault();
+		const text = endOfInput ? null : inputValue;
+		setOutput((current) => current + (endOfInput ? "^D\n" : `${text}\n`));
+		setInputValue("");
+		setStatus("running");
+		workerRef.current?.postMessage({ type: "input", text });
 	};
 
 	const lineNumbers = code.split("\n").map((_, index) => index + 1);
@@ -166,8 +202,8 @@ const Tiger = () => {
 						<div className="tiger-file-tab" title={t("tiger.tiger_code")}>
 							<span className="tiger-file-mark" aria-hidden="true">T</span>
 							<span>{selectedSample}</span>
-							<span className={`tiger-engine-status ${isReady ? "is-ready" : ""}`}>
-								{isReady ? "ENGINE ONLINE" : "ENGINE LOADING"}
+							<span className={`tiger-engine-status is-${status}`}>
+								{statusLabels[status]}
 							</span>
 						</div>
 						<div className="tiger-toolbar-actions">
@@ -183,15 +219,26 @@ const Tiger = () => {
 									))}
 								</select>
 							</label>
-							<button
-								type="button"
-								className="tiger-run-button"
-								onClick={runTiger}
-								disabled={!isReady}
-							>
-								<FaPlay aria-hidden="true" />
-								<span>{t("tiger.run_tiger")}</span>
-							</button>
+							{isRunning ? (
+								<button
+									type="button"
+									className="tiger-run-button tiger-stop-button"
+									onClick={stopTiger}
+								>
+									<FaStop aria-hidden="true" />
+									<span>{t("tiger.stop")}</span>
+								</button>
+							) : (
+								<button
+									type="button"
+									className="tiger-run-button"
+									onClick={runTiger}
+									disabled={!isReady}
+								>
+									<FaPlay aria-hidden="true" />
+									<span>{t("tiger.run_tiger")}</span>
+								</button>
+							)}
 						</div>
 					</header>
 
@@ -227,7 +274,30 @@ const Tiger = () => {
 
 						<section className="tiger-output-panel" aria-labelledby="tiger-output-title">
 							<h2 id="tiger-output-title">{t("tiger.output")}</h2>
-							<pre className="tiger-output" role="status" aria-live="polite" aria-atomic="true" aria-labelledby="tiger-output-title" tabIndex="0">{output}</pre>
+							<pre
+								ref={outputRef}
+								className="tiger-output"
+								role="log"
+								aria-live="polite"
+								aria-labelledby="tiger-output-title"
+								tabIndex="0"
+								onClick={() => inputRef.current?.focus()}
+							>
+								{output}
+								{status === "input" && (
+									<input
+										ref={inputRef}
+										className="tiger-stdin"
+										value={inputValue}
+										onChange={(event) => setInputValue(event.target.value)}
+										onKeyDown={handleInputKeyDown}
+										aria-label={t("tiger.program_input")}
+										autoComplete="off"
+										spellCheck="false"
+									/>
+								)}
+								{error && <span className="tiger-output-error">{output && !output.endsWith("\n") ? "\n" : ""}{error}</span>}
+							</pre>
 						</section>
 					</div>
 				</section>
