@@ -1,0 +1,117 @@
+/* Interactive quiz: input() prompts, int()/float() validation with retries, graceful EOF handling, and a scripted demo fallback. */
+const QUESTIONS = [
+    {"prompt": "Which keyword declares a mutable binding?", "answer": "var", "kind": "text"},
+    {"prompt": "What does 7 / 2 evaluate to?", "answer": 3.5, "kind": "number"},
+    {"prompt": "How many values are in range(2, 10, 3)?", "answer": 3, "kind": "number"},
+    {"prompt": "Which keyword starts a C-style if?", "answer": "cif", "kind": "text"},
+    {"prompt": "What is -17 % 5 in Tiger?", "answer": 3, "kind": "number"},
+    {"prompt": "Which list method sorts in place?", "answer": "sort", "kind": "text"}
+];
+const DEMO_ANSWERS = ["Ada", "var", "3.5", "three", "3", "cif", "3", "order"];
+var interactive = true;
+var demo_index = 0;
+
+function trim(text) {
+    var start = 0;
+    var end = len(text);
+    while start < end and text[start] == " " { start++; }
+    while end > start and text[end - 1] == " " { end--; }
+    var out = "";
+    cfor (var i = start; i < end; i++) { out += text[i]; }
+    return out;
+}
+
+function ask(prompt) {
+    if interactive {
+        try {
+            return trim(input(prompt + " "));
+        } catch (error) {
+            interactive = false;
+            print();
+            print("(no keyboard input available, so a scripted player answers instead)");
+        }
+    }
+    var answer = "";
+    if demo_index < len(DEMO_ANSWERS) {
+        answer = DEMO_ANSWERS[demo_index];
+        demo_index++;
+    }
+    print(prompt, answer);
+    return answer;
+}
+
+function ask_number(prompt) {
+    cfor (var attempt = 1; attempt <= 3; attempt++) {
+        const reply = ask(prompt);
+        try {
+            return float(reply);
+        } catch (error) {
+            print(f"  '{reply}' is not a number ({3 - attempt} tries left)");
+        }
+    }
+    return null;
+}
+
+var name = ask("What is your name?");
+if not name {
+    name = "mystery player";
+}
+print(f"Welcome, {name}! {len(QUESTIONS)} questions about Tiger.");
+
+var score = 0;
+var streak = 0;
+var best_streak = 0;
+var missed = [];
+for index in range(len(QUESTIONS)) {
+    const question = QUESTIONS[index];
+    const label = f"Q{index + 1}. {question["prompt"]}";
+    var correct = false;
+    switch question["kind"] {
+        case "number":
+            const reply = ask_number(label);
+            correct = reply != null and reply == question["answer"];
+            break;
+        default:
+            correct = ask(label) == question["answer"];
+    }
+    cif (correct) {
+        score++;
+        streak++;
+        best_streak = math.max(best_streak, streak);
+        print("  correct!");
+    } celse {
+        streak = 0;
+        missed += [f"Q{index + 1} (answer: {question["answer"]})"];
+        print(f"  not quite; the answer is {question["answer"]}");
+    }
+}
+
+const percent = math.round(score / len(QUESTIONS) * 100);
+var grade = "F";
+cif (percent >= 90) {
+    grade = "A";
+} celse cif (percent >= 75 && best_streak >= 3) {
+    grade = "B";
+} celse cif (percent >= 60 || best_streak >= 4) {
+    grade = "C";
+}
+
+print();
+print(f"{name} scored {score}/{len(QUESTIONS)} ({percent}%), best streak {best_streak}, grade {grade}");
+switch grade {
+    case "A":
+        print("Outstanding - you could write the docs.");
+        break;
+    case "B":
+    case "C":
+        print("Solid work - a quick look at the guide will close the gaps.");
+        break;
+    default:
+        print("Keep exploring - every expert started here.");
+}
+if missed {
+    print("Review:", missed);
+} else {
+    print("Perfect run, nothing to review.");
+}
+print(interactive and "Thanks for playing!" or "Run this with `tiger run` in a terminal to play yourself.");
