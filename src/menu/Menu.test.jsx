@@ -64,7 +64,7 @@ test("expands all project links and closes after selecting one", () => {
 	const projects = container.querySelector('[aria-controls="menu-projects"]');
 	act(() => projects.click());
 	expect(projects.getAttribute("aria-expanded")).toBe("true");
-	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link) => link.getAttribute("href"))).toEqual(["/tiger", "/snake", "/languages", "/formatter"]);
+	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link) => link.getAttribute("href"))).toEqual(["/tiger", "/alkalab", "/snake", "/languages", "/formatter", "https://connectfour.pattygcoding.com/"]);
 	act(() => container.querySelector('#menu-projects a[href="/formatter"]').click());
 	expect(container.querySelector(".atlas-menu")).toBeNull();
 	expect(document.body.classList.contains("ovhidden")).toBe(false);

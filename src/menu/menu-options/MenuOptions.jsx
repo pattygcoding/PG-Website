@@ -4,6 +4,7 @@ import { FiArrowUpRight, FiArrowRight, FiPlus, FiMinus } from "react-icons/fi";
 import { FaGithub, FaLinkedin, FaGamepad } from "react-icons/fa";
 import { GiTestTubes } from "react-icons/gi";
 import { VscTerminal, VscGlobe, VscJson } from "react-icons/vsc";
+import { TbGridDots } from "react-icons/tb";
 import l from "@/assets/links/links.json";
 import { useLang } from "@/lang/languageContext";
 import "./MenuOptions.css";
@@ -22,6 +23,7 @@ const projects = [
 	{ key: "snake", path: l.menu.snake, icon: FaGamepad },
 	{ key: "portfolio_translator", path: l.menu.languages, icon: VscGlobe },
 	{ key: "formatter", path: l.menu.formatter, icon: VscJson },
+	{ key: "connect_four", path: l.connect_four, icon: TbGridDots, external: true },
 ];
 
 const MenuOptions = ({ handleToggle, closeMenu }) => {
@@ -66,10 +68,14 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 											: <Link {...linkProps} to={destination.path} aria-current={isCurrent ? "page" : undefined} onClick={dismiss}>{content}</Link>}
 										{isProjects && showProjects && (
 											<ul className="atlas-menu__projects" id="menu-projects">
-												{projects.map(({ key, path, icon: Icon }) => <li key={key}>
-													<Link to={path} onClick={dismiss} aria-current={pathname === path ? "page" : undefined}>
-														<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
-													</Link>
+												{projects.map(({ key, path, icon: Icon, external }) => <li key={key}>
+													{external
+														? <a href={path} target="_blank" rel="noopener noreferrer" onClick={dismiss} title={`${t(`menu.${key}`)} (opens in a new tab)`}>
+															<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
+														</a>
+														: <Link to={path} onClick={dismiss} aria-current={pathname === path ? "page" : undefined}>
+															<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
+														</Link>}
 												</li>)}
 											</ul>
 										)}
