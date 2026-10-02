@@ -4,10 +4,11 @@
         "home": "Home",
         "about": "About Me",
         "portfolio": "Portfolio",
-        "projects": "Website Projects",
-        "tiger": "Tiger Language",
+        "projects": "Featured Projects",
+        "tiger": "Tiger - A Custom Programming Language",
         "alkalab": "Alkalab",
         "snake": "Snake Game",
+        "suprememc": "SupremeMC Minecraft Mod",
         "portfolio_translator": "Portfolio Translator",
         "formatter": "JSON & YAML Formatter",
         "connect_four": "Connect Four Language Tree",
@@ -19,6 +20,7 @@
         "tiger_description": "custom compiler & AST visualizer",
         "snake_description": "classic arcade game / WASM",
         "alkalab_description": "chemistry lab simulation / WASM",
+        "suprememc_description": "Minecraft mod showcase / Java",
         "portfolio_translator_description": "100+ language matrix & i18n",
         "formatter_description": "syntax validator & converter",
         "contact_description": "open transmission // get in touch"
@@ -454,6 +456,78 @@
             "Declarative chemistry: 2 Na + 2 H2O -> 2 NaOH + H2, CaC2 + 2 H2O -> Ca(OH)2 + C2H2, and lava + sand -> glass are single table rows."
         ],
         "hint": "Drag to paint \u00b7 right-click to erase \u00b7 Space pause \u00b7 S step \u00b7 C clear \u00b7 Ctrl+Z undo \u00b7 X boom tool"
+    },
+    "suprememc": {
+        "title": "SupremeMC",
+        "description": "SupremeMC is a content-packed Minecraft mod that adds new tools, armor, mobs, blocks, dimensions, and much more, maintained across Minecraft versions 1.16 through 26.2.",
+        "image_alt": "SupremeMC mod logo",
+        "github": {
+            "cta": "View on GitHub",
+            "subtitle": "Explore the Java and Kotlin source code"
+        },
+        "curseforge": {
+            "eyebrow": "Download on CurseForge.",
+            "cta": "Download on CurseForge",
+            "subtitle": "Get the latest SupremeMC release for Fabric and NeoForge"
+        },
+        "overview": {
+            "label": "Minecraft Mod",
+            "title": "A whole new layer of survival",
+            "text": "Built primarily with Java and Kotlin, SupremeMC expands every stage of the game, from new ores and gear in the Overworld to custom dimensions, structures, and creatures. The latest version ships for both Fabric and NeoForge from a single shared codebase."
+        },
+        "stats": {
+            "items": "Items",
+            "blocks": "Blocks",
+            "enchantments": "Enchantments",
+            "potions": "Potions"
+        },
+        "features": {
+            "label": "What's inside",
+            "title": "Feature highlights",
+            "examples": "Examples",
+            "gear": {
+                "title": "Tools, Weapons & Armor",
+                "text": "New materials with full tool and armor sets, plus specialty weapons with their own behavior.",
+                "examples": ["Abyssalite", "Amber", "Aquamarine", "Experience", "Burning Netherite", "Abyssalite Trident"]
+            },
+            "mobs": {
+                "title": "Creatures",
+                "text": "New hostile and passive mobs that bring fresh threats and wildlife to the world.",
+                "examples": ["Fire Creeper", "Snow Creeper", "Ender Spider", "Grizzly Bear"]
+            },
+            "worlds": {
+                "title": "Dimensions & Biomes",
+                "text": "Custom dimensions and hand-tuned biomes with their own terrain, trees, and vegetation.",
+                "examples": ["Skylands", "Icether", "Florida Plains", "Cays", "Lavender Highlands", "Ice Caves"]
+            },
+            "structures": {
+                "title": "Structures & Blocks",
+                "text": "Hundreds of new building blocks alongside generated structures to explore in the Nether and the End.",
+                "examples": ["Nether Mineshaft", "End Mineshaft", "Nether Reactor Core", "Palm Trees"]
+            },
+            "explosives": {
+                "title": "Explosives",
+                "text": "Specialty TNT variants that do more than just blow things up.",
+                "examples": ["Fire TNT", "Snow TNT", "Shelter TNT"]
+            },
+            "magic": {
+                "title": "Enchantments & Potions",
+                "text": "New enchantments and brewable potions that add depth to combat, mining, and exploration.",
+                "examples": ["18 Enchantments", "13 Potions"]
+            }
+        },
+        "build": {
+            "label": "Engineering",
+            "title": "How it's built",
+            "text": "The current release uses a MultiLoader architecture: gameplay code lives in a shared common module compiled against vanilla Minecraft, while thin Fabric and NeoForge modules load it into each platform. Recipes, models, tags, and translations are produced with data generators to keep hundreds of assets consistent.",
+            "stack": "Technology stack",
+            "timeline": [
+                { "version": "1.16", "text": "SupremeMC is born, introducing its first custom ores, tools, and armor." },
+                { "version": "1.19.3 \u2013 1.20.2", "text": "Ported forward on Forge as the mod grows into a large content pack with new mobs, dimensions, and structures." },
+                { "version": "1.21.10", "text": "Updated for 1.21 alongside companion SupremeMC enchantment and wood-cutting data packs." },
+                { "version": "26.2", "text": "Rebuilt on a MultiLoader template to ship on both Fabric and NeoForge from one codebase." }
+            ]
+        }
     },
     "tab": {
         "title": "Patrick Goodwin",

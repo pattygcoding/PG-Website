@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Get-ChildItem public\\\\assets\\\\images \\| Select-Object Name \\| Out-String -Width 200; Get-ChildItem public -Directory \\| Select Name$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

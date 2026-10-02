@@ -14,6 +14,7 @@ const Languages = lazy(() => import("@/pages/projects/languages/Languages"));
 const Formatter = lazy(() => import("@/pages/projects/formatter/Formatter"));
 const Snake = lazy(() => import("@/pages/projects/snake/Snake"));
 const Alkalab = lazy(() => import("@/pages/projects/alkalab/Alkalab"));
+const SupremeMC = lazy(() => import("@/pages/projects/suprememc/SupremeMC"));
 
 function AppRoutes() {
 	const { pathname } = useLocation();
@@ -39,6 +40,7 @@ function AppRoutes() {
 					<Route path="/tiger" element={<Tiger />} />
 					<Route path="/snake" element={<Snake />} />
 					<Route path="/alkalab" element={<Alkalab />} />
+					<Route path="/suprememc" element={<SupremeMC />} />
 					<Route path="/languages" element={<Languages />} />
 					<Route path="/formatter" element={<Formatter />} />
 					<Route path="*" element={<Home />} />
