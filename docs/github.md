@@ -38,7 +38,7 @@ My work connects engineering decisions to business outcomes. From a construction
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/suprememc.png" width="90" /></td>
     <td>
-      <a href="https://github.com/pattygcoding/SupremeMC-26.2-Mod"><strong>SupremeMC</strong></a> — <code>Minecraft Mod</code><br />
+      <a href="https://www.pattygcoding.com/suprememc"><strong>SupremeMC</strong></a> — <code>Minecraft Mod</code><br />
       A Minecraft mod adding custom tools, armor, mobs, blocks, and dimensions, built primarily in Java and Kotlin with support spanning Minecraft versions 1.16 through 26.2.
     </td>
   </tr>
@@ -71,7 +71,7 @@ My work connects engineering decisions to business outcomes. From a construction
 
 - **[Connect Four Language Tree](https://github.com/pattygcoding/Connect-Four-Language-Tree)** — 50+ implementations of Connect Four across 30+ languages and 20+ frameworks (React, Rails, ASP.NET, and more)
 - **[Interop Samples](https://github.com/pattygcoding/Interop-Samples)** — a cross-language interoperability reference spanning 15 languages and 18 execution patterns
-- **[Rijndael Encryption](https://github.com/pattygcoding/SupremeMC)** — 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
+- **[Rijndael Encryption](https://github.com/pattygcoding/Rijandel-Encryption)** — 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
 - **[Turing Machines](https://github.com/pattygcoding/Turing-Machines)** — 30+ implementations demonstrating Turing completeness across languages
 - **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)** — .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
 - **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)** — Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
