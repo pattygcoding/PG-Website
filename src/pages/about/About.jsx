@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { FiArrowDown, FiArrowUpRight, FiMapPin } from "react-icons/fi";
 import { useLocation } from "react-router-dom";
@@ -20,6 +20,7 @@ const About = () => {
 	const featuredWork = ["takeoff_engine", "tiger_programming_language", "formatter"];
 	const entries = t("portfolio.entries");
 	const technologies = s.languages.length + s.frameworks.length + s.other_technologies.length;
+	const skillNames = useMemo(() => Object.fromEntries([...s.languages, ...s.frameworks, ...s.other_technologies].map((skill) => [skill.id, skill.name])), []);
 
 	return (
 		<HelmetProvider>
@@ -68,21 +69,17 @@ const About = () => {
 				</AboutSection>
 
 				<AboutSection id="about-toolkit" index="03" label="TOOLKIT" title={t("about.technical_skills.title")}>
-					<LinkedSkillsTable
-						header={t("about.technical_skills.header1")}
-						list={s.languages}
-						projects={p.projects}
-					/>
-					<LinkedSkillsTable
-						header={t("about.technical_skills.header2")}
-						list={s.frameworks}
-						projects={p.projects}
-					/>
-					<LinkedSkillsTable
-						header={t("about.technical_skills.header3")}
-						list={s.other_technologies}
-						projects={p.projects}
-					/>
+					{[["languages", "header1"], ["frameworks", "header2"], ["other_technologies", "header3"]].map(([category, headerKey]) => (
+						<LinkedSkillsTable
+							key={category}
+							id={`skills-${category}`}
+							header={t(`about.technical_skills.${headerKey}`)}
+							list={s[category]}
+							projects={p.projects}
+							entries={entries}
+							skillNames={skillNames}
+						/>
+					))}
 				</AboutSection>
 
 				<AboutSection id="about-capabilities" index="04" label="CAPABILITIES" title={t("about.services.title")}>

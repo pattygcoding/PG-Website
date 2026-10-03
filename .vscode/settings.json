@@ -3,6 +3,10 @@
         "/^Get-ChildItem public\\\\assets\\\\images \\| Select-Object Name \\| Out-String -Width 200; Get-ChildItem public -Directory \\| Select Name$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^Get-Content src\\\\assets\\\\projects\\\\projects\\.json -TotalCount 40; \\(Get-Content src\\\\assets\\\\projects\\\\projects\\.json -Raw \\| ConvertFrom-Json\\)\\.projects\\.Count; git --no-pager status --short$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
