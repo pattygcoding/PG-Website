@@ -11,9 +11,8 @@
 .contact-email svg { flex-shrink: 0; color: var(--page-accent); }
 .contact-email:hover { color: var(--page-accent); }
 .contact-socials { display: flex; flex-direction: column; padding-left: 40px; }
-.contact-socials a { flex: 1; display: grid; grid-template-columns: 24px 24px minmax(0, 1fr) 24px; align-items: center; gap: 18px; min-height: 112px; padding: 24px 0; text-decoration: none; font-size: 1.2rem; }
+.contact-socials a { flex: 1; display: grid; grid-template-columns: 24px minmax(0, 1fr) 24px; align-items: center; gap: 18px; min-height: 112px; padding: 24px 0; text-decoration: none; font-size: 1.2rem; }
 .contact-socials a + a { border-top: 1px solid var(--page-line); }
-.contact-social-index { color: var(--page-muted); font-family: monospace; font-size: 0.7rem; }
 .contact-socials a > svg:last-child { color: var(--page-accent); transition: transform 180ms ease; }
 .contact-socials a:hover { color: var(--page-accent); }
 .contact-socials a:hover > svg:last-child { transform: translate(3px, -3px); }

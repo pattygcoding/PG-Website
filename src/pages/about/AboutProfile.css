@@ -32,11 +32,9 @@
 .about-section-nav { display: flex; flex-wrap: wrap; gap: 18px 32px; padding: 26px 0; }
 .about-section-nav a { display: flex; gap: 9px; text-decoration: none; font-size: 0.75rem; }
 .about-section-nav a:hover { color: var(--about-accent); }
-.about-section-nav span { color: var(--about-accent); font-family: monospace; }
 .about-content { padding-top: 42px; }
 .about-page .about-section { display: grid; grid-template-columns: minmax(0, 0.32fr) minmax(0, 1fr); gap: 56px; padding: 44px 0 64px; margin: 0; border-top: 1px solid var(--about-line); scroll-margin-top: 88px; }
 .about-section-heading { display: block; align-self: start; }
-.section-index { font-size: 0.78rem; color: var(--about-accent); font-family: monospace; margin-bottom: 20px; }
 .section-label { font-size: 0.65rem; color: var(--about-muted); font-family: monospace; margin-bottom: 12px; }
 .about-section-heading h2 { font-size: 1.85rem; line-height: 1.25; margin: 0; }
 .about-section-body { min-width: 0; }
@@ -52,16 +50,14 @@
 .about-page .career-entry:first-child .career-marker { background: var(--about-accent); color: var(--bg-color); }
 .about-page .career-entry:first-child .career-details h3 { color: var(--about-accent); }
 .about-page .career-details h3 { font-size: 1.05rem; line-height: 1.5; }
-.about-page .career-number { color: var(--about-muted); font-size: 0.7rem; }
 .about-page #about-toolkit { grid-template-columns: 1fr; gap: 32px; }
 #about-toolkit .about-section-heading { display: flex; gap: 24px; align-items: baseline; }
 #about-toolkit .section-label { display: none; }
-#about-toolkit .section-index { margin: 0; }
 .about-page .services-grid { grid-template-columns: 1fr; gap: 0; }
 .about-page .service-box { min-height: 0; display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 8px 24px; padding: 28px 0; border: 0; border-bottom: 1px solid var(--about-line); background: transparent; overflow: visible; }
 .about-page .service-box:first-child { padding-top: 0; }
 .about-page .service-box:hover { background: transparent; transform: none; }
-.about-page .service-box::before, .about-page .service-arrow, .about-page .service-topline span { display: none; }
+.about-page .service-box::before, .about-page .service-arrow { display: none; }
 .about-page .service-topline { grid-row: 1 / 3; align-self: start; margin-top: 3px; }
 .about-page .service__title { margin: 0; font-size: 1.2rem; }
 .about-page .service_desc { grid-column: 2; font-size: 0.95rem; line-height: 1.75; }
@@ -86,7 +82,6 @@
     .about-hero-statement { font-size: 1.2rem; max-width: 470px; }
     .about-page .about-section { grid-template-columns: 1fr; gap: 28px; padding: 32px 0 44px; }
     .about-section-heading { display: flex; gap: 20px; }
-    .section-index { margin: 0; }
     .section-label { margin-bottom: 8px; }
     .about-content { padding-top: 18px; }
     .about-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); }

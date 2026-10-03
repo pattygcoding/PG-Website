@@ -8,11 +8,11 @@ import { projects } from "../projectCatalog";
 import "./MenuOptions.css";
 
 const destinations = [
-	{ key: "home", number: "01", path: l.menu.home },
-	{ key: "about", number: "02", path: l.menu.about },
-	{ key: "portfolio", number: "03", path: l.menu.portfolio },
-	{ key: "projects", number: "04" },
-	{ key: "contact", number: "05", path: l.menu.contact },
+	{ key: "home", path: l.menu.home },
+	{ key: "about", path: l.menu.about },
+	{ key: "portfolio", path: l.menu.portfolio },
+	{ key: "projects" },
+	{ key: "contact", path: l.menu.contact },
 ];
 
 const MenuOptions = ({ handleToggle, closeMenu }) => {
@@ -42,7 +42,6 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 								const isProjects = destination.key === "projects";
 								const isCurrent = current.key === destination.key;
 								const content = <>
-									<span className="atlas-menu__index">{destination.number}</span>
 									<span className="atlas-menu__label">{t(`menu.${destination.key}`)}</span>
 									<span className="atlas-menu__link-icon" aria-hidden="true">{isProjects ? (showProjects ? <FiMinus /> : <FiPlus />) : <FiArrowUpRight />}</span>
 								</>;
@@ -74,15 +73,14 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 						</ul>
 					</nav>
 					<aside className="atlas-menu__preview" aria-label="Destination preview">
-						<div className="atlas-menu__preview-top"><span>PG / INDEX</span><span>{selected.number} <span className="atlas-menu__muted">/ 05</span></span></div>
+						<div className="atlas-menu__preview-top"><span>PG / INDEX</span></div>
 						<div className="atlas-menu__preview-body" key={selected.key}>
-							<span className="atlas-menu__coordinate" aria-hidden="true">{selected.number}</span>
 							<div className="atlas-menu__preview-copy">
 								<span className="atlas-menu__route">{selected.path || "/projects"}</span>
 								<h2>{t(`menu.${selected.key}`)}</h2>
 								<p>{t(`menu.${selected.key}_description`)}</p>
 								{selected.path ? <Link to={selected.path} className="atlas-menu__preview-link" onClick={dismiss} aria-label={t(`menu.${selected.key}`)}><FiArrowRight aria-hidden="true" /></Link>
-									: <div className="atlas-menu__project-count"><span>04</span> React / WebAssembly / Python</div>}
+									: <div className="atlas-menu__project-count">React / WebAssembly / Python</div>}
 							</div>
 						</div>
 						<div className="atlas-menu__signature"><span>React / TypeScript / .NET</span><span>Java / Python / Node.js</span></div>

@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { RepoButton } from "@/components/repo-button";
-import { projectNumber } from "@/menu/projectCatalog";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import l from "@/assets/links/links.json";
@@ -384,7 +383,7 @@ const Alkalab = () => {
 			<main className="alkalab-page portfolio-shell">
 				<Tab title={t("alkalab.title")} />
 				<header className="page-heading">
-					<div className="page-eyebrow"><span>{projectNumber("alkalab")} / {t("alkalab.title")}</span></div>
+					<div className="page-eyebrow"><span>{t("alkalab.title")}</span></div>
 					<h1>{t("alkalab.title")}</h1>
 					<p>{t("alkalab.description")}</p>
 					<RepoButton href={l.alkalab} />

@@ -59,9 +59,9 @@ export default function EngineeringAtlas() {
                         <h2 id="atlas-title">{labels.title}<span aria-hidden="true">.</span></h2>
                     </div>
                     <div className="atlas-totals">
-                        <span><strong>{String(ATLAS_PROJECTS.length).padStart(2, "0")}</strong>{labels.projects}</span>
-                        <span><strong>{String(new Set(ATLAS_PROJECTS.flatMap(({ skills }) => skills)).size).padStart(2, "0")}</strong>{labels.technologies}</span>
-                        <span><strong>{String(ATLAS_CONNECTIONS.length).padStart(2, "0")}</strong>{labels.connections}</span>
+                        <span><strong>{ATLAS_PROJECTS.length}</strong>{labels.projects}</span>
+                        <span><strong>{new Set(ATLAS_PROJECTS.flatMap(({ skills }) => skills)).size}</strong>{labels.technologies}</span>
+                        <span><strong>{ATLAS_CONNECTIONS.length}</strong>{labels.connections}</span>
                     </div>
                 </header>
 
@@ -106,7 +106,7 @@ export default function EngineeringAtlas() {
                                         </div>
                                     ))}
                                 </>}
-                                {ATLAS_PROJECTS.map((project, index) => {
+                                {ATLAS_PROJECTS.map((project) => {
                                     if (!visibleIds.includes(project.id)) return null;
                                     const isSelected = selected?.id === project.id;
                                     return (
@@ -115,7 +115,6 @@ export default function EngineeringAtlas() {
                                             data-project-id={project.id}
                                             style={{ "--node-x": `${project.x}%`, "--node-y": `${project.y}%` }}
                                             aria-pressed={isSelected} aria-controls="atlas-inspector" onClick={() => selectProject(project.id)}>
-                                            <span className="atlas-node-index">{String(index + 1).padStart(2, "0")}</span>
                                             <img src={`/assets/images/${links.portfolio[project.image] || links.portfolio.default}`} alt="" draggable="false" loading="lazy" width="36" height="36" />
                                             <span className="atlas-node-title">{entries[project.id].title}</span>
                                             <span className="atlas-node-skills">{project.skills.slice(0, 4).map((skill) => labels.skills[skill]).join(" / ")}</span>
@@ -137,7 +136,7 @@ export default function EngineeringAtlas() {
 
                     <section ref={inspectorRef} className="atlas-inspector" id="atlas-inspector" aria-label={labels.inspector}>
                         {selected ? <div key={selected.id} className="atlas-inspector-content">
-                            <div className="atlas-inspector-top"><span>{labels.domains[selected.domain]}</span><span>{String(ATLAS_PROJECTS.indexOf(selected) + 1).padStart(2, "0")} / {String(ATLAS_PROJECTS.length).padStart(2, "0")}</span></div>
+                            <div className="atlas-inspector-top"><span>{labels.domains[selected.domain]}</span></div>
                             <div className="atlas-project-art"><img src={`/assets/images/${links.portfolio[selected.image] || links.portfolio.default}`} alt="" loading="lazy" width="180" height="120" /></div>
                             <h3 aria-live="polite">{entries[selected.id].title}</h3>
                             <p className="atlas-summary">{labels.stories[selected.id]?.summary || entries[selected.id].text}</p>

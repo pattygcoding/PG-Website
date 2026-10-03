@@ -734,7 +734,6 @@ section {
     transform: scale(1.055);
 }
 
-.featured-project-number,
 .featured-project-arrow {
     position: absolute;
     z-index: 1;
@@ -742,15 +741,6 @@ section {
     place-items: center;
     color: #fff;
     background: #101114;
-}
-
-.featured-project-number {
-    top: 14px;
-    left: 14px;
-    width: 38px;
-    height: 27px;
-    font-family: monospace;
-    font-size: 0.62rem;
 }
 
 .featured-project-arrow {

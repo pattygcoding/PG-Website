@@ -12,7 +12,6 @@ const ServicesSection = ({ entries }) => {
 				return (
 				<article className="service-box" key={entry.title}>
 					<div className="service-topline">
-						<span>{String(index + 1).padStart(2, "0")}</span>
 						<Icon />
 					</div>
 					<h3 className="service__title">{entry.title}</h3>

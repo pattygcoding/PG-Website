@@ -148,14 +148,6 @@
     font-size: 0.85rem;
 }
 
-.career-number {
-    position: absolute;
-    right: 10px;
-    color: var(--about-line, #555);
-    font-family: monospace;
-    font-size: 1.4rem;
-}
-
 @media (max-width: 575.98px) {
     .career-entry {
         padding: 20px 32px 20px 58px;
@@ -171,10 +163,5 @@
 
     .career-timeline::before {
         left: 28px;
-    }
-
-    .career-number {
-        right: 4px;
-        font-size: 0.9rem;
     }
 }

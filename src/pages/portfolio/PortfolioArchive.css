@@ -51,7 +51,6 @@
 .portfolio-page .project-image-wrap { position: relative; display: block; aspect-ratio: 16 / 9; min-width: 0; overflow: hidden; background: #f4f5f3; border-bottom: 1px solid var(--portfolio-line); }
 .portfolio-page .portfolio-card-img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; transition: transform 400ms ease; }
 .portfolio-page .project-image-wrap:hover .portfolio-card-img { transform: scale(1.025); }
-.portfolio-page .project-index { position: absolute; left: 16px; top: 16px; display: grid; place-items: center; width: 32px; height: 28px; color: #fff; background: #141716; border-radius: 2px; font-size: 0.68rem; font-family: monospace; }
 .portfolio-page .project-open { position: absolute; right: 16px; bottom: 16px; display: grid; place-items: center; width: 40px; height: 40px; color: #fff; background: #141716; border-radius: 50%; font-size: 1.25rem; }
 .portfolio-page .project-image-wrap:hover .project-open { background: var(--portfolio-accent); }
 .portfolio-page .project-body { display: flex; flex-direction: column; flex: 1; padding: 28px; min-width: 0; }
@@ -113,7 +112,6 @@
 	.portfolio-view-list .project-body h2 { font-size: 1.05rem; }
 	.portfolio-view-list .project-body p { font-size: 0.78rem; }
 	.portfolio-view-list .project-open { width: 28px; height: 28px; right: 8px; bottom: 8px; }
-	.portfolio-view-list .project-index { left: 8px; top: 8px; }
 	.portfolio-closing { flex-direction: column; align-items: flex-start; }
 }
 @media (max-width: 360px) { .portfolio-hero h1 { font-size: 2.8rem; } }

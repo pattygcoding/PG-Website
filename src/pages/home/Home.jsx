@@ -80,7 +80,7 @@ const Home = () => {
 			<main id="home" className="home home--showcase">
 				<Tab title={t("home.title")} />
 				<div className="intro_sec">
-					<div className="hero-coordinate" aria-hidden="true">PG / ENGINEERING &amp; PRODUCT / 01</div>
+					<div className="hero-coordinate" aria-hidden="true">PG / ENGINEERING &amp; PRODUCT</div>
 					<div className="hero-copy">
 						<div className="intro">
 							<div className="hero-kicker">
@@ -137,7 +137,7 @@ const Home = () => {
 				<div className="hero-evidence">
 					<div className="hero-visual">
 						<div className="visual-grid"></div>
-						<div className="visual-index" aria-hidden="true">PG / 02</div>
+						<div className="visual-index" aria-hidden="true">PG</div>
 						<div className="portrait-frame">
 							<div
 								className="home_img"
@@ -187,12 +187,11 @@ const Home = () => {
 					</header>
 
 					<div className="featured-project-grid">
-						{featuredProjects.map((project, index) => (
+						{featuredProjects.map((project) => (
 							<article className={`featured-project featured-project--${project.key}${project.featured ? " featured-project--lead" : ""}`} key={project.key}>
 								{renderProjectLink(project, <>
 									<div className="featured-project-visual">
 											<img src={`/assets/images/${project.image}`} alt={`${project.data.title} logo`} loading="lazy" decoding="async" />
-										<span className="featured-project-number">{String(index + 1).padStart(2, "0")}</span>
 										<span className="featured-project-arrow"><FiArrowUpRight aria-hidden="true" /></span>
 									</div>
 									<div className="featured-project-body">
