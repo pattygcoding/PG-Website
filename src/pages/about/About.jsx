@@ -45,12 +45,12 @@ const About = () => {
 				</div>
 				<nav className="about-section-nav" aria-label={t("about.title")}>
 					{["personal_summary", "professional_experience", "technical_skills", "services"].map((section, index) => (
-						<a key={section} href={`${location.search}#about-${["overview", "timeline", "toolkit", "capabilities"][index]}`}><span>0{index + 1}</span>{t(`about.${section}.title`)}</a>
+						<a key={section} href={`${location.search}#about-${["overview", "timeline", "toolkit", "capabilities"][index]}`}>{t(`about.${section}.title`)}</a>
 					))}
 				</nav>
 
 				<div className="about-content">
-				<AboutSection id="about-overview" index="01" label="OVERVIEW" title={t("about.personal_summary.title")}>
+				<AboutSection id="about-overview" label="OVERVIEW" title={t("about.personal_summary.title")}>
 					<div className="d-flex align-items-center personal-summary-box">
 						<p>{t("about.personal_summary.text")}</p>
 					</div>
@@ -64,11 +64,11 @@ const About = () => {
 					</div>
 				</AboutSection>
 
-				<AboutSection id="about-timeline" index="02" label="TIMELINE" title={t("about.professional_experience.title")}>
+				<AboutSection id="about-timeline" label="TIMELINE" title={t("about.professional_experience.title")}>
 					<WorkHistoryTable entries={t("about.professional_experience.entries")} />
 				</AboutSection>
 
-				<AboutSection id="about-toolkit" index="03" label="TOOLKIT" title={t("about.technical_skills.title")}>
+				<AboutSection id="about-toolkit" label="TOOLKIT" title={t("about.technical_skills.title")}>
 					{[["languages", "header1"], ["frameworks", "header2"], ["other_technologies", "header3"]].map(([category, headerKey]) => (
 						<LinkedSkillsTable
 							key={category}
@@ -82,7 +82,7 @@ const About = () => {
 					))}
 				</AboutSection>
 
-				<AboutSection id="about-capabilities" index="04" label="CAPABILITIES" title={t("about.services.title")}>
+				<AboutSection id="about-capabilities" label="CAPABILITIES" title={t("about.services.title")}>
 					<ServicesSection entries={t("about.services.entries")} />
 				</AboutSection>
 				</div>

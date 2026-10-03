@@ -129,7 +129,7 @@ const Portfolio = () => {
 			<main className="portfolio-page">
 				<Tab title={t("portfolio.title")} />
 				<header className="portfolio-hero">
-					<div className="portfolio-kicker"><span>{t("name")}</span><span>{t("home.atlas.projects")} / {String(Object.keys(entries).length).padStart(2, "0")}</span></div>
+					<div className="portfolio-kicker"><span>{t("name")}</span><span>{t("home.atlas.projects")} / {Object.keys(entries).length}</span></div>
 					<div className="portfolio-title-row">
 						<h1>{t("portfolio.title")}<span>.</span></h1>
 						<p>{t("home.atlas.footer")}</p>
@@ -158,7 +158,7 @@ const Portfolio = () => {
 					)}
 
 					<div className="portfolio-results-line">
-						<span aria-live="polite" aria-atomic="true"><strong>{String(visibleEntries.length).padStart(2, "0")}</strong> / {String(Object.keys(entries).length).padStart(2, "0")} {t("home.atlas.projects")}</span>
+						<span aria-live="polite" aria-atomic="true"><strong>{visibleEntries.length}</strong> / {Object.keys(entries).length} {t("home.atlas.projects")}</span>
 						<div className="portfolio-view-tools">
 							<select aria-label="Sort projects" value={sort} onChange={(event) => setSort(event.target.value)}><option value="featured">{t("home.featured.title")}</option><option value="alphabetical">A - Z</option></select>
 							<div className="portfolio-view-switch" role="group" aria-label="Project view">
@@ -187,7 +187,6 @@ const Portfolio = () => {
 										loading={index < 3 ? "eager" : "lazy"}
 										onError={(event) => { if (!event.currentTarget.src.endsWith(images.default)) event.currentTarget.src = resolveImage(images.default); }}
 									/>
-									<span className="project-index">{String(index + 1).padStart(2, "0")}</span>
 									<span className="project-open" aria-hidden="true"><FiArrowUpRight /></span>
 							</a>
 								<div className="project-body">

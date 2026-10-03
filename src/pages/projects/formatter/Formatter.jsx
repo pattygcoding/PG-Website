@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { FaMagic } from "react-icons/fa";
 import { RepoButton } from "@/components/repo-button";
-import { projectNumber } from "@/menu/projectCatalog";
 import { Tab } from "@/components/tab";
 import { CopyButton } from "@/components/copy-button";
 import { useLang } from "@/lang/languageContext";
@@ -186,7 +185,7 @@ const Formatter = () => {
 			<main className="formatter-page portfolio-shell">
 				<Tab title={t("formatter.title")} />
 				<header className="page-heading">
-						<div className="page-eyebrow"><span>{projectNumber("formatter")} / JSON + YAML</span></div>
+						<div className="page-eyebrow"><span>JSON + YAML</span></div>
 						<h1>{t("formatter.title")}</h1>
 						<p>{t("formatter.description")}</p>
 						<RepoButton href={l.formatter} />

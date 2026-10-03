@@ -229,7 +229,7 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 		<section className="skill-explorer" ref={sectionRef} aria-labelledby={`${id}-title`}>
 			<header className="skill-explorer__heading">
 				<h3 id={`${id}-title`}>{header}</h3>
-				<span>{String(sortedList.length).padStart(2, "0")} {t("about.technical_skills.technologies")}</span>
+				<span>{sortedList.length} {t("about.technical_skills.technologies")}</span>
 			</header>
 
 			<div className="skill-explorer__body">
