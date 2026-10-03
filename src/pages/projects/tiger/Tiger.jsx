@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { FaPlay, FaStop } from "react-icons/fa";
-import { FiArrowUpRight, FiGithub } from "react-icons/fi";
+import { RepoButton } from "@/components/repo-button";
+import { projectNumber } from "@/menu/projectCatalog";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
@@ -191,9 +192,10 @@ const Tiger = () => {
 			<main className="tiger-lab portfolio-shell">
 				<Tab title={t("tiger.title")} />
 				<header className="page-heading">
-						<div className="page-eyebrow"><span>01 / Tiger</span><a href={l.tiger} target="_blank" rel="noopener noreferrer"><FiGithub /><span>{t("tiger.more_info2")}</span><FiArrowUpRight /></a></div>
+						<div className="page-eyebrow"><span>{projectNumber("tiger")} / Tiger</span></div>
 						<h1>{t("tiger.title")}</h1>
 						<p>{t("tiger.description")}</p>
+						<RepoButton href={l.tiger} />
 				</header>
 				<div className="tiger-runtime-summary"><span>Go / WebAssembly</span><span>Interpreted</span><span>{String(tigerSamples.length).padStart(2, "0")} .tg</span></div>
 

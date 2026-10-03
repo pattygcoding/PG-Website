@@ -3,6 +3,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { FiGlobe, FiMinus, FiPlus, FiRefreshCw, FiZap } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
+import { projectNumber } from "@/menu/projectCatalog";
 import ReactCountryFlag from "react-country-flag";
 import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
@@ -330,7 +331,7 @@ const Languages = () => {
                 <Tab title={t("languages.title") || "Portfolio Translator"} />
 
                 <header className="page-heading">
-                    <div className="page-eyebrow"><span>03 / {t("languages.title")}</span><span><FiGlobe aria-hidden="true" /> I18N</span></div>
+                    <div className="page-eyebrow"><span>{projectNumber("portfolio_translator")} / {t("languages.title")}</span><span><FiGlobe aria-hidden="true" /> I18N</span></div>
                     <h1>{t("languages.title") || "Portfolio Translator"}</h1>
                     <p>{t("languages.description") || "Discover how my portfolio is accessible to visitors from around the world with support for over 100 languages."}</p>
                 </header>
