@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { HelmetProvider } from "react-helmet-async";
-import { FiArrowUpRight, FiGithub } from "react-icons/fi";
+import { RepoButton } from "@/components/repo-button";
+import { projectNumber } from "@/menu/projectCatalog";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import l from "@/assets/links/links.json";
@@ -383,9 +384,10 @@ const Alkalab = () => {
 			<main className="alkalab-page portfolio-shell">
 				<Tab title={t("alkalab.title")} />
 				<header className="page-heading">
-					<div className="page-eyebrow"><span>05 / {t("alkalab.title")}</span><a href={l.alkalab} target="_blank" rel="noopener noreferrer"><FiGithub aria-hidden="true" /><span>{t("alkalab.more_info2")}</span><FiArrowUpRight aria-hidden="true" /></a></div>
+					<div className="page-eyebrow"><span>{projectNumber("alkalab")} / {t("alkalab.title")}</span></div>
 					<h1>{t("alkalab.title")}</h1>
 					<p>{t("alkalab.description")}</p>
+					<RepoButton href={l.alkalab} />
 				</header>
 
 				<section className="alkalab-section" aria-labelledby="alkalab-lab-title">

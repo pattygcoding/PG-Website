@@ -5,6 +5,7 @@ import { GiBearFace, GiDynamite, GiMagicPotion, GiPortal, GiStoneBlock, GiWarPic
 import { SiCurseforge } from "react-icons/si";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
+import { projectNumber } from "@/menu/projectCatalog";
 import l from "@/assets/links/links.json";
 import "@/components/page-shell/PageShell.css";
 import "./SupremeMC.css";
@@ -39,7 +40,7 @@ const SupremeMC = () => {
 			<main className="suprememc-page portfolio-shell">
 				<Tab title={t("suprememc.title")} />
 				<header className="page-heading">
-					<div className="page-eyebrow"><span>06 / {t("suprememc.title")}</span><a href={l.suprememc_curseforge} target="_blank" rel="noopener noreferrer"><SiCurseforge aria-hidden="true" /><span>{t("suprememc.curseforge.eyebrow")}</span><FiArrowUpRight aria-hidden="true" /></a></div>
+					<div className="page-eyebrow"><span>{projectNumber("suprememc")} / {t("suprememc.title")}</span><a href={l.suprememc_curseforge} target="_blank" rel="noopener noreferrer"><SiCurseforge aria-hidden="true" /><span>{t("suprememc.curseforge.eyebrow")}</span><FiArrowUpRight aria-hidden="true" /></a></div>
 					<h1>{t("suprememc.title")}</h1>
 					<p>{t("suprememc.description")}</p>
 				</header>

@@ -3,7 +3,10 @@ import { HelmetProvider } from "react-helmet-async";
 import { FaGamepad } from "react-icons/fa";
 import { FiArrowDown, FiArrowLeft, FiArrowRight, FiArrowUp, FiCpu } from "react-icons/fi";
 import { Tab } from "@/components/tab";
+import { RepoButton } from "@/components/repo-button";
+import { projectNumber } from "@/menu/projectCatalog";
 import { useLang } from "@/lang/languageContext";
+import l from "@/assets/links/links.json";
 import "./Snake.css";
 
 const MINIQUAD_BUNDLE_URL = "https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js";
@@ -75,9 +78,10 @@ const Snake = () => {
 			<main className="snake-page portfolio-shell">
 				<Tab title={t("snake.title")} />
 				<header className="page-heading">
-					<div className="page-eyebrow"><span>04 / {t("snake.title")}</span><span><FiCpu aria-hidden="true" /> RUST / WASM</span></div>
+					<div className="page-eyebrow"><span>{projectNumber("snake")} / {t("snake.title")}</span><span><FiCpu aria-hidden="true" /> RUST / WASM</span></div>
 					<h1>{t("snake.title")}</h1>
 					<p>{t("snake.description")}</p>
+					<RepoButton href={l.snake} />
 				</header>
 
 				<section className="snake-game-section" aria-labelledby="snake-game-title">
