@@ -12,7 +12,7 @@
 
 </div>
 
-Senior full-stack engineer with 6+ years of experience taking products from ambiguous requirements to reliable production systems. I design the architecture behind React, Angular, .NET, Node.js, Java, C#, Go, and SQL applications — clear service boundaries, durable data models, secure access patterns, and delivery paths teams can operate with confidence.
+Senior full-stack engineer with 6+ years of experience taking products from ambiguous requirements to reliable production systems. I design the architecture behind React, Angular, .NET, Node.js, Java, C#, Go, and SQL applications, clear service boundaries, durable data models, secure access patterns, and delivery paths teams can operate with confidence.
 
 My work connects engineering decisions to business outcomes. From a construction-estimating SaaS that turns spreadsheet data into client-ready proposals to revenue-generating web platforms, I build software around the workflow, risk, and measurable value that matter to the people using it.
 
@@ -24,42 +24,42 @@ My work connects engineering decisions to business outcomes. From a construction
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/takeoff.png" width="90" /></td>
     <td>
-      <a href="https://takeoffengine.com"><strong>Takeoff Engine</strong></a> — <code>SaaS</code> · <code>Full Website</code><br />
-      Inconsistent spreadsheets in. Construction estimates and client-ready proposals out. A React + Express estimating SaaS built around the contractor's actual workflow — CSV/Excel ingestion, trench and earthwork calculations, labor/markup tracking, and polished PDF/Word proposals.
+      <a href="https://takeoffengine.com"><strong>Takeoff Engine</strong></a>: <code>SaaS</code> · <code>Full Website</code><br />
+      Inconsistent spreadsheets in. Construction estimates and client-ready proposals out. A React + Express estimating SaaS built around the contractor's actual workflow, CSV/Excel ingestion, trench and earthwork calculations, labor/markup tracking, and polished PDF/Word proposals.
     </td>
   </tr>
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/tiger.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com/tiger"><strong>Tiger Programming Language</strong></a> — <code>Available Here</code><br />
-      A custom programming language and interpreter built in Go to explore language runtime design and execution behavior — compiled to WebAssembly and shipped as a real, inspectable product surface instead of a repo-only experiment.
+      <a href="https://www.pattygcoding.com/tiger"><strong>Tiger Programming Language</strong></a>: <code>Available Here</code><br />
+      A custom programming language and interpreter built in Go to explore language runtime design and execution behavior, compiled to WebAssembly and shipped as a real, inspectable product surface instead of a repo-only experiment.
     </td>
   </tr>
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/suprememc.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com/suprememc"><strong>SupremeMC</strong></a> — <code>Minecraft Mod</code><br />
+      <a href="https://www.pattygcoding.com/suprememc"><strong>SupremeMC</strong></a>: <code>Minecraft Mod</code><br />
       A Minecraft mod adding custom tools, armor, mobs, blocks, and dimensions, built primarily in Java and Kotlin with support spanning Minecraft versions 1.16 through 26.2.
     </td>
   </tr>
     <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/logo.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com"><strong>Patrick Goodwin Portfolio</strong></a> — <code>Full Website</code><br />
-      The site you're reading this from — a production-minded React portfolio with a 100+ language translation pipeline, accessible UI patterns, and interactive tools backed by WebAssembly.
+      <a href="https://www.pattygcoding.com"><strong>Patrick Goodwin Portfolio</strong></a>: <code>Full Website</code><br />
+      The site you're reading this from, a production-minded React portfolio with a 100+ language translation pipeline, accessible UI patterns, and interactive tools backed by WebAssembly.
     </td>
   </tr>
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/alkalab.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com/alkalab"><strong>Alkalab</strong></a> — <code>Available Here</code><br />
-      A powder-sand chemistry lab built in Rust and compiled to WebAssembly — sodium detonates in water, carbide fizzes acetylene, and lava fuses sand into glass across 32 materials and 40 declarative reaction rules, with pixels rendered straight out of wasm linear memory and no per-frame copies.
+      <a href="https://www.pattygcoding.com/alkalab"><strong>Alkalab</strong></a>: <code>Available Here</code><br />
+      A powder-sand chemistry lab built in Rust and compiled to WebAssembly, sodium detonates in water, carbide fizzes acetylene, and lava fuses sand into glass across 32 materials and 40 declarative reaction rules, with pixels rendered straight out of wasm linear memory and no per-frame copies.
     </td>
   </tr>
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/snake.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com/snake"><strong>Snake</strong></a> — <code>Available Here</code><br />
+      <a href="https://www.pattygcoding.com/snake"><strong>Snake</strong></a>: <code>Available Here</code><br />
       A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly and rendered through HTML5 Canvas, with deterministic ticks, smooth interpolation, and a focused test suite.
     </td>
   </tr>
@@ -69,15 +69,15 @@ My work connects engineering decisions to business outcomes. From a construction
 
 ### Other Notable Builds
 
-- **[Connect Four Language Tree](https://github.com/pattygcoding/Connect-Four-Language-Tree)** — 50+ implementations of Connect Four across 30+ languages and 20+ frameworks (React, Rails, ASP.NET, and more)
-- **[Interop Samples](https://github.com/pattygcoding/Interop-Samples)** — a cross-language interoperability reference spanning 15 languages and 18 execution patterns
-- **[Rijndael Encryption](https://github.com/pattygcoding/Rijandel-Encryption)** — 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
-- **[Turing Machines](https://github.com/pattygcoding/Turing-Machines)** — 30+ implementations demonstrating Turing completeness across languages
-- **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)** — .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
-- **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)** — Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
-- **[PayrollOBOL](https://github.com/pattygcoding/PayrollOBOL)** — GnuCOBOL payroll processing with a SQLite double-entry ledger and Svelte dashboard
-- **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)** — a real Go parser compiled to WebAssembly, validating and formatting entirely in-browser
-- **[Biblioteca JSON](https://github.com/pattygcoding/Biblioteca-JSON)** — a Python library catalog exercise backed by JSON data storage
+- **[Connect Four Language Tree](https://github.com/pattygcoding/Connect-Four-Language-Tree)**, 50+ implementations of Connect Four across 30+ languages and 20+ frameworks (React, Rails, ASP.NET, and more)
+- **[Interop Samples](https://github.com/pattygcoding/Interop-Samples)**, a cross-language interoperability reference spanning 15 languages and 18 execution patterns
+- **[Rijndael Encryption](https://github.com/pattygcoding/Rijandel-Encryption)**, 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
+- **[Turing Machines](https://github.com/pattygcoding/Turing-Machines)**, 30+ implementations demonstrating Turing completeness across languages
+- **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)**, .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
+- **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)**, Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
+- **[PayrollOBOL](https://github.com/pattygcoding/PayrollOBOL)**, GnuCOBOL payroll processing with a SQLite double-entry ledger and Svelte dashboard
+- **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)**, a real Go parser compiled to WebAssembly, validating and formatting entirely in-browser
+- **[Biblioteca JSON](https://github.com/pattygcoding/Biblioteca-JSON)**, a Python library catalog exercise backed by JSON data storage
 
 ---
 
