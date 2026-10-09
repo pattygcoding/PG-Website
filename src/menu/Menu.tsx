@@ -10,8 +10,8 @@ import "./Menu.css";
 
 const Menu = () => {
 	const [isMenuOpen, setMenuOpen] = useState(false);
-	const headerRef = useRef(null);
-	const toggleRef = useRef(null);
+	const headerRef = useRef<HTMLDivElement>(null);
+	const toggleRef = useRef<HTMLButtonElement>(null);
 	const { pathname } = useLocation();
 	const { t } = useLang();
 
@@ -20,24 +20,25 @@ const Menu = () => {
 	}, [pathname]);
 
 	useEffect(() => {
-		if (!isMenuOpen) return;
+		if (!isMenuOpen) return undefined;
 		const header = headerRef.current;
 		const toggle = toggleRef.current;
+		if (!header || !toggle) return undefined;
 		const alreadyLocked = document.body.classList.contains("ovhidden");
-		const siblings = Array.from(header.parentElement.children).filter((element) => element !== header && !element.hasAttribute("inert"));
+		const siblings = (Array.from(header.parentElement?.children ?? []) as Element[]).filter((element) => element !== header && !element.hasAttribute("inert"));
 		siblings.forEach((element) => element.setAttribute("inert", ""));
 		document.body.classList.add("ovhidden");
 		toggle.focus();
-		const handleKeyDown = (event) => {
+		const handleKeyDown = (event: KeyboardEvent) => {
 			if (event.key === "Escape") {
-				if (event.target.closest?.(".lang-dropdown")) {
-					header.querySelector(".lang-toggle")?.focus();
+				if ((event.target as Element)?.closest?.(".lang-dropdown")) {
+					header.querySelector<HTMLElement>(".lang-toggle")?.focus();
 					return;
 				}
 				setMenuOpen(false);
 			}
 			if (event.key === "Tab") {
-				const focusable = Array.from(header.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), [tabindex="0"]')).filter((element) => element.getClientRects().length > 0);
+				const focusable = Array.from(header.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), [tabindex="0"]')).filter((element) => element.getClientRects().length > 0);
 				const first = focusable[0];
 				const last = focusable[focusable.length - 1];
 				if (event.shiftKey && document.activeElement === first) {

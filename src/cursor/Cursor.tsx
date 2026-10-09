@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from "react"
+import type { CssVariables } from "@/types/css"
 
-const IsDevice = (() => {
+const IsDevice: Record<string, any> | undefined = (() => {
 	if (typeof navigator == 'undefined') return
 
 	let ua = navigator.userAgent
@@ -36,20 +37,20 @@ const IsDevice = (() => {
 		 */
 		any() {
 			return (
-				IsDevice.Android() ||
-				IsDevice.BlackBerry() ||
-				IsDevice.iOS() ||
-				IsDevice.iPad() ||
-				IsDevice.OperaMini() ||
-				IsDevice.IEMobile()
+				IsDevice?.Android() ||
+				IsDevice?.BlackBerry() ||
+				IsDevice?.iOS() ||
+				IsDevice?.iPad() ||
+				IsDevice?.OperaMini() ||
+				IsDevice?.IEMobile()
 			)
 		}
 	}
 })()
 
 
-function useEventListener(eventName, handler, element = document) {
-	const savedHandler = useRef()
+function useEventListener(eventName: string, handler: (event: Event) => void, element: EventTarget = document) {
+	const savedHandler = useRef(handler)
 
 	useEffect(() => {
 		savedHandler.current = handler
@@ -57,9 +58,9 @@ function useEventListener(eventName, handler, element = document) {
 
 	useEffect(() => {
 		const isSupported = element && element.addEventListener
-		if (!isSupported) return
+		if (!isSupported) return undefined
 
-		const eventListener = (event) => savedHandler.current(event)
+		const eventListener = (event: Event) => savedHandler.current(event)
 
 		element.addEventListener(eventName, eventListener)
 
@@ -87,6 +88,19 @@ function useEventListener(eventName, handler, element = document) {
 * @param {array}  clickables - array of clickable selectors
 *
 */
+interface CursorCoreProps {
+	outerStyle?: React.CSSProperties;
+	innerStyle?: React.CSSProperties;
+	color?: string;
+	outerAlpha?: number;
+	innerSize?: number;
+	outerSize?: number;
+	outerScale?: number;
+	innerScale?: number;
+	trailingSpeed?: number;
+	clickables?: string[];
+}
+
 function CursorCore({
 	outerStyle,
 	innerStyle,
@@ -110,39 +124,40 @@ function CursorCore({
 		'button',
 		'.link'
 	]
-}) {
-	const cursorOuterRef = useRef()
-	const cursorInnerRef = useRef()
-	const requestRef = useRef()
-	const previousTimeRef = useRef()
+}: CursorCoreProps) {
+	const cursorOuterRef = useRef<HTMLDivElement | null>(null)
+	const cursorInnerRef = useRef<HTMLDivElement | null>(null)
+	const requestRef = useRef<number | undefined>(undefined)
+	const previousTimeRef = useRef<number | undefined>(undefined)
 	const [coords, setCoords] = useState({ x: 0, y: 0 })
 	const [isVisible, setIsVisible] = useState(false)
 	const [isActive, setIsActive] = useState(false)
 	const [isActiveClickable, setIsActiveClickable] = useState(false)
-	let endX = useRef(0)
-	let endY = useRef(0)
+	const endX = useRef(0)
+	const endY = useRef(0)
 
 	/**
 	 * Primary Mouse move event
 	 * @param {number} clientX - MouseEvent.clientx
 	 * @param {number} clientY - MouseEvent.clienty
 	 */
-	const onMouseMove = useCallback(({ clientX, clientY }) => {
+	const onMouseMove = useCallback((event: Event) => {
+		const { clientX, clientY } = event as MouseEvent
 		setCoords({ x: clientX, y: clientY })
-		cursorInnerRef.current.style.top = `${clientY}px`
-		cursorInnerRef.current.style.left = `${clientX}px`
+		cursorInnerRef.current!.style.top = `${clientY}px`
+		cursorInnerRef.current!.style.left = `${clientX}px`
 		endX.current = clientX
 		endY.current = clientY
 	}, [])
 
 	// Outer Cursor Animation Delay
 	const animateOuterCursor = useCallback(
-		(time) => {
+		(time: number) => {
 			if (previousTimeRef.current !== undefined) {
 				coords.x += (endX.current - coords.x) / trailingSpeed
 				coords.y += (endY.current - coords.y) / trailingSpeed
-				cursorOuterRef.current.style.top = `${coords.y}px`
-				cursorOuterRef.current.style.left = `${coords.x}px`
+				cursorOuterRef.current!.style.top = `${coords.y}px`
+				cursorOuterRef.current!.style.left = `${coords.x}px`
 			}
 			previousTimeRef.current = time
 			requestRef.current = requestAnimationFrame(animateOuterCursor)
@@ -153,7 +168,7 @@ function CursorCore({
 	// RAF for animateOuterCursor
 	useEffect(() => {
 		requestRef.current = requestAnimationFrame(animateOuterCursor)
-		return () => cancelAnimationFrame(requestRef.current)
+		return () => cancelAnimationFrame(requestRef.current ?? 0)
 	}, [animateOuterCursor])
 
 	// Mouse Events State updates
@@ -171,20 +186,20 @@ function CursorCore({
 	// Cursors Hover/Active State
 	useEffect(() => {
 		if (isActive) {
-			cursorInnerRef.current.style.transform = `translate(-50%, -50%) scale(${innerScale})`
-			cursorOuterRef.current.style.transform = `translate(-50%, -50%) scale(${outerScale})`
+			cursorInnerRef.current!.style.transform = `translate(-50%, -50%) scale(${innerScale})`
+			cursorOuterRef.current!.style.transform = `translate(-50%, -50%) scale(${outerScale})`
 		} else {
-			cursorInnerRef.current.style.transform = 'translate(-50%, -50%) scale(1)'
-			cursorOuterRef.current.style.transform = 'translate(-50%, -50%) scale(1)'
+			cursorInnerRef.current!.style.transform = 'translate(-50%, -50%) scale(1)'
+			cursorOuterRef.current!.style.transform = 'translate(-50%, -50%) scale(1)'
 		}
 	}, [innerScale, outerScale, isActive])
 
 	// Cursors Click States
 	useEffect(() => {
 		if (isActiveClickable) {
-			cursorInnerRef.current.style.transform = `translate(-50%, -50%) scale(${innerScale * 1.2
+			cursorInnerRef.current!.style.transform = `translate(-50%, -50%) scale(${innerScale * 1.2
 				})`
-			cursorOuterRef.current.style.transform = `translate(-50%, -50%) scale(${outerScale * 1.4
+			cursorOuterRef.current!.style.transform = `translate(-50%, -50%) scale(${outerScale * 1.4
 				})`
 		}
 	}, [innerScale, outerScale, isActiveClickable])
@@ -192,16 +207,16 @@ function CursorCore({
 	// Cursor Visibility State
 	useEffect(() => {
 		if (isVisible) {
-			cursorInnerRef.current.style.opacity = 1
-			cursorOuterRef.current.style.opacity = 1
+			cursorInnerRef.current!.style.opacity = "1"
+			cursorOuterRef.current!.style.opacity = "1"
 		} else {
-			cursorInnerRef.current.style.opacity = 0
-			cursorOuterRef.current.style.opacity = 0
+			cursorInnerRef.current!.style.opacity = "0"
+			cursorOuterRef.current!.style.opacity = "0"
 		}
 	}, [isVisible])
 
 	useEffect(() => {
-		const clickableEls = document.querySelectorAll(clickables.join(','))
+		const clickableEls = document.querySelectorAll<HTMLElement>(clickables.join(','))
 
 		clickableEls.forEach((el) => {
 			el.style.cursor = 'none'
@@ -249,7 +264,7 @@ function CursorCore({
 	}, [isActive, clickables])
 
 	// Cursor Styles
-	const styles = {
+	const styles: { cursorInner: CssVariables; cursorOuter: CssVariables } = {
 		cursorInner: {
 			zIndex: 999,
 			display: 'block',
@@ -299,8 +314,8 @@ function Cursor({
 	outerScale,
 	trailingSpeed,
 	clickables
-}) {
-	if (typeof navigator !== 'undefined' && IsDevice.any()) {
+}: CursorCoreProps) {
+	if (typeof navigator !== 'undefined' && IsDevice?.any()) {
 		return <React.Fragment></React.Fragment>
 	}
 	return (

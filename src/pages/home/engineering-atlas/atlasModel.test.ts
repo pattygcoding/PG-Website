@@ -3,6 +3,9 @@ import english from "../../../assets/lang/en_us.json";
 import links from "../../../assets/links/links.json";
 
 const entries = Object.fromEntries(ATLAS_PROJECTS.map((project) => [project.id, { title: project.id }]));
+const portfolioEntries = english.portfolio.entries as Record<string, { title: string; text: string; link: string }>;
+const portfolioImages = links.portfolio as Record<string, string>;
+const atlasSkillLabels = english.home.atlas.skills as Record<string, string>;
 
 test("each project and connection has a unique, valid identity", () => {
     const ids = ATLAS_PROJECTS.map((project) => project.id);
@@ -44,7 +47,7 @@ test("every portfolio entry has one family and a hub connection, with no cross-f
     expect(getConnectedProjects(ATLAS_HUB).sort()).toEqual(members.slice().sort());
     ATLAS_CONNECTIONS.forEach(({ source, target, family }) => {
         if (family === "portfolio") expect([source, target]).toContain(ATLAS_HUB);
-        else expect(ATLAS_FAMILIES.find(({ id }) => id === family).projects).toEqual(expect.arrayContaining([source, target]));
+        else expect(ATLAS_FAMILIES.find(({ id }) => id === family)!.projects).toEqual(expect.arrayContaining([source, target]));
     });
 });
 
@@ -65,10 +68,10 @@ test("clustered nodes fit the world without overlaps", () => {
 test("every atlas project has existing artwork, a destination, and English content", () => {
     ATLAS_PROJECTS.forEach((project) => {
         // A project that lives on this site points at its own route (e.g. /formatter).
-        expect(english.portfolio.entries[project.id].link).toMatch(/^(https:\/\/|\/)/);
-        expect(links.portfolio[project.image] || links.portfolio.default).toMatch(/\.png$/);
-        expect(english.portfolio.entries[project.id].text).toBeTruthy();
-        project.skills.forEach((skill) => expect(english.home.atlas.skills[skill] || ATLAS_SKILL_LABELS[skill]).toBeTruthy());
+        expect(portfolioEntries[project.id].link).toMatch(/^(https:\/\/|\/)/);
+        expect(portfolioImages[project.image] || portfolioImages.default).toMatch(/\.png$/);
+        expect(portfolioEntries[project.id].text).toBeTruthy();
+        project.skills.forEach((skill) => expect(atlasSkillLabels[skill] || ATLAS_SKILL_LABELS[skill]).toBeTruthy());
     });
 });
 
@@ -78,7 +81,7 @@ test("uses title case for atlas family labels", () => {
 });
 
 test("search uses translated display labels rather than internal identifiers", () => {
-    expect(filterAtlasProjects("all", "WebAssembly", english.portfolio.entries, english.home.atlas.skills).map(({ id }) => id)).toEqual(["formatter", "portfolio_website", "alkalab", "snake", "tiger_programming_language"]);
-    expect(filterAtlasProjects("all", ".NET", english.portfolio.entries, { ...ATLAS_SKILL_LABELS, ...english.home.atlas.skills }).map(({ id }) => id)).toContain("grocery_app");
+    expect(filterAtlasProjects("all", "WebAssembly", portfolioEntries, atlasSkillLabels).map(({ id }) => id)).toEqual(["formatter", "portfolio_website", "alkalab", "snake", "tiger_programming_language"]);
+    expect(filterAtlasProjects("all", ".NET", portfolioEntries, { ...ATLAS_SKILL_LABELS, ...atlasSkillLabels }).map(({ id }) => id)).toContain("grocery_app");
     expect(filterAtlasProjects("all", "Datenfluss", entries, { pipelines: "Datenfluss" })).toHaveLength(3);
 });

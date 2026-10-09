@@ -19,8 +19,8 @@ const projects = [
 const entries = { connect_four: { title: "Connect Four", text: "Many implementations.", link: "https://example.com/c4" } };
 const skillNames = { python: "Python", go: "Go", cobol: "COBOL", docker: "Docker" };
 
-const setInputValue = (input, value) => {
-	Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value").set.call(input, value);
+const setInputValue = (input: HTMLInputElement, value: string) => {
+	Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")!.set!.call(input, value);
 	input.dispatchEvent(new Event("input", { bubbles: true }));
 };
 
@@ -39,8 +39,8 @@ const renderExplorer = async (path = "/about") => {
 	return { container, cleanup: () => { act(() => root.unmount()); container.remove(); } };
 };
 
-const activeName = (container) => container.querySelector('[role="tab"][aria-selected="true"] .skill-index__name').textContent;
-const detailTitle = (container) => container.querySelector(".skill-detail h4").textContent;
+const activeName = (container: HTMLElement): string | null => container.querySelector('[role="tab"][aria-selected="true"] .skill-index__name')!.textContent;
+const detailTitle = (container: HTMLElement): string | null => container.querySelector(".skill-detail h4")!.textContent;
 
 beforeAll(() => { Element.prototype.scrollIntoView = jest.fn(); });
 
@@ -58,9 +58,9 @@ test("shows grouped details for the selected skill", async () => {
 	const { container, cleanup } = await renderExplorer("/about#python");
 	try {
 		expect(detailTitle(container)).toBe("Python");
-		expect(container.querySelector(".skill-detail__summary").textContent).toBe("Used professionally at Acme. Also applied in Connect Four and Snake.");
+		expect(container.querySelector(".skill-detail__summary")!.textContent).toBe("Used professionally at Acme. Also applied in Connect Four and Snake.");
 		expect(container.querySelector(".skill-detail dl, .skill-index__count")).toBeNull();
-		expect(container.querySelector(".skill-experience span").textContent).toBe("Acme");
+		expect(container.querySelector(".skill-experience span")!.textContent).toBe("Acme");
 		const cards = [...container.querySelectorAll(".skill-project-card__title a")].map((a) => a.textContent);
 		expect(cards).toEqual(["Connect Four", "Snake"]);
 		expect([...container.querySelectorAll(".skill-related button")].map((b) => b.textContent)).toEqual(["Docker"]);
@@ -72,7 +72,7 @@ test("shows grouped details for the selected skill", async () => {
 test("filters the list and selects the first match on Enter", async () => {
 	const { container, cleanup } = await renderExplorer();
 	try {
-		const input = container.querySelector(".skill-search input");
+		const input = container.querySelector<HTMLInputElement>(".skill-search input")!;
 		await act(async () => setInputValue(input, "py"));
 		expect([...container.querySelectorAll('[role="tab"]')].map((tab) => tab.textContent)).toEqual(["Python"]);
 		await act(async () => input.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", bubbles: true })));
@@ -86,7 +86,7 @@ test("shows a positive fallback for skills without published work", async () => 
 	const { container, cleanup } = await renderExplorer("/about#cobol");
 	try {
 		expect(detailTitle(container)).toBe("COBOL");
-		expect(container.querySelector(".skill-detail__summary").textContent).toContain("Part of my working toolkit");
+		expect(container.querySelector(".skill-detail__summary")!.textContent).toContain("Part of my working toolkit");
 		expect(container.querySelector('.skill-detail__summary a[href="/contact"]')).not.toBeNull();
 	} finally {
 		cleanup();
@@ -96,10 +96,10 @@ test("shows a positive fallback for skills without published work", async () => 
 test("supports arrow-key navigation through the list", async () => {
 	const { container, cleanup } = await renderExplorer();
 	try {
-		const active = container.querySelector('[role="tab"][aria-selected="true"]');
+		const active = container.querySelector('[role="tab"][aria-selected="true"]')!;
 		await act(async () => active.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown", bubbles: true })));
 		expect(detailTitle(container)).toBe("Go");
-		expect(document.activeElement.textContent).toContain("Go");
+		expect(document.activeElement!.textContent).toContain("Go");
 	} finally {
 		cleanup();
 	}
@@ -109,8 +109,8 @@ test("opens the skill referenced by the URL hash", async () => {
 	const { container, cleanup } = await renderExplorer("/about#go");
 	try {
 		expect(activeName(container)).toBe("Go");
-		expect(container.querySelector(".skill-detail__summary").textContent).toBe("Applied hands-on in Connect Four.");
-		expect(container.querySelector(".skill-project-card__title a").getAttribute("href")).toBe("https://example.com/c4/go");
+		expect(container.querySelector(".skill-detail__summary")!.textContent).toBe("Applied hands-on in Connect Four.");
+		expect(container.querySelector(".skill-project-card__title a")!.getAttribute("href")).toBe("https://example.com/c4/go");
 	} finally {
 		cleanup();
 	}
@@ -131,7 +131,7 @@ test("collapses long version lists behind an expandable chip", async () => {
 			</MemoryRouter>
 		));
 		const chips = () => container.querySelectorAll(".skill-project-card__variants a").length;
-		const more = container.querySelector(".skill-project-card__more");
+		const more = container.querySelector<HTMLElement>(".skill-project-card__more")!;
 		expect(chips()).toBe(8);
 		expect(more.textContent).toBe("+4 more");
 		await act(async () => more.click());

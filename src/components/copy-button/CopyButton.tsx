@@ -1,10 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./CopyButton.css";
 
-const CopyButton = ({ textToCopy }) => {
+interface CopyButtonProps {
+	textToCopy: string;
+}
+
+const CopyButton = ({ textToCopy }: CopyButtonProps) => {
 	const [copied, setCopied] = useState(false);
 	const [status, setStatus] = useState("");
-	const timeoutRef = useRef(null);
+	const timeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
 	useEffect(() => () => clearTimeout(timeoutRef.current), []);
 

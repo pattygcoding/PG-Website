@@ -1,19 +1,36 @@
 import React, { useEffect, useRef, useState } from "react";
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
+import type { ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
 import { FiCrosshair, FiMaximize, FiMinus, FiPlus } from "react-icons/fi";
 import { ATLAS_PROJECTS, ATLAS_SIZE } from "./atlasModel";
 
-export default function AtlasMap({ children, selected, disabled, labels }) {
-    const transformRef = useRef(null);
-    const viewportRef = useRef(null);
-    const pointerRef = useRef(null);
+interface AtlasMapLabels {
+    map_navigation: string;
+    zoom_out: string;
+    zoom_in: string;
+    fit_all: string;
+    center_selected: string;
+    zoom_level: string;
+}
+
+interface AtlasMapProps {
+    children?: React.ReactNode;
+    selected?: string | null;
+    disabled: boolean;
+    labels: AtlasMapLabels;
+}
+
+export default function AtlasMap({ children, selected, disabled, labels }: AtlasMapProps) {
+    const transformRef = useRef<ReactZoomPanPinchRef | null>(null);
+    const viewportRef = useRef<HTMLDivElement>(null);
+    const pointerRef = useRef<{ x: number; y: number } | null>(null);
     const draggedRef = useRef(false);
     const selectedRef = useRef(selected);
     const previousSelectionRef = useRef(selected);
     const [scale, setScale] = useState(1);
     selectedRef.current = selected;
 
-    const centerProject = (api, id) => {
+    const centerProject = (api: ReactZoomPanPinchRef | null, id: string | null | undefined) => {
         const project = ATLAS_PROJECTS.find((entry) => entry.id === id);
         const viewport = viewportRef.current;
         if (!project || !viewport || !api) return;
@@ -21,7 +38,7 @@ export default function AtlasMap({ children, selected, disabled, labels }) {
         api.setTransform(viewport.clientWidth / 2 - project.x / 100 * ATLAS_SIZE.width * nextScale,
             viewport.clientHeight / 2 - project.y / 100 * ATLAS_SIZE.height * nextScale, nextScale, 0);
     };
-    const fitAll = (api) => {
+    const fitAll = (api: ReactZoomPanPinchRef | null) => {
         const viewport = viewportRef.current;
         if (!api || !viewport) return;
         const nextScale = Math.min(viewport.clientWidth / ATLAS_SIZE.width, viewport.clientHeight / ATLAS_SIZE.height) * 0.96;
@@ -34,18 +51,19 @@ export default function AtlasMap({ children, selected, disabled, labels }) {
     }, [selected, disabled]);
 
     useEffect(() => {
-        if (disabled || !viewportRef.current) return undefined;
-        let previousWidth = viewportRef.current.clientWidth;
+        const viewport = viewportRef.current;
+        if (disabled || !viewport) return undefined;
+        let previousWidth = viewport.clientWidth;
         const observer = new ResizeObserver(([entry]) => {
             if (Math.abs(entry.contentRect.width - previousWidth) < 1) return;
             previousWidth = entry.contentRect.width;
             centerProject(transformRef.current, selectedRef.current);
         });
-        observer.observe(viewportRef.current);
+        observer.observe(viewport);
         return () => observer.disconnect();
     }, [disabled]);
 
-    if (disabled) return children;
+    if (disabled) return <>{children}</>;
 
     return (
         <div className="atlas-map-viewport" ref={viewportRef} tabIndex={0} role="group" aria-label={labels.map_navigation}
@@ -53,7 +71,7 @@ export default function AtlasMap({ children, selected, disabled, labels }) {
                 if (event.target !== event.currentTarget || !transformRef.current) return;
                 const api = transformRef.current;
                 const state = api.instance.transformState;
-                const directions = { ArrowLeft: [80, 0], ArrowRight: [-80, 0], ArrowUp: [0, 80], ArrowDown: [0, -80] };
+                const directions: Record<string, [number, number]> = { ArrowLeft: [80, 0], ArrowRight: [-80, 0], ArrowUp: [0, 80], ArrowDown: [0, -80] };
                 if (directions[event.key]) {
                     event.preventDefault();
                     const [horizontal, vertical] = directions[event.key];
@@ -66,7 +84,7 @@ export default function AtlasMap({ children, selected, disabled, labels }) {
                 limitToBounds centerZoomedOut
                 panning={{ velocityDisabled: true }} wheel={{ step: 0.12 }}
                 doubleClick={{ disabled: true }} alignmentAnimation={{ disabled: true }}
-                onInit={(api) => viewportRef.current?.clientWidth < 600 ? centerProject(api, selectedRef.current) : fitAll(api)}
+                onInit={(api) => (viewportRef.current?.clientWidth ?? 0) < 600 ? centerProject(api, selectedRef.current) : fitAll(api)}
                 onTransformed={(_, state) => setScale(state.scale)}
                 onPinchingStart={() => { draggedRef.current = true; }}>
                 {({ zoomIn, zoomOut }) => <>
@@ -85,7 +103,8 @@ export default function AtlasMap({ children, selected, disabled, labels }) {
                                 if (draggedRef.current && event.detail !== 0) { event.preventDefault(); event.stopPropagation(); }
                             }}
                             onFocusCapture={(event) => {
-                                const node = event.target.closest("[data-project-id]");
+                                const target = event.target as HTMLElement | null;
+                                const node = target?.closest<HTMLElement>("[data-project-id]");
                                 if (node && node.matches(":focus-visible")) centerProject(transformRef.current, node.dataset.projectId);
                             }}>
                             {children}

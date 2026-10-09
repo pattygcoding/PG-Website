@@ -2,7 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import t from '@/assets/lang/en_us.json';
 
-const Tab = ({ title }) => {
+interface TabProps {
+	title: string;
+}
+
+const Tab = ({ title }: TabProps) => {
 	return (
 		<Helmet defer={false}>
 			<meta charSet="utf-8" />

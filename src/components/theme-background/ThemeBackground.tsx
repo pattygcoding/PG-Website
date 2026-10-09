@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
+import type { CssVariables } from "@/types/css";
 import "./ThemeBackground.css";
 
-const stars = Array.from({ length: 360 }, (_, index) => {
+const stars: CssVariables[] = Array.from({ length: 360 }, (_, index) => {
     const radius = 4 + Math.pow((index * 0.618034) % 1, 0.85) * 45;
     const angle = index % 3 === 0
         ? index * 2.39996
@@ -33,17 +34,18 @@ export default function ThemeBackground() {
     return <AnimatedThemeBackground compact={compactScene} />;
 }
 
-function AnimatedThemeBackground({ compact }) {
-    const atmosphereRef = useRef(null);
+function AnimatedThemeBackground({ compact }: { compact: boolean }) {
+    const atmosphereRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const atmosphere = atmosphereRef.current;
+        if (!atmosphere) return undefined;
         const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-        let frame = null;
-        let previousTime = null;
+        let frame: number | null = null;
+        let previousTime: number | null = null;
         let current = 0;
         let target = 0;
-        let settleTimer;
+        let settleTimer: number | undefined;
 
         const settleTheme = () => {
             atmosphere.dataset.restingTheme = document.documentElement.dataset.theme || "dark";
@@ -59,7 +61,7 @@ function AnimatedThemeBackground({ compact }) {
         settleTheme();
 
         const paint = () => atmosphere.style.setProperty("--scroll-depth", `${current.toFixed(2)}px`);
-        const animate = (time) => {
+        const animate = (time: number) => {
             const elapsed = previousTime === null ? 16 : Math.min(time - previousTime, 64);
             previousTime = time;
             current += (target - current) * (1 - Math.exp(-elapsed / 180));
@@ -74,7 +76,7 @@ function AnimatedThemeBackground({ compact }) {
         };
         const update = () => {
             if (reducedMotion.matches || document.hidden) {
-                window.cancelAnimationFrame(frame);
+                window.cancelAnimationFrame(frame ?? 0);
                 frame = null;
                 previousTime = null;
                 if (reducedMotion.matches) {
@@ -95,7 +97,7 @@ function AnimatedThemeBackground({ compact }) {
         return () => {
             themeObserver.disconnect();
             window.clearTimeout(settleTimer);
-            window.cancelAnimationFrame(frame);
+            window.cancelAnimationFrame(frame ?? 0);
             window.removeEventListener("scroll", update);
             window.removeEventListener("resize", update);
             document.removeEventListener("visibilitychange", update);
@@ -108,7 +110,7 @@ function AnimatedThemeBackground({ compact }) {
             <div className="theme-atmosphere__night" />
             <div
                 className="theme-atmosphere__day"
-                style={{ "--cloud-texture": `url("${process.env.PUBLIC_URL}/assets/images/cirrus-clouds.jpg")` }}
+                style={{ "--cloud-texture": `url("${process.env.PUBLIC_URL}/assets/images/cirrus-clouds.jpg")` } as CssVariables}
             >
                 <div className="theme-atmosphere__beach" />
                 <div className="theme-atmosphere__sunlight" />

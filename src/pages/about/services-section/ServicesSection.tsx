@@ -2,9 +2,18 @@ import React from "react";
 import { FiArrowUpRight, FiCode, FiLayers, FiMonitor } from "react-icons/fi";
 import "./ServicesSection.css";
 
-const icons = [FiLayers, FiMonitor, FiCode];
+interface ServiceEntry {
+	title: string;
+	text: string;
+}
 
-const ServicesSection = ({ entries }) => {
+interface ServicesSectionProps {
+	entries: ServiceEntry[];
+}
+
+const icons: React.ComponentType[] = [FiLayers, FiMonitor, FiCode];
+
+const ServicesSection = ({ entries }: ServicesSectionProps) => {
 	return (
 		<div className="services-grid">
 			{entries.map((entry, index) => {

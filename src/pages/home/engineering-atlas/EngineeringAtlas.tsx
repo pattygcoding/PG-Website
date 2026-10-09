@@ -4,10 +4,13 @@ import { useLang } from "@/lang/languageContext";
 import { LangAwareLink } from "@/components/lang-aware-link";
 import links from "@/assets/links/links.json";
 import english from "@/assets/lang/en_us.json";
+import type { CssVariables } from "@/types/css";
 import { ATLAS_PROJECTS, ATLAS_CONNECTIONS, ATLAS_FAMILIES, ATLAS_HUB, ATLAS_SKILL_LABELS, filterAtlasProjects, getConnectedProjects } from "./atlasModel";
 import AtlasCanvas from "./AtlasCanvas";
 import AtlasMap from "./AtlasMap";
 import "./EngineeringAtlas.css";
+
+const portfolioImages = links.portfolio as Record<string, string>;
 
 export function AtlasInvitation() {
     const { t } = useLang();
@@ -28,7 +31,7 @@ export default function EngineeringAtlas() {
     const [view, setView] = useState("map");
     const [paused, setPaused] = useState(false);
     const [relatedOpen, setRelatedOpen] = useState(() => !window.matchMedia("(max-width: 800px)").matches);
-    const inspectorRef = useRef(null);
+    const inspectorRef = useRef<HTMLDivElement>(null);
     const entries = Object.fromEntries(ATLAS_PROJECTS.map(({ id }) => [id, t(`portfolio.entries.${id}`)]));
     const labels = {
         ...english.home.atlas, ...t("home.atlas"),
@@ -45,9 +48,9 @@ export default function EngineeringAtlas() {
     }, [currentId]);
     const connected = selected ? getConnectedProjects(selected.id) : [];
     const activeConnections = ATLAS_CONNECTIONS.filter(({ source, target }) => visibleIds.includes(source) && visibleIds.includes(target));
-    const selectProject = (id) => setSelectedId(id);
+    const selectProject = (id: string) => setSelectedId(id);
     const resetFilters = () => { setDomain("all"); setQuery(""); };
-    const selectRelated = (id) => { resetFilters(); selectProject(id); };
+    const selectRelated = (id: string) => { resetFilters(); selectProject(id); };
     const openContent = <>{selected?.to ? labels.open_live : labels.open_project}<FiArrowUpRight aria-hidden="true" /></>;
 
     return (
@@ -113,9 +116,9 @@ export default function EngineeringAtlas() {
                                         <button type="button" key={project.id}
                                             className={`atlas-node atlas-node--${project.domain}${project.id === ATLAS_HUB ? " atlas-node--hub" : ""}${isSelected ? " is-selected" : ""}${connected.includes(project.id) ? " is-connected" : ""}`}
                                             data-project-id={project.id}
-                                            style={{ "--node-x": `${project.x}%`, "--node-y": `${project.y}%` }}
+                                            style={{ "--node-x": `${project.x}%`, "--node-y": `${project.y}%` } as CssVariables}
                                             aria-pressed={isSelected} aria-controls="atlas-inspector" onClick={() => selectProject(project.id)}>
-                                            <img src={`/assets/images/${links.portfolio[project.image] || links.portfolio.default}`} alt="" draggable="false" loading="lazy" width="36" height="36" />
+                                            <img src={`/assets/images/${portfolioImages[project.image] || portfolioImages.default}`} alt="" draggable="false" loading="lazy" width="36" height="36" />
                                             <span className="atlas-node-title">{entries[project.id].title}</span>
                                             <span className="atlas-node-skills">{project.skills.slice(0, 4).map((skill) => labels.skills[skill]).join(" / ")}</span>
                                             <span className="atlas-node-indicator" aria-hidden="true">{isSelected ? <FiCheck /> : <FiArrowUpRight />}</span>
@@ -137,7 +140,7 @@ export default function EngineeringAtlas() {
                     <section ref={inspectorRef} className="atlas-inspector" id="atlas-inspector" aria-label={labels.inspector}>
                         {selected ? <div key={selected.id} className="atlas-inspector-content">
                             <div className="atlas-inspector-top"><span>{labels.domains[selected.domain]}</span></div>
-                            <div className="atlas-project-art"><img src={`/assets/images/${links.portfolio[selected.image] || links.portfolio.default}`} alt="" loading="lazy" width="180" height="120" /></div>
+                            <div className="atlas-project-art"><img src={`/assets/images/${portfolioImages[selected.image] || portfolioImages.default}`} alt="" loading="lazy" width="180" height="120" /></div>
                             <h3 aria-live="polite">{entries[selected.id].title}</h3>
                             <p className="atlas-summary">{labels.stories[selected.id]?.summary || entries[selected.id].text}</p>
                             <div className="atlas-stack">{selected.skills.slice(0, 8).map((skill) => <span key={skill}>{labels.skills[skill]}</span>)}</div>

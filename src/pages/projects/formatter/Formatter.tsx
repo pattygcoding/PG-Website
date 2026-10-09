@@ -26,7 +26,7 @@ const yamlSamples = [
 	"multi_document.yaml",
 ];
 
-const pills = [
+const pills: Array<{ value: string; label?: string; labelKey?: string }> = [
 	{ value: "auto", labelKey: "formatter.auto_detect" },
 	{ value: "json", label: "JSON" },
 	{ value: "yaml", label: "YAML" },
@@ -45,7 +45,7 @@ const Formatter = () => {
 
 	const goLoaded = useRef(false);
 
-	const loadSample = async (type, sampleName) => {
+	const loadSample = async (type: string, sampleName: string) => {
 		if (type === "json") {
 			setSelectedJsonSample(sampleName);
 			setSelectedYamlSample("");
@@ -124,7 +124,7 @@ const Formatter = () => {
 		try {
 			setOutput(window.formatInput(code, formatMode));
 		} catch (err) {
-			setOutput(`Formatting failed: ${err.message}`);
+			setOutput(`Formatting failed: ${err instanceof Error ? err.message : String(err)}`);
 		}
 	};
 
@@ -141,10 +141,10 @@ const Formatter = () => {
 	);
 	const lineNumbers = code.split("\n").map((_, index) => index + 1);
 
-	const syncEditorScroll = (event) => {
+	const syncEditorScroll = (event: React.UIEvent<HTMLTextAreaElement>) => {
 		const editor = event.currentTarget;
-		const highlight = editor.previousElementSibling;
-		const numbers = editor.parentElement.firstElementChild;
+		const highlight = editor.previousElementSibling as HTMLElement | null;
+		const numbers = editor.parentElement?.firstElementChild as HTMLElement | null;
 		if (highlight) {
 			highlight.scrollTop = editor.scrollTop;
 			highlight.scrollLeft = editor.scrollLeft;
@@ -152,7 +152,7 @@ const Formatter = () => {
 		if (numbers) numbers.scrollTop = editor.scrollTop;
 	};
 
-	const handleEditorKeyDown = (event) => {
+	const handleEditorKeyDown = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
 		if (event.key !== "Tab") return;
 		event.preventDefault();
 
@@ -163,7 +163,7 @@ const Formatter = () => {
 		if (event.shiftKey) {
 			const lineStart = value.lastIndexOf("\n", selectionStart - 1) + 1;
 			if (!value.slice(lineStart, lineStart + indent.length).match(/^ {1,4}/)) return;
-			const removed = value.slice(lineStart).match(/^ {1,4}/)[0];
+			const removed = value.slice(lineStart).match(/^ {1,4}/)![0];
 			const nextValue = value.slice(0, lineStart) + value.slice(lineStart + removed.length);
 			setCode(nextValue);
 			requestAnimationFrame(() => {
@@ -203,7 +203,7 @@ const Formatter = () => {
 									aria-pressed={formatMode === pill.value}
 									onClick={() => setFormatMode(pill.value)}
 								>
-									{pill.label || t(pill.labelKey)}
+									{pill.label || t(pill.labelKey ?? "")}
 								</button>
 							))}
 						</div>
@@ -281,7 +281,7 @@ const Formatter = () => {
 								aria-live="polite"
 								aria-atomic="true"
 								aria-labelledby="formatter-output-title"
-								tabIndex="0"
+								tabIndex={0}
 								dangerouslySetInnerHTML={{ __html: highlightedOutput }}
 							/>
 						</section>

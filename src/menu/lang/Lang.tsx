@@ -5,7 +5,15 @@ import ReactCountryFlag from "react-country-flag";
 import { VscCheck, VscChevronDown, VscGlobe, VscSearch } from "react-icons/vsc";
 import "./Lang.css";
 
-const LANG_OPTIONS = [
+interface LanguageOption {
+	code: string;
+	label: string;
+	country: string;
+	name: string;
+	neutralIcon?: boolean;
+}
+
+const LANG_OPTIONS: LanguageOption[] = [
 	{ code: "en_us", label: "EN", country: "US", name: "English" },
 	{ code: "es_mx", label: "ES", country: "MX", name: "Español" },
 	{ code: "af_za", label: "AF", country: "ZA", name: "Afrikaans" },
@@ -109,7 +117,7 @@ const LANG_OPTIONS = [
 	{ code: "zu_za", label: "ZU", country: "ZA", name: "isiZulu" },
 ];
 
-const LanguageIcon = ({ option, className }) => option.neutralIcon ? (
+const LanguageIcon = ({ option, className }: { option: LanguageOption; className?: string }) => option.neutralIcon ? (
 	<VscGlobe className={`${className} lang-neutral-icon`} aria-hidden="true" />
 ) : (
 	<ReactCountryFlag countryCode={option.country} svg className={className} aria-hidden="true" />
@@ -120,9 +128,9 @@ const Lang = () => {
 	const { lang, setLang } = useLang();
 	const [open, setOpen] = useState(false);
 	const [query, setQuery] = useState("");
-	const dropdownRef = useRef(null);
-	const toggleRef = useRef(null);
-	const searchRef = useRef(null);
+	const dropdownRef = useRef<HTMLDivElement>(null);
+	const toggleRef = useRef<HTMLButtonElement>(null);
+	const searchRef = useRef<HTMLInputElement>(null);
 	const [searchParams, setSearchParams] = useSearchParams();
 	const selectedLanguage = LANG_OPTIONS.find((option) => option.code === lang) || LANG_OPTIONS[0];
 	const normalizedQuery = query.trim().toLocaleLowerCase();
@@ -138,8 +146,8 @@ const Lang = () => {
 	}, []);
 
 	useEffect(() => {
-		const close = (e) => {
-			if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+		const close = (e: MouseEvent) => {
+			if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
 				setOpen(false);
 			}
 		};
@@ -153,7 +161,7 @@ const Lang = () => {
 		}
 	}, [open]);
 
-	const handleSelect = (code) => {
+	const handleSelect = (code: string) => {
 		setLang(code);
 		setSearchParams((prev) => {
 			prev.set("lang", code);

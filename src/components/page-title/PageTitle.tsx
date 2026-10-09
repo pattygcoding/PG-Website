@@ -2,7 +2,11 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import "./PageTitle.css";
 
-const PageTitle = ({ title }) => {
+interface PageTitleProps {
+	title: string;
+}
+
+const PageTitle = ({ title }: PageTitleProps) => {
 	return (
 		<Row className="mb-3 mt-3 pt-md-3">
 			<Col lg="8">

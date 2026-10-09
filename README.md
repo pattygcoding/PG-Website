@@ -1,4 +1,4 @@
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.2.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
@@ -44,6 +44,7 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 ## 🛠️ Technology Stack
 
 ### **Frontend**
+- **TypeScript 4.9** - Static typing across the entire codebase (strict mode)
 - **React 18.2.0** - Modern React with hooks and context
 - **React Router 6** - Client-side routing with language-aware links
 - **Bootstrap 5.2.3** - Responsive CSS framework
@@ -62,6 +63,7 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 
 ### **Development Tools**
 - **Yarn** - Package management
+- **TypeScript Compiler** - `yarn typecheck` runs `tsc --noEmit`
 - **React App Rewired** - Custom webpack configuration
 - **ESLint** - Code linting and formatting
 
@@ -116,6 +118,14 @@ A high-performance formatter with WebAssembly backend:
    ```
    
    The application will be available at `http://localhost:3000`
+
+### Type Checking
+
+```bash
+yarn typecheck
+```
+
+Runs the TypeScript compiler (`tsc --noEmit`) over the project without emitting output.
 
 ### Building for Production
 

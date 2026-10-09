@@ -1,6 +1,13 @@
 import React from "react";
+import type { IconType } from "react-icons";
 
-export const SocialIcon = ({ url, Icon, label }) => {
+interface SocialIconProps {
+	url: string;
+	Icon: IconType;
+	label: string;
+}
+
+export const SocialIcon = ({ url, Icon, label }: SocialIconProps) => {
 	if (!url) return null;
 
 	return (

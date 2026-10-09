@@ -1,8 +1,24 @@
 import React from "react";
+import type { ReactNode } from "react";
 import { useLocation } from "react-router-dom";
 import { LangAwareLink } from "@/components/lang-aware-link";
 import { VscArrowRight } from "react-icons/vsc";
+import type { IconType } from "react-icons";
 import "./MenuItem.css";
+
+interface MenuItemProps {
+	to?: string;
+	index?: number | string;
+	label?: ReactNode;
+	desc?: ReactNode;
+	tag?: ReactNode;
+	icon?: IconType;
+	onClick?: () => void;
+	isSubmenu?: boolean;
+	isActive?: boolean;
+	isButton?: boolean;
+	children?: ReactNode;
+}
 
 const MenuItem = ({
 	to,
@@ -16,12 +32,12 @@ const MenuItem = ({
 	isActive: manualActive,
 	isButton = false,
 	children,
-}) => {
+}: MenuItemProps) => {
 	const location = useLocation();
 	const isActive =
 		manualActive !== undefined
 			? manualActive
-			: to && to !== "#" && location.pathname === to;
+			: Boolean(to && to !== "#" && location.pathname === to);
 
 	const content = (
 		<div className={`tech__menu_item_inner ${isActive ? "active" : ""}`}>
@@ -62,7 +78,7 @@ const MenuItem = ({
 	return (
 		<li className={`menu_item tech__menu_item ${isSubmenu ? "is-submenu" : ""}`}>
 			<LangAwareLink
-				to={to}
+				to={to ?? "#"}
 				className={`tech__menu_link ${isActive ? "is-active" : ""}`}
 				onClick={onClick}
 			>

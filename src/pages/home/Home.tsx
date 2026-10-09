@@ -5,6 +5,7 @@ import { Tab } from "@/components/tab";
 import { Link } from "react-router-dom";
 import { FiArrowRight, FiArrowUpRight, FiCode, FiGlobe, FiLayers, FiStar } from "react-icons/fi";
 import { useLang } from "@/lang/languageContext";
+import type { CssVariables } from "@/types/css";
 import { LangAwareLink } from "@/components/lang-aware-link";
 import links from "@/assets/links/links.json";
 import EngineeringAtlas, { AtlasInvitation } from "./engineering-atlas/EngineeringAtlas";
@@ -62,7 +63,7 @@ const Home = () => {
 		data: project.data || portfolioEntries[project.key],
 	}));
 
-	const renderProjectLink = (project, content) => project.to ? (
+	const renderProjectLink = (project: { to?: string; data: { link: string } }, content: React.ReactNode) => project.to ? (
 		<LangAwareLink to={project.to} className="featured-project-link">
 			{content}
 		</LangAwareLink>
@@ -84,7 +85,7 @@ const Home = () => {
 								<span className="hero-kicker-mark" aria-hidden="true"></span>
 								{t("home.title")}
 							</div>
-							<h1 className="hero-name">{t("name").split(" ").map((part, index) => <span key={`${part}-${index}`}>{part}{" "}</span>)}</h1>
+							<h1 className="hero-name">{t("name").split(" ").map((part: string, index: number) => <span key={`${part}-${index}`}>{part}{" "}</span>)}</h1>
 							<span className="visually-hidden">{["first", "second", "third", "fourth"].map((key) => t(`home.animated.${key}`)).join(". ")}</span>
 							<div className="hero-role" aria-hidden="true">
 									<Typewriter
@@ -140,7 +141,7 @@ const Home = () => {
 								className="home_img"
 								role="img"
 								aria-label={t("name")}
-								style={{ "--home-image": "url('/assets/images/logo.png')" }}
+								style={{ "--home-image": "url('/assets/images/logo.png')" } as CssVariables}
 							></div>
 							<div className="portrait-corner portrait-corner-top"></div>
 							<div className="portrait-corner portrait-corner-bottom"></div>

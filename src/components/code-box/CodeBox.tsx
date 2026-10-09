@@ -9,7 +9,13 @@ import "prismjs/components/prism-python";
 
 import "./CodeBox.css";
 
-const CodeBox = ({ initialCode, language, onCodeChange }) => {
+interface CodeBoxProps {
+	initialCode: string;
+	language: string;
+	onCodeChange?: (code: string) => void;
+}
+
+const CodeBox = ({ initialCode, language, onCodeChange }: CodeBoxProps) => {
 	const [code, setCode] = useState(initialCode);
 
 	useEffect(() => {
@@ -18,7 +24,7 @@ const CodeBox = ({ initialCode, language, onCodeChange }) => {
 		}
 	}, [code, onCodeChange]);
 
-	const highlight = (str) => {
+	const highlight = (str: string): string => {
 		const grammar = Prism.languages[language] || Prism.languages.javascript;
 		return Prism.highlight(str, grammar, language);
 	};

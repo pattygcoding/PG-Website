@@ -16,6 +16,17 @@ import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
 import { readSkillSelection, writeSkillSelection, collectGroupSkills, matchesSkills } from "./portfolioFilters";
 import "./PortfolioArchive.css";
 
+interface PortfolioEntry {
+	title: string;
+	text: string;
+	link: string;
+}
+
+interface Skill {
+	id: string;
+	name: string;
+}
+
 const allSkills = [...skills.languages, ...skills.frameworks, ...skills.other_technologies];
 const skillNames = Object.fromEntries(allSkills.map((skill) => [skill.id, skill.name]));
 const groupToSkillsMap = collectGroupSkills(projectsData.projects);
@@ -23,8 +34,8 @@ const featuredOrder = ["takeoff_engine", "inventory_register", "grocery_app", "t
 
 const Portfolio = () => {
 	const { t } = useLang();
-	const entries = t("portfolio.entries");
-	const images = links.portfolio;
+	const entries = t("portfolio.entries") as Record<string, PortfolioEntry>;
+	const images = links.portfolio as Record<string, string>;
 	const location = useLocation();
 	const navigate = useNavigate();
 	const selectedSkills = readSkillSelection(location.search, location.hash);
@@ -39,15 +50,15 @@ const Portfolio = () => {
 		other_technologies: ""
 	});
 
-	const resolveImage = (filename) => {
+	const resolveImage = (filename: string): string => {
 		return `/assets/images/${filename}`;
 	};
 
-	const updateURL = (updated) => {
+	const updateURL = (updated: string[]) => {
 		navigate({ pathname: location.pathname, search: writeSkillSelection(location.search, updated), hash: "" }, { replace: true, preventScrollReset: true });
 	};
 
-	const handleSkillSelect = (skillId) => {
+	const handleSkillSelect = (skillId: string) => {
 		updateURL(selectedSkills.includes(skillId)
 			? selectedSkills.filter((id) => id !== skillId)
 			: [...selectedSkills, skillId]);
@@ -55,7 +66,7 @@ const Portfolio = () => {
 
 	const resetFilters = () => { setProjectQuery(""); updateURL([]); };
 
-	const renderDropdown = (title, skillList, keyName) => {
+	const renderDropdown = (title: string, skillList: Skill[], keyName: keyof typeof searchTerm) => {
 		const term = searchTerm[keyName].toLowerCase();
 		const filtered = skillList.filter((s) =>
 			s.name.toLowerCase().includes(term)
@@ -118,7 +129,7 @@ const Portfolio = () => {
 			return first.title.localeCompare(second.title);
 		});
 
-	const getProjectSkills = (group) => {
+	const getProjectSkills = (group: string) => {
 		return [...(groupToSkillsMap[group] || [])].filter((id) => skillNames[id])
 			.sort((first, second) => Number(selectedSkills.includes(second)) - Number(selectedSkills.includes(first)))
 			.slice(0, 6);

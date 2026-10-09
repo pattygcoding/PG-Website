@@ -16,21 +16,21 @@ test("labels language buttons and restores focus on Escape and selection", async
 	const root = createRoot(container);
 	try {
 		await act(async () => root.render(<MemoryRouter><LanguageProvider><Lang /></LanguageProvider></MemoryRouter>));
-		const toggle = container.querySelector(".lang-toggle");
+		const toggle = container.querySelector<HTMLElement>(".lang-toggle")!;
 		act(() => toggle.click());
-		expect(document.activeElement.type).toBe("search");
+		expect((document.activeElement as HTMLInputElement).type).toBe("search");
 		expect(container.querySelectorAll('[role="listbox"], [role="option"]')).toHaveLength(0);
 		expect(container.querySelectorAll('.lang-option[aria-pressed="true"]')).toHaveLength(1);
-		act(() => document.activeElement.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true })));
+		act(() => document.activeElement!.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", bubbles: true })));
 		expect(document.activeElement).toBe(toggle);
 		expect(toggle.getAttribute("aria-expanded")).toBe("false");
 		act(() => toggle.click());
-		await act(async () => container.querySelector('.lang-option[aria-pressed="true"]').click());
+		await act(async () => container.querySelector<HTMLElement>('.lang-option[aria-pressed="true"]')!.click());
 		expect(document.activeElement).toBe(toggle);
 		expect(document.documentElement.lang).toBe("en-US");
 		act(() => toggle.click());
-		const spanish = Array.from(container.querySelectorAll(".lang-option")).find((option) => option.querySelector('[lang="es-MX"]'));
-		await act(async () => spanish.click());
+		const spanish = Array.from(container.querySelectorAll<HTMLElement>(".lang-option")).find((option) => option.querySelector('[lang="es-MX"]'));
+		await act(async () => spanish!.click());
 		expect(document.documentElement.lang).toBe("es-MX");
 	} finally {
 		act(() => root.unmount());

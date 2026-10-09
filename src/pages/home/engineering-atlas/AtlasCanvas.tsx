@@ -1,16 +1,27 @@
 import { useEffect, useRef } from "react";
 import { ATLAS_PROJECTS, ATLAS_CONNECTIONS } from "./atlasModel";
 
-export const getAtlasPixelRatio = (width, height, devicePixelRatio = 1) =>
+export const getAtlasPixelRatio = (width: number, height: number, devicePixelRatio = 1): number =>
     Math.min(devicePixelRatio, 1.5, 2048 / Math.max(1, width), 2048 / Math.max(1, height), Math.sqrt(3000000 / Math.max(1, width * height)));
 
-const pointOnCurve = (start, control, end, progress) => ({
+interface AtlasPoint {
+    x: number;
+    y: number;
+}
+
+const pointOnCurve = (start: AtlasPoint, control: AtlasPoint, end: AtlasPoint, progress: number): AtlasPoint => ({
     x: (1 - progress) ** 2 * start.x + 2 * (1 - progress) * progress * control.x + progress ** 2 * end.x,
     y: (1 - progress) ** 2 * start.y + 2 * (1 - progress) * progress * control.y + progress ** 2 * end.y,
 });
 
-export default function AtlasCanvas({ selected, visibleIds, paused }) {
-    const canvasRef = useRef(null);
+interface AtlasCanvasProps {
+    selected: string | null;
+    visibleIds: string[];
+    paused: boolean;
+}
+
+export default function AtlasCanvas({ selected, visibleIds, paused }: AtlasCanvasProps) {
+    const canvasRef = useRef<HTMLCanvasElement>(null);
     const stateRef = useRef({ selected, visibleIds, paused });
     const invalidateRef = useRef(() => {});
     useEffect(() => {
@@ -20,6 +31,7 @@ export default function AtlasCanvas({ selected, visibleIds, paused }) {
 
     useEffect(() => {
         const canvas = canvasRef.current;
+        if (!canvas) return undefined;
         const context = canvas.getContext("2d");
         if (!context) return undefined;
         const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -53,7 +65,7 @@ export default function AtlasCanvas({ selected, visibleIds, paused }) {
             context.setTransform(ratio, 0, 0, ratio, 0, 0);
             readColors();
         };
-        const draw = (time) => {
+        const draw = (time: number) => {
             frame = 0;
             if (!active) return;
             const state = stateRef.current;

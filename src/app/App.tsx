@@ -10,12 +10,12 @@ import { Menu } from "@/menu";
 import ThemeBackground from "../components/theme-background/ThemeBackground";
 import "./App.css";
 
-function _ScrollToTop(props) {
+function _ScrollToTop(props: { children: React.ReactNode }) {
 	const { pathname } = useLocation();
 	useLayoutEffect(() => {
-		window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+		window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
 	}, [pathname]);
-	return props.children;
+	return <>{props.children}</>;
 }
 const ScrollToTop = withRouter(_ScrollToTop);
 

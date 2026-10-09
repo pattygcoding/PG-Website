@@ -10,14 +10,48 @@ const MAX_RELATED = 8;
 const MAX_SUMMARY_PROJECTS = 3;
 const MAX_VARIANTS = 8;
 
-const variantLabel = (label) => {
+interface SkillSample {
+	label: string;
+	link: string;
+	group: string;
+	skills: string[];
+}
+
+interface SkillEntry {
+	title?: string;
+	text?: string;
+	link?: string;
+}
+
+interface SkillListItem {
+	id: string;
+	name: string;
+}
+
+interface ProjectCardProps {
+	samples: SkillSample[];
+	entry?: SkillEntry;
+	onResize: () => void;
+	t: (key: string) => string;
+}
+
+interface LinkedSkillsTableProps {
+	id: string;
+	header: string;
+	list: SkillListItem[];
+	projects: SkillSample[];
+	entries?: Record<string, SkillEntry>;
+	skillNames?: Record<string, string>;
+}
+
+const variantLabel = (label: string): string => {
 	const match = label.match(/\(([^)]+)\)\s*$/);
 	return match ? match[1] : label;
 };
 
-const experienceLabel = (label) => label.split(":").slice(1).join(":").trim() || label;
+const experienceLabel = (label: string): string => label.split(":").slice(1).join(":").trim() || label;
 
-const ProjectCard = ({ samples, entry, onResize, t }) => {
+const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 	const [expanded, setExpanded] = useState(false);
 	const title = (entry && entry.title) || variantLabel(samples[0].label);
 	const single = samples.length === 1;
@@ -53,20 +87,20 @@ const ProjectCard = ({ samples, entry, onResize, t }) => {
 	);
 };
 
-const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillNames = {} }) => {
+const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillNames = {} }: LinkedSkillsTableProps) => {
 	const { t, lang } = useLang();
 	const location = useLocation();
 	const navigate = useNavigate();
-	const sectionRef = useRef(null);
-	const listRef = useRef(null);
-	const tabRefs = useRef({});
-	const projectsRef = useRef(null);
+	const sectionRef = useRef<HTMLElement>(null);
+	const listRef = useRef<HTMLDivElement>(null);
+	const tabRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+	const projectsRef = useRef<HTMLUListElement>(null);
 	const [projectsHaveMore, setProjectsHaveMore] = useState(false);
 	const [query, setQuery] = useState("");
 
 	const sortedList = useMemo(() => list
 		.map((skill) => {
-			const seen = new Set();
+			const seen = new Set<string>();
 			const samples = projects.filter((project) => {
 				if (!project.skills.includes(skill.id) || seen.has(project.label)) return false;
 				seen.add(project.label);
@@ -88,16 +122,16 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 	const detail = useMemo(() => {
 		if (!selected) return null;
 		const experience = selected.samples.filter((sample) => EXPERIENCE_GROUPS.includes(sample.group));
-		const groups = new Map();
+		const groups = new Map<string, SkillSample[]>();
 		selected.samples
 			.filter((sample) => !EXPERIENCE_GROUPS.includes(sample.group))
 			.forEach((sample) => {
 				if (!groups.has(sample.group)) groups.set(sample.group, []);
-				groups.get(sample.group).push(sample);
+				groups.get(sample.group)!.push(sample);
 			});
 
 		// Count related skills once per project family so large families don't dominate.
-		const related = new Map();
+		const related = new Map<string, number>();
 		[...groups.values(), ...experience.map((sample) => [sample])].forEach((samples) => {
 			const ids = new Set(samples.flatMap((sample) => sample.skills));
 			ids.forEach((skillId) => {
@@ -125,30 +159,30 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 
 	const summary = useMemo(() => {
 		if (!detail) return [];
-		const formatItems = (items, limit = Infinity) => {
+		const formatItems = (items: string[], limit = Infinity) => {
 			const shown = items.length > limit ? [...items.slice(0, limit), t("about.technical_skills.and_more")] : items;
 			return listFormat ? listFormat.format(shown) : shown.join(", ");
 		};
-		const fill = (key, items, limit) => t(`about.technical_skills.${key}`).replace("{items}", formatItems(items, limit));
-		const byGroup = (group) => detail.experience.filter((sample) => sample.group === group).map((sample) => experienceLabel(sample.label));
+		const fill = (key: string, items: string[], limit?: number) => t(`about.technical_skills.${key}`).replace("{items}", formatItems(items, limit));
+		const byGroup = (group: string) => detail.experience.filter((sample) => sample.group === group).map((sample) => experienceLabel(sample.label));
 		const professional = byGroup("professional_experience");
 		const education = byGroup("educational_experience");
 		const projectTitles = detail.projectGroups.map(({ samples, entry }) => (entry && entry.title) || variantLabel(samples[0].label));
 
-		const sentences = [];
+		const sentences: string[] = [];
 		if (professional.length) sentences.push(fill("summary_professional", professional));
 		else if (education.length) sentences.push(fill("summary_education", education));
 		if (projectTitles.length) sentences.push(fill(sentences.length ? "summary_projects_also" : "summary_projects", projectTitles, MAX_SUMMARY_PROJECTS));
 		return sentences;
 	}, [detail, listFormat, t]);
 
-	const selectSkill = (skillId, { focus = false } = {}) => {
+	const selectSkill = (skillId: string, { focus = false }: { focus?: boolean } = {}) => {
 		setSelectedId(skillId);
 		window.history.replaceState(window.history.state, "", `${location.pathname}${location.search}#${skillId}`);
-		if (focus) tabRefs.current[skillId] && tabRefs.current[skillId].focus();
+		if (focus) tabRefs.current[skillId]?.focus();
 	};
 
-	const selectRelated = (skillId) => {
+	const selectRelated = (skillId: string) => {
 		if (sortedList.some((skill) => skill.id === skillId)) {
 			setQuery("");
 			selectSkill(skillId);
@@ -191,22 +225,23 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 		return () => window.removeEventListener("resize", updateProjectsOverflow);
 	}, [selected, updateProjectsOverflow]);
 
-	const moveSelection = (event) => {
+	const moveSelection = (event: React.KeyboardEvent<HTMLDivElement>) => {
 		if (!filtered.length) return;
 		const index = filtered.findIndex((skill) => skill.id === (selected && selected.id));
 		const last = filtered.length - 1;
-		const next = {
+		const moveMap: Record<string, number> = {
 			ArrowDown: index < 0 ? 0 : Math.min(index + 1, last),
 			ArrowUp: index < 0 ? last : Math.max(index - 1, 0),
 			Home: 0,
 			End: last,
-		}[event.key];
+		};
+		const next = moveMap[event.key];
 		if (next === undefined) return;
 		event.preventDefault();
 		selectSkill(filtered[next].id, { focus: true });
 	};
 
-	const onSearchKeyDown = (event) => {
+	const onSearchKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
 		if (event.key === "Enter" && filtered.length) {
 			event.preventDefault();
 			selectSkill(filtered[0].id);
@@ -220,7 +255,7 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 		}
 	};
 
-	if (!selected) return null;
+	if (!selected || !detail) return null;
 
 	const panelId = `${id}-panel`;
 	const familyCount = detail.projectGroups.length;

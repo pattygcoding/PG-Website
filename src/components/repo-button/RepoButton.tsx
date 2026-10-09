@@ -3,9 +3,13 @@ import { FiArrowUpRight, FiGithub } from "react-icons/fi";
 import { useLang } from "@/lang/languageContext";
 import "./RepoButton.css";
 
-const repoPath = (url) => url.replace(/^https?:\/\/(www\.)?github\.com\//, "").replace(/\/(tree|blob)\/.*$/, "").replace(/\/$/, "");
+const repoPath = (url: string): string => url.replace(/^https?:\/\/(www\.)?github\.com\//, "").replace(/\/(tree|blob)\/.*$/, "").replace(/\/$/, "");
 
-const RepoButton = ({ href }) => {
+interface RepoButtonProps {
+	href: string;
+}
+
+const RepoButton = ({ href }: RepoButtonProps) => {
 	const { t } = useLang();
 
 	return (
