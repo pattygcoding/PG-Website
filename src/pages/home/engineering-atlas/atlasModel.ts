@@ -2,7 +2,41 @@ import english from "../../../assets/lang/en_us.json";
 import projectsData from "../../../assets/projects/projects.json";
 import skillsData from "../../../assets/skills/skills.json";
 
-const featuredProjects = [
+export interface AtlasProject {
+	id: string;
+	skills: string[];
+	domain: string;
+	image: string;
+	to?: string;
+	family: string;
+	x: number;
+	y: number;
+}
+
+export interface AtlasConnection {
+	source: string;
+	target: string;
+	family: string;
+}
+
+export interface AtlasFamily {
+	id: string;
+	projects: string[];
+	x: number;
+	y: number;
+}
+
+interface FeaturedProject {
+	id: string;
+	domain: string;
+	skills: string[];
+	image: string;
+	to?: string;
+	x: number;
+	y: number;
+}
+
+const featuredProjects: FeaturedProject[] = [
     { id: "takeoff_engine", domain: "products", skills: ["react", "node", "pipelines"], image: "takeoff_engine", x: 24, y: 19 },
     { id: "inventory_register", domain: "products", skills: ["angular", "node", "access"], image: "inventory_register", x: 73, y: 17 },
     { id: "grocery_app", domain: "products", skills: ["dotnet", "sql", "testing"], image: "grocery_app", x: 84, y: 49 },
@@ -13,17 +47,17 @@ const featuredProjects = [
     { id: "biblioteca", domain: "experiences", skills: ["python", "pipelines"], image: "biblioteca", to: "/languages", x: 49, y: 92 },
 ];
 
-const skillAliases = { reactjs: "react", nodejs: "node", webassembly: "wasm", unit_testing: "testing", postgreql: "postgresql" };
-export const ATLAS_SKILL_LABELS = Object.fromEntries(Object.values(skillsData).flat().map(({ id, name }) => [skillAliases[id] || id, name]));
-const domains = {
+const skillAliases: Record<string, string> = { reactjs: "react", nodejs: "node", webassembly: "wasm", unit_testing: "testing", postgreql: "postgresql" };
+export const ATLAS_SKILL_LABELS: Record<string, string> = Object.fromEntries(Object.values(skillsData).flat().map(({ id, name }) => [skillAliases[id] || id, name]));
+const domains: Record<string, string> = {
     connect_four: "experiences", alkalab: "experiences", snake: "experiences", suprememc: "experiences",
     tiger_tailgating_pros: "products", educational_experience: "experiences", professional_experience: "experiences",
 };
 // Projects without an on-site route fall back to their portfolio entry link.
-const routes = { tiger_programming_language: "/tiger" };
-const projectIds = [...featuredProjects.map(({ id }) => id), ...Object.keys(english.portfolio.entries).filter((id) => !featuredProjects.some((project) => project.id === id))];
+const routes: Record<string, string> = { tiger_programming_language: "/tiger" };
+const projectIds: string[] = [...featuredProjects.map(({ id }) => id), ...Object.keys(english.portfolio.entries).filter((id) => !featuredProjects.some((project) => project.id === id))];
 export const ATLAS_HUB = "portfolio_website";
-export const ATLAS_FAMILIES = [
+export const ATLAS_FAMILIES: AtlasFamily[] = [
     { id: "business", projects: ["takeoff_engine", "inventory_register", "grocery_app", "payrollobol", "tiger_tailgating_pros"] },
     { id: "minecraft", projects: ["suprememc", "minecraft_json_generator"] },
     { id: "wasm", projects: ["formatter", "alkalab", "snake", "tiger_programming_language"] },
@@ -35,9 +69,9 @@ export const ATLAS_FAMILIES = [
     const angle = -Math.PI / 2 + index * Math.PI * 2 / families.length;
     return { ...family, x: 50 + Math.cos(angle) * 34, y: 50 + Math.sin(angle) * 33 };
 });
-export const ATLAS_SIZE = { width: 2600, height: 2000 };
+export const ATLAS_SIZE: { width: number; height: number } = { width: 2600, height: 2000 };
 
-export const ATLAS_PROJECTS = projectIds.map((id) => {
+export const ATLAS_PROJECTS: AtlasProject[] = projectIds.map((id) => {
     const featured = featuredProjects.find((project) => project.id === id);
     const skills = [...new Set([
         ...(featured?.skills || []),
@@ -55,7 +89,7 @@ export const ATLAS_PROJECTS = projectIds.map((id) => {
     };
 });
 
-export const ATLAS_CONNECTIONS = ATLAS_PROJECTS.flatMap((project, index) =>
+export const ATLAS_CONNECTIONS: AtlasConnection[] = ATLAS_PROJECTS.flatMap((project, index) =>
     ATLAS_PROJECTS.slice(index + 1).flatMap((other) => {
         const hubConnection = project.id === ATLAS_HUB || other.id === ATLAS_HUB;
         if (!hubConnection && project.family !== other.family) return [];
@@ -63,7 +97,12 @@ export const ATLAS_CONNECTIONS = ATLAS_PROJECTS.flatMap((project, index) =>
     })
 );
 
-export function filterAtlasProjects(domain, query, entries, skillLabels = {}) {
+export function filterAtlasProjects(
+	domain: string,
+	query: string,
+	entries: Record<string, { title?: string } | undefined>,
+	skillLabels: Record<string, string> = {},
+): AtlasProject[] {
     const normalized = query.trim().toLocaleLowerCase();
     return ATLAS_PROJECTS.filter((project) =>
         (domain === "all" || project.domain === domain) &&
@@ -71,7 +110,7 @@ export function filterAtlasProjects(domain, query, entries, skillLabels = {}) {
     );
 }
 
-export function getConnectedProjects(id) {
+export function getConnectedProjects(id: string): string[] {
     return ATLAS_CONNECTIONS.flatMap((connection) => {
         if (connection.source === id) return [connection.target];
         if (connection.target === id) return [connection.source];

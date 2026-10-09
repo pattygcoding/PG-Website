@@ -2,7 +2,17 @@ import React from "react";
 import { FiBriefcase } from "react-icons/fi";
 import "./WorkHistoryTable.css";
 
-const WorkHistoryTable = ({ entries }) => {
+interface WorkHistoryEntry {
+	where: string;
+	date: string;
+	jobtitle: string;
+}
+
+interface WorkHistoryTableProps {
+	entries: WorkHistoryEntry[];
+}
+
+const WorkHistoryTable = ({ entries }: WorkHistoryTableProps) => {
 	return (
 		<div className="career-timeline">
 			{entries.map((entry) => (

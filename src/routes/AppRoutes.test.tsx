@@ -15,14 +15,14 @@ test("keeps initial focus and focuses content after navigation", async () => {
 	const root = createRoot(container);
 	try {
 		await act(async () => root.render(<MemoryRouter><Link to="/about">About</Link><AppRoutes /></MemoryRouter>));
-		const content = container.querySelector("#main-content");
+		const content = container.querySelector<HTMLElement>("#main-content")!;
 		expect(content.tabIndex).toBe(-1);
 		expect(document.activeElement).not.toBe(content);
 		jest.useFakeTimers();
-		await act(async () => container.querySelector("a").click());
+		await act(async () => container.querySelector<HTMLElement>("a")!.click());
 		act(() => jest.runOnlyPendingTimers());
 		expect(document.activeElement).toBe(content);
-		expect(content.querySelector("h1").textContent).toBe("About");
+		expect(content.querySelector("h1")!.textContent).toBe("About");
 	} finally {
 		act(() => root.unmount());
 		container.remove();

@@ -1,13 +1,20 @@
 // components/LangAwareLink.jsx
 import React from "react";
 import { Link, useLocation, useSearchParams } from "react-router-dom";
+import type { Path } from "react-router-dom";
+import type { AnchorHTMLAttributes, ReactNode } from "react";
 
 // A project that lives on another host leaves the app entirely, so an absolute URL
 // renders as a plain anchor in a new tab. Everything else stays an in-app route,
 // which is the whole point of this component: it keeps the active ?lang= param.
-const isExternal = (to) => typeof to === "string" && /^https?:\/\//i.test(to);
+interface LangAwareLinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> {
+	to: string | Partial<Path>;
+	children?: ReactNode;
+}
 
-const LangAwareLink = ({ to, ...props }) => {
+const isExternal = (to: LangAwareLinkProps["to"]): to is string => typeof to === "string" && /^https?:\/\//i.test(to);
+
+const LangAwareLink = ({ to, ...props }: LangAwareLinkProps) => {
 	const [searchParams] = useSearchParams();
 	const lang = searchParams.get("lang");
 	const location = useLocation();
@@ -17,7 +24,7 @@ const LangAwareLink = ({ to, ...props }) => {
 	}
 
 	// Convert 'to' into a string with lang param
-	const getToWithLang = () => {
+	const getToWithLang = (): string | Partial<Path> => {
 		if (typeof to === "string") {
 			const url = new URL(to, "http://dummy"); // dummy base
 			if (lang) {

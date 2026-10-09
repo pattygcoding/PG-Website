@@ -4,7 +4,7 @@ import App from './app/App';
 import { LanguageProvider } from "@/lang/languageContext";
 import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
     <LanguageProvider>
         <App />

@@ -16,11 +16,19 @@ import s from "@/assets/skills/skills.json";
 import links from "@/assets/links/links.json";
 import "./AboutProfile.css";
 
+const portfolioImages = links.portfolio as Record<string, string>;
+
+interface PortfolioEntry {
+	title: string;
+	text: string;
+	link: string;
+}
+
 const About = () => {
 	const { t } = useLang();
 	const location = useLocation();
 	const featuredWork = ["takeoff_engine", "tiger_programming_language", "formatter"];
-	const entries = t("portfolio.entries");
+	const entries = t("portfolio.entries") as Record<string, PortfolioEntry>;
 	const technologies = s.languages.length + s.frameworks.length + s.other_technologies.length;
 	const skillNames = useMemo(() => Object.fromEntries([...s.languages, ...s.frameworks, ...s.other_technologies].map((skill) => [skill.id, skill.name])), []);
 
@@ -59,7 +67,7 @@ const About = () => {
 					<div className="about-work-strip">
 						{featuredWork.map((key) => (
 							<LangAwareLink key={key} to={entries[key].link}>
-								<img src={`/assets/images/${links.portfolio[key]}`} alt="" loading="lazy" />
+								<img src={`/assets/images/${portfolioImages[key]}`} alt="" loading="lazy" />
 								<span>{entries[key].title}</span><FiArrowUpRight />
 							</LangAwareLink>
 						))}
@@ -75,7 +83,7 @@ const About = () => {
 				</AboutSection>
 
 				<AboutSection id="about-toolkit" label="TOOLKIT" title={t("about.technical_skills.title")}>
-					{[["languages", "header1"], ["frameworks", "header2"], ["other_technologies", "header3"]].map(([category, headerKey]) => (
+					{([["languages", "header1"], ["frameworks", "header2"], ["other_technologies", "header3"]] as Array<[keyof typeof s, string]>).map(([category, headerKey]) => (
 						<LinkedSkillsTable
 							key={category}
 							id={`skills-${category}`}

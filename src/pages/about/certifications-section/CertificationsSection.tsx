@@ -2,7 +2,29 @@ import React from "react";
 import { FiAward, FiArrowUpRight, FiCheckCircle } from "react-icons/fi";
 import "./CertificationsSection.css";
 
-const CertificationsSection = ({ entries, labels }) => {
+interface CertificationEntry {
+	id: string;
+	image: string;
+	title: string;
+	issuer: string;
+	date?: string;
+	summary?: string;
+	link: string;
+}
+
+interface CertificationLabels {
+	credential: string;
+	issued_by: string;
+	issued: string;
+	verify: string;
+}
+
+interface CertificationsSectionProps {
+	entries: CertificationEntry[];
+	labels: CertificationLabels;
+}
+
+const CertificationsSection = ({ entries, labels }: CertificationsSectionProps) => {
 	const { credential, issued_by, issued, verify } = labels;
 
 	return (

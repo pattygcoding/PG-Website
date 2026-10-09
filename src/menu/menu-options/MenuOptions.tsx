@@ -5,9 +5,16 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import l from "@/assets/links/links.json";
 import { useLang } from "@/lang/languageContext";
 import { projects } from "../projectCatalog";
+import type { ProjectCatalogEntry } from "../projectCatalog";
+import type { CssVariables } from "@/types/css";
 import "./MenuOptions.css";
 
-const destinations = [
+interface Destination {
+	key: string;
+	path?: string;
+}
+
+const destinations: Destination[] = [
 	{ key: "home", path: l.menu.home },
 	{ key: "about", path: l.menu.about },
 	{ key: "portfolio", path: l.menu.portfolio },
@@ -15,7 +22,12 @@ const destinations = [
 	{ key: "contact", path: l.menu.contact },
 ];
 
-const MenuOptions = ({ handleToggle, closeMenu }) => {
+interface MenuOptionsProps {
+	handleToggle?: () => void;
+	closeMenu?: () => void;
+}
+
+const MenuOptions = ({ handleToggle, closeMenu }: MenuOptionsProps) => {
 	const { t } = useLang();
 	const { pathname } = useLocation();
 	const activeProject = projects.some(({ path }) => pathname === path || pathname.startsWith(`${path}/`));
@@ -24,9 +36,9 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 	const [showProjects, setShowProjects] = useState(activeProject);
 	const dismiss = closeMenu || handleToggle;
 	// Groups start truncated (collapsed) and expand on demand.
-	const [expandedGroups, setExpandedGroups] = useState({});
-	const toggleGroup = (key) => setExpandedGroups((groups) => ({ ...groups, [key]: !groups[key] }));
-	const projectLink = ({ key, path, icon: Icon, external }) => external
+	const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
+	const toggleGroup = (key: string) => setExpandedGroups((groups) => ({ ...groups, [key]: !groups[key] }));
+	const projectLink = ({ key, path, icon: Icon, external }: ProjectCatalogEntry) => external
 		? <a href={path} target="_blank" rel="noopener noreferrer" onClick={dismiss} title={`${t(`menu.${key}`)} (opens in a new tab)`}>
 			<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
 		</a>
@@ -61,9 +73,9 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 									onFocus: () => setSelected(destination),
 								};
 								return (
-									<li className="atlas-menu__entry" key={destination.key} style={{ "--entry-delay": `${index * 55}ms` }}>
+									<li className="atlas-menu__entry" key={destination.key} style={{ "--entry-delay": `${index * 55}ms` } as CssVariables}>
 										{isProjects ? <button {...linkProps} type="button" aria-expanded={showProjects} aria-controls="menu-projects" onClick={() => setShowProjects((open) => !open)}>{content}</button>
-											: <Link {...linkProps} to={destination.path} aria-current={isCurrent ? "page" : undefined} onClick={dismiss}>{content}</Link>}
+											: <Link {...linkProps} to={destination.path ?? "/"} aria-current={isCurrent ? "page" : undefined} onClick={dismiss}>{content}</Link>}
 										{isProjects && showProjects && (
 											<ul className="atlas-menu__projects" id="menu-projects">
 												{projects.map(({ key, path, icon: Icon, external, children }) => <li key={key} className={children ? "atlas-menu__project--group" : undefined}>
@@ -109,7 +121,7 @@ const MenuOptions = ({ handleToggle, closeMenu }) => {
 				<footer className="atlas-menu__footer">
 					<span className="atlas-menu__copyright">Patrick Goodwin <span>/ {new Date().getFullYear()}</span></span>
 					<div className="atlas-menu__socials">
-						{[{ name: "GitHub", key: "github", icon: FaGithub }, { name: "LinkedIn", key: "linkedin", icon: FaLinkedin }].map(({ name, key, icon: Icon }) => (
+						{[{ name: "GitHub", key: "github" as const, icon: FaGithub }, { name: "LinkedIn", key: "linkedin" as const, icon: FaLinkedin }].map(({ name, key, icon: Icon }) => (
 							<a key={key} href={l.social_media[key]} target="_blank" rel="noopener noreferrer" title={`${name} (opens in a new tab)`}><Icon aria-hidden="true" /><span>{name}</span><FiArrowUpRight aria-hidden="true" /></a>
 						))}
 					</div>

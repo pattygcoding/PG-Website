@@ -5,7 +5,7 @@ import { RepoButton } from "@/components/repo-button";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
-import { tokenize } from "./highlight.mjs";
+import { tokenize } from "./highlight";
 import "./Tiger.css";
 import "@/components/page-shell/PageShell.css";
 
@@ -27,7 +27,7 @@ const tigerSamples = [
 	"vending_machine.tg",
 ];
 
-const statusLabels = {
+const statusLabels: Record<string, string> = {
 	loading: "ENGINE LOADING",
 	ready: "ENGINE ONLINE",
 	running: "RUNNING",
@@ -44,15 +44,15 @@ const Tiger = () => {
 	const [error, setError] = useState("");
 	const [status, setStatus] = useState("loading");
 	const [inputValue, setInputValue] = useState("");
-	const codeEditorRef = useRef(null);
-	const outputRef = useRef(null);
-	const inputRef = useRef(null);
-	const workerRef = useRef(null);
+	const codeEditorRef = useRef<HTMLTextAreaElement>(null);
+	const outputRef = useRef<HTMLPreElement>(null);
+	const inputRef = useRef<HTMLInputElement>(null);
+	const workerRef = useRef<Worker | null>(null);
 
 	const isRunning = status === "running" || status === "input";
 	const isReady = status !== "loading" && status !== "unavailable";
 
-	const loadSample = async (sampleName) => {
+	const loadSample = async (sampleName: string) => {
 		setSelectedSample(sampleName);
 
 		try {
@@ -77,7 +77,7 @@ const Tiger = () => {
 		setInputValue("");
 		const worker = new Worker("/wasm/tiger-worker.js");
 		workerRef.current = worker;
-		const fail = (message) => {
+		const fail = (message?: string) => {
 			if (workerRef.current !== worker) return;
 			setError(message || "Failed to load WASM engine.");
 			setStatus("unavailable");
@@ -132,7 +132,7 @@ const Tiger = () => {
 	};
 
 	// Enter sends the line; Ctrl+D closes input, matching the Tiger playground.
-	const handleInputKeyDown = (event) => {
+	const handleInputKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
 		const endOfInput = event.ctrlKey && (event.key === "d" || event.key === "D");
 		if (event.key !== "Enter" && !endOfInput) return;
 		event.preventDefault();
@@ -145,10 +145,10 @@ const Tiger = () => {
 
 	const lineNumbers = code.split("\n").map((_, index) => index + 1);
 
-	const syncEditorScroll = (event) => {
+	const syncEditorScroll = (event: React.UIEvent<HTMLTextAreaElement>) => {
 		const editor = event.currentTarget;
-		const highlight = editor.previousElementSibling;
-		const lineNumbers = editor.parentElement.firstElementChild;
+		const highlight = editor.previousElementSibling as HTMLElement | null;
+		const lineNumbers = editor.parentElement?.firstElementChild as HTMLElement | null;
 		if (highlight) {
 			highlight.scrollTop = editor.scrollTop;
 			highlight.scrollLeft = editor.scrollLeft;
@@ -156,7 +156,7 @@ const Tiger = () => {
 		if (lineNumbers) lineNumbers.scrollTop = editor.scrollTop;
 	};
 
-	const handleEditorKeyDown = (event) => {
+	const handleEditorKeyDown = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
 		if (event.key !== "Tab") return;
 		event.preventDefault();
 
@@ -167,7 +167,7 @@ const Tiger = () => {
 		if (event.shiftKey) {
 			const lineStart = value.lastIndexOf("\n", selectionStart - 1) + 1;
 			if (!value.slice(lineStart, lineStart + indent.length).match(/^ {1,4}/)) return;
-			const removed = value.slice(lineStart).match(/^ {1,4}/)[0];
+			const removed = value.slice(lineStart).match(/^ {1,4}/)![0];
 			const nextValue = value.slice(0, lineStart) + value.slice(lineStart + removed.length);
 			setCode(nextValue);
 			requestAnimationFrame(() => {
@@ -281,7 +281,7 @@ const Tiger = () => {
 								role="log"
 								aria-live="polite"
 								aria-labelledby="tiger-output-title"
-								tabIndex="0"
+								tabIndex={0}
 								onClick={() => inputRef.current?.focus()}
 							>
 								{output}

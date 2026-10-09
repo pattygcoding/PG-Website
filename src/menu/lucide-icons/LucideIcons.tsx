@@ -5,7 +5,11 @@ import React from "react";
 // react-icons build this project pins ships no Lucide set, so the few shapes we
 // need are kept here. Sizing matches react-icons: 1em, so the consumer's
 // font-size drives it.
-const LucideIcon = ({ children, ...props }) => (
+interface LucideIconProps extends React.SVGProps<SVGSVGElement> {
+	children?: React.ReactNode;
+}
+
+const LucideIcon = ({ children, ...props }: LucideIconProps) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		width="1em"
@@ -22,7 +26,7 @@ const LucideIcon = ({ children, ...props }) => (
 	</svg>
 );
 
-export const FlaskConical = (props) => (
+export const FlaskConical = (props: React.SVGProps<SVGSVGElement>) => (
 	<LucideIcon {...props}>
 		<path d="M10 2v7.31" />
 		<path d="M14 9.3V1.99" />
@@ -32,7 +36,7 @@ export const FlaskConical = (props) => (
 	</LucideIcon>
 );
 
-export const Pickaxe = (props) => (
+export const Pickaxe = (props: React.SVGProps<SVGSVGElement>) => (
 	<LucideIcon {...props}>
 		<path d="m14 13-7.5 7.5c-.83.83-2.17.83-3 0a2.12 2.12 0 0 1 0-3L11 10" />
 		<path d="m16 16 6-6" />
@@ -42,7 +46,7 @@ export const Pickaxe = (props) => (
 	</LucideIcon>
 );
 
-export const Gamepad2 = (props) => (
+export const Gamepad2 = (props: React.SVGProps<SVGSVGElement>) => (
 	<LucideIcon {...props}>
 		<line x1="6" x2="10" y1="11" y2="11" />
 		<line x1="8" x2="8" y1="9" y2="13" />
@@ -52,7 +56,7 @@ export const Gamepad2 = (props) => (
 	</LucideIcon>
 );
 
-export const Blocks = (props) => (
+export const Blocks = (props: React.SVGProps<SVGSVGElement>) => (
 	<LucideIcon {...props}>
 		<path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
 		<path d="m3.3 7 8.7 5 8.7-5" />

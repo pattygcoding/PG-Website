@@ -13,11 +13,11 @@ import "./LanguageAtlas.css";
 
 const Languages = () => {
     const { t } = useLang();
-    const mapContainerRef = useRef(null);
-    const tooltipRef = useRef(null);
+    const mapContainerRef = useRef<HTMLDivElement>(null);
+    const tooltipRef = useRef<HTMLDivElement>(null);
     const touchStartPos = useRef({ x: 0, y: 0 });
     const lastTapTime = useRef(0);
-    const [tooltip, setTooltip] = useState({
+    const [tooltip, setTooltip] = useState<{ visible: boolean; x: number; y: number; content: string; country: string | null }>({
         visible: false,
         x: 0,
         y: 0,
@@ -25,7 +25,7 @@ const Languages = () => {
         country: null
     });
     const [mapScale, setMapScale] = useState(1);
-    const [focusedCountry, setFocusedCountry] = useState(null);
+    const [focusedCountry, setFocusedCountry] = useState<string | null>(null);
     const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.innerWidth <= 768);
 
     useEffect(() => {
@@ -40,14 +40,14 @@ const Languages = () => {
     useEffect(() => {
         if (!tooltip.visible) return;
 
-        const handleOutsideClick = (e) => {
-            const targetTag = e.target?.tagName?.toLowerCase();
+        const handleOutsideClick = (e: Event) => {
+            const targetTag = (e.target as HTMLElement)?.tagName?.toLowerCase();
             if (targetTag !== "path" && targetTag !== "circle") {
                 setTooltip({ visible: false, x: 0, y: 0, content: "", country: null });
             }
         };
 
-        const handleEscape = (event) => {
+        const handleEscape = (event: KeyboardEvent) => {
             if (event.key === "Escape") setTooltip((previous) => ({ ...previous, visible: false }));
         };
         document.addEventListener("keydown", handleEscape);
@@ -66,15 +66,21 @@ const Languages = () => {
     }, [tooltip.visible]);
 
     // Get data from imported JSON
-    const COUNTRIES = langMapData.countries;
-    const LANGUAGES = langMapData.languages;
-    const COUNTRY_NAME_MAPPING = langMapData.countryNameMapping;
+    interface CountryLanguage { code: string; name: string; nativeName: string; iso: string; country: string; }
+    interface CountryRecord { name: string; iso2: string; iso3: string; languages: string[]; }
+    interface LanguageRecord { name: string; nativeName: string; iso: string; country: string; }
+    interface GeoFeature { properties?: Record<string, string>; rsmKey?: string; }
+    interface IslandMarker { code: string; name: string; }
+
+    const COUNTRIES = langMapData.countries as Record<string, CountryRecord>;
+    const LANGUAGES = langMapData.languages as Record<string, LanguageRecord>;
+    const COUNTRY_NAME_MAPPING = langMapData.countryNameMapping as Record<string, string>;
 
     // Group languages by country for easy lookup (filtering out any unmapped or missing language codes)
-    const countryLanguages = Object.keys(COUNTRIES).reduce((acc, countryCode) => {
+    const countryLanguages = Object.keys(COUNTRIES).reduce<Record<string, CountryLanguage[]>>((acc, countryCode) => {
         const country = COUNTRIES[countryCode];
         acc[countryCode] = (country.languages || [])
-            .map(langCode => {
+            .map((langCode) => {
                 const langObj = LANGUAGES[langCode];
                 if (!langObj) return null;
                 return {
@@ -82,11 +88,11 @@ const Languages = () => {
                     ...langObj
                 };
             })
-            .filter(Boolean);
+            .filter((entry): entry is CountryLanguage => entry !== null);
         return acc;
     }, {});
 
-    const resolveCountryISO2 = (geoOrName) => {
+    const resolveCountryISO2 = (geoOrName: string | GeoFeature | null | undefined): string | null => {
         if (!geoOrName) return null;
         const countryName = typeof geoOrName === "string" 
             ? geoOrName 
@@ -129,7 +135,7 @@ const Languages = () => {
         return null;
     };
 
-    const getTooltipDataForCountry = (countryISO2, fallbackName) => {
+    const getTooltipDataForCountry = (countryISO2: string | null, fallbackName?: string | null) => {
         const countryInfo = countryISO2 ? COUNTRIES[countryISO2] : null;
         const displayName = countryInfo?.name || fallbackName || countryISO2;
 
@@ -149,13 +155,13 @@ const Languages = () => {
         return null;
     };
 
-    const getCountryTooltipData = (geo) => {
+    const getCountryTooltipData = (geo: GeoFeature) => {
         const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
         const countryISO2 = resolveCountryISO2(geo);
         return getTooltipDataForCountry(countryISO2, countryName);
     };
 
-    const showCountryTooltipAt = (countryCode, fallbackName, clientX, clientY) => {
+    const showCountryTooltipAt = (countryCode: string | null, fallbackName: string | null | undefined, clientX: number, clientY: number) => {
         const data = getTooltipDataForCountry(countryCode, fallbackName);
         if (!data) return;
 
@@ -188,13 +194,13 @@ const Languages = () => {
         });
     };
 
-    const showTooltipAt = (geo, clientX, clientY) => {
+    const showTooltipAt = (geo: GeoFeature, clientX: number, clientY: number) => {
         const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
         const countryISO2 = resolveCountryISO2(geo);
         showCountryTooltipAt(countryISO2, countryName, clientX, clientY);
     };
 
-    const handleMapCountryHover = (geo, event) => {
+    const handleMapCountryHover = (geo: GeoFeature, event: React.MouseEvent) => {
         if (isMobile) return;
 
         const data = getCountryTooltipData(geo);
@@ -211,7 +217,7 @@ const Languages = () => {
         });
     };
 
-    const handleMarkerHover = (marker, event) => {
+    const handleMarkerHover = (marker: IslandMarker, event: React.MouseEvent) => {
         if (isMobile) return;
 
         const data = getTooltipDataForCountry(marker.code, marker.name);
@@ -233,14 +239,14 @@ const Languages = () => {
         setTooltip({ visible: false, x: 0, y: 0, content: "", country: null });
     };
 
-    const moveTooltip = (event) => {
+    const moveTooltip = (event: React.MouseEvent) => {
         if (isMobile) return;
         if (tooltipRef.current) {
             tooltipRef.current.style.transform = `translate3d(${event.clientX + 12}px, ${event.clientY - 12}px, 0)`;
         }
     };
 
-    const handleTouchStart = (event) => {
+    const handleTouchStart = (event: React.TouchEvent) => {
         if (event.touches && event.touches.length > 0) {
             touchStartPos.current = {
                 x: event.touches[0].clientX,
@@ -249,7 +255,7 @@ const Languages = () => {
         }
     };
 
-    const handleTouchEnd = (geo, event) => {
+    const handleTouchEnd = (geo: GeoFeature, event: React.TouchEvent) => {
         if (event.changedTouches && event.changedTouches.length > 0) {
             const touch = event.changedTouches[0];
             const dist = Math.hypot(
@@ -263,7 +269,7 @@ const Languages = () => {
         }
     };
 
-    const handleMarkerTouchEnd = (marker, event) => {
+    const handleMarkerTouchEnd = (marker: IslandMarker, event: React.TouchEvent) => {
         if (event.changedTouches && event.changedTouches.length > 0) {
             const touch = event.changedTouches[0];
             const dist = Math.hypot(
@@ -277,39 +283,39 @@ const Languages = () => {
         }
     };
 
-    const handleMapCountryClick = (geo, event) => {
+    const handleMapCountryClick = (geo: GeoFeature, event: React.MouseEvent) => {
         if (Date.now() - lastTapTime.current < 500) return;
         const clientX = event.clientX || 0;
         const clientY = event.clientY || 0;
         showTooltipAt(geo, clientX, clientY);
     };
 
-    const handleMarkerClick = (marker, event) => {
+    const handleMarkerClick = (marker: IslandMarker, event: React.MouseEvent) => {
         if (Date.now() - lastTapTime.current < 500) return;
         const clientX = event.clientX || 0;
         const clientY = event.clientY || 0;
         showCountryTooltipAt(marker.code, marker.name, clientX, clientY);
     };
 
-    const setMapTransforming = (isTransforming) => {
+    const setMapTransforming = (isTransforming: boolean) => {
         mapContainerRef.current?.classList.toggle("is-transforming", isTransforming);
         if (isTransforming && !isMobile) {
             setTooltip({ visible: false, x: 0, y: 0, content: "", country: null });
         }
     };
 
-    const focusCountry = (event, id, countryCode, name) => {
+    const focusCountry = (event: React.FocusEvent, id: string, countryCode: string | null, name: string | null) => {
         setFocusedCountry(id);
         const bounds = event.currentTarget.getBoundingClientRect();
         showCountryTooltipAt(countryCode, name, bounds.left + bounds.width / 2, bounds.top + bounds.height / 2);
     };
 
-    const handleCountryKeyDown = (event) => {
-        const controls = Array.from(mapContainerRef.current.querySelectorAll('[data-map-country]'));
-        const currentIndex = controls.indexOf(event.currentTarget);
-        const offsets = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
-        let nextIndex;
-        if (event.key in offsets) nextIndex = (currentIndex + offsets[event.key] + controls.length) % controls.length;
+    const handleCountryKeyDown = (event: React.KeyboardEvent<Element>) => {
+        const controls = Array.from(mapContainerRef.current?.querySelectorAll<HTMLElement | SVGElement>('[data-map-country]') ?? []);
+        const currentIndex = controls.indexOf(event.currentTarget as HTMLElement | SVGElement);
+        const offsets: Record<string, number> = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
+        let nextIndex: number | undefined;
+        if (event.key in offsets) nextIndex = (currentIndex + (offsets[event.key] ?? 0) + controls.length) % controls.length;
         else if (event.key === "Home") nextIndex = 0;
         else if (event.key === "End") nextIndex = controls.length - 1;
         else if (event.key === "Enter" || event.key === " ") {
@@ -472,7 +478,7 @@ const Languages = () => {
                                                         return (
                                                             <Marker
                                                                 key={`island-${marker.code}`}
-                                                                coordinates={marker.coordinates}
+                                                                coordinates={marker.coordinates as [number, number]}
                                                                 data-map-country={`island-${marker.code}`}
                                                                 role="button"
                                                                 tabIndex={focusedCountry === `island-${marker.code}` ? 0 : -1}
@@ -554,7 +560,7 @@ const Languages = () => {
                                 { title: "Native Script Support:", description: "Proper rendering of scripts like Arabic, Chinese, Hindi, and more" },
                                 { title: "Cultural Sensitivity:", description: "Translations consider cultural context, not just literal meanings" },
                                 { title: "SEO Optimized:", description: "Each language variant is optimized for search engines" }
-                            ]).map((item, index) => (
+                            ]).map((item: { title: string; description: string }, index: number) => (
 								<li key={index}><FiZap /><div><strong>{item.title}</strong><p>{item.description}</p></div></li>
                             ))}
                         </ul>

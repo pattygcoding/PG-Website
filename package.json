@@ -30,6 +30,7 @@
         "build": "react-app-rewired build",
         "postbuild": "node scripts/generate-og-pages.js && node scripts/generate-redirects.js",
         "test": "react-app-rewired test",
+        "typecheck": "tsc --noEmit",
         "eject": "react-app-rewired eject",
         "translate": "python src/assets/lang/lang.py",
         "translate:skip": "python src/assets/lang/lang.py --skip",
@@ -56,9 +57,22 @@
         ]
     },
     "devDependencies": {
+        "@types/jest": "27",
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "18",
+        "@types/prismjs": "^1.26.6",
+        "@types/react": "18",
+        "@types/react-dom": "18",
+        "@types/react-simple-maps": "^3.0.6",
+        "@types/react-transition-group": "^4.4.12",
         "gh-pages": "^6.1.1",
         "react-app-rewired": "^2.2.1",
         "source-map-explorer": "^2.5.3",
+        "typescript": "4.9.5",
         "webpack-bundle-analyzer": "^4.10.2"
+    },
+    "resolutions": {
+        "@types/react": "18.3.31",
+        "@types/react-dom": "18.3.7"
     }
 }

@@ -18,11 +18,11 @@ const Formatter = lazy(() => import("@/pages/projects/formatter/Formatter"));
 // routes redirect there. window.location.replace is used instead of <Navigate>
 // because history.pushState cannot cross origins. Kept in sync with the stubs
 // built by scripts/generate-redirects.js.
-const arcadeRedirects = Object.keys(links.arcade)
+const arcadeRedirects = (Object.keys(links.arcade) as Array<keyof typeof links.arcade>)
 	.filter((key) => key !== "home")
 	.map((key) => ({ path: `/${key}`, to: links.arcade[key] }));
 
-function ArcadeRedirect({ to }) {
+function ArcadeRedirect({ to }: { to: string }) {
 	useEffect(() => {
 		window.location.replace(to);
 	}, [to]);
@@ -32,7 +32,7 @@ function ArcadeRedirect({ to }) {
 function AppRoutes() {
 	const { pathname } = useLocation();
 	const previousPath = useRef(pathname);
-	const contentRef = useRef(null);
+	const contentRef = useRef<HTMLDivElement>(null);
 
 	useEffect(() => {
 		if (previousPath.current === pathname) return;
@@ -45,7 +45,7 @@ function AppRoutes() {
 		<div className="s_c" id="main-content" tabIndex={-1} ref={contentRef}>
 			<Suspense fallback={<div role="status" className="visually-hidden">Loading page...</div>}>
 				<Routes>
-					<Route exact path="/" element={<Home />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/portfolio" element={<Portfolio />} />
 					<Route path="/contact" element={<Contact />} />

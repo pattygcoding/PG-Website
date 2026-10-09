@@ -13,15 +13,15 @@ test.each([true, false])("announces clipboard results (success: %s)", async (suc
 	const root = createRoot(container);
 	try {
 		act(() => root.render(<CopyButton textToCopy="Sample output" />));
-		expect(container.querySelector('[role="status"]').textContent).toBe("");
-		await act(async () => container.querySelector("button").click());
+		expect(container.querySelector('[role="status"]')!.textContent).toBe("");
+		await act(async () => container.querySelector<HTMLButtonElement>("button")!.click());
 		expect(writeText).toHaveBeenCalledWith("Sample output");
-		expect(container.querySelector('[role="status"]').textContent).toBe(success ? "Copied to clipboard." : "Unable to copy. Select the text and copy it manually.");
+		expect(container.querySelector('[role="status"]')!.textContent).toBe(success ? "Copied to clipboard." : "Unable to copy. Select the text and copy it manually.");
 		expect(Boolean(container.querySelector(".copied-tag"))).toBe(success);
 	} finally {
 		act(() => root.unmount());
 		container.remove();
 		if (originalClipboard) Object.defineProperty(navigator, "clipboard", originalClipboard);
-		else delete navigator.clipboard;
+		else Reflect.deleteProperty(navigator, "clipboard");
 	}
 });

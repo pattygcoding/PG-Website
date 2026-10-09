@@ -1,7 +1,14 @@
 import React from "react";
 import "./AboutSection.css";
 
-const AboutSection = ({ id, label, title, children }) => (
+interface AboutSectionProps {
+	id: string;
+	label: React.ReactNode;
+	title: React.ReactNode;
+	children?: React.ReactNode;
+}
+
+const AboutSection = ({ id, label, title, children }: AboutSectionProps) => (
 	<section id={id} className="about-section sec_sp">
 		<header className="about-section-heading">
 			<div>

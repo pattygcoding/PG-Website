@@ -1,11 +1,20 @@
+import type { IconType } from "react-icons";
 import { GiConsoleController } from "react-icons/gi";
 import { VscTerminal, VscGlobe, VscJson } from "react-icons/vsc";
 import { TbGridDots } from "react-icons/tb";
 import { Blocks, FlaskConical, Gamepad2, Pickaxe } from "./lucide-icons";
 import l from "@/assets/links/links.json";
 
+export interface ProjectCatalogEntry {
+	key: string;
+	path: string;
+	icon: IconType;
+	external?: boolean;
+	children?: ProjectCatalogEntry[];
+}
+
 // Kept in alphabetical order by English menu label.
-export const projects = [
+export const projects: ProjectCatalogEntry[] = [
 	{
 		key: "arcade",
 		path: l.arcade.home,
