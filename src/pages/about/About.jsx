@@ -58,10 +58,10 @@ const About = () => {
 					</div>
 					<div className="about-work-strip">
 						{featuredWork.map((key) => (
-							<a key={key} href={entries[key].link} target="_blank" rel="noopener noreferrer">
+							<LangAwareLink key={key} to={entries[key].link}>
 								<img src={`/assets/images/${links.portfolio[key]}`} alt="" loading="lazy" />
 								<span>{entries[key].title}</span><FiArrowUpRight />
-							</a>
+							</LangAwareLink>
 						))}
 					</div>
 				</AboutSection>

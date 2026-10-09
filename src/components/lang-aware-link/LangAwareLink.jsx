@@ -2,10 +2,19 @@
 import React from "react";
 import { Link, useLocation, useSearchParams } from "react-router-dom";
 
+// A project that lives on another host leaves the app entirely, so an absolute URL
+// renders as a plain anchor in a new tab. Everything else stays an in-app route,
+// which is the whole point of this component: it keeps the active ?lang= param.
+const isExternal = (to) => typeof to === "string" && /^https?:\/\//i.test(to);
+
 const LangAwareLink = ({ to, ...props }) => {
 	const [searchParams] = useSearchParams();
 	const lang = searchParams.get("lang");
 	const location = useLocation();
+
+	if (isExternal(to)) {
+		return <a href={to} target="_blank" rel="noopener noreferrer" {...props} />;
+	}
 
 	// Convert 'to' into a string with lang param
 	const getToWithLang = () => {

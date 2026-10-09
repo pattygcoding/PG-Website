@@ -64,7 +64,8 @@ test("clustered nodes fit the world without overlaps", () => {
 
 test("every atlas project has existing artwork, a destination, and English content", () => {
     ATLAS_PROJECTS.forEach((project) => {
-        expect(english.portfolio.entries[project.id].link).toMatch(/^https:\/\//);
+        // A project that lives on this site points at its own route (e.g. /formatter).
+        expect(english.portfolio.entries[project.id].link).toMatch(/^(https:\/\/|\/)/);
         expect(links.portfolio[project.image] || links.portfolio.default).toMatch(/\.png$/);
         expect(english.portfolio.entries[project.id].text).toBeTruthy();
         project.skills.forEach((skill) => expect(english.home.atlas.skills[skill] || ATLAS_SKILL_LABELS[skill]).toBeTruthy());

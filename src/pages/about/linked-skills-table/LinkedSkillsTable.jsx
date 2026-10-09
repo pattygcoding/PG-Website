@@ -32,15 +32,15 @@ const ProjectCard = ({ samples, entry, onResize, t }) => {
 	return (
 		<li className="skill-project-card">
 			<div className="skill-project-card__title">
-				<a href={single ? samples[0].link : (entry && entry.link) || samples[0].link} target="_blank" rel="noopener noreferrer">
+				<LangAwareLink to={single ? samples[0].link : (entry && entry.link) || samples[0].link}>
 					{title}<FiArrowUpRight aria-hidden="true" />
-				</a>
+				</LangAwareLink>
 			</div>
 			{entry && entry.text && <p>{entry.text}</p>}
 			{!single && (
 				<div className="skill-project-card__variants">
 					{visible.map((sample) => (
-						<a key={sample.label} href={sample.link} target="_blank" rel="noopener noreferrer">{variantLabel(sample.label)}</a>
+						<LangAwareLink key={sample.label} to={sample.link}>{variantLabel(sample.label)}</LangAwareLink>
 					))}
 					{hidden > 0 && (
 						<button type="button" className="skill-project-card__more" onClick={toggle} aria-expanded={expanded}>
@@ -297,12 +297,12 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 									const isEducation = sample.group === "educational_experience";
 									return (
 										<li key={sample.label}>
-											<a href={sample.link} target="_blank" rel="noopener noreferrer">
+											<LangAwareLink to={sample.link}>
 												{isEducation ? <FiBookOpen aria-hidden="true" /> : <FiBriefcase aria-hidden="true" />}
 												<span>{experienceLabel(sample.label)}</span>
 												<em>{t(`about.technical_skills.${isEducation ? "education" : "professional"}`)}</em>
 												<FiArrowUpRight aria-hidden="true" />
-											</a>
+											</LangAwareLink>
 										</li>
 									);
 								})}
