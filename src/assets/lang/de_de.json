@@ -151,7 +151,7 @@
       "formatter": {
         "title": "Automatischer JSON- und YAML-Formatierer",
         "text": "Ein browserbasiertes JSON- und YAML-Validierungs- und Formatierungstool, das in Go erstellt und in WebAssembly kompiliert wurde. Durch die Verlagerung der Parsing-Engine in WASM bleibt die Interaktion reaktionsfähig und lokal im Browser, während ein echter Parser zum Abfangen ungültiger Eingaben eingesetzt wird. Es ist ein gezieltes Beispiel für die Auswahl einer Laufzeitarchitektur im Hinblick auf Leistung, Portabilität und Benutzervertrauen.",
-        "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+        "link": "/formatter"
       },
       "takeoff_engine": {
         "title": "Startmotor",
@@ -196,7 +196,7 @@
       "python_maps": {
         "title": "Patricks Kartengenerator",
         "text": "Ein mit GeoPandas und Matplotlib erstelltes Python-Tool für Geodatenberichte zum Generieren von Karten für US-Bezirke und Bundesstaaten. Es wandelt geografische Daten in lesbare Analyseartefakte um und demonstriert die Denkweise einer Datenpipeline: Wählen Sie die richtigen Domänenbibliotheken aus, normalisieren Sie Eingaben und erzeugen Sie entsprechende Ausgaben unterstützen klare Entscheidungen.",
-        "link": "https://i.imgur.com/HxYLSXC.png"
+        "link": "https://github.com/pattygcoding/Python-Maps"
       },
       "powershell_library": {
         "title": "Patricks PowerShell-Skriptbibliothek",

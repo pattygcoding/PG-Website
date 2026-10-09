@@ -173,10 +173,8 @@ const Portfolio = () => {
 						const projectSkills = getProjectSkills(key);
 						return (
 						<article className={`portfolio-project ${index === 0 && sort === "featured" ? "project-featured" : ""}`} key={key} data-project={key}>
-							<a
-								href={data.link}
-								target="_blank"
-								rel="noopener noreferrer"
+							<LangAwareLink
+								to={data.link}
 								className="project-image-wrap"
 								aria-label={`${t("home.featured.view_project")}: ${data.title}`}
 							>
@@ -188,10 +186,10 @@ const Portfolio = () => {
 										onError={(event) => { if (!event.currentTarget.src.endsWith(images.default)) event.currentTarget.src = resolveImage(images.default); }}
 									/>
 									<span className="project-open" aria-hidden="true"><FiArrowUpRight /></span>
-							</a>
+							</LangAwareLink>
 								<div className="project-body">
 									{index === 0 && sort === "featured" && <div className="project-feature-label">{t("home.featured.title")}</div>}
-									<h2><a href={data.link} target="_blank" rel="noopener noreferrer">{data.title}</a></h2>
+									<h2><LangAwareLink to={data.link}>{data.title}</LangAwareLink></h2>
 									<p>{data.text}</p>
 									{projectSkills.length > 0 && <div className="project-tags">{projectSkills.map((skill) => <LangAwareLink key={skill} className={selectedSkills.includes(skill) ? "is-selected" : ""} to={{ pathname: "/about", search: "?", hash: `#${skill}` }}>#{skillNames[skill]}</LangAwareLink>)}</div>}
 								</div>

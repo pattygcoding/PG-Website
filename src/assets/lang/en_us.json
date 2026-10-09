@@ -273,7 +273,7 @@
             "formatter": {
                 "title": "JSON & YAML Auto Formatter",
                 "text": "A browser-based JSON and YAML validation and formatting tool built in Go and compiled to WebAssembly. Moving the parsing engine into WASM keeps the interaction responsive and local to the browser while applying a real parser to catch invalid input. It is a focused example of choosing a runtime architecture for performance, portability, and user trust.",
-                "link": "https://github.com/pattygcoding/JSON-YAML-Auto-Formatter"
+                "link": "/formatter"
             },
             "takeoff_engine": {
                 "title": "Takeoff Engine",
@@ -318,7 +318,7 @@
             "python_maps": {
                 "title": "Patrick's Map Generator",
                 "text": "A Python geospatial reporting tool built with GeoPandas and Matplotlib to generate U.S. county and state maps. It turns geographic data into readable analysis artifacts, demonstrating a data pipeline mindset: select the right domain libraries, normalize inputs, and produce outputs that support clear decisions.",
-                "link": "https://i.imgur.com/HxYLSXC.png"
+                "link": "https://github.com/pattygcoding/Python-Maps"
             },
             "powershell_library": {
                 "title": "Patrick's PowerShell Script Library",
