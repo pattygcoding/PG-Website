@@ -54,6 +54,7 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 - **WebAssembly (WASM)** - High-performance compiled modules
 - **Go & Rust** - WebAssembly implementations for Tiger language
 - **Python 3** - Translation automation scripts
+- **tsx** - Runs the TypeScript build scripts (OG preview pages, redirect stubs)
 - **Node.js 18** - Development environment
 
 ### **APIs & Services**
