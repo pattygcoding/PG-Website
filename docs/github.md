@@ -38,7 +38,7 @@ My work connects engineering decisions to business outcomes. From a construction
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/suprememc.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com/suprememc"><strong>SupremeMC</strong></a>: <code>Minecraft Mod</code><br />
+      <a href="https://arcade.pattygcoding.com/suprememc"><strong>SupremeMC</strong></a>: <code>Minecraft Mod</code><br />
       A Minecraft mod adding custom tools, armor, mobs, blocks, and dimensions, built primarily in Java and Kotlin with support spanning Minecraft versions 1.16 through 26.2.
     </td>
   </tr>
@@ -52,14 +52,14 @@ My work connects engineering decisions to business outcomes. From a construction
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/alkalab.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com/alkalab"><strong>Alkalab</strong></a>: <code>Available Here</code><br />
+      <a href="https://arcade.pattygcoding.com/alkalab"><strong>Alkalab</strong></a>: <code>Available Here</code><br />
       A powder-sand chemistry lab built in Rust and compiled to WebAssembly, sodium detonates in water, carbide fizzes acetylene, and lava fuses sand into glass across 32 materials and 40 declarative reaction rules, with pixels rendered straight out of wasm linear memory and no per-frame copies.
     </td>
   </tr>
   <tr>
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/snake.png" width="90" /></td>
     <td>
-      <a href="https://www.pattygcoding.com/snake"><strong>Snake</strong></a>: <code>Available Here</code><br />
+      <a href="https://arcade.pattygcoding.com/snake"><strong>Snake</strong></a>: <code>Available Here</code><br />
       A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly and rendered through HTML5 Canvas, with deterministic ticks, smooth interpolation, and a focused test suite.
     </td>
   </tr>

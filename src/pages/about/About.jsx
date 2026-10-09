@@ -4,11 +4,13 @@ import { FiArrowDown, FiArrowUpRight, FiMapPin } from "react-icons/fi";
 import { useLocation } from "react-router-dom";
 import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
 import { AboutSection } from "./about-section";
+import CertificationsSection from "./certifications-section/CertificationsSection";
 import LinkedSkillsTable from "./linked-skills-table/LinkedSkillsTable";
 import ServicesSection from "./services-section/ServicesSection";
 import WorkHistoryTable from "./work-history-table/WorkHistoryTable";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
+import c from "@/assets/certifications/certifications.json";
 import p from "@/assets/projects/projects.json";
 import s from "@/assets/skills/skills.json";
 import links from "@/assets/links/links.json";
@@ -44,8 +46,8 @@ const About = () => {
 					<LangAwareLink to="/portfolio">{t("home.featured.view_all")}<FiArrowUpRight /></LangAwareLink>
 				</div>
 				<nav className="about-section-nav" aria-label={t("about.title")}>
-					{["personal_summary", "professional_experience", "technical_skills", "services"].map((section, index) => (
-						<a key={section} href={`${location.search}#about-${["overview", "timeline", "toolkit", "capabilities"][index]}`}>{t(`about.${section}.title`)}</a>
+					{["personal_summary", "professional_experience", "certifications", "technical_skills", "services"].map((section, index) => (
+						<a key={section} href={`${location.search}#about-${["overview", "timeline", "credentials", "toolkit", "capabilities"][index]}`}>{t(`about.${section}.title`)}</a>
 					))}
 				</nav>
 
@@ -66,6 +68,10 @@ const About = () => {
 
 				<AboutSection id="about-timeline" label="TIMELINE" title={t("about.professional_experience.title")}>
 					<WorkHistoryTable entries={t("about.professional_experience.entries")} />
+				</AboutSection>
+
+				<AboutSection id="about-credentials" label="CREDENTIALS" title={t("about.certifications.title")}>
+					<CertificationsSection entries={c.certifications} labels={t("about.certifications")} />
 				</AboutSection>
 
 				<AboutSection id="about-toolkit" label="TOOLKIT" title={t("about.technical_skills.title")}>

@@ -64,7 +64,12 @@ test("expands all project links and closes after selecting one", () => {
 	const projects = container.querySelector('[aria-controls="menu-projects"]');
 	act(() => projects.click());
 	expect(projects.getAttribute("aria-expanded")).toBe("true");
-	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link) => link.getAttribute("href"))).toEqual(["/alkalab", "https://connectfour.pattygcoding.com/", "/formatter", "/languages", "/snake", "/suprememc", "/tiger"]);
+	const arcade = container.querySelector(".atlas-menu__project-toggle");
+	expect(arcade.getAttribute("aria-expanded")).toBe("false");
+	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "https://connectfour.pattygcoding.com/", "/formatter", "/languages", "/tiger"]);
+	act(() => arcade.click());
+	expect(arcade.getAttribute("aria-expanded")).toBe("true");
+	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "https://arcade.pattygcoding.com/alkalab", "https://arcade.pattygcoding.com/snake", "https://arcade.pattygcoding.com/suprememc", "https://connectfour.pattygcoding.com/", "/formatter", "/languages", "/tiger"]);
 	act(() => container.querySelector('#menu-projects a[href="/formatter"]').click());
 	expect(container.querySelector(".atlas-menu")).toBeNull();
 	expect(document.body.classList.contains("ovhidden")).toBe(false);
