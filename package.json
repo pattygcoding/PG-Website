@@ -28,7 +28,7 @@
     "scripts": {
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
-        "postbuild": "node scripts/generate-og-pages.js && node scripts/generate-redirects.js",
+        "postbuild": "tsx scripts/generate-og-pages.ts && tsx scripts/generate-redirects.ts",
         "test": "react-app-rewired test",
         "typecheck": "tsc --noEmit",
         "eject": "react-app-rewired eject",
@@ -68,6 +68,7 @@
         "gh-pages": "^6.1.1",
         "react-app-rewired": "^2.2.1",
         "source-map-explorer": "^2.5.3",
+        "tsx": "^4.23.15",
         "typescript": "4.9.5",
         "webpack-bundle-analyzer": "^4.10.2"
     },

@@ -1,11 +1,11 @@
 // Link-preview crawlers (LinkedIn, Slack, etc.) don't run JS, so each route needs static OG tags.
-const fs = require("fs");
-const path = require("path");
-const t = require("../src/assets/lang/en_us.json");
+import fs from "fs";
+import path from "path";
+import t from "../src/assets/lang/en_us.json";
 
 const SITE = "https://www.pattygcoding.com";
 const BUILD_DIR = path.join(__dirname, "..", "build");
-const IMG = (name) => `${SITE}/assets/images/${name}`;
+const IMG = (name: string): string => `${SITE}/assets/images/${name}`;
 
 const pages = [
 	{ route: "about", title: t.about.title, description: t.tab.description, image: IMG("professional.png") },
@@ -16,9 +16,9 @@ const pages = [
 	{ route: "languages", title: t.languages.title, description: t.languages.description, image: IMG("map.png") },
 ];
 
-const escapeAttr = (s) => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const escapeAttr = (s: unknown): string => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-const setMeta = (html, attr, key, value) => {
+const setMeta = (html: string, attr: string, key: string, value: string): string => {
 	const re = new RegExp(`(<meta\\s+${attr}="${key}"\\s+content=")[^"]*(")`);
 	if (!re.test(html)) throw new Error(`Missing <meta ${attr}="${key}"> in build/index.html`);
 	return html.replace(re, `$1${escapeAttr(value)}$2`);
