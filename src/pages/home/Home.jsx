@@ -30,19 +30,16 @@ const Home = () => {
 		{
 			key: "suprememc",
 			image: links.portfolio.suprememc,
-			to: "/suprememc",
 			badges: [t("home.featured.badges.minecraft_mod")],
 		},
 		{
 			key: "alkalab",
 			image: links.portfolio.alkalab,
-			to: "/alkalab",
 			badges: [t("home.featured.badges.available_here")],
 		},
 		{
 			key: "snake",
 			image: links.portfolio.snake,
-			to: "/snake",
 			badges: [t("home.featured.badges.available_here")],
 		},
 		{

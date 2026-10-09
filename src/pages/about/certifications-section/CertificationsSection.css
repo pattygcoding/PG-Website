@@ -1,0 +1,170 @@
+.certifications-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.about-page .certification-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 138px minmax(0, 1fr);
+    gap: 28px;
+    padding: 28px;
+    border: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
+    border-radius: 4px;
+    background: color-mix(in srgb, var(--text-color) 4%, transparent);
+    overflow: hidden;
+    transition: transform 220ms ease, border-color 220ms ease, background-color 220ms ease;
+}
+
+.certification-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: var(--about-accent, var(--accent-color));
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 220ms ease;
+}
+
+.about-page .certification-card:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--about-accent, var(--accent-color)) 55%, transparent);
+}
+
+.certification-card:hover::before {
+    transform: scaleY(1);
+}
+
+.certification-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 138px;
+    padding: 8px;
+    border: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--text-color) 6%, transparent);
+}
+
+.certification-badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 220ms ease;
+}
+
+.about-page .certification-card:hover .certification-badge img {
+    transform: scale(1.05);
+}
+
+.certification-details {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.certification-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 16px;
+    font-family: monospace;
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    color: var(--about-muted, #aaa);
+}
+
+.certification-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.certification-meta .certification-tag {
+    padding: 4px 10px;
+    color: var(--about-accent, var(--accent-color));
+    border: 1px solid color-mix(in srgb, var(--about-accent, var(--accent-color)) 45%, transparent);
+    background: color-mix(in srgb, var(--about-accent, var(--accent-color)) 12%, transparent);
+    border-radius: 999px;
+}
+
+.certification-meta svg {
+    font-size: 0.95rem;
+    flex-shrink: 0;
+}
+
+.certification-title {
+    margin: 16px 0 8px;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+
+.certification-issuer {
+    margin: 0 0 14px;
+    font-size: 0.9rem;
+    color: var(--about-muted, #aaa);
+}
+
+.certification-issuer strong {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.certification-summary {
+    margin: 0 0 22px;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: var(--about-muted, #aaa);
+}
+
+.certification-link {
+    margin-top: auto;
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--about-line, rgba(255, 255, 255, 0.14));
+    color: var(--text-color);
+    font-size: 0.82rem;
+    text-decoration: none;
+    transition: color 180ms ease, border-color 180ms ease;
+}
+
+.certification-link:hover {
+    color: var(--about-accent, var(--accent-color));
+    border-color: var(--about-accent, var(--accent-color));
+}
+
+.certification-link svg {
+    font-size: 1.05rem;
+    color: var(--about-accent, var(--accent-color));
+}
+
+@media (max-width: 767px) {
+    .about-page .certification-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 22px;
+    }
+
+    .certification-badge {
+        width: 112px;
+        height: 112px;
+    }
+
+    .certification-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .about-page .certification-card,
+    .certification-card::before,
+    .certification-badge img,
+    .certification-link {
+        transition: none;
+    }
+}

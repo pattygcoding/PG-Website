@@ -29,3 +29,21 @@ test("keeps initial focus and focuses content after navigation", async () => {
 		jest.useRealTimers();
 	}
 });
+
+test("sends retired arcade routes to the arcade subdomain instead of the home page", async () => {
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	// jsdom refuses cross-origin navigation, so silence its not-implemented error.
+	const consoleError = jest.spyOn(console, "error").mockImplementation(() => {});
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(<MemoryRouter initialEntries={["/snake"]}><AppRoutes /></MemoryRouter>));
+		expect(container.querySelector('a[href="https://arcade.pattygcoding.com/snake"]')).not.toBeNull();
+		expect(container.querySelector("h1")).toBeNull();
+	} finally {
+		act(() => root.unmount());
+		container.remove();
+		consoleError.mockRestore();
+	}
+});

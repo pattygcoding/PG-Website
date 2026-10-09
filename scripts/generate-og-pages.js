@@ -12,9 +12,6 @@ const pages = [
 	{ route: "portfolio", title: t.portfolio.title, description: "Projects spanning SaaS products, programming languages, WebAssembly apps, developer tools, and more.", image: IMG("logo.png") },
 	{ route: "contact", title: t.contact.title, description: t.contact.description, image: IMG("logo.png") },
 	{ route: "tiger", title: t.tiger.title, description: t.tiger.description, image: IMG("tiger.png") },
-	{ route: "snake", title: t.snake.title, description: t.snake.description, image: IMG("snake.png") },
-	{ route: "alkalab", title: t.alkalab.title, description: t.alkalab.description, image: IMG("alkalab.png") },
-	{ route: "suprememc", title: t.suprememc.title, description: t.suprememc.description, image: IMG("suprememc.png") },
 	{ route: "formatter", title: t.formatter.title, description: t.formatter.description, image: IMG("formatter.png") },
 	{ route: "languages", title: t.languages.title, description: t.languages.description, image: IMG("map.png") },
 ];

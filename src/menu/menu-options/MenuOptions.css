@@ -71,6 +71,12 @@
 .atlas-menu__projects a { display: grid; grid-template-columns: 20px minmax(0, 1fr) 18px; align-items: center; gap: 12px; padding: 12px 8px; font-size: 14px; text-decoration: none; color: var(--menu-muted); }
 .atlas-menu__projects a:hover,
 .atlas-menu__projects a[aria-current="page"] { color: var(--menu-accent); background: rgb(150 220 198 / 6%); }
+.atlas-menu__project--group { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+.atlas-menu__project--group > a { min-width: 0; }
+.atlas-menu__project-toggle { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; margin-right: 4px; border: 0; border-radius: 50%; background: transparent; color: var(--menu-muted); font-size: 16px; cursor: pointer; transition: color 180ms ease, background 180ms ease; }
+.atlas-menu__project-toggle:hover { color: var(--menu-accent); background: rgb(150 220 198 / 8%); }
+.atlas-menu__subprojects { grid-column: 1 / -1; list-style: none; margin: 0 0 8px 16px; padding: 0 0 0 14px; border-left: 1px solid var(--menu-line); }
+.atlas-menu__subprojects a { padding: 10px 8px; font-size: 13px; }
 .atlas-menu__preview { position: sticky; top: 32px; min-width: 0; padding-top: 16px; }
 .atlas-menu__preview-top { display: flex; justify-content: space-between; gap: 16px; font-size: 11px; color: var(--menu-accent); }
 .atlas-menu__muted { color: var(--menu-muted); }
@@ -114,6 +120,7 @@
     .atlas-menu__destination { min-height: 80px; grid-template-columns: minmax(0, 1fr) 26px; gap: 12px; padding: 17px 0; }
     .atlas-menu__label { font-size: 30px; }
     .atlas-menu__projects { padding-left: 16px; }
+    .atlas-menu__subprojects { margin-left: 10px; padding-left: 10px; }
     .atlas-menu__footer { flex-direction: column-reverse; align-items: flex-start; gap: 14px; margin-top: auto; }
     .atlas-menu__socials { gap: 22px; }
     .atlas-menu__socials a { gap: 7px; }

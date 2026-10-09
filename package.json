@@ -28,7 +28,7 @@
     "scripts": {
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
-        "postbuild": "node scripts/generate-og-pages.js",
+        "postbuild": "node scripts/generate-og-pages.js && node scripts/generate-redirects.js",
         "test": "react-app-rewired test",
         "eject": "react-app-rewired eject",
         "translate": "python src/assets/lang/lang.py",

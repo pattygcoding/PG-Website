@@ -19,7 +19,8 @@ const domains = {
     connect_four: "experiences", alkalab: "experiences", snake: "experiences", suprememc: "experiences",
     tiger_tailgating_pros: "products", educational_experience: "experiences", professional_experience: "experiences",
 };
-const routes = { tiger_programming_language: "/tiger", alkalab: "/alkalab", snake: "/snake", suprememc: "/suprememc" };
+// Projects without an on-site route fall back to their portfolio entry link.
+const routes = { tiger_programming_language: "/tiger" };
 const projectIds = [...featuredProjects.map(({ id }) => id), ...Object.keys(english.portfolio.entries).filter((id) => !featuredProjects.some((project) => project.id === id))];
 export const ATLAS_HUB = "portfolio_website";
 export const ATLAS_FAMILIES = [
