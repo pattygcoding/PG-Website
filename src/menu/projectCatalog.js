@@ -1,7 +1,7 @@
-import { FaGamepad } from "react-icons/fa";
-import { GiConsoleController, GiTestTubes, GiWarPick } from "react-icons/gi";
+import { GiConsoleController } from "react-icons/gi";
 import { VscTerminal, VscGlobe, VscJson } from "react-icons/vsc";
 import { TbGridDots } from "react-icons/tb";
+import { Blocks, FlaskConical, Gamepad2, Pickaxe } from "./lucide-icons";
 import l from "@/assets/links/links.json";
 
 // Kept in alphabetical order by English menu label.
@@ -12,9 +12,10 @@ export const projects = [
 		icon: GiConsoleController,
 		external: true,
 		children: [
-			{ key: "alkalab", path: l.arcade.alkalab, icon: GiTestTubes, external: true },
-			{ key: "snake", path: l.arcade.snake, icon: FaGamepad, external: true },
-			{ key: "suprememc", path: l.arcade.suprememc, icon: GiWarPick, external: true },
+			{ key: "alkalab", path: l.arcade.alkalab, icon: FlaskConical, external: true },
+			{ key: "rustcraft", path: l.arcade.rustcraft, icon: Pickaxe, external: true },
+			{ key: "snake", path: l.arcade.snake, icon: Gamepad2, external: true },
+			{ key: "suprememc", path: l.arcade.suprememc, icon: Blocks, external: true },
 		],
 	},
 	{ key: "connect_four", path: l.connect_four, icon: TbGridDots, external: true },
