@@ -18,7 +18,13 @@ test.each([true, false])("connected work defaults and toggles with mobile=%s", (
     const originalActEnvironment = global.IS_REACT_ACT_ENVIRONMENT;
     global.IS_REACT_ACT_ENVIRONMENT = true;
     window.matchMedia = jest.fn(() => ({ matches: mobile })) as unknown as typeof window.matchMedia;
-    useLang.mockReturnValue({ t: (key: string) => key.split(".").reduce((value: any, part: string) => value?.[part], english as any) });
+    useLang.mockReturnValue({
+        t: (key: string) =>
+            key.split(".").reduce<unknown>(
+                (value, part) => (value && typeof value === "object" ? (value as Record<string, unknown>)[part] : undefined),
+                english,
+            ),
+    });
     const container = document.createElement("div");
     document.body.appendChild(container);
     const root = createRoot(container);

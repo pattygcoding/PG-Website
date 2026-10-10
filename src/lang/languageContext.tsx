@@ -7,7 +7,14 @@ type LanguageMessages = Record<string, unknown>;
 export interface LanguageContextValue {
 	lang: string;
 	setLang: Dispatch<SetStateAction<string>>;
-	/** Returns a translated string for leaf keys, or a nested messages object for branch keys. */
+	/**
+	 * Returns a translated string for leaf keys, or a nested messages object for branch keys.
+	 *
+	 * `any` is deliberate here and is the one justified exception to the
+	 * `@typescript-eslint/no-explicit-any` rule: locale JSON is dynamically shaped and this
+	 * single accessor serves both leaf keys (string) and branch keys (nested objects).
+	 */
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- polymorphic i18n accessor (string leaf / object branch)
 	t: (key: string) => any;
 }
 
@@ -46,12 +53,15 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 		return () => { cancelled = true; };
 	}, [lang]);
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- see LanguageContextValue.t
 	const t = (key: string): any => {
 		const parts = key.split(".");
-		let val: any = parts.reduce((acc: any, part) => acc && acc[part], languageFile);
-		if (val === undefined) {
-			val = parts.reduce((acc: any, part) => acc && acc[part], en_us);
-		}
+		const resolve = (source: LanguageMessages): unknown =>
+			parts.reduce<unknown>(
+				(acc, part) => (acc && typeof acc === "object" ? (acc as LanguageMessages)[part] : undefined),
+				source,
+			);
+		const val = resolve(languageFile) ?? resolve(en_us as LanguageMessages);
 		return val || key;
 	};
 
