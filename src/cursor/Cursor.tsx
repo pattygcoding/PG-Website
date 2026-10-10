@@ -1,7 +1,18 @@
 import React, { useEffect, useRef, useState, useCallback } from "react"
 import type { CssVariables } from "@/types/css"
 
-const IsDevice: Record<string, any> | undefined = (() => {
+interface DeviceDetector {
+	info: string;
+	Android(): RegExpMatchArray | null;
+	BlackBerry(): RegExpMatchArray | null;
+	IEMobile(): RegExpMatchArray | null;
+	iOS(): RegExpMatchArray | null;
+	iPad(): RegExpMatchArray | number | boolean | null;
+	OperaMini(): RegExpMatchArray | null;
+	any(): RegExpMatchArray | number | boolean | null | undefined;
+}
+
+const IsDevice: DeviceDetector | undefined = (() => {
 	if (typeof navigator == 'undefined') return
 
 	let ua = navigator.userAgent
