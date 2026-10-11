@@ -6,7 +6,7 @@ import CopyButton from "./CopyButton";
 test.each([true, false])("announces clipboard results (success: %s)", async (success) => {
 	global.IS_REACT_ACT_ENVIRONMENT = true;
 	const originalClipboard = Object.getOwnPropertyDescriptor(navigator, "clipboard");
-	const writeText = jest.fn(() => success ? Promise.resolve() : Promise.reject(new Error("Denied")));
+	const writeText = vi.fn(() => success ? Promise.resolve() : Promise.reject(new Error("Denied")));
 	Object.defineProperty(navigator, "clipboard", { configurable: true, value: { writeText } });
 	const container = document.createElement("div");
 	document.body.appendChild(container);

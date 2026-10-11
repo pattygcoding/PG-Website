@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2020",
         "lib": [
             "dom",
             "dom.iterable",
@@ -14,21 +14,26 @@
         "forceConsistentCasingInFileNames": true,
         "noFallthroughCasesInSwitch": true,
         "module": "esnext",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noEmit": true,
         "jsx": "react-jsx",
-        "downlevelIteration": true,
-        "baseUrl": ".",
+        "types": [
+            "vite/client",
+            "vitest/globals",
+            "node"
+        ],
         "paths": {
             "@/*": [
-                "src/*"
+                "./src/*"
             ]
         }
     },
     "include": [
         "src",
-        "scripts"
+        "scripts",
+        "vite.config.mts",
+        "vitest.setup.ts"
     ]
 }

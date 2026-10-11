@@ -4,9 +4,9 @@ import { act } from "react-dom/test-utils";
 import { MemoryRouter, Link } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
 
-jest.mock("@/components/social-media", () => ({ SocialMedia: () => null }));
-jest.mock("@/pages/home/Home", () => () => <main><h1>Home</h1></main>);
-jest.mock("@/pages/about/About", () => () => <main><h1>About</h1></main>);
+vi.mock("@/components/social-media", () => ({ SocialMedia: () => null }));
+vi.mock("@/pages/home/Home", () => ({ default: () => <main><h1>Home</h1></main> }));
+vi.mock("@/pages/about/About", () => ({ default: () => <main><h1>About</h1></main> }));
 
 test("keeps initial focus and focuses content after navigation", async () => {
 	global.IS_REACT_ACT_ENVIRONMENT = true;
@@ -18,22 +18,22 @@ test("keeps initial focus and focuses content after navigation", async () => {
 		const content = container.querySelector<HTMLElement>("#main-content")!;
 		expect(content.tabIndex).toBe(-1);
 		expect(document.activeElement).not.toBe(content);
-		jest.useFakeTimers();
+		vi.useFakeTimers();
 		await act(async () => container.querySelector<HTMLElement>("a")!.click());
-		act(() => jest.runOnlyPendingTimers());
+		act(() => vi.runOnlyPendingTimers());
 		expect(document.activeElement).toBe(content);
 		expect(content.querySelector("h1")!.textContent).toBe("About");
 	} finally {
 		act(() => root.unmount());
 		container.remove();
-		jest.useRealTimers();
+		vi.useRealTimers();
 	}
 });
 
 test("sends retired arcade routes to the arcade subdomain instead of the home page", async () => {
 	global.IS_REACT_ACT_ENVIRONMENT = true;
 	// jsdom refuses cross-origin navigation, so silence its not-implemented error.
-	const consoleError = jest.spyOn(console, "error").mockImplementation(() => {});
+	const consoleError = vi.spyOn(console, "error").mockImplementation(() => {});
 	const container = document.createElement("div");
 	document.body.appendChild(container);
 	const root = createRoot(container);

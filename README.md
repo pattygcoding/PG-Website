@@ -1,4 +1,4 @@
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-7.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.2.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
@@ -44,7 +44,7 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 ## 🛠️ Technology Stack
 
 ### **Frontend**
-- **TypeScript 4.9** - Static typing across the entire codebase (strict mode)
+- **TypeScript 7.0** - Static typing across the entire codebase (strict mode)
 - **React 18.2.0** - Modern React with hooks and context
 - **React Router 6** - Client-side routing with language-aware links
 - **Bootstrap 5.2.3** - Responsive CSS framework
@@ -55,7 +55,8 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 - **Go & Rust** - WebAssembly implementations for Tiger language
 - **Python 3** - Translation automation scripts
 - **tsx** - Runs the TypeScript build scripts (OG preview pages, redirect stubs)
-- **Node.js 18** - Development environment
+- **Vite 8** - Development server and production bundler
+- **Node.js 20+** - Development environment
 
 ### **APIs & Services**
 - **Google Translate API** - Automated translation service
@@ -64,9 +65,12 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 
 ### **Development Tools**
 - **Yarn** - Package management
-- **TypeScript Compiler** - `yarn typecheck` runs `tsc --noEmit`
-- **React App Rewired** - Custom webpack configuration
-- **ESLint** - Code linting and formatting
+- **TypeScript 7 Compiler** - `yarn typecheck` runs `tsc --noEmit`
+- **Vite** - Development server and production bundler
+- **Vitest** - Unit testing (`yarn test`) with jsdom
+- **oxlint** - Code linting (`yarn lint`); a Rust linter that parses TypeScript natively
+
+> **Linting note:** TypeScript 7 no longer exposes the Node compiler API that `typescript-eslint` and ESLint depend on, so linting uses [oxlint](https://oxc.rs), which ships its own native TypeScript parser. `yarn lint` enforces `typescript/no-explicit-any` plus oxlint's default correctness and React rules.
 
 ---
 
@@ -91,7 +95,7 @@ A high-performance formatter with WebAssembly backend:
 ## 🚀 Getting Started
 
 ### Prerequisites
-- **Node.js** (v18 or higher)
+- **Node.js** (v20.19+ or v22.12+)
 - **Yarn** package manager
 - **Python 3** (for translation features)
 
@@ -118,7 +122,7 @@ A high-performance formatter with WebAssembly backend:
    yarn start
    ```
    
-   The application will be available at `http://localhost:3000`
+   The application will be available at `http://localhost:5173`
 
 ### Type Checking
 

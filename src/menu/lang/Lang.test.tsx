@@ -31,7 +31,8 @@ test("labels language buttons and restores focus on Escape and selection", async
 		act(() => toggle.click());
 		const spanish = Array.from(container.querySelectorAll<HTMLElement>(".lang-option")).find((option) => option.querySelector('[lang="es-MX"]'));
 		await act(async () => spanish!.click());
-		expect(document.documentElement.lang).toBe("es-MX");
+		// Locale JSON loads through a dynamic import(), which resolves asynchronously.
+		await vi.waitFor(() => expect(document.documentElement.lang).toBe("es-MX"));
 	} finally {
 		act(() => root.unmount());
 		container.remove();

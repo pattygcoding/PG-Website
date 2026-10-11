@@ -4,9 +4,9 @@ import { act, Simulate } from "react-dom/test-utils";
 import { MemoryRouter } from "react-router-dom";
 import Menu from "./Menu";
 
-jest.mock("@/lang/languageContext", () => ({ useLang: () => ({ t: (key: string) => key }) }));
-jest.mock("./lang", () => ({ Lang: () => <button type="button">Language</button> }));
-jest.mock("@/components/theme-toggle", () => ({ ThemeToggle: () => <button type="button">Theme</button> }));
+vi.mock("@/lang/languageContext", () => ({ useLang: () => ({ t: (key: string) => key }) }));
+vi.mock("./lang", () => ({ Lang: () => <button type="button">Language</button> }));
+vi.mock("@/components/theme-toggle", () => ({ ThemeToggle: () => <button type="button">Theme</button> }));
 
 let container: HTMLDivElement;
 let root: ReturnType<typeof createRoot>;
@@ -21,7 +21,7 @@ beforeEach(() => {
 afterEach(() => {
 	act(() => root.unmount());
 	container.remove();
-	jest.restoreAllMocks();
+	vi.restoreAllMocks();
 });
 
 const click = (selector: string) => act(() => container.querySelector<HTMLElement>(selector)!.click());
@@ -84,7 +84,7 @@ test("automatically expands the current project's group", () => {
 });
 
 test("wraps Tab and Shift+Tab inside the menu", () => {
-	jest.spyOn(HTMLElement.prototype, "getClientRects").mockReturnValue([{}] as unknown as DOMRectList);
+	vi.spyOn(HTMLElement.prototype, "getClientRects").mockReturnValue([{}] as unknown as DOMRectList);
 	renderMenu();
 	const first = container.querySelector(".site__header a");
 	const last = container.querySelector<HTMLElement>('.atlas-menu__socials a:last-child')!;

@@ -42,7 +42,7 @@ const renderExplorer = async (path = "/about") => {
 const activeName = (container: HTMLElement): string | null => container.querySelector('[role="tab"][aria-selected="true"] .skill-index__name')!.textContent;
 const detailTitle = (container: HTMLElement): string | null => container.querySelector(".skill-detail h4")!.textContent;
 
-beforeAll(() => { Element.prototype.scrollIntoView = jest.fn(); });
+beforeAll(() => { Element.prototype.scrollIntoView = vi.fn(); });
 
 test("lists skills alphabetically and selects the first one by default", async () => {
 	const { container, cleanup } = await renderExplorer();

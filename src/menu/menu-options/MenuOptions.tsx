@@ -49,7 +49,7 @@ const MenuOptions = ({ handleToggle, closeMenu }: MenuOptionsProps) => {
 	return (
 		<div className="atlas-menu">
 			<div className="atlas-menu__scenery" aria-hidden="true">
-				<div className="atlas-menu__galaxy" style={{ backgroundImage: `url("${process.env.PUBLIC_URL}/assets/images/galaxy-m101.jpg")` }} />
+				<div className="atlas-menu__galaxy" style={{ backgroundImage: `url("${import.meta.env.BASE_URL}/assets/images/galaxy-m101.jpg")` }} />
 				<div className="atlas-menu__coast" />
 			</div>
 			<div className="atlas-menu__content">
