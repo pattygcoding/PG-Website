@@ -4,21 +4,29 @@
     "home": "Thuis",
     "about": "Over mij",
     "portfolio": "Portefeuille",
-    "projects": "Websiteprojecten",
-    "tiger": "Tijger Taal",
+    "projects": "Uitgelichte projecten",
+    "tiger": "Tiger - Een aangepaste programmeertaal",
     "snake": "Slangenspel",
     "portfolio_translator": "Portfoliovertaler",
-    "formatter": "JSON & YAML-formatter",
+    "formatter": "JSON- & YAML-linter",
     "contact": "Neem contact met mij op",
     "home_description": "sys.root // hoofdoverzicht",
     "about_description": "ingenieursprofiel // bio & stack",
-    "portfolio_description": "softwarecatalogus // aanbevolen werken",
-    "projects_description": "interactieve tools en compilers",
-    "tiger_description": "aangepaste compiler en AST-visualizer",
+    "portfolio_description": "softwarecatalogus // uitgelichte werken",
+    "projects_description": "interactieve tools & compilers",
+    "tiger_description": "aangepaste compiler & AST-visualisatie",
     "snake_description": "klassiek arcadespel / WASM",
     "portfolio_translator_description": "100+ taalmatrix & i18n",
-    "formatter_description": "syntaxisvalidator en -converter",
-    "contact_description": "open transmissie // neem contact op"
+    "formatter_description": "syntaxvalidator & -converter",
+    "contact_description": "open transmissie // neem contact op",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Vier op een rij-taalbomen",
+    "alkalab_description": "scheikundelab-simulatie / WASM",
+    "rustcraft_description": "Minecraft-achtig voxelspel / Rust & wgpu",
+    "suprememc_description": "Minecraft-mod-showcase / Java"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Producten en systemen",
@@ -37,15 +45,124 @@
     "featured": {
       "kicker": "Uitgelichte projecten",
       "title": "Geselecteerd werk",
-      "description": "Zes projecten die het beste weergeven hoe ik ambitieuze ideeën omzet in gepolijste, werkende software.",
-      "view_project": "Bekijk project",
-      "open_project": "Open Live-project",
-      "view_all": "Ontdek het volledige portfolio",
+      "description": "Zes projecten die het beste laten zien hoe ik ambitieuze ideeën omzet in gepolijste, werkende software.",
+      "view_project": "Project bekijken",
+      "open_project": "Live project openen",
+      "view_all": "De volledige portfolio verkennen",
       "badges": {
         "saas": "SaaS",
         "full_website": "Volledige website",
         "available_here": "Hier beschikbaar",
         "minecraft_mod": "Minecraft-mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Een ander perspectief op het werk",
+      "invitation": "Verken de engineering-atlas",
+      "kicker": "Volledige portfolio / verbonden denken",
+      "title": "Engineering-atlas",
+      "projects": "Projecten",
+      "technologies": "Technologieën",
+      "connections": "Verbindingen",
+      "center": "Engineering-atlas",
+      "filter_label": "Projectcategorieën",
+      "domains": {
+        "all": "Al het werk",
+        "products": "Producten",
+        "systems": "Systemen",
+        "experiences": "Ervaringen"
+      },
+      "search": "Zoek een project of technologie",
+      "view_label": "Atlasweergave",
+      "map_view": "Kaartweergave",
+      "map_navigation": "Navigatie portfolio-kaart",
+      "zoom_in": "Inzoomen",
+      "zoom_out": "Uitzoomen",
+      "zoom_level": "Zoomniveau van kaart",
+      "fit_all": "Alle projecten passend maken",
+      "center_selected": "Geselecteerd project centreren",
+      "all_technologies": "Alle technologieën",
+      "list_view": "Lijstweergave",
+      "pause": "Signaal-animatie pauzeren",
+      "resume": "Signaal-animatie hervatten",
+      "project_selector": "Projecten verkennen",
+      "inspector": "Details van geselecteerd project",
+      "shared_stack": "Gedeelde technologie",
+      "family_connection": "Projectverbinding",
+      "portfolio_connection": "Portfolioconnectie",
+      "families": {
+        "portfolio": "Portfolio-hub",
+        "business": "Bedrijfstoepassingen",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly-projecten",
+        "libraries": "Scriptbibliotheken",
+        "languages": "Taalexperimenten",
+        "automation": "Automatiserings- & datatools",
+        "experience": "Professionele & educatieve ervaring"
+      },
+      "browser_native": "Browser-native / geen server",
+      "no_results": "Geen overeenkomende projecten",
+      "no_selection": "Geen project geselecteerd.",
+      "reset": "Filters wissen",
+      "engineering_lens": "Engineering-perspectief",
+      "connected_work": "Verbonden werk",
+      "open_live": "Live project openen",
+      "open_project": "Project verkennen",
+      "footer": "Verschillende domeinen. Eén verbonden engineeringpraktijk.",
+      "contact": "Laten we bouwen wat hierna komt",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Data-pipelines",
+        "angular": "Angular",
+        "access": "Toegangscontrole",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testen",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabiliteit",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Toegankelijkheid",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Inconsistente spreadsheets erin. Bouwramingen en klantklare voorstellen eruit. Een SaaS-product gebouwd rond de werkelijke werkstroom van de aannemer.",
+          "lens": "Flexibele imports vereisen een strikt intern model: meer formaten accepteren mag de berekeningsregels waarvan een bod afhankelijk is niet verzwakken."
+        },
+        "inventory_register": {
+          "summary": "Een point-of-sale-workflow met Angular en Node.js die geverifieerde gebruikers, voorraadnauwkeurigheid en een gesimuleerde betalingsstroom verbindt.",
+          "lens": "Een kassa is meer dan een afrekeningsscherm. Rollen, voorraadwijzigingen en betalingsstatussen hebben expliciete grenzen nodig om de workflow verantwoord te houden."
+        },
+        "grocery_app": {
+          "summary": "Een .NET 9 Blazor-applicatie met controller-, service- en repository-grenzen, Entity Framework Core-persistentie en een uitgebreide testsuite.",
+          "lens": "Scheiding verdient zijn plaats wanneer bedrijfsregels onafhankelijk van de interface en persistentielaag kunnen worden getest."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL-salarisverwerking ontmoet een SQLite-boekhouding met dubbel boekhouden en een Svelte-operatiesdashboard.",
+          "lens": "Financiële correctheid begint bij de representatie: rekenen met hele centen en gebalanceerde boekingen maken geldbewegingen expliciet."
+        },
+        "interop": {
+          "summary": "Een cross-language-referentie over 15 programmeertalen en 18 uitvoeringspatronen, die onderzoekt wat er gebeurt op runtime-grenzen.",
+          "lens": "Het lastige deel is het contract tussen runtimes: gegevensuitwisseling, procesgedrag en herhaalbare uitvoering wegen zwaarder dan syntaxis."
+        },
+        "formatter": {
+          "summary": "Een echte Go-parse-engine, gecompileerd naar WebAssembly. JSON- en YAML-validatie en -opmaak draaien lokaal in de browser.",
+          "lens": "De parser naar de browser verplaatsen ruilt een grotere client-load in voor lokale verwerking, draagbaarheid en minder serverafhankelijkheden."
+        },
+        "portfolio_website": {
+          "summary": "De site waar je nu bent: een React-portfolio met 100+ talen, toegankelijke interacties en werkende WebAssembly-tools.",
+          "lens": "Een statische implementatie hoeft geen statische ervaring te betekenen. Rijke interacties kunnen op de client leven zonder applicatieserver."
+        },
+        "biblioteca": {
+          "summary": "Een Python-localisatiepipeline die één gestructureerde contentbron omzet in een portfolio dat in 100+ talen beschikbaar is.",
+          "lens": "Wereldwijd bereik is net zozeer een data-onderhoudsprobleem als een vertaalprobleem. Eén bron van waarheid houdt contentwijzigingen beheersbaar."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Technische vaardigheden",
       "header1": "Programmeertalen",
       "header2": "Kaders en bibliotheken",
-      "header3": "Hulpmiddelen en technologieën"
+      "header3": "Hulpmiddelen en technologieën",
+      "technologies": "technologieën",
+      "search_label": "Filteren",
+      "search_placeholder": "Vaardigheden filteren…",
+      "clear_search": "Filter wissen",
+      "no_matches": "Geen vaardigheden komen overeen met je filter.",
+      "works": "Werken",
+      "experience": "Ervaring",
+      "professional": "Professioneel",
+      "education": "Onderwijs",
+      "paired_with": "Vaak gecombineerd met",
+      "summary_professional": "Professioneel gebruikt bij {items}.",
+      "summary_education": "Bestudeerd en toegepast bij {items}.",
+      "summary_projects": "Hands-on toegepast in {items}.",
+      "summary_projects_also": "Ook toegepast in {items}.",
+      "and_more": "meer",
+      "scroll_more": "Scroll voor meer werken",
+      "show_less": "Minder tonen",
+      "no_samples": "Onderdeel van mijn werkgereedschap. Ik leg graag uit hoe ik het heb gebruikt."
     },
     "services": {
       "title": "Mijn diensten",
@@ -112,6 +247,13 @@
           "text": "Ik bouw met de realiteit na de lancering in het achterhoofd: geheimen die buiten de controle van de bron worden gehouden, expliciete databasemigratiepaden, op rollen gebaseerde autorisatie, validatie aan systeemgrenzen, geautomatiseerde tests, CI/CD-bewustzijn en praktische waarneembaarheid. Dit zijn de details die van een prototype betrouwbare software maken."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licenties & certificeringen",
+      "credential": "Certificering",
+      "issued_by": "Uitgegeven door",
+      "issued": "Uitgegeven",
+      "verify": "Certificering verifiëren"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Verbind vier",
-        "text": "Enorme familie van meer dan 50+ implementaties van de Connect Four-game. Dit project omvat implementaties in meer dan 30 verschillende programmeertalen, waaronder Java, C++, Python, JavaScript en meer. Daarnaast bevat het ook meer dan 20 verschillende frameworks of andere formaten, waaronder React.js, Ruby on Rails, ASP.NET en meer.",
+        "text": "Een enorme familie van 90+ implementaties van het Vier-op-een-rij-spel. Het project omvat 30+ programmeertalen, waaronder Java, C++, Python en JavaScript, naast 50+ verschillende frameworks, bibliotheken, runtimes en databases, van React, Angular en Blazor tot Django, Spring Boot, Phoenix, PostgreSQL en meer.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Een lokaal loonverwerkingssysteem gebouwd met GnuCOBOL, een SQLite-grootboek met dubbele invoer en een Svelte-operatiedashboard. Het maakt gebruik van berekeningen op hele centen, batchverwerking van salarisadministraties en een loopback-dashboard om financiële workflows expliciet, testbaar en operationeel verantwoord te maken.",
+        "text": "Een lokaal salarisverwerkingssysteem gebouwd met GnuCOBOL, een SQLite-boekhouding met dubbel boekhouden en een Svelte-operatiesdashboard. Het gebruikt rekenen met hele centen, batch-salarisverwerking en een loopback-dashboard om financiële workflows expliciet, testbaar en operationeel verantwoord te maken.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft-mod",
-        "text": "Een Minecraft-mod die aangepaste gereedschappen, bepantsering, mobs, blokken, afmetingen en nog veel meer functies aan het spel toevoegt. Voornamelijk gebouwd met Java en Kotlin, met ondersteuning voor Minecraft-versies 1.16 tot en met 26.2.",
+        "text": "Een Minecraft-mod die aangepaste tools, armor, mobs, blokken, dimensies en nog veel meer functies aan het spel toevoegt. Gebouwd met Java en Kotlin, met ondersteuning voor Minecraft-versies 1.16 tot en met 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "Slangenspel",
-        "text": "Een gepolijste Snake-engine gebouwd met Rust en Macroquad, gecompileerd naar WebAssembly en weergegeven via HTML5 Canvas. Het combineert deterministische speltikken van 0,12 seconden met vloeiende geïnterpoleerde bewegingen, expliciete spelfasen, responsieve besturing, afhandeling van botsingen en win-statussen, en een gerichte test suite die de kernspelregels behandelt.",
+        "text": "Een gepolijste Slang-engine gebouwd met Rust en Macroquad, gecompileerd naar WebAssembly en weergegeven via HTML5 Canvas. Het combineert deterministische 0,12-seconde-game-ticks met soepele geïnterpoleerde beweging, expliciete gamefasen, responsieve bediening, afhandeling van botsingen en winststatussen en een gerichte testsuite die de kernspelregels dekt.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turingmachineproject",
         "text": "Familie van meer dan 30+ implementaties van de Turing Machine. Wordt gebruikt om de volledigheid van verschillende programmeertalen voor onderzoek aan te tonen, vooral voor de Tiger-programmeertaal.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Een poedersand-chemielab gebouwd in Rust en gecompileerd naar WebAssembly. Schilder zand, water, lava, staal, calciumcarbide of een klontje natrium en kijk hoe fysica en chemie het uitvechten: natrium ontploft in water, calciumcarbide borrelt acetyleen, lava smelt zand tot glas en dichtheid alleen sorteert olie, kwik en zand. De engine draait 32 materialen en 40 declaratieve reactieregels over een platte celbuffer en rendert pixels rechtstreeks uit het lineaire wasm-geheugen zonder kopieën per frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Selecteer motor:",
     "tiger_code": "Tijgercode:",
     "run_tiger": "Ren Tijger",
-    "output": "Uitgang:"
+    "output": "Uitgang:",
+    "stop": "Stoppen",
+    "program_input": "Programma-invoer"
   },
   "tab": {
     "title": "Patrick Goedwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Geen taalondersteuning"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Broncode bekijken op GitHub"
+  }
 }

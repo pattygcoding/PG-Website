@@ -4,21 +4,29 @@
     "home": "家",
     "about": "關於我",
     "portfolio": "資料夾",
-    "projects": "網站項目",
-    "tiger": "虎語",
+    "projects": "精選專案",
+    "tiger": "Tiger - 自訂程式語言",
     "snake": "貪吃蛇遊戲",
     "portfolio_translator": "作品集翻譯",
-    "formatter": "JSON 和 YAML 格式化程序",
+    "formatter": "JSON 與 YAML 檢查器",
     "contact": "聯絡我",
-    "home_description": "sys.root // 主要概述",
-    "about_description": "工程師簡介 // 履歷和堆疊",
-    "portfolio_description": "軟體目錄//特色作品",
-    "projects_description": "互動式工具和編譯器",
-    "tiger_description": "自訂編譯器和 AST 視覺化工具",
+    "home_description": "sys.root // 主介面總覽",
+    "about_description": "工程師簡介 // 履歷與技術棧",
+    "portfolio_description": "軟體目錄 // 精選作品",
+    "projects_description": "互動式工具與編譯器",
+    "tiger_description": "自訂編譯器與 AST 視覺化器",
     "snake_description": "經典街機遊戲 / WASM",
-    "portfolio_translator_description": "100+ 語言矩陣和 i18n",
-    "formatter_description": "語法驗證器和轉換器",
-    "contact_description": "開啟傳輸//取得聯繫"
+    "portfolio_translator_description": "100+ 語言矩陣與 i18n",
+    "formatter_description": "語法驗證器與轉換器",
+    "contact_description": "開放式傳輸 // 請與我聯絡",
+    "arcade": "街機",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "四子棋語言樹",
+    "alkalab_description": "化學實驗室模擬 / WASM",
+    "rustcraft_description": "Minecraft 風格體素遊戲 / Rust 與 wgpu",
+    "suprememc_description": "Minecraft 模組展示 / Java"
   },
   "home": {
     "title": "高級全端工程師|產品與系統",
@@ -35,17 +43,126 @@
     "contact_button": "聯絡我",
     "about_button": "關於我",
     "featured": {
-      "kicker": "特色項目",
-      "title": "作品選",
-      "description": "六個項目最能代表我如何將雄心勃勃的想法轉化為精美的可用軟體。",
-      "view_project": "查看項目",
-      "open_project": "打開實時項目",
-      "view_all": "探索完整的產品組合",
+      "kicker": "精選專案",
+      "title": "精選作品",
+      "description": "六個最能代表我如何將宏大的想法轉化為精良、可用軟體的專案。",
+      "view_project": "檢視專案",
+      "open_project": "開啟線上專案",
+      "view_all": "探索完整作品集",
       "badges": {
-        "saas": "軟體即服務",
+        "saas": "SaaS",
         "full_website": "完整網站",
-        "available_here": "此處可用",
-        "minecraft_mod": "我的世界模組"
+        "available_here": "在此可用",
+        "minecraft_mod": "Minecraft 模組"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "對工作的另一種視角",
+      "invitation": "探索工程圖集",
+      "kicker": "完整作品集 / 關聯思維",
+      "title": "工程圖集",
+      "projects": "專案",
+      "technologies": "技術",
+      "connections": "關聯",
+      "center": "工程圖集",
+      "filter_label": "專案分類",
+      "domains": {
+        "all": "所有作品",
+        "products": "產品",
+        "systems": "系統",
+        "experiences": "經驗"
+      },
+      "search": "尋找專案或技術",
+      "view_label": "圖集檢視",
+      "map_view": "地圖檢視",
+      "map_navigation": "作品集地圖導覽",
+      "zoom_in": "放大",
+      "zoom_out": "縮小",
+      "zoom_level": "地圖縮放層級",
+      "fit_all": "適配所有專案",
+      "center_selected": "置中選取的專案",
+      "all_technologies": "所有技術",
+      "list_view": "清單檢視",
+      "pause": "暫停訊號動畫",
+      "resume": "繼續訊號動畫",
+      "project_selector": "探索專案",
+      "inspector": "所選專案詳情",
+      "shared_stack": "共享技術",
+      "family_connection": "專案關聯",
+      "portfolio_connection": "作品集關聯",
+      "families": {
+        "portfolio": "作品集中心",
+        "business": "商業應用",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly 專案",
+        "libraries": "指令碼庫",
+        "languages": "語言實驗",
+        "automation": "自動化與資料工具",
+        "experience": "專業與教育經驗"
+      },
+      "browser_native": "瀏覽器原生 / 無需伺服器",
+      "no_results": "沒有相符的專案",
+      "no_selection": "未選取專案。",
+      "reset": "清除篩選",
+      "engineering_lens": "工程視角",
+      "connected_work": "關聯工作",
+      "open_live": "開啟線上專案",
+      "open_project": "探索專案",
+      "footer": "不同領域。一項關聯的工程實踐。",
+      "contact": "讓我們一起建構未來",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "資料管道",
+        "angular": "Angular",
+        "access": "存取控制",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "測試",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "互通性",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "無障礙",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "輸入不一致的試算表，輸出建築估算與可直接交付客戶的提案。一款圍繞承包商真實工作流程建構的 SaaS 產品。",
+          "lens": "彈性的匯入需要嚴格的內部模型：接受更多格式絕不能削弱報價所依賴的計算規則。"
+        },
+        "inventory_register": {
+          "summary": "一款基於 Angular 與 Node.js 的收銀工作流程，連接已驗證使用者、庫存準確性與模擬付款流程。",
+          "lens": "收銀機不僅是一個結帳介面。角色、庫存變動與付款狀態需要明確的邊界，以維持工作流程的可問責性。"
+        },
+        "grocery_app": {
+          "summary": "一款 .NET 9 Blazor 應用，具有控制器、服務與倉儲邊界、Entity Framework Core 持久化以及完整的測試套件。",
+          "lens": "當業務規則可以獨立於介面與持久化層進行測試時，分離就體現了價值。"
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL 薪資處理與 SQLite 複式記帳帳本及 Svelte 營運儀表板相結合。",
+          "lens": "財務正確性始於表達：整數分運算與平衡的記帳項目使資金流動清晰可見。"
+        },
+        "interop": {
+          "summary": "一份跨語言參考，涵蓋 15 種程式語言與 18 種執行模式，探索執行階段邊界發生的情況。",
+          "lens": "難點在於執行階段之間的契約：資料交換、程序行為與可重複執行比語法更重要。"
+        },
+        "formatter": {
+          "summary": "一個編譯為 WebAssembly 的真正 Go 解析引擎。JSON 與 YAML 的驗證與格式化在瀏覽器本機執行。",
+          "lens": "把解析器移到瀏覽器，是以更大的用戶端負載換取本機處理、可攜性與更少的伺服器依賴。"
+        },
+        "portfolio_website": {
+          "summary": "您目前所在的網站：一個支援 100+ 語言、無障礙互動與可用的 WebAssembly 工具的 React 作品集。",
+          "lens": "靜態部署不一定意味著靜態體驗。豐富的互動可以在沒有應用程式伺服器的情況下存在於用戶端。"
+        },
+        "biblioteca": {
+          "summary": "一個 Python 在地化管道，將單一結構化內容來源轉化為支援 100+ 語言的作品集。",
+          "lens": "全球涵蓋既是資料維護問題，也是翻譯問題。單一真實性來源使內容變更易於管理。"
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "技術技能",
       "header1": "程式設計語言",
       "header2": "框架和函式庫",
-      "header3": "工具與技術"
+      "header3": "工具與技術",
+      "technologies": "技術",
+      "search_label": "篩選",
+      "search_placeholder": "篩選技能…",
+      "clear_search": "清除篩選",
+      "no_matches": "沒有技能與您的篩選條件相符。",
+      "works": "作品",
+      "experience": "經驗",
+      "professional": "專業",
+      "education": "教育",
+      "paired_with": "常與之搭配",
+      "summary_professional": "在 {items} 專業使用。",
+      "summary_education": "在 {items} 學習並應用。",
+      "summary_projects": "在 {items} 中實務應用。",
+      "summary_projects_also": "也在 {items} 中應用。",
+      "and_more": "更多",
+      "scroll_more": "捲動以查看更多作品",
+      "show_less": "顯示更少",
+      "no_samples": "我工作工具集的一部分。我很樂意介紹我如何使用它。"
     },
     "services": {
       "title": "我的服務",
@@ -112,6 +247,13 @@
           "text": "我根據啟動後的實際情況進行建構：不受原始碼控制的秘密、明確的資料庫遷移路徑、基於角色的授權、系統邊界的驗證、 自動化測試、CI/CD 意識和實際可觀測性。這些是將原型轉變為可靠軟體的細節。"
         }
       ]
+    },
+    "certifications": {
+      "title": "授權與認證",
+      "credential": "認證",
+      "issued_by": "頒發機構",
+      "issued": "頒發日期",
+      "verify": "驗證認證"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "連接四",
-        "text": "包含 50 多個四子棋遊戲實施的龐大家族。 該專案包括 30 多種不同程式語言的實現，包括 Java、C++、Python、JavaScript 等。 此外，它還包含超過 20 種不同的框架或其他格式，包括 React.js、Ruby on Rails、ASP.NET 等。",
+        "text": "一個包含 90+ 種四子棋遊戲實現的龐大家族。該專案涵蓋 30+ 種程式語言，包括 Java、C++、Python 和 JavaScript，以及 50+ 種不同的框架、函式庫、執行階段與資料庫，從 React、Angular、Blazor 到 Django、Spring Boot、Phoenix、PostgreSQL 等。",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "薪資OBOL",
-        "text": "使用 GnuCOBOL、SQLite 複式記帳本和 Svelte 作業儀表板建構的本地薪資處理系統。 它使用整數數學、大量薪資處理和環回儀表板來使財務工作流程明確、可測試且可操作負責。",
+        "title": "PayrollOBOL",
+        "text": "一個使用 GnuCOBOL、SQLite 複式記帳帳本和 Svelte 營運儀表板建構的本機薪資處理系統。它利用整數分運算、批次薪資處理與回環儀表板，使財務工作流程明確、可測試且具有營運可問責性。",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft 模組",
-        "text": "一個《我的世界》模組，為遊戲添加了自訂工具、盔甲、生物、方塊、尺寸和更多功能。 主要使用 Java 和 Kotlin 構建，支援 Minecraft 版本 1.16 到 26.2。",
+        "text": "一個為遊戲加入自訂工具、盔甲、生物、方塊、維度以及許多其他功能的 Minecraft 模組。主要使用 Java 和 Kotlin 建構，支援 Minecraft 1.16 至 26.2 版本。",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "貪吃蛇遊戲",
-        "text": "一個用 Rust 和 Macroquad 建立的完善的 Snake 引擎，編譯為 WebAssembly，並透過 HTML5 Canvas 渲染。 它將確定性的 0.12 秒遊戲滴答聲與平滑的插值運動、明確的遊戲階段、響應控制、碰撞和獲勝狀態處理以及集中測試相結合 涵蓋核心遊戲規則的套件。",
+        "text": "一個用 Rust 和 Macroquad 建構、編譯為 WebAssembly 並透過 HTML5 Canvas 繪製的精良貪吃蛇引擎。它將確定性的 0.12 秒遊戲節拍與平滑插值移動、明確的遊戲階段、回應式控制、碰撞與勝利狀態處理以及涵蓋核心遊戲規則的針對性測試套件相結合。",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "圖靈機項目",
         "text": "包含 30 多種圖靈機實現的系列。 用於示範不同程式語言的圖靈完備性以供研究，特別是 Tiger 程式語言。",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "一個用 Rust 建構並編譯為 WebAssembly 的粉砂化學實驗室。繪製沙子、水、熔岩、鋼、碳化鈣或一塊鈉，觀看物理與化學相互交鋒：鈉在水中引爆，碳化鈣釋放乙炔，熔岩將沙熔為玻璃，僅憑密度就能分離油、汞和沙。引擎在扁平單元緩衝上執行 32 種材料與 40 條宣告式反應規則，直接從 wasm 線性記憶體繪製像素，無逐幀複製。",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "選擇引擎：",
     "tiger_code": "老虎代碼：",
     "run_tiger": "跑虎",
-    "output": "輸出："
+    "output": "輸出：",
+    "stop": "停止",
+    "program_input": "程式輸入"
   },
   "tab": {
     "title": "帕特里克·古德溫",
@@ -367,5 +516,8 @@
       "no_language_support": "沒有語言支援"
     }
   },
-  "logotext": "派崔克"
+  "logotext": "派崔克",
+  "repo_button": {
+    "label": "在 GitHub 上檢視原始碼"
+  }
 }

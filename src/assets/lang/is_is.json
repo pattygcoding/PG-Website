@@ -4,21 +4,29 @@
     "home": "Heim",
     "about": "Um mig",
     "portfolio": "Eignasafn",
-    "projects": "Vefverkefni",
-    "tiger": "Tiger tungumál",
-    "snake": "Snake leikur",
+    "projects": "Framúrskarandi verkefni",
+    "tiger": "Tiger - Sérsniðið forritunarmál",
+    "snake": "Snákaleikur",
     "portfolio_translator": "Portfolio þýðandi",
-    "formatter": "JSON & YAML formatter",
+    "formatter": "JSON- og YAML-villuprófari",
     "contact": "Hafðu samband við mig",
     "home_description": "sys.root // aðalyfirlit",
-    "about_description": "verkfræðingasnið // líffræði og stafla",
-    "portfolio_description": "hugbúnaðarlisti // sýnd verk",
+    "about_description": "verkfræðisnið // líf og tæknistafla",
+    "portfolio_description": "hugbúnaðarskrá // framúrskarandi verk",
     "projects_description": "gagnvirk verkfæri og þýðendur",
-    "tiger_description": "sérsniðinn þýðandi og AST sjónrænni",
+    "tiger_description": "sérsniðinn þýðandi og AST-sýnir",
     "snake_description": "klassískur spilakassaleikur / WASM",
-    "portfolio_translator_description": "100+ tungumálafylki & i18n",
-    "formatter_description": "setningafræðiprófari og breytir",
-    "contact_description": "opin sending // hafðu samband"
+    "portfolio_translator_description": "100+ tungumálafylki og i18n",
+    "formatter_description": "málfræðivilluprófari og breytir",
+    "contact_description": "opin sending // hafðu samband",
+    "arcade": "Spilakassi",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Tungumálatré Fjórir í röð",
+    "alkalab_description": "hermun efnalaboratory / WASM",
+    "rustcraft_description": "voxelleikur í Minecraft-stíl / Rust og wgpu",
+    "suprememc_description": "Minecraft mod-sýning / Java"
   },
   "home": {
     "title": "Senior full-Stack verkfræðingur | Vara og kerfi",
@@ -35,17 +43,126 @@
     "contact_button": "Hafðu samband við mig",
     "about_button": "Um mig",
     "featured": {
-      "kicker": "Valin verkefni",
-      "title": "Valið verk",
+      "kicker": "Framúrskarandi verkefni",
+      "title": "Valin verk",
       "description": "Sex verkefni sem sýna best hvernig ég breyti metnaðarfullum hugmyndum í fágaðan, virkan hugbúnað.",
       "view_project": "Skoða verkefni",
-      "open_project": "Opnaðu Live Project",
-      "view_all": "Skoðaðu eignasafnið í heild sinni",
+      "open_project": "Opna beint verkefni",
+      "view_all": "Kannaðu heildarsafnið",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Heil vefsíða",
-        "available_here": "Fáanlegt Hér",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Full vefsíða",
+        "available_here": "Fáanlegt hér",
+        "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Önnur sýn á verkið",
+      "invitation": "Kannaðu verkfræðiatlasið",
+      "kicker": "Heildar safn / tengd hugsun",
+      "title": "Verkfræðiatlas",
+      "projects": "Verkefni",
+      "technologies": "Tækni",
+      "connections": "Tengingar",
+      "center": "Verkfræðiatlas",
+      "filter_label": "Verkefnaflokkar",
+      "domains": {
+        "all": "Öll vinna",
+        "products": "Vörur",
+        "systems": "Kerfi",
+        "experiences": "Reynsla"
+      },
+      "search": "Finndu verkefni eða tækni",
+      "view_label": "Atlassýn",
+      "map_view": "Kortsýn",
+      "map_navigation": "Safn-kortaflakk",
+      "zoom_in": "Aðdráttur inn",
+      "zoom_out": "Aðdráttur út",
+      "zoom_level": "Kortastærðarmælikvarði",
+      "fit_all": "Passa öll verkefni",
+      "center_selected": "Miðja valið verkefni",
+      "all_technologies": "Öll tækni",
+      "list_view": "Listasýn",
+      "pause": "Bíða með merki-hreyfimynd",
+      "resume": "Halda áfram merki-hreyfimynd",
+      "project_selector": "Kanna verkefni",
+      "inspector": "Upplýsingar um valið verkefni",
+      "shared_stack": "Sameiginleg tækni",
+      "family_connection": "Verkefnatenging",
+      "portfolio_connection": "Safnatenging",
+      "families": {
+        "portfolio": "Safnamiðstöð",
+        "business": "Viðskiptaforrit",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly verkefni",
+        "libraries": "Skriftusöfn",
+        "languages": "Tungumálatilraunir",
+        "automation": "Sjálfvirkni- og gagnaverkfæri",
+        "experience": "Fag- og menntunarreynsla"
+      },
+      "browser_native": "Vafra-innfædd / án þjóns",
+      "no_results": "Engin samsvörunarverkefni",
+      "no_selection": "Ekkert verkefni valið.",
+      "reset": "Hreinsa síur",
+      "engineering_lens": "Verkfræðisýn",
+      "connected_work": "Tengd vinna",
+      "open_live": "Opna beint verkefni",
+      "open_project": "Kanna verkefni",
+      "footer": "Mismunandi svið. Ein tengd verkfræðiframkvæmd.",
+      "contact": "Við skulum byggja það sem kemur næst",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Gagnastrengir",
+        "angular": "Angular",
+        "access": "Aðgangsstýring",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Prófanir",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Samvirkni",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Aðgengi",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Ósamkvæm töflureiknir inn. Byggingaráætlanir og viðskiptavina-tilbúnar tillögur út. SaaS-vara byggð í kringum raunverulegt vinnuflæði verktakans.",
+          "lens": "Sveigjanlegar innflutningar krefjast strangrar innri líkans: að þiggja fleiri snið má ekki veikja útreikningsreglurnar sem tilboð byggist á."
+        },
+        "inventory_register": {
+          "summary": "Sölustaðarvinnuflæði með Angular og Node.js sem tengir staðfesta notendur, nákvæmni lager og hermt greiðsluflæði.",
+          "lens": "Sjóður er meira en greiðsluskjár. Hlutverk, lagerbreytingar og greiðslustöður þurfa skýr mörk til að halda vinnuflæðinu ábyrgu."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor-forrit með mörkum stýris, þjónustu og geymslu, varanleika Entity Framework Core og yfirgripsmikið prófsett.",
+          "lens": "Aðskilnaður á skilið sinn stað þegar viðskiptareglur er hægt að prófa óháð viðmótinu og varanleikasetinu."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL launavinnsla mætir SQLite tvöföldu-færslu höfuðbók og Svelte rekstrarstjórnborði.",
+          "lens": "Fjárhagsleg réttmæti hefst með framsetningu: heiltölucentí-útreikningar og jafnvægðar færslur gera peningahreyfingar skýrar."
+        },
+        "interop": {
+          "summary": "Málmilli-tilvísun sem nær yfir 15 forritunarmál og 18 framkvæmdarmynstur, ramsakar hvað gerist á keyrslutímamörkum.",
+          "lens": "Erfiða hlutinn er samningurinn milli keyrslutíma: gagnaskipti, hegðun ferla og endurtekin framkvæmd skipta meira máli en málfræði."
+        },
+        "formatter": {
+          "summary": "Alvöru Go-þáttunarvél þýdd yfir í WebAssembly. JSON- og YAML-sannprófun og sniðun keyrir staðbundið í vafranum.",
+          "lens": "Að flytja þáttarann í vafrann skiptir stærra viðskiptavinahleðslu út fyrir staðbundna vinnslu, færanleika og færri netþjónaóh járneindir."
+        },
+        "portfolio_website": {
+          "summary": "Síðan sem þú ert í: React-safn með 100+ tungumálum, aðgengilegum samskiptum og virkum WebAssembly-verkfærum.",
+          "lens": "Stöðug dreifing þarf ekki að þýða stöðuga reynslu. Rík samskipti geta lifað á viðskiptavininum án forritisþjóns."
+        },
+        "biblioteca": {
+          "summary": "Python-þýðingarstrengur sem breytir einni uppbyggðri efnisheimild í safn sem fáanlegt er á 100+ tungumálum.",
+          "lens": "Alþjóðleg ná til er jafn mikið gagnaviðhaldsvandamál og þýðingarvandamál. Ein sannleiksheimild heldur efnisbreytingum viðráðanlegum."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tæknileg færni",
       "header1": "Forritunarmál",
       "header2": "Rammar og bókasöfn",
-      "header3": "Verkfæri og tækni"
+      "header3": "Verkfæri og tækni",
+      "technologies": "tækni",
+      "search_label": "Sía",
+      "search_placeholder": "Sía færni…",
+      "clear_search": "Hreinsa síu",
+      "no_matches": "Engin færni passar við síuna þína.",
+      "works": "Verk",
+      "experience": "Reynsla",
+      "professional": "Faglega",
+      "education": "Menntun",
+      "paired_with": "Oft parað við",
+      "summary_professional": "Notað faglega hjá {items}.",
+      "summary_education": "Lært og beitt hjá {items}.",
+      "summary_projects": "Beitt hagnýtt í {items}.",
+      "summary_projects_also": "Einnig beitt í {items}.",
+      "and_more": "meira",
+      "scroll_more": "Skrunaðu fyrir fleiri verk",
+      "show_less": "Sýna minna",
+      "no_samples": "Hluti af vinnutólakassanum mínum. Ég er fús að útskýra hvernig ég hef notast við það."
     },
     "services": {
       "title": "Þjónustan mín",
@@ -112,6 +247,13 @@
           "text": "Ég byggi með raunveruleikann eftir sjósetningu í huga: leyndarmál haldið utan heimildarstjórnar, skýrar flutningsleiðir gagnagrunns, heimild sem byggir á hlutverki, staðfesting á kerfismörkum, sjálfvirk próf, CI/CD vitund og hagnýt athugun. Þetta eru smáatriðin sem breyta frumgerð í áreiðanlegan hugbúnað."
         }
       ]
+    },
+    "certifications": {
+      "title": "Leyfi og vottanir",
+      "credential": "Vottun",
+      "issued_by": "Gefið út af",
+      "issued": "Útgáfudagur",
+      "verify": "Staðfesta vottun"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Tengdu fjögur",
-        "text": "Stór fjölskylda með yfir 50+ útfærslum á Connect Four leiknum. Þetta verkefni inniheldur útfærslur á yfir 30 mismunandi forritunarmálum, þar á meðal Java, C++, Python, JavaScript og fleira. Að auki inniheldur það einnig yfir 20+ mismunandi ramma eða önnur snið, þar á meðal React.js, Ruby on Rails, ASP.NET og fleira.",
+        "text": "Stór fjölskylda með 90+ útfærslur af Fjórir í röð leiknum. Verkefnið nær yfir 30+ forritunarmál, þar á meðal Java, C++, Python og JavaScript, ásamt 50+ mismunandi grindum, söfnum, keyrslutímum og gagnagrunnum, frá React, Angular og Blazor til Django, Spring Boot, Phoenix, PostgreSQL og fleira.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Launaskrá OBOL",
-        "text": "Staðbundið launavinnslukerfi byggt með GnuCOBOL, SQLite tvífærslubók og Svelte rekstrarmælaborði. Það notar heiltölu-cent stærðfræði, lotuvinnslu launaskrár og afturlykkja mælaborð til að gera fjárhagslegt verkflæði skýrt, prófanlegt og rekstrarlega ábyrgt.",
+        "title": "PayrollOBOL",
+        "text": "Staðbundið launavinnslukerfi byggt með GnuCOBOL, SQLite-tvöföldu-færslu höfuðbók og Svelte-rekstrarstjórnborði. Það notar heiltölucentí-myndföng, runulaunavinnslu og endurvarpsstjórnborð til að gera fjárhagslegt vinnuflæði skýrt, prófanlegt og rekstrarlega ábyrgt.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Minecraft Mod sem bætir sérsniðnum verkfærum, brynjum, múg, kubbum, víddum og mörgum fleiri eiginleikum í leikinn. Byggt fyrst og fremst með Java og Kotlin, með stuðningi sem spannar Minecraft útgáfur 1.16 til 26.2.",
+        "text": "Minecraft mod sem bætir sérsniðnum verkfærum, herklæðum, mobs, blokkum, víddum og mörgum fleiri eiginleikum við leikinn. Byggt aðallega með Java og Kotlin, með stuðningi fyrir Minecraft-útgáfur 1.16 til 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Snake leikur",
-        "text": "Fáguð Snake vél smíðuð með Rust og Macroquad, sett saman í WebAssembly og birt í gegnum HTML5 Canvas. Það sameinar ákveðinn 0,12 sekúndna leikjatikk með mjúkum innskotshreyfingum, skýrum leikstigum, móttækilegum stjórntækjum, meðhöndlun áreksturs og vinna-ástands, og einbeitt prófun föruneyti sem nær yfir helstu leikreglur.",
+        "title": "Snákaleikur",
+        "text": "Fágað Snákaker í Rust og Macroquad, þýtt yfir í WebAssembly og birt í gegnum HTML5 Canvas. Það sameinar ákveðna 0,12 sekúndna leiktikk með sléttri innfletjaðri hreyfingu, skýrum leikstigum, móttækilegri stjórn, meðhöndlun árekstra og sigurstöðu og einbeittu prófsetti sem nær yfir grunnreglur leiksins.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing vélaverkefnið",
         "text": "Fjölskylda yfir 30+ útfærslur af Turing vélinni. Notað til að sýna fram á heilleika fyrir mismunandi forritunarmál til rannsókna, sérstaklega fyrir Tiger forritunarmálið.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Efnalaboratory með duftsandi, byggt í Rust og þýtt yfir í WebAssembly. Máluðu sand, vatn, hraun, stál, kalsíumkarbíð eða natríumsneið og horfðu á eðlisfræði og efnafræði berjast: natríum detonerar í vatni, kalsíumkarbíð gefur frá sér asetýlen, hraun bræðir sand í gler og þéttleikinn einn flokkar olíu, kvikasilfur og sand. Vélin keyrir 32 efni og 40 skýrandi viðbragðsreglur yfir flatan frumubúnað og birtir punkta beint úr wasm-línulegu minni án afrita á myndbandstramma.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Veldu vél:",
     "tiger_code": "Tígriskóði:",
     "run_tiger": "Hlaupa Tiger",
-    "output": "Framleiðsla:"
+    "output": "Framleiðsla:",
+    "stop": "Stöðva",
+    "program_input": "Forritsinntak"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Enginn tungumálastuðningur"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Skoða frumkóðann á GitHub"
+  }
 }

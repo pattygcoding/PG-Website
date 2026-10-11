@@ -4,21 +4,29 @@
     "home": "Maison",
     "about": "Sur moi",
     "portfolio": "Portefeuille",
-    "projects": "Projets de sites Web",
-    "tiger": "Langue du tigre",
+    "projects": "Projets en vedette",
+    "tiger": "Tiger - Un langage de programmation personnalisé",
     "snake": "Jeu du serpent",
     "portfolio_translator": "Traducteur de portefeuille",
-    "formatter": "Formateur JSON et YAML",
+    "formatter": "Correcteur JSON & YAML",
     "contact": "Contactez-moi",
-    "home_description": "sys.root //présentation principale",
-    "about_description": "profil ingénieur// bio & stack",
-    "portfolio_description": "catalogue de logiciels//œuvres phares",
-    "projects_description": "outils et compilateurs interactifs",
-    "tiger_description": "compilateur personnalisé et visualiseur AST",
-    "snake_description": "jeu d'arcade classique/ WASM",
-    "portfolio_translator_description": "Matrice de plus de 100 langues et i18n",
+    "home_description": "sys.root // vue d'ensemble principale",
+    "about_description": "profil ingénieur // bio & stack",
+    "portfolio_description": "catalogue logiciel // travaux en vedette",
+    "projects_description": "outils interactifs et compilateurs",
+    "tiger_description": "compilateur personnalisé & visualiseur AST",
+    "snake_description": "jeu d'arcade classique / WASM",
+    "portfolio_translator_description": "matrice de 100+ langues & i18n",
     "formatter_description": "validateur et convertisseur de syntaxe",
-    "contact_description": "transmission ouverte // entrer en contact"
+    "contact_description": "transmission ouverte // prenez contact",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Arbre linguistique Puissance 4",
+    "alkalab_description": "simulation de laboratoire de chimie / WASM",
+    "rustcraft_description": "jeu voxel type Minecraft / Rust & wgpu",
+    "suprememc_description": "vitrine de mod Minecraft / Java"
   },
   "home": {
     "title": "Ingénieur Full-Stack Sénior | Produit et systèmes",
@@ -36,16 +44,125 @@
     "about_button": "Sur moi",
     "featured": {
       "kicker": "Projets en vedette",
-      "title": "Œuvre sélectionnée",
-      "description": "Six projets qui représentent le mieux la façon dont je transforme des idées ambitieuses en logiciels raffinés et fonctionnels.",
+      "title": "Travail sélectionné",
+      "description": "Six projets qui représentent le mieux la façon dont je transforme des idées ambitieuses en logiciels soignés et fonctionnels.",
       "view_project": "Voir le projet",
-      "open_project": "Ouvrir un projet en direct",
-      "view_all": "Découvrez le portefeuille complet",
+      "open_project": "Ouvrir le projet en direct",
+      "view_all": "Explorer le portfolio complet",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Site Web complet",
+        "full_website": "Site web complet",
         "available_here": "Disponible ici",
         "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Une autre perspective sur le travail",
+      "invitation": "Explorez l'atlas d'ingénierie",
+      "kicker": "Portfolio complet / réflexion connectée",
+      "title": "Atlas d'ingénierie",
+      "projects": "Projets",
+      "technologies": "Technologies",
+      "connections": "Connexions",
+      "center": "Atlas d'ingénierie",
+      "filter_label": "Catégories de projets",
+      "domains": {
+        "all": "Tout le travail",
+        "products": "Produits",
+        "systems": "Systèmes",
+        "experiences": "Expériences"
+      },
+      "search": "Trouver un projet ou une technologie",
+      "view_label": "Vue Atlas",
+      "map_view": "Vue carte",
+      "map_navigation": "Navigation carte du portfolio",
+      "zoom_in": "Zoom avant",
+      "zoom_out": "Zoom arrière",
+      "zoom_level": "Niveau de zoom de la carte",
+      "fit_all": "Ajuster tous les projets",
+      "center_selected": "Centrer le projet sélectionné",
+      "all_technologies": "Toutes les technologies",
+      "list_view": "Vue liste",
+      "pause": "Mettre en pause l'animation du signal",
+      "resume": "Reprendre l'animation du signal",
+      "project_selector": "Explorer les projets",
+      "inspector": "Détails du projet sélectionné",
+      "shared_stack": "Technologie partagée",
+      "family_connection": "Connexion de projet",
+      "portfolio_connection": "Connexion portfolio",
+      "families": {
+        "portfolio": "Hub Portfolio",
+        "business": "Applications métier",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Projets WebAssembly",
+        "libraries": "Bibliothèques de scripts",
+        "languages": "Expériences linguistiques",
+        "automation": "Outils d'automatisation & de données",
+        "experience": "Expérience professionnelle et pédagogique"
+      },
+      "browser_native": "Natif au navigateur / sans serveur",
+      "no_results": "Aucun projet correspondant",
+      "no_selection": "Aucun projet sélectionné.",
+      "reset": "Effacer les filtres",
+      "engineering_lens": "Perspective d'ingénierie",
+      "connected_work": "Travail connecté",
+      "open_live": "Ouvrir le projet en direct",
+      "open_project": "Explorer le projet",
+      "footer": "Différents domaines. Une pratique d'ingénierie connectée.",
+      "contact": "Construisons ce qui vient ensuite",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Pipelines de données",
+        "angular": "Angular",
+        "access": "Contrôle d'accès",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Tests",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interopérabilité",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Accessibilité",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Des feuilles de calcul incohérentes en entrée. Des estimations de construction et des propositions prêtes pour le client en sortie. Un produit SaaS construit autour du flux de travail réel de l'entrepreneur.",
+          "lens": "Des imports flexibles exigent un modèle interne strict : accepter plus de formats ne doit pas affaiblir les règles de calcul dont dépend une offre."
+        },
+        "inventory_register": {
+          "summary": "Un flux de travail de point de vente Angular et Node.js reliant des utilisateurs authentifiés, la précision des stocks et un flux de paiement simulé.",
+          "lens": "Une caisse est plus qu'un écran de paiement. Les rôles, les variations de stock et les états de paiement ont besoin de limites explicites pour garder le flux de travail responsable."
+        },
+        "grocery_app": {
+          "summary": "Une application .NET 9 Blazor avec des limites de contrôleur, service et dépôt, la persistance Entity Framework Core et une suite de tests complète.",
+          "lens": "La séparation gagne sa place quand les règles métier peuvent être testées indépendamment de l'interface et de la couche de persistance."
+        },
+        "payrollobol": {
+          "summary": "Le traitement de la paie GnuCOBOL rencontre un grand livre en partie double SQLite et un tableau de bord d'exploitation Svelte.",
+          "lens": "L'exactitude financière commence par la représentation : l'arithmétique en centimes entiers et les écritures équilibrées rendent les mouvements d'argent explicites."
+        },
+        "interop": {
+          "summary": "Une référence interlangues couvrant 15 langages de programmation et 18 modèles d'exécution, explorant ce qui se passe aux frontières d'exécution.",
+          "lens": "La partie difficile est le contrat entre les runtimes : l'échange de données, le comportement des processus et l'exécution reproductible comptent plus que la syntaxe."
+        },
+        "formatter": {
+          "summary": "Un vrai moteur d'analyse Go compilé en WebAssembly. La validation et le formatage JSON et YAML s'exécutent localement dans le navigateur.",
+          "lens": "Déplacer l'analyseur dans le navigateur échange une charge client plus lourde contre un traitement local, la portabilité et moins de dépendances serveur."
+        },
+        "portfolio_website": {
+          "summary": "Le site où vous êtes : un portfolio React avec plus de 100 langues, des interactions accessibles et des outils WebAssembly fonctionnels.",
+          "lens": "Un déploiement statique ne doit pas signifier une expérience statique. Des interactions riches peuvent vivre côté client sans serveur applicatif."
+        },
+        "biblioteca": {
+          "summary": "Un pipeline de localisation Python qui transforme une seule source de contenu structuré en un portfolio disponible dans plus de 100 langues.",
+          "lens": "La portée mondiale est autant un problème de maintenance de données qu'un problème de traduction. Une source de vérité unique rend les changements de contenu gérables."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Compétences techniques",
       "header1": "Langages de programmation",
       "header2": "Cadres et bibliothèques",
-      "header3": "Outils et technologies"
+      "header3": "Outils et technologies",
+      "technologies": "technologies",
+      "search_label": "Filtrer",
+      "search_placeholder": "Filtrer les compétences…",
+      "clear_search": "Effacer le filtre",
+      "no_matches": "Aucune compétence ne correspond à votre filtre.",
+      "works": "Œuvres",
+      "experience": "Expérience",
+      "professional": "Professionnel",
+      "education": "Formation",
+      "paired_with": "Souvent associé à",
+      "summary_professional": "Utilisé professionnellement chez {items}.",
+      "summary_education": "Étudié et appliqué chez {items}.",
+      "summary_projects": "Appliqué concrètement dans {items}.",
+      "summary_projects_also": "Également appliqué dans {items}.",
+      "and_more": "plus",
+      "scroll_more": "Faites défiler pour plus d'œuvres",
+      "show_less": "Afficher moins",
+      "no_samples": "Fait partie de ma boîte à outils de travail. Je serai ravi d'expliquer comment je l'ai utilisé."
     },
     "services": {
       "title": "Mes prestations",
@@ -112,6 +247,13 @@
           "text": "Je construis en tenant compte des réalités après le lancement : secrets gardés hors du contrôle de code source, chemins de migration de bases de données explicites, autorisation basée sur les rôles, validation aux limites du système, tests automatisés, sensibilisation CI/CD et observabilité pratique. Ce sont ces détails qui transforment un prototype en logiciel fiable."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licences & certifications",
+      "credential": "Certification",
+      "issued_by": "Délivré par",
+      "issued": "Délivré",
+      "verify": "Vérifier la certification"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Connectez quatre",
-        "text": "Famille massive de plus de 50 implémentations du jeu Connect Four. Ce projet comprend des implémentations dans plus de 30 langages de programmation différents, dont Java, C++, Python, JavaScript, etc. De plus, il comprend également plus de 20 frameworks ou autres formats différents, notamment React.js, Ruby on Rails, ASP.NET, etc.",
+        "text": "Une vaste famille de plus de 90 implémentations du jeu Puissance 4. Le projet couvre plus de 30 langages de programmation, dont Java, C++, Python et JavaScript, ainsi que plus de 50 frameworks, bibliothèques, runtimes et bases de données différents, de React, Angular et Blazor à Django, Spring Boot, Phoenix, PostgreSQL et bien d'autres.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PaieOBOL",
-        "text": "Un système local de traitement de la paie construit avec GnuCOBOL, un grand livre à double entrée SQLite et un tableau de bord des opérations Svelte. Il utilise des calculs en centimes entiers, un traitement de paie par lots et un tableau de bord de bouclage pour rendre les flux de travail financiers explicites, testables et responsables sur le plan opérationnel.",
+        "title": "PayrollOBOL",
+        "text": "Un système local de traitement de la paie construit avec GnuCOBOL, un grand livre en partie double SQLite et un tableau de bord d'exploitation Svelte. Il utilise des mathématiques en centimes entiers, un traitement de la paie par lots et un tableau de bord en boucle locale pour rendre les flux financiers explicites, testables et opérationnellement responsables.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SuprêmeMC Minecraft Mod",
-        "text": "Un mod Minecraft qui ajoute des outils personnalisés, des armures, des monstres, des blocs, des dimensions et bien d'autres fonctionnalités au jeu. Construit principalement avec Java et Kotlin, avec une prise en charge couvrant les versions 1.16 à 26.2 de Minecraft.",
+        "text": "Un mod Minecraft qui ajoute des outils, armures, mobs, blocs, dimensions et bien d'autres fonctionnalités au jeu. Construit principalement avec Java et Kotlin, avec prise en charge des versions Minecraft 1.16 à 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Jeu du Serpent",
-        "text": "Un moteur Snake raffiné construit avec Rust et Macroquad, compilé sur WebAssembly et rendu via HTML5 Canvas. Il combine des ticks de jeu déterministes de 0,12 seconde avec un mouvement interpolé fluide, des phases de jeu explicites, des commandes réactives, une gestion des collisions et des états gagnants, ainsi qu'un test ciblé. suite couvrant les règles de base du jeu.",
+        "title": "Jeu du serpent",
+        "text": "Un moteur de Serpent soigné construit avec Rust et Macroquad, compilé en WebAssembly et rendu via Canvas HTML5. Il combine des ticks de jeu déterministes de 0,12 seconde avec un mouvement interpolé fluide, des phases de jeu explicites, des contrôles réactifs, la gestion des collisions et des états de victoire, ainsi qu'une suite de tests ciblée couvrant les règles de base du jeu.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Projet de machine de Turing",
         "text": "Famille de plus de 30 implémentations de la machine de Turing. Utilisé pour démontrer l'exhaustivité de Turing pour différents langages de programmation destinés à la recherche, en particulier pour le langage de programmation Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Un laboratoire de chimie en sable-poudre construit en Rust et compilé en WebAssembly. Peignez du sable, de l'eau, de la lave, de l'acier, du carbure de calcium ou un morceau de sodium et regardez la physique et la chimie s'affronter : le sodium détonne dans l'eau, le carbure de calcium libère de l'acétylène, la lave fond le sable en verre, et la densité seule trie l'huile, le mercure et le sable. Le moteur exécute 32 matériaux et 40 règles de réaction déclaratives sur un tampon de cellules plat, rendant les pixels directement depuis la mémoire linéaire wasm sans copies par image.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Sélectionnez le moteur :",
     "tiger_code": "Code du Tigre :",
     "run_tiger": "Courir Tigre",
-    "output": "Sortir:"
+    "output": "Sortir:",
+    "stop": "Arrêter",
+    "program_input": "Entrée du programme"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Pas de prise en charge linguistique"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Voir le code source sur GitHub"
+  }
 }

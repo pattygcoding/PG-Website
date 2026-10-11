@@ -4,21 +4,29 @@
     "home": "Domov",
     "about": "O mně",
     "portfolio": "Portfolio",
-    "projects": "Projekty webových stránek",
-    "tiger": "Tygří jazyk",
+    "projects": "Vybrané projekty",
+    "tiger": "Tiger - Vlastní programovací jazyk",
     "snake": "Hra had",
     "portfolio_translator": "Překladač portfolia",
-    "formatter": "Formát JSON a YAML",
+    "formatter": "Linter JSON a YAML",
     "contact": "Kontaktujte mě",
     "home_description": "sys.root // hlavní přehled",
-    "about_description": "inženýrský profil // bio & stack",
-    "portfolio_description": "katalog softwaru // uváděná díla",
+    "about_description": "profil inženýra // bio a technologie",
+    "portfolio_description": "katalog softwaru // vybrané práce",
     "projects_description": "interaktivní nástroje a kompilátory",
     "tiger_description": "vlastní kompilátor a vizualizér AST",
-    "snake_description": "Klasická arkádová hra.",
-    "portfolio_translator_description": "Více než 100 jazykových matic a i18n",
-    "formatter_description": "validátor syntaxe a konvertor",
-    "contact_description": "otevřený přenos // ozvěte se"
+    "snake_description": "klasická arkádová hra / WASM",
+    "portfolio_translator_description": "matice 100+ jazyků a i18n",
+    "formatter_description": "validátor a převaděč syntaxe",
+    "contact_description": "otevřený přenos // kontaktujte mě",
+    "arcade": "Arkáda",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Jazykový strom Piškvorek",
+    "alkalab_description": "simulace chemické laboratoře / WASM",
+    "rustcraft_description": "voxelová hra ve stylu Minecraft / Rust a wgpu",
+    "suprememc_description": "prezentace módu Minecraft / Java"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkt a systémy",
@@ -35,17 +43,126 @@
     "contact_button": "Kontaktujte mě",
     "about_button": "O mně",
     "featured": {
-      "kicker": "Doporučené projekty",
-      "title": "Vybrané dílo",
-      "description": "Šest projektů, které nejlépe reprezentují, jak přeměňuji ambiciózní nápady na vyladěný, fungující software.",
-      "view_project": "Celý článek",
+      "kicker": "Vybrané projekty",
+      "title": "Vybrané práce",
+      "description": "Šest projektů, které nejlépe představují, jak měním ambiciózní nápady v vyleštěný a funkční software.",
+      "view_project": "Zobrazit projekt",
       "open_project": "Otevřít živý projekt",
-      "view_all": "Prozkoumejte celé portfolio",
+      "view_all": "Prozkoumat celé portfolio",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Kompletní webová stránka",
-        "available_here": "K DISPOZICI ZDE",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Plná webová stránka",
+        "available_here": "Dostupné zde",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Jiný pohled na práci",
+      "invitation": "Prozkoumejte inženýrský atlas",
+      "kicker": "Kompletní portfolio / propojené myšlení",
+      "title": "Inženýrský atlas",
+      "projects": "Projekty",
+      "technologies": "Technologie",
+      "connections": "Propojení",
+      "center": "Inženýrský atlas",
+      "filter_label": "Kategorie projektů",
+      "domains": {
+        "all": "Všechna práce",
+        "products": "Produkty",
+        "systems": "Systémy",
+        "experiences": "Zkušenosti"
+      },
+      "search": "Najít projekt nebo technologii",
+      "view_label": "Atlasové zobrazení",
+      "map_view": "Zobrazení mapy",
+      "map_navigation": "Navigace v mapě portfolia",
+      "zoom_in": "Přiblížit",
+      "zoom_out": "Oddálit",
+      "zoom_level": "Úroveň přiblížení mapy",
+      "fit_all": "Přizpůsobit všechny projekty",
+      "center_selected": "Vystředit vybraný projekt",
+      "all_technologies": "Všechny technologie",
+      "list_view": "Zobrazení seznamu",
+      "pause": "Pozastavit animaci signálu",
+      "resume": "Pokračovat v animaci signálu",
+      "project_selector": "Prozkoumat projekty",
+      "inspector": "Podrobnosti vybraného projektu",
+      "shared_stack": "Sdílená technologie",
+      "family_connection": "Propojení projektu",
+      "portfolio_connection": "Propojení portfolia",
+      "families": {
+        "portfolio": "Centrum portfolia",
+        "business": "Obchodní aplikace",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Projekty WebAssembly",
+        "libraries": "Knihovny skriptů",
+        "languages": "Jazykové experimenty",
+        "automation": "Nástroje pro automatizaci a data",
+        "experience": "Profesní a vzdělávací zkušenost"
+      },
+      "browser_native": "Nativní v prohlížeči / bez serveru",
+      "no_results": "Žádné odpovídající projekty",
+      "no_selection": "Není vybrán žádný projekt.",
+      "reset": "Vymazat filtry",
+      "engineering_lens": "Inženýrský pohled",
+      "connected_work": "Propojená práce",
+      "open_live": "Otevřít živý projekt",
+      "open_project": "Prozkoumat projekt",
+      "footer": "Různé domény. Jedna propojená inženýrská praxe.",
+      "contact": "Pojďme postavit to, co přijde dál",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Datové pipeline",
+        "angular": "Angular",
+        "access": "Řízení přístupu",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testování",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilita",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Přístupnost",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Nejednotné tabulky dovnitř. Stavební odhady a nabídky připravené pro klienta ven. Produkt SaaS postavený kolem skutečného pracovního postupu dodavatele.",
+          "lens": "Flexibilní importy vyžadují přísný interní model: přijetí více formátů nesmí oslabit pravidla výpočtů, na nichž nabídka závisí."
+        },
+        "inventory_register": {
+          "summary": "Pracovní postup prodejního místa s Angular a Node.js, který propojuje ověřené uživatele, přesnost zásob a simulovaný platební tok.",
+          "lens": "Pokladna je více než platební obrazovka. Role, změny zásob a platební stavy vyžadují jasné hranice, aby pracovní postup zůstal odpovědný."
+        },
+        "grocery_app": {
+          "summary": "Aplikace .NET 9 Blazor s hranicemi kontroléru, služby a úložiště, perzistencí Entity Framework Core a obsáhlou testovací sadou.",
+          "lens": "Oddělení si zaslouží své místo, když lze obchodní pravidla testovat nezávisle na rozhraní a perzistenční vrstvě."
+        },
+        "payrollobol": {
+          "summary": "Zpracování mezd GnuCOBOL se setkává s účetní knihou dvojího účetnictví SQLite a provozním panelem Svelte.",
+          "lens": "Finanční správnost začíná reprezentací: aritmetika v celých centech a vyrovnané účetní zápisy činí pohyb peněz explicitním."
+        },
+        "interop": {
+          "summary": "Mezijazyková reference pokrývající 15 programovacích jazyků a 18 vzorů provádění, která zkoumá, co se děje na hranicích běhového prostředí.",
+          "lens": "Těžká část je kontrakt mezi běhovými prostředími: výměna dat, chování procesů a opakovatelné provádění záleží více než syntaxe."
+        },
+        "formatter": {
+          "summary": "Skutečný Go parsing engine zkompilovaný do WebAssembly. Validace a formátování JSON a YAML běží lokálně v prohlížeči.",
+          "lens": "Přesunutí parseru do prohlížeče mění větší zátěž klienta za lokální zpracování, přenositelnost a méně závislostí na serveru."
+        },
+        "portfolio_website": {
+          "summary": "Stránka, na které jste: React portfolio s více než 100 jazyky, přístupnými interakcemi a funkčními nástroji WebAssembly.",
+          "lens": "Statické nasazení nemusí znamenat statický zážitek. Bohaté interakce mohou žít na klientovi bez aplikačního serveru."
+        },
+        "biblioteca": {
+          "summary": "Python lokalizační pipeline, která mění jeden strukturovaný zdroj obsahu na portfolio dostupné ve více než 100 jazycích.",
+          "lens": "Globální dosah je stejně tak problémem údržby dat jako problémem překladu. Jeden zdroj pravdy udržuje změny obsahu zvládnutelné."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Technické dovednosti",
       "header1": "Programovací jazyky",
       "header2": "Rámce a knihovny",
-      "header3": "Nástroje a technologie"
+      "header3": "Nástroje a technologie",
+      "technologies": "technologie",
+      "search_label": "Filtrovat",
+      "search_placeholder": "Filtrovat dovednosti…",
+      "clear_search": "Vymazat filtr",
+      "no_matches": "Žádné dovednosti neodpovídají vašemu filtru.",
+      "works": "Práce",
+      "experience": "Zkušenost",
+      "professional": "Profesně",
+      "education": "Vzdělání",
+      "paired_with": "Často kombinováno s",
+      "summary_professional": "Profesně používán v {items}.",
+      "summary_education": "Studován a aplikován v {items}.",
+      "summary_projects": "Prakticky aplikován v {items}.",
+      "summary_projects_also": "Také aplikován v {items}.",
+      "and_more": "více",
+      "scroll_more": "Přejděte pro více prací",
+      "show_less": "Zobrazit méně",
+      "no_samples": "Součást mé pracovní výbavy. Rád vysvětlím, jak jsem ji používal."
     },
     "services": {
       "title": "Moje služby",
@@ -112,6 +247,13 @@
           "text": "Stavím s ohledem na realitu po spuštění: tajemství uchovávaná mimo kontrolu zdroje, explicitní cesty migrace databáze, autorizace na základě rolí, ověřování na hranicích systému, automatizované testy, povědomí o CI/CD a praktická pozorovatelnost. To jsou detaily, které mění prototyp ve spolehlivý software."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licence a certifikace",
+      "credential": "Certifikace",
+      "issued_by": "Vydal",
+      "issued": "Datum vydání",
+      "verify": "Ověřit certifikaci"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Připojte čtyři",
-        "text": "Obrovská rodina více než 50+ implementací hry Connect Four. Tento projekt zahrnuje implementace ve více než 30 různých programovacích jazycích, včetně Javy, C++, Pythonu, JavaScriptu a dalších. Kromě toho také zahrnuje více než 20 různých rámců nebo jiných formátů, včetně React.js, Ruby on Rails, ASP.NET a dalších.",
+        "text": "Obrovská rodina více než 90 implementací hry Piškvorky. Projekt pokrývá přes 30 programovacích jazyků, včetně Java, C++, Python a JavaScript, spolu s více než 50 různými frameworky, knihovnami, běhovými prostředími a databázemi – od React, Angular a Blazor po Django, Spring Boot, Phoenix, PostgreSQL a další.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Místní systém zpracování mezd postavený na GnuCOBOL, podvojné účetní knize SQLite a řídicím panelu operací Svelte. Využívá matematiku celých čísel, dávkové zpracování mezd a řídicí panel zpětné smyčky, aby byly finanční pracovní postupy explicitní, testovatelné a provozně odpovědné.",
+        "text": "Místní systém zpracování mezd postavený s GnuCOBOL, účetní knihou dvojího účetnictví SQLite a provozním panelem Svelte. Používá aritmetiku v celých centech, dávkové zpracování mezd a panel s zpětnou vazbou, aby finanční pracovní postupy byly explicitní, testovatelné a provozně odpovědné.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Minecraft Mod, který do hry přidává vlastní nástroje, brnění, moby, bloky, rozměry a mnoho dalších funkcí. Postaveno primárně pomocí Java a Kotlin, s podporou zahrnující Minecraft verze 1.16 až 26.2.",
+        "text": "Mod Minecraft, který do hry přidává vlastní nástroje, zbroje, moby, bloky, dimenze a mnoho dalších funkcí. Postaven především s Java a Kotlin, s podporou verzí Minecraft 1.16 až 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Hra s hadem",
-        "text": "Vyleštěný Snake engine postavený z Rust a Macroquad, zkompilovaný do WebAssembly a vykreslený přes HTML5 Canvas. Kombinuje deterministické 0,12sekundové herní tikety s plynulým interpolovaným pohybem, explicitními herními fázemi, citlivými ovládacími prvky, manipulací s kolizí a vítězným stavem a soustředěným testem sada pokrývající základní pravidla hry.",
+        "title": "Hra had",
+        "text": "Vyleštěný motor hry Had postavený s Rust a Macroquad, zkompilovaný do WebAssembly a vykreslovaný přes HTML5 Canvas. Kombinuje deterministické herní ticky po 0,12 sekundy s plynulým interpolovaným pohybem, explicitní herní fáze, responzivní ovládání, zpracování kolizí a stavů výhry a cílenou testovací sadu pokrývající základní pravidla hry.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Projekt Turingova stroje",
         "text": "Rodina více než 30+ implementací Turingova stroje. Používá se k demonstraci úplnosti pro různé programovací jazyky pro výzkum, zejména pro programovací jazyk Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Chemická laboratoř z práškového písku postavená v Rustu a zkompilovaná do WebAssembly. Malujte písek, vodu, lávu, ocel, karbid vápenatý nebo kus sodíku a sledujte, jak spolu fyzika a chemie bojují: sodík detonuje ve vodě, karbid vápenatý uvolňuje acetylen, láva taví písek ve sklo a samotná hustota třídí olej, rtuť a písek. Motor běží na 32 materiálech a 40 deklarativních reakčních pravidlech na plochém buněčném bufferu a vykresluje pixely přímo z lineární paměti wasm bez kopií na snímek.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Vyberte motor:",
     "tiger_code": "Tygří kód:",
     "run_tiger": "Spusťte Tigera",
-    "output": "výstup:"
+    "output": "výstup:",
+    "stop": "Zastavit",
+    "program_input": "Vstup programu"
   },
   "tab": {
     "title": "Patrik Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Žádná jazyková podpora"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Zobrazit zdrojový kód na GitHubu"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "Acasă",
     "about": "Despre mine",
     "portfolio": "Portofoliu",
-    "projects": "Proiecte de site",
-    "tiger": "Limba tigrului",
+    "projects": "Proiecte selectate",
+    "tiger": "Tiger - Un limbaj de programare personalizat",
     "snake": "Jocul șarpelui",
     "portfolio_translator": "Traducător de portofoliu",
-    "formatter": "Formatator JSON și YAML",
+    "formatter": "Verificator JSON & YAML",
     "contact": "Contactați-mă",
     "home_description": "sys.root // prezentare generală principală",
-    "about_description": "profil inginer // bio & stack",
-    "portfolio_description": "catalog software // lucrări prezentate",
+    "about_description": "profil inginer // bio și tehnologii",
+    "portfolio_description": "catalog software // lucrări selectate",
     "projects_description": "instrumente interactive și compilatoare",
     "tiger_description": "compilator personalizat și vizualizator AST",
     "snake_description": "joc arcade clasic / WASM",
-    "portfolio_translator_description": "100+ matrice de limbi și i18n",
-    "formatter_description": "validator de sintaxă și convertor",
-    "contact_description": "transmisie deschisă // ia legătura"
+    "portfolio_translator_description": "matrice de 100+ limbi și i18n",
+    "formatter_description": "validator și convertor de sintaxă",
+    "contact_description": "transmisie deschisă // contactați-mă",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Arborele de limbi Patru la rând",
+    "alkalab_description": "simulare laborator de chimie / WASM",
+    "rustcraft_description": "joc voxel stil Minecraft / Rust și wgpu",
+    "suprememc_description": "vitrină de mod Minecraft / Java"
   },
   "home": {
     "title": "Inginer Senior Full-Stack | Produs și sisteme",
@@ -35,17 +43,126 @@
     "contact_button": "Contactați-mă",
     "about_button": "Despre mine",
     "featured": {
-      "kicker": "Proiecte prezentate",
-      "title": "Lucrare aleasă",
-      "description": "Șase proiecte care reprezintă cel mai bine modul în care transform ideile ambițioase în software rafinat și funcțional.",
-      "view_project": "Vizualizați proiectul",
-      "open_project": "Deschideți Live Project",
-      "view_all": "Explorați portofoliul complet",
+      "kicker": "Proiecte selectate",
+      "title": "Lucrări selectate",
+      "description": "Șase proiecte care reprezintă cel mai bine cum transform idei ambițioase în software lustruit și funcțional.",
+      "view_project": "Vezi proiectul",
+      "open_project": "Deschide proiectul live",
+      "view_all": "Explorează portofoliul complet",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Site complet",
+        "full_website": "Site web complet",
         "available_here": "Disponibil aici",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "O perspectivă diferită asupra muncii",
+      "invitation": "Explorează atlasul de inginerie",
+      "kicker": "Portofoliu complet / gândire conectată",
+      "title": "Atlas de Inginerie",
+      "projects": "Proiecte",
+      "technologies": "Tehnologii",
+      "connections": "Conexiuni",
+      "center": "Atlas de inginerie",
+      "filter_label": "Categorii de proiecte",
+      "domains": {
+        "all": "Toată munca",
+        "products": "Produse",
+        "systems": "Sisteme",
+        "experiences": "Experiențe"
+      },
+      "search": "Găsește un proiect sau o tehnologie",
+      "view_label": "Vizualizare atlas",
+      "map_view": "Vizualizare hartă",
+      "map_navigation": "Navigarea hărții portofoliului",
+      "zoom_in": "Mărește",
+      "zoom_out": "Micșorează",
+      "zoom_level": "Nivel de zoom al hărții",
+      "fit_all": "Potrivește toate proiectele",
+      "center_selected": "Centrează proiectul selectat",
+      "all_technologies": "Toate tehnologiile",
+      "list_view": "Vizualizare listă",
+      "pause": "Pauză animație semnal",
+      "resume": "Continuă animația semnalului",
+      "project_selector": "Explorează proiecte",
+      "inspector": "Detalii proiect selectat",
+      "shared_stack": "Tehnologie partajată",
+      "family_connection": "Conexiune proiect",
+      "portfolio_connection": "Conexiune portofoliu",
+      "families": {
+        "portfolio": "Centru portofoliu",
+        "business": "Aplicații de afaceri",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Proiecte WebAssembly",
+        "libraries": "Librării de script",
+        "languages": "Experimente de limbaj",
+        "automation": "Instrumente de automatizare și date",
+        "experience": "Experiență profesională și educațională"
+      },
+      "browser_native": "Nativ în browser / fără server",
+      "no_results": "Niciun proiect potrivit",
+      "no_selection": "Niciun proiect selectat.",
+      "reset": "Șterge filtrele",
+      "engineering_lens": "Perspectivă de inginerie",
+      "connected_work": "Muncă conectată",
+      "open_live": "Deschide proiectul live",
+      "open_project": "Explorează proiectul",
+      "footer": "Domenii diferite. O practică de inginerie conectată.",
+      "contact": "Să construim ce urmează",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Conducte de date",
+        "angular": "Angular",
+        "access": "Controlul accesului",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testare",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilitate",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Accesibilitate",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Foi de calcul inconsistente intră. Estimări de construcție și propuneri gata pentru client ies. Un produs SaaS construit în jurul fluxului real de lucru al antreprenorului.",
+          "lens": "Importurile flexibile necesită un model intern strict: acceptarea mai multor formate nu ar trebui să slăbească regulile de calcul de care depinde o ofertă."
+        },
+        "inventory_register": {
+          "summary": "Un flux de lucru de punct de vânzare cu Angular și Node.js care conectează utilizatori autentificați, acuratețea inventarului și un flux de plată simulat.",
+          "lens": "O casă de marcat este mai mult decât un ecran de plată. Rolurile, schimbările de stoc și stările de plată necesită limite clare pentru a menține fluxul de lucru responsabil."
+        },
+        "grocery_app": {
+          "summary": "O aplicație .NET 9 Blazor cu limite de controller, serviciu și repository, persistență Entity Framework Core și un set de testare cuprinzător.",
+          "lens": "Separarea își merită locul atunci când regulile de afaceri pot fi testate independent de interfață și de stratul de persistență."
+        },
+        "payrollobol": {
+          "summary": "Procesarea salariilor GnuCOBOL se întâlnește cu registrul contabil cu intrare dublă SQLite și dashboard-ul de operare Svelte.",
+          "lens": "Corectitudinea financiară începe cu reprezentarea: aritmetica în bani întregi și înregistrările echilibrate fac mișcarea banilor explicită."
+        },
+        "interop": {
+          "summary": "O referință între limbaje care acoperă 15 limbaje de programare și 18 modele de execuție, explorând ce se întâmplă la limitele runtime-ului.",
+          "lens": "Partea dificilă este contractul dintre runtime-uri: schimbul de date, comportamentul proceselor și execuția repetabilă sunt mai importante decât sintaxa."
+        },
+        "formatter": {
+          "summary": "Un motor real de parsare Go compilat în WebAssembly. Validarea și formatarea JSON și YAML rulează local în browser.",
+          "lens": "Mutarea parserului în browser schimbă o sarcină mai mare a clientului pentru procesare locală, portabilitate și mai puține dependențe de server."
+        },
+        "portfolio_website": {
+          "summary": "Site-ul în care ești: un portofoliu React cu 100+ limbaje, interacțiuni accesibile și instrumente WebAssembly funcționale.",
+          "lens": "O implementare statică nu înseamnă neapărat o experiență statică. Interacțiunile bogate pot trăi pe client fără un server de aplicații."
+        },
+        "biblioteca": {
+          "summary": "O conductă de localizare Python care transformă o singură sursă de conținut structurat într-un portofoliu disponibil în 100+ limbi.",
+          "lens": "Atingerea globală este tot o problemă de întreținere a datelor cât și o problemă de traducere. O singură sursă de adevăr menține schimbările de conținut gestionabile."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Abilități tehnice",
       "header1": "Limbaje de programare",
       "header2": "Cadre și biblioteci",
-      "header3": "Instrumente și tehnologii"
+      "header3": "Instrumente și tehnologii",
+      "technologies": "tehnologii",
+      "search_label": "Filtrează",
+      "search_placeholder": "Filtrează abilități…",
+      "clear_search": "Șterge filtrul",
+      "no_matches": "Nicio abilitate nu se potrivește cu filtrul tău.",
+      "works": "Lucrări",
+      "experience": "Experiență",
+      "professional": "Profesional",
+      "education": "Educație",
+      "paired_with": "Adesea asociat cu",
+      "summary_professional": "Folosit profesional la {items}.",
+      "summary_education": "Studiat și aplicat la {items}.",
+      "summary_projects": "Aplicat practic în {items}.",
+      "summary_projects_also": "Aplicat și în {items}.",
+      "and_more": "mai mult",
+      "scroll_more": "Derulează pentru mai multe lucrări",
+      "show_less": "Afișează mai puțin",
+      "no_samples": "Parte din setul meu de instrumente de lucru. Sunt bucuros să explic cum l-am folosit."
     },
     "services": {
       "title": "Serviciile mele",
@@ -112,6 +247,13 @@
           "text": "Construiesc cu realitățile de după lansare în vedere: secrete ținute în afara controlului sursei, căi explicite de migrare a bazei de date, autorizare bazată pe roluri, validare la granițele sistemului, teste automate, conștientizare CI/CD și observabilitate practică. Acestea sunt detaliile care transformă un prototip într-un software de încredere."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licențe și certificări",
+      "credential": "Certificare",
+      "issued_by": "Eliberat de",
+      "issued": "Data eliberării",
+      "verify": "Verifică certificarea"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Conectați patru",
-        "text": "Familie masivă de peste 50 de implementări ale jocului Connect Four. Acest proiect include implementări în peste 30 de limbaje de programare diferite, inclusiv Java, C++, Python, JavaScript și multe altele. În plus, include, de asemenea, peste 20 de cadre diferite sau alte formate, inclusiv React.js, Ruby on Rails, ASP.NET și multe altele.",
+        "text": "O familie imensă de peste 90 de implementări ale jocului Patru la rând. Proiectul acoperă peste 30 de limbaje de programare, inclusiv Java, C++, Python și JavaScript, împreună cu peste 50 de framework-uri, librării, runtime-uri și baze de date diferite, de la React, Angular și Blazor până la Django, Spring Boot, Phoenix, PostgreSQL și mai departe.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "SalarizareOBOL",
-        "text": "Un sistem local de procesare a salariilor construit cu GnuCOBOL, un registru cu intrare dublă SQLite și un tablou de bord Svelte pentru operațiuni. Folosește matematica de cenți întregi, procesarea loturilor de plată și un tablou de bord loopback pentru a face fluxurile de lucru financiare explicite, testabile și responsabile din punct de vedere operațional.",
+        "title": "PayrollOBOL",
+        "text": "Un sistem local de procesare a salariilor construit cu GnuCOBOL, un registru contabil cu intrare dublă SQLite și un dashboard de operare Svelte. Folosește aritmetică în bani întregi, procesare batch a salariilor și un dashboard loopback pentru a face fluxurile financiare explicite, testabile și responsabile operațional.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Un mod Minecraft care adaugă instrumente personalizate, armuri, mafiote, blocuri, dimensiuni și multe alte funcții la joc. Construit în principal cu Java și Kotlin, cu suport care acoperă versiunile Minecraft 1.16 până la 26.2.",
+        "text": "Un mod Minecraft care adaugă unelte, armuri, mobs, blocuri, dimensiuni și multe alte caracteristici personalizate jocului. Construit în principal cu Java și Kotlin, suportând versiunile Minecraft 1.16 până la 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "Jocul șarpelui",
-        "text": "Un motor Snake lustruit construit cu Rust și Macroquad, compilat în WebAssembly și redat prin HTML5 Canvas. Combină bifături deterministe de joc de 0,12 secunde cu mișcare interpolată lină, faze de joc explicite, controale receptive, manevrarea coliziunilor și a stării de câștig și un test concentrat. suită care acoperă regulile de bază ale jocului.",
+        "text": "Un motor Șarpe lustruit construit cu Rust și Macroquad, compilat în WebAssembly și redat prin Canvas HTML5. Combină tick-uri de joc deterministe de 0,12 secunde cu mișcare interpolată lină, faze de joc explicite, control receptiv, gestionarea coliziunilor și stărilor de victorie și un set de testare focalizat care acoperă regulile de bază ale jocului.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Proiectul mașinii Turing",
         "text": "Familie de peste 30 de implementări ale mașinii Turing. Folosit pentru a demonstra caracterul complet al diferitelor limbaje de programare pentru cercetare, în special pentru limbajul de programare Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Un laborator de chimie pulbere-nisip construit în Rust și compilat în WebAssembly. Pictează nisip, apă, lavă, oțel, carbură de calciu sau o bucată de sodiu și privește fizica și chimia luptându-se: sodiul detonează în apă, carbura de calciu eliberează acetilenă, lava topește nisipul în sticlă, iar densitatea singură separă uleiul, mercurul și nisipul. Motorul rulează 32 de materiale și 40 de reguli de reacție declarative pe un buffer plat de celule, redând pixelii direct din memoria liniară wasm fără copii per cadru.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Selectați motorul:",
     "tiger_code": "Cod tigru:",
     "run_tiger": "Fugi Tiger",
-    "output": "Ieșire:"
+    "output": "Ieșire:",
+    "stop": "Oprește",
+    "program_input": "Intrare program"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Fără suport lingvistic"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Vezi codul sursă pe GitHub"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "Aƒeme",
     "about": "Tso Nye Ŋu",
     "portfolio": "Dɔwɔƒe si Kpɔa Dɔwɔnyawo Gbɔ",
-    "projects": "Nyatakakadzraɖoƒe ƒe Dɔwɔnawo",
-    "tiger": "Tiger Gbegbɔgblɔ",
-    "snake": "Snake Game",
+    "projects": "Dɔ siwo wotia",
+    "tiger": "Tiger - Gbegbɔgblɔ si ƒe nɔnɔme le wo ŋutɔ",
+    "snake": "Dada ƒe fefe",
     "portfolio_translator": "Portfolio Gbegɔmeɖela",
-    "formatter": "JSON & YAML Dɔwɔɖoɖo",
+    "formatter": "JSON & YAML ƒe kpokplɔ̃",
     "contact": "Te Ðe Ŋunye",
-    "home_description": "eye To Eye/Mainview",
-    "about_description": "profile // BIO & Stack",
-    "portfolio_description": "katalog// featured works",
-    "projects_description": "interactive Tools & Compilers",
-    "tiger_description": "eye & AST Visualizer",
-    "snake_description": "klasik Arcade Game / WASM",
-    "portfolio_translator_description": "100+ gbe matrix & i18n",
-    "formatter_description": "syntax validator & converter",
-    "contact_description": "ɖoe Ɖe Amewo Ɖoe Ɖe Amewo"
+    "home_description": "sys.root // gbɔgblɔ vevienyenya",
+    "about_description": "injunia ƒe numekugbalẽ // bio kple teknɔlɔgi",
+    "portfolio_description": "sɔftiwea ƒe nuƒome // dɔ siwo wotia",
+    "projects_description": "dɔwɔnu siwo woateŋu ado go na kple compiler hp",
+    "tiger_description": "compiler si wɔwɔ na ame ŋutɔ kple AST kpɔla",
+    "snake_description": "klassik arkade fefe / WASM",
+    "portfolio_translator_description": "gbe 100+ ƒe matrix kple i18n",
+    "formatter_description": "syntax ɖoɖo kple ƒuƒlu",
+    "contact_description": "ʋuʋu le gbe ŋu // ƒo kplɔ nye",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Gbegbɔgblɔ ƒe ati Enyi eto me",
+    "alkalab_description": "chemistry lab ƒe nɔnɔme / WASM",
+    "rustcraft_description": "voxel fefe si le Minecraft ƒe nɔnɔme me / Rust kple wgpu",
+    "suprememc_description": "Minecraft mod ƒe ɖoɖo / Java"
   },
   "home": {
     "title": "Senior Full-Stack Mɔ̃ɖaŋudɔwɔla | Adzɔnuwo & Dɔwɔɖoɖowo",
@@ -35,17 +43,126 @@
     "contact_button": "Te Ðe Ŋunye",
     "about_button": "Tso Nye Ŋu",
     "featured": {
-      "kicker": "Dɔwɔɖui",
-      "title": "Tianyi Work",
-      "description": "Nu ade siwo ɖea ale si meƒoa nu tso nu siwo ŋu didi le ŋu la gɔme nyuie wu la nye kɔmpiuta siwo wɔa dɔ nyuie.",
-      "view_project": "Ŋkuléle Ðe Nu Siwo",
-      "open_project": "Dɔwɔɖui si le agbe",
-      "view_all": "Xlẽ nu tso nu siwo katã le eme la ŋu",
+      "kicker": "Dɔ siwo wotia",
+      "title": "Dɔ siwo wotia",
+      "description": "Dɔ ade siwo kpɔa ale si meɖea ŋgɔ siwo le susu ƒe dɔwɔme teƒe.",
+      "view_project": "Kpɔ dɔa",
+      "open_project": "Ʋu dɔ si le yeƒe nɔnɔme me",
+      "view_all": "Doe portfolio blibo",
       "badges": {
-        "saas": "SaaS nyaa si",
-        "full_website": "Wholesale Eye Website",
-        "available_here": "Woate ŋu akpɔe le afi sia",
-        "minecraft_mod": "Minecraft Modwo"
+        "saas": "SaaS",
+        "full_website": "Saiti blibo",
+        "available_here": "Le afi sia me",
+        "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Nukpɔsusu bubu le dɔa ŋu",
+      "invitation": "Doe injunia ƒe atlas",
+      "kicker": "Portfolio blibo / susu si sɔ gbɔ",
+      "title": "Injunia ƒe Atlas",
+      "projects": "Dɔwo",
+      "technologies": "Teknolɔgi",
+      "connections": "Kadodo",
+      "center": "Injunia ƒe atlas",
+      "filter_label": "Dɔ ƒe hat︠classes",
+      "domains": {
+        "all": "Dɔ siwo katã wònye",
+        "products": "Nuƒlaeƒowɔnu",
+        "systems": "Nuƒome",
+        "experiences": "Dɔdziɖuɖu"
+      },
+      "search": "Di dɔ alo teknɔlɔgi ɖekae",
+      "view_label": "Atlas ƒe nukpɔkpɔ",
+      "map_view": "Anyigba ƒe nukpɔkpɔ",
+      "map_navigation": "Portfolio ƒe anyigba ƒe mɔfiame",
+      "zoom_in": "Gbugbɔ ɖe ŋgɔ",
+      "zoom_out": "Gbugbɔ ɖe ɖi",
+      "zoom_level": "Anyigba ƒe zoom ƒe nɔnɔme",
+      "fit_all": "Ɖo dɔ siwo katã ɖe eme",
+      "center_selected": "Ɖo dɔ si woƒo asii na le titina",
+      "all_technologies": "Teknolɔgi siwo katã",
+      "list_view": "Enyi ƒe nukpɔkpɔ",
+      "pause": "Dzudzɔ signal animation",
+      "resume": "Yi edzi kple signal animation",
+      "project_selector": "Doe dɔwo",
+      "inspector": "Dɔ si woƒo asii ƒe enumerate",
+      "shared_stack": "Teknolɔgi si womae",
+      "family_connection": "Dɔ ƒe kadodo",
+      "portfolio_connection": "Portfolio ƒe kadodo",
+      "families": {
+        "portfolio": "Portfolio ƒe teƒe",
+        "business": "Asitsanya ƒe dɔwɔnu",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly dɔwo",
+        "libraries": "Script ƒe agbalẽdzraɖoƒe",
+        "languages": "Gbe ƒe dodokpɔ",
+        "automation": "Automation kple data ƒe dɔwɔnu",
+        "experience": "Dɔwɔnya kple sukudede ƒe dodowɔkplɔ"
+      },
+      "browser_native": "Browser ƒe vi / server mele o",
+      "no_results": "Dɔ si sɔ la mele afi aɖeke o",
+      "no_selection": "Womesɔ dɔ ɖeka o.",
+      "reset": "Tutu filter siwo",
+      "engineering_lens": "Injunia ƒe nukpɔsusu",
+      "connected_work": "Dɔ si sɔ gbɔ",
+      "open_live": "Ʋu dɔ si le yeƒe nɔnɔme me",
+      "open_project": "Doe dɔa",
+      "footer": "Nutoƒe vovovowo. Injunia ƒe dɔwɔna ɖeka si sɔ gbɔ.",
+      "contact": "Mina míatu nu si gbɔna",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Data ƒe pipelines",
+        "angular": "Angular",
+        "access": "Mɔɖeɖe ƒe ɖoɖo",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Dodokpɔ",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Gbe ƒe nuhiahiã",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Mɔɖeɖe",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Spreadsheet siwo me sɔ o laa gbɔna. Gagbexɔxɔ ƒe nuxlɔ̃amɛ kple asitsala ƒe manya siwo le dzidzime me laa dzona. SaaS ƒe nuwɔnua si wotu ɖe contractor ƒe dɔ me.",
+          "lens": "Import siwo ŋu wɔna le ŋgɔ laa hiã model si ŋu wɔna le eme le sitsoƒe: xɔ format bubuwo mele be yewoado ɖe nubabla ƒe sewo ŋu o."
+        },
+        "inventory_register": {
+          "summary": "Dɔwɔƒe ƒe dɔwɔna kple Angular kple Node.js si kuna usu siwo le didi me, inventory ƒe nɔnɔme, kple payment ƒe ɖoɖo.",
+          "lens": "Cash register le dɔ wu payment screen. Amewo, stock ƒe tɔtrɔwo, kple payment ƒe nɔnɔme hiã mɔ si le eme."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor ƒe dɔwɔnu si le controller, service, kple repository ƒe mɔnuwo me, Entity Framework Core ƒe nɔnɔme, kple test ƒe dɔwɔnu blibo.",
+          "lens": "Sefɔƒe wɔa dɔ ɖe eƒe nɔnɔme ɖe enu ne business ƒe sewo ateŋu ado dodokpɔ le interface ŋu."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL ƒe dustsui ƒe nɔnɔme kple SQLite ƒe agbalẽ ɖeka kple Svelte ƒe dashboard.",
+          "lens": "Ganya ƒe nɔnɔme dze gɔme le numata: senti ƒe nɔnɔme kple agbalẽ ƒe nɔnɔme wɔa ga ƒe dodo"
+        },
+        "interop": {
+          "summary": "Gbeƒoƒo si le gbe vovowo dome si le 15 programming gbe kple 18 ɖoɖowo me, si kpɔa nu si dzɔna le ʋuʋu ƒe mɔnuwo me.",
+          "lens": "Nudzedze le runtime ƒe nɔnɔme me: data ƒe sɔsɔɔ, dɔ ƒe nɔnɔme, kple ʋuʋu si woaƒoe dada ɖoɖo."
+        },
+        "formatter": {
+          "summary": "Go parsing ƒe dɔwɔnu si wotso ɖe WebAssembly ƒe nɔnɔme. JSON kple YAML ƒe nɔnɔme le browser ƒe dɔwɔme.",
+          "lens": "Parser ƒe ƒoƒo ɖe browser ƒe dɔwɔme me wɔa nɔnɔme ɖe client ƒe dɔwɔnu ŋu."
+        },
+        "portfolio_website": {
+          "summary": "Saiti si me nèle: React portfolio si le gbe 100+, access ƒe nɔnɔme, kple WebAssembly ƒe dɔwɔnu siwo wɔ dɔ.",
+          "lens": "Static ƒe nɔnɔme mele be yeadze static ƒe nɔnɔme o. Ƒuƒlu ƒe nɔnɔme ateŋu anɔ client ƒe dɔwɔme."
+        },
+        "biblioteca": {
+          "summary": "Python ƒe localization pipeline si trɔa structured content ɖe portfolio si le gbe 100+ ƒe dɔwɔme.",
+          "lens": "Ɣetoɖoƒe ƒe dodo le data ƒe dɔwɔme kple translation ƒe dɔwɔme ƒe kpɔkplɔ̃ me. Ɖeka ƒe nɔnɔme wɔa content ƒe tɔtrɔwo"
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Mɔ̃ɖaŋununya ƒe Aɖaŋuwo",
       "header1": "Ðoɖowɔɖi Gbegbɔgblɔwo",
       "header2": "Dɔwɔɖoɖowo & Agbalẽdzraɖoƒewo",
-      "header3": "Dɔwɔnuwo & Mɔ̃ɖaŋununyawo"
+      "header3": "Dɔwɔnuwo & Mɔ̃ɖaŋununyawo",
+      "technologies": "teknolɔgi",
+      "search_label": "Filter",
+      "search_placeholder": "Filter skills…",
+      "clear_search": "Tutu filter",
+      "no_matches": "Skill si sɔ kple wò filter la mele afi aɖeke o.",
+      "works": "Dɔwo",
+      "experience": "Dɔdziɖuɖu",
+      "professional": "Dɔwɔla",
+      "education": "Nusɔsrɔ̃",
+      "paired_with": "Zi geɖe la ɖeka",
+      "summary_professional": "Wozãe ɖe dɔ me le {items}.",
+      "summary_education": "Wosrɔ̃e eye wozãe le {items}.",
+      "summary_projects": "Wozãe le dɔ me le {items}.",
+      "summary_projects_also": "Gawɔe wozãe le {items}.",
+      "and_more": "bubuwo",
+      "scroll_more": "Yi nu ɖe ŋgɔ be nàkpɔ dɔ bubuwo",
+      "show_less": "Fia nu siwo medo o",
+      "no_samples": "Nye dɔwɔnu ƒe akpa aɖe. Mele dɔwɔnya le ɖeɖe afia ɖe eŋu hã."
     },
     "services": {
       "title": "Nye Subɔsubɔdɔwo",
@@ -112,6 +247,13 @@
           "text": "Metuae kple nu ŋutɔŋutɔ siwo le dodo ɖe ŋgɔ megbe le susu me: nya ɣaɣla siwo wodzra ɖo le dzɔtsoƒedzikpɔkpɔ me, nyatakakadzraɖoƒe ƒe ʋuʋu ƒe mɔ siwo me kɔ, mɔɖeɖe si wotu ɖe akpa dzi, kpeɖodzinana le ɖoɖoa ƒe liƒowo dzi, . dodokpɔ siwo wowɔna le wo ɖokui si, CI/CD ŋuti sidzedze, kple ŋkuléle ɖe nu ŋu ŋutɔŋutɔ. Esiawoe nye nyatakaka tsitotsito siwo trɔa kpɔɖeŋu aɖe wòzua kɔmpiutadziɖoɖo si dzi woate ŋu aka ɖo."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licence kple certification-wo",
+      "credential": "Certification",
+      "issued_by": "Wotsɔe ɖe eme",
+      "issued": "Dzidzekpɔ ƒe ŋkeke",
+      "verify": "Ƒo asii ɖe certification ŋu"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Do ka kple Ene",
-        "text": "Massive ƒome si wu 50+ implementations le Connect Ene fefea. Dɔ sia ƒe akpa aɖewoe nye dɔwɔwɔ le ɖoɖowɔɖigbe vovovo siwo wu 30 me, siwo dometɔ aɖewoe nye Java, C++, Python, JavaScript, kple bubuwo. Tsɔ kpe ɖe eŋu la, egadea ɖoɖowɔɖi vovovo siwo wu 20+ alo nɔnɔme bubuwo hã ɖe eme, siwo dometɔ aɖewoe nye React.js, Ruby on Rails, ASP.NET, kple bubuwo.",
+        "text": "Enyi eto ƒe fefe ƒe 90+ implementations ƒe dɔgbe. Dɔa le programming gbe 30+, Java, C++, Python, kple JavaScript dome, kple framework 50+, library-wo, runtime-wo, kple database vovovowo.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PayrollOBOL nyaa si",
-        "text": "A local payroll processing system si wotu kple GnuCOBOL, SQLite double-entry ledger, kple Svelte operations dashboard. Ezãa akɔntabubu si me numekɔkɔwo le, ga home ŋuti dɔ wɔwɔ, kple loopback dashboard tsɔ wɔa ganyawo ƒe dɔwo ŋu dɔ nyuie, woate ŋu akpɔ wo adze sii, eye woawɔ dɔ nyuie.",
+        "title": "PayrollOBOL",
+        "text": "Zãɖuɖu ƒe nɔnɔme si le afi ma le GnuCOBOL, SQLite ƒe agbalẽ ɖeka, kple Svelte ƒe dashboard.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft ƒe mɔnu",
-        "text": "Minecraft Mod si tsɔa dɔwɔnu siwo wowɔ ɖe ɖoɖo nu, aʋawɔnuwo, amehawo, blocks, dimensions, kple nu bubu geɖewo kpena ɖe fefea ŋu. Wotue kple Java kple Kotlin koŋ, kple kpekpeɖeŋu si xɔ Minecraft ƒe tɔtrɔ 1.16 vaseɖe 26.2.",
+        "text": "Minecraft mod si tsɔa customs dɔwɔnu, akpaƒu, mobs, blocks, momewo, kple bubuwo kpe ɖe fefea ŋu. Wotu ɖe Java kple Kotlin ŋu eye wòwɔa dɔ le Minecraft 1.16 va ɖo 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Snake Game",
-        "text": "Wotu mɔ̃ si wotsɔ Rust kple Macroquad wɔ la ɖe WebAssoci, eye woɖe egɔme to HTML5 Canvas dzi. Ewɔa game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kpakple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd 0.12 kple game siwo ƒe didime nye sekɛnd suite si ƒo nu tso game ƒe se vevi aɖewo ŋu.",
+        "title": "Dada ƒe fefe",
+        "text": "Dada ƒe engine si ŋu wɔ dɔ le Rust kple Macroquad me, si wotso ɖe WebAssembly ƒe nɔnɔme eye wotu ɖe HTML5 Canvas ŋu.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Mɔ̃ɖaŋudɔwɔƒe ƒe Dɔwɔna",
         "text": "Ƒome si wu 30+ ƒe dɔwɔwɔwo le Turing Mɔ̃a. Wozãnɛ tsɔ ɖea turing ƒe blibonyenye fiana na ɖoɖowɔɖi gbe vovovowo hena numekuku, vevietɔ na Tiger Programming Language.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Chemistry lab si le Rust me eye wotso ɖe WebAssembly ƒe nɔnɔme. Tu sand, tsi, agbeli, ga, calcium carbide, alo sodium ƒe akpa ɖeka eye nàkpɔ ale si physics kple chemistry nɔa wo ɖe wo ŋu.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Tia Mɔ̃a:",
     "tiger_code": "Tiger ƒe Sedede:",
     "run_tiger": "Duƒuƒu Tiger",
-    "output": "Nusi dona tso eme:"
+    "output": "Nusi dona tso eme:",
+    "stop": "Tɔᵷe",
+    "program_input": "Program ƒe nɔnɔme"
   },
   "tab": {
     "title": "Patrick Goodwin ƒe agbalẽa",
@@ -367,5 +516,8 @@
       "no_language_support": "Gbegbɔgblɔ ƒe kpekpeɖeŋu aɖeke meli o"
     }
   },
-  "logotext": "PATRICK ƒe agbalẽa"
+  "logotext": "PATRICK ƒe agbalẽa",
+  "repo_button": {
+    "label": "Ðe kɔdzedzẽ la ƒe ŋutinya le GitHub dzi"
+  }
 }

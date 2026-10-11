@@ -4,21 +4,29 @@
     "home": "Kainga",
     "about": "Mō ahau",
     "portfolio": "Kōpaki",
-    "projects": "Kaupapa Paetukutuku",
-    "tiger": "Te Reo Tiger",
-    "snake": "Keemu Nakahi",
+    "projects": "Kaupapa i whiriwhiria",
+    "tiger": "Tiger - He Reo Papatono Ritenga",
+    "snake": "Kēmu nakahi",
     "portfolio_translator": "Kaiwhakamaori kōpaki",
-    "formatter": "JSON & YAML Whakahōputu",
+    "formatter": "Kaitirotiro JSON & YAML",
     "contact": "Whakapā Mai",
-    "home_description": "sys.root // tirohanga matua",
-    "about_description": "kōtaha engineer // bio & tāpae",
-    "portfolio_description": "Putumōhio pūmanawa // ngā mahi e whakaatuhia ana",
-    "projects_description": "taputapu pāhekoheko & whakahiato",
-    "tiger_description": "te whakahiato ritenga me te kaitirotiro AST",
-    "snake_description": "kēmu arcade matarohia / WASM",
-    "portfolio_translator_description": "100+ matrix reo & i18n",
-    "formatter_description": "te whakapumau me te kaitahuri",
-    "contact_description": "tuwhera tuku // whakapā atu"
+    "home_description": "sys.root // tirohanga whānui matua",
+    "about_description": "kōtaha pūkaha // koiora me te hangarau",
+    "portfolio_description": "putunga pūmanawa // mahi i whiriwhiria",
+    "projects_description": "taputapu whakawhitiwhiti me ngā kaiwhakahiato",
+    "tiger_description": "kaiwhakahiato ritenga me te kaiwhakaatu AST",
+    "snake_description": "kēmu arcade tawhito / WASM",
+    "portfolio_translator_description": "kōpae 100+ reo me i18n",
+    "formatter_description": "kaiwhakamana me te kaihurihuri wetereo",
+    "contact_description": "whakawhiti tuwhera // whakapā mai",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Rākau reo Whā i te rārangi",
+    "alkalab_description": "whakatairite whare pūtaiao matū / WASM",
+    "rustcraft_description": "kēmu voxel pērā i te Minecraft / Rust me wgpu",
+    "suprememc_description": "whakaaturanga mod Minecraft / Java"
   },
   "home": {
     "title": "Kaihanga Kaihanga Katoa | Hua me nga punaha",
@@ -35,17 +43,126 @@
     "contact_button": "Whakapā Mai",
     "about_button": "Mō ahau",
     "featured": {
-      "kicker": "Kaupapa Whakaatuhia",
-      "title": "Mahi kua tohua",
-      "description": "E ono nga kaupapa e tino tohu ana me pehea taku huri i nga whakaaro hao ki roto i te rorohiko whakakoi, mahi.",
-      "view_project": "Tiro Kaupapa",
-      "open_project": "Tuwhera Kaupapa Ora",
-      "view_all": "Tūhurahia te kōpaki katoa",
+      "kicker": "Kaupapa i whiriwhiria",
+      "title": "Mahi i whiriwhiria",
+      "description": "E ono ngā kaupapa e tohu ana i te āhuatanga o tōku huri i ngā whakaaro whai mana hei pūmanawa whakamiha me te whai hua.",
+      "view_project": "Tirohia te kaupapa",
+      "open_project": "Whakatuwhera kaupapa whaiāipo",
+      "view_all": "Tūhura i te pōro pūtea katoa",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Paetukutuku Katoa",
-        "available_here": "Wātea ki konei",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Pae tukutuku katoa",
+        "available_here": "E wātea ana ki konei",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "He tirohanga rerekē mō te mahi",
+      "invitation": "Tūhura i te papa whenua pūkaha",
+      "kicker": "Pōro pūtea katoa / whakaaro hono",
+      "title": "Papa Whenua Pūkaha",
+      "projects": "Kaupapa",
+      "technologies": "Hangarau",
+      "connections": "Hononga",
+      "center": "Papa whenua pūkaha",
+      "filter_label": "Ngā kāwai kaupapa",
+      "domains": {
+        "all": "Ngā mahi katoa",
+        "products": "Ngā hua",
+        "systems": "Ngā pūnaha",
+        "experiences": "Ngā wheako"
+      },
+      "search": "Kimihia he kaupapa, he hangarau rānei",
+      "view_label": "Tirohanga papa whenua",
+      "map_view": "Tirohanga mahere",
+      "map_navigation": "Whakaterenga mahere pōro pūtea",
+      "zoom_in": "Whakanui",
+      "zoom_out": "Whakaiti",
+      "zoom_level": "Taumata whakanui mahere",
+      "fit_all": "Whakaōrite ngā kaupapa katoa",
+      "center_selected": "Whakatūturu te kaupapa kua tohua",
+      "all_technologies": "Ngā hangarau katoa",
+      "list_view": "Tirohanga rārangi",
+      "pause": "Whakamutu te hākorikori tohu",
+      "resume": "Whakaara anō te hākorikori tohu",
+      "project_selector": "Tūhura kaupapa",
+      "inspector": "Ngā taipitopito kaupapa kua tohua",
+      "shared_stack": "Hangarau tūhono",
+      "family_connection": "Hononga kaupapa",
+      "portfolio_connection": "Hononga pōro pūtea",
+      "families": {
+        "portfolio": "Pūtahi pōro pūtea",
+        "business": "Ngā taupānga pakihi",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Ngā kaupapa WebAssembly",
+        "libraries": "Ngā whare pukapuka tuhinga",
+        "languages": "Ngā whakamātautau reo",
+        "automation": "Ngā taputapu aunoatanga me te raraunga",
+        "experience": "Wheako ngaio me te mātauranga"
+      },
+      "browser_native": "Tūturu kaimātakitaki / kāore he tūmau",
+      "no_results": "Kāore he kaupapa e rite ana",
+      "no_selection": "Kāore he kaupapa i tohua.",
+      "reset": "Whakakore ngā tātari",
+      "engineering_lens": "Tirohanga pūkaha",
+      "connected_work": "Mahi hono",
+      "open_live": "Whakatuwhera kaupapa whaiāipo",
+      "open_project": "Tūhura kaupapa",
+      "footer": "Ngā rohe rerekē. Kia kotahi te mahi pūkaha hono.",
+      "contact": "Kia hangaia e tātou te mea e whai ake nei",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Ngā ara raraunga",
+        "angular": "Angular",
+        "access": "Mana uru",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Whakamātautau",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Te mahi tahi",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Āheitanga",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Ngā ripanga kāore e rite ana e uru mai ana. Ngā whakatau hanga me ngā tono reri mō te kaihoko e puta ana. He hua SaaS i hangaia huri noa i te rerenga mahi tūturu a te kaikirimana.",
+          "lens": "Ko ngā kawemai ngāwari me whai tauira ōkawa o roto: ko te whakaae ki ngā hōputu maha atu kāore e tika kia whakangāwari i ngā ture tātai e whakawhirinaki ana te tono."
+        },
+        "inventory_register": {
+          "summary": "He rerenga mahi wāhi hoko me Angular me Node.js e hono ana i ngā kaiwhakamahi kua whakamana, te tika o te rārangi, me te rerenga utu whakatairite.",
+          "lens": "He nui ake te rehita moni i te mata utu. Me whai rohe mārama ngā tūnga, ngā huringa taonga, me ngā āhua utu kia noho haepapa ai te rerenga mahi."
+        },
+        "grocery_app": {
+          "summary": "He taupānga .NET 9 Blazor me ngā rohe kaiwhakahaere, ratonga, me te putunga, te manawarohanga Entity Framework Core, me te huinga whakamātautau whānui.",
+          "lens": "Ka whiwhi wāhi te wehenga ina taea ngā ture pakihi te whakamātautau motuhake i te atanga me te paparanga manawaroa."
+        },
+        "payrollobol": {
+          "summary": "Ko te tukatuka utu GnuCOBOL ka tūtaki ki te pukapuka nui SQLite me te papamahi whakahaere Svelte.",
+          "lens": "Ka tīmata te tika pūtea i te whakaaturanga: ko te tatauranga pene whētuituhi me ngā whakaurunga whakataurite e mārama ai te neke moni."
+        },
+        "interop": {
+          "summary": "He tohutoro whakawhiti-reo e kapi ana i ngā reo papatono 15 me ngā tauira whakahaere 18, e tūhura ana i ngā mea e hua ake i ngā rohe wā whakahaere.",
+          "lens": "Ko te wāhanga uaua ko te kirimana i waenga i ngā wā whakahaere: ko te whakawhiti raraunga, te whanonga tukanga, me te whakahaerenga tārua ka nui ake te hira o te wetereo."
+        },
+        "formatter": {
+          "summary": "He pūkaha tātaritanga Go tūturu i whakahaerengia ki WebAssembly. Ko te whakamana me te whakahōputu JSON me YAML e mahi ā-rohe ana i te kaimātakitaki.",
+          "lens": "Ko te whakaneke i te kaiwāwahi ki te kaimātakitaki ka whakawhiti i te pewa kaihoko nui ake mō te tukatuka ā-rohe, te kawe, me te iti ake o te whakawhirinaki ki te tūmau."
+        },
+        "portfolio_website": {
+          "summary": "Te pae kei roto koe: he pōro pūtea React me ngā reo 100+, ngā whakawhitiwhiti āheitanga, me ngā taputapu WebAssembly e mahi ana.",
+          "lens": "Kāore e tika kia pērā te whakaturanga pūmau he wheako pūmau. Ka taea e ngā whakawhitiwhiti whai rawa te noho ki te kaihoko me te kore tūmau taupānga."
+        },
+        "biblioteca": {
+          "summary": "He ara whakawhenua Python e huri ana i tētahi puna ihirangi hanganga ki te pōro pūtea e wātea ana i ngā reo 100+.",
+          "lens": "He raru tiaki raraunga te āheitanga ā-ao, pērā anō he raru whakamāori. Ko tētahi puna pono e whakahaere ana i ngā huringa ihirangi."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Nga Pukenga Hangarau",
       "header1": "Nga Reo Papatono",
       "header2": "Anga me nga Whare Pukapuka",
-      "header3": "Utauta me Hangarau"
+      "header3": "Utauta me Hangarau",
+      "technologies": "hangarau",
+      "search_label": "Tātari",
+      "search_placeholder": "Tātari pūkenga…",
+      "clear_search": "Whakakore tātari",
+      "no_matches": "Kāore he pūkenga e rite ana ki tō tātari.",
+      "works": "Ngā mahi",
+      "experience": "Wheako",
+      "professional": "Ngaio",
+      "education": "Mātauranga",
+      "paired_with": "He maha ngā wā ka hono ki",
+      "summary_professional": "I whakamahia ā-ngaio i {items}.",
+      "summary_education": "I akona, i whakamahia i {items}.",
+      "summary_projects": "I whakamahia ā-ringa i {items}.",
+      "summary_projects_also": "I whakamahia hoki i {items}.",
+      "and_more": "atu",
+      "scroll_more": "Pānuku mō ētahi atu mahi",
+      "show_less": "Whakaatu iti iho",
+      "no_samples": "He wāhanga o āku taputapu mahi. Ki au nei he pai te whakamārama i tōku whakamahinga."
     },
     "services": {
       "title": "Taku Ratonga",
@@ -112,6 +247,13 @@
           "text": "Ka hanga e au me nga mea pono i muri i te whakarewatanga i te tirohanga: nga mea ngaro i hunahia i waho i te mana o te puna, nga huarahi hekenga papaa raraunga marama, te whakamana i runga i nga mahi, te whakamana i nga rohe punaha, nga whakamatautau aunoa, te mohiotanga CI/CD, me te maataki mahi. Ko nga korero enei ka huri i tetahi tauira hei rorohiko pono."
         }
       ]
+    },
+    "certifications": {
+      "title": "Ngā raihana me ngā tiwhikete",
+      "credential": "Tiwhikete",
+      "issued_by": "I tukuna e",
+      "issued": "Rā tuku",
+      "verify": "Whakamana tiwhikete"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Hono Tuawha",
-        "text": "He whanau nui neke atu i te 50+ nga whakatinanatanga o te keemu Connect Four. Kei roto i tenei kaupapa nga whakatinanatanga i roto i te 30 neke atu i te 30 nga reo hotaka, tae atu ki te Java, C++, Python, JavaScript, me etahi atu. I tua atu, kei roto ano i te 20+ nga anga rereke, etahi atu whakatakotoranga ranei, tae atu ki a React.js, Ruby on Rails, ASP.NET, me etahi atu.",
+        "text": "He whānau nui o ngā whakatinanatanga 90+ o te kēmu Whā i te rārangi. Ka kapi te kaupapa i ngā reo papatono 30+, tae atu ki te Java, C++, Python, me te JavaScript, me ngā anga, whare pukapuka, wā whakahaere, me ngā pātengi raraunga 50+ rerekē, mai i te React, Angular, me te Blazor ki te Django, Spring Boot, Phoenix, PostgreSQL, me ētahi atu.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "He punaha tukatuka utu a rohe i hangaia me GnuCOBOL, he pukapuka pukapuka whakauru-rua SQLite, me te papatohu whakahaere Svelte. Ka whakamahia e ia te pangarau tauoti, te tukatuka utu putea, me te papatohu whakamuri kia marama ai nga rerengamahi putea, kia whakamatauria, kia whai kawenga mahi.",
+        "text": "He pūnaha tukatuka utu ā-rohe i hangaia me te GnuCOBOL, te pukapuka nui SQLite, me te papamahi whakahaere Svelte. Ka whakamahia e ia te pāngarau pene whētuituhi, te tukatuka utu puranga, me te papamahi loopback kia mārama, kia taea te whakamātautau, kia haepapa ai ngā rerenga moni.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "He Minecraft Mod e taapiri ana i nga taputapu ritenga, te patu, te mob, te poraka, te rahi, me te maha atu o nga ahuatanga ki te keemu. I hangaia me Java me Kotlin, me te tautoko mai i nga putanga Minecraft 1.16 ki te 26.2.",
+        "text": "He mod Minecraft e tāpiri ana i ngā taputapu ritenga, pūweru, horoi, poraka, inenga, me ētahi atu āhuatanga maha ki te kēmu. I hangaia mātua ki te Java me te Kotlin, e tautoko ana i ngā putanga Minecraft 1.16 ki te 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Keemu Nakahi",
-        "text": "He miihini Snake kua oti te hanga ki te Rust me te Macroquad, i whakahiato ki te WebAssembly, ka tukuna ma te HTML5 Canvas. Ka whakakotahihia e ia nga tohu keemu 0.12-tuarua me nga nekehanga maeneene, nga waahanga keemu marama, nga mana urupare, te tukinga me te whakahaerenga-wini, me te whakamatautau arotahi. huinga e hipoki ana i nga ture keemu matua.",
+        "title": "Kēmu nakahi",
+        "text": "He pūkaha Nakahi whakamiha i hangaia me te Rust me te Macroquad, i whakahiato ki WebAssembly, ā, i tuhia mā te HTML5 Canvas. Ka whakakotahi i ngā tiki kēmu 0.12-hēkona i te nekehanga i whakanekehia, ngā wāhanga kēmu mārama, te whakahaere urupare, te whakahaere tukinga me ngā āhua wikitoria, me tētahi huinga whakamātautau e kapi ana i ngā ture matua o te kēmu.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Kaupapa Miihini Turing",
         "text": "Te whanau o te neke atu i te 30 nga whakatinanatanga o te Miihini Turing. I whakamahia hei whakaatu i te tino huri mo nga reo hotaka rereke mo te rangahau, ina koa mo te Reo Papatono Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "He whare pūtaiao matū onepū-puehu i hangaia i te Rust me te whakahiato ki WebAssembly. Peita i te onepū, te wai, te rangitoto, te maitai, te calcium carbide, tētahi wāhanga sodium rānei, ka mātakitaki ai i te whawhai a te ahupūngao me te matū: ka pahū te sodium i te wai, ka tukuna e te calcium carbide te acetylene, ka whakarewa te rangitoto i te onepū hei karaihe, ka wehewehe noa te irawe i te hinu, te mercury, me te onepū. Ka whakahaere te pūkaha i ngā rauemi 32 me ngā ture tauhohenga 40 ki runga i te pūhoro pūtau papatahi, e whāki ana i ngā pika mātātoa mai i te maharatanga rārangi wasm me te kore kape mō ia anga.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Tīpako Pūkaha:",
     "tiger_code": "Waehere Tiger:",
     "run_tiger": "Rere Tiger",
-    "output": "Putanga:"
+    "output": "Putanga:",
+    "stop": "Kati",
+    "program_input": "Whakaurunga papatono"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Karekau he tautoko reo"
     }
   },
-  "logotext": "PATRIKA"
+  "logotext": "PATRIKA",
+  "repo_button": {
+    "label": "Tirohia te waehere puna i GitHub"
+  }
 }

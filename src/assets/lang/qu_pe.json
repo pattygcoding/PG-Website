@@ -4,21 +4,29 @@
     "home": "Wasi",
     "about": "Ñoqamanta",
     "portfolio": "Cartera nisqa",
-    "projects": "Web nisqapi Proyectokuna",
-    "tiger": "Tigre Simi",
-    "snake": "Mach'aqway Pukllay",
+    "projects": "Akllasqa proyectos",
+    "tiger": "Tiger - Huk Especial Programación Simi",
+    "snake": "Mach'aqway pukllay",
     "portfolio_translator": "Carteramanta tikraq",
-    "formatter": "JSON & YAML Formato",
+    "formatter": "JSON & YAML qhawaq",
     "contact": "Contacto Ñuqawan",
     "home_description": "sys.root // hatun qhaway",
-    "about_description": "ingeniero perfil // bio & pila",
-    "portfolio_description": "software catálogo // rikuchisqa llamk'aykuna",
-    "projects_description": "interactivo yanapakuykuna & compiladores",
-    "tiger_description": "ruwasqa compilador & AST qhawachiq",
+    "about_description": "injiniru perfil // bio ima tecnología ima",
+    "portfolio_description": "software catálogo // akllasqa llamk'aykuna",
+    "projects_description": "interactivo herramientas ima compiladores ima",
+    "tiger_description": "especial compilador ima AST visualizador ima",
     "snake_description": "clásico arcade pukllay / WASM",
-    "portfolio_translator_description": "100+ simi matriz & i18n",
-    "formatter_description": "sintaxis validador & tikraq",
-    "contact_description": "kichasqa transmisión // rimanakuy"
+    "portfolio_translator_description": "100+ simi matriz ima i18n ima",
+    "formatter_description": "sintaxis validador ima conversor ima",
+    "contact_description": "kicha transmitido // waqyakuway",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Simi sach'a Tawa huk siguiendota",
+    "alkalab_description": "química laboratorio simulación / WASM",
+    "rustcraft_description": "voxel pukllay Minecraft estilo / Rust ima wgpu ima",
+    "suprememc_description": "Minecraft mod vitrina / Java"
   },
   "home": {
     "title": "Kuraq Ingeniero Full-Pila | Producto & Sistemas nisqakuna",
@@ -35,17 +43,126 @@
     "contact_button": "Contacto Ñuqawan",
     "about_button": "Ñoqamanta",
     "featured": {
-      "kicker": "Proyectos Destacados",
-      "title": "Akllasqa Llamkay",
-      "description": "Soqta proyectokuna aswan allinta representan imaynatachus ambicioso yuyaykunata llimp’isqa, llamk’aq softwareman tikrani.",
-      "view_project": "Proyectota qhaway",
-      "open_project": "Kichay Kawsaq Proyecto",
-      "view_all": "Hunt’asqa cartera nisqapi t’aqwiriy",
+      "kicker": "Akllasqa proyectos",
+      "title": "Akllasqa llamk'aykuna",
+      "description": "Suqta proyectos yachachiq imaynam ambicioso ideas software pulido ima funcionando ima ruwani.",
+      "view_project": "Qhaway proyecto",
+      "open_project": "Kichariy vivo proyecto",
+      "view_all": "Maskhay completo portfolio",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Lliw Web nisqa",
-        "available_here": "Kaypi tarikun",
-        "minecraft_mod": "Minecraft nisqa Mod"
+        "full_website": "Hunt'a sitio web",
+        "available_here": "Kaypi disponible",
+        "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Huk diferente rikuy llamk'aymanta",
+      "invitation": "Maskhay ingeniería atlas",
+      "kicker": "Hunt'a portfolio / tinkisqa yuyay",
+      "title": "Ingeniería Atlas",
+      "projects": "Proyectos",
+      "technologies": "Tecnologías",
+      "connections": "Tinkiykuna",
+      "center": "Ingeniería atlas",
+      "filter_label": "Proyecto categorías",
+      "domains": {
+        "all": "Llipi llamk'ay",
+        "products": "Productos",
+        "systems": "Sistemas",
+        "experiences": "Experiencias"
+      },
+      "search": "Maskhay proyecto ima tecnología ima",
+      "view_label": "Atlas qhaway",
+      "map_view": "Mapa qhaway",
+      "map_navigation": "Portfolio mapa nawigación",
+      "zoom_in": "Hatunyachiy",
+      "zoom_out": "Huch'uyachiy",
+      "zoom_level": "Mapa zoom nivel",
+      "fit_all": "Llipi proyectos allichay",
+      "center_selected": "Akllasqa proyecto chawpiman chura",
+      "all_technologies": "Llipi tecnologías",
+      "list_view": "Lista qhaway",
+      "pause": "Señal animación sayachiy",
+      "resume": "Señal animación kutichiy",
+      "project_selector": "Proyectos maskhay",
+      "inspector": "Akllasqa proyecto imaykakuna",
+      "shared_stack": "Compartido tecnología",
+      "family_connection": "Proyecto tinkiy",
+      "portfolio_connection": "Portfolio tinkiy",
+      "families": {
+        "portfolio": "Portfolio chawpi",
+        "business": "Negocio aplicaciones",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly proyectos",
+        "libraries": "Script librerías",
+        "languages": "Simi experimentos",
+        "automation": "Automatización ima data herramientas ima",
+        "experience": "Profesional ima educativo experiencia ima"
+      },
+      "browser_native": "Navegador nativo / sin servidor",
+      "no_results": "Manam kanchu proyectos iguala",
+      "no_selection": "Manam kanchu akllasqa proyecto.",
+      "reset": "Filtros pichay",
+      "engineering_lens": "Ingeniería rikuy",
+      "connected_work": "Tinkisqa llamk'ay",
+      "open_live": "Kichariy vivo proyecto",
+      "open_project": "Maskhay proyecto",
+      "footer": "Diferente dominios. Huk tinkisqa ingeniería práctica.",
+      "contact": "Hukllachaspa ruwasunchik shamuqta",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Data tuberías",
+        "angular": "Angular",
+        "access": "Yaykuy control",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Prueba",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilidad",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Accesibilidad",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Mana igual runa yupaykuna haykun. Construcción estimaciones ima cliente listo propuestas ima lloqsin. SaaS producto contrataq wakchiq llamk'ayninmanta.",
+          "lens": "Flexible importaciones fuerte interno modelo necesitan: astawan formatos chaskiy mana allinman tukuchina yupay kamachikunata oferta suyakusqa."
+        },
+        "inventory_register": {
+          "summary": "Venta punto llamk'ay Angular ima Node.js ima conecta verificado usuarios, inventario exacto, ima simulado pago flujo ima.",
+          "lens": "Caja astawan pago pantallamanta. Roles, stock cambios, ima pago estados claro límites necesitan llamk'ay responsable kananpaq."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor aplicación controller, servicio, ima repository límites, Entity Framework Core persistencia, ima completo test suite ima.",
+          "lens": "Separación ganan lugar negocio kamachikuna prueba atikun interface ima persistencia capa ima mana kuska."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL salario procesamiento SQLite doble entrada libro mayor ima Svelte operaciones panel ima tinkun.",
+          "lens": "Financiero exactitud representaciónmanta qallarin: completo cent aritmética ima balanceado entradas ima dinero kuyuy claro."
+        },
+        "interop": {
+          "summary": "Interlingua referencia 15 programación simikunata ima 18 ejecución patrones ima, tiempo límitespi kanan maskhan.",
+          "lens": "Sasa parte runtime contrato: data intercambio, proceso comportamiento, ima repetible ejecución sintaxismanta astawan importante."
+        },
+        "formatter": {
+          "summary": "Chay Go parsing motor WebAssemblyman compilado. JSON ima YAML validación ima formato navegadorpi local llamk'an.",
+          "lens": "Parser navegadorpi churan cliente carga astawan local procesamiento, portabilidad, ima mana server dependencia."
+        },
+        "portfolio_website": {
+          "summary": "Sitio kanaykipi: React portfolio 100+ simikunawan, accesible interacciones, ima WebAssembly herramientas llamkaq.",
+          "lens": "Estático despliegue mana estático experiencia. Rico interacciones clientepi kawsan aplikación servidor sin."
+        },
+        "biblioteca": {
+          "summary": "Python localización tubería haru estructurado contenido fuente portfolio 100+ simikunapi disponible.",
+          "lens": "Global yaykuy data mantenimiento problema ima traducción problema ima. Huk verdad fuente contenido cambios gestionable."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Habilidades Técnicas nisqa",
       "header1": "Programación nisqa simikuna",
       "header2": "Marcos & Bibliotecas nisqakuna",
-      "header3": "Herramientas & Tecnologías nisqakuna"
+      "header3": "Herramientas & Tecnologías nisqakuna",
+      "technologies": "tecnologías",
+      "search_label": "Filtro",
+      "search_placeholder": "Habilidades filtrar…",
+      "clear_search": "Filtro pichay",
+      "no_matches": "Mana habilidad filtroykiwan iguala kanchu.",
+      "works": "Llamk'aykuna",
+      "experience": "Experiencia",
+      "professional": "Profesional",
+      "education": "Educación",
+      "paired_with": "Achka kutis tinkun",
+      "summary_professional": "{items}pi profesional usasqa.",
+      "summary_education": "{items}pi yachasqa ima aplicasqa ima.",
+      "summary_projects": "{items}pi práctico aplicasqa.",
+      "summary_projects_also": "{items}pi ima aplicasqa.",
+      "and_more": "astawan",
+      "scroll_more": "Masta llamaqkunapak apaykachay",
+      "show_less": "Aslla rikuchiy",
+      "no_samples": "Trabajo herramientasniy kuskan. Imayna usasqayta explicanaypak kusikuni."
     },
     "services": {
       "title": "Servicioykuna",
@@ -112,6 +247,13 @@
           "text": "Ruwani chiqap kaqkunawan qallariymanta qhipaman qhawaypi: pakasqakuna mana pukyuta kamachiymanta waqaychasqa, sut'i willaypa tiyapuynin astakuy ñankuna, ruwaypi sayasqa kamachiy, sistemapa linderonkunapi chiqaqchay, pruebas automáticas, CI/CD conciencia, hinallataq práctica observabilidad. Kaykunaqa detalles kanku mayqinkunachus huk prototipota software confiable kaqman tikranku."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licencias ima certificaciones ima",
+      "credential": "Certificación",
+      "issued_by": "Qusqa",
+      "issued": "Fecha entrega",
+      "verify": "Verifica certificación"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Tawa tinkuchiy",
-        "text": "Hatun ayllu 50+ masnin implementacionkunamanta Tawa T'inkisqa pukllaymanta. Kay llamk'ayqa 30 masnin imaymana programacion simikunapi implementacionkunatam churan, Java, C++, Python, JavaScript, hukkunapas. Chaymanta, chaymanta 20+ aswan wakhina marcokuna utaq wak formatokuna, React.js, Ruby on Rails, ASP.NET, chaymanta aswan ima.",
+        "text": "Tawa huk siguiendo 90+ implementaciones hatun ayllu. Proyecto Java, C++, Python, JavaScript 30+ programación simikuna ima React, Angular, Blazor Django, Spring Boot, Phoenix, PostgreSQL.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Nómina nisqaOBOL",
-        "text": "Huk kitipi qullqi quy llamkana llamkana GnuCOBOL kaqwan ruwasqa, huk SQLite iskay yaykuy hatun qillqa mayt'u kaqwan, chaymanta huk Svelte llamkanakuna tabla kaqwan. Huk hunt'asqa yupay-centavo matemáticas kaqwan, huñu qullqi quy ruwayta chaymanta huk loopback dashboard kaqwan llamk'achin qullqi llamkanakuna sut'i, pruebapaq chaymanta llamkanamanta cuenta quypaq ruwanapaq.",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite doble entrada libro mayor, ima Svelte operaciones panel ima con ruwasqa local salario procesamiento sistema. Cent aritmética completo, batch salario procesamiento, loopback panel financiero flujos explícito ima.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft nisqa Mod",
-        "text": "Huk Minecraft Mod chaymanta yapan sapanchasqa yanapakuykunata, armadura, mobs, bloquekuna, dimensiones, chaymanta aswan achka ruwanakuna pukllayman. Ñawpaqta Java kaqwan Kotlin kaqwan ruwasqa, yanapakuywan Minecraft 1.16 kaqmanta 26.2 kaqkama layakunayuq.",
+        "text": "Minecraft mod herramientas, armadura, mobs, blocks, dimensiones ima aswan características pukllayman yapan. Java ima Kotlin ima con ruwasqa, Minecraft 1.16 26.2 versiónes supporta.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Snake Game",
-        "text": "Rustwan Macroquadwan ruwasqa llimp'isqa Snake motor, WebAssembly nisqaman huñusqa, HTML5 Canvas nisqawan ruwasqa. Huñun determinista 0.12 iskay kaq pukllay ticks kaqwan sumaq interpolado kuyuywan, explícito pukllay fasekunawan, kutichiq controlkunawan, choque chaymanta gana-estado kamachiywan, chaymanta huk prueba enfocada kaqwan suite nisqapi pukllay kamachiykunata qataspa.",
+        "title": "Mach'aqway pukllay",
+        "text": "Rust ima Macroquad ima con ruwasqa, WebAssemblyman compilado, HTML5 Canvas través renderizado pulido Mach'aqway motor.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Maquina Proyecto",
         "text": "Ayllu 30+ masnin implementacionkuna Turing Machine nisqamanta. Hukhina programacion simikunapaq turing hunt'asqa kayninta rikuchinapaq llamk'achisqa, maskanapaq, aswanta Tigre Programación Simipaq.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Rustpi ruwasqa WebAssemblyman compilado ima polvo-arena química laboratorio. Arenata, yakuta, lavata, acerota, calcio carburota, sodiota pintay ima física química ima maqanakuyninta qhaway.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Motorta akllay:",
     "tiger_code": "Tigre Código:",
     "run_tiger": "Ruway Tigre",
-    "output": "Lluqsisqa: ."
+    "output": "Lluqsisqa: .",
+    "stop": "Sayay",
+    "program_input": "Programa yaykuy"
   },
   "tab": {
     "title": "Patrick Goodwin sutiyuq runa",
@@ -367,5 +516,8 @@
       "no_language_support": "Mana simi yanapayniyuq"
     }
   },
-  "logotext": "PATRICK sutiyuq runa"
+  "logotext": "PATRICK sutiyuq runa",
+  "repo_button": {
+    "label": "Qhaway GitHubpi fuente código nisqata"
+  }
 }

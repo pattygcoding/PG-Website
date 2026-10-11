@@ -4,21 +4,29 @@
     "home": "Sākums",
     "about": "Par Mani",
     "portfolio": "Portfelis",
-    "projects": "Vietņu projekti",
-    "tiger": "Tīģera valoda",
+    "projects": "Izcelti projekti",
+    "tiger": "Tiger - Pielāgota programmēšanas valoda",
     "snake": "Čūskas spēle",
     "portfolio_translator": "Portfeļa tulkotājs",
-    "formatter": "JSON un YAML formatētājs",
+    "formatter": "JSON un YAML linteris",
     "contact": "Sazinieties ar mani",
     "home_description": "sys.root // galvenais pārskats",
-    "about_description": "inženiera profils // bio un kaudze",
-    "portfolio_description": "programmatūras katalogs // piedāvātie darbi",
-    "projects_description": "interaktīvie rīki un kompilatori",
+    "about_description": "inženiera profils // bio un tehnoloģiju stek",
+    "portfolio_description": "programmatūras katalogs // izcelti darbi",
+    "projects_description": "interaktīvi rīki un kompilatori",
     "tiger_description": "pielāgots kompilators un AST vizualizētājs",
-    "snake_description": "klasiska arkādes spēle / WASM",
+    "snake_description": "klasiskā arkādes spēle / WASM",
     "portfolio_translator_description": "100+ valodu matrica un i18n",
     "formatter_description": "sintakses pārbaudītājs un pārveidotājs",
-    "contact_description": "atvērt pārraidi // sazinieties"
+    "contact_description": "atvērta pārraide // sazinieties",
+    "arcade": "Arkādes",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Četri pēc kārtas valodu koks",
+    "alkalab_description": "ķīmijas laboratorijas simulācija / WASM",
+    "rustcraft_description": "Minecraft stila vokseļu spēle / Rust un wgpu",
+    "suprememc_description": "Minecraft moda vitrīna / Java"
   },
   "home": {
     "title": "Vecākais Full-Stack inženieris | Produkti un sistēmas",
@@ -35,17 +43,126 @@
     "contact_button": "Sazinieties ar mani",
     "about_button": "Par Mani",
     "featured": {
-      "kicker": "Piedāvātie projekti",
-      "title": "Izvēlētais darbs",
-      "description": "Seši projekti, kas vislabāk atspoguļo to, kā es ambiciozas idejas pārvēršu noslīpētā, strādājošā programmatūrā.",
+      "kicker": "Izcelti projekti",
+      "title": "Atlasīti darbi",
+      "description": "Seši projekti, kas vislabāk atspoguļo, kā es pārvēršu ambiciozas idejas pulētā un darbojošā programmatūrā.",
       "view_project": "Skatīt projektu",
-      "open_project": "Atveriet Live Project",
-      "view_all": "Izpētiet visu portfeli",
+      "open_project": "Atvērt tiešraides projektu",
+      "view_all": "Izpētīt pilnu portfeli",
       "badges": {
         "saas": "SaaS",
         "full_website": "Pilna vietne",
-        "available_here": "Pieejams Šeit",
-        "minecraft_mod": "Minecraft mod"
+        "available_here": "Pieejams šeit",
+        "minecraft_mod": "Minecraft mods"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Citāds skatījums uz darbu",
+      "invitation": "Izpētiet inženierijas atlantu",
+      "kicker": "Pilns portfelis / savienota domāšana",
+      "title": "Inženierijas atlants",
+      "projects": "Projekti",
+      "technologies": "Tehnoloģijas",
+      "connections": "Savienojumi",
+      "center": "Inženierijas atlants",
+      "filter_label": "Projektu kategorijas",
+      "domains": {
+        "all": "Visi darbi",
+        "products": "Produkti",
+        "systems": "Sistēmas",
+        "experiences": "Pieredzes"
+      },
+      "search": "Atrodiet projektu vai tehnoloģiju",
+      "view_label": "Atlanta skats",
+      "map_view": "Kartes skats",
+      "map_navigation": "Portfeļa kartes navigācija",
+      "zoom_in": "Tuvināt",
+      "zoom_out": "Attālināt",
+      "zoom_level": "Kartes tuvinājuma līmenis",
+      "fit_all": "Ievietot visus projektus",
+      "center_selected": "Centrēt atlasīto projektu",
+      "all_technologies": "Visas tehnoloģijas",
+      "list_view": "Saraksta skats",
+      "pause": "Pauzēt signāla animāciju",
+      "resume": "Turpināt signāla animāciju",
+      "project_selector": "Izpētīt projektus",
+      "inspector": "Atlasītā projekta detaļas",
+      "shared_stack": "Koplietota tehnoloģija",
+      "family_connection": "Projekta savienojums",
+      "portfolio_connection": "Portfeļa savienojums",
+      "families": {
+        "portfolio": "Portfeļa centrs",
+        "business": "Biznesa lietotnes",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly projekti",
+        "libraries": "Skriptu bibliotēkas",
+        "languages": "Valodu eksperimenti",
+        "automation": "Automatizācijas un datu rīki",
+        "experience": "Profesionālā un izglītības pieredze"
+      },
+      "browser_native": "Vietējais pārlūkā / bez servera",
+      "no_results": "Nav atbilstošu projektu",
+      "no_selection": "Nav atlasīts projekts.",
+      "reset": "Notīrīt filtrus",
+      "engineering_lens": "Inženierijas skatījums",
+      "connected_work": "Savienots darbs",
+      "open_live": "Atvērt tiešraides projektu",
+      "open_project": "Izpētīt projektu",
+      "footer": "Dažādas jomas. Viena savienota inženierijas prakse.",
+      "contact": "Uzbūvēsim to, kas nāk tālāk",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Datu cauruļvadi",
+        "angular": "Angular",
+        "access": "Piekļuves kontrole",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testēšana",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Sadarbspēja",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Pieejamība",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Nekonsekventas izklājlapas iekšā. Būvniecības tāmes un klientam gatavi priekšlikumi ārā. SaaS produkts, kas būvēts ap izpildītāja reālo darba plūsmu.",
+          "lens": "Elastīgi importi prasa stingru iekšējo modeli: vairāk formātu pieņemšana nedrīkst vājināt aprēķinu noteikumus, no kuriem ir atkarīgs piedāvājums."
+        },
+        "inventory_register": {
+          "summary": "Pārdošanas punkta darba plūsma ar Angular un Node.js, kas savieno autentificētus lietotājus, krājumu precizitāti un simulētu maksājumu plūsmu.",
+          "lens": "Kase ir vairāk nekā norēķinu ekrāns. Lomām, krājumu izmaiņām un maksājumu stāvokļiem ir vajadzīgas skaidras robežas, lai darba plūsma paliktu atbildīga."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor lietotne ar kontroliera, pakalpojuma un krātuves robežām, Entity Framework Core noturību un visaptverošu testu komplektu.",
+          "lens": "Atdalīšana nopelna savu vietu, kad biznesa noteikumus var testēt neatkarīgi no saskarnes un noturības slāņa."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL algu apstrāde satiekas ar SQLite dubultā ieraksta galveno grāmatu un Svelte operāciju paneli.",
+          "lens": "Finanšu pareizība sākas ar reprezentāciju: veselu centu aritmētika un sabalansēti grāmatvedības ieraksti padara naudas kustību nepārprotamu."
+        },
+        "interop": {
+          "summary": "Starpvalodu atsauce, kas aptver 15 programmēšanas valodas un 18 izpildes modeļus, izpētot, kas notiek izpildes laika robežās.",
+          "lens": "Grūtā daļa ir līgums starp izpildes vidēm: datu apmaiņa, procesu uzvedība un atkārtojama izpilde ir svarīgāka par sintaksi."
+        },
+        "formatter": {
+          "summary": "Īsts Go parsēšanas dzinējs, kas kompilēts uz WebAssembly. JSON un YAML validācija un formatēšana darbojas lokāli pārlūkā.",
+          "lens": "Parsera pārvietošana pārlūkā apmaina lielāku klienta slodzi pret lokālu apstrādi, pārnesamību un mazāk atkarību no servera."
+        },
+        "portfolio_website": {
+          "summary": "Vietne, kurā atrodaties: React portfelis ar 100+ valodām, pieejamām mijiedarbībām un darbojošos WebAssembly rīkiem.",
+          "lens": "Statiska izvietošana nenozīmē obligāti statisku pieredzi. Bagātīgas mijiedarbības var dzīvot klienta pusē bez lietojumprogrammu servera."
+        },
+        "biblioteca": {
+          "summary": "Python lokalizācijas cauruļvads, kas pārvērš vienu strukturētu satura avotu par portfeli, kas pieejams 100+ valodās.",
+          "lens": "Globālā sasniedzamība ir tikpat liela datu uzturēšanas problēma, cik tulkošanas problēma. Viens patiesības avots padara satura izmaiņas pārvaldāmas."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tehniskās prasmes",
       "header1": "Programmēšanas valodas",
       "header2": "Ietvari un bibliotēkas",
-      "header3": "Rīki un tehnoloģijas"
+      "header3": "Rīki un tehnoloģijas",
+      "technologies": "tehnoloģijas",
+      "search_label": "Filtrēt",
+      "search_placeholder": "Filtrēt prasmes…",
+      "clear_search": "Notīrīt filtru",
+      "no_matches": "Neviena prasme neatbilst jūsu filtram.",
+      "works": "Darbi",
+      "experience": "Pieredze",
+      "professional": "Profesionāli",
+      "education": "Izglītība",
+      "paired_with": "Bieži savienots ar",
+      "summary_professional": "Profesionāli izmantots {items}.",
+      "summary_education": "Studēts un pielietots {items}.",
+      "summary_projects": "Praktiski pielietots {items}.",
+      "summary_projects_also": "Arī pielietots {items}.",
+      "and_more": "vairāk",
+      "scroll_more": "Ritiniet, lai redzētu vairāk darbu",
+      "show_less": "Rādīt mazāk",
+      "no_samples": "Daļa no manas darba instrumentu kastes. Ar prieku pastāstīšu, kā esmu to izmantojis."
     },
     "services": {
       "title": "Mani pakalpojumi",
@@ -112,6 +247,13 @@
           "text": "Es veidoju, ņemot vērā realitāti pēc palaišanas: noslēpumi, kas tiek turēti ārpus avota kontroles, skaidri datu bāzes migrācijas ceļi, uz lomu balstīta autorizācija, validācija pie sistēmas robežām, automatizēti testi, CI/CD izpratne un praktiskā novērojamība. Šīs ir detaļas, kas prototipu pārvērš uzticamā programmatūrā."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licences un sertifikāti",
+      "credential": "Sertifikāts",
+      "issued_by": "Izdeva",
+      "issued": "Izsniegšanas datums",
+      "verify": "Pārbaudīt sertifikātu"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Savienojiet četrus",
-        "text": "Milzīga saime, kurā ir vairāk nekā 50 spēles Connect Four implementācijas. Šis projekts ietver implementācijas vairāk nekā 30 dažādās programmēšanas valodās, tostarp Java, C++, Python, JavaScript un citās. Turklāt tajā ir iekļauti arī vairāk nekā 20 dažādi ietvari vai citi formāti, tostarp React.js, Ruby on Rails, ASP.NET un citi.",
+        "text": "Milzīga ģimene, kurā ietilpst vairāk nekā 90 Četri pēc kārtas spēles implementācijas. Projekts aptver vairāk nekā 30 programmēšanas valodas, tostarp Java, C++, Python un JavaScript, un vairāk nekā 50 dažādus ietvarus, bibliotēkas, izpildes vides un datu bāzes – no React, Angular un Blazor līdz Django, Spring Boot, Phoenix, PostgreSQL un citiem.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Algu sarakstsOBOL",
-        "text": "Vietējā algu apstrādes sistēma, kas izveidota, izmantojot GnuCOBOL, SQLite dubultā ieraksta virsgrāmatu un Svelte operāciju informācijas paneli. Tas izmanto veselu skaitļu centu matemātiku, pakešu algu apstrādi un cilpas informācijas paneli, lai padarītu finanšu darbplūsmas skaidras, pārbaudāmas un operatīvi atbildīgas.",
+        "title": "PayrollOBOL",
+        "text": "Vietējā algu apstrādes sistēma, kas būvēta ar GnuCOBOL, SQLite dubultā ieraksta galveno grāmatu un Svelte operāciju paneli. Tā izmanto veselu centu matemātiku, partijveida algu apstrādi un loopback paneli, lai finanšu darba plūsmas būtu nepārprotamas, testējamas un operatīvi atbildīgas.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Minecraft Mod, kas spēlei pievieno pielāgotus rīkus, bruņas, mobus, blokus, izmērus un daudzas citas funkcijas. Izstrādāts galvenokārt ar Java un Kotlin, ar atbalstu, kas aptver Minecraft versijas 1.16 līdz 26.2.",
+        "text": "Minecraft mods, kas spēlei pievieno pielāgotus rīkus, bruņas, mobus, blokus, dimensijas un daudzas citas funkcijas. Būvēts galvenokārt ar Java un Kotlin, atbalstot Minecraft versijas no 1.16 līdz 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "Čūskas spēle",
-        "text": "Pulēta Snake dzinējs, kas izveidots ar Rust un Macroquad, kompilēts WebAssembly un renderēts, izmantojot HTML5 Canvas. Tas apvieno deterministiskus 0,12 sekunžu spēles atzīmes ar vienmērīgu interpolētu kustību, skaidras spēles fāzes, atsaucīgas vadības ierīces, sadursmju un uzvaras stāvokļa apstrādi, kā arī mērķtiecīgu testu. komplekts, kas aptver spēles galvenos noteikumus.",
+        "text": "Pulēts Čūskas dzinējs, kas būvēts ar Rust un Macroquad, kompilēts uz WebAssembly un atveidots caur HTML5 Canvas. Tas apvieno deterministiskus 0,12 sekunžu spēles taktus ar gludu interpolētu kustību, skaidrām spēles fāzēm, atsaucīgu vadību, sadursmju un uzvaras stāvokļu apstrādi un fokusētu testu komplektu, kas aptver spēles pamatnoteikumus.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Tjūringa mašīnas projekts",
         "text": "Ģimene, kurā ir vairāk nekā 30 Tjūringa mašīnas implementāciju. Izmanto, lai demonstrētu dažādu programmēšanas valodu, īpaši tīģera programmēšanas valodu, pilnīgumu pētniecībai.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Pulvera-smilšu ķīmijas laboratorija, kas būvēta Rust valodā un kompilēta uz WebAssembly. Krāsojiet smiltis, ūdeni, lavu, tēraudu, kalcija karbīdu vai nātrija gabaliņu un vērojiet, kā fizika un ķīmija cīnās: nātrijs detonē ūdenī, kalcija karbīds izdala acetilēnu, lava pārvērš smiltis stiklā, un tikai blīvums atdala eļļu, dzīvsudrabu un smiltis. Dzinējs apstrādā 32 materiālus un 40 deklaratīvus reakcijas noteikumus pāri plakanam šūnu buferim, atveidojot pikseļus tieši no wasm lineārās atmiņas bez kopēšanas katrā kadrā.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Izvēlieties dzinēju:",
     "tiger_code": "Tīģera kods:",
     "run_tiger": "Palaist Tīģeri",
-    "output": "Izvade:"
+    "output": "Izvade:",
+    "stop": "Apturēt",
+    "program_input": "Programmas ievade"
   },
   "tab": {
     "title": "Patriks Gudvins",
@@ -367,5 +516,8 @@
       "no_language_support": "Nav valodas atbalsta"
     }
   },
-  "logotext": "PATRIKS"
+  "logotext": "PATRIKS",
+  "repo_button": {
+    "label": "Skatīt pirmkodu pakalpojumā GitHub"
+  }
 }

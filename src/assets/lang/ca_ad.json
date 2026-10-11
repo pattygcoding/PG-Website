@@ -4,21 +4,29 @@
     "home": "A casa",
     "about": "Sobre mi",
     "portfolio": "Cartera",
-    "projects": "Projectes web",
-    "tiger": "Llengua Tigre",
+    "projects": "Projectes destacats",
+    "tiger": "Tiger - Un llenguatge de programació personalitzat",
     "snake": "Joc de la serp",
     "portfolio_translator": "Traductor de cartera",
-    "formatter": "Formatador JSON i YAML",
+    "formatter": "Linter JSON i YAML",
     "contact": "Contacta amb mi",
     "home_description": "sys.root // visió general principal",
-    "about_description": "perfil d'enginyer // bio & stack",
+    "about_description": "perfil d'enginyer // bio i stack",
     "portfolio_description": "catàleg de programari // obres destacades",
     "projects_description": "eines interactives i compiladors",
     "tiger_description": "compilador personalitzat i visualitzador AST",
     "snake_description": "joc arcade clàssic / WASM",
-    "portfolio_translator_description": "Més de 100 matrius d'idiomes i i18n",
-    "formatter_description": "validador i convertidor de sintaxi",
-    "contact_description": "transmissió oberta // posar-se en contacte"
+    "portfolio_translator_description": "matriu de 100+ idiomes i i18n",
+    "formatter_description": "validador i conversor de sintaxi",
+    "contact_description": "transmissió oberta // posa't en contacte",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Arbre de llengües de Connecta 4",
+    "alkalab_description": "simulació de laboratori de química / WASM",
+    "rustcraft_description": "joc de vòxels estil Minecraft / Rust i wgpu",
+    "suprememc_description": "mostra de mod Minecraft / Java"
   },
   "home": {
     "title": "Enginyer sènior Full-Stack | Producte i Sistemes",
@@ -36,16 +44,125 @@
     "about_button": "Sobre mi",
     "featured": {
       "kicker": "Projectes destacats",
-      "title": "Obra seleccionada",
-      "description": "Sis projectes que representen millor com transformo idees ambicioses en programari polit i funcional.",
+      "title": "Treball seleccionat",
+      "description": "Sis projectes que representen millor com converteixo idees ambicioses en programari polit i funcional.",
       "view_project": "Veure projecte",
-      "open_project": "Obriu el projecte en directe",
-      "view_all": "Exploreu la cartera completa",
+      "open_project": "Obrir projecte en directe",
+      "view_all": "Explora el portafoli complet",
       "badges": {
         "saas": "SaaS",
         "full_website": "Lloc web complet",
         "available_here": "Disponible aquí",
-        "minecraft_mod": "Minecraft mod"
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Una perspectiva diferent sobre el treball",
+      "invitation": "Explora l'atles d'enginyeria",
+      "kicker": "Portafoli complet / pensament connectat",
+      "title": "Atles d'enginyeria",
+      "projects": "Projectes",
+      "technologies": "Tecnologies",
+      "connections": "Connexions",
+      "center": "Atles d'enginyeria",
+      "filter_label": "Categories de projectes",
+      "domains": {
+        "all": "Tot el treball",
+        "products": "Productes",
+        "systems": "Sistemes",
+        "experiences": "Experiències"
+      },
+      "search": "Troba un projecte o tecnologia",
+      "view_label": "Vista d'atles",
+      "map_view": "Vista de mapa",
+      "map_navigation": "Navegació del mapa del portafoli",
+      "zoom_in": "Apropar",
+      "zoom_out": "Allunyar",
+      "zoom_level": "Nivell de zoom del mapa",
+      "fit_all": "Ajusta tots els projectes",
+      "center_selected": "Centra el projecte seleccionat",
+      "all_technologies": "Totes les tecnologies",
+      "list_view": "Vista de llista",
+      "pause": "Pausa l'animació del senyal",
+      "resume": "Reprèn l'animació del senyal",
+      "project_selector": "Explora projectes",
+      "inspector": "Detalls del projecte seleccionat",
+      "shared_stack": "Tecnologia compartida",
+      "family_connection": "Connexió del projecte",
+      "portfolio_connection": "Connexió del portafoli",
+      "families": {
+        "portfolio": "Centre del portafoli",
+        "business": "Aplicacions empresarials",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Projectes WebAssembly",
+        "libraries": "Biblioteques d'scripts",
+        "languages": "Experiments d'idiomes",
+        "automation": "Eines d'automatització i dades",
+        "experience": "Experiència professional i educativa"
+      },
+      "browser_native": "Natiu del navegador / sense servidor",
+      "no_results": "No hi ha projectes coincidents",
+      "no_selection": "No hi ha cap projecte seleccionat.",
+      "reset": "Esborra els filtres",
+      "engineering_lens": "Perspectiva d'enginyeria",
+      "connected_work": "Treball connectat",
+      "open_live": "Obre el projecte en directe",
+      "open_project": "Explora el projecte",
+      "footer": "Dominis diferents. Una pràctica d'enginyeria connectada.",
+      "contact": "Construïm el que ve després",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Canalitzacions de dades",
+        "angular": "Angular",
+        "access": "Control d'accés",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Proves",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilitat",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Accessibilitat",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Fulls de càlcul inconsistents entren. Estimacions de construcció i propostes llestes per al client surten. Un producte SaaS construït al voltant del flux de treball real del contractista.",
+          "lens": "Les importacions flexibles requereixen un model intern estricte: acceptar més formats no ha de debilitar les regles de càlcul de les quals depèn una oferta."
+        },
+        "inventory_register": {
+          "summary": "Un flux de treball de punt de venda amb Angular i Node.js que connecta usuaris autenticats, precisió d'inventari i un flux de pagament simulat.",
+          "lens": "Una caixa és més que una pantalla de pagament. Els rols, els canvis d'estoc i els estats de pagament necessiten límits explícits per mantenir el flux de treball responsable."
+        },
+        "grocery_app": {
+          "summary": "Una aplicació .NET 9 Blazor amb límits de controlador, servei i repositori, persistència d'Entity Framework Core i una suite de proves completa.",
+          "lens": "La separació guanya el seu lloc quan les regles de negoci es poden provar independentment de la interfície i la capa de persistència."
+        },
+        "payrollobol": {
+          "summary": "El processament de nòmines GnuCOBOL es troba amb un llibre major de doble entrada SQLite i un panell d'operacions Svelte.",
+          "lens": "La correcció financera comença amb la representació: l'aritmètica en cèntims enters i els assentaments equilibrats fan explícit el moviment de diners."
+        },
+        "interop": {
+          "summary": "Una referència entre llenguatges que abasta 15 llenguatges de programació i 18 patrons d'execució, explorant què passa als límits del temps d'execució.",
+          "lens": "La part difícil és el contracte entre els runtimes: l'intercanvi de dades, el comportament dels processos i l'execució repetible importen més que la sintaxi."
+        },
+        "formatter": {
+          "summary": "Un motor d'anàlisi Go real compilat a WebAssembly. La validació i el formatatge de JSON i YAML s'executen localment al navegador.",
+          "lens": "Moure el parser al navegador intercanvia una càrrega més gran del client per processament local, portabilitat i menys dependències del servidor."
+        },
+        "portfolio_website": {
+          "summary": "El lloc on ets: un portafoli React amb més de 100 idiomes, interaccions accessibles i eines WebAssembly funcionals.",
+          "lens": "Un desplegament estàtic no ha de significar una experiència estàtica. Les interaccions riques poden viure al client sense un servidor d'aplicacions."
+        },
+        "biblioteca": {
+          "summary": "Una canalització de localització Python que converteix una única font estructurada de contingut en un portafoli disponible en més de 100 idiomes.",
+          "lens": "L'abast global és tant un problema de manteniment de dades com un problema de traducció. Una única font de veritat manté els canvis de contingut manejables."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Competències tècniques",
       "header1": "Llenguatges de programació",
       "header2": "Frameworks i Biblioteques",
-      "header3": "Eines i tecnologies"
+      "header3": "Eines i tecnologies",
+      "technologies": "tecnologies",
+      "search_label": "Filtra",
+      "search_placeholder": "Filtra les habilitats…",
+      "clear_search": "Esborra el filtre",
+      "no_matches": "Cap habilitat coincideix amb el teu filtre.",
+      "works": "Obres",
+      "experience": "Experiència",
+      "professional": "Professional",
+      "education": "Educació",
+      "paired_with": "Sovint combinat amb",
+      "summary_professional": "Usat professionalment a {items}.",
+      "summary_education": "Estudiat i aplicat a {items}.",
+      "summary_projects": "Aplicat pràcticament a {items}.",
+      "summary_projects_also": "També aplicat a {items}.",
+      "and_more": "més",
+      "scroll_more": "Desplaça't per veure més obres",
+      "show_less": "Mostra menys",
+      "no_samples": "Part del meu joc d'eines de treball. M'encanta explicar com l'he utilitzat."
     },
     "services": {
       "title": "Els meus serveis",
@@ -112,6 +247,13 @@
           "text": "Creo tenint en compte les realitats després del llançament: secrets que es mantenen fora del control de fonts, rutes explícites de migració de bases de dades, autorització basada en rols, validació als límits del sistema, proves automatitzades, consciència de CI/CD i observabilitat pràctica. Aquests són els detalls que converteixen un prototip en programari fiable."
         }
       ]
+    },
+    "certifications": {
+      "title": "Llicències i certificacions",
+      "credential": "Certificació",
+      "issued_by": "Emès per",
+      "issued": "Data d'emissió",
+      "verify": "Verifica la certificació"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Connecta Quatre",
-        "text": "Família massiva de més de 50 implementacions del joc Connect Four. Aquest projecte inclou implementacions en més de 30 llenguatges de programació diferents, inclosos Java, C++, Python, JavaScript i més. A més, també inclou més de 20 marcs diferents o altres formats, com ara React.js, Ruby on Rails, ASP.NET i molt més.",
+        "text": "Una gran família de més de 90 implementacions del joc Connecta 4. El projecte abasta més de 30 llenguatges de programació, incloent Java, C++, Python i JavaScript, juntament amb més de 50 frameworks, biblioteques, runtimes i bases de dades diferents, des de React, Angular i Blazor fins a Django, Spring Boot, Phoenix, PostgreSQL i més.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "NóminaOBOL",
-        "text": "Un sistema local de processament de nòmines construït amb GnuCOBOL, un registre de doble entrada SQLite i un tauler d'operacions Svelte. Utilitza matemàtiques de cents enters, processament de nòmines per lots i un tauler de control de bucle per fer que els fluxos de treball financers siguin explícits, comprovables i operacionalment responsables.",
+        "title": "PayrollOBOL",
+        "text": "Un sistema local de processament de nòmines construït amb GnuCOBOL, un llibre major de doble entrada SQLite i un panell d'operacions Svelte. Usa matemàtiques de cèntims enters, processament de nòmines per lots i un panell de bucle local per fer explícites, comprovables i operativament responsables les fluxos financers.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Un mod de Minecraft que afegeix eines personalitzades, armadures, mobs, blocs, dimensions i moltes més funcions al joc. Creat principalment amb Java i Kotlin, amb suport que abasta les versions de Minecraft 1.16 a 26.2.",
+        "text": "Un mod Minecraft que afegeix eines, armadures, mobs, blocs, dimensions i moltes altres funcions personalitzades al joc. Construït principalment amb Java i Kotlin, amb suport per a les versions de Minecraft 1.16 a 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "Joc de la serp",
-        "text": "Un motor Snake polit construït amb Rust i Macroquad, compilat a WebAssembly i representat mitjançant HTML5 Canvas. Combina ticks deterministes de joc de 0,12 segons amb un moviment interpolat suau, fases de joc explícites, controls sensibles, maneig de col·lisió i estat de victòria i una prova centrada. suite que cobreix les regles bàsiques del joc.",
+        "text": "Un motor de Serp polit construït amb Rust i Macroquad, compilat a WebAssembly i renderitzat mitjançant Canvas HTML5. Combina ticks de joc deterministes de 0,12 segons amb moviment interpolat suau, fases de joc explícites, control receptiu, gestió de col·lisions i estats de victòria, i una suite de proves enfocada que cobreix les regles centrals del joc.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Projecte Màquina de Turing",
         "text": "Família de més de 30 implementacions de la màquina de Turing. S'utilitza per demostrar la integritat de diferents llenguatges de programació per a la investigació, especialment per al llenguatge de programació Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Un laboratori de química de sorra en pols construït en Rust i compilat a WebAssembly. Pinta sorra, aigua, lava, acer, carbur de calci o un tros de sodi i mira com la física i la química es barallen: el sodi detona a l'aigua, el carbur de calci fa bombollejar acetilè, la lava fon la sorra en vidre i la densitat sola ordena oli, mercuri i sorra. El motor executa 32 materials i 40 regles de reacció declaratives sobre un buffer pla de cèl·lules, renderitzant píxels directament des de la memòria lineal wasm sense còpies per fotograma.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Seleccioneu el motor:",
     "tiger_code": "Codi del tigre:",
     "run_tiger": "Corre Tiger",
-    "output": "Sortida:"
+    "output": "Sortida:",
+    "stop": "Atura",
+    "program_input": "Entrada del programa"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Sense suport lingüístic"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Veure el codi font a GitHub"
+  }
 }

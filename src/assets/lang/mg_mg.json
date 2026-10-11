@@ -4,21 +4,29 @@
     "home": "an-trano",
     "about": "Momba ahy",
     "portfolio": "portfolio-",
-    "projects": "Tetikasa tranokala",
-    "tiger": "Fiteny tigra",
-    "snake": "Lalao Snake",
+    "projects": "Tetikasa nasongadina",
+    "tiger": "Tiger - Fiteny fandaharana manokana",
+    "snake": "Lalao bibilava",
     "portfolio_translator": "Mpandika Portfolio",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Mpanamarina JSON & YAML",
     "contact": "Contact Me",
     "home_description": "sys.root // topimaso lehibe",
-    "about_description": "mombamomba ny injeniera // bio & stack",
-    "portfolio_description": "logiciel catalog // asa nasongadina",
-    "projects_description": "fitaovana interactive & compiler",
-    "tiger_description": "compiler manokana & AST visualizer",
-    "snake_description": "lalao arcade mahazatra / WASM",
-    "portfolio_translator_description": "100+ fiteny matrix & i18n",
-    "formatter_description": "syntax validator & mpanova",
-    "contact_description": "open transmission // mifandray"
+    "about_description": "profilin'ny injeniera // bio sy teknolojia",
+    "portfolio_description": "katalaogy rindrambaiko // asa nasongadina",
+    "projects_description": "fitaovana ifandraisany sy mpanangona",
+    "tiger_description": "mpanangona manokana sy mpiseho AST",
+    "snake_description": "lalao arkady klasika / WASM",
+    "portfolio_translator_description": "matrika fiteny 100+ sy i18n",
+    "formatter_description": "mpamarina sy mpanova syntax",
+    "contact_description": "famakiana misokatra // mifandraisa aminay",
+    "arcade": "Arkady",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Hazo fiteny Efatra Mifanesy",
+    "alkalab_description": "fanahafana laboratoara simia / WASM",
+    "rustcraft_description": "lalao voxel fomba Minecraft / Rust sy wgpu",
+    "suprememc_description": "fampisehoana mod Minecraft / Java"
   },
   "home": {
     "title": "Senior Full Stack Engineer | Vokatra & Rafitra",
@@ -35,17 +43,126 @@
     "contact_button": "Contact Me",
     "about_button": "Momba ahy",
     "featured": {
-      "kicker": "Tetikasa Asongadina",
+      "kicker": "Tetikasa nasongadina",
       "title": "Asa voafantina",
-      "description": "Tetikasa enina izay maneho tsara indrindra ny fomba hamadihana ireo hevitra mitsiriritra ho lasa lozisialy voaporitra sy miasa.",
-      "view_project": "View Project",
-      "open_project": "Sokafy Live Project",
-      "view_all": "Jereo ny portfolio feno",
+      "description": "Tetikasa enina izay maneho tsara indrindra ny fomba amadikako hevitra manahirana ho rindrambaiko voadio sy miasa.",
+      "view_project": "Jereo tetikasa",
+      "open_project": "Sokafy tetikasa mivantana",
+      "view_all": "Tadiavo ny portfolio feno",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Tranonkala feno",
-        "available_here": "Hita eto",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Tranokala feno",
+        "available_here": "Azo alaina eto",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Fomba fijery hafa amin'ny asa",
+      "invitation": "Tadiavo ny atlas injeniera",
+      "kicker": "Portfolio feno / fisainana mifandray",
+      "title": "Atlas injeniera",
+      "projects": "Tetikasa",
+      "technologies": "Teknolojia",
+      "connections": "Fifandraisana",
+      "center": "Atlas injeniera",
+      "filter_label": "Sokajy tetikasa",
+      "domains": {
+        "all": "Asa rehetra",
+        "products": "Vokatra",
+        "systems": "Rafitra",
+        "experiences": "Zava-baovao"
+      },
+      "search": "Hitadiavana tetikasa na teknolojia",
+      "view_label": "Fijerena atlas",
+      "map_view": "Fijerena sarintany",
+      "map_navigation": "Fizahana sarintany portfolio",
+      "zoom_in": "Hanitatra",
+      "zoom_out": "Hamafy",
+      "zoom_level": "Ambaratonga zoom sarintany",
+      "fit_all": "Ampifanaraho ny tetikasa rehetra",
+      "center_selected": "Ataovy afovoany ny tetikasa voafidy",
+      "all_technologies": "Teknolojia rehetra",
+      "list_view": "Fijerena lisitra",
+      "pause": "Ahitsio ny animasioka famantarana",
+      "resume": "Tohizo ny animasioka famantarana",
+      "project_selector": "Tadiavo tetikasa",
+      "inspector": "Tsi-java-nitranga fansaharana ny tetikasa voafidy",
+      "shared_stack": "Teknolojia zaraina",
+      "family_connection": "Fifandraisan'ny tetikasa",
+      "portfolio_connection": "Fifandraisan'ny portfolio",
+      "families": {
+        "portfolio": "Ivotoerana portfolio",
+        "business": "Fampiharana orinasa",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Tetikasa WebAssembly",
+        "libraries": "Tranomboky script",
+        "languages": "Fanandramana fiteny",
+        "automation": "Fitaovana automatisation sy data",
+        "experience": "Zava-baovao matianina sy fanabeazana"
+      },
+      "browser_native": "Voajanahary amin'ny navigateur / tsy misy serveur",
+      "no_results": "Tsy misy tetikasa mifanaraka",
+      "no_selection": "Tsy nisy tetikasa voafidy.",
+      "reset": "Fafao ny sivana",
+      "engineering_lens": "Fomba fijery injeniera",
+      "connected_work": "Asa mifandray",
+      "open_live": "Sokafy tetikasa mivantana",
+      "open_project": "Tadiavo tetikasa",
+      "footer": "Faritra samihafa. Fanao injeniera mifandray iray.",
+      "contact": "Andao hanao izay ho avy",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Fantsona data",
+        "angular": "Angular",
+        "access": "Fanaraha-maso fidirana",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Fitsapana",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Fifampifanarahana",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Fahafahana miditra",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Tabilao tsy mifanaraka miditra. Tombana fanorenana sy tolo-kevitra vonona ho an'ny mpanjifa mivoaka. Vokatra SaaS naorina manodidina ny fizotran'ny asa tena izy an'ny mpandraharaha.",
+          "lens": "Ny fampidiran-tsolotra malefaka dia mitaky modely anatiny henjana: ny fandraisana format bebe kokoa dia tsy tokony hanalemy ny fitsipika kajy ahian'ny tolotra."
+        },
+        "inventory_register": {
+          "summary": "Fizotran'ny asa teboka fivarotana miaraka amin'ny Angular sy Node.js izay mampifandray mpampiasa voamarina, fahamarinan'ny tahiry, ary fizotran'ny fandoavana sandoka.",
+          "lens": "Ny kaontim-bola dia mihoatra noho ny efijery fandoavana. Ny andraikitra, ny fiovan'ny stock, ary ny toe-javatra fandoavana dia mitaky sisintany mazava mba hitandrina ny fizotran'ny asa ho tompon'andraikitra."
+        },
+        "grocery_app": {
+          "summary": "Fampiharana .NET 9 Blazor miaraka amin'ny sisintany controller, service, ary repository, faharetana Entity Framework Core, ary andiana fitsapana feno.",
+          "lens": "Ny fisarahana dia mahazo ny toerany rehefa azo zahana tsy miankina amin'ny interface sy ny sosona faharetana ny fitsipika fandraharahana."
+        },
+        "payrollobol": {
+          "summary": "Ny fanodinana karama GnuCOBOL dia mifanena amin'ny bokim-bola roa SQLite sy dashboard fampandehanana Svelte.",
+          "lens": "Ny fahamarinan'ny foto-bola dia manomboka amin'ny fanehoana: ny aritmetika cent feno sy ny soratra mifandanja dia mampazava ny fivezivezen'ny vola."
+        },
+        "interop": {
+          "summary": "Raki-tsoratra iraisan'ny fiteny izay mandrakotra 15 fiteny fandaharana sy 18 fomba fanatanterahana, mijery izay mitranga eo amin'ny sisin'ny fotoana fanatanterahana.",
+          "lens": "Ny ampahany sarotra dia ny fifanarahana eo amin'ny fotoana fanatanterahana: ny fifanakalozana data, ny fitondran-tenan'ny dingana, ary ny fanatanterahana azo averina dia zava-dehibe kokoa noho ny syntax."
+        },
+        "formatter": {
+          "summary": "Mpanamboatra parse Go tena izy voaforona ho WebAssembly. Ny fanamarinana sy fanoratana JSON sy YAML dia mandeha eo an-toerana ao amin'ny navigateur.",
+          "lens": "Ny famindrana ny parser ho any amin'ny navigateur dia manakalo entana lehibe kokoa ho an'ny client ho fanodinana eo an-toerana, fahafaha-mitondra, ary fiankinana kely kokoa amin'ny serveur."
+        },
+        "portfolio_website": {
+          "summary": "Ny tranokala misy anao: portfolio React miaraka amin'ny fiteny 100+, fifaneraserana azo idirana, ary fitaovana WebAssembly miasa.",
+          "lens": "Ny fametrahana tsy miova dia tsy voatery hidika ho traikefa tsy miova. Ny fifaneraserana manankarena dia afaka miaina eo amin'ny client tsy misy rafitry ny fampiharana."
+        },
+        "biblioteca": {
+          "summary": "Fantsona lokalizasiona Python izay mamadika loharano votoaty misy fototra iray ho portfolio azo alaina amin'ny fiteny 100+.",
+          "lens": "Ny fahazoan-danja manerantany dia olana amin'ny fikojakojana data sahala amin'ny olana amin'ny fandikan-teny. Loharano fahamarinana iray no mahatonga ny fiovan'ny votoaty ho azo tantanana."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Fahaizana ara-teknika",
       "header1": "Programming Languages",
       "header2": "Frameworks & Libraries",
-      "header3": "Fitaovana & Teknolojia"
+      "header3": "Fitaovana & Teknolojia",
+      "technologies": "teknolojia",
+      "search_label": "Sivanina",
+      "search_placeholder": "Sivanina fahaizana…",
+      "clear_search": "Fafao ny sivana",
+      "no_matches": "Tsy misy fahaizana mifanaraka amin'ny sivanao.",
+      "works": "Asa",
+      "experience": "Zava-baovao",
+      "professional": "Matianina",
+      "education": "Fanabeazana",
+      "paired_with": "Matetika ampiarahina amin'ny",
+      "summary_professional": "Nampiasaina matianina tany {items}.",
+      "summary_education": "Nianarana sy nampiharina tany {items}.",
+      "summary_projects": "Nampiharina tamin'ny asa tany {items}.",
+      "summary_projects_also": "Nampiharina koa tany {items}.",
+      "and_more": "bebe kokoa",
+      "scroll_more": "Mirihana ho an'ny asa bebe kokoa",
+      "show_less": "Asehoy kely",
+      "no_samples": "Ampahany amin'ny fitaovako miasa. Faly aho manazava ny fomba nampiasako azy."
     },
     "services": {
       "title": "Ny Serivisiko",
@@ -112,6 +247,13 @@
           "text": "Manorina miaraka amin'ny zava-misy aho aorian'ny fanombohana: ny tsiambaratelo tsy voafehin'ny loharanon-karena, ny lalan'ny fifindra-monina amin'ny angon-drakitra mazava, ny fanomezan-dàlana mifototra amin'ny andraikitra, ny fanamarinana amin'ny sisin-tanin'ny rafitra, fitsapana mandeha ho azy, fahatsiarovan-tena CI/CD, ary fanaraha-maso azo ampiharina. Ireo no antsipiriany mamadika prototype ho logiciel azo ianteherana."
         }
       ]
+    },
+    "certifications": {
+      "title": "Fahazoan-dalana sy certification",
+      "credential": "Certification",
+      "issued_by": "Namoaka",
+      "issued": "Daty namoahana",
+      "verify": "Hamarino ny certification"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Connect Four",
-        "text": "Fianakaviana lehibe misy fampiharana mihoatra ny 50 amin'ny lalao Connect Four. Ity tetikasa ity dia ahitana fampiharana amin'ny fiteny fandaharana 30 mahery, anisan'izany ny Java, C++, Python, JavaScript, sy ny maro hafa. Fanampin'izany, misy koa ny rafitra 20+ samihafa na endrika hafa, ao anatin'izany ny React.js, Ruby on Rails, ASP.NET, sy ny maro hafa.",
+        "text": "Fianakaviana besarina misy fampiharana 90+ amin'ny lalao Efatra Mifanesy. Ny tetikasa dia mandrakotra fiteny fandaharana 30+, anisan'izany Java, C++, Python, ary JavaScript, miaraka amin'ny framework, tranomboky, runtime, ary angon-drakitra 50+ samihafa, avy amin'ny React, Angular, ary Blazor ka hatramin'ny Django, Spring Boot, Phoenix, PostgreSQL, ary maro hafa.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Rafitra fanodinana karama eo an-toerana naorina miaraka amin'ny GnuCOBOL, bokim-bola fidirana roa SQLite, ary dashboard fiasan'ny Svelte. Mampiasa kajy integer-cent, fanodinana karama andiany, ary dashboard loopback izy io mba hahatonga ny fizotran'ny asa ara-bola ho mazava, azo andrana ary ho tompon'andraikitra amin'ny asa.",
+        "text": "Rafitra fanodinana karama eo an-toerana vita amin'ny GnuCOBOL, bokim-bola roa SQLite, ary dashboard fampandehanana Svelte. Mampiasa matematika cent feno, fanodinana karama vondrona, ary dashboard loopback izy io mba hanao ny fizotran'ny foto-bola mazava, azo zahana, ary tompon'andraikitra amin'ny fampandehanana.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Minecraft Mod izay manampy fitaovana mahazatra, fiadiana, mobs, sakana, refy ary endri-javatra maro hafa amin'ny lalao. Namboarina voalohany indrindra tamin'ny Java sy Kotlin, miaraka amin'ny fanohanan'ny Minecraft version 1.16 hatramin'ny 26.2.",
+        "text": "Mod Minecraft izay manampy fitaovana manokana, fiadiana, mobs, block, refy, ary endri-javatra maro hafa amin'ny lalao. Vita amin'ny ankamaroan'ny Java sy Kotlin, manohana ny dikan-teny Minecraft 1.16 ka hatramin'ny 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Lalao Snake",
-        "text": "Motera Snake voapoizina namboarina tamin'ny Rust sy Macroquad, natambatra tao amin'ny WebAssembly, ary nadika tamin'ny HTML5 Canvas. Izy io dia manambatra ny ticks lalao 0.12-segondra miaraka amin'ny hetsika mifamatotra malefaka, dingana mazava amin'ny lalao, fanaraha-maso mamaly, fifandonana ary fitantanana fanjakana mandresy, ary fitsapana mifantoka. suite mandrakotra ny fitsipiky ny lalao fototra.",
+        "title": "Lalao bibilava",
+        "text": "Mpanamboatra Bibilava voadio vita amin'ny Rust sy Macroquad, voaforona ho WebAssembly, ary aseho amin'ny alalan'ny HTML5 Canvas. Mampifandray ticks lalao 0.12 segondra tsy miova izy io amin'ny fihetsika mitsingevana malefaka, dingana lalao mazava, fanaraha-maso mamaly, fanodinana fifandonana sy toe-javatra fandresena, ary andiana fitsapana mifantoka izay mandrakotra ny lalàna fototra amin'ny lalao.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Machine Project",
         "text": "Fianakaviana mihoatra ny 30+ ny fampiharana ny Turing Machine. Nampiasaina mba hampisehoana ny fahafenoan'ny fihodinana amin'ny fiteny fandaharana samihafa ho an'ny fikarohana, indrindra ho an'ny Tiger Programming Language.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Laboratoara simia fasika-zevina vita amin'ny Rust ary voaforona ho WebAssembly. Alefaso ny soratra amin'ny fasika, rano, lava, vy, karbida kalsioma, na sombin-sodium ary jereo ny fomba aman-tsinjaran'ny fizika sy simia: mipoaka ao anaty rano ny sodium, mamoaka acetylene ny karbida kalsioma, ny lava dia manjary fitaratra ny fasika, ary ny densité irery no manasaraka menaka, volavelona, ary fasika. Ny motera dia mandeha zavatra 32 sy lalàna fihetsika 40 eo amin'ny buffer cellule, mamoaka pixels mivantana avy amin'ny fitadidiana tsipika wasm tsy misy dika isaky ny frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Select Engine:",
     "tiger_code": "Tiger Code:",
     "run_tiger": "Mihazakazaka Tiger",
-    "output": "Output:"
+    "output": "Output:",
+    "stop": "Ajanona",
+    "program_input": "Fampidirana rindrankajy"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Tsy misy fanohanana fiteny"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Hijery ny kaody loharano amin'ny GitHub"
+  }
 }

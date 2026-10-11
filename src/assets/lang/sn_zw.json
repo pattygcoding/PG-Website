@@ -4,21 +4,29 @@
     "home": "Kumba",
     "about": "Nezvangu",
     "portfolio": "Portfolio",
-    "projects": "Webhusaiti Projects",
-    "tiger": "Tiger Mutauro",
-    "snake": "Nyoka Game",
+    "projects": "Mapurojekiti akasarudzwa",
+    "tiger": "Tiger - Mutauro Wechirongwa Wakasarudzika",
+    "snake": "Mutambo wenyoka",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Muongorori weJSON & YAML",
     "contact": "Ndibate",
-    "home_description": "sys.root // main overview",
-    "about_description": "injiniya mbiri // bio & stack",
-    "portfolio_description": "software catalog // inoratidzwa mabasa",
-    "projects_description": "interactive zvishandiso & compilers",
-    "tiger_description": "tsika compiler & AST visualizer",
-    "snake_description": "classic arcade mutambo / WASM",
-    "portfolio_translator_description": "100+ mutauro matrix & i18n",
-    "formatter_description": "syntax validator & converter",
-    "contact_description": "vhura kutumira // kubata"
+    "home_description": "sys.root // mucherechedzo mukuru",
+    "about_description": "profile yeinjiniya // bio uye tekinoroji",
+    "portfolio_description": "katuranu yesoftware // mabasa akasarudzwa",
+    "projects_description": "zvishandiso zvekudyidzana uye makomputa",
+    "tiger_description": "komputa yakasarudzika uye AST inoona",
+    "snake_description": "mutambo wekare wearcade / WASM",
+    "portfolio_translator_description": "matrix yemitauro 100+ uye i18n",
+    "formatter_description": "muongorori uye mushanduri we syntax",
+    "contact_description": "kutumira kwakavhurika // bata neni",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Muti wemitauro Mina mutsara",
+    "alkalab_description": "kutevedzera chemistry lab / WASM",
+    "rustcraft_description": "mutambo wevoxel wemhando yeMinecraft / Rust uye wgpu",
+    "suprememc_description": "kuratidzwa kwemod yeMinecraft / Java"
   },
   "home": {
     "title": "Mukuru Akazara-Stack Injiniya | Product & Systems",
@@ -35,17 +43,126 @@
     "contact_button": "Ndibate",
     "about_button": "Nezvangu",
     "featured": {
-      "kicker": "Featured Projects",
-      "title": "Basa Rakasarudzwa",
-      "description": "Mapurojekiti matanhatu anomiririra zvakanyanya maitiro andinoshandura mazano ekuda kuva akakwenenzverwa, anoshanda software.",
-      "view_project": "View Project",
-      "open_project": "Vhura Live Project",
-      "view_all": "Ongorora iyo yakazara portfolio",
+      "kicker": "Mapurojekiti akasarudzwa",
+      "title": "Mabasa akasarudzwa",
+      "description": "Mapurojekiti matanhatu anomiririra zvakanyanya kuti ndinoshandura sei pfungwa dzine nzira dzakasimba kuita software yakanaka uye inoshanda.",
+      "view_project": "Ona purojekiti",
+      "open_project": "Vhura purojekiti yepamoyo",
+      "view_all": "Ongorora portfolio izere",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Webhusaiti Yakazara",
-        "available_here": "Inowanikwa Pano",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Saiti izere",
+        "available_here": "Inowanikwa pano",
+        "minecraft_mod": "Mod yeMinecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Maonero akasiyana pamusoro pebasa",
+      "invitation": "Ongorora atlas yeinjiniya",
+      "kicker": "Portfolio izere / kufunga kwakabatana",
+      "title": "Atlas yeinjiniya",
+      "projects": "Mapurojekiti",
+      "technologies": "Tekinoroji",
+      "connections": "Kubatana",
+      "center": "Atlas yeinjiniya",
+      "filter_label": "Zvikamu zvemapurojekiti",
+      "domains": {
+        "all": "Basa rose",
+        "products": "Zvigadzirwa",
+        "systems": "Masisitimu",
+        "experiences": "Zvakaitika"
+      },
+      "search": "Tsvaga purojekiti kana tekinoroji",
+      "view_label": "Maonero eatlas",
+      "map_view": "Maonero emepu",
+      "map_navigation": "Kufamba kwemepu yeportfolio",
+      "zoom_in": "Wedzera",
+      "zoom_out": "Deredza",
+      "zoom_level": "Nhanho yezoom yemepu",
+      "fit_all": "Kwanisa mapurojekiti ese",
+      "center_selected": "Isa purojekiti yakasarudzwa pakati",
+      "all_technologies": "Tekinoroji dzese",
+      "list_view": "Maonero erondedzero",
+      "pause": "Misa animation yechiratidzo",
+      "resume": "Enderera mberi ne animation yechiratidzo",
+      "project_selector": "Ongorora mapurojekiti",
+      "inspector": "Ruzivo rwepurojekiti yakasarudzwa",
+      "shared_stack": "Tekinoroji yakagovaniswa",
+      "family_connection": "Kubatana kwepurojekiti",
+      "portfolio_connection": "Kubatana kweportfolio",
+      "families": {
+        "portfolio": "Nzvimbo yepakati yeportfolio",
+        "business": "Zvishandiso zvebhizinesi",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Mapurojekiti eWebAssembly",
+        "libraries": "Raibhurari dzescript",
+        "languages": "Kuedza mutauro",
+        "automation": "Zvishandiso zveautomation nedata",
+        "experience": "Ruzivo rwehunyanzvi uye zvedzidzo"
+      },
+      "browser_native": "Yekuzvarwa ye browser / pasina server",
+      "no_results": "Hapana mapurojekiti anofanana",
+      "no_selection": "Hapana purojekiti yakasarudzwa.",
+      "reset": "Bvisa mafirita",
+      "engineering_lens": "Maonero einjiniya",
+      "connected_work": "Basa rakabatana",
+      "open_live": "Vhura purojekiti yepamoyo",
+      "open_project": "Ongorora purojekiti",
+      "footer": "Nzvimbo dzakasiyana. Tsika imwe chete yeinjiniya yakabatana.",
+      "contact": "Ngativake zvinozouya",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Mapayipi edata",
+        "angular": "Angular",
+        "access": "Kudzora kupinda",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Kuyedza",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Kudyidzana",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Kuvonekwa",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Masperedishiti asina kuenderana anopinda. Zviyero zvekuvaka uye zvikumbiro zvakagadzirirwa mutengi zvinobuda. Chigadzirwa cheSaaS chakavakwa kutenderedza nzira yechokwadi yebasa remukontrakita.",
+          "lens": "Kupinda kwakasununguka kunoda modhi yakasimba yemukati: kutambira mafomati akawanda hakufaniri kusimbisa mitemo yekuverenga iyo bid rinotsamira pairi."
+        },
+        "inventory_register": {
+          "summary": "Nzira yebasa yepoindi yekutengesa neAngular neNode.js inobatanidza vashandisi vakasimbiswa, kururama kweinventory, uye nzira yekubhadhara yakaedzwa.",
+          "lens": "Regista yemari inopfuura skrini yekubhadhara. Mabasa, shanduko yezvinhu, uye mamiriro ekubhadhara zvinoda miganhu yakajeka kuti nzira yebasa irambe ichizvidavirira."
+        },
+        "grocery_app": {
+          "summary": "Application ye.NET 9 Blazor ine miganhu yemutongi, sevhisi, uye repository, kugadzikana kweEntity Framework Core, uye seti izere yekuyedza.",
+          "lens": "Kupatsanurwa kunowana nzvimbo yayo kana mitemo yebhizinesi ichigona kuyedzwa zvisina kubatana ne interface uye huwandu hwekugadzikana."
+        },
+        "payrollobol": {
+          "summary": "Kugadzirisa mihoro kweGnuCOBOL kunosangana nebhuku guru reSQLite rinopinda kaviri uye dashboard yekushanda yeSvelte.",
+          "lens": "Kururama kwemari kunotanga nehumiriri: masvomhu esenti dzakazara uye zvinyorwa zvakagadziriswa zvinoita kuti kufamba kwemari kuve kwakajeka."
+        },
+        "interop": {
+          "summary": "Referensi yemitauro yakasiyana inosanganisira mitauro 15 yerongwa uye mapatani 18 ekushanda, ichiongorora zvinoitika kumiganhu yenguva yekushanda.",
+          "lens": "Chikamu chakaoma chibvumirano pakati penguva dzekushanda: kuchinjana data, maitiro ehurongwa, uye kudzokororwa kwekushanda kwakakosha kupfuura syntax."
+        },
+        "formatter": {
+          "summary": "Injini yechokwadi yekuongorora Go yakanyorwa kuWebAssembly. Kusimbisa uye kugadzira JSON neYAML kunoshanda munharaunda yebrowser.",
+          "lens": "Kuendesa parser ku browser kunochinjanisa mutoro mukuru wevatsigiri kuti ugadzirise munzvimbo, kubva kune imwe nzvimbo, uye kutsamira kushoma kweserver."
+        },
+        "portfolio_website": {
+          "summary": "Saiti yauri mairi: portfolio yeReact ine mitauro 100+, kudyidzana kunowanikwa, uye zvishandiso zveWebAssembly zvinoshanda.",
+          "lens": "Kuiswa kwakamira hakureve chiitiko chakamira. Kudyidzana kwakapfuma kunogona kugara kune muvatsigiri pasina server reapplication."
+        },
+        "biblioteca": {
+          "summary": "Pipe yekunatsa mutauro yePython inoshandura sosi imwe yemukati wakarongeka kuita portfolio inowanikwa mumitauro 100+.",
+          "lens": "Kusvika kwepasi rose idambudziko rekuchengeta data pamwe nedambudziko rekuturikira. Sosi imwe yechokwadi inoita kuti shanduko yemukati igone kubata."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Unyanzvi hwokugadzira",
       "header1": "Programming Languages",
       "header2": "Frameworks & Libraries",
-      "header3": "Zvishandiso & Technologies"
+      "header3": "Zvishandiso & Technologies",
+      "technologies": "tekinoroji",
+      "search_label": "Sevha",
+      "search_placeholder": "Sevha unyanzvi…",
+      "clear_search": "Bvisa sevha",
+      "no_matches": "Hapana unyanzvi hunofanana nesevha yako.",
+      "works": "Mabasa",
+      "experience": "Ruzivo",
+      "professional": "Nyanzvi",
+      "education": "Dzidzo",
+      "paired_with": "Kazhinji inobatanidzwa ne",
+      "summary_professional": "Yakashandiswa nehunyanzvi mu{items}.",
+      "summary_education": "Yakadzidzwa uye yakashandiswa mu{items}.",
+      "summary_projects": "Yakashandiswa nemaoko mu{items}.",
+      "summary_projects_also": "Yakashandiswawo mu{items}.",
+      "and_more": "zvimwe",
+      "scroll_more": "Tambanudza kuti uwane mabasa akawanda",
+      "show_less": "Ratidza zvishoma",
+      "no_samples": "Chikamu chezvishandiso zvangu zvekushanda. Ndiri kufara kutsanangura kuti ndakashandisa sei."
     },
     "services": {
       "title": "My Services",
@@ -112,6 +247,13 @@
           "text": "Ini ndinovaka nezvinoitika mushure mekutangwa muchitarisiko: zvakavanzika zvakachengetwa kunze kwekutonga kwechitubu, nzira dzakajeka dzekufambisa dhatabhesi, mvumo-yakavakirwa basa, kusimbiswa pamiganhu yehurongwa, otomatiki bvunzo, CI/CD kuziva, uye inoshanda kucherechedzwa. Aya ndiwo mashoko anoshandura prototype kuita software yakavimbika."
         }
       ]
+    },
+    "certifications": {
+      "title": "Zvitupa uye zvitupa zvetsigiro",
+      "credential": "Chitupa",
+      "issued_by": "Yakapihwa na",
+      "issued": "Zuva rekupa",
+      "verify": "Simba chitupa"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Batanidza Four",
-        "text": "Mhuri yakakura yeanopfuura makumi mashanu+ ekuita kweBatanidza mana mutambo. Ichi chirongwa chinosanganisira kuitiswa mumitauro inopfuura makumi matatu akasiyana ehurongwa, kusanganisira Java, C++, Python, JavaScript, nezvimwe. Pamusoro pezvo, inosanganisirawo anopfuura makumi maviri+ mafomati akasiyana kana mamwe mafomati, anosanganisira React.js, Ruby on Rails, ASP.NET, nezvimwe.",
+        "text": "Mhuri huru ye90+ mashandisiro emutambo weMina mutsara. Purojekiti iyi inosanganisira mitauro 30+ yerongwa, kusanganisira Java, C++, Python, neJavaScript, pamwe ne50+ maframework, maibhurari, nguva dzekushanda, uye dhatabhesi akasiyana, kubva kuReact, Angular, neBlazor kuenda kuDjango, Spring Boot, Phoenix, PostgreSQL, nezvimwe.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Iyo yemuno payroll process system yakavakwa neGnuCOBOL, SQLite kaviri-yekupinda ledger, uye Svelte mashandiro dashboard. Inoshandisa integer-cent math, batch payroll processing, uye loopback dashboard kuita kuti mafambiro emari ave pachena, anoedza, uye azvidavirire.",
+        "text": "Hurongwa hwepano hwekugadzirisa mihoro hwakavakwa neGnuCOBOL, bhuku guru reSQLite rinopinda kaviri, uye dashboard yekushanda yeSvelte. Inoshandisa masvomhu esenti dzakazara, kugadzirisa mihoro yebatch, uye dashboard yeloopback kuita kuti nzira dzemari dzive dzakajeka, kuyedzwa, uye rubatsiro rwekushanda.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "A Minecraft Mod iyo inowedzera maturusi echinyakare, nhumbi dzokurwa, mhomho, zvidhinha, zvimiro, uye zvimwe zvakawanda kumutambo. Yakavakwa zvakanyanya neJava neKotlin, nerutsigiro rweMinecraft shanduro 1.16 kusvika 26.2.",
+        "text": "Mod yeMinecraft inowedzera zvishandiso zvakasarudzika, nhumbi dzehondo, mobs, block, hukuru, uye zvimwe zvakawanda zvinhu kumutambo. Yakavakwa zvakanyanya neJava neKotlin, ichitsigira vhezheni dzeMinecraft 1.16 kusvika 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Nyoka Game",
-        "text": "Injini yakakwenenzverwa yeNyoka yakavakwa neRust uye Macroquad, yakaunganidzwa kuWebAssembly, uye yakashandurwa kuburikidza neHTML5 Canvas. Inosanganisa dhizaini 0.12-yechipiri mutambo zvikwekwe zvine mutsindo wakapindirwa mafambiro, akajeka emitambo nhanho, anoteerera anotonga, kudhumhana uye kukunda-nyika kubata, uye bvunzo yakanangana. suite inovhara misimboti yemitambo mitemo.",
+        "title": "Mutambo wenyoka",
+        "text": "Injini yakatsetseka yeNyoka yakavakwa neRust neMacroquad, yakanyorwa kuWebAssembly, uye inogadzirwa kuburikidza neHTML5 Canvas. Inosanganisa tick dzemutambo dze0.12-second deterministic nekufamba kwakanaka kwakabatanidzwa, nhanho dzemutambo dzakajeka, kutonga kunopindura, kubata kurovera uye mamiriro ekukunda, uye seti yekuyedza yakanangana inovhara mitemo yepakati pemutambo.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Machine Project",
         "text": "Mhuri yeanopfuura makumi matatu+ mashandisirwo eTuring Machine. Inoshandiswa kuratidza kukwana kuzere kwemitauro yakasiyana yekuronga yekutsvaga, kunyanya yeTiger Programming Mutauro.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Lab'rik yekemikari yehupfu-jecha yakavakwa muRust uye yakanyorwa kuWebAssembly. Penda jecha, mvura, lava, simbi, calcium carbide, kana chidimbu chesodium uye ona kuti fizikisi nekemistri zvinorwa sei: sodium inoputika mumvura, calcium carbide inoburitsa acetylene, lava inonyengerera jecha kuita girazi, uye density chete inopatsanura oiri, mercury, uye jecha. Injini inoshanda zvinhu 32 uye mitemo 40 yekupindura yakaziviswa papamusoro pebuffer yakatsetseka yemasero, ichigadzira pixels zvakananga kubva kumemory yemutsetse wewasm pasina makopi eframe imwe neimwe.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Sarudza Injini:",
     "tiger_code": "Tiger Code:",
     "run_tiger": "Mhanya Tiger",
-    "output": "Zvakabuda:"
+    "output": "Zvakabuda:",
+    "stop": "Mira",
+    "program_input": "Kupinda kwepurogiramu"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Hapana tsigiro yemutauro"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Ona kodhi yepakutanga paGitHub"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "domov",
     "about": "O meni",
     "portfolio": "Portfelj",
-    "projects": "Projekti spletnih strani",
-    "tiger": "Tigrov jezik",
-    "snake": "Igra Kača",
+    "projects": "Izbrani projekti",
+    "tiger": "Tiger - Lastni programski jezik",
+    "snake": "Igra kača",
     "portfolio_translator": "Prevajalec portfelja",
-    "formatter": "Oblikovalnik JSON & YAML",
+    "formatter": "Linter za JSON in YAML",
     "contact": "Kontaktiraj me",
     "home_description": "sys.root // glavni pregled",
-    "about_description": "profil inženirja // bio & stack",
-    "portfolio_description": "katalog programske opreme // predstavljena dela",
+    "about_description": "profil inženirja // bio in tehnologije",
+    "portfolio_description": "katalog programske opreme // izbrana dela",
     "projects_description": "interaktivna orodja in prevajalniki",
-    "tiger_description": "prevajalnik po meri in vizualizator AST",
+    "tiger_description": "lastni prevajalnik in vizualizator AST",
     "snake_description": "klasična arkadna igra / WASM",
-    "portfolio_translator_description": "100+ jezikovna matrika & i18n",
+    "portfolio_translator_description": "matrika 100+ jezikov in i18n",
     "formatter_description": "validator in pretvornik sintakse",
-    "contact_description": "odprti prenos // stopite v stik"
+    "contact_description": "odprt prenos // stopite v stik",
+    "arcade": "Arkada",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Jezikovno drevo Štirje v vrsto",
+    "alkalab_description": "simulacija kemijskega laboratorija / WASM",
+    "rustcraft_description": "voxel igra v slogu Minecraft / Rust in wgpu",
+    "suprememc_description": "predstavitev moda Minecraft / Java"
   },
   "home": {
     "title": "Senior Full-Stack inženir | Izdelek in sistemi",
@@ -35,17 +43,126 @@
     "contact_button": "Kontaktiraj me",
     "about_button": "O meni",
     "featured": {
-      "kicker": "Predstavljeni projekti",
-      "title": "Izbrano delo",
-      "description": "Šest projektov, ki najbolje predstavljajo, kako ambiciozne zamisli spreminjam v uglajeno delujočo programsko opremo.",
-      "view_project": "Ogled projekta",
-      "open_project": "Odprite Live Project",
+      "kicker": "Izbrani projekti",
+      "title": "Izbrana dela",
+      "description": "Šest projektov, ki najbolje predstavljajo, kako ambiciozne ideje spremenim v izpiljeno, delujočo programsko opremo.",
+      "view_project": "Prikaži projekt",
+      "open_project": "Odpri živi projekt",
       "view_all": "Raziščite celoten portfelj",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Celotno spletno mesto",
+        "full_website": "Polno spletno mesto",
         "available_here": "Na voljo tukaj",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Drug pogled na delo",
+      "invitation": "Raziščite inženirski atlas",
+      "kicker": "Popoln portfelj / povezano razmišljanje",
+      "title": "Inženirski atlas",
+      "projects": "Projekti",
+      "technologies": "Tehnologije",
+      "connections": "Povezave",
+      "center": "Inženirski atlas",
+      "filter_label": "Kategorije projektov",
+      "domains": {
+        "all": "Vse delo",
+        "products": "Izdelki",
+        "systems": "Sistemi",
+        "experiences": "Izkušnje"
+      },
+      "search": "Poiščite projekt ali tehnologijo",
+      "view_label": "Pogled atlasa",
+      "map_view": "Pogled zemljevida",
+      "map_navigation": "Navigacija po zemljevidu portfelja",
+      "zoom_in": "Povečaj",
+      "zoom_out": "Pomanjšaj",
+      "zoom_level": "Raven povečave zemljevida",
+      "fit_all": "Prilagodi vse projekte",
+      "center_selected": "Centriraj izbrani projekt",
+      "all_technologies": "Vse tehnologije",
+      "list_view": "Pogled seznama",
+      "pause": "Premor animacije signala",
+      "resume": "Nadaljuj animacijo signala",
+      "project_selector": "Raziščite projekte",
+      "inspector": "Podrobnosti izbranega projekta",
+      "shared_stack": "Skupna tehnologija",
+      "family_connection": "Povezava projekta",
+      "portfolio_connection": "Povezava portfelja",
+      "families": {
+        "portfolio": "Središče portfelja",
+        "business": "Poslovne aplikacije",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Projekti WebAssembly",
+        "libraries": "Knjižnice skript",
+        "languages": "Jezikovni poskusi",
+        "automation": "Orodja za avtomatizacijo in podatke",
+        "experience": "Poklicne in izobraževalne izkušnje"
+      },
+      "browser_native": "Prvotno v brskalniku / brez strežnika",
+      "no_results": "Ni ujemajočih se projektov",
+      "no_selection": "Ni izbranega projekta.",
+      "reset": "Počisti filtre",
+      "engineering_lens": "Inženirski pogled",
+      "connected_work": "Povezano delo",
+      "open_live": "Odpri živi projekt",
+      "open_project": "Raziščite projekt",
+      "footer": "Različne domene. Ena povezana inženirska praksa.",
+      "contact": "Zgradimo tisto, kar prihaja naprej",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Podatkovni cevovodi",
+        "angular": "Angular",
+        "access": "Nadzor dostopa",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testiranje",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilnost",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Dostopnost",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Nedosledne preglednice noter. Gradbene ocene in ponudbe, pripravljene za stranko, ven. Izdelek SaaS, zgrajen okoli dejanskega poteka dela izvajalca.",
+          "lens": "Prilagodljivi uvoziki zahtevajo strog notranji model: sprejemanje več formatov ne sme oslabiti pravil izračuna, od katerih je odvisna ponudba."
+        },
+        "inventory_register": {
+          "summary": "Potek dela prodajnega mesta z Angular in Node.js, ki povezuje overjene uporabnike, natančnost zalog in simuliran potek plačila.",
+          "lens": "Blagajna je več kot zaslon za plačilo. Vloge, spremembe zalog in stanja plačil zahtevajo jasne meje, da potek dela ostane odgovoren."
+        },
+        "grocery_app": {
+          "summary": "Aplikacija .NET 9 Blazor z mejami krmilnika, storitve in skladišča, trajnostjo Entity Framework Core in obsežnim naborom testov.",
+          "lens": "Ločitev si zasluži svoje mesto, ko je mogoče poslovna pravila testirati neodvisno od vmesnika in plasti trajnosti."
+        },
+        "payrollobol": {
+          "summary": "Obdelava plač GnuCOBOL se sreča z glavno knjigo dvojnega knjigovodstva SQLite in operativno nadzorno ploščo Svelte.",
+          "lens": "Finančna pravilnost se začne s predstavitvijo: aritmetika v celih centih in uravnoteženi knjigovodski vpisi naredijo gibanje denarja eksplicitno."
+        },
+        "interop": {
+          "summary": "Medjezikovna referenca, ki zajema 15 programskih jezikov in 18 vzorcev izvajanja ter raziskuje, kaj se zgodi na mejah izvajalnega okolja.",
+          "lens": "Težaven del je pogodba med izvajalnimi okolji: izmenjava podatkov, obnašanje procesov in ponovljivo izvajanje so pomembnejši od sintakse."
+        },
+        "formatter": {
+          "summary": "Pravi Go razčlenjevalni pogon, preveden v WebAssembly. Validacija in oblikovanje JSON in YAML tečejo lokalno v brskalniku.",
+          "lens": "Premik razčlenjevalnika v brskalnik zamenja večjo obremenitev odjemalca za lokalno obdelavo, prenosljivost in manj odvisnosti od strežnika."
+        },
+        "portfolio_website": {
+          "summary": "Spletno mesto, na katerem ste: React portfelj s 100+ jeziki, dostopnimi interakcijami in delujočimi orodji WebAssembly.",
+          "lens": "Statična uvedba ne pomeni nujno statične izkušnje. Bogate interakcije lahko živijo na odjemalcu brez aplikacijskega strežnika."
+        },
+        "biblioteca": {
+          "summary": "Python lokalizacijski cevovod, ki spremeni en sam strukturiran vir vsebine v portfelj, dostopen v več kot 100 jezikih.",
+          "lens": "Globalni doseg je prav toliko problem vzdrževanja podatkov kot problem prevajanja. En sam vir resnice ohranja spremembe vsebine obvladljive."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tehnične spretnosti",
       "header1": "Programski jeziki",
       "header2": "Ogrodja in knjižnice",
-      "header3": "Orodja in tehnologije"
+      "header3": "Orodja in tehnologije",
+      "technologies": "tehnologije",
+      "search_label": "Filtriraj",
+      "search_placeholder": "Filtriraj spretnosti…",
+      "clear_search": "Počisti filter",
+      "no_matches": "Nobena spretnost ne ustreza vašemu filtru.",
+      "works": "Dela",
+      "experience": "Izkušnje",
+      "professional": "Poklicno",
+      "education": "Izobraževanje",
+      "paired_with": "Pogosto v kombinaciji z",
+      "summary_professional": "Poklicno uporabljen v {items}.",
+      "summary_education": "Študiran in uporabljen v {items}.",
+      "summary_projects": "Praktično uporabljen v {items}.",
+      "summary_projects_also": "Uporabljen tudi v {items}.",
+      "and_more": "več",
+      "scroll_more": "Pomaknite se za več del",
+      "show_less": "Pokaži manj",
+      "no_samples": "Del mojega delovnega orodja. Z veseljem razložim, kako sem ga uporabil."
     },
     "services": {
       "title": "Moje storitve",
@@ -112,6 +247,13 @@
           "text": "Gradim ob upoštevanju realnosti po zagonu: skrivnosti, ki so izven nadzora vira, eksplicitne poti selitve baze podatkov, avtorizacija na podlagi vlog, validacija na sistemskih mejah, avtomatizirani testi, zavedanje CI/CD in praktična opazljivost. To so podrobnosti, ki spremenijo prototip v zanesljivo programsko opremo."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licence in certifikati",
+      "credential": "Certifikat",
+      "issued_by": "Izdajatelj",
+      "issued": "Datum izdaje",
+      "verify": "Preveri certifikat"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Poveži štiri",
-        "text": "Ogromna družina več kot 50+ izvedb igre Connect Four. Ta projekt vključuje implementacije v več kot 30 različnih programskih jezikih, vključno z Javo, C++, Python, JavaScript in drugimi. Poleg tega vključuje tudi več kot 20 različnih ogrodij ali drugih formatov, vključno z React.js, Ruby on Rails, ASP.NET in drugimi.",
+        "text": "Ogromna družina več kot 90 implementacij igre Štirje v vrsto. Projekt zajema več kot 30 programskih jezikov, vključno z Java, C++, Python in JavaScript, skupaj z več kot 50 različnimi ogrodji, knjižnicami, izvajalnimi okolji in podatkovnimi bazami – od React, Angular in Blazor do Django, Spring Boot, Phoenix, PostgreSQL in drugih.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PlačilOBOL",
-        "text": "Lokalni sistem za obdelavo plač, zgrajen z GnuCOBOL, knjigo z dvojnim vnosom SQLite in operacijsko nadzorno ploščo Svelte. Uporablja matematiko celih centov, paketno obdelavo izplačil in nadzorno ploščo s povratno zanko, da naredi finančne delovne tokove jasne, preizkušljive in operativno odgovorne.",
+        "title": "PayrollOBOL",
+        "text": "Lokalni sistem za obdelavo plač, zgrajen z GnuCOBOL, glavno knjigo dvojnega knjigovodstva SQLite in operativno nadzorno ploščo Svelte. Uporablja aritmetiko v celih centih, paketno obdelavo plač in ploščo s povratno zanko, da finančne poteke dela naredi eksplicitne, preizkusljive in operativno odgovorne.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "Mod SupremeMC Minecraft",
-        "text": "Minecraft Mod, ki igri doda orodja po meri, oklepe, mafije, bloke, dimenzije in številne druge funkcije. Zgrajen predvsem z Javo in Kotlinom, s podporo za različice Minecrafta od 1.16 do 26.2.",
+        "text": "Mod Minecraft, ki igri doda lastna orodja, oklepe, sovražnike, bloke, dimenzije in številne druge funkcije. Zgrajen predvsem z Java in Kotlin, s podporo za različice Minecraft 1.16 do 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Igra Kača",
-        "text": "Uglajen motor Snake, zgrajen z Rust in Macroquad, preveden v WebAssembly in upodobljen prek HTML5 Canvas. Združuje deterministične 0,12-sekundne tike igre z gladkim interpoliranim gibanjem, eksplicitnimi fazami igre, odzivnimi kontrolami, obravnavanjem trkov in stanja zmage ter osredotočenim testom zbirka, ki pokriva osnovna pravila igre.",
+        "title": "Igra kača",
+        "text": "Izpiljen pogon igre Kača, zgrajen z Rust in Macroquad, preveden v WebAssembly in upodobljen prek HTML5 Canvas. Združuje deterministične igralne podtike po 0,12 sekunde z gladkim interpoliranim gibanjem, eksplicitnimi igralnimi fazami, odzivnim upravljanjem, obravnavo trkov in stanj zmage ter osredotočen nabor testov, ki pokriva osnovna pravila igre.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Projekt Turingov stroj",
         "text": "Družina več kot 30+ izvedb Turingovega stroja. Uporablja se za prikaz popolnosti turinga za različne programske jezike za raziskave, zlasti za programski jezik Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Kemijski laboratorij iz praškastega peska, zgrajen v Rustu in preveden v WebAssembly. Pobarvajte pesek, vodo, lavo, jeklo, kalcijev karbid ali kos natrija in opazujte, kako se fizika in kemija borita: natrij detonira v vodi, kalcijev karbid sprošča acetilen, lava stali pesek v steklo in sama gostota razvrsti olje, živo srebro in pesek. Pogon izvaja 32 materialov in 40 deklarativnih pravil reakcij na ravnem medpomnilniku celic ter upodablja slikovne pike neposredno iz linearnega pomnilnika wasm brez kopij na sličico.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Izberite motor:",
     "tiger_code": "Koda tigra:",
     "run_tiger": "Teci Tiger",
-    "output": "Izhod:"
+    "output": "Izhod:",
+    "stop": "Ustavi",
+    "program_input": "Vhod programa"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Brez jezikovne podpore"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Prikaži izvorno kodo na GitHubu"
+  }
 }

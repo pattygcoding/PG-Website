@@ -4,21 +4,29 @@
     "home": "Dhachaigh",
     "about": "Mu mo dheidhinn",
     "portfolio": "Pasgan",
-    "projects": "Pròiseactan làrach-lìn a",
-    "tiger": "Cànan Tìgear",
-    "snake": "Gèam nathair",
+    "projects": "Pròiseactan taghte",
+    "tiger": "Tiger - Cànan Prògramaidh Gnàthaichte",
+    "snake": "Geama na nathrach",
     "portfolio_translator": "Eadar-theangaiche Portfolio",
-    "formatter": "Cruthadair JSON & YAML",
+    "formatter": "Sgrùdair JSON & YAML",
     "contact": "Cuir fios thugam",
-    "home_description": "sys.root // prìomh shealladh",
-    "about_description": "pròifil innleadair // bio & stac",
-    "portfolio_description": "catalog bathar-bog // obraichean sònraichte",
-    "projects_description": "innealan eadar-ghnìomhach agus luchd-cruinneachaidh",
-    "tiger_description": "inneal-cruinneachaidh gnàthaichte & AST visualizer",
-    "snake_description": "geama arcade clasaigeach / WASM",
-    "portfolio_translator_description": "100+ cànan matrix & i18n",
-    "formatter_description": "neach-dearbhaidh syntax & inneal-tionndaidh",
-    "contact_description": "sgaoileadh fosgailte // cuir fios thugainn"
+    "home_description": "sys.root // sealladh farsaing prìomhach",
+    "about_description": "proifil innleadair // beath-eachdraidh agus teicneòlas",
+    "portfolio_description": "catalog bathar-bhog // obraichean taghte",
+    "projects_description": "innealan eadar-ghnìomhach agus cruinnichean",
+    "tiger_description": "cruinniche gnàthaichte agus sealladair AST",
+    "snake_description": "geama stuaidh clasaigeach / WASM",
+    "portfolio_translator_description": "matrix 100+ cànan agus i18n",
+    "formatter_description": "bailidheachd agus tionndair co-rèir",
+    "contact_description": "sgaoileadh fosgailte // cuir fios thugam",
+    "arcade": "Stuaidh",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Craobh cànainean Ceithir ann an sreath",
+    "alkalab_description": "samhlachadh deuchainn-lann ceimigeachd / WASM",
+    "rustcraft_description": "geama voxel ann an stoidhle Minecraft / Rust agus wgpu",
+    "suprememc_description": "uinneag mod Minecraft / Java"
   },
   "home": {
     "title": "Àrd Einnseanair Làn-Stack | Bathar & Siostaman",
@@ -35,17 +43,126 @@
     "contact_button": "Cuir fios thugam",
     "about_button": "Mu mo dheidhinn",
     "featured": {
-      "kicker": "Prìomh Phròiseactan",
-      "title": "Obair Taghte",
-      "description": "Sia pròiseactan as fheàrr a tha a’ riochdachadh mar a thionndaidheas mi beachdan àrd-amasach gu bathar-bog snasail, obrach.",
-      "view_project": "Seall am Pròiseact",
-      "open_project": "Pròiseact beò fosgailte",
+      "kicker": "Pròiseactan taghte",
+      "title": "Obraichean taghte",
+      "description": "Sia pròiseactan as fheàrr a sheallas mar a thionndaidheas mi beachdan àrd-mhiannach gu bathar-bog snasta is obrachail.",
+      "view_project": "Seall am pròiseact",
+      "open_project": "Fosgail pròiseact beò",
       "view_all": "Rannsaich am pasgan iomlan",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Làrach-lìn slàn",
+        "full_website": "Làrach-lìn iomlan",
         "available_here": "Ri fhaighinn an seo",
-        "minecraft_mod": "Minecraft mòd"
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Sealladh eadar-dhealaichte air an obair",
+      "invitation": "Rannsaich atlas na h-innleadaireachd",
+      "kicker": "Pasgan iomlan / smaoineachadh ceangailte",
+      "title": "Atlas na h-Innleadaireachd",
+      "projects": "Pròiseactan",
+      "technologies": "Teicneòlasan",
+      "connections": "Ceanglaichean",
+      "center": "Atlas na h-innleadaireachd",
+      "filter_label": "Roinn-seòrsa phròiseactan",
+      "domains": {
+        "all": "An obair gu lèir",
+        "products": "Toraidhean",
+        "systems": "Siostaman",
+        "experiences": "Eòlas"
+      },
+      "search": "Lorg pròiseact no teicneòlas",
+      "view_label": "Sealladh atlas",
+      "map_view": "Sealladh mapa",
+      "map_navigation": "Seòladh mapa pasgain",
+      "zoom_in": "Sùm a-steach",
+      "zoom_out": "Sùm a-mach",
+      "zoom_level": "Ìre sùm a' mhapa",
+      "fit_all": "Cuir a h-uile pròiseact an uidheam",
+      "center_selected": "Meadhnaich am pròiseact taghte",
+      "all_technologies": "Na teicneòlasan gu lèir",
+      "list_view": "Sealladh liosta",
+      "pause": "Cuir anail air beòthachadh chomharran",
+      "resume": "Lean air le beòthachadh chomharran",
+      "project_selector": "Rannsaich pròiseactan",
+      "inspector": "Mion-fhiosrachadh a' phròiseict taghte",
+      "shared_stack": "Teicneòlas roinnte",
+      "family_connection": "Ceangal pròiseict",
+      "portfolio_connection": "Ceangal pasgain",
+      "families": {
+        "portfolio": "Mol pasgain",
+        "business": "Tagraidhean gnìomhachais",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Pròiseactan WebAssembly",
+        "libraries": "Leabharlannan sgriobta",
+        "languages": "Deuchainnean cànain",
+        "automation": "Innealan fèin-ghnìomhachaidh is dàta",
+        "experience": "Eòlas proifeiseanta is foghlaim"
+      },
+      "browser_native": "Dùthchasach dhan bhrabhsair / gun fhrithealaiche",
+      "no_results": "Gun phròiseactan a' maidseadh",
+      "no_selection": "Cha do thagh thu pròiseact sam bith.",
+      "reset": "Glan na criathraichean",
+      "engineering_lens": "Sealladh na h-innleadaireachd",
+      "connected_work": "Obair cheangailte",
+      "open_live": "Fosgail pròiseact beò",
+      "open_project": "Rannsaich am pròiseact",
+      "footer": "Raon eadar-dhealaichte. Aon chleachdadh innleadaireachd ceangailte.",
+      "contact": "Dèanamaid an rud a thig an ath rud",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Pìoban dàta",
+        "angular": "Angular",
+        "access": "Smachd air ruigsinneachd",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Deuchainn",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Eadar-obrachaileachd",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Ruigsinneachd",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Cairtean-sgèile neo-chunbhalach a' dol a-steach. Measaidhean togail agus molaidhean deiseil do luchd-dèiligidh a' dol a-mach. Bathar SaaS a chaidh a thogail timcheall air sruth-obrach fìrinneach a' chùmhnantaiche.",
+          "lens": "Tha in-mhalairtean sùbailte feumach air modail taobh a-staigh teann: cha bu chòir gabhail ri barrachd fhòrmatan a lagachadh riaghailtean àireamhachaidh air am bi tairgse an urra."
+        },
+        "inventory_register": {
+          "summary": "Sruth-obrach aig àite reic le Angular agus Node.js a cheanglas luchd-cleachdaidh dearbhte, cruinneas an stoc, agus sruth pàighidh samhlachail.",
+          "lens": "Tha clàr-airgid nas motha na scrion-pàighidh. Feumaidh dreuchdan, atharrachaidhean stoc, agus stàitean pàighidh crìochan soilleir gus sruth-obrach cunntachail a chumail."
+        },
+        "grocery_app": {
+          "summary": "Tagradh .NET 9 Blazor le crìochan riaghlaidh, seirbheis, agus tasgaidh, seasmhachd Entity Framework Core, agus sreath dheuchainnean coileanta.",
+          "lens": "Coisneadh dealachadh a àite nuair a ghabhas riaghailtean gnìomhachais a dhearbhadh gu neo-eisimeileach bhon àmhainn agus bhon ìre seasmhachd."
+        },
+        "payrollobol": {
+          "summary": "Coinnicheas giullachd phàigheadh GnuCOBOL le mòr-leabhar iontràil dhùbailte SQLite agus deas-bhòrd obrachaidh Svelte.",
+          "lens": "Tòisichidh ceartachd ionmhais le riochdachadh: nì àireamhachd sannt iomlan agus ionntraidhean cothromaichte gluasad airgid follaiseach."
+        },
+        "interop": {
+          "summary": "Iomradh thar-chànanan a tha a' còmhdachadh 15 cànan prògramaidh agus 18 pàtran coileanaidh, a' rannsachadh na thachras aig crìochan a' chiad-ùine.",
+          "lens": "Is e a' chuid chruaidh an cùmhnant eadar rèithean-rith: tha iomlaid dàta, giùlan pròiseas, agus coileanadh ath-aithriseach nas cudromaiche na co-rèir."
+        },
+        "formatter": {
+          "summary": "Fìor einnsean parsadh Go air a chruinneachadh gu WebAssembly. Bidh bailidheachd agus cruthachadh JSON agus YAML a' ruith gu h-ionadail sa bhrabhsair.",
+          "lens": "Bheir gluasad a' pharsair dhan bhrabhsair malairt airson luchd-taic nas motha airson giollachd ionadail, iomcharaidheachd, agus nas lugha de dh'eisimeil air an fhrithealaiche."
+        },
+        "portfolio_website": {
+          "summary": "An làrach air a bheil thu: pasgan React le 100+ cànan, eadar-ghnìomhan ruigsinn, agus innealan WebAssembly ag obair.",
+          "lens": "Cha bhi ionad-chuir stadach gu riatanach a' ciallachadh eòlas stadach. Faodaidh eadar-ghnìomhan beairteach a bhith beò air an neach-cleachdaidh gun fhrithealaiche thagraidh."
+        },
+        "biblioteca": {
+          "summary": "Pìob lorgachaidh Python a thionndaidheas aon stòr susbaint structaraichte na phasgan a tha ri fhaighinn ann an 100+ cànan.",
+          "lens": "Tha ruigsinneachd cruinneil na dhuilgheadas cumail-dàta a cheart cho math ri duilgheadas eadar-theangachaidh. Cumaidh aon stòr fìrinn atharrachaidhean susbaint riaghlaidh."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Sgilean Teicnigeach",
       "header1": "Cànanan Prògramadh",
       "header2": "Frèamaichean & Leabharlannan",
-      "header3": "Innealan & Teicneòlasan"
+      "header3": "Innealan & Teicneòlasan",
+      "technologies": "teicneòlasan",
+      "search_label": "Criathraich",
+      "search_placeholder": "Criathraich sgilean…",
+      "clear_search": "Glan an criathar",
+      "no_matches": "Chan eil sgilean sam bith a' maidseadh do chriathair.",
+      "works": "Obraichean",
+      "experience": "Eòlas",
+      "professional": "Proifeiseanta",
+      "education": "Foghlaim",
+      "paired_with": "Gu tric air a chàradh ri",
+      "summary_professional": "Air a chleachdadh gu proifeiseanta aig {items}.",
+      "summary_education": "Air ionnsachadh agus air a chur an sàs aig {items}.",
+      "summary_projects": "Air a chur an sàs gu practaigeach ann an {items}.",
+      "summary_projects_also": "Cuideachd air a chur an sàs ann an {items}.",
+      "and_more": "barrachd",
+      "scroll_more": "Sgrolaich airson barrachd obraichean",
+      "show_less": "Seall nas lugha",
+      "no_samples": "Pàirt de mo bhathar-obrach. Tha mi toilichte mìneachadh mar a chleachd mi e."
     },
     "services": {
       "title": "Mo Sheirbheisean",
@@ -112,6 +247,13 @@
           "text": "Bidh mi a’ togail leis na fìrinnean às deidh an cur air bhog san amharc: dìomhaireachdan air an cumail a-mach à smachd stòr, slighean imrich stòr-dàta soilleir, cead stèidhichte air dreuchd, dearbhadh aig crìochan siostam, deuchainnean fèin-ghluasadach, mothachadh CI/CD, agus amharc practaigeach. Is iad sin na mion-fhiosrachadh a thionndaidheas prototype gu bathar-bog earbsach."
         }
       ]
+    },
+    "certifications": {
+      "title": "Ceadan is teisteanasan",
+      "credential": "Teisteanas",
+      "issued_by": "Air a chur a-mach le",
+      "issued": "Ceann-là a' chuir a-mach",
+      "verify": "Dearbhaich an teisteanas"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Ceangail Ceithir",
-        "text": "Teaghlach mòr de chòrr air 50+ buileachadh den gheama Connect Four. Tha am pròiseact seo a’ toirt a-steach buileachadh ann an còrr air 30 cànan prògramaidh eadar-dhealaichte, nam measg Java, C ++, Python, JavaScript, agus barrachd. A bharrachd air an sin, tha e cuideachd a’ toirt a-steach còrr air 20+ frèaman eadar-dhealaichte no cruthan eile, nam measg React.js, Ruby on Rails, ASP.NET, agus barrachd.",
+        "text": "Teaghlach mòr de 90+ buileachadh den gheama Ceithir ann an sreath. Tha am pròiseact a' còmhdachadh 30+ cànan prògramaidh, a' gabhail a-steach Java, C++, Python, agus JavaScript, còmhla ri 50+ frèam-obrach, leabharlann, ùine-rith, agus bun-stòr-dàta eadar-dhealaichte, bho React, Angular, agus Blazor gu Django, Spring Boot, Phoenix, PostgreSQL, agus nas fhaide.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PàighidhOBOL",
-        "text": "Siostam giullachd pàighidh ionadail air a thogail le GnuCOBOL, leabhar-cunntais dùbailte SQLite, agus deas-bhòrd gnìomhachd Svelte. Bidh e a’ cleachdadh matamataigs integer-cent, giollachd pàighidh baidse, agus deas-bhòrd loopback gus sruthan-obrach ionmhais a dhèanamh soilleir, deuchainneach agus cunntachail a thaobh gnìomhachd.",
+        "title": "PayrollOBOL",
+        "text": "Siostam giollachd phàigheadh ionadail a chaidh a thogail le GnuCOBOL, mòr-leabhar iontràil dhùbailte SQLite, agus deas-bhòrd obrachaidh Svelte. Cleachdaidh e àireamhachd sannt iomlan, giollachd phàigheadh baidse, agus deas-bhòrd lùb-tharraing gus sruthan ionmhais a dhèanamh follaiseach, deuchainneach, agus cunntachail gu h-obrachail.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "Mòd minecraft superMC",
-        "text": "Mòd Minecraft a chuireas innealan àbhaisteach, armachd, mobs, blocaichean, tomhasan, agus mòran a bharrachd fheartan ris a’ gheama. Air a thogail gu sònraichte le Java agus Kotlin, le taic a’ dol thairis air dreachan Minecraft 1.16 tro 26.2.",
+        "text": "Mod Minecraft a chuireas innealan gnàthaichte, armachd, mobs, blocaichean, tomhasan, agus mòran fheartan eile ris a' gheama. Air a thogail sa mhòr-chuid le Java agus Kotlin, a' toirt taic do dhreachan Minecraft 1.16 gu 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Gèam nathair",
-        "text": "Einnsean nathair snasta air a thogail le Rust agus Macroquad, air a chur ri chèile gu WebAssembly, agus air a thoirt seachad tro Canabhas HTML5. Bidh e a’ cothlamadh breaban geam dearbhte 0.12-diog le gluasad eadar-ghluasadach rèidh, ìrean geama soilleir, smachdan freagairteach, làimhseachadh bualadh agus buannachadh-stàite, agus deuchainn cuimsichte. sreath a’ còmhdach prìomh riaghailtean geama.",
+        "title": "Geama na nathrach",
+        "text": "Einnsean Nathrach snasta air a thogail le Rust agus Macroquad, air a chruinneachadh gu WebAssembly, agus air a riochdachadh tro Canvas HTML5. Ceangalaidh e ticean geama cinntiche 0.12 diog le gluasad eadar-shuidhichte rèidh, ìrean geama soilleir, smachd freagairteach, làimhseachadh bhualaidhean agus stàitean buaidh, agus sreath dheuchainnean fòcasaiche a tha a' còmhdach riaghailtean bunaiteach a' gheama.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Pròiseact inneal Turing",
         "text": "Teaghlach de chòrr air 30+ buileachadh den Turing Machine. Air a chleachdadh gus iomlanachd turaidh a nochdadh airson diofar chànanan prògramaidh airson rannsachadh, gu sònraichte airson Cànan Prògramadh Tìgear.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Deuchainn-lann ceimigeachd pùdar-gainmhich a chaidh a thogail ann an Rust agus a chruinneachadh gu WebAssembly. Peant gainmheach, uisge, làbha, stàilinn, calcium carbide, no pìos sodium agus faic fiosaigs agus ceimigeachd a' sabaid: spreadhaidh sodium ann an uisge, sgaoileas calcium carbide acetylene, leaghaidh làbha gainmheach gu glainne, agus dealaicheas dlùths a-mhàin ola, mearcair, agus gainmheach. Ruithidh an t-einnsean 32 stuth agus 40 riaghailt ath-bhualadh fhoillsichte thar bufa-cealla còmhnard, a' riochdachadh piogsail gu dìreach bho chuimhne loidhneach wasm gun chopaichean gach frèam.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Tagh einnsean:",
     "tiger_code": "Còd Tìgear:",
     "run_tiger": "Ruith Tìgear",
-    "output": "Toradh:"
+    "output": "Toradh:",
+    "stop": "Stad",
+    "program_input": "Cur-a-steach a' phrògraim"
   },
   "tab": {
     "title": "Pàdraig Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Gun taic cànain"
     }
   },
-  "logotext": "PATRIC"
+  "logotext": "PATRIC",
+  "repo_button": {
+    "label": "Coimhead air a' chòd stòr air GitHub"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "Cartref",
     "about": "Amdanaf fi",
     "portfolio": "Portffolio",
-    "projects": "Prosiectau Gwefan",
-    "tiger": "Iaith Teigr",
-    "snake": "Gêm Neidr",
+    "projects": "Prosiectau nodedig",
+    "tiger": "Tiger - Iaith Rhaglennu Arferiad",
+    "snake": "Gêm y neidr",
     "portfolio_translator": "Cyfieithydd Portffolio",
-    "formatter": "Fformatiwr JSON & YAML",
+    "formatter": "Gwirydd JSON & YAML",
     "contact": "Cysylltwch â Fi",
-    "home_description": "sys.root // prif drosolwg",
-    "about_description": "proffil peiriannydd // bio & stack",
-    "portfolio_description": "catalog meddalwedd // gweithiau dan sylw",
-    "projects_description": "offer a chasglwyr rhyngweithiol",
-    "tiger_description": "casglwr arfer & delweddwr AST",
+    "home_description": "sys.root // trosolwg cyffredinol",
+    "about_description": "proffil peiriannydd // bio a thechnolegau",
+    "portfolio_description": "catalog meddalwedd // gweithiau nodedig",
+    "projects_description": "offer rhyngweithiol a chrynwyr",
+    "tiger_description": "crynydd arferiad a delweddwr AST",
     "snake_description": "gêm arcêd glasurol / WASM",
-    "portfolio_translator_description": "100+ matrics iaith & i18n",
-    "formatter_description": "dilysydd cystrawen a thrawsnewidydd",
-    "contact_description": "trawsyrru agored // cysylltwch"
+    "portfolio_translator_description": "matrics 100+ iaith ac i18n",
+    "formatter_description": "dilysydd a thrawsddyrnydd cystrawen",
+    "contact_description": "trosglwyddiad agored // cysylltwch â mi",
+    "arcade": "Arcêd",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Coeden iaith Pedwar yn olynol",
+    "alkalab_description": "efelychiad labordy cemeg / WASM",
+    "rustcraft_description": "gêm voxel arddull Minecraft / Rust a wgpu",
+    "suprememc_description": "arddangosfa mod Minecraft / Java"
   },
   "home": {
     "title": "Uwch Beiriannydd Pentwr | Cynnyrch a Systemau",
@@ -35,17 +43,126 @@
     "contact_button": "Cysylltwch â Fi",
     "about_button": "Amdanaf fi",
     "featured": {
-      "kicker": "Prosiectau dan Sylw",
-      "title": "Gwaith Dethol",
-      "description": "Chwe phrosiect sy'n cynrychioli'r ffordd orau o droi syniadau uchelgeisiol yn feddalwedd caboledig, gweithio.",
-      "view_project": "Gweld y Prosiect",
-      "open_project": "Agor Prosiect Byw",
-      "view_all": "Archwilio'r portffolio llawn",
+      "kicker": "Prosiectau nodedig",
+      "title": "Gweithiau dethol",
+      "description": "Chwe phrosiect sy'n cynrychioli orau sut rwy'n troi syniadau uchelgeisiol yn feddalwedd loyw a gweithredol.",
+      "view_project": "Gweld y prosiect",
+      "open_project": "Agor prosiect byw",
+      "view_all": "Archwilio'r portffolio cyflawn",
       "badges": {
-        "saas": "SAAS",
-        "full_website": "Gwefan Lawn",
-        "available_here": "Ar gael Yma",
-        "minecraft_mod": "Minecraft Mod"
+        "saas": "SaaS",
+        "full_website": "Gwefan lawn",
+        "available_here": "Ar gael yma",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Safbwynt gwahanol ar y gwaith",
+      "invitation": "Archwiliwch yr atlas peirianneg",
+      "kicker": "Portffolio cyflawn / meddwl cysylltiedig",
+      "title": "Atlas Peirianneg",
+      "projects": "Prosiectau",
+      "technologies": "Technolegau",
+      "connections": "Cysylltiadau",
+      "center": "Atlas peirianneg",
+      "filter_label": "Categorïau prosiectau",
+      "domains": {
+        "all": "Yr holl waith",
+        "products": "Cynhyrchion",
+        "systems": "Systemau",
+        "experiences": "Profiadau"
+      },
+      "search": "Dod o hyd i brosiect neu dechnoleg",
+      "view_label": "Golygfa atlas",
+      "map_view": "Golygfa map",
+      "map_navigation": "Llywio map y portffolio",
+      "zoom_in": "Chwyddo i mewn",
+      "zoom_out": "Chwyddo allan",
+      "zoom_level": "Lefel chwyddo'r map",
+      "fit_all": "Ffitio'r holl brosiectau",
+      "center_selected": "Canoli'r prosiect a ddewiswyd",
+      "all_technologies": "Yr holl dechnolegau",
+      "list_view": "Golygfa rhestr",
+      "pause": "Oedi'r animeiddiad signal",
+      "resume": "Ailgychwyn yr animeiddiad signal",
+      "project_selector": "Archwilio prosiectau",
+      "inspector": "Manylion y prosiect a ddewiswyd",
+      "shared_stack": "Technoleg a rennir",
+      "family_connection": "Cysylltiad prosiect",
+      "portfolio_connection": "Cysylltiad portffolio",
+      "families": {
+        "portfolio": "Canolbwynt portffolio",
+        "business": "Cymwysiadau busnes",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Prosiectau WebAssembly",
+        "libraries": "Llyfrgelloedd sgript",
+        "languages": "Arbrofion iaith",
+        "automation": "Offer awtomeiddio a data",
+        "experience": "Profiad proffesiynol ac addysgol"
+      },
+      "browser_native": "Cynhenid i'r porwr / heb weinydd",
+      "no_results": "Dim prosiectau sy'n cyfateb",
+      "no_selection": "Ni ddewiswyd unrhyw brosiect.",
+      "reset": "Clirio'r hidlenni",
+      "engineering_lens": "Safbwynt peirianneg",
+      "connected_work": "Gwaith cysylltiedig",
+      "open_live": "Agor prosiect byw",
+      "open_project": "Archwilio'r prosiect",
+      "footer": "Gwahanol feysydd. Un arfer peirianneg gysylltiedig.",
+      "contact": "Gadewch inni adeiladu'r hyn sy'n dod nesaf",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Piblinellau data",
+        "angular": "Angular",
+        "access": "Rheolaeth mynediad",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Profi",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Rhyngweithrededd",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Hygyrchedd",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Taenlenni anghyson yn mynd i mewn. Amcangyfrifon adeiladu a chynigion parod i'r cleient yn mynd allan. Cynnyrch SaaS wedi'i adeiladu o amgylch llif gwaith gwirioneddol y contractwr.",
+          "lens": "Mae mewnforion hyblyg yn gofyn am fodel mewnol llym: ni ddylai derbyn mwy o fformatau wanhau'r rheolau cyfrifo y mae cynnig yn dibynnu arnynt."
+        },
+        "inventory_register": {
+          "summary": "Llif gwaith pwynt gwerthu gydag Angular a Node.js sy'n cysylltu defnyddwyr dilysedig, cywirdeb rhestr eiddo, a llif taliad efelychiedig.",
+          "lens": "Mae cofrestr arian yn fwy na sgrin talu. Mae rolau, newidiadau stoc, a statws taliadau angen ffiniau clir i gadw'r llif gwaith yn atebol."
+        },
+        "grocery_app": {
+          "summary": "Cymhwysiad .NET 9 Blazor gyda ffiniau rheolwr, gwasanaeth, a storfa, parhad Entity Framework Core, a set brawf gynhwysfawr.",
+          "lens": "Mae gwahanu'n ennill ei le pan ellir profi rheolau busnes yn annibynnol ar y rhyngwyneb a'r haen barhad."
+        },
+        "payrollobol": {
+          "summary": "Mae prosesu cyflog GnuCOBOL yn cwrdd â chyfriflyfr mynediad dwbl SQLite a dangosfwrdd gweithredu Svelte.",
+          "lens": "Mae cywirdeb ariannol yn dechrau gyda chynrychiolaeth: mae rhifyddeg sentau cyfan a chofnodion cytbwys yn gwneud symudiad arian yn amlwg."
+        },
+        "interop": {
+          "summary": "Cyfeiriad rhyng-ieithyddol sy'n cwmpasu 15 iaith raglennu ac 18 patrwm gweithredu, yn archwilio beth sy'n digwydd ar ffiniau amser rhedeg.",
+          "lens": "Y rhan anodd yw'r contract rhwng amseroedd rhedeg: mae cyfnewid data, ymddygiad prosesau, a gweithrediad ailadroddadwy yn bwysicach na chystrawen."
+        },
+        "formatter": {
+          "summary": "Peiriant dosrannu Go go iawn wedi'i gyfuno i WebAssembly. Mae dilysu a fformatio JSON ac YAML yn rhedeg yn lleol yn y porwr.",
+          "lens": "Mae symud y dosrannwr i'r porwr yn cyfnewid llwyth cleient mwy am brosesu lleol, cludadwyedd, a llai o ddibyniaeth ar y gweinydd."
+        },
+        "portfolio_website": {
+          "summary": "Y wefan rydych ynddi: portffolio React gyda 100+ iaith, rhyngweithiadau hygyrch, ac offer WebAssembly sy'n gweithio.",
+          "lens": "Nid yw defnyddio statig o anghenraid yn golygu profiad statig. Gall rhyngweithiadau cyfoethog fyw ar y cleient heb weinydd cymwysiadau."
+        },
+        "biblioteca": {
+          "summary": "Piblinell leoleiddio Python sy'n troi un ffynhonnell cynnwys strwythuredig yn bortffolio ar gael mewn 100+ iaith.",
+          "lens": "Mae cyrhaeddiad byd-eang yn broblem cynnal data gymaint â phroblem cyfieithu. Mae un ffynhonnell gwirionedd yn cadw newidiadau cynnwys yn hylaw."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Sgiliau Technegol",
       "header1": "Ieithoedd Rhaglennu",
       "header2": "Fframweithiau a Llyfrgelloedd",
-      "header3": "Offer a Thechnoleg"
+      "header3": "Offer a Thechnoleg",
+      "technologies": "technolegau",
+      "search_label": "Hidlo",
+      "search_placeholder": "Hidlo sgiliau…",
+      "clear_search": "Clirio'r hidlen",
+      "no_matches": "Dim sgiliau'n cyfateb i'ch hidlen.",
+      "works": "Gweithiau",
+      "experience": "Profiad",
+      "professional": "Proffesiynol",
+      "education": "Addysg",
+      "paired_with": "Yn aml yn cael ei baru â",
+      "summary_professional": "Defnyddiwyd yn broffesiynol yn {items}.",
+      "summary_education": "Astudiwyd a chymhwyswyd yn {items}.",
+      "summary_projects": "Cymhwyswyd yn ymarferol yn {items}.",
+      "summary_projects_also": "Cymhwyswyd hefyd yn {items}.",
+      "and_more": "mwy",
+      "scroll_more": "Sgroliwch am fwy o weithiau",
+      "show_less": "Dangos llai",
+      "no_samples": "Rhan o'm cit offer gwaith. Rwy'n hapus i egluro sut rwyf wedi'i ddefnyddio."
     },
     "services": {
       "title": "Fy Ngwasanaethau",
@@ -112,6 +247,13 @@
           "text": "Rwy'n adeiladu gyda'r realiti ar ôl lansio mewn golwg: cyfrinachau a gedwir allan o reolaeth ffynhonnell, llwybrau mudo cronfa ddata penodol, awdurdodiad yn seiliedig ar rôl, dilysu ar ffiniau systemau, profion awtomataidd, ymwybyddiaeth o CI/CD, ac arsylwi ymarferol. Dyma'r manylion sy'n troi prototeip yn feddalwedd dibynadwy."
         }
       ]
+    },
+    "certifications": {
+      "title": "Trwyddedau ac ardystiadau",
+      "credential": "Ardystiad",
+      "issued_by": "Cyhoeddwyd gan",
+      "issued": "Dyddiad cyhoeddi",
+      "verify": "Dilysu'r ardystiad"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Cyswllt Pedwar",
-        "text": "Teulu enfawr o dros 50+ o weithrediadau gêm Connect Four. Mae'r prosiect hwn yn cynnwys gweithrediadau mewn dros 30 o wahanol ieithoedd rhaglennu, gan gynnwys Java, C ++, Python, JavaScript, a mwy. Yn ogystal, mae hefyd yn cynnwys dros 20+ o wahanol fframweithiau neu fformatau eraill, gan gynnwys React.js, Ruby on Rails, ASP.NET, a mwy.",
+        "text": "Teulu enfawr o 90+ weithrediad o'r gêm Pedwar yn olynol. Mae'r prosiect yn cwmpasu 30+ iaith raglennu, gan gynnwys Java, C++, Python, a JavaScript, ynghyd â 50+ fframwaith, llyfrgell, amser rhedeg, a chronfa ddata wahanol, o React, Angular, a Blazor i Django, Spring Boot, Phoenix, PostgreSQL, ac ymhellach.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "System brosesu cyflogres leol a adeiladwyd gyda GnuCOBOL, cyfriflyfr mynediad dwbl SQLite, a dangosfwrdd gweithrediadau Svelte. Mae'n defnyddio mathemateg cyfanrif - ganolog, prosesu cyflogres swp, a dangosfwrdd cylchdroi i wneud llifoedd gwaith ariannol yn eglur, yn brofadwy ac yn atebol yn weithredol.",
+        "text": "System leol i brosesu cyflog wedi'i hadeiladu gyda GnuCOBOL, cyfriflyfr mynediad dwbl SQLite, a dangosfwrdd gweithredu Svelte. Mae'n defnyddio rhifyddeg sentau cyfan, prosesu cyflog fesul sypiau, a dangosfwrdd loopback i wneud llifau ariannol yn amlwg, yn brofadwy, ac yn atebol yn weithredol.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "Mod Minecraft SuperMC",
-        "text": "Mod Minecraft sy'n ychwanegu offer arfer, arfwisg, mobs, blociau, dimensiynau, a llawer mwy o nodweddion i'r gêm. Wedi'i adeiladu'n bennaf gyda Java a Kotlin, gyda chefnogaeth yn rhychwantu fersiynau Minecraft 1.16 trwy 26.2.",
+        "text": "Mod Minecraft sy'n ychwanegu offer, arfwisg, mobs, blociau, dimensiynau, a llawer o nodweddion arferol eraill at y gêm. Wedi'i adeiladu'n bennaf gyda Java a Kotlin, gyda chymorth ar gyfer fersiynau Minecraft 1.16 hyd at 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Neidr Gêm",
-        "text": "Peiriant Neidr caboledig wedi'i adeiladu gyda Rust a Macroquad, wedi'i lunio i WebAssembly, a'i rendro trwy HTML5 Canvas. Mae'n cyfuno ticiau gêm 0.12- eiliad penderfynol gyda symudiad rhyngosod llyfn, cyfnodau gêm penodol, rheolaethau ymatebol, gwrthdrawiad a thrin y wladwriaeth fuddugol, a phrawf â ffocws chwaraewch y gêm ar - lein am reolau ar - lein.",
+        "title": "Gêm y neidr",
+        "text": "Injan Neidr loyw wedi'i hadeiladu gyda Rust a Macroquad, wedi'i chyfuno i WebAssembly, a'i rendro trwy HTML5 Canvas. Mae'n cyfuno ticiau gêm benderfynol 0.12 eiliad â symudiad llyfn wedi'i ryngosod, cyfnodau gêm clir, rheolaeth ymatebol, trin gwrthdrawiadau a statws buddugoliaeth, a set brawf ffocwsedig sy'n cwmpasu rheolau craidd y gêm.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Prosiect Peiriant Turing",
         "text": "Teulu o dros 30+ o weithrediadau o'r Peiriant Turing. Fe'i defnyddir i ddangos cyflawnder ar gyfer gwahanol ieithoedd rhaglennu ar gyfer ymchwil, yn enwedig ar gyfer yr Iaith Rhaglennu Teigr.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Labordy cemeg tywod-powdr wedi'i adeiladu mewn Rust a'i gyfuno i WebAssembly. Peintiwch dywod, dŵr, lafa, dur, calsiwm carbid, neu ddarn o sodiwm a gwyliwch ffiseg a chemeg yn ymladd: mae sodiwm yn ffrwydro mewn dŵr, mae calsiwm carbid yn rhyddhau asetylen, mae lafa'n toddi tywod yn wydr, a dim ond dwysedd sy'n gwahanu olew, mercwri, a thywod. Mae'r injan yn rhedeg 32 deunydd a 40 rheol adwaith datganiadol dros ffer es gyfnewid cell wastad, gan rendro picseli yn uniongyrchol o gof llinellol wasm heb gopïau fesul ffrâm.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Dewiswch Beiriant:",
     "tiger_code": "Cod teigr:",
     "run_tiger": "Rhedeg Teigr",
-    "output": "Allbwn:"
+    "output": "Allbwn:",
+    "stop": "Stopio",
+    "program_input": "Mewnbwn y rhaglen"
   },
   "tab": {
     "title": "Padrig Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Dim cefnogaeth iaith"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Gweld y cod ffynhonnell ar GitHub"
+  }
 }

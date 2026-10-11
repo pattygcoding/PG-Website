@@ -4,21 +4,29 @@
     "home": "Baile",
     "about": "Maidir liomsa",
     "portfolio": "Punann",
-    "projects": "Tionscadail Láithreán Gréasáin",
-    "tiger": "Teanga Tíogair",
-    "snake": "Cluiche Snake",
+    "projects": "Tionscadail roghnaithe",
+    "tiger": "Tiger - Teanga Ríomhchláraithe Shaincheaptha",
+    "snake": "Cluiche na nathrach",
     "portfolio_translator": "Aistritheoir Punann",
-    "formatter": "Formáideoir JSON & YAML",
+    "formatter": "Seiceálaí JSON & YAML",
     "contact": "Déan Teagmháil liom",
     "home_description": "sys.root // forbhreathnú príomhúil",
-    "about_description": "próifíl innealtóra // bith & stack",
-    "portfolio_description": "catalóg bogearraí // saothair faoi thrácht",
-    "projects_description": "uirlisí idirghníomhacha & tiomsaitheoirí",
-    "tiger_description": "tiomsaitheoir saincheaptha & léirshamhlú AST",
-    "snake_description": "cluiche stuara clasaiceach / WASM",
-    "portfolio_translator_description": "100+ maitrís teanga & i18n",
-    "formatter_description": "bailíochtóir & tiontaire comhréire",
-    "contact_description": "tarchur oscailte // téigh i dteagmháil"
+    "about_description": "próifíl innealtóra // beathaisnéis agus teicneolaíocht",
+    "portfolio_description": "catalóg bogearraí // saothair roghnaithe",
+    "projects_description": "uirlisí idirghníomhacha agus tiomsaitheoirí",
+    "tiger_description": "tiomsaitheoir saincheaptha agus amhairceoir AST",
+    "snake_description": "cluiche stua clasaiceach / WASM",
+    "portfolio_translator_description": "maitrís 100+ teanga agus i18n",
+    "formatter_description": "bailíochtóir agus tiontaire comhréire",
+    "contact_description": "tarchur oscailte // déan teagmháil liom",
+    "arcade": "Stua",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Crann teangacha Ceithre as a chéile",
+    "alkalab_description": "insamhladh saotharlainne ceimice / WASM",
+    "rustcraft_description": "cluiche voxel ar stíl Minecraft / Rust agus wgpu",
+    "suprememc_description": "fuinneog mod Minecraft / Java"
   },
   "home": {
     "title": "Innealtóir Sinsearach Iomlán Cruach | Táirge & Córais",
@@ -35,17 +43,126 @@
     "contact_button": "Déan Teagmháil liom",
     "about_button": "Maidir liomsa",
     "featured": {
-      "kicker": "Tionscadail Réadmhaoin",
-      "title": "Obair Roghnaithe",
-      "description": "Sé thionscadal is fearr a léiríonn conas a dhéanaim bogearraí oibre snasta a dhéanamh de smaointe uaillmhianacha.",
-      "view_project": "Féach ar an Tionscadal",
-      "open_project": "Tionscadal Beo Oscailte",
+      "kicker": "Tionscadail roghnaithe",
+      "title": "Saothair roghnaithe",
+      "description": "Sé thionscadal a léiríonn is fearr conas a thiontaím smaointe uaillmhianacha ina mbogearraí snasta agus feidhmiúla.",
+      "view_project": "Féach ar an tionscadal",
+      "open_project": "Oscail tionscadal beo",
       "view_all": "Déan iniúchadh ar an bpunann iomlán",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Láithreán gréasáin iomlán",
-        "available_here": "Ar fáil Anseo",
-        "minecraft_mod": "Minecraft mod"
+        "full_website": "Suíomh gréasáin iomlán",
+        "available_here": "Ar fáil anseo",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Dearcadh éagsúil ar an obair",
+      "invitation": "Déan iniúchadh ar atlais na hinnealtóireachta",
+      "kicker": "Punann iomlán / smaointeoireacht nasctha",
+      "title": "Atlas na hInnealtóireachta",
+      "projects": "Tionscadail",
+      "technologies": "Teicneolaíochtaí",
+      "connections": "Naisc",
+      "center": "Atlas na hinnealtóireachta",
+      "filter_label": "Catagóirí tionscadal",
+      "domains": {
+        "all": "An obair go léir",
+        "products": "Táirgí",
+        "systems": "Córais",
+        "experiences": "Eispéiris"
+      },
+      "search": "Faigh tionscadal nó teicneolaíocht",
+      "view_label": "Amharc atlas",
+      "map_view": "Amharc léarscáile",
+      "map_navigation": "Nascleanúint léarscáile punainne",
+      "zoom_in": "Zúmáil isteach",
+      "zoom_out": "Zúmáil amach",
+      "zoom_level": "Leibhéal zúmála an léarscáil",
+      "fit_all": "Feiliúnaigh na tionscadail go léir",
+      "center_selected": "Lárnaigh an tionscadal roghnaithe",
+      "all_technologies": "Na teicneolaíochtaí go léir",
+      "list_view": "Amharc liosta",
+      "pause": "Sos beochana comhartha",
+      "resume": "Lean beochan an chomhartha",
+      "project_selector": "Déan iniúchadh ar thionscadail",
+      "inspector": "Sonraí an tionscadail roghnaithe",
+      "shared_stack": "Teicneolaíocht chomhroinnte",
+      "family_connection": "Nasc tionscadail",
+      "portfolio_connection": "Nasc punainne",
+      "families": {
+        "portfolio": "Mol punainne",
+        "business": "Feidhmchláir ghnó",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Tionscadail WebAssembly",
+        "libraries": "Leabharlanna scripte",
+        "languages": "Turgnaimh teanga",
+        "automation": "Uirlisí uathoibrithe agus sonraí",
+        "experience": "Taithí ghairmiúil agus oideachais"
+      },
+      "browser_native": "Dúchasach don bhrabhsálaí / gan freastalaí",
+      "no_results": "Níl aon tionscadal meaitseála",
+      "no_selection": "Ní roghnaíodh aon tionscadal.",
+      "reset": "Glan na scagairí",
+      "engineering_lens": "Dearcadh na hinnealtóireachta",
+      "connected_work": "Obair nasctha",
+      "open_live": "Oscail tionscadal beo",
+      "open_project": "Déan iniúchadh ar an tionscadal",
+      "footer": "Fearainn éagsúla. Cleachtas innealtóireachta nasctha amháin.",
+      "contact": "Déanaimis an méid a thagann ina dhiaidh a thógáil",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Píblínte sonraí",
+        "angular": "Angular",
+        "access": "Rialú rochtana",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Tástáil",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Idir-inoibritheacht",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Inrochtaineacht",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Scarbhileoga neamh-chomhsheasmhacha ag teacht isteach. Meastacháin tógála agus tograí réidh don chliant ag dul amach. Táirge SaaS a tógadh timpeall ar shreabhadh oibre iarbhír an chonraitheora.",
+          "lens": "Teastaíonn samhail inmheánach dhocht ó allmhairí solúbtha: níor cheart go lagódh glacadh le níos mó formáidí na rialacha ríofa a bhraitheann tairiscint orthu."
+        },
+        "inventory_register": {
+          "summary": "Sreabhadh oibre ag pointe díola le Angular agus Node.js a nascann úsáideoirí fíoraithe, cruinneas fardail, agus sreabhadh íocaíochta insamhlaithe.",
+          "lens": "Is mó ná scáileán íocaíochta é clár airgid. Teastaíonn teorainneacha soiléire ó róil, athruithe stoic, agus stádais íocaíochta chun sreabhadh oibre freagrach a choinneáil."
+        },
+        "grocery_app": {
+          "summary": "Feidhmchlár .NET 9 Blazor le teorainneacha rialtóra, seirbhíse, agus stórais, buanseasmhacht Entity Framework Core, agus sraith tástála cuimsitheach.",
+          "lens": "Tuilleann scaradh a áit nuair is féidir rialacha gnó a thástáil go neamhspleách ón gcomhéadan agus ón gciseal buanseasmhachta."
+        },
+        "payrollobol": {
+          "summary": "Buailtear le próiseáil pá GnuCOBOL mórleabhar iontrála dúbailte SQLite agus deais oibríochta Svelte.",
+          "lens": "Tosaíonn cruinneas airgeadais le hionadaíocht: déanann uimhríocht iomlán sant agus iontrálacha cothromaithe gluaiseacht airgid follasach."
+        },
+        "interop": {
+          "summary": "Tagairt tras-teanga a chuimsíonn 15 teanga ríomhchláraithe agus 18 patrún feidhmithe, ag fiosrú cad a tharlaíonn ag teorainneacha an ama rite.",
+          "lens": "Is é an chuid dheacair an conradh idir amanna rite: tá malartú sonraí, iompar próisis, agus feidhmiú in-athúsáidte níos tábhachtaí ná comhréir."
+        },
+        "formatter": {
+          "summary": "Inneall parsála Go fíor tiomsaithe go WebAssembly. Ritheann bailíochtú agus formáidiú JSON agus YAML go háitiúil sa bhrabhsálaí.",
+          "lens": "Malartaíonn an parsálaí a aistriú go dtí an brabhsálaí ualach níos mó cliaint ar phróiseáil áitiúil, iniomparthacht, agus níos lú spleáchais ar an bhfreastalaí."
+        },
+        "portfolio_website": {
+          "summary": "An suíomh a bhfuil tú ann: punann React le 100+ teanga, idirghníomhaíochtaí inrochtana, agus uirlisí WebAssembly ag obair.",
+          "lens": "Ní gá go gciallaíonn imscaradh statach eispéireas statach. Is féidir le hidirghníomhaíochtaí saibhre maireachtáil ar an gcliant gan freastalaí feidhmchláir."
+        },
+        "biblioteca": {
+          "summary": "Píblíne logánaithe Python a thiontaíonn foinse amháin ábhair struchtúrtha ina phunann atá ar fáil i 100+ teanga.",
+          "lens": "Is fadhb chothabhála sonraí an rochtain dhomhanda chomh maith le fadhb aistriúcháin. Coinníonn foinse amháin fírinne athruithe ábhair inbhainistithe."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Scileanna Teicniúla",
       "header1": "Teangacha Cláir",
       "header2": "Creataí & Leabharlanna",
-      "header3": "Uirlisí & Teicneolaíochtaí"
+      "header3": "Uirlisí & Teicneolaíochtaí",
+      "technologies": "teicneolaíochtaí",
+      "search_label": "Scag",
+      "search_placeholder": "Scag scileanna…",
+      "clear_search": "Glan an scagaire",
+      "no_matches": "Níl aon scil ag meaitseáil do scagaire.",
+      "works": "Saothair",
+      "experience": "Taithí",
+      "professional": "Gairmiúil",
+      "education": "Oideachas",
+      "paired_with": "Go minic péireáilte le",
+      "summary_professional": "Úsáidtear go gairmiúil ag {items}.",
+      "summary_education": "Staidéar agus feidhmiú ag {items}.",
+      "summary_projects": "Feidhmiú praiticiúil in {items}.",
+      "summary_projects_also": "Feidhmiú freisin in {items}.",
+      "and_more": "níos mó",
+      "scroll_more": "Scrollaigh le haghaidh níos mó saothar",
+      "show_less": "Taispeáin níos lú",
+      "no_samples": "Cuid de mo threalamh oibre. Tá lúcháir orm míniú a thabhairt ar conas a d'úsáid mé é."
     },
     "services": {
       "title": "Mo Sheirbhísí",
@@ -112,6 +247,13 @@
           "text": "Tógaim leis na réaltachtaí tar éis an tseolta i bhfianaise: rúin a choinnítear as rialú foinse, conairí follasacha ascnaimh bunachar sonraí, údarú bunaithe ar ról, bailíochtú ag teorainneacha córais, tástálacha uathoibrithe, feasacht CI/CD, agus inbhraiteadh praiticiúil. Is iad seo na sonraí a dhéanann bogearraí iontaofa ar fhréamhshamhail."
         }
       ]
+    },
+    "certifications": {
+      "title": "Ceadúnais agus deimhnithe",
+      "credential": "Deimhniú",
+      "issued_by": "Eisithe ag",
+      "issued": "Dáta eisiúna",
+      "verify": "Deimhnigh an deimhniú"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Ceangail Ceathair",
-        "text": "Teaghlach ollmhór de níos mó ná 50+ cur i bhfeidhm an chluiche Connect Four. Áirítear leis an tionscadal seo feidhmiúcháin i níos mó ná 30 teanga ríomhchlárúcháin éagsúla, lena n-áirítear Java, C++, Python, JavaScript, agus go leor eile. Ina theannta sin, cuimsíonn sé níos mó ná 20+ creat éagsúil nó formáidí eile, lena n-áirítear React.js, Ruby on Rails, ASP.NET, agus níos mó.",
+        "text": "Teaghlach ollmhór de 90+ chur i bhfeidhm ar an gcluiche Ceithre as a chéile. Cuimsíonn an tionscadal 30+ teanga ríomhchláraithe, lena n-áirítear Java, C++, Python, agus JavaScript, chomh maith le 50+ creat, leabharlann, am rite, agus bunachar sonraí éagsúla, ó React, Angular, agus Blazor go Django, Spring Boot, Phoenix, PostgreSQL, agus níos faide.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PárollaOBOL",
-        "text": "Córas próiseála párolla áitiúil a tógadh le GnuCOBOL, mórleabhar iontrála dúbailte SQLite, agus painéal oibríochtaí Svelte. Úsáideann sé mata slánuimhir, próiseáil párolla baisc, agus painéal lúb siar chun sreafaí oibre airgeadais a dhéanamh soiléir, intástáilte agus cuntasach go hoibríochtúil.",
+        "title": "PayrollOBOL",
+        "text": "Córas próiseála pá áitiúil a tógadh le GnuCOBOL, mórleabhar iontrála dúbailte SQLite, agus deais oibríochta Svelte. Úsáideann sé uimhríocht iomlán sant, próiseáil pá baisce, agus deais lúbtharraingthe chun sreafaí airgeadais a dhéanamh follasach, inthástáilte, agus cuntasach go hoibríochtúil.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "Mod le haghaidh minecraft SupremeMC",
-        "text": "Mod Minecraft a chuireann uirlisí saincheaptha, armúr, mobs, bloic, toisí, agus go leor gnéithe eile leis an gcluiche. Tógtha go príomha le Java agus Kotlin, le tacaíocht a chuimsíonn leaganacha Minecraft 1.16 go 26.2.",
+        "text": "Mod Minecraft a chuireann uirlisí, armúr, mobs, bloic, toisí, agus go leor gnéithe saincheaptha eile leis an gcluiche. Tógtha go príomha le Java agus Kotlin, ag tacú le leaganacha Minecraft 1.16 go 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Cluiche Snake",
-        "text": "Inneall Snake snasta tógtha le Rust agus Macroquad, tiomsaithe do WebAssembly, agus rindreáilte trí Chanbhás HTML5. Comhcheanglaíonn sé sceartáin chinntitheacha cluiche 0.12 soicind le gluaiseacht idirshuite mín, céimeanna soiléire cluiche, rialuithe sofhreagracha, láimhseáil imbhuailte agus bua-staid, agus tástáil dhírithe suite a chlúdaíonn na rialacha lárnacha cluiche.",
+        "title": "Cluiche na nathrach",
+        "text": "Inneall Nathrach snasta a tógadh le Rust agus Macroquad, a tiomsaíodh go WebAssembly, agus a rindreáladh trí Canvas HTML5. Comhcheanglaíonn sé ticeanna cluiche cinntitheacha 0.12 soicind le gluaiseacht idirshuite réidh, céimeanna cluiche soiléire, rialtú freagrúil, láimhseáil imbhuailte agus stádas buaite, agus sraith tástála fhócasaithe a chuimsíonn bunrialacha an chluiche.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Tionscadal meaisín Turing",
         "text": "Teaghlach de níos mó ná 30+ feidhmiú an Turing Machine. Úsáidtear é chun iomláine turgnaimh a léiriú do theangacha ríomhchlárúcháin éagsúla le haghaidh taighde, go háirithe do Theanga Ríomhchláraithe an Tíogair.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Saotharlann cheimice púdar-ghaineamh a tógadh i Rust agus a tiomsaíodh go WebAssembly. Péinteáil gaineamh, uisce, laibhe, cruach, carbíd chailciam, nó píosa sóidiam agus féach ar fhisic agus cheimic ag troid: pléascann sóidiam in uisce, scaoileann carbíd chailciam aicéitiléin, leánn laibhe gaineamh isteach i ngloine, agus scarann dlús amháin ola, mearcair, agus gaineamh. Ritheann an t-inneall 32 ábhar agus 40 riail imoibrithe fhógraitheach thar mhaolán cille comhréidh, ag rindreáil picteilíní go díreach ó chuimhne líneach wasm gan cóipeanna in aghaidh an fhráma.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Roghnaigh Inneall:",
     "tiger_code": "Cód Tíogair:",
     "run_tiger": "Rith Tíogair",
-    "output": "Aschur:"
+    "output": "Aschur:",
+    "stop": "Stop",
+    "program_input": "Ionchur an chláir"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Gan tacaíocht teanga"
     }
   },
-  "logotext": "PÁDRAIG"
+  "logotext": "PÁDRAIG",
+  "repo_button": {
+    "label": "Féach ar an gcód foinseach ar GitHub"
+  }
 }

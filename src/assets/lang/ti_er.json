@@ -4,21 +4,29 @@
     "home": "ገዛ",
     "about": "ብዛዕባይ",
     "portfolio": "ፖርትፎሊዮ",
-    "projects": "ፕሮጀክትታት መርበብ ሓበሬታ",
-    "tiger": "ቋንቋ ትግራዋይ",
+    "projects": "ኣጻሚርካ ፕሮጀክታት",
+    "tiger": "Tiger - ፍሉይ ፕሮግራሚንግ ቋንቋ",
     "snake": "ጸወታ ተመን",
     "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
-    "formatter": "JSON & YAML ፎርማተር",
+    "formatter": "JSON & YAML መርገጺ",
     "contact": "ርኸቡኒ",
-    "home_description": "sys.root // ቀንዲ ሓፈሻዊ ትሕዝቶ",
-    "about_description": "መሃንድስ ፕሮፋይል // bio & stack",
-    "portfolio_description": "ሶፍትዌር ካታሎግ // ፍሉይ ስራሓት",
-    "projects_description": "መስተጋብራዊ መሳርሒታት & ኣከባበርቲ",
-    "tiger_description": "ብሕታዊ ኣከባቢርካ & AST ቪዥዋላይዘር",
-    "snake_description": "ክላሲካል ኣርኬድ ጸወታ / WASM",
-    "portfolio_translator_description": "100+ ቋንቋ ማትሪክስ & i18n",
-    "formatter_description": "ስነ-ቓል ምጽዳቕ & ቀያሪ",
-    "contact_description": "ክፉት ምትሕልላፍ // ርክብ ምግባር"
+    "home_description": "sys.root // ቀንዲ ጽማቝ",
+    "about_description": "መሃንድስ ፕሮፋይል // ባዮ ን ቴክኖሎጂ",
+    "portfolio_description": "ሶፍትዌር ካታሎግ // ኣጻሚርካ ስራሓት",
+    "projects_description": "ተንቀሳቓሲ መሳርሕታት ን ኮምፓይለር",
+    "tiger_description": "ፍሉይ ኮምፓይለር ን AST ርእይቶ",
+    "snake_description": "ቀደማዊ ኣርከድ ጸወታ / WASM",
+    "portfolio_translator_description": "100+ ቋንቋ ማትሪክስ ን i18n",
+    "formatter_description": "ሲንታክስ መርገጺ ን ከውላዊ",
+    "contact_description": "ክፉት ምልኣኽ // ተዋጻአኒ",
+    "arcade": "ኣርከድ",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "ምላስ ኣግራብ ኣርባዕተ ብሰልፊ",
+    "alkalab_description": "ኬሚስትሪ ላቦራቶሪ ሲሙሌሽን / WASM",
+    "rustcraft_description": "ቪክስል ጸወታ ኣገባብ Minecraft / Rust ን wgpu",
+    "suprememc_description": "Minecraft ሞድ ርእይቶ / Java"
   },
   "home": {
     "title": "ላዕለዋይ ሙሉእ-ስታክ መሃንድስ | ፍርያትን ስርዓታትን",
@@ -35,17 +43,126 @@
     "contact_button": "ርኸቡኒ",
     "about_button": "ብዛዕባይ",
     "featured": {
-      "kicker": "ፍሉያት ፕሮጀክትታት",
-      "title": "ዝተመርጸ ስራሕ",
-      "description": "ሽዱሽተ ፕሮጀክትታት ከመይ ጌረ ንዓቢ ዕላማ ዘለዎም ሓሳባት ናብ ንጹህን ዝሰርሕን ሶፍትዌር ከም ዝቕይሮም ዝውክሉ።",
+      "kicker": "ኣጻሚርካ ፕሮጀክታት",
+      "title": "ኣጻሚርካ ስራሓት",
+      "description": "ኣብላጽ ሰብ ሃይለኛ ሓሳባት ናብ ጽሩይ ን ሰራሕ ሶፍትዌር ከም ዝልውጥ ዝሕብሩ ሽዱሽተ ፕሮጀክታት.",
       "view_project": "ፕሮጀክት ርአ",
-      "open_project": "ክፉት ቀጥታዊ ፕሮጀክት",
-      "view_all": "ምሉእ ፖርትፎሊዮ ዳህሰሱ",
+      "open_project": "ብቀጥታ ፕሮጀክት ክፈት",
+      "view_all": "ምሉእ ፖርትፎልዮ ዳህስስ",
       "badges": {
         "saas": "SaaS",
-        "full_website": "ምሉእ መርበብ ሓበሬታ",
-        "available_here": "ኣብዚ ይርከብ።",
-        "minecraft_mod": "ማይንክራፍት ሞድ"
+        "full_website": "ምሉእ ወብሳይት",
+        "available_here": "ኣብዚ ይርከብ",
+        "minecraft_mod": "Minecraft ሞድ"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "ኣብ ስራሕ ካልእ ኣረኣእያ",
+      "invitation": "ኢንጅነሪንግ ኣትላስ ዳህስስ",
+      "kicker": "ምሉእ ፖርትፎልዮ / ተራኺቡ ሓሳብ",
+      "title": "ኢንጅነሪንግ ኣትላስ",
+      "projects": "ፕሮጀክታት",
+      "technologies": "ቴክኖሎጂ",
+      "connections": "ርክባት",
+      "center": "ኢንጅነሪንግ ኣትላስ",
+      "filter_label": "ፕሮጀክት ምድባት",
+      "domains": {
+        "all": "ኩሉ ስራሕ",
+        "products": "ምህርቲ",
+        "systems": "ስርዓታት",
+        "experiences": "ተመክሮታት"
+      },
+      "search": "ፕሮጀክት ወይ ቴክኖሎጂ ድለይ",
+      "view_label": "ኣትላስ ርእይቶ",
+      "map_view": "ካርታ ርእይቶ",
+      "map_navigation": "ፖርትፎልዮ ካርታ ምዝዋር",
+      "zoom_in": "ኣብልጽህ",
+      "zoom_out": "ውሕስ",
+      "zoom_level": "ካርታ ዞም ደረጃ",
+      "fit_all": "ኩሉ ፕሮጀክታት ኣስተኻኽል",
+      "center_selected": "ኣጻማርካ ፕሮጀክት ማእከል ግበር",
+      "all_technologies": "ኩሉ ቴክኖሎጂ",
+      "list_view": "ዝርዝር ርእይቶ",
+      "pause": "ሲግናል ኣኒሜሽን ዓቆም",
+      "resume": "ሲግናል ኣኒሜሽን ቀጽል",
+      "project_selector": "ፕሮጀክታት ዳህስስ",
+      "inspector": "ኣጻማርካ ፕሮጀክት ዝርዝራት",
+      "shared_stack": "ተኻፊሉ ቴክኖሎጂ",
+      "family_connection": "ፕሮጀክት ርክብ",
+      "portfolio_connection": "ፖርትፎልዮ ርክብ",
+      "families": {
+        "portfolio": "ፖርትፎልዮ ማእከል",
+        "business": "ንግዲ መተግበሪ",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly ፕሮጀክታት",
+        "libraries": "ስክሪፕት ቤተ-መጻሕፍቲ",
+        "languages": "ቋንቋ ፈተነታት",
+        "automation": "ኣውቶሜሽን ን ዳታ መሳርሕታት",
+        "experience": "ፕሮፌሽናል ን ትምህርታዊ ተመክሮ"
+      },
+      "browser_native": "ብራውዘር ተወሊዱ / ብዘይ ሰርቨር",
+      "no_results": "ተመሳሳሊ ፕሮጀክታት የለን",
+      "no_selection": "ዝኾነ ፕሮጀክት ኣይተማረጸን.",
+      "reset": "ፊልተርስ ፅረግ",
+      "engineering_lens": "ኢንጅነሪንግ ኣረኣእያ",
+      "connected_work": "ተራኺብ ስራሕ",
+      "open_live": "ብቀጥታ ፕሮጀክት ክፈት",
+      "open_project": "ፕሮጀክት ዳህስስ",
+      "footer": "ፍሉያት ዓውድታት. ሓደ ተራኺብ ኢንጅነሪንግ ልምዲ.",
+      "contact": "እቲ ዝመጽእ ነገር ሓቢርና ንስራሕ",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "ዳታ ፓይፕላይንስ",
+        "angular": "Angular",
+        "access": "ናይ ምእታው ቁጽጽር",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "ፈተና",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "ተሳታፊነት",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "ተደራሽነት",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "ተመሳሳሊ ዘይኮኑ ስፕሬድሺትታት ኣትዉ. ህንጻ ግምትታት ን ደሊ ዓቀባ ዕመትታት ወጽኡ. ኣብ ገበሬ ናይ ግዝኣዊ ስራሕ ፍልጠት ዙሪያ ተሃንጺሩ SaaS ምህርቲ.",
+          "lens": "ተለጣማኒ ኣእትዎታት ጽኑዕ ውሽጣዊ ሞደል የድልዩ: ዝበዝሑ ቅርጻት ምቅባል እቲ ጽዋዕ ዝምርኮሶ ትሕሰብ ሕግታት ኣይቀንሶ."
+        },
+        "inventory_register": {
+          "summary": "ተረጋግጹ ተጠቀምቲ, ሓቀኛ ዝርዝር, ን ቅድመ-ጥበብ ክፍሊት ዘሰናድሕ Angular ን Node.js ምስ ዝኾነ ናይ ሽያጭ ነጥቢ ስራሕ-ፍልጠት.",
+          "lens": "ገንዘብ መዝገብ ካብ ክፍሊት ምርጭጻጸር ዝበዝሕ እዩ. ስራሕ ሓላፍነት ንምዕባይ ሚናታት, ክምባጥሮ መጻኢ, ን ክፍሊት ኩነታት ግልጺ ወሰን የድልዮም."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor መተግበሪ: ቁጽጻር, ኣገልግሎት, ን መዝገብ ወሰናት, Entity Framework Core ምጽናሕ, ን ምሉእ ፈተና ስቱ.",
+          "lens": "ምንጻል ንግዲ ሕግታት ካብ ረብሕ ን ካብ ምጽናሕ መስመር ተኸፋፊላ ክትፈተን ምስ ዝኽእል ነብሱ ቦታ ይረክብ."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL ንጽሕት ምድሃብ SQLite ድርብ-ኣትዎ ዋና መጽሓፍ ን Svelte ስራሕ ዳሽቦርድ ይቃናን.",
+          "lens": "ቁጠባዊ ቅኑዕነት ብኣንጻር ውክልና ይጅምር: ምሉእ-ሳንቲም ኣትሜቲክስ ን ሚዛናዊ ኣትዎታት ናይ ገንዘብ ንቅንቀር ግልጺ ይገብር."
+        },
+        "interop": {
+          "summary": "15 ፕሮግራሚንግ ቋንቋታት ን 18 ናይ ምግባር ሞዴላት ዝሽፍን, ኣብ ራንታይም ወሰን እንታይ ከም ዝኸውን ዝዳህስስ ተሻጋሪ-ቋንቋ ምድላው.",
+          "lens": "ከቢድ ክፋል ራንታይምታት ዝኾነ ውዕል እዩ: ዳታ ምልውዋጥ, ስርዓት ባህሪ, ን ድግም ምግባር ካብ ሲንታክስ ዝገድፍ እዩ."
+        },
+        "formatter": {
+          "summary": "WebAssembly ዝተመስጠረ ሓቂ Go ምትሕትታሕ ኢንጂን. JSON ን YAML ምርግጋጽ ን ምድላው ኣብ ብራውዘር ብሃገራዊ ይሰርሕ.",
+          "lens": "ፓርሰር ናብ ብራውዘር ምንቅስቓስ ዝዓበየ ደላየ-ጾር ምትእትታው ሃገራዊ ምስራሕ, ተጓዓዛነት, ን ዝተወሓደ ሰርቨር ጥገነነት."
+        },
+        "portfolio_website": {
+          "summary": "ዝኾንካ ሳይት: 100+ ቋንቋታት, ተደራሽ ርክባት, ን ዝሰርሑ WebAssembly መሳርሕታት ዘለዎ React ፖርትፎልዮ.",
+          "lens": "ስታቲክ ምስራሕ ስታቲክ ተመክሮ ማለት ኣይኮነን. ሃብታም ርክባት ብዘይ ሰርቨር ኣብ ደላየ ክነብሩ ይኽእሉ."
+        },
+        "biblioteca": {
+          "summary": "ሓደ ቅርጺ ዘለዎ ምንጪ ናብ 100+ ቋንቋታት ዘለዎ ፖርትፎልዮ ዝለውጥ Python ሎካላይዜሽን ፓይፕላይን.",
+          "lens": "ዓለማዊ ምጥራን ከም ትርጉም ጸገም ዝኣክል ዳታ ጥገና ጸገም እዩ. ሓደ ናይ ሓቂ ምንጪ ለውጢ ምልኪ እንታይ ግበር ዝብል."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "ቴክኒካዊ ክእለት።",
       "header1": "ቋንቋታት ፕሮግራሚንግ",
       "header2": "ማዕቀፋትን ቤተ-መጻሕፍትን",
-      "header3": "መሳርሒታትን ቴክኖሎጂታትን"
+      "header3": "መሳርሒታትን ቴክኖሎጂታትን",
+      "technologies": "ቴክኖሎጂ",
+      "search_label": "ፊልተር",
+      "search_placeholder": "ክእለታት ፊልተር…",
+      "clear_search": "ፊልተር ፅረግ",
+      "no_matches": "ምስ ፊልተርኻ ዝሰማማዕ ክእለት የለን.",
+      "works": "ስራሓት",
+      "experience": "ተመክሮ",
+      "professional": "ፕሮፌሽናዊ",
+      "education": "ትምህርቲ",
+      "paired_with": "ብዙሕ ግዜ ምስ",
+      "summary_professional": "ኣብ {items} ብፕሮፌሽናዊነት ተጠቐሙ.",
+      "summary_education": "ኣብ {items} ተመሃሩ ን ተተግበረ.",
+      "summary_projects": "ኣብ {items} ተግባራዊ ተጠቐሙ.",
+      "summary_projects_also": "ኣብ {items} ንድን ተጠቐሙ.",
+      "and_more": "ተወሳኺ",
+      "scroll_more": "ንተወሳኺ ስራሓት ስክሮል ግበር",
+      "show_less": "ዝተወሓደ ኣርኢ",
+      "no_samples": "ናይ ስራሕ መሳርሕታተይ ክፋል. ከመይ ከም ዝተጠቐምኩ ንምብራህ ሕጉስ እየ."
     },
     "services": {
       "title": "ኣገልግሎተይ",
@@ -112,6 +247,13 @@
           "text": "ድሕሪ ምጅማር ንዘሎ ክውንነታት ኣብ ግምት ብምእታው እየ ዝሃንጽ: ካብ ምቁጽጻር ምንጪ ወጻኢ ዝተዓቀቡ ምስጢራት: ግሉጽ መንገድታት ስደት ዳታቤዝ: ተራ መሰረት ዝገበረ ፍቓድ: ኣብ ዶባት ስርዓት ምጽዳቕ: ኣውቶማቲክ መርመራታት፡ ንቕሓት CI/CD፡ ከምኡ’ውን ግብራዊ ትዕዝብቲ። እዚኦም እዮም ንሓደ ፕሮቶታይፕ ናብ ርግጸኛ ሶፍትዌር ዝቕይርዎ ዝርዝራት።"
         }
       ]
+    },
+    "certifications": {
+      "title": "ፈቃድ ን ምስክርነታት",
+      "credential": "ምስክርነት",
+      "issued_by": "ተዋህበ",
+      "issued": "ዝተዋህበ መዓልቲ",
+      "verify": "ምስክርነት ኣረጋግጽ"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "ኣርባዕተ ምትእስሳር",
-        "text": "ልዕሊ 50+ ኣተገባብራታት ናይ ኮነክት ፎር ጸወታ ዝሓዘት ዓባይ ስድራቤት። እዚ ፕሮጀክት እዚ ብልዕሊ 30 ዝተፈላለዩ ቋንቋታት ፕሮግራሚንግ ዝግበር ኣተገባብራታት ዘጠቓልል ኮይኑ፡ ጃቫ፡ ሲ++፡ ፓይቶን፡ ጃቫስክሪፕትን ካልእን ይርከብዎም። ብተወሳኺ ልዕሊ 20+ ዝተፈላለዩ ፍሬምዎርክ ወይ ካልእ ቅርጽታት እውን ዘጠቓልል ኮይኑ፡ React.js, Ruby on Rails, ASP.NET, ከምኡ’ውን ካልእን ይርከብዎም።",
+        "text": "ኣርባዕተ ብሰልፊ ጸወታ 90+ ትግባረናታት ዘለዎ ዓቢ ስድራ. እቲ ፕሮጀክት Java, C++, Python ን JavaScript ጨምሩ 30+ ፕሮግራሚንግ ቋንቋታት ን ካብ React, Angular ን Blazor ክሳብ Django, Spring Boot, Phoenix, PostgreSQL ን ዝቐጽል 50+ መሳርሕታት, ቤተ-መጻሕፍቲ, ራንታይም ን ዳታቤዝ ይሽፍን.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "ክፍሊት ደሞዝOBOL",
-        "text": "ብGnuCOBOL ዝተሃንጸ ናይ ከባቢ ደሞዝ መስርሕ ስርዓት፣ SQLite ድርብ መእተዊ መዝገብን Svelte operations dashboardን። ንፋይናንሳዊ ዋሕዚ ስራሕ ግሉጽ፡ ዝፍተንን ብስርሒት ተሓታቲን ንምግባር ምሉእ ቁጽሪ ሳንቲም ሒሳብ፡ መስርሕ ደሞዝ ዕስለ፡ ከምኡ’ውን ሉፕባክ ዳሽቦርድ ይጥቀም።",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite ድርብ-ኣትዎ ዋና መጽሓፍ, ን Svelte ስራሕ ዳሽቦርድ ምስ ዝኾነ ሃገራዊ ንጽሕት ምድሃብ ስርዓት. ቁጠባዊ ፍልስፍና ፍልስፍና ምሉእ-ሳንቲም ኣትሜቲክስ, ባች ንጽሕት ምድሃብ, ን loopback ዳሽቦርድ ብምጥቃም ገንዘባዊ ጎዓዝ ዝሱዕ, ዝፈተነ, ን ስራሓዊ ሓላፍነት ዘለዎ ይገብር.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "ሱፕሪምኤምሲ ማይንክራፍት ሞድ",
-        "text": "ንጸወታ ብሕታዊ መሳርሒታት፡ ዕጥቂ፡ ዕስለ፡ ብሎክ፡ መለክዒታትን ካልእ ብዙሕ ባህርያትን ዝውስኽ Minecraft Mod። ብቐንዱ ብጃቫን ኮትሊንን ዝተሃንጸ ኮይኑ፡ ካብ ማይንክራፍት ስሪት 1.16 ክሳብ 26.2 ዝሽፍን ደገፍ ኣለዎ።",
+        "text": "ፍሉያት መሳርሕታት, ትጥቅ, ሞብስ, ብሎክስ, ምእመናት ን ካልኦት ብዙሓት ባህርያት ናብ ጸወታ ዝውስኽ Minecraft ሞድ. ብዓቢኡ Java ን Kotlin ዝተሃንጸ, Minecraft 1.16 ክሳብ 26.2 ድጎማ ይገብር.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "ጸወታ ተመን",
-        "text": "ብ Rustን Macroquadን ዝተሃንጸ ንጹህ Snake ሞተር፡ ናብ WebAssembly ዝተጠርነፈ፡ ብመንገዲ HTML5 Canvas ድማ ምቕራብ። ንሱ ውሳኒ 0.12 ካልኢት ጸወታ ቲክስ ምስ ስሉጥ ምትእትታው ምንቅስቓስ፡ ግሉጽ ምዕራፋት ጸወታ፡ ምላሽ ዝህብ ቁጽጽር፡ ምግጫውን ዓወት-ሃለዋትን ኣተሓሕዛ፡ ከምኡ’ውን ትኹረት ዝገበረ ፈተና የወሃህድ suite ንቐንዲ ሕግታት ጸወታ ዝሽፍን እዩ።",
+        "text": "ብ Rust ን Macroquad ተሃንጺሩ, ናብ WebAssembly ተመስጥረ, ብ HTML5 Canvas ኣቢሉ ዝጸንሐ ጽሩይ ተመን ኢንጂን. 0.12-ሰከንድ ቆራጺ ጸወታ ቲክታት ምስ ለይቲ ኢንተርፖላይትድ ንቅንቀር, ግልጺ ጸወታ ደረጃታት, ምላሽ ህልኽ, ግጭት ን ዓወት-ኩነት ምድላው, ን ቀንዲ ጸወታ ሕግታት ዝሽፍን ተኸራማሚ ፈተና ስቱ ምስ ዝሓዘ እዩ.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "ፕሮጀክት ማሽን ቱሪንግ",
         "text": "ስድራቤት ልዕሊ 30+ ኣተገባብራታት ናይ ቱሪንግ ማሽን። ንመጽናዕቲ ንዝተፈላለዩ ቋንቋታት ፕሮግራሚንግ ብፍላይ ድማ ንቋንቋ ፕሮግራሚንግ ነብሪ ምሉእነት ቱሪንግ ንምግላጽ ዝውዕል።",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "ብ Rust ተሃንጺሩ ናብ WebAssembly ዝተመስጠረ ምሉእ-ሑጻ ኬሚስትሪ ላቦራቶሪ. ሑጻ, ማይ, ላቫ, ሓጺን, ካልስዩም ካርባይድ, ወይ ናትሪየም ቆርጠራ ቀብዕ ን ፊዚክስ ን ኬሚስትሪ ከመይ ከም ዝቃለሳ ርአ: ናትሪየም ኣብ ማይ ይፍነው, ካልስዩም ካርባይድ ኣስቲሊን ይልቕቕ, ላቫ ሑጻ ናብ ብርጭቆ ይሕዝ, ግጥምነት ጥራይ ዝተኸን, ሜርኩሪ ን ሑጻ ይፈልይ. ኢንጂን ኣብ ጽፍሒ ሴል ባፈር 32 ሓሩም ን 40 መግለጺ ተግባር ሕግታት ይሰርሕ, ኣብ ነፍሲ ወከፍ ፍሬም ብዘይ ቅዳሕ ካብ wasm ሊኒየር መዘክር ፒክስል ብቀጥታ ይስእል.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "ሞተር ምረጽ፤",
     "tiger_code": "ትግራዋይ ኮድ:",
     "run_tiger": "ሩን ትግራዋይ",
-    "output": "ውጽኢት፤"
+    "output": "ውጽኢት፤",
+    "stop": "ዓቆም",
+    "program_input": "ፕሮግራም ኣእትዎ"
   },
   "tab": {
     "title": "ፓትሪክ ጉድዊን ዝበሃሉ ምሁራት ምዃኖም ይፍለጥ",
@@ -367,5 +516,8 @@
       "no_language_support": "ናይ ቋንቋ ደገፍ የለን"
     }
   },
-  "logotext": "ፓትሪክ"
+  "logotext": "ፓትሪክ",
+  "repo_button": {
+    "label": "ኣብ GitHub ምንጪ ኮድ ርአ"
+  }
 }

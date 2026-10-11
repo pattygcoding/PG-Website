@@ -4,21 +4,29 @@
     "home": "Gida",
     "about": "Akai na",
     "portfolio": "Fayil",
-    "projects": "Ayyukan Yanar Gizo",
-    "tiger": "Harshen Tiger",
-    "snake": "Wasan Maciji",
+    "projects": "Ayyuka da aka bayar da muhimmanci",
+    "tiger": "Tiger - Harshen Shirye-shirye na Musamman",
+    "snake": "Wasan maciji",
     "portfolio_translator": "Mai Fassarar Fayil",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Mai duba JSON & YAML",
     "contact": "Tuntube Ni",
-    "home_description": "sys.root // babban dubawa",
-    "about_description": "profile engineer // bio & stack",
-    "portfolio_description": "catalog software // ayyukan da aka nuna",
-    "projects_description": "m kayan aikin & compilers",
-    "tiger_description": "custom compiler & AST visualizer",
-    "snake_description": "classic Arcade game / WASM",
-    "portfolio_translator_description": "100+ harshe matrix & i18n",
-    "formatter_description": "syntax validator & Converter",
-    "contact_description": "bude watsa // a tuntube"
+    "home_description": "sys.root // babban bayani",
+    "about_description": "bayanin injiniya // bio da technology",
+    "portfolio_description": "kundin software // ayyuka da aka bayar da muhimmanci",
+    "projects_description": "kayan aiki masu mu'amala da masu tattarawa",
+    "tiger_description": "tattara na musamman da AST mai gani",
+    "snake_description": "wasan arkade na gargajiya / WASM",
+    "portfolio_translator_description": "matrix na harsuna 100+ da i18n",
+    "formatter_description": "mai tabbatarwa da mai canza syntax",
+    "contact_description": "aika a buɗe // tuntuɓi ni",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Bishiyar harshe na Hudu a Jere",
+    "alkalab_description": "kwaikwayon dakin gwaje-gwajen sinadarai / WASM",
+    "rustcraft_description": "wasan voxel irin na Minecraft / Rust da wgpu",
+    "suprememc_description": "nunin mod na Minecraft / Java"
   },
   "home": {
     "title": "Babban Injiniya Cikakkun Tari | Samfura & Tsarin",
@@ -35,17 +43,126 @@
     "contact_button": "Tuntube Ni",
     "about_button": "Akai na",
     "featured": {
-      "kicker": "Fitattun Ayyuka",
-      "title": "Zaɓaɓɓen Aiki",
-      "description": "Ayyuka shida waɗanda ke wakiltar mafi kyawun yadda na juya ra'ayoyi masu ban sha'awa zuwa gogewa, software mai aiki.",
-      "view_project": "Duba Project",
-      "open_project": "Buɗe Ayyukan Live",
-      "view_all": "Bincika cikakken fayil ɗin",
+      "kicker": "Ayyuka da aka bayar da muhimmanci",
+      "title": "Ayyukan da aka zaɓa",
+      "description": "Ayyuka shida waɗanda suka fi wakiltar yadda nake juyar da ra'ayoyi masu buri zuwa software mai kyau da aiki.",
+      "view_project": "Duba aikin",
+      "open_project": "Buɗe aiki kai tsaye",
+      "view_all": "Bincika cikakken portfolio",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Cikakken Yanar Gizo",
-        "available_here": "Akwai Anan",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Cikakken gidan yanar gizo",
+        "available_here": "Ana samunsa a nan",
+        "minecraft_mod": "Mod na Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Wani hangen nesa akan aikin",
+      "invitation": "Bincika atlas na injiniyanci",
+      "kicker": "Cikakken portfolio / tunani mai haɗin kai",
+      "title": "Atlas na Injiniyanci",
+      "projects": "Ayyuka",
+      "technologies": "Fasaha",
+      "connections": "Haɗin kai",
+      "center": "Atlas na injiniyanci",
+      "filter_label": "Rukunonin ayyuka",
+      "domains": {
+        "all": "Duk aiki",
+        "products": "Samfura",
+        "systems": "Tsarukan",
+        "experiences": "Gogewa"
+      },
+      "search": "Nemo aiki ko fasaha",
+      "view_label": "Kallon atlas",
+      "map_view": "Kallon taswira",
+      "map_navigation": "Kewaya taswirar portfolio",
+      "zoom_in": "Ƙara girma",
+      "zoom_out": "Rage girma",
+      "zoom_level": "Matakin zurfin taswira",
+      "fit_all": "Daidaita duk ayyuka",
+      "center_selected": "Sanya zaɓaɓɓen aiki a tsakiya",
+      "all_technologies": "Duk fasaha",
+      "list_view": "Kallon jeri",
+      "pause": "Dakatar da motsin sigina",
+      "resume": "Ci gaba da motsin sigina",
+      "project_selector": "Bincika ayyuka",
+      "inspector": "Bayani na zaɓaɓɓen aiki",
+      "shared_stack": "Fasahar da aka raba",
+      "family_connection": "Haɗin aiki",
+      "portfolio_connection": "Haɗin portfolio",
+      "families": {
+        "portfolio": "Cibiyar portfolio",
+        "business": "Aikace-aikacen kasuwanci",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Ayyukan WebAssembly",
+        "libraries": "Littattafan rubutu",
+        "languages": "Gwajin harshe",
+        "automation": "Kayan aikin sarrafa kai da bayanai",
+        "experience": "Gogewar ƙwararru da ilimi"
+      },
+      "browser_native": "Na asali na burauza / ba tare da uwar garken ba",
+      "no_results": "Babu ayyukan da suka dace",
+      "no_selection": "Babu aikin da aka zaɓa.",
+      "reset": "Share masu tacewa",
+      "engineering_lens": "Hangen nesa na injiniyanci",
+      "connected_work": "Aiki mai haɗin kai",
+      "open_live": "Buɗe aiki kai tsaye",
+      "open_project": "Bincika aikin",
+      "footer": "Fannoni daban-daban. Ɗaya daga aikin injiniyanci mai haɗin kai.",
+      "contact": "Mu gina abin da ke zuwa",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Bututun bayanai",
+        "angular": "Angular",
+        "access": "Sarrafa shiga",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Gwaji",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Haɗin kai aiki",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Samun dama",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Takardun rubutu marasa daidaituwa a ciki. Ƙididdigar gini da shawarwari masu shirye don abokin ciniki a waje. Samfurin SaaS da aka gina kewaye da ainihin tsarin aiki na ɗan kwangila.",
+          "lens": "Shigowa masu sassauƙa suna buƙatar samfurin ciki mai ƙarfi: karɓar ƙarin fomats bai kamata ya raunana ƙa'idodin lissafin da wani tayi ya dogara kan ba."
+        },
+        "inventory_register": {
+          "summary": "Tsarin aiki na wurin siyarwa tare da Angular da Node.js wanda ya haɗa masu amfani da aka tantance, daidaiton kaya, da kuma tsarin biyan kuɗi na kwaikwayo.",
+          "lens": "Rejista fiye da allon biyan kuɗi ce. Matsayi, canje-canjen kaya, da yanayin biyan kuɗi na buƙatar iyakoki a bayyane don tsarin aiki ya kasance mai alhaki."
+        },
+        "grocery_app": {
+          "summary": "Aikace-aikacen .NET 9 Blazor tare da iyakokin mai sarrafawa, sabis, da ma'ajiya, dorewar Entity Framework Core, da cikakken saitin gwaji.",
+          "lens": "Rarrabuwa tana samun wurinta lokacin da za a iya gwada ƙa'idodin kasuwanci ba tare da la'akari da mu'amala da Layer na dorewa ba."
+        },
+        "payrollobol": {
+          "summary": "Aikin albashi na GnuCOBOL ya haɗu da babban littafin shigarwa biyu na SQLite da kuma dashboard na aiki na Svelte.",
+          "lens": "Daidaiton kuɗi yana farawa da wakilci: lissafin cikakken santi da rikodin masu daidaitawa suna bayyana motsin kuɗi."
+        },
+        "interop": {
+          "summary": "Bayani tsakanin harsuna wanda ya ƙunshi harsuna 15 na shirye-shirye da tsarin aiwatarwa 18, yana bincika abin da ke faruwa a iyakokin lokacin aiki.",
+          "lens": "Bangaren da ke da wahala shine kwangilar da ke tsakanin lokutan aiki: musayar bayanai, halayen tsari, da aiwatarwa mai maimaituwa sun fi muhimmanci fiye da syntax."
+        },
+        "formatter": {
+          "summary": "Injin bincike na Go na gaske wanda aka haɗa zuwa WebAssembly. Tabbatarwa da tsara JSON da YAML na aiki a cikin burauza.",
+          "lens": "Ƙaura mai bincike zuwa burauza yana musayar babban nauyin abokin ciniki don sarrafa na gida, tsari, da ƙarancin dogaro da uwar garken."
+        },
+        "portfolio_website": {
+          "summary": "Shafin da kake ciki: portfolio na React mai harsuna 100+, mu'amala mai dama, da kayan aikin WebAssembly masu aiki.",
+          "lens": "Aiwatarwa na tsaye ba ya nufin ƙwarewar tsaye ba. Ƙwararriyar mu'amala na iya rayuwa a ɓangaren abokin ciniki ba tare da uwar garken aikace-aikace ba."
+        },
+        "biblioteca": {
+          "summary": "Bututun yarewa na Python wanda ke canza tushen abun ciki guda ɗaya zuwa portfolio da aka samu cikin harsuna 100+.",
+          "lens": "Isar da duniya matsala ce ta kiyaye bayanai kamar yadda take da fassara. Tushen gaskiya ɗaya yana sa canje-canjen abun ciki a sarrafa."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Ƙwarewar Fasaha",
       "header1": "Harsunan Shirye-shiryen",
       "header2": "Tsarin Mulki & Dakunan karatu",
-      "header3": "Kayan aiki & Fasaha"
+      "header3": "Kayan aiki & Fasaha",
+      "technologies": "fasaha",
+      "search_label": "Tacewa",
+      "search_placeholder": "Tace ƙwarewa…",
+      "clear_search": "Share mai tacewa",
+      "no_matches": "Babu ƙwarewar da ta dace da mai tacewa naka.",
+      "works": "Ayyuka",
+      "experience": "Gogewa",
+      "professional": "Ƙwararre",
+      "education": "Ilimi",
+      "paired_with": "Yawanci yana haɗuwa da",
+      "summary_professional": "An yi amfani dashi a ƙware a {items}.",
+      "summary_education": "An koya da kuma yi amfani da shi a {items}.",
+      "summary_projects": "An yi amfani da shi a zahiri a {items}.",
+      "summary_projects_also": "Hakanan an yi amfani da shi a {items}.",
+      "and_more": "ƙari",
+      "scroll_more": "Gungura don ƙarin ayyuka",
+      "show_less": "Nuna kaɗan",
+      "no_samples": "Bangare na kayan aiki na. Na yi farin cikin bayyana yadda na yi amfani da shi."
     },
     "services": {
       "title": "Ayyukana",
@@ -112,6 +247,13 @@
           "text": "Ina ginawa tare da gaskiyar bayan ƙaddamar da ra'ayi: sirrin da aka kiyaye su daga sarrafa tushe, ƙayyadaddun hanyoyin ƙaura na bayanai, izini na tushen rawar, inganci a iyakokin tsarin, gwaje-gwaje na atomatik, wayar da kan jama'a ta CI/CD, da kuma lura da aiki. Waɗannan su ne cikakkun bayanai waɗanda ke juya samfuri zuwa software mai dogaro."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lasisi da takaddun shaida",
+      "credential": "Takardar shaida",
+      "issued_by": "An bayar da",
+      "issued": "Kwanan bayarwa",
+      "verify": "Tabbatar da takardar shaida"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Haɗa Huɗu",
-        "text": "Babban dangi na aiwatar da fiye da 50+ na wasan Connect Four. Wannan aikin ya ƙunshi aiwatarwa a cikin harsunan shirye-shirye sama da 30, gami da Java, C++, Python, JavaScript, da ƙari. Bugu da ƙari, ya haɗa da fiye da 20+ tsari daban-daban ko wasu tsari, gami da React.js, Ruby on Rails, ASP.NET, da ƙari.",
+        "text": "Ɗangila mai girma na 90+ aiwatarwa na wasan Hudu a Jere. Aikin ya ƙunshi harsuna 30+ na shirye-shirye, gami da Java, C++, Python, da JavaScript, tare da frameworks, littattafai, lokutan aiki, da bayanai 50+ daban-daban, daga React, Angular, da Blazor zuwa Django, Spring Boot, Phoenix, PostgreSQL, da ƙari.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Farashin OBOL",
-        "text": "Tsarin sarrafa biyan albashi na gida wanda aka gina tare da GnuCOBOL, SQLite ledar shigarwa sau biyu, da dashboard ayyuka na Svelte. Yana amfani da lissafin lamba-cent, sarrafa tsarin biyan albashi, da dashboard ɗin madauki don sanya tafiyar da ayyukan kuɗi a bayyane, abin iya gwadawa, da kuma aiwatar da lissafi.",
+        "title": "PayrollOBOL",
+        "text": "Tsarin sarrafa albashi na gida wanda aka gina tare da GnuCOBOL, babban littafin shigarwa biyu na SQLite, da dashboard na aiki na Svelte. Yana amfani da lissafin cikakken santi, sarrafa albashi na batch, da dashboard loopback don sa tsarin kuɗi ya kasance a bayyane, gwadabbe, da alhaki na aiki.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Mod ɗin Minecraft wanda ke ƙara kayan aikin al'ada, sulke, ƙungiyoyin jama'a, tubalan, girma, da ƙari masu yawa ga wasan. An gina shi da farko tare da Java da Kotlin, tare da goyan bayan nau'ikan Minecraft 1.16 zuwa 26.2.",
+        "text": "Mod na Minecraft wanda ke ƙara kayan aiki na musamman, sulke, mobs, blocks, girma, da sauran ayyuka da yawa a wasan. An gina shi da farko tare da Java da Kotlin, yana tallafawa nau'ikan Minecraft 1.16 zuwa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Wasan Maciji",
-        "text": "Injin maciji mai gogewa wanda aka gina tare da Tsatsa da Macroquad, an haɗa shi zuwa WebAssembly, kuma an yi shi ta hanyar HTML5 Canvas. Yana haɗa ƙayyadaddun tikitin wasa na 0.12 na biyu tare da motsi mai santsi, ƙayyadaddun matakan wasan, sarrafawar amsawa, karo da sarrafa nasara-jihar, da gwajin mayar da hankali suite da ke rufe ainihin dokokin wasan.",
+        "title": "Wasan maciji",
+        "text": "Injin Maciji mai kyau wanda aka gina tare da Rust da Macroquad, haɗe zuwa WebAssembly, kuma ana nuna shi ta hanyar HTML5 Canvas. Yana haɗa ticking na wasa na 0.12-seconds da motsi mai santsi, bayyanannun matakan wasa, sarrafawa mai sauri, sarrafa karo da yanayin nasara, da kuma cikakken saitin gwaji wanda ya rufe tsarin wasan na asali.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Aikin Turing Machine",
         "text": "Iyalin sama da 30+ aiwatar da Injin Turing. An yi amfani da shi don nuna cikar turing don harsunan shirye-shirye daban-daban don bincike, musamman don Harshen Shirye-shiryen Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Dakin sinadarai na foda-yashi wanda aka gina a Rust kuma aka haɗa shi zuwa WebAssembly. Fentin yashi, ruwa, lava, baƙin ƙarfe, calcium carbide, ko guntun sodium kuma ka kalli yadda physics da chemistry ke faɗa: sodium yana fashewa a ruwa, calcium carbide yana fitar da acetylene, lava yana narkar da yashi ya zama gilashi, kuma ƙarfin nauyi kaɗai ke raba mai, mercury, da yashi. Injin yana gudanar da kayan 32 da ƙa'idodin amsawa 40 akan buffer cell, yana haskaka pixels kai tsaye daga ƙwaƙwalwar wasm ba tare da kwafi a kowane frame ba.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Zaɓi Injin:",
     "tiger_code": "Lambar Tiger:",
     "run_tiger": "Run Tiger",
-    "output": "Fitowa:"
+    "output": "Fitowa:",
+    "stop": "Dakatarwa",
+    "program_input": "Shigar da shirin"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Babu tallafin harshe"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Duba lambar asali akan GitHub"
+  }
 }

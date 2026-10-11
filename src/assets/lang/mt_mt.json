@@ -4,21 +4,29 @@
     "home": "Dar",
     "about": "Dwari",
     "portfolio": "Portafoll",
-    "projects": "Proġetti tal-Websajt",
-    "tiger": "Lingwa Tiger",
-    "snake": "Logħba tas-Serp",
+    "projects": "Proġetti magħżula",
+    "tiger": "Tiger - Lingwa ta' Programmar Personalizzata",
+    "snake": "Logħba tas-serp",
     "portfolio_translator": "Traduttur tal-portafoll",
-    "formatter": "Formatter JSON & YAML",
+    "formatter": "Verifikatur JSON & YAML",
     "contact": "Ikkuntattjani",
     "home_description": "sys.root // ħarsa ġenerali prinċipali",
-    "about_description": "profil inġinier // bio & munzell",
-    "portfolio_description": "katalgu tas-softwer // dehru xogħlijiet",
+    "about_description": "profil tal-inġinier // bijo u teknoloġiji",
+    "portfolio_description": "katalgu tas-softwer // xogħlijiet magħżula",
     "projects_description": "għodod interattivi u kompilaturi",
-    "tiger_description": "kompilatur tad-dwana & viżwalizzatur AST",
-    "snake_description": "logħba arcade klassika / WASM",
-    "portfolio_translator_description": "100+ matriċi tal-lingwa & i18n",
+    "tiger_description": "kompilatur personalizzat u viżwalizzatur AST",
+    "snake_description": "logħba arkade klassika / WASM",
+    "portfolio_translator_description": "matriċi ta' 100+ lingwa u i18n",
     "formatter_description": "validatur u konvertitur tas-sintassi",
-    "contact_description": "trasmissjoni miftuħa // tagħmel kuntatt"
+    "contact_description": "trasmissjoni miftuħa // ikkuntattjani",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Siġra tal-lingwi Erbgħa fir-ringiela",
+    "alkalab_description": "simulazzjoni ta' laboratorju tal-kimika / WASM",
+    "rustcraft_description": "logħba voxel stil Minecraft / Rust u wgpu",
+    "suprememc_description": "wirja tal-mod Minecraft / Java"
   },
   "home": {
     "title": "Inġinier Anzjan Full-Stack | Prodott u Sistemi",
@@ -35,17 +43,126 @@
     "contact_button": "Ikkuntattjani",
     "about_button": "Dwari",
     "featured": {
-      "kicker": "Proġetti Dehru",
-      "title": "Xogħol Magħżul",
-      "description": "Sitt proġetti li jirrappreżentaw l-aħjar kif inbiddel ideat ambizzjużi f’software illustrat u li jaħdem.",
-      "view_project": "Ara Proġett",
-      "open_project": "Miftuħ Proġett Ħaj",
+      "kicker": "Proġetti magħżula",
+      "title": "Xogħlijiet magħżula",
+      "description": "Sitt proġetti li jirrappreżentaw l-aħjar kif inbiddel ideat ambizzjużi f'softwer illustrat u li jaħdem.",
+      "view_project": "Ara l-proġett",
+      "open_project": "Iftaħ proġett dirett",
       "view_all": "Esplora l-portafoll sħiħ",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Websajt sħiħ",
-        "available_here": "Disponibbli Hawnhekk",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Sit sħiħ",
+        "available_here": "Disponibbli hawnhekk",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Perspettiva differenti fuq ix-xogħol",
+      "invitation": "Esplora l-atlas tal-inġinerija",
+      "kicker": "Portafoll sħiħ / ħsieb konness",
+      "title": "Atlas tal-Inġinerija",
+      "projects": "Proġetti",
+      "technologies": "Teknoloġiji",
+      "connections": "Konnessjonijiet",
+      "center": "Atlas tal-inġinerija",
+      "filter_label": "Kategoriji tal-proġetti",
+      "domains": {
+        "all": "Ix-xogħol kollu",
+        "products": "Prodotti",
+        "systems": "Sistemi",
+        "experiences": "Esperjenzi"
+      },
+      "search": "Sib proġett jew teknoloġija",
+      "view_label": "Veduta tal-atlas",
+      "map_view": "Veduta tal-mappa",
+      "map_navigation": "Navigazzjoni tal-mappa tal-portafoll",
+      "zoom_in": "Żeżjed",
+      "zoom_out": "Naqqas",
+      "zoom_level": "Livell ta' zoom tal-mappa",
+      "fit_all": "Adatta l-proġetti kollha",
+      "center_selected": "Iċċentra l-proġett magħżul",
+      "all_technologies": "It-teknoloġiji kollha",
+      "list_view": "Veduta tal-lista",
+      "pause": "Pawża l-animazzjoni tas-sinjal",
+      "resume": "Kompli l-animazzjoni tas-sinjal",
+      "project_selector": "Esplora proġetti",
+      "inspector": "Dettalji tal-proġett magħżul",
+      "shared_stack": "Teknoloġija kondiviża",
+      "family_connection": "Konnessjoni tal-proġett",
+      "portfolio_connection": "Konnessjoni tal-portafoll",
+      "families": {
+        "portfolio": "Ċentru tal-portafoll",
+        "business": "Applikazzjonijiet tan-negozju",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Proġetti WebAssembly",
+        "libraries": "Libreriji ta' skripts",
+        "languages": "Esperimenti tal-lingwi",
+        "automation": "Għodod tal-awtomazzjoni u tad-dejta",
+        "experience": "Esperjenza professjonali u edukattiva"
+      },
+      "browser_native": "Nattiv tal-browser / mingħajr server",
+      "no_results": "L-ebda proġett li jaqbel",
+      "no_selection": "L-ebda proġett magħżul.",
+      "reset": "Ikklerja l-filtri",
+      "engineering_lens": "Perspettiva tal-inġinerija",
+      "connected_work": "Xogħol konness",
+      "open_live": "Iftaħ proġett dirett",
+      "open_project": "Esplora l-proġett",
+      "footer": "Qrati differenti. Prattika waħda tal-inġinerija konnessa.",
+      "contact": "Ejja nibnu dak li jmiss",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Pipelines tad-dejta",
+        "angular": "Angular",
+        "access": "Kontroll tal-aċċess",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Ittestjar",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabbiltà",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Aċċessibbiltà",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Spreadsheets inkonsistenti jidħlu. Stimi tal-kostruzzjoni u proposti lesti għall-klijent joħorġu. Prodott SaaS mibni madwar il-fluss reali tax-xogħol tal-kuntrattur.",
+          "lens": "Importazzjonijiet flessibbli jeħtieġu mudell intern strett: li taċċetta aktar formati m'għandux idgħajjef ir-regoli tal-kalkolu li offerta tiddependi fuqhom."
+        },
+        "inventory_register": {
+          "summary": "Fluss tax-xogħol ta' punt tal-bejgħ ma' Angular u Node.js li jgħaqqad utenti verifikati, preċiżjoni tal-inventarju, u fluss ta' ħlas simulizzat.",
+          "lens": "Reġistru tal-flus huwa aktar minn skrin tal-ħlas. Rwoli, bidliet fl-istokk, u stati tal-ħlas jeħtieġu fruntieri ċari biex il-fluss tax-xogħol jibqa' responsabbli."
+        },
+        "grocery_app": {
+          "summary": "Applikazzjoni .NET 9 Blazor b'fruntieri ta' kontrollur, servizz, u repository, permanenza Entity Framework Core, u sett ta' testijiet komprensiv.",
+          "lens": "Is-separazzjoni taqla' postha meta r-regoli tan-negozju jistgħu jittestjaw b'mod indipendenti mill-interface u mis-saff tal-permanenza."
+        },
+        "payrollobol": {
+          "summary": "L-ipproċessar tal-pagi GnuCOBOL jiltaqa' ma' ktieb prinċipali ta' daħla doppja SQLite u dashboard operattiv Svelte.",
+          "lens": "Il-korrettezza finanzjarja tibda bir-rappreżentazzjoni: aritmetika ta' ċenteżmi sħaħ u daħliet bilanċjati jagħmlu l-moviment tal-flus espliċitu."
+        },
+        "interop": {
+          "summary": "Referenza bejn il-lingwi li tkopri 15-il lingwa ta' programmar u 18-mudell ta' eżekuzzjoni, li tesplora x'jiġri fil-fruntieri tal-ħin tal-eżekuzzjoni.",
+          "lens": "Il-parti diffiċli hija l-kuntratt bejn iż-żminijiet tal-eżekuzzjoni: l-iskambju tad-dejta, l-imġiba tal-proċessi, u l-eżekuzzjoni ripetibbli jiswew aktar mis-sintassi."
+        },
+        "formatter": {
+          "summary": "Magni ta' parsing Go reali kkompilat għal WebAssembly. Il-validazzjoni u l-ifformattjar ta' JSON u YAML jaħdmu lokalment fil-browser.",
+          "lens": "Li ċċaqlaq il-parser għall-browser jiskambja piż akbar tal-klijent għal ipproċessar lokali, portabbiltà, u inqas dipendenzi mis-server."
+        },
+        "portfolio_website": {
+          "summary": "Is-sit li fih int: portafoll React b'100+ lingwa, interazzjonijiet aċċessibbli, u għodod WebAssembly li jaħdmu.",
+          "lens": "Deploy statiku ma jfissirx bilfors esperjenza statika. Interazzjonijiet sinjuri jistgħu jgħixu fuq il-klijent mingħajr server tal-applikazzjonijiet."
+        },
+        "biblioteca": {
+          "summary": "Pipeline ta' lokalizzazzjoni Python li jittrasforma sors wieħed ta' kontenut strutturat f'portafoll disponibbli f'100+ lingwa.",
+          "lens": "Il-kisba globali hija kemm problema ta' manutenzjoni tad-dejta kif ukoll ta' traduzzjoni. Sors wieħed ta' verità jżomm il-bidliet fil-kontenut maniġġabbli."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Ħiliet Tekniċi",
       "header1": "Lingwi ta' Programmazzjoni",
       "header2": "Oqfsa u Libreriji",
-      "header3": "Għodda u Teknoloġiji"
+      "header3": "Għodda u Teknoloġiji",
+      "technologies": "teknoloġiji",
+      "search_label": "Iffiltra",
+      "search_placeholder": "Iffiltra l-ħiliet…",
+      "clear_search": "Ikklerja l-filtru",
+      "no_matches": "L-ebda ħila ma taqbel mal-filtru tiegħek.",
+      "works": "Xogħlijiet",
+      "experience": "Esperjenza",
+      "professional": "Professjonali",
+      "education": "Edukazzjoni",
+      "paired_with": "Spiss jingħaqad ma'",
+      "summary_professional": "Użat professjonalment fi {items}.",
+      "summary_education": "Studjat u applikat fi {items}.",
+      "summary_projects": "Applikat b'mod prattiku fi {items}.",
+      "summary_projects_also": "Applikat ukoll fi {items}.",
+      "and_more": "aktar",
+      "scroll_more": "Iskrollja għal aktar xogħlijiet",
+      "show_less": "Uri inqas",
+      "no_samples": "Parti mill-għodod tax-xogħol tiegħi. Ninsab kuntent li nispjega kif użajtu."
     },
     "services": {
       "title": "Is-Servizzi Tiegħi",
@@ -112,6 +247,13 @@
           "text": "Nibni bir-realtajiet wara t-tnedija fid-dawl: sigrieti miżmuma barra mill-kontroll tas-sors, mogħdijiet espliċiti tal-migrazzjoni tad-database, awtorizzazzjoni bbażata fuq ir-rwoli, validazzjoni fil-konfini tas-sistema, testijiet awtomatizzati, kuxjenza CI/CD, u osservabilità prattika. Dawn huma d-dettalji li jibdlu prototip f'softwer affidabbli."
         }
       ]
+    },
+    "certifications": {
+      "title": "Liċenzji u ċertifikazzjonijiet",
+      "credential": "Ċertifikazzjoni",
+      "issued_by": "Maħruġ minn",
+      "issued": "Data tal-ħruġ",
+      "verify": "Ivverifika ċ-ċertifikazzjoni"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Qabbad Erbgħa",
-        "text": "Familja massiva ta 'aktar minn 50 implimentazzjoni tal-logħba Connect Four. Dan il-proġett jinkludi implimentazzjonijiet f'aktar minn 30 lingwa ta' programmar differenti, inklużi Java, C++, Python, JavaScript, u ​​aktar. Barra minn hekk, jinkludi wkoll aktar minn 20+ qafas differenti jew formati oħra, inklużi React.js, Ruby on Rails, ASP.NET, u aktar.",
+        "text": "Familja kbira ta' 90+ implimentazzjoni tal-logħba Erbgħa fir-ringiela. Il-proġett ikopri 30+ lingwa ta' programmar, inklużi Java, C++, Python, u JavaScript, flimkien ma' 50+ framework, librerija, ħin tal-eżekuzzjoni, u database differenti, minn React, Angular, u Blazor sa Django, Spring Boot, Phoenix, PostgreSQL, u lil hinn.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Sistema lokali għall-ipproċessar tal-pagi mibnija bi GnuCOBOL, reġistru ta’ dħul doppju SQLite, u dashboard tal-operazzjonijiet Svelte. Juża matematika ta’ ċenteżmu interi, proċessar tal-pagi tal-lott, u dashboard loopback biex jagħmel il-flussi tax-xogħol finanzjarji espliċiti, ttestjati, u operazzjonalment responsabbli.",
+        "text": "Sistema lokali għall-ipproċessar tal-pagi mibnija ma' GnuCOBOL, ktieb prinċipali ta' daħla doppja SQLite, u dashboard operattiv Svelte. Tuża aritmetika ta' ċenteżmi sħaħ, ipproċessar tal-pagi fi gruppi, u dashboard loopback biex tagħmel il-flussi finanzjarji espliċiti, testabbli, u responsabbli operattivament.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Mod ta 'Minecraft li jżid għodda tad-dwana, armatura, mobs, blokki, dimensjonijiet, u ħafna aktar karatteristiċi għal-logħba. Mibnija primarjament b'Java u Kotlin, b'appoġġ li jkopri l-verżjonijiet ta' Minecraft 1.16 sa 26.2.",
+        "text": "Mod Minecraft li jżid għodod, armatura, mobs, blokki, dimensjonijiet, u ħafna karatteristiċi oħra personalizzati mal-logħba. Mibni l-aktar ma' Java u Kotlin, li jappoġġja l-verżjonijiet Minecraft 1.16 sa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Logħba tas-Serp",
-        "text": "Magna Snake illustrata mibnija b'Rut u Macroquad, miġbura f'WebAssembly, u mogħtija permezz ta' HTML5 Canvas. Jikkombina qurdien tal-logħob deterministiċi ta' 0.12 sekondi b'moviment interpolat bla xkiel, fażijiet espliċiti tal-logħob, kontrolli li jirrispondu, ħabta u tqandil ta' win-state, u test iffukat suite li tkopri r-regoli ewlenin tal-logħob.",
+        "title": "Logħba tas-serp",
+        "text": "Magna illustrata tas-Serp mibnija ma' Rust u Macroquad, ikkompilata għal WebAssembly, u rrenduta permezz ta' HTML5 Canvas. Tgħaqqad ticks tal-logħba deterministiċi ta' 0.12 sekondi ma' moviment lixx interpolat, fażijiet tal-logħba ċari, kontroll responsiv, trattament ta' ħabtiet u stati ta' rebħa, u sett ta' testijiet iffokat li jkopri r-regoli ewlenin tal-logħba.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Proġett Magni Turing",
         "text": "Familja ta 'aktar minn 30 implimentazzjoni tal-Magni Turing. Użat biex juri l-kompletezza tat-turing għal lingwi ta' programmar differenti għar-riċerka, speċjalment għall-Lingwa ta' Programmazzjoni Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Laboratorju tal-kimika ta' ramel-fi trab mibni f'Rust u kkompilat għal WebAssembly. Żebgħa ramel, ilma, lava, azzar, kalċju karbur, jew biċċa sodju u ara kif il-fiżika u l-kimika jiġġieldu: is-sodju jidetonà fl-ilma, il-kalċju karbur jarmi aċetilena, il-lava ddub ir-ramel fi ħġieġ, u d-densità waħedha tissepara żejt, merkurju, u ramel. Il-magna tmexxi 32 materjal u 40 regola ta' reazzjoni dikjarattiva fuq buffer ċatt ta' ċelloli, u tirrendi pixels direttament mill-memorja lineari wasm mingħajr kopji għal kull frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Agħżel il-Magna:",
     "tiger_code": "Kodiċi Tiger:",
     "run_tiger": "Mexxi Tiger",
-    "output": "Output:"
+    "output": "Output:",
+    "stop": "Ieqaf",
+    "program_input": "Input tal-programm"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "L-ebda appoġġ lingwistiku"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Ara l-kodiċi tas-sors fuq GitHub"
+  }
 }

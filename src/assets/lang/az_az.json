@@ -4,21 +4,29 @@
     "home": "Ev",
     "about": "Haqqımda",
     "portfolio": "Portfolio",
-    "projects": "Veb sayt layihələri",
-    "tiger": "Pələng dili",
-    "snake": "İlan Oyunu",
+    "projects": "Seçilmiş layihələr",
+    "tiger": "Tiger - Xüsusi proqramlaşdırma dili",
+    "snake": "İlan oyunu",
     "portfolio_translator": "Portfolio Tərcüməçi",
-    "formatter": "JSON və YAML Formatlayıcısı",
+    "formatter": "JSON və YAML lintri",
     "contact": "Mənimlə əlaqə saxlayın",
-    "home_description": "sys.root // əsas baxış",
-    "about_description": "mühəndis profili // bio və yığın",
-    "portfolio_description": "proqram kataloqu // seçilən əsərlər",
+    "home_description": "sys.root // əsas icmal",
+    "about_description": "mühəndis profili // bio və texnologiya dəsti",
+    "portfolio_description": "proqram kataloqu // seçilmiş işlər",
     "projects_description": "interaktiv alətlər və kompilyatorlar",
-    "tiger_description": "xüsusi tərtibçi və AST vizualizatoru",
-    "snake_description": "klassik arcade oyunu / WASM",
+    "tiger_description": "xüsusi kompilyator və AST vizuallaşdırıcı",
+    "snake_description": "klassik arkada oyunu / WASM",
     "portfolio_translator_description": "100+ dil matrisi və i18n",
-    "formatter_description": "sintaksis təsdiqləyicisi və çevirici",
-    "contact_description": "açıq ötürülmə // əlaqə qurmaq"
+    "formatter_description": "sintaksis validatoru və konvertoru",
+    "contact_description": "açıq ötürmə // əlaqə saxlayın",
+    "arcade": "Arkada",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Dörd birlikdə dil ağacı",
+    "alkalab_description": "kimya laboratoriyası simulyasiyası / WASM",
+    "rustcraft_description": "Minecraft tipli voksel oyunu / Rust və wgpu",
+    "suprememc_description": "Minecraft modu vitrini / Java"
   },
   "home": {
     "title": "Baş Tam Stack Mühəndisi | Məhsul və Sistemlər",
@@ -36,10 +44,10 @@
     "about_button": "Haqqımda",
     "atlas": {
       "invitation_kicker": "İşə fərqli baxış",
-      "invitation": "Mühəndislik atlaslarını araşdırın",
-      "kicker": "Bütöv portfel / əlaqəli düşüncə",
-      "title": "Mühəndislik Atlası",
-      "projects": "Lahiyələr:",
+      "invitation": "Mühəndislik atlasını kəşf edin",
+      "kicker": "Tam portfel / əlaqəli düşüncə",
+      "title": "Mühəndislik atlası",
+      "projects": "Layihələr",
       "technologies": "Texnologiyalar",
       "connections": "Əlaqələr",
       "center": "Mühəndislik atlası",
@@ -48,113 +56,113 @@
         "all": "Bütün işlər",
         "products": "Məhsullar",
         "systems": "Sistemlər",
-        "experiences": "yaradacaq. "
+        "experiences": "Təcrübələr"
       },
       "search": "Layihə və ya texnologiya tapın",
-      "view_label": "Atıla-atıla",
+      "view_label": "Atlas görünüşü",
       "map_view": "Xəritə görünüşü",
-      "map_navigation": "Portfelin xəritə naviqasiyası",
+      "map_navigation": "Portfel xəritəsi naviqasiyası",
       "zoom_in": "Yaxınlaşdır",
       "zoom_out": "Uzaqlaşdır",
-      "zoom_level": "MAP böyütmə səviyyəsi",
-      "fit_all": "Bütün layihələrə uyğunlaşın",
-      "center_selected": "Mərkəz seçilmiş layihə",
+      "zoom_level": "Xəritə yaxınlaşdırma səviyyəsi",
+      "fit_all": "Bütün layihələri yerləşdir",
+      "center_selected": "Seçilmiş layihəni mərkəzləşdir",
       "all_technologies": "Bütün texnologiyalar",
       "list_view": "Siyahı görünüşü",
-      "pause": "Siqnal animasiyasına fasilə ver",
-      "resume": "Siqnal animasiyasını bərpa edin",
-      "project_selector": "Layihələri araşdırın",
-      "inspector": "Seçilmiş layihə təfərrüatları",
-      "shared_stack": "Ortaq texnologiya",
-      "family_connection": "Layihə ailəsi",
+      "pause": "Siqnal animasiyasını dayandır",
+      "resume": "Siqnal animasiyasını davam etdir",
+      "project_selector": "Layihələri kəşf edin",
+      "inspector": "Seçilmiş layihənin təfərrüatları",
+      "shared_stack": "Paylaşılan texnologiya",
+      "family_connection": "Layihə əlaqəsi",
       "portfolio_connection": "Portfel əlaqəsi",
       "families": {
         "portfolio": "Portfel mərkəzi",
-        "business": "İşgüzar tətbiqlər",
-        "minecraft": "SupremeMC və Minecraft",
+        "business": "Biznes tətbiqləri",
+        "minecraft": "SupremeMC & Minecraft",
         "wasm": "WebAssembly layihələri",
         "libraries": "Skript kitabxanaları",
         "languages": "Dil təcrübələri",
         "automation": "Avtomatlaşdırma və məlumat alətləri",
         "experience": "Peşəkar və təhsil təcrübəsi"
       },
-      "browser_native": "Brauzer - yerli/server yoxdur",
+      "browser_native": "Brauzer-yerli / server olmadan",
       "no_results": "Uyğun layihə yoxdur",
       "no_selection": "Heç bir layihə seçilməyib.",
       "reset": "Filtrləri təmizlə",
-      "engineering_lens": "Mühəndislik perspektivi",
-      "connected_work": "Əlaqələndirilmiş iş",
+      "engineering_lens": "Mühəndislik baxış bucağı",
+      "connected_work": "Əlaqəli iş",
       "open_live": "Canlı layihəni aç",
-      "open_project": "Layihəni araşdır",
-      "footer": "Müxtəlif domenlər. Bir bağlı mühəndislik təcrübəsi.",
-      "contact": "Gəlin sonra nə olacağını quraq",
+      "open_project": "Layihəni kəşf edin",
+      "footer": "Fərqli sahələr. Bir əlaqəli mühəndislik təcrübəsi.",
+      "contact": "Gələcəyi birlikdə quraq",
       "skills": {
         "yaml": "YAML",
-        "julia": "Culiya",
-        "objectivec": "Məqsəd-C",
-        "react": "Reaktiv et",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
         "node": "Node.js",
-        "pipelines": "Məlumat boru kəmərləri",
-        "angular": "Bucaqlı",
-        "access": "Girişə Nəzarət",
-        "dotnet": ".net",
+        "pipelines": "Məlumat xətləri",
+        "angular": "Angular",
+        "access": "Giriş nəzarəti",
+        "dotnet": ".NET",
         "sql": "SQL",
-        "testing": "Test",
+        "testing": "Test etmə",
         "cobol": "COBOL",
         "svelte": "Svelte",
-        "interop": "Qarşılıqlı fəaliyyət",
-        "go": "Gedin",
+        "interop": "İnteroperabillik",
+        "go": "Go",
         "wasm": "WebAssembly",
-        "accessibility": "Xüsusi İmkanlar",
-        "python": "Python faylları"
+        "accessibility": "Əlçatımlılıq",
+        "python": "Python"
       },
       "stories": {
         "takeoff_engine": {
-          "summary": "Uyğun olmayan tablolar. Tikinti təxminləri və müştəriyə hazır təkliflər. Podratçının faktiki iş prosesi ətrafında qurulmuş SaaS məhsulu.",
-          "lens": "Yumşaq idxalın ciddi daxili modelə ehtiyacı var: daha çox format qəbul etmək təklifin asılı olduğu hesablama qaydalarını zəiflətməməlidir."
+          "summary": "Uyğunsuz elektron cədvəllər içəri. İnşaat qiymətləndirmələri və müştəriyə hazır təkliflər çölə. Podratçının faktiki iş axını ətrafında qurulmuş SaaS məhsulu.",
+          "lens": "Çevik idxal ciddi daxili model tələb edir: daha çox format qəbul etmək təklifin asılı olduğu hesablama qaydalarını zəiflətməməlidir."
         },
         "inventory_register": {
-          "summary": "Əsl istifadəçiləri, inventar dəqiqliyini və istehza ilə ödəniş axınını birləşdirən Bucaqlı və Node.js nöqtəli iş axını.",
-          "lens": "Qeydiyyat çıxış ekranından daha çoxdur. Rollar, səhm dəyişiklikləri və ödəniş vəziyyətləri iş prosesini məsuliyyətli saxlamaq üçün açıq sərhədlərə ehtiyac duyur."
+          "summary": "Angular və Node.js ilə iş yeri satış nöqtəsi axını kimliyi təsdiqlənmiş istifadəçiləri, inventar dəqiqliyini və simulyasiya edilmiş ödəniş axınını birləşdirir.",
+          "lens": "Kassa ödəniş ekranından daha çox şeydir. Rollar, stok dəyişiklikləri və ödəniş halları iş axınını cavabdeh saxlamaq üçün açıq sərhədlər tələb edir."
         },
         "grocery_app": {
-          "summary": "Nəzarətçi, xidmət və yaddaş sərhədləri, Müəssisə Çərçivəsi Əsas Davamlılığı və hərtərəfli sınaq dəsti olan Net 9 Blazor tətbiqi.",
-          "lens": "Ayrılıq öz yerini biznes qaydaları interfeys və əzmkarlıq təbəqəsindən asılı olmayaraq sınaqdan keçirilə bildikdə qazanır."
+          "summary": "Nəzarətçi, xidmət və depo sərhədləri, Entity Framework Core davamlılığı və hərtərəfli test paketi olan .NET 9 Blazor tətbiqi.",
+          "lens": "Biznes qaydaları interfeysdən və davamlılıq təbəqəsindən asılı olmayaraq test edilə bildikdə ayrılma öz yerini qazanır."
         },
         "payrollobol": {
-          "summary": "GnuCOBOL əmək haqqı emalı SQLite cüt girişli karniz və Svelte əməliyyatlar göstəricilər panelinə cavab verir.",
-          "lens": "Maliyyə düzgünlüyü təmsilçilikdən başlayır: tam mərkəzli arifmetik və balanslaşdırılmış leder girişləri pul hərəkətini açıq edir."
+          "summary": "GnuCOBOL əmək haqqı emalı SQLite ikiqat girişli əsas kitab və Svelte əməliyyat paneli ilə qarşılaşır.",
+          "lens": "Maliyyə düzgünlüyü təqdimatdan başlayır: tam sent arifmetikası və balanslaşdırılmış kitab qeydləri pul hərəkətini açıq edir."
         },
         "interop": {
-          "summary": "15 proqramlaşdırma dili və 18 icra nümunəsini əhatə edən və iş vaxtı sərhədlərində nə baş verdiyini araşdıran çarpaz dilli istinad.",
-          "lens": "Çətin olan müddətlər arasındakı müqavilədir: məlumat mübadiləsi, proses davranışı və təkrar icra sintaksisdən daha çox əhəmiyyət kəsb edir."
+          "summary": "15 proqramlaşdırma dilini və 18 icra nümunəsini əhatə edən, icra vaxtı sərhədlərində nə baş verdiyini araşdıran dillərarası istinad.",
+          "lens": "Çətin hissə icra mühitləri arasındakı müqavilədir: məlumat mübadiləsi, proses davranışı və təkrarlanan icra sintaksisdən daha önəmlidir."
         },
         "formatter": {
-          "summary": "WebAssembly-a tərtib edilmiş həqiqi Go parnik mühərriki. JSON VƏ YAML-ın yoxlanması və formatlanması brauzerdə lokal şəkildə icra edilir.",
-          "lens": "Parserin brauzerə köçürülməsi yerli emal, daşınma və daha az server asılılığı üçün daha böyük müştəri yükünü ticarət edir."
+          "summary": "WebAssembly-ə kompilyasiya edilmiş əsl Go təhlil mühərriki. JSON və YAML doğrulama və formatlama brauzerdə yerli olaraq işləyir.",
+          "lens": "Analizatoru brauzerə köçürmək daha böyük müştəri yükünü yerli emal, portativlik və daha az server asılılığı ilə dəyişdirir."
         },
         "portfolio_website": {
-          "summary": "Daxil olduğunuz sayt: 100+ dil, əlçatan qarşılıqlı əlaqələr və WebAssembly alətləri ilə işləyən React portfeli.",
-          "lens": "Statik yerləşdirmə statik təcrübə demək deyil. Zəngin qarşılıqlı əlaqələr tətbiq serveri olmadan müştəridə yaşaya bilər."
+          "summary": "İçində olduğunuz sayt: 100+ dilli, əlçatan interaksiyalı və işləyən WebAssembly alətləri olan React portfeli.",
+          "lens": "Statik yerləşdirmə mütləq statik təcrübə demək deyil. Zengin interaksiyalar proqram serveri olmadan müştəridə yaşaya bilər."
         },
         "biblioteca": {
-          "summary": "Bir strukturlu məzmun mənbəyini 100+ dildə mövcud portfelə çevirən Python lokalizasiya boru kəməri.",
-          "lens": "Qlobal əlaqə tərcümə problemi qədər məlumat baxım problemidir. Həqiqətin bir mənbəyi məzmun dəyişikliklərini idarə edilə bilən saxlayır."
+          "summary": "Bir strukturlaşdırılmış məzmun mənbəyini 100+ dildə mövcud portfelə çevirən Python lokallaşdırma xətti.",
+          "lens": "Qlobal əhatə tərcümə problemi qədər məlumat saxlanması problemidir. Bir həqiqət mənbəyi məzmun dəyişikliklərini idarə edilə bilən saxlayır."
         }
       }
     },
     "featured": {
-      "kicker": "Seçilmiş Layihələr",
-      "title": "Seçilmiş İş",
-      "description": "İddialı ideyaları cilalanmış, işləyən proqrama necə çevirdiyimi ən yaxşı şəkildə təmsil edən altı layihə.",
-      "view_project": "Layihəyə Baxın",
-      "open_project": "Canlı Layihəni açın",
-      "view_all": "Tam portfeli araşdırın",
+      "kicker": "Seçilmiş layihələr",
+      "title": "Seçilmiş işlər",
+      "description": "İddialı fikirləri cilalanmış, işləyən proqrama necə çevirdiyimi ən yaxşı təmsil edən altı layihə.",
+      "view_project": "Layihəyə bax",
+      "open_project": "Canlı layihəni aç",
+      "view_all": "Tam portfeli kəşf edin",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Tam Veb sayt",
+        "full_website": "Tam vebsayt",
         "available_here": "Burada mövcuddur",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Minecraft modu"
       }
     }
   },
@@ -203,7 +211,25 @@
       "title": "Texniki Bacarıqlar",
       "header1": "Proqramlaşdırma Dilləri",
       "header2": "Çərçivələr və Kitabxanalar",
-      "header3": "Alətlər və Texnologiyalar"
+      "header3": "Alətlər və Texnologiyalar",
+      "technologies": "texnologiyalar",
+      "search_label": "Filtrlə",
+      "search_placeholder": "Bacarıqları filtrlə…",
+      "clear_search": "Filtrləri təmizlə",
+      "no_matches": "Heç bir bacarıq filtrinizə uyğun deyil.",
+      "works": "İşlər",
+      "experience": "Təcrübə",
+      "professional": "Peşəkar",
+      "education": "Təhsil",
+      "paired_with": "Çox vaxt ilə birləşdirilir",
+      "summary_professional": "{items} içində peşəkar istifadə olunur.",
+      "summary_education": "{items} içində öyrənilib tətbiq olunur.",
+      "summary_projects": "{items} içində praktiki tətbiq olunur.",
+      "summary_projects_also": "{items} içində də tətbiq olunur.",
+      "and_more": "daha çox",
+      "scroll_more": "Daha çox iş üçün sürüşdürün",
+      "show_less": "Daha az göstər",
+      "no_samples": "Mənim iş alətlərim dəstinin bir hissəsidir. Onu necə istifadə etdiyimi izah etməkdən məmnunam."
     },
     "services": {
       "title": "Xidmətlərim",
@@ -221,6 +247,13 @@
           "text": "Mən işə salındıqdan sonra reallıqları nəzərə alaraq qururam: mənbə nəzarətindən kənarda saxlanılan sirlər, açıq verilənlər bazası miqrasiya yolları, rol əsaslı icazə, sistem sərhədlərində doğrulama, avtomatlaşdırılmış testlər, CI/CD məlumatlılığı və praktiki müşahidə. Bunlar prototipi etibarlı proqrama çevirən detallardır."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lisenziyalar və sertifikatlar",
+      "credential": "Sertifikat",
+      "issued_by": "Verən",
+      "issued": "Verilmə tarixi",
+      "verify": "Sertifikatı doğrula"
     }
   },
   "portfolio": {
@@ -234,7 +267,7 @@
       },
       "connect_four": {
         "title": "Dördü birləşdirin",
-        "text": "Connect Four oyununun 50-dən çox tətbiqindən ibarət kütləvi ailə. Bu layihə Java, C++, Python, JavaScript və daha çox daxil olmaqla 30-dan çox müxtəlif proqramlaşdırma dillərində tətbiqləri əhatə edir. Bundan əlavə, o, həmçinin React.js, Ruby on Rails, ASP.NET və s. daxil olmaqla 20-dən çox müxtəlif çərçivə və ya digər formatları ehtiva edir.",
+        "text": "Dörd birlikdə oyununun 90+ tətbiqindən ibarət nəhəng ailə. Layihə Java, C++, Python və JavaScript daxil olmaqla 30+ proqramlaşdırma dilini və React, Angular və Blazor-dan Django, Spring Boot, Phoenix, PostgreSQL və daha çoxuna qədər 50+ müxtəlif çərçivə, kitabxana, icra mühiti və verilənlər bazasını əhatə edir.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -253,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Əmək haqqı OBOL",
-        "text": "GnuCOBOL, SQLite ikili qeyd dəftəri və Svelte əməliyyatlar paneli ilə qurulmuş yerli əmək haqqı emal sistemi. O, maliyyə iş axınlarını aydın, sınaqdan keçirilə bilən və əməliyyat baxımından hesabatlı etmək üçün tam faizlik riyaziyyatdan, toplu əmək haqqının işlənməsindən və geri dönmə tablosundan istifadə edir.",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite ikiqat girişli əsas kitab və Svelte əməliyyat paneli ilə qurulmuş yerli əmək haqqı emal sistemi. Maliyyə axınlarını açıq, test edilə bilən və əməliyyat baxımından cavabdeh etmək üçün tam sent riyaziyyatı, toplu əmək haqqı emalı və loopback paneli istifadə edir.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -329,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Oyuna xüsusi alətlər, zirehlər, dəstələr, bloklar, ölçülər və daha çox funksiyalar əlavə edən Minecraft Mod. Minecraft 1.16-dan 26.2-yə qədər olan versiyaları əhatə edən dəstəyi ilə əsasən Java və Kotlin ilə qurulmuşdur.",
+        "text": "Oyuna xüsusi alətlər, zirehlər, moblar, bloklar, ölçülər və daha çox funksiya əlavə edən Minecraft modu. Əsasən Java və Kotlin ilə qurulmuş, Minecraft versiyaları 1.16-dan 26.2-yə qədər dəstəkləyir.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "İlan Oyunu",
-        "text": "Rust və Macroquad ilə qurulmuş, WebAssembly-də tərtib edilmiş və HTML5 Canvas vasitəsilə təqdim edilmiş cilalanmış Snake mühərriki. O, deterministik 0,12 saniyəlik oyun gənələrini hamar interpolyasiya edilmiş hərəkət, açıq oyun mərhələləri, cavab verən idarəetmələr, toqquşma və qalibiyyət vəziyyətinin idarə edilməsi və fokuslanmış test ilə birləşdirir. əsas oyun qaydalarını əhatə edən paket.",
+        "title": "İlan oyunu",
+        "text": "Rust və Macroquad ilə qurulmuş, WebAssembly-ə kompilyasiya edilmiş və HTML5 Canvas vasitəsilə göstərilən cilalanmış İlan mühərriki. Determinist 0,12 saniyəlik oyun tiklerini hamar interpolyasiya olunmuş hərəkət, açıq oyun mərhələləri, həssas idarəetmə, toqquşma və qalibiyyət vəziyyətinin idarə edilməsi və oyunun əsas qaydalarını əhatə edən fokuslanmış test paketi ilə birləşdirir.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -351,6 +384,11 @@
         "title": "Turinq Maşın Layihəsi",
         "text": "Turing Machine-in 30-dan çox tətbiqi ailəsi. Tədqiqat üçün müxtəlif proqramlaşdırma dilləri, xüsusən Tiger Proqramlaşdırma Dili üçün turing tamlığını nümayiş etdirmək üçün istifadə olunur.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Rust ilə qurulmuş və WebAssembly-ə kompilyasiya edilmiş toz qum kimya laboratoriyası. Qum, su, lava, polad, kalsium-karbid və ya bir parça natrium çəkin və fizika ilə kimyanın necə döyüşdüyünü izləyin: natrium suda partlayır, kalsium-karbid asetilen çıxarır, lava qumu şüşəyə çevirir və tək sıxlıq yağı, civəni və qumu ayırır. Mühərrik düz hüceyrə buferi üzərində 32 material və 40 deklarativ reaksiya qaydası işlədir, pikselləri kare başına surətsiz birbaşa wasm xətti yaddaşından göstərir.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -394,7 +432,9 @@
     "select_engine": "Mühərriki seçin:",
     "tiger_code": "Pələng Kodu:",
     "run_tiger": "Run Tiger",
-    "output": "Çıxış:"
+    "output": "Çıxış:",
+    "stop": "Dayandır",
+    "program_input": "Proqram girişi"
   },
   "tab": {
     "title": "Patrik Qudvin",
@@ -476,5 +516,8 @@
       "no_language_support": "Dil dəstəyi yoxdur"
     }
   },
-  "logotext": "PATRİK"
+  "logotext": "PATRİK",
+  "repo_button": {
+    "label": "Mənbə koduna GitHub-da baxın"
+  }
 }

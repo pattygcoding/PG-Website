@@ -4,21 +4,29 @@
     "home": "Uy",
     "about": "Men haqimda",
     "portfolio": "Portfel",
-    "projects": "Veb-sayt loyihalari",
-    "tiger": "Yo'lbars tili",
-    "snake": "Ilon o'yini",
+    "projects": "Tanlangan loyihalar",
+    "tiger": "Tiger - Maxsus dasturlash tili",
+    "snake": "Ilon o’yini",
     "portfolio_translator": "Portfolio tarjimoni",
-    "formatter": "JSON va YAML formatlagichi",
+    "formatter": "JSON va YAML lintеri",
     "contact": "Men bilan bog'laning",
-    "home_description": "sys.root // asosiy ko'rinish",
-    "about_description": "muhandis profili // bio & stack",
-    "portfolio_description": "dasturiy ta'minot katalogi // taniqli asarlar",
+    "home_description": "sys.root // asosiy sharh",
+    "about_description": "muhandis profili // bio va texnologiya",
+    "portfolio_description": "dastur katalogi // tanlangan ishlar",
     "projects_description": "interaktiv vositalar va kompilyatorlar",
     "tiger_description": "maxsus kompilyator va AST vizualizatori",
-    "snake_description": "klassik arkada o'yini / WASM",
+    "snake_description": "klassik arkada o’yini / WASM",
     "portfolio_translator_description": "100+ til matritsasi va i18n",
-    "formatter_description": "sintaksis tekshiruvi va konvertor",
-    "contact_description": "ochiq uzatish // bog'laning"
+    "formatter_description": "sintaksis tekshiruvchisi va konvertori",
+    "contact_description": "ochiq uzatish // bog‘laning",
+    "arcade": "Arkada",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "To—rt qator til daraxti",
+    "alkalab_description": "kimyo laboratoriyasi simulyatsiyasi / WASM",
+    "rustcraft_description": "Minecraft uslubidagi voksel o’yini / Rust va wgpu",
+    "suprememc_description": "Minecraft mod vitrinasi / Java"
   },
   "home": {
     "title": "Katta to'liq stack muhandisi | Mahsulot va tizimlar",
@@ -36,16 +44,125 @@
     "about_button": "Men haqimda",
     "featured": {
       "kicker": "Tanlangan loyihalar",
-      "title": "Tanlangan ish",
-      "description": "Men ambitsiyali g'oyalarni sayqallangan, ishlaydigan dasturiy ta'minotga aylantirishimni eng yaxshi ifodalovchi oltita loyiha.",
-      "view_project": "Loyihani ko'rish",
-      "open_project": "Jonli loyihani oching",
-      "view_all": "To'liq portfelni o'rganing",
+      "title": "Tanlangan ishlar",
+      "description": "AmbitSion g'oyalarni sayqallangan, ishlaydigan dasturga qanday aylantirishimni eng yaxshi ifodalovchi oltita loyiha.",
+      "view_project": "Loyihani ko‘rish",
+      "open_project": "Jonli loyihani ochish",
+      "view_all": "To‘liq portfelni o‘rganing",
       "badges": {
         "saas": "SaaS",
-        "full_website": "To'liq veb-sayt",
+        "full_website": "To‘liq veb-sayt",
         "available_here": "Bu yerda mavjud",
         "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Ishga boshqacha nuqtai nazar",
+      "invitation": "Muhandislik atlasini o‘rganing",
+      "kicker": "To‘liq portfel / bog‘langan fikrlash",
+      "title": "Muhandislik atlasi",
+      "projects": "Loyihalar",
+      "technologies": "Texnologiyalar",
+      "connections": "Aloqalar",
+      "center": "Muhandislik atlasi",
+      "filter_label": "Loyiha toifalari",
+      "domains": {
+        "all": "Barcha ishlar",
+        "products": "Mahsulotlar",
+        "systems": "Tizimlar",
+        "experiences": "Tajribalar"
+      },
+      "search": "Loyiha yoki texnologiya toping",
+      "view_label": "Atlas ko‘rinishi",
+      "map_view": "Xarita ko‘rinishi",
+      "map_navigation": "Portfel xaritasi navigatsiyasi",
+      "zoom_in": "Kattalashtirish",
+      "zoom_out": "Kichiklashtirish",
+      "zoom_level": "Xarita masshtabi darajasi",
+      "fit_all": "Barcha loyihalarni moslash",
+      "center_selected": "Tanlangan loyihani markazlash",
+      "all_technologies": "Barcha texnologiyalar",
+      "list_view": "Ro‘yxat ko‘rinishi",
+      "pause": "Signal animatsiyasini pauza qilish",
+      "resume": "Signal animatsiyasini davom ettirish",
+      "project_selector": "Loyihalarni o‘rganing",
+      "inspector": "Tanlangan loyiha tafsilotlari",
+      "shared_stack": "Umumiy texnologiya",
+      "family_connection": "Loyiha aloqasi",
+      "portfolio_connection": "Portfel aloqasi",
+      "families": {
+        "portfolio": "Portfel markazi",
+        "business": "Biznes ilovalari",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly loyihalari",
+        "libraries": "Skript kutubxonalari",
+        "languages": "Til tajribalari",
+        "automation": "Avtomatlashtirish va ma'lumot vositalari",
+        "experience": "Professional va ta'lim tajribasi"
+      },
+      "browser_native": "Brauzer-mahalliy / serversiz",
+      "no_results": "Mos loyihalar yo‘q",
+      "no_selection": "Hech qanday loyiha tanlanmagan.",
+      "reset": "Filtrlar tozalash",
+      "engineering_lens": "Muhandislik nuqtai nazari",
+      "connected_work": "Bog‘langan ish",
+      "open_live": "Jonli loyihani ochish",
+      "open_project": "Loyihani o‘rganing",
+      "footer": "Turli sohalar. Bitta bog'liq muhandislik amaliyoti.",
+      "contact": "Keling, keyingi narsani birga quraylik",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Ma'lumot quvurlari",
+        "angular": "Angular",
+        "access": "Kirish nazorati",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Sinov",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "O‘zaro muvofiqligi",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Qulaylik",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Mos kelmaydigan jadval fayllar ichkariga. Qurilish smetalari va mijozga tayyor takliflar tashqariga. Pudratchining haqiqiy ish oqimi atrofida qurilgan SaaS mahsuloti.",
+          "lens": "Moslashuvchan importlar qat'iy ichki modelni talab qiladi: ko'proq formatlarni qabul qilish taklif bog'liq bo'lgan hisoblash qoidalarini zaiflashtirmasligi kerak."
+        },
+        "inventory_register": {
+          "summary": "Angular va Node.js bilan savdo nuqtasi ish oqimi tasdiqlangan foydalanuvchilar, inventar aniqligi va simulyatsiya qilingan to'lov oqimini bog'laydi.",
+          "lens": "Kassa apparati to'lov ekranidan ko'proq narsa. Rollar, zaxira o'zgarishlari va to'lov holatlari ish oqimini mas'uliyatli saqlash uchun aniq chegaralarni talab qiladi."
+        },
+        "grocery_app": {
+          "summary": "Boshqaruvchi, xizmat va ombor chegaralari, Entity Framework Core persistensiyasi va keng qamrovli test to'plami bilan .NET 9 Blazor ilovasi.",
+          "lens": "Biznes qoidalari interfeys va persistensiya qatlamidan mustaqil sinovdan o'tkazilishi mumkin bo'lganda bo'linish o'z o'rnini oladi."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL ish haqi qayta ishlash SQLite ikki tomonlama yozuv bosh kitobi va Svelte operatsion paneli bilan uchrashadi.",
+          "lens": "Moliyaviy aniqlik vakillikdan boshlanadi: to'liq sent arifmetikasi va muvozanatli yozuvlar pul harakatini aniq qiladi."
+        },
+        "interop": {
+          "summary": "15 dasturlash tili va 18 bajarish uslubini qamrab olgan tillararo ma'lumotnoma, ish vaqti chegaralarida nima sodir bo'lishini o'rganadi.",
+          "lens": "Qiyin qism ish vaqti muhitlari o'rtasidagi shartnomadir: ma'lumot almashinuvi, jarayon xatti-harakati va takroriy bajarilish sintaksisdan muhimroq."
+        },
+        "formatter": {
+          "summary": "WebAssembly ga kompilyatsiya qilingan haqiqiy Go tahlil dvigateli. JSON va YAML tekshirish va formatlash brauzerda mahalliy ishlaydi.",
+          "lens": "Tahlilchini brauzerga ko'chirish kattaroq mijoz yukini mahalliy ishlov, ko'chmalik va kamroq server bog'liqliklari bilan almashtiradi."
+        },
+        "portfolio_website": {
+          "summary": "Siz turgan sayt: 100+ til, qulay o'zaro ta'sirlar va ishlaydigan WebAssembly vositalariga ega React portfeli.",
+          "lens": "Statik joylashtirish statik tajribani anglatishi shart emas. Boy o'zaro ta'sirlar dastur serverisiz mijozda yashashi mumkin."
+        },
+        "biblioteca": {
+          "summary": "Bitta tuzilgan kontent manbasini 100+ tilda mavjud portfelga aylantiradigan Python lokalizatsiya quvuri.",
+          "lens": "Global qamrov tarjima muammosi kabi ma'lumotlarni saqlash muammosidir. Bitta haqiqat manbai kontent o'zgarishlarini boshqariladigan qiladi."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Texnik ko'nikmalar",
       "header1": "Dasturlash tillari",
       "header2": "Ramkalar va kutubxonalar",
-      "header3": "Asboblar va texnologiyalar"
+      "header3": "Asboblar va texnologiyalar",
+      "technologies": "texnologiyalar",
+      "search_label": "Filtr",
+      "search_placeholder": "Ko‘nikmalarni filtrlash…",
+      "clear_search": "Filtrni tozalash",
+      "no_matches": "Filtrlaringizga mos ko'nikma yo'q.",
+      "works": "Ishlar",
+      "experience": "Tajriba",
+      "professional": "Professional",
+      "education": "Ta'lim",
+      "paired_with": "Ko'pincha juftlashadi",
+      "summary_professional": "{items} da professional qo'llangan.",
+      "summary_education": "{items} da o'rganilgan va qo'llangan.",
+      "summary_projects": "{items} da amaliy qo'llangan.",
+      "summary_projects_also": "{items} da ham qo'llangan.",
+      "and_more": "ko'proq",
+      "scroll_more": "Ko'proq ishlar uchun aylantiring",
+      "show_less": "Kamroq ko'rsatish",
+      "no_samples": "Ishchi asboblar to'plamimning bir qismi. Uni qanday ishlatganimni tushuntirishdan mamnunman."
     },
     "services": {
       "title": "Mening xizmatlarim",
@@ -112,6 +247,13 @@
           "text": "Men ishga tushirilgandan so'ng haqiqatni ko'rib chiqaman: manba nazorati ostida bo'lmagan sirlar, ma'lumotlar bazasini ko'chirishning aniq yo'llari, rolga asoslangan avtorizatsiya, tizim chegaralarida tekshirish, avtomatlashtirilgan testlar, CI/CD-dan xabardorlik va amaliy kuzatuvchanlik. Bu prototipni ishonchli dasturiy ta'minotga aylantiradigan tafsilotlar."
         }
       ]
+    },
+    "certifications": {
+      "title": "Litsenziyalar va sertifikatlar",
+      "credential": "Sertifikat",
+      "issued_by": "Tomonidan berilgan",
+      "issued": "Berilgan sana",
+      "verify": "Sertifikatni tekshirish"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "To'rtni ulang",
-        "text": "Connect Four o'yinining 50 dan ortiq ilovalaridan iborat katta oila. Ushbu loyiha Java, C++, Python, JavaScript va boshqalarni oʻz ichiga olgan 30 dan ortiq turli dasturlash tillarida ilovalarni oʻz ichiga oladi. Bundan tashqari, u 20 dan ortiq turli xil ramkalar yoki boshqa formatlarni, jumladan React.js, Ruby on Rails, ASP.NET va boshqalarni o'z ichiga oladi.",
+        "text": "To'rt qator o'yinining 90+ amalga oshirilishidan iborat ulkan oila. Loyiha Java, C++, Python va JavaScript kabi 30+ dasturlash tilini va React, Angular va Blazor dan Django, Spring Boot, Phoenix, PostgreSQL va boshqalargacha bo'lgan 50+ turli framework, kutubxona, ish vaqti va ma'lumotlar bazasini qamrab oladi.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Ish haqi OBOL",
-        "text": "GnuCOBOL, SQLite ikki yozuvli daftar va Svelte operatsiyalari boshqaruv paneli bilan yaratilgan mahalliy ish haqini qayta ishlash tizimi. Moliyaviy ish oqimlarini aniq, sinovdan o'tkazish va operatsion jihatdan javobgar qilish uchun u butun sent matematikasi, to'plamli ish haqini qayta ishlash va orqaga qaytish boshqaruv panelidan foydalanadi.",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite ikki tomonlama yozuv bosh kitobi va Svelte operatsion paneli bilan qurilgan mahalliy ish haqi qayta ishlash tizimi. Moliyaviy oqimlarni aniq, sinovdan o'tadigan va operativ mas'uliyatli qilish uchun u to'liq sent matematikasi, partiyali ish haqi qayta ishlash va loopback panelidan foydalanadi.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "O'yinga maxsus asboblar, zirhlar, to'dalar, bloklar, o'lchamlar va boshqa ko'plab xususiyatlarni qo'shadigan Minecraft Modi. Asosan Java va Kotlin bilan tuzilgan, Minecraft 1.16 dan 26.2 gacha boʻlgan versiyalarini qoʻllab-quvvatlaydi.",
+        "text": "O'yinga maxsus vositalar, qurol-yarog'lar, mavjudotlar, bloklar, o'lchamlar va boshqa ko'plab xususiyatlarni qo'shadigan Minecraft mod. Asosan Java va Kotlin da qurilgan bo'lib, Minecraft 1.16 dan 26.2 gacha bo'lgan versiyalarini qo'llab-quvvatlaydi.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "Ilon o'yini",
-        "text": "Rust va Macroquad bilan qurilgan, WebAssembly-ga kompilyatsiya qilingan va HTML5 Canvas orqali taqdim etilgan sayqallangan Snake dvigateli. U deterministik 0,12 soniyalik o'yin belgilarini silliq interpolyatsiya qilingan harakat, aniq o'yin bosqichlari, sezgir boshqaruvlar, to'qnashuv va g'alaba holatini boshqarish va yo'naltirilgan test bilan birlashtiradi. o'yinning asosiy qoidalarini o'z ichiga olgan to'plam.",
+        "text": "Rust va Macroquad bilan qurilgan, WebAssembly ga kompilyatsiya qilingan va HTML5 Canvas orqali render qilingan sayqallangan Ilon dvigateli. U 0,12 soniyalik deterministik o'yin tiklarini silliq interpolyatsiya qilingan harakat, aniq o'yin bosqichlari, sezgir boshqaruv, to'qnashuv va g'alaba holatlarini boshqarish hamda o'yinning asosiy qoidalarini qamrab oluvchi yo'naltirilgan test to'plami bilan birlashtiradi.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing mashinasi loyihasi",
         "text": "Turing mashinasining 30 dan ortiq ilovalari oilasi. Tadqiqot uchun turli dasturlash tillari, ayniqsa Tiger dasturlash tili uchun turing toʻliqligini koʻrsatish uchun foydalaniladi.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Rust da qurilgan va WebAssembly ga kompilyatsiya qilingan kukun-qum kimyo laboratoriyasi. Qum, suv, lava, po'lat, kaltsiy karbid yoki bir bo'lak natriy chizing va fizika va kimyo qanday kurashishini tomosha qiling: natriy suvda portlaydi, kaltsiy karbid asetilen chiqaradi, lava qumni shishaga aylantiradi va faqat zichlik moyni, simobni va qumni ajratadi. Dvigatel tekis hujayra buferi ustida 32 material va 40 deklarativ reaktsiya qoidalarini ishga tushiradi, piksellarni to'g'ridan-to'g'ri wasm chiziqli xotirasidan kadrda nusxalarsiz render qiladi.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Dvigatelni tanlang:",
     "tiger_code": "Yo'lbars kodi:",
     "run_tiger": "Yugurish Tiger",
-    "output": "Chiqish:"
+    "output": "Chiqish:",
+    "stop": "To'xtatish",
+    "program_input": "Dastur kiritish"
   },
   "tab": {
     "title": "Patrik Gudvin",
@@ -367,5 +516,8 @@
       "no_language_support": "Til qo'llab-quvvatlanmaydi"
     }
   },
-  "logotext": "PATRIK"
+  "logotext": "PATRIK",
+  "repo_button": {
+    "label": "GitHub’da manba kodini ko’rish"
+  }
 }

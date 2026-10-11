@@ -4,21 +4,29 @@
     "home": "ቤት",
     "about": "ስለ እኔ",
     "portfolio": "ፖርትፎሊዮ",
-    "projects": "የድር ጣቢያ ፕሮጀክቶች",
-    "tiger": "የነብር ቋንቋ",
-    "snake": "የእባብ ጨዋታ",
+    "projects": "የተመረጡ ፕሮጀክቶች",
+    "tiger": "Tiger - ብጁ የፕሮግራም አወጣጥ ቋንቋ",
+    "snake": "እባብ ጨዋታ",
     "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
-    "formatter": "JSON እና YAML ቅርጸት",
+    "formatter": "JSON እና YAML ፍተሻ",
     "contact": "አግኙኝ።",
     "home_description": "sys.root // ዋና አጠቃላይ እይታ",
-    "about_description": "የኢንጂነር ፕሮፋይል // ባዮ እና ቁልል",
-    "portfolio_description": "የሶፍትዌር ካታሎግ // ተለይተው የቀረቡ ስራዎች",
-    "projects_description": "በይነተገናኝ መሳሪያዎች እና አቀናባሪዎች",
-    "tiger_description": "ብጁ ማጠናከሪያ እና AST ምስላዊ",
-    "snake_description": "ክላሲክ የመጫወቻ ማዕከል ጨዋታ / WASM",
-    "portfolio_translator_description": "100+ ቋንቋ ማትሪክስ እና i18n",
-    "formatter_description": "የአገባብ አረጋጋጭ እና መቀየሪያ",
-    "contact_description": "ክፍት ስርጭት // ተገናኝ"
+    "about_description": "የመሐንዲስ መገለጫ // ባዮ እና ቴክኖሎጂ ስብስብ",
+    "portfolio_description": "የሶፍትዌር ካታሎግ // የተመረጡ ስራዎች",
+    "projects_description": "በይነተገናኝ መሳሪያዎች እና ኮምፓይለሮች",
+    "tiger_description": "ብጁ ኮምፓይለር እና AST እይታ ማሳያ",
+    "snake_description": "ክላሲክ አርኬድ ጨዋታ / WASM",
+    "portfolio_translator_description": "100+ የቋንቋ ማትሪክስ እና i18n",
+    "formatter_description": "የሰነድ አገባብ አረጋጋጭ እና ቀያሪ",
+    "contact_description": "ክፍት ማስተላለፍ // ያግኙኝ",
+    "arcade": "አርኬድ",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "አራት ማገናኘት የቋንቋ ዛፍ",
+    "alkalab_description": "የኬሚስትሪ ላብራቶሪ ማስመሰል / WASM",
+    "rustcraft_description": "Minecraft ዓይነት ቮክስል ጨዋታ / Rust እና wgpu",
+    "suprememc_description": "Minecraft ሞድ ማሳያ / Java"
   },
   "home": {
     "title": "ሲኒየር ሙሉ-ቁልል መሐንዲስ | ምርት እና ስርዓቶች",
@@ -35,126 +43,126 @@
     "contact_button": "አግኙኝ።",
     "about_button": "ስለ እኔ",
     "atlas": {
-      "invitation_kicker": "ስለ ሥራው የተለየ አመለካከት",
-      "invitation": "የምህንድስና አትላስ ያስሱ",
-      "kicker": "ፖርትፎሊዮ / የተገናኘ አስተሳሰብን ያጠናቅቁ",
-      "title": "ኢንጂነሪንግ አትላስ",
+      "invitation_kicker": "በስራው ላይ የተለየ አመለካከት",
+      "invitation": "የምህንድስና አትላስን ይዳስሱ",
+      "kicker": "ሙሉ ፖርትፎሊዮ / የተገናኘ አስተሳሰብ",
+      "title": "የምህንድስና አትላስ",
       "projects": "ፕሮጀክቶች",
-      "technologies": " መመዝገብ።",
+      "technologies": "ቴክኖሎጂዎች",
       "connections": "ግንኙነቶች",
-      "center": "ኢንጂነሪንግ አትላስ",
+      "center": "የምህንድስና አትላስ",
       "filter_label": "የፕሮጀክት ምድቦች",
       "domains": {
-        "all": "ሁሉም ስራዎች",
+        "all": "ሁሉም ስራ",
         "products": "ምርቶች",
-        "systems": "ስርዓቶች ",
+        "systems": "ስርዓቶች",
         "experiences": "ልምዶች"
       },
       "search": "ፕሮጀክት ወይም ቴክኖሎጂ ያግኙ",
-      "view_label": "የአትላስ እይታ",
-      "map_view": "የካርታ እይታ",
-      "map_navigation": "ፖርትፎሊዮ ካርታ አሰሳ",
-      "zoom_in": "ከቅርበት ዕይታ",
-      "zoom_out": "ከርቀት ዕይታ",
-      "zoom_level": "የካርታ zoom ደረጃ",
-      "fit_all": "ሁሉንም ፕሮጀክቶች ያመቻቹ",
-      "center_selected": "ማዕከል የተመረጠ ፕሮጀክት",
+      "view_label": "አትላስ እይታ",
+      "map_view": "ካርታ እይታ",
+      "map_navigation": "የፖርትፎሊዮ ካርታ ዳሰሳ",
+      "zoom_in": "አጉላ",
+      "zoom_out": "አንስ",
+      "zoom_level": "የካርታ ማጉላት ደረጃ",
+      "fit_all": "ሁሉንም ፕሮጀክቶች አስገጥም",
+      "center_selected": "የተመረጠውን ፕሮጀክት ማዕከል አድርግ",
       "all_technologies": "ሁሉም ቴክኖሎጂዎች",
-      "list_view": "<x id=\"1\"/>የተለመደው ዕይታ",
-      "pause": "የምልክት አኒሜሽን አቁም",
-      "resume": "የምልክት አኒሜሽን ዳግም ያስጀምሩ",
-      "project_selector": "ፕሮጀክቶችን ያስሱ",
-      "inspector": "የተመረጡ የፕሮጀክት ዝርዝሮች",
+      "list_view": "ዝርዝር እይታ",
+      "pause": "የምልክት እነማ አስተናግድ (በቆም)",
+      "resume": "የምልክት እነማ ቀጥል",
+      "project_selector": "ፕሮጀክቶችን ዳስስ",
+      "inspector": "የተመረጠው ፕሮጀክት ዝርዝር",
       "shared_stack": "የተጋራ ቴክኖሎጂ",
-      "family_connection": "የፕሮጀክት ቤተሰብ",
-      "portfolio_connection": "ፖርትፎሊዮ ግንኙነት",
+      "family_connection": "የፕሮጀክት ግንኙነት",
+      "portfolio_connection": "የፖርትፎሊዮ ግንኙነት",
       "families": {
-        "portfolio": "ፖርትፎሊዮ ማዕከል",
-        "business": "የንግድ ትግበራዎች",
-        "minecraft": "ከፍተኛMC & Minecraft",
-        "wasm": "WebAssembly ፕሮጀክቶች",
-        "libraries": "ስክሪፕት ቤተመፃህፍት",
+        "portfolio": "የፖርትፎሊዮ ማዕከል",
+        "business": "የንግድ መተግበሪያዎች",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "የWebAssembly ፕሮጀክቶች",
+        "libraries": "የስክሪፕት ቤተ-መጻሕፍት",
         "languages": "የቋንቋ ሙከራዎች",
-        "automation": "ራስ-ሰር & የውሂብ መሣሪያዎች",
-        "experience": "ሙያዊ & የትምህርት ተሞክሮ"
+        "automation": "አውቶማቲክ እና የውሂብ መሳሪያዎች",
+        "experience": "ሙያዊ እና ትምህርታዊ ልምድ"
       },
-      "browser_native": "አሳሽ-ነጭ / ምንም አገልጋይ የለም",
-      "no_results": "ምንም ተዛማጅ ፕሮጀክቶች የሉም",
-      "no_selection": "ምንም ፕሮጀክት አልተመረጠም.",
-      "reset": "ሁሉንም ማጣሪያዎችን ያፅዱ ",
-      "engineering_lens": "የምህንድስና እይታ",
+      "browser_native": "በአሳሽ ውስጥ / ያለ አገልጋይ",
+      "no_results": "ተዛማጅ ፕሮጀክቶች የሉም",
+      "no_selection": "ምንም ፕሮጀክት አልተመረጠም።",
+      "reset": "ማጣሪያዎችን አጽዳ",
+      "engineering_lens": "የምህንድስና አመለካከት",
       "connected_work": "የተገናኘ ስራ",
-      "open_live": "የቀጥታ ፕሮጀክት ይክፈቱ",
-      "open_project": "ፕሮጀክት ያስሱ",
-      "footer": "የተለያዩ ጎራዎች. አንድ የተገናኘ የምህንድስና ልምምድ.",
-      "contact": "ቀጥሎ የሚመጣውን እንገንባ",
+      "open_live": "የቀጥታ ፕሮጀክት ክፈት",
+      "open_project": "ፕሮጀክቱን ዳስስ",
+      "footer": "የተለያዩ መስኮች። አንድ የተገናኘ የምህንድስና ተግባር።",
+      "contact": "ቀጣዩን እንገንባ",
       "skills": {
         "yaml": "YAML",
-        "julia": "ጁሊያ",
-        "objectivec": "ዓላማ-ሲ",
-        "react": "ምላሽ ይስጡ",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
         "node": "Node.js",
-        "pipelines": "የውሂብ ቧንቧዎች",
-        "angular": "አንግል",
-        "access": "3. የመዳረሻ መቆጣጠሪያ",
+        "pipelines": "የውሂብ መስመሮች",
+        "angular": "Angular",
+        "access": "የመዳረሻ ቁጥጥር",
         "dotnet": ".NET",
         "sql": "SQL",
-        "testing": "በምርመራ ላይ?",
+        "testing": "መሞከር",
         "cobol": "COBOL",
         "svelte": "Svelte",
-        "interop": "በይነተገናኝነት",
-        "go": "ሂድ!",
+        "interop": "ተገናኝነት",
+        "go": "Go",
         "wasm": "WebAssembly",
-        "accessibility": "በቀላሉ የሚደርስ",
+        "accessibility": "ተደራሽነት",
         "python": "Python"
       },
       "stories": {
         "takeoff_engine": {
-          "summary": "ውስጥ የማይጣጣሙ ማሰራጫዎች. የግንባታ ግምቶች እና የደንበኛ ዝግጁ ጥቆማዎች ውጭ. በአስተዳዳሪው ትክክለኛ የሥራ ፍሰት ዙሪያ የተገነባ ሳአስ ምርት ።",
-          "lens": "ተጣጣፊ አስመጪዎች ጥብቅ የውስጥ ሞዴል ያስፈልጋቸዋል: ተጨማሪ ቅርጸቶች መቀበል አንድ ጨረታ ላይ የተመካውን ስሌት ደንቦች ማዳከም የለበትም."
+          "summary": "ወጥነት የሌላቸው የስፕሬድሺቶች ውስጥ። የግንባታ ግምቶች እና ለደንበኛ ዝግጁ የሆኑ ሀሳቦች ወጥ። በኮንትራክተሩ ትክክለኛ የስራ ፍሰት ዙሪያ የተገነባ የSaaS ምርት።",
+          "lens": "ተለዋዋጭ ገቢዎች ጥብቅ የውስጥ ሞዴል ያስፈልጋቸዋል፡ ተጨማሪ ቅርጸቶችን መቀበል ጨረታ የሚደገፍባቸውን የስሌት ህጎች ማዳከም የለበትም።"
         },
         "inventory_register": {
-          "summary": "አንድ Angular እና Node.js ነጥብ-የሽያጭ የስራ ፍሰት ትክክለኛ ተጠቃሚዎችን, ክምችት ትክክለኛነት, እና መሳለቂያ የክፍያ ፍሰት በማገናኘት.",
-          "lens": "ምዝገባ ከማረጋገጫ ማያ ገጽ በላይ ነው ። የሥራ ፍሰቱን ተጠያቂ ለማድረግ ሚናዎች ፣ የአክሲዮን ለውጦች እና የክፍያ ግዛቶች ግልጽ ድንበሮች ያስፈልጋሉ ።"
+          "summary": "የተረጋገጡ ተጠቃሚዎችን፣ የእቃ ትክክለኛነትን እና የሐሰት የክፍያ ፍሰትን የሚያገናኝ የAngular እና Node.js የሽያጭ ቦታ የስራ ፍሰት።",
+          "lens": "መዝገብ ከቼክአውት ስክሪን የበለጠ ነው። ሚናዎች፣ የክምችት ለውጦች እና የክፍያ ሁኔታዎች የስራ ፍሰቱን ተጠያቂ ለማድረግ ግልጽ ድንበሮች ያስፈልጋቸዋል።"
         },
         "grocery_app": {
-          "summary": "አንድ .NET 9 Blazor ማመልከቻ መቆጣጠሪያ, አገልግሎት, እና የማከማቻ ድንበሮች, Entity ማዕቀፍ ኮር ጽናት, እና አጠቃላይ የሙከራ ስብስብ ጋር.",
-          "lens": "መለያየት የንግድ ደንቦች በይነገጽ እና ጽናት ንብርብር በተናጠል ሊፈተኑ በሚችሉበት ጊዜ ቦታውን ያገኛል ።"
+          "summary": "ተቆጣጣሪ፣ አገልግሎት እና ማከማቻ ድንበሮች፣ Entity Framework Core ጽናት እና አጠቃላይ የሙከራ ስብስብ ያለው የ.NET 9 Blazor መተግበሪያ።",
+          "lens": "የንግድ ህጎች ከበይነገጽ እና ከጽናት ሽፋን ራሳቸውን ችለው መሞከር ሲችሉ መለያየት ቦታውን ያገኛል።"
         },
         "payrollobol": {
-          "summary": "GnuCOBOL የደመወዝ ማቀነባበሪያ የ SQLite ድርብ-ገባ LEDger እና የ Svelte ክወና ዳሽቦርድን ያሟላል ።",
-          "lens": "የገንዘብ ትክክለኛነት በውክልና ይጀምራል-ኢንቲጀር-ማዕከላዊ አርቲሜቲክ እና ሚዛናዊ የ LEDger ግቤቶች የገንዘብ እንቅስቃሴን በግልፅ ያደርጉታል ።"
+          "summary": "GnuCOBOL የደመወዝ ማስኬጃ ከSQLite ድርብ-ግቤት መዝገብ እና ከSvelte የክዋኔ ዳሽቦርድ ጋር ይገናኛል።",
+          "lens": "የፋይናንስ ትክክለኛነት በውክልና ይጀምራል፡ የኢንቲጀር-ሳንቲም ሒሳብ እና ሚዛናዊ የመዝገብ ግቤቶች የገንዘብ እንቅስቃሴን ግልጽ ያደርጋሉ።"
         },
         "interop": {
-          "summary": "15 የፕሮግራም ቋንቋዎችን እና 18 የአፈጻጸም ቅጦችን የሚዘረጋ የመስቀል ቋንቋ ማጣቀሻ ፣ በሩጫ ጊዜ ድንበሮች ላይ ምን እንደሚከሰት በመመርመር ።",
-          "lens": "አስቸጋሪው ክፍል በ Runtimes መካከል ያለው ውል ነው-የዳታ ልውውጥ ፣ የሂደት ባህሪ እና ተደጋጋሚ የአፈፃፀም ጉዳይ ከሲንተክስ የበለጠ ።"
+          "summary": "15 የፕሮግራም ቋንቋዎችን እና 18 የማስፈጸሚያ ዘይቤዎችን የሚዘልቅ፣ በሩጫ ጊዜ ድንበሮች ላይ የሚሆነውን የሚዳስስ የክሮስ-ቋንቋ ማጣቀሻ።",
+          "lens": "ከባዱ ክፍል በሩጫ ሰዓቶች መካከል ያለው ውል ነው፡ የውሂብ ልውውጥ፣ የሂደት ባህሪ እና የሚደጋገም አፈጻጸም ከሰነድ አገባብ የበለጠ አስፈላጊ ናቸው።"
         },
         "formatter": {
-          "summary": "የ WebAssembly ወደ የተዋሃደ እውነተኛ Go Parsing ሞተር. JSON እና YAML ማረጋገጫ እና ቅርጸት በአሳሽ ውስጥ በአካባቢው ይሮጣሉ.",
-          "lens": "ፓርሰሩን ወደ አሳሹ ማዛወር ለአከባቢው ማቀነባበሪያ ፣ ለተንቀሳቃሽነት እና ለአነስተኛ የአገልጋይ ጥገኛነት ትልቅ የደንበኛ ክፍያ ይከፍላል ።"
+          "summary": "ወደ WebAssembly የተጠናቀረ እውነተኛ የGo አንባቢ ሞተር። JSON እና YAML ማረጋገጥ እና ቅርጸት በአሳሹ ውስጥ በአካባቢው ይሰራል።",
+          "lens": "አንባቢውን ወደ አሳሹ ማንቀሳቀስ ትልቅ የደንበኛ ጭነትን በአካባቢያዊ ማቀነባበር፣ ተንቀሳቃሽነት እና ጥቂት የአገልጋይ ጥገኞች ይለውጣል።"
         },
         "portfolio_website": {
-          "summary": "እርስዎ ውስጥ ነዎት ጣቢያ: 100+ ቋንቋዎች, ተደራሽ መስተጋብር, እና WebAssembly መሣሪያዎች ጋር React ፖርትፎሊዮ.",
-          "lens": "ቋሚ ማሰማራት ማለት ቋሚ ተሞክሮ ማለት አይደለም ። ሀብታም ግንኙነቶች ያለ መተግበሪያ አገልጋይ በደንበኛው ላይ መኖር ይችላሉ ።"
+          "summary": "እርስዎ ያሉበት ጣቢያ፡ ከ100+ ቋንቋዎች፣ ተደራሽ መስተጋብሮች እና የሚሰሩ የWebAssembly መሳሪያዎች ጋር የReact ፖርትፎሊዮ።",
+          "lens": "ስታቲክ ማሰማራት ስታቲክ ልምድ ማለት የለበትም። ሀብታም መስተጋብሮች ያለ መተግበሪያ አገልጋይ በደንበኛው ላይ ሊኖሩ ይችላሉ።"
         },
         "biblioteca": {
-          "summary": "አንድ ነጠላ የተዋቀረ የይዘት ምንጭን ወደ 100+ ቋንቋዎች ወደሚገኝ ፖርትፎሊዮ የሚቀይር የ Python አካባቢያዊ ቧንቧ ።",
-          "lens": "ዓለም አቀፍ ተደራሽነት እንደ የትርጉም ችግር ሁሉ የመረጃ ጥገና ችግር ነው ። አንድ የእውነት ምንጭ የይዘት ለውጦችን የሚተዳደር ያደርገዋል ።"
+          "summary": "አንድ የተዋቀረ የይዘት ምንጭን በ100+ ቋንቋዎች ወደሚገኝ ፖርትፎሊዮ የሚቀይር የPython የአካባቢ አሰራር መስመር።",
+          "lens": "ዓለም አቀፍ ተደራሽነት እንደ ትርጉም ችግር ሁሉ የውሂብ ጥገና ችግር ነው። አንድ የእውነት ምንጭ የይዘት ለውጦችን መቆጣጠር ቀላል ያደርጋል።"
         }
       }
     },
     "featured": {
-      "kicker": "ተለይተው የቀረቡ ፕሮጀክቶች",
-      "title": "የተመረጠ ሥራ",
-      "description": "የሥልጣን ጥመኛ ሀሳቦችን ወደ የተወለወለ፣ የሚሰራ ሶፍትዌር እንዴት እንደምቀይር የሚወክሉ ስድስት ፕሮጀክቶች።",
-      "view_project": "ፕሮጀክት ይመልከቱ",
-      "open_project": "የቀጥታ ፕሮጀክት ክፈት",
-      "view_all": "ሙሉውን ፖርትፎሊዮ ያስሱ",
+      "kicker": "የተመረጡ ፕሮጀክቶች",
+      "title": "የተመረጠ ስራ",
+      "description": "ሀሳባዊ ሃሳቦችን ወደ ተጣራ፣ የሚሰራ ሶፍትዌር እንዴት እንደምቀይር በሚገባ የሚወክሉ ስድስት ፕሮጀክቶች።",
+      "view_project": "ፕሮጀክቱን ይመልከቱ",
+      "open_project": "የቀጥታ ፕሮጀክት ይክፈቱ",
+      "view_all": "ሙሉውን ፖርትፎሊዮ ይዳስሱ",
       "badges": {
-        "saas": "ሳአኤስ",
-        "full_website": "ሙሉ ድር ጣቢያ",
-        "available_here": "እዚህ ይገኛል።",
-        "minecraft_mod": "Minecraft Mod"
+        "saas": "SaaS",
+        "full_website": "ሙሉ ድረ-ገጽ",
+        "available_here": "እዚህ ይገኛል",
+        "minecraft_mod": "Minecraft ሞድ"
       }
     }
   },
@@ -203,7 +211,25 @@
       "title": "የቴክኒክ ችሎታዎች",
       "header1": "የፕሮግራም አወጣጥ ቋንቋዎች",
       "header2": "ማዕቀፎች እና ቤተ መጻሕፍት",
-      "header3": "መሣሪያዎች እና ቴክኖሎጂዎች"
+      "header3": "መሣሪያዎች እና ቴክኖሎጂዎች",
+      "technologies": "ቴክኖሎጂዎች",
+      "search_label": "አጣራ",
+      "search_placeholder": "ክህሎቶችን አጣራ…",
+      "clear_search": "ማጣሪያ አጽዳ",
+      "no_matches": "ከማጣሪያዎ ጋር የሚዛመድ ክህሎት የለም።",
+      "works": "ስራዎች",
+      "experience": "ልምድ",
+      "professional": "ሙያዊ",
+      "education": "ትምህርት",
+      "paired_with": "ብዙውን ጊዜ ከሚጣመር",
+      "summary_professional": "በ{items} ሙያዊ ጥቅም ላይ ውሏል።",
+      "summary_education": "በ{items} ተምሮ ተተግብሯል።",
+      "summary_projects": "በ{items} በተግባር ተተግብሯል።",
+      "summary_projects_also": "በ{items} ውስጥም ተተግብሯል።",
+      "and_more": "ተጨማሪ",
+      "scroll_more": "ለተጨማሪ ስራዎች ያሸብልሉ",
+      "show_less": "ጥቂት አሳይ",
+      "no_samples": "የስራ መሳሪያ ስብስቤ አካል ነው። እንዴት እንደተጠቀምኩበት ለማሳየት ደስተኛ ነኝ።"
     },
     "services": {
       "title": "የእኔ አገልግሎቶች",
@@ -221,6 +247,13 @@
           "text": "ከጀመርኩ በኋላ ከእውነታው ጋር እገነባለሁ፡ ሚስጥሮች ከምንጩ ቁጥጥር ውጭ የተጠበቁ፣ ግልጽ የውሂብ ጎታ ፍልሰት መንገዶች፣ ሚና ላይ የተመሰረተ ፍቃድ፣ በስርዓት ወሰኖች ላይ ማረጋገጥ፣ አውቶሜትድ ፈተናዎች፣ CI/CD ግንዛቤ እና ተግባራዊ ታዛቢነት። ፕሮቶታይፕን ወደ አስተማማኝ ሶፍትዌር የሚቀይሩት እነዚህ ዝርዝሮች ናቸው።"
         }
       ]
+    },
+    "certifications": {
+      "title": "ፈቃዶች እና ሰርተፊኬቶች",
+      "credential": "ሰርተፊኬት",
+      "issued_by": "የተሰጠው በ",
+      "issued": "የተሰጠ",
+      "verify": "ሰርተፊኬት አረጋግጥ"
     }
   },
   "portfolio": {
@@ -234,7 +267,7 @@
       },
       "connect_four": {
         "title": "አገናኝ አራት",
-        "text": "የግንኙነት አራት ጨዋታ ከ50+ በላይ ትግበራዎች ያሉት ትልቅ ቤተሰብ። ይህ ፕሮጀክት Java፣ C++፣ Python፣ JavaScript እና ሌሎችንም ጨምሮ በተለያዩ ከ30 በላይ የፕሮግራም አወጣጥ ቋንቋዎች ትግበራዎችን ያካትታል። በተጨማሪም፣ React.js፣ Ruby on Rails፣ ASP.NET እና ሌሎችንም ጨምሮ ከ20+ በላይ የተለያዩ ማዕቀፎችን ወይም ሌሎች ቅርጸቶችን ያካትታል።",
+        "text": "የአራት ማገናኘት ጨዋታ 90+ ትግበራዎች ግዙፍ ቤተሰብ። ፕሮጀክቱ Java፣ C++፣ Python እና JavaScriptን ጨምሮ ከ30+ የፕሮግራም ቋንቋዎች፣ እንዲሁም ከReact፣ Angular እና Blazor እስከ Django፣ Spring Boot፣ Phoenix፣ PostgreSQL እና ሌሎችም ከ50+ የተለያዩ ማዕቀፎች፣ ቤተ-መጻሕፍት፣ ሩጫ ሰዓቶች እና ዳታቤዞችን ይሸፍናል።",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -253,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "ክፍያ OBOL",
-        "text": "በGnuCOBOL፣ በSQLite ድርብ መግቢያ ደብተር እና በስቬልት ኦፕሬሽኖች ዳሽቦርድ የተገነባ የአካባቢ የደመወዝ ክፍያ ሂደት። የኢንቲጀር-ሴንት ሂሳብ፣ የደመወዝ ክፍያ ሂደት እና የ loopback ዳሽቦርድ የፋይናንሺያል የስራ ሂደቶችን ግልፅ፣ ሊሞከር የሚችል እና በስራ ላይ የሚውል ተጠያቂ ለማድረግ ይጠቀማል።",
+        "title": "PayrollOBOL",
+        "text": "በGnuCOBOL፣ SQLite ድርብ-ግቤት መዝገብ እና Svelte የክዋኔ ዳሽቦርድ የተገነባ የአካባቢ የደመወዝ ማስኬጃ ስርዓት። የኢንቲጀር-ሳንቲም ሒሳብን፣ የቡድን ደመወዝ ማስኬጃን እና የloopback ዳሽቦርድን በመጠቀም የፋይናንስ የስራ ፍሰቶችን ግልጽ፣ ሊሞከሩ የሚችሉ እና በክዋኔ ተጠያቂ ያደርጋል።",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -329,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "በጨዋታው ላይ ብጁ መሳሪያዎችን ፣ ጋሻዎችን ፣ ሞብስን ፣ ብሎኮችን ፣ ልኬቶችን እና ሌሎች ብዙ ባህሪያትን የሚጨምር Minecraft Mod። በዋነኛነት በጃቫ እና ኮትሊን የተሰራ፣ የሚኔክራፍት ስሪቶችን ከ1.16 እስከ 26.2 ባለው ድጋፍ።",
+        "text": "ብጁ መሳሪያዎችን፣ ትጥቅን፣ ጭራቆችን፣ ብሎኮችን፣ ልኬቶችን እና ሌሎች ብዙ ባህሪያትን ወደ ጨዋታው የሚጨምር የMinecraft ሞድ። በዋናነት በJava እና Kotlin የተገነባ፣ Minecraft ስሪቶችን 1.16 እስከ 26.2 የሚደግፍ።",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "የእባብ ጨዋታ",
-        "text": "በራስት እና በማክሮ ኳድ የተሰራ፣ ወደ WebAssembly የተጠናቀረ እና በHTML5 Canvas የተሰራ የተጣራ የእባብ ሞተር። ወሳኙ የ0.12-ሰከንድ የጨዋታ መዥገሮች ለስላሳ የተጠላለፉ እንቅስቃሴዎች፣ ግልጽ የጨዋታ ደረጃዎች፣ ምላሽ ሰጪ ቁጥጥሮች፣ ግጭት እና የአሸናፊ ግዛት አያያዝ እና ትኩረት የተደረገ ሙከራን ያጣምራል። ዋና የጨዋታ ህጎችን የሚሸፍን ስብስብ።",
+        "title": "እባብ ጨዋታ",
+        "text": "በRust እና Macroquad የተገነባ፣ ወደ WebAssembly የተጠናቀረ እና በHTML5 Canvas የሚቀርብ የተጣራ እባብ ሞተር። ወጥ የሆነ 0.12-ሰከንድ የጨዋታ ቲኮችን ከለሰለሰ የተጠላለፈ እንቅስቃሴ፣ ግልጽ የጨዋታ ደረጃዎች፣ ምላሽ ሰጪ መቆጣጠሪያዎች፣ የግጭት እና የማሸነፍ ሁኔታ አያያዝ እና ዋናዎቹን የጨዋታ ህጎች የሚሸፍን ያተኮረ የሙከራ ስብስብ ያጣምራል።",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -351,6 +384,11 @@
         "title": "የቱሪንግ ማሽን ፕሮጀክት",
         "text": "ከ30+ በላይ የቱሪንግ ማሽን ትግበራዎች ቤተሰብ። ለተለያዩ የፕሮግራም አወጣጥ ቋንቋዎች ለምርምር በተለይም ለነብር ፕሮግራሚንግ ቋንቋ ምሉዕነትን ለማሳየት ይጠቅማል።",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "በRust የተገነባ እና ወደ WebAssembly የተጠናቀረ የዱቄት-አሸዋ ኬሚስትሪ ላብራቶሪ። አሸዋ፣ ውሃ፣ ላቫ፣ ብረት፣ የካልሲየም ካርቦይድ ወይም አንድ የሶዲየም ቁራጭ ይቀቡ እና ፊዚክስ እና ኬሚስትሪ ሲታገሉ ይመልከቱ፡ ሶዲየም በውሃ ውስጥ ይፈነዳል፣ ካልሲየም ካርቦይድ አሴቲሊን ያፈላል፣ ላቫ አሸዋን ወደ ብርጭቆ ይለውጣል፣ እና ጥግግት ብቻ ዘይትን፣ ሜርኩሪን እና አሸዋን ይለያል። ሞተሩ 32 ቁሶችን እና 40 የማወጃ ምላሽ ህጎችን በጠፍጣፋ ሴል ቋት ያካሂዳል፣ ፒክስሎችን በቀጥታ ከwasm መስመራዊ ማህደረ ትውስታ ያቀርባል።",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -394,7 +432,9 @@
     "select_engine": "ሞተር ይምረጡ፡-",
     "tiger_code": "የነብር ኮድ፡-",
     "run_tiger": "ነብርን አሂድ",
-    "output": "ውጤት፡"
+    "output": "ውጤት፡",
+    "stop": "አቁም",
+    "program_input": "የፕሮግራም ግብዓት"
   },
   "tab": {
     "title": "ፓትሪክ Goodwin",
@@ -476,5 +516,8 @@
       "no_language_support": "የቋንቋ ድጋፍ የለም።"
     }
   },
-  "logotext": "ፓትሪክ"
+  "logotext": "ፓትሪክ",
+  "repo_button": {
+    "label": "ምንጭ ኮድን በGitHub ላይ ይመልከቱ"
+  }
 }

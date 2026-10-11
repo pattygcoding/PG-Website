@@ -4,21 +4,29 @@
     "home": "Heim",
     "about": "Über mich",
     "portfolio": "Portfolio",
-    "projects": "Website-Projekte",
-    "tiger": "Tigersprache",
-    "snake": "Schlangen- spiel",
+    "projects": "Ausgewählte Projekte",
+    "tiger": "Tiger - Eine eigene Programmiersprache",
+    "snake": "Snake-Spiel",
     "portfolio_translator": "Portfolio-Übersetzer",
-    "formatter": "JSON- und YAML-Formatierer",
+    "formatter": "JSON- & YAML-Linter",
     "contact": "Kontaktieren Sie mich",
     "home_description": "sys.root // Hauptübersicht",
-    "about_description": "ingenieurprofil// Bio & Stack",
-    "portfolio_description": "softwarekatalog // Hervorgehobene Arbeiten",
+    "about_description": "Ingenieursprofil // Bio & Stack",
+    "portfolio_description": "Softwarekatalog // ausgewählte Arbeiten",
     "projects_description": "interaktive Tools & Compiler",
-    "tiger_description": "benutzerdefinierter Compiler & AST-Visualisierer",
-    "snake_description": "Classic Arcade game.",
+    "tiger_description": "eigener Compiler & AST-Visualizer",
+    "snake_description": "klassisches Arcade-Spiel / WASM",
     "portfolio_translator_description": "100+ Sprachmatrix & i18n",
-    "formatter_description": "syntaxvalidator & Konverter",
-    "contact_description": "getriebe öffnen// Kontakt aufnehmen"
+    "formatter_description": "Syntax-Validator & Konverter",
+    "contact_description": "offene Übertragung // Kontakt aufnehmen",
+    "arcade": "Spielehalle",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Vier gewinnt Sprachbaum",
+    "alkalab_description": "Chemielabor-Simulation / WASM",
+    "rustcraft_description": "Minecraft-artiges Voxel-Spiel / Rust & wgpu",
+    "suprememc_description": "Minecraft-Mod-Showcase / Java"
   },
   "home": {
     "title": "Leitender Full-Stack-Ingenieur | Produkt & Systeme",
@@ -35,17 +43,126 @@
     "contact_button": "Kontaktieren Sie mich",
     "about_button": "Über mich",
     "featured": {
-      "kicker": " Empfohlene Projekte",
-      "title": "Ausgewählte Arbeit",
-      "description": "Sechs Projekte, die am besten repräsentieren, wie ich ehrgeizige Ideen in ausgefeilte, funktionierende Software umwandle.",
-      "view_project": "Projekt anzeigen",
+      "kicker": "Ausgewählte Projekte",
+      "title": "Ausgewählte Arbeiten",
+      "description": "Sechs Projekte, die am besten zeigen, wie ich ambitionierte Ideen in saubere, funktionierende Software verwandle.",
+      "view_project": "Projekt ansehen",
       "open_project": "Live-Projekt öffnen",
-      "view_all": "Entdecken Sie das Portfolio",
+      "view_all": "Das vollständige Portfolio erkunden",
       "badges": {
         "saas": "SaaS",
         "full_website": "Vollständige Website",
-        "available_here": "HIER ERHÄLTLICH",
+        "available_here": "Hier verfügbar",
         "minecraft_mod": "Minecraft-Mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Eine andere Perspektive auf die Arbeit",
+      "invitation": "Engineering-Atlas erkunden",
+      "kicker": "Vollständiges Portfolio / vernetztes Denken",
+      "title": "Engineering-Atlas",
+      "projects": "Projekte",
+      "technologies": "Technologien",
+      "connections": "Verbindungen",
+      "center": "Engineering-Atlas",
+      "filter_label": "Projektkategorien",
+      "domains": {
+        "all": "Alle Arbeiten",
+        "products": "Produkte",
+        "systems": "Systeme",
+        "experiences": "Erfahrungen"
+      },
+      "search": "Projekt oder Technologie finden",
+      "view_label": "Atlas-Ansicht",
+      "map_view": "Kartenansicht",
+      "map_navigation": "Portfolio-Kartennavigation",
+      "zoom_in": "Vergrößern",
+      "zoom_out": "Verkleinern",
+      "zoom_level": "Karten-Zoomstufe",
+      "fit_all": "Alle Projekte einpassen",
+      "center_selected": "Ausgewähltes Projekt zentrieren",
+      "all_technologies": "Alle Technologien",
+      "list_view": "Listenansicht",
+      "pause": "Signal-Animation pausieren",
+      "resume": "Signal-Animation fortsetzen",
+      "project_selector": "Projekte erkunden",
+      "inspector": "Details des ausgewählten Projekts",
+      "shared_stack": "Geteilte Technologie",
+      "family_connection": "Projektverbindung",
+      "portfolio_connection": "Portfolio-Verbindung",
+      "families": {
+        "portfolio": "Portfolio-Hub",
+        "business": "Geschäftsanwendungen",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly-Projekte",
+        "libraries": "Skript-Bibliotheken",
+        "languages": "Sprachexperimente",
+        "automation": "Automatisierungs- & Datentools",
+        "experience": "Berufliche & Bildungserfahrung"
+      },
+      "browser_native": "Browser-nativ / ohne Server",
+      "no_results": "Keine passenden Projekte",
+      "no_selection": "Kein Projekt ausgewählt.",
+      "reset": "Filter löschen",
+      "engineering_lens": "Ingenieursperspektive",
+      "connected_work": "Vernetzte Arbeit",
+      "open_live": "Live-Projekt öffnen",
+      "open_project": "Projekt erkunden",
+      "footer": "Verschiedene Domänen. Eine vernetzte Ingenieurspraxis.",
+      "contact": "Bauen wir, was als Nächstes kommt",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Daten-Pipelines",
+        "angular": "Angular",
+        "access": "Zugriffskontrolle",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testen",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilität",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Barrierefreiheit",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Inkonsistente Tabellen hinein. Baukostenschätzungen und kundenfertige Angebote heraus. Ein SaaS-Produkt, das um den tatsächlichen Arbeitsablauf des Bauunternehmers gebaut ist.",
+          "lens": "Flexible Importe brauchen ein strenges internes Modell: Mehr Formate zu akzeptieren darf die Berechnungsregeln, von denen ein Angebot abhängt, nicht schwächen."
+        },
+        "inventory_register": {
+          "summary": "Ein Point-of-Sale-Workflow mit Angular und Node.js, der authentifizierte Benutzer, Bestandsgenauigkeit und einen simulierten Zahlungsablauf verbindet.",
+          "lens": "Eine Kasse ist mehr als ein Bezahlbildschirm. Rollen, Bestandsänderungen und Zahlungszustände brauchen klare Grenzen, um den Workflow verantwortungsvoll zu halten."
+        },
+        "grocery_app": {
+          "summary": "Eine .NET-9-Blazor-Anwendung mit Controller-, Service- und Repository-Grenzen, Entity-Framework-Core-Persistenz und einer umfassenden Testsuite.",
+          "lens": "Trennung verdient ihren Platz, wenn Geschäftsregeln unabhängig von der Schnittstelle und der Persistenzschicht getestet werden können."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL-Lohnverarbeitung trifft auf ein SQLite-Doppelkonten-Hauptbuch und ein Svelte-Betriebs-Dashboard.",
+          "lens": "Finanzielle Korrektheit beginnt mit der Darstellung: Ganzzahl-Cent-Arithmetik und ausgeglichene Buchungen machen Geldbewegungen explizit."
+        },
+        "interop": {
+          "summary": "Eine sprachübergreifende Referenz über 15 Programmiersprachen und 18 Ausführungsmuster, die untersucht, was an Laufzeitgrenzen passiert.",
+          "lens": "Der schwierige Teil ist der Vertrag zwischen Laufzeiten: Datenaustausch, Prozessverhalten und reproduzierbare Ausführung zählen mehr als Syntax."
+        },
+        "formatter": {
+          "summary": "Eine echte Go-Parsing-Engine, zu WebAssembly kompiliert. JSON- und YAML-Validierung und Formatierung laufen lokal im Browser.",
+          "lens": "Der Parser im Browser tauscht eine größere Client-Last gegen lokale Verarbeitung, Portabilität und weniger Server-Abhängigkeiten."
+        },
+        "portfolio_website": {
+          "summary": "Die Seite, auf der Sie sind: ein React-Portfolio mit über 100 Sprachen, barrierefreien Interaktionen und funktionierenden WebAssembly-Tools.",
+          "lens": "Eine statische Bereitstellung muss keine statische Erfahrung bedeuten. Reiche Interaktionen können ohne Anwendungsserver auf dem Client leben."
+        },
+        "biblioteca": {
+          "summary": "Eine Python-Lokalisierungs-Pipeline, die eine einzige strukturierte Content-Quelle in ein in über 100 Sprachen verfügbares Portfolio verwandelt.",
+          "lens": "Globale Reichweite ist ebenso ein Datenwartungsproblem wie ein Übersetzungsproblem. Eine einzige Quelle der Wahrheit hält Inhaltsänderungen handhabbar."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Technische Fähigkeiten",
       "header1": "Programmiersprachen",
       "header2": "Frameworks und Bibliotheken",
-      "header3": "Werkzeuge und Technologien"
+      "header3": "Werkzeuge und Technologien",
+      "technologies": "Technologien",
+      "search_label": "Filtern",
+      "search_placeholder": "Fähigkeiten filtern…",
+      "clear_search": "Filter löschen",
+      "no_matches": "Keine Fähigkeiten entsprechen Ihrem Filter.",
+      "works": "Arbeiten",
+      "experience": "Erfahrung",
+      "professional": "Beruflich",
+      "education": "Bildung",
+      "paired_with": "Oft kombiniert mit",
+      "summary_professional": "Beruflich genutzt bei {items}.",
+      "summary_education": "Studiert und angewendet bei {items}.",
+      "summary_projects": "Praktisch angewendet in {items}.",
+      "summary_projects_also": "Auch angewendet in {items}.",
+      "and_more": "mehr",
+      "scroll_more": "Für weitere Arbeiten scrollen",
+      "show_less": "Weniger anzeigen",
+      "no_samples": "Teil meines Arbeits-Werkzeugkastens. Ich zeige gern, wie ich es verwendet habe."
     },
     "services": {
       "title": "Meine Dienste",
@@ -112,6 +247,13 @@
           "text": "Ich baue mit Blick auf die Realitäten nach dem Start: Geheimnisse, die der Quellcodeverwaltung entzogen bleiben, explizite Datenbankmigrationspfade, rollenbasierte Autorisierung, Validierung an Systemgrenzen, automatisierte Tests, CI/CD-Bewusstsein und praktische Beobachtbarkeit. Es sind die Details, die aus einem Prototyp eine zuverlässige Software machen."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lizenzen & Zertifizierungen",
+      "credential": "Zertifizierung",
+      "issued_by": "Ausgestellt von",
+      "issued": "Ausgestellt",
+      "verify": "Zertifizierung verifizieren"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Vier verbinden",
-        "text": "Riesige Familie mit über 50 Implementierungen des Connect Four-Spiels. Dieses Projekt umfasst Implementierungen in über 30 verschiedenen Programmiersprachen, darunter Java, C++, Python, JavaScript und mehr. Darüber hinaus enthält es über 20 verschiedene Frameworks oder andere Formate, darunter React.js, Ruby on Rails, ASP.NET und mehr.",
+        "text": "Eine riesige Familie von über 90 Implementierungen des Vier-gewinnt-Spiels. Das Projekt umfasst über 30 Programmiersprachen, darunter Java, C++, Python und JavaScript, sowie über 50 verschiedene Frameworks, Bibliotheken, Laufzeiten und Datenbanken – von React, Angular und Blazor bis Django, Spring Boot, Phoenix, PostgreSQL und mehr.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Ein lokales Gehaltsabrechnungssystem, das mit GnuCOBOL, einem SQLite-Doppelbuch und einem Svelte-Operations-Dashboard erstellt wurde. Es verwendet Integer-Cent-Mathematik, Batch-Gehaltsabrechnungsverarbeitung und ein Loopback-Dashboard, um finanzielle Workflows explizit, testbar und betrieblich rechenschaftspflichtig zu machen.",
+        "text": "Ein lokales Lohnabrechnungssystem, gebaut mit GnuCOBOL, einem SQLite-Doppelkonten-Hauptbuch und einem Svelte-Betriebs-Dashboard. Es verwendet Ganzzahl-Cent-Mathematik, Batch-Lohnabrechnung und ein Loopback-Dashboard, um Finanzabläufe explizit, testbar und betrieblich verantwortungsvoll zu machen.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Ein Minecraft-Mod, der dem Spiel benutzerdefinierte Werkzeuge, Rüstungen, Mobs, Blöcke, Dimensionen und viele weitere Funktionen hinzufügt. Hauptsächlich mit Java und Kotlin erstellt, mit Unterstützung für die Minecraft-Versionen 1.16 bis 26.2.",
+        "text": "Ein Minecraft-Mod, der dem Spiel eigene Werkzeuge, Rüstungen, Mobs, Blöcke, Dimensionen und viele weitere Funktionen hinzufügt. Hauptsächlich mit Java und Kotlin gebaut, mit Unterstützung für Minecraft-Versionen 1.16 bis 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Schlangen- spiel",
-        "text": "Eine polierte Snake-Engine, die mit Rust und Macroquad erstellt, in WebAssembly kompiliert und über HTML5 Canvas gerendert wurde. Es kombiniert deterministische 0,12-Sekunden-Spielzecken mit reibungsloser interpolierter Bewegung, expliziten Spielphasen, reaktionsschnellen Kontrollen, Kollisions- und Win-State-Handling und einem fokussierten Test suite, die die wichtigsten Spielregeln abdeckt.",
+        "title": "Snake-Spiel",
+        "text": "Eine ausgefeilte Snake-Engine, gebaut mit Rust und Macroquad, kompiliert zu WebAssembly und über HTML5-Canvas gerendert. Sie kombiniert deterministische 0,12-Sekunden-Spiel-Ticks mit weicher interpolierter Bewegung, expliziten Spielphasen, reaktionsschnellen Steuerungen, Kollisions- und Siegzustandsbehandlung sowie einer fokussierten Testsuite für die Kern-Spielregeln.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing-Maschinenprojekt",
         "text": "Familie von über 30 Implementierungen der Turing-Maschine. Wird verwendet, um die Turing-Vollständigkeit für verschiedene Programmiersprachen zu Forschungszwecken zu demonstrieren, insbesondere für die Programmiersprache Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Ein Pulver-Sand-Chemielabor, in Rust gebaut und zu WebAssembly kompiliert. Male Sand, Wasser, Lava, Stahl, Kalziumkarbid oder ein Stück Natrium und sieh zu, wie Physik und Chemie kämpfen: Natrium detoniert in Wasser, Kalziumkarbid sprudelt Acetylen, Lava schmilzt Sand zu Glas, und die Dichte allein sortiert Öl, Quecksilber und Sand. Die Engine verarbeitet 32 Materialien und 40 deklarative Reaktionsregeln über einen flachen Zellpuffer und rendert Pixel direkt aus dem linearen wasm-Speicher ohne Kopien pro Frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Motor auswählen:",
     "tiger_code": "Tiger-Code:",
     "run_tiger": "Führen Sie Tiger aus",
-    "output": "Ausgabe:"
+    "output": "Ausgabe:",
+    "stop": "Stopp",
+    "program_input": "Programmeingabe"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Keine Sprachunterstützung"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Quellcode auf GitHub ansehen"
+  }
 }

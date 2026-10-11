@@ -4,21 +4,29 @@
     "home": "Nyumbani",
     "about": "Kuhusu Mimi",
     "portfolio": "Kwingineko",
-    "projects": "Miradi ya Tovuti",
-    "tiger": "Lugha ya Tiger",
-    "snake": "Mchezo wa Nyoka",
+    "projects": "Miradi iliyochaguliwa",
+    "tiger": "Tiger - Lugha Maalum ya Kupanga",
+    "snake": "Mchezo wa nyoka",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "Muundo wa JSON & YAML",
+    "formatter": "Kikagua JSON & YAML",
     "contact": "Wasiliana Nami",
     "home_description": "sys.root // muhtasari mkuu",
-    "about_description": "wasifu wa mhandisi // wasifu na stack",
-    "portfolio_description": "katalogi ya programu // kazi zilizoangaziwa",
-    "projects_description": "zana ingiliani & wakusanyaji",
-    "tiger_description": "mkusanyaji maalum & taswira ya AST",
-    "snake_description": "mchezo wa kisasa wa arcade / WASM",
-    "portfolio_translator_description": "100+ lugha matrix & i18n",
-    "formatter_description": "kihalalishi cha sintaksia & kibadilishaji",
-    "contact_description": "fungua maambukizi // wasiliana"
+    "about_description": "wasifu wa mhandisi // bio na teknolojia",
+    "portfolio_description": "katalogi ya programu // kazi zilizochaguliwa",
+    "projects_description": "zana shirikishi na wakusanyaji",
+    "tiger_description": "mkusanyaji maalum na kionyeshi cha AST",
+    "snake_description": "mchezo wa kawaida wa arkade / WASM",
+    "portfolio_translator_description": "matrix ya lugha 100+ na i18n",
+    "formatter_description": "kithibitishaji na kibadilisha cha sintaksia",
+    "contact_description": "usambazaji wazi // wasiliana nami",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Mti wa lugha wa Nne Mfululizo",
+    "alkalab_description": "uigaji wa maabara ya kemia / WASM",
+    "rustcraft_description": "mchezo wa voxel wa mtindo wa Minecraft / Rust na wgpu",
+    "suprememc_description": "maonyesho ya mod ya Minecraft / Java"
   },
   "home": {
     "title": "Mhandisi Mwandamizi wa Rafu Kamili | Bidhaa na Mifumo",
@@ -35,17 +43,126 @@
     "contact_button": "Wasiliana Nami",
     "about_button": "Kuhusu Mimi",
     "featured": {
-      "kicker": "Miradi Iliyoangaziwa",
-      "title": "Kazi Iliyochaguliwa",
-      "description": "Miradi sita inayowakilisha vyema jinsi ninavyogeuza mawazo kabambe kuwa programu iliyoboreshwa, inayofanya kazi.",
-      "view_project": "Tazama Mradi",
-      "open_project": "Fungua Mradi wa Moja kwa Moja",
+      "kicker": "Miradi iliyochaguliwa",
+      "title": "Kazi zilizochaguliwa",
+      "description": "Miradi sita inayowakilisha vyema jinsi ninavyogeuza mawazo makubwa kuwa programu iliyong'aa na inayofanya kazi.",
+      "view_project": "Tazama mradi",
+      "open_project": "Fungua mradi wa moja kwa moja",
       "view_all": "Chunguza kwingineko kamili",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Tovuti Kamili",
-        "available_here": "Inapatikana Hapa",
-        "minecraft_mod": "Moduli ya Minecraft"
+        "full_website": "Tovuti kamili",
+        "available_here": "Inapatikana hapa",
+        "minecraft_mod": "Mod ya Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Mtazamo tofauti kuhusu kazi",
+      "invitation": "Chunguza atlas ya uhandisi",
+      "kicker": "Kwingineko kamili / fikra iliyounganishwa",
+      "title": "Atlas ya Uhandisi",
+      "projects": "Miradi",
+      "technologies": "Teknolojia",
+      "connections": "Miunganisho",
+      "center": "Atlas ya uhandisi",
+      "filter_label": "Kategoria za miradi",
+      "domains": {
+        "all": "Kazi zote",
+        "products": "Bidhaa",
+        "systems": "Mifumo",
+        "experiences": "Uzoefu"
+      },
+      "search": "Tafuta mradi au teknolojia",
+      "view_label": "Mwonekano wa atlas",
+      "map_view": "Mwonekano wa ramani",
+      "map_navigation": "Uabiri wa ramani ya kwingineko",
+      "zoom_in": "Kuza",
+      "zoom_out": "Punguza",
+      "zoom_level": "Kiwango cha kukuza ramani",
+      "fit_all": "Weza miradi yote",
+      "center_selected": "Weka mradi uliochaguliwa katikati",
+      "all_technologies": "Teknolojia zote",
+      "list_view": "Mwonekano wa orodha",
+      "pause": "Sitisha uhuishaji wa ishara",
+      "resume": "Endelea uhuishaji wa ishara",
+      "project_selector": "Chunguza miradi",
+      "inspector": "Maelezo ya mradi uliochaguliwa",
+      "shared_stack": "Teknolojia shirikishi",
+      "family_connection": "Unganisho wa mradi",
+      "portfolio_connection": "Unganisho wa kwingineko",
+      "families": {
+        "portfolio": "Kituo cha kwingineko",
+        "business": "Programu za biashara",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Miradi ya WebAssembly",
+        "libraries": "Maktaba za hati",
+        "languages": "Majaribio ya lugha",
+        "automation": "Zana za automatisering na data",
+        "experience": "Uzoefu wa kitaaluma na kielimu"
+      },
+      "browser_native": "Asili ya kivinjari / bila seva",
+      "no_results": "Hakuna miradi inayolingana",
+      "no_selection": "Hakuna mradi uliochaguliwa.",
+      "reset": "Futa vichujio",
+      "engineering_lens": "Mtazamo wa uhandisi",
+      "connected_work": "Kazi iliyounganishwa",
+      "open_live": "Fungua mradi wa moja kwa moja",
+      "open_project": "Chunguza mradi",
+      "footer": "Nyanja tofauti. Mazoezi moja ya uhandisi yaliyounganishwa.",
+      "contact": "Tujenge yanayofuata",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Bomba za data",
+        "angular": "Angular",
+        "access": "Udhibiti wa ufikiaji",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Upimaji",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Ushirikiano",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Ufikivu",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Majedwali yasiyolingana kuingia. Makadirio ya ujenzi na mapendekezo yaliyotayarishwa kwa mteja kutoka nje. Bidhaa ya SaaS iliyojengwa kuzunguka mtiririko halisi wa kazi wa mkandarasi.",
+          "lens": "Uingizaji rahisi unahitaji muundo mkali wa ndani: kukubali fomati zaidi haipaswi kudhoofisha sheria za hesabu ambazo zabuni inategemea."
+        },
+        "inventory_register": {
+          "summary": "Mtiririko wa kazi wa sehemu ya mauzo kwa Angular na Node.js unaounganisha watumiaji waliothibitishwa, usahihi wa hesabu, na mtiririko wa malipo wa kuigwa.",
+          "lens": "Rejista ni zaidi ya skrini ya malipo. Majukumu, mabadiliko ya hisa, na hali za malipo zinahitaji mipaka iliyo wazi ili kuweka mtiririko wa kazi uwajibikaji."
+        },
+        "grocery_app": {
+          "summary": "Aplikisho la .NET 9 Blazor lenye mipaka ya kidhibiti, huduma, na hifadhi, uthabiti wa Entity Framework Core, na seti kamili ya majaribio.",
+          "lens": "Utengano unapata nafasi yake wakati sheria za biashara zinaweza kujaribiwa kwa uhuru kutoka kwenye kiolesura na safu ya uthabiti."
+        },
+        "payrollobol": {
+          "summary": "Usindikaji wa mishahara wa GnuCOBOL unakutana na daftari kuu la SQLite la kumbukumbu mbili na paneli ya uendeshaji ya Svelte.",
+          "lens": "Usahihi wa kifedha huanza na uwakilishi: hesabu ya senti kamili na kumbukumbu zilizosawazishwa hufanya mwendo wa fedha kuwa wazi."
+        },
+        "interop": {
+          "summary": "Rejea kati ya lugha inayojumuisha lugha 15 za kupanga na mifumo 18 ya utekelezaji, ikichunguza kile kinachotokea kwenye mipaka ya muda wa utekelezaji.",
+          "lens": "Sehemu ngumu ni mkataba kati ya nyakati za utekelezaji: kubadilishana data, tabia ya michakato, na utekelezaji unaoweza kurudiwa vina umuhimu zaidi kuliko sintaksia."
+        },
+        "formatter": {
+          "summary": "Injini halisi ya kuchanganua Go iliyokusanywa kwa WebAssembly. Uthibitishaji na uumbizaji wa JSON na YAML hufanya kazi kwenye kivinjari.",
+          "lens": "Kuhamisha kichanganuzi kwenye kivinjari hubadilisha mzigo mkubwa wa mteja kwa usindikaji wa ndani, usafirishaji, na utegemezi mdogo wa seva."
+        },
+        "portfolio_website": {
+          "summary": "Tovuti uiliyomo: kwingineko ya React yenye lugha 100+, mwingiliano unaofikika, na zana za WebAssembly zinazofanya kazi.",
+          "lens": "Uwekaji tuli haimaanishi uzoefu tuli. Mwingiliano tajiri unaweza kuishi kwenye mteja bila seva ya aplikisho."
+        },
+        "biblioteca": {
+          "summary": "Bomba la ujanibishaji la Python ambalo hubadilisha chanzo kimoja cha maudhui yaliyostrukturishwa kuwa kwingineko inayopatikana kwa lugha 100+.",
+          "lens": "Ufikiaji wa kimataifa ni tatizo la matengenezo ya data vile vile tatizo la tafsiri. Chanzo kimoja cha ukweli hufanya mabadiliko ya maudhui yaweze kudhibitiwa."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Ujuzi wa Kiufundi",
       "header1": "Lugha za Kupanga Programu",
       "header2": "Mifumo na Maktaba",
-      "header3": "Zana na Teknolojia"
+      "header3": "Zana na Teknolojia",
+      "technologies": "teknolojia",
+      "search_label": "Chuja",
+      "search_placeholder": "Chuja ujuzi…",
+      "clear_search": "Futa kichujio",
+      "no_matches": "Hakuna ujuzi unaolingana na kichujio chako.",
+      "works": "Kazi",
+      "experience": "Uzoefu",
+      "professional": "Kitaaluma",
+      "education": "Elimu",
+      "paired_with": "Mara nyingi huunganishwa na",
+      "summary_professional": "Imetumika kitaaluma katika {items}.",
+      "summary_education": "Imesomwa na kutumika katika {items}.",
+      "summary_projects": "Imetumika kivitendo katika {items}.",
+      "summary_projects_also": "Pia imetumika katika {items}.",
+      "and_more": "zaidi",
+      "scroll_more": "Sogeza chini kwa kazi zaidi",
+      "show_less": "Onyesha pungufu",
+      "no_samples": "Sehemu ya zana zangu za kufanyia kazi. Nafurahi kueleza jinsi nilivyoitumia."
     },
     "services": {
       "title": "Huduma Zangu",
@@ -112,6 +247,13 @@
           "text": "Ninaunda kwa kuzingatia hali halisi baada ya uzinduzi: siri zilizowekwa nje ya udhibiti wa chanzo, njia dhahiri za uhamishaji wa hifadhidata, uidhinishaji unaotegemea jukumu, uthibitishaji katika mipaka ya mfumo, majaribio ya kiotomatiki, ufahamu wa CI/CD, na uangalizi wa vitendo. Haya ni maelezo ambayo yanageuza mfano kuwa programu inayotegemewa."
         }
       ]
+    },
+    "certifications": {
+      "title": "Leseni na vyeti",
+      "credential": "Cheti",
+      "issued_by": "Imetolewa na",
+      "issued": "Tarehe ya utoaji",
+      "verify": "Thibitisha cheti"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Unganisha Nne",
-        "text": "Familia kubwa ya zaidi ya 50+ ya utekelezaji wa mchezo wa Unganisha Nne. Mradi huu unajumuisha utekelezaji katika zaidi ya lugha 30 tofauti za programu, ikiwa ni pamoja na Java, C++, Python, JavaScript, na zaidi. Zaidi ya hayo, pia inajumuisha zaidi ya mifumo 20+ tofauti au miundo mingine, ikijumuisha React.js, Ruby on Rails, ASP.NET, na zaidi.",
+        "text": "Familia kubwa ya utekelezaji 90+ wa mchezo wa Nne Mfululizo. Mradi unajumuisha lugha 30+ za kupanga, zikiwemo Java, C++, Python, na JavaScript, pamoja na framework, maktaba, nyakati za utekelezaji, na hifadhidata 50+ tofauti, kutoka React, Angular, na Blazor hadi Django, Spring Boot, Phoenix, PostgreSQL, na nyinginezo.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Mfumo wa uchakataji wa mishahara wa ndani uliojengwa kwa GnuCOBOL, leja ya kuingiza mara mbili ya SQLite na dashibodi ya shughuli za Svelte. Inatumia hesabu ya asilimia kamili, usindikaji wa malipo ya kundi, na dashibodi ya kurudi nyuma ili kufanya utendakazi wa kifedha uwe wazi, uweze kufanyiwa majaribio, na uwajibike kiutendaji.",
+        "text": "Mfumo wa ndani wa usindikaji wa mishahara uliojengwa kwa GnuCOBOL, daftari kuu la SQLite la kumbukumbu mbili, na paneli ya uendeshaji ya Svelte. Hutumia hesabu ya senti kamili, usindikaji wa mishahara wa kundi, na paneli ya loopback kufanya mtiririko wa fedha kuwa wazi, kuthibitika, na kuwajibika kioperative.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "Moduli ya SupremeMC Minecraft",
-        "text": "Mod ya Minecraft ambayo huongeza zana maalum, silaha, makundi, vitalu, vipimo na vipengele vingi zaidi kwenye mchezo. Imeundwa hasa na Java na Kotlin, ikiwa na usaidizi wa matoleo ya Minecraft 1.16 hadi 26.2.",
+        "text": "Mod ya Minecraft inayoongeza zana maalum, silaha, mobs, bloki, vipimo, na vipengele vingine vingi kwenye mchezo. Imejengwa hasa kwa Java na Kotlin, inayosaidia matoleo ya Minecraft 1.16 hadi 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Mchezo wa Nyoka",
-        "text": "Injini iliyoboreshwa ya Snake iliyojengwa kwa Rust na Macroquad, iliyokusanywa kwa WebAssembly, na kutekelezwa kupitia HTML5 Canvas. Inachanganya tiki za mchezo wa sekunde 0.12 na harakati laini zilizoingiliwa, awamu za mchezo wazi, vidhibiti vya kuitikia, mgongano na ushughulikiaji wa kushinda-hali, na jaribio la umakini. Suite inayofunika sheria kuu za mchezo.",
+        "title": "Mchezo wa nyoka",
+        "text": "Injini ya Nyoka iliyong'aa iliyojengwa kwa Rust na Macroquad, kukusanywa kwa WebAssembly, na kutoa kupitia HTML5 Canvas. Huunganisha tiki za mchezo za 0.12-sekunde zilizobainika na mwendo laini wa kuingiliana, awamu wazi za mchezo, udhibiti unaoitikia, ushughulikiaji wa migongano na hali za ushindi, na seti ya majaribio iliyolenga inayojumuisha sheria za msingi za mchezo.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Mradi wa Mashine ya Turing",
         "text": "Familia ya zaidi ya 30+ ya utekelezaji wa Mashine ya Kugeuza. Inatumika kuonyesha ukamilifu wa upangaji kwa lugha tofauti za upangaji kwa utafiti, haswa kwa Lugha ya Kupanga Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Maabara ya kemia ya mchanga wa poda iliyojengwa kwa Rust na kukusanywa kwa WebAssembly. Chora mchanga, maji, lava, chuma, calcium carbide, au kipande cha sodium na tazama fizikia na kemia zikipigana: sodium hulipuka majini, calcium carbide hutoa acetilini, lava huyeyusha mchanga kuwa glasi, na msongamano pekee hutenganisha mafuta, zebaki, na mchanga. Injini huendesha nyenzo 32 na sheria 40 za athari za kimatamko kwenye buffer bapa ya seli, ikitoa pikseli moja kwa moja kutoka kwenye kumbukumbu ya mstari ya wasm bila nakala kwa kila fremu.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Chagua Injini:",
     "tiger_code": "Msimbo wa Tiger:",
     "run_tiger": "Kukimbia Tiger",
-    "output": "Pato:"
+    "output": "Pato:",
+    "stop": "Acha",
+    "program_input": "Ingizo la programu"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Hakuna usaidizi wa lugha"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Angalia msimbo wa chanzo kwenye GitHub"
+  }
 }

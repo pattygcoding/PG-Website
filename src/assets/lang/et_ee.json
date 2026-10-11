@@ -4,21 +4,29 @@
     "home": "Kodu",
     "about": "Minu kohta",
     "portfolio": "Portfell",
-    "projects": "Veebisaidi projektid",
-    "tiger": "Tiigri keel",
-    "snake": "Madu mäng",
+    "projects": "Esiletõstetud projektid",
+    "tiger": "Tiger - Kohandatud programmeerimiskeel",
+    "snake": "Madumäng",
     "portfolio_translator": "Portfelli tõlkija",
-    "formatter": "JSON ja YAML vormindaja",
+    "formatter": "JSON-i ja YAML-i linter",
     "contact": "Võtke minuga ühendust",
-    "home_description": "sys.root // põhiülevaade",
-    "about_description": "inseneri profiil // bio & pinu",
-    "portfolio_description": "tarkvarakataloog // esiletoodud teosed",
+    "home_description": "sys.root // peamine ülevaade",
+    "about_description": "inseneri profiil // bio ja tehnoloogiahunnik",
+    "portfolio_description": "tarkvarakataloog // esiletõstetud tööd",
     "projects_description": "interaktiivsed tööriistad ja kompilaatorid",
-    "tiger_description": "kohandatud kompilaator ja AST visualiseerija",
-    "snake_description": "klassikaline arkaadmäng / WASM",
-    "portfolio_translator_description": "100+ keelemaatriks ja i18n",
-    "formatter_description": "süntaksi valideerija ja muundur",
-    "contact_description": "ava edastus // võta ühendust"
+    "tiger_description": "kohandatud kompilaator ja AST-visualiseerija",
+    "snake_description": "klassikaline arkaadimäng / WASM",
+    "portfolio_translator_description": "100+ keele maatriks ja i18n",
+    "formatter_description": "süntaksivalidaator ja -muundur",
+    "contact_description": "avatud edastus // võtke ühendust",
+    "arcade": "Arkaadimängud",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Neli rida keelepuu",
+    "alkalab_description": "keemialabori simulatsioon / WASM",
+    "rustcraft_description": "Minecraft-tüüpi vokselimäng / Rust ja wgpu",
+    "suprememc_description": "Minecraft modi vaateaken / Java"
   },
   "home": {
     "title": "Full-Stack'i vaneminsener | Tooted ja süsteemid",
@@ -35,17 +43,126 @@
     "contact_button": "Võtke minuga ühendust",
     "about_button": "Minu kohta",
     "featured": {
-      "kicker": "ESILETÕSTETUD PROJEKTID",
-      "title": "Valitud töö",
-      "description": "Kuus projekti, mis esindavad kõige paremini seda, kuidas ma muudan ambitsioonikad ideed lihvitud, toimivaks tarkvaraks.",
+      "kicker": "Esiletõstetud projektid",
+      "title": "Valitud tööd",
+      "description": "Kuus projekti, mis esindavad kõige paremini seda, kuidas muudan ambitsioonikad ideed lihvitud ja töötavaks tarkvaraks.",
       "view_project": "Vaata projekti",
-      "open_project": "Ava reaalajas projekt",
-      "view_all": "Tutvu kogu portfoolioga",
+      "open_project": "Ava otseülekanne-projekt",
+      "view_all": "Avasta täielik portfell",
       "badges": {
         "saas": "SaaS",
         "full_website": "Täielik veebisait",
-        "available_here": "SAADAVAL SIIN",
-        "minecraft_mod": "Minecraft Mod"
+        "available_here": "Saadaval siin",
+        "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Teistsugune vaatenurk tööle",
+      "invitation": "Avasta inseneriatlas",
+      "kicker": "Täielik portfell / ühendatud mõtlemine",
+      "title": "Inseneriatlas",
+      "projects": "Projektid",
+      "technologies": "Tehnoloogiad",
+      "connections": "Ühendused",
+      "center": "Inseneriatlas",
+      "filter_label": "Projektikategooriad",
+      "domains": {
+        "all": "Kogu töö",
+        "products": "Tooted",
+        "systems": "Süsteemid",
+        "experiences": "Kogemused"
+      },
+      "search": "Leia projekt või tehnoloogia",
+      "view_label": "Atlase vaade",
+      "map_view": "Kaardivaade",
+      "map_navigation": "Portfelli kaardil navigeerimine",
+      "zoom_in": "Suurenda",
+      "zoom_out": "Vähenda",
+      "zoom_level": "Kaardi suurendamise tase",
+      "fit_all": "Mahuta kõik projektid",
+      "center_selected": "Tsentreeri valitud projekt",
+      "all_technologies": "Kõik tehnoloogiad",
+      "list_view": "Loendivaade",
+      "pause": "Peata signaalianimatsioon",
+      "resume": "Jätka signaalianimatsiooni",
+      "project_selector": "Avasta projekte",
+      "inspector": "Valitud projekti üksikasjad",
+      "shared_stack": "Jagatud tehnoloogia",
+      "family_connection": "Projekti ühendus",
+      "portfolio_connection": "Portfelli ühendus",
+      "families": {
+        "portfolio": "Portfelli keskus",
+        "business": "Ettevõtterakendused",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly projektid",
+        "libraries": "Skriptiraamatukogud",
+        "languages": "Keelekatsed",
+        "automation": "Automatiseerimise ja andmete tööriistad",
+        "experience": "Kutsealane ja õppekogemus"
+      },
+      "browser_native": "Brauserinatiivne / ilma serverita",
+      "no_results": "Sobivaid projekte pole",
+      "no_selection": "Ühtegi projekti pole valitud.",
+      "reset": "Tühjenda filtrid",
+      "engineering_lens": "Inseneri vaatenurk",
+      "connected_work": "Ühendatud töö",
+      "open_live": "Ava otseülekanne-projekt",
+      "open_project": "Avasta projekt",
+      "footer": "Erinevad valdkonnad. Üks ühendatud inseneritava.",
+      "contact": "Ehitame koos seda, mis tuleb",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Andmetorud",
+        "angular": "Angular",
+        "access": "Juurdepääsu kontroll",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testimine",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Koostalitlusvõime",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Ligipääsetavus",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Ebakõlad tabelid sisse. Ehitusprognoosid ja kliendivalmis pakkumised välja. SaaS-toode, mis on üles ehitatud töövõtja tegeliku töövoo ümber.",
+          "lens": "Paindlikud impordid nõuavad ranget sisemudelit: rohkemate vormingute vastuvõtmine ei tohi nõrgendada arvutusreegleid, millest pakkumine sõltub."
+        },
+        "inventory_register": {
+          "summary": "Müügikoha töövoog Angulariga ja Node.js-ga, mis ühendab autenditud kasutajad, lao täpsuse ja simuleeritud maksete voo.",
+          "lens": "Kassa on rohkem kui makseekraan. Rollid, laomuudatused ja makseolekud vajavad selgeid piire, et töövoog püsiks vastutav."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor rakendus kontrolleri-, teenuse- ja hoidla-piiridega, Entity Framework Core püsivusega ja põhjaliku testikomplektiga.",
+          "lens": "Eraldamine väärib oma kohta, kui ärireegleid saab testida liidesest ja püsivuskihist sõltumatult."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL-i palgaarvestus kohtub SQLite topeltkirjendusraamatuga ja Svelte-i töölaual.",
+          "lens": "Finantsiline õigsus algab esitusest: täis-sendiaritmeetika ja tasakaalustatud kirjed muudavad raha liikumise selgesõnaliseks."
+        },
+        "interop": {
+          "summary": "Keelteülene viide, mis hõlmab 15 programmeerimiskeelt ja 18 täitmisviisi, uurides, mis toimub täitusaja piiridel.",
+          "lens": "Raske osa on täituskeskkondade vaheline leping: andmevahetus, protsessikäitumine ja korratav täitmine on olulisemad kui süntaks."
+        },
+        "formatter": {
+          "summary": "Päris Go parsimismootor, mis on kompileeritud WebAssemblyks. JSON-i ja YAML-i valideerimine ja vormindamine töötab brauseris lokaalselt.",
+          "lens": "Parseri brauserisse viimine vahetab suurema kliendi koormuse lokaalse töötluse, kaasaskantavuse ja vähemate serverisõltuvuste vastu."
+        },
+        "portfolio_website": {
+          "summary": "Sait, kus te olete: React-portfell üle 100 keele, ligipääsetavate interaktsioonide ja töötavate WebAssembly tööriistadega.",
+          "lens": "Staatiline käivitamine ei pea tähendama staatilist kogemust. Rikkalikud interaktsioonid võivad elada kliendil ilma rakendusserverita."
+        },
+        "biblioteca": {
+          "summary": "Pythoni lokaliseerimistoru, mis muudab ühe struktureeritud sisuallika portfelliks, mis on saadaval üle 100 keeles.",
+          "lens": "Globaalne haare on sama palju andmehaldusprobleem kui tõlkeprobleem. Üks tõeallikas hoiab sisumuudatused hallatavatena."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tehnilised oskused",
       "header1": "Programmeerimiskeeled",
       "header2": "Raamistikud ja raamatukogud",
-      "header3": "Tööriistad ja tehnoloogiad"
+      "header3": "Tööriistad ja tehnoloogiad",
+      "technologies": "tehnoloogiad",
+      "search_label": "Filtreeri",
+      "search_placeholder": "Filtreeri oskusi…",
+      "clear_search": "Tühjenda filter",
+      "no_matches": "Ükski oskus ei vasta teie filtrile.",
+      "works": "Tööd",
+      "experience": "Kogemus",
+      "professional": "Professionaalne",
+      "education": "Haridus",
+      "paired_with": "Sageli seostatud",
+      "summary_professional": "Kasutatud professionaalselt kohas {items}.",
+      "summary_education": "Õpitud ja rakendatud kohas {items}.",
+      "summary_projects": "Rakendatud praktiliselt kohas {items}.",
+      "summary_projects_also": "Rakendatud ka kohas {items}.",
+      "and_more": "rohkem",
+      "scroll_more": "Keri rohkemate tööde jaoks",
+      "show_less": "Näita vähem",
+      "no_samples": "Osa minu töötööriistade komplektist. Selgitan hea meelega, kuidas olen seda kasutanud."
     },
     "services": {
       "title": "Minu teenused",
@@ -112,6 +247,13 @@
           "text": "Ehitan käivitamise järgset tegelikkust silmas pidades: allika kontrolli alt väljas olevad saladused, selgesõnalised andmebaasi migratsiooniteed, rollipõhine autoriseerimine, valideerimine süsteemipiiridel, automatiseeritud testid, CI/CD teadlikkus ja praktiline jälgitavus. Need on detailid, mis muudavad prototüübi töökindlaks tarkvaraks."
         }
       ]
+    },
+    "certifications": {
+      "title": "Litsentsid ja sertifikaadid",
+      "credential": "Sertifikaat",
+      "issued_by": "Välja andnud",
+      "issued": "Väljaandmise kuupäev",
+      "verify": "Kinnita sertifikaat"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Ühendage neli",
-        "text": "Mängu Connect Four massiivne perekond, mis koosneb enam kui 50+ rakendusest. See projekt sisaldab rakendusi enam kui 30 erinevas programmeerimiskeeles, sealhulgas Java, C++, Python, JavaScript ja palju muud. Lisaks sisaldab see ka rohkem kui 20 erinevat raamistikku või muud vormingut, sealhulgas React.js, Ruby on Rails, ASP.NET ja palju muud.",
+        "text": "Hiiglaslik perekond, kuhu kuulub üle 90 Neli rida mängu rakenduse. Projekt hõlmab üle 30 programmeerimiskeele, sealhulgas Java, C++, Python ja JavaScript, ning üle 50 erineva raamistiku, teegi, täituskeskkonna ja andmebaasi – alates React, Angular ja Blazor kuni Django, Spring Boot, Phoenix, PostgreSQL ja palju muuni.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PalgaarvestusOBOL",
-        "text": "Kohalik palgatöötlussüsteem, mis on ehitatud GnuCOBOLi, SQLite 'i kahekordse kirjendamise pearaamatu ja Svelte operatsioonide armatuurlauaga. See kasutab täisarvulise sendi matemaatikat, palgaarvestuse töötlemist ja tagasiside töölauda, et muuta finantstöövood selgesõnaliseks, testitavaks ja operatiivselt vastutavaks.",
+        "title": "PayrollOBOL",
+        "text": "Kohalik palgaarvestussüsteem, mis on ehitatud GnuCOBOL-i, SQLite topeltkirjendusraamatu ja Svelte-i töölaual. See kasutab täissendimatemaatikat, partiipõhist palgaarvestust ja loopback-töölauda, et muuta rahalised töövood selgesõnaliseks, testitavaks ja operatiivselt vastutavaks.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecrafti mod",
-        "text": "Minecrafti modifikatsioon, mis lisab mängule kohandatud tööriistu, raudrüüd, mobe, plokke, mõõtmeid ja palju muid funktsioone. Ehitatud peamiselt Java ja Kotliniga ning tugi hõlmab Minecrafti versioone 1.16 kuni 26.2.",
+        "text": "Minecraft mod, mis lisab mängu kohandatud tööriistu, soomust, mobisid, plokke, mõõtmeid ja palju muid funktsioone. Ehitatud peamiselt Java ja Kotlin keeltega, toetades Minecrafti versioone 1.16 kuni 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Maomäng",
-        "text": "Poleeritud madumootor, mis on ehitatud rooste ja makrokvadiga, kompileeritud WebAssembly 'i ja sulatatud HTML5 lõuendi kaudu. See ühendab deterministliku0,12-sekundilise mängu puugid sujuva interpoleeritud liikumise, selgesõnalise mängufaasi, reageeriva juhtimise, kokkupõrke ja võiduseisundi käsitlemise ning keskendunud testiga komplekt, mis hõlmab põhilisi mängureegleid.",
+        "title": "Madumäng",
+        "text": "Lihvitud Madumootor, mis on ehitatud Rust ja Macroquad keeltega, kompileeritud WebAssemblyks ja renderdatud läbi HTML5 Canvas. See ühendab deterministlikud 0,12-sekundilised mängutikitid sujuva interpoleeritud liikumise, selgete mängufaaside, reageeriva juhtimise, kokkupõrgete ja võiduolekute töötlusega ning fokuseeritud testikomplektiga, mis katab mängu põhireegleid.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turingi masina projekt",
         "text": "Perekond, mis koosneb enam kui 30 Turingi masina juurutusest. Kasutatakse erinevate programmeerimiskeelte täielikkuse demonstreerimiseks uuringute jaoks, eriti tiigri programmeerimiskeele jaoks.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Pulbri-liiva keemialabor, mis on ehitatud Rust keeles ja kompileeritud WebAssemblyks. Värvige liiva, vett, laavat, terast, kaltsiumkarbiidi või tükikest naatriumi ja vaadake, kuidas füüsika ja keemia võitlevad: naatrium detoneerib vees, kaltsiumkarbiid eraldab atsetüleeni, laava sulatab liiva klaasiks ja ainult tihedus sorteerib õli, elavhõbeda ja liiva. Mootor töötab 32 materjali ja 40 deklaratiivse reaktsioonireegliga üle tasase rakupuhvri, renderdades piksleid otse wasm lineaar-mälust ilma kaadri kohta tehtavate koopiateta.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Valige mootor:",
     "tiger_code": "Tiigri kood:",
     "run_tiger": "Jookse Tiiger",
-    "output": "Väljund:"
+    "output": "Väljund:",
+    "stop": "Peata",
+    "program_input": "Programmi sisend"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Keele tugi puudub"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Vaata lähtekoodi GitHubis"
+  }
 }
