@@ -183,7 +183,12 @@ const Lang = () => {
 
 	return (
 		<div className="lang-wrapper" ref={dropdownRef} onBlur={(event) => {
-			if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
+			// Touch devices fire blur with a null relatedTarget just before the
+			// tap's click event; closing here would unmount the dropdown and
+			// swallow the selection. Outside taps are still handled by the
+			// document click listener below, so only close when focus genuinely
+			// moves to a real element outside the wrapper.
+			if (event.relatedTarget && !event.currentTarget.contains(event.relatedTarget)) setOpen(false);
 		}}>
 			<button
 				ref={toggleRef}

@@ -9,6 +9,36 @@ test.each([["en_us", "en-US"], ["iw_il", "he-IL"], ["jw_id", "jv-ID"], ["zh-CN_c
 	expect(getLanguageTag(locale)).toBe(expected);
 });
 
+test("keeps the dropdown open when a touch blur (null relatedTarget) fires before a tap selection", async () => {
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(<MemoryRouter><LanguageProvider><Lang /></LanguageProvider></MemoryRouter>));
+		const toggle = container.querySelector<HTMLElement>(".lang-toggle")!;
+		act(() => toggle.click());
+		expect(toggle.getAttribute("aria-expanded")).toBe("true");
+
+		// Mobile browsers fire focusout with no relatedTarget when a tap lands on
+		// an option. This must not close the dropdown before the click registers.
+		const wrapper = container.querySelector<HTMLElement>(".lang-wrapper")!;
+		act(() => {
+			wrapper.dispatchEvent(new FocusEvent("focusout", { bubbles: true, relatedTarget: null }));
+		});
+		expect(toggle.getAttribute("aria-expanded")).toBe("true");
+
+		// The subsequent tap on an option must still select the language.
+		const spanish = Array.from(container.querySelectorAll<HTMLElement>(".lang-option")).find((option) => option.querySelector('[lang="es-MX"]'));
+		await act(async () => spanish!.click());
+		await vi.waitFor(() => expect(document.documentElement.lang).toBe("es-MX"));
+		expect(toggle.getAttribute("aria-expanded")).toBe("false");
+	} finally {
+		act(() => root.unmount());
+		container.remove();
+	}
+});
+
 test("labels language buttons and restores focus on Escape and selection", async () => {
 	global.IS_REACT_ACT_ENVIRONMENT = true;
 	const container = document.createElement("div");
