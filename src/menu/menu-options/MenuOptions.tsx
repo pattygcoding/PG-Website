@@ -49,8 +49,8 @@ const MenuOptions = ({ handleToggle, closeMenu }: MenuOptionsProps) => {
 	return (
 		<div className="atlas-menu">
 			<div className="atlas-menu__scenery" aria-hidden="true">
-				<div className="atlas-menu__galaxy" style={{ backgroundImage: `url("${import.meta.env.BASE_URL}/assets/images/galaxy-m101.jpg")` }} />
-				<div className="atlas-menu__coast" />
+				<div className="atlas-menu__galaxy" style={{ backgroundImage: `url("${import.meta.env.BASE_URL}assets/images/galaxy-m101.jpg")` }} />
+				<div className="atlas-menu__coast" style={{ "--coast-texture": `url("${import.meta.env.BASE_URL}assets/images/white_background.jpg")` } as CssVariables} />
 			</div>
 			<div className="atlas-menu__content">
 				<div className="atlas-menu__masthead">

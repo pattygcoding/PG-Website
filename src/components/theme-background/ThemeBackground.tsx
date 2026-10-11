@@ -110,7 +110,10 @@ function AnimatedThemeBackground({ compact }: { compact: boolean }) {
             <div className="theme-atmosphere__night" />
             <div
                 className="theme-atmosphere__day"
-                style={{ "--cloud-texture": `url("${import.meta.env.BASE_URL}/assets/images/cirrus-clouds.jpg")` } as CssVariables}
+                style={{
+                    "--cloud-texture": `url("${import.meta.env.BASE_URL}assets/images/cirrus-clouds.jpg")`,
+                    "--beach-texture": `url("${import.meta.env.BASE_URL}assets/images/white_background.jpg")`,
+                } as CssVariables}
             >
                 <div className="theme-atmosphere__beach" />
                 <div className="theme-atmosphere__sunlight" />
@@ -127,7 +130,7 @@ function AnimatedThemeBackground({ compact }: { compact: boolean }) {
             <div className="theme-atmosphere__orbit">
                 <div
                     className="theme-atmosphere__galaxy"
-                    style={{ backgroundImage: `url("${import.meta.env.BASE_URL}/assets/images/galaxy-m101.jpg")` }}
+                    style={{ backgroundImage: `url("${import.meta.env.BASE_URL}assets/images/galaxy-m101.jpg")` }}
                 />
                 {["distant", "near"].map((depth, layer) => (
                     <div className={`theme-atmosphere__stars theme-atmosphere__stars--${depth}`} key={depth}>
