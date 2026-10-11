@@ -4,21 +4,29 @@
     "home": "Ile",
     "about": "Nipa mi",
     "portfolio": "Portfolio",
-    "projects": "Aaye ayelujara Projects",
-    "tiger": "Ede Tiger",
-    "snake": "Ejo Ere",
+    "projects": "Awọn iṣẹ akanṣe ti a yan",
+    "tiger": "Tiger - Ede Siseto ti Ara ẹni",
+    "snake": "Ere ejo",
     "portfolio_translator": "Onitumọ Portfolio",
-    "formatter": "JSON & YAML oluṣeto",
+    "formatter": "Ayẹwo JSON & YAML",
     "contact": "Kan si mi",
-    "home_description": "sys.root // akọkọ Akopọ",
-    "about_description": "profaili ẹlẹrọ // bio & akopọ",
-    "portfolio_description": "software katalogi // ifihan awọn iṣẹ",
-    "projects_description": "ohun ibanisọrọ irinṣẹ & alakojo",
-    "tiger_description": "aṣa alakojo & AST visualizer",
-    "snake_description": "Ayebaye Olobiri ere / WASM",
-    "portfolio_translator_description": "100+ ede matrix & i18n",
-    "formatter_description": "olufọwọsi sintasi & oluyipada",
-    "contact_description": "ìmọ gbigbe // gba ni ifọwọkan"
+    "home_description": "sys.root // akopọ akọkọ",
+    "about_description": "profaili onimọ-ẹrọ // bio ati imọ-ẹrọ",
+    "portfolio_description": "katalogi sọfitiwia // awọn iṣẹ ti a yan",
+    "projects_description": "awọn ohun elo ibaraenisepo ati awọn olupilẹṣẹ",
+    "tiger_description": "olupilẹṣẹ aṣa ati oluworan AST",
+    "snake_description": "ere arkiadi kilasika / WASM",
+    "portfolio_translator_description": "matrix ede 100+ ati i18n",
+    "formatter_description": "oludaniloju ati oluyipada syntax",
+    "contact_description": "gbigbe ti o ṣii // kan si mi",
+    "arcade": "Arikiadi",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Igi ede Mẹrin ni ọna",
+    "alkalab_description": "iṣeduro ile-iṣẹ kemistri / WASM",
+    "rustcraft_description": "ere voxel aṣa Minecraft / Rust ati wgpu",
+    "suprememc_description": "ifihan mod Minecraft / Java"
   },
   "home": {
     "title": "Olùkọ Full-Stack Engineer | Ọja & Awọn ọna ṣiṣe",
@@ -35,17 +43,126 @@
     "contact_button": "Kan si mi",
     "about_button": "Nipa mi",
     "featured": {
-      "kicker": "Ifihan Awọn iṣẹ akanṣe",
-      "title": "Iṣẹ ti a yan",
-      "description": "Awọn iṣẹ akanṣe mẹfa ti o dara julọ ṣe aṣoju bii MO ṣe tan awọn imọran ifẹ si didan, sọfitiwia ṣiṣẹ.",
-      "view_project": "Wo Project",
-      "open_project": "Ṣii Live Project",
-      "view_all": "Ye ni kikun portfolio",
+      "kicker": "Awọn iṣẹ akanṣe ti a yan",
+      "title": "Awọn iṣẹ ti a yan",
+      "description": "Awọn iṣẹ akanṣe mẹfa ti o ṣe aṣoju daradara bi mo ṣe yi awọn ero alailopin pada si sọfitiwia didan ati ṣiṣẹ.",
+      "view_project": "Wo iṣẹ akanṣe",
+      "open_project": "Ṣii iṣẹ akanṣe laaye",
+      "view_all": "Ṣawari portfolio kikun",
       "badges": {
         "saas": "SaaS",
         "full_website": "Oju opo wẹẹbu ni kikun",
-        "available_here": "Wa Nibi",
-        "minecraft_mod": "Minecraft Mod"
+        "available_here": "Wa nibi",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Irisi ti o yatọ lori iṣẹ naa",
+      "invitation": "Ṣawari atlas imọ-ẹrọ",
+      "kicker": "Portfolio pipe / ironu ti o sopọ",
+      "title": "Atlas Imọ-ẹrọ",
+      "projects": "Awọn iṣẹ akanṣe",
+      "technologies": "Awọn imọ-ẹrọ",
+      "connections": "Awọn asopọ",
+      "center": "Atlas imọ-ẹrọ",
+      "filter_label": "Awọn ẹka iṣẹ akanṣe",
+      "domains": {
+        "all": "Gbogbo iṣẹ",
+        "products": "Awọn ọja",
+        "systems": "Awọn eto",
+        "experiences": "Awọn iriri"
+      },
+      "search": "Wa iṣẹ akanṣe tabi imọ-ẹrọ",
+      "view_label": "Wiwo atlas",
+      "map_view": "Wiwo maapu",
+      "map_navigation": "Lilọ kiri maapu portfolio",
+      "zoom_in": "Mu pọsi",
+      "zoom_out": "Dinku",
+      "zoom_level": "Ipele zoom ti maapu",
+      "fit_all": "Ba gbogbo awọn iṣẹ akanṣe mu",
+      "center_selected": "Fi iṣẹ akanṣe ti o yan si aarin",
+      "all_technologies": "Gbogbo awọn imọ-ẹrọ",
+      "list_view": "Wiwo akojọ",
+      "pause": "Duro idaamu iṣẹ ifihan",
+      "resume": "Tẹsiwaju iṣẹ ifihan",
+      "project_selector": "Ṣawari awọn iṣẹ akanṣe",
+      "inspector": "Awọn alaye iṣẹ akanṣe ti a yan",
+      "shared_stack": "Imọ-ẹrọ pinpin",
+      "family_connection": "Asopọ iṣẹ akanṣe",
+      "portfolio_connection": "Asopọ portfolio",
+      "families": {
+        "portfolio": "Ile-iṣẹ portfolio",
+        "business": "Awọn ohun elo iṣowo",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Awọn iṣẹ akanṣe WebAssembly",
+        "libraries": "Awọn ile-ikawe iwe afọwọkọ",
+        "languages": "Awọn idanwo ede",
+        "automation": "Awọn irinṣẹ adaṣe ati data",
+        "experience": "Iriri ọjọgbọn ati eto-ẹkọ"
+      },
+      "browser_native": "Abinibi ẹrọ aṣawakiri / laisi olupin",
+      "no_results": "Ko si awọn iṣẹ akanṣe ti o baamu",
+      "no_selection": "Ko si iṣẹ akanṣe ti a yan.",
+      "reset": "Nu awọn asẹ",
+      "engineering_lens": "Irisi imọ-ẹrọ",
+      "connected_work": "Iṣẹ ti o sopọ",
+      "open_live": "Ṣii iṣẹ akanṣe laaye",
+      "open_project": "Ṣawari iṣẹ akanṣe",
+      "footer": "Awọn agbegbe oriṣiriṣi. Iṣe imọ-ẹrọ kan ti o sopọ.",
+      "contact": "Jẹ ki a kọ ohun ti n bọ",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Awọn opo onirin data",
+        "angular": "Angular",
+        "access": "Iṣakoso iwọle",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Idanwo",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Ibaṣepọ",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Iwọle",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Awọn iwe-iṣiro ti ko baamu ṣe wọle. Awọn iṣiro ile ati awọn igbero ti o mura fun alabara jade. Ọja SaaS ti a kọ yika ọna iṣẹ gangan ti olupese.",
+          "lens": "Awọn agbewọle rọrun nilo awoṣe inu ti o lagbara: gbigba awọn ọna kika diẹ sii ko yẹ ki o rẹwẹsi awọn ofin iṣiro ti idu gbarale."
+        },
+        "inventory_register": {
+          "summary": "Ọna iṣẹ aaye titaja pẹlu Angular ati Node.js ti o so awọn olumulo ti o ni idaniloju, pípé awọn ọjà, ati ọna sisanwo afarawe.",
+          "lens": "Owo-owo jẹ diẹ sii ju iboju isanwo lọ. Awọn ipa, awọn iyipada ọja, ati awọn ipo isanwo nilo awọn aala ti o han gedegbe lati jẹ ki ọna iṣẹ naa jẹ lodidi."
+        },
+        "grocery_app": {
+          "summary": "Ohun elo .NET 9 Blazor kan pẹlu awọn aala olutona, iṣẹ, ati ibi ipamọ, ifaramọ Entity Framework Core, ati eto idanwo pipe.",
+          "lens": "Iyasọtọ ṣe ọrẹ ibi rẹ nigbati awọn ofin iṣowo le ṣe idanwo laiṣe sinu ni ibatan si interface ati ipele ifaramọ."
+        },
+        "payrollobol": {
+          "summary": "Ṣiṣe eto owo-iṣẹ GnuCOBOL pade iwe-akọọlẹ titẹsi ilọpo meji SQLite ati igbimọ iṣẹ Svelte.",
+          "lens": "Pípé owó bẹ̀rẹ̀ pẹ̀lú aṣoju: awọn iye odidi kọbọ ati awọn igbasilẹ ti o ni iwontunwonsi jẹ ki iṣipopada owo han."
+        },
+        "interop": {
+          "summary": "Itọkasi laarin ede ti o bo awọn ede siseto 15 ati awọn ilana ṣiṣe 18, ti n ṣawari ohun ti o ṣẹlẹ ni awọn aala akoko ṣiṣe.",
+          "lens": "Apa ti o nira ni adehun laarin awọn asiko ṣiṣe: paṣipaarọ data, iwa ilana, ati ṣiṣe atunwi ṣe pataki ju syntax lọ."
+        },
+        "formatter": {
+          "summary": "Ẹrọ itupalẹ Go gidi ti a ṣajọ si WebAssembly. Idaniloju ati ọna kika JSON ati YAML ṣiṣẹ ni agbegbe ninu ẹrọ aṣawakiri.",
+          "lens": "Gbigbe olutupalẹ si ẹrọ aṣawakiri paarọ ẹru alabara nla fun ṣiṣe agbegbe, iṣipopada, ati awọn igbẹkẹle olupin ti o dinku."
+        },
+        "portfolio_website": {
+          "summary": "Oju opo wẹẹbu ti o wa lọ: portfolio React pẹlu awọn ede 100+, awọn ibaraenisepo ti o wọle, ati awọn irinṣẹ WebAssembly ṣiṣẹ.",
+          "lens": "Iṣafihan aimi ko tumọ si iriri aimi. Awọn ibaraenisepo ọlọrọ le gbe lori alabara laisi olupin ohun elo."
+        },
+        "biblioteca": {
+          "summary": "Opopona isọdibilẹ Python ti o yipada orisun akoonu ti o ni igbekale kan si portfolio ti o wa ni awọn ede 100+.",
+          "lens": "Arọwọto agbaye jẹ iṣoro itọju data bi iṣoro itumọ. Orisun otitọ kan jẹ ki awọn iyipada akoonu jẹ iṣakoso."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Awọn ogbon imọ-ẹrọ",
       "header1": "Awọn ede siseto",
       "header2": "Awọn ilana & Awọn ile-ikawe",
-      "header3": "Awọn irinṣẹ & Awọn Imọ-ẹrọ"
+      "header3": "Awọn irinṣẹ & Awọn Imọ-ẹrọ",
+      "technologies": "imọ-ẹrọ",
+      "search_label": "Àsẹ",
+      "search_placeholder": "Àsẹ awọn ọgbọn…",
+      "clear_search": "Nu àsẹ",
+      "no_matches": "Ko si awọn ọgbọn ti o baamu àsẹ rẹ.",
+      "works": "Awọn iṣẹ",
+      "experience": "Iriri",
+      "professional": "Ọjọgbọn",
+      "education": "Ẹkọ",
+      "paired_with": "Nigbagbogbo paarọ pẹlu",
+      "summary_professional": "Lilo ni iṣẹ-ọnà ni {items}.",
+      "summary_education": "Ti kọ ati lo ni {items}.",
+      "summary_projects": "Ti lo ni ọwọ ni {items}.",
+      "summary_projects_also": "Tun lo ni {items}.",
+      "and_more": "siwaju sii",
+      "scroll_more": "Yi lọ fun awọn iṣẹ siwaju sii",
+      "show_less": "Fi diẹ han",
+      "no_samples": "Apa kan ninu awọn irinṣẹ iṣẹ mi. Inu mi dun lati ṣalaye bi mo ṣe lo o."
     },
     "services": {
       "title": "Awọn iṣẹ mi",
@@ -112,6 +247,13 @@
           "text": "Mo kọ pẹlu awọn otitọ lẹhin ifilọlẹ ni wiwo: awọn aṣiri ti a pa mọ kuro ni iṣakoso orisun, awọn ọna ijira data gbangba, aṣẹ ti o da lori ipa, afọwọsi ni awọn aala eto, awọn idanwo adaṣe, imọ CI/CD, ati akiyesi iṣe. Iwọnyi ni awọn alaye ti o tan apẹrẹ kan si sọfitiwia ti o gbẹkẹle."
         }
       ]
+    },
+    "certifications": {
+      "title": "Awọn iwe-aṣẹ ati awọn iwe-ẹri",
+      "credential": "Ijẹri",
+      "issued_by": "Ti a funni nipasẹ",
+      "issued": "Ọjọ ifunni",
+      "verify": "Jẹri ijẹri"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "So Mẹrin",
-        "text": "Idile nla ti o ju awọn imuṣẹ 50+ ti ere Sopọ Mẹrin. Ise agbese yii pẹlu awọn imuse ni awọn ede siseto oriṣiriṣi 30, pẹlu Java, C++, Python, JavaScript, ati diẹ sii. Ni afikun, o tun pẹlu ju 20+ awọn ilana oriṣiriṣi tabi awọn ọna kika miiran, pẹlu React.js, Ruby on Rails, ASP.NET, ati diẹ sii.",
+        "text": "Idile nla ti awọn imuse 90+ ti ere Mẹrin ni ọna. Iṣẹ akanṣe naa bo awọn ede siseto 30+, pẹlu Java, C++, Python, ati JavaScript, pẹlu awọn atẹgun, ile-ikawe, asiko ṣiṣe, ati awọn ibi data 50+ oriṣiriṣi, lati React, Angular, ati Blazor si Django, Spring Boot, Phoenix, PostgreSQL, ati bẹẹbẹẹ lọ.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Eto isanwo isanwo ti agbegbe ti a ṣe pẹlu GnuCOBOL, iwe afọwọkọ titẹ sii meji SQLite, ati dasibodu awọn iṣẹ Svelte kan. O nlo mathematiki odidi-centiger, sisẹ isanwo-oṣuwọn ipele, ati dasibodu loopback lati jẹ ki awọn iṣan-iṣẹ iṣowo owo han gbangba, jẹ idanwo, ati jiyin iṣẹ ṣiṣe.",
+        "text": "Eto sisẹ owo-ọja agbegbe kan ti a kọ pẹlu GnuCOBOL, iwe-akọọlẹ titẹsi ilọpo meji SQLite, ati igbimọ iṣẹ Svelte. O nlo iṣiro kọbọ odidi, sisẹ owo-isin ti o wa ninu igbimọ, ati igbimọ loopback lati jẹ ki awọn iṣan owó han kedere, ṣe idanwo, ati lodidi ni iṣẹ.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Mod Minecraft ti o ṣafikun awọn irinṣẹ aṣa, ihamọra, awọn agbajo eniyan, awọn bulọọki, awọn iwọn, ati ọpọlọpọ awọn ẹya diẹ sii si ere naa. Ti a kọ nipataki pẹlu Java ati Kotlin, pẹlu atilẹyin awọn ẹya Minecraft 1.16 nipasẹ 26.2.",
+        "text": "Mod Minecraft kan ti o ṣafikun awọn irinṣẹ, ihamọra, awọn mobs, awọn bulọọki, awọn iwọn, ati ọpọlọpọ awọn ẹya aṣa miiran si ere naa. Ti a kọ nipataki pẹlu Java ati Kotlin, ti n ṣe atilẹyin fun awọn ẹya Minecraft 1.16 si 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Ejo Ere",
-        "text": "Ẹrọ Ejo didan ti a ṣe pẹlu Rust ati Macroquad, ti a ṣajọ si WebAssembly, ati ti a ṣe nipasẹ HTML5 Canvas. O darapọ awọn ami ere ipinnu 0.12-keji pẹlu gbigbe interpolated didan, awọn ipele ere ti o fojuhan, awọn idari idahun, ikọlu ati mimu-ipinlẹ win, ati idanwo idojukọ suite ibora ti awọn mojuto game ofin.",
+        "title": "Ere ejo",
+        "text": "Ẹrọ Ejo didan kan ti a kọ pẹlu Rust ati Macroquad, ṣajọ si WebAssembly, ati ṣe nipasẹ HTML5 Canvas. O darapo awọn tiki ere 0.12-keji deterministic pẹlu gbigbe interpolated didan, awọn ipele ere ti o han kedere, iṣakoso idahun, iṣakoso ikọlu ati awọn ipo iṣẹgun, ati eto idanwo idojukọ ti o bo awọn ofin pataki ti ere naa.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Machine Project",
         "text": "Idile ti o ju 30+ awọn imuse ti ẹrọ Turing. Ti a lo lati ṣe afihan pipe pipe fun awọn ede siseto oriṣiriṣi fun iwadii, pataki fun Ede Eto Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Ile-iṣẹ kemistri ekuru-yanrin ti a kọ ni Rust ati ṣajọ si WebAssembly. Kun yanrin, omi, lava, irin, calcium carbide, tabi ege soodium kan ki o wo bi fisiksi ati kemistri ṣe ja: soodium n gbamu ninu omi, calcium carbide n tu acetylene jade, lava n yo yanrin di gilasi, ati iwuwo nikan n ya epo, mercury, ati yanrin sọtọ. Ẹrọ naa n ṣiṣẹ awọn ohun elo 32 ati awọn ofin iṣesi 40 lori ifipamọ sẹẹli pẹpẹ, ti n ṣe awọn pikseli taara lati iranti laini wasm laisi awọn ẹda fun fireemu kọọkan.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Yan Ẹrọ:",
     "tiger_code": "Koodu Tiger:",
     "run_tiger": "Run Tiger",
-    "output": "Abajade:"
+    "output": "Abajade:",
+    "stop": "Duro",
+    "program_input": "Igbewọle eto"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Ko si atilẹyin ede"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Wo koodu orisun lori GitHub"
+  }
 }

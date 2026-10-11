@@ -4,21 +4,29 @@
     "home": "Guriga",
     "about": "Aniga igu saabsan",
     "portfolio": "Portfolio",
-    "projects": "Mashaariicda Mareegaha",
-    "tiger": "Luuqadda Shabeelka",
-    "snake": "Ciyaar Mas",
+    "projects": "Mashruucyada la xushay",
+    "tiger": "Tiger - Luqad Programming Gaar ah",
+    "snake": "Ciyaarta abeska",
     "portfolio_translator": "Turjumaan Portfolio",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Hubiyaha JSON & YAML",
     "contact": "ila soo xidhiidh",
     "home_description": "sys.root // dulmar guud",
-    "about_description": "profile engineer // bio & stack",
-    "portfolio_description": "Buug-yaraha software // shaqooyinka muuqda",
-    "projects_description": "qalabka is-dhexgalka & isku-dubaridyada",
-    "tiger_description": "iskudubarid gaar ah & AST visualizer",
-    "snake_description": "ciyaarta Arcade classic / WASM",
-    "portfolio_translator_description": "100+ luqadda matrix & i18n",
-    "formatter_description": "ansax syntax & beddele",
-    "contact_description": "gudbinta furan // la xidhiidh"
+    "about_description": "profile injineer // bio iyo teknoolojiyad",
+    "portfolio_description": "ka talisyada software // shaqooyinka la xushay",
+    "projects_description": "qalab is-dhexgal ah iyo isku-duwayaal",
+    "tiger_description": "isku-duweeye gaar ah iyo AST muraaqiye",
+    "snake_description": "ciyaar arkade caadi ah / WASM",
+    "portfolio_translator_description": "matrix 100+ luqad iyo i18n",
+    "formatter_description": "xaqiijiyaha iyo beddelaha syntax-ka",
+    "contact_description": "gudbinta furan // nala xiriir",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Geedka luqadaha Afar Isku Xigta",
+    "alkalab_description": "jilitaanka shaybaar kiimiko / WASM",
+    "rustcraft_description": "ciyaar voxel qaab Minecraft / Rust iyo wgpu",
+    "suprememc_description": "bandhigga mod-ka Minecraft / Java"
   },
   "home": {
     "title": "Injineer buuxa oo buuxa | Badeecada & Nidaamyada",
@@ -35,17 +43,126 @@
     "contact_button": "ila soo xidhiidh",
     "about_button": "Aniga igu saabsan",
     "featured": {
-      "kicker": "Mashaariicda Muuqda",
-      "title": "Shaqada la doortay",
-      "description": "Lix mashruuc oo sida ugu fiican u taagan sida aan ugu beddelo fikradaha hamiga leh ee software-ka si fiican u shaqeeya.",
-      "view_project": "Daawo Mashruuca",
-      "open_project": "Mashruuc Live Furan",
-      "view_all": "Baadh faylalka buuxa",
+      "kicker": "Mashruucyada la xushay",
+      "title": "Shaqooyinka la xushay",
+      "description": "Lix mashruuc oo ugu fiican u matalaya sida aan uga beddelo fikradaha hamiyada leh software la qurxiyey oo shaqeeya.",
+      "view_project": "Eeg mashruuca",
+      "open_project": "Fur mashruuc toos ah",
+      "view_all": "Baar portfolio-ga buuxa",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Websaydh buuxa",
-        "available_here": "Halkan laga heli karo",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Shabakad buuxda",
+        "available_here": "Halkan wuu ku yaal",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Aragti ka duwan shaqada",
+      "invitation": "Baar atlas-ka injineernimada",
+      "kicker": "Portfolio buuxda / fikirka isku xiran",
+      "title": "Atlas-ka Injineernimada",
+      "projects": "Mashruucyo",
+      "technologies": "Teknoolojiyado",
+      "connections": "Xiriirro",
+      "center": "Atlas-ka injineernimada",
+      "filter_label": "Qaybaha mashruuca",
+      "domains": {
+        "all": "Dhammaan shaqada",
+        "products": "Alaabta",
+        "systems": "Nidaamyada",
+        "experiences": "Khibradaha"
+      },
+      "search": "Raadi mashruuc ama teknoolojiyad",
+      "view_label": "Muujinta atlas-ka",
+      "map_view": "Muujinta khariidadda",
+      "map_navigation": "Hab-navigation khariidadda portfolio-ga",
+      "zoom_in": "Weeynee",
+      "zoom_out": "Yaree",
+      "zoom_level": "Heerka zoom-ka khariidadda",
+      "fit_all": "Ku habboon dhammaan mashruucyada",
+      "center_selected": "Dhex-dhig mashruuca la doortay",
+      "all_technologies": "Dhammaan teknoolojiyada",
+      "list_view": "Muujinta liiska",
+      "pause": "Hakad animation-ka signal-ka",
+      "resume": "Sii wad animation-ka signal-ka",
+      "project_selector": "Baar mashruucyo",
+      "inspector": "Faahfaahinta mashruuca la doortay",
+      "shared_stack": "Teknoolojiyad la wadaago",
+      "family_connection": "Xiriirka mashruuca",
+      "portfolio_connection": "Xiriirka portfolio-ga",
+      "families": {
+        "portfolio": "Xarunta portfolio-ga",
+        "business": "Codsiyada ganacsiga",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Mashruucyada WebAssembly",
+        "libraries": "Maktabadaha script-ka",
+        "languages": "Tijaabooyinka luqadda",
+        "automation": "Qalabka otomaatiga iyo xogta",
+        "experience": "Khibradda xirfadeed iyo waxbarasho"
+      },
+      "browser_native": "Asal browser / server la'aan",
+      "no_results": "Ma jiraan mashruucyo u dhigma",
+      "no_selection": "Ma jiro mashruuc la doortay.",
+      "reset": "Nadiifi sifaynta",
+      "engineering_lens": "Aragtida injineernimada",
+      "connected_work": "Shaqo isku xiran",
+      "open_live": "Fur mashruuc toos ah",
+      "open_project": "Baar mashruuca",
+      "footer": "Goobo kala duwan. Hal dhaqan injineernimo oo isku xiran.",
+      "contact": "Aan wada dhaxno wixii xiga",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Tuubooyinka xogta",
+        "angular": "Angular",
+        "access": "Kontoroolka gelitaanka",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Tijaabinta",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Iska shaqeyn",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Helitaanka",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Xaashi-yada loo yaqaan spreadsheet-ka oo aan iswaafaqayn ayaa soo gala. Qiyaaso dhisme iyo soo-jeedin loogu diyaariyey macmiilka ayaa soo baxaya. Alaab SaaS ah oo laga dhisay agagaarka socodka shaqada ee dhabta ah ee qandaraasleha.",
+          "lens": "Soo-degsiimada dabacsani waxay u baahan yihiin qaab gudaha ah oo adag: aqbalaadda qaabab badan waa inaysan jabin xeerarka xisaabinta ee soo-jeedin ku tiirsan tahay."
+        },
+        "inventory_register": {
+          "summary": "Socod shaqo oo ah goob iib ah oo la socda Angular iyo Node.js oo isku xira isticmaalayaasha la xaqiijiyey, saxnaanta alaabta, iyo socod lacag-bixin ah oo la jilay.",
+          "lens": "Khasnadda waa ka badan tahay shaashad lacag-bixin. Doorka, isbeddelka alaabta, iyo xaaladaha bixinta waxay u baahan yihiin xuduudo cad si loo ilaaliyo socodka shaqada inuu mas'uul yahay."
+        },
+        "grocery_app": {
+          "summary": "Codsi .NET 9 Blazor ah oo leh xuduudo kontorool, adeeg, iyo keyd, joogtaynta Entity Framework Core, iyo tijaabo dhammaystiran.",
+          "lens": "Kala qaybintu waxay ku kasbataa inay meel ku yeelato marka xeerarka ganacsigu lagu tijaabiyo si ka madax bannaan interface-ka iyo lakabka joogtaynta."
+        },
+        "payrollobol": {
+          "summary": "Habaynta mushaharka GnuCOBOL waxay la kulantaa buug-gacmeedka laba-reeb ee SQLite iyo dashboard-ka hawlgalka ee Svelte.",
+          "lens": "Saxnaanta dhaqaaluhu waxay ka bilaabataa matalaadda: xisaabta senti buuxda iyo qoraallada dheellitiran waxay dhaqdhaqaaqa lacagta ka dhigayaan mid cad."
+        },
+        "interop": {
+          "summary": "Tixraac u dhexeeya luqadaha oo daboolaya 15 luqad programming iyo 18 qaab fulin, oo baaraya waxa dhaca xudduudaha wakhtiga fulinta.",
+          "lens": "Qaybta adag waa qandaraaska u dhexeeya wakhtiyada fulinta: isweydaarsiga xogta, dhaqanka habka, iyo fulinta soo noqnoqota ayaa muhiim ka ah syntax-ka."
+        },
+        "formatter": {
+          "summary": "Mashiin dabagale Go oo dhab ah oo la isku-duubay WebAssembly. Xaqiijinta iyo qaabaynta JSON iyo YAML waxay si gudaha ah u shaqeeyaan browser-ka.",
+          "lens": "Guurinta dabagalaha ilaa browser-ka waxay ku baddalaysaa culeys weyn oo macmiilka ah habaynta gudaha, la qaadi kara, iyo ku-tiirsanaan yar oo server ah."
+        },
+        "portfolio_website": {
+          "summary": "Bogga aad ku sugan tahay: portfolio React leh 100+ luqad, isdhexgal la heli karo, iyo qalab WebAssembly oo shaqeeya.",
+          "lens": "Gelinta taagan kama macno ahaan karo khibrad taagan. Isdhexgal hodan ah waxay ku noolaan karaan macmiilka iyada oo aan lahayn server codsi."
+        },
+        "biblioteca": {
+          "summary": "Tuubo dejin luqad ah oo Python ah oo isku beddela hal il xog ah oo qaabaysan portfolio ku jira 100+ luqad.",
+          "lens": "Gaaritaanka caalamigu waa dhibaatada dayactirka xogta sida dhibaatada tarjumaaddaba. Il hal run ah ayaa isbeddellada nuxurka ka dhigaya kuwo la maamuli karo."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Xirfadaha Farsamada",
       "header1": "Barnaamijyada Luuqadaha",
       "header2": "Qaab-dhismeedka & Maktabadaha",
-      "header3": "Qalabka & Farsamada"
+      "header3": "Qalabka & Farsamada",
+      "technologies": "teknoolojiyado",
+      "search_label": "Sifee",
+      "search_placeholder": "Sifee xirfadaha…",
+      "clear_search": "Nadiifi sifaynta",
+      "no_matches": "Ma jiraan xirfado u dhigma sifayntaada.",
+      "works": "Shaqooyin",
+      "experience": "Khibrad",
+      "professional": "Xirfadeed",
+      "education": "Waxbarasho",
+      "paired_with": "Badanaa waxay la xiriirtaa",
+      "summary_professional": "Waxaa si xirfadeed loo isticmaalay {items}.",
+      "summary_education": "Waxaa lagu baray oo lagu dabaqay {items}.",
+      "summary_projects": "Waxaa si toos ah loogu dabaqay {items}.",
+      "summary_projects_also": "Waxaa sidoo kale lagu dabaqay {items}.",
+      "and_more": "dheeraad",
+      "scroll_more": "U rogxod si aad u aragto shaqooyin dheeraad ah",
+      "show_less": "Muuji wax yar",
+      "no_samples": "Qayb ka mid ah qalabka shaqada. Waxaan ku faraxsanahay inaan sharaxo sida aan u isticmaalay."
     },
     "services": {
       "title": "Adeegyadayda",
@@ -112,6 +247,13 @@
           "text": "Waxaan la dhisaa xaqiiqooyinka ka dib bilawga aragtida: siraha laga ilaaliyay xakamaynta isha, dariiqyada hayaanka xogta ee cad, oggolaanshaha doorka ku salaysan, ansixinta xuduudaha nidaamka, imtixaanada otomaatiga ah, wacyigelinta CI/CD, iyo indho-indheyn la taaban karo. Kuwani waa faahfaahinta u beddela prototype ka mid ah software la isku halleyn karo."
         }
       ]
+    },
+    "certifications": {
+      "title": "Ruqsadaha iyo shahaadooyinka",
+      "credential": "Shahaadada",
+      "issued_by": "Waxa bixiyay",
+      "issued": "Taariikhda bixinta",
+      "verify": "Xaqiiji shahaadada"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Isku xidh Afar",
-        "text": "Qoys weyn oo ka badan 50+ fulinta ciyaarta Connect Four. Mashruucan waxaa ka mid ah hirgelinta in ka badan 30 luqadaha barnaamijyada kala duwan, oo ay ku jiraan Java, C++, Python, JavaScript, iyo in ka badan. Intaa waxaa dheer, waxa kale oo ka mid ah in ka badan 20+ qaabab kala duwan ama qaabab kale, oo ay ku jiraan React.js, Ruby on Rails, ASP.NET, iyo in ka badan.",
+        "text": "Qoys weyn oo ka kooban 90+ hirgelin oo ah ciyaarta Afar Isku Xigta. Mashruucu wuxuu daboolayaa 30+ luqad programming, oo ay ku jiraan Java, C++, Python, iyo JavaScript, oo ay weheliyaan 50+ framework, maktabad, wakhti fulin, iyo saldhigyo xog oo kala duwan, laga bilaabo React, Angular, iyo Blazor ilaa Django, Spring Boot, Phoenix, PostgreSQL, iyo wixii ka sii dheeraaday.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Mushahar OBOL",
-        "text": "Nidaam ka baaraandega mushaar bixinta maxalli ah oo lagu dhisay GnuCOBOL, Ledge-gel double SQLite, iyo dashboard hawleedka Svelte. Waxay adeegsataa xisaabta-center-center, habaynta mushaharka dufcada, iyo dashboard-ka loopback si ay socodka shaqada maaliyadeed uga dhigto mid cad, la tijaabin karo, oo si hawl-gal ah loola xisaabtami karo.",
+        "title": "PayrollOBOL",
+        "text": "Nidaam gudaha ah oo habaynta mushaharka oo laga dhisay GnuCOBOL, buug-gacmeedka laba-reeb ee SQLite, iyo dashboard-ka hawlgalka ee Svelte. Waxay isticmaashaa xisaabta senti buuxda, habaynta mushaharka ee xawliga ah, iyo dashboard loopback si ay uga dhigo socodka dhaqaalaha mid cad, la tijaabin karo, oo mas'uuliyad hawleed leh.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Mod Minecraft ah oo ku dara qalab gaar ah, hub, mobsiyo, baloogyo, cabbiro, iyo astaamo kaloo badan oo ciyaarta ah. Waxaa ugu horrayn lagu dhisay Java iyo Kotlin, iyadoo la taageerayo noocyada Minecraft 1.16 illaa 26.2.",
+        "text": "Mod Minecraft oo ku dara ciyaarta qalab gaar ah, hub, mobs, blocks, cabbirro, iyo waxyaabo kale oo badan. Waxaa lagu dhisay inta badan Java iyo Kotlin, isagoo taageeraya noocyada Minecraft 1.16 ilaa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Ciyaar Mas",
-        "text": "Matoorka Snake ee dhalaalaya oo lagu dhisay Rust iyo Macroquad, oo lagu soo ururiyay WebAssembly, oo lagu sameeyay HTML5 Canvas. Waxay isku daraysaa shilinta ciyaarta 0.12-ilbiriqsi oo leh dhaqdhaqaaq toosan oo isdhexgal ah, wejiyada ciyaarta ee cad, kontaroolada jawaabta, isku dhaca iyo maaraynta gobolka-guulaysiga, iyo imtixaan diirada saaraya Suite daboolaya xeerarka ciyaarta xudunta u ah.",
+        "title": "Ciyaarta abeska",
+        "text": "Mashiin Abes ah oo la qurxiyey oo laga dhisay Rust iyo Macroquad, oo lagu isku-duubay WebAssembly, oo lagu muujiyay HTML5 Canvas. Waxay isku daraysaa dheecaan ciyaareed 0.12-ilbiriqsi ah oo la hubo dhaqdhaqaaq jilicsan oo la dhexgeliyey, marxalado ciyaareed cad, kontorool jawaab leh, maaraynta isku dhaca iyo xaaladaha guusha, iyo tijaabo kooban oo daboolaysa xeerarka asaasiga ah ee ciyaarta.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Mashruuca Turing Machine",
         "text": "Qoyska ka badan 30+ hirgalinta Mashiinka Turing. Waxa loo adeegsaday in lagu muujiyo dhammaystirka luuqadaha barnaamijyada kala duwan ee cilmi-baadhista, gaar ahaan Luuqadda Programming-ka ee Shabeelka.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Shaybaar kiimiko oo boodh-ciriir ah oo lagu dhisay Rust oo lagu isku-duubay WebAssembly. Rinji sand, biyo, laaboolka, birta, calcium carbide, ama cad sodiyam ah oo daawo sida fiisigiska iyo kiimikada loo dagaallamo: sodiyamku wuxuu ku qarxaa biyaha, calcium carbide waxay siidaaysaa acetylene, laaboolku waxay sand-ka u rogtay dhalo, iyo cufnaantiisa kaligiis ayaa kala gaynaya saliidda, mercury-ga, iyo sand-ka. Mashiinku wuxuu ku shaqeeyaa 32 walxood iyo 40 xeer fal-celin oo cad mid ka mid ah baf-ka unugga fidsan, isagoo si toos ah u soo saaraya pixels-ka xusuusta toosan ee wasm iyada oo aan loo baahnayn nuqul kasta oo frame ah.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Dooro Matoorka:",
     "tiger_code": "Lambarka Shabeelka:",
     "run_tiger": "Orod Shabeel",
-    "output": "Natiijada:"
+    "output": "Natiijada:",
+    "stop": "Jooji",
+    "program_input": "Gelinta barnaamijka"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Ma jiro taageero luqadeed"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Eeg koodhka isha ee GitHub"
+  }
 }

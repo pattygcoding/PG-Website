@@ -4,21 +4,29 @@
     "home": "Balay",
     "about": "Mahitungod Kanako",
     "portfolio": "Portfolio",
-    "projects": "Mga Proyekto sa Website",
-    "tiger": "Pinulongan sa Tigre",
-    "snake": "Dula sa Bitin",
+    "projects": "Pinili nga mga proyekto",
+    "tiger": "Tiger - Usa ka Custom nga Pinulongan sa Programming",
+    "snake": "Dula sa bitin",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Checker sa JSON & YAML",
     "contact": "Kontaka Ako",
-    "home_description": "sys.root // main overview",
-    "about_description": "profile sa engineer // bio & stack",
-    "portfolio_description": "software catalog // gipakita nga mga buhat",
-    "projects_description": "interactive nga mga himan & compiler",
+    "home_description": "sys.root // kinatibuk-ang pagtan-aw",
+    "about_description": "profile sa inhenyero // bio ug teknolohiya",
+    "portfolio_description": "katalogo sa software // pinili nga mga buhat",
+    "projects_description": "mga himan sa interaksyon ug mga compiler",
     "tiger_description": "custom compiler ug AST visualizer",
-    "snake_description": "klasiko nga dula sa arcade / WASM",
-    "portfolio_translator_description": "100+ nga language matrix & i18n",
-    "formatter_description": "syntax validator ug converter",
-    "contact_description": "bukas nga transmission // kontaka"
+    "snake_description": "klasikong arkade nga dula / WASM",
+    "portfolio_translator_description": "matrix sa 100+ nga pinulongan ug i18n",
+    "formatter_description": "validator ug converter sa syntax",
+    "contact_description": "bukas nga transmission // kontaka ako",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Kahoy sa pinulongan Upat nga sunod",
+    "alkalab_description": "simulasyon sa lab sa chemistry / WASM",
+    "rustcraft_description": "voxel nga dula nga estilo sa Minecraft / Rust ug wgpu",
+    "suprememc_description": "pagpakita sa mod sa Minecraft / Java"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto ug Sistema",
@@ -35,17 +43,126 @@
     "contact_button": "Kontaka Ako",
     "about_button": "Mahitungod Kanako",
     "featured": {
-      "kicker": "Gipili nga mga Proyekto",
-      "title": "Pinili nga Trabaho",
-      "description": "Unom ka mga proyekto nga labing maayo nga nagrepresentar kung giunsa nako gihimo ang mga ambisyoso nga mga ideya nga gipasinaw, nagtrabaho nga software.",
-      "view_project": "Tan-awa ang Proyekto",
-      "open_project": "Ablihi ang Live Project",
-      "view_all": "Susihon ang tibuuk nga portfolio",
+      "kicker": "Pinili nga mga proyekto",
+      "title": "Pinili nga mga buhat",
+      "description": "Unom ka mga proyekto nga labing nagrepresentar kung giunsa nako pagbag-o ang ambisyoso nga mga ideya ngadto sa pinasinaw, nagtrabaho nga software.",
+      "view_project": "Tan-awa ang proyekto",
+      "open_project": "Ablihi ang live nga proyekto",
+      "view_all": "Susihon ang kompleto nga portfolio",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Bug-os nga Website",
-        "available_here": "Anaa Dinhi",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Kompleto nga website",
+        "available_here": "Magamit dinhi",
+        "minecraft_mod": "Mod sa Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Laing panglantaw sa trabaho",
+      "invitation": "Susihon ang atlas sa engineering",
+      "kicker": "Kompleto nga portfolio / konektado nga panghunahuna",
+      "title": "Atlas sa Engineering",
+      "projects": "Mga proyekto",
+      "technologies": "Teknolohiya",
+      "connections": "Mga koneksyon",
+      "center": "Atlas sa engineering",
+      "filter_label": "Mga kategorya sa proyekto",
+      "domains": {
+        "all": "Tanan nga trabaho",
+        "products": "Mga produkto",
+        "systems": "Mga sistema",
+        "experiences": "Mga kasinatian"
+      },
+      "search": "Pangita og proyekto o teknolohiya",
+      "view_label": "Pagtan-aw sa atlas",
+      "map_view": "Pagtan-aw sa mapa",
+      "map_navigation": "Pag-navigate sa mapa sa portfolio",
+      "zoom_in": "Padakoa",
+      "zoom_out": "Pagamaya",
+      "zoom_level": "Level sa zoom sa mapa",
+      "fit_all": "Ipahaom ang tanang proyekto",
+      "center_selected": "Ilikud ang piniling proyekto",
+      "all_technologies": "Tanan nga teknolohiya",
+      "list_view": "Pagtan-aw sa lista",
+      "pause": "Pahunongon ang animation sa signal",
+      "resume": "Ipadayon ang animation sa signal",
+      "project_selector": "Susihon ang mga proyekto",
+      "inspector": "Detalye sa piniling proyekto",
+      "shared_stack": "Gipaambit nga teknolohiya",
+      "family_connection": "Koneksyon sa proyekto",
+      "portfolio_connection": "Koneksyon sa portfolio",
+      "families": {
+        "portfolio": "Sentro sa portfolio",
+        "business": "Mga aplikasyon sa negosyo",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Mga proyekto sa WebAssembly",
+        "libraries": "Mga library sa script",
+        "languages": "Mga eksperimento sa pinulongan",
+        "automation": "Mga himan sa automation ug data",
+        "experience": "Propesyonal ug pang-edukasyon nga kasinatian"
+      },
+      "browser_native": "Native sa browser / walay server",
+      "no_results": "Walay mga proyekto nga katumbas",
+      "no_selection": "Walay proyekto nga pinili.",
+      "reset": "Limpyohan ang mga filter",
+      "engineering_lens": "Panglantaw sa engineering",
+      "connected_work": "Konektado nga trabaho",
+      "open_live": "Ablihi ang live nga proyekto",
+      "open_project": "Susihon ang proyekto",
+      "footer": "Lain-laing domain. Usa ka konektado nga praktis sa engineering.",
+      "contact": "Atong tukuron ang sunod",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Mga pipeline sa data",
+        "angular": "Angular",
+        "access": "Kontrol sa pag-access",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Pagsulay",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperability",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Pagka-access",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Mga spreadsheet nga dili parehas mosulod. Mga banabana sa konstruksyon ug mga sugyot nga andam alang sa kliyente mogawas. Usa ka produkto sa SaaS nga gitukod libot sa tinuod nga dagan sa trabaho sa kontraktor.",
+          "lens": "Ang flexible nga mga import nanginahanglan og higpit nga internal nga modelo: ang pagdawat og daghan pang mga format dili angay nga pahuyangon ang mga lagda sa pagkalkulo nga gisaligan sa usa ka tanyag."
+        },
+        "inventory_register": {
+          "summary": "Usa ka dagan sa trabaho sa punto sa pagbaligya uban sa Angular ug Node.js nga nagkonekta sa mga verified nga tiggamit, katukma sa imbentaryo, ug simulated nga dagan sa pagbayad.",
+          "lens": "Ang rehistro sa kuwarta labaw pa sa screen sa pag-checkout. Ang mga papel, pagbag-o sa stock, ug mga estado sa pagbayad nagkinahanglan og klaro nga mga utlanan aron makapabilin nga responsable ang dagan sa trabaho."
+        },
+        "grocery_app": {
+          "summary": "Usa ka aplikasyon sa .NET 9 Blazor nga adunay mga utlanan sa controller, serbisyo, ug repository, pagpadayon sa Entity Framework Core, ug kompleto nga suite sa pagsulay.",
+          "lens": "Ang pagbulag makakuha og lugar kung ang mga lagda sa negosyo mahimong sulayan nga independente sa interface ug sa layer sa pagpadayon."
+        },
+        "payrollobol": {
+          "summary": "Ang pagproseso sa sweldo sa GnuCOBOL nakigkita sa libro nga doble-entri sa SQLite ug dashboard sa operasyon sa Svelte.",
+          "lens": "Ang katukma sa pinansya nagsugod sa representasyon: ang aritmetika sa bug-os nga cents ug balanse nga mga entry naghimo sa paglihok sa salapi nga klaro."
+        },
+        "interop": {
+          "summary": "Usa ka cross-language nga reperensiya nga naglangkob sa 15 ka programming language ug 18 ka pattern sa pagpatuman, nga nag-eksplorar kung unsa ang mahitabo sa mga utlanan sa runtime.",
+          "lens": "Ang lisud nga bahin mao ang kontrata tali sa mga runtime: ang pagpaambit sa data, pamatasan sa proseso, ug masubli nga pagpatuman mas importante kaysa syntax."
+        },
+        "formatter": {
+          "summary": "Usa ka tinuod nga Go parsing engine nga gi-compile sa WebAssembly. Ang pag-validate ug pag-format sa JSON ug YAML nagdagan nga lokal sa browser.",
+          "lens": "Ang pagbalhin sa parser sa browser nagbaylo og mas dako nga payload sa kliyente alang sa lokal nga pagproseso, portability, ug gamay nga pagsalig sa server."
+        },
+        "portfolio_website": {
+          "summary": "Ang site nga imong naa: usa ka React portfolio nga adunay 100+ nga pinulongan, accessible nga mga interaksyon, ug mga himan sa WebAssembly nga nagtrabaho.",
+          "lens": "Ang static nga pag-deploy dili kinahanglan nga magpasabot og static nga kasinatian. Ang dagayang mga interaksyon mahimong mabuhi sa kliyente nga walay server sa aplikasyon."
+        },
+        "biblioteca": {
+          "summary": "Usa ka pipeline sa localization sa Python nga nagbag-o sa usa ka structured nga tinubdan sa content ngadto sa portfolio nga magamit sa 100+ nga pinulongan.",
+          "lens": "Ang global nga pagkab-ot usa ka problema sa pagmentinar sa data sama sa problema sa paghubad. Usa ka tinubdan sa kamatuoran ang naghimo sa mga pagbag-o sa content nga madumala."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Mga Kahanas sa Teknikal",
       "header1": "Mga Pinulongan sa Programming",
       "header2": "Frameworks & Libraries",
-      "header3": "Mga Himan ug Teknolohiya"
+      "header3": "Mga Himan ug Teknolohiya",
+      "technologies": "teknolohiya",
+      "search_label": "Salain",
+      "search_placeholder": "Salain ang mga kahanas…",
+      "clear_search": "Limpyohan ang filter",
+      "no_matches": "Walay kahanas nga katumbas sa imong filter.",
+      "works": "Mga buhat",
+      "experience": "Kasinatian",
+      "professional": "Propesyonal",
+      "education": "Edukasyon",
+      "paired_with": "Kanunay nga gipares sa",
+      "summary_professional": "Gigamit sa propesyonal sa {items}.",
+      "summary_education": "Gitun-an ug gi-aplay sa {items}.",
+      "summary_projects": "Gi-aplay sa praktikal sa {items}.",
+      "summary_projects_also": "Gi-aplay usab sa {items}.",
+      "and_more": "dugang",
+      "scroll_more": "I-scroll aron makakita og daghan pang mga buhat",
+      "show_less": "Pagpakita og ubos",
+      "no_samples": "Bahin sa akong mga gamit sa trabaho. Nalipay ko nga ipasabot kung giunsa nako kini paggamit."
     },
     "services": {
       "title": "Akong Serbisyo",
@@ -112,6 +247,13 @@
           "text": "Nagtukod ako uban ang mga katinuoran pagkahuman sa paglansad sa pagtan-aw: ang mga sekreto nga gitago nga dili kontrolado sa gigikanan, klaro nga mga agianan sa pagbalhin sa database, pagtugot nga gibase sa papel, pag-validate sa mga utlanan sa sistema, automated nga mga pagsulay, kahibalo sa CI/CD, ug praktikal nga obserbasyon. Kini ang mga detalye nga naghimo sa usa ka prototype nga mahimong kasaligan nga software."
         }
       ]
+    },
+    "certifications": {
+      "title": "Mga lisensya ug mga sertipikasyon",
+      "credential": "Sertipikasyon",
+      "issued_by": "Gi-isyu sa",
+      "issued": "Petsa sa pag-isyu",
+      "verify": "I-verify ang sertipikasyon"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Ikonektar ang Upat",
-        "text": "Daghang pamilya nga adunay kapin sa 50+ nga pagpatuman sa dula nga Connect Four. Kini nga proyekto naglakip sa mga pagpatuman sa kapin sa 30 ka lain-laing mga programming language, lakip ang Java, C++, Python, JavaScript, ug uban pa. Dugang pa, naglakip usab kini sa kapin sa 20+ ka lain-laing mga frameworks o ubang mga format, lakip ang React.js, Ruby on Rails, ASP.NET, ug uban pa.",
+        "text": "Usa ka dako nga pamilya sa 90+ nga mga implementasyon sa dula nga Upat nga sunod. Ang proyekto naglangkob sa 30+ nga programming language, lakip ang Java, C++, Python, ug JavaScript, uban sa labaw sa 50 nga lain-laing mga framework, library, runtime, ug database, gikan sa React, Angular, ug Blazor hangtod sa Django, Spring Boot, Phoenix, PostgreSQL, ug labaw pa.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Usa ka lokal nga sistema sa pagproseso sa payroll nga gitukod gamit ang GnuCOBOL, usa ka SQLite double-entry ledger, ug usa ka dashboard sa operasyon sa Svelte. Gigamit niini ang integer-cent math, pagproseso sa batch payroll, ug usa ka loopback dashboard aron mahimong klaro, masulayan, ug may tulubagon ang mga pinansyal nga workflow.",
+        "text": "Usa ka lokal nga sistema sa pagproseso sa sweldo nga gitukod uban sa GnuCOBOL, usa ka libro nga doble-entri sa SQLite, ug dashboard sa operasyon sa Svelte. Gigamit kini ang bug-os nga cents nga matematika, batch nga pagproseso sa sweldo, ug loopback nga dashboard aron mahimo ang mga dagan sa pinansya nga klaro, masulayan, ug operasyon nga responsable.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Usa ka Minecraft Mod nga nagdugang custom nga mga himan, armor, mob, block, dimensyon, ug daghan pa nga mga bahin sa dula. Gitukod una sa Java ug Kotlin, nga adunay suporta nga naglangkob sa mga bersyon sa Minecraft 1.16 hangtod 26.2.",
+        "text": "Usa ka mod sa Minecraft nga nagdugang og custom nga mga himan, armadura, mobs, blocks, mga sukat, ug daghan pang mga feature sa dula. Gitukod labi na sa Java ug Kotlin, nga nagsuporta sa mga bersyon sa Minecraft 1.16 hangtod 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Dula sa Bitin",
-        "text": "Usa ka gipasinaw nga makina sa Snake nga gihimo gamit ang Rust ug Macroquad, giipon sa WebAssembly, ug gihubad pinaagi sa HTML5 Canvas. Gihiusa niini ang deterministiko nga 0.12-segundos nga mga ticks sa dula nga adunay hapsay nga interpolated nga paglihok, klaro nga mga hugna sa dula, responsive nga mga kontrol, pagbangga ug pagdumala sa win-state, ug usa ka nakapunting nga pagsulay. suite nga naglangkob sa kinauyokan nga mga lagda sa dula.",
+        "title": "Dula sa bitin",
+        "text": "Usa ka pinasinaw nga Bitin nga engine nga gitukod uban sa Rust ug Macroquad, gi-compile sa WebAssembly, ug gi-render pinaagi sa HTML5 Canvas. Gi-hiusa kini ang 0.12-segundo nga deterministic game ticks uban sa hapsay nga interpolated nga paglihok, klaro nga mga phase sa dula, responsive nga kontrol, pagdumala sa mga bangga ug win-state, ug usa ka naka-focus nga suite sa pagsulay nga naglangkob sa mga batakang lagda sa dula.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Proyekto sa Turing Machine",
         "text": "Pamilya sa kapin sa 30+ ka mga pagpatuman sa Turing Machine. Gigamit aron ipakita ang pagkakompleto sa turing alang sa lain-laing mga programming language alang sa panukiduki, ilabi na alang sa Tiger Programming Language.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Usa ka chemistry lab sa pulbos-buhangin nga gitukod sa Rust ug gi-compile sa WebAssembly. Ipinta ang buhangin, tubig, lava, puthaw, calcium carbide, o usa ka piraso sa sodium ug tan-awa kung giunsa pag-away ang physics ug chemistry: ang sodium mobuto sa tubig, ang calcium carbide nagpagawas og acetylene, ang lava natunaw ang buhangin ngadto sa bildo, ug ang densidad lamang ang nagbulag sa lana, mercury, ug buhangin. Ang engine nagpadagan sa 32 nga mga materyal ug 40 nga mga lagda sa reaksyon sa usa ka flat cell buffer, nga nag-render sa mga pixel direkta sa wasm linear memory nga walay mga kopya matag frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Pilia ang Engine:",
     "tiger_code": "Kodigo sa tigre:",
     "run_tiger": "Dagan Tigre",
-    "output": "Output:"
+    "output": "Output:",
+    "stop": "Hunong",
+    "program_input": "Input sa programa"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Walay suporta sa pinulongan"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Tan-aw ang source code sa GitHub"
+  }
 }

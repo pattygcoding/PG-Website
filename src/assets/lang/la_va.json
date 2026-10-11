@@ -4,21 +4,29 @@
     "home": "Home",
     "about": "De Me",
     "portfolio": "Portfolio",
-    "projects": "Featured Projects",
-    "tiger": "Lingua tigris",
-    "snake": "Serpens Ludus",
+    "projects": "Proiecta selecta",
+    "tiger": "Tiger - Lingua programmandi propria",
+    "snake": "Ludus serpentis",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Linter JSON et YAML",
     "contact": "Contact Me",
-    "home_description": "sys.root // main overview",
-    "about_description": "ingeniarius profile // bio & acervus",
-    "portfolio_description": "software catalog // featured works",
-    "projects_description": "interactive instrumenta & compilers",
-    "tiger_description": "consuetudo compiler & AST visualizer",
-    "snake_description": "classic cryptoporticus ludum / WASM",
-    "portfolio_translator_description": "100+ lingua matrix & i18n",
-    "formatter_description": "syntax validator & converter",
-    "contact_description": "aperta tradenda // ut in tactu"
+    "home_description": "sys.root // summarium principale",
+    "about_description": "profilum machinatoris // curriculum et technologia",
+    "portfolio_description": "catalogus programmaturae // opera selecta",
+    "projects_description": "instrumenta interactiva et compilatores",
+    "tiger_description": "compilator proprius et visualisator AST",
+    "snake_description": "ludus arcedii classicus / WASM",
+    "portfolio_translator_description": "matricula 100+ linguarum et i18n",
+    "formatter_description": "validator et conversor syntaxeos",
+    "contact_description": "transmissio aperta // contigere",
+    "arcade": "Arcaedium",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Arbor linguarum Quattuor in Ordine",
+    "alkalab_description": "simulatio laboratorii chemiae / WASM",
+    "rustcraft_description": "ludus voxel in stilo Minecraft / Rust et wgpu",
+    "suprememc_description": "monstratio modorum Minecraft / Java"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Product & Systems",
@@ -35,17 +43,126 @@
     "contact_button": "Contact Me",
     "about_button": "De Me",
     "featured": {
-      "kicker": "Featured Projects",
-      "title": "Electus Opus",
-      "description": "Sex incepta quae optima repraesentant quomodo ambitiosas ideas in politias operando utaris convertam.",
-      "view_project": "Visum Project",
-      "open_project": "Apertum Ago Project",
-      "view_all": "Explorarent plenam portfolio",
+      "kicker": "Proiecta selecta",
+      "title": "Opera selecta",
+      "description": "Sex proiecta quae optimo modo repraesentant quomodo ideas ambitiosas in programmaturam politam et operantem verto.",
+      "view_project": "Vide proiectum",
+      "open_project": "Aperi proiectum vivum",
+      "view_all": "Explora portfolio plenam",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Plena Website",
-        "available_here": "Praesto Here",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Situs plenus",
+        "available_here": "Hic disponibile",
+        "minecraft_mod": "Modus Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Alia perspectiva operis",
+      "invitation": "Explora atlantem machinalem",
+      "kicker": "Portfolio plena / cogitatio connexa",
+      "title": "Atlas Machinalis",
+      "projects": "Proiecta",
+      "technologies": "Technologiae",
+      "connections": "Coniunctiones",
+      "center": "Atlas machinalis",
+      "filter_label": "Categoriae proiectorum",
+      "domains": {
+        "all": "Omne opus",
+        "products": "Producta",
+        "systems": "Systemata",
+        "experiences": "Experientiae"
+      },
+      "search": "Inveni proiectum vel technologiam",
+      "view_label": "Visus atlantis",
+      "map_view": "Visus tabulae",
+      "map_navigation": "Navigatio tabulae portfolii",
+      "zoom_in": "Auge",
+      "zoom_out": "Minue",
+      "zoom_level": "Gradus augendi tabulae",
+      "fit_all": "Adapta omnia proiecta",
+      "center_selected": "Centra proiectum electum",
+      "all_technologies": "Omnes technologiae",
+      "list_view": "Visus catalogi",
+      "pause": "Pausa animationem signi",
+      "resume": "Continua animationem signi",
+      "project_selector": "Explora proiecta",
+      "inspector": "Singula proiecti electi",
+      "shared_stack": "Technologia communis",
+      "family_connection": "Coniunctio proiecti",
+      "portfolio_connection": "Coniunctio portfolii",
+      "families": {
+        "portfolio": "Centrum portfolii",
+        "business": "Applicationes negotii",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Proiecta WebAssembly",
+        "libraries": "Bibliothecae scriptorum",
+        "languages": "Experimenta linguarum",
+        "automation": "Instrumenta automationis et datorum",
+        "experience": "Experientia professionalis et educationis"
+      },
+      "browser_native": "Nativus navigatri / sine servo",
+      "no_results": "Nulla proiecta congruentia",
+      "no_selection": "Nullum proiectum electum.",
+      "reset": "Purga cola",
+      "engineering_lens": "Perspectiva machinalis",
+      "connected_work": "Opus connexum",
+      "open_live": "Aperi proiectum vivum",
+      "open_project": "Explora proiectum",
+      "footer": "Regiones diversae. Una praxis machinalis connexa.",
+      "contact": "Construamus quod deinde venit",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Fistulae datorum",
+        "angular": "Angular",
+        "access": "Moderatio accessus",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Probandum",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilitas",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Accessibilitas",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Tabulae incongruae intrant. Aestimationes constructionis et propositiones paratae clienti exeunt. Productum SaaS aedificatum circa verum fluctum operis redemptoris.",
+          "lens": "Importationes flexibiles opus habent stricto interno exemplo: plures formas accipere non debet infirmare regulas calculi, a quibus oblatio pendet."
+        },
+        "inventory_register": {
+          "summary": "Fluctus operis puncti venditionis cum Angular et Node.js coniungens usores verificatos, accurationem inventarii, et fluctum pagamenti simulatum.",
+          "lens": "Registrum pecuniae plus est quam screen solutionis. Partes, mutationes copiae, et status pagamenti postulant claros fines ut fluctus operis responsabilis maneat."
+        },
+        "grocery_app": {
+          "summary": "Applicatio .NET 9 Blazor cum finibus moderatoris, servitii, et repositorii, permanentia Entity Framework Core, et copia probationum comprehensa.",
+          "lens": "Separatio locum meretur cum regulae negotii probari possunt independenter ab interficie et strato permanentiae."
+        },
+        "payrollobol": {
+          "summary": "Processio mercedis GnuCOBOL congruit cum libro principali duplicis introitus SQLite et tabulario operationis Svelte.",
+          "lens": "Correctio oeconomica incipit a repraesentatione: arithmetica centorum integrorum et scribtiones libratae motum pecuniae explicitum faciunt."
+        },
+        "interop": {
+          "summary": "Referentia inter linguas 15 linguas programmandi et 18 exemplaria executionis complectens, explorans quid in finibus temporis executionis eveniat.",
+          "lens": "Pars difficilis est contractus inter tempora executionis: commutatio datorum, mores processuum, et executio repetibilis plus valent quam syntax."
+        },
+        "formatter": {
+          "summary": "Verus motor analysis Go in WebAssembly compilatus. Validatio et formatio JSON et YAML localiter in navigatro currunt.",
+          "lens": "Ferre analysam in navigatrum maiorem onus clientis pro processione locali, portabilitate, et minoribus servitutiis commutat."
+        },
+        "portfolio_website": {
+          "summary": "Situs in quo es: portfolio React cum 100+ linguis, interactionibus accessibilibus, et instrumentis WebAssembly operantibus.",
+          "lens": "Dispositio statica non necessario significat experientiam staticam. Interactiones divites possunt in cliente vivere sine servo applicationis."
+        },
+        "biblioteca": {
+          "summary": "Fistula localisationis Python unum fontem contenti structi in portfolio in 100+ linguis disponibile vertens.",
+          "lens": "Attingentia globalis tam problema curationis datorum quam problema translationis est. Unus fons veritatis mutationes contenti tractabiles servat."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Technical Skills",
       "header1": "Programmatio Linguae",
       "header2": "Frameworks & Libraries",
-      "header3": "Tools & Technologies"
+      "header3": "Tools & Technologies",
+      "technologies": "technologiae",
+      "search_label": "Cola",
+      "search_placeholder": "Cola peritias…",
+      "clear_search": "Purga colum",
+      "no_matches": "Nullae peritiae tuo colo congruunt.",
+      "works": "Opera",
+      "experience": "Experientia",
+      "professional": "Professionaliter",
+      "education": "Educatio",
+      "paired_with": "Saepe cum coniungitur",
+      "summary_professional": "Professionaliter adhibitum apud {items}.",
+      "summary_education": "Studium et applicatio apud {items}.",
+      "summary_projects": "Practico modo applicatum in {items}.",
+      "summary_projects_also": "Etiam applicatum in {items}.",
+      "and_more": "plus",
+      "scroll_more": "Volve ad plura opera",
+      "show_less": "Minus ostende",
+      "no_samples": "Pars instrumentorum laboris mei. Libenter explicabo quomodo illo usus sum."
     },
     "services": {
       "title": "My Services",
@@ -112,6 +247,13 @@
           "text": "Cum realitatibus aedifico post launch in conspectum: secreta extra fontem dominium, migrationis datorum expressae semitae, munus subnixum, sanatio ad limites systematis; automated probationes, CI/CD conscientia et practica observabilitas. Haec sunt singula quae exemplar in programmatibus constantem convertunt."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licentiae et certificationes",
+      "credential": "Certificatio",
+      "issued_by": "Emissum a",
+      "issued": "Dies emissionis",
+      "verify": "Verifica certificationem"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Quattuor coniungere",
-        "text": "Familia ingens super 50+ exsecutionem Coniunctionis Quattuor lusus. Hoc consilium involvit implementations in supra 30 diversas linguas programmandi, inter Java, C++, Python, JavaScript, et plus. Accedit, quod etiam continet supra 20+ varias compages vel alias formas, inter React.js, Ruby in Rails, ASP.NET, et plura.",
+        "text": "Ingens familia 90+ implementationum ludi Quattuor in Ordine. Proiectum 30+ linguas programmandi, inter Java, C++, Python, et JavaScript, una cum 50+ diversis formis, bibliothecis, temporibus executionis, et datorum receptaculis complectitur, a React, Angular, et Blazor usque ad Django, Spring Boot, Phoenix, PostgreSQL, et ulterius.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Stipendiarii processus systematis localis cum GnuCOBOL constructum, tabellarium SQLite duplex introitum, et operationes Svelte ashboardday. Integrum cent math, batch stipendia processus, et loopback ashboardday ad officinas oeconomicas expressas, testabiles, et operationaliter rationem reddere.",
+        "text": "Systema locale processio mercedis cum GnuCOBOL, libro principali duplicis introitus SQLite, et tabulario operationis Svelte aedificatum. Arithmetica centorum integrorum, processio mercedis in agminibus, et tabularium loopback utitur ad fluxus oeconomicos explicitos, probabiles, et operative responsabiles faciendos.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "A Minecraft Mod quae instrumenta consuetudinis, arma, turbae, caudices, dimensiones addit, et plura lineamenta ad ludum. Praesertim cum Java et Kotlin aedificata, subsidiis Minecraft versionibus 1.16 per 26.2.",
+        "text": "Modus Minecraft qui instrumenta, arma, monstra, bloccos, dimensiones, et multas alias notas proprias ludo addit. Praesertim cum Java et Kotlin aedificatus, versiones Minecraft 1.16 usque ad 26.2 sustinet.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Serpens Ludus",
-        "text": "Serpens machinam politam cum Rust et Macroquad fabricatam, ad WebAssembly compilavit, et per HTML5 Canvas redditam. 0.12 secundus lusus ricini deterministicus componit cum motu lenis interpolatis, phasmata lusoria expressa, moderamina responsiva, conflictum et tractationem status conciliandi, et experimentum usitatum core lusus suite tegmen regit.",
+        "title": "Ludus serpentis",
+        "text": "Motor serpentis politus cum Rust et Macroquad aedificatus, in WebAssembly compilatus, et per HTML5 Canvas redditus. Deterministicos 0.12-secundorum lusionis ticks cum motu interpolationis levi, claris lusionis phasis, moderamine respondente, tractatione collisionum et statuum victoriae, et copia probationum intenta regulas lusionis fundamentales complectens coniungit.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Machina Project",
         "text": "Familia super 30+ exsecutiones Machinae Turingae. Solebant demonstrare perfectionem vertere pro variis programmandis linguis ad investigationes, praesertim pro Lingua Programming Tigris.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Laboratorium chemiae harenae-pulveris in Rust aedificatum et in WebAssembly compilatum. Pinge harenam, aquam, magmam, ferrum, calcium carbidem, vel frustum sodium et vide quomodo physica et chemia pugnent: sodium in aqua detonat, calcium carbid acetilenum emittit, magma harenam in vitrum fundit, et solum densitas oleum, hydrargyrum, et harenam separat. Motor 32 materias et 40 regulas reactionis declarativas super planum cellulae buffrum exercet, pixels directe a memoria lineari wasm sine transcriptionibus per singulum photogrammum reddens.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Lego Engine:",
     "tiger_code": "Codex Tigris:",
     "run_tiger": "Curre Tigris",
-    "output": "Output:"
+    "output": "Output:",
+    "stop": "Siste",
+    "program_input": "Introitus programmatis"
   },
   "tab": {
     "title": "Patricius Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Nulla lingua firmamentum"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Fontem codice in GitHub videre"
+  }
 }

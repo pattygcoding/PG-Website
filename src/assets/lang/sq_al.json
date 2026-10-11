@@ -4,21 +4,29 @@
     "home": "Shtëpi",
     "about": "Rreth meje",
     "portfolio": "Portofoli",
-    "projects": "Projektet e faqes në internet",
-    "tiger": "Gjuha e Tigrit",
-    "snake": "Lojë me gjarpër",
+    "projects": "Projekte të zgjedhura",
+    "tiger": "Tiger - Gjuhë programimi e personalizuar",
+    "snake": "Loja e gjarprit",
     "portfolio_translator": "Përkthyes portofoli",
-    "formatter": "Formatuesi JSON & YAML",
+    "formatter": "Linter JSON & YAML",
     "contact": "Më kontaktoni",
-    "home_description": "sys.root // pasqyra kryesore",
-    "about_description": "profili i inxhinierit // bio & stack",
-    "portfolio_description": "katalog softuerësh // vepra të paraqitura",
-    "projects_description": "mjete interaktive dhe përpilues",
-    "tiger_description": "përpilues i personalizuar dhe vizualizues AST",
-    "snake_description": "lojë klasike arcade / WASM",
-    "portfolio_translator_description": "100+ matricë gjuhësore dhe i18n",
-    "formatter_description": "Vlerësuesi dhe konvertuesi i sintaksës",
-    "contact_description": "transmetim i hapur // kontakto"
+    "home_description": "sys.root // përmbledhja kryesore",
+    "about_description": "profili i inxhinierit // bio dhe teknologjitë",
+    "portfolio_description": "katalogu i softuerit // punët e zgjedhura",
+    "projects_description": "mjete interaktive dhe kompajllerë",
+    "tiger_description": "kompajller i personalizuar dhe vizualizues AST",
+    "snake_description": "lojë klasike arkade / WASM",
+    "portfolio_translator_description": "matricë e 100+ gjuhëve dhe i18n",
+    "formatter_description": "validator dhe konvertues sintakse",
+    "contact_description": "transmetim i hapur // kontaktoni mua",
+    "arcade": "Arkada",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Pema gjuhësore Katër me radhë",
+    "alkalab_description": "simulim laboratori kimie / WASM",
+    "rustcraft_description": "lojë voxel në stilin Minecraft / Rust dhe wgpu",
+    "suprememc_description": "vitrinë e modit Minecraft / Java"
   },
   "home": {
     "title": "Inxhinier i Lartë i Stack-it të Plotë | Produkti dhe Sistemet",
@@ -35,17 +43,126 @@
     "contact_button": "Më kontaktoni",
     "about_button": "Rreth meje",
     "featured": {
-      "kicker": "Projektet e veçuara",
-      "title": "Puna e zgjedhur",
-      "description": "Gjashtë projekte që përfaqësojnë më së miri mënyrën se si unë i kthej idetë ambicioze në softuer të lëmuar dhe funksional.",
-      "view_project": "Shiko Projektin",
-      "open_project": "Hap Projektin Live",
-      "view_all": "Eksploroni portofolin e plotë",
+      "kicker": "Projekte të zgjedhura",
+      "title": "Punë të zgjedhura",
+      "description": "Gjashtë projekte që përfaqësojnë më mirë sesi i kthej idetë ambicioze në softuer të përpunuar dhe funksional.",
+      "view_project": "Shiko projektin",
+      "open_project": "Hap projektin e drejtpërdrejtë",
+      "view_all": "Eksploro portofolin e plotë",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Faqja e plotë e internetit",
+        "full_website": "Faqe e plotë interneti",
         "available_here": "Në dispozicion këtu",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Një perspektivë tjetër mbi punën",
+      "invitation": "Eksploroni atlasin inxhinierik",
+      "kicker": "Portofol i plotë / të menduarit e lidhur",
+      "title": "Atlas inxhinierik",
+      "projects": "Projekte",
+      "technologies": "Teknologji",
+      "connections": "Lidhje",
+      "center": "Atlas inxhinierik",
+      "filter_label": "Kategori projektesh",
+      "domains": {
+        "all": "E gjithë puna",
+        "products": "Produkte",
+        "systems": "Sisteme",
+        "experiences": "Përvoja"
+      },
+      "search": "Gjeni një projekt ose teknologji",
+      "view_label": "Pamja e atlasit",
+      "map_view": "Pamja e hartës",
+      "map_navigation": "Navigimi i hartës së portofolit",
+      "zoom_in": "Zmadho",
+      "zoom_out": "Zvogëlo",
+      "zoom_level": "Niveli i zmadhimit të hartës",
+      "fit_all": "Përshtat të gjitha projektet",
+      "center_selected": "Përqendro projektin e zgjedhur",
+      "all_technologies": "Të gjitha teknologjitë",
+      "list_view": "Pamja e listës",
+      "pause": "Pauzo animacionin e sinjalit",
+      "resume": "Vazhdo animacionin e sinjalit",
+      "project_selector": "Eksploro projektet",
+      "inspector": "Detajet e projektit të zgjedhur",
+      "shared_stack": "Teknologji e përbashkët",
+      "family_connection": "Lidhja e projektit",
+      "portfolio_connection": "Lidhja e portofolit",
+      "families": {
+        "portfolio": "Qendra e portofolit",
+        "business": "Aplikacione biznesi",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Projekte WebAssembly",
+        "libraries": "Biblioteka skriptash",
+        "languages": "Eksperimente gjuhësore",
+        "automation": "Mjetet e automatizimit dhe të dhënave",
+        "experience": "Përvojë profesionale dhe edukative"
+      },
+      "browser_native": "Vendas në shfletues / pa server",
+      "no_results": "Asnjë projekt që përputhet",
+      "no_selection": "Nuk është zgjedhur asnjë projekt.",
+      "reset": "Pastro filtrat",
+      "engineering_lens": "Perspektiva inxhinierike",
+      "connected_work": "Punë e lidhur",
+      "open_live": "Hap projektin e drejtpërdrejtë",
+      "open_project": "Eksploro projektin",
+      "footer": "Fusha të ndryshme. Një praktikë inxhinierike e lidhur.",
+      "contact": "Le të ndërtojmë atë që vjen më pas",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Proceset e të dhënave",
+        "angular": "Angular",
+        "access": "Kontrolli i aksesit",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testimi",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabiliteti",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Aksesueshmëria",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Tabela të papajtueshme brenda. Vlerësime ndërtimi dhe propozime gati për klientin jashtë. Një produkt SaaS i ndërtuar rreth rrjedhës reale të punës së kontraktuesit.",
+          "lens": "Importet fleksibël kërkojnë model të rreptë të brendshëm: pranimi i më shumë formateve nuk duhet të dobësojë rregullat e llogaritjes nga të cilat varet një ofertë."
+        },
+        "inventory_register": {
+          "summary": "Rrjedha e punës e pikës së shitjes me Angular dhe Node.js që lidh përdoruesit e verifikuar, saktësinë e inventarit dhe një rrjedhë pagese të simuluar.",
+          "lens": "Një arka është më shumë se një ekran pagese. Rolet, ndryshimet e stokut dhe statuset e pagesës kanë nevojë për kufij të qartë për ta mbajtur rrjedhën e punës të përgjegjshme."
+        },
+        "grocery_app": {
+          "summary": "Një aplikacion Blazor .NET 9 me kufij të kontrolluesit, shërbimit dhe depove, qëndrueshmëri me Entity Framework Core dhe një grup testesh gjithëpërfshirës.",
+          "lens": "Ndaria e fiton vendin e saj kur rregullat e biznesit mund të testohen në mënyrë të pavarur nga ndërfaqja dhe shtresa e qëndrueshmërisë."
+        },
+        "payrollobol": {
+          "summary": "Përpunimi i pagave GnuCOBOL takohet me librin kryesor të regjistrimit të dyfishtë SQLite dhe panelin operativ Svelte.",
+          "lens": "Korrektësia financiare fillon me paraqitjen: aritmetika e qindarkave të plota dhe regjistrimet e balancuara e bëjnë lëvizjen e parave të qartë."
+        },
+        "interop": {
+          "summary": "Referencë ndërgjuhësore që përfshin 15 gjuhë programimi dhe 18 modele ekzekutimi, duke eksploruar çfarë ndodh në kufijtë e kohës së ekzekutimit.",
+          "lens": "Pjesa e vështirë është kontrata midis kohëve të ekzekutimit: shkëmbimi i të dhënave, sjellja e proceseve dhe ekzekutimi i përsëritshëm kanë më shumë rëndësi se sintaksa."
+        },
+        "formatter": {
+          "summary": "Motor i vërtetë analizimi Go i kompiluar në WebAssembly. Validimi dhe formatimi i JSON dhe YAML funksionojnë lokal në shfletues.",
+          "lens": "Zhvendosja e parserit në shfletues këmben një ngarkesë më të madhe klienti për përpunim lokal, transportueshmëri dhe më pak varësi nga serveri."
+        },
+        "portfolio_website": {
+          "summary": "Faqja ku jeni: portofol React me mbi 100 gjuhë, ndërveprime të aksesueshme dhe mjete WebAssembly funksionale.",
+          "lens": "Një vendosje statike nuk duhet të nënkuptojë një përvojë statike. Ndërveprimet e pasura mund të jetojnë te klienti pa një server aplikacioni."
+        },
+        "biblioteca": {
+          "summary": "Proces lokalizimi Python që e kthen një burim të vetëm të përmbajtjes së strukturuar në një portofol të disponueshëm në mbi 100 gjuhë.",
+          "lens": "Shtrirja globale është po aq problem i mirëmbajtjes së të dhënave sa edhe problem përkthimi. Një burim i vetëm i së vërtetës i mban ndryshimet e përmbajtjes të menaxhueshme."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Aftësitë Teknike",
       "header1": "Gjuhët e Programimit",
       "header2": "Kornizat & Bibliotekat",
-      "header3": "Mjetet & Teknologjitë"
+      "header3": "Mjetet & Teknologjitë",
+      "technologies": "teknologji",
+      "search_label": "Filtro",
+      "search_placeholder": "Filtro aftësitë…",
+      "clear_search": "Pastro filtrin",
+      "no_matches": "Asnjë aftësi nuk përputhet me filtrin tuaj.",
+      "works": "Punë",
+      "experience": "Përvojë",
+      "professional": "Profesionale",
+      "education": "Arsim",
+      "paired_with": "Shpesh i çiftuar me",
+      "summary_professional": "Përdorur profesionalisht në {items}.",
+      "summary_education": "Studiuar dhe zbatuar në {items}.",
+      "summary_projects": "Zbatuar praktikisht në {items}.",
+      "summary_projects_also": "Zbatuar edhe në {items}.",
+      "and_more": "më shumë",
+      "scroll_more": "Lëvizni për më shumë punë",
+      "show_less": "Shfaq më pak",
+      "no_samples": "Pjesë e kutisë sime të veglave të punës. Jam i lumtur të shpjegoj si e kam përdorur."
     },
     "services": {
       "title": "Shërbimet e Mia",
@@ -112,6 +247,13 @@
           "text": "Unë ndërtoj duke pasur parasysh realitetet pas lëshimit: sekretet e mbajtura jashtë kontrollit të burimit, shtigjet eksplicite të migrimit të bazës së të dhënave, autorizimi i bazuar në role, vlefshmëria në kufijtë e sistemit, teste të automatizuara, ndërgjegjësim për CI/CD dhe vëzhgim praktik. Këto janë detajet që e kthejnë një prototip në softuer të besueshëm."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licenca dhe certifikime",
+      "credential": "Certifikim",
+      "issued_by": "Lëshuar nga",
+      "issued": "Data e lëshimit",
+      "verify": "Verifiko certifikimin"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Lidhni katër",
-        "text": "Familje masive me mbi 50+ zbatime të lojës Connect Four. Ky projekt përfshin implementime në mbi 30 gjuhë të ndryshme programimi, duke përfshirë Java, C++, Python, JavaScript dhe më shumë. Për më tepër, ai përfshin gjithashtu mbi 20+ korniza të ndryshme ose formate të tjera, duke përfshirë React.js, Ruby on Rails, ASP.NET, dhe më shumë.",
+        "text": "Një familje e madhe me mbi 90 zbatime të lojës Katër me radhë. Projekti përfshin mbi 30 gjuhë programimi, përfshirë Java, C++, Python dhe JavaScript, së bashku me mbi 50 korniza, biblioteka, kohë ekzekutimi dhe baza të dhënash të ndryshme, nga React, Angular dhe Blazor te Django, Spring Boot, Phoenix, PostgreSQL dhe më tej.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Lista e pagaveOBOL",
-        "text": "Një sistem lokal përpunimi i listës së pagave i ndërtuar me GnuCOBOL, një regjistër me hyrje të dyfishtë SQLite dhe një panel operativ Svelte. Ai përdor matematikë me cent të plotë, përpunimin e listës së pagave në grup, dhe një panel kontrolli për t'i bërë flukset e punës financiare të qarta, të testueshme dhe të përgjegjshme operative.",
+        "title": "PayrollOBOL",
+        "text": "Një sistem lokal i përpunimit të pagave i ndërtuar me GnuCOBOL, një libër kryesor i regjistrimit të dyfishtë SQLite dhe një panel operativ Svelte. Përdor matematikën e qindarkave të plota, përpunimin e pagave në tufa dhe një panel loopback për t'i bërë rrjedhat financiare të qarta, të testueshme dhe operacionalisht të përgjegjshme.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Një mod i Minecraft që shton mjete të personalizuara, forca të blinduara, turma, blloqe, dimensione dhe shumë veçori të tjera në lojë. Ndërtuar kryesisht me Java dhe Kotlin, me mbështetje që përfshin versionet e Minecraft 1.16 deri në 26.2.",
+        "text": "Një mod Minecraft që i shton lojës vegla, armatura, mobs, blloqe, dimensione dhe shumë funksione të personalizuara. Ndërtuar kryesisht me Java dhe Kotlin, me mbështetje për versionet e Minecraft 1.16 deri në 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Lojë me gjarpër",
-        "text": "Një motor i lëmuar Snake i ndërtuar me Rust dhe Macroquad, i përpiluar në WebAssembly dhe i dhënë përmes HTML5 Canvas. Ai kombinon shenjat përcaktuese të lojës prej 0,12 sekondash me lëvizjen e ndërsjellë të qetë, fazat e qartë të lojës, kontrollet reaguese, trajtimin e përplasjes dhe gjendjes fituese dhe një test të fokusuar suitë që mbulon rregullat kryesore të lojës.",
+        "title": "Loja e gjarprit",
+        "text": "Motor i përpunuar i Gjarprit i ndërtuar me Rust dhe Macroquad, i kompiluar në WebAssembly dhe i shfaqur përmes Canvas HTML5. Ai kombinon tiketa loje deterministike prej 0,12 sekondash me lëvizje të lëmuar të interpoluar, faza të qarta loje, kontroll të ndjeshëm, trajtim të përplasjeve dhe gjendjeve të fitores, si dhe një grup testesh të fokusuar që mbulon rregullat thelbësore të lojës.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Projekti Turing Machine",
         "text": "Familje me mbi 30+ implementime të Turing Machine. Përdoret për të demonstruar plotësinë e turingut për gjuhë të ndryshme programimi për kërkime, veçanërisht për gjuhën e programimit Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Laborator kimie me rërë pluhur i ndërtuar në Rust dhe i kompiluar në WebAssembly. Pikturoni rërë, ujë, lavë, çelik, karbid kalciumi ose një copë natrium dhe shikoni fizikën dhe kiminë duke u përballur: natriumi shpërthen në ujë, karbidi i kalciumit lëshon acetilen, lava e kthen rërën në qelq dhe vetëm dendësia ndan vajin, merkurin dhe rërën. Motori përpunon 32 materiale dhe 40 rregulla reaksioni deklarative mbi një bufer të sheshtë qelizash, duke shfaqur pikselët drejtpërdrejt nga memoria lineare e wasm pa kopje për kornizë.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Zgjidhni motorin:",
     "tiger_code": "Kodi Tiger:",
     "run_tiger": "Vraponi Tiger",
-    "output": "Prodhimi:"
+    "output": "Prodhimi:",
+    "stop": "Ndalo",
+    "program_input": "Hyrja e programit"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Nuk ka mbështetje gjuhësore"
     }
   },
-  "logotext": "PATRIKU"
+  "logotext": "PATRIKU",
+  "repo_button": {
+    "label": "Shiko kodin burim në GitHub"
+  }
 }

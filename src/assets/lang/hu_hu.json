@@ -4,21 +4,29 @@
     "home": "Otthon",
     "about": "Rólam",
     "portfolio": "Portfólió",
-    "projects": "Weboldal projektek",
-    "tiger": "Tigris nyelv",
-    "snake": "Snake Game",
+    "projects": "Kiemelt projektek",
+    "tiger": "Tiger - Egy egyedi programozási nyelv",
+    "snake": "Kígyójáték",
     "portfolio_translator": "Portfólió fordító",
-    "formatter": "JSON és YAML formázó",
+    "formatter": "JSON- és YAML-linter",
     "contact": "Lépjen kapcsolatba velem",
     "home_description": "sys.root // fő áttekintés",
-    "about_description": "mérnök profil // bio & stack",
-    "portfolio_description": "szoftverkatalógus // kiemelt művek",
+    "about_description": "mérnökprofil // bio és stack",
+    "portfolio_description": "szoftverkatalógus // kiemelt munkák",
     "projects_description": "interaktív eszközök és fordítók",
-    "tiger_description": "egyéni fordító és AST megjelenítő",
-    "snake_description": "klasszikus arcade játék / WASM",
+    "tiger_description": "egyedi fordító és AST-megjelenítő",
+    "snake_description": "klasszikus játéktermi játék / WASM",
     "portfolio_translator_description": "100+ nyelvi mátrix és i18n",
-    "formatter_description": "szintaxis-ellenőrző és konvertáló",
-    "contact_description": "átvitel megnyitása // vegye fel a kapcsolatot"
+    "formatter_description": "szintaxis-ellenőrző és konverter",
+    "contact_description": "nyílt átvitel // vegye fel velem a kapcsolatot",
+    "arcade": "Játékterem",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Ami négyes nyelvfa",
+    "alkalab_description": "kémiai laboratóriumi szimuláció / WASM",
+    "rustcraft_description": "Minecraft-stílusú voxeljáték / Rust és wgpu",
+    "suprememc_description": "Minecraft-mod bemutató / Java"
   },
   "home": {
     "title": "Senior Full Stack mérnök | Termékek és rendszerek",
@@ -36,16 +44,125 @@
     "about_button": "Rólam",
     "featured": {
       "kicker": "Kiemelt projektek",
-      "title": "Kiválasztott munka",
-      "description": "Hat projekt, amely a legjobban azt mutatja be, hogyan alakítom át az ambiciózus ötleteket csiszolt, működő szoftverekké.",
+      "title": "Válogatott munkák",
+      "description": "Hat projekt, amelyek legjobban képviselik, hogyan változtatom át az ambiciózus ötleteket csiszolt, működő szoftverré.",
       "view_project": "Projekt megtekintése",
-      "open_project": "Nyissa meg a Live Projectet",
-      "view_all": "Fedezze fel a teljes portfóliót",
+      "open_project": "Élő projekt megnyitása",
+      "view_all": "A teljes portfólió felfedezése",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Teljes Weboldal",
+        "full_website": "Teljes weboldal",
         "available_here": "Itt érhető el",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Minecraft-mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Más szemszög a munkára",
+      "invitation": "Fedezze fel a mérnöki atlaszt",
+      "kicker": "Teljes portfólió / összekapcsolt gondolkodás",
+      "title": "Mérnöki atlasz",
+      "projects": "Projektek",
+      "technologies": "Technológiák",
+      "connections": "Kapcsolatok",
+      "center": "Mérnöki atlasz",
+      "filter_label": "Projektkategóriák",
+      "domains": {
+        "all": "Minden munka",
+        "products": "Termékek",
+        "systems": "Rendszerek",
+        "experiences": "Tapasztalatok"
+      },
+      "search": "Projekt vagy technológia keresése",
+      "view_label": "Atlasz nézet",
+      "map_view": "Térkép nézet",
+      "map_navigation": "Portfólió térkép navigáció",
+      "zoom_in": "Nagyítás",
+      "zoom_out": "Kicsinyítés",
+      "zoom_level": "Térkép nagyítási szintje",
+      "fit_all": "Összes projekt igazítása",
+      "center_selected": "Kiválasztott projekt középre",
+      "all_technologies": "Összes technológia",
+      "list_view": "Lista nézet",
+      "pause": "Jelanimáció szüneteltetése",
+      "resume": "Jelanimáció folytatása",
+      "project_selector": "Projektek felfedezése",
+      "inspector": "Kiválasztott projekt részletei",
+      "shared_stack": "Megosztott technológia",
+      "family_connection": "Projektkapcsolat",
+      "portfolio_connection": "Portfólió-kapcsolat",
+      "families": {
+        "portfolio": "Portfólió-központ",
+        "business": "Üzleti alkalmazások",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly-projektek",
+        "libraries": "Szkriptkönyvtárak",
+        "languages": "Nyelvi kísérletek",
+        "automation": "Automatizálási és adateszközök",
+        "experience": "Szakmai és oktatási tapasztalat"
+      },
+      "browser_native": "Böngészőben natív / szerver nélkül",
+      "no_results": "Nincs egyező projekt",
+      "no_selection": "Nincs kiválasztott projekt.",
+      "reset": "Szűrők törlése",
+      "engineering_lens": "Mérnöki látószög",
+      "connected_work": "Összekapcsolt munka",
+      "open_live": "Élő projekt megnyitása",
+      "open_project": "Projekt felfedezése",
+      "footer": "Különböző területek. Egy összekapcsolt mérnöki gyakorlat.",
+      "contact": "Építsük meg, ami ezután jön",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Adatpipeline-ek",
+        "angular": "Angular",
+        "access": "Hozzáférés-vezérlés",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Tesztelés",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Együttműködés",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Akadálymentesség",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Inkonzisztens táblázatok be. Építési becslések és kész ügyfélajánlatok ki. Egy SaaS-termék, amely a vállalkozó tényleges munkafolyamata köré épült.",
+          "lens": "A rugalmas importálások szigorú belső modellt igényelnek: a több formátum elfogadása nem gyengítheti azokat a számítási szabályokat, amelyektől egy ajánlat függ."
+        },
+        "inventory_register": {
+          "summary": "Egy eladási pont munkafolyamata Angularral és Node.js-szel, amely összeköti a hitelesített felhasználókat, a készletpontosságot és egy szimulált fizetési folyamatot.",
+          "lens": "A pénztár több, mint egy fizetési képernyő. A szerepköröknek, készletváltozásoknak és fizetési állapotoknak explicit határokra van szükségük, hogy a munkafolyamat elszámoltatható maradjon."
+        },
+        "grocery_app": {
+          "summary": "Egy .NET 9 Blazor-alkalmazás vezérlő-, szolgáltatás- és adattár-határokkal, Entity Framework Core perzisztenciával és átfogó tesztkészlettel.",
+          "lens": "A szétválasztás akkor érdemli ki a helyét, ha az üzleti szabályok az interfésztől és a perzisztencia rétegtől függetlenül tesztelhetők."
+        },
+        "payrollobol": {
+          "summary": "A GnuCOBOL bérfeldolgozás találkozik egy SQLite kettős könyvelési főkönyvvel és egy Svelte működési irányítópulttal.",
+          "lens": "A pénzügyi helyesség a reprezentációval kezdődik: az egész centes aritmetika és a kiegyensúlyozott könyvelési tételek a pénzmozgást explicitté teszik."
+        },
+        "interop": {
+          "summary": "Egy nyelvek közötti referencia, amely 15 programozási nyelvet és 18 végrehajtási mintát ölel fel, és azt vizsgálja, mi történik a futásidejű határokon.",
+          "lens": "A nehéz rész a futásidők közötti szerződés: az adatcsere, a folyamatviselkedés és a reprodukálható végrehajtás többet számít, mint a szintaxis."
+        },
+        "formatter": {
+          "summary": "Egy valódi Go elemzőmotor WebAssembly-re fordítva. A JSON- és YAML-validálás és formázás a böngészőben, helyben fut.",
+          "lens": "Az elemző böngészőbe helyezése nagyobb kliens-terhelést cserél helyi feldolgozásra, hordozhatóságra és kevesebb szerverfüggőségre."
+        },
+        "portfolio_website": {
+          "summary": "Az oldal, ahol vagy: egy React-portfólió 100+ nyelvvel, akadálymentes interakciókkal és működő WebAssembly-eszközökkel.",
+          "lens": "A statikus telepítés nem feltétlenül statikus élményt jelent. A gazdag interakciók alkalmazásszerver nélkül is élhetnek a kliensen."
+        },
+        "biblioteca": {
+          "summary": "Egy Python lokalizációs pipeline, amely egyetlen strukturált tartalomforrást 100+ nyelven elérhető portfólióvá alakít.",
+          "lens": "A globális elérés annyira adatkarbantartási probléma, mint amennyire fordítási. Egyetlen igazságforrás kezelhetővé teszi a tartalomváltozásokat."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Technikai készségek",
       "header1": "Programozási nyelvek",
       "header2": "Keretrendszerek és könyvtárak",
-      "header3": "Eszközök és technológiák"
+      "header3": "Eszközök és technológiák",
+      "technologies": "technológiák",
+      "search_label": "Szűrés",
+      "search_placeholder": "Készségek szűrése…",
+      "clear_search": "Szűrő törlése",
+      "no_matches": "Egyetlen készség sem felel meg a szűrőnek.",
+      "works": "Munkák",
+      "experience": "Tapasztalat",
+      "professional": "Szakmai",
+      "education": "Oktatás",
+      "paired_with": "Gyakran párosítva ezzel:",
+      "summary_professional": "Szakmailag használva itt: {items}.",
+      "summary_education": "Tanulva és alkalmazva itt: {items}.",
+      "summary_projects": "Gyakorlatban alkalmazva itt: {items}.",
+      "summary_projects_also": "Szintén alkalmazva itt: {items}.",
+      "and_more": "tovább",
+      "scroll_more": "Görgessen további munkákért",
+      "show_less": "Kevesebb megjelenítése",
+      "no_samples": "A munkacélú eszköztáram része. Szívesen elmesélem, hogyan használtam."
     },
     "services": {
       "title": "Szolgáltatásaim",
@@ -112,6 +247,13 @@
           "text": "Az indítás utáni valóságot szem előtt tartva építek: a forrás ellenőrzése alól kizárt titkok, explicit adatbázis-migrációs útvonalak, szerepkör alapú engedélyezés, érvényesítés a rendszer határain, automatizált tesztek, CI/CD tudatosság és gyakorlati megfigyelhetőség. Ezek azok a részletek, amelyek a prototípust megbízható szoftverré varázsolják."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licencek és tanúsítványok",
+      "credential": "Tanúsítvány",
+      "issued_by": "Kiadta",
+      "issued": "Kiadás dátuma",
+      "verify": "Tanúsítvány ellenőrzése"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Csatlakoztassa a Négyet",
-        "text": "Hatalmas család a Connect Four játék több mint 50 megvalósításából. Ez a projekt több mint 30 különböző programozási nyelv megvalósítását tartalmazza, beleértve a Java, C++, Python, JavaScript és sok más nyelvet. Ezenkívül több mint 20 különböző keretrendszert vagy más formátumot is tartalmaz, beleértve a React.js-t, a Ruby on Rails-t, az ASP.NET-et és még sok mást.",
+        "text": "A négyes játék 90+ megvalósításából álló óriási család. A projekt 30+ programozási nyelvet ölel fel, köztük Java, C++, Python és JavaScript, valamint több mint 50 különböző keretrendszert, könyvtárat, futásidőt és adatbázist – a React, Angular és Blazor mellett Django, Spring Boot, Phoenix, PostgreSQL és további technológiákat.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "BérszámfejtésOBOL",
-        "text": "A GnuCOBOL-lal, egy SQLite kettős könyvelési könyvvel és egy Svelte műveleti irányítópulttal felépített helyi bérszámfejtő rendszer. Egész centes matematikát, kötegelt bérszámfejtést és visszahurkolt irányítópultot használ, hogy a pénzügyi munkafolyamatokat egyértelművé, tesztelhetővé és működésileg elszámoltathatóvá tegye.",
+        "title": "PayrollOBOL",
+        "text": "Egy helyi bérfeldolgozó rendszer GnuCOBOL, SQLite kettős könyvelési főkönyv és Svelte működési irányítópult segítségével. Egész centes matematikát, kötegelt bérfeldolgozást és visszacsatoló irányítópultot használ, hogy a pénzügyi munkafolyamatok explicit, tesztelhető és operatívan elszámoltatható legyen.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Egy Minecraft Mod, amely egyedi eszközöket, páncélokat, mobokat, blokkokat, méreteket és még sok más funkciót ad a játékhoz. Elsősorban Java és Kotlin segítségével készült, a Minecraft 1.16-tól 26.2-ig terjedő támogatásával.",
+        "text": "Egy Minecraft-mod, amely egyedi eszközöket, páncélokat, mobokat, blokkokat, dimenziókat és még számos funkciót ad a játékhoz. Főleg Java és Kotlin nyelvvel készült, a Minecraft 1.16–26.2 verzióit támogatva.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Snake Game",
-        "text": "Csiszolt Snake motor Rust és Macroquad segítségével, WebAssembly-re fordítva, és HTML5 Canvason keresztül renderelve. Egyesíti a determinisztikus 0,12 másodperces játékkulcsokat sima interpolált mozgással, explicit játékfázisokkal, reagáló vezérléssel, ütközés- és nyerőállapot-kezeléssel, valamint egy fókuszált teszttel sorozat, amely lefedi az alapvető játékszabályokat.",
+        "title": "Kígyójáték",
+        "text": "Egy csiszolt Kígyómotor Rust és Macroquad segítségével, WebAssembly-re fordítva és HTML5 Canvas-on renderelve. Determinisztikus 0,12 másodperces játékütemeket kombinál sima interpolált mozgással, explicit játékfázisokkal, érzékeny vezérléssel, ütközés- és győzelmi állapotkezeléssel, valamint a játék alapszabályait lefedő fókuszált tesztkészlettel.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing-gép projekt",
         "text": "A Turing-gép több mint 30 implementációjából álló család. Különböző kutatási programozási nyelvek, különösen a tigris programozási nyelv teljességének bemutatására szolgál.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Egy por-homok kémiai laboratórium Rustban építve és WebAssembly-re fordítva. Fess homokot, vizet, lávát, acélt, kalcium-karbidot vagy egy darab nátriumot, és nézd, ahogy a fizika és a kémia megküzd egymással: a nátrium a vízben felrobban, a kalcium-karbid acetilént bocsát ki, a láva a homokot üveggé olvasztja, és önmagában a sűrűség választja szét az olajat, a higanyt és a homokot. A motor 32 anyagot és 40 deklaratív reakciószabályt futtat egy lapos cellapuffer felett, és közvetlenül a wasm lineáris memóriájából renderel pixeleket, képkockánkénti másolatok nélkül.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Motor kiválasztása:",
     "tiger_code": "Tigris kód:",
     "run_tiger": "Fuss Tiger",
-    "output": "Kimenet:"
+    "output": "Kimenet:",
+    "stop": "Leállítás",
+    "program_input": "Programbemenet"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Nincs nyelvi támogatás"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Forráskód megtekintése a GitHubon"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "Kotiin",
     "about": "Tietoja minusta",
     "portfolio": "Portfolio",
-    "projects": "Verkkosivustoprojektit",
-    "tiger": "Tiikerin kieli",
-    "snake": "Käärmepeli",
+    "projects": "Valitut projektit",
+    "tiger": "Tiger - Mukautettu ohjelmointikieli",
+    "snake": "Matopeli",
     "portfolio_translator": "Portfolion kääntäjä",
-    "formatter": "JSON- ja YAML-muotoilija",
+    "formatter": "JSON- ja YAML-lintteri",
     "contact": "Ota minuun yhteyttä",
-    "home_description": "sys.root //pääkatsaus",
-    "about_description": "insinöörin profiili // bio & pino",
-    "portfolio_description": "ohjelmistoluettelo// varustellut työt",
+    "home_description": "sys.root // pääkatsaus",
+    "about_description": "insinöörin profiili // bio ja pino",
+    "portfolio_description": "ohjelmistokatalogi // valitut työt",
     "projects_description": "vuorovaikutteiset työkalut ja kääntäjät",
     "tiger_description": "mukautettu kääntäjä ja AST-visualisoija",
-    "snake_description": "klassinen arcade-peli / WASM",
-    "portfolio_translator_description": "Yli 100 kielimatriisia & i18n",
-    "formatter_description": "syntaksin validoija ja muunnin",
-    "contact_description": "avaa lähetys // ota yhteyttä"
+    "snake_description": "klassinen kolikkopeli / WASM",
+    "portfolio_translator_description": "100+ kielen matriisi ja i18n",
+    "formatter_description": "syntaksin varmennin ja muunnin",
+    "contact_description": "avoin siirto // ota yhteyttä",
+    "arcade": "Kolikkopelit",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Neljän suora -kielipuu",
+    "alkalab_description": "kemian laboratorion simulointi / WASM",
+    "rustcraft_description": "Minecraft-tyylinen voxelipeli / Rust ja wgpu",
+    "suprememc_description": "Minecraft-modin esittely / Java"
   },
   "home": {
     "title": "Vanhempi Full-Stack-insinööri | Tuotteet ja järjestelmät",
@@ -35,17 +43,126 @@
     "contact_button": "Ota minuun yhteyttä",
     "about_button": "Tietoja minusta",
     "featured": {
-      "kicker": "Esitellyt projektit",
-      "title": "Valittu työ",
-      "description": "Kuusi projektia, jotka edustavat parhaiten sitä, miten muutan kunnianhimoiset ideat kiillotetuiksi, toimiviksi ohjelmistoiksi.",
+      "kicker": "Valitut projektit",
+      "title": "Valitut työt",
+      "description": "Kuusi projektia, jotka parhaiten edustavat sitä, miten muutan kunnianhimoiset ideat hiottuiksi, toimiviksi ohjelmistoiksi.",
       "view_project": "Näytä projekti",
       "open_project": "Avaa live-projekti",
       "view_all": "Tutustu koko portfolioon",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Koko verkkosivusto",
-        "available_here": "Käytettävissä täällä.",
-        "minecraft_mod": "Minecraft-moduuli"
+        "full_website": "Täysi verkkosivusto",
+        "available_here": "Saatavilla täällä",
+        "minecraft_mod": "Minecraft-mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Toinen näkökulma työhön",
+      "invitation": "Tutustu insinöörin atlakseen",
+      "kicker": "Täydellinen portfolio / yhteydessä oleva ajattelu",
+      "title": "Insinöörin atlas",
+      "projects": "Projektit",
+      "technologies": "Teknologiat",
+      "connections": "Yhteydet",
+      "center": "Insinöörin atlas",
+      "filter_label": "Projektikategoriat",
+      "domains": {
+        "all": "Kaikki työt",
+        "products": "Tuotteet",
+        "systems": "Järjestelmät",
+        "experiences": "Kokemukset"
+      },
+      "search": "Etsi projekti tai teknologia",
+      "view_label": "Atlasnäkymä",
+      "map_view": "Karttanäkymä",
+      "map_navigation": "Portfolion karttanavigointi",
+      "zoom_in": "Lähennä",
+      "zoom_out": "Loitonna",
+      "zoom_level": "Kartan zoom taso",
+      "fit_all": "Sovita kaikki projektit",
+      "center_selected": "Keskitä valittu projekti",
+      "all_technologies": "Kaikki teknologiat",
+      "list_view": "Luettelonäkymä",
+      "pause": "Keskeytä signaalianimaatio",
+      "resume": "Jatka signaalianimaatiota",
+      "project_selector": "Tutustu projekteihin",
+      "inspector": "Valitun projektin tiedot",
+      "shared_stack": "Jaettu teknologia",
+      "family_connection": "Projektien yhteys",
+      "portfolio_connection": "Portfolioyhteys",
+      "families": {
+        "portfolio": "Portfoliokeskus",
+        "business": "Liiketoimintasovellukset",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly-projektit",
+        "libraries": "Skriptikirjastot",
+        "languages": "Kielikokeet",
+        "automation": "Automaatio- ja data-työkalut",
+        "experience": "Ammatillinen ja koulutuksellinen kokemus"
+      },
+      "browser_native": "Selainnatiivi / ei palvelinta",
+      "no_results": "Ei vastaavia projekteja",
+      "no_selection": "Ei valittua projektia.",
+      "reset": "Tyhjennä suodattimet",
+      "engineering_lens": "Insinöörin näkökulma",
+      "connected_work": "Yhteydessä oleva työ",
+      "open_live": "Avaa live-projekti",
+      "open_project": "Tutustu projektiin",
+      "footer": "Erilaisia toimialueita. Yksi yhteydessä oleva insinöörikäytäntö.",
+      "contact": "Rakennetaan seuraavaksi tuleva",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Tietoputket",
+        "angular": "Angular",
+        "access": "Pääsynhallinta",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testaus",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Yhteentoimivuus",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Saavutettavuus",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Epäjohdonmukaisia taulukoita sisään. Rakennusarvioita ja asiakasvalmiita tarjouksia ulos. SaaS-tuote, joka on rakennettu urakoitsijan todellisen työnkulun ympärille.",
+          "lens": "Joustavat tuonnit edellyttävät tiukkaa sisäistä mallia: lisämuotojen hyväksyminen ei saa heikentää niitä laskentasääntöjä, joihin tarjous perustuu."
+        },
+        "inventory_register": {
+          "summary": "Angular- ja Node.js-pohjainen kassajärjestelmän työnkulku, joka yhdistää tunnistetut käyttäjät, varastotarkkuuden ja simuloidun maksuvirran.",
+          "lens": "Kassa on enemmän kuin kassanäyttö. Roolit, varastomuutokset ja maksutilat tarvitsevat selviä rajoja, jotta työnkulku pysyy vastuullisena."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor -sovellus, jossa on ohjaimen, palvelun ja säilön rajat, Entity Framework Core -pysyvyys ja kattava testisarja.",
+          "lens": "Erottelu ansaitsee paikkansa, kun liiketoimintasäännöt voidaan testata riippumatta käyttöliittymästä ja pysyvyyskerroksesta."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL-palkanlaskenta kohtaa SQLite-kaksoiskirjanpidon ja Svelte-ohjauspaneelin.",
+          "lens": "Taloudellinen oikeellisuus alkaa esitystavasta: kokonaisten senttien aritmetiikka ja tasapainotetut kirjaukset tekevät rahan liikkeestä näkyvää."
+        },
+        "interop": {
+          "summary": "Kieltenvälinen viite, joka kattaa 15 ohjelmointikieltä ja 18 suoritusmallia ja tutkii, mitä tapahtuu ajonaikaisilla rajoilla.",
+          "lens": "Vaikea osa on ajonaikaisten ympäristöjen välinen sopimus: tiedonvaihto, prosessikäyttäytyminen ja toistettava suoritus merkitsevät enemmän kuin syntaksi."
+        },
+        "formatter": {
+          "summary": "Aito Go-jäsennysmoottori, joka on käännetty WebAssemblyksi. JSON- ja YAML-varmennus ja -muotoilu toimivat paikallisesti selaimessa.",
+          "lens": "Jäsentimen siirtäminen selaimeen vaihtaa suuremman asiakaslatauksen paikalliseen käsittelyyn, siirrettävyyteen ja vähempiin palvelinriippuvuuksiin."
+        },
+        "portfolio_website": {
+          "summary": "Sivusto, jolla olet: React-portfolio, jossa on yli 100 kieltä, saavutettavia vuorovaikutuksia ja toimivia WebAssembly-työkaluja.",
+          "lens": "Staattinen käyttöönotto ei tarkoita välttämättä staattista kokemusta. Rikas vuorovaikutus voi elää asiakaspuolella ilman sovelluspalvelinta."
+        },
+        "biblioteca": {
+          "summary": "Python-pohjainen lokalisointiputki, joka muuttaa yhden jäsennellyn sisältölähteen yli 100 kielellä saatavilla olevaksi portfolioksi.",
+          "lens": "Maailmanlaajuinen kattavuus on yhtä lailla tiedon ylläpidon ongelma kuin käännösongelma. Yksi totuuden lähde pitää sisältömuutokset hallittavina."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tekniset taidot",
       "header1": "Ohjelmointikielet",
       "header2": "Kehykset ja kirjastot",
-      "header3": "Työkalut ja teknologiat"
+      "header3": "Työkalut ja teknologiat",
+      "technologies": "teknologiat",
+      "search_label": "Suodata",
+      "search_placeholder": "Suodata taitoja…",
+      "clear_search": "Tyhjennä suodatin",
+      "no_matches": "Mikään taito ei vastaa suodatintasi.",
+      "works": "Työt",
+      "experience": "Kokemus",
+      "professional": "Ammattimainen",
+      "education": "Koulutus",
+      "paired_with": "Usein yhdistetty",
+      "summary_professional": "Käytetty ammattimaisesti paikassa {items}.",
+      "summary_education": "Opiskeltu ja sovellettu paikassa {items}.",
+      "summary_projects": "Sovellettu käytännössä kohteessa {items}.",
+      "summary_projects_also": "Sovellettu myös kohteessa {items}.",
+      "and_more": "lisää",
+      "scroll_more": "Vieritä nähdäksesi lisää töitä",
+      "show_less": "Näytä vähemmän",
+      "no_samples": "Osa työkalupakkiani. Kerron mielelläni, miten olen käyttänyt sitä."
     },
     "services": {
       "title": "Omat palvelut",
@@ -112,6 +247,13 @@
           "text": "Rakennan julkaisun jälkeisen todellisuuden kanssa: salaisuudet, jotka pidetään poissa lähteen hallinnasta, selkeät tietokannan siirtoreitit, roolipohjainen valtuutus, validointi järjestelmän rajoilla, automaattiset testit, CI/CD-tietoisuus ja käytännön havaittavuus. Nämä ovat yksityiskohtia, jotka tekevät prototyypistä luotettavan ohjelmiston."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lisenssit ja sertifikaatit",
+      "credential": "Sertifikaatti",
+      "issued_by": "Myöntäjä",
+      "issued": "Myönnetty",
+      "verify": "Varmista sertifikaatti"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Yhdistä neljä",
-        "text": "Massiivinen perhe, jossa on yli 50 Connect Four -pelin toteutusta. Tämä projekti sisältää toteutuksia yli 30 eri ohjelmointikielellä, mukaan lukien Java, C++, Python, JavaScript ja paljon muuta. Lisäksi se sisältää myös yli 20 erilaista kehystä tai muuta muotoa, mukaan lukien React.js, Ruby on Rails, ASP.NET ja paljon muuta.",
+        "text": "Valtava perhe, jossa on yli 90 toteutusta Neljän suora -pelistä. Projekti kattaa yli 30 ohjelmointikieltä, kuten Java, C++, Python ja JavaScript, sekä yli 50 erilaista kehystä, kirjastoa, ajonaikaista ympäristöä ja tietokantaa Reactista, Angularista ja Blazorista Djangoon, Spring Bootiin, Phoenxiin, PostgreSQL:ään ja edelleen.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PalkanmaksuOBOL",
-        "text": "Paikallinen palkanlaskentajärjestelmä, joka on rakennettu GnuCOBOLilla, SQLite-kaksoiskirjauksella ja Svelte-toimintojen koontinäytöllä. Se käyttää kokonaislukusenttistä matematiikkaa, palkanlaskennan käsittelyä ja silmukan hallintapaneelia tehdäkseen taloudellisista työnkuluista selkeitä, testattavia ja toiminnallisesti vastuullisia.",
+        "title": "PayrollOBOL",
+        "text": "Paikallinen palkanlaskentajärjestelmä, joka on rakennettu GnuCOBOLilla, SQLite-kaksoiskirjanpidolla ja Svelte-ohjauspaneelilla. Se käyttää kokonaisten senttien matematiikkaa, eräpalkanlaskentaa ja loopback-paneelia tehdäkseen taloudellisista työnkuluista selviä, testattavia ja toiminnallisesti vastuullisia.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Minecraft Mod, joka lisää peliin mukautettuja työkaluja, panssaria, väkijoukkoja, lohkoja, mittoja ja monia muita ominaisuuksia. Rakennettu ensisijaisesti Javalla ja Kotlinilla, ja tuki kattaa Minecraftin versiot 1.16–26.2.",
+        "text": "Minecraft-mod, joka lisää peliin mukautettuja työkaluja, haarniskoja, olioita, lohkoja, ulottuvuuksia ja monia muita ominaisuuksia. Rakennettu pääasiassa Java- ja Kotlin-kielillä, ja se tukee Minecraft-versioita 1.16–26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Käärmepeli",
-        "text": "Kiillotettu käärmemoottori, joka on rakennettu Rustista ja Macroquadista, käännetty WebAssemblyyn ja renderöity HTML5 Canvasilla. Siinä yhdistyvät deterministiset 0,12sekunnin pelimerkit, sujuva interpoloitu liike, eksplisiittiset pelivaiheet, reagoivat ohjaimet, törmäys- ja voittotilan käsittely sekä kohdennettu testi sviitti, joka kattaa keskeiset pelisäännöt.",
+        "title": "Matopeli",
+        "text": "Hiottu Matomoottori, joka on rakennettu Rustilla ja Macroquadilla, käännetty WebAssemblyksi ja renderöity HTML5 Canvasilla. Se yhdistää deterministiset 0,12 sekunnin pelitikit pehmeään interpoloituun liikkeeseen, selkeät pelivaiheet, reaktiivisen ohjauksen, törmäys- ja voittotilojen käsittelyn sekä keskittyneen testisarjan, joka kattaa pelin ydinsäännöt.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turingin koneprojekti",
         "text": "Perhe, jossa on yli 30 Turingin koneen toteutusta. Käytetään osoittamaan täydellisyyttä eri ohjelmointikielille tutkimukseen, erityisesti Tiger-ohjelmointikielelle.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Pulverihiekkainen kemian laboratorio, joka on rakennettu Rustilla ja käännetty WebAssemblyksi. Maalaa hiekkaa, vettä, laavaa, terästä, kalsiumkarbidia tai pala natriumia ja katso, miten fysiikka ja kemia taistelevat: natrium räjähtää vedessä, kalsiumkarbidi kuplii asetyleeniä, laava sulattaa hiekan lasiksi ja pelkkä tiheys lajittelee öljyn, elohopean ja hiekan. Moottori ajaa 32 materiaalia ja 40 deklaratiivista reaktiosääntöä tasaisella solupuskurilla ja renderöi pikselit suoraan wasmin lineaarisesta muistista ilman kopioita ruutua kohti.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Valitse moottori:",
     "tiger_code": "Tiikerikoodi:",
     "run_tiger": "Juokse Tiger",
-    "output": "Lähtö:"
+    "output": "Lähtö:",
+    "stop": "Pysäytä",
+    "program_input": "Ohjelman syöte"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Ei kielitukea"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Näytä lähdekoodi GitHubissa"
+  }
 }

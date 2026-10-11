@@ -4,21 +4,29 @@
     "home": "Uta",
     "about": "Nayat sipansa",
     "portfolio": "Cartera ukax mä jach’a uñacht’äwiwa",
-    "projects": "Sitio Web ukan Proyectos ukanaka",
-    "tiger": "Tigre Aru",
-    "snake": "Katari Anataña",
+    "projects": "Ajlliñäwi proyectonaka",
+    "tiger": "Tiger - Mayja Programación Aru",
+    "snake": "Katari uywawita",
     "portfolio_translator": "Cartera Jaqukipiri",
-    "formatter": "JSON & YAML Formato ukax mä juk’a pachanakanwa",
+    "formatter": "JSON & YAML uñakipiri",
     "contact": "Nayampi aruskipt’aña",
-    "home_description": "sys.root // jach’a uñakipaña",
-    "about_description": "perfil de ingeniero // bio & pila ukax mä jach’a uñacht’äwiwa",
-    "portfolio_description": "software catálogo // uñacht’ayat lurawinaka",
-    "projects_description": "herramientas interactivas & compiladores ukanaka",
-    "tiger_description": "compilador personalizado & AST uñacht’ayaña",
-    "snake_description": "arcade clásico anatt’awi / WASM",
-    "portfolio_translator_description": "100+ aru matriz & i18n",
-    "formatter_description": "sintaxis chiqanchaña & jaqukipiri",
-    "contact_description": "jist’arat transmisión // uñt’ayasiñataki"
+    "home_description": "sys.root // nayriri uñt'ayawi",
+    "about_description": "injiniru perfil // aruskipawi ukhamaraki tecnología",
+    "portfolio_description": "software catálogo // ajllitäwinaka",
+    "projects_description": "interactivo yäkunaka ukhamaraki compiladoranaka",
+    "tiger_description": "especial compilador ukhamaraki AST uñacht'ayiri",
+    "snake_description": "clásico arcade uywawita / WASM",
+    "portfolio_translator_description": "100+ arunaka matriz ukhamaraki i18n",
+    "formatter_description": "sintaxis validador ukhamaraki conversor",
+    "contact_description": "jist'aratäta transmisión // jikisipta",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Aru saphixa Pusï Patxata",
+    "alkalab_description": "química laboratorio simulación / WASM",
+    "rustcraft_description": "voxel uywawita Minecraft llevanxa / Rust ukampirus wgpu",
+    "suprememc_description": "Minecraft mod uñacht'awi / Java"
   },
   "home": {
     "title": "Jilïr Ingeniero Full-Stack ukan irnaqiri | Producto & Sistemas ukanaka",
@@ -35,17 +43,126 @@
     "contact_button": "Nayampi aruskipt’aña",
     "about_button": "Nayat sipansa",
     "featured": {
-      "kicker": "Uñacht’ayat Proyectos",
-      "title": "Ajllit Irnaqawi",
-      "description": "Suxta proyectos ukanakax kunjams jach’a amtäwinak software pulido, irnaqir ukar tukuyta uk juk’amp uñacht’ayi.",
-      "view_project": "Proyecto uñakipaña",
-      "open_project": "Proyecto Vivo jist’araña",
-      "view_all": "Uka cartera phuqhat uñakipt’aña",
+      "kicker": "Ajlliñäwi proyectonaka",
+      "title": "Ajllitäta lurañanaka",
+      "description": "Suxta proyectonaka amuyunaka software phuqhata ukhamaraki lurañankañapataki uñt'ayapxitu.",
+      "view_project": "Uñakipta proyecto",
+      "open_project": "Jakaña proyecto uñstayi",
+      "view_all": "Yantixaña phuqhata portfolio",
       "badges": {
-        "saas": "SaaS ukax mä juk’a pachanakanwa",
-        "full_website": "Phuqata Sitio Web ukan uñt’ayata",
-        "available_here": "Aka chiqanw utji",
-        "minecraft_mod": "Minecraft ukax mä juk’a pachanakanwa"
+        "saas": "SaaS",
+        "full_website": "Phuqhata web site",
+        "available_here": "Akana utji",
+        "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Juk'ampi mayja uñjaña lurañanxa",
+      "invitation": "Injiniería atlas yantixaña",
+      "kicker": "Phuqhata portfolio / chikt'ata amuyu",
+      "title": "Injiniería Atlas",
+      "projects": "Proyectonaka",
+      "technologies": "Tecnologíanaka",
+      "connections": "Chikt'atanaka",
+      "center": "Injiniería atlas",
+      "filter_label": "Proyecto categoríanaka",
+      "domains": {
+        "all": "Taqi lurañanaka",
+        "products": "Productonaka",
+        "systems": "Sistemanaka",
+        "experiences": "Yatichäwinaka"
+      },
+      "search": "Thaqi proyecto ukhamaraki tecnología",
+      "view_label": "Atlas uñjaña",
+      "map_view": "Mapa uñjaña",
+      "map_navigation": "Portfolio mapa ch'amanchaña",
+      "zoom_in": "Jach'achjaña",
+      "zoom_out": "Jisk'achjaña",
+      "zoom_level": "Mapa zoom nivel",
+      "fit_all": "Taqi proyectonaka phuqhasiyaña",
+      "center_selected": "Ajllitäta proyecto chikapachaña",
+      "all_technologies": "Taqi tecnologíanaka",
+      "list_view": "Lista uñjaña",
+      "pause": "Señal animación sayt'ayaña",
+      "resume": "Señal animación waljaña",
+      "project_selector": "Yantixaña proyectonaka",
+      "inspector": "Ajllitäta proyecto yatiyäwinaka",
+      "shared_stack": "Chikachata tecnología",
+      "family_connection": "Proyecto chikt'ata",
+      "portfolio_connection": "Portfolio chikt'ata",
+      "families": {
+        "portfolio": "Portfolio chika sarawi",
+        "business": "Negocio aplicacionanaka",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly proyectonaka",
+        "libraries": "Script bibliotecanaka",
+        "languages": "Aru yant'awinaka",
+        "automation": "Automatización ukhamaraki información yäkunaka",
+        "experience": "Profesional ukhamaraki yatiqaña experiencia"
+      },
+      "browser_native": "Navegador uñt'ata / server jan ukaxa",
+      "no_results": "Jan phuqhasi proyectonaka",
+      "no_selection": "Jan proyectonxa ajllitäkiti.",
+      "reset": "Filtronaka jisk'a chhaqhuraña",
+      "engineering_lens": "Injiniería uñjaña",
+      "connected_work": "Chikt'ata luraña",
+      "open_live": "Jakaña proyecto uñstayi",
+      "open_project": "Yantixaña proyecto",
+      "footer": "Mayja khuskhunaka. Mä chikt'ata injiniería khuskha.",
+      "contact": "Jichhürunakanx mayachasipxañani ukhamarak kunjamati",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Información tuberíanaka",
+        "angular": "Angular",
+        "access": "Mantäwi kontrol",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Yant'awi",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilidad",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Mantiri juk'ampi",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Jan phuqhasi tablänaka mantani. Construcción cómputonaka ukhamaraki cliente phuqhasipki propuestanaka mistu. SaaS producto contratista lurañapa katuqatu.",
+          "lens": "Flexible importanaka mä jach'a modelo kamachinixa: juk'ampi formatonaka katukaña jan waliptayaña corregüma oferta kamachi ukjaru."
+        },
+        "inventory_register": {
+          "summary": "Venta punto luraña Angular ukhamaraki Node.js ukampi chikt'ata usuarionaka, inventario juk'ampi, ukhamaraki simulado pago quta.",
+          "lens": "Caja janirakiw pago pantalla ukakikiti. Roles, stock mayjt'awinaka ukhamaraki pago estados kamachinaka uñt'ayata juk'ampi luraña jikxatasiñapataki."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor aplicación controlador, servicio, repository kamachinaka, Entity Framework Core persistentcia ukhamaraki test suitu phuqhata.",
+          "lens": "Separación lurapxiri mä wakiskiri tiempo jan ukax verificación kamachinaka interfaz ukhat uka persistencia jikxatasiñjamaki."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL phay churipxiri SQLite doble entrada libro mayor ukampirus Svelte operaciones panela.",
+          "lens": "Financiero wakiski uñt'ayaña: phuqhata cent aritmética ukhamaraki equilibrio apuntes qullqi ch'amanchaña uñt'ayañapataki."
+        },
+        "interop": {
+          "summary": "Interlingüe referencia 15 programación arunaka 18 desekución modelos ukana, tiempo límites kunaymana uñjawi.",
+          "lens": "Jiwasankiri ukax tiempo khuskhunaka contrato: información thaqhawi, proceso jikthapi, ukhamaraki repetición desekución sintaxis ukhat yäqapxi."
+        },
+        "formatter": {
+          "summary": "Chhaqokita Go parseador motor WebAssembly ukharu. JSON ukhamaraki YAML validación ukhamaraki formateo navegador ukana chhaqokitaki.",
+          "lens": "Parser navegador ukaru chikt'ayi jach'a cliente carga local procesamiento, portabilidad, juk'ampi server dependencia."
+        },
+        "portfolio_website": {
+          "summary": "Uka sitio ukana: React portfolio 100+ arunaka, accesible interaccionanaka, ukhamaraki WebAssembly yäkunaka lurañataki.",
+          "lens": "Estática desplegar jan utjaysuwa estática experiencia. Riqueza interaccionanaka cliente ukana server jan application ukaxa."
+        },
+        "biblioteca": {
+          "summary": "Python localización tubería mä estructura contenido fuente portfolio 100+ arunaka ukana uñt'ayañataki.",
+          "lens": "Global thaqhawi información mantenimiento ukajjaru traducción ukaja. Mä chiktata juk'ampi contenido mayjt'awinaka kamachinaka."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Yatiñanaka Técnica ukanaka",
       "header1": "Programación ukan arunakapa",
       "header2": "Marcos & Bibliotecas ukanaka",
-      "header3": "Herramientas & Tecnologías ukanaka"
+      "header3": "Herramientas & Tecnologías ukanaka",
+      "technologies": "tecnologíanaka",
+      "search_label": "Filtro",
+      "search_placeholder": "Yatichäwinaka filtraña…",
+      "clear_search": "Filtro jisk'a chhaqhuraña",
+      "no_matches": "Jan filtro ukana yatichäwinakan utjkiti.",
+      "works": "Lurañanaka",
+      "experience": "Experiencia",
+      "professional": "Profesional",
+      "education": "Yatiqaña",
+      "paired_with": "Ukhamarak mä chika",
+      "summary_professional": "{items} ukana profesional apnaqata.",
+      "summary_education": "{items} ukana yatiqa ukhamaraki apnaqa.",
+      "summary_projects": "{items} ukana luraña apnaqata.",
+      "summary_projects_also": "{items} ukana ukhamarak apnaqata.",
+      "and_more": "juk'ampinaka",
+      "scroll_more": "Lurañanaka juk'ampinaka uñjawi",
+      "show_less": "Jisk'aki uñt'ayaña",
+      "no_samples": "Lurañäw yätäw yäkunaka. Kunjamatisa apnaqapxta uñt'ayañataki."
     },
     "services": {
       "title": "Nayan Servicionakajaxa",
@@ -112,6 +247,13 @@
           "text": "Nayax uñstayañ tukuyatat chiqpach uñstawinakamp uñjasaw lurarakta: imantat yatiyäwinakax jan control de fuente ukan imatäxiwa, qhana base de datos ukan migración thakhinaka, autorización basada en rol, sistema límites ukan validación, yant’awinaka automáticas, CI/CD uñt’ayawi, ukhamaraki observabilidad práctica ukanaka. Akax detalles ukanakaw mä prototipo ukar software confiable ukar tukuyi."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licencias ukhamaraki certificaciones",
+      "credential": "Certificación",
+      "issued_by": "Apsuwayi",
+      "issued": "Jichhürunakan ukaru",
+      "verify": "Certificación uñakipxañani"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Pusi uñt’ayaña",
-        "text": "Jach’a familia 50+ jila implementaciones uka Connect Four anatäwi. Aka proyectox 30 jila kunayman programación arunakan phuqhachatawa, Java, C++, Python, JavaScript ukat juk’ampinaka. Ukhamarus, 20+ jila kunayman marcos jan ukax yaqha formatos ukanakaw utjaraki, React.js, Ruby on Rails, ASP.NET, ukat juk’ampinaka.",
+        "text": "Pusï Patxata 90+ implementaciones ayllu. Proyecto Java, C++, Python ukhamaraki JavaScript ukana 30+ programación arunaka apthapi.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Payllañ uñt’ayawiOBOL",
-        "text": "Mä sistema local de procesamiento de nómina ukax GnuCOBOL ukampiw lurata, mä libro mayor de doble entrada SQLite ukat mä tablón de operaciones Svelte ukampi. Ukax matemáticas de centavo entero, nómina de lotes ukat mä tablón de bucle back ukampiw qullqi tuqit irnaqañ thakhinak qhananchañataki, yant’añataki, ukat operativo tuqit cuenta churañataki.",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite doble entrada libro mayor ukhamaraki Svelte operaciones panel ukana nayriri phay churipxiri sistema. Sent aritmética phuqhata, batch phay chura ukhamaraki loopback panel financiero qutanaka thakhi uñt'ayañataki.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft ukax mä juk’a pachanakanwa",
-        "text": "Mä Minecraft Mod ukax herramientas personalizadas, armaduras, mobs, bloques, dimensiones ukat juk’amp walja lurawinakampiw anatañar yapxati. Nayraqatax Java ukat Kotlin ukanakamp luratawa, yanapt’awix Minecraft 1.16 ukat 26.2 uka versión ukanakaruw uñt’ayasi.",
+        "text": "Minecraft mod mä herramienta, armadura, mobs, blocks, dimensiones ukhamaraki juk'ampinaka uywawita ukjaru apthapi. Java ukhamaraki Kotlin ukana luraña 1.16 ukhat 26.2 qhiparu.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Katari Anataña",
-        "text": "Mä Snake motor pulido Rust ukat Macroquad ukanakamp luratawa, WebAssembly ukar apthapitawa, ukatx HTML5 Canvas tuqiw uñacht’ayata. Ukax determinista 0,12 segundos anatañ ticks ukanakamp mayachthapi, suman interpolado movimiento, explícitos de juegos fases, controles responsivos, colisión ukat ganancia-estado apnaqaña, ukat mä yant’aw enfocado suite ukax anatañ kamachinakaruw uñt’ayi.",
+        "title": "Katari uywawita",
+        "text": "Rust ukhamaraki Macroquad ukana, WebAssembly ukharu compilado ukhamaraki HTML5 Canvas ukana luraña engine.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Máquina Proyecto ukax mä jach’a lurawiwa",
         "text": "Familia ukax 30+ jila implementaciones de la Máquina Turing ukawa. Yatxatañatakix kunayman programación arunakatakix turing phuqhat uñacht’ayañatakiw apnaqasi, juk’ampis Tigre Programming Language ukataki.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Rust ukana lurañataki WebAssembly ukharu compilado ukana jüllp'i- Qullqi laboratorio. Qullqi, uma, lava, acero, calcio carburo ukhamaraki sodio ukana fisica ukhamaraki química lurañapa uñakipta.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Motor ajlliñ: 1.1.",
     "tiger_code": "Tigre Código:",
     "run_tiger": "T’ijt’aña Tigre",
-    "output": "Ukax akhamawa:"
+    "output": "Ukax akhamawa:",
+    "stop": "Sayt'ayaña",
+    "program_input": "Programa mantäwi"
   },
   "tab": {
     "title": "Patrick Goodwin sat jilataw ukham luräna",
@@ -367,5 +516,8 @@
       "no_language_support": "Janiw arut yanapt’añax utjkiti"
     }
   },
-  "logotext": "PATRICK sat chachajja"
+  "logotext": "PATRICK sat chachajja",
+  "repo_button": {
+    "label": "Uñakipta fuente código uka GitHub ukanxa"
+  }
 }

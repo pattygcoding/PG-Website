@@ -4,21 +4,29 @@
     "home": "Ndako",
     "about": "Na ntina na Ngai",
     "portfolio": "Portefeuille ya mosala",
-    "projects": "Ba Projets ya Site Internet",
-    "tiger": "Monoko ya Tigre",
-    "snake": "Lisano ya Nyoka",
+    "projects": "Misala oyo eponami",
+    "tiger": "Tiger - Lokota ya Kombo ya Programme",
+    "snake": "Momekano ya nyoka",
     "portfolio_translator": "Mobongoli ya Portefeuille",
-    "formatter": "JSON & YAML Mosali ya format",
+    "formatter": "Vérificateur JSON & YAML",
     "contact": "Contactez Ngai",
-    "home_description": "sys.root // botali ya monene",
-    "about_description": "profil ya ingénieur // bio & stack",
-    "portfolio_description": "catalogue logiciel // misala oyo elakisami",
-    "projects_description": "bisaleli ya interactif & ba compilateurs",
-    "tiger_description": "compilateur personnalisé & visualisateur ya AST",
-    "snake_description": "lisano ya arcade classique / WASM",
-    "portfolio_translator_description": "100+ matrice ya monoko & i18n",
-    "formatter_description": "validateur & convertisseur ya syntaxe",
-    "contact_description": "transmission ya polele // kozua contact"
+    "home_description": "sys.root // lisakoli monene",
+    "about_description": "profile ya ingénieur // bio mpe teknoloji",
+    "portfolio_description": "katalogi ya logiciel // mosala oyo oponi",
+    "projects_description": "bibundeli ya kozala na bokeseni mpe ba compilateurs",
+    "tiger_description": "compilateur ya particulier mpe visualiseur AST",
+    "snake_description": "momekano ya arkade ya kala / WASM",
+    "portfolio_translator_description": "matrice ya nkota 100+ mpe i18n",
+    "formatter_description": "avec vérificateur mpe convertisseur ya syntaxe",
+    "contact_description": "botindami ya polele // bébéla ngáí",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Nzete ya nkota Mine na molongo",
+    "alkalab_description": "simulation ya laboratoire ya chimie / WASM",
+    "rustcraft_description": "momekano voxel lokola Minecraft / Rust mpe wgpu",
+    "suprememc_description": "monzámá ya mod Minecraft / Java"
   },
   "home": {
     "title": "Ingénieur ya Likolo ya Stack Complète | Produit & Systèmes ya kosala",
@@ -35,17 +43,126 @@
     "contact_button": "Contactez Ngai",
     "about_button": "Na ntina na Ngai",
     "featured": {
-      "kicker": "Misala oyo elakisami",
-      "title": "Mosala oyo eponami",
-      "description": "Misala motoba oyo ezali komonisa malamu ndenge oyo nabongoli makanisi ya lokumu na logiciel poli, oyo ezali kosala.",
-      "view_project": "Tala Projet ya",
-      "open_project": "Projet ya Fungola En direct",
-      "view_all": "Tala portefeuille mobimba",
+      "kicker": "Misala oyo eponami",
+      "title": "Misala oyo eponami",
+      "description": "Misala motoba oyo ezali kokonisa malamu na ndenge nakomisaka makanisi ya mpiko logiciel ya malamu mpe ya kosala.",
+      "view_project": "Tala mosala",
+      "open_project": "Kofungola mosala ya bomoi",
+      "view_all": "Pémbola portfolio ya mobimba",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Site Internet mobimba",
-        "available_here": "Ezali Awa",
-        "minecraft_mod": "Minecraft Mod ya mosala"
+        "full_website": "Site ya mobimba",
+        "available_here": "Ezali awa",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Bomoni bwa bokeseni na mosala",
+      "invitation": "Pémbola atlas ya ingénierie",
+      "kicker": "Portfolio ya mobimba / makanisi ya kozala na bokeseni",
+      "title": "Atlas ya Ingénierie",
+      "projects": "Misala",
+      "technologies": "Teknoloji",
+      "connections": "Ba connexions",
+      "center": "Atlas ya ingénierie",
+      "filter_label": "Bakategori ya misala",
+      "domains": {
+        "all": "Mosala nyonso",
+        "products": "Ba produits",
+        "systems": "Ba systèmes",
+        "experiences": "Ba expériences"
+      },
+      "search": "Luka mosala to teknoloji",
+      "view_label": "Bomoni bwa atlas",
+      "map_view": "Bomoni bwa carte",
+      "map_navigation": "Navigation ya carte ya portfolio",
+      "zoom_in": "Kokitisa ngonga",
+      "zoom_out": "Kobimisa ngonga",
+      "zoom_level": "Etalelisi ya zoom ya carte",
+      "fit_all": "Fittinga misala nyonso",
+      "center_selected": "Tia mosala oyo oponi na kati-kati",
+      "all_technologies": "Teknoloji nyonso",
+      "list_view": "Bomoni ya liste",
+      "pause": "Kotika animation ya signal",
+      "resume": "Kosala lisusu animation ya signal",
+      "project_selector": "Pémbola misala",
+      "inspector": "Bafandi ya mosala oyo eponami",
+      "shared_stack": "Teknoloji ya kokabola",
+      "family_connection": "Connexion ya mosala",
+      "portfolio_connection": "Connexion ya portfolio",
+      "families": {
+        "portfolio": "Centre ya portfolio",
+        "business": "Aplikation ya bizongo",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Misala ya WebAssembly",
+        "libraries": "Ba bibliothèque ya script",
+        "languages": "Ba essai ya nkota",
+        "automation": "Bibundeli ya automatisation mpe données",
+        "experience": "Expérience ya mosala mpe ya kelasi"
+      },
+      "browser_native": "Ya libota ya navigateur / sans serveur",
+      "no_results": "Moko te ya misala ebongi",
+      "no_selection": "Moko te ya misala eponami.",
+      "reset": "Kolongola ba filtres",
+      "engineering_lens": "Bomoni bwa ingénierie",
+      "connected_work": "Mosala ya kozala na bokeseni",
+      "open_live": "Kofungola mosala ya bomoi",
+      "open_project": "Pémbola mosala",
+      "footer": "Ba domaines ya kokeseni. Pratique moko ya ingénierie oyo ezali na bokeseni.",
+      "contact": "Tolongo, tokosala likambo oyo ezali koya",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Ba pipeline ya données",
+        "angular": "Angular",
+        "access": "Kokamba bokɔti",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Komeka",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interopérabilité",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Kozala na bokɔti",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Ba feuilles de calcul oyo ezali na bokeseni bingengi. Ba estimations ya botongi mpe ba propositions ya kozala na malamu mpo na moto ya kozala na yango ezali kobima. Produit SaaS oyo etongami zingazinga ya ndenge ya mosala ya contractor.",
+          "lens": "Ba importation ya kozala na bokeseni esengi modèle ya kati oyo ezali na bokasi: koyamba ba formats mingi esengi te kokitisa ba règles ya calcul oyo offre esukimi na yango."
+        },
+        "inventory_register": {
+          "summary": "Flux de travail ya point de vente na Angular mpe Node.js oyo esangisi ba utilisateurs oyo ba vérifié, libongo ya inventaire, mpe flux ya paiement simulé.",
+          "lens": "Registre ya mbongo ezali mingi koleka écran ya paiement. Ba rôles, ba changements ya stock, mpe ba états ya paiement esengi ba limites ya polele mpo na kokwela flux de travail."
+        },
+        "grocery_app": {
+          "summary": "Aplikation .NET 9 Blazor na ba limites ya contrôleur, service, mpe repository, persistance ya Entity Framework Core, mpe kit ya test ya mobimba.",
+          "lens": "Séparation ezwaka esika na yango tango ba règles ya bizongo ekoki komekama na ndenge oyo esengi te na interface mpe niveau ya persistance."
+        },
+        "payrollobol": {
+          "summary": "Traitement ya salaire GnuCOBOL ekutanaka na livre principal ya entrée double ya SQLite mpe tableau de bord ya opération Svelte.",
+          "lens": "Correction ya mbongo ebandaka na représentation: arithmétique ya centimes complets mpe entrées équilibrées esalaka ete mouvement ya mbongo ezala clair."
+        },
+        "interop": {
+          "summary": "Référence interlangue oyo ezipi nkota 15 ya programmation mpe ba modèles 18 ya exécution, oyo ezali ko explorer likambo oyo esalemi na ba limites ya temps d'exécution.",
+          "lens": "Eloko ya mpasi ezali contrat kati na ba temps d'exécution: échange ya données, comportement ya processus, mpe exécution répétable ezali na ntina mingi koleka syntaxe."
+        },
+        "formatter": {
+          "summary": "Moteur ya parsing Go ya solo oyo ezali compilé na WebAssembly. Vérification mpe formatage ya JSON mpe YAML esalaka na ndenge ya local na navigateur.",
+          "lens": "Kotinda parser na navigateur esanganaka charge ya client monene mpo na traitement local, portabilité, mpe kokesana na serveur."
+        },
+        "portfolio_website": {
+          "summary": "Site oyo ozali na kati: portfolio React na nkota 100+, interactions ya kozala na bokɔti, mpe bibundeli ya WebAssembly oyo ezali kosala.",
+          "lens": "Déploiement statique esengeli te kosakola expérience statique. Ba interactions ya bozwi ekoki kozala na client sans serveur d'application."
+        },
+        "biblioteca": {
+          "summary": "Pipeline ya localisation Python oyo ekomi source ya contenu structuré moko na portfolio oyo ezali na nkota 100+.",
+          "lens": "Kozala na bokeseni na mokili mobimba ezali problème ya entretien ya données mpe problème ya traduction. Source ya solo moko ekokekisa ba changements ya contenu na ndenge ya koyeba."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Makoki ya Technique",
       "header1": "Minɔkɔ ya kosala programɛ",
       "header2": "Ba Cadres & Ba Bibliothèques",
-      "header3": "Bisaleli & Ba Technologies"
+      "header3": "Bisaleli & Ba Technologies",
+      "technologies": "teknoloji",
+      "search_label": "Filter",
+      "search_placeholder": "Filter ba compétences…",
+      "clear_search": "Kolongola filtre",
+      "no_matches": "Moko te ya ba compétences ebongi na filtre na yo.",
+      "works": "Misala",
+      "experience": "Expérience",
+      "professional": "Professionnel",
+      "education": "Kelasi",
+      "paired_with": "Mbala mingi ekosangani na",
+      "summary_professional": "Esalemi na mosala na {items}.",
+      "summary_education": "Ekolami mpe esalemi na {items}.",
+      "summary_projects": "Esalemi na maboko na {items}.",
+      "summary_projects_also": "Esalemi mpe na {items}.",
+      "and_more": "lisusu",
+      "scroll_more": "Pumbela mpo na misala mingi",
+      "show_less": "Kolakisa moke",
+      "no_samples": "Elingi kolakisa mpe koyebisa ndenge nasaleli yango. Nazali na esengo ya kolakisa yo ndenge nasaleli yango."
     },
     "services": {
       "title": "Misala na Ngai",
@@ -112,6 +247,13 @@
           "text": "Natongaka na ba réalités après lancement en vue : ba secrets oyo ebombami libanda ya contrôle ya source, ba voies explicites ya migration ya base de données, autorisation basée na rôle, validation na ba frontières ya système, ba tests automatiques, conscience ya CI/CD, mpe observabilité pratique. Wana ezali ba détails oyo ebongoli prototype na logiciel oyo ekoki kozala na confiance."
         }
       ]
+    },
+    "certifications": {
+      "title": "Ba licences mpe ba certifications",
+      "credential": "Certification",
+      "issued_by": "Bimisami na",
+      "issued": "Mokolo ya libimisami",
+      "verify": "Vérifier certification"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Bokangisa Minei",
-        "text": "Libota monene ya koleka 50+ implémentations ya jeu Connect Four. Projet oyo ezali na ba mise en œuvre na ba langues ya programmation koleka 30 différentes, na kati na yango Java, C++, Python, JavaScript, pe ebele. En plus, ezali pe na plus de 20+ cadres différents to ba formats misusu, na kati na yango React.js, Ruby on Rails, ASP.NET, pe ebele.",
+        "text": "Famille monene ya 90+ implémentations ya momekano Mine na molongo. Projet ezali kozipa nkota 30+ ya programmation, kati na yango Java, C++, Python, mpe JavaScript, elongo na ba frameworks 50+, ba bibliothèques, ba temps d'exécution, mpe ba bases de données ndenge na ndenge, longwa na React, Angular, mpe Blazor tii na Django, Spring Boot, Phoenix, PostgreSQL, mpe mosusu.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Lifuta ya lifutiOBOL",
-        "text": "Système ya traitement ya payroll local oyo etongami na GnuCOBOL, ledger ya double entrée ya SQLite, mpe tableau de bord ya ba opérations ya Svelte. Esalelaka matematiki ya nombre entier, traitement ya payroll ya batch, mpe tableau de boucle ya boucle mpo na kosala que ba flux ya mosala ya mosolo ezala polele, emekama, mpe ezala responsable na opérationnel.",
+        "title": "PayrollOBOL",
+        "text": "Système local ya traitement ya salaire oyo etongami na GnuCOBOL, livre principal ya entrée double ya SQLite, mpe tableau de bord ya Svelte. Ezali kosalela arithmétique ya centimes complets, traitement ya salaire par lots, mpe tableau de bord loopback mpo na kosala ete ba flux financier ezala clair, testable, mpe responsable.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod ya kosala",
-        "text": "Mod ya Minecraft oyo ebakisi bisaleli ya moto ye moko, bibundeli, mobs, ba blocs, ba dimensions, mpe makambo mosusu mingi na lisano. Etongamaki libosoliboso na Java mpe Kotlin, na lisungi oyo etali ba versions ya Minecraft 1.16 kino 26.2.",
+        "text": "Mod Minecraft oyo ezali kobakisa bibundeli, lokasa, ba mobs, ba blocs, ba dimensions, mpe biloko mingi mosusu na momekano. Etongami mingi-mingi na Java mpe Kotlin, ezali kosalela ba versions ya Minecraft 1.16 tii na 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Lisano ya Nyoka",
-        "text": "Moteur Snake polished oyo etongamaki na Rust na Macroquad, compilé na WebAssembly, mpe e rendre na nzela ya HTML5 Canvas. Esangisaka ba ticks ya jeu ya 0,12 secondes déterministes na mouvement interpolé ya doux, ba phases ya jeu explicites, ba contrôles responsifs, collision na manipulation ya état gagner, mpe test focusé suite oyo ezipaka mibeko ya moboko ya lisano.",
+        "title": "Momekano ya nyoka",
+        "text": "Moteur ya Nyoka oyo ezali compilé na Rust mpe Macroquad, compilé na WebAssembly, mpe rendu via HTML5 Canvas. Ezali kosangisa ba ticks ya jeu 0.12 seconde na mouvement interpolé, ba phases ya jeu clair, contrôle réactif, gestion ya collisions mpe états ya victoire, mpe kit ya test oyo ezali kovanda na ba règles ya jeu.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Projet ya Machine ya Turing",
         "text": "Libota ya plus de 30+ implémentations ya Machine Turing. Esalemi mpo na kolakisa turing completeness mpo na ba langues ya programmation ndenge na ndenge mpo na bolukiluki, mingi mingi mpo na Tiger Programming Language.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Laboratoire ya chimie ya poudre-ngúmba oyo etongami na Rust mpe compilé na WebAssembly. Pende sable, mai, lave, acier, carbure de calcium, to morceau ya sodium mpe tala ndenge physique mpe chimie esalaka: sodium epanzaka na mai, carbure de calcium ebimisaka acétylène, lave esanganaka sable na verre, mpe densité moko esanganaka huile, mercure, mpe sable. Moteur ezali kosala matériaux 32 mpe règles 40 ya réaction déclarative na buffer ya cellules, ezali kopesa pixels directement na mémoire linéaire ya wasm sans copies na frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Pona Moteur:",
     "tiger_code": "Code ya Tigre:",
     "run_tiger": "Kima Tigre",
-    "output": "Bobimisi:"
+    "output": "Bobimisi:",
+    "stop": "Kotika",
+    "program_input": "Bokɔti ya programme"
   },
   "tab": {
     "title": "Patrick Goodwin, oyo azali na mbongo mingi",
@@ -367,5 +516,8 @@
       "no_language_support": "Lisungi ya monoko te"
     }
   },
-  "logotext": "PATRICK NA YE"
+  "logotext": "PATRICK NA YE",
+  "repo_button": {
+    "label": "Tala kode ya source na GitHub"
+  }
 }

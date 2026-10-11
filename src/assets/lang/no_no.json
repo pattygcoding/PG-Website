@@ -4,21 +4,29 @@
     "home": "Hjem",
     "about": "Om meg",
     "portfolio": "Portefølje",
-    "projects": "Nettsideprosjekter",
-    "tiger": "Tigerspråk",
-    "snake": "Slangespill",
+    "projects": "Utvalgte prosjekter",
+    "tiger": "Tiger - Et tilpasset programmeringsspråk",
+    "snake": "Snake-spill",
     "portfolio_translator": "Porteføljeoversetter",
-    "formatter": "JSON & YAML-formater",
+    "formatter": "JSON- og YAML-linter",
     "contact": "Kontakt meg",
     "home_description": "sys.root // hovedoversikt",
-    "about_description": "ingeniørprofil // bio & stack",
-    "portfolio_description": "programvarekatalog // utvalgte verk",
+    "about_description": "ingeniørprofil // bio og stack",
+    "portfolio_description": "programvarekatalog // utvalgte arbeider",
     "projects_description": "interaktive verktøy og kompilatorer",
-    "tiger_description": "tilpasset kompilator og AST visualizer",
+    "tiger_description": "tilpasset kompilator og AST-visualisering",
     "snake_description": "klassisk arkadespill / WASM",
-    "portfolio_translator_description": "100+ språkmatrise og i18n",
-    "formatter_description": "syntaksvalidator og omformer",
-    "contact_description": "åpen sending // ta kontakt"
+    "portfolio_translator_description": "matrise med 100+ språk og i18n",
+    "formatter_description": "syntaksvalidator og -konverter",
+    "contact_description": "åpen overføring // ta kontakt",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Fire på rad-språk tre",
+    "alkalab_description": "simulering av kjemilaboratorium / WASM",
+    "rustcraft_description": "Minecraft-lignende voxel-spill / Rust og wgpu",
+    "suprememc_description": "Minecraft-mod showcase / Java"
   },
   "home": {
     "title": "Senior full-stack ingeniør | Produkt og systemer",
@@ -36,16 +44,125 @@
     "about_button": "Om meg",
     "featured": {
       "kicker": "Utvalgte prosjekter",
-      "title": "Valgt arbeid",
-      "description": "Seks prosjekter som best representerer hvordan jeg gjør ambisiøse ideer til polert, fungerende programvare.",
-      "view_project": "Se prosjekt",
-      "open_project": "Åpne Live Project",
+      "title": "Utvalgte arbeider",
+      "description": "Seks prosjekter som best representerer hvordan jeg forvandler ambisiøse ideer til polert, fungerende programvare.",
+      "view_project": "Vis prosjekt",
+      "open_project": "Åpne live-prosjekt",
       "view_all": "Utforsk hele porteføljen",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Hele nettstedet",
+        "full_website": "Full nettsted",
         "available_here": "Tilgjengelig her",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Minecraft-mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Et annet perspektiv på arbeidet",
+      "invitation": "Utforsk ingeniør-atlaset",
+      "kicker": "Komplett portefølje / tilkoblet tenkning",
+      "title": "Ingeniør-atlas",
+      "projects": "Prosjekter",
+      "technologies": "Teknologier",
+      "connections": "Koblinger",
+      "center": "Ingeniør-atlas",
+      "filter_label": "Prosjektkategorier",
+      "domains": {
+        "all": "Alt arbeid",
+        "products": "Produkter",
+        "systems": "Systemer",
+        "experiences": "Erfaringer"
+      },
+      "search": "Finn et prosjekt eller en teknologi",
+      "view_label": "Atlasvisning",
+      "map_view": "Kartvisning",
+      "map_navigation": "Navigasjon i porteføljekartet",
+      "zoom_in": "Zoom inn",
+      "zoom_out": "Zoom ut",
+      "zoom_level": "Kartets zoomnivå",
+      "fit_all": "Tilpass alle prosjekter",
+      "center_selected": "Sentrer valgte prosjekt",
+      "all_technologies": "Alle teknologier",
+      "list_view": "Listevisning",
+      "pause": "Pause signalanimasjon",
+      "resume": "Fortsett signalanimasjon",
+      "project_selector": "Utforsk prosjekter",
+      "inspector": "Detaljer om valgte prosjekt",
+      "shared_stack": "Delt teknologi",
+      "family_connection": "Prosjektkobling",
+      "portfolio_connection": "Porteføljekobling",
+      "families": {
+        "portfolio": "Porteføljehub",
+        "business": "Forretningsapplikasjoner",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly-prosjekter",
+        "libraries": "Skriptbiblioteker",
+        "languages": "Språkeksperimenter",
+        "automation": "Automatiserings- og dataverktøy",
+        "experience": "Yrkes- og utdanningserfaring"
+      },
+      "browser_native": "Nettlesernativ / ingen server",
+      "no_results": "Ingen matchende prosjekter",
+      "no_selection": "Ingen prosjekt valgt.",
+      "reset": "Tøm filtre",
+      "engineering_lens": "Ingeniørperspektiv",
+      "connected_work": "Tilkoblet arbeid",
+      "open_live": "Åpne live-prosjekt",
+      "open_project": "Utforsk prosjekt",
+      "footer": "Ulike domener. Én tilkoblet ingeniørpraksis.",
+      "contact": "La oss bygge det som kommer neste",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Datapipelines",
+        "angular": "Angular",
+        "access": "Tilgangskontroll",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testing",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilitet",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Tilgjengelighet",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Inkonsistente regneark inn. Byggeestimater og kundeklare forslag ut. Et SaaS-produkt bygget rundt entreprenørens faktiske arbeidsflyt.",
+          "lens": "Fleksible importer krever en streng intern modell: å akseptere flere formater må ikke svekke beregningsreglene et bud avhenger av."
+        },
+        "inventory_register": {
+          "summary": "En kassasystemarbeidsflyt med Angular og Node.js som kobler sammen autentiserte brukere, lagerpresisjon og en simulert betalingsstrøm.",
+          "lens": "En kasse er mer enn en betalingsskjerm. Roller, lagerendringer og betalingsstatuser trenger eksplisitte grenser for å holde arbeidsflyten ansvarlig."
+        },
+        "grocery_app": {
+          "summary": "En .NET 9 Blazor-applikasjon med kontroller-, tjeneste- og repository-grenser, Entity Framework Core-persistens og en omfattende testsuite.",
+          "lens": "Separasjon fortjener sin plass når forretningsregler kan testes uavhengig av grensesnittet og persistenslaget."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL-lønnshåndtering møter en SQLite-dobbeltført hovedbok og et Svelte-operasjonsdashboard.",
+          "lens": "Finansiell korrekthet starter med representasjon: helsernt-aritmetikk og balanserte bokføringer gjør pengebevegelser eksplisitte."
+        },
+        "interop": {
+          "summary": "En tverrspråklig referanse som dekker 15 programmeringsspråk og 18 utførelsesmønstre, og utforsker hva som skjer ved kjøretidsgrenser.",
+          "lens": "Det vanskelige er kontrakten mellom kjøretider: datautveksling, prosessatferd og repeterbar utførelse betyr mer enn syntaks."
+        },
+        "formatter": {
+          "summary": "En ekte Go-parsemotor kompilert til WebAssembly. JSON- og YAML-validering og -formatering kjører lokalt i nettleseren.",
+          "lens": "Å flytte parseren til nettleseren bytter en større klientbelastning mot lokal prosessering, portabilitet og færre serveravhengigheter."
+        },
+        "portfolio_website": {
+          "summary": "Siden du er på: en React-portefølje med 100+ språk, tilgjengelige interaksjoner og fungerende WebAssembly-verktøy.",
+          "lens": "En statisk distribusjon trenger ikke bety en statisk opplevelse. Rike interaksjoner kan leve på klienten uten en applikasjonsserver."
+        },
+        "biblioteca": {
+          "summary": "En Python-lokaliseringspipeline som forvandler én strukturert innholdskilde til en portefølje tilgjengelig på 100+ språk.",
+          "lens": "Global rekkevidde er like mye et datavedlikeholdsproblem som et oversettelsesproblem. Én sannhetskilde holder innholdsendringer håndterbare."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tekniske ferdigheter",
       "header1": "Programmeringsspråk",
       "header2": "Rammer og biblioteker",
-      "header3": "Verktøy og teknologier"
+      "header3": "Verktøy og teknologier",
+      "technologies": "teknologier",
+      "search_label": "Filtrer",
+      "search_placeholder": "Filtrer ferdigheter…",
+      "clear_search": "Tøm filter",
+      "no_matches": "Ingen ferdigheter matcher filteret ditt.",
+      "works": "Arbeider",
+      "experience": "Erfaring",
+      "professional": "Yrkesmessig",
+      "education": "Utdanning",
+      "paired_with": "Ofte kombinert med",
+      "summary_professional": "Brukt yrkesmessig hos {items}.",
+      "summary_education": "Studert og anvendt hos {items}.",
+      "summary_projects": "Anvendt praktisk i {items}.",
+      "summary_projects_also": "Også anvendt i {items}.",
+      "and_more": "mer",
+      "scroll_more": "Rull for å se flere arbeider",
+      "show_less": "Vis mindre",
+      "no_samples": "En del av arbeidsverktøysettet mitt. Jeg forteller gjerne hvordan jeg har brukt det."
     },
     "services": {
       "title": "Mine tjenester",
@@ -112,6 +247,13 @@
           "text": "Jeg bygger med realitetene etter lansering i sikte: hemmeligheter holdt utenfor kildekontroll, eksplisitte databasemigrasjonsbaner, rollebasert autorisasjon, validering ved systemgrenser, automatiserte tester, CI/CD-bevissthet og praktisk observerbarhet. Dette er detaljene som gjør en prototype til pålitelig programvare."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lisenser og sertifiseringer",
+      "credential": "Sertifisering",
+      "issued_by": "Utstedt av",
+      "issued": "Utstedt",
+      "verify": "Verifiser sertifisering"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Koble til fire",
-        "text": "En enorm familie på over 50+ implementeringer av Connect Four-spillet. Dette prosjektet inkluderer implementeringer i over 30 forskjellige programmeringsspråk, inkludert Java, C++, Python, JavaScript og mer. I tillegg inkluderer den også over 20+ forskjellige rammeverk eller andre formater, inkludert React.js, Ruby on Rails, ASP.NET og mer.",
+        "text": "En enorm familie av over 90 implementasjoner av Fire på rad-spillet. Prosjektet dekker 30+ programmeringsspråk, inkludert Java, C++, Python og JavaScript, sammen med 50+ forskjellige rammeverk, biblioteker, kjøretider og databaser – fra React, Angular og Blazor til Django, Spring Boot, Phoenix, PostgreSQL og mer.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "LønnOBOL",
-        "text": "Et lokalt lønnsbehandlingssystem bygget med GnuCOBOL, en SQLite-dobbeltbok og et Svelte-operasjonsdashbord. Den bruker heltallscent-matematikk, batch-lønnsbehandling og et loopback-dashbord for å gjøre økonomiske arbeidsflyter eksplisitte, testbare og operasjonelt ansvarlige.",
+        "title": "PayrollOBOL",
+        "text": "Et lokalt lønnshåndteringssystem bygget med GnuCOBOL, en SQLite-dobbeltført hovedbok og et Svelte-operasjonsdashboard. Det bruker helsernt-matemetikk, batch-lønnshåndtering og et loopback-dashboard for å gjøre finansielle arbeidsflyter eksplisitte, testbare og operasjonelt ansvarlige.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "En Minecraft-mod som legger til tilpassede verktøy, rustninger, mobber, blokker, dimensjoner og mange flere funksjoner til spillet. Bygget hovedsakelig med Java og Kotlin, med støtte som spenner over Minecraft-versjoner 1.16 til 26.2.",
+        "text": "En Minecraft-mod som legger til tilpassede verktøy, rustninger, mobs, blokker, dimensjoner og mange flere funksjoner i spillet. Bygget primært med Java og Kotlin, med støtte for Minecraft-versjonene 1.16 til og med 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Slangespill",
-        "text": "En polert Snake-motor bygget med Rust og Macroquad, kompilert til WebAssembly og gjengitt gjennom HTML5 Canvas. Den kombinerer deterministiske 0,12-sekunders spilltikker med jevn interpolert bevegelse, eksplisitte spillfaser, responsive kontroller, kollisjons- og vinn-tilstandshåndtering, og en fokusert test suite som dekker de viktigste spillereglene.",
+        "title": "Snake-spill",
+        "text": "En polert Snakemotor bygget med Rust og Macroquad, kompilert til WebAssembly og rendret gjennom HTML5 Canvas. Den kombinerer deterministiske 0,12-sekunders spilletikker med jevn interpolert bevegelse, eksplisitte spillefaser, responsivt input, håndtering av kollisjoner og seierstilstander, og en fokusert testsuite som dekker spillkjerne-reglene.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing maskinprosjekt",
         "text": "Familie på over 30+ implementeringer av Turing-maskinen. Brukes for å demonstrere turing-fullstendighet for forskjellige programmeringsspråk for forskning, spesielt for Tiger-programmeringsspråket.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Et pulversand-kjemilaboratorium bygget i Rust og kompilert til WebAssembly. Mal sand, vann, lava, stål, kalsiumkarbid eller en bit natrium, og se fysikk og kjemi kjempe: natrium detonerer i vann, kalsiumkarbid sender ut acetylen, lava smelter sand til glass, og tetthet alene sorterer olje, kvikksølv og sand. Motoren kjører 32 materialer og 40 deklarative reaksjonsregler over en flat cellebuffer og renderer piksler direkte fra wasm-linear-minne uten kopier per bilde.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Velg motor:",
     "tiger_code": "Tigerkode:",
     "run_tiger": "Kjør Tiger",
-    "output": "Produksjon:"
+    "output": "Produksjon:",
+    "stop": "Stopp",
+    "program_input": "Programinndata"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Ingen språkstøtte"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Vis kildekoden på GitHub"
+  }
 }

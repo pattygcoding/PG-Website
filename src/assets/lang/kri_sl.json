@@ -4,21 +4,29 @@
     "home": "Os",
     "about": "Bɔt Mi",
     "portfolio": "Pɔtfɔlio we dɛn kɔl",
-    "projects": "Wɛbsayt Projɛkt dɛn",
-    "tiger": "Tayga Langwej",
-    "snake": "Snek Gem",
+    "projects": "Chuz projekt dɛn",
+    "tiger": "Tiger - Wan Kastɔm Prɔgraming Langwej",
+    "snake": "Snɛk ple",
     "portfolio_translator": "Pɔtfɔlio Transletɔ",
-    "formatter": "JSON & YAML Fɔmat",
+    "formatter": "JSON & YAML chɛka",
     "contact": "Kontakt Mi",
-    "home_description": "sys.root // men ɔvaviu",
-    "about_description": "injinia profayl // bio & stak",
-    "portfolio_description": "softwea katalog // fichu wok dɛn",
-    "projects_description": "intaraktiv tul dɛn & kɔmpayla dɛn",
-    "tiger_description": "kɔstɔm kɔmpayla & AST vijualiza",
-    "snake_description": "klassik arcade gem / WASM",
-    "portfolio_translator_description": "100+ langwej matris & i18n",
-    "formatter_description": "sintaks validator & kɔnvɔta",
-    "contact_description": "opin transmishɔn // gɛt kɔntakt"
+    "home_description": "sys.root // mɛn bilivyu",
+    "about_description": "injinia profil // bio ɛn teknoloji",
+    "portfolio_description": "sɔftwea katalɔg // chuz wokdɛm",
+    "projects_description": "intɛraktiv tul ɛn kompaila",
+    "tiger_description": "kastɔm kompaila ɛn AST vizyualiza",
+    "snake_description": "klɑsik arked ple / WASM",
+    "portfolio_translator_description": "100+ langwej matriks ɛn i18n",
+    "formatter_description": "sintaks validatɔ ɛn kɔnvɛta",
+    "contact_description": "opin trans­mishɔn // kɔntakt mi",
+    "arcade": "Arked",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Tɔk langwej tri Fɔ na wan layn",
+    "alkalab_description": "kɛmistri lab simulɛshɔn / WASM",
+    "rustcraft_description": "voksɛl ple lɛk Minecraft / Rust ɛn wgpu",
+    "suprememc_description": "Minecraft mod sho / Java"
   },
   "home": {
     "title": "Sinia Ful-Stak Injinia | Prodakt & Sistem dɛn",
@@ -35,17 +43,126 @@
     "contact_button": "Kontakt Mi",
     "about_button": "Bɔt Mi",
     "featured": {
-      "kicker": "Di Projɛkt dɛn we dɛn dɔn sho",
-      "title": "Wok we dɛn dɔn pik",
-      "description": "Siks projɛkt dɛn we de ripresent di bɛst we aw a de tɔn ambishɔs aydia dɛn to polish, wok softwe.",
-      "view_project": "View Projek we yu go si",
-      "open_project": "Opin Layf Projɛkt",
-      "view_all": "Eksplɔrɔ di ful pɔtfolio",
+      "kicker": "Chuz projekt dɛn",
+      "title": "Chuz wok dɛn",
+      "description": "Siks projekt dɛn we de sho di bɛst aw i mek ambishɔs aydia dɛn tɔn gud ɛn wokin sɔftwea.",
+      "view_project": "Luk di projekt",
+      "open_project": "Opin di layv projekt",
+      "view_all": "Eksplor di ful portfolio",
       "badges": {
-        "saas": "SaaS we dɛn kɔl",
-        "full_website": "Ful Wɛbsayt",
-        "available_here": "Yu kin gɛt am na ya",
-        "minecraft_mod": "Minecraft Mod"
+        "saas": "SaaS",
+        "full_website": "Ful websayt",
+        "available_here": "De at ya",
+        "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Difrɛn pɔint ɔf vyuu pan di wok",
+      "invitation": "Eksplor di injinia atlas",
+      "kicker": "Ful portfolio / kɔnɛktɛd tin-kink",
+      "title": "Injinia Atlas",
+      "projects": "Projekt dɛn",
+      "technologies": "Teknoloji dɛn",
+      "connections": "Kɔnɛkshɔn dɛn",
+      "center": "Injinia atlas",
+      "filter_label": "Projekt kategɔri dɛn",
+      "domains": {
+        "all": "Ɔl di wok",
+        "products": "Prɔdukt dɛn",
+        "systems": "Sistɛm dɛn",
+        "experiences": "Ekspiriɛns dɛn"
+      },
+      "search": "Luk wan projekt ɔ teknoloji",
+      "view_label": "Atlas vu",
+      "map_view": "Map vu",
+      "map_navigation": "Portfolio map navigɛshɔn",
+      "zoom_in": "Big fayn",
+      "zoom_out": "Smɔl fayn",
+      "zoom_level": "Map zom lɛvul",
+      "fit_all": "Fiti ɔl di projekt dɛn",
+      "center_selected": "Put di chuz projekt na midul",
+      "all_technologies": "Ɔl di teknoloji",
+      "list_view": "Lis vu",
+      "pause": "Poz di sign animɛshɔn",
+      "resume": "Kɔntinyu di sign animɛshɔn",
+      "project_selector": "Eksplor projekt dɛn",
+      "inspector": "Di chuz projekt ɪnfɔmɛshɔn",
+      "shared_stack": "Shɛr teknoloji",
+      "family_connection": "Projekt kɔnɛkshɔn",
+      "portfolio_connection": "Portfolio kɔnɛkshɔn",
+      "families": {
+        "portfolio": "Portfolio hub",
+        "business": "Biznɛs ap dɛn",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly projekt dɛn",
+        "libraries": "Skrip laybrari dɛn",
+        "languages": "Langwej eksperimɛnt dɛn",
+        "automation": "Automeshɔn ɛn data tul dɛn",
+        "experience": "Pro­fɛshɔnal ɛn Ɛdyukɛshɔnal ekspiriɛns"
+      },
+      "browser_native": "Browser-netiv / na wan sɛva",
+      "no_results": "Nɔ wan projekt fit",
+      "no_selection": "Nɔ wan projekt chuz.",
+      "reset": "Klɛn di filtah dɛn",
+      "engineering_lens": "Injinia pɔint ɔf vyuu",
+      "connected_work": "Kɔnɛktɛd wok",
+      "open_live": "Opin di layv projekt",
+      "open_project": "Eksplor di projekt",
+      "footer": "Difrɛn dɔmen dɛn. Wan kɔnɛktɛd injinia prɔktis.",
+      "contact": "Lɛ wi bilt wetin de kam",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Data payplayn dɛn",
+        "angular": "Angular",
+        "access": "Aksɛs kɔntrul",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Tɛstin",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Inta-oparabilia",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Aksɛsibul",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Spredshit dɛn we nɔ de agri de kam insay. Bil ding estimɛt dɛn ɛn klyant-redi prɔpozul dɛn de go ɔt. Wan SaaS prɔdukt we dɛn bilt rawnd di ridimɔnt konchrakta wok flaw.",
+          "lens": "Flaksɛbul import dɛn nid wan tait insay mɔdɛl: aksept mɔ fɔmat dɛn nɔ fɔ wik di kalkyulɛshɔn rul dɛn we wan bid de tap pan."
+        },
+        "inventory_register": {
+          "summary": "Wan sal pɔynt wok flaw wit Angular ɛn Node.js we de kɔnɛkt vɛrifaid yuza dɛn, in­vɛntri kɔrɛktnɛs, ɛn wan simulɛtɛd peymɛnt flaw.",
+          "lens": "Wan kash rɛjista mɔ pas wan peymɛnt skrin. Rol dɛn, stɔk chaynj dɛn, ɛn peymɛnt status dɛn nid klia bɔrda dɛn fɔ kip di wok flaw akɔntabul."
+        },
+        "grocery_app": {
+          "summary": "Wan .NET 9 Blazor ap wit kɔntrɔla, sɛvis, ɛn ripɔzitri bɔrda dɛn, Entity Framework Core pɔsistɛns, ɛn wan kɔmplet tɛst sut.",
+          "lens": "Sɛpərɛshɔn de gɛt in ples wɛn biznɛs rul dɛn kin tɛst indipɛndɛnt fɔm di intafes ɛn di pɔsistɛns laya."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL peyrɔl prɔsesin de mit SQLite dɔbul-ɛntri lɛjɔ ɛn Svelte op­rɛshɔn dɛshbɔd.",
+          "lens": "Finanshal kɔrɛktnɛs de stat wit rip­rɛzɛntɛshɔn: ful-sɛnt aritmɛtik ɛn balansɛd ɛntri dɛn de mek moni muvmɛnt ikspɔsit."
+        },
+        "interop": {
+          "summary": "Wan kros-langwej rifrɛns we de kɔba 15 prɔgraming langwej ɛn 18 ɛksikyu­shɔn patɛn dɛn, de eksplor wetin de apin na di taym ɛnd dɛn.",
+          "lens": "Di ɔd pɔt na di agrimɛnt bitwin taym dɛn: data ɛkschaynj, prɔsɛs biheyviɔ, ɛn rɛpɛtɛbul ɛksikyushɔn mɔ impɔtant pas sintaks."
+        },
+        "formatter": {
+          "summary": "Wan rili Go parsing injin we de wok na WebAssembly. JSON ɛn YAML validɛshɔn ɛn fɔmatin de wok lokali na di browser.",
+          "lens": "Muv di parser na di browser de chaynj mɔ biga klyant layd fɔ lokal prɔsesin, pɔtabul, ɛn lɛs dipɛndɛn pan sɛva."
+        },
+        "portfolio_website": {
+          "summary": "Di sayt we yu de: wan React portfolio wit 100+ langwej, aksɛsibul inta­aksyɔn dɛn, ɛn WebAssembly tul dɛn we de wok.",
+          "lens": "Statik displɔymɛnt nɔ min statik ekspiriɛns. Rich inta-aksyɔn dɛn kin de insay di klyant na wan ap sɛva."
+        },
+        "biblioteca": {
+          "summary": "Wan Python lokalaizɛshɔn payplayn we de tɔn wan strɔktɔrid kɔntɛn sɔs ɔnli ɛn mek am wan portfolio we de na 100+ langwej.",
+          "lens": "Di wan wɔl rish na data mɛntinans prɔblɛm jɔs lɛk wan tɔntɔn prɔblɛm. Wan sɔs ɔf trut de kip kɔntɛn chaynj dɛn men­jɛbul."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Teknik Skil dɛn",
       "header1": "Progrɛm Langwej dɛn",
       "header2": "Framwok & Laybri dɛn",
-      "header3": "Tul & Teknɔlɔji dɛn"
+      "header3": "Tul & Teknɔlɔji dɛn",
+      "technologies": "teknoloji dɛn",
+      "search_label": "Filtah",
+      "search_placeholder": "Filtah skil dɛn…",
+      "clear_search": "Klɛn di filtah",
+      "no_matches": "Nɔ wan skil fit yu filtah.",
+      "works": "Wok dɛn",
+      "experience": "Ekspiriɛns",
+      "professional": "Profɛshɔnal",
+      "education": "Ɛdyukɛshɔn",
+      "paired_with": "Pɔsin kin kɔmɔn jun wit",
+      "summary_professional": "Yuza profɛshɔnali na {items}.",
+      "summary_education": "Lɛrn ɛn aplai na {items}.",
+      "summary_projects": "Aplai hand-ɔn na {items}.",
+      "summary_projects_also": "Ɛni wok we yu go du na {items}.",
+      "and_more": "mɔ",
+      "scroll_more": "Skrol fɔ mɔ wok dɛn",
+      "show_less": "So lɛs",
+      "no_samples": "Pat ɔf mi wok tul dɛn. A gladi fɔ ɛksplen aw a yuz am."
     },
     "services": {
       "title": "Mi Savis dɛn",
@@ -112,6 +247,13 @@
           "text": "A bil wit di rialiti dɛn afta lanch in view: sikrit dɛn we dɛn kip aut ɔf sɔs kɔntrol, ɛksplisit database maykreshɔn pat, rol-bɛs ɔtorizeshɔn, validɛshɔn na sistɛm bɔda, ɔtomatik tɛst, CI/CD ɔwe, ɛn prɛktikal ɔbshɔbibiliti. Dis na di ditel dɛn we de tɔn wan protɔtayp to sɔftwɛl we pɔsin kin abop pan."
         }
       ]
+    },
+    "certifications": {
+      "title": "Laisɛns ɛn sɛtifikɛshɔn dɛn",
+      "credential": "Sɛtifikɛshɔn",
+      "issued_by": "Isyu bay",
+      "issued": "Isyu deyt",
+      "verify": "Vɛrifai di sɛtifikɛshɔn"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Kɔnekt Fo",
-        "text": "Massive famili of ova 50+ implimentishɔn dɛn fɔ di Kɔnɛkt Fo gem. Dis projɛkt inklud implimɛnt dɛn insay pas 30 difrɛn programin langwej dɛn, we inklud Java, C++, Paytɔn, JavaSkript, ɛn ɔda wan dɛn. Apat frɔm dat, i inklud bak pas 20+ difrɛn freym ɔ ɔda fɔmat dɛn, we inklud React.js, Ruby on Rails, ASP.NET, ɛn mɔ.",
+        "text": "Wan biɡ famili wit 90+ wɔkiŋ ɔf di Fɔ na wan layn ple. Di projekt de kɔba 30+ prɔgraming langwej dɛn, inklud Java, C++, Python, ɛn JavaScript, wit 50+ difrɛn framwɔk, laybrari, taym dɛn, ɛn dɛtabeys dɛn, fɔm React, Angular, ɛn Blazor go dɔn to Django, Spring Boot, Phoenix, PostgreSQL, ɛn pas.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "PeyrɔlOBOL",
-        "text": "Wan lokal pe rɔl prɔsesin sistɛm we dɛn bil wit GnuCOBOL, wan SQLite dɛbul-ɛntri lɛdja, ɛn wan Svelte ɔpreshɔn dɛshbɔd. I de yuz intaj-sɛnt mats, batch pe rɔl prɔsesin, ɛn wan lɔpbak dɛshbɔd fɔ mek faynɛns wokflɔ klia, tɛst, ɛn ɔpreshɔnal akauntabl.",
+        "title": "PayrollOBOL",
+        "text": "Wan lokal peyrɔl prɔsesin sistɛm we dɛn bilt wit GnuCOBOL, wan SQLite dɔbul-ɛntri lɛjɔ, ɛn wan Svelte op­rɛshɔn dɛshbɔd. I de yuz ful-sɛnt aritmɛtik, batch peyrɔl prɔsesin, ɛn loopback dɛshbɔd fɔ mek finanshal flaw dɛn ikspɔsit, tɛstabul, ɛn akɔntabul na di op­rɛshɔn.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minekraft Mod",
-        "text": "Wan Minecraft Mod we de ad kɔstɔm tul dɛn, armor, mob, blɔk, dimɛnshɔn, ɛn bɔku ɔda tin dɛn to di gem. Dɛn bil am mɔ wit Java ɛn Kotlin, wit sɔpɔt we de span Minecraft vɛshɔn 1.16 to 26.2.",
+        "text": "Wan Minecraft mod we de ad kastɔm tul dɛn, amɔ, mɔb dɛn, blɔk dɛn, dimɛnshɔn dɛn, ɛn mɔni mɔ ficha dɛn na di ple. Bilt mɔni wit Java ɛn Kotlin, de sɔpɔt Minecraft 1.16 go dɔn to 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Snek Gem",
-        "text": "Wan polish Snek injin we dɛn bil wit Rust ɛn Macroquad, we dɛn kɔmpilayt to WebAssembly, ɛn we dɛn rɛnd tru HTML5 Kanvas. I de kɔba ditɛministic 0.12-sɛkɔn gem tik wit smol intapɔlayt muvmɛnt, ɛksplisit gem faz, rispɔnsiv kɔntrol, kɔlishin ɛn win-stet hanlin, ɛn wan fɔs tɛst suit we de kɔba di kɔr gem lɔ dɛn.",
+        "title": "Snɛk ple",
+        "text": "Wan finis Snɛk injin we dɛn bilt wit Rust ɛn Macroquad, kompail na WebAssembly, ɛn rɛndɛ tru HTML5 Canvas. I de jun 0.12-sɛkɔnd mɛk-chɔys ple tik dɛn wit myusikal mu­vmɛnt, klia ple faz dɛn, rɛspɔnsiv kɔntrul, kɔlizhɔn ɛn win-stet anling, ɛn wan fɔkas tɛst sut we de kɔba di kor rul dɛn.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Mashin Projɛkt",
         "text": "Famili fɔ ova 30+ implimɛnt dɛn fɔ di Turing Mashin. Yuz fɔ sho turing kɔmplitnɛs fɔ difrɛn programin langwej fɔ risach, mɔ fɔ di Tayga Progrɛm Langwej.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Wan pɔda-sand kɛmistri lab we dɛn bilt na Rust ɛn kompail na WebAssembly. Pɛnt sand, wata, lava, stil, kaltyum karbyd, ɔ wan pis sɔdtyum ɛn luk aw fiziks ɛn kɛmistri de fayt: sɔdtyum de bɔm na wata, kaltyum karbyd de rilis asɛtilin, lava de mit sand ɛn mek am glas, ɛn dɛnsiti wan de sɛparet ɔyl, mɛrkyuri, ɛn sand. Di injin de rɔn 32 matiryul dɛn ɛn 40 diklarativ ri­akshɔn rul dɛn na wan flat sel bɔfa, de rɛndɛ piksl dɛn dairektli na wasm linia mɛmɔri na wan kɔpi fɔ ɛvri frent.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Pik di Injin:",
     "tiger_code": "Tayga Kɔd: .",
     "run_tiger": "Rɔn Tayga",
-    "output": "Di tin we dɛn kin pul: ."
+    "output": "Di tin we dɛn kin pul: .",
+    "stop": "Stɔp",
+    "program_input": "Prɔgram input"
   },
   "tab": {
     "title": "Patrik Gudwin bin de",
@@ -367,5 +516,8 @@
       "no_language_support": "No langwej sɔpɔt nɔ de"
     }
   },
-  "logotext": "PATRIK"
+  "logotext": "PATRIK",
+  "repo_button": {
+    "label": "Luk di kɔd we de na di GitHub"
+  }
 }

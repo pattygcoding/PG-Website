@@ -4,21 +4,29 @@
     "home": "Lehae",
     "about": "Ka 'na",
     "portfolio": "Portfolio",
-    "projects": "Merero ea Webosaete",
-    "tiger": "Leleme la Nkwe",
-    "snake": "Papali ea Noha",
+    "projects": "Merero e kgethiloeng",
+    "tiger": "Tiger - Puo e Ikhethileng ea Lenaneo",
+    "snake": "Papali ea noha",
     "portfolio_translator": "Mofetoleli oa Portfolio",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Molebeli oa JSON & YAML",
     "contact": "Ikopanye le 'Na",
-    "home_description": "sys.root // kakaretso ya kakaretso",
-    "about_description": "boemo ba moenjiniere // bio & stack",
-    "portfolio_description": "lethathamo la software // mesebetsi e hlahang",
-    "projects_description": "lisebelisoa tse sebetsanang le li-compilers",
-    "tiger_description": "moqapi oa tloaelo le sebono sa AST",
-    "snake_description": "papali ea khale ea papali / WASM",
-    "portfolio_translator_description": "100+ puo ea matrix & i18n",
-    "formatter_description": "syntax validator & converter",
-    "contact_description": "phetiso/ Boetsuwa ba ho kena"
+    "home_description": "sys.root // kakaretso e ka sehloohong",
+    "about_description": "boemo ba moenjiniere // bio le mahlale",
+    "portfolio_description": "khatala ea software // mesebetsi e kgethiloeng",
+    "projects_description": "lisebelisoa tsa puisano le li-compiler",
+    "tiger_description": "compiler e kgethehileng le AST sebonwa",
+    "snake_description": "papali ea arkade ea khale / WASM",
+    "portfolio_translator_description": "matrix ea lipuo tse 100+ le i18n",
+    "formatter_description": "molebeli le mofetoleli oa syntax",
+    "contact_description": "phetiso e butseng // ikopanye le nna",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Sefate sa puo tse Nne ka latellano",
+    "alkalab_description": "papiso ea laboratara ea k'hemistri / WASM",
+    "rustcraft_description": "papali ea voxel ea mofuta oa Minecraft / Rust le wgpu",
+    "suprememc_description": "pontsho ea mod ea Minecraft / Java"
   },
   "home": {
     "title": "Moenjiniere ea Phahameng ka ho Fetisisa | Sehlahisoa & Litsamaiso",
@@ -35,17 +43,126 @@
     "contact_button": "Ikopanye le 'Na",
     "about_button": "Ka 'na",
     "featured": {
-      "kicker": "Merero e kenyellelitsoeng",
-      "title": "Mosebetsi o Khethiloeng",
-      "description": "Merero e ts'eletseng e emelang hantle tsela eo ke fetolang mehopolo ea boikhohomoso hore e be software e ntlafalitsoeng, e sebetsang.",
-      "view_project": "Sheba Morero",
-      "open_project": "Open Live Project",
-      "view_all": "Lekola potefolio e felletseng",
+      "kicker": "Merero e kgethiloeng",
+      "title": "Mesebetsi e kgethiloeng",
+      "description": "Merero e tsheletseng e emelang hantle ka ho fetisisa kamoo ke fetolang mehopolo e matla ho software e lekaneng le e sebetsang.",
+      "view_project": "Sheba projeke",
+      "open_project": "Bula projeke e phelang",
+      "view_all": "Fumana portfolio e felletseng",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Webosaete e felletseng",
-        "available_here": "E fumaneha Mona",
-        "minecraft_mod": "Mokhoa oa ho sebelisa Minecraft"
+        "full_website": "Sebaka sa marang-rang se felletseng",
+        "available_here": "Fumaneha mona",
+        "minecraft_mod": "Mod ea Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Pontso e fapaneng mabapi le mosebetsi",
+      "invitation": "Fumana atlas ea boenjineri",
+      "kicker": "Portfolio e felletseng / menahano e hokahaneng",
+      "title": "Atlas ea Boenjineri",
+      "projects": "Merero",
+      "technologies": "Mahlale",
+      "connections": "Likhokahano",
+      "center": "Atlas ea boenjineri",
+      "filter_label": "Dikarolo tsa merero",
+      "domains": {
+        "all": "Mosebetsi oohle",
+        "products": "Dihlahiswa",
+        "systems": "Tsamaiso",
+        "experiences": "Boiphihlelo"
+      },
+      "search": "Fumana projeke kapa theknoloji",
+      "view_label": "Pono ea atlas",
+      "map_view": "Pono ea 'mapa",
+      "map_navigation": "Ho tsamaisa 'mapa oa portfolio",
+      "zoom_in": "Hodisa",
+      "zoom_out": "Nyenyefatsa",
+      "zoom_level": "Boemo ba zoom ea 'mapa",
+      "fit_all": "Lokisa merero eohle",
+      "center_selected": "Beha projeke e kgethileng bohareng",
+      "all_technologies": "Mahlale ohle",
+      "list_view": "Pono ea lenane",
+      "pause": "Emisa animation ea letshwao",
+      "resume": "Tsoela pele ka animation ea letshwao",
+      "project_selector": "Fumana merero",
+      "inspector": "Dintlha tsa projeke e kgethileng",
+      "shared_stack": "Theknoloji e arolelanoang",
+      "family_connection": "Khokahano ea projeke",
+      "portfolio_connection": "Khokahano ea portfolio",
+      "families": {
+        "portfolio": "Sete si sa portfolio",
+        "business": "Lits'ebetso tsa khoebo",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Merero ea WebAssembly",
+        "libraries": "Dilaeborari tsa script",
+        "languages": "Diteko tsa puo",
+        "automation": "Lisebelisoa tsa automation le data",
+        "experience": "Boiphihlelo ba setsebi le thuto"
+      },
+      "browser_native": "Motheo oa sebatli / ntle le seva",
+      "no_results": "Ha ho merero e tšoanang",
+      "no_selection": "Ha ho projeke e kgethiloeng.",
+      "reset": "Hlakola dithaelete",
+      "engineering_lens": "Pontso ea boenjineri",
+      "connected_work": "Mosebetsi o hokahaneng",
+      "open_live": "Bula projeke e phelang",
+      "open_project": "Fumana projeke",
+      "footer": "Dibaka tse fapaneng. Mosebetsi o le mong o hokahaneng oa boenjineri.",
+      "contact": "Ha re aheng se tlang",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Diphaepe tsa data",
+        "angular": "Angular",
+        "access": "Taolo ea phihlello",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Teko",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Tšebelisano",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Phihlello",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Lisoloko tse sa lumellaneng li kena. Dikakanyo tsa kaho le ditlhahiso tse seng di loketse moreki di tswa. Sehlahiswa sa SaaS se hahilweng ho potoloha phallo eo ea mosebetsi oa 'nete oa mokontraka.",
+          "lens": "Melao e bonolo e hloka mohlala o matla oa kahare: ho amohela mefuta e mengata ha hoa lokela ho fokolisa melao ea lipalo eo tlhahiso e itshetlehileng ho eona."
+        },
+        "inventory_register": {
+          "summary": "Phallo ea mosebetsi ea sebaka sa thekiso le Angular le Node.js e hokahanyang basebelisi ba netefalitsoeng, nepahalo ea libuka, le phallo ea tefo e etsisoang.",
+          "lens": "Rekoto ea chelete e fetela pele ho skrine ea tefo. Likarolo, liphetoho tsa thepa, le maemo a tefo li hloka meeli e hlakileng ho boloka phallo ea mosebetsi e le boikarabello."
+        },
+        "grocery_app": {
+          "summary": "Sebopeho sa .NET 9 Blazor se nang le meeli ea molaoli, tšebeletso, le polokelo, ho tšoarella ha Entity Framework Core, le seta se felletseng sa liteko.",
+          "lens": "Khethollo e fumana sebaka sa eona ha melao ea khoebo e ka lekoa ntle le ho itshetleha ho sebopeho le boemo ba ho tšoarella."
+        },
+        "payrollobol": {
+          "summary": "Ts'ebetso ea moputso GnuCOBOL e kopana le buka ea mantlha e kenang habeli ea SQLite le dashboard ea ts'ebetso ea Svelte.",
+          "lens": "Ho nepahala ha lichelete ho qala ka boemeli: lipalo tsa lisente tse felletseng le litlaleho tse leka-lekaneng li hlakisa motsamao oa chelete."
+        },
+        "interop": {
+          "summary": "Referense ea lipuo tse fapaneng e kenyelletsang lipuo tse 15 tsa lenaneo le mekhoa e 18 ea ts'ebetso, e batlisisang se etsahalang meeling ea nako ea ts'ebetso.",
+          "lens": "Karolo e thata ke konteraka pakeng tsa linako tsa ts'ebetso: phapanyetsano ea data, boitšoaro ba ts'ebetso, le ts'ebetso e pheta-phetoang li bohlokoa ho feta syntax."
+        },
+        "formatter": {
+          "summary": "Enjene ea 'nete ea parsing ea Go e kopantsoeng ho WebAssembly. Ho netefatsa le ho hlophisa JSON le YAML ho sebetsa sebakeng sa heno ho sebatli.",
+          "lens": "Ho fetisa parser ho sebatli ho fapanyetsana meroalo e meholo ea moreki bakeng sa ts'ebetso ea lehae, ho tsamaisana, le ho itshetleha hanyane ho seva."
+        },
+        "portfolio_website": {
+          "summary": "Sebaka sa marang-rang seo u leng ho sona: portfolio ea React e nang le lipuo tse 100+, litšebelisano tse fihlelloang, le lisebelisoa tsa WebAssembly tse sebetsang.",
+          "lens": "Ho beha se tsitsitseng ha ho bolele boiphihlelo bo tsitsitseng. Litšebelisano tse ngata li ka phela ho moreki ntle le seva ea lisebelisoa."
+        },
+        "biblioteca": {
+          "summary": "Phaepe ea ho fetola lipuo ea Python e fetolang mohloli o le mong oa litaba tse hlophisitsoeng ho ba portfolio e fumanehang ka lipuo tse 100+.",
+          "lens": "Ho fihla fatše ke bothata ba ho hlokomela data hammoho le bothata ba phetolelo. Mohloli o le mong oa 'nete o boloka liphetoho tsa litaba li laoleha."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tsebo ea Setsebi",
       "header1": "Lipuo tsa Lenaneo",
       "header2": "Moralo le Lilaebrari",
-      "header3": "Lisebelisoa & Theknoloji"
+      "header3": "Lisebelisoa & Theknoloji",
+      "technologies": "mahlale",
+      "search_label": "Fihla",
+      "search_placeholder": "Fihla bokhoni…",
+      "clear_search": "Hlakola sehloa",
+      "no_matches": "Ha ho bokhoni bo ts'oanang le sehloa sa hau.",
+      "works": "Mesebetsi",
+      "experience": "Boiphihlelo",
+      "professional": "Setsebi",
+      "education": "Thuto",
+      "paired_with": "Hangata e kopana le",
+      "summary_professional": "E sebelisitsoe ka setsebi ho {items}.",
+      "summary_education": "E ithutiloe le ho sebelisoa ho {items}.",
+      "summary_projects": "E sebelisitsoe ka matsoho ho {items}.",
+      "summary_projects_also": "E boetse e sebelisoa ho {items}.",
+      "and_more": "ho feta",
+      "scroll_more": "Scrola bakeng sa mesebetsi e meng",
+      "show_less": "Bontša hanyane",
+      "no_samples": "Karolo ea lisebelisoa tsa ka tsa mosebetsi. Ke thabile ho hlalosa kamoo ke e sebelisitseng kateng."
     },
     "services": {
       "title": "Litšebeletso tsa ka",
@@ -112,6 +247,13 @@
           "text": "Ke haha ​​​​ka lintho tsa 'nete ka mor'a ho qala: liphiri tse bolokiloeng taolong ea mohloli, litsela tse hlakileng tsa ho falla ha database, tumello e thehiloeng ho karolo, netefatso meeling ea tsamaiso, liteko tse ikemetseng, tlhokomeliso ea CI/CD, le ponahalo e sebetsang. Tsena ke lintlha tse fetolang prototype ho software e tšepahalang."
         }
       ]
+    },
+    "certifications": {
+      "title": "Dilaesense le ditanolo",
+      "credential": "Setanolo",
+      "issued_by": "E fanoe ke",
+      "issued": "Letsatsi la ho fana",
+      "verify": "Netefatsa setanolo"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Kopanya Nne",
-        "text": "Lelapa le leholo la ts'ebetsong e fetang 50+ ea papali ea Connect Four. Morero ona o kenyelletsa ts'ebetsong ka lipuo tse fapaneng tsa 30 tse fapaneng, ho kenyeletsoa Java, C++, Python, JavaScript, le tse ling. Ho feta moo, e boetse e kenyelletsa meralo e fapaneng ea 20+ kapa lifomate tse ling, ho kenyeletsoa React.js, Ruby on Rails, ASP.NET, le tse ling.",
+        "text": "Lelapa le leholo la 90+ ts'ebetso ea papali ea Nne ka latellano. Morero ona o koahela lipuo tse 30+ tsa lenaneo, ho kenyeletsoa Java, C++, Python, le JavaScript, hammoho le li-framework tse 50+, lilaeborari, linako tsa ts'ebetso, le libaka tsa data tse fapaneng, ho tloha React, Angular, le Blazor ho isa Django, Spring Boot, Phoenix, PostgreSQL, le ho feta.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Sistimi ea lehae ea ts'ebetso ea meputso e hahiloeng ka GnuCOBOL, bukana ea SQLite e kenang habeli, le dashboard ea ts'ebetso ea Svelte. E sebelisa lipalo-palo tse felletseng, ts'ebetso ea li-batch payroll, le dashboard ea loopback ho etsa hore ts'ebetso ea lichelete e be e hlakileng, e lekoe, 'me e ikarabelle.",
+        "text": "Tsamaiso ea lehae ea ho sebetsa moputso e hahiloeng ka GnuCOBOL, buka ea mantlha e kenang habeli ea SQLite, le dashboard ea ts'ebetso ea Svelte. E sebelisa lipalo tsa lisente tse felletseng, ho sebetsa moputso oa batch, le dashboard ea loopback ho etsa hore liphallo tsa lichelete li hlake, ho netefatsoe, le ho ba boikarabello ba ts'ebetso.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Minecraft Mod e eketsang lisebelisoa tsa tloaelo, lihlomo, matšoele, li-blocks, boholo le likarolo tse ling tse ngata papaling. E hahiloe haholo-holo ka Java le Kotlin, ka tšehetso ea mefuta ea Minecraft 1.16 ho isa ho 26.2.",
+        "text": "Mod ea Minecraft e eketsang lisebelisoa, lihlomo, li-mobs, li-block, lipalo-palo, le likarolo tse ling tse ngata tse khethehileng papaling. E hahiloe haholo-holo ka Java le Kotlin, e tšehetsang liphetolelo tsa Minecraft 1.16 ho isa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Papali ea Noha",
-        "text": "Enjene e bentšitsoeng ea Noha e hahiloeng ka Rust le Macroquad, e hlophisitsoeng ho WebAssembly, 'me ea etsoa ka HTML5 Canvas. E kopanya li-ticks tsa deterministic 0.12-metsotsoana tse nang le motsamao o bonolo, mekhahlelo ea papali e hlakileng, litaolo tse arabelang, ho thulana le ho sebetsana le maemo, le teko e tsepamisitsoeng. suite e koahelang melao ea mantlha ea papali.",
+        "title": "Papali ea noha",
+        "text": "Enjene e hloekisitsoeng ea Noha e hahiloeng ka Rust le Macroquad, e kopantsoeng ho WebAssembly, 'me e hlahisoa ka HTML5 Canvas. E kopanya li-ticks tsa papali tsa 0.12-second tse netefalitsoeng le motsamao o bonolo oa interpolated, mekhahlelo e hlakileng ea papali, taolo e arabelang, ho sebetsana le likhohlano le maemo a tlholo, le seta se tsepamisitsoeng sa liteko se koahelang melao ea mantlha ea papali.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Morero oa mochini oa Turing",
         "text": "Lelapa la ts'ebetsong e fetang 30+ ea Mochini oa Turing. E sebelisoa ho bonts'a botlalo ba lipuo tse fapaneng tsa lenaneo bakeng sa lipatlisiso, haholo-holo bakeng sa Puo ea Lenaneo la Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Laboratara ea k'hemistri ea lehlabathe le leholo e hahiloeng ka Rust le ho kopantsoe ho WebAssembly. Penta lehlabathe, metsi, lava, tšepe, calcium carbide, kapa sekoto sa sodium 'me u bone kamoo fisiks le k'hemistri li loanang kateng: sodium e phatloha ka metsing, calcium carbide e ntša acetylene, lava e qhibilihisa lehlabathe ho ba khalase, 'me matla a khoheli a le mong a arola oli, mercury, le lehlabathe. Enjene e sebetsa lisebelisoa tse 32 le melao e 40 ea karabelo e boletsoeng holim'a buffer e bataletseng ea cell, e hlahisang lipikseli ka ho toba ho tsoa memoring e otlolohileng ea wasm ntle le likopi bakeng sa foreimi ka 'ngoe.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Khetha Enjine:",
     "tiger_code": "Khoutu ea Nkwe:",
     "run_tiger": "Matha Nkoe",
-    "output": "Sephetho:"
+    "output": "Sephetho:",
+    "stop": "Emisa",
+    "program_input": "Kenyelletso ea lenaneo"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Ha ho tšehetso ea puo"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Sheba khoutu ea mohloli ho GitHub"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "Rumah",
     "about": "Tentang Saya",
     "portfolio": "Portfolio",
-    "projects": "Projek Laman Web",
-    "tiger": "Bahasa Harimau",
-    "snake": "Permainan Ular",
+    "projects": "Projek pilihan",
+    "tiger": "Tiger - Bahasa Pengaturcaraan Khas",
+    "snake": "Permainan ular",
     "portfolio_translator": "Penterjemah Portfolio",
-    "formatter": "Pemformat JSON & YAML",
+    "formatter": "Linter JSON & YAML",
     "contact": "Hubungi Saya",
-    "home_description": "sys.root // ikhtisar utama",
-    "about_description": "profil jurutera // bio & tindanan",
-    "portfolio_description": "katalog perisian // karya yang diketengahkan",
-    "projects_description": "alat & penyusun interaktif",
-    "tiger_description": "penyusun tersuai & visualizer AST",
+    "home_description": "sys.root // gambaran keseluruhan utama",
+    "about_description": "profil jurutera // bio dan timbunan",
+    "portfolio_description": "katalog perisian // karya pilihan",
+    "projects_description": "alat interaktif dan pengkompil",
+    "tiger_description": "pengkompil khas dan visualiser AST",
     "snake_description": "permainan arked klasik / WASM",
-    "portfolio_translator_description": "100+ matriks bahasa & i18n",
-    "formatter_description": "pengesah & penukar sintaks",
-    "contact_description": "penghantaran terbuka // berhubung"
+    "portfolio_translator_description": "matriks 100+ bahasa dan i18n",
+    "formatter_description": "pengesah dan penukar sintaks",
+    "contact_description": "transmisi terbuka // hubungi saya",
+    "arcade": "Arked",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Pokok bahasa Empat Serangkai",
+    "alkalab_description": "simulasi makmal kimia / WASM",
+    "rustcraft_description": "permainan voxel gaya Minecraft / Rust dan wgpu",
+    "suprememc_description": "pameran mod Minecraft / Java"
   },
   "home": {
     "title": "Jurutera Timbunan Penuh Kanan | Produk & Sistem",
@@ -35,17 +43,126 @@
     "contact_button": "Hubungi Saya",
     "about_button": "Tentang Saya",
     "featured": {
-      "kicker": "Projek Pilihan",
-      "title": "Kerja Terpilih",
-      "description": "Enam projek yang paling mewakili cara saya menukar idea bercita-cita tinggi menjadi perisian yang digilap dan berfungsi.",
-      "view_project": "Lihat Projek",
-      "open_project": "Buka Projek Langsung",
-      "view_all": "Terokai portfolio penuh",
+      "kicker": "Projek pilihan",
+      "title": "Karya terpilih",
+      "description": "Enam projek yang paling mewakili cara saya mengubah idea bercita-cita tinggi menjadi perisian yang digilap dan berfungsi.",
+      "view_project": "Lihat projek",
+      "open_project": "Buka projek langsung",
+      "view_all": "Terokai portfolio lengkap",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Laman Web Penuh",
-        "available_here": "Boleh didapati di sini",
+        "full_website": "Laman web penuh",
+        "available_here": "Tersedia di sini",
         "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Perspektif berbeza tentang kerja",
+      "invitation": "Terokai atlas kejuruteraan",
+      "kicker": "Portfolio lengkap / pemikiran bersambung",
+      "title": "Atlas Kejuruteraan",
+      "projects": "Projek",
+      "technologies": "Teknologi",
+      "connections": "Sambungan",
+      "center": "Atlas kejuruteraan",
+      "filter_label": "Kategori projek",
+      "domains": {
+        "all": "Semua kerja",
+        "products": "Produk",
+        "systems": "Sistem",
+        "experiences": "Pengalaman"
+      },
+      "search": "Cari projek atau teknologi",
+      "view_label": "Paparan atlas",
+      "map_view": "Paparan peta",
+      "map_navigation": "Navigasi peta portfolio",
+      "zoom_in": "Zum masuk",
+      "zoom_out": "Zum keluar",
+      "zoom_level": "Tahap zum peta",
+      "fit_all": "Padankan semua projek",
+      "center_selected": "Pusatkan projek dipilih",
+      "all_technologies": "Semua teknologi",
+      "list_view": "Paparan senarai",
+      "pause": "Jeda animasi isyarat",
+      "resume": "Sambung animasi isyarat",
+      "project_selector": "Terokai projek",
+      "inspector": "Butiran projek dipilih",
+      "shared_stack": "Teknologi kongsi",
+      "family_connection": "Sambungan projek",
+      "portfolio_connection": "Sambungan portfolio",
+      "families": {
+        "portfolio": "Pusat portfolio",
+        "business": "Aplikasi perniagaan",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Projek WebAssembly",
+        "libraries": "Pustaka skrip",
+        "languages": "Eksperimen bahasa",
+        "automation": "Alat automasi & data",
+        "experience": "Pengalaman profesional & pendidikan"
+      },
+      "browser_native": "Asli pelayar / tanpa pelayan",
+      "no_results": "Tiada projek sepadan",
+      "no_selection": "Tiada projek dipilih.",
+      "reset": "Kosongkan penapis",
+      "engineering_lens": "Perspektif kejuruteraan",
+      "connected_work": "Kerja bersambung",
+      "open_live": "Buka projek langsung",
+      "open_project": "Terokai projek",
+      "footer": "Domain berbeza. Satu amalan kejuruteraan bersambung.",
+      "contact": "Mari bina apa yang akan datang",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Saluran data",
+        "angular": "Angular",
+        "access": "Kawalan akses",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Pengujian",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Saling kendali",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Kebolehcapaian",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Hamparan yang tidak konsisten masuk. Anggaran pembinaan dan cadangan siap pelanggan keluar. Produk SaaS yang dibina di sekeliling aliran kerja sebenar kontraktor.",
+          "lens": "Pengimportan fleksibel memerlukan model dalaman yang ketat: menerima lebih banyak format tidak boleh melemahkan peraturan pengiraan yang menjadi sandaran tawaran."
+        },
+        "inventory_register": {
+          "summary": "Aliran kerja titik jualan dengan Angular dan Node.js yang menghubungkan pengguna disahkan, ketepatan inventori, dan aliran pembayaran simulasi.",
+          "lens": "Kaunter lebih daripada skrin pembayaran. Peranan, perubahan stok, dan status pembayaran memerlukan sempadan yang jelas untuk memastikan aliran kerja bertanggungjawab."
+        },
+        "grocery_app": {
+          "summary": "Aplikasi Blazor .NET 9 dengan sempadan pengawal, perkhidmatan, dan repositori, kegigihan Entity Framework Core, dan suite ujian komprehensif.",
+          "lens": "Pemisahan mendapat tempatnya apabila peraturan perniagaan boleh diuji secara bebas daripada antara muka dan lapisan kegigihan."
+        },
+        "payrollobol": {
+          "summary": "Pemprosesan gaji GnuCOBOL bertemu dengan lejar dwi-entri SQLite dan papan pemuka operasi Svelte.",
+          "lens": "Ketepatan kewangan bermula dengan perwakilan: aritmetik sen penuh dan entri lejar seimbang membuat pergerakan wang eksplisit."
+        },
+        "interop": {
+          "summary": "Rujukan antara bahasa yang merangkumi 15 bahasa pengaturcaraan dan 18 corak pelaksanaan, meneroka apa yang berlaku di sempadan masa jalan.",
+          "lens": "Bahagian yang sukar ialah kontrak antara runtime: pertukaran data, gelagat proses, dan pelaksanaan berulang lebih penting daripada sintaks."
+        },
+        "formatter": {
+          "summary": "Enjin penghuraian Go sebenar yang dikompil ke WebAssembly. Pengesahan dan pemformatan JSON dan YAML berjalan secara tempatan dalam pelayar.",
+          "lens": "Memindahkan penghurai ke pelayar menukar beban klien yang lebih besar dengan pemprosesan tempatan, kebolehpindahan, dan kurang kebergantungan pada pelayan."
+        },
+        "portfolio_website": {
+          "summary": "Laman yang anda lawati: portfolio React dengan 100+ bahasa, interaksi mudah diakses, dan alat WebAssembly yang berfungsi.",
+          "lens": "Penyebaran statik tidak semestinya bermakna pengalaman statik. Interaksi yang kaya boleh wujud di klien tanpa pelayan aplikasi."
+        },
+        "biblioteca": {
+          "summary": "Saluran penyetempatan Python yang mengubah satu sumber kandungan berstruktur menjadi portfolio yang tersedia dalam 100+ bahasa.",
+          "lens": "Jangkauan global sama merupakan masalah penyelenggaraan data seperti masalah terjemahan. Satu sumber kebenaran memastikan perubahan kandungan mudah diurus."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Kemahiran Teknikal",
       "header1": "Bahasa Pengaturcaraan",
       "header2": "Rangka Kerja & Perpustakaan",
-      "header3": "Alat & Teknologi"
+      "header3": "Alat & Teknologi",
+      "technologies": "teknologi",
+      "search_label": "Tapis",
+      "search_placeholder": "Tapis kemahiran…",
+      "clear_search": "Kosongkan penapis",
+      "no_matches": "Tiada kemahiran sepadan dengan penapis anda.",
+      "works": "Karya",
+      "experience": "Pengalaman",
+      "professional": "Profesional",
+      "education": "Pendidikan",
+      "paired_with": "Sering digandingkan dengan",
+      "summary_professional": "Digunakan secara profesional di {items}.",
+      "summary_education": "Dipelajari dan diterapkan di {items}.",
+      "summary_projects": "Diterapkan secara praktikal di {items}.",
+      "summary_projects_also": "Juga diterapkan di {items}.",
+      "and_more": "lebih banyak",
+      "scroll_more": "Tatal untuk lebih banyak karya",
+      "show_less": "Tunjukkan kurang",
+      "no_samples": "Sebahagian daripada set alatan kerja saya. Saya gembira menerangkan bagaimana saya menggunakannya."
     },
     "services": {
       "title": "Perkhidmatan Saya",
@@ -112,6 +247,13 @@
           "text": "Saya membina dengan melihat realiti selepas pelancaran: rahsia yang disimpan di luar kawalan sumber, laluan migrasi pangkalan data yang jelas, kebenaran berasaskan peranan, pengesahan di sempadan sistem, ujian automatik, kesedaran CI/CD, dan pemerhatian praktikal. Ini adalah butiran yang mengubah prototaip menjadi perisian yang boleh dipercayai."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lesen & pensijilan",
+      "credential": "Pensijilan",
+      "issued_by": "Dikeluarkan oleh",
+      "issued": "Tarikh dikeluarkan",
+      "verify": "Sahkan pensijilan"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Sambung Empat",
-        "text": "Keluarga besar lebih daripada 50+ pelaksanaan permainan Connect Four. Projek ini termasuk pelaksanaan dalam lebih 30 bahasa pengaturcaraan yang berbeza, termasuk Java, C++, Python, JavaScript dan banyak lagi. Selain itu, ia juga termasuk lebih 20+ rangka kerja yang berbeza atau format lain, termasuk React.js, Ruby on Rails, ASP.NET dan banyak lagi.",
+        "text": "Keluarga besar dengan 90+ implementasi permainan Empat Serangkai. Projek ini merangkumi 30+ bahasa pengaturcaraan, termasuk Java, C++, Python, dan JavaScript, bersama 50+ rangka kerja, pustaka, runtime, dan pangkalan data berbeza, daripada React, Angular, dan Blazor hingga Django, Spring Boot, Phoenix, PostgreSQL, dan seterusnya.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "GajiOBOL",
-        "text": "Sistem pemprosesan gaji tempatan yang dibina dengan GnuCOBOL, lejar catatan dua SQLite dan papan pemuka operasi Svelte. Ia menggunakan matematik integer-sen, pemprosesan gaji kelompok dan papan pemuka gelung balik untuk menjadikan aliran kerja kewangan jelas, boleh diuji dan bertanggungjawab secara operasi.",
+        "title": "PayrollOBOL",
+        "text": "Sistem pemprosesan gaji tempatan yang dibina dengan GnuCOBOL, lejar dwi-entri SQLite, dan papan pemuka operasi Svelte. Ia menggunakan matematik sen penuh, pemprosesan gaji kelompok, dan papan pemuka gelung balik untuk menjadikan aliran kewangan eksplisit, boleh diuji, dan bertanggungjawab secara operasi.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "Mod Minecraft SupremeMC",
-        "text": "Mod Minecraft yang menambahkan alatan tersuai, perisai, mob, blok, dimensi dan banyak lagi ciri pada permainan. Dibina terutamanya dengan Java dan Kotlin, dengan sokongan merangkumi versi Minecraft 1.16 hingga 26.2.",
+        "text": "Mod Minecraft yang menambah alat, perisai, mob, blok, dimensi, dan banyak lagi ciri khas ke dalam permainan. Dibina terutamanya dengan Java dan Kotlin, menyokong versi Minecraft 1.16 hingga 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Permainan Ular",
-        "text": "Enjin Ular yang digilap dibina dengan Rust dan Macroquad, disusun ke WebAssembly, dan dipaparkan melalui Kanvas HTML5. Ia menggabungkan kutu permainan 0.12 saat yang menentukan dengan pergerakan interpolasi yang lancar, fasa permainan yang jelas, kawalan responsif, pengendalian perlanggaran dan keadaan menang, dan ujian terfokus suite yang merangkumi peraturan permainan teras.",
+        "title": "Permainan ular",
+        "text": "Enjin Ular yang digilap dibina dengan Rust dan Macroquad, dikompil ke WebAssembly, dan dirender melalui Canvas HTML5. Ia menggabungkan detik permainan deterministik 0.12 saat dengan gerakan interpolasi yang licin, fasa permainan eksplisit, kawalan responsif, pengendalian perlanggaran dan status kemenangan, serta suite ujian fokus yang merangkumi peraturan teras permainan.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Projek Mesin Turing",
         "text": "Keluarga lebih daripada 30+ pelaksanaan Mesin Turing. Digunakan untuk menunjukkan kesempurnaan turing untuk bahasa pengaturcaraan yang berbeza untuk penyelidikan, terutamanya untuk Bahasa Pengaturcaraan Harimau.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Makmal kimia pasir-serbuk yang dibina dengan Rust dan dikompil ke WebAssembly. Lukislah pasir, air, lava, keluli, kalsium karbida, atau seketul natrium dan saksikan fizik dan kimia bertarung: natrium meletup dalam air, kalsium karbida mengeluarkan asetilena, lava mencairkan pasir menjadi kaca, dan kepadatan sahaja menyisihkan minyak, merkuri, dan pasir. Enjin memproses 32 bahan dan 40 peraturan tindak balas deklaratif di atas penimbal sel rata, merender piksel terus daripada memori linear wasm tanpa salinan setiap bingkai.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Pilih Enjin:",
     "tiger_code": "Kod Harimau:",
     "run_tiger": "Lari Harimau",
-    "output": "Output:"
+    "output": "Output:",
+    "stop": "Berhenti",
+    "program_input": "Input program"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Tiada sokongan bahasa"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Lihat kod sumber di GitHub"
+  }
 }

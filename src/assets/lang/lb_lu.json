@@ -4,21 +4,29 @@
     "home": "Doheem",
     "about": "Iwwer mech",
     "portfolio": "Portfolio",
-    "projects": "Websäit Projeten",
-    "tiger": "Tiger Sprooch",
-    "snake": "Schlaang Spill",
+    "projects": "Ausgewielte Projeten",
+    "tiger": "Tiger - Eng eegen Programméiersprooch",
+    "snake": "Schlangespill",
     "portfolio_translator": "Portfolio Iwwersetzer",
-    "formatter": "JSON & YAML Formater",
+    "formatter": "JSON & YAML-Checker",
     "contact": "Kontaktéiert mech",
-    "home_description": "sys.root // Haaptrei Iwwersiicht",
-    "about_description": "Ingenieur Profil // Bio & Stack",
-    "portfolio_description": "Software Katalog // Featured Wierker",
-    "projects_description": "interaktiv Tools & Compilers",
-    "tiger_description": "Benotzerdefinéiert Compiler & AST Visualizer",
-    "snake_description": "klassesch Arkad Spill / WASM",
-    "portfolio_translator_description": "100+ Sprooch Matrixentgasung & i18n",
-    "formatter_description": "Syntax Validator & Konverter",
-    "contact_description": "oppen Iwwerdroung // a Kontakt"
+    "home_description": "sys.root // Haaptiwwersiicht",
+    "about_description": "Ingenieurprofil // Bio an Technologie",
+    "portfolio_description": "Softwarekatalog // ausgewielte Wierker",
+    "projects_description": "interaktiv Tools a Compiler",
+    "tiger_description": "eegene Compiler an AST-Visualisateur",
+    "snake_description": "klassescht Arcadespill / WASM",
+    "portfolio_translator_description": "100+ Sproochen Matrix an i18n",
+    "formatter_description": "Syntaxvalidateur a Konverter",
+    "contact_description": "oppen Iwwerdroung // kontaktéiert mech",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Sproochebam Véier an enger Rei",
+    "alkalab_description": "Chemielabor-Simulatioun / WASM",
+    "rustcraft_description": "Voxelspill am Minecraft-Stil / Rust a wgpu",
+    "suprememc_description": "Minecraft-Mod-Schaufenster / Java"
   },
   "home": {
     "title": "Senior Full-Stack Ingenieur | Produit & Systemer",
@@ -35,17 +43,126 @@
     "contact_button": "Kontaktéiert mech",
     "about_button": "Iwwer mech",
     "featured": {
-      "kicker": "Feature Projeten",
-      "title": "Ausgewielten Aarbecht",
-      "description": "Sechs Projeten déi am beschten duerstellen wéi ech ambitiéis Iddien a poléiert, funktionéierend Software ëmsetzen.",
-      "view_project": "View Project",
-      "open_project": "Open Live Project",
-      "view_all": "Entdeckt de komplette Portfolio",
+      "kicker": "Ausgewielte Projeten",
+      "title": "Ausgewielte Wierker",
+      "description": "Sechs Projeten, déi am beschten weisen, wéi ech ambitiéis Iddien a poléiert, funktionnéierend Software ëmwandelen.",
+      "view_project": "Projet kucken",
+      "open_project": "Live-Projet opmaachen",
+      "view_all": "De vollstännege Portfolio entdecken",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Voll Websäit",
+        "full_website": "Full Websäit",
         "available_here": "Hei verfügbar",
         "minecraft_mod": "Minecraft Mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Eng aner Perspektiv op d'Aarbecht",
+      "invitation": "Entdeckt den Ingenieursatlas",
+      "kicker": "Vollständegt Portfolio / verbonne Denken",
+      "title": "Ingenieursatlas",
+      "projects": "Projeten",
+      "technologies": "Technologien",
+      "connections": "Verbindungen",
+      "center": "Ingenieursatlas",
+      "filter_label": "Projetkategorien",
+      "domains": {
+        "all": "All Aarbecht",
+        "products": "Produkter",
+        "systems": "Systemer",
+        "experiences": "Erfarungen"
+      },
+      "search": "E Projet oder eng Technologie fannen",
+      "view_label": "Atlas Vue",
+      "map_view": "Kaart Vue",
+      "map_navigation": "Navigatioun vun der Portfolio-Kaart",
+      "zoom_in": "Vergréisseren",
+      "zoom_out": "Verklengeren",
+      "zoom_level": "Zoom-Niveau vun der Kaart",
+      "fit_all": "All Projeten upassen",
+      "center_selected": "Ausgewielte Projet zentréieren",
+      "all_technologies": "All Technologien",
+      "list_view": "Lëscht Vue",
+      "pause": "Signalanimatioun pauséieren",
+      "resume": "Signalanimatioun weiderféieren",
+      "project_selector": "Projeten entdecken",
+      "inspector": "Detailer vum ausgewielte Projet",
+      "shared_stack": "Gedeelt Technologie",
+      "family_connection": "Projetverbindung",
+      "portfolio_connection": "Portfolioverbindung",
+      "families": {
+        "portfolio": "Portfolio Hub",
+        "business": "Geschäftsapplikatiounen",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly Projeten",
+        "libraries": "Skriptbibliothéiken",
+        "languages": "Sproocheexperimenter",
+        "automation": "Automatisatioun & Daten Tools",
+        "experience": "Professionell & edukativ Erfarung"
+      },
+      "browser_native": "Browser-nativ / ouni Server",
+      "no_results": "Keng passend Projeten",
+      "no_selection": "Kee Projet ausgewielt.",
+      "reset": "Filteren eidel maachen",
+      "engineering_lens": "Ingenieursperspektiv",
+      "connected_work": "Verbonne Aarbecht",
+      "open_live": "Live-Projet opmaachen",
+      "open_project": "Projet entdecken",
+      "footer": "Verschidde Beräicher. Eng verbonnen Ingenieurspraxis.",
+      "contact": "Loosst eis bauen, wat als nächst kënnt",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Datenpipelinen",
+        "angular": "Angular",
+        "access": "Zougangskontroll",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testen",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilitéit",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Accessibilitéit",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Inkonsistent Tabellen eran. Baukäschteschätzungen a clientfäerdeg Offeren eraus. E SaaS-Produkt, gebaut ronderëm den echte Workflow vum Kontrakt.",
+          "lens": "Flexibel Importer brauchen e strikut intern Modell: Méi Formater unzehuelen däerf d'Rechenregelen, op deenen eng Offer hänkt, net schwaächen."
+        },
+        "inventory_register": {
+          "summary": "E Verkafspunkt-Workflow mat Angular a Node.js, deen authentifizéiert Benotzer, Inventarpräzisioun an e simuléierten Bezuelungsfluss verbënnt.",
+          "lens": "Eng Kees ass méi wéi e Bezuelungsschirm. Rollen, Stockännerungen a Bezuelungsstatus brauchen kloar Grenzen, fir de Workflow responsabel ze halen."
+        },
+        "grocery_app": {
+          "summary": "Eng .NET 9 Blazor-Applikatioun mat Kontroller-, Service- a Repository-Grenzen, Entity Framework Core-Persistenz an engem ëmfaassenden Testsuit.",
+          "lens": "Trennung verdéngt hir Plaz, wann Geschäftsregele onofhängeg vum Interface an der Persistenzschicht getest kënne ginn."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL-Payrollveraarbechtung begéint dem SQLite-Duebelentrée-Haaptbuch an dem Svelte-Operatiounsdashboard.",
+          "lens": "Finanziell Korrektheet fänkt mat der Representatioun un: Voll-Cent-Aritmetik a balancéiert Entréeën maachen d'Beweegung vu Sue explizit."
+        },
+        "interop": {
+          "summary": "Eng Sproochiwwergräifend Referenz, déi 15 Programméiersproochen an 18 Ausführungsmuster ëmfaasst, an exploréiert, wat op de Grenze vun der Laufzäit geschitt.",
+          "lens": "Den haarde Deel ass de Kontrakt tëscht Laufzäiten: Datenaustausch, Prozessverhalen a widderhuelbar Ausféierung sinn méi wichteg wéi Syntax."
+        },
+        "formatter": {
+          "summary": "En echte Go-Parsing-Motor, kompiléiert op WebAssembly. JSON- a YAML-Validatioun a Formatéierung lafen lokal am Browser.",
+          "lens": "De Parser an de Browser ze bréngen tauscht eng méi grouss Client-Laascht géint lokal Veraarbechtung, Portabilitéit a manner Serverofhängegkeeten."
+        },
+        "portfolio_website": {
+          "summary": "D'Site, op där du bass: E React-Portfolio mat 100+ Sproochen, zougänglechen Interaktiounen a funktionnéierende WebAssembly-Tools.",
+          "lens": "Statesch Deployment muss net e statesch Erfarung bedeiten. Räich Interaktiounen kënnen um Client liewen, ouni Applikatiounsserver."
+        },
+        "biblioteca": {
+          "summary": "Eng Python-Lokaliséierungspipeline, déi eng eenzeg strukturéiert Inhaltsquell an e Portfolio op 100+ Sproochen ëmwandelt.",
+          "lens": "Global Erreechbarkeet ass esou vill en Dateverwaltungsproblem wéi en Iwwersetzungsproblem. Eng eenzeg Wourecht-Quell hält Inhaltsännerungen handbar."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Technesch Fäegkeeten",
       "header1": "Programméiere Sproochen",
       "header2": "Kaderen & Bibliothéiken",
-      "header3": "Tools & Technologien"
+      "header3": "Tools & Technologien",
+      "technologies": "Technologien",
+      "search_label": "Filteren",
+      "search_placeholder": "Fäegkeeten filteren…",
+      "clear_search": "Filter eidel maachen",
+      "no_matches": "Keng Fäegkeet passt zu dengem Filter.",
+      "works": "Wierker",
+      "experience": "Erfarung",
+      "professional": "Professionell",
+      "education": "Ausbildung",
+      "paired_with": "Dacks gepaart mat",
+      "summary_professional": "Professionell benotzt bei {items}.",
+      "summary_education": "Studéiert an ugewannt bei {items}.",
+      "summary_projects": "Praktesch ugewannt an {items}.",
+      "summary_projects_also": "Och ugewannt an {items}.",
+      "and_more": "méi",
+      "scroll_more": "Scroll fir méi Wierker",
+      "show_less": "Manner weisen",
+      "no_samples": "Deel vu mengem Aarbechts-Werkzeugkëscht. Ech erkläre gären, wéi ech et benotzt hunn."
     },
     "services": {
       "title": "Meng Servicer",
@@ -112,6 +247,13 @@
           "text": "Ech bauen mat de Realitéiten nom Start an der Sicht: Geheimnisser ausserhalb vun der Quellkontroll gehale ginn, explizit Datebankmigratiounsweeër, Rollebaséiert Autorisatioun, Validatioun bei Systemgrenzen, automatiséiert Tester, CI / CD Bewosstsinn, a praktesch Observabilitéit. Dëst sinn d'Detailer déi e Prototyp an zouverlässeg Software maachen."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lizenzen & Zertifizéierungen",
+      "credential": "Zertifizéierung",
+      "issued_by": "Ausgestallt vun",
+      "issued": "Ausstellungsdatum",
+      "verify": "Zertifizéierung verifizéieren"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Connect Véier",
-        "text": "Massiv Famill vun iwwer 50+ Implementatiounen vum Connect Four Spill. Dëse Projet enthält Implementatiounen an iwwer 30 verschiddene Programméierungssproochen, dorënner Java, C++, Python, JavaScript, a méi. Zousätzlech enthält et och iwwer 20+ verschidde Kaderen oder aner Formater, dorënner React.js, Ruby on Rails, ASP.NET, a méi.",
+        "text": "Eng riseg Famill mat méi wéi 90 Ëmsetzunge vum Véier-an-enger-Rei-Spill. De Projet ëmfaasst méi wéi 30 Programméiersproochen, dorënner Java, C++, Python a JavaScript, nieft méi wéi 50 verschiddene Frameworks, Bibliothéiken, Laufzäiten an Datebanken – vu React, Angular a Blazor bis Django, Spring Boot, Phoenix, PostgreSQL a méi.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "E lokale Lounveraarbechtungssystem gebaut mat GnuCOBOL, engem SQLite Duebelentrée Ledger, an engem Svelte Operatiouns Dashboard. Et benotzt Integer-Cent Mathematik, Batch Payroll Veraarbechtung, an e Loopback Dashboard fir finanziell Workflows explizit, testbar an operationell verantwortlech ze maachen.",
+        "text": "E lokalt Payroll-Veraarbechtungssystem, gebaut mat GnuCOBOL, engem SQLite-Duebelentrée-Haaptbuch an engem Svelte-Operatiounsdashboard. Et benotzt Voll-Cent-Aritmetik, Batch-Payrollveraarbechtung an e Loopback-Dashboard, fir finanziell Stréim explizit, testbar an operationell responsabel ze maachen.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "E Minecraft Mod deen personaliséiert Tools, Rüstung, Mobs, Blocks, Dimensiounen a vill méi Features zum Spill bäidréit. Gebaut haaptsächlech mat Java a Kotlin, mat Ënnerstëtzung iwwer Minecraft Versiounen 1.16 bis 26.2.",
+        "text": "E Minecraft-Mod, deen eegen Tools, Rëschtungen, Mobs, Blöcke, Dimensiounen a vill aner Features zum Spill bäidréit. Gebaut haaptsächlech mat Java a Kotlin, mat Ënnerstëtzung fir Minecraft-Versiounen 1.16 bis 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Schlaang Spill",
-        "text": "E poléierte Schlaangmotor gebaut mat Rust a Macroquad, kompiléiert op WebAssembly, an duerch HTML5 Canvas gemaach. Et kombinéiert deterministesch 0,12 Sekonnen Spillticks mat glatter interpoléierter Bewegung, explizit Spillphasen, reaktiounsfäeger Kontrollen, Kollisioun a Win-State Handling, an e fokusséierten Test Suite deckt de Kär Spillregelen.",
+        "title": "Schlangespill",
+        "text": "E poléierten Schlangemotor, gebaut mat Rust a Macroquad, kompiléiert op WebAssembly a gerendert duerch HTML5 Canvas. Et kombinéiert deterministesch 0,12-Sekonnen-Spillticken mat glatter interpoléierter Bewegung, kloaren Spillphasen, reaktiounsfäeger Steierung, Kollisiouns- a Gewënn-Zoustandsbehandlung, an engem fokusséierten Testsuit, deen d'Kärregele vum Spill ofdeckt.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Machine Projet",
         "text": "Famill vun iwwer 30+ Implementatioune vun der Turing Machine. Benotzt fir d'Turing Vollständegkeet fir verschidde Programméierungssprooche fir Fuerschung ze demonstréieren, besonnesch fir d'Tiger Programméierungssprooch.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "E Pudder-Sand-Chemielabor, gebaut a Rust a kompiléiert op WebAssembly. Mol Sand, Waasser, Lava, Stol, Kalziumkarbid oder e Stéck Natrium a kuck, wéi Physik a Chemie kämpfen: Natrium detonéiert am Waasser, Kalziumkarbid setzt Acetylen fräi, Lava schmëlzt Sand zu Glas, an Dicht eleng trennt Ueleg, Quecksëlwer a Sand. De Motor leeft 32 Materialien an 40 deklarativ Reaktiounsregele iwwer e flaache Zellbuffer, a rendert Pixelen direkt aus dem wasm-lineare Gedächtnis ouni Kopien pro Frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Wielt Motor:",
     "tiger_code": "Tiger Code:",
     "run_tiger": "Run Tiger",
-    "output": "Ausgang:"
+    "output": "Ausgang:",
+    "stop": "Stopp",
+    "program_input": "Programm-Input"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Keng Sprooch Ënnerstëtzung"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Quellcode op GitHub kucken"
+  }
 }

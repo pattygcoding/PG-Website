@@ -4,21 +4,29 @@
     "home": "Öý",
     "about": "Men hakda",
     "portfolio": "Portfolio",
-    "projects": "Sahypa taslamalary",
-    "tiger": "Igerolbars dili",
-    "snake": "Akeylan oýny",
+    "projects": "Saýlanan taslamalar",
+    "tiger": "Tiger - Özbaşdak Programmirleme Dili",
+    "snake": "Ýylan oýny",
     "portfolio_translator": "Portfolio terjimeçisi",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "JSON & YAML barlagçysy",
     "contact": "Meniň bilen habarlaşyň",
-    "home_description": "sys.root // esasy syn",
-    "about_description": "inerener profili // bio & stack",
-    "portfolio_description": "programma üpjünçiligi katalogy // aýratynlyklar",
-    "projects_description": "interaktiw gurallar we düzüjiler",
-    "tiger_description": "ýörite düzüji we AST wizualizator",
-    "snake_description": "nusgawy arka oýun / WASM",
-    "portfolio_translator_description": "100+ dil matrisasy & i18n",
-    "formatter_description": "sintaksis tassyklaýjy we öwrüji",
-    "contact_description": "açyk geçiriş // habarlaşyň"
+    "home_description": "sys.root // baş syn",
+    "about_description": "inžener profili // bio we tehnologiýa",
+    "portfolio_description": "programma katalogy // saýlanan eserler",
+    "projects_description": "interaktiw gurallar we kompýuterler",
+    "tiger_description": "özbaşdak kompýuter we AST wizualizator",
+    "snake_description": "klassiki arkada oýny / WASM",
+    "portfolio_translator_description": "100+ dil matrisasy we i18n",
+    "formatter_description": "sintaksis barlagjysy we öwürýiji",
+    "contact_description": "açyk geçiriliş // habarlaşyň",
+    "arcade": "Arkada",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Dil agajy Dört arkaýyn",
+    "alkalab_description": "himiýa laboratoriýa simulýasiýasy / WASM",
+    "rustcraft_description": "Minecraft stilindäki woksely oýun / Rust we wgpu",
+    "suprememc_description": "Minecraft mod witarinasy / Java"
   },
   "home": {
     "title": "Uly derejeli in Engineener | Önüm we ulgamlar",
@@ -35,17 +43,126 @@
     "contact_button": "Meniň bilen habarlaşyň",
     "about_button": "Men hakda",
     "featured": {
-      "kicker": "Aýratyn taslamalar",
-      "title": "Saýlanan iş",
-      "description": "Uly taslamalary nädip ýalpyldawuk, işleýän programma üpjünçiligine öwürýändigimi iň gowy görkezýän alty taslama.",
-      "view_project": "Taslamany görmek",
+      "kicker": "Saýlanan taslamalar",
+      "title": "Saýlanan eserler",
+      "description": "Ägirt uly pikirleri ýuka, işleýän programma öwürýänligimi iň gowy görkezýän alty taslama.",
+      "view_project": "Taslamany gör",
       "open_project": "Göni taslamany açyň",
-      "view_all": "Doly bukjany öwreniň",
+      "view_all": "Doly portfolýony öwreniň",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Doly web sahypasy",
-        "available_here": "Bu ýerde bar",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Doly web saýt",
+        "available_here": "Şu ýerde bar",
+        "minecraft_mod": "Minecraft mody"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Işe başga bir nukdaýnazar",
+      "invitation": "Inženerçilik atlasyny öwreniň",
+      "kicker": "Doly portfolýo / baglanyşykly pikir",
+      "title": "Inženerçilik Atlasy",
+      "projects": "Taslamalar",
+      "technologies": "Tehnologiýalar",
+      "connections": "Baglanyşyklar",
+      "center": "Inženerçilik atlasy",
+      "filter_label": "Taslama kategoriýalary",
+      "domains": {
+        "all": "Ähli iş",
+        "products": "Önümler",
+        "systems": "Sistemalar",
+        "experiences": "Täjribeler"
+      },
+      "search": "Taslama ýa-da tehnologiýa tapyň",
+      "view_label": "Atlas görnüşi",
+      "map_view": "Karta görnüşi",
+      "map_navigation": "Portfolýo karta nawigasiýasy",
+      "zoom_in": "Ulyltmak",
+      "zoom_out": "Kiçeltmek",
+      "zoom_level": "Karta ulaltma derejesi",
+      "fit_all": "Ähli taslamalary laýyklaşdyr",
+      "center_selected": "Saýlanan taslamany merkeze goý",
+      "all_technologies": "Ähli tehnologiýalar",
+      "list_view": "Sanaw görnüşi",
+      "pause": "Signal animasiýasyny doly duruz",
+      "resume": "Signal animasiýasyny dowam etdir",
+      "project_selector": "Taslamalary öwreniň",
+      "inspector": "Saýlanan taslamanyň jikme-jigi",
+      "shared_stack": "Paýlaşylan tehnologiýa",
+      "family_connection": "Taslama baglanyşygy",
+      "portfolio_connection": "Portfolýo baglanyşygy",
+      "families": {
+        "portfolio": "Portfolýo merkezi",
+        "business": "Iş ewaraý mürajetleri",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly taslamalary",
+        "libraries": "Skript kitaphanalary",
+        "languages": "Dil synaglary",
+        "automation": "Awto­ma­ti­leş­diriş we data gurallary",
+        "experience": "Professional we okuw tejribesi"
+      },
+      "browser_native": "Brauzer-de çeşme / serwersiz",
+      "no_results": "Laýyk gelýän taslamalar ýok",
+      "no_selection": "Hiç bir taslama saýlanmady.",
+      "reset": "Filtirleri arassala",
+      "engineering_lens": "Inženerçilik nukdaýnazary",
+      "connected_work": "Baglanyşykly iş",
+      "open_live": "Göni taslamany açyň",
+      "open_project": "Taslamany öwreniň",
+      "footer": "Dürli ugurlar. Bir baglanyşykly inženerçilik amaly.",
+      "contact": "Geljekki zady bilelikde guralyň",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Data turba hatlary",
+        "angular": "Angular",
+        "access": "Girelge gözegçiligi",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Synag",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Aragatnaşyklylyk",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Elýeterlilik",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Layyk gelmeýän tablisalar içeri girýär. Gurluşyk çaklamalary we müşderi üçin taýýar teklipler daşary çykýar. Potratçynyň hakyky iş akymynyň töwereginde gurlan SaaS önümi.",
+          "lens": "Çeýe importlar berk içki modeli talap edýär: has köp format kabul etmek teklibiň daýanýan hasaplama düzgünlerini gowşatmaly däl."
+        },
+        "inventory_register": {
+          "summary": "Angular we Node.js bilen satuw nokady iş akymy tassyklanan ulanyjylary, inwentar takyklygyny we simulirlenen töleg akymyny birleşdirýär.",
+          "lens": "Kassa apparaty töleg ekranyndan has köpdür. Iş akymyny jogapkärli saklamak üçin rollar, ätiýaçlyk üýtgemeleri we töleg ýagdaýlary açyk araçäkleri talap edýär."
+        },
+        "grocery_app": {
+          "summary": "Kontrolýor, hyzmat we repozi­to­riý çäkleri, Entity Framework Core dowamlylygy we giňişleýin synag toplumy bolan .NET 9 Blazor programmasy.",
+          "lens": "Iş düzgünleri interfeýsden we dowamlylyk gatlagyndan garaşsyz synag edilip bilinýän mahaly bölünişik öz ornuny gazanýar."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL aýlyk hak işlemi SQLite goşa ýazgy baş kitaby we Svelte operasiýa paneli bilen duşuşýar.",
+          "lens": "Maliýe dogrulygy görkezilişden başlaýar: doly sent arifmetikasy we balanslaşdyrylan ýazgylar pul hereketini aýdyň edýär."
+        },
+        "interop": {
+          "summary": "15 programmirleme dilini we 18 ýerine ýetiriş nusgasyny öz içine alýan, iş wagty çägelerinde näme bolýandygyny öwrenýän ara dil salgylanmasy.",
+          "lens": "Kyn bölek iş wagtlarynyň arasyndaky şertnama: data alyş-çalyş, prosesiň özüni alyşy we gaýtalanýan ýerine ýetiriş sintaksisden has möhümdir."
+        },
+        "formatter": {
+          "summary": "WebAssembly-e kompýuterleşdirilen hakyky Go parsirleme hereketlendirijisi. JSON we YAML barlagy we formatlamasy brauzerde ýerli işleýär.",
+          "lens": "Parseri brauzere geçirmek has uly müşderi ýüküni ýerli işleme, göçürilijilik we az serwer garaşlylyk bilen çalyşýar."
+        },
+        "portfolio_website": {
+          "summary": "Özüňiziň bolýan saýtyňyz: 100+ dilli, elýeterli interaksiýaly we işleýän WebAssembly gurallary bolan React portfolýosy.",
+          "lens": "Statiki ýerleşdiriş statiki tejribäni aňlatmaýar. Baý interaksiýalar programma serwersiz müşderide ýaşap biler."
+        },
+        "biblioteca": {
+          "summary": "Bir gurluşly mazmun çeşmesini 100+ dilde elýeterli portfolýo öwürýän Python lokallaşdyryş turba haty.",
+          "lens": "Global ýetimlik terjime meselesi ýaly data saklamak meselesidir. Bir hakykat çeşmesi mazmun üýtgemelerini dolandyryp boljak edýär."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Tehniki başarnyklar",
       "header1": "Programma dilleri",
       "header2": "Çarçuwalar we kitaphanalar",
-      "header3": "Gurallar we tehnologiýalar"
+      "header3": "Gurallar we tehnologiýalar",
+      "technologies": "tehnologiýalar",
+      "search_label": "Süzgüç",
+      "search_placeholder": "Başarnyklary süz…",
+      "clear_search": "Süzgüji arassala",
+      "no_matches": "Siziň süzgüjiňize laýyk gelýän başarnyk ýok.",
+      "works": "Eserler",
+      "experience": "Tejribe",
+      "professional": "Professional",
+      "education": "Bilim",
+      "paired_with": "Köplenç bilelikde ulanylýar",
+      "summary_professional": "{items} da professional ulanyldy.",
+      "summary_education": "{items} da öwrenilen we ulanylan.",
+      "summary_projects": "{items} da amaly ulanyldy.",
+      "summary_projects_also": "{items} da hem ulanyldy.",
+      "and_more": "has köp",
+      "scroll_more": "Has köp eser üçin aýlaň",
+      "show_less": "Az görkez",
+      "no_samples": "Iş gurallarym toplumynyň bölegi. Ony nädip ulanyp biljekdigimi düşündirmäge şat."
     },
     "services": {
       "title": "Hyzmatlarym",
@@ -112,6 +247,13 @@
           "text": "Işe başlanymdan soň hakykatlar bilen gurýaryn: çeşmeler gözegçiliginden daşda saklanýan syrlar, maglumatlar bazasynyň göçüriş ýollary, rol esasly ygtyýarnama, ulgam serhetlerinde tassyklama, awtomatiki synaglar, CI / CD habarlylygy we amaly synlaýyş. Prototipi ygtybarly programma üpjünçiligine öwürýän jikme-jiklikler."
         }
       ]
+    },
+    "certifications": {
+      "title": "Ygtyýarnamalar we şahadatnamalar",
+      "credential": "Şahadatnama",
+      "issued_by": "Çykaran",
+      "issued": "Çykarylan senesi",
+      "verify": "Şahadatnamany barla"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Dört birikdiriň",
-        "text": "“Connect Four” oýnunyň 50-den gowrak maşgalasy. Bu taslama, Java, C ++, Python, JavaScript we başgalar ýaly 30-dan gowrak dürli programmirleme dillerinde durmuşa geçirmegi öz içine alýar. Mundan başga-da, 20-den gowrak dürli çarçuwany ýa-da React.js, Ruby on Rails, ASP.NET we başgalary öz içine alýan beýleki formatlary öz içine alýar.",
+        "text": "Dört arkaýyn oýnunyň 90+ durmuşa geçirilişinden ybarat uly maşgala. Taslama Java, C++, Python we JavaScript ýaly 30+ programmirleme dilini we React, Angular, Blazor-dan başlap Django, Spring Boot, Phoenix, PostgreSQL we başgalara çenli 50+ dürli çarçuwany, kitaphanany, iş wagtyny we maglumat bazasyny öz içine alýar.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Aýlyk haklary",
-        "text": "GnuCOBOL, SQLite goşa giriş ýazgysy we Svelte operasiýa paneli bilen gurlan ýerli aýlyk işleýiş ulgamy. Maliýe iş akymlaryny aç-açan, synagdan geçirip boljak we amaly taýdan jogapkär etmek üçin bitewi merkezli matematika, toparlaýyn aýlyk işlenişini we aýlawly dolandyryş panelini ulanýar.",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite goşa ýazgy baş kitaby we Svelte operasiýa paneli bilen gurlan ýerli aýlyk hak işleme ulgamy. Maliýe akymlaryny açyk, synag edip bolýan we operatiw jogapkärli etmek üçin doly sent arifmetikany, partiýa aýlyk hak işlemini we loopback panelini ulanýar.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Oýna ýörite gurallary, sowutlary, märekäni, bloklary, ölçegleri we başga-da köp aýratynlyklary goşýan Minecraft Mod. Ilki bilen Java we Kotlin bilen gurlan, Minecraft 1.16-dan 26.2-e çenli aralyk goldawy bilen gurlan.",
+        "text": "Oýna özbaşdak gurallary, ýaraglary, mäzleri, bloklary, ölçegleri we beýleki köp aýratynlyklary goşýan Minecraft mody. Esasan Java we Kotlin bilen gurlan, Minecraft 1.16-dan 26.2 çenli wersiýalary goldaýar.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Akeylan oýny",
-        "text": "“Rust” we “Macroquad” bilen gurlan, “WebAssemble” -e düzülen we HTML5 Canvas arkaly görkezilen ýylmanan ýylan dwigateli. Determiniki 0.12 sekuntlyk oýun belliklerini interpolirlenen hereket, aç-açan oýun tapgyrlary, täsirli dolandyryşlar, çaknyşyk we ýeňiş gazanmak we gönükdirilen synag bilen birleşdirýär esasy oýun düzgünlerini öz içine alýan toplum.",
+        "title": "Ýylan oýny",
+        "text": "Rust we Macroquad bilen gurlan, WebAssembly-e kompýuterleşdirilen we HTML5 Canvas arkaly görkezilen ýuka Ýylan hereketlendirijisi. 0.12-sekuntlyk kesgitli oýun tiglerini tekiz interpolirlenen hereket, açyk oýun fazalary, jogapberiji dolandyryş, çaknyşyk we ýeňiş ýagdaýyny işleme we oýnuň esasy düzgünlerini öz içine alýan jemlenen synag toplumy bilen birleşdirýär.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Týuring maşyn taslamasy",
         "text": "Týuring maşynynyň 30-dan gowrak ýerine ýetiriş maşgalasy. Gözleg üçin, esasanam “Tiger Programming Language” üçin dürli programmirleme dilleri üçin týuringiň dolylygyny görkezmek üçin ulanylýar.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Rust bilen gurlan we WebAssembly-e kompýuterleşdirilen toz-çäge himiýa laboratoriýasy. Çäge, suw, lawa, polat, kalsiý karbidi ýa-da natriý bölegini çyzyň we fizika bilen himiýanyň nähili söweşýändigine tomaşa ediň: natriý suwda partlaýar, kalsiý karbidi asetilen çykarýar, lawa çägeni aýna öwürýär we diňe dykyzlyk ýagy, simaby we çägeni bölýär. Hereketlendiriji tekiz öýjük buferinde 32 materialy we 40 deklaratiw reaksiýa düzgünini işledýär, pikseli her kadrda göçürme etmän wasm çyzykly ýadyndan gönüden-göni görkezýär.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Motory saýlaň:",
     "tiger_code": "Igerolbars kody:",
     "run_tiger": "Igerolbars işlediň",
-    "output": "Çykyş:"
+    "output": "Çykyş:",
+    "stop": "Duruz",
+    "program_input": "Programma girişi"
   },
   "tab": {
     "title": "Patrik Gudwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Dil goldawy ýok"
     }
   },
-  "logotext": "Patrik"
+  "logotext": "Patrik",
+  "repo_button": {
+    "label": "GitHub-da çeşme kody görüň"
+  }
 }

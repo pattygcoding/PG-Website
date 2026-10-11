@@ -4,21 +4,29 @@
     "home": "Lakay",
     "about": "Sou mwen",
     "portfolio": "Portfolio",
-    "projects": "Pwojè sit entènèt",
-    "tiger": "Lang tig",
-    "snake": "Jwèt Koulèv",
+    "projects": "Pwojè chwazi",
+    "tiger": "Tiger - Yon Lang Pwogramasyon Custom",
+    "snake": "Jwèt koulèv",
     "portfolio_translator": "Portfolio tradiktè",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Verifikatè JSON & YAML",
     "contact": "Kontakte mwen",
-    "home_description": "sys.root // apèsi prensipal la",
-    "about_description": "pwofil enjenyè // bio & pile",
-    "portfolio_description": "katalòg lojisyèl // prezante travay",
-    "projects_description": "zouti entèaktif ak konpilateur",
-    "tiger_description": "du koutim & AST visualizer",
+    "home_description": "sys.root // apèsi prensipal",
+    "about_description": "pwofil enjenyè // biyografi ak teknoloji",
+    "portfolio_description": "katalòg lojisyèl // travay chwazi",
+    "projects_description": "zouti entèaktif ak konpilatè",
+    "tiger_description": "konpilatè custom ak vizyalizatè AST",
     "snake_description": "jwèt arcade klasik / WASM",
-    "portfolio_translator_description": "100+ lang matris & i18n",
-    "formatter_description": "Validatè sentaks ak konvètisè",
-    "contact_description": "transmisyon louvri // pran kontak"
+    "portfolio_translator_description": "matris 100+ lang ak i18n",
+    "formatter_description": "validatè ak konvètisè sentaks",
+    "contact_description": "transmisyon ouvè // kontakte m",
+    "arcade": "Arkad",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Pye bwa lang Kat nan yon liy",
+    "alkalab_description": "similasyon laboratwa chimi / WASM",
+    "rustcraft_description": "jwèt voxel stil Minecraft / Rust ak wgpu",
+    "suprememc_description": "ekspozisyon mod Minecraft / Java"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Pwodwi & Sistèm",
@@ -35,17 +43,126 @@
     "contact_button": "Kontakte mwen",
     "about_button": "Sou mwen",
     "featured": {
-      "kicker": "Pwojè ki prezante",
-      "title": "Travay Chwazi",
-      "description": "Sis pwojè ki pi byen reprezante fason mwen fè lide anbisye nan lojisyèl poli, k ap travay.",
+      "kicker": "Pwojè chwazi",
+      "title": "Travay chwazi",
+      "description": "Sis pwojè ki reprezante pi byen kijan mwen transfòme lide anbisye an lojisyèl poli ak fonksyònman.",
       "view_project": "Gade pwojè",
-      "open_project": "Louvri Pwojè Live",
-      "view_all": "Eksplore dosye konplè a",
+      "open_project": "Louvri pwojè an dirèk",
+      "view_all": "Eksplore portfolio konplè a",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Sit wèb konplè",
+        "full_website": "Sit entènèt konplè",
         "available_here": "Disponib isit la",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Yon pèspektiv diferan sou travay la",
+      "invitation": "Eksplore atlas jeni",
+      "kicker": "Portfolio konplè / panse konekte",
+      "title": "Atlas Jeni",
+      "projects": "Pwojè",
+      "technologies": "Teknoloji",
+      "connections": "Koneksyon",
+      "center": "Atlas jeni",
+      "filter_label": "Kategori pwojè",
+      "domains": {
+        "all": "Tout travay",
+        "products": "Pwodwi",
+        "systems": "Sistèm",
+        "experiences": "Eksperyans"
+      },
+      "search": "Jwenn yon pwojè oswa teknoloji",
+      "view_label": "Vizyon atlas",
+      "map_view": "Vizyon kat",
+      "map_navigation": "Navigasyon kat portfolio",
+      "zoom_in": "Agrandi",
+      "zoom_out": "Retresi",
+      "zoom_level": "Nivo zoom kat la",
+      "fit_all": "Adapre tout pwojè yo",
+      "center_selected": "Santre pwojè a chwazi",
+      "all_technologies": "Tout teknoloji",
+      "list_view": "Vizyon lis",
+      "pause": "Poz animasyon siyal",
+      "resume": "Kontinye animasyon siyal",
+      "project_selector": "Eksplore pwojè",
+      "inspector": "Detay pwojè a chwazi",
+      "shared_stack": "Teknoloji pataje",
+      "family_connection": "Koneksyon pwojè",
+      "portfolio_connection": "Koneksyon portfolio",
+      "families": {
+        "portfolio": "Sant portfolio",
+        "business": "Aplikasyon biznis",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Pwojè WebAssembly",
+        "libraries": "Bibliyotèk script",
+        "languages": "Eksperyans lang",
+        "automation": "Zouti automatisation ak done",
+        "experience": "Eksperyans pwofesyonèl ak edikatif"
+      },
+      "browser_native": "Natif navigatè / san server",
+      "no_results": "Pa gen pwojè matche",
+      "no_selection": "Pa gen pwojè chwazi.",
+      "reset": "Klè filtre yo",
+      "engineering_lens": "Pèspektiv jeni",
+      "connected_work": "Travay konekte",
+      "open_live": "Louvri pwojè an dirèk",
+      "open_project": "Eksplore pwojè",
+      "footer": "Domèn diferan. Yon sèl pratik jeni konekte.",
+      "contact": "Ann konstwi sa k ap vini",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Pipeline done",
+        "angular": "Angular",
+        "access": "Kontwòl aksè",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Tès",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Entèoperabilite",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Aksè",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Feyi kalkil enkonsistan antre. Estimasyon konstriksyon ak pwopozisyon pare pou kliyan soti. Yon pwodwi SaaS bati alantou finansman travay aktyèl kontraktè a.",
+          "lens": "Enpòtasyon fleksib mande yon modèl entèn solid: aksepte plis fòma pa ta dwe febli règ kalkil yon òf depann."
+        },
+        "inventory_register": {
+          "summary": "Yon workflow pwen vant ak Angular ak Node.js ki konekte itilizatè verifye, presizyon envantè, ak yon flux peman simulation.",
+          "lens": "Yon kesye se plis pase yon ekran peman. Wòl, chanjman stock, ak estati peman bezwen fwontyè klè pou kenbe workflow responsab."
+        },
+        "grocery_app": {
+          "summary": "Yon aplikasyon .NET 9 Blazor ak fwontyè kontwolè, sèvis, ak depo, pèsistans Entity Framework Core, ak yon seri tès konplè.",
+          "lens": "Separasyon sipoze gen plas li lè règ biznis ka teste endepandamman de interface ak kouch pèsistans."
+        },
+        "payrollobol": {
+          "summary": "Pwosesis salè GnuCOBOL rankontre ak grefye antre doub SQLite ak tablodbò operasyon Svelte.",
+          "lens": "Koreksyon finansye kòmanse ak reprezantasyon: aritmetik santim konplè ak antre ekilibre fè mouvman lajan klè."
+        },
+        "interop": {
+          "summary": "Yon referans trans-lang ki kouvri 15 lang pwogramasyon ak 18 modèl ekzekisyon, eksplore sa k pase nan limit tan ekzekisyon.",
+          "lens": "Pat ki difisil la se kontra ant tan ekzekisyon: echanj done, konpòtman pwosesis, ak ekzekisyon repètitif pi enpòtan pase sentaks."
+        },
+        "formatter": {
+          "summary": "Yon motè parsing Go reyèl ki konpile nan WebAssembly. Validasyon ak fòma JSON ak YAML fonksyone lokalman nan navigatè a.",
+          "lens": "Dekale parser la nan navigatè a echanj yon pi gwo chaj kliyan pou pwosesis lokal, pòtab, ak mwens depandans server."
+        },
+        "portfolio_website": {
+          "summary": "Sit la kote ou ye: yon portfolio React ak 100+ lang, entèraksyon aksesib, ak zouti WebAssembly k ap travay.",
+          "lens": "Deplwayman statik pa nesesèman vle di eksperyans statik. Entèraksyon rich ka viv sou kliyan an san server aplikasyon."
+        },
+        "biblioteca": {
+          "summary": "Yon pipeline lokalizasyon Python ki transfòme yon sèl sous kontni estriktire an yon portfolio disponib nan 100+ lang.",
+          "lens": "Reach mondyal se otan yon pwoblèm antretyen done ke yon pwoblèm tradiksyon. Yon sèl sous verite kenbe chanjman kontni jere."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Konpetans teknik",
       "header1": "Lang pwogramasyon",
       "header2": "Kad & Bibliyotèk",
-      "header3": "Zouti & Teknoloji"
+      "header3": "Zouti & Teknoloji",
+      "technologies": "teknoloji",
+      "search_label": "Filtre",
+      "search_placeholder": "Filtre ladrès…",
+      "clear_search": "Klè filtre",
+      "no_matches": "Pa gen ladrès ki matche filtre ou yo.",
+      "works": "Travay",
+      "experience": "Eksperyans",
+      "professional": "Pwofesyonèl",
+      "education": "Edikasyon",
+      "paired_with": "Souvan asosye ak",
+      "summary_professional": "Itilize pwofesyonèlman nan {items}.",
+      "summary_education": "Aprann ak aplike nan {items}.",
+      "summary_projects": "Aplike pratik nan {items}.",
+      "summary_projects_also": "Aplike tou nan {items}.",
+      "and_more": "plis",
+      "scroll_more": "Defile pou plis travay",
+      "show_less": "Montre mwens",
+      "no_samples": "Yon pati nan zouti travay mwen. M kontan eksplike kijan m itilize li."
     },
     "services": {
       "title": "Sèvis mwen yo",
@@ -112,6 +247,13 @@
           "text": "Mwen konstwi ak reyalite yo apre lansman an gade: sekrè ki pa nan kontwòl sous, chemen migrasyon baz done eksplisit, otorizasyon ki baze sou wòl, validasyon nan limit sistèm, tès otomatik, konsyans CI/CD, ak obsèvabilite pratik. Sa yo se detay yo ki fè yon pwototip nan lojisyèl serye."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lisans ak sètifikasyon",
+      "credential": "Sètifikasyon",
+      "issued_by": "Delivre pa",
+      "issued": "Dat delivrans",
+      "verify": "Verifye sètifikasyon"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Konekte Kat",
-        "text": "Gwo fanmi ki gen plis pase 50 aplikasyon jwèt Connect Four la. Pwojè sa a gen ladann aplikasyon nan plis pase 30 lang pwogramasyon diferan, tankou Java, C++, Python, JavaScript, ak plis ankò. Anplis de sa, li gen ladan tou plis pase 20 kad diferan oswa lòt fòma, tankou React.js, Ruby on Rails, ASP.NET, ak plis ankò.",
+        "text": "Yon gwo fanmi ki gen 90+ aplikasyon nan jwèt Kat nan yon liy. Pwojè a kouvri 30+ lang pwogramasyon, tankou Java, C++, Python, ak JavaScript, ansanm ak 50+ framework, bibliyotèk, tan ekzekisyon, ak baz done diferan, soti nan React, Angular, ak Blazor rive nan Django, Spring Boot, Phoenix, PostgreSQL, ak pi lwen.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Yon sistèm pwosesis pewòl lokal ki bati ak GnuCOBOL, yon Ledger doub-antre SQLite, ak yon tablodbò operasyon Svelte. Li itilize matematik sant antye, pwosesis pewòl pakèt, ak yon tablodbò loopback pou fè workflows finansye yo klè, teste, ak fonksyonman responsab.",
+        "text": "Yon sistèm pwosesis salè lokal ki bati ak GnuCOBOL, yon grefye antre doub SQLite, ak yon tablodbò operasyon Svelte. Li itilize aritmetik santim konplè, pwosesis salè pakèt, ak tablodbò loopback pou fè flux finansye klè, teste, ak responsab operasyonèlman.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Yon Mod Minecraft ki ajoute zouti koutim, zam, foul, blòk, dimansyon, ak anpil lòt karakteristik nan jwèt la. Bati prensipalman ak Java ak Kotlin, ak sipò ki kouvri vèsyon Minecraft 1.16 jiska 26.2.",
+        "text": "Yon mod Minecraft ki ajoute zouti custom, blende, mobs, blòk, dimansyon, ak anpil lòt karakteristik nan jwèt la. Bati sitou ak Java ak Kotlin, sipòte vèsyon Minecraft 1.16 a 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Jwèt Koulèv",
-        "text": "Yon motè Snake poli bati ak Rust ak Macroquad, konpile nan WebAssembly, epi rann atravè HTML5 Canvas. Li konbine tik jwèt detèminist 0.12 segonn ak mouvman entèpolasyon lis, faz jwèt klè, kontwòl repons, kolizyon ak manyen eta genyen, ak yon tès konsantre. suite ki kouvri règ jwèt debaz yo.",
+        "title": "Jwèt koulèv",
+        "text": "Yon motè Koulèv poli ki bati ak Rust ak Macroquad, konpile nan WebAssembly, ak rann atravè HTML5 Canvas. Li konbine tik jwèt detèministik 0.12-segond ak mouvman entèpolasyon lis, faz jwèt klè, kontwòl reponn, jesyon kolizyon ak etat viktwa, ak yon seri tès konsantre ki kouvri règ fondasyon jwèt la.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Pwojè machin Turing",
         "text": "Fanmi ki gen plis pase 30 aplikasyon Turing Machine. Itilize pou demontre konplè pou diferan langaj pwogramasyon pou rechèch, espesyalman pou langaj pwogramasyon Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Yon laboratwa chimi poud-sab ki bati nan Rust ak konpile nan WebAssembly. Pentire sab, dlo, lav, asye, carbure kalsyòm, oswa yon moso sodyòm epi gade fizik ak chimi goumen: sodyòm eksploze nan dlo, carbure kalsyòm lage asetilèn, lav fonn sab an vè, ak dénsité sèlman separe lwil oliv, mèki, ak sab. Motè a kouri 32 materyo ak 40 règ reyaksyon deklaratif sou yon tampon selil plat, rann piksel dirèkteman nan memwa lineyè wasm san kopi pa frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Chwazi motè:",
     "tiger_code": "Kòd tig:",
     "run_tiger": "Kouri Tiger",
-    "output": "Sòti:"
+    "output": "Sòti:",
+    "stop": "Sispann",
+    "program_input": "Antre pwogram"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Pa gen sipò lang"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Gade kòd sous la sou GitHub"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "Bahay",
     "about": "Tungkol sa Akin",
     "portfolio": "Portfolio",
-    "projects": "Mga Proyekto sa Website",
-    "tiger": "Wika ng Tigre",
-    "snake": "Larong Ahas",
+    "projects": "Itinatampok na mga proyekto",
+    "tiger": "Tiger - Isang Custom na Wikang Pamprograma",
+    "snake": "Larong ahas",
     "portfolio_translator": "Tagasalin ng Portfolio",
-    "formatter": "JSON at YAML Formatter",
+    "formatter": "Linter ng JSON & YAML",
     "contact": "Kontakin Ako",
-    "home_description": "sys.root // pangunahing pangkalahatang-ideya",
-    "about_description": "profile ng engineer // bio at stack",
-    "portfolio_description": "software catalog // mga itinatampok na gawa",
-    "projects_description": "mga interactive na tool at compiler",
+    "home_description": "sys.root // pangunahing pangkalahatang-tanaw",
+    "about_description": "profile ng inhinyero // bio at stack",
+    "portfolio_description": "katalogo ng software // itinatampok na mga gawa",
+    "projects_description": "interaktibong mga tool at compiler",
     "tiger_description": "custom na compiler at AST visualizer",
-    "snake_description": "klasikong arcade game / WASM",
+    "snake_description": "klasikong laro sa arkade / WASM",
     "portfolio_translator_description": "100+ language matrix at i18n",
-    "formatter_description": "syntax validator at converter",
-    "contact_description": "bukas na transmission // makipag-ugnayan"
+    "formatter_description": "validator at converter ng syntax",
+    "contact_description": "bukas na transmisyon // makipag-ugnayan",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Punong-wika ng Apat na Magkasunod",
+    "alkalab_description": "simulasyon ng chemistry lab / WASM",
+    "rustcraft_description": "larong voxel na istilo ng Minecraft / Rust at wgpu",
+    "suprememc_description": "pagpapakita ng mod ng Minecraft / Java"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto at Sistema",
@@ -35,17 +43,126 @@
     "contact_button": "Kontakin Ako",
     "about_button": "Tungkol sa Akin",
     "featured": {
-      "kicker": "Mga Tampok na Proyekto",
-      "title": "Napiling Trabaho",
-      "description": "Anim na proyekto na pinakamahusay na kumakatawan sa kung paano ko ginagawa ang mga ambisyosong ideya sa makintab at gumaganang software.",
-      "view_project": "Tingnan ang Proyekto",
-      "open_project": "Buksan ang Live Project",
-      "view_all": "Galugarin ang buong portfolio",
+      "kicker": "Itinatampok na mga proyekto",
+      "title": "Piniling mga gawa",
+      "description": "Anim na proyekto na kumakatawan sa pinakamahusay kung paano ko ginagawang pulidong, gumaganang software ang ambisyosong mga ideya.",
+      "view_project": "Tingnan ang proyekto",
+      "open_project": "Buksan ang live na proyekto",
+      "view_all": "Tuklasin ang kumpletong portfolio",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Buong Website",
-        "available_here": "Available Dito",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Buong website",
+        "available_here": "Available dito",
+        "minecraft_mod": "Mod ng Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Ibang pananaw sa gawain",
+      "invitation": "Tuklasin ang engineering atlas",
+      "kicker": "Kumpletong portfolio / konektadong pag-iisip",
+      "title": "Engineering Atlas",
+      "projects": "Mga proyekto",
+      "technologies": "Mga teknolohiya",
+      "connections": "Mga koneksyon",
+      "center": "Engineering atlas",
+      "filter_label": "Mga kategorya ng proyekto",
+      "domains": {
+        "all": "Lahat ng gawain",
+        "products": "Mga produkto",
+        "systems": "Mga sistema",
+        "experiences": "Mga karanasan"
+      },
+      "search": "Maghanap ng proyekto o teknolohiya",
+      "view_label": "Atlas view",
+      "map_view": "Map view",
+      "map_navigation": "Navigasyon ng mapa ng portfolio",
+      "zoom_in": "Mag-zoom in",
+      "zoom_out": "Mag-zoom out",
+      "zoom_level": "Antas ng zoom ng mapa",
+      "fit_all": "Iakma ang lahat ng proyekto",
+      "center_selected": "I-sentro ang napiling proyekto",
+      "all_technologies": "Lahat ng teknolohiya",
+      "list_view": "List view",
+      "pause": "I-pause ang signal animation",
+      "resume": "Ipagpatuloy ang signal animation",
+      "project_selector": "Tuklasin ang mga proyekto",
+      "inspector": "Detalye ng napiling proyekto",
+      "shared_stack": "Pinagsasaluhang teknolohiya",
+      "family_connection": "Koneksyon ng proyekto",
+      "portfolio_connection": "Koneksyon ng portfolio",
+      "families": {
+        "portfolio": "Portfolio hub",
+        "business": "Mga aplikasyon sa negosyo",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Mga proyekto sa WebAssembly",
+        "libraries": "Mga library ng script",
+        "languages": "Mga eksperimento sa wika",
+        "automation": "Mga tool sa automation at data",
+        "experience": "Propesyonal at pang-edukasyon na karanasan"
+      },
+      "browser_native": "Likas sa browser / walang server",
+      "no_results": "Walang tumutugmang proyekto",
+      "no_selection": "Walang napiling proyekto.",
+      "reset": "I-clear ang mga filter",
+      "engineering_lens": "Pananaw ng engineering",
+      "connected_work": "Konektadong gawain",
+      "open_live": "Buksan ang live na proyekto",
+      "open_project": "Tuklasin ang proyekto",
+      "footer": "Iba't ibang domain. Isang konektadong kasanayan sa engineering.",
+      "contact": "Buuin natin ang susunod",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Mga data pipeline",
+        "angular": "Angular",
+        "access": "Kontrol sa pag-access",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Pagsubok",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilidad",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Pagka-access",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Mga hindi pantay-pantay na spreadsheet ang pumapasok. Mga tantiya sa konstruksyon at handang-tanggap ng kliyenteng mga panukala ang lumalabas. Isang produktong SaaS na binuo sa paligid ng tunay na daloy ng trabaho ng kontraktor.",
+          "lens": "Ang mga flexible na pag-import ay nangangailangan ng mahigpit na panloob na modelo: ang pagtanggap ng mas maraming format ay hindi dapat magpahina sa mga panuntunan sa pagkalkula na inaasahan ng isang bid."
+        },
+        "inventory_register": {
+          "summary": "Isang punto-ng-pagbebenta na daloy ng trabaho gamit ang Angular at Node.js na nag-uugnay sa mga napatunayang user, katumpakan ng imbentaryo, at simulate na daloy ng pagbabayad.",
+          "lens": "Ang isang rehistro ay higit pa sa isang screen ng checkout. Ang mga papel, pagbabago sa stock, at kalagayan ng pagbabayad ay nangangailangan ng malinaw na mga hangganan upang panatilihing responsable ang daloy ng trabaho."
+        },
+        "grocery_app": {
+          "summary": "Isang .NET 9 Blazor na aplikasyon na may mga hangganan ng controller, service, at repository, pagpapatuloy ng Entity Framework Core, at komprehensibong test suite.",
+          "lens": "Ang paghihiwalay ay tamang-tama kapag ang mga panuntunan sa negosyo ay maaaring subukan nang hiwalay sa interface at layer ng pagpapatuloy."
+        },
+        "payrollobol": {
+          "summary": "Ang pagproseso ng sweldo ng GnuCOBOL ay sumasalubong sa isang ledger ng dobleng-entri ng SQLite at dashboard ng operasyon ng Svelte.",
+          "lens": "Nagsisimula ang kawastuhan sa pananalapi sa representasyon: ang aritmetikang buong-sentimos at balanseng mga entry ay nagiging malinaw ang paggalaw ng pera."
+        },
+        "interop": {
+          "summary": "Isang sanggunian sa pagitan ng wika na sumasaklaw sa 15 programming language at 18 pattern ng pagpapatupad, na tumutuklas kung ano ang nangyayari sa mga hangganan ng runtime.",
+          "lens": "Ang mahirap na bahagi ay ang kontrata sa pagitan ng mga runtime: ang pagpapalitan ng data, kilos ng proseso, at paulit-ulit na pagpapatupad ay mas mahalaga kaysa syntax."
+        },
+        "formatter": {
+          "summary": "Isang tunay na Go parsing engine na nakompile sa WebAssembly. Ang pagpapatunay at pag-format ng JSON at YAML ay tumatakbo nang lokal sa browser.",
+          "lens": "Ang paglipat ng parser sa browser ay ipinagpapalit ang mas malaking payload ng kliyente sa lokal na pagproseso, portabilidad, at mas kaunting dependency sa server."
+        },
+        "portfolio_website": {
+          "summary": "Ang site na nasa ka: isang React portfolio na may 100+ na wika, aksesibleng mga interaksyon, at gumaganang WebAssembly tools.",
+          "lens": "Ang static na pag-deploy ay hindi kailangang mangahulugan ng static na karanasan. Ang mayamang interaksyon ay maaaring mabuhay sa kliyente nang walang server ng aplikasyon."
+        },
+        "biblioteca": {
+          "summary": "Isang lokalisasyon pipeline ng Python na ginagawang isang portfolio na available sa 100+ na wika ang isang structured na pinagmulan ng nilalaman.",
+          "lens": "Ang pandaigdigang abot ay kasing-problema ng pagpapanatili ng data at gayundin ng pagsasalin. Ang isang pinagmulan ng katotohanan ay nagpapanatiling mapapamahalaan ang mga pagbabago sa nilalaman."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Mga Kasanayang Teknikal",
       "header1": "Mga Wika sa Programming",
       "header2": "Mga Framework at Aklatan",
-      "header3": "Mga Tool at Teknolohiya"
+      "header3": "Mga Tool at Teknolohiya",
+      "technologies": "teknolohiya",
+      "search_label": "I-filter",
+      "search_placeholder": "I-filter ang mga kasanayan…",
+      "clear_search": "I-clear ang filter",
+      "no_matches": "Walang kasanayang tumutugma sa iyong filter.",
+      "works": "Mga gawa",
+      "experience": "Karanasan",
+      "professional": "Propesyonal",
+      "education": "Edukasyon",
+      "paired_with": "Kadalasang ipinares sa",
+      "summary_professional": "Ginamit nang propesyonal sa {items}.",
+      "summary_education": "Pinag-aralan at inilapat sa {items}.",
+      "summary_projects": "Inilapat nang hands-on sa {items}.",
+      "summary_projects_also": "Inilapat din sa {items}.",
+      "and_more": "higit pa",
+      "scroll_more": "Mag-scroll para sa higit pang mga gawa",
+      "show_less": "Magpakita ng mas kaunti",
+      "no_samples": "Bahagi ng aking working toolkit. Masaya akong ipaliwanag kung paano ko ito ginamit."
     },
     "services": {
       "title": "Aking Mga Serbisyo",
@@ -112,6 +247,13 @@
           "text": "Bumubuo ako gamit ang mga katotohanan pagkatapos ng paglulunsad sa view: ang mga lihim na pinananatiling wala sa kontrol ng pinagmulan, tahasang mga landas sa paglilipat ng database, awtorisasyon na nakabatay sa papel, pagpapatunay sa mga hangganan ng system, mga automated na pagsusulit, kaalaman sa CI/CD, at praktikal na pagmamasid. Ito ang mga detalyeng nagiging maaasahang software ang isang prototype."
         }
       ]
+    },
+    "certifications": {
+      "title": "Mga lisensya at sertipikasyon",
+      "credential": "Sertipikasyon",
+      "issued_by": "Inisyu ng",
+      "issued": "Petsa ng pag-isyu",
+      "verify": "I-verify ang sertipikasyon"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Ikonekta ang Apat",
-        "text": "Napakalaking pamilya ng mahigit 50+ na pagpapatupad ng larong Connect Four. Kasama sa proyektong ito ang mga pagpapatupad sa mahigit 30 iba't ibang programming language, kabilang ang Java, C++, Python, JavaScript, at higit pa. Bukod pa rito, kabilang din dito ang higit sa 20+ iba't ibang mga framework o iba pang mga format, kabilang ang React.js, Ruby on Rails, ASP.NET, at higit pa.",
+        "text": "Isang malaking pamilya ng 90+ implementasyon ng larong Apat na Magkasunod. Sinasaklaw ng proyekto ang 30+ programming language, kabilang ang Java, C++, Python, at JavaScript, kasama ang 50+ iba't ibang framework, library, runtime, at database, mula sa React, Angular, at Blazor hanggang Django, Spring Boot, Phoenix, PostgreSQL, at iba pa.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Isang lokal na sistema ng pagpoproseso ng payroll na binuo gamit ang GnuCOBOL, isang SQLite double-entry ledger, at isang Svelte operations dashboard. Gumagamit ito ng integer-cent math, batch payroll processing, at loopback dashboard para gawing tahasan, masusubok, at may pananagutan ang mga financial workflow.",
+        "text": "Isang lokal na sistema ng pagproseso ng sweldo na binuo gamit ang GnuCOBOL, isang SQLite ledger ng dobleng-entri, at dashboard ng operasyon ng Svelte. Gumagamit ito ng buong-sentimos na matematika, batch na pagproseso ng sweldo, at loopback dashboard upang maging malinaw, masusubukan, at operationally accountable ang mga financial workflow.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Isang Minecraft Mod na nagdaragdag ng mga custom na tool, armor, mob, block, dimensyon, at marami pang feature sa laro. Pangunahing ginawa gamit ang Java at Kotlin, na may suportang sumasaklaw sa mga bersyon ng Minecraft 1.16 hanggang 26.2.",
+        "text": "Isang mod ng Minecraft na nagdaragdag ng custom na tools, armor, mobs, blocks, dimensyon, at marami pang tampok sa laro. Binuo pangunahin gamit ang Java at Kotlin, na sumusuporta sa bersyon ng Minecraft 1.16 hanggang 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Larong Ahas",
-        "text": "Isang pinakintab na makina ng Snake na binuo gamit ang Rust at Macroquad, na pinagsama sa WebAssembly, at na-render sa pamamagitan ng HTML5 Canvas. Pinagsasama nito ang mga deterministikong 0.12-segundong game ticks na may makinis na interpolated na paggalaw, tahasang mga yugto ng laro, tumutugon na mga kontrol, banggaan at win-state handling, at isang nakatutok na pagsubok suite na sumasaklaw sa mga pangunahing panuntunan ng laro.",
+        "title": "Larong ahas",
+        "text": "Isang pulidong Ahas na engine na binuo gamit ang Rust at Macroquad, nakompile sa WebAssembly, at nire-render sa pamamagitan ng HTML5 Canvas. Pinagsasama nito ang deterministikong 0.12-segundong game ticks na may makinis na interpolated na paggalaw, malinaw na game phase, responsive na kontrol, paghawak sa banggaan at win-state, at isang focused test suite na sumasaklaw sa core rules ng laro.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Proyekto ng Turing Machine",
         "text": "Pamilya ng higit sa 30+ pagpapatupad ng Turing Machine. Ginagamit upang ipakita ang pagiging kumpleto ng turing para sa iba't ibang programming language para sa pananaliksik, lalo na para sa Tiger Programming Language.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Isang chemistry lab ng powder-sand na binuo sa Rust at nakompile sa WebAssembly. Ipinta ang buhangin, tubig, lava, bakal, calcium carbide, o isang tipak ng sodium at panoorin ang pisika at kimika na maglaban: sumasabog ang sodium sa tubig, bumubula ng acetylene ang calcium carbide, tinutunaw ng lava ang buhangin tungo sa salamin, at ang densidad lamang ang nag-aayos ng langis, mercury, at buhangin. Ang engine ay nagpapatakbo ng 32 material at 40 declarative na reaction rules sa isang flat cell buffer, na nagre-render ng mga pixel nang direkta mula sa wasm linear memory nang walang kopya bawat frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Piliin ang Engine:",
     "tiger_code": "Tiger Code:",
     "run_tiger": "Patakbuhin ang Tigre",
-    "output": "Output:"
+    "output": "Output:",
+    "stop": "Itigil",
+    "program_input": "Input ng programa"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Walang suporta sa wika"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Tingnan ang source code sa GitHub"
+  }
 }

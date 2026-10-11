@@ -4,21 +4,29 @@
     "home": "Ikhaya",
     "about": "Mayelana nami",
     "portfolio": "Iphothifoliyo",
-    "projects": "Amaphrojekthi Wewebhusayithi",
-    "tiger": "Ulimi Lwengwe",
-    "snake": "Umdlalo Wenyoka",
+    "projects": "Amaphrojekthi akhethiwe",
+    "tiger": "Tiger - Ulimi Lokuhlela Okhethekile",
+    "snake": "Umdlalo wenyoka",
     "portfolio_translator": "Umhumushi wephothifoliyo",
-    "formatter": "Ifomethi ye-JSON ne-YAML",
+    "formatter": "I-checker ye-JSON & YAML",
     "contact": "Thinta mina",
-    "home_description": "sys.root // ukubuka konke okuyinhloko",
-    "about_description": "iphrofayili kanjiniyela // i-bio & isitaki",
-    "portfolio_description": "ikhathalogi yesoftware // imisebenzi efakiwe",
-    "projects_description": "amathuluzi interactive & compilers",
-    "tiger_description": "inhlanganisela yangokwezifiso nesibonisi se-AST",
+    "home_description": "sys.root // umbono omkhulu",
+    "about_description": "iphrofayili kanjiniyela // bio nobuchwepheshe",
+    "portfolio_description": "ikhathalogi yesoftware // imisebenzi ekhethiwe",
+    "projects_description": "amathuluzi asebenzisanayo nama-compiler",
+    "tiger_description": "i-compiler ekhethekile nesibonisi se-AST",
     "snake_description": "umdlalo we-arcade wakudala / WASM",
-    "portfolio_translator_description": "I-matrix yolimi engu-100+ ne-i18n",
-    "formatter_description": "i-syntax validator & converter",
-    "contact_description": "vula ukudluliselwa // thintana"
+    "portfolio_translator_description": "i-matrix yezilimi ezingaphezu kwe-100 ne-i18n",
+    "formatter_description": "isiqinisekisi kanye nomguquli wesyntax",
+    "contact_description": "ukudlulisela okuvulekile // xhumana nami",
+    "arcade": "I-arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Umuthi wezilimi Omine ngomugqa",
+    "alkalab_description": "ukulingisa ilabhorethri yamakhemikhali / WASM",
+    "rustcraft_description": "umdlalo we-voxel ofana ne-Minecraft / Rust kanye ne-wgpu",
+    "suprememc_description": "umbukiso we-mod ye-Minecraft / Java"
   },
   "home": {
     "title": "Unjiniyela Omkhulu Ogcwele Isitaki | Umkhiqizo Nezinhlelo",
@@ -35,17 +43,126 @@
     "contact_button": "Thinta mina",
     "about_button": "Mayelana nami",
     "featured": {
-      "kicker": "Amaphrojekthi afakiwe",
-      "title": "Umsebenzi Okhethiwe",
-      "description": "Amaphrojekthi ayisithupha amele kangcono ukuthi ngiguqula kanjani imibono yokuvelela ibe isoftware ephucuziwe, esebenzayo.",
+      "kicker": "Amaphrojekthi akhethiwe",
+      "title": "Imisebenzi ekhethiwe",
+      "description": "Amaphrojekthi ayisithupha amelela kangcono ukuthi ngiguqula kanjani imibono ehlakaniphile ibe isoftware ephucuziwe nephumelelayo.",
       "view_project": "Buka iphrojekthi",
-      "open_project": "Vula Iphrojekthi Ebukhoma",
+      "open_project": "Vula iphrojekthi ebukhoma",
       "view_all": "Hlola iphothifoliyo ephelele",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Iwebhusayithi Egcwele",
-        "available_here": "Iyatholakala Lapha",
-        "minecraft_mod": "I-Minecraft Mod"
+        "full_website": "Iwebhusayithi ephelele",
+        "available_here": "Itholakala lapha",
+        "minecraft_mod": "I-mod ye-Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Umbono ohlukile emsebenzini",
+      "invitation": "Hlola i-atlas yobunjiniyela",
+      "kicker": "Iphothifoliyo ephelele / umcabango oxhumene",
+      "title": "I-Atlas Yobunjiniyela",
+      "projects": "Amaphrojekthi",
+      "technologies": "Ubuchwepheshe",
+      "connections": "Ukuxhumana",
+      "center": "I-atlas yobunjiniyela",
+      "filter_label": "Izigaba zamaphrojekthi",
+      "domains": {
+        "all": "Yonke imisebenzi",
+        "products": "Imikhiqizo",
+        "systems": "Amasistimu",
+        "experiences": "Okuhlangenwe nakho"
+      },
+      "search": "Thola iphrojekthi noma ubuchwepheshe",
+      "view_label": "Ukubuka kwe-atlas",
+      "map_view": "Ukubuka kwemephu",
+      "map_navigation": "Ukuzulazula kwemephu yephothifoliyo",
+      "zoom_in": "Khulisa",
+      "zoom_out": "Nciphisa",
+      "zoom_level": "Izinga lokusondeza lemephu",
+      "fit_all": "Lungisa wonke amaphrojekthi",
+      "center_selected": "Beka iphrojekthi ekhethiwe phakathi nendawo",
+      "all_technologies": "Bonke ubuchwepheshe",
+      "list_view": "Ukubuka kohlu",
+      "pause": "Misa ukugqwayiza kwesignali",
+      "resume": "Qhubeka nokugqwayiza kwesignali",
+      "project_selector": "Hlola amaphrojekthi",
+      "inspector": "Imininingwane yephrojekthi ekhethiwe",
+      "shared_stack": "Ubuchwepheshe obabiwe",
+      "family_connection": "Ukuxhumana kwephrojekthi",
+      "portfolio_connection": "Ukuxhumana kwephothifoliyo",
+      "families": {
+        "portfolio": "Isikhungo sephothifoliyo",
+        "business": "Izinhlelo zokusebenza zebhizinisi",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Amaphrojekthi e-WebAssembly",
+        "libraries": "Imithala yezinhlamvu ezibhalwayo",
+        "languages": "Ukuhlolwa kwezilimi",
+        "automation": "Amathuluzi okuzenzakalela nedatha",
+        "experience": "Okuhlangenwe nakho kobuchwepheshe nemfundo"
+      },
+      "browser_native": "Okungokwebrawuza / ngaphandle kweseva",
+      "no_results": "Azikho amaphrojekthi ahambisanayo",
+      "no_selection": "Akukho phrojekthi ekhethiwe.",
+      "reset": "Sula izihlungi",
+      "engineering_lens": "Umbono wobunjiniyela",
+      "connected_work": "Umsebenzi oxhumene",
+      "open_live": "Vula iphrojekthi ebukhoma",
+      "open_project": "Hlola iphrojekthi",
+      "footer": "Izizinda ezahlukene. Umkhuba owodwa wobunjiniyela oxhumene.",
+      "contact": "Masakhe lokho okuza ngokulandelayo",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Amapayipi edatha",
+        "angular": "Angular",
+        "access": "Ukulawula ukufinyelela",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Ukuhlola",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Ukusebenzisana",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Ukufinyeleleka",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Amashidi angahambisani angena. Izilinganiso zokwakha neziphakamiso ezilungele ikhasimende ziyaphuma. Umkhiqizo we-SaaS owakhiwe ngaphezulu kokuhamba komsebenzi kwangempela kukasonkontilaktha.",
+          "lens": "Ukungena okuguquguqukayo kudinga imodeli yangaphakathi eqinile: ukwamukela amafomethi amaningi akufanele kubuthele imithetho yokubala okuncike kuyo ibhidi."
+        },
+        "inventory_register": {
+          "summary": "Ukuhamba komsebenzi wendawo yokuthengisa nge-Angular ne-Node.js okuxhuma abasebenzisi abaqinisekisiwe, ukunemba kwempahla, nokuhamba kokukhokha okulingisiwe.",
+          "lens": "Irejista yemali ingaphezu kwesikrini sokukhokha. Izindima, izinguquko zesitoko, nezimo zokukhokha zidinga imingcele ecacile ukugcina ukuhamba komsebenzi kunokubophezeka."
+        },
+        "grocery_app": {
+          "summary": "Uhlelo lokusebenza lwe-.NET 9 Blazor elinemingcele yomlawuli, inkonzo, ne-community, ukuqina kwe-Entity Framework Core, nedijithi yokuhlola ephelele.",
+          "lens": "Ukwehlukaniswa kuthola indawo yakho lapho imithetho yebhizinisi ingahlolwa ngokuzimele kwisixhumi esibonakalayo nesendlalelo sokuqina."
+        },
+        "payrollobol": {
+          "summary": "Ukucubungula umholo kwe-GnuCOBOL kuhlangana nebhuku elikhulu le-SQLite elingena kabili nedeskibhodi yokusebenza ye-Svelte.",
+          "lens": "Ukunemba kwezimali kuqala ngokumelela: izibalo zamacent avolileyo nokungenisa okulinganiselayo kukhanyisa ukuhamba kwemali."
+        },
+        "interop": {
+          "summary": "Inkomba yezilimi ehlukene ehlanganisa izilimi eziyi-15 zokuhlela namaphethini ayi-18 okusebenza, ehlola okwenzekayo emingceleni yesikhathi sokusebenza.",
+          "lens": "Ingxenye enzima isivumelwano phakathi kwezikhathi zokusebenza: ukushintshana kwedatha, ukuziphatha kwenqubo, nokusebenza okuphindaphindekayo kubalulekile kunesyntax."
+        },
+        "formatter": {
+          "summary": "Injini yangempela yokuhlaziya i-Go ehlanganiswe ne-WebAssembly. Ukuqinisekisa nokuhlela kwe-JSON ne-YAML kusebenza endaweni yesiphequluli.",
+          "lens": "Ukuhambisa i-parser kwisiphequluli kushintshana nomthwalo omkhulu weklayenti ukuze kucushwe endaweni, ukuthuthwa, nokuncika okuncane kweseva."
+        },
+        "portfolio_website": {
+          "summary": "Isayithi okukulo: iphothifoliyo ye-React enezilimi ezingaphezu kwe-100, ukusebenzisana okufinyelelekayo, namathuluzi e-WebAssembly asebenzayo.",
+          "lens": "Ukuthunyelwa okungaguquki akusho okuhlangenwe nakho okungaguquki. Ukusebenzisana okunothile kungaphila kuklayenti ngaphandle kweseva yohlelo lokusebenza."
+        },
+        "biblioteca": {
+          "summary": "Ipayipi lokufaka ulimi lwe-Python eliguqula umthombo owodwa wokuqukethwe okuhlelekile libe iphothifoliyo etholakala ngezilimi ezingaphezu kwe-100.",
+          "lens": "Ukufinyelela emhlabeni wonke kuyinkinga yokugcinwa kwedatha kanye nenkinga yokuhumusha. Umthombo owodwa weqiniso ugcina izinguquko zokuqukethwe zilawuleka."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Amakhono Ezobuchwepheshe",
       "header1": "Izilimi Zokuhlela",
       "header2": "Ama-Frameworks & Libraries",
-      "header3": "Amathuluzi Nobuchwepheshe"
+      "header3": "Amathuluzi Nobuchwepheshe",
+      "technologies": "ubuchwepheshe",
+      "search_label": "Hlunga",
+      "search_placeholder": "Hlunga amakhono…",
+      "clear_search": "Sula isihlungi",
+      "no_matches": "Awekho amakhono ahambisana nesihlungi sakho.",
+      "works": "Imisebenzi",
+      "experience": "Okuhlangenwe nakho",
+      "professional": "Ochwepheshe",
+      "education": "Imfundo",
+      "paired_with": "Ngokuvamile kuhambisana ne-",
+      "summary_professional": "Kusetshenziswe ngobungoti e-{items}.",
+      "summary_education": "Kufundwe futhi kwasetshenziswa e-{items}.",
+      "summary_projects": "Kusetshenziswe ngezandla e-{items}.",
+      "summary_projects_also": "Kusetshenziswe futhi e-{items}.",
+      "and_more": "nokunye",
+      "scroll_more": "Skrolela imisebenzi eminingi",
+      "show_less": "Bonisa okuncane",
+      "no_samples": "Ingxenye yamathuluzi ami okusebenza. Ngiyakujabulela ukuchaza indlela engikusebenzise ngayo."
     },
     "services": {
       "title": "Izinkonzo Zami",
@@ -112,6 +247,13 @@
           "text": "Ngakha ngezinto ezingokoqobo ngemva kokwethulwa ngombono: izimfihlo ezigcinwe ngaphandle kokulawulwa komthombo, izindlela ezicacile zokuthuthela kusizindalwazi, ukugunyazwa okusekelwe endimeni, ukuqinisekiswa kwemingcele yesistimu, izivivinyo ezizenzakalelayo, ukuqwashisa nge-CI/CD, nokubonakala okungokoqobo. Lena imininingwane eshintsha i-prototype ibe isofthiwe ethembekile."
         }
       ]
+    },
+    "certifications": {
+      "title": "Amalayisensi nezitifikethi",
+      "credential": "Isitifikethi",
+      "issued_by": "Ikhishiwe ngu",
+      "issued": "Usuku lokukhishwa",
+      "verify": "Qinisekisa isitifikethi"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Xhuma Okune",
-        "text": "Umndeni omkhulu wokusetshenziswa okungaphezu kuka-50+ komdlalo we-Connect Four. Le phrojekthi ihlanganisa ukuqaliswa ngezilimi zokuhlela ezingaphezu kuka-30, okuhlanganisa i-Java, i-C++, i-Python, i-JavaScript, nokuningi. Ukwengeza, ifaka phakathi izinhlaka ezihlukene ezingaphezu kuka-20+ noma amanye amafomethi, afaka i-React.js, i-Ruby on Rails, i-ASP.NET, nokuningi.",
+        "text": "Umndeni omkhulu wokwenziwa okungaphezu kuka-90 komdlalo we-Omine ngomugqa. Lolu hlelo luhlanganisa izilimi ezingaphezu kuka-30 zokuhlela, kuhlanganise ne-Java, i-C++, i-Python, ne-JavaScript, kanye nama-framework angaphezu kuka-50, imithala, izikhathi zokusebenza, nezinhlaka zedatha ezahlukahlukene, kusukela ku-React, Angular, ne-Blazor kuya ku-Django, Spring Boot, Phoenix, PostgreSQL, nokunye.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "I-PayrollOBOL",
-        "text": "Uhlelo lwasendaweni lokucubungula ukukhokhelwa olwakhiwe nge-GnuCOBOL, ileja yokufaka kabili ye-SQLite, kanye nedeshibhodi yemisebenzi ye-Svelte. Isebenzisa izibalo ze-integer-cent, i-batch payroll processing, kanye nedeshibhodi ye-loopback ukwenza ukuhamba komsebenzi kwezezimali kube sobala, kuhloleke, futhi kuphenduleke ngokusebenza.",
+        "title": "PayrollOBOL",
+        "text": "Uhlelo lwasendaweni lokucubungula umholo olwakhiwe nge-GnuCOBOL, ibhuku elikhulu le-SQLite elingena kabili, nedeski yokusebenza ye-Svelte. Lisebenzisa izibalo zamacent avolileyo, ukucubungula umholo ngeqoqo, nedeskibhodi ye-loopback ukwenza ukuhamba kwezimali kucace, kuhloleke, futhi kube nokuzibophezela kokusebenza.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "I-SupremeMC Minecraft Mod",
-        "text": "I-Minecraft Mod enezela amathuluzi angokwezifiso, izikhali, izixuku, amabhlogo, ubukhulu, nezinye izici eziningi kugeyimu. Yakhelwe ngokuyinhloko nge-Java ne-Kotlin, ngokusekelwa okuhlanganisa izinguqulo ze-Minecraft 1.16 kuya ku-26.2.",
+        "text": "I-mod ye-Minecraft engeza amathuluzi akhethekile, izikhiya, izidalwa, amabhulokhi, ubukhulu, nezinye izici eziningi emdlalweni. Yakhiwe ikakhulukazi nge-Java ne-Kotlin, isekela izinguqulo ze-Minecraft 1.16 kuya ku-26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Umdlalo Wenyoka",
-        "text": "Injini yeNyoka ephucuziwe eyakhiwe nge-Rust ne-Macroquad, ehlanganiswe ku-WebAssembly, futhi yanikezwa nge-HTML5 Canvas. Ihlanganisa imikhaza yegeyimu eyimizuzwana engu-0.12 nokunyakaza okuxubene kahle, izigaba zegeyimu ezisobala, izilawuli ezisabelayo, ukungqubuzana nokubamba kwe-win-state, kanye nokuhlolwa okugxilile. suite ehlanganisa imithetho esemqoka yomdlalo.",
+        "title": "Umdlalo wenyoka",
+        "text": "Injini yeNyoka ephucuziwe yakhiwe nge-Rust ne-Macroquad, yahlanganiswa ne-WebAssembly, futhi yakhiqizwa nge-HTML5 Canvas. Ihlanganisa izinketho zomdlalo ze-0.12-second eziqinisekisiwe nokunyakaza okunambitheka okuhle, izigaba zomdlalo ezicacile, ukulawula okuphendulayo, ukuphatha ukushayisana nezimo zokunqoba, nedijithi yokuhlola egxilile ehlanganisa imithetho eyinhloko yomdlalo.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Iphrojekthi yomshini wokuthunga",
         "text": "Umndeni wezinto ezisetshenziswayo ezingaphezu kuka-30+ zoMshini weTuring. Isetshenziselwa ukukhombisa ukuphelela kwezilimi ezihlukahlukene zokuhlela ukuze kwenziwe ucwaningo, ikakhulukazi olimini lokuhlela lwe-Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Ilabhorethri yamakhemikhali yesihlabathi esimpuphu eyakhiwe nge-Rust futhi yahlanganiswa ne-WebAssembly. Penda isihlabathi, amanzi, i-lava, insimbi, i-calcium carbide, noma ucezu lwe-sodium ubone ukuthi i-physics nekhemistri zilwa kanjani: i-sodium iyagqabuluka emanzini, i-calcium carbide ikhipha i-acetylene, i-lava incibilikisa isihlabathi ibe ingilazi, futhi ukuminyana kuphela kuhlukanisa uwoyela, i-mercury, nesihlabathi. Injini isebenza ngezinto ezingama-32 nemithetho engama-40 yokusabela e-buffer yamaseli eyisicaba, ikhipha amaphikseli ngqo kumemori yomugqa we-wasm ngaphandle kwamakhophi ngeframe ngayinye.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Khetha Injini:",
     "tiger_code": "Ikhodi ye-Tiger:",
     "run_tiger": "Gijimani Tiger",
-    "output": "Okukhiphayo:"
+    "output": "Okukhiphayo:",
+    "stop": "Misa",
+    "program_input": "Okokufaka kohlelo"
   },
   "tab": {
     "title": "UPatrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Akukho ukwesekwa kolimi"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Buka ikhodi yomthombo ku-GitHub"
+  }
 }

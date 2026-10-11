@@ -4,21 +4,29 @@
     "home": "Ev",
     "about": "Hakkımda",
     "portfolio": "Portföy",
-    "projects": "Web Sitesi Projeleri",
-    "tiger": "Kaplan Dili",
-    "snake": "Yılan Oyunu",
+    "projects": "Öne çıkan projeler",
+    "tiger": "Tiger - Özel bir programlama dili",
+    "snake": "Yılan oyunu",
     "portfolio_translator": "Portföy Çevirmeni",
-    "formatter": "JSON ve YAML Biçimlendirici",
+    "formatter": "JSON ve YAML denetleyici",
     "contact": "Bana Ulaşın",
     "home_description": "sys.root // ana genel bakış",
-    "about_description": "mühendis profili // biyo ve yığın",
-    "portfolio_description": "yazılım kataloğu // öne çıkan çalışmalar",
+    "about_description": "mühendis profili // biyografi ve yığın",
+    "portfolio_description": "yazılım kataloğu // öne çıkan işler",
     "projects_description": "etkileşimli araçlar ve derleyiciler",
-    "tiger_description": "özel derleyici ve AST görselleştiricisi",
+    "tiger_description": "özel derleyici ve AST görselleştirici",
     "snake_description": "klasik atari oyunu / WASM",
-    "portfolio_translator_description": "100'den fazla dil matrisi ve i18n",
+    "portfolio_translator_description": "100+ dil matrisi ve i18n",
     "formatter_description": "sözdizimi doğrulayıcı ve dönüştürücü",
-    "contact_description": "iletimi aç // iletişime geç"
+    "contact_description": "açık iletim // iletişime geçin",
+    "arcade": "Atari",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Dört Sıra Dil Ağacı",
+    "alkalab_description": "kimya laboratuvarı simülasyonu / WASM",
+    "rustcraft_description": "Minecraft tarzı voxel oyunu / Rust ve wgpu",
+    "suprememc_description": "Minecraft modu vitrini / Java"
   },
   "home": {
     "title": "Kıdemli Tam Yığın Mühendisi | Ürün ve Sistemler",
@@ -35,17 +43,126 @@
     "contact_button": "Bana Ulaşın",
     "about_button": "Hakkımda",
     "featured": {
-      "kicker": "Öne Çıkan Projeler",
-      "title": "Seçilmiş Çalışma",
-      "description": "İddialı fikirleri gösterişli, çalışan yazılımlara nasıl dönüştürdüğümü en iyi temsil eden altı proje.",
-      "view_project": "Projeyi Görüntüle",
-      "open_project": "Canlı Projeyi Aç",
-      "view_all": "Portföyün tamamını keşfedin",
+      "kicker": "Öne çıkan projeler",
+      "title": "Seçili işler",
+      "description": "İddialı fikirleri cilalı, çalışan yazılıma nasıl dönüştürdüğümü en iyi temsil eden altı proje.",
+      "view_project": "Projeyi görüntüle",
+      "open_project": "Canlı projeyi aç",
+      "view_all": "Tüm portfolyoyu keşfet",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Tam Web Sitesi",
+        "full_website": "Tam web sitesi",
         "available_here": "Burada mevcut",
-        "minecraft_mod": "Minecraft Modu"
+        "minecraft_mod": "Minecraft modu"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "İşe farklı bir bakış açısı",
+      "invitation": "Mühendislik atlasını keşfedin",
+      "kicker": "Eksiksiz portfolyo / bağlantılı düşünme",
+      "title": "Mühendislik atlası",
+      "projects": "Projeler",
+      "technologies": "Teknolojiler",
+      "connections": "Bağlantılar",
+      "center": "Mühendislik atlası",
+      "filter_label": "Proje kategorileri",
+      "domains": {
+        "all": "Tüm işler",
+        "products": "Ürünler",
+        "systems": "Sistemler",
+        "experiences": "Deneyimler"
+      },
+      "search": "Bir proje veya teknoloji bul",
+      "view_label": "Atlas görünümü",
+      "map_view": "Harita görünümü",
+      "map_navigation": "Portfolyo harita gezinmesi",
+      "zoom_in": "Yakınlaştır",
+      "zoom_out": "Uzaklaştır",
+      "zoom_level": "Harita yakınlaştırma düzeyi",
+      "fit_all": "Tüm projeleri sığdır",
+      "center_selected": "Seçili projeyi ortala",
+      "all_technologies": "Tüm teknolojiler",
+      "list_view": "Liste görünümü",
+      "pause": "Sinyal animasyonunu duraklat",
+      "resume": "Sinyal animasyonunu sürdür",
+      "project_selector": "Projeleri keşfet",
+      "inspector": "Seçili proje ayrıntıları",
+      "shared_stack": "Paylaşılan teknoloji",
+      "family_connection": "Proje bağlantısı",
+      "portfolio_connection": "Portfolyo bağlantısı",
+      "families": {
+        "portfolio": "Portfolyo merkezi",
+        "business": "İş uygulamaları",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly projeleri",
+        "libraries": "Betik kitaplıkları",
+        "languages": "Dil deneyleri",
+        "automation": "Otomasyon ve veri araçları",
+        "experience": "Profesyonel ve eğitim deneyimi"
+      },
+      "browser_native": "Tarayıcı yerel / sunucusuz",
+      "no_results": "Eşleşen proje yok",
+      "no_selection": "Proje seçilmedi.",
+      "reset": "Filtreleri temizle",
+      "engineering_lens": "Mühendislik bakış açısı",
+      "connected_work": "Bağlantılı iş",
+      "open_live": "Canlı projeyi aç",
+      "open_project": "Projeyi keşfet",
+      "footer": "Farklı alanlar. Tek bağlantılı mühendislik pratiği.",
+      "contact": "Sıradaki şeyi birlikte inşa edelim",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Veri hatları",
+        "angular": "Angular",
+        "access": "Erişim kontrolü",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Test",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Birlikte çalışabilirlik",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Erişilebilirlik",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Tutarsız e-tablolar girer. İnşaat tahminleri ve müşteriye hazır teklifler çıkar. Müteahhidin gerçek iş akışının etrafına kurulmuş bir SaaS ürünü.",
+          "lens": "Esnek içe aktarmalar katı bir iç model gerektirir: daha fazla biçimi kabul etmek, bir teklifin bağlı olduğu hesaplama kurallarını zayıflatmamalıdır."
+        },
+        "inventory_register": {
+          "summary": "Kimliği doğrulanmış kullanıcıları, stok doğruluğunu ve simüle edilmiş bir ödeme akışını birbirine bağlayan Angular ve Node.js tabanlı bir satış noktası iş akışı.",
+          "lens": "Bir yazar kasa, bir ödeme ekranından fazlasıdır. Roller, stok değişiklikleri ve ödeme durumları, iş akışını sorumlu tutmak için açık sınırlara ihtiyaç duyar."
+        },
+        "grocery_app": {
+          "summary": "Denetleyici, hizmet ve depo sınırları, Entity Framework Core kalıcılığı ve kapsamlı bir test paketi içeren bir .NET 9 Blazor uygulaması.",
+          "lens": "İş kuralları, arayüzden ve kalıcılık katmanından bağımsız olarak test edilebildiğinde ayrım hak ettiği yeri kazanır."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL bordro işleme, SQLite çift girişli defter ve Svelte operasyon panosuyla buluşuyor.",
+          "lens": "Finansal doğruluk temsil ile başlar: tam sent aritmetiği ve dengeli defter kayıtları para hareketini açık hale getirir."
+        },
+        "interop": {
+          "summary": "15 programlama dili ve 18 yürütme desenini kapsayan, çalışma zamanı sınırlarında neler olduğunu araştıran diller arası bir referans.",
+          "lens": "Zor kısım çalışma zamanları arasındaki sözleşmedir: veri değişimi, süreç davranışı ve tekrarlanabilir yürütme, sözdiziminden daha önemlidir."
+        },
+        "formatter": {
+          "summary": "WebAssembly'ye derlenmiş gerçek bir Go ayrıştırma motoru. JSON ve YAML doğrulama ve biçimlendirme tarayıcıda yerel olarak çalışır.",
+          "lens": "Ayrıştırıcıyı tarayıcıya taşımak, daha büyük bir istemci yükünü yerel işleme, taşınabilirlik ve daha az sunucu bağımlılığı ile takas eder."
+        },
+        "portfolio_website": {
+          "summary": "İçinde olduğunuz site: 100+ dilli, erişilebilir etkileşimli ve çalışan WebAssembly araçlı bir React portfolyosu.",
+          "lens": "Statik bir dağıtım, statik bir deneyim anlamına gelmek zorunda değildir. Zengin etkileşimler, uygulama sunucusu olmadan istemcide yaşayabilir."
+        },
+        "biblioteca": {
+          "summary": "Tek bir yapılandırılmış içerik kaynağını 100+ dilde erişilebilir bir portfolyoya dönüştüren bir Python yerelleştirme hattı.",
+          "lens": "Küresel erişim, çeviri sorunu kadar bir veri bakım sorunudur. Tek bir gerçek kaynağı, içerik değişikliklerini yönetilebilir tutar."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Teknik Beceriler",
       "header1": "Programlama Dilleri",
       "header2": "Çerçeveler ve Kütüphaneler",
-      "header3": "Araçlar ve Teknolojiler"
+      "header3": "Araçlar ve Teknolojiler",
+      "technologies": "teknolojiler",
+      "search_label": "Filtrele",
+      "search_placeholder": "Becerileri filtrele…",
+      "clear_search": "Filtreyi temizle",
+      "no_matches": "Filtrenizle eşleşen beceri yok.",
+      "works": "İşler",
+      "experience": "Deneyim",
+      "professional": "Profesyonel",
+      "education": "Eğitim",
+      "paired_with": "Sıklıkla şunlarla eşleşir",
+      "summary_professional": "{items} içinde profesyonelce kullanıldı.",
+      "summary_education": "{items} içinde okundu ve uygulandı.",
+      "summary_projects": "{items} içinde uygulamalı olarak kullanıldı.",
+      "summary_projects_also": "Ayrıca {items} içinde uygulandı.",
+      "and_more": "daha fazla",
+      "scroll_more": "Daha fazla iş için kaydırın",
+      "show_less": "Daha az göster",
+      "no_samples": "Çalışma araç setimin bir parçası. Nasıl kullandığımı anlatmaktan memnuniyet duyarım."
     },
     "services": {
       "title": "Hizmetlerim",
@@ -112,6 +247,13 @@
           "text": "Lansmanın ardından gerçekleri göz önünde bulundurarak geliştiriyorum: kaynak kontrolünün dışında tutulan sırlar, açık veritabanı geçiş yolları, rol tabanlı yetkilendirme, sistem sınırlarında doğrulama, otomatik testler, CI/CD farkındalığı ve pratik gözlemlenebilirlik. Bunlar bir prototipi güvenilir bir yazılıma dönüştüren detaylardır."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lisanslar ve sertifikalar",
+      "credential": "Sertifika",
+      "issued_by": "Düzenleyen",
+      "issued": "Düzenlenme tarihi",
+      "verify": "Sertifikayı doğrula"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Dört'ü Bağla",
-        "text": "Connect Four oyununun 50'den fazla uygulamasından oluşan devasa aile. Bu proje Java, C++, Python, JavaScript ve daha fazlasını içeren 30'dan fazla farklı programlama dilindeki uygulamaları içerir. Ayrıca React.js, Ruby on Rails, ASP.NET ve daha fazlası dahil olmak üzere 20'den fazla farklı çerçeve veya başka format içerir.",
+        "text": "Dört Sıra oyununun 90'tan fazla uygulamasından oluşan devasa bir aile. Proje, Java, C++, Python ve JavaScript dahil 30'dan fazla programlama dilini ve React, Angular ve Blazor'dan Django, Spring Boot, Phoenix, PostgreSQL ve ötesine uzanan 50'den fazla farklı çerçeveyi, kitaplığı, çalışma zamanını ve veritabanını kapsar.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "BordroOBOL",
-        "text": "GnuCOBOL, SQLite çift girişli defter ve Svelte operasyon kontrol paneli ile oluşturulmuş yerel bir bordro işleme sistemi. Finansal iş akışlarını açık, test edilebilir ve operasyonel olarak hesap verebilir hale getirmek için tamsayılı matematik, toplu bordro işleme ve geridöngü kontrol panelini kullanır.",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite çift girişli defter ve Svelte operasyon panosuyla oluşturulmuş yerel bir bordro işleme sistemi. Tam sent matematiği, toplu bordro işleme ve bir geri döngü panosu kullanarak finansal iş akışlarını açık, test edilebilir ve operasyonel olarak sorumlu hale getirir.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Modu",
-        "text": "Oyuna özel araçlar, zırhlar, çeteler, bloklar, boyutlar ve daha birçok özellik ekleyen bir Minecraft Modu. Minecraft'ın 1.16'dan 26.2'ye kadar olan sürümlerini kapsayan destekle öncelikle Java ve Kotlin ile oluşturulmuştur.",
+        "text": "Oyuna özel araçlar, zırhlar, canavarlar, bloklar, boyutlar ve daha birçok özellik ekleyen bir Minecraft modu. Esas olarak Java ve Kotlin ile oluşturulmuş olup Minecraft 1.16 ile 26.2 sürümlerini destekler.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Yılan Oyunu",
-        "text": "Rust ve Macroquad ile oluşturulmuş, WebAssembly'de derlenmiş ve HTML5 Canvas aracılığıyla işlenen gösterişli bir Snake motoru. Belirleyici 0,12 saniyelik oyun tıklamalarını yumuşak enterpolasyonlu hareket, açık oyun aşamaları, duyarlı kontroller, çarpışma ve kazanma durumu yönetimi ve odaklanmış bir testle birleştirir. temel oyun kurallarını kapsayan süit.",
+        "title": "Yılan oyunu",
+        "text": "Rust ve Macroquad ile oluşturulmuş, WebAssembly'ye derlenmiş ve HTML5 Canvas aracılığıyla işlenen cilalı bir Yılan motoru. Belirlenimci 0,12 saniyelik oyun tıklarıyla yumuşak enterpolasyonlu hareketi, açık oyun aşamalarını, duyarlı kontrolleri, çarpışma ve kazanma durumu işlemeyi ve çekirdek oyun kurallarını kapsayan odaklı bir test paketini birleştirir.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turing Makinesi Projesi",
         "text": "Turing Makinesi'nin 30'dan fazla uygulamasından oluşan aile. Araştırma için farklı programlama dilleri, özellikle Tiger Programlama Dili için turingin bütünlüğünü göstermek için kullanılır.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Rust ile oluşturulmuş ve WebAssembly'ye derlenmiş bir toz kum kimya laboratuvarı. Kum, su, lav, çelik, kalsiyum karbür veya bir parça sodyum çizin ve fizik ile kimyanın savaşını izleyin: sodyum suda patlar, kalsiyum karbür asetilen kabarcıkları çıkarır, lav kumu cama dönüştürür ve yoğunluk tek başına yağı, cıvayı ve kumu ayırır. Motor, düz bir hücre tamponu üzerinde 32 malzeme ve 40 bildirime dayalı reaksiyon kuralı çalıştırır ve pikselleri kare başına kopya olmadan doğrudan wasm doğrusal belleğinden işler.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Motoru Seçin:",
     "tiger_code": "Kaplan Kodu:",
     "run_tiger": "Kaplanı Çalıştır",
-    "output": "Çıkış:"
+    "output": "Çıkış:",
+    "stop": "Durdur",
+    "program_input": "Program girişi"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Dil desteği yok"
     }
   },
-  "logotext": "PATRİK"
+  "logotext": "PATRİK",
+  "repo_button": {
+    "label": "GitHub'da kaynak kodu görüntüle"
+  }
 }

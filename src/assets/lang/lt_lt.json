@@ -4,21 +4,29 @@
     "home": "Pradžia",
     "about": "Apie mane",
     "portfolio": "Portfelis",
-    "projects": "Svetainių projektai",
-    "tiger": "Tigro kalba",
+    "projects": "Išskirti projektai",
+    "tiger": "Tiger - Pritaikyta programavimo kalba",
     "snake": "Gyvatės žaidimas",
     "portfolio_translator": "Portfelio vertėjas",
-    "formatter": "JSON ir YAML formatuoklis",
+    "formatter": "JSON ir YAML tikrintuvas",
     "contact": "Susisiekite su manimi",
     "home_description": "sys.root // pagrindinė apžvalga",
-    "about_description": "inžinieriaus profilis // bio & stack",
-    "portfolio_description": "programinės įrangos katalogas // siūlomi darbai",
+    "about_description": "inžinieriaus profilis // bio ir technologijos",
+    "portfolio_description": "programinės įrangos katalogas // išskirti darbai",
     "projects_description": "interaktyvūs įrankiai ir kompiliatoriai",
-    "tiger_description": "pasirinktinis kompiliatorius ir AST vizualizatorius",
+    "tiger_description": "pritaikytas kompiliatorius ir AST vizualizatorius",
     "snake_description": "klasikinis arkadinis žaidimas / WASM",
-    "portfolio_translator_description": "100 ir daugiau kalbų matrica ir i18n",
+    "portfolio_translator_description": "100+ kalbų matrica ir i18n",
     "formatter_description": "sintaksės tikrintuvas ir keitiklis",
-    "contact_description": "atidaryti transmisiją // susisiekite"
+    "contact_description": "atviras perdavimas // susisiekite",
+    "arcade": "Arkadiniai",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Keturių eilėje kalbų medis",
+    "alkalab_description": "chemijos laboratorijos simuliacija / WASM",
+    "rustcraft_description": "Minecraft stiliaus vokselių žaidimas / Rust ir wgpu",
+    "suprememc_description": "Minecraft modų vitrina / Java"
   },
   "home": {
     "title": "Vyresnysis pilno krūvio inžinierius | Produktai ir sistemos",
@@ -35,17 +43,126 @@
     "contact_button": "Susisiekite su manimi",
     "about_button": "Apie mane",
     "featured": {
-      "kicker": "Teminiai projektai",
-      "title": "Pasirinktas darbas",
-      "description": "Šeši projektai, geriausiai atspindintys, kaip ambicingas idėjas paverčiau nušlifuota, veikiančia programine įranga.",
-      "view_project": "Žiūrėti projektą",
-      "open_project": "Atidarykite tiesioginį projektą",
-      "view_all": "Ištirkite visą portfelį",
+      "kicker": "Išskirti projektai",
+      "title": "Pasirinkti darbai",
+      "description": "Šeši projektai, geriausiai atspindintys, kaip ambicingas idėjas paverčiu išgryninta ir veikiančia programine įranga.",
+      "view_project": "Peržiūrėti projektą",
+      "open_project": "Atidaryti tiesioginį projektą",
+      "view_all": "Tyrinėti visą portfelį",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Pilna svetainė",
-        "available_here": "Galima čia",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Visa svetainė",
+        "available_here": "Yra čia",
+        "minecraft_mod": "Minecraft modas"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Kitoks požiūris į darbą",
+      "invitation": "Tyrinėkite inžinerijos atlasą",
+      "kicker": "Pilnas portfelis / susietas mąstymas",
+      "title": "Inžinerijos atlasas",
+      "projects": "Projektai",
+      "technologies": "Technologijos",
+      "connections": "Ryšiai",
+      "center": "Inžinerijos atlasas",
+      "filter_label": "Projektų kategorijos",
+      "domains": {
+        "all": "Visi darbai",
+        "products": "Produktai",
+        "systems": "Sistemos",
+        "experiences": "Patirtys"
+      },
+      "search": "Rasti projektą arba technologiją",
+      "view_label": "Atlasso vaizdas",
+      "map_view": "Žemėlapio vaizdas",
+      "map_navigation": "Portfelio žemėlapio naršymas",
+      "zoom_in": "Padidinti",
+      "zoom_out": "Sumažinti",
+      "zoom_level": "Žemėlapio mastelio lygis",
+      "fit_all": "Talpinti visus projektus",
+      "center_selected": "Centruoti pasirinktą projektą",
+      "all_technologies": "Visos technologijos",
+      "list_view": "Sąrašo vaizdas",
+      "pause": "Pristabdyti signalo animaciją",
+      "resume": "Tęsti signalo animaciją",
+      "project_selector": "Tyrinėti projektus",
+      "inspector": "Pasirinkto projekto detalės",
+      "shared_stack": "Bendra technologija",
+      "family_connection": "Projekto ryšys",
+      "portfolio_connection": "Portfelio ryšys",
+      "families": {
+        "portfolio": "Portfelio centras",
+        "business": "Verslo programos",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly projektai",
+        "libraries": "Scenarijų bibliotekos",
+        "languages": "Kalbų eksperimentai",
+        "automation": "Automatizavimo ir duomenų įrankiai",
+        "experience": "Profesinė ir mokymosi patirtis"
+      },
+      "browser_native": "Vietinis naršyklėje / be serverio",
+      "no_results": "Nėra atitinkančių projektų",
+      "no_selection": "Nepasirinktas projektas.",
+      "reset": "Išvalyti filtrus",
+      "engineering_lens": "Inžinerijos perspektyva",
+      "connected_work": "Susietas darbas",
+      "open_live": "Atidaryti tiesioginį projektą",
+      "open_project": "Tyrinėti projektą",
+      "footer": "Skirtingos sritys. Viena susieta inžinerijos praktika.",
+      "contact": "Sukurkime tai, kas ateina vėliau",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Duomenų vamzdynai",
+        "angular": "Angular",
+        "access": "Prieigos kontrolė",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Testavimas",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Sąveikumas",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Prieinamumas",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Nenuoseklios skaičiuoklės į vidų. Statybos sąmatos ir klientui paruošti pasiūlymai į išorę. SaaS produktas, sukurtas aplink tikrąjį rangovo darbo srautą.",
+          "lens": "Lankstus importas reikalauja griežto vidinio modelio: priimant daugiau formatų negalima silpninti skaičiavimo taisyklių, nuo kurių priklauso pasiūlymas."
+        },
+        "inventory_register": {
+          "summary": "Prekybos vietos darbo srautas su Angular ir Node.js, jungiantis autentifikuotus vartotojus, atsargų tikslumą ir imituotą mokėjimo srautą.",
+          "lens": "Kasa yra daugiau nei atsiskaitymo ekranas. Vaidmenims, atsargų pokyčiams ir mokėjimo būsenoms reikia aiškių ribų, kad darbo srautas išliktų atskaitingas."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor programa su valdiklio, paslaugos ir saugyklos ribomis, Entity Framework Core persistavimu ir išsamiu testų rinkiniu.",
+          "lens": "Atskyrimas nusipelno savo vietos, kai verslo taisykles galima testuoti nepriklausomai nuo sąsajos ir persistavimo sluoksnio."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL darbo užmokesčio apdorojimas susitinka su SQLite dvigubo įrašo buhalterija ir Svelte operacijų skydeliu.",
+          "lens": "Finansinis tikslumas prasideda nuo atvaizdavimo: visa centų aritmetika ir subalansuoti įrašai paverčia pinigų judėjimą aiškiu."
+        },
+        "interop": {
+          "summary": "Tarpkalbinė nuoroda, apimanti 15 programavimo kalbų ir 18 vykdymo modelių, tyrinėjanti, kas vyksta vykdymo laiko ribose.",
+          "lens": "Sunki dalis yra sutartis tarp vykdymo aplinkų: duomenų apsikeitimas, procesų elgsena ir pakartojamas vykdymas svarbesni nei sintaksė."
+        },
+        "formatter": {
+          "summary": "Tikras Go analizės variklis, kompiliuotas į WebAssembly. JSON ir YAML tikrinimas ir formatavimas veikia lokaliai naršyklėje.",
+          "lens": "Analizatoriaus perkėlimas į naršyklę iškeičia didesnį kliento krūvį į vietinį apdorojimą, nešiojamumą ir mažiau priklausomybių nuo serverio."
+        },
+        "portfolio_website": {
+          "summary": "Svetainė, kurioje esate: React portfelis su 100+ kalbų, prieinamomis sąveikomis ir veikiančiais WebAssembly įrankiais.",
+          "lens": "Statinis diegimas nebūtinai reiškia statinę patirtį. Turtingos sąveikos gali gyventi kliento pusėje be programų serverio."
+        },
+        "biblioteca": {
+          "summary": "Python lokalizavimo vamzdynas, paverčiantis vieną struktūruotą turinio šaltinį portfeliu, prieinamu 100+ kalbų.",
+          "lens": "Pasaulinis pasiekiamumas yra tiek duomenų priežiūros, tiek vertimo problema. Vienas tiesos šaltinis išlaiko turinio pakeitimus valdomais."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Techniniai įgūdžiai",
       "header1": "Programavimo kalbos",
       "header2": "Karkasai ir bibliotekos",
-      "header3": "Įrankiai ir technologijos"
+      "header3": "Įrankiai ir technologijos",
+      "technologies": "technologijos",
+      "search_label": "Filtruoti",
+      "search_placeholder": "Filtruoti įgūdžius…",
+      "clear_search": "Išvalyti filtrą",
+      "no_matches": "Nė vienas įgūdis neatitinka jūsų filtro.",
+      "works": "Darbai",
+      "experience": "Patirtis",
+      "professional": "Profesionaliai",
+      "education": "Išsilavinimas",
+      "paired_with": "Dažnai derinama su",
+      "summary_professional": "Profesionaliai naudotas {items}.",
+      "summary_education": "Studijuotas ir taikytas {items}.",
+      "summary_projects": "Praktiškai taikytas {items}.",
+      "summary_projects_also": "Taip pat taikytas {items}.",
+      "and_more": "daugiau",
+      "scroll_more": "Slinkite, kad pamatytumėte daugiau darbų",
+      "show_less": "Rodyti mažiau",
+      "no_samples": "Mano darbo įrankių rinkinio dalis. Mielai paaiškinsiu, kaip jį naudojau."
     },
     "services": {
       "title": "Mano paslaugos",
@@ -112,6 +247,13 @@
           "text": "Kuriu atsižvelgdamas į tikrovę po paleidimo: šaltinio nekontroliuojamos paslaptys, aiškūs duomenų bazės perkėlimo keliai, vaidmenimis pagrįstas autorizavimas, patvirtinimas prie sistemos ribų, automatizuoti testai, CI/CD suvokimas ir praktinis stebėjimas. Tai yra detalės, kurios prototipą paverčia patikima programine įranga."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licencijos ir sertifikatai",
+      "credential": "Sertifikatas",
+      "issued_by": "Išdavė",
+      "issued": "Išdavimo data",
+      "verify": "Patikrinti sertifikatą"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Prijunkite keturis",
-        "text": "Didžiulė daugiau nei 50 „Connect Four“ žaidimo įgyvendinimų šeima. Šis projektas apima įdiegimus daugiau nei 30 skirtingų programavimo kalbų, įskaitant Java, C++, Python, JavaScript ir kt. Be to, jame taip pat yra daugiau nei 20 skirtingų sistemų ar kitų formatų, įskaitant React.js, Ruby on Rails, ASP.NET ir kt.",
+        "text": "Didžiulė šeima, apimanti daugiau nei 90 Keturių eilėje žaidimo įgyvendinimų. Projektas apima daugiau nei 30 programavimo kalbų, įskaitant Java, C++, Python ir JavaScript, bei daugiau nei 50 skirtingų sistemų, bibliotekų, vykdymo aplinkų ir duomenų bazių – nuo React, Angular ir Blazor iki Django, Spring Boot, Phoenix, PostgreSQL ir kitų.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Darbo užmokestisOBOL",
-        "text": "Vietinė darbo užmokesčio apskaitos sistema, sukurta naudojant GnuCOBOL, SQLite dvigubo įrašo knygą ir Svelte operacijų prietaisų skydelį. Jame naudojama sveikųjų centų matematika, paketinis darbo užmokesčio apskaičiavimas ir grįžtamojo ryšio prietaisų skydelis, kad finansinės darbo eigos būtų aiškios, patikrinamos ir operatyviai atskaitingos.",
+        "title": "PayrollOBOL",
+        "text": "Vietinė darbo užmokesčio apdorojimo sistema, sukurta su GnuCOBOL, SQLite dvigubo įrašo buhalterija ir Svelte operacijų skydeliu. Ji naudoja visą centų matematiką, paketinį darbo užmokesčio apdorojimą ir loopback skydelį, kad finansiniai darbo srautai būtų aiškūs, testuojami ir operatyviai atskaitingi.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "„Minecraft Mod“ prideda prie žaidimo pasirinktinius įrankius, šarvus, minias, blokus, matmenis ir daugybę kitų funkcijų. Sukurta daugiausia naudojant „Java“ ir „Kotlin“, o palaikymas apima „Minecraft“ versijas nuo 1.16 iki 26.2.",
+        "text": "Minecraft modas, pridedantis prie žaidimo pritaikytus įrankius, šarvus, mobus, blokus, dimensijas ir daugybę kitų funkcijų. Sukurtas daugiausia su Java ir Kotlin, palaikantis Minecraft versijas nuo 1.16 iki 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
         "title": "Gyvatės žaidimas",
-        "text": "Nušlifuotas gyvatės variklis, sukurtas naudojant Rust ir Macroquad, sukompiliuotas į WebAssembly ir pateiktas naudojant HTML5 Canvas. Jame deterministiniai 0,12 sekundės žaidimo žymekliai sujungiami su sklandžiu interpoliuotu judesiu, aiškiomis žaidimo fazėmis, reaguojančiais valdikliais, susidūrimo ir laimėjimo būsenos valdymu bei sutelktu testu rinkinys, apimantis pagrindines žaidimo taisykles.",
+        "text": "Išgrynintas Gyvatės variklis, sukurtas su Rust ir Macroquad, kompiliuotas į WebAssembly ir atvaizduojamas per HTML5 Canvas. Jis sujungia deterministinius 0,12 sekundės žaidimo taktus su sklandžiu interpoliuotu judėjimu, aiškiomis žaidimo fazėmis, reaguojančiu valdymu, susidūrimų ir pergalės būsenų apdorojimu bei fokusuotu testų rinkiniu, apimančiu pagrindines žaidimo taisykles.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Turingo mašinos projektas",
         "text": "Daugiau nei 30 Tiuringo mašinos diegimų šeima. Naudojamas įvairių programavimo kalbų, ypač Tigro programavimo kalbos, tobulumo demonstravimui.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Miltelių-smėlio chemijos laboratorija, sukurta Rust ir kompiliuota į WebAssembly. Pieškite smėlį, vandenį, lavą, plieną, kalcio karbidą ar natrio gabalėlį ir stebėkite, kaip fizika bei chemija kovoja: natris detonuoja vandenyje, kalcio karbidas išskiria acetileną, lava paverčia smėlį stiklu, o vien tankis atskiria alyvą, gyvsidabrį ir smėlį. Variklis apdoroja 32 medžiagas ir 40 deklaratyvių reakcijos taisyklių per plokščią ląstelių buferį, atvaizduodamas pikselius tiesiai iš wasm tiesinės atminties be kopijų kadrui.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Pasirinkite variklį:",
     "tiger_code": "Tigro kodas:",
     "run_tiger": "Paleisti Tigrą",
-    "output": "Išvestis:"
+    "output": "Išvestis:",
+    "stop": "Sustabdyti",
+    "program_input": "Programos įvestis"
   },
   "tab": {
     "title": "Patrikas Gudvinas",
@@ -367,5 +516,8 @@
       "no_language_support": "Nėra kalbos palaikymo"
     }
   },
-  "logotext": "PATRIKAS"
+  "logotext": "PATRIKAS",
+  "repo_button": {
+    "label": "Peržiūrėti šaltinio kodą GitHub"
+  }
 }

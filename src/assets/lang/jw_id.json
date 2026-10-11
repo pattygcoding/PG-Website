@@ -4,21 +4,29 @@
     "home": "Ngarep",
     "about": "Babagan Aku",
     "portfolio": "Portofolio",
-    "projects": "Proyek situs web",
-    "tiger": "Basa Macan",
-    "snake": "Game Ular",
+    "projects": "Proyek sing dipilih",
+    "tiger": "Tiger - Basa Program Khusus",
+    "snake": "Dolanan ula",
     "portfolio_translator": "Penerjemah Portofolio",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Pemriksa JSON & YAML",
     "contact": "Kontak Aku",
     "home_description": "sys.root // ringkesan utama",
-    "about_description": "profil insinyur // bio & tumpukan",
-    "portfolio_description": "katalog piranti lunak // karya unggulan",
-    "projects_description": "piranti interaktif & compiler",
-    "tiger_description": "kompiler khusus & visualisasi AST",
-    "snake_description": "game arcade klasik / WASM",
-    "portfolio_translator_description": "100+ matriks basa & i18n",
-    "formatter_description": "validator sintaks & konverter",
-    "contact_description": "mbukak transmisi // njaluk kontak"
+    "about_description": "profil insinyur // bio lan teknologi",
+    "portfolio_description": "katalog piranti lunak // karya sing dipilih",
+    "projects_description": "piranti interaktif lan kompiler",
+    "tiger_description": "kompiler khusus lan visualizer AST",
+    "snake_description": "dolanan arkade klasik / WASM",
+    "portfolio_translator_description": "matriks 100+ basa lan i18n",
+    "formatter_description": "validator lan konverter sintaksis",
+    "contact_description": "transmisi mbukak // hubungi kula",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Wit basa Papat ing baris",
+    "alkalab_description": "simulasi lab kimia / WASM",
+    "rustcraft_description": "dolanan voxel gaya Minecraft / Rust lan wgpu",
+    "suprememc_description": "pameran mod Minecraft / Java"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produk & Sistem",
@@ -35,17 +43,126 @@
     "contact_button": "Kontak Aku",
     "about_button": "Babagan Aku",
     "featured": {
-      "kicker": "Proyek Pilihan",
-      "title": "Karya sing Dipilih",
-      "description": "Enem proyèk sing paling apik makili carane aku ngowahi gagasan ambisius menyang polesan, piranti lunak makarya.",
-      "view_project": "Ndeleng Proyek",
-      "open_project": "Bukak Proyek Langsung",
+      "kicker": "Proyek sing dipilih",
+      "title": "Karya sing dipilih",
+      "description": "Enem proyek sing paling makili cara aku ngowahi ide ambisius dadi piranti lunak sing polesan lan bisa digunakake.",
+      "view_project": "Deleng proyek",
+      "open_project": "Bukak proyek langsung",
       "view_all": "Jelajahi portofolio lengkap",
       "badges": {
         "saas": "SaaS",
         "full_website": "Situs web lengkap",
         "available_here": "Kasedhiya ing kene",
-        "minecraft_mod": "Minecraft Mod"
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Perspektif beda babagan karya",
+      "invitation": "Jelajahi atlas teknik",
+      "kicker": "Portofolio lengkap / pikiran nyambung",
+      "title": "Atlas Teknik",
+      "projects": "Proyek",
+      "technologies": "Teknologi",
+      "connections": "Sambungan",
+      "center": "Atlas teknik",
+      "filter_label": "Kategori proyek",
+      "domains": {
+        "all": "Kabeh karya",
+        "products": "Produk",
+        "systems": "Sistem",
+        "experiences": "Pengalaman"
+      },
+      "search": "Golek proyek utawa teknologi",
+      "view_label": "Tampilan atlas",
+      "map_view": "Tampilan peta",
+      "map_navigation": "Navigasi peta portofolio",
+      "zoom_in": "Gedhekna",
+      "zoom_out": "Cilikna",
+      "zoom_level": "Tingkat zoom peta",
+      "fit_all": "Pas kabeh proyek",
+      "center_selected": "Tengahi proyek sing dipilih",
+      "all_technologies": "Kabeh teknologi",
+      "list_view": "Tampilan dhaptar",
+      "pause": "Ngaso animasi sinyal",
+      "resume": "Lanjutake animasi sinyal",
+      "project_selector": "Jelajahi proyek",
+      "inspector": "Rincian proyek sing dipilih",
+      "shared_stack": "Teknologi bareng",
+      "family_connection": "Sambungan proyek",
+      "portfolio_connection": "Sambungan portofolio",
+      "families": {
+        "portfolio": "Pusat portofolio",
+        "business": "Aplikasi bisnis",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Proyek WebAssembly",
+        "libraries": "Perpustakaan skrip",
+        "languages": "Eksperimen basa",
+        "automation": "Piranti otomatisasi & data",
+        "experience": "Pengalaman profesional & pendidikan"
+      },
+      "browser_native": "Pribumi browser / tanpa server",
+      "no_results": "Ora ana proyek sing cocog",
+      "no_selection": "Ora ana proyek sing dipilih.",
+      "reset": "Beresih filter",
+      "engineering_lens": "Perspektif teknik",
+      "connected_work": "Karya nyambung",
+      "open_live": "Bukak proyek langsung",
+      "open_project": "Jelajahi proyek",
+      "footer": "Domain beda. Siji praktik teknik sing nyambung.",
+      "contact": "Ayo mbangun sing bakal teka",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Pipa data",
+        "angular": "Angular",
+        "access": "Kontrol akses",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Tes",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilitas",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Aksesibilitas",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Spreadsheet sing ora konsisten mlebu. Estimasi konstruksi lan proposal siap klien metu. Produk SaaS sing dibangun ngubengi alur kerja nyata kontraktor.",
+          "lens": "Impor fleksibel mbutuhake model internal sing ketat: nampa luwih akeh format ora kena ngrusak aturan pitungan sing gumantung tawaran."
+        },
+        "inventory_register": {
+          "summary": "Alur kerja titik dodolan nganggo Angular lan Node.js sing nyambungake pangguna sing diverifikasi, akurasi inventaris, lan alur pembayaran simulasi.",
+          "lens": "Kasir luwih saka layar checkout. Peran, owah-owahan stok, lan status pembayaran butuh wates sing jelas kanggo njaga alur kerja tanggung jawab."
+        },
+        "grocery_app": {
+          "summary": "Aplikasi .NET 9 Blazor kanthi wates kontroler, layanan, lan repositori, persistensi Entity Framework Core, lan suite tes lengkap.",
+          "lens": "Pemisahan entuk panggonane nalika aturan bisnis bisa diuji kanthi mandiri saka antarmuka lan lapisan persistensi."
+        },
+        "payrollobol": {
+          "summary": "Pemrosesan gaji GnuCOBOL ketemu karo buku gedhe entri dobel SQLite lan dashboard operasi Svelte.",
+          "lens": "Ketepatan finansial diwiwiti kanthi representasi: aritmetika sen lengkap lan entri seimbang nggawe gerakan dhuwit eksplisit."
+        },
+        "interop": {
+          "summary": "Referensi lintas basa sing nyakup 15 basa program lan 18 pola eksekusi, njelajahi apa sing kedadeyan ing wates runtime.",
+          "lens": "Bagian sing angel yaiku kontrak antarane runtime: ijol-ijolan data, prilaku proses, lan eksekusi sing bisa diulang luwih penting tinimbang sintaksis."
+        },
+        "formatter": {
+          "summary": "Mesin parsing Go asli sing dikompilasi menyang WebAssembly. Validasi lan format JSON lan YAML mlaku lokal ing browser.",
+          "lens": "Mindhah parser menyang browser ngganti muatan klien sing luwih gedhe kanggo proses lokal, portabilitas, lan kurang gumantung server."
+        },
+        "portfolio_website": {
+          "summary": "Situs sing sampeyan ana: portofolio React kanthi 100+ basa, interaksi sing bisa diakses, lan piranti WebAssembly sing bisa digunakake.",
+          "lens": "Deployment statis ora ateges pengalaman statis. Interaksi sing sugih bisa urip ing klien tanpa server aplikasi."
+        },
+        "biblioteca": {
+          "summary": "Pipa lokalisasi Python sing ngowahi siji sumber konten terstruktur dadi portofolio sing kasedhiya ing 100+ basa.",
+          "lens": "Jangkauan global minangka masalah pangopènan data uga masalah terjemahan. Siji sumber bebener njaga owah-owahan konten bisa diatur."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Skills Teknis",
       "header1": "Basa Pemrograman",
       "header2": "Kerangka & Pustaka",
-      "header3": "Piranti & Teknologi"
+      "header3": "Piranti & Teknologi",
+      "technologies": "teknologi",
+      "search_label": "Saring",
+      "search_placeholder": "Saring katrampilan…",
+      "clear_search": "Beresih filter",
+      "no_matches": "Ora ana katrampilan sing cocog karo filter sampeyan.",
+      "works": "Karya",
+      "experience": "Pengalaman",
+      "professional": "Profesional",
+      "education": "Pendidikan",
+      "paired_with": "Asring digandhengake karo",
+      "summary_professional": "Digunakake kanthi profesional ing {items}.",
+      "summary_education": "Disinaoni lan ditrapake ing {items}.",
+      "summary_projects": "Diterapake kanthi praktis ing {items}.",
+      "summary_projects_also": "Uga ditrapake ing {items}.",
+      "and_more": "liyane",
+      "scroll_more": "Gulung kanggo karya liyane",
+      "show_less": "Tampilake kurang",
+      "no_samples": "Bagéyan saka piranti kerjaku. Aku seneng njlentrehake kepiye aku nggunakake."
     },
     "services": {
       "title": "Layanan Kula",
@@ -112,6 +247,13 @@
           "text": "Aku mbangun karo kasunyatan sawise diluncurake ing tampilan: rahasia sing ora bisa dikontrol sumber, jalur migrasi database eksplisit, wewenang adhedhasar peran, validasi ing wates sistem, tes otomatis, kesadaran CI / CD, lan observasi praktis. Iki minangka rincian sing ngowahi prototipe dadi piranti lunak sing bisa dipercaya."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lisensi & sertifikasi",
+      "credential": "Sertifikasi",
+      "issued_by": "Ditanggepi dening",
+      "issued": "Tanggal terbit",
+      "verify": "Verifikasi sertifikasi"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Nyambung Four",
-        "text": "kulawarga Massive liwat 50+ implementasine saka Connect Four game. Proyek iki kalebu implementasi ing luwih saka 30 basa pamrograman, kalebu Java, C++, Python, JavaScript, lan liya-liyane. Kajaba iku, uga kalebu luwih saka 20+ kerangka kerja utawa format liyane, kalebu React.js, Ruby on Rails, ASP.NET, lan liya-liyane.",
+        "text": "Kulawarga gedhe kanthi 90+ implementasi game Papat ing baris. Proyek iki nyakup 30+ basa program, kalebu Java, C++, Python, lan JavaScript, bebarengan karo 50+ kerangka, perpustakaan, runtime, lan basis data sing beda-beda, saka React, Angular, lan Blazor nganti Django, Spring Boot, Phoenix, PostgreSQL, lan liya-liyane.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Sistem pangolahan gaji lokal sing dibangun nganggo GnuCOBOL, buku besar entri kaping pindho SQLite, lan dasbor operasi Svelte. Iki nggunakake math integer-sen, pangolahan gaji batch, lan dashboard loopback kanggo nggawe alur kerja finansial kanthi jelas, bisa diuji, lan tanggung jawab operasional.",
+        "text": "Sistem pemrosesan gaji lokal sing dibangun nganggo GnuCOBOL, buku gedhe entri dobel SQLite, lan dashboard operasi Svelte. Nggunakake aritmetika sen lengkap, pemrosesan gaji batch, lan dashboard loopback kanggo nggawe aliran finansial eksplisit, bisa diuji, lan tanggung jawab operasional.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "Mod SupremeMC Minecraft",
-        "text": "Mod Minecraft sing nambah alat khusus, waja, mob, blok, dimensi, lan akeh fitur liyane ing game kasebut. Dibangun utamane karo Java lan Kotlin, kanthi dhukungan saka Minecraft versi 1.16 nganti 26.2.",
+        "text": "Mod Minecraft sing nambahake piranti khusus, waja, mobs, blok, dimensi, lan akeh fitur liyane ing game. Dibangun utamane nganggo Java lan Kotlin, ndhukung versi Minecraft 1.16 nganti 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Game Ular",
-        "text": "Mesin Snake sing polesan dibangun nganggo Rust lan Macroquad, dikompilasi menyang WebAssembly, lan digawe liwat HTML5 Canvas. Iki nggabungake ticks game 0.12 detik sing deterministik kanthi gerakan interpolasi sing lancar, fase game eksplisit, kontrol responsif, tabrakan lan penanganan win-state, lan tes fokus. Suite panutup aturan game inti.",
+        "title": "Dolanan ula",
+        "text": "Mesin Ula sing polesan dibangun nganggo Rust lan Macroquad, dikompilasi menyang WebAssembly, lan dirender liwat HTML5 Canvas. Iki gabungke tick game deterministik 0.12 detik karo gerakan interpolasi sing lancar, fase game sing jelas, kontrol responsif, penanganan tabrakan lan status menang, lan suite tes fokus sing nyakup aturan inti game.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Proyek Mesin Turing",
         "text": "Kulawarga luwih saka 30+ implementasi saka Mesin Turing. Digunakake kanggo nduduhake kelengkapan turing kanggo macem-macem basa pamrograman kanggo riset, utamane kanggo Basa Pemrograman Macan.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Lab kimia bubuk-pasir sing dibangun ing Rust lan dikompilasi menyang WebAssembly. Cat pasir, banyu, lahar, baja, kalsium karbida, utawa potongan sodium lan deleng kepiye fisika lan kimia perang: sodium njeblug ing banyu, kalsium karbida ngeculake asetilena, lahar nyawiji pasir dadi kaca, lan kapadhetan mung misahake lenga, merkuri, lan pasir. Mesin kasebut nglakokake 32 materi lan 40 aturan reaksi deklaratif ing buffer sel datar, nggawe piksel langsung saka memori linear wasm tanpa salinan saben pigura.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Pilih Engine:",
     "tiger_code": "Kode Tiger:",
     "run_tiger": "Mlaku Macan",
-    "output": "Output:"
+    "output": "Output:",
+    "stop": "Mungkasi",
+    "program_input": "Input program"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Ora ana dhukungan basa"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Deleng kode sumber ing GitHub"
+  }
 }

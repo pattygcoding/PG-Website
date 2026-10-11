@@ -4,21 +4,29 @@
     "home": "Tuis",
     "about": "Oor My",
     "portfolio": "Portefeulje",
-    "projects": "Webwerf projekte",
-    "tiger": "Tiger Taal",
-    "snake": "Slang spel",
+    "projects": "Uitgesoekte Projekte",
+    "tiger": "Tiger - 'n Pasgemaakte Programmeertaal",
+    "snake": "Slangspeletjie",
     "portfolio_translator": "Portefeuljevertaler",
-    "formatter": "JSON- en YAML-formateerder",
+    "formatter": "JSON & YAML-nakie",
     "contact": "Kontak My",
     "home_description": "sys.root // hoofoorsig",
-    "about_description": "ingenieur profiel // bio & stapel",
-    "portfolio_description": "sagteware katalogus // featured werke",
-    "projects_description": "interaktiewe gereedskap en samestellers",
-    "tiger_description": "pasgemaakte samesteller en AST-visualiseerder",
-    "snake_description": "klassieke arcade game / WASM",
+    "about_description": "ingenieursprofiel // bio & tegnologie-stapel",
+    "portfolio_description": "sagteware-katalogus // uitgesoekte werke",
+    "projects_description": "interaktiewe gereedskap & kompileerders",
+    "tiger_description": "pasgemaakte kompileerder & AST-visualiseerder",
+    "snake_description": "klassieke arcade-speletjie / WASM",
     "portfolio_translator_description": "100+ taalmatriks & i18n",
-    "formatter_description": "sintaksis valideerder en omskakelaar",
-    "contact_description": "oop transmissie // kontak"
+    "formatter_description": "sintaks-validator & -omsetter",
+    "contact_description": "oop transmissie // kom in kontak",
+    "arcade": "Arcade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Connect Four-taalbome",
+    "alkalab_description": "chemielaboratorium-simulasie / WASM",
+    "rustcraft_description": "Minecraft-styl voxel-speletjie / Rust & wgpu",
+    "suprememc_description": "Minecraft-mod-vertoning / Java"
   },
   "home": {
     "title": "Senior Full-Stack Ingenieur | Produk & Stelsels",
@@ -35,126 +43,126 @@
     "contact_button": "Kontak My",
     "about_button": "Oor My",
     "atlas": {
-      "invitation_kicker": "Ander Perspektief op Werk",
+      "invitation_kicker": "'n Ander perspektief op die werk",
       "invitation": "Verken die ingenieursatlas",
-      "kicker": "Volledige portefeulje / verbind denke",
-      "title": "Ingenieurswese Atlas",
-      "projects": "kos",
-      "technologies": " van nuwe tegnologieÃ«; en",
-      "connections": "gewenste",
+      "kicker": "Volledige portefeulje / verbinde denke",
+      "title": "Ingenieursatlas",
+      "projects": "Projekte",
+      "technologies": "Tegnologieë",
+      "connections": "Verbindings",
       "center": "Ingenieursatlas",
-      "filter_label": "Projek kategorieë",
+      "filter_label": "Projekkategorieë",
       "domains": {
         "all": "Alle werk",
         "products": "Produkte",
         "systems": "Stelsels",
-        "experiences": "ervarings"
+        "experiences": "Ervarings"
       },
-      "search": "Vind 'n projek of tegnologie",
+      "search": "Soek 'n projek of tegnologie",
       "view_label": "Atlas-aansig",
-      "map_view": "kaartaansig",
-      "map_navigation": "Portefeulje kaart navigasie",
-      "zoom_in": "QPrintPreviewDialog",
-      "zoom_out": "zoem uit",
-      "zoom_level": "Kaart Zoem Vlak",
-      "fit_all": "Pas alle projekte",
-      "center_selected": "Sentrum gekose projek",
+      "map_view": "Kaartaansig",
+      "map_navigation": "Portefeulje-kaartnavigasie",
+      "zoom_in": "Inzoem",
+      "zoom_out": "Uitzoem",
+      "zoom_level": "Kaart-zoomvlak",
+      "fit_all": "Pas alle projekte in",
+      "center_selected": "Sentreer gekose projek",
       "all_technologies": "Alle tegnologieë",
-      "list_view": "Lys Vertoning",
-      "pause": "Pouseer sein animasie",
-      "resume": "Hervat sein animasie",
+      "list_view": "Lysaansig",
+      "pause": "Pouseer seinanimasie",
+      "resume": "Hervat seinanimasie",
       "project_selector": "Verken projekte",
-      "inspector": "Geselekteerde projekbesonderhede",
+      "inspector": "Besonderhede van gekose projek",
       "shared_stack": "Gedeelde tegnologie",
-      "family_connection": "Projek familie",
+      "family_connection": "Projekverbinding",
       "portfolio_connection": "Portefeuljeverbinding",
       "families": {
-        "portfolio": "Portefeulje middelpunt",
+        "portfolio": "Portefeulje-sentrum",
         "business": "Besigheidstoepassings",
         "minecraft": "SupremeMC & Minecraft",
-        "wasm": "Webtuiste Projekte",
+        "wasm": "WebAssembly-projekte",
         "libraries": "Skripbiblioteke",
-        "languages": "Taaleksperimente",
-        "automation": "Outomatisering en data gereedskap",
-        "experience": "Professionele & opvoedkundige ervaring"
+        "languages": "Taal-eksperimente",
+        "automation": "Outomatisering & Datagereedskap",
+        "experience": "Professionele & Opvoedkundige Ervaring"
       },
-      "browser_native": "Blaaier- inheems/ geen bediener",
+      "browser_native": "Blaaier-inheems / geen bediener",
       "no_results": "Geen ooreenstemmende projekte nie",
-      "no_selection": "Nee projek gekies.",
+      "no_selection": "Geen projek gekies nie.",
       "reset": "Maak filters skoon",
-      "engineering_lens": "Ingenieursperspektief",
-      "connected_work": "Gekoppelde werk",
-      "open_live": "Open LIVE-projek",
-      "open_project": "ONTDEK PROJE",
-      "footer": "Verskillende domeine. Een gekoppelde ingenieurswese praktyk.",
+      "engineering_lens": "Ingenieurs-perspektief",
+      "connected_work": "Verbinde werk",
+      "open_live": "Maak lewendige projek oop",
+      "open_project": "Verken projek",
+      "footer": "Verskillende domeine. Een verbinde ingenieurs-praktyk.",
       "contact": "Kom ons bou wat volgende kom",
       "skills": {
-        "yaml": "Language",
+        "yaml": "YAML",
         "julia": "Julia",
-        "objectivec": "Objektiewe- CLanguage",
-        "react": "Reageer",
+        "objectivec": "Objective-C",
+        "react": "React",
         "node": "Node.js",
-        "pipelines": "Data pypleidings",
-        "angular": "Driehoek",
+        "pipelines": "Datapypleidings",
+        "angular": "Angular",
         "access": "Toegangsbeheer",
-        "dotnet": "Net",
-        "sql": "SQLLanguage",
-        "testing": "Toets",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Toetsing",
         "cobol": "COBOL",
         "svelte": "Svelte",
         "interop": "Interoperabiliteit",
-        "go": "Rebbelende  definiesie",
+        "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Toeganklikheid",
         "python": "Python"
       },
       "stories": {
         "takeoff_engine": {
-          "summary": "Inkonsekwente sigblaaie in. Konstruksie ramings en kliënt-gereed voorstelle uit. 'N SaaS-produk gebou rondom die werklike werkvloei van die kontrakteur.",
-          "lens": "Buigsame invoer benodig 'n streng interne model: die aanvaarding van meer formate moet nie die berekeningsreëls waarop 'n bod afhanklik is, verswak nie."
+          "summary": "Inkonsekwente sigblaaie in. Konstruksiebegrotings en kliëntgereed voorstelle uit. 'n SaaS-produk wat rondom die kontrakteur se werklike werksvloei gebou is.",
+          "lens": "Buigsame invoere benodig 'n streng interne model: om meer formate te aanvaar mag nie die berekeningsreëls verswak waarop 'n bod staatmaak nie."
         },
         "inventory_register": {
-          "summary": "'N hoekige en Node.js punt-van-verkope workflow verbind geverifieerde gebruikers, voorraad akkuraatheid, en 'n spot betaling vloei.",
-          "lens": "'N Registreer is meer as 'n kassie skerm. Rolle, voorraadveranderings en betalingsstate benodig eksplisiete grense om die werkvloei aanspreeklik te hou."
+          "summary": "'n Angular- en Node.js-verkooppunt-werksvloei wat geverifieerde gebruikers, voorraadakkuraatheid en 'n skynbetalingsvloei verbind.",
+          "lens": "'n Register is meer as 'n betaalpunt-skerm. Rolle, voorraadveranderings en betalingstoestande benodig eksplisiete grense om die werksvloei aanspreeklik te hou."
         },
         "grocery_app": {
-          "summary": "'N .NET 9 Blazor aansoek met kontroleerder, diens, en bewaarplek grense, Entiteit Raamwerk Kern volharding, en 'n omvattende toets suite.",
-          "lens": "Skeiding verdien sy plek wanneer besigheidsreëls onafhanklik van die koppelvlak en volhardingslaag getoets kan word."
+          "summary": "'n .NET 9 Blazor-toepassing met kontroleerder-, diens- en bewaarplek-grense, Entity Framework Core-persistensie en 'n omvattende toetsstel.",
+          "lens": "Skeiding verdien sy plek wanneer besigheidsreëls onafhanklik van die koppelvlak en persistensielaag getoets kan word."
         },
         "payrollobol": {
-          "summary": "GnuCOBOL betaalstaat verwerking voldoen aan 'n SQLite dubbel-inskrywing grootboek en 'n Svelte bedrywighede paneelbord.",
-          "lens": "Finansiële korrektheid begin met verteenwoordiging: heelgetal-sent rekenkundige en gebalanseerde grootboekinskrywings maak geldbeweging eksplisiet."
+          "summary": "GnuCOBOL-salarisverwerking ontmoet 'n SQLite-dubbeleinskrywing-grootboek en 'n Svelte-bedryfs-paneelbord.",
+          "lens": "Finansiële korrektheid begin met voorstelling: heelgetal-sent-rekenkunde en gebalanseerde grootboekinskrywings maak geldbeweging eksplisiet."
         },
         "interop": {
-          "summary": "'N kruis-taal verwysing wat strek van 15 programmeertale en 18 uitvoering patrone, die verkenning van wat gebeur by looptyd grense.",
-          "lens": "Die moeilike deel is die kontrak tussen runtimes: data-uitruil, prosesgedrag en herhaalbare uitvoering saak meer as sintaksis."
+          "summary": "'n Kruis-taalgids wat 15 programmeertale en 18 uitvoeringspatrone dek en ondersoek wat by looptyd-grense gebeur.",
+          "lens": "Die moeilike deel is die kontrak tussen runtimes: data-uitruil, prosedure-gedrag en herhalende uitvoering maak meer saak as sintaks."
         },
         "formatter": {
-          "summary": "'N ware Go ontleding enjin saamgestel om WebAssembly. JSON en YAML validering en formatering loop plaaslik in die leser.",
-          "lens": "Om die ontleder na die blaaier te skuif, verhandel 'n groter kliëntlading vir plaaslike verwerking, draagbaarheid en minder bedienerafhanklikhede."
+          "summary": "'n Regte Go-ontledingsenjin wat na WebAssembly gekompileer is. JSON- en YAML-validasie en -formatering loop plaaslik in die blaaier.",
+          "lens": "Om die ontleder na die blaaier te skuif verruil 'n groter kliëntvrag vir plaaslike verwerking, draagbaarheid en minder bediener-afhanklikhede."
         },
         "portfolio_website": {
-          "summary": "Die webwerf waarin u is: 'n React-portefeulje met 100+ tale, toeganklike interaksies en werkende WebAssembly-instrumente.",
-          "lens": "'N Statiese ontplooiing hoef nie 'n statiese ervaring te beteken nie. Ryk interaksies kan op die kliënt leef sonder 'n toepassingsbediener."
+          "summary": "Die webwerf waarin jy is: 'n React-portefeulje met 100+ tale, toeganklike interaksies en werkende WebAssembly-gereedskap.",
+          "lens": "'n Statiese ontplooiing hoef nie 'n statiese ervaring te beteken nie. Ryk interaksies kan op die kliënt leef sonder 'n toepassingsbediener."
         },
         "biblioteca": {
-          "summary": "'N Python-lokaliseringspyplyn wat 'n enkele gestruktureerde inhoudsbron omskep in 'n portefeulje wat in 100+ tale beskikbaar is.",
-          "lens": "Globale bereik is 'n data-onderhoud probleem soveel as 'n vertaling probleem. Een bron van waarheid hou inhoudsveranderinge hanteerbaar."
+          "summary": "'n Python-lokalisering-lyn wat 'n enkele gestruktureerde inhoudsbron omskep in 'n portefeulje wat in 100+ tale beskikbaar is.",
+          "lens": "Wêreldwyd bereik is net so 'n data-onderhoudsprobleem as 'n vertalingsprobleem. Een bron van waarheid hou inhoudveranderings hanteerbaar."
         }
       }
     },
     "featured": {
-      "kicker": "Uitstalprojekte",
-      "title": "Geselekteerde werk",
-      "description": "Ses projekte wat die beste verteenwoordig hoe ek ambisieuse idees omskep in gepoleerde, werkende sagteware.",
-      "view_project": "Bekyk projek",
-      "open_project": "Maak regstreekse projek oop",
-      "view_all": "Verken die volledige portefeulje",
+      "kicker": "Uitgesoekte Projekte",
+      "title": "Geselekteerde Werk",
+      "description": "Ses projekte wat die beste voorstel hoe ek ambisieuse idees in gepoleerde, werkende sagteware omskep.",
+      "view_project": "Bekyk Projek",
+      "open_project": "Maak Lewendige Projek Oop",
+      "view_all": "Verken die volle portefeulje",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Volledige webwerf",
-        "available_here": "Hier beskikbaar",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Volle Webwerf",
+        "available_here": "Beskikbaar Hier",
+        "minecraft_mod": "Minecraft-mod"
       }
     }
   },
@@ -203,7 +211,25 @@
       "title": "Tegniese Vaardighede",
       "header1": "Programmeringstale",
       "header2": "Raamwerke en biblioteke",
-      "header3": "Gereedskap en tegnologieë"
+      "header3": "Gereedskap en tegnologieë",
+      "technologies": "tegnologieë",
+      "search_label": "Filtreer",
+      "search_placeholder": "Filtreer vaardighede…",
+      "clear_search": "Maak filter skoon",
+      "no_matches": "Geen vaardighede pas jou filter nie.",
+      "works": "Werke",
+      "experience": "Ervaring",
+      "professional": "Professioneel",
+      "education": "Onderwys",
+      "paired_with": "Dikwels gepaar met",
+      "summary_professional": "Professioneel gebruik by {items}.",
+      "summary_education": "Bestudeer en toegepas by {items}.",
+      "summary_projects": "Prakties toegepas in {items}.",
+      "summary_projects_also": "Ook toegepas in {items}.",
+      "and_more": "meer",
+      "scroll_more": "Rollees vir meer werke",
+      "show_less": "Wys minder",
+      "no_samples": "Deel van my werkgereedskapsstel. Ek is bly om deur te gaan hoe ek dit gebruik het."
     },
     "services": {
       "title": "My Dienste",
@@ -221,6 +247,13 @@
           "text": "Ek bou met die realiteite na bekendstelling in die oog: geheime wat buite bronbeheer gehou word, eksplisiete databasismigrasiepaaie, rolgebaseerde magtiging, validering by stelselgrense, outomatiese toetse, CI/CD-bewustheid en praktiese waarneembaarheid. Dit is die besonderhede wat 'n prototipe in betroubare sagteware verander."
         }
       ]
+    },
+    "certifications": {
+      "title": "Lisensies & Sertifiserings",
+      "credential": "Sertifisering",
+      "issued_by": "Uitgereik deur",
+      "issued": "Uitgereik",
+      "verify": "Verifieer geloofsbrief"
     }
   },
   "portfolio": {
@@ -234,7 +267,7 @@
       },
       "connect_four": {
         "title": "Koppel vier",
-        "text": "Massiewe familie van meer as 50+ implementerings van die Connect Four-speletjie. Hierdie projek bevat implementerings in meer as 30 verskillende programmeertale, insluitend Java, C++, Python, JavaScript, en meer. Daarbenewens bevat dit ook meer as 20+ verskillende raamwerke of ander formate, insluitend React.js, Ruby on Rails, ASP.NET, en meer.",
+        "text": "'n Massiewe familie van 90+ implementasies van die Connect Four-speletjie. Die projek strek oor 30+ programmeertale, insluitend Java, C++, Python en JavaScript, tesame met 50+ verskillende raamwerke, biblioteke, runtimes en databasisse, van React, Angular en Blazor tot Django, Spring Boot, Phoenix, PostgreSQL en verder.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -254,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "'n Plaaslike betaalstaatverwerkingstelsel gebou met GnuCOBOL, 'n SQLite dubbelinskrywing grootboek, en 'n Svelte-bedrywighede-kontroleskerm. Dit gebruik heelgetalsent-wiskunde, bondelbetaalstaatverwerking en 'n teruglus-kontroleskerm om finansiële werkvloeie eksplisiet, toetsbaar en operasioneel verantwoordbaar te maak.",
+        "text": "'n Plaaslike salarisverwerkingsstelsel gebou met GnuCOBOL, 'n SQLite-dubbeleinskrywing-grootboek en 'n Svelte-bedryfs-paneelbord. Dit gebruik heelgetal-sent-wiskunde, bondel salarisverwerking en 'n terugkoppelings-paneelbord om finansiële werksvloei eksplisiet, toetsbaar en operasioneel aanspreeklik te maak.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -329,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "'n Minecraft-mod wat pasgemaakte gereedskap, wapenrusting, skare, blokke, afmetings en vele meer kenmerke by die speletjie voeg. Gebou hoofsaaklik met Java en Kotlin, met ondersteuning wat strek oor Minecraft-weergawes 1.16 tot 26.2.",
+        "text": "'n Minecraft-mod wat pasgemaakte gereedskap, wapenrusting, monsters, blokke, dimensies en baie meer funksies by die spel voeg. Hoofsaaklik gebou met Java en Kotlin, met ondersteuning vir Minecraft-weergawes 1.16 tot 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Slang spel",
-        "text": "'n Gepoleerde Snake-enjin gebou met Rust en Macroquad, saamgestel na WebAssembly, en weergegee deur HTML5 Canvas. Dit kombineer deterministiese 0.12-sekonde-spelbosluise met gladde geïnterpoleerde beweging, eksplisiete spelfases, responsiewe kontroles, botsing en wen-toestand hantering, en 'n gefokusde toets suite wat die kern spelreëls dek.",
+        "title": "Slangspeletjie",
+        "text": "'n Gepoleerde Slang-enjin gebou met Rust en Macroquad, gekompileer na WebAssembly en vertoon deur HTML5 Canvas. Dit kombineer deterministiese 0.12-sekonde-speel-tikke met gladde geïnterpoleerde beweging, eksplisiete speelfases, responsiewe kontroles, botsing- en wenstaat-hantering, en 'n gefokusde toetsstel wat die kern-speelreëls dek.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -351,6 +384,11 @@
         "title": "Turing-masjienprojek",
         "text": "Familie van meer as 30+ implementerings van die Turing-masjien. Word gebruik om volledigheid vir verskillende programmeertale vir navorsing te demonstreer, veral vir die Tiger-programmeertaal.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "'n Poeiersand-chemielaboratorium gebou in Rust en gekompileer na WebAssembly. Verf sand, water, lawa, staal, kalsiumkarbied of 'n klont natrium en kyk hoe die fisika en chemie mekaar beveg: natrium ontplof in water, kalsiumkarbied borrel asetileen, lawa smelt sand tot glas, en digtheid alleen sorteer olie, kwik en sand. Die enjin draai 32 materiale en 40 deklaratiewe reaksiereëls oor 'n plat selbuffer, en lewer pixels reguit uit wasm-lineêre geheue sonder per-raam kopieë.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -394,7 +432,9 @@
     "select_engine": "Kies enjin:",
     "tiger_code": "Tiger Kode:",
     "run_tiger": "Hardloop Tiger",
-    "output": "Uitset:"
+    "output": "Uitset:",
+    "stop": "Stop",
+    "program_input": "Programinvoer"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -476,5 +516,8 @@
       "no_language_support": "Geen taalondersteuning nie"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Bekyk bronkode op GitHub"
+  }
 }

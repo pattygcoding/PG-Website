@@ -4,21 +4,29 @@
     "home": "Home",
     "about": "E pili ana iaʻu",
     "portfolio": "Palapala",
-    "projects": "Nā papahana pūnaewele",
-    "tiger": "ʻŌlelo Tiga",
-    "snake": "Pāʻani Nahesa",
+    "projects": "Nā papahana i koho ʻia",
+    "tiger": "Tiger - He ʻŌlelo Hoʻonohonoho Kūikawā",
+    "snake": "Pāʻani nahesa",
     "portfolio_translator": "Unuhi unuhi",
-    "formatter": "JSON & YAML mea hoʻopono",
+    "formatter": "Mea nānā JSON & YAML",
     "contact": "Hoʻokaʻaʻike mai iaʻu",
     "home_description": "sys.root // ʻike nui",
-    "about_description": "hōʻike ʻenehana // bio & pūʻulu",
-    "portfolio_description": "papa inoa polokalamu // nā hana i hōʻike ʻia",
-    "projects_description": "mea paahana & mea houluulu",
-    "tiger_description": "mea hoʻopili maʻamau a me AST mea nānā",
-    "snake_description": "pāʻani arcade maʻamau / WASM",
-    "portfolio_translator_description": "100+ huahelu ʻōlelo & i18n",
-    "formatter_description": "hōʻoia syntax & mea hoʻololi",
-    "contact_description": "wehe wehe // hoʻopili"
+    "about_description": "papa inoa ʻenekini // biography a me ʻenehana",
+    "portfolio_description": "papa inoa polokalamu // nā hana i koho ʻia",
+    "projects_description": "nā mea hana pili a me nā mea hoʻopili",
+    "tiger_description": "mea hoʻopili kūikawā a me mea nānā AST",
+    "snake_description": "pāʻani akeaka kahiko / WASM",
+    "portfolio_translator_description": "papa helu 100+ ʻōlelo a me i18n",
+    "formatter_description": "mea hōʻoia a me mea hoʻololi syntax",
+    "contact_description": "hoʻouna ākea // e kelepona mai",
+    "arcade": "Akeaka",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Lāʻau ʻōlelo ʻEhā i ka lālani",
+    "alkalab_description": "hoʻohālike hale hana kemika / WASM",
+    "rustcraft_description": "pāʻani voxel no ke ʻano Minecraft / Rust a me wgpu",
+    "suprememc_description": "hōʻike mod Minecraft / Java"
   },
   "home": {
     "title": "Luna Nui Nui | Huahana & Pūnaehana",
@@ -35,17 +43,126 @@
     "contact_button": "Hoʻokaʻaʻike mai iaʻu",
     "about_button": "E pili ana iaʻu",
     "featured": {
-      "kicker": "Nā papahana i manaʻo ʻia",
-      "title": "Hana i wae ʻia",
-      "description": "ʻEono papahana e hōʻike maikaʻi loa ana i kaʻu hoʻololi ʻana i nā manaʻo ambisious i loko o nā lako polokalamu hana.",
-      "view_project": "Nānā Papahana",
-      "open_project": "Wehe i ka papahana Live",
-      "view_all": "E ʻimi i ke kōpili piha",
+      "kicker": "Nā papahana i koho ʻia",
+      "title": "Nā hana i koho ʻia",
+      "description": "He ʻeono papahana e hōʻike ana i ka ʻoi loa o ka hoʻololi ʻana i nā manaʻo koʻikoʻi i polokalamu maikaʻi a hana.",
+      "view_project": "Nānā i ka papahana",
+      "open_project": "E wehe i ka papahana ola",
+      "view_all": "E ʻimi i ka portfolio piha",
       "badges": {
         "saas": "SaaS",
         "full_website": "Pūnaewele piha",
-        "available_here": "Loaʻa maanei",
-        "minecraft_mod": "Minecraft Mod"
+        "available_here": "Loaʻa ma ʻaneʻi",
+        "minecraft_mod": "Mod Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "He ʻano ʻike ʻokoʻa i ka hana",
+      "invitation": "E ʻimi i ka atlas ʻenekini",
+      "kicker": "Portfolio piha / manaʻo pili",
+      "title": "Atlas ʻEnekini",
+      "projects": "Nā papahana",
+      "technologies": "Nā ʻenehana",
+      "connections": "Nā pilina",
+      "center": "Atlas ʻenekini",
+      "filter_label": "Nā māhele papahana",
+      "domains": {
+        "all": "Nā hana a pau",
+        "products": "Nā huahana",
+        "systems": "Nā ʻōnaehana",
+        "experiences": "Nā ʻike"
+      },
+      "search": "ʻImi i kahi papahana a i ʻole ʻenehana",
+      "view_label": "Nānā atlas",
+      "map_view": "Nānā palapala ʻāina",
+      "map_navigation": "Hoʻokele palapala ʻāina portfolio",
+      "zoom_in": "Hoʻonui",
+      "zoom_out": "Hoʻēmi",
+      "zoom_level": "Papa hoʻonui palapala ʻāina",
+      "fit_all": "Hoʻokomo i nā papahana a pau",
+      "center_selected": "E hoʻokau i ka papahana i koho ʻia i waenakonu",
+      "all_technologies": "Nā ʻenehana a pau",
+      "list_view": "Nānā papa inoa",
+      "pause": "Hoʻōki i ka animation hōʻailona",
+      "resume": "Hoʻomau i ka animation hōʻailona",
+      "project_selector": "E ʻimi i nā papahana",
+      "inspector": "Nā kikoʻī papahana i koho ʻia",
+      "shared_stack": "ʻEnehana kaʻana like",
+      "family_connection": "Pilina papahana",
+      "portfolio_connection": "Pilina portfolio",
+      "families": {
+        "portfolio": "Puʻuwai portfolio",
+        "business": "Nā polokalamu ʻoihana",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Nā papahana WebAssembly",
+        "libraries": "Nā waihona palapala script",
+        "languages": "Nā hoʻāʻo ʻōlelo",
+        "automation": "Nā mea hana automation a me ka ʻikepili",
+        "experience": "ʻIke ʻoihana a me ka hoʻonaʻauao"
+      },
+      "browser_native": "Maoli browser / ʻaʻohe kikowaena",
+      "no_results": "ʻAʻohe papahana kūpono",
+      "no_selection": "ʻAʻohe papahana i koho ʻia.",
+      "reset": "Holoi i nā kānana",
+      "engineering_lens": "ʻIke ʻenekini",
+      "connected_work": "Hana pili",
+      "open_live": "E wehe i ka papahana ola",
+      "open_project": "E ʻimi i ka papahana",
+      "footer": "Nā kikowaena ʻokoʻa. Hoʻokahi hana ʻenekini pili.",
+      "contact": "E kūkulu kāua i ka mea e hiki mai ana",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Nā paipu ʻikepili",
+        "angular": "Angular",
+        "access": "Ka mālama komo",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Hoʻāʻo",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Ka launa pū",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Hiki ke komo",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Nā spreadsheet kūpono ʻole e komo ana. Nā koho hana kūkulu a me nā noi mākaukau no ka mea kūʻai e puka ana. He huahana SaaS i kūkulu ʻia a puni ka ʻoiaʻiʻo o ka mea hana.",
+          "lens": "Pono nā hoʻokomo maʻalahi i kahi kumu hoʻohālike koʻikoʻi: ʻaʻole pono ka ʻae ʻana i nā ʻano hou e nāwaliwali i nā lula helu a ke kumukūʻai i hilinaʻi ai."
+        },
+        "inventory_register": {
+          "summary": "He kahe hana kūʻai me Angular a me Node.js e pili ana i nā mea hoʻohana i hōʻoia ʻia, ka pololei o ka waihona, a me ke kahe uku i hoʻohālikelike ʻia.",
+          "lens": "ʻOi aku ka mīkini kālā ma mua o ka ʻaoʻao uku. Pono nā kuleana, nā hoʻololi waiwai, a me nā kūlana uku i nā palena maopopo e mālama i ke kahe hana i kuleana."
+        },
+        "grocery_app": {
+          "summary": "He polokalamu .NET 9 Blazor me nā palena hoʻokele, lawelawe, a me waihona, ka hoʻomau Entity Framework Core, a me ka pūʻulu hoʻāʻo piha.",
+          "lens": "Loaʻa i ka hoʻokaʻawale kona wahi ke hiki ke hoʻāʻo ʻia nā lula ʻoihana me ke kūʻokoʻa mai ka interface a me ka papa hoʻomau."
+        },
+        "payrollobol": {
+          "summary": "Kaʻana like ka hana uku GnuCOBOL me ka waihona nui SQLite pālua komo a me ka pākaukau hana Svelte.",
+          "lens": "Hoʻomaka ka pololei kālā me ka hōʻike: hana ʻia ka neʻe kālā maopopo e ka helu keneta piha a me nā komo kaulike."
+        },
+        "interop": {
+          "summary": "He ʻōlelo kuhikuhi waena ʻōlelo e uhi ana i 15 ʻōlelo hoʻonohonoho a me 18 ʻano hoʻokō, e ʻimi ana i ka mea e hana ma nā palena manawa.",
+          "lens": "ʻO ka ʻāpana paʻakikī ka ʻaelike ma waena o ka manawa hana: ʻoi aku ka koʻikoʻi o ka hoʻololi ʻikepili, ke ʻano kaʻina, a me ka hoʻokō hou ʻana ma mua o ka syntax."
+        },
+        "formatter": {
+          "summary": "He mīkini paʻi Go maoli i hoʻopili ʻia i WebAssembly. Holo maʻamau ka hōʻoia a me ka hoʻopili ʻana i ka JSON a me YAML ma ka browser.",
+          "lens": "Ke hoʻoneʻe nei ka parser i ka browser kūʻai nui ʻana i ka hana kūloko, ka portability, a me ka liʻiliʻi o ka pili kikowaena."
+        },
+        "portfolio_website": {
+          "summary": "Ka pūnaewele āu e noho nei: portfolio React me 100+ ʻōlelo, nā pilina hiki ke komo, a me nā mea hana WebAssembly.",
+          "lens": "ʻAʻole manaʻo ʻia ka static deployment he ʻike static. Hiki i nā pilina waiwai ke noho ma ka mea kūʻai me ka ʻole he kikowaena polokalamu."
+        },
+        "biblioteca": {
+          "summary": "He paipu hoʻololi ʻōlelo Python e hoʻololi ana i hoʻokahi kumu ʻike i portfolio i loaʻa ma 100+ ʻōlelo.",
+          "lens": "ʻO ka hiki ʻana i ka honua he pilikia mālama ʻikepili e like me ka pilikia unuhi. ʻO hoʻokahi kumu o ka ʻoiaʻiʻo e hoʻomau i nā hoʻololi ʻike i mālama ʻia."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Mākaukau ʻenehana",
       "header1": "ʻŌlelo Papahana",
       "header2": "Papahana & Hale Waihona Puke",
-      "header3": "Nā mea hana a me nā ʻenehana"
+      "header3": "Nā mea hana a me nā ʻenehana",
+      "technologies": "nā ʻenehana",
+      "search_label": "Kānana",
+      "search_placeholder": "Kānana i nā mākaukau…",
+      "clear_search": "Holoi i ke kānana",
+      "no_matches": "ʻAʻohe mākaukau kūpono i kāu kānana.",
+      "works": "Nā hana",
+      "experience": "ʻIke",
+      "professional": "ʻOihana",
+      "education": "Hoʻonaʻauao",
+      "paired_with": "Hoʻopili pinepine ʻia me",
+      "summary_professional": "Hoʻohana ʻia ma ka ʻoihana ma {items}.",
+      "summary_education": "Ua aʻo ʻia a hoʻohana ʻia ma {items}.",
+      "summary_projects": "Hoʻohana lima ʻia ma {items}.",
+      "summary_projects_also": "Hoʻohana pū ʻia ma {items}.",
+      "and_more": "hou aku",
+      "scroll_more": "Holoi no nā hana hou aku",
+      "show_less": "Hōʻike liʻiliʻi",
+      "no_samples": "He ʻāpana o kaʻu mau mea hana. Hauʻoli wau e wehewehe i ke ʻano o kaʻu hoʻohana ʻana."
     },
     "services": {
       "title": "ʻO kaʻu mau lawelawe",
@@ -112,6 +247,13 @@
           "text": "Ke kūkulu nei au me nā mea ʻoiaʻiʻo ma hope o ka hoʻomaka ʻana i ka ʻike: nā mea huna i mālama ʻia ma waho o ka mana kumu, nā ala neʻe i ka ʻikepili kikoʻī, ka mana e pili ana i ke kuleana, ka hōʻoia ʻana i nā palena ʻōnaehana, nā hoʻokolohua automated, CI/CD ʻike, a me ka nānā pono. ʻO kēia nā kikoʻī e hoʻohuli i kahi prototype i polokalamu hilinaʻi."
         }
       ]
+    },
+    "certifications": {
+      "title": "Nā laikini a me nā hōʻoia",
+      "credential": "Hōʻoia",
+      "issued_by": "Hoʻopuka ʻia e",
+      "issued": "Lā hoʻopuka",
+      "verify": "E hōʻoia i ka hōʻoia"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Hoʻohui ʻEhā",
-        "text": "ʻOhana nui ma mua o 50+ hoʻokō o ka pāʻani Connect Four. Aia kēia papahana i nā hoʻokō ma luna o 30 mau ʻōlelo papahana like ʻole, me Java, C++, Python, JavaScript, a me nā mea hou aku. Hoʻohui ʻia, loaʻa pū ma luna o 20+ mau papa hana ʻokoʻa a i ʻole nā ​​​​palapala ʻē aʻe, me React.js, Ruby on Rails, ASP.NET, a me nā mea hou aku.",
+        "text": "He ʻohana nui o 90+ hoʻokō o ka pāʻani ʻEhā i ka lālani. Uhi ka papahana i 30+ ʻōlelo hoʻonohonoho, me ka Java, C++, Python, a me JavaScript, a me 50+ mau framework, waihona, manawa hana, a me nā waihona ʻikepili, mai React, Angular, a me Blazor a i Django, Spring Boot, Phoenix, PostgreSQL, a me nā mea i mua.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Uku OBOL",
-        "text": "ʻO kahi ʻōnaehana hoʻoili uku kūloko i kūkulu ʻia me GnuCOBOL, kahi papa helu helu pālua SQLite, a me kahi dashboard hana Svelte. Hoʻohana ʻo ia i ka makemakika integer-cent, ka hoʻoili ʻana i ka uku uku, a me kahi dashboard loopback e hana i nā kaʻina hana kālā i maopopo, hoʻāʻo ʻia, a me ke kuleana o ka hana.",
+        "title": "PayrollOBOL",
+        "text": "He ʻōnaehana hana uku kūloko i kūkulu ʻia me GnuCOBOL, waihona nui SQLite pālua komo, a me ka pākaukau hana Svelte. Hoʻohana ia i ka helu keneta piha, ka hana uku pūʻulu, a me ka pākaukau loopback e hoʻomaopopo a hoʻāʻo a kuleana i nā kahe kālā.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "ʻO Minecraft Mod e hoʻohui i nā mea hana maʻamau, nā mea kaua, nā mob, nā poloka, nā ana, a me nā hiʻohiʻona hou aku i ka pāʻani. Kūkulu nui ʻia me Java a me Kotlin, me ke kākoʻo e pili ana i nā mana Minecraft 1.16 a hiki i 26.2.",
+        "text": "He mod Minecraft e hoʻohui ana i nā mea hana, nā mea kaua, nā mobs, nā blocks, nā ana, a me nā hiʻohiʻona kūikawā hou aku i ka pāʻani. Kūkulu ʻia me Java a me Kotlin ka nui, e kākoʻo ana i nā mana Minecraft 1.16 a i 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Pāʻani Nahesa",
-        "text": "He ʻenekini Snake i kālai ʻia me Rust a me Macroquad, i hoʻohui ʻia i WebAssembly, a hoʻolilo ʻia ma o HTML5 Canvas. Hoʻohui ia i nā ticks pāʻani deterministic 0.12-kekona me ka neʻe ʻana o ka interpolated neʻe, nā pae pāʻani kikoʻī, nā mana pane, ka hui ʻana a me ka hoʻokele win-state, a me ka hoʻāʻo ʻana. suite e uhi ana i nā lula pāʻani koʻikoʻi.",
+        "title": "Pāʻani nahesa",
+        "text": "He mīkini Nahesa maikaʻi i kūkulu ʻia me Rust a me Macroquad, hoʻopili ʻia i WebAssembly, a hōʻike ʻia ma o HTML5 Canvas. Hoʻohui ia i nā tick pāʻani 0.12-kekona maopopo me ka neʻe interpolated maʻemaʻe, nā pae pāʻani maopopo, ka hoʻomalu pane, ka hoʻokele paʻa a me nā kūlana lanakila, a me kahi pūʻulu hoʻāʻo e uhi ana i nā lula kumu o ka pāʻani.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Papahana Mīkini Turing",
         "text": "ʻO ka ʻohana ma luna o 30+ hoʻokō o ka Turing Machine. Hoʻohana ʻia e hōʻike i ka holo piha ʻana no nā ʻōlelo papahana like ʻole no ka noiʻi, ʻoi aku hoʻi no ka Tiger Programming Language.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "He hale hana kemika pauka-one i kūkulu ʻia ma Rust a hoʻopili ʻia i WebAssembly. E pena i ke one, ka wai, ka lāva, ke kila, ka calcium carbide, a i ʻole kahi ʻāpana sodium a e nānā i ka hakakā ʻana o ka physics a me ka kemika: pahū ka sodium i ka wai, hoʻokuʻu ka calcium carbide i ka acetylene, hoʻoheheʻe ka lāva i ke one i aniani, a ʻo ka nuipaʻa wale nō ka mea e hoʻokaʻawale i ka ʻaila, ka mercury, a me ke one. Hoʻokele ka mīkini i 32 mea a me 40 lula hoʻopalapala ma luna o kahi pahu cell palahalaha, e hōʻike pololei ana i nā pixel mai ka waihona laina wasm me ka ʻole kope no kēlā me kēia frame.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "E koho i ka ʻenekini:",
     "tiger_code": "Kāhea Tiger:",
     "run_tiger": "Holo Tiger",
-    "output": "Puka:"
+    "output": "Puka:",
+    "stop": "Hoʻōki",
+    "program_input": "Hoʻokomo papahana"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "ʻAʻohe kākoʻo ʻōlelo"
     }
   },
-  "logotext": "PATRIKA"
+  "logotext": "PATRIKA",
+  "repo_button": {
+    "label": "Nānā i ka kumu code ma GitHub"
+  }
 }

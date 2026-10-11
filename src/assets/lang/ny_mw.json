@@ -4,21 +4,29 @@
     "home": "Kunyumba",
     "about": "Za ine",
     "portfolio": "Mbiri",
-    "projects": "Webusaiti Projects",
-    "tiger": "Chinenero cha Tiger",
-    "snake": "Masewera a Njoka",
+    "projects": "Mapulojekiti osankhidwa",
+    "tiger": "Tiger - Chinenero Chapatero Cha Mapulogalamu",
+    "snake": "Masewera a njoka",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "JSON & YAML Formatter",
+    "formatter": "Woyang'ana JSON & YAML",
     "contact": "Ndiuzeni Ine",
-    "home_description": "sys.root // mwachidule",
-    "about_description": "mbiri ya injiniya // bio & stack",
-    "portfolio_description": "pulogalamu yamapulogalamu // ntchito zowonetsedwa",
-    "projects_description": "zida zokambirana & compilers",
-    "tiger_description": "wopanga makina & AST visualizer",
-    "snake_description": "masewera apamwamba a masewera / WASM",
-    "portfolio_translator_description": "100+ zilankhulo zazikulu & i18n",
-    "formatter_description": "syntax validator & converter",
-    "contact_description": "tsegulani // kulumikizana"
+    "home_description": "sys.root // mawu ofotokozera akulu",
+    "about_description": "mbiri ya injiniya // bio ndi teknoloji",
+    "portfolio_description": "katalogi ya mapulogalamu // ntchito zosankhidwa",
+    "projects_description": "zida zothandizana ndi omanga",
+    "tiger_description": "chopanga chapadera ndi choonetsera AST",
+    "snake_description": "masewera akale a arkedi / WASM",
+    "portfolio_translator_description": "matrix ya zilankhulo 100+ ndi i18n",
+    "formatter_description": "wotsimikizira ndi wosintha syntax",
+    "contact_description": "kutumiza kwathunthu // funsani ine",
+    "arcade": "Arkedi",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Mtengo wa zilankhulo Zinayi motsatizana",
+    "alkalab_description": "kayeseleledwe ka labu ya chemistry / WASM",
+    "rustcraft_description": "masewera a voxel ngati Minecraft / Rust ndi wgpu",
+    "suprememc_description": "chiwonetsero cha mod ya Minecraft / Java"
   },
   "home": {
     "title": "Katswiri Wathunthu Wokhazikika | Product & Systems",
@@ -35,17 +43,126 @@
     "contact_button": "Ndiuzeni Ine",
     "about_button": "Za ine",
     "featured": {
-      "kicker": "Ma projekiti Owonetsedwa",
-      "title": "Ntchito Yosankhidwa",
-      "description": "Mapulojekiti asanu ndi limodzi omwe amayimira bwino momwe ndimasinthira malingaliro olakalaka kukhala mapulogalamu opukutidwa, ogwirira ntchito.",
-      "view_project": "Onani Project",
-      "open_project": "Open Live Project",
-      "view_all": "Onani mbiri yonse",
+      "kicker": "Mapulojekiti osankhidwa",
+      "title": "Ntchito zosankhidwa",
+      "description": "Mapulojekiti asanu ndi limodzi omwe akuyimira bwino kwambiri momwe ndimasinthira malingaliro apamwamba kukhala mapulogalamu ogwirira ntchito.",
+      "view_project": "Onani projekiti",
+      "open_project": "Tsegulani projekiti yamoyo",
+      "view_all": "Fufuzani portfolio yonse",
       "badges": {
         "saas": "SaaS",
-        "full_website": "Webusaiti Yathunthu",
-        "available_here": "Likupezeka Pano",
-        "minecraft_mod": "Minecraft Mod"
+        "full_website": "Webusayiti yathunthu",
+        "available_here": "Ipezeka pano",
+        "minecraft_mod": "Mod ya Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Kawonedwe kosiyana pa ntchitoyo",
+      "invitation": "Fufuzani atlas ya injiniya",
+      "kicker": "Portfolio yathunthu / kuganiza kogwirizana",
+      "title": "Atlas ya Injiniya",
+      "projects": "Mapulojekiti",
+      "technologies": "Teknoloji",
+      "connections": "Zogwirizana",
+      "center": "Atlas ya injiniya",
+      "filter_label": "Magulu a mapulojekiti",
+      "domains": {
+        "all": "Ntchito zonse",
+        "products": "Zinthu",
+        "systems": "Machitidwe",
+        "experiences": "Zokumana nazo"
+      },
+      "search": "Pezani projekiti kapena teknoloji",
+      "view_label": "Mawonekedwe a atlas",
+      "map_view": "Mawonekedwe a mapu",
+      "map_navigation": "Kuyendetsa mapu a portfolio",
+      "zoom_in": "Kukulitsa",
+      "zoom_out": "Kuchepetsa",
+      "zoom_level": "Mulingo wa zoom wa mapu",
+      "fit_all": "Pangani mapulojekiti onse kukhala oyenera",
+      "center_selected": "Pangani projekiti yosankhidwa kukhala pakatikati",
+      "all_technologies": "Teknoloji zonse",
+      "list_view": "Mawonekedwe a mndandanda",
+      "pause": "Pumitsani makanema a chizindikiro",
+      "resume": "Pitirizaninso makanema a chizindikiro",
+      "project_selector": "Fufuzani mapulojekiti",
+      "inspector": "Tsatanetsatane wa projekiti yosankhidwa",
+      "shared_stack": "Teknoloji yogawana",
+      "family_connection": "Kugwirizana kwa projekiti",
+      "portfolio_connection": "Kugwirizana kwa portfolio",
+      "families": {
+        "portfolio": "Likulu la portfolio",
+        "business": "Mapulogalamu a bizinesi",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "Mapulojekiti a WebAssembly",
+        "libraries": "Malaibulale a script",
+        "languages": "Mayesero a zilankhulo",
+        "automation": "Zida za automation ndi data",
+        "experience": "Zokumana nazo za akatswiri ndi maphunziro"
+      },
+      "browser_native": "Zobadwa nawo / popanda seva",
+      "no_results": "Palibe mapulojekiti ofanana",
+      "no_selection": "Palibe projekiti yosankhidwa.",
+      "reset": "Chotsani zosefa",
+      "engineering_lens": "Kawonedwe ka injiniya",
+      "connected_work": "Ntchito yolumikizana",
+      "open_live": "Tsegulani projekiti yamoyo",
+      "open_project": "Fufuzani projekiti",
+      "footer": "Madera osiyanasiyana. Kachitidwe koyera ka injiniya kosiyana.",
+      "contact": "Tiyeni timange zomwe zikubwera",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Mapaipi a data",
+        "angular": "Angular",
+        "access": "Kuwongolera kulowa",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Kuyesa",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Kugwirizana",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Kufikika",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Ma spreadsheet osagwirizana akulowa. Kuyerekeza komanga ndi malingaliro okonzekera kasitomala akutuluka. Produkt ya SaaS yomangidwa mozungulira ntchito yeniyeni ya kontrakita.",
+          "lens": "Kulowetsa kopindika kumafuna mtundu wamkati wolimba: kuvomereza mafomu ambiri sikuyenera kufooketsa malamulo owerengera omwe ntchito imadalira."
+        },
+        "inventory_register": {
+          "summary": "Ntchito ya malo ogulitsira ndi Angular ndi Node.js yomwe imalumikiza ogwiritsa ntchito otsimikizika, kulondola kwa katundu, ndi njira yolipira.",
+          "lens": "Rejista ya ndalama imakhala yoposa skrini yolipira. Maudindo, kusintha kwa katundu, ndi zikhalidwe zolipira zimafuna malire omveka bwino kuti ntchitoyo ikhale yodalirika."
+        },
+        "grocery_app": {
+          "summary": "Pulogalamu ya .NET 9 Blazor yokhala ndi malire a controller, service, ndi repository, kukhazikika kwa Entity Framework Core, ndi kukhazikika kwa mayeso.",
+          "lens": "Kulekanitsa kumapeza malo ake pamene malamulo a bizinesi atha kuyesedwa mosadalira pa interface ndi gawo lokhazikika."
+        },
+        "payrollobol": {
+          "summary": "Kukonzekera malipiro a GnuCOBOL kumakumana ndi buku lalikulu la SQLite ndi dashibodi ya Svelte.",
+          "lens": "Kulondola kwachuma kumayamba ndi kuyimira: masamu athunthu ndi zolemba zokhazikika zimapangitsa kusuntha kwa ndalama kukhala komveka."
+        },
+        "interop": {
+          "summary": "Zolemba zazilankhulo zosiyanasiyana zomwe zimaphatikiza zilankhulo 15 zopanga mapulogalamu ndi njira 18 zogwirira ntchito, kufufuza zomwe zimachitika pamalire a nthawi.",
+          "lens": "Gawo lovuta ndi mgwirizano pakati pa nthawi: kusinthana kwa data, khalidwe la ndondomeko, ndi ntchito yobwerezabwereza ndizofunikira kuposa syntax."
+        },
+        "formatter": {
+          "summary": "Injini yeniyeni yowunikira ya Go yopangidwa ku WebAssembly. Kutsimikizira ndi kukonza JSON ndi YAML kumagwira ntchito pa browser.",
+          "lens": "Kusamutsa parser kupita ku browser kumasinthana ndi katundu wokulirapo wa kasitomala kuti akonzedwe komweko, kupezeka, ndi kuchepa kwake kudalira seva."
+        },
+        "portfolio_website": {
+          "summary": "Tsamba lomwe muli: portfolio ya React yokhala ndi zilankhulo 100+, ntchito zofikika, ndi zida za WebAssembly zogwira ntchito.",
+          "lens": "Kukhazikitsa kwa static sikukutanthauza kuti zokumana nazo ndi static. Ntchito zolemera zingakhale pa kasitomala popanda seva ya mapulogalamu."
+        },
+        "biblioteca": {
+          "summary": "Pipeline ya Python yomwe imasintha gwero limodzi la zomwe zalembedwa kukhala portfolio yopezeka m'zilankhulo 100+.",
+          "lens": "Kufikira padziko lonse lapansi ndi vuto la kusamalira data monga vuto la kumatanthauzira. Gwero limodzi la chowonadi limapangitsa kusintha kwa zomwe zili mgulu kukhala kotheka."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Maluso Aukadaulo",
       "header1": "Zinenero Zopanga Mapulogalamu",
       "header2": "Frameworks & Library",
-      "header3": "Zida & Technologies"
+      "header3": "Zida & Technologies",
+      "technologies": "teknoloji",
+      "search_label": "Sefani",
+      "search_placeholder": "Sefani maluso…",
+      "clear_search": "Chotsani sefa",
+      "no_matches": "Palibe luso logwirizana ndi sefa yanu.",
+      "works": "Ntchito",
+      "experience": "Zokumana nazo",
+      "professional": "Waukadaulo",
+      "education": "Maphunziro",
+      "paired_with": "Nthawi zambiri amagwirizanitsidwa ndi",
+      "summary_professional": "Anagwiritsidwa ntchito mwaukadaulo pa {items}.",
+      "summary_education": "Anaphunziridwa ndi kugwiritsidwa ntchito pa {items}.",
+      "summary_projects": "Anagwiritsidwa ntchito pa {items}.",
+      "summary_projects_also": "Anagwiritsidwanso ntchito pa {items}.",
+      "and_more": "zambiri",
+      "scroll_more": "Yendetsani kuti muwone ntchito zambiri",
+      "show_less": "Onetsani zochepa",
+      "no_samples": "Gawo la zida zanga zogwirira ntchito. Ndili wokondwa kufotokoza momwe ndagwiritsira ntchito."
     },
     "services": {
       "title": "Ntchito Zanga",
@@ -112,6 +247,13 @@
           "text": "Ndimamanga ndi zowona nditatha kukhazikitsidwa: zinsinsi zomwe sizimayendetsedwa ndi gwero, njira zakusamuka zachinsinsi, chilolezo chotengera maudindo, kutsimikizika pamalire adongosolo, zoyeserera zokha, kuzindikira kwa CI/CD, komanso kuwonetsetsa kothandiza. Izi ndizomwe zimasinthira prototype kukhala mapulogalamu odalirika."
         }
       ]
+    },
+    "certifications": {
+      "title": "Malayisensi ndi ziphaso",
+      "credential": "Chiphaso",
+      "issued_by": "Choperekedwa ndi",
+      "issued": "Tsiku loperekedwa",
+      "verify": "Tsimikizirani chiphaso"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Gwirizanitsani Zinayi",
-        "text": "Banja lalikulu la kukhazikitsidwa kopitilira 50+ kwamasewera a Connect Four. Ntchitoyi ikuphatikiza kukhazikitsidwa m'zilankhulo zopitilira 30, kuphatikiza Java, C++, Python, JavaScript, ndi zina. Kuphatikiza apo, imaphatikizanso mitundu yopitilira 20+ kapena mitundu ina, kuphatikiza React.js, Ruby on Rails, ASP.NET, ndi zina zambiri.",
+        "text": "Banja lalikulu la ntchito 90+ za masewera a Zinayi motsatizana. Pulojektiyi imaphatikiza zilankhulo 30+ zopanga mapulogalamu, kuphatikiza Java, C++, Python, ndi JavaScript, komanso mapulogalamu 50+ osiyanasiyana, malaibulale, nthawi, ndi ma database, kuyambira React, Angular, ndi Blazor mpaka Django, Spring Boot, Phoenix, PostgreSQL, ndi zina.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -145,7 +287,7 @@
       },
       "payrollobol": {
         "title": "PayrollOBOL",
-        "text": "Dongosolo lakukonza zolipira kwanuko lomwe limamangidwa ndi GnuCOBOL, leja yolowera kawiri ya SQLite, ndi dashboard ya Svelte. Imagwiritsa ntchito masamu owerengeka, ma batch payroll processing, ndi loopback dashboard kuti mayendedwe azachuma azikhala omveka bwino, oyesedwa, komanso oyankha.",
+        "text": "Njira yapaderadera yokonzekera malipiro yomangidwa ndi GnuCOBOL, buku lalikulu la SQLite, ndi dashibodi ya Svelte. Imagwiritsa ntchito masamu athunthu, kukonzekera malipiro mwa gulu, ndi dashibodi ya loopback kuti malamulo azachuma akhale omveka, oyesedwa, komanso odalirika.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "Minecraft Mod yomwe imawonjezera zida zamakono, zida, magulu a anthu, midadada, miyeso, ndi zina zambiri pamasewera. Omangidwa makamaka ndi Java ndi Kotlin, mothandizidwa ndi mitundu ya Minecraft 1.16 mpaka 26.2.",
+        "text": "Mod ya Minecraft yomwe imawonjezera zida, zida, mobs, blocks, dimensions, ndi zina zambiri pamasewerawa. Yopangidwa makamaka ndi Java ndi Kotlin, yothandizira matembenuzidwe a Minecraft 1.16 mpaka 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Masewera a Njoka",
-        "text": "Injini yopukutidwa ya Nyoka yomangidwa ndi Rust ndi Macroquad, yopangidwa ku WebAssembly, ndikuperekedwa kudzera mu HTML5 Canvas. Zimaphatikiza nkhupakupa zamasewera a 0.12-sekondi imodzi yokhala ndi mayendedwe osalala, magawo amasewera, zowongolera zomwe zimayankhidwa, kugundana ndi kuwongolera boma, komanso kuyesa koyang'ana. suite yomwe ikukhudza malamulo amasewera.",
+        "title": "Masewera a njoka",
+        "text": "Injini yabwino ya Njoka yopangidwa ndi Rust ndi Macroquad, yopangidwa ku WebAssembly, ndipo imawonetsedwa kudzera pa HTML5 Canvas. Imaphatikiza ma tick otsimikizika a 0.12 second ndi kuyenda koyenera, magawo omveka bwino a masewera, kuwongolera koyenera, kuthana ndi kugundana ndi zikhalidwe zopambana, ndi kuyesedwa kozikika komwe kumakhudza malamulo apakati pamasewera.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Makina a Turing Project",
         "text": "Banja laopitilira 30+ akugwiritsa ntchito Makina a Turing. Amagwiritsidwa ntchito kuwonetsa kukwanira kwa zilankhulo zosiyanasiyana zopangira kafukufuku, makamaka pa Chiyankhulo cha Tiger Programming.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Labu ya chemistry ya ufa-mchenga yopangidwa ndi Rust ndi kupangidwa ku WebAssembly. Jambulani mchenga, madzi, lava, chitsulo, calcium carbide, kapena kachidutswa ka sodium ndipo muwone momwe physics ndi chemistry zimenyanira: sodium imaphulika m'madzi, calcium carbide imatulutsa acetylene, lava imasungunula mchenga kukhala galasi, ndipo kachulukidwe kokha kumapatula mafuta, mercury, ndi mchenga. Injini imayendetsa zinthu 32 ndi malamulo 40 oyimira pa buffer ya cell, kupanga pikseli mwachindunji kuchokera ku memory ya wasm popanda kukopera pa frame iliyonse.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Sankhani Injini:",
     "tiger_code": "Tiger kodi:",
     "run_tiger": "Thamangani Tiger",
-    "output": "Zotulutsa:"
+    "output": "Zotulutsa:",
+    "stop": "Imani",
+    "program_input": "Zolowetsa za pulogalamu"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -367,5 +516,8 @@
       "no_language_support": "Palibe chilankhulo chothandizira"
     }
   },
-  "logotext": "PATRICK"
+  "logotext": "PATRICK",
+  "repo_button": {
+    "label": "Onani gwero la code pa GitHub"
+  }
 }

@@ -4,21 +4,29 @@
     "home": "Óga",
     "about": "Che rehegua",
     "portfolio": "Cartera rehegua",
-    "projects": "Proyectos Web rehegua",
-    "tiger": "Tigre Ñe’ẽ",
-    "snake": "Mbói Ñembosarái",
+    "projects": "Poravopyre proyecto",
+    "tiger": "Tiger - Programa Ñe'ẽ Personalizado",
+    "snake": "Mbói ñembosarái",
     "portfolio_translator": "Traductor de Cartera rehegua",
-    "formatter": "JSON & YAML Formato rehegua",
+    "formatter": "JSON & YAML verificador",
     "contact": "Eñe’ẽ Chendive",
-    "home_description": "sys.root // jehechauka tenondegua",
-    "about_description": "perfil ingeniero // bio & pila rehegua",
-    "portfolio_description": "software catálogo // tembiapo ojehechaukáva",
-    "projects_description": "tembipuru & compilador interactivo rehegua",
-    "tiger_description": "compilador personalizado & AST jehechaukaha",
-    "snake_description": "juego de arcade clásico / WASM rehegua",
-    "portfolio_translator_description": "100+ matriz ñe’ẽ rehegua & i18n",
-    "formatter_description": "ñe’ẽjoaju jekuaaukaha & mboajepyréva",
-    "contact_description": "transmisión abierta // oñembojoaju"
+    "home_description": "sys.root // teko jehecha guasu",
+    "about_description": "ingeniero perfil // bio ha tecnología",
+    "portfolio_description": "software catálogo // poravopyre rembiapo",
+    "projects_description": "interactivo tembiporu ha compiladores",
+    "tiger_description": "compilador personalizado ha AST visualizador",
+    "snake_description": "arcade ñembosarái clásico / WASM",
+    "portfolio_translator_description": "100+ ñe'ẽ matriz ha i18n",
+    "formatter_description": "sintaxis validador ha conversor",
+    "contact_description": "ñemboheko pe'ã / eñemboja che rehe",
+    "arcade": "Arkade",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "Ñe'ẽ yvyramata Irundy ojoapy",
+    "alkalab_description": "química laboratorio simulación / WASM",
+    "rustcraft_description": "voxel ñembosarái Minecraft estilo / Rust ha wgpu",
+    "suprememc_description": "Minecraft mod jahechauka / Java"
   },
   "home": {
     "title": "Ingeniero Senior de Pila Completa | Producto & Sistemas rehegua",
@@ -35,17 +43,126 @@
     "contact_button": "Eñe’ẽ Chendive",
     "about_button": "Che rehegua",
     "featured": {
-      "kicker": "Proyectos ojehechaukáva",
-      "title": "Tembiapo ojeporavóva",
-      "description": "Seis proyecto orrepresenta porãvéva mba’éichapa amoambue umi idea ambiciosa software pulido ha omba’apóvape.",
-      "view_project": "Proyecto rehegua jehecha",
-      "open_project": "Proyecto En vivo Abierto rehegua",
-      "view_all": "Ojeporeka cartera completa rehe",
+      "kicker": "Poravopyre proyecto",
+      "title": "Poravopyre rembiapo",
+      "description": "Poteĩ proyecto ohechauka ambicioso idea software pyre ha oikovéva.",
+      "view_project": "Ehecha proyecto",
+      "open_project": "Eipe'a proyecto oikovéva",
+      "view_all": "Eheka portfolio oñondivepa",
       "badges": {
-        "saas": "SaaS rehegua",
-        "full_website": "Página Web Henyhẽva",
-        "available_here": "Ojeguereko Ko'ápe",
-        "minecraft_mod": "Minecraft rehegua Mod"
+        "saas": "SaaS",
+        "full_website": "Sitio opavavete",
+        "available_here": "Ko'ápe ojejuhu",
+        "minecraft_mod": "Minecraft mod"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "Ambue jehechaka rembiapóre",
+      "invitation": "Eheka ingeniería atlas",
+      "kicker": "Portfolio opavavete / pensamiento joaju",
+      "title": "Ingeniería Atlas",
+      "projects": "Proyecto",
+      "technologies": "Tecnología",
+      "connections": "Joaju",
+      "center": "Ingeniería atlas",
+      "filter_label": "Proyecto categoría",
+      "domains": {
+        "all": "Opavavete rembiapo",
+        "products": "Tembiapo",
+        "systems": "Sistema",
+        "experiences": "Tembi'aha"
+      },
+      "search": "Eheka proyecto térã tecnología",
+      "view_label": "Atlas jahecha",
+      "map_view": "Mapa jahecha",
+      "map_navigation": "Portfolio mapa jeguata",
+      "zoom_in": "Momichĩ",
+      "zoom_out": "Mbotuicha",
+      "zoom_level": "Mapa zoom nivel",
+      "fit_all": "Mboajejoja opavavete proyecto",
+      "center_selected": "Mbojeguakapy poravopyre proyecto",
+      "all_technologies": "Opavavete tecnología",
+      "list_view": "Lista jahecha",
+      "pause": "Mombyta señal animación",
+      "resume": "Ñepyrũ jey señal animación",
+      "project_selector": "Eheka proyecto",
+      "inspector": "Poravopyre proyecto mba'e",
+      "shared_stack": "Ojoaju tecnología",
+      "family_connection": "Proyecto joaju",
+      "portfolio_connection": "Portfolio joaju",
+      "families": {
+        "portfolio": "Portfolio aguapy",
+        "business": "Negocio aplicación",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "WebAssembly proyecto",
+        "libraries": "Script aranduka",
+        "languages": "Ñe'ẽ jaha'ã",
+        "automation": "Automatización ha data tembiporu",
+        "experience": "Profesional ha educación tembi'aha"
+      },
+      "browser_native": "Browser ojejapopyre / servidor ndaipóri",
+      "no_results": "Ndaipóri proyecto ojoguáva",
+      "no_selection": "Ndaipóri proyecto poravopyre.",
+      "reset": "Mokunu'ũ filtro",
+      "engineering_lens": "Ingeniería jehechaka",
+      "connected_work": "Joaju rembiapo",
+      "open_live": "Eipe'a proyecto oikovéva",
+      "open_project": "Eheka proyecto",
+      "footer": "Tetã ambuéva. Peteĩ ingeniería conjunta.",
+      "contact": "Jaike ja'ói mba'e ou va'erã",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "Data tubería",
+        "angular": "Angular",
+        "access": "Jejupi control",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "Jaha'ã",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "Interoperabilidad",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "Accesibilidad",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "Hoja de cálculo ndojeikuaáiva oike. Construcción estimación ha cliente listo propuesta osẽ. SaaS producto contratista simple okay ñemba'apo rehe.",
+          "lens": "Importación flexible oikotevẽ modelo interno hetáva: oñemoneĩ forma hetaveva ani omboi michĩ cálculo regla oferta oñembojerere."
+        },
+        "inventory_register": {
+          "summary": "Venta punto ñemba'apo Angular ha Node.js ndive usuario ojehechajey, inventario precisión ha pago simulado flujo.",
+          "lens": "Caja ojehechava'erã pago pantalla. Papel, stock cambio ha pago estado oikotevẽ límite clara ñemba'apo responsabilidad."
+        },
+        "grocery_app": {
+          "summary": ".NET 9 Blazor aplicación controlador, servicio ha repository límite, Entity Framework Core persistencia ha test completo.",
+          "lens": "Separación oñee'ẽ negocio regla ojeruréva interface persistencia ndive."
+        },
+        "payrollobol": {
+          "summary": "GnuCOBOL salario procesamiento SQLite doble entrada libro mayor Svelte operaciones panel oguerova.",
+          "lens": "Financiera exactitud representación: centavo completo aritmética ha equilibrio entrada."
+        },
+        "interop": {
+          "summary": "Lenguaje jo'ajúpe referencia 15 programación lengua ha 18 ejecución patrón, tiempo límite jehecha.",
+          "lens": "Ijetu'u runtime contrato: data intercambio, proceso comportamiento ha ejecución repetible sintaxis mbove."
+        },
+        "formatter": {
+          "summary": "Go parser verdadero WebAssembly-pe. JSON ha YAML validación ha formateo browser-pe.",
+          "lens": "Parser browser-pe ojejapo cliente carga local procesamiento portabilidad."
+        },
+        "portfolio_website": {
+          "summary": "Sitio: React portfolio 100+ ñe'ẽ accesible interacción WebAssembly tembiporu.",
+          "lens": "Estático implementación estático experiencia. Interacción rica cliente server ndaipóri."
+        },
+        "biblioteca": {
+          "summary": "Python localización tubería peteĩ contenido fuente portfolio 100+ ñe'ẽme.",
+          "lens": "Global thaqhawi jaguata inglés. Traducción problema ha data mantenimiento."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "Habilidad Técnica rehegua",
       "header1": "Ñe’ẽ Programación rehegua",
       "header2": "Marcos & Bibliotecas rehegua",
-      "header3": "Tembiporu & Tecnología rehegua"
+      "header3": "Tembiporu & Tecnología rehegua",
+      "technologies": "tecnología",
+      "search_label": "Filtro",
+      "search_placeholder": "Filtro habilidad…",
+      "clear_search": "Mokunu'ũ filtro",
+      "no_matches": "Ndaipóri habilidad filtro rehegua.",
+      "works": "Rembiapo",
+      "experience": "Tembi'aha",
+      "professional": "Profesional",
+      "education": "Educación",
+      "paired_with": "Japy'óva ndive",
+      "summary_professional": "{items} profesional ojeiporu.",
+      "summary_education": "{items} oñembo'e ha oñemyasãi.",
+      "summary_projects": "{items} ojeiporu práctica.",
+      "summary_projects_also": "{items} avei ojeiporu.",
+      "and_more": "hetave",
+      "scroll_more": "Eho rembiapo hetave g̃uarã",
+      "show_less": "Ehechauka michĩ",
+      "no_samples": "Che tembiporu rembiapo apytépe. Chembotavy ndoikói esplika mba'éicha ojeiporu."
     },
     "services": {
       "title": "Che Serviciokuéra",
@@ -112,6 +247,13 @@
           "text": "Amopu’ã umi realidad oñepyrũ rire ojehechahápe: secreto oñeñongatúva fuera control fuente-gui, tape migración base de datos explícita rehegua, autorización basada rol-pe, validación sistema límite-pe, . umi prueba automatizada, concienciación CI/CD rehegua, ha observabilidad práctica rehegua. Ko’ãva ha’e umi detalle omoambuéva peteĩ prototipo software ojeroviakuaávape."
         }
       ]
+    },
+    "certifications": {
+      "title": "Licencia ha certificación",
+      "credential": "Certificación",
+      "issued_by": "Ome'ẽva",
+      "issued": "Fecha ome'ẽva",
+      "verify": "Ehechajey certificación"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "Ombojoaju Irundy",
-        "text": "Familia masiva orekóva 50+ implementación ári ñembosarái Connect Four rehegua. Ko tembiaporã oguereko implementación 30 ñe’ẽ programación rehegua iñambuévape, umíva apytépe Java, C++, Python, JavaScript ha hetave. Avei, oguereko avei 20+ ári marco iñambuéva térã ambue formato, umíva apytépe React.js, Ruby on Rails, ASP.NET ha hetave.",
+        "text": "Irundy ojoapy 90+ implementación py ru'ã. Java, C++, Python ha JavaScript 30+ programación ñe'ẽ ha React, Angular, Blazor Django, Spring Boot, Phoenix, PostgreSQL.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "Nómina reheguaOBOL",
-        "text": "Peteĩ sistema procesamiento nómina local rehegua oñemopuꞌavaꞌekue GnuCOBOL ndive, peteĩ libro mayor doble entrada SQLite rehegua ha peteĩ cuadro de mando operaciones Svelte rehegua. Oipuru matemática centavo entero rehegua, procesamiento nómina lote rehegua ha peteĩ panel loopback ojapo hag̃ua umi flujo de trabajo financiero explícito, prueba ha operativamente responsable.",
+        "title": "PayrollOBOL",
+        "text": "GnuCOBOL, SQLite doble entrada libro mayor ha Svelte operaciones panel ndive jarýi salario procesamiento sistema. Centavo aritmética, batch salario procesamiento ha loopback panel financiero flujo explicación.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft rehegua Mod",
-        "text": "Peteĩ Minecraft Mod omoĩva tembipuru personalizado, armadura, mob, bloque, dimensión ha hetaiteve mbaꞌeporã ñembosaráipe. Oñemopuꞌa tenonderãite Java ha Kotlin ndive, pytyvõ oguerekóva Minecraft versión 1.16 guive 26.2 peve.",
+        "text": "Minecraft mod herramienta, armadura, mobs, blocks, dimensión ha hetave oreko. Java ha Kotlin-pe, Minecraft 1.16 26.2 ñe'ẽ.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "Mbói Ñembosarái",
-        "text": "Peteĩ motor Snake ojepolivaꞌekue oñemopuꞌavaꞌekue Rust ha Macroquad rupive, oñemboheko WebAssembly-pe, ha oñembohasáva HTML5 Canvas rupive. Ombojoaju determinista 0,12 segundos ñembosarái ryru movimiento interpolado suave, fase ñembosarái explícita, control ombohováiva, choque ha ganancia-estado manejo, ha peteĩ prueba enfocada suite ocubri umi regla ñembosarái núcleo rehegua.",
+        "title": "Mbói ñembosarái",
+        "text": "Rust ha Macroquad ndive jarýi engine WebAssembly ha HTML5 Canvas jahecha.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "Proyecto Máquina Turing rehegua",
         "text": "Familia orekóva 30+ implementación Máquina Turing rehegua. Ojepuru ojehechauka hag̃ua turing completidad opaichagua lenguaje programación rehegua oñeinvestiga hag̃ua, koꞌetevéramo Tiger Programming Language-pe g̃uarã.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "Rust-pe oñemoñe'ẽ WebAssembly ha ojejapo powder-yvyku'i química laboratorio. Yvyku'i, y, lava, acero, calcio carburo térã sodium físico química ñorãirõ jahecha.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "Eiporavo Motor:",
     "tiger_code": "Código Tigre rehegua:",
     "run_tiger": "Eñani Tigre",
-    "output": "Osẽva: 1.1."
+    "output": "Osẽva: 1.1.",
+    "stop": "Epyta",
+    "program_input": "Programa jeike"
   },
   "tab": {
     "title": "Patrick Goodwin rehegua",
@@ -367,5 +516,8 @@
       "no_language_support": "Ndaipóri ñe’ẽ pytyvõ"
     }
   },
-  "logotext": "PATRICK ÑE’ẼTEKUAA"
+  "logotext": "PATRICK ÑE’ẼTEKUAA",
+  "repo_button": {
+    "label": "Ehecha código fuente GitHub-pe"
+  }
 }

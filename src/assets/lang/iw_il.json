@@ -4,21 +4,29 @@
     "home": "בַּיִת",
     "about": "עליי",
     "portfolio": "תִיק",
-    "projects": "פרויקטים באתר",
-    "tiger": "שפת הנמר",
-    "snake": "משחק נחש",
+    "projects": "פרויקטים נבחרים",
+    "tiger": "Tiger - שפת תכנות מותאמת אישית",
+    "snake": "משחק הנחש",
     "portfolio_translator": "מתרגם תיקים",
-    "formatter": "מעצב JSON ו-YAML",
+    "formatter": "בודק JSON ו-YAML",
     "contact": "צור איתי קשר",
     "home_description": "sys.root // סקירה כללית",
-    "about_description": "פרופיל מהנדס // ביו & מחסנית",
-    "portfolio_description": "קטלוג תוכנה // יצירות מוצגות",
-    "projects_description": "כלים ומהדרים אינטראקטיביים",
-    "tiger_description": "מהדר מותאם אישית ו-AST Visualizer",
+    "about_description": "פרופיל מהנדס // ביוגרפיה וטכנולוגיות",
+    "portfolio_description": "קטלוג תוכנה // עבודות נבחרות",
+    "projects_description": "כלים אינטראקטיביים ומהדרים",
+    "tiger_description": "מהדר מותאם אישית ומציג AST",
     "snake_description": "משחק ארקייד קלאסי / WASM",
-    "portfolio_translator_description": "100+ מטריצת שפה ו-i18n",
+    "portfolio_translator_description": "מטריצת 100+ שפות ו-i18n",
     "formatter_description": "מאמת וממיר תחביר",
-    "contact_description": "פתח שידור // צור קשר"
+    "contact_description": "שידור פתוח // צרו קשר",
+    "arcade": "ארקייד",
+    "alkalab": "Alkalab",
+    "rustcraft": "Rustcraft",
+    "suprememc": "SupremeMC Minecraft Mod",
+    "connect_four": "עץ שפות ארבעה בטור",
+    "alkalab_description": "סימולציית מעבדת כימיה / WASM",
+    "rustcraft_description": "משחק ווקסל בסגנון Minecraft / Rust ו-wgpu",
+    "suprememc_description": "תצוגת מוד Minecraft / Java"
   },
   "home": {
     "title": "מהנדס בכיר מחסנית מלאה | מוצר ומערכות",
@@ -35,17 +43,126 @@
     "contact_button": "צור איתי קשר",
     "about_button": "עליי",
     "featured": {
-      "kicker": "פרויקטים מומלצים",
-      "title": "עבודה נבחרה",
-      "description": "שישה פרויקטים המייצגים בצורה הטובה ביותר איך אני הופך רעיונות שאפתניים לתוכנה מלוטשת ועובדת.",
-      "view_project": "צפה בפרויקט",
-      "open_project": "פתח את Live Project",
-      "view_all": "חקור את תיק העבודות המלא",
+      "kicker": "פרויקטים נבחרים",
+      "title": "עבודות נבחרות",
+      "description": "ששה פרויקטים המייצגים בצורה הטובה ביותר כיצד אני הופך רעיונות שאפתניים לתוכנה מלוטשת ועובדת.",
+      "view_project": "לצפות בפרויקט",
+      "open_project": "לפתוח פרויקט חי",
+      "view_all": "לחקור את תיק העבודות המלא",
       "badges": {
         "saas": "SaaS",
-        "full_website": "אתר אינטרנט מלא",
+        "full_website": "אתר מלא",
         "available_here": "זמין כאן",
-        "minecraft_mod": "מיינקראפט מוד"
+        "minecraft_mod": "מוד Minecraft"
+      }
+    },
+    "atlas": {
+      "invitation_kicker": "פרספקטיבה אחרת על העבודה",
+      "invitation": "לחקור את האטלס ההנדסי",
+      "kicker": "תיק עבודות מלא / חשיבה מחוברת",
+      "title": "אטלס הנדסי",
+      "projects": "פרויקטים",
+      "technologies": "טכנולוגיות",
+      "connections": "קשרים",
+      "center": "אטלס הנדסי",
+      "filter_label": "קטגוריות פרויקטים",
+      "domains": {
+        "all": "כל העבודה",
+        "products": "מוצרים",
+        "systems": "מערכות",
+        "experiences": "חוויות"
+      },
+      "search": "לחפש פרויקט או טכנולוגיה",
+      "view_label": "תצוגת אטלס",
+      "map_view": "תצוגת מפה",
+      "map_navigation": "ניווט במפת תיק העבודות",
+      "zoom_in": "הגדלה",
+      "zoom_out": "הקטנה",
+      "zoom_level": "רמת זום של המפה",
+      "fit_all": "להתאים את כל הפרויקטים",
+      "center_selected": "למרכז את הפרויקט הנבחר",
+      "all_technologies": "כל הטכנולוגיות",
+      "list_view": "תצוגת רשימה",
+      "pause": "להשהות את אנימציית האות",
+      "resume": "להמשיך את אנימציית האות",
+      "project_selector": "לחקור פרויקטים",
+      "inspector": "פרטי הפרויקט הנבחר",
+      "shared_stack": "טכנולוגיה משותפת",
+      "family_connection": "קשר פרויקט",
+      "portfolio_connection": "קשר תיק עבודות",
+      "families": {
+        "portfolio": "מרכז תיק עבודות",
+        "business": "יישומים עסקיים",
+        "minecraft": "SupremeMC & Minecraft",
+        "wasm": "פרויקטי WebAssembly",
+        "libraries": "ספריות סקריפטים",
+        "languages": "ניסויי שפה",
+        "automation": "כלי אוטומציה ונתונים",
+        "experience": "ניסיון מקצועי וחינוכי"
+      },
+      "browser_native": "יליד דפדפן / ללא שרת",
+      "no_results": "אין פרויקטים תואמים",
+      "no_selection": "לא נבחר פרויקט.",
+      "reset": "לנקות מסננים",
+      "engineering_lens": "פרספקטיבה הנדסית",
+      "connected_work": "עבודה מחוברת",
+      "open_live": "לפתוח פרויקט חי",
+      "open_project": "לחקור פרויקט",
+      "footer": "תחומים שונים. פרקטיקה הנדסית אחת מחוברת.",
+      "contact": "בואו נבנה את מה שבא אחר כך",
+      "skills": {
+        "yaml": "YAML",
+        "julia": "Julia",
+        "objectivec": "Objective-C",
+        "react": "React",
+        "node": "Node.js",
+        "pipelines": "צינורות נתונים",
+        "angular": "Angular",
+        "access": "בקרת גישה",
+        "dotnet": ".NET",
+        "sql": "SQL",
+        "testing": "בדיקות",
+        "cobol": "COBOL",
+        "svelte": "Svelte",
+        "interop": "יכולת פעולה הדדית",
+        "go": "Go",
+        "wasm": "WebAssembly",
+        "accessibility": "נגישות",
+        "python": "Python"
+      },
+      "stories": {
+        "takeoff_engine": {
+          "summary": "גיליונות לא עקביים נכנסים. אומדני בנייה והצעות מוכנות ללקוח יוצאים. מוצר SaaS שנבנה סביב זרימת העבודה האמיתית של הקבלן.",
+          "lens": "ייבוא גמיש דורש מודל פנימי קפדני: קבלת פורמטים נוספים לא צריכה להחליש את כללי החישוב שהצעה תלויה בהם."
+        },
+        "inventory_register": {
+          "summary": "זרימת עבודה של נקודת מכירה עם Angular ו-Node.js המחברת משתמשים מאומתים, דיוק מלאי וזרימת תשלום מדומה.",
+          "lens": "קופה היא יותר ממסך תשלום. תפקידים, שינויי מלאי ומצבי תשלום זקוקים לגבולות ברורים כדי לשמור על זרימת העבודה אחראית."
+        },
+        "grocery_app": {
+          "summary": "יישום .NET 9 Blazor עם גבולות בקר, שירות ומאגר, התמדה של Entity Framework Core וסט בדיקות מקיף.",
+          "lens": "הפרדה זוכה במקומה כאשר ניתן לבדוק חוקים עסקיים ללא תלות בממשק ובשכבת ההתמדה."
+        },
+        "payrollobol": {
+          "summary": "עיבוד שכר של GnuCOBOL פוגש פנקס כניסה כפולה של SQLite ולוח מחוונים תפעולי של Svelte.",
+          "lens": "נכונות פיננסית מתחילה בייצוג: חשבון באגורות שלמות ורישומים מאוזנים הופכים את תנועת הכסף למפורשת."
+        },
+        "interop": {
+          "summary": "התייחסות בין-שפתית המכסה 15 שפות תכנות ו-18 תבניות ביצוע, החוקרת מה קורה בגבולות זמן הריצה.",
+          "lens": "החלק הקשה הוא החוזה בין זמני הריצה: החלפת נתונים, התנהגות תהליכים וביצוע ניתן לשחזור חשובים יותר מתחביר."
+        },
+        "formatter": {
+          "summary": "מנוע ניתוח Go אמיתי שהידור ל-WebAssembly. אימות ועיצוב JSON ו-YAML פועלים מקומית בדפדפן.",
+          "lens": "העברת המנתח לדפדפן מחליפה מטען לקוח גדול יותר בעיבוד מקומי, ניידות ופחות תלות בשרת."
+        },
+        "portfolio_website": {
+          "summary": "האתר שבו אתם נמצאים: תיק עבודות React עם 100+ שפות, אינטראקציות נגישות וכלי WebAssembly פועלים.",
+          "lens": "פריסה סטטית לא חייבת להיות חוויה סטטית. אינטראקציות עשירות יכולות לחיות בצד הלקוח ללא שרת יישומים."
+        },
+        "biblioteca": {
+          "summary": "צינור לוקליזציה ב-Python שהופך מקור תוכן מובנה אחד לתיק עבודות זמין ב-100+ שפות.",
+          "lens": "הגעה גלובלית היא בעיית תחזוקת נתונים בדיוק כמו בעיית תרגום. מקור אמת אחד שומר על שינויי תוכן ניתנים לניהול."
+        }
       }
     }
   },
@@ -94,7 +211,25 @@
       "title": "מיומנויות טכניות",
       "header1": "שפות תכנות",
       "header2": "מסגרות וספריות",
-      "header3": "כלים וטכנולוגיות"
+      "header3": "כלים וטכנולוגיות",
+      "technologies": "טכנולוגיות",
+      "search_label": "סינון",
+      "search_placeholder": "לסנן מיומנויות…",
+      "clear_search": "לנקות מסנן",
+      "no_matches": "אין מיומנויות התואמות למסנן שלך.",
+      "works": "עבודות",
+      "experience": "ניסיון",
+      "professional": "מקצועי",
+      "education": "השכלה",
+      "paired_with": "משויך לעיתים קרובות ל",
+      "summary_professional": "נעשה בו שימוש מקצועי ב-{items}.",
+      "summary_education": "נלמד ויושם ב-{items}.",
+      "summary_projects": "יושם מעשית ב-{items}.",
+      "summary_projects_also": "יושם גם ב-{items}.",
+      "and_more": "עוד",
+      "scroll_more": "גללו לעוד עבודות",
+      "show_less": "להראות פחות",
+      "no_samples": "חלק מערכת הכלים שלי. אשמח להסביר כיצד השתמשתי בו."
     },
     "services": {
       "title": "השירותים שלי",
@@ -112,6 +247,13 @@
           "text": "אני בונה עם המציאות שלאחר ההשקה במבט: סודות שנשמרו מחוץ לשליטת המקור, נתיבי העברת מסד נתונים מפורשים, הרשאה מבוססת תפקידים, אימות בגבולות המערכת, מבחנים אוטומטיים, מודעות ל-CI/CD וצפייה מעשית. אלה הפרטים שהופכים אב טיפוס לתוכנה אמינה."
         }
       ]
+    },
+    "certifications": {
+      "title": "רישיונות והסמכות",
+      "credential": "הסמכה",
+      "issued_by": "הונפק על ידי",
+      "issued": "תאריך הנפקה",
+      "verify": "לאמת הסמכה"
     }
   },
   "portfolio": {
@@ -125,7 +267,7 @@
       },
       "connect_four": {
         "title": "חבר ארבע",
-        "text": "משפחה ענקית של למעלה מ-50 יישומים של המשחק Connect Four. פרויקט זה כולל הטמעות בלמעלה מ-30 שפות תכנות שונות, כולל Java, C++, Python, JavaScript ועוד. בנוסף, הוא כולל גם למעלה מ-20 מסגרות שונות או פורמטים אחרים, כולל React.js, Ruby on Rails, ASP.NET ועוד.",
+        "text": "משפחה ענקית של 90+ יישומים של משחק ארבעה בטור. הפרויקט מקיף 30+ שפות תכנות, כולל Java, C++, Python ו-JavaScript, יחד עם 50+ מסגרות, ספריות, זמני ריצה ומאגרי נתונים שונים, מ-React, Angular ו-Blazor ועד Django, Spring Boot, Phoenix, PostgreSQL ועוד.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -144,8 +286,8 @@
         "link": "https://github.com/pattygcoding/Restaurant-Inventory-Register"
       },
       "payrollobol": {
-        "title": "שכרOBOL",
-        "text": "מערכת מקומית לעיבוד שכר הבנויה עם GnuCOBOL, ספר חשבונות SQLite כפול, ולוח מחוונים של Svelte. הוא משתמש במתמטיקה של סנט שלמים, עיבוד שכר אצווה ולוח מחוונים של לולאה חוזרת כדי להפוך זרימות עבודה פיננסיות למפורשות, ניתנות לבדיקה וחשבון תפעולי.",
+        "title": "PayrollOBOL",
+        "text": "מערכת מקומית לעיבוד שכר שנבנתה עם GnuCOBOL, פנקס כניסה כפולה של SQLite ולוח מחוונים תפעולי של Svelte. היא משתמשת בחשבון באגורות שלמות, עיבוד שכר בקבוצות ולוח loopback כדי להפוך זרימות פיננסיות למפורשות, ניתנות לבדיקה ואחראיות תפעולית.",
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
@@ -220,12 +362,12 @@
       },
       "suprememc": {
         "title": "SupremeMC Minecraft Mod",
-        "text": "מוד של Minecraft שמוסיף למשחק כלים מותאמים אישית, שריון, אספסוף, בלוקים, מידות ועוד הרבה תכונות. נבנה בעיקר עם Java ו-Kotlin, עם תמיכה המשתרעת על גרסאות Minecraft 1.16 עד 26.2.",
+        "text": "מוד Minecraft שמוסיף למשחק כלים, שריון, מפלצות, בלוקים, ממדים ותכונות מותאמות רבות נוספות. נבנה בעיקר עם Java ו-Kotlin, ותומך בגרסאות Minecraft 1.16 עד 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "snake": {
-        "title": "משחק נחש",
-        "text": "מנוע סנייק מלוטש שנבנה עם Rust ו-Macroquad, הידור ל-WebAssembly ועובד באמצעות HTML5 Canvas. הוא משלב תקלות משחק דטרמיניסטיות של 0.12 שניות עם תנועה חלקה באינטרפולציה, שלבי משחק מפורשים, בקרות תגובה, טיפול בהתנגשות ומצב ניצחון, ומבחן ממוקד חבילה המכסה את כללי המשחק המרכזיים.",
+        "title": "משחק הנחש",
+        "text": "מנוע נחש מלוטש שנבנה עם Rust ו-Macroquad, הודר ל-WebAssembly ומוצג דרך HTML5 Canvas. הוא משלב פעימות משחק דטרמיניסטיות של 0.12 שניות עם תנועת אינטרפולציה חלקה, שלבי משחק ברורים, שליטה מגיבה, טיפול בהתנגשויות ומצבי ניצחון, וסט בדיקות ממוקד המכסה את כללי המשחק המרכזיים.",
         "link": "https://arcade.pattygcoding.com/snake"
       },
       "tiger_programming_language": {
@@ -242,6 +384,11 @@
         "title": "פרויקט מכונת טיורינג",
         "text": "משפחה של למעלה מ-30 יישומים של מכונת הטיורינג. משמש להדגמת שלמות הטיורינג עבור שפות תכנות שונות למחקר, במיוחד עבור שפת התכנות טייגר.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
+      },
+      "alkalab": {
+        "title": "Alkalab",
+        "text": "מעבדת כימיה של חול-אבקה שנבנתה ב-Rust והודרה ל-WebAssembly. צבעו חול, מים, לבה, פלדה, סידן קרביד או חתיכת נתרן וצפו בפיזיקה ובכימיה נלחמות: נתרן מתפוצץ במים, סידן קרביד פולט אצטילן, לבה הופכת חול לזכוכית, וצפיפות לבדה מפרידה שמן, כספית וחול. המנוע מריץ 32 חומרים ו-40 כללי תגובה הצהרתיים על מאגר תאים שטוח, ומציג פיקסלים ישירות מזיכרון ליניארי של wasm ללא העתקות לכל פריים.",
+        "link": "https://arcade.pattygcoding.com/alkalab"
       }
     }
   },
@@ -285,7 +432,9 @@
     "select_engine": "בחר מנוע:",
     "tiger_code": "קוד טייגר:",
     "run_tiger": "הפעל את טייגר",
-    "output": "תְפוּקָה:"
+    "output": "תְפוּקָה:",
+    "stop": "עצור",
+    "program_input": "קלט תוכנית"
   },
   "tab": {
     "title": "פטריק גודווין",
@@ -367,5 +516,8 @@
       "no_language_support": "אין תמיכה בשפה"
     }
   },
-  "logotext": "פטריק"
+  "logotext": "פטריק",
+  "repo_button": {
+    "label": "לצפות בקוד המקור ב-GitHub"
+  }
 }
