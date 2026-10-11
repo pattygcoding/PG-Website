@@ -61,7 +61,7 @@
 .theme-atmosphere__beach {
     position: absolute;
     inset: 0;
-    background: url("../../assets/images/white_background.png") 12% center / cover no-repeat;
+    background: var(--beach-texture) 12% center / cover no-repeat;
     opacity: 0.28;
     filter: saturate(1.2);
     -webkit-mask-image: linear-gradient(180deg, rgb(0 0 0 / 20%), #000 42%);

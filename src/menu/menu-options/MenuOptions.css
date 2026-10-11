@@ -20,7 +20,7 @@
 .atlas-menu__galaxy,
 .atlas-menu__coast { position: absolute; inset: 0; background-repeat: no-repeat; transition: opacity 1s ease; }
 .atlas-menu__galaxy { background-size: cover; background-position: 65% 45%; opacity: 0.64; }
-.atlas-menu__coast { background: url("../../assets/images/white_background.png") center / cover no-repeat; opacity: 0; }
+.atlas-menu__coast { background: var(--coast-texture) center / cover no-repeat; opacity: 0; }
 .atlas-menu__scenery::after {
     content: "";
     position: absolute;

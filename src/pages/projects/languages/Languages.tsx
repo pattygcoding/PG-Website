@@ -415,7 +415,7 @@ const Languages = () => {
                                                     }}
                                                 >
                                                     <Geographies
-                                                        geography={`${import.meta.env.BASE_URL || ""}/assets/maps/countries-50m.json`}
+                                                        geography={`${import.meta.env.BASE_URL || ""}assets/maps/countries-50m.json`}
                                                         stroke="#FFFFFF"
                                                         strokeWidth={0.5}
                                                     >
