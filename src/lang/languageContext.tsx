@@ -38,7 +38,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 				return;
 			}
 			try {
-				const module = await import(`@/assets/lang/${lang}.json`);
+				const module = await import(`../assets/lang/${lang}.json`);
 				if (cancelled) return;
 				setLanguageFile(module.default as LanguageMessages);
 				document.documentElement.lang = getLanguageTag(lang);

@@ -21,7 +21,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<Router basename={import.meta.env.BASE_URL}>
 			<ThemeBackground />
 			<a className="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
 			<ScrollToTop>

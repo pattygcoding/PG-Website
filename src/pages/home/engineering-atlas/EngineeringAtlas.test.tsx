@@ -4,21 +4,21 @@ import { act } from "react-dom/test-utils";
 import english from "../../../assets/lang/en_us.json";
 import EngineeringAtlas from "./EngineeringAtlas";
 
-jest.mock("@/lang/languageContext", () => ({ useLang: jest.fn() }));
-jest.mock("@/components/lang-aware-link", () => ({
+const { mockUseLang } = vi.hoisted(() => ({ mockUseLang: vi.fn() }));
+
+vi.mock("@/lang/languageContext", () => ({ useLang: mockUseLang }));
+vi.mock("@/components/lang-aware-link", () => ({
     LangAwareLink: ({ to, children, ...props }: { to: string; children?: React.ReactNode } & React.AnchorHTMLAttributes<HTMLAnchorElement>) => <a href={to} {...props}>{children}</a>,
 }));
-jest.mock("./AtlasCanvas", () => () => null);
-jest.mock("./AtlasMap", () => ({ children }: { children?: React.ReactNode }) => <div>{children}</div>);
-
-const { useLang } = require("@/lang/languageContext");
+vi.mock("./AtlasCanvas", () => ({ default: () => null }));
+vi.mock("./AtlasMap", () => ({ default: ({ children }: { children?: React.ReactNode }) => <div>{children}</div> }));
 
 test.each([true, false])("connected work defaults and toggles with mobile=%s", (mobile) => {
     const originalMatchMedia = window.matchMedia;
     const originalActEnvironment = global.IS_REACT_ACT_ENVIRONMENT;
     global.IS_REACT_ACT_ENVIRONMENT = true;
-    window.matchMedia = jest.fn(() => ({ matches: mobile })) as unknown as typeof window.matchMedia;
-    useLang.mockReturnValue({
+    window.matchMedia = vi.fn(() => ({ matches: mobile })) as unknown as typeof window.matchMedia;
+    mockUseLang.mockReturnValue({
         t: (key: string) =>
             key.split(".").reduce<unknown>(
                 (value, part) => (value && typeof value === "object" ? (value as Record<string, unknown>)[part] : undefined),
