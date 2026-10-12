@@ -120,20 +120,40 @@ const Tiger = () => {
 
 	// The Rust runtime answers input() through a SharedArrayBuffer, which browsers
 	// only expose to cross-origin-isolated pages. The dev server sends COOP/COEP;
-	// GitHub Pages cannot, so register a worker that adds them for /tiger and
-	// reload once. Without isolation the runtime still runs; input() just reports
-	// that no stream is connected.
+	// GitHub Pages cannot, so register a worker that adds them and reload once.
+	// Scope is "/", not "/tiger": the page is served by a single controlling
+	// worker, and that worker only sees requests whose URL is inside its scope.
+	// The runtime worker lives at /wasm/, which the same service worker has to
+	// cover so it can add the COEP header that a dedicated worker needs when its
+	// owning document is isolated. Without isolation the runtime still runs;
+	// input() just reports that no stream is connected.
 	useEffect(() => {
-		if (!window.isSecureContext || !("serviceWorker" in navigator) || window.crossOriginIsolated) return;
+		if (!window.isSecureContext || !("serviceWorker" in navigator)) return;
 		let cancelled = false;
-		navigator.serviceWorker.register("/coi-serviceworker.js", { scope: "/tiger" })
-			.then(() => navigator.serviceWorker.ready)
-			.then(() => {
-				if (cancelled || window.crossOriginIsolated || sessionStorage.getItem("tiger-coi-reload")) return;
+		const ensureIsolation = async () => {
+			const registrations = await navigator.serviceWorker.getRegistrations();
+			// An earlier "/tiger"-scoped registration cannot see the /wasm
+			// runtime files, so replace it with the "/"-scoped one.
+			const narrow = registrations.filter((registration) => new URL(registration.scope).pathname === "/tiger");
+			if (narrow.length) await Promise.all(narrow.map((registration) => registration.unregister()));
+
+			const root = registrations.find((registration) =>
+				new URL(registration.scope).pathname === "/" && registration.active);
+			if (!root) await navigator.serviceWorker.register("/coi-serviceworker.js", { scope: "/" });
+			await navigator.serviceWorker.ready;
+			if (cancelled) return;
+
+			if (!window.crossOriginIsolated) {
+				if (sessionStorage.getItem("tiger-coi-reload")) return;
 				sessionStorage.setItem("tiger-coi-reload", "1");
 				window.location.reload();
-			})
-			.catch(() => { /* Isolation is optional; input() degrades to "no stream". */ });
+				return;
+			}
+			// Already isolated: reload the runtime worker so it runs under the
+			// controller that can annotate its /wasm requests.
+			if (narrow.length) startWorker();
+		};
+		ensureIsolation().catch(() => { /* Isolation is optional; input() degrades to "no stream". */ });
 		return () => { cancelled = true; };
 	}, []);
 
