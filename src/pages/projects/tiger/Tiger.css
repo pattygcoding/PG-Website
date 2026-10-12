@@ -341,6 +341,23 @@
 .tiger-toolbar-actions { min-height: 56px; }
 .tiger-file-tab { min-height: 48px; flex-wrap: wrap; }
 
+.tiger-repo-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-top: 30px;
+}
+
+.tiger-repo-actions .repo-button {
+	margin-top: 0;
+}
+
+@media (max-width: 767px) {
+	.tiger-repo-actions {
+		margin-top: 24px;
+	}
+}
+
 .tiger-engine-status {
 	margin-left: 14px;
 	padding-left: 14px;

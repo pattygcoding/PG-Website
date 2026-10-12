@@ -32,7 +32,7 @@ My work connects engineering decisions to business outcomes. From a construction
     <td width="120"><img src="https://www.pattygcoding.com/assets/images/tiger.png" width="90" /></td>
     <td>
       <a href="https://www.pattygcoding.com/tiger"><strong>Tiger Programming Language</strong></a>: <code>Available Here</code><br />
-      A custom programming language and interpreter built in Go to explore language runtime design and execution behavior, compiled to WebAssembly and shipped as a real, inspectable product surface instead of a repo-only experiment.
+      A custom programming language and interpreter built in Rust to explore language runtime design and execution behavior, compiled to WebAssembly and shipped as a real, inspectable product surface instead of a repo-only experiment.
     </td>
   </tr>
   <tr>
