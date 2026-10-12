@@ -5,7 +5,7 @@ function tokens(source: string) {
 }
 
 test("all reserved words, literals, and built-ins", () => {
-	for (const text of "const var function class extends super this public private protected return if elif else while do for cfor cif celse in and or not div break continue switch case default try catch finally throw import as".split(" ")) {
+	for (const text of "const var function class extends super this public private protected return if elif else while do for in and or not div break continue switch match case default try catch finally throw import as".split(" ")) {
 		expect(tokens(text)).toEqual([{ text, kind: "keyword" }]);
 	}
 	for (const text of ["true", "false", "null"]) {
@@ -16,7 +16,7 @@ test("all reserved words, literals, and built-ins", () => {
 	}
 });
 
-test("module members are built-ins only after their module", () => {
+test("math and algo members are built-ins only after their module", () => {
 	for (const [module, members] of Object.entries(moduleMembers)) {
 		for (const member of members) {
 			expect(tokens(`${module}.${member}(1)`).slice(0, 3)).toEqual([
@@ -42,7 +42,7 @@ test("identifiers include Unicode and do not invent type keywords", () => {
 
 test("decimal and exponent numbers, operators, and punctuation", () => {
 	expect(tokens("12 3.5 1e2 2E-3 4e+").map(({ kind }) => kind)).toEqual(Array(5).fill("number"));
-	for (const text of "= += -= *= %= == != < <= > >= + - * / % ++ -- ** && || << >> & | ^ ~".split(" ")) {
+	for (const text of "= += -= *= %= == != < <= > >= + - * / % ++ -- ** && || ! << >> & | ^ ~".split(" ")) {
 		expect(tokens(text)).toEqual([{ text, kind: "operator" }]);
 	}
 	for (const text of "()[]{}:;,.") {
