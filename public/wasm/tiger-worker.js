@@ -2,7 +2,11 @@
 //
 // The page answers `input()` by writing into the shared buffer directly, because
 // a worker blocked in `Atomics.wait` cannot receive messages. See web/tiger.js.
-import { createRuntime } from "./tiger.js";
+// Classic worker: `importScripts` keeps it working on browsers without module
+// worker support. Bump the `?v=` tag when the runtime files change so clients
+// do not run a cached copy.
+importScripts("/wasm/tiger.js?v=2");
+const { createRuntime } = self.TigerRuntime;
 
 function resolveModule(importer, requested) {
   try {
@@ -38,7 +42,7 @@ let runtime = null;
 
 async function initialize() {
   runtime = await createRuntime({
-    url: "tiger.wasm",
+    url: "/wasm/tiger.wasm?v=2",
     output: (text) => self.postMessage({ type: "output", text }),
     requestInput: () => self.postMessage({ type: "input" }),
     resolveModule,

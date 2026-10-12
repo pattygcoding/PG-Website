@@ -38,7 +38,7 @@ const TEXT = 8;
  * @param {(importer: string, requested: string) => {path: string, error: string}} [options.resolveModule]
  * @param {(filename: string) => {source: string, error: string}} [options.loadModule]
  */
-export async function createRuntime({ url = "tiger.wasm", output = null, requestInput = null, resolveModule = null, loadModule = null } = {}) {
+async function createRuntime({ url = "tiger.wasm", output = null, requestInput = null, resolveModule = null, loadModule = null } = {}) {
   const encoder = new TextEncoder();
   const decoder = new TextDecoder();
   const shared = createSharedBuffer();
@@ -144,7 +144,7 @@ function runProgram(instance, encoder, decoder, source, filename = "examples/pla
  * The page's half of the input channel: writes a line into the shared buffer and
  * wakes the worker. `end()` reports end of input, as Ctrl+D does.
  */
-export function createInputChannel(shared) {
+function createInputChannel(shared) {
   if (!shared) return null;
   const encoder = new TextEncoder();
   const control = new Int32Array(shared, STATE, 2);
@@ -177,3 +177,8 @@ async function fetchModule(url) {
   if (!response.ok) throw new Error(`Runtime download failed (${response.status})`);
   return response.arrayBuffer();
 }
+
+// Classic script: expose the driver on the worker's global scope. Loading this
+// with `importScripts` keeps the worker working on browsers that lack module
+// worker support.
+self.TigerRuntime = { createRuntime, createInputChannel };
