@@ -6,6 +6,7 @@ import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
 import { tokenize } from "./highlight";
+import { createInputChannel, type InputChannel } from "./inputChannel";
 import "./Tiger.css";
 import "@/components/page-shell/PageShell.css";
 
@@ -48,6 +49,7 @@ const Tiger = () => {
 	const outputRef = useRef<HTMLPreElement>(null);
 	const inputRef = useRef<HTMLInputElement>(null);
 	const workerRef = useRef<Worker | null>(null);
+	const inputChannelRef = useRef<InputChannel | null>(null);
 
 	const isRunning = status === "running" || status === "input";
 	const isReady = status !== "loading" && status !== "unavailable";
@@ -75,7 +77,8 @@ const Tiger = () => {
 		workerRef.current?.terminate();
 		setStatus("loading");
 		setInputValue("");
-		const worker = new Worker("/wasm/tiger-worker.js");
+		inputChannelRef.current = null;
+		const worker = new Worker("/wasm/tiger-worker.js", { type: "module" });
 		workerRef.current = worker;
 		const fail = (message?: string) => {
 			if (workerRef.current !== worker) return;
@@ -86,6 +89,7 @@ const Tiger = () => {
 		worker.onmessage = ({ data }) => {
 			if (workerRef.current !== worker) return;
 			if (data.type === "ready") {
+				inputChannelRef.current = createInputChannel(data.shared);
 				setOutput((current) => current === "Loading engine..." ? "Engine loaded. Run code." : current);
 				setStatus("ready");
 			} else if (data.type === "output") {
@@ -107,7 +111,27 @@ const Tiger = () => {
 		return () => {
 			workerRef.current?.terminate();
 			workerRef.current = null;
+			inputChannelRef.current = null;
 		};
+	}, []);
+
+	// The Rust runtime answers input() through a SharedArrayBuffer, which browsers
+	// only expose to cross-origin-isolated pages. The dev server sends COOP/COEP;
+	// GitHub Pages cannot, so register a worker that adds them for /tiger and
+	// reload once. Without isolation the runtime still runs; input() just reports
+	// that no stream is connected.
+	useEffect(() => {
+		if (!window.isSecureContext || !("serviceWorker" in navigator) || window.crossOriginIsolated) return;
+		let cancelled = false;
+		navigator.serviceWorker.register("/coi-serviceworker.js", { scope: "/tiger" })
+			.then(() => navigator.serviceWorker.ready)
+			.then(() => {
+				if (cancelled || window.crossOriginIsolated || sessionStorage.getItem("tiger-coi-reload")) return;
+				sessionStorage.setItem("tiger-coi-reload", "1");
+				window.location.reload();
+			})
+			.catch(() => { /* Isolation is optional; input() degrades to "no stream". */ });
+		return () => { cancelled = true; };
 	}, []);
 
 	useEffect(() => {
@@ -136,11 +160,16 @@ const Tiger = () => {
 		const endOfInput = event.ctrlKey && (event.key === "d" || event.key === "D");
 		if (event.key !== "Enter" && !endOfInput) return;
 		event.preventDefault();
-		const text = endOfInput ? null : inputValue;
-		setOutput((current) => current + (endOfInput ? "^D\n" : `${text}\n`));
+		const channel = inputChannelRef.current;
+		if (endOfInput) {
+			setOutput((current) => current + "^D\n");
+			channel?.end();
+		} else {
+			setOutput((current) => current + `${inputValue}\n`);
+			channel?.write(inputValue);
+		}
 		setInputValue("");
 		setStatus("running");
-		workerRef.current?.postMessage({ type: "input", text });
 	};
 
 	const lineNumbers = code.split("\n").map((_, index) => index + 1);
@@ -194,9 +223,12 @@ const Tiger = () => {
 						<div className="page-eyebrow"><span>Tiger</span></div>
 						<h1>{t("tiger.title")}</h1>
 						<p>{t("tiger.description")}</p>
-						<RepoButton href={l.tiger} />
+						<div className="tiger-repo-actions">
+							<RepoButton href={l.tiger} />
+							<RepoButton href={l.tiger_legacy_go} label={t("tiger.legacy_repo")} variant="secondary" />
+						</div>
 				</header>
-				<div className="tiger-runtime-summary"><span>Go / WebAssembly</span><span>Interpreted</span><span>{tigerSamples.length} .tg</span></div>
+				<div className="tiger-runtime-summary"><span>Rust / WebAssembly</span><span>Interpreted</span><span>{tigerSamples.length} .tg</span></div>
 
 				<section className="tiger-workspace" aria-label={t("tiger.title")}>
 					<header className="tiger-toolbar">

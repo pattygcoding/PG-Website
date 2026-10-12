@@ -22,6 +22,25 @@
     box-shadow: 0 16px 36px -16px var(--repo-accent);
 }
 
+.repo-button--secondary {
+    color: var(--repo-accent);
+    background: color-mix(in srgb, var(--repo-accent) 14%, transparent);
+    border-color: color-mix(in srgb, var(--repo-accent) 42%, transparent);
+    box-shadow: none;
+}
+
+.repo-button--secondary:hover,
+.repo-button--secondary:focus-visible {
+    color: var(--repo-accent);
+    background: color-mix(in srgb, var(--repo-accent) 24%, transparent);
+    border-color: var(--repo-accent);
+    box-shadow: none;
+}
+
+.repo-button--secondary .repo-button__icon {
+    background: color-mix(in srgb, var(--repo-accent) 16%, transparent);
+}
+
 .repo-button__icon {
     width: 44px;
     height: 44px;

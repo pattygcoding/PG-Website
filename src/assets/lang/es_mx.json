@@ -126,6 +126,7 @@
         "svelte": "Svelte",
         "interop": "Interoperabilidad",
         "go": "Go",
+        "rust": "Rust",
         "wasm": "WebAssembly",
         "accessibility": "Accesibilidad",
         "python": "Python"
@@ -372,7 +373,7 @@
       },
       "tiger_programming_language": {
         "title": "Lenguaje de programación tigre",
-        "text": "Un lenguaje de programación personalizado y un intérprete integrado en Go para explorar el diseño del tiempo de ejecución del lenguaje, el comportamiento de ejecución y las compensaciones de rendimiento. Compilarlo en WebAssembly e integrarlo en el portafolio crea una superficie de producto real e inspeccionable para ingeniería a nivel de sistemas en lugar de dejar el trabajo como un simple proceso. Experimento de solo repositorio.",
+        "text": "Un lenguaje de programación personalizado y un intérprete integrado en Rust para explorar el diseño del tiempo de ejecución del lenguaje, el comportamiento de ejecución y las compensaciones de rendimiento. El intérprete original de Go se conserva como una implementación heredada. Compilarlo en WebAssembly e integrarlo en el portafolio crea una superficie de producto real e inspeccionable para ingeniería a nivel de sistemas en lugar de dejar el trabajo como un simple proceso. Experimento de solo repositorio.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -426,7 +427,8 @@
   },
   "tiger": {
     "title": "Idioma del tigre",
-    "description": "Tiger es un lenguaje de programación personalizado y un intérprete de Go creado para explorar la arquitectura del tiempo de ejecución, la semántica del lenguaje y las compensaciones de rendimiento. La compilación del intérprete en WebAssembly convierte el funcionamiento de los sistemas en un producto interactivo basado en navegador: los usuarios pueden ejecutar programas directamente mientras el tiempo de ejecución sigue siendo portátil. y aislado de la aplicación host.",
+    "legacy_repo": "Ver la implementación heredada en Go",
+    "description": "Tiger es un lenguaje de programación personalizado y un intérprete de Rust creado para explorar la arquitectura del tiempo de ejecución, la semántica del lenguaje y las compensaciones de rendimiento. El intérprete original de Go sigue disponible como una implementación heredada. La compilación del intérprete en WebAssembly convierte el funcionamiento de los sistemas en un producto interactivo basado en navegador: los usuarios pueden ejecutar programas directamente mientras el tiempo de ejecución sigue siendo portátil. y aislado de la aplicación host.",
     "more_info1": "Para obtener más información, consulte el archivo LÉAME en el",
     "more_info2": "Repositorio GitHub del lenguaje de programación Tiger.",
     "select_engine": "Seleccionar motor:",
