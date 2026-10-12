@@ -18,6 +18,10 @@
 // server sends COOP and COEP. Without it `input()` reports that no input stream
 // is connected, exactly as the native runtime does.
 
+// `importScripts` runs this file in the worker's global scope, so the whole body
+// is wrapped in an IIFE: top-level declarations would otherwise collide with the
+// worker's own (for example its `const { createRuntime } = self.TigerRuntime`).
+(function () {
 const IMPORT_MODULE = "tiger";
 /** The shared input region; it caps one line the way output is capped. */
 const INPUT_BYTES = 1 << 20;
@@ -182,3 +186,4 @@ async function fetchModule(url) {
 // with `importScripts` keeps the worker working on browsers that lack module
 // worker support.
 self.TigerRuntime = { createRuntime, createInputChannel };
+})();
