@@ -7,7 +7,7 @@ declare namespace Intl {
 	function getCanonicalLocales(locales: string | string[]): string[];
 }
 
-// React 18's act() reads this flag, which tests toggle via `global`.
+// React 19's act() reads this flag, which tests toggle via `global`.
 declare var IS_REACT_ACT_ENVIRONMENT: boolean;
 
 // WASM glue loaded from public/wasm_exec.js at runtime (Tiger and Formatter pages).

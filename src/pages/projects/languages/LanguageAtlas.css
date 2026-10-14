@@ -17,6 +17,7 @@
 .languages-page .zoom-controls { position: absolute; top: 62px; right: 14px; z-index: 4; display: flex; gap: 6px; }
 .languages-page .zoom-controls button { display: grid; place-items: center; width: 40px; height: 40px; padding: 0; border: 1px solid var(--page-line); border-radius: 4px; background: var(--bg-color); color: var(--text-color); font-size: 1.05rem; }
 .languages-page .zoom-controls button:hover { border-color: var(--page-accent); color: var(--page-accent); }
+.languages-page .zoom-controls button.is-active { border-color: var(--page-accent); color: var(--page-accent); }
 .languages-page .react-transform-wrapper, .languages-page .react-transform-component { width: 100% !important; }
 .languages-page .react-transform-wrapper { aspect-ratio: 16 / 9; cursor: grab; touch-action: none; }
 .languages-page .react-transform-component { height: 100% !important; }
@@ -26,7 +27,17 @@
 .languages-page .map-wrapper svg { display: block; width: 100%; height: 100%; shape-rendering: geometricPrecision; }
 .languages-page .map-wrapper :is(path, circle) { vector-effect: non-scaling-stroke; transition: fill 120ms ease; cursor: pointer; }
 .languages-page .map-wrapper circle:hover { fill: var(--accent-color); }
+/* react-simple-maps 5 dropped the object-form `style` prop (default/hover/pressed),
+   so each <Geography> exposes its hover/pressed fills as CSS custom properties and
+   the rules below apply them. Parsing the vars falls back to the accent colour. */
+.languages-page .map-wrapper [data-map-country] { outline: none; }
+.languages-page .map-wrapper [data-map-country]:hover { fill: var(--map-country-hover-fill, var(--accent-color)); cursor: pointer; }
+.languages-page .map-wrapper [data-map-country]:active { fill: var(--map-country-active-fill, var(--accent-color)); }
 .languages-page .map-wrapper [data-map-country]:focus-visible { outline: 2px solid var(--text-color) !important; outline-offset: 2px; }
+/* Country names are drawn inside the map itself (see Languages.tsx); their size and
+   halo width are computed per zoom step, so only the colours and the halo belong in
+   CSS. paint-order draws the stroke behind the glyphs instead of over them. */
+.languages-page .map-country-label-text { font-family: 'Space Grotesk', 'Sora', sans-serif; font-weight: 600; letter-spacing: 0.02em; fill: var(--text-color); stroke: var(--bg-color); paint-order: stroke; stroke-linejoin: round; pointer-events: none; }
 .languages-page .map-legend { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-top: 16px; }
 .languages-page .legend-item { display: flex; align-items: center; gap: 8px; font-size: 0.75rem; color: var(--page-muted); }
 .languages-page .legend-color { width: 10px; height: 10px; flex-shrink: 0; border: 1px solid var(--page-line); border-radius: 2px; }

@@ -1,6 +1,5 @@
-import React from "react";
+import React, { act } from "react";
 import { createRoot } from "react-dom/client";
-import { act } from "react-dom/test-utils";
 import { MemoryRouter } from "react-router-dom";
 import { LanguageProvider } from "@/lang/languageContext";
 import LinkedSkillsTable from "./LinkedSkillsTable";

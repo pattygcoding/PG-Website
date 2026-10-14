@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { HelmetProvider } from "react-helmet-async";
 import { FaPlay, FaStop } from "react-icons/fa";
 import { RepoButton } from "@/components/repo-button";
 import { Tab } from "@/components/tab";
@@ -239,7 +238,7 @@ const Tiger = () => {
 	const highlightedCode = tokenize(code);
 
 	return (
-		<HelmetProvider>
+		<>
 			<main className="tiger-lab portfolio-shell">
 				<Tab title={t("tiger.title")} />
 				<header className="page-heading">
@@ -358,7 +357,7 @@ const Tiger = () => {
 					</div>
 				</section>
 			</main>
-		</HelmetProvider>
+		</>
 	);
 };
 

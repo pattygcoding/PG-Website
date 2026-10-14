@@ -1,12 +1,11 @@
 import React from "react";
-import { HelmetProvider } from "react-helmet-async";
 import { Container } from "react-bootstrap";
 import { Tab } from "@/components/tab";
 import "./Error.css";
 
 const Error = () => {
 	return (
-		<HelmetProvider>
+		<>
 			<Tab title="Something went wrong" />
 			<main className="error-shell" aria-labelledby="error-title">
 				<Container>
@@ -19,7 +18,7 @@ const Error = () => {
 					</div>
 				</Container>
 			</main>
-		</HelmetProvider>
+		</>
 	);
 };
 

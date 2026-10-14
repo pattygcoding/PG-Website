@@ -1,15 +1,236 @@
-import React, { useEffect, useRef, useState } from "react";
-import { HelmetProvider } from "react-helmet-async";
-import { FiGlobe, FiMinus, FiPlus, FiRefreshCw, FiZap } from "react-icons/fi";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { FiGlobe, FiMinus, FiPlus, FiRefreshCw, FiType, FiZap } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
+import type { CssVariables } from "@/types/css";
 import ReactCountryFlag from "react-country-flag";
 import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import { TransformWrapper, TransformComponent, useTransformEffect } from "react-zoom-pan-pinch";
+import type { GeoProjection } from "d3-geo";
 import langMapData from "@/assets/maps/lang_map.json";
 import islandMarkers from "@/assets/maps/island_markers.json";
+import {
+    LABEL_FONT_PX,
+    LABEL_ISLAND_MIN_SCALE,
+    MAP_HEIGHT,
+    MAP_WIDTH,
+    isCountryLabelVisible,
+    labelFontSizeForScale,
+    labelPointFor,
+    pixelsPerMapUnit,
+    quantizeLabelScale,
+} from "./mapLabels";
 import "@/components/page-shell/PageShell.css";
 import "./LanguageAtlas.css";
+
+interface CountryLanguage { code: string; name: string; nativeName: string; iso: string; country: string; }
+interface CountryRecord { name: string; iso2: string; iso3: string; languages: string[]; }
+interface LanguageRecord { name: string; nativeName: string; iso: string; country: string; }
+// react-simple-maps 5 types GeoJSON `properties` as Record<string, unknown> | null.
+interface GeoFeature { properties?: Record<string, unknown> | null; rsmKey?: string; geometry?: unknown; }
+interface IslandMarker { code: string; name: string; }
+
+// react-simple-maps types the render prop's `path` as the path-string generator,
+// but it hands over a full d3.geoPath instance, which also measures shapes.
+type GeoPathExtras = {
+    area: (object: unknown) => number;
+};
+
+const COUNTRIES = langMapData.countries as Record<string, CountryRecord>;
+const LANGUAGES = langMapData.languages as Record<string, LanguageRecord>;
+const COUNTRY_NAME_MAPPING = langMapData.countryNameMapping as Record<string, string>;
+
+// Group languages by country for easy lookup (filtering out any unmapped or missing language codes)
+const countryLanguages = Object.keys(COUNTRIES).reduce<Record<string, CountryLanguage[]>>((acc, countryCode) => {
+    const country = COUNTRIES[countryCode];
+    acc[countryCode] = (country.languages || [])
+        .map((langCode) => {
+            const langObj = LANGUAGES[langCode];
+            if (!langObj) return null;
+            return {
+                code: langCode,
+                ...langObj
+            };
+        })
+        .filter((entry): entry is CountryLanguage => entry !== null);
+    return acc;
+}, {});
+
+// Islands are drawn as dots rather than shapes and named by the marker layer, so the
+// country layer skips them — otherwise Kiribati, which straddles the antimeridian,
+// would be labelled at the far edge of the map as well as on its marker.
+const ISLAND_MARKER_CODES = new Set(islandMarkers.map((marker) => marker.code));
+
+// A TopoJSON feature can carry its name under several different keys.
+const getGeoName = (geo: GeoFeature): string | null => {
+    const name = geo.properties?.NAME ?? geo.properties?.NAME_EN ?? geo.properties?.name ?? geo.properties?.ADMIN;
+    return typeof name === "string" ? name : null;
+};
+
+const resolveCountryISO2 = (geoOrName: string | GeoFeature | null | undefined): string | null => {
+    if (!geoOrName) return null;
+    const countryName = typeof geoOrName === "string"
+        ? geoOrName
+        : getGeoName(geoOrName);
+
+    if (!countryName) return null;
+
+    if (COUNTRY_NAME_MAPPING[countryName]) {
+        return COUNTRY_NAME_MAPPING[countryName];
+    }
+
+    const variations = [
+        countryName.replace(/\s+/g, ''),
+        countryName.replace(' and ', ' & '),
+        countryName.replace(' & ', ' and '),
+        countryName.replace('Rep.', 'Republic'),
+        countryName.replace('Republic', 'Rep.'),
+        countryName.replace('Democratic Republic of the', 'DRC'),
+        countryName.replace('United States', 'USA'),
+        countryName.replace('United Kingdom', 'UK')
+    ];
+
+    for (const variation of variations) {
+        if (COUNTRY_NAME_MAPPING[variation]) {
+            return COUNTRY_NAME_MAPPING[variation];
+        }
+    }
+
+    // Direct lookup by ISO2 code if countryName matches a code
+    const upper = countryName.toUpperCase();
+    if (COUNTRIES[upper]) return upper;
+
+    // Search by country name in COUNTRIES object
+    for (const [code, c] of Object.entries(COUNTRIES)) {
+        if (c.name && c.name.toLowerCase() === countryName.toLowerCase()) {
+            return code;
+        }
+    }
+
+    return null;
+};
+
+// Country names are drawn inside the map so that they pan and zoom with it, while
+// the caller converts LABEL_FONT_PX into map units to keep their on-screen size
+// constant. The halo (paint-order, see LanguageAtlas.css) keeps them readable over
+// land and sea alike, and they never swallow pointer events meant for the country.
+const CountryLabelText = ({ text, fontSize, offset = 0 }: { text: string; fontSize: number; offset?: number }) => (
+    <text
+        className="map-country-label-text"
+        aria-hidden="true"
+        textAnchor="middle"
+        dominantBaseline="central"
+        y={offset}
+        style={{ fontSize, strokeWidth: fontSize * 0.3 }}
+    >
+        {text}
+    </text>
+);
+
+type LabelAnchor = { x: number; y: number; text: string; key: string };
+
+/**
+ * Anchor and text for a country's label, or null when the shape has no usable name
+ * or its centre falls outside the map canvas. `labelPointFor` explains how the
+ * anchor itself is chosen.
+ */
+const labelAnchorFor = (
+    geo: GeoFeature,
+    projection: GeoProjection,
+    anchorCache: WeakMap<object, LabelAnchor | null>
+): LabelAnchor | null => {
+    const cached = anchorCache.get(geo as object);
+    if (cached !== undefined) return cached;
+
+    const iso2 = resolveCountryISO2(geo);
+    const point = labelPointFor(geo.geometry, projection);
+    // Prefer the name used elsewhere on the page: it is shorter than some TopoJSON
+    // names ("United States" rather than "United States of America").
+    const text = (iso2 ? COUNTRIES[iso2]?.name : "") || getGeoName(geo) || "";
+    const onCanvas = point !== null && point[0] >= 0 && point[0] <= MAP_WIDTH && point[1] >= 0 && point[1] <= MAP_HEIGHT;
+
+    const anchor = point && text && onCanvas ? { x: point[0], y: point[1], text, key: geo.rsmKey ?? text } : null;
+    anchorCache.set(geo as object, anchor);
+    return anchor;
+};
+
+/** On-screen size of a country in map units², which decides whether it earns a label. */
+const countryAreaFor = (geo: GeoFeature, geoPath: GeoPathExtras, areaCache: WeakMap<object, number>): number => {
+    const cached = areaCache.get(geo as object);
+    if (cached !== undefined) return cached;
+    const area = geoPath.area(geo);
+    areaCache.set(geo as object, area);
+    return area;
+};
+
+const MapLabels = React.memo(function MapLabels({ geographies, path, projection, visible, pixelsPerMapUnit }: {
+    geographies: readonly GeoFeature[];
+    path: unknown;
+    projection: GeoProjection;
+    visible: boolean;
+    pixelsPerMapUnit: number;
+}) {
+    const [zoomStep, setZoomStep] = useState(1);
+    // Areas and anchors depend on the projection and geometry, never on the zoom, and
+    // react-simple-maps memoises the feature objects, so they are measured once per
+    // shape instead of on every frame.
+    const areaCache = useMemo(() => new WeakMap<object, number>(), []);
+    const anchorCache = useMemo(() => new WeakMap<object, LabelAnchor | null>(), []);
+
+    // The map reports every zoom *and pan* frame. Only the snapped step is stored,
+    // and React bails out while the gesture stays inside one step — so panning costs
+    // nothing and a zoom re-renders these labels a few dozen times over its whole
+    // range, rather than on every frame.
+    useTransformEffect(useCallback((ref) => {
+        setZoomStep(quantizeLabelScale(ref.state?.scale || 1));
+    }, []));
+
+    if (!visible) return null;
+
+    // A map unit is one SVG user unit, so this is how many CSS pixels one covers
+    // right now; the label maths below is all expressed in CSS pixels.
+    const screenScale = Math.max(zoomStep * pixelsPerMapUnit, 0.0001);
+    const fontSize = labelFontSizeForScale(screenScale);
+    const geoPath = path as GeoPathExtras;
+    const nodes: React.ReactNode[] = [];
+    const labelled = new Set<string>();
+
+    for (const geo of geographies) {
+        const iso2 = resolveCountryISO2(geo);
+        // A country with no translated pages has nothing to claim, and two shapes can
+        // represent one country (Somaliland resolves to Somalia), so only the first
+        // one gets the name.
+        if (!iso2 || ISLAND_MARKER_CODES.has(iso2) || !countryLanguages[iso2]?.length || labelled.has(iso2)) continue;
+        // Measuring areas is cheap and cached; anchors are only worked out for the
+        // countries that actually earn a label at this zoom.
+        if (!isCountryLabelVisible(countryAreaFor(geo, geoPath, areaCache), screenScale)) continue;
+        const anchor = labelAnchorFor(geo, projection, anchorCache);
+        if (!anchor) continue;
+        labelled.add(iso2);
+        nodes.push(
+            <g key={`label-${anchor.key}`} className="map-country-label" transform={`translate(${anchor.x}, ${anchor.y})`}>
+                <CountryLabelText text={anchor.text} fontSize={fontSize} />
+            </g>
+        );
+    }
+
+    // Island nations are dots rather than shapes, so they only earn names once the
+    // map is zoomed far enough in for their labels to stay clear of each other.
+    if (zoomStep >= LABEL_ISLAND_MIN_SCALE) {
+        const offset = -(LABEL_FONT_PX + 4) / screenScale;
+        for (const marker of islandMarkers) {
+            const point = projection(marker.coordinates as [number, number]);
+            if (!point) continue;
+            nodes.push(
+                <g key={`label-island-${marker.code}`} className="map-country-label" transform={`translate(${point[0]}, ${point[1]})`}>
+                    <CountryLabelText text={COUNTRIES[marker.code]?.name || marker.name} fontSize={fontSize} offset={offset} />
+                </g>
+            );
+        }
+    }
+
+    return <>{nodes}</>;
+});
 
 const Languages = () => {
     const { t } = useLang();
@@ -27,11 +248,17 @@ const Languages = () => {
     const [mapScale, setMapScale] = useState(1);
     const [focusedCountry, setFocusedCountry] = useState<string | null>(null);
     const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.innerWidth <= 768);
+    const [showLabels, setShowLabels] = useState(true);
+    const [mapWidth, setMapWidth] = useState(MAP_WIDTH);
 
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768);
+            // Labels are sized in CSS pixels, so they depend on how wide the map is
+            // actually rendered rather than on the map's own coordinate space.
+            setMapWidth(mapContainerRef.current?.clientWidth || MAP_WIDTH);
         };
+        handleResize();
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, []);
@@ -65,75 +292,12 @@ const Languages = () => {
         };
     }, [tooltip.visible]);
 
-    // Get data from imported JSON
-    interface CountryLanguage { code: string; name: string; nativeName: string; iso: string; country: string; }
-    interface CountryRecord { name: string; iso2: string; iso3: string; languages: string[]; }
-    interface LanguageRecord { name: string; nativeName: string; iso: string; country: string; }
-    interface GeoFeature { properties?: Record<string, string>; rsmKey?: string; }
-    interface IslandMarker { code: string; name: string; }
+    // Labels are sized in CSS pixels, so they need to know how wide the map is
+    // actually rendered rather than where the map's own coordinate space ends.
+    const pxPerMapUnit = pixelsPerMapUnit(mapWidth);
+    const labelsToggleLabel = t(showLabels ? "languages.world_map.country_names.hide" : "languages.world_map.country_names.show")
+        || (showLabels ? "Hide country names" : "Show country names");
 
-    const COUNTRIES = langMapData.countries as Record<string, CountryRecord>;
-    const LANGUAGES = langMapData.languages as Record<string, LanguageRecord>;
-    const COUNTRY_NAME_MAPPING = langMapData.countryNameMapping as Record<string, string>;
-
-    // Group languages by country for easy lookup (filtering out any unmapped or missing language codes)
-    const countryLanguages = Object.keys(COUNTRIES).reduce<Record<string, CountryLanguage[]>>((acc, countryCode) => {
-        const country = COUNTRIES[countryCode];
-        acc[countryCode] = (country.languages || [])
-            .map((langCode) => {
-                const langObj = LANGUAGES[langCode];
-                if (!langObj) return null;
-                return {
-                    code: langCode,
-                    ...langObj
-                };
-            })
-            .filter((entry): entry is CountryLanguage => entry !== null);
-        return acc;
-    }, {});
-
-    const resolveCountryISO2 = (geoOrName: string | GeoFeature | null | undefined): string | null => {
-        if (!geoOrName) return null;
-        const countryName = typeof geoOrName === "string" 
-            ? geoOrName 
-            : (geoOrName.properties?.NAME || geoOrName.properties?.NAME_EN || geoOrName.properties?.name || geoOrName.properties?.ADMIN);
-        
-        if (!countryName) return null;
-
-        if (COUNTRY_NAME_MAPPING[countryName]) {
-            return COUNTRY_NAME_MAPPING[countryName];
-        }
-
-        const variations = [
-            countryName.replace(/\s+/g, ''),
-            countryName.replace(' and ', ' & '),
-            countryName.replace(' & ', ' and '),
-            countryName.replace('Rep.', 'Republic'),
-            countryName.replace('Republic', 'Rep.'),
-            countryName.replace('Democratic Republic of the', 'DRC'),
-            countryName.replace('United States', 'USA'),
-            countryName.replace('United Kingdom', 'UK')
-        ];
-
-        for (const variation of variations) {
-            if (COUNTRY_NAME_MAPPING[variation]) {
-                return COUNTRY_NAME_MAPPING[variation];
-            }
-        }
-
-        // Direct lookup by ISO2 code if countryName matches a code
-        const upper = countryName.toUpperCase();
-        if (COUNTRIES[upper]) return upper;
-
-        // Search by country name in COUNTRIES object
-        for (const [code, c] of Object.entries(COUNTRIES)) {
-            if (c.name && c.name.toLowerCase() === countryName.toLowerCase()) {
-                return code;
-            }
-        }
-
-        return null;
-    };
 
     const getTooltipDataForCountry = (countryISO2: string | null, fallbackName?: string | null) => {
         const countryInfo = countryISO2 ? COUNTRIES[countryISO2] : null;
@@ -156,7 +320,7 @@ const Languages = () => {
     };
 
     const getCountryTooltipData = (geo: GeoFeature) => {
-        const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
+        const countryName = getGeoName(geo);
         const countryISO2 = resolveCountryISO2(geo);
         return getTooltipDataForCountry(countryISO2, countryName);
     };
@@ -195,7 +359,7 @@ const Languages = () => {
     };
 
     const showTooltipAt = (geo: GeoFeature, clientX: number, clientY: number) => {
-        const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
+        const countryName = getGeoName(geo);
         const countryISO2 = resolveCountryISO2(geo);
         showCountryTooltipAt(countryISO2, countryName, clientX, clientY);
     };
@@ -331,7 +495,7 @@ const Languages = () => {
     };
 
     return (
-        <HelmetProvider>
+        <>
             <main className="languages-page portfolio-shell">
                 <Tab title={t("languages.title") || "Portfolio Translator"} />
 
@@ -395,6 +559,7 @@ const Languages = () => {
                                             <button type="button" onClick={() => zoomIn()} aria-label={t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"} title={t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"}><FiPlus /></button>
                                             <button type="button" onClick={() => zoomOut()} aria-label={t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"} title={t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"}><FiMinus /></button>
                                             <button type="button" onClick={() => resetTransform()} aria-label={t("languages.world_map.zoom_controls.reset") || "Reset"} title={t("languages.world_map.zoom_controls.reset") || "Reset"}><FiRefreshCw /></button>
+                                            <button type="button" className={`map-labels-toggle${showLabels ? " is-active" : ""}`} onClick={() => setShowLabels((previous) => !previous)} aria-pressed={showLabels} aria-label={labelsToggleLabel} title={labelsToggleLabel}><FiType /></button>
                                         </div>
                                         <TransformComponent>
                                             <div className="map-wrapper">
@@ -403,8 +568,8 @@ const Languages = () => {
                                                     aria-label={t("languages.world_map.title")}
                                                     aria-describedby="map-keyboard-help"
                                                     projection="geoMercator"
-                                                    width={1000}
-                                                    height={562}
+                                                    width={MAP_WIDTH}
+                                                    height={MAP_HEIGHT}
                                                     projectionConfig={{
                                                         scale: 140,
                                                     }}
@@ -419,8 +584,8 @@ const Languages = () => {
                                                         stroke="#FFFFFF"
                                                         strokeWidth={0.5}
                                                     >
-                                                        {({ geographies }) =>
-                                                            geographies.map((geo, index) => {
+                                                        {({ geographies, path, projection }) => {
+                                                            const shapes = geographies.map((geo, index) => {
                                                                 const countryISO2 = resolveCountryISO2(geo);
                                                                 const countryName = geo.properties?.NAME || geo.properties?.NAME_EN || geo.properties?.name || geo.properties?.ADMIN;
                                                                 const hasLanguages = Boolean(countryISO2 && countryLanguages[countryISO2] && countryLanguages[countryISO2].length > 0);
@@ -460,14 +625,30 @@ const Languages = () => {
                                                                             handleMapCountryClick(geo, event);
                                                                         }}
                                                                         style={{
-                                                                            default: { outline: "none" },
-                                                                            hover: { fill: hasLanguages ? "var(--accent-color)" : "#222428", outline: "none", cursor: "pointer" },
-                                                                            pressed: { fill: hasLanguages ? "var(--accent-color)" : "#1a1b1e", outline: "none" }
-                                                                        }}
+                                                                            "--map-country-hover-fill": hasLanguages ? "var(--accent-color)" : "#222428",
+                                                                            "--map-country-active-fill": hasLanguages ? "var(--accent-color)" : "#1a1b1e"
+                                                                            // Hover/pressed fills come from LanguageAtlas.css (react-simple-maps 5 dropped the object style prop).
+                                                                        } as CssVariables}
                                                                     />
                                                                 );
-                                                            })
-                                                        }
+                                                            });
+                                                            // Names are drawn after every country so they always
+                                                            // sit on top of the shapes rather than under a neighbour.
+                                                            // MapLabels keeps its own zoom state, so zooming never
+                                                            // re-renders the 241 country shapes.
+                                                            return (
+                                                                <>
+                                                                    {shapes}
+                                                                    <MapLabels
+                                                                        geographies={geographies}
+                                                                        path={path}
+                                                                        projection={projection}
+                                                                        visible={showLabels}
+                                                                        pixelsPerMapUnit={pxPerMapUnit}
+                                                                    />
+                                                                </>
+                                                            );
+                                                        }}
                                                     </Geographies>
                                                     {islandMarkers.map((marker) => {
                                                         const hasLanguages = Boolean(countryLanguages[marker.code]);
@@ -596,7 +777,7 @@ const Languages = () => {
                     </div>
                 )}
 			</main>
-        </HelmetProvider>
+        </>
     );
 };
 

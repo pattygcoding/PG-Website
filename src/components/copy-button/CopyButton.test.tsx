@@ -1,6 +1,5 @@
-import React from "react";
+import React, { act } from "react";
 import { createRoot } from "react-dom/client";
-import { act } from "react-dom/test-utils";
 import CopyButton from "./CopyButton";
 
 test.each([true, false])("announces clipboard results (success: %s)", async (success) => {
