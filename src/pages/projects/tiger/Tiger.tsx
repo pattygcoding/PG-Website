@@ -80,7 +80,7 @@ const Tiger = () => {
 		// Classic worker (no `{ type: "module" }`) so older mobile browsers that
 		// lack module-worker support still run the engine. The `?v=` tag busts
 		// the GitHub Pages cache for the un-hashed runtime files.
-		const worker = new Worker("/wasm/tiger-worker.js?v=3");
+		const worker = new Worker("/wasm/tiger-worker.js?v=4");
 		workerRef.current = worker;
 		const fail = (message?: string) => {
 			if (workerRef.current !== worker) return;

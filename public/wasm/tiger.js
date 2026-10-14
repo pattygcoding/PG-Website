@@ -4,6 +4,9 @@
 // ABI, so this file replaces the Go toolchain's `wasm_exec.js`: it instantiates
 // the module, supplies the `tiger` imports, and streams output.
 //
+// Copied from the Tiger runtime's `web/tiger.js`; keep the runtime logic in sync
+// with that file, and follow its input path exactly.
+//
 // Input is the one place where the Rust runtime differs from the Go one. Go
 // parks the interpreter's goroutine while its event loop keeps delivering
 // messages, so the worker itself could receive the answer. Rust has no
@@ -14,9 +17,15 @@
 //   worker: postMessage({ type: "input" })  ->  Atomics.wait(...)
 //   page:   show the field, write the line into the buffer, Atomics.notify(...)
 //
-// `SharedArrayBuffer` needs a cross-origin-isolated page, so the playground
-// server sends COOP and COEP. Without it `input()` reports that no input stream
-// is connected, exactly as the native runtime does.
+// The worker copies the delivered bytes into WebAssembly memory and lets Rust
+// decode them there, so JavaScript never decodes the shared buffer: a browser
+// refuses that with "The provided ArrayBufferView value must not be shared",
+// because `TextDecoder.decode` is not declared `[AllowShared]`.
+//
+// `SharedArrayBuffer` needs a cross-origin-isolated page: the dev server sends
+// COOP and COEP, and `public/coi-serviceworker.js` adds them on GitHub Pages.
+// Without isolation `input()` reports that no input stream is connected, exactly
+// as the native runtime does.
 
 // `importScripts` runs this file in the worker's global scope, so the whole body
 // is wrapped in an IIFE: top-level declarations would otherwise collide with the
@@ -56,9 +65,8 @@ async function createRuntime({ url = "tiger.wasm", output = null, requestInput =
   let linePointer = 0;
   let lineCapacity = 0;
 
-  /** Copies `value` into a reusable block of module memory. */
-  function write(pointer, capacity, value) {
-    const bytes = encoder.encode(value);
+  /** Copies `bytes` into a reusable block of module memory. */
+  function writeBytes(pointer, capacity, bytes) {
     if (bytes.length > capacity) {
       if (pointer) instance.exports.tiger_free(pointer, capacity);
       capacity = Math.max(bytes.length, 256);
@@ -66,6 +74,11 @@ async function createRuntime({ url = "tiger.wasm", output = null, requestInput =
     }
     new Uint8Array(instance.exports.memory.buffer, pointer, bytes.length).set(bytes);
     return { pointer, capacity, length: bytes.length };
+  }
+
+  /** Copies `value`'s UTF-8 bytes into a reusable block of module memory. */
+  function write(pointer, capacity, value) {
+    return writeBytes(pointer, capacity, encoder.encode(value));
   }
 
   const imports = {
@@ -80,8 +93,11 @@ async function createRuntime({ url = "tiger.wasm", output = null, requestInput =
         requestInput();
         Atomics.wait(control, STATE, 0);
         if (Atomics.load(control, STATE) < 0) return -1;
-        const line = decoder.decode(sharedText.subarray(0, Atomics.load(control, LENGTH)));
-        const written = write(linePointer, lineCapacity, line);
+        // The delivered bytes are copied straight into module memory and Rust decodes
+        // them there. JavaScript must not decode the shared buffer itself: a browser
+        // refuses that with "The provided ArrayBufferView value must not be shared",
+        // because `TextDecoder.decode` is not declared `[AllowShared]`.
+        const written = writeBytes(linePointer, lineCapacity, sharedText.subarray(0, Atomics.load(control, LENGTH)));
         linePointer = written.pointer;
         lineCapacity = written.capacity;
         return written.length;
