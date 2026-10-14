@@ -1,5 +1,4 @@
 import React from "react";
-import { HelmetProvider } from "react-helmet-async";
 import { FiArrowUpRight, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
@@ -11,7 +10,7 @@ const Contact = () => {
 	const { t } = useLang();
 
 	return (
-		<HelmetProvider>
+		<>
 			<main className="contact-page portfolio-shell">
 				<Tab title={t("contact.title")} />
 				<header className="page-heading">
@@ -33,7 +32,7 @@ const Contact = () => {
 						</nav>
 				</section>
 			</main>
-		</HelmetProvider>
+		</>
 	);
 };
 

@@ -1,6 +1,5 @@
-import React from "react";
+import React, { act } from "react";
 import { createRoot } from "react-dom/client";
-import { act, Simulate } from "react-dom/test-utils";
 import { MemoryRouter } from "react-router-dom";
 import Menu from "./Menu";
 
@@ -54,7 +53,9 @@ test("previews hovered and keyboard-focused destinations without navigating", ()
 	renderMenu();
 	expect(container.querySelector(".atlas-menu__preview h2")!.textContent).toBe("menu.portfolio");
 	const about = container.querySelector('.atlas-menu__destination[href="/about"]')!;
-	act(() => Simulate.mouseEnter(about));
+	// react-dom/test-utils' Simulate was removed in React 19; a real bubbling
+	// mouseover is what drives React's synthetic onMouseEnter.
+	act(() => about.dispatchEvent(new MouseEvent("mouseover", { bubbles: true })));
 	expect(container.querySelector(".atlas-menu__preview h2")!.textContent).toBe("menu.about");
 	act(() => container.querySelector<HTMLElement>('.atlas-menu__destination[href="/contact"]')!.focus());
 	expect(container.querySelector(".atlas-menu__preview h2")!.textContent).toBe("menu.contact");
@@ -96,7 +97,9 @@ test("wraps Tab and Shift+Tab inside the menu", () => {
 });
 
 test("cleans up the scroll lock and preserves preexisting inert state", () => {
-	act(() => root.render(<MemoryRouter><Menu /><main {...{ inert: "" }}><button>Background</button></main></MemoryRouter>));
+	// React 19 renders the `inert` prop as a real attribute (it is typed as a
+	// boolean now), so the pre-existing inert element is expressed directly.
+	act(() => root.render(<MemoryRouter><Menu /><main inert><button>Background</button></main></MemoryRouter>));
 	click('[aria-label="Open menu"]');
 	click('[aria-label="Close menu"]');
 	expect(container.querySelector("main")!.hasAttribute("inert")).toBe(true);

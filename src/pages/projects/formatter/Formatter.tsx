@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { HelmetProvider } from "react-helmet-async";
 import { FaMagic } from "react-icons/fa";
 import { RepoButton } from "@/components/repo-button";
 import { Tab } from "@/components/tab";
@@ -181,7 +180,7 @@ const Formatter = () => {
 	};
 
 	return (
-		<HelmetProvider>
+		<>
 			<main className="formatter-page portfolio-shell">
 				<Tab title={t("formatter.title")} />
 				<header className="page-heading">
@@ -288,7 +287,7 @@ const Formatter = () => {
 					</div>
 				</section>
 			</main>
-		</HelmetProvider>
+		</>
 	);
 };
 

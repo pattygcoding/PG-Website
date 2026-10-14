@@ -1,5 +1,4 @@
 import React, { useMemo } from "react";
-import { HelmetProvider } from "react-helmet-async";
 import { FiArrowDown, FiArrowUpRight, FiMapPin } from "react-icons/fi";
 import { useLocation } from "react-router-dom";
 import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
@@ -33,7 +32,7 @@ const About = () => {
 	const skillNames = useMemo(() => Object.fromEntries([...s.languages, ...s.frameworks, ...s.other_technologies].map((skill) => [skill.id, skill.name])), []);
 
 	return (
-		<HelmetProvider>
+		<>
 			<main className="about-page">
 				<Tab title={t("about.title")} />
 				<header className="about-hero">
@@ -102,7 +101,7 @@ const About = () => {
 				</div>
 				<footer className="about-closing"><span>{t("home.atlas.footer")}</span><LangAwareLink to="/contact">{t("home.atlas.contact")}<FiArrowUpRight /></LangAwareLink></footer>
 			</main>
-		</HelmetProvider>
+		</>
 	);
 };
 

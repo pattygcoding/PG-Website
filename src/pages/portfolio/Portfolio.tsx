@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { HelmetProvider } from "react-helmet-async";
 import {
 	DropdownButton,
 	Dropdown,
@@ -136,7 +135,7 @@ const Portfolio = () => {
 	};
 
 	return (
-		<HelmetProvider>
+		<>
 			<main className="portfolio-page">
 				<Tab title={t("portfolio.title")} />
 				<header className="portfolio-hero">
@@ -215,7 +214,7 @@ const Portfolio = () => {
 				</section>
 				<footer className="portfolio-closing"><LangAwareLink to="/about">{t("home.about_button")}<FiArrowUpRight /></LangAwareLink><LangAwareLink to="/contact">{t("home.atlas.contact")}<FiArrowUpRight /></LangAwareLink></footer>
 			</main>
-		</HelmetProvider>
+		</>
 	);
 };
 

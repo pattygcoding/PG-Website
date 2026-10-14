@@ -1,5 +1,4 @@
 import React from "react";
-import { HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { Tab } from "@/components/tab";
 import { Link } from "react-router-dom";
@@ -74,7 +73,7 @@ const Home = () => {
 	);
 
 	return (
-		<HelmetProvider>
+		<>
 			<main id="home" className="home home--showcase">
 				<Tab title={t("home.title")} />
 				<div className="intro_sec">
@@ -219,7 +218,7 @@ const Home = () => {
 					<div><span>{t("name")}</span><span>React / TypeScript / .NET / SQL</span></div>
 				</footer>
 			</main>
-		</HelmetProvider>
+		</>
 	);
 };
 

@@ -65,10 +65,11 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 		return val || key;
 	};
 
+	// React 19 lets a context object itself act as the provider.
 	return (
-		<LanguageContext.Provider value={{ lang, setLang, t }}>
+		<LanguageContext value={{ lang, setLang, t }}>
 			{children}
-		</LanguageContext.Provider>
+		</LanguageContext>
 	);
 };
 
