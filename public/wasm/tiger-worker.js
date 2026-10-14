@@ -5,7 +5,7 @@
 // Classic worker: `importScripts` keeps it working on browsers without module
 // worker support. Bump the `?v=` tag when the runtime files change so clients
 // do not run a cached copy.
-importScripts("/wasm/tiger.js?v=3");
+importScripts("/wasm/tiger.js?v=4");
 const { createRuntime } = self.TigerRuntime;
 
 function resolveModule(importer, requested) {
@@ -42,7 +42,7 @@ let runtime = null;
 
 async function initialize() {
   runtime = await createRuntime({
-    url: "/wasm/tiger.wasm?v=3",
+    url: "/wasm/tiger.wasm?v=4",
     output: (text) => self.postMessage({ type: "output", text }),
     requestInput: () => self.postMessage({ type: "input" }),
     resolveModule,
