@@ -5,16 +5,26 @@ import { useLang } from "@/lang/languageContext";
 import type { CssVariables } from "@/types/css";
 import ReactCountryFlag from "react-country-flag";
 import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
-import { TransformWrapper, TransformComponent, useTransformEffect } from "react-zoom-pan-pinch";
+import { TransformWrapper, TransformComponent, useTransformContext, useTransformEffect } from "react-zoom-pan-pinch";
 import type { GeoProjection } from "d3-geo";
 import langMapData from "@/assets/maps/lang_map.json";
 import islandMarkers from "@/assets/maps/island_markers.json";
+import {
+    isSubdividedCountry,
+    subdivisionFlag,
+    subdivisionLanguages,
+    subdivisionsVisibleAt,
+} from "./subdivisions";
+import {
+    WHEEL_FALLBACK_SMOOTH_STEP,
+    wheelSmoothStepFor,
+} from "./wheelZoom";
 import {
     LABEL_FONT_PX,
     LABEL_ISLAND_MIN_SCALE,
     MAP_HEIGHT,
     MAP_WIDTH,
-    isCountryLabelVisible,
+    isLabelVisible,
     labelFontSizeForScale,
     labelPointFor,
     pixelsPerMapUnit,
@@ -60,6 +70,37 @@ const countryLanguages = Object.keys(COUNTRIES).reduce<Record<string, CountryLan
 // country layer skips them — otherwise Kiribati, which straddles the antimeridian,
 // would be labelled at the far edge of the map as well as on its marker.
 const ISLAND_MARKER_CODES = new Set(islandMarkers.map((marker) => marker.code));
+
+// Outlines of the US states, Canadian provinces and UK constituent countries, drawn
+// once the map is zoomed in. Built from Natural Earth 50m data (public domain) so it
+// shares the generalisation of the country layer.
+const SUBDIVISION_URL = `${import.meta.env.BASE_URL || ""}assets/maps/subdivisions-50m.json`;
+
+// The borders *inside* those countries, dotted. They are kept apart from the outlines
+// above because those outlines do not stop at a country's edge: the US states and
+// Canadian provinces are drawn from data that agrees on the boundary between them, so
+// stroking every state and province put the dotted pattern along the US-Canada border
+// and the coasts — over the solid boundary the country layer already draws there. Built
+// from the outlines by keeping only the borders between two subdivisions of the *same*
+// country, which leaves exactly the borders the country layer cannot draw.
+const SUBDIVISION_BORDERS_URL = `${import.meta.env.BASE_URL || ""}assets/maps/subdivision-borders-50m.json`;
+
+/**
+ * The zoom the map opens at, which is also the furthest out it goes: the world already
+ * fills its frame at this scale, so zooming past it would only show empty padding. Keep
+ * these two in step — `minScale` is what stops a wheel or pinch zoom-out at the opening
+ * view, and `zoomAnimation` is disabled alongside it because the library's zoom-out
+ * "padding" would otherwise overshoot below the floor and spring back.
+ */
+const INITIAL_SCALE = 1;
+
+// Subdivision borders are dotted, in sizes meant to be read in CSS pixels: they are
+// divided by the on-screen scale for the current zoom (see Subdivisions), because the
+// map's `non-scaling-stroke` rule only normalises a stroke's width and would leave the
+// dot spacing to the zoom, stretching the dots as you zoom in.
+const SUBDIVISION_STROKE_PX = 0.75;
+const SUBDIVISION_DOT_PX = 1.5;
+const SUBDIVISION_GAP_PX = 2.5;
 
 // A TopoJSON feature can carry its name under several different keys.
 const getGeoName = (geo: GeoFeature): string | null => {
@@ -127,35 +168,56 @@ const CountryLabelText = ({ text, fontSize, offset = 0 }: { text: string; fontSi
     </text>
 );
 
-type LabelAnchor = { x: number; y: number; text: string; key: string };
+/** A label to draw for one shape: what to call it, and what identifies it. */
+type LabelSubject = { key: string; text: string };
+
+/** The ISO 3166-2 code the subdivision asset stores on each of its features. */
+const subdivisionIdOf = (geo: GeoFeature): string | null => {
+    const id = geo.properties?.id;
+    return typeof id === "string" ? id : null;
+};
 
 /**
- * Anchor and text for a country's label, or null when the shape has no usable name
- * or its centre falls outside the map canvas. `labelPointFor` explains how the
- * anchor itself is chosen.
+ * Where a shape's name goes, or null when its centre falls outside the map canvas.
+ * The work itself lives in `labelPointFor`; the result is cached per shape because it
+ * depends only on the geometry and the projection, never on the zoom.
  */
-const labelAnchorFor = (
+const labelPointCacheFor = (
     geo: GeoFeature,
     projection: GeoProjection,
-    anchorCache: WeakMap<object, LabelAnchor | null>
-): LabelAnchor | null => {
-    const cached = anchorCache.get(geo as object);
+    cache: WeakMap<object, [number, number] | null>
+): [number, number] | null => {
+    const cached = cache.get(geo as object);
     if (cached !== undefined) return cached;
 
-    const iso2 = resolveCountryISO2(geo);
     const point = labelPointFor(geo.geometry, projection);
-    // Prefer the name used elsewhere on the page: it is shorter than some TopoJSON
-    // names ("United States" rather than "United States of America").
-    const text = (iso2 ? COUNTRIES[iso2]?.name : "") || getGeoName(geo) || "";
+    // A shape whose centre lies beyond the canvas would only ever produce a
+    // half-clipped label against the edge.
     const onCanvas = point !== null && point[0] >= 0 && point[0] <= MAP_WIDTH && point[1] >= 0 && point[1] <= MAP_HEIGHT;
-
-    const anchor = point && text && onCanvas ? { x: point[0], y: point[1], text, key: geo.rsmKey ?? text } : null;
-    anchorCache.set(geo as object, anchor);
+    const anchor = point && onCanvas ? point : null;
+    cache.set(geo as object, anchor);
     return anchor;
 };
 
-/** On-screen size of a country in map units², which decides whether it earns a label. */
-const countryAreaFor = (geo: GeoFeature, geoPath: GeoPathExtras, areaCache: WeakMap<object, number>): number => {
+/** The country layer's labels; the ISO2 code is both the key and the dedupe key. */
+const countryLabelSubject = (geo: GeoFeature): LabelSubject | null => {
+    const iso2 = resolveCountryISO2(geo);
+    if (!iso2 || ISLAND_MARKER_CODES.has(iso2) || !countryLanguages[iso2]?.length) return null;
+    // Prefer the name used elsewhere on the page: it is shorter than some TopoJSON
+    // names ("United States" rather than "United States of America").
+    const text = COUNTRIES[iso2]?.name || getGeoName(geo) || "";
+    return text ? { key: iso2, text } : null;
+};
+
+/** The subdivision layer's labels, keyed by the code its asset carries. */
+const subdivisionLabelSubject = (geo: GeoFeature): LabelSubject | null => {
+    const id = subdivisionIdOf(geo);
+    const text = getGeoName(geo);
+    return id && text ? { key: id, text } : null;
+};
+
+/** On-screen size of a shape in map units², which decides whether it earns a label. */
+const shapeAreaFor = (geo: GeoFeature, geoPath: GeoPathExtras, areaCache: WeakMap<object, number>): number => {
     const cached = areaCache.get(geo as object);
     if (cached !== undefined) return cached;
     const area = geoPath.area(geo);
@@ -163,19 +225,32 @@ const countryAreaFor = (geo: GeoFeature, geoPath: GeoPathExtras, areaCache: Weak
     return area;
 };
 
-const MapLabels = React.memo(function MapLabels({ geographies, path, projection, visible, pixelsPerMapUnit }: {
+/**
+ * Draws the names for one map layer: the countries, or the subdivisions of the three
+ * countries that are split up.
+ *
+ * It owns the zoom step instead of taking it as a prop so that zooming re-renders only
+ * the labels — re-rendering 241 country shapes on every step is what made the map drag.
+ * `resolve` supplies the naming rule for whichever layer this is.
+ */
+const MapLabels = React.memo(function MapLabels({ geographies, path, projection, visible, pixelsPerMapUnit, resolve, islands = false, hideSplitCountries = false }: {
     geographies: readonly GeoFeature[];
     path: unknown;
     projection: GeoProjection;
     visible: boolean;
     pixelsPerMapUnit: number;
+    resolve: (geo: GeoFeature) => LabelSubject | null;
+    /** Also name the island dot markers, which only exist on the country layer. */
+    islands?: boolean;
+    /** Give up a split country's name to the subdivisions that replace it. */
+    hideSplitCountries?: boolean;
 }) {
     const [zoomStep, setZoomStep] = useState(1);
-    // Areas and anchors depend on the projection and geometry, never on the zoom, and
+    // Points and areas depend on the geometry and the projection, never on the zoom, and
     // react-simple-maps memoises the feature objects, so they are measured once per
-    // shape instead of on every frame.
+    // shape rather than on every frame.
     const areaCache = useMemo(() => new WeakMap<object, number>(), []);
-    const anchorCache = useMemo(() => new WeakMap<object, LabelAnchor | null>(), []);
+    const pointCache = useMemo(() => new WeakMap<object, [number, number] | null>(), []);
 
     // The map reports every zoom *and pan* frame. Only the snapped step is stored,
     // and React bails out while the gesture stays inside one step — so panning costs
@@ -194,29 +269,30 @@ const MapLabels = React.memo(function MapLabels({ geographies, path, projection,
     const geoPath = path as GeoPathExtras;
     const nodes: React.ReactNode[] = [];
     const labelled = new Set<string>();
+    const splitCountriesHidden = hideSplitCountries && subdivisionsVisibleAt(zoomStep);
 
     for (const geo of geographies) {
-        const iso2 = resolveCountryISO2(geo);
-        // A country with no translated pages has nothing to claim, and two shapes can
-        // represent one country (Somaliland resolves to Somalia), so only the first
-        // one gets the name.
-        if (!iso2 || ISLAND_MARKER_CODES.has(iso2) || !countryLanguages[iso2]?.length || labelled.has(iso2)) continue;
-        // Measuring areas is cheap and cached; anchors are only worked out for the
-        // countries that actually earn a label at this zoom.
-        if (!isCountryLabelVisible(countryAreaFor(geo, geoPath, areaCache), screenScale)) continue;
-        const anchor = labelAnchorFor(geo, projection, anchorCache);
-        if (!anchor) continue;
-        labelled.add(iso2);
+        const subject = resolve(geo);
+        // Two shapes can represent one place (Somaliland resolves to Somalia), and the
+        // first name wins; a split country hands its name over to its subdivisions.
+        if (!subject || labelled.has(subject.key)) continue;
+        if (splitCountriesHidden && isSubdividedCountry(subject.key)) continue;
+        // Measuring areas is cheap and cached; points are only worked out for the
+        // shapes that actually earn a label at this zoom.
+        if (!isLabelVisible(shapeAreaFor(geo, geoPath, areaCache), screenScale)) continue;
+        const point = labelPointCacheFor(geo, projection, pointCache);
+        if (!point) continue;
+        labelled.add(subject.key);
         nodes.push(
-            <g key={`label-${anchor.key}`} className="map-country-label" transform={`translate(${anchor.x}, ${anchor.y})`}>
-                <CountryLabelText text={anchor.text} fontSize={fontSize} />
+            <g key={`label-${subject.key}`} className="map-country-label" transform={`translate(${point[0]}, ${point[1]})`}>
+                <CountryLabelText text={subject.text} fontSize={fontSize} />
             </g>
         );
     }
 
     // Island nations are dots rather than shapes, so they only earn names once the
     // map is zoomed far enough in for their labels to stay clear of each other.
-    if (zoomStep >= LABEL_ISLAND_MIN_SCALE) {
+    if (islands && zoomStep >= LABEL_ISLAND_MIN_SCALE) {
         const offset = -(LABEL_FONT_PX + 4) / screenScale;
         for (const marker of islandMarkers) {
             const point = projection(marker.coordinates as [number, number]);
@@ -232,13 +308,169 @@ const MapLabels = React.memo(function MapLabels({ geographies, path, projection,
     return <>{nodes}</>;
 });
 
+/**
+ * The dotted borders *inside* the three split countries.
+ *
+ * Stroking the subdivision outlines themselves put the dots along the edges a
+ * subdivision shares with another country — the US-Canada border, the coasts — on top of
+ * the solid boundary the country layer already draws, which read as a dotted
+ * international border. This layer draws the interior borders instead, so it is
+ * decorative in the same way the outlines above it are, and like them it only mounts
+ * once the map is zoomed in.
+ */
+const SubdivisionBorders = ({ strokeWidth, strokeDasharray }: {
+    strokeWidth: number;
+    strokeDasharray: string;
+}) => (
+    <Geographies geography={SUBDIVISION_BORDERS_URL}>
+        {({ geographies, path }) => (
+            // One path for every border, so the dots keep a single rhythm instead of
+            // starting over at each line.
+            <path
+                d={path({ type: "FeatureCollection", features: geographies }) ?? undefined}
+                data-map-borders=""
+                aria-hidden="true"
+                fill="none"
+                stroke="#FFFFFF"
+                strokeWidth={strokeWidth}
+                strokeDasharray={strokeDasharray}
+                strokeLinecap="round"
+                style={{
+                    // Opting out of the map's non-scaling stroke is deliberate: it would
+                    // take this stroke's width out of the zoom (good) but leave the dots
+                    // to be stretched by it (bad), so both are scaled from the zoom
+                    // instead (see SUBDIVISION_STROKE_PX above).
+                    vectorEffect: "none"
+                }}
+            />
+        )}
+    </Geographies>
+);
+
+/**
+ * The subdivisions of the three split countries, drawn over their country shapes.
+ *
+ * The layer only mounts once the map is zoomed in far enough to be worth having, so
+ * visitors who never look that closely never download it. It is decorative: every
+ * subdivision already speaks languages its country's own shape reports, and that shape
+ * is the one keyboard and screen-reader users reach, hence the mouse-only tooltips.
+ */
+const Subdivisions = ({ showLabels, selectedId, pixelsPerMapUnit, onHover, onLeave, onMove, onSelect }: {
+    showLabels: boolean;
+    selectedId: string | null;
+    pixelsPerMapUnit: number;
+    onHover: (id: string, name: string, event: React.MouseEvent) => void;
+    onLeave: () => void;
+    onMove: (event: React.MouseEvent) => void;
+    onSelect: (id: string, name: string, event: React.MouseEvent) => void;
+}) => {
+    const [zoomStep, setZoomStep] = useState(1);
+    useTransformEffect(useCallback((ref) => {
+        setZoomStep(quantizeLabelScale(ref.state?.scale || 1));
+    }, []));
+
+    if (!subdivisionsVisibleAt(zoomStep)) return null;
+
+    // The borders are drawn dotted at a fixed on-screen size, so their width and dot
+    // spacing are converted from CSS pixels into map units for this zoom.
+    const screenScale = Math.max(zoomStep * pixelsPerMapUnit, 0.0001);
+    const strokeWidth = SUBDIVISION_STROKE_PX / screenScale;
+    const strokeDasharray = `${SUBDIVISION_DOT_PX / screenScale} ${SUBDIVISION_GAP_PX / screenScale}`;
+
+    return (
+        <Geographies geography={SUBDIVISION_URL}>
+            {({ geographies, path, projection }) => (
+                <>
+                    {geographies.map((geo) => {
+                        const id = subdivisionIdOf(geo) ?? "";
+                        const name = getGeoName(geo) ?? "";
+                        const hasLanguages = subdivisionLanguages(id).length > 0;
+                        const isSelected = selectedId !== null && selectedId === id;
+                        return (
+                            <Geography
+                                key={geo.rsmKey}
+                                geography={geo}
+                                data-map-subdivision={id}
+                                aria-hidden="true"
+                                // Hit area only, and therefore unpainted: the country
+                                // underneath paints the same colour, and a fill here would
+                                // cover the half of its boundary strokes that lies inside
+                                // this shape — which is what left the US-Canada border
+                                // looking dotted, with the dotting drawn over it.
+                                fill={hasLanguages ? "none" : (isSelected ? "#222428" : "#303238")}
+                                stroke="none"
+                                onMouseEnter={(event) => onHover(id, name, event)}
+                                onMouseLeave={onLeave}
+                                onMouseMove={onMove}
+                                onClick={(event) => {
+                                    event.stopPropagation();
+                                    onSelect(id, name, event);
+                                }}
+                            />
+                        );
+                    })}
+                    <MapLabels
+                        geographies={geographies}
+                        path={path}
+                        projection={projection}
+                        visible={showLabels}
+                        pixelsPerMapUnit={pixelsPerMapUnit}
+                        resolve={subdivisionLabelSubject}
+                    />
+                    {/* The outlines above carry no stroke of their own: the borders are
+                        dotted here, and only where a country does not meet another. */}
+                    <SubdivisionBorders strokeWidth={strokeWidth} strokeDasharray={strokeDasharray} />
+                </>
+            )}
+        </Geographies>
+    );
+};
+
+/**
+ * Makes the wheel zoom *relative*.
+ *
+ * react-zoom-pan-pinch steps the scale by `smoothStep * |deltaY|` when `smooth` is on,
+ * i.e. a fixed amount per notch, so each notch covers a smaller share of the view the
+ * further in you go — crossing 1x-12x took over a hundred notches, and the last stretch
+ * crawled. Rewriting the step as a fraction of the current zoom keeps every notch the
+ * same relative move (about ten notches end to end).
+ *
+ * The library rebuilds its setup from the wrapper's props on every render and reads the
+ * step inside its own wheel handler, so the rewrite happens in a capture-phase listener:
+ * that runs first, in the same event, whatever has re-rendered in the meantime. It also
+ * normalises by the event's `deltaMode`, so line-mode wheels and trackpads behave like a
+ * pixel-mode wheel.
+ */
+const RelativeWheelZoom = ({ target }: { target: React.RefObject<HTMLDivElement | null> }) => {
+    const instance = useTransformContext();
+    const scaleRef = useRef(1);
+
+    // Keep the live zoom to hand without re-rendering the map for it.
+    useTransformEffect(useCallback((ref) => {
+        scaleRef.current = ref.state.scale;
+    }, []));
+
+    useEffect(() => {
+        const element = target.current;
+        if (!element) return undefined;
+        const handleWheel = (event: WheelEvent) => {
+            if (event.deltaY === 0) return;
+            instance.setup.wheel.smoothStep = wheelSmoothStepFor(scaleRef.current, event.deltaMode);
+        };
+        element.addEventListener("wheel", handleWheel, { capture: true, passive: true });
+        return () => element.removeEventListener("wheel", handleWheel, { capture: true });
+    }, [instance, target]);
+
+    return null;
+};
+
 const Languages = () => {
     const { t } = useLang();
     const mapContainerRef = useRef<HTMLDivElement>(null);
     const tooltipRef = useRef<HTMLDivElement>(null);
     const touchStartPos = useRef({ x: 0, y: 0 });
     const lastTapTime = useRef(0);
-    const [tooltip, setTooltip] = useState<{ visible: boolean; x: number; y: number; content: string; country: string | null }>({
+    const [tooltip, setTooltip] = useState<{ visible: boolean; x: number; y: number; content: string; country: string | null; region?: string | null }>({
         visible: false,
         x: 0,
         y: 0,
@@ -323,6 +555,33 @@ const Languages = () => {
         const countryName = getGeoName(geo);
         const countryISO2 = resolveCountryISO2(geo);
         return getTooltipDataForCountry(countryISO2, countryName);
+    };
+
+    const getSubdivisionTooltipData = (id: string, name: string) => {
+        const languageNames = subdivisionLanguages(id)
+            .map((code) => LANGUAGES[code])
+            .filter(Boolean)
+            .map((language) => language.nativeName || language.name)
+            .join(", ");
+        if (!languageNames) return null;
+        // A subdivision has no country code of its own: the four UK countries have their
+        // own flags in the set the tooltips use, and everything else shows its country's.
+        const content = `${name} ${t("languages.world_map.languages_label") || "Languages"}: ${languageNames}`;
+        return { content, country: subdivisionFlag(id) };
+    };
+
+    const handleSubdivisionHover = (id: string, name: string, event: React.MouseEvent) => {
+        if (isMobile) return;
+        const data = getSubdivisionTooltipData(id, name);
+        if (!data) return;
+        moveTooltip(event);
+        setTooltip({ visible: true, x: event.clientX + 12, y: event.clientY - 12, content: data.content, country: data.country, region: id });
+    };
+
+    const handleSubdivisionSelect = (id: string, name: string, event: React.MouseEvent) => {
+        const data = getSubdivisionTooltipData(id, name);
+        if (!data) return;
+        setTooltip({ visible: true, x: event.clientX + 12, y: event.clientY - 12, content: data.content, country: data.country, region: id });
     };
 
     const showCountryTooltipAt = (countryCode: string | null, fallbackName: string | null | undefined, clientX: number, clientY: number) => {
@@ -533,13 +792,18 @@ const Languages = () => {
                         <div className="world-map-container" ref={mapContainerRef}>
                             <div className="map-topbar"><span><FiGlobe aria-hidden="true" />{t("languages.world_map.title")}</span><strong>203</strong></div>
                             <TransformWrapper
-                                initialScale={1}
-                                minScale={0.5}
+                                initialScale={INITIAL_SCALE}
+                                minScale={INITIAL_SCALE}
+                                // Stops the zoom-out overshoot that `minScale` alone allows.
+                                zoomAnimation={{ disabled: true }}
                                 maxScale={12}
                                 centerZoomedOut
                                 limitToBounds
                                 smooth
-                                wheel={{ step: 0.15 }}
+                                // RelativeWheelZoom rewrites `smoothStep` before every wheel
+                                // event; this is only the value it falls back to. `wheel.step`
+                                // is ignored while `smooth` is on.
+                                wheel={{ smoothStep: WHEEL_FALLBACK_SMOOTH_STEP }}
                                 doubleClick={{ disabled: false, step: 1.5 }}
                                 pinch={{ step: 5 }}
                                 panning={{ excluded: ["button", "input", "textarea", "select"], velocityDisabled: true }}
@@ -555,6 +819,7 @@ const Languages = () => {
                             >
                                 {({ zoomIn, zoomOut, resetTransform }) => (
                                     <>
+                                        <RelativeWheelZoom target={mapContainerRef} />
                                         <div className="zoom-controls">
                                             <button type="button" onClick={() => zoomIn()} aria-label={t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"} title={t("languages.world_map.zoom_controls.zoom_in") || "Zoom In"}><FiPlus /></button>
                                             <button type="button" onClick={() => zoomOut()} aria-label={t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"} title={t("languages.world_map.zoom_controls.zoom_out") || "Zoom Out"}><FiMinus /></button>
@@ -645,11 +910,23 @@ const Languages = () => {
                                                                         projection={projection}
                                                                         visible={showLabels}
                                                                         pixelsPerMapUnit={pxPerMapUnit}
+                                                                        resolve={countryLabelSubject}
+                                                                        islands
+                                                                        hideSplitCountries
                                                                     />
                                                                 </>
                                                             );
                                                         }}
                                                     </Geographies>
+                                                    <Subdivisions
+                                                        showLabels={showLabels}
+                                                        selectedId={tooltip.region ?? null}
+                                                        pixelsPerMapUnit={pxPerMapUnit}
+                                                        onHover={handleSubdivisionHover}
+                                                        onLeave={handleMapCountryLeave}
+                                                        onMove={moveTooltip}
+                                                        onSelect={handleSubdivisionSelect}
+                                                    />
                                                     {islandMarkers.map((marker) => {
                                                         const hasLanguages = Boolean(countryLanguages[marker.code]);
                                                         const isMarkerSelected = Boolean(tooltip.visible && tooltip.country && tooltip.country === marker.code);

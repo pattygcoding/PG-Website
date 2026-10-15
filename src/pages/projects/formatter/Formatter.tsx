@@ -42,7 +42,7 @@ const Formatter = () => {
 	const [isReady, setIsReady] = useState(false);
 	const codeEditorRef = useRef(null);
 
-	const goLoaded = useRef(false);
+	const engineLoaded = useRef(false);
 
 	const loadSample = async (type: string, sampleName: string) => {
 		if (type === "json") {
@@ -71,27 +71,19 @@ const Formatter = () => {
 			try {
 				await new Promise((resolve, reject) => {
 					const script = document.createElement("script");
-					script.src = "/wasm_exec.js";
+					script.src = "/wasm/formatter.js";
 					script.onload = resolve;
 					script.onerror = reject;
 					document.body.appendChild(script);
 				});
 
-				const go = new window.Go();
-				const result = await WebAssembly.instantiateStreaming(fetch("/wasm/formatter.wasm"), go.importObject);
-				go.run(result.instance).catch((err) => {
-					console.error("Go runtime error:", err);
-				});
-
-				for (let attempt = 0; attempt < 50 && typeof window.formatInput !== "function"; attempt += 1) {
-					await new Promise((resolve) => setTimeout(resolve, 10));
-				}
+				await window.FormatterWasm.init("/wasm/formatter.wasm");
 
 				if (typeof window.formatInput !== "function") {
 					throw new Error("Formatter did not initialize");
 				}
 
-				goLoaded.current = true;
+				engineLoaded.current = true;
 				setOutput(t("formatter.waiting_for_input"));
 				setIsReady(true);
 			} catch (err) {
@@ -105,7 +97,7 @@ const Formatter = () => {
 	}, []);
 
 	const handleFormat = () => {
-		if (!goLoaded.current || typeof window.formatInput !== "function") {
+		if (!engineLoaded.current || typeof window.formatInput !== "function") {
 			setOutput(t("formatter.load_failed"));
 			return;
 		}
@@ -187,7 +179,10 @@ const Formatter = () => {
 						<div className="page-eyebrow"><span>JSON + YAML</span></div>
 						<h1>{t("formatter.title")}</h1>
 						<p>{t("formatter.description")}</p>
-						<RepoButton href={l.formatter} />
+						<div className="formatter-repo-actions">
+							<RepoButton href={l.formatter} />
+							<RepoButton href={l.formatter_legacy_go} label={t("formatter.legacy_repo")} variant="secondary" />
+						</div>
 				</header>
 
 				<section className="formatter-workspace" aria-label={t("formatter.title")}>

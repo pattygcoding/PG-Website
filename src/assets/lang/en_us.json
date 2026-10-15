@@ -139,7 +139,7 @@
           "lens": "The hard part is the contract between runtimes: data exchange, process behavior, and repeatable execution matter more than syntax."
         },
         "formatter": {
-          "summary": "A real Go parsing engine compiled to WebAssembly. JSON and YAML validation and formatting run locally in the browser.",
+          "summary": "A real Rust parsing engine compiled to WebAssembly. JSON and YAML validation and formatting run locally in the browser.",
           "lens": "Moving the parser to the browser trades a larger client payload for local processing, portability, and fewer server dependencies."
         },
         "portfolio_website": {
@@ -293,7 +293,7 @@
       },
       "formatter": {
         "title": "JSON & YAML Auto Formatter",
-        "text": "A browser-based JSON and YAML validation and formatting tool built in Go and compiled to WebAssembly. Moving the parsing engine into WASM keeps the interaction responsive and local to the browser while applying a real parser to catch invalid input. It is a focused example of choosing a runtime architecture for performance, portability, and user trust.",
+        "text": "A browser-based JSON and YAML validation and formatting tool built in Rust and compiled to WebAssembly. Moving the parsing engine into WASM keeps the interaction responsive and local to the browser while applying a real parser to catch invalid input. It is a focused example of choosing a runtime architecture for performance, portability, and user trust.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -404,7 +404,8 @@
   },
   "formatter": {
     "title": "JSON & YAML Linter",
-    "description": "A browser-based data quality tool that validates and formats JSON and YAML using a Go engine compiled to WebAssembly. The architecture keeps parsing close to the user for fast, private feedback while enforcing real syntax rules at the data boundary. It is a compact example of designing a dependable developer workflow around correctness, performance, and trust.",
+    "legacy_repo": "View legacy Go implementation",
+    "description": "A browser-based data quality tool that validates and formats JSON and YAML using a Rust engine compiled to WebAssembly. The architecture keeps parsing close to the user for fast, private feedback while enforcing real syntax rules at the data boundary. It is a compact example of designing a dependable developer workflow around correctness, performance, and trust.",
     "more_info1": "For more information, refer to the README in the",
     "more_info2": "JSON/YAML Formatter Repository.",
     "format_as": "Format As:",

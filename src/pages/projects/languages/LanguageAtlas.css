@@ -34,6 +34,14 @@
 .languages-page .map-wrapper [data-map-country]:hover { fill: var(--map-country-hover-fill, var(--accent-color)); cursor: pointer; }
 .languages-page .map-wrapper [data-map-country]:active { fill: var(--map-country-active-fill, var(--accent-color)); }
 .languages-page .map-wrapper [data-map-country]:focus-visible { outline: 2px solid var(--text-color) !important; outline-offset: 2px; }
+/* State / province / UK-country shapes drawn over their country once zoomed in. They are
+   unpainted hit areas — the country underneath already paints the same colour, and its
+   boundary strokes have to stay visible — so hit-testing is asked for explicitly, and the
+   pointer carries the affordance rather than a hover fill that would cover those strokes. */
+.languages-page .map-wrapper [data-map-subdivision] { outline: none; pointer-events: all; cursor: pointer; }
+/* The dotted borders drawn over them are decorative, so the pointer goes through to the
+   subdivision underneath rather than being caught by the dots. */
+.languages-page .map-wrapper [data-map-borders] { pointer-events: none; }
 /* Country names are drawn inside the map itself (see Languages.tsx); their size and
    halo width are computed per zoom step, so only the colours and the halo belong in
    CSS. paint-order draws the stroke behind the glyphs instead of over them. */

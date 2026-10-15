@@ -7,7 +7,7 @@ import {
 	LABEL_ZOOM_STEP,
 	MAP_HEIGHT,
 	MAP_WIDTH,
-	isCountryLabelVisible,
+	isLabelVisible,
 	labelFontSizeForScale,
 	labelPointFor,
 	pixelsPerMapUnit,
@@ -62,17 +62,17 @@ test("pixelsPerMapUnit converts the rendered map width into map units", () => {
 test("a country earns a label once it covers enough screen area", () => {
 	expect(screenAreaPx(100, 3)).toBe(900);
 
-	expect(isCountryLabelVisible(1600, 1)).toBe(true);
-	expect(isCountryLabelVisible(1599, 1)).toBe(false);
+	expect(isLabelVisible(1600, 1)).toBe(true);
+	expect(isLabelVisible(1599, 1)).toBe(false);
 
 	// Zooming in multiplies the on-screen area, so smaller countries qualify.
-	expect(isCountryLabelVisible(400, 2)).toBe(true);
-	expect(isCountryLabelVisible(400, 1.9)).toBe(false);
+	expect(isLabelVisible(400, 2)).toBe(true);
+	expect(isLabelVisible(400, 1.9)).toBe(false);
 
 	// A phone-width map fits fewer names at the same zoom.
 	const phoneScale = pixelsPerMapUnit(360);
-	expect(isCountryLabelVisible(4000, phoneScale)).toBe(false);
-	expect(isCountryLabelVisible(20000, phoneScale)).toBe(true);
+	expect(isLabelVisible(4000, phoneScale)).toBe(false);
+	expect(isLabelVisible(20000, phoneScale)).toBe(true);
 });
 
 test("label glyphs keep a constant on-screen size", () => {
