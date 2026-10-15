@@ -10,11 +10,20 @@ declare namespace Intl {
 // React 19's act() reads this flag, which tests toggle via `global`.
 declare var IS_REACT_ACT_ENVIRONMENT: boolean;
 
-// WASM glue loaded from public/wasm_exec.js at runtime (Tiger and Formatter pages).
+// WASM glue lives in public/wasm and is loaded as a classic script at runtime.
+// Tiger drives its Rust runtime through its own bridge (/wasm/tiger.js). The
+// formatter's Rust bridge (/wasm/formatter.js) installs `formatInput` and
+// `formatJSON` once `FormatterWasm.init` resolves.
+interface FormatterWasmApi {
+	init: (
+		source: string | URL | ArrayBuffer | ArrayBufferView | WebAssembly.Module
+	) => Promise<FormatterWasmApi>;
+	format: (source: string, mode: string) => string;
+	readonly loaded: boolean;
+}
+
 interface Window {
-	Go: new () => {
-		importObject: WebAssembly.Imports;
-		run: (instance: WebAssembly.Instance) => Promise<void>;
-	};
+	FormatterWasm: FormatterWasmApi;
 	formatInput: (source: string, mode: string) => string;
+	formatJSON: (source: string, mode: string) => string;
 }

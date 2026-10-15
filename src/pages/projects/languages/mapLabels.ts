@@ -49,8 +49,8 @@ export const pixelsPerMapUnit = (mapWidthPx: number): number => Math.max(mapWidt
 export const screenAreaPx = (mapUnitArea: number, screenScale: number): number =>
 	mapUnitArea * screenScale * screenScale;
 
-/** True when a country of `mapUnitArea` is large enough on screen to hold a label. */
-export const isCountryLabelVisible = (mapUnitArea: number, screenScale: number): boolean =>
+/** True when a shape of `mapUnitArea` is large enough on screen to hold a label. */
+export const isLabelVisible = (mapUnitArea: number, screenScale: number): boolean =>
 	screenAreaPx(mapUnitArea, screenScale) >= LABEL_MIN_AREA_PX;
 
 /** Font size, in map units, that renders at exactly `LABEL_FONT_PX` CSS pixels. */

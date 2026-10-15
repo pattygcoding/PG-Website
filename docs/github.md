@@ -76,7 +76,7 @@ My work connects engineering decisions to business outcomes. From a construction
 - **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)**, .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
 - **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)**, Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
 - **[PayrollOBOL](https://github.com/pattygcoding/PayrollOBOL)**, GnuCOBOL payroll processing with a SQLite double-entry ledger and Svelte dashboard
-- **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)**, a real Go parser compiled to WebAssembly, validating and formatting entirely in-browser
+- **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)**, a real Rust parser compiled to WebAssembly, validating and formatting entirely in-browser
 - **[Biblioteca JSON](https://github.com/pattygcoding/Biblioteca-JSON)**, a Python library catalog exercise backed by JSON data storage
 
 ---

@@ -69,3 +69,8 @@
     .formatter-sample-picker { padding: 10px 8px; }
     .formatter-run-button { grid-column: 1 / -1; }
 }
+.formatter-repo-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 30px; }
+.formatter-repo-actions .repo-button { margin-top: 0; }
+@media (max-width: 767px) {
+    .formatter-repo-actions { margin-top: 24px; }
+}
