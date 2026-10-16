@@ -69,7 +69,7 @@ My work connects engineering decisions to business outcomes. From a construction
 
 ### Other Notable Builds
 
-- **[Connect Four Language Tree](https://github.com/pattygcoding/Connect-Four-Language-Tree)**, 50+ implementations of Connect Four across 30+ languages and 20+ frameworks (React, Rails, ASP.NET, and more)
+- **[Connect Four Language Tree](https://github.com/pattygcoding/Neo-Connect-Four-Language-Tree)**, 130+ implementations of Connect Four across 45 languages and 90 frameworks (React, Rails, ASP.NET, and more)
 - **[Interop Samples](https://github.com/pattygcoding/Interop-Samples)**, a cross-language interoperability reference spanning 15 languages and 18 execution patterns
 - **[Rijndael Encryption](https://github.com/pattygcoding/Rijandel-Encryption)**, 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
 - **[Turing Machines](https://github.com/pattygcoding/Turing-Machines)**, 30+ implementations demonstrating Turing completeness across languages

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FiArrowDown, FiArrowUpRight, FiBookOpen, FiBriefcase, FiSearch, FiX } from "react-icons/fi";
 import { getLanguageTag, useLang } from "@/lang/languageContext";
@@ -8,6 +8,9 @@ import "./LinkedSkillsTable.css";
 const EXPERIENCE_GROUPS = ["professional_experience", "educational_experience"];
 const MAX_RELATED = 8;
 const MAX_SUMMARY_PROJECTS = 3;
+// The variant chips are clamped by rendered rows; MAX_VARIANTS is the first render
+// and the fallback for when there is no layout to measure (jsdom/tests).
+const MAX_ROWS = 2;
 const MAX_VARIANTS = 8;
 
 interface SkillSample {
@@ -53,15 +56,40 @@ const experienceLabel = (label: string): string => label.split(":").slice(1).joi
 
 const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 	const [expanded, setExpanded] = useState(false);
+	const [limit, setLimit] = useState(MAX_VARIANTS);
+	const [resizeTick, setResizeTick] = useState(0);
+	const variantsRef = useRef<HTMLDivElement>(null);
 	const title = (entry && entry.title) || variantLabel(samples[0].label);
 	const single = samples.length === 1;
-	const hidden = samples.length - MAX_VARIANTS;
-	const visible = expanded || hidden <= 0 ? samples : samples.slice(0, MAX_VARIANTS);
+	const visible = samples.slice(0, expanded ? samples.length : Math.min(limit, samples.length));
+	const hidden = samples.length - visible.length;
 
 	const toggle = () => {
 		setExpanded((value) => !value);
 		window.requestAnimationFrame(onResize);
 	};
+
+	useEffect(() => {
+		const countResize = () => setResizeTick((value) => value + 1);
+		window.addEventListener("resize", countResize);
+		return () => window.removeEventListener("resize", countResize);
+	}, []);
+
+	// Clamp the variants by rendered rows rather than a fixed count: keep the chips
+	// that fit in MAX_ROWS rows and let the "+ more" chip follow them. Growing stops
+	// as soon as those rows are filled and a trim lands on the same filled list, so
+	// the adjustment always settles. With no layout to measure (jsdom) the zero
+	// offsetHeight bails out and MAX_VARIANTS stays the cut.
+	useLayoutEffect(() => {
+		const container = variantsRef.current;
+		if (expanded || !container) return;
+		const chips = Array.from(container.querySelectorAll<HTMLElement>("a"));
+		const button = container.querySelector<HTMLElement>(".skill-project-card__more");
+		if (!chips.length || !button || !chips[0].offsetHeight) return;
+		const tops = [...new Set(chips.map((chip) => chip.offsetTop))].sort((first, second) => first - second);
+		if (tops.length > MAX_ROWS) setLimit(chips.filter((chip) => chip.offsetTop < tops[MAX_ROWS]).length);
+		else if (tops.length < MAX_ROWS) setLimit((value) => value + 1);
+	}, [expanded, limit, samples, resizeTick]);
 
 	return (
 		<li className="skill-project-card">
@@ -72,13 +100,13 @@ const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 			</div>
 			{entry && entry.text && <p>{entry.text}</p>}
 			{!single && (
-				<div className="skill-project-card__variants">
+				<div className="skill-project-card__variants" ref={variantsRef}>
 					{visible.map((sample) => (
 						<LangAwareLink key={sample.label} to={sample.link}>{variantLabel(sample.label)}</LangAwareLink>
 					))}
-					{hidden > 0 && (
+					{(hidden > 0 || expanded) && (
 						<button type="button" className="skill-project-card__more" onClick={toggle} aria-expanded={expanded}>
-							{expanded ? t("about.technical_skills.show_less") : `+${hidden} ${t("about.technical_skills.and_more")}`}
+							{expanded ? t("about.technical_skills.show_less") : `+ ${t("about.technical_skills.and_more")}`}
 						</button>
 					)}
 				</div>

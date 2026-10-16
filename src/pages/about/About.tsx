@@ -10,7 +10,7 @@ import WorkHistoryTable from "./work-history-table/WorkHistoryTable";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import c from "@/assets/certifications/certifications.json";
-import p from "@/assets/projects/projects.json";
+import p from "@/assets/projects/projects";
 import s from "@/assets/skills/skills.json";
 import links from "@/assets/links/links.json";
 import "./AboutProfile.css";

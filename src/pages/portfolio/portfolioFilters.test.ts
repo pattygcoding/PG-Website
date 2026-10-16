@@ -1,5 +1,5 @@
 import { readSkillSelection, writeSkillSelection, collectGroupSkills, matchesSkills } from "./portfolioFilters";
-import projectsData from "../../assets/projects/projects.json";
+import projectsData from "../../assets/projects/projects";
 
 test("preserves query-based resume links and supports skill hashes", () => {
 	expect(readSkillSelection("?skills=javascript&lang=en_us")).toEqual(["javascript"]);
