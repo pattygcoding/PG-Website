@@ -41,6 +41,7 @@
                 "scrum",
                 "sql",
                 "sqlite",
+                "typescript",
                 "unit_testing",
                 "vs",
                 "vscode"
@@ -262,1146 +263,147 @@
             ]
         },
         {
-            "link": "https://connectfour.pattygcoding.com/maui",
-            "label": "Connect Four (.NET MAUI)",
             "group": "connect_four",
-            "skills": [
-                "dotnet_maui",
-                "dotnet",
-                "dotnet_core",
+            "expand": true,
+            "label": "Connect Four",
+            "link_base": "https://connectfour.pattygcoding.com/",
+            "common_skills": ["git", "github", "vscode"],
+            "samples": [
+                "ada",
+                "assembly",
+                "bash",
+                "c",
+                "clojure",
+                "cobol",
+                "cpp",
                 "csharp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/adonisjs",
-            "label": "Connect Four (AdonisJS)",
-            "group": "connect_four",
-            "skills": [
-                "adonisjs",
-                "nodejs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/alpinejs",
-            "label": "Connect Four (Alpine.js)",
-            "group": "connect_four",
-            "skills": [
-                "alpinejs",
-                "javascript",
-                "html",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/angular",
-            "label": "Connect Four (Angular)",
-            "group": "connect_four",
-            "skills": [
-                "angular",
-                "javascript",
-                "typescript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/aspnetcore",
-            "label": "Connect Four (ASP.NET Core)",
-            "group": "connect_four",
-            "skills": [
-                "aspnetcore",
-                "csharp",
-                "dotnet",
-                "dotnet_core",
-                "mvc",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/astro",
-            "label": "Connect Four (Astro)",
-            "group": "connect_four",
-            "skills": [
-                "astro",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/avalonia",
-            "label": "Connect Four (Avalonia)",
-            "group": "connect_four",
-            "skills": [
-                "avalonia",
-                "csharp",
-                "dotnet",
-                "dotnet_core",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/axum",
-            "label": "Connect Four (Axum)",
-            "group": "connect_four",
-            "skills": [
-                "axum",
-                "rust",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/blazor",
-            "label": "Connect Four (Blazor)",
-            "group": "connect_four",
-            "skills": [
-                "blazor",
-                "css",
-                "csharp",
-                "dotnet",
-                "dotnet_core",
-                "asp_net",
-                "html",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/bootstrap",
-            "label": "Connect Four (Bootstrap)",
-            "group": "connect_four",
-            "skills": [
-                "bootstrap",
-                "css",
-                "html",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/cassandra",
-            "label": "Connect Four (Cassandra)",
-            "group": "connect_four",
-            "skills": [
-                "cassandra",
-                "nosql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/clickhouse",
-            "label": "Connect Four (ClickHouse)",
-            "group": "connect_four",
-            "skills": [
-                "clickhouse",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/django",
-            "label": "Connect Four (Django)",
-            "group": "connect_four",
-            "skills": [
-                "django",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/duckdb",
-            "label": "Connect Four (DuckDB)",
-            "group": "connect_four",
-            "skills": [
-                "duckdb",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/echo",
-            "label": "Connect Four (Echo)",
-            "group": "connect_four",
-            "skills": [
-                "echo",
-                "go",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/electron",
-            "label": "Connect Four (Electron)",
-            "group": "connect_four",
-            "skills": [
-                "electron",
-                "javascript",
-                "nodejs",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/ember",
-            "label": "Connect Four (Ember.js)",
-            "group": "connect_four",
-            "skills": [
-                "emberjs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/expressjs",
-            "label": "Connect Four (Express)",
-            "group": "connect_four",
-            "skills": [
-                "expressjs",
-                "nodejs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/fastapi",
-            "label": "Connect Four (FastAPI)",
-            "group": "connect_four",
-            "skills": [
-                "fastapi",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/fastify",
-            "label": "Connect Four (Fastify)",
-            "group": "connect_four",
-            "skills": [
-                "fastify",
-                "nodejs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/fiber",
-            "label": "Connect Four (Fiber)",
-            "group": "connect_four",
-            "skills": [
-                "fiber",
-                "go",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/firebird",
-            "label": "Connect Four (Firebird)",
-            "group": "connect_four",
-            "skills": [
-                "firebird",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/flask",
-            "label": "Connect Four (Flask)",
-            "group": "connect_four",
-            "skills": [
-                "flask",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/flutter",
-            "label": "Connect Four (Flutter)",
-            "group": "connect_four",
-            "skills": [
-                "flutter",
+                "d",
                 "dart",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/fyne",
-            "label": "Connect Four (Fyne)",
-            "group": "connect_four",
-            "skills": [
-                "fyne",
-                "go",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/gin",
-            "label": "Connect Four (Gin)",
-            "group": "connect_four",
-            "skills": [
-                "gin",
-                "go",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/gradle",
-            "label": "Connect Four (Gradle)",
-            "group": "connect_four",
-            "skills": [
-                "gradle",
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/graphql",
-            "label": "Connect Four (GraphQL)",
-            "group": "connect_four",
-            "skills": [
-                "graphql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/handlebars",
-            "label": "Connect Four (Handlebars)",
-            "group": "connect_four",
-            "skills": [
-                "handlebars",
-                "javascript",
-                "html",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/htmx",
-            "label": "Connect Four (HTMX)",
-            "group": "connect_four",
-            "skills": [
-                "htmx",
-                "html",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/db2",
-            "label": "Connect Four (IBM Db2)",
-            "group": "connect_four",
-            "skills": [
-                "db2",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/ionic",
-            "label": "Connect Four (Ionic)",
-            "group": "connect_four",
-            "skills": [
-                "ionic",
-                "angular",
-                "javascript",
-                "typescript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/javafx",
-            "label": "Connect Four (JavaFX)",
-            "group": "connect_four",
-            "skills": [
-                "javafx",
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/jetpackcompose",
-            "label": "Connect Four (Jetpack Compose)",
-            "group": "connect_four",
-            "skills": [
-                "jetpackcompose",
-                "kotlin",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/jquery",
-            "label": "Connect Four (jQuery)",
-            "group": "connect_four",
-            "skills": [
-                "jquery",
-                "javascript",
-                "html",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/json",
-            "label": "Connect Four (JSON)",
-            "group": "connect_four",
-            "skills": [
-                "json",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/koa",
-            "label": "Connect Four (Koa)",
-            "group": "connect_four",
-            "skills": [
-                "koa",
-                "nodejs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/ktor",
-            "label": "Connect Four (Ktor)",
-            "group": "connect_four",
-            "skills": [
-                "ktor",
-                "kotlin",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/langchain",
-            "label": "Connect Four (LangChain)",
-            "group": "connect_four",
-            "skills": [
-                "langchain",
-                "python",
-                "ai",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/laravel",
-            "label": "Connect Four (Laravel)",
-            "group": "connect_four",
-            "skills": [
-                "laravel",
-                "php",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/lit",
-            "label": "Connect Four (Lit)",
-            "group": "connect_four",
-            "skills": [
-                "lit",
-                "javascript",
-                "html",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/mariadb",
-            "label": "Connect Four (MariaDB)",
-            "group": "connect_four",
-            "skills": [
-                "mariadb",
-                "mysql",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/maven",
-            "label": "Connect Four (Maven)",
-            "group": "connect_four",
-            "skills": [
-                "maven",
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/minimax",
-            "label": "Connect Four (Minimax AI)",
-            "group": "connect_four",
-            "skills": [
-                "minimax",
-                "ai",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/mongodb",
-            "label": "Connect Four (MongoDB)",
-            "group": "connect_four",
-            "skills": [
-                "mongodb",
-                "nosql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/mysql",
-            "label": "Connect Four (MySQL)",
-            "group": "connect_four",
-            "skills": [
-                "mysql",
-                "sql",
-                "javascript",
-                "nodejs",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/nestjs",
-            "label": "Connect Four (NestJS)",
-            "group": "connect_four",
-            "skills": [
-                "nestjs",
-                "nodejs",
-                "typescript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/nextjs",
-            "label": "Connect Four (Next.js)",
-            "group": "connect_four",
-            "skills": [
-                "nextjs",
-                "reactjs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/nuxt",
-            "label": "Connect Four (Nuxt)",
-            "group": "connect_four",
-            "skills": [
-                "nuxt",
-                "vuejs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/ollama",
-            "label": "Connect Four (Ollama)",
-            "group": "connect_four",
-            "skills": [
-                "ollama",
-                "ai",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/oracle",
-            "label": "Connect Four (Oracle)",
-            "group": "connect_four",
-            "skills": [
-                "oracle",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/plsql",
-            "label": "Connect Four (Oracle PL/SQL)",
-            "group": "connect_four",
-            "skills": [
-                "plsql",
-                "oracle",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/phoenix",
-            "label": "Connect Four (Phoenix)",
-            "group": "connect_four",
-            "skills": [
-                "phoenix",
                 "elixir",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/playframework",
-            "label": "Connect Four (Play Framework)",
-            "group": "connect_four",
-            "skills": [
-                "playframework",
-                "scala",
+                "elm",
+                "erlang",
+                "fortran",
+                "fsharp",
+                "go",
+                "groovy",
+                "haskell",
+                "haxe",
+                { "id": "htmlcss", "name": "HTML/CSS", "skill": "html", "skills": ["css"] },
                 "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/playwright",
-            "label": "Connect Four (Playwright)",
-            "group": "connect_four",
-            "skills": [
-                "playwright",
                 "javascript",
-                "typescript",
-                "unit_testing",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/postgresql",
-            "label": "Connect Four (PostgreSQL)",
-            "group": "connect_four",
-            "skills": [
-                "postgresql",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/preact",
-            "label": "Connect Four (Preact)",
-            "group": "connect_four",
-            "skills": [
-                "preact",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/prisma",
-            "label": "Connect Four (Prisma)",
-            "group": "connect_four",
-            "skills": [
-                "prisma",
-                "nodejs",
-                "typescript",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/pyside6",
-            "label": "Connect Four (PySide6)",
-            "group": "connect_four",
-            "skills": [
-                "pyside6",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/quarkus",
-            "label": "Connect Four (Quarkus)",
-            "group": "connect_four",
-            "skills": [
-                "quarkus",
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/questdb",
-            "label": "Connect Four (QuestDB)",
-            "group": "connect_four",
-            "skills": [
-                "questdb",
-                "sql",
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/qwik",
-            "label": "Connect Four (Qwik)",
-            "group": "connect_four",
-            "skills": [
-                "qwik",
-                "javascript",
-                "typescript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/react",
-            "label": "Connect Four (React)",
-            "group": "connect_four",
-            "skills": [
-                "reactjs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/reactbootstrap",
-            "label": "Connect Four (React Bootstrap)",
-            "group": "connect_four",
-            "skills": [
-                "reactbootstrap",
-                "reactjs",
-                "bootstrap",
-                "css",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/reactnative",
-            "label": "Connect Four (React Native)",
-            "group": "connect_four",
-            "skills": [
-                "reactnative",
-                "reactjs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/redis",
-            "label": "Connect Four (Redis)",
-            "group": "connect_four",
-            "skills": [
-                "redis",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/redux",
-            "label": "Connect Four (Redux Toolkit)",
-            "group": "connect_four",
-            "skills": [
-                "redux",
-                "reactjs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/remix",
-            "label": "Connect Four (Remix)",
-            "group": "connect_four",
-            "skills": [
-                "remix",
-                "reactjs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/rubyonrails",
-            "label": "Connect Four (Ruby on Rails)",
-            "group": "connect_four",
-            "skills": [
-                "ruby_on_rails",
-                "ruby",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/sanic",
-            "label": "Connect Four (Sanic)",
-            "group": "connect_four",
-            "skills": [
-                "sanic",
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/scss",
-            "label": "Connect Four (SCSS)",
-            "group": "connect_four",
-            "skills": [
-                "scss",
-                "css",
-                "html",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/selenium",
-            "label": "Connect Four (Selenium)",
-            "group": "connect_four",
-            "skills": [
-                "selenium",
-                "python",
-                "unit_testing",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/solidjs",
-            "label": "Connect Four (SolidJS)",
-            "group": "connect_four",
-            "skills": [
-                "solidjs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/springboot",
-            "label": "Connect Four (Spring Boot)",
-            "group": "connect_four",
-            "skills": [
-                "springboot",
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/sqlite",
-            "label": "Connect Four (SQLite)",
-            "group": "connect_four",
-            "skills": [
-                "sqlite",
-                "sql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/surrealdb",
-            "label": "Connect Four (SurrealDB)",
-            "group": "connect_four",
-            "skills": [
-                "surrealdb",
-                "nosql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/svelte",
-            "label": "Connect Four (Svelte)",
-            "group": "connect_four",
-            "skills": [
-                "svelte",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/swiftui",
-            "label": "Connect Four (SwiftUI)",
-            "group": "connect_four",
-            "skills": [
-                "swiftui",
-                "swift",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/symfony",
-            "label": "Connect Four (Symfony)",
-            "group": "connect_four",
-            "skills": [
-                "symfony",
+                "julia",
+                "kotlin",
+                "lisp",
+                "lua",
+                "nim",
+                "objectivec",
+                "ocaml",
+                "pascal",
+                "perl",
                 "php",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/tsql",
-            "label": "Connect Four (T-SQL)",
-            "group": "connect_four",
-            "skills": [
-                "tsql",
-                "sql",
-                "mssql",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/tailwindcss",
-            "label": "Connect Four (Tailwind CSS)",
-            "group": "connect_four",
-            "skills": [
-                "tailwindcss",
-                "css",
-                "html",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/tanstackquery",
-            "label": "Connect Four (TanStack Query)",
-            "group": "connect_four",
-            "skills": [
-                "tanstackquery",
-                "reactjs",
-                "javascript",
-                "typescript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/tauri",
-            "label": "Connect Four (Tauri)",
-            "group": "connect_four",
-            "skills": [
-                "tauri",
-                "rust",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/tkinter",
-            "label": "Connect Four (Tkinter)",
-            "group": "connect_four",
-            "skills": [
-                "tkinter",
+                "powershell",
+                "prolog",
                 "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/trpc",
-            "label": "Connect Four (tRPC)",
-            "group": "connect_four",
-            "skills": [
-                "trpc",
-                "typescript",
-                "nodejs",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/vapor",
-            "label": "Connect Four (Vapor)",
-            "group": "connect_four",
-            "skills": [
-                "vapor",
+                "r",
+                "ruby",
+                "rust",
+                "scala",
                 "swift",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/vue",
-            "label": "Connect Four (Vue)",
-            "group": "connect_four",
-            "skills": [
-                "vuejs",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/vuebootstrap",
-            "label": "Connect Four (Vue Bootstrap)",
-            "group": "connect_four",
-            "skills": [
-                "vuebootstrap",
-                "vuejs",
-                "bootstrap",
-                "css",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/wpf",
-            "label": "Connect Four (WPF - C#)",
-            "group": "connect_four",
-            "skills": [
-                "wpf",
-                "csharp",
-                "dotnet",
-                "dotnet_core",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://connectfour.pattygcoding.com/wpfvb",
-            "label": "Connect Four (WPF - VB.NET)",
-            "group": "connect_four",
-            "skills": [
-                "wpf",
-                "vbnet",
-                "dotnet",
-                "dotnet_core",
-                "git",
-                "github",
-                "vscode"
+                "tiger",
+                "typescript",
+                "v",
+                { "id": "vb", "name": "VB.NET", "skill": "vbnet" },
+                "zig",
+                { "id": "maui", "skill": "dotnet_maui", "skills": ["dotnet", "dotnet_core", "csharp"] },
+                { "id": "adonisjs", "skill": "adonisjs", "skills": ["nodejs", "javascript"] },
+                { "id": "alpinejs", "skill": "alpinejs", "skills": ["javascript", "html"] },
+                { "id": "angular", "skill": "angular", "skills": ["javascript", "typescript"] },
+                { "id": "aspnetcore", "skill": "aspnetcore", "skills": ["csharp", "dotnet", "dotnet_core", "mvc"] },
+                { "id": "astro", "skill": "astro", "skills": ["javascript"] },
+                { "id": "avalonia", "skill": "avalonia", "skills": ["csharp", "dotnet", "dotnet_core"] },
+                { "id": "axum", "skill": "axum", "skills": ["rust"] },
+                { "id": "blazor", "skill": "blazor", "skills": ["css", "csharp", "dotnet", "dotnet_core", "asp_net", "html"] },
+                { "id": "bootstrap", "skill": "bootstrap", "skills": ["css", "html", "javascript"] },
+                { "id": "cassandra", "skill": "cassandra", "skills": ["nosql"] },
+                { "id": "clickhouse", "skill": "clickhouse", "skills": ["sql"] },
+                { "id": "django", "skill": "django", "skills": ["python"] },
+                { "id": "duckdb", "skill": "duckdb", "skills": ["sql"] },
+                { "id": "echo", "skill": "echo", "skills": ["go"] },
+                { "id": "electron", "skill": "electron", "skills": ["javascript", "nodejs"] },
+                { "id": "ember", "skill": "emberjs", "skills": ["javascript"] },
+                { "id": "expressjs", "name": "Express", "skill": "expressjs", "skills": ["nodejs", "javascript"] },
+                { "id": "fastapi", "skill": "fastapi", "skills": ["python"] },
+                { "id": "fastify", "skill": "fastify", "skills": ["nodejs", "javascript"] },
+                { "id": "fiber", "skill": "fiber", "skills": ["go"] },
+                { "id": "firebird", "skill": "firebird", "skills": ["sql"] },
+                { "id": "flask", "skill": "flask", "skills": ["python"] },
+                { "id": "flutter", "skill": "flutter", "skills": ["dart"] },
+                { "id": "fyne", "skill": "fyne", "skills": ["go"] },
+                { "id": "gin", "skill": "gin", "skills": ["go"] },
+                { "id": "gradle", "skill": "gradle", "skills": ["java"] },
+                "graphql",
+                { "id": "handlebars", "skill": "handlebars", "skills": ["javascript", "html"] },
+                { "id": "htmx", "skill": "htmx", "skills": ["html", "javascript"] },
+                { "id": "db2", "skill": "db2", "skills": ["sql"] },
+                { "id": "ionic", "skill": "ionic", "skills": ["angular", "javascript", "typescript"] },
+                { "id": "javafx", "skill": "javafx", "skills": ["java"] },
+                { "id": "jetpackcompose", "skill": "jetpackcompose", "skills": ["kotlin"] },
+                { "id": "jquery", "skill": "jquery", "skills": ["javascript", "html"] },
+                { "id": "json", "skill": "json", "skills": ["python"] },
+                { "id": "koa", "skill": "koa", "skills": ["nodejs", "javascript"] },
+                { "id": "ktor", "skill": "ktor", "skills": ["kotlin"] },
+                { "id": "langchain", "skill": "langchain", "skills": ["python", "ai"] },
+                { "id": "laravel", "skill": "laravel", "skills": ["php"] },
+                { "id": "lit", "skill": "lit", "skills": ["javascript", "html"] },
+                { "id": "mariadb", "skill": "mariadb", "skills": ["mysql", "sql"] },
+                { "id": "maven", "skill": "maven", "skills": ["java"] },
+                { "id": "minimax", "skill": "minimax", "skills": ["ai", "python"] },
+                { "id": "mongodb", "skill": "mongodb", "skills": ["nosql"] },
+                { "id": "mysql", "skill": "mysql", "skills": ["sql", "javascript", "nodejs"] },
+                { "id": "nestjs", "skill": "nestjs", "skills": ["nodejs", "typescript"] },
+                { "id": "nextjs", "skill": "nextjs", "skills": ["reactjs", "javascript"] },
+                { "id": "nuxt", "skill": "nuxt", "skills": ["vuejs", "javascript"] },
+                { "id": "ollama", "skill": "ollama", "skills": ["ai", "python"] },
+                { "id": "oracle", "skill": "oracle", "skills": ["sql"] },
+                { "id": "plsql", "skill": "plsql", "skills": ["oracle", "sql"] },
+                { "id": "phoenix", "skill": "phoenix", "skills": ["elixir"] },
+                { "id": "playframework", "skill": "playframework", "skills": ["scala", "java"] },
+                { "id": "playwright", "skill": "playwright", "skills": ["javascript", "typescript", "unit_testing"] },
+                { "id": "postgresql", "skill": "postgresql", "skills": ["sql"] },
+                { "id": "preact", "skill": "preact", "skills": ["javascript"] },
+                { "id": "prisma", "skill": "prisma", "skills": ["nodejs", "typescript", "sql"] },
+                { "id": "pyside6", "skill": "pyside6", "skills": ["python"] },
+                { "id": "quarkus", "skill": "quarkus", "skills": ["java"] },
+                { "id": "questdb", "skill": "questdb", "skills": ["sql", "java"] },
+                { "id": "qwik", "skill": "qwik", "skills": ["javascript", "typescript"] },
+                { "id": "react", "name": "React", "skill": "reactjs", "skills": ["javascript"] },
+                { "id": "reactbootstrap", "skill": "reactbootstrap", "skills": ["reactjs", "bootstrap", "css", "javascript"] },
+                { "id": "reactnative", "skill": "reactnative", "skills": ["reactjs", "javascript"] },
+                "redis",
+                { "id": "redux", "skill": "redux", "skills": ["reactjs", "javascript"] },
+                { "id": "remix", "skill": "remix", "skills": ["reactjs", "javascript"] },
+                { "id": "rubyonrails", "skill": "ruby_on_rails", "skills": ["ruby"] },
+                { "id": "sanic", "skill": "sanic", "skills": ["python"] },
+                { "id": "scss", "skill": "scss", "skills": ["css", "html"] },
+                { "id": "selenium", "skill": "selenium", "skills": ["python", "unit_testing"] },
+                { "id": "solidjs", "skill": "solidjs", "skills": ["javascript"] },
+                { "id": "springboot", "name": "Spring Boot", "skill": "springboot", "skills": ["java"] },
+                { "id": "sqlite", "skill": "sqlite", "skills": ["sql"] },
+                { "id": "surrealdb", "skill": "surrealdb", "skills": ["nosql"] },
+                { "id": "svelte", "skill": "svelte", "skills": ["javascript"] },
+                { "id": "swiftui", "skill": "swiftui", "skills": ["swift"] },
+                { "id": "symfony", "skill": "symfony", "skills": ["php"] },
+                { "id": "tsql", "skill": "tsql", "skills": ["sql", "mssql"] },
+                { "id": "tailwindcss", "skill": "tailwindcss", "skills": ["css", "html"] },
+                { "id": "tanstackquery", "skill": "tanstackquery", "skills": ["reactjs", "javascript", "typescript"] },
+                { "id": "tauri", "skill": "tauri", "skills": ["rust", "javascript"] },
+                { "id": "tkinter", "skill": "tkinter", "skills": ["python"] },
+                { "id": "trpc", "skill": "trpc", "skills": ["typescript", "nodejs"] },
+                { "id": "vapor", "skill": "vapor", "skills": ["swift"] },
+                { "id": "vue", "name": "Vue", "skill": "vuejs", "skills": ["javascript"] },
+                { "id": "vuebootstrap", "skill": "vuebootstrap", "skills": ["vuejs", "bootstrap", "css", "javascript"] },
+                { "id": "wpf", "name": "WPF - C#", "skill": "wpf", "skills": ["csharp", "dotnet", "dotnet_core"] },
+                { "id": "wpfvb", "name": "WPF - VB.NET", "skill": "wpf", "skills": ["vbnet", "dotnet", "dotnet_core"] }
             ]
         },
         {
@@ -1426,219 +428,30 @@
             ]
         },
         {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/C/C%20with%20Assembly%20(64bit)",
-            "label": "Interop with C & Assembly x64",
             "group": "interop",
-            "skills": [
-                "c",
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/C/C%20with%20Assembly%20(32bit)",
-            "label": "Interop with C & Assembly x86",
-            "group": "interop",
-            "skills": [
-                "c",
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/C%2B%2B/C%2B%2B%20with%20Assembly%20(64bit)",
-            "label": "Interop with C++ & Assembly x64",
-            "group": "interop",
-            "skills": [
-                "cpp",
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/C%2B%2B/C%2B%2B%20with%20Assembly%20(32bit)",
-            "label": "Interop with C++ & Assembly x86",
-            "group": "interop",
-            "skills": [
-                "cpp",
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Haskell/Haskell%20with%20Assembly%20(64bit)",
-            "label": "Interop with Haskell & Assembly x64",
-            "group": "interop",
-            "skills": [
-                "haskell",
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Haskell/Haskell%20with%20Assembly%20(32bit)",
-            "label": "Interop with Haskell & Assembly x86",
-            "group": "interop",
-            "skills": [
-                "haskell",
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Haskell/Haskell%20with%20Scala",
-            "label": "Interop with Haskell & Scala",
-            "group": "interop",
-            "skills": [
-                "haskell",
-                "scala",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Java/Java%20with%20Clojure",
-            "label": "Interop with Java & Clojure",
-            "group": "interop",
-            "skills": [
-                "java",
-                "clojure",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Java/Java%20with%20Groovy",
-            "label": "Interop with Java & Groovy",
-            "group": "interop",
-            "skills": [
-                "java",
-                "groovy",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Java/Java%20with%20Kotlin",
-            "label": "Interop with Java & Kotlin",
-            "group": "interop",
-            "skills": [
-                "java",
-                "kotlin",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Java/Java%20with%20Scala",
-            "label": "Interop with Java & Scala",
-            "group": "interop",
-            "skills": [
-                "java",
-                "scala",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/JavaScript/JavaScript%20with%20C%23",
-            "label": "Interop with JavaScript & C#",
-            "group": "interop",
-            "skills": [
-                "javascript",
-                "csharp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/JavaScript/JavaScript%20with%20Dart",
-            "label": "Interop with JavaScript & Dart",
-            "group": "interop",
-            "skills": [
-                "javascript",
-                "dart",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Perl/Perl%20with%20Pascal",
-            "label": "Interop with Perl & Pascal",
-            "group": "interop",
-            "skills": [
-                "perl",
-                "pascal",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Perl/Perl%20with%20Prolog",
-            "label": "Interop with Perl & Prolog",
-            "group": "interop",
-            "skills": [
-                "perl",
-                "prolog",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Python/Python%20with%20C%2B%2B",
-            "label": "Interop with Python & C++",
-            "group": "interop",
-            "skills": [
-                "python",
-                "cpp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Python/Python%20with%20Java",
-            "label": "Interop with Python & Java",
-            "group": "interop",
-            "skills": [
-                "python",
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Interop-Samples/tree/main/Python/Python%20with%20Prolog",
-            "label": "Interop with Python & Prolog",
-            "group": "interop",
-            "skills": [
-                "python",
-                "prolog",
-                "git",
-                "github",
-                "vscode"
+            "expand": true,
+            "label": "Interop with",
+            "link_base": "https://github.com/pattygcoding/Interop-Samples/tree/main/",
+            "common_skills": ["git", "github", "vscode"],
+            "samples": [
+                ["c", "assembly", "64bit"],
+                ["c", "assembly", "32bit"],
+                ["cpp", "assembly", "64bit"],
+                ["cpp", "assembly", "32bit"],
+                ["haskell", "assembly", "64bit"],
+                ["haskell", "assembly", "32bit"],
+                ["haskell", "scala"],
+                ["java", "clojure"],
+                ["java", "groovy"],
+                ["java", "kotlin"],
+                ["java", "scala"],
+                ["javascript", "csharp"],
+                ["javascript", "dart"],
+                ["perl", "pascal"],
+                ["perl", "prolog"],
+                ["python", "cpp"],
+                ["python", "java"],
+                ["python", "prolog"]
             ]
         },
         {
@@ -1875,125 +688,23 @@
             ]
         },
         {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/C",
-            "label": "Rijandel Encryption (C)",
             "group": "rijandel_encryption",
-            "skills": [
-                "c",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/C%2B%2B",
-            "label": "Rijandel Encryption (C++)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "cpp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/C%23",
-            "label": "Rijandel Encryption (C#)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "csharp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/Haskell",
-            "label": "Rijandel Encryption (Haskell)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "haskell",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/Java",
-            "label": "Rijandel Encryption (Java)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/JavaScript",
-            "label": "Rijandel Encryption (JavaScript)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/Kotlin",
-            "label": "Rijandel Encryption (Kotlin)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "kotlin",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/PHP",
-            "label": "Rijandel Encryption (PHP)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "php",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/Python",
-            "label": "Rijandel Encryption (Python)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/Ruby",
-            "label": "Rijandel Encryption (Ruby)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "ruby",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/TypeScript",
-            "label": "Rijandel Encryption (TypeScript)",
-            "group": "rijandel_encryption",
-            "skills": [
-                "javascript",
-                "typescript",
-                "git",
-                "github",
-                "vscode"
+            "expand": true,
+            "label": "Rijandel Encryption",
+            "link_base": "https://github.com/pattygcoding/Rijandel-Encryption/tree/main/",
+            "common_skills": ["git", "github", "vscode"],
+            "samples": [
+                { "id": "C", "skill": "c" },
+                { "id": "C++", "skill": "cpp" },
+                { "id": "C#", "skill": "csharp" },
+                { "id": "Haskell", "skill": "haskell" },
+                { "id": "Java", "skill": "java" },
+                { "id": "JavaScript", "skill": "javascript" },
+                { "id": "Kotlin", "skill": "kotlin" },
+                { "id": "PHP", "skill": "php" },
+                { "id": "Python", "skill": "python" },
+                { "id": "Ruby", "skill": "ruby" },
+                { "id": "TypeScript", "name": "TypeScript", "skill": "javascript", "skills": ["typescript"] }
             ]
         },
         {
@@ -2081,479 +792,55 @@
             ]
         },
         {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Ada",
-            "label": "Turing Machine (Ada)",
             "group": "turing_machine",
-            "skills": [
-                "ada",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Assembly/64bit",
-            "label": "Turing Machine (Assembly x64)",
-            "group": "turing_machine",
-            "skills": [
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Assembly/32bit",
-            "label": "Turing Machine (Assembly x86)",
-            "group": "turing_machine",
-            "skills": [
-                "assembly",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Bash",
-            "label": "Turing Machine (Bash)",
-            "group": "turing_machine",
-            "skills": [
-                "bash",
-                "git",
-                "github",
-                "shell",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/C",
-            "label": "Turing Machine (C)",
-            "group": "turing_machine",
-            "skills": [
-                "c",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/C%2B%2B",
-            "label": "Turing Machine (C++)",
-            "group": "turing_machine",
-            "skills": [
-                "cpp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/C%23",
-            "label": "Turing Machine (C#)",
-            "group": "turing_machine",
-            "skills": [
-                "csharp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/COBOL",
-            "label": "Turing Machine (COBOL)",
-            "group": "turing_machine",
-            "skills": [
-                "cobol",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Clojure",
-            "label": "Turing Machine (Clojure)",
-            "group": "turing_machine",
-            "skills": [
-                "clojure",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Cpp",
-            "label": "Turing Machine (C++)",
-            "group": "turing_machine",
-            "skills": [
-                "cpp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Dart",
-            "label": "Turing Machine (Dart)",
-            "group": "turing_machine",
-            "skills": [
-                "dart",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Elixir",
-            "label": "Turing Machine (Elixir)",
-            "group": "turing_machine",
-            "skills": [
-                "elixir",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Erlang",
-            "label": "Turing Machine (Erlang)",
-            "group": "turing_machine",
-            "skills": [
-                "erlang",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/FSharp",
-            "label": "Turing Machine (F#)",
-            "group": "turing_machine",
-            "skills": [
-                "fsharp",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Fortran",
-            "label": "Turing Machine (Fortran)",
-            "group": "turing_machine",
-            "skills": [
-                "fortran",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Go",
-            "label": "Turing Machine (Go)",
-            "group": "turing_machine",
-            "skills": [
-                "go",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Groovy",
-            "label": "Turing Machine (Groovy)",
-            "group": "turing_machine",
-            "skills": [
-                "groovy",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Haskell",
-            "label": "Turing Machine (Haskell)",
-            "group": "turing_machine",
-            "skills": [
-                "haskell",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Java",
-            "label": "Turing Machine (Java)",
-            "group": "turing_machine",
-            "skills": [
-                "java",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/JavaScript",
-            "label": "Turing Machine (JavaScript)",
-            "group": "turing_machine",
-            "skills": [
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Julia",
-            "label": "Turing Machine (Julia)",
-            "group": "turing_machine",
-            "skills": [
-                "julia",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Kotlin",
-            "label": "Turing Machine (Kotlin)",
-            "group": "turing_machine",
-            "skills": [
-                "kotlin",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Lua",
-            "label": "Turing Machine (Lua)",
-            "group": "turing_machine",
-            "skills": [
-                "lua",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Nim",
-            "label": "Turing Machine (Nim)",
-            "group": "turing_machine",
-            "skills": [
-                "nim",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/OCaml",
-            "label": "Turing Machine (OCaml)",
-            "group": "turing_machine",
-            "skills": [
-                "ocaml",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/ObjectiveC",
-            "label": "Turing Machine (Objective-C)",
-            "group": "turing_machine",
-            "skills": [
-                "objectivec",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Pascal",
-            "label": "Turing Machine (Pascal)",
-            "group": "turing_machine",
-            "skills": [
-                "pascal",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Perl",
-            "label": "Turing Machine (Perl)",
-            "group": "turing_machine",
-            "skills": [
-                "perl",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/PHP",
-            "label": "Turing Machine (PHP)",
-            "group": "turing_machine",
-            "skills": [
-                "php",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Powershell",
-            "label": "Turing Machine (PowerShell)",
-            "group": "turing_machine",
-            "skills": [
-                "powershell",
-                "git",
-                "github",
-                "shell",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Prolog",
-            "label": "Turing Machine (Prolog)",
-            "group": "turing_machine",
-            "skills": [
-                "prolog",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Python",
-            "label": "Turing Machine (Python)",
-            "group": "turing_machine",
-            "skills": [
-                "python",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/R",
-            "label": "Turing Machine (R)",
-            "group": "turing_machine",
-            "skills": [
-                "r",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Ruby",
-            "label": "Turing Machine (Ruby)",
-            "group": "turing_machine",
-            "skills": [
-                "ruby",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Rust",
-            "label": "Turing Machine (Rust)",
-            "group": "turing_machine",
-            "skills": [
-                "rust",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Scala",
-            "label": "Turing Machine (Scala)",
-            "group": "turing_machine",
-            "skills": [
-                "scala",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Simula",
-            "label": "Turing Machine (Simula)",
-            "group": "turing_machine",
-            "skills": [
-                "simula",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Swift",
-            "label": "Turing Machine (Swift)",
-            "group": "turing_machine",
-            "skills": [
-                "swift",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/TypeScript",
-            "label": "Turing Machine (TypeScript)",
-            "group": "turing_machine",
-            "skills": [
-                "typescript",
-                "javascript",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/V",
-            "label": "Turing Machine (V)",
-            "group": "turing_machine",
-            "skills": [
-                "v",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/VB.NET",
-            "label": "Turing Machine (VB.NET)",
-            "group": "turing_machine",
-            "skills": [
-                "vbnet",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/VBA",
-            "label": "Turing Machine (VBA)",
-            "group": "turing_machine",
-            "skills": [
-                "vba",
-                "git",
-                "github",
-                "vscode"
-            ]
-        },
-        {
-            "link": "https://github.com/pattygcoding/Turing-Machines/tree/main/Zig",
-            "label": "Turing Machine (Zig)",
-            "group": "turing_machine",
-            "skills": [
-                "zig",
-                "git",
-                "github",
-                "vscode"
+            "expand": true,
+            "label": "Turing Machine",
+            "link_base": "https://github.com/pattygcoding/Turing-Machines/tree/main/",
+            "common_skills": ["git", "github", "vscode"],
+            "samples": [
+                { "id": "Ada", "skill": "ada" },
+                { "id": "Assembly/64bit", "name": "Assembly x64", "skill": "assembly" },
+                { "id": "Assembly/32bit", "name": "Assembly x86", "skill": "assembly" },
+                { "id": "Bash", "tags": ["bash", "git", "github", "shell", "vscode"] },
+                { "id": "C", "skill": "c" },
+                { "id": "C++", "skill": "cpp" },
+                { "id": "C#", "skill": "csharp" },
+                { "id": "COBOL", "skill": "cobol" },
+                { "id": "Clojure", "skill": "clojure" },
+                { "id": "Cpp", "skill": "cpp" },
+                { "id": "Dart", "skill": "dart" },
+                { "id": "Elixir", "skill": "elixir" },
+                { "id": "Erlang", "skill": "erlang" },
+                { "id": "FSharp", "skill": "fsharp" },
+                { "id": "Fortran", "skill": "fortran" },
+                { "id": "Go", "skill": "go" },
+                { "id": "Groovy", "skill": "groovy" },
+                { "id": "Haskell", "skill": "haskell" },
+                { "id": "Java", "skill": "java" },
+                { "id": "JavaScript", "skill": "javascript" },
+                { "id": "Julia", "skill": "julia" },
+                { "id": "Kotlin", "skill": "kotlin" },
+                { "id": "Lua", "skill": "lua" },
+                { "id": "Nim", "skill": "nim" },
+                { "id": "OCaml", "skill": "ocaml" },
+                { "id": "ObjectiveC", "skill": "objectivec" },
+                { "id": "Pascal", "skill": "pascal" },
+                { "id": "Perl", "skill": "perl" },
+                { "id": "PHP", "skill": "php" },
+                { "id": "Powershell", "name": "PowerShell", "tags": ["powershell", "git", "github", "shell", "vscode"] },
+                { "id": "Prolog", "skill": "prolog" },
+                { "id": "Python", "skill": "python" },
+                { "id": "R", "skill": "r" },
+                { "id": "Ruby", "skill": "ruby" },
+                { "id": "Rust", "skill": "rust" },
+                { "id": "Scala", "skill": "scala" },
+                { "id": "Simula", "skill": "simula" },
+                { "id": "Swift", "skill": "swift" },
+                { "id": "TypeScript", "skill": "typescript", "skills": ["javascript"] },
+                { "id": "V", "skill": "v" },
+                { "id": "VB.NET", "name": "VB.NET", "skill": "vbnet" },
+                { "id": "VBA", "skill": "vba" },
+                { "id": "Zig", "skill": "zig" }
             ]
         }
     ]

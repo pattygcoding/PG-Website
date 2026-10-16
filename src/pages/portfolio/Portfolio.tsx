@@ -9,7 +9,7 @@ import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
 import links from "@/assets/links/links.json";
 import skills from "@/assets/skills/skills.json";
-import projectsData from "@/assets/projects/projects.json";
+import projectsData from "@/assets/projects/projects";
 import { useLocation, useNavigate } from "react-router-dom";
 import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
 import { readSkillSelection, writeSkillSelection, collectGroupSkills, matchesSkills } from "./portfolioFilters";

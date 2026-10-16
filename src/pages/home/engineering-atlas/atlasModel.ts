@@ -1,5 +1,5 @@
 import english from "../../../assets/lang/en_us.json";
-import projectsData from "../../../assets/projects/projects.json";
+import projectsData from "../../../assets/projects/projects";
 import skillsData from "../../../assets/skills/skills.json";
 
 export interface AtlasProject {

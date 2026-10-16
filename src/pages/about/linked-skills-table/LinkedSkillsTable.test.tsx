@@ -132,7 +132,7 @@ test("collapses long version lists behind an expandable chip", async () => {
 		const chips = () => container.querySelectorAll(".skill-project-card__variants a").length;
 		const more = container.querySelector<HTMLElement>(".skill-project-card__more")!;
 		expect(chips()).toBe(8);
-		expect(more.textContent).toBe("+4 more");
+		expect(more.textContent).toBe("+ more");
 		await act(async () => more.click());
 		expect(chips()).toBe(12);
 		expect(more.textContent).toBe("Show less");
@@ -141,3 +141,34 @@ test("collapses long version lists behind an expandable chip", async () => {
 		container.remove();
 	}
 });
+
+test("clamps the variants by rendered rows instead of a fixed count", async () => {
+	const heightDescriptor = Object.getOwnPropertyDescriptor(HTMLElement.prototype, "offsetHeight")!;
+	const topDescriptor = Object.getOwnPropertyDescriptor(HTMLElement.prototype, "offsetTop")!;
+	// jsdom lays nothing out, so stand in for a one-chip-per-row layout: every chip
+	// is 26px tall and starts a row of its own, which the card then measures itself.
+	Object.defineProperty(HTMLElement.prototype, "offsetHeight", { configurable: true, get(this: HTMLElement) { return this.tagName === "A" ? 26 : 0; } });
+	Object.defineProperty(HTMLElement.prototype, "offsetTop", { configurable: true, get(this: HTMLElement) { return [...(this.parentElement?.children ?? [])].indexOf(this) * 32; } });
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	const many = Array.from({ length: 12 }, (_, i) => ({ label: `Interop with V${i}`, group: "interop", link: `https://example.com/v${i}`, skills: ["go"] }));
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(
+			<MemoryRouter initialEntries={["/about#go"]}>
+				<LanguageProvider>
+					<LinkedSkillsTable id="skills-test" header="Languages" list={list} projects={many} entries={entries} skillNames={skillNames} />
+				</LanguageProvider>
+			</MemoryRouter>
+		));
+		expect(container.querySelectorAll(".skill-project-card__variants a").length).toBe(2);
+		expect(container.querySelector(".skill-project-card__more")!.textContent).toBe("+ more");
+	} finally {
+		act(() => root.unmount());
+		container.remove();
+		Object.defineProperty(HTMLElement.prototype, "offsetHeight", heightDescriptor);
+		Object.defineProperty(HTMLElement.prototype, "offsetTop", topDescriptor);
+	}
+});
+
