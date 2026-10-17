@@ -12,8 +12,10 @@ export interface ProjectSample {
  * A group whose entries all share a URL base, a label prefix and the
  * git/github/vscode skills is stored in `projects.json` as one compact block
  * instead of dozens of near-identical entries; this module expands such a block
- * back into ordinary samples. Three groups use one: connect_four (135
- * implementations), turing_machine (43) and rijandel_encryption (11).
+ * back into ordinary samples. The sample-shaped groups are connect_four,
+ * turing_machine and rijandel_encryption, and interop is the fourth; how many
+ * samples each carries is counted in `projectCounts` below rather than written
+ * into the copy, so the descriptions cannot drift as samples are added.
  *
  * A sample is a bare id when the folder, skill id and skills.json name all agree,
  * otherwise an object:
@@ -119,6 +121,50 @@ const expand = (block: ExpandBlock): ProjectSample[] => {
 };
 
 const projects: ProjectSample[] = source.flatMap((entry) => (isExpandBlock(entry) ? expand(entry) : [entry]));
+
+/** Classifies a group's skills so a description can count languages and frameworks apart. */
+const languageIds = new Set(skillsJson.languages.map(({ id }) => id));
+const frameworkIds = new Set(skillsJson.frameworks.map(({ id }) => id));
+
+interface GroupCounts {
+	/** Expanded samples in the group: the implementations the family demonstrates. */
+	implementations: number;
+	/** Distinct programming languages those samples use. */
+	languages: number;
+	/** Distinct frameworks, libraries, runtimes and databases those samples use. */
+	frameworks: number;
+}
+
+const countGroup = (group: string): GroupCounts => {
+	const members = projects.filter((sample) => sample.group === group);
+	const used = new Set(members.flatMap((sample) => sample.skills));
+	return {
+		implementations: members.length,
+		languages: [...used].filter((id) => languageIds.has(id)).length,
+		frameworks: [...used].filter((id) => frameworkIds.has(id)).length,
+	};
+};
+
+const connectFour = countGroup("connect_four");
+const interop = countGroup("interop");
+const rijandel = countGroup("rijandel_encryption");
+const turing = countGroup("turing_machine");
+
+/**
+ * Values for the `{token}` placeholders the project descriptions quote, keyed by the
+ * `portfolio.entries` id. `interop` counts language pairs as execution patterns,
+ * which is what its copy calls them.
+ *
+ * Counted here instead of being spelled out in the locale files: `lang.py` passes
+ * `{token}` through translation untouched, so one edit to the data reaches every
+ * language at once. See `interpolateCounts` for the substitution.
+ */
+export const projectCounts: Record<string, Record<string, number>> = {
+	connect_four: { implementations: connectFour.implementations, languages: connectFour.languages, frameworks: connectFour.frameworks },
+	interop: { languages: interop.languages, patterns: interop.implementations },
+	rijandel_encryption: { implementations: rijandel.implementations },
+	turing_machine: { implementations: turing.implementations },
+};
 
 const projectsData = { projects };
 

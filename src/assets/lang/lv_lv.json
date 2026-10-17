@@ -148,7 +148,7 @@
           "lens": "Finanšu pareizība sākas ar reprezentāciju: veselu centu aritmētika un sabalansēti grāmatvedības ieraksti padara naudas kustību nepārprotamu."
         },
         "interop": {
-          "summary": "Starpvalodu atsauce, kas aptver 15 programmēšanas valodas un 18 izpildes modeļus, izpētot, kas notiek izpildes laika robežās.",
+          "summary": "Starpvalodu atsauce, kas aptver {languages} programmēšanas valodas un {patterns} izpildes modeļus, izpētot, kas notiek izpildes laika robežās.",
           "lens": "Grūtā daļa ir līgums starp izpildes vidēm: datu apmaiņa, procesu uzvedība un atkārtojama izpilde ir svarīgāka par sintaksi."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Savienojiet četrus",
-        "text": "Milzīga ģimene, kurā ietilpst vairāk nekā 90 Četri pēc kārtas spēles implementācijas. Projekts aptver vairāk nekā 30 programmēšanas valodas, tostarp Java, C++, Python un JavaScript, un vairāk nekā 50 dažādus ietvarus, bibliotēkas, izpildes vides un datu bāzes – no React, Angular un Blazor līdz Django, Spring Boot, Phoenix, PostgreSQL un citiem.",
+        "text": "Milzīga ģimene, kurā ietilpst vairāk nekā {implementations} Četri pēc kārtas spēles implementācijas. Projekts aptver vairāk nekā {languages} programmēšanas valodas, tostarp Java, C++, Python un JavaScript, un vairāk nekā {frameworks} dažādus ietvarus, bibliotēkas, izpildes vides un datu bāzes – no React, Angular un Blazor līdz Django, Spring Boot, Phoenix, PostgreSQL un citiem.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Interop projekts",
-        "text": "Vairāku valodu savietojamības atsauce, kas aptver 15 programmēšanas valodas un 18 izpildes modeļus. Projekts pēta robežas, kur sistēmas bieži kļūst trauslas: procesu līgumi, datu apmaiņa, izpildlaika uzvedība un atkārtojami integrācijas ceļi. Tas atspoguļo sistēmas domāšanu, kas nepieciešama, ja produkts ir lielāks par vienu kaudzīti.",
+        "text": "Vairāku valodu savietojamības atsauce, kas aptver {languages} programmēšanas valodas un {patterns} izpildes modeļus. Projekts pēta robežas, kur sistēmas bieži kļūst trauslas: procesu līgumi, datu apmaiņa, izpildlaika uzvedība un atkārtojami integrācijas ceļi. Tas atspoguļo sistēmas domāšanu, kas nepieciešama, ja produkts ir lielāks par vienu kaudzīti.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel šifrēšanas projekts",
-        "text": "10+ Rijndael implementāciju salīdzinoša kopa 128, 192 un 256 bitu variantos. Drošības ziņā jutīga algoritma atkārtota ieviešana dažādās valodās ir disciplinēts vingrinājums precīzām specifikācijām, pārbaudāmai uzvedībai un valodas līmeņa pārnesamības ierobežojumiem, visi noderīgie instinkti sistēmām, kas apstrādā sensitīvus datus.",
+        "text": "{implementations} Rijndael implementāciju salīdzinoša kopa 128, 192 un 256 bitu variantos. Drošības ziņā jutīga algoritma atkārtota ieviešana dažādās valodās ir disciplinēts vingrinājums precīzām specifikācijām, pārbaudāmai uzvedībai un valodas līmeņa pārnesamības ierobežojumiem, visi noderīgie instinkti sistēmām, kas apstrādā sensitīvus datus.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Tjūringa mašīnas projekts",
-        "text": "Ģimene, kurā ir vairāk nekā 30 Tjūringa mašīnas implementāciju. Izmanto, lai demonstrētu dažādu programmēšanas valodu, īpaši tīģera programmēšanas valodu, pilnīgumu pētniecībai.",
+        "text": "Ģimene, kurā ir vairāk nekā {implementations} Tjūringa mašīnas implementāciju. Izmanto, lai demonstrētu dažādu programmēšanas valodu, īpaši tīģera programmēšanas valodu, pilnīgumu pētniecībai.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

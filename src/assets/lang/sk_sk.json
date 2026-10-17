@@ -148,7 +148,7 @@
           "lens": "Finančná správnosť začína reprezentáciou: aritmetika v celých centoch a vyvážené účtovné zápisy robia pohyb peňazí explicitným."
         },
         "interop": {
-          "summary": "Medzijazyková referencia pokrývajúca 15 programovacích jazykov a 18 vzorov vykonávania, ktorá skúma, čo sa deje na hraniciach behového prostredia.",
+          "summary": "Medzijazyková referencia pokrývajúca {languages} programovacích jazykov a {patterns} vzorov vykonávania, ktorá skúma, čo sa deje na hraniciach behového prostredia.",
           "lens": "Ťažká časť je kontrakt medzi behovými prostrediami: výmena dát, správanie procesov a opakovateľné vykonávanie záleží viac ako syntax."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Pripojte štyri",
-        "text": "Obrovská rodina viac ako 90 implementácií hry Štyri v rade. Projekt pokrýva viac ako 30 programovacích jazykov, vrátane Java, C++, Python a JavaScript, spolu s viac ako 50 rôznymi frameworkmi, knižnicami, behovými prostrediami a databázami – od React, Angular a Blazor po Django, Spring Boot, Phoenix, PostgreSQL a ďalšie.",
+        "text": "Obrovská rodina viac ako {implementations} implementácií hry Štyri v rade. Projekt pokrýva viac ako {languages} programovacích jazykov, vrátane Java, C++, Python a JavaScript, spolu s viac ako {frameworks} rôznymi frameworkmi, knižnicami, behovými prostrediami a databázami – od React, Angular a Blazor po Django, Spring Boot, Phoenix, PostgreSQL a ďalšie.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Projekt Interop",
-        "text": "Referencia interoperability medzi jazykmi zahŕňajúca 15 programovacích jazykov a 18 vzorov vykonávania. Projekt skúma hranice, kde sa systémy často stávajú krehkými: procesné zmluvy, výmena údajov, správanie pri behu a opakovateľné integračné cesty. Odráža systémové myslenie potrebné, keď je produkt väčší ako jeden balík.",
+        "text": "Referencia interoperability medzi jazykmi zahŕňajúca {languages} programovacích jazykov a {patterns} vzorov vykonávania. Projekt skúma hranice, kde sa systémy často stávajú krehkými: procesné zmluvy, výmena údajov, správanie pri behu a opakovateľné integračné cesty. Odráža systémové myslenie potrebné, keď je produkt väčší ako jeden balík.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Šifrovací projekt Rijandel",
-        "text": "Porovnávací súbor 10+ implementácií Rijndael v 128-, 192- a 256-bitových variantoch. Reimplementácia algoritmu citlivého na bezpečnosť medzi jazykmi je disciplinovaným cvičením presných špecifikácií, testovateľného správania a limitov prenosnosti na jazykovej úrovni, všetky užitočné inštinkty pre systémy, ktoré spracúvajú citlivé údaje.",
+        "text": "Porovnávací súbor {implementations} implementácií Rijndael v 128-, 192- a 256-bitových variantoch. Reimplementácia algoritmu citlivého na bezpečnosť medzi jazykmi je disciplinovaným cvičením presných špecifikácií, testovateľného správania a limitov prenosnosti na jazykovej úrovni, všetky užitočné inštinkty pre systémy, ktoré spracúvajú citlivé údaje.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Projekt Turingovho stroja",
-        "text": "Rodina viac ako 30 implementácií Turingovho stroja. Používa sa na demonštráciu úplnosti pre rôzne programovacie jazyky pre výskum, najmä pre programovací jazyk Tiger.",
+        "text": "Rodina viac ako {implementations} implementácií Turingovho stroja. Používa sa na demonštráciu úplnosti pre rôzne programovacie jazyky pre výskum, najmä pre programovací jazyk Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

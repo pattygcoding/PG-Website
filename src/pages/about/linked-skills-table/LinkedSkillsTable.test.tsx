@@ -2,6 +2,7 @@ import React, { act } from "react";
 import { createRoot } from "react-dom/client";
 import { MemoryRouter } from "react-router-dom";
 import { LanguageProvider } from "@/lang/languageContext";
+import { projectCounts } from "@/assets/projects/projects";
 import LinkedSkillsTable from "./LinkedSkillsTable";
 
 const list = [
@@ -200,6 +201,30 @@ test("clamps a short variant list that still overflows two rows", async () => {
 		container.remove();
 		Object.defineProperty(HTMLElement.prototype, "offsetHeight", heightDescriptor);
 		Object.defineProperty(HTMLElement.prototype, "offsetTop", topDescriptor);
+	}
+});
+
+test("fills a project card's count tokens from projects.json", async () => {
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	const withTokens = { connect_four: { title: "Connect Four", text: "A family of {implementations} implementations.", link: "https://example.com/c4" } };
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(
+			<MemoryRouter initialEntries={["/about#go"]}>
+				<LanguageProvider>
+					<LinkedSkillsTable id="skills-test" header="Languages" list={list} projects={projects} entries={withTokens} skillNames={skillNames} />
+				</LanguageProvider>
+			</MemoryRouter>
+		));
+		const text = container.querySelector(".skill-project-card > p")!.textContent!;
+		expect(text).toBe(`A family of ${projectCounts.connect_four.implementations} implementations.`);
+		// A raw placeholder here was the bug: the card must never show "{implementations}".
+		expect(text).not.toMatch(/\{[A-Za-z_]/);
+	} finally {
+		act(() => root.unmount());
+		container.remove();
 	}
 });
 

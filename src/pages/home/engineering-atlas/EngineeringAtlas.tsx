@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FiArrowDown, FiArrowRight, FiArrowUpRight, FiCheck, FiGrid, FiList, FiPause, FiPlay, FiSearch, FiShare2, FiX } from "react-icons/fi";
 import { useLang } from "@/lang/languageContext";
+import { useProjectCounts } from "@/lang/interpolateCounts";
 import { LangAwareLink } from "@/components/lang-aware-link";
 import links from "@/assets/links/links.json";
 import english from "@/assets/lang/en_us.json";
@@ -25,6 +26,7 @@ export function AtlasInvitation() {
 
 export default function EngineeringAtlas() {
     const { t } = useLang();
+    const interpolate = useProjectCounts();
     const [selectedId, setSelectedId] = useState(ATLAS_HUB);
     const [domain, setDomain] = useState("all");
     const [query, setQuery] = useState("");
@@ -142,7 +144,7 @@ export default function EngineeringAtlas() {
                             <div className="atlas-inspector-top"><span>{labels.domains[selected.domain]}</span></div>
                             <div className="atlas-project-art"><img src={`/assets/images/${portfolioImages[selected.image] || portfolioImages.default}`} alt="" loading="lazy" width="180" height="120" /></div>
                             <h3 aria-live="polite">{entries[selected.id].title}</h3>
-                            <p className="atlas-summary">{labels.stories[selected.id]?.summary || entries[selected.id].text}</p>
+                            <p className="atlas-summary">{interpolate(labels.stories[selected.id]?.summary || entries[selected.id].text, selected.id)}</p>
                             <div className="atlas-stack">{selected.skills.slice(0, 8).map((skill) => <span key={skill}>{labels.skills[skill]}</span>)}</div>
                             {selected.skills.length > 8 && <details className="atlas-all-skills"><summary>{labels.all_technologies} ({selected.skills.length})</summary><div className="atlas-stack">{selected.skills.slice(8).map((skill) => <span key={skill}>{labels.skills[skill]}</span>)}</div></details>}
                             {labels.stories[selected.id]?.lens && <div className="atlas-lens"><h4>{labels.engineering_lens}</h4><p>{labels.stories[selected.id].lens}</p></div>}

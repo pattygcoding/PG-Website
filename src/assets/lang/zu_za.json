@@ -148,7 +148,7 @@
           "lens": "Ukunemba kwezimali kuqala ngokumelela: izibalo zamacent avolileyo nokungenisa okulinganiselayo kukhanyisa ukuhamba kwemali."
         },
         "interop": {
-          "summary": "Inkomba yezilimi ehlukene ehlanganisa izilimi eziyi-15 zokuhlela namaphethini ayi-18 okusebenza, ehlola okwenzekayo emingceleni yesikhathi sokusebenza.",
+          "summary": "Inkomba yezilimi ehlukene ehlanganisa izilimi eziyi-{languages} zokuhlela namaphethini ayi-{patterns} okusebenza, ehlola okwenzekayo emingceleni yesikhathi sokusebenza.",
           "lens": "Ingxenye enzima isivumelwano phakathi kwezikhathi zokusebenza: ukushintshana kwedatha, ukuziphatha kwenqubo, nokusebenza okuphindaphindekayo kubalulekile kunesyntax."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Xhuma Okune",
-        "text": "Umndeni omkhulu wokwenziwa okungaphezu kuka-90 komdlalo we-Omine ngomugqa. Lolu hlelo luhlanganisa izilimi ezingaphezu kuka-30 zokuhlela, kuhlanganise ne-Java, i-C++, i-Python, ne-JavaScript, kanye nama-framework angaphezu kuka-50, imithala, izikhathi zokusebenza, nezinhlaka zedatha ezahlukahlukene, kusukela ku-React, Angular, ne-Blazor kuya ku-Django, Spring Boot, Phoenix, PostgreSQL, nokunye.",
+        "text": "Umndeni omkhulu wokwenziwa okungaphezu kuka-{implementations} komdlalo we-Omine ngomugqa. Lolu hlelo luhlanganisa izilimi ezingaphezu kuka-{languages} zokuhlela, kuhlanganise ne-Java, i-C++, i-Python, ne-JavaScript, kanye nama-framework angaphezu kuka-{frameworks}, imithala, izikhathi zokusebenza, nezinhlaka zedatha ezahlukahlukene, kusukela ku-React, Angular, ne-Blazor kuya ku-Django, Spring Boot, Phoenix, PostgreSQL, nokunye.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Iphrojekthi ye-Interop",
-        "text": "Ireferensi yokusebenzisana kwezilimi ezihlukene ehlanganisa izilimi zokuhlela eziyi-15 namaphethini okusebenzisa angu-18. Iphrojekthi iphenya umngcele lapho amasistimu evamise ukuba ntekenteke: izinqubo zenkontileka, ukushintshaniswa kwedatha, ukuziphatha kwesikhathi sokusebenza, nezindlela eziphindaphindwayo zokuhlanganisa. Ibonisa ukucabanga kwesistimu edingekayo lapho umkhiqizo mkhulu kunesitaki esisodwa.",
+        "text": "Ireferensi yokusebenzisana kwezilimi ezihlukene ehlanganisa izilimi zokuhlela eziyi-{languages} namaphethini okusebenzisa angu-{patterns}. Iphrojekthi iphenya umngcele lapho amasistimu evamise ukuba ntekenteke: izinqubo zenkontileka, ukushintshaniswa kwedatha, ukuziphatha kwesikhathi sokusebenza, nezindlela eziphindaphindwayo zokuhlanganisa. Ibonisa ukucabanga kwesistimu edingekayo lapho umkhiqizo mkhulu kunesitaki esisodwa.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Iphrojekthi yokubethela ye-Rijandel",
-        "text": "Isethi yokuqhathanisa yokusetshenziswa kwe-Rijndael engu-10+ kuzo zonke izinhlobo ezingu-128-, 192-, kanye no-256-bit. Ukusebenzisa kabusha i-algorithm ezwela ukuvikeleka kuzo zonke izilimi kuwumsebenzi onesiyalo ekucacisweni okunembile, ukuziphatha okuhlolekayo, kanye nemikhawulo yokuphatheka kwezinga lolimi, wonke umzwelo owusizo wamasistimu aphatha idatha ebucayi.",
+        "text": "Isethi yokuqhathanisa yokusetshenziswa kwe-Rijndael engu-{implementations} kuzo zonke izinhlobo ezingu-128-, 192-, kanye no-256-bit. Ukusebenzisa kabusha i-algorithm ezwela ukuvikeleka kuzo zonke izilimi kuwumsebenzi onesiyalo ekucacisweni okunembile, ukuziphatha okuhlolekayo, kanye nemikhawulo yokuphatheka kwezinga lolimi, wonke umzwelo owusizo wamasistimu aphatha idatha ebucayi.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Iphrojekthi yomshini wokuthunga",
-        "text": "Umndeni wezinto ezisetshenziswayo ezingaphezu kuka-30+ zoMshini weTuring. Isetshenziselwa ukukhombisa ukuphelela kwezilimi ezihlukahlukene zokuhlela ukuze kwenziwe ucwaningo, ikakhulukazi olimini lokuhlela lwe-Tiger.",
+        "text": "Umndeni wezinto ezisetshenziswayo ezingaphezu kuka-{implementations} zoMshini weTuring. Isetshenziselwa ukukhombisa ukuphelela kwezilimi ezihlukahlukene zokuhlela ukuze kwenziwe ucwaningo, ikakhulukazi olimini lokuhlela lwe-Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

@@ -148,7 +148,7 @@
           "lens": "Taloudellinen oikeellisuus alkaa esitystavasta: kokonaisten senttien aritmetiikka ja tasapainotetut kirjaukset tekevät rahan liikkeestä näkyvää."
         },
         "interop": {
-          "summary": "Kieltenvälinen viite, joka kattaa 15 ohjelmointikieltä ja 18 suoritusmallia ja tutkii, mitä tapahtuu ajonaikaisilla rajoilla.",
+          "summary": "Kieltenvälinen viite, joka kattaa {languages} ohjelmointikieltä ja {patterns} suoritusmallia ja tutkii, mitä tapahtuu ajonaikaisilla rajoilla.",
           "lens": "Vaikea osa on ajonaikaisten ympäristöjen välinen sopimus: tiedonvaihto, prosessikäyttäytyminen ja toistettava suoritus merkitsevät enemmän kuin syntaksi."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Yhdistä neljä",
-        "text": "Valtava perhe, jossa on yli 90 toteutusta Neljän suora -pelistä. Projekti kattaa yli 30 ohjelmointikieltä, kuten Java, C++, Python ja JavaScript, sekä yli 50 erilaista kehystä, kirjastoa, ajonaikaista ympäristöä ja tietokantaa Reactista, Angularista ja Blazorista Djangoon, Spring Bootiin, Phoenxiin, PostgreSQL:ään ja edelleen.",
+        "text": "Valtava perhe, jossa on yli {implementations} toteutusta Neljän suora -pelistä. Projekti kattaa yli {languages} ohjelmointikieltä, kuten Java, C++, Python ja JavaScript, sekä yli {frameworks} erilaista kehystä, kirjastoa, ajonaikaista ympäristöä ja tietokantaa Reactista, Angularista ja Blazorista Djangoon, Spring Bootiin, Phoenxiin, PostgreSQL:ään ja edelleen.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Yhteistyöprojekti",
-        "text": "Kielten välinen yhteentoimivuusviite, joka kattaa 15 ohjelmointikieltä ja 18 suoritusmallia. Projekti tutkii rajaa, jossa järjestelmät usein haurautuvat: prosessisopimukset, tiedonvaihto, ajonaikainen käyttäytyminen ja toistettavat integraatiopolut. Se kuvastaa järjestelmäajattelua, jota tarvitaan, kun tuote on suurempi kuin yksi pino.",
+        "text": "Kielten välinen yhteentoimivuusviite, joka kattaa {languages} ohjelmointikieltä ja {patterns} suoritusmallia. Projekti tutkii rajaa, jossa järjestelmät usein haurautuvat: prosessisopimukset, tiedonvaihto, ajonaikainen käyttäytyminen ja toistettavat integraatiopolut. Se kuvastaa järjestelmäajattelua, jota tarvitaan, kun tuote on suurempi kuin yksi pino.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandelin salausprojekti",
-        "text": "Vertaileva joukko 10+ Rijndael-toteutusta 128-, 192- ja 256-bittisillä versioilla. Turvallisuusherkän algoritmin uudelleenkäyttööntäminen eri kielillä on kurinalaista harjoitusta tarkkojen määritelmien, testattavan toiminnan ja kielitason siirrettävyyden rajojen suhteen. kaikki hyödylliset vaistot arkaluonteisia tietoja käsitteleville järjestelmille.",
+        "text": "Vertaileva joukko {implementations} Rijndael-toteutusta 128-, 192- ja 256-bittisillä versioilla. Turvallisuusherkän algoritmin uudelleenkäyttööntäminen eri kielillä on kurinalaista harjoitusta tarkkojen määritelmien, testattavan toiminnan ja kielitason siirrettävyyden rajojen suhteen. kaikki hyödylliset vaistot arkaluonteisia tietoja käsitteleville järjestelmille.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Turingin koneprojekti",
-        "text": "Perhe, jossa on yli 30 Turingin koneen toteutusta. Käytetään osoittamaan täydellisyyttä eri ohjelmointikielille tutkimukseen, erityisesti Tiger-ohjelmointikielelle.",
+        "text": "Perhe, jossa on yli {implementations} Turingin koneen toteutusta. Käytetään osoittamaan täydellisyyttä eri ohjelmointikielille tutkimukseen, erityisesti Tiger-ohjelmointikielelle.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

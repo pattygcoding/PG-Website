@@ -148,7 +148,7 @@
           "lens": "A pénzügyi helyesség a reprezentációval kezdődik: az egész centes aritmetika és a kiegyensúlyozott könyvelési tételek a pénzmozgást explicitté teszik."
         },
         "interop": {
-          "summary": "Egy nyelvek közötti referencia, amely 15 programozási nyelvet és 18 végrehajtási mintát ölel fel, és azt vizsgálja, mi történik a futásidejű határokon.",
+          "summary": "Egy nyelvek közötti referencia, amely {languages} programozási nyelvet és {patterns} végrehajtási mintát ölel fel, és azt vizsgálja, mi történik a futásidejű határokon.",
           "lens": "A nehéz rész a futásidők közötti szerződés: az adatcsere, a folyamatviselkedés és a reprodukálható végrehajtás többet számít, mint a szintaxis."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Csatlakoztassa a Négyet",
-        "text": "A négyes játék 90+ megvalósításából álló óriási család. A projekt 30+ programozási nyelvet ölel fel, köztük Java, C++, Python és JavaScript, valamint több mint 50 különböző keretrendszert, könyvtárat, futásidőt és adatbázist – a React, Angular és Blazor mellett Django, Spring Boot, Phoenix, PostgreSQL és további technológiákat.",
+        "text": "A négyes játék {implementations} megvalósításából álló óriási család. A projekt {languages} programozási nyelvet ölel fel, köztük Java, C++, Python és JavaScript, valamint több mint {frameworks} különböző keretrendszert, könyvtárat, futásidőt és adatbázist – a React, Angular és Blazor mellett Django, Spring Boot, Phoenix, PostgreSQL és további technológiákat.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Interop projekt",
-        "text": "Egy többnyelvű interoperabilitási referencia, amely 15 programozási nyelvet és 18 végrehajtási mintát ölel fel. A projekt azt a határt vizsgálja, ahol a rendszerek gyakran törékennyé válnak: folyamatszerződések, adatcsere, futásidejű viselkedés és megismételhető integrációs utak. Azt a rendszergondolkodást tükrözi, amelyre akkor van szükség, ha egy termék nagyobb, mint egy köteg.",
+        "text": "Egy többnyelvű interoperabilitási referencia, amely {languages} programozási nyelvet és {patterns} végrehajtási mintát ölel fel. A projekt azt a határt vizsgálja, ahol a rendszerek gyakran törékennyé válnak: folyamatszerződések, adatcsere, futásidejű viselkedés és megismételhető integrációs utak. Azt a rendszergondolkodást tükrözi, amelyre akkor van szükség, ha egy termék nagyobb, mint egy köteg.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel titkosítási projekt",
-        "text": "10+ Rijndael-megvalósítás összehasonlító készlete 128, 192 és 256 bites változatok között. A biztonságra érzékeny algoritmusok nyelvek közötti újraimplementálása fegyelmezett gyakorlat a pontos specifikációk, a tesztelhető viselkedés és a nyelvi szintű hordozhatóság korlátai terén, minden hasznos ösztön az érzékeny adatokat kezelő rendszerek számára.",
+        "text": "{implementations} Rijndael-megvalósítás összehasonlító készlete 128, 192 és 256 bites változatok között. A biztonságra érzékeny algoritmusok nyelvek közötti újraimplementálása fegyelmezett gyakorlat a pontos specifikációk, a tesztelhető viselkedés és a nyelvi szintű hordozhatóság korlátai terén, minden hasznos ösztön az érzékeny adatokat kezelő rendszerek számára.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Turing-gép projekt",
-        "text": "A Turing-gép több mint 30 implementációjából álló család. Különböző kutatási programozási nyelvek, különösen a tigris programozási nyelv teljességének bemutatására szolgál.",
+        "text": "A Turing-gép több mint {implementations} implementációjából álló család. Különböző kutatási programozási nyelvek, különösen a tigris programozási nyelv teljességének bemutatására szolgál.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

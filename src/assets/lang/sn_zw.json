@@ -148,7 +148,7 @@
           "lens": "Kururama kwemari kunotanga nehumiriri: masvomhu esenti dzakazara uye zvinyorwa zvakagadziriswa zvinoita kuti kufamba kwemari kuve kwakajeka."
         },
         "interop": {
-          "summary": "Referensi yemitauro yakasiyana inosanganisira mitauro 15 yerongwa uye mapatani 18 ekushanda, ichiongorora zvinoitika kumiganhu yenguva yekushanda.",
+          "summary": "Referensi yemitauro yakasiyana inosanganisira mitauro {languages} yerongwa uye mapatani {patterns} ekushanda, ichiongorora zvinoitika kumiganhu yenguva yekushanda.",
           "lens": "Chikamu chakaoma chibvumirano pakati penguva dzekushanda: kuchinjana data, maitiro ehurongwa, uye kudzokororwa kwekushanda kwakakosha kupfuura syntax."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Batanidza Four",
-        "text": "Mhuri huru ye90+ mashandisiro emutambo weMina mutsara. Purojekiti iyi inosanganisira mitauro 30+ yerongwa, kusanganisira Java, C++, Python, neJavaScript, pamwe ne50+ maframework, maibhurari, nguva dzekushanda, uye dhatabhesi akasiyana, kubva kuReact, Angular, neBlazor kuenda kuDjango, Spring Boot, Phoenix, PostgreSQL, nezvimwe.",
+        "text": "Mhuri huru ye{implementations} mashandisiro emutambo weMina mutsara. Purojekiti iyi inosanganisira mitauro {languages} yerongwa, kusanganisira Java, C++, Python, neJavaScript, pamwe ne{frameworks} maframework, maibhurari, nguva dzekushanda, uye dhatabhesi akasiyana, kubva kuReact, Angular, neBlazor kuenda kuDjango, Spring Boot, Phoenix, PostgreSQL, nezvimwe.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Interop Project",
-        "text": "Mutauro-mutauro wekudyidzana wereferensi inotora mitauro gumi nemishanu yekuronga uye 18 maitiro ekuita. Iyo purojekiti inoongorora muganho umo masisitimu anowanzoita asina kusimba: kuita zvibvumirano, kuchinjanisa data, maitiro ekumhanya, uye nzira dzinodzokororwa dzekubatanidza. Inoratidza masisitimu ekufunga anodiwa kana chigadzirwa chakakura pane imwe stack.",
+        "text": "Mutauro-mutauro wekudyidzana wereferensi inotora mitauro {languages} yekuronga uye {patterns} maitiro ekuita. Iyo purojekiti inoongorora muganho umo masisitimu anowanzoita asina kusimba: kuita zvibvumirano, kuchinjanisa data, maitiro ekumhanya, uye nzira dzinodzokororwa dzekubatanidza. Inoratidza masisitimu ekufunga anodiwa kana chigadzirwa chakakura pane imwe stack.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel Encryption Project",
-        "text": "Seti yekuenzanisa yegumi + Rijndael mashandisirwo mukati me128-, 192-, uye 256-bit akasiyana. Kudzokorodza kuchengetedzwa-sensitive algorithm mumitauro yese ibasa rakarongeka mune zvakatemwa, maitiro anoyedzwa, uye miganhu yekutakurika kwemutauro, ese anobatsira masikirwo emasisitimu anobata data rakadzama.",
+        "text": "Seti yekuenzanisa ye{implementations} Rijndael mashandisirwo mukati me128-, 192-, uye 256-bit akasiyana. Kudzokorodza kuchengetedzwa-sensitive algorithm mumitauro yese ibasa rakarongeka mune zvakatemwa, maitiro anoyedzwa, uye miganhu yekutakurika kwemutauro, ese anobatsira masikirwo emasisitimu anobata data rakadzama.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Turing Machine Project",
-        "text": "Mhuri yeanopfuura makumi matatu+ mashandisirwo eTuring Machine. Inoshandiswa kuratidza kukwana kuzere kwemitauro yakasiyana yekuronga yekutsvaga, kunyanya yeTiger Programming Mutauro.",
+        "text": "Mhuri yeanopfuura {implementations} mashandisirwo eTuring Machine. Inoshandiswa kuratidza kukwana kuzere kwemitauro yakasiyana yekuronga yekutsvaga, kunyanya yeTiger Programming Mutauro.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

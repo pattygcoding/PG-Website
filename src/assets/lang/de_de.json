@@ -148,7 +148,7 @@
           "lens": "Finanzielle Korrektheit beginnt mit der Darstellung: Ganzzahl-Cent-Arithmetik und ausgeglichene Buchungen machen Geldbewegungen explizit."
         },
         "interop": {
-          "summary": "Eine sprachübergreifende Referenz über 15 Programmiersprachen und 18 Ausführungsmuster, die untersucht, was an Laufzeitgrenzen passiert.",
+          "summary": "Eine sprachübergreifende Referenz über {languages} Programmiersprachen und {patterns} Ausführungsmuster, die untersucht, was an Laufzeitgrenzen passiert.",
           "lens": "Der schwierige Teil ist der Vertrag zwischen Laufzeiten: Datenaustausch, Prozessverhalten und reproduzierbare Ausführung zählen mehr als Syntax."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Vier verbinden",
-        "text": "Eine riesige Familie von über 90 Implementierungen des Vier-gewinnt-Spiels. Das Projekt umfasst über 30 Programmiersprachen, darunter Java, C++, Python und JavaScript, sowie über 50 verschiedene Frameworks, Bibliotheken, Laufzeiten und Datenbanken – von React, Angular und Blazor bis Django, Spring Boot, Phoenix, PostgreSQL und mehr.",
+        "text": "Eine riesige Familie von über {implementations} Implementierungen des Vier-gewinnt-Spiels. Das Projekt umfasst über {languages} Programmiersprachen, darunter Java, C++, Python und JavaScript, sowie über {frameworks} verschiedene Frameworks, Bibliotheken, Laufzeiten und Datenbanken – von React, Angular und Blazor bis Django, Spring Boot, Phoenix, PostgreSQL und mehr.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Interop-Projekt",
-        "text": "Eine Referenz zur sprachübergreifenden Interoperabilität, die 15 Programmiersprachen und 18 Ausführungsmuster umfasst. Das Projekt untersucht die Grenze, an der Systeme häufig anfällig werden: Prozessverträge, Datenaustausch, Laufzeitverhalten und wiederholbare Integrationspfade. Es spiegelt das Systemdenken wider, das erforderlich ist, wenn ein Produkt größer als ein einzelner Stapel ist.",
+        "text": "Eine Referenz zur sprachübergreifenden Interoperabilität, die {languages} Programmiersprachen und {patterns} Ausführungsmuster umfasst. Das Projekt untersucht die Grenze, an der Systeme häufig anfällig werden: Prozessverträge, Datenaustausch, Laufzeitverhalten und wiederholbare Integrationspfade. Es spiegelt das Systemdenken wider, das erforderlich ist, wenn ein Produkt größer als ein einzelner Stapel ist.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel-Verschlüsselungsprojekt",
-        "text": "Ein Vergleichssatz von mehr als 10 Rijndael-Implementierungen für 128-, 192- und 256-Bit-Varianten. Die sprachübergreifende Neuimplementierung eines sicherheitsrelevanten Algorithmus ist eine disziplinierte Übung in Bezug auf genaue Spezifikationen, testbares Verhalten und die Grenzen der Portabilität auf Sprachebene. Alles nützliche Instinkte für Systeme, die sensible Daten verarbeiten.",
+        "text": "Ein Vergleichssatz von mehr als {implementations} Rijndael-Implementierungen für 128-, 192- und 256-Bit-Varianten. Die sprachübergreifende Neuimplementierung eines sicherheitsrelevanten Algorithmus ist eine disziplinierte Übung in Bezug auf genaue Spezifikationen, testbares Verhalten und die Grenzen der Portabilität auf Sprachebene. Alles nützliche Instinkte für Systeme, die sensible Daten verarbeiten.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Turing-Maschinenprojekt",
-        "text": "Familie von über 30 Implementierungen der Turing-Maschine. Wird verwendet, um die Turing-Vollständigkeit für verschiedene Programmiersprachen zu Forschungszwecken zu demonstrieren, insbesondere für die Programmiersprache Tiger.",
+        "text": "Familie von über {implementations} Implementierungen der Turing-Maschine. Wird verwendet, um die Turing-Vollständigkeit für verschiedene Programmiersprachen zu Forschungszwecken zu demonstrieren, insbesondere für die Programmiersprache Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

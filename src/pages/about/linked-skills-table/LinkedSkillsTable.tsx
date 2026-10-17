@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useSta
 import { useLocation, useNavigate } from "react-router-dom";
 import { FiArrowDown, FiArrowUpRight, FiBookOpen, FiBriefcase, FiSearch, FiX } from "react-icons/fi";
 import { getLanguageTag, useLang } from "@/lang/languageContext";
+import { useProjectCounts } from "@/lang/interpolateCounts";
 import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
 import "./LinkedSkillsTable.css";
 
@@ -65,11 +66,15 @@ const variantChipLabel = (label: string): string => {
 const experienceLabel = (label: string): string => label.split(":").slice(1).join(":").trim() || label;
 
 const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
+	const interpolate = useProjectCounts();
 	const [expanded, setExpanded] = useState(false);
 	const [limit, setLimit] = useState(MAX_VARIANTS);
 	const [resizeTick, setResizeTick] = useState(0);
 	const variantsRef = useRef<HTMLDivElement>(null);
 	const title = (entry && entry.title) || variantLabel(samples[0].label);
+	// The card quotes the same `portfolio.entries` copy as the portfolio grid, so its
+	// `{token}` counts are filled in here too.
+	const projectId = samples[0].group;
 	const single = samples.length === 1;
 	const visible = samples.slice(0, expanded ? samples.length : Math.min(limit, samples.length));
 	const hidden = samples.length - visible.length;
@@ -109,7 +114,7 @@ const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 					{title}<FiArrowUpRight aria-hidden="true" />
 				</LangAwareLink>
 			</div>
-			{entry && entry.text && <p>{entry.text}</p>}
+			{entry && entry.text && <p>{interpolate(entry.text, projectId)}</p>}
 			{!single && (
 				<div className="skill-project-card__variants" ref={variantsRef}>
 					{visible.map((sample) => (

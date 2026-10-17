@@ -148,7 +148,7 @@
           "lens": "财务正确性始于表达：整数分运算和平衡的记账条目使资金流动清晰可见。"
         },
         "interop": {
-          "summary": "一份跨语言参考，涵盖 15 种编程语言和 18 种执行模式，探索运行时边界发生的情况。",
+          "summary": "一份跨语言参考，涵盖 {languages} 种编程语言和 {patterns} 种执行模式，探索运行时边界发生的情况。",
           "lens": "难点在于运行时之间的契约：数据交换、进程行为和可重复执行比语法更重要。"
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "连接四",
-        "text": "一个包含 90+ 种四子棋游戏实现的庞大家族。该项目涵盖 30+ 种编程语言，包括 Java、C++、Python 和 JavaScript，以及 50+ 种不同的框架、库、运行时和数据库，从 React、Angular、Blazor 到 Django、Spring Boot、Phoenix、PostgreSQL 等。",
+        "text": "一个包含 {implementations} 种四子棋游戏实现的庞大家族。该项目涵盖 {languages} 种编程语言，包括 Java、C++、Python 和 JavaScript，以及 {frameworks} 种不同的框架、库、运行时和数据库，从 React、Angular、Blazor 到 Django、Spring Boot、Phoenix、PostgreSQL 等。",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "互操作项目",
-        "text": "跨语言互操作性参考，涵盖 15 种编程语言和 18 种执行模式。 该项目研究了系统经常变得脆弱的边界：流程契约、数据交换、运行时行为和可重复的集成路径。 它反映了当产品大于单个堆栈时所需的系统思维。",
+        "text": "跨语言互操作性参考，涵盖 {languages} 种编程语言和 {patterns} 种执行模式。 该项目研究了系统经常变得脆弱的边界：流程契约、数据交换、运行时行为和可重复的集成路径。 它反映了当产品大于单个堆栈时所需的系统思维。",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel 加密项目",
-        "text": "跨 128 位、192 位和 256 位变体的 10 多个 Rijndael 实现的比较集。 跨语言重新实现安全敏感算法是一项严格规范、可测试行为和语言级可移植性限制的严格练习， 对于处理敏感数据的系统来说所有有用的本能。",
+        "text": "跨 128 位、192 位和 256 位变体的 {implementations} 多个 Rijndael 实现的比较集。 跨语言重新实现安全敏感算法是一项严格规范、可测试行为和语言级可移植性限制的严格练习， 对于处理敏感数据的系统来说所有有用的本能。",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "图灵机项目",
-        "text": "包含 30 多种图灵机实现的系列。 用于演示不同编程语言的图灵完备性以供研究，特别是 Tiger 编程语言。",
+        "text": "包含 {implementations} 多种图灵机实现的系列。 用于演示不同编程语言的图灵完备性以供研究，特别是 Tiger 编程语言。",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

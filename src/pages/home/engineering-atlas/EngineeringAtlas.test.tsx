@@ -5,7 +5,12 @@ import EngineeringAtlas from "./EngineeringAtlas";
 
 const { mockUseLang } = vi.hoisted(() => ({ mockUseLang: vi.fn() }));
 
-vi.mock("@/lang/languageContext", () => ({ useLang: mockUseLang }));
+vi.mock("@/lang/languageContext", async (importOriginal) => ({
+    // Keep the real getLanguageTag (pure, and used by useProjectCounts); only
+    // useLang is stubbed.
+    ...(await importOriginal<typeof import("@/lang/languageContext")>()),
+    useLang: mockUseLang,
+}));
 vi.mock("@/components/lang-aware-link", () => ({
     LangAwareLink: ({ to, children, ...props }: { to: string; children?: React.ReactNode } & React.AnchorHTMLAttributes<HTMLAnchorElement>) => <a href={to} {...props}>{children}</a>,
 }));
@@ -18,6 +23,7 @@ test.each([true, false])("connected work defaults and toggles with mobile=%s", (
     global.IS_REACT_ACT_ENVIRONMENT = true;
     window.matchMedia = vi.fn(() => ({ matches: mobile })) as unknown as typeof window.matchMedia;
     mockUseLang.mockReturnValue({
+        lang: "en_us",
         t: (key: string) =>
             key.split(".").reduce<unknown>(
                 (value, part) => (value && typeof value === "object" ? (value as Record<string, unknown>)[part] : undefined),

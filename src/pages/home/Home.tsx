@@ -4,6 +4,7 @@ import { Tab } from "@/components/tab";
 import { Link } from "react-router-dom";
 import { FiArrowRight, FiArrowUpRight, FiCode, FiGlobe, FiLayers, FiStar } from "react-icons/fi";
 import { useLang } from "@/lang/languageContext";
+import { useProjectCounts } from "@/lang/interpolateCounts";
 import type { CssVariables } from "@/types/css";
 import { LangAwareLink } from "@/components/lang-aware-link";
 import links from "@/assets/links/links.json";
@@ -13,6 +14,7 @@ import "./HomeShowcase.css";
 
 const Home = () => {
 	const { t } = useLang();
+	const interpolate = useProjectCounts();
 	const portfolioEntries = t("portfolio.entries");
 	const featuredProjects = [
 		{
@@ -196,7 +198,7 @@ const Home = () => {
 											{project.badges.map((badge) => <span key={badge}>{badge}</span>)}
 										</div>
 										<h3>{project.data.title}</h3>
-										<p>{project.data.text}</p>
+										<p>{interpolate(project.data.text, project.key)}</p>
 										<span className="featured-project-cta">
 											{project.to ? t("home.featured.open_project") : t("home.featured.view_project")}
 											<FiArrowRight aria-hidden="true" />

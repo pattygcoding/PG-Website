@@ -148,7 +148,7 @@
           "lens": "Finantsiline õigsus algab esitusest: täis-sendiaritmeetika ja tasakaalustatud kirjed muudavad raha liikumise selgesõnaliseks."
         },
         "interop": {
-          "summary": "Keelteülene viide, mis hõlmab 15 programmeerimiskeelt ja 18 täitmisviisi, uurides, mis toimub täitusaja piiridel.",
+          "summary": "Keelteülene viide, mis hõlmab {languages} programmeerimiskeelt ja {patterns} täitmisviisi, uurides, mis toimub täitusaja piiridel.",
           "lens": "Raske osa on täituskeskkondade vaheline leping: andmevahetus, protsessikäitumine ja korratav täitmine on olulisemad kui süntaks."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Ühendage neli",
-        "text": "Hiiglaslik perekond, kuhu kuulub üle 90 Neli rida mängu rakenduse. Projekt hõlmab üle 30 programmeerimiskeele, sealhulgas Java, C++, Python ja JavaScript, ning üle 50 erineva raamistiku, teegi, täituskeskkonna ja andmebaasi – alates React, Angular ja Blazor kuni Django, Spring Boot, Phoenix, PostgreSQL ja palju muuni.",
+        "text": "Hiiglaslik perekond, kuhu kuulub üle {implementations} Neli rida mängu rakenduse. Projekt hõlmab üle {languages} programmeerimiskeele, sealhulgas Java, C++, Python ja JavaScript, ning üle {frameworks} erineva raamistiku, teegi, täituskeskkonna ja andmebaasi – alates React, Angular ja Blazor kuni Django, Spring Boot, Phoenix, PostgreSQL ja palju muuni.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Interop projekt",
-        "text": "Keelteülene koostalitlusvõime viide, mis hõlmab 15 programmeerimiskeelt ja 18 täitmismustrit. Projekt uurib piiri, kus süsteemid muutuvad sageli hapraks: protsessilepingud, andmevahetus, käitusaegne käitumine ja korratavad integratsiooniteed. See peegeldab süsteemset mõtlemist, mida on vaja, kui toode on suurem kui üks virn.",
+        "text": "Keelteülene koostalitlusvõime viide, mis hõlmab {languages} programmeerimiskeelt ja {patterns} täitmismustrit. Projekt uurib piiri, kus süsteemid muutuvad sageli hapraks: protsessilepingud, andmevahetus, käitusaegne käitumine ja korratavad integratsiooniteed. See peegeldab süsteemset mõtlemist, mida on vaja, kui toode on suurem kui üks virn.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandeli krüpteerimisprojekt",
-        "text": "10+ Rijndaeli rakenduste võrdlev komplekt 128-, 192- ja 256-bitistes variantides. Turvatundliku algoritmi uuesti rakendamine erinevates keeltes on distsiplineeritud harjutus täpsete spetsifikatsioonide, testitava käitumise ja keeletaseme kaasaskantavuse piiride osas. kõik kasulikud instinktid tundlikke andmeid käsitlevate süsteemide jaoks.",
+        "text": "{implementations} Rijndaeli rakenduste võrdlev komplekt 128-, 192- ja 256-bitistes variantides. Turvatundliku algoritmi uuesti rakendamine erinevates keeltes on distsiplineeritud harjutus täpsete spetsifikatsioonide, testitava käitumise ja keeletaseme kaasaskantavuse piiride osas. kõik kasulikud instinktid tundlikke andmeid käsitlevate süsteemide jaoks.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Turingi masina projekt",
-        "text": "Perekond, mis koosneb enam kui 30 Turingi masina juurutusest. Kasutatakse erinevate programmeerimiskeelte täielikkuse demonstreerimiseks uuringute jaoks, eriti tiigri programmeerimiskeele jaoks.",
+        "text": "Perekond, mis koosneb enam kui {implementations} Turingi masina juurutusest. Kasutatakse erinevate programmeerimiskeelte täielikkuse demonstreerimiseks uuringute jaoks, eriti tiigri programmeerimiskeele jaoks.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

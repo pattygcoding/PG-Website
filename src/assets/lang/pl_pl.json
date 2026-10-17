@@ -148,7 +148,7 @@
           "lens": "Poprawność finansowa zaczyna się od reprezentacji: arytmetyka w pełnych groszach i zrównoważone wpisy w księdze czynią przepływ pieniędzy jawnym."
         },
         "interop": {
-          "summary": "Międzyjęzykowa referencja obejmująca 15 języków programowania i 18 wzorców wykonania, badająca, co dzieje się na granicach środowisk wykonawczych.",
+          "summary": "Międzyjęzykowa referencja obejmująca {languages} języków programowania i {patterns} wzorców wykonania, badająca, co dzieje się na granicach środowisk wykonawczych.",
           "lens": "Trudna część to kontrakt między środowiskami wykonawczymi: wymiana danych, zachowanie procesów i powtarzalne wykonanie liczą się bardziej niż składnia."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Połącz cztery",
-        "text": "Ogromna rodzina ponad 90 implementacji gry Cztery w rzędzie. Projekt obejmuje ponad 30 języków programowania, w tym Java, C++, Python i JavaScript, oraz ponad 50 różnych frameworków, bibliotek, środowisk wykonawczych i baz danych — od React, Angular i Blazor po Django, Spring Boot, Phoenix, PostgreSQL i inne.",
+        "text": "Ogromna rodzina ponad {implementations} implementacji gry Cztery w rzędzie. Projekt obejmuje ponad {languages} języków programowania, w tym Java, C++, Python i JavaScript, oraz ponad {frameworks} różnych frameworków, bibliotek, środowisk wykonawczych i baz danych — od React, Angular i Blazor po Django, Spring Boot, Phoenix, PostgreSQL i inne.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Projekt Interop",
-        "text": "Odniesienie do interoperacyjności międzyjęzykowej obejmującej 15 języków programowania i 18 wzorców wykonania. W ramach projektu badane są granice, na których systemy często stają się kruche: kontrakty procesowe, wymiana danych, zachowanie w czasie wykonywania i powtarzalne ścieżki integracji. Odzwierciedla myślenie systemowe potrzebne, gdy produkt jest większy niż pojedynczy stos.",
+        "text": "Odniesienie do interoperacyjności międzyjęzykowej obejmującej {languages} języków programowania i {patterns} wzorców wykonania. W ramach projektu badane są granice, na których systemy często stają się kruche: kontrakty procesowe, wymiana danych, zachowanie w czasie wykonywania i powtarzalne ścieżki integracji. Odzwierciedla myślenie systemowe potrzebne, gdy produkt jest większy niż pojedynczy stos.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Projekt szyfrowania Rijandel",
-        "text": "Porównawczy zestaw ponad 10 implementacji Rijndael w wariantach 128, 192 i 256-bitowych. Ponowna implementacja algorytmu wrażliwego na bezpieczeństwo w różnych językach to zdyscyplinowane ćwiczenie dotyczące dokładnych specyfikacji, testowalnego zachowania i ograniczeń przenośności na poziomie języka, wszystkie przydatne instynkty dla systemów obsługujących wrażliwe dane.",
+        "text": "Porównawczy zestaw ponad {implementations} implementacji Rijndael w wariantach 128, 192 i 256-bitowych. Ponowna implementacja algorytmu wrażliwego na bezpieczeństwo w różnych językach to zdyscyplinowane ćwiczenie dotyczące dokładnych specyfikacji, testowalnego zachowania i ograniczeń przenośności na poziomie języka, wszystkie przydatne instynkty dla systemów obsługujących wrażliwe dane.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Projekt Maszyny Turinga",
-        "text": "Rodzina ponad 30 implementacji Maszyny Turinga. Służy do wykazania kompletności Turinga dla różnych języków programowania na potrzeby badań, szczególnie w przypadku języka programowania Tiger.",
+        "text": "Rodzina ponad {implementations} implementacji Maszyny Turinga. Służy do wykazania kompletności Turinga dla różnych języków programowania na potrzeby badań, szczególnie w przypadku języka programowania Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {
