@@ -148,7 +148,7 @@
           "lens": "La correcció financera comença amb la representació: l'aritmètica en cèntims enters i els assentaments equilibrats fan explícit el moviment de diners."
         },
         "interop": {
-          "summary": "Una referència entre llenguatges que abasta 15 llenguatges de programació i 18 patrons d'execució, explorant què passa als límits del temps d'execució.",
+          "summary": "Una referència entre llenguatges que abasta {languages} llenguatges de programació i {patterns} patrons d'execució, explorant què passa als límits del temps d'execució.",
           "lens": "La part difícil és el contracte entre els runtimes: l'intercanvi de dades, el comportament dels processos i l'execució repetible importen més que la sintaxi."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Connecta Quatre",
-        "text": "Una gran família de més de 90 implementacions del joc Connecta 4. El projecte abasta més de 30 llenguatges de programació, incloent Java, C++, Python i JavaScript, juntament amb més de 50 frameworks, biblioteques, runtimes i bases de dades diferents, des de React, Angular i Blazor fins a Django, Spring Boot, Phoenix, PostgreSQL i més.",
+        "text": "Una gran família de més de {implementations} implementacions del joc Connecta 4. El projecte abasta més de {languages} llenguatges de programació, incloent Java, C++, Python i JavaScript, juntament amb més de {frameworks} frameworks, biblioteques, runtimes i bases de dades diferents, des de React, Angular i Blazor fins a Django, Spring Boot, Phoenix, PostgreSQL i més.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Projecte d'interoperació",
-        "text": "Una referència d'interoperabilitat entre idiomes que abasta 15 llenguatges de programació i 18 patrons d'execució. El projecte investiga el límit on els sistemes sovint es tornen fràgils: contractes de procés, intercanvi de dades, comportament en temps d'execució i rutes d'integració repetibles. Reflecteix el pensament dels sistemes necessaris quan un producte és més gran que una sola pila.",
+        "text": "Una referència d'interoperabilitat entre idiomes que abasta {languages} llenguatges de programació i {patterns} patrons d'execució. El projecte investiga el límit on els sistemes sovint es tornen fràgils: contractes de procés, intercanvi de dades, comportament en temps d'execució i rutes d'integració repetibles. Reflecteix el pensament dels sistemes necessaris quan un producte és més gran que una sola pila.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Projecte de xifratge Rijandel",
-        "text": "Un conjunt comparatiu de més de 10 implementacions de Rijndael en variants de 128, 192 i 256 bits. La reimplementació d'un algorisme sensible a la seguretat entre idiomes és un exercici disciplinat d'especificacions exactes, comportament comprovable i límits de la portabilitat a nivell d'idioma. tots els instints útils per als sistemes que gestionen dades sensibles.",
+        "text": "Un conjunt comparatiu de més de {implementations} implementacions de Rijndael en variants de 128, 192 i 256 bits. La reimplementació d'un algorisme sensible a la seguretat entre idiomes és un exercici disciplinat d'especificacions exactes, comportament comprovable i límits de la portabilitat a nivell d'idioma. tots els instints útils per als sistemes que gestionen dades sensibles.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Projecte Màquina de Turing",
-        "text": "Família de més de 30 implementacions de la màquina de Turing. S'utilitza per demostrar la integritat de diferents llenguatges de programació per a la investigació, especialment per al llenguatge de programació Tiger.",
+        "text": "Família de més de {implementations} implementacions de la màquina de Turing. S'utilitza per demostrar la integritat de diferents llenguatges de programació per a la investigació, especialment per al llenguatge de programació Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

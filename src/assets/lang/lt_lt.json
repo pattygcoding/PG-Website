@@ -148,7 +148,7 @@
           "lens": "Finansinis tikslumas prasideda nuo atvaizdavimo: visa centų aritmetika ir subalansuoti įrašai paverčia pinigų judėjimą aiškiu."
         },
         "interop": {
-          "summary": "Tarpkalbinė nuoroda, apimanti 15 programavimo kalbų ir 18 vykdymo modelių, tyrinėjanti, kas vyksta vykdymo laiko ribose.",
+          "summary": "Tarpkalbinė nuoroda, apimanti {languages} programavimo kalbų ir {patterns} vykdymo modelių, tyrinėjanti, kas vyksta vykdymo laiko ribose.",
           "lens": "Sunki dalis yra sutartis tarp vykdymo aplinkų: duomenų apsikeitimas, procesų elgsena ir pakartojamas vykdymas svarbesni nei sintaksė."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Prijunkite keturis",
-        "text": "Didžiulė šeima, apimanti daugiau nei 90 Keturių eilėje žaidimo įgyvendinimų. Projektas apima daugiau nei 30 programavimo kalbų, įskaitant Java, C++, Python ir JavaScript, bei daugiau nei 50 skirtingų sistemų, bibliotekų, vykdymo aplinkų ir duomenų bazių – nuo React, Angular ir Blazor iki Django, Spring Boot, Phoenix, PostgreSQL ir kitų.",
+        "text": "Didžiulė šeima, apimanti daugiau nei {implementations} Keturių eilėje žaidimo įgyvendinimų. Projektas apima daugiau nei {languages} programavimo kalbų, įskaitant Java, C++, Python ir JavaScript, bei daugiau nei {frameworks} skirtingų sistemų, bibliotekų, vykdymo aplinkų ir duomenų bazių – nuo React, Angular ir Blazor iki Django, Spring Boot, Phoenix, PostgreSQL ir kitų.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Interop projektas",
-        "text": "Kelių kalbų sąveikumo nuoroda, apimanti 15 programavimo kalbų ir 18 vykdymo modelių. Projektas tiria ribas, kuriose sistemos dažnai tampa trapios: procesų sutartys, keitimasis duomenimis, vykdymo laikas ir kartojami integracijos keliai. Tai atspindi sisteminį mąstymą, kurio reikia, kai produktas yra didesnis nei vienas krūvas.",
+        "text": "Kelių kalbų sąveikumo nuoroda, apimanti {languages} programavimo kalbų ir {patterns} vykdymo modelių. Projektas tiria ribas, kuriose sistemos dažnai tampa trapios: procesų sutartys, keitimasis duomenimis, vykdymo laikas ir kartojami integracijos keliai. Tai atspindi sisteminį mąstymą, kurio reikia, kai produktas yra didesnis nei vienas krūvas.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel šifravimo projektas",
-        "text": "Lyginamasis 10 ir daugiau „Rijndael“ diegimų rinkinys 128, 192 ir 256 bitų variantuose. Saugumui jautraus algoritmo pakartotinis įdiegimas įvairiose kalbose yra disciplinuotas tikslių specifikacijų, tikrinamo elgesio ir kalbos lygio perkeliamumo ribų pratimas. visi naudingi instinktai sistemoms, kurios tvarko jautrius duomenis.",
+        "text": "Lyginamasis {implementations} ir daugiau „Rijndael“ diegimų rinkinys 128, 192 ir 256 bitų variantuose. Saugumui jautraus algoritmo pakartotinis įdiegimas įvairiose kalbose yra disciplinuotas tikslių specifikacijų, tikrinamo elgesio ir kalbos lygio perkeliamumo ribų pratimas. visi naudingi instinktai sistemoms, kurios tvarko jautrius duomenis.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Turingo mašinos projektas",
-        "text": "Daugiau nei 30 Tiuringo mašinos diegimų šeima. Naudojamas įvairių programavimo kalbų, ypač Tigro programavimo kalbos, tobulumo demonstravimui.",
+        "text": "Daugiau nei {implementations} Tiuringo mašinos diegimų šeima. Naudojamas įvairių programavimo kalbų, ypač Tigro programavimo kalbos, tobulumo demonstravimui.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

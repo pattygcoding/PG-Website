@@ -148,7 +148,7 @@
           "lens": "L'exactitude financière commence par la représentation : l'arithmétique en centimes entiers et les écritures équilibrées rendent les mouvements d'argent explicites."
         },
         "interop": {
-          "summary": "Une référence interlangues couvrant 15 langages de programmation et 18 modèles d'exécution, explorant ce qui se passe aux frontières d'exécution.",
+          "summary": "Une référence interlangues couvrant {languages} langages de programmation et {patterns} modèles d'exécution, explorant ce qui se passe aux frontières d'exécution.",
           "lens": "La partie difficile est le contrat entre les runtimes : l'échange de données, le comportement des processus et l'exécution reproductible comptent plus que la syntaxe."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Connectez quatre",
-        "text": "Une vaste famille de plus de 90 implémentations du jeu Puissance 4. Le projet couvre plus de 30 langages de programmation, dont Java, C++, Python et JavaScript, ainsi que plus de 50 frameworks, bibliothèques, runtimes et bases de données différents, de React, Angular et Blazor à Django, Spring Boot, Phoenix, PostgreSQL et bien d'autres.",
+        "text": "Une vaste famille de plus de {implementations} implémentations du jeu Puissance 4. Le projet couvre plus de {languages} langages de programmation, dont Java, C++, Python et JavaScript, ainsi que plus de {frameworks} frameworks, bibliothèques, runtimes et bases de données différents, de React, Angular et Blazor à Django, Spring Boot, Phoenix, PostgreSQL et bien d'autres.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Projet d'interopérabilité",
-        "text": "Une référence d'interopérabilité multilingue couvrant 15 langages de programmation et 18 modèles d'exécution. Le projet étudie la limite où les systèmes deviennent souvent fragiles : contrats de processus, échange de données, comportement d'exécution et chemins d'intégration reproductibles. Cela reflète la réflexion systémique nécessaire lorsqu’un produit est plus grand qu’une seule pile.",
+        "text": "Une référence d'interopérabilité multilingue couvrant {languages} langages de programmation et {patterns} modèles d'exécution. Le projet étudie la limite où les systèmes deviennent souvent fragiles : contrats de processus, échange de données, comportement d'exécution et chemins d'intégration reproductibles. Cela reflète la réflexion systémique nécessaire lorsqu’un produit est plus grand qu’une seule pile.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Projet de cryptage Rijandel",
-        "text": "Un ensemble comparatif de plus de 10 implémentations de Rijndael dans des variantes 128, 192 et 256 bits. La réimplémentation d'un algorithme sensible à la sécurité dans plusieurs langues est un exercice discipliné de spécifications exactes, de comportement testable et de limites de la portabilité au niveau du langage. tous les instincts utiles pour les systèmes qui gèrent des données sensibles.",
+        "text": "Un ensemble comparatif de plus de {implementations} implémentations de Rijndael dans des variantes 128, 192 et 256 bits. La réimplémentation d'un algorithme sensible à la sécurité dans plusieurs langues est un exercice discipliné de spécifications exactes, de comportement testable et de limites de la portabilité au niveau du langage. tous les instincts utiles pour les systèmes qui gèrent des données sensibles.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Projet de machine de Turing",
-        "text": "Famille de plus de 30 implémentations de la machine de Turing. Utilisé pour démontrer l'exhaustivité de Turing pour différents langages de programmation destinés à la recherche, en particulier pour le langage de programmation Tiger.",
+        "text": "Famille de plus de {implementations} implémentations de la machine de Turing. Utilisé pour démontrer l'exhaustivité de Turing pour différents langages de programmation destinés à la recherche, en particulier pour le langage de programmation Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

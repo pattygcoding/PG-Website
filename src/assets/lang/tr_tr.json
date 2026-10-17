@@ -148,7 +148,7 @@
           "lens": "Finansal doğruluk temsil ile başlar: tam sent aritmetiği ve dengeli defter kayıtları para hareketini açık hale getirir."
         },
         "interop": {
-          "summary": "15 programlama dili ve 18 yürütme desenini kapsayan, çalışma zamanı sınırlarında neler olduğunu araştıran diller arası bir referans.",
+          "summary": "{languages} programlama dili ve {patterns} yürütme desenini kapsayan, çalışma zamanı sınırlarında neler olduğunu araştıran diller arası bir referans.",
           "lens": "Zor kısım çalışma zamanları arasındaki sözleşmedir: veri değişimi, süreç davranışı ve tekrarlanabilir yürütme, sözdiziminden daha önemlidir."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Dört'ü Bağla",
-        "text": "Dört Sıra oyununun 90'tan fazla uygulamasından oluşan devasa bir aile. Proje, Java, C++, Python ve JavaScript dahil 30'dan fazla programlama dilini ve React, Angular ve Blazor'dan Django, Spring Boot, Phoenix, PostgreSQL ve ötesine uzanan 50'den fazla farklı çerçeveyi, kitaplığı, çalışma zamanını ve veritabanını kapsar.",
+        "text": "Dört Sıra oyununun {implementations}'tan fazla uygulamasından oluşan devasa bir aile. Proje, Java, C++, Python ve JavaScript dahil {languages}'dan fazla programlama dilini ve React, Angular ve Blazor'dan Django, Spring Boot, Phoenix, PostgreSQL ve ötesine uzanan {frameworks}'den fazla farklı çerçeveyi, kitaplığı, çalışma zamanını ve veritabanını kapsar.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Birlikte Çalışma Projesi",
-        "text": "15 programlama dilini ve 18 yürütme modelini kapsayan diller arası birlikte çalışabilirlik referansı. Proje, sistemlerin sıklıkla kırılgan hale geldiği sınırları araştırıyor: süreç sözleşmeleri, veri alışverişi, çalışma zamanı davranışı ve tekrarlanabilir entegrasyon yolları. Bir ürün tek bir yığından daha büyük olduğunda ihtiyaç duyulan sistem düşüncesini yansıtır.",
+        "text": "{languages} programlama dilini ve {patterns} yürütme modelini kapsayan diller arası birlikte çalışabilirlik referansı. Proje, sistemlerin sıklıkla kırılgan hale geldiği sınırları araştırıyor: süreç sözleşmeleri, veri alışverişi, çalışma zamanı davranışı ve tekrarlanabilir entegrasyon yolları. Bir ürün tek bir yığından daha büyük olduğunda ihtiyaç duyulan sistem düşüncesini yansıtır.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel Şifreleme Projesi",
-        "text": "128-, 192- ve 256-bit varyantlarda 10'dan fazla Rijndael uygulamasından oluşan karşılaştırmalı bir set. Güvenliğe duyarlı bir algoritmanın diller arasında yeniden uygulanması, kesin spesifikasyonlar, test edilebilir davranış ve dil düzeyinde taşınabilirliğin sınırları konusunda disiplinli bir çalışmadır. hassas verileri işleyen sistemler için tüm yararlı içgüdüler.",
+        "text": "128-, 192- ve 256-bit varyantlarda {implementations}'dan fazla Rijndael uygulamasından oluşan karşılaştırmalı bir set. Güvenliğe duyarlı bir algoritmanın diller arasında yeniden uygulanması, kesin spesifikasyonlar, test edilebilir davranış ve dil düzeyinde taşınabilirliğin sınırları konusunda disiplinli bir çalışmadır. hassas verileri işleyen sistemler için tüm yararlı içgüdüler.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Turing Makinesi Projesi",
-        "text": "Turing Makinesi'nin 30'dan fazla uygulamasından oluşan aile. Araştırma için farklı programlama dilleri, özellikle Tiger Programlama Dili için turingin bütünlüğünü göstermek için kullanılır.",
+        "text": "Turing Makinesi'nin {implementations}'dan fazla uygulamasından oluşan aile. Araştırma için farklı programlama dilleri, özellikle Tiger Programlama Dili için turingin bütünlüğünü göstermek için kullanılır.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

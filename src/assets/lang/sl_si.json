@@ -148,7 +148,7 @@
           "lens": "Finančna pravilnost se začne s predstavitvijo: aritmetika v celih centih in uravnoteženi knjigovodski vpisi naredijo gibanje denarja eksplicitno."
         },
         "interop": {
-          "summary": "Medjezikovna referenca, ki zajema 15 programskih jezikov in 18 vzorcev izvajanja ter raziskuje, kaj se zgodi na mejah izvajalnega okolja.",
+          "summary": "Medjezikovna referenca, ki zajema {languages} programskih jezikov in {patterns} vzorcev izvajanja ter raziskuje, kaj se zgodi na mejah izvajalnega okolja.",
           "lens": "Težaven del je pogodba med izvajalnimi okolji: izmenjava podatkov, obnašanje procesov in ponovljivo izvajanje so pomembnejši od sintakse."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "Poveži štiri",
-        "text": "Ogromna družina več kot 90 implementacij igre Štirje v vrsto. Projekt zajema več kot 30 programskih jezikov, vključno z Java, C++, Python in JavaScript, skupaj z več kot 50 različnimi ogrodji, knjižnicami, izvajalnimi okolji in podatkovnimi bazami – od React, Angular in Blazor do Django, Spring Boot, Phoenix, PostgreSQL in drugih.",
+        "text": "Ogromna družina več kot {implementations} implementacij igre Štirje v vrsto. Projekt zajema več kot {languages} programskih jezikov, vključno z Java, C++, Python in JavaScript, skupaj z več kot {frameworks} različnimi ogrodji, knjižnicami, izvajalnimi okolji in podatkovnimi bazami – od React, Angular in Blazor do Django, Spring Boot, Phoenix, PostgreSQL in drugih.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "Interop projekt",
-        "text": "Referenca interoperabilnosti med jeziki, ki obsega 15 programskih jezikov in 18 vzorcev izvajanja. Projekt raziskuje mejo, kjer sistemi pogosto postanejo krhki: procesne pogodbe, izmenjava podatkov, obnašanje med izvajanjem in ponovljive poti integracije. Odraža sistemsko razmišljanje, ki je potrebno, ko je izdelek večji od enega sklada.",
+        "text": "Referenca interoperabilnosti med jeziki, ki obsega {languages} programskih jezikov in {patterns} vzorcev izvajanja. Projekt raziskuje mejo, kjer sistemi pogosto postanejo krhki: procesne pogodbe, izmenjava podatkov, obnašanje med izvajanjem in ponovljive poti integracije. Odraža sistemsko razmišljanje, ki je potrebno, ko je izdelek večji od enega sklada.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Projekt šifriranja Rijandel",
-        "text": "Primerjalni nabor 10+ izvedb Rijndael v 128-, 192- in 256-bitnih različicah. Ponovna implementacija varnostno občutljivega algoritma med jeziki je disciplinirana vaja natančnih specifikacij, vedenja, ki ga je mogoče preizkusiti, in omejitev prenosljivosti na ravni jezika, vsi uporabni instinkti za sisteme, ki obdelujejo občutljive podatke.",
+        "text": "Primerjalni nabor {implementations} izvedb Rijndael v 128-, 192- in 256-bitnih različicah. Ponovna implementacija varnostno občutljivega algoritma med jeziki je disciplinirana vaja natančnih specifikacij, vedenja, ki ga je mogoče preizkusiti, in omejitev prenosljivosti na ravni jezika, vsi uporabni instinkti za sisteme, ki obdelujejo občutljive podatke.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "Projekt Turingov stroj",
-        "text": "Družina več kot 30+ izvedb Turingovega stroja. Uporablja se za prikaz popolnosti turinga za različne programske jezike za raziskave, zlasti za programski jezik Tiger.",
+        "text": "Družina več kot {implementations} izvedb Turingovega stroja. Uporablja se za prikaz popolnosti turinga za različne programske jezike za raziskave, zlasti za programski jezik Tiger.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

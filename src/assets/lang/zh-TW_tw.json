@@ -148,7 +148,7 @@
           "lens": "財務正確性始於表達：整數分運算與平衡的記帳項目使資金流動清晰可見。"
         },
         "interop": {
-          "summary": "一份跨語言參考，涵蓋 15 種程式語言與 18 種執行模式，探索執行階段邊界發生的情況。",
+          "summary": "一份跨語言參考，涵蓋 {languages} 種程式語言與 {patterns} 種執行模式，探索執行階段邊界發生的情況。",
           "lens": "難點在於執行階段之間的契約：資料交換、程序行為與可重複執行比語法更重要。"
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "連接四",
-        "text": "一個包含 90+ 種四子棋遊戲實現的龐大家族。該專案涵蓋 30+ 種程式語言，包括 Java、C++、Python 和 JavaScript，以及 50+ 種不同的框架、函式庫、執行階段與資料庫，從 React、Angular、Blazor 到 Django、Spring Boot、Phoenix、PostgreSQL 等。",
+        "text": "一個包含 {implementations} 種四子棋遊戲實現的龐大家族。該專案涵蓋 {languages} 種程式語言，包括 Java、C++、Python 和 JavaScript，以及 {frameworks} 種不同的框架、函式庫、執行階段與資料庫，從 React、Angular、Blazor 到 Django、Spring Boot、Phoenix、PostgreSQL 等。",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "互通項目",
-        "text": "跨語言互通性參考，涵蓋 15 種程式語言和 18 種執行模式。 該專案研究了系統經常變得脆弱的邊界：流程契約、資料交換、運行時行為和可重複的整合路徑。 它反映了當產品大於單一堆疊時所需的系統思維。",
+        "text": "跨語言互通性參考，涵蓋 {languages} 種程式語言和 {patterns} 種執行模式。 該專案研究了系統經常變得脆弱的邊界：流程契約、資料交換、運行時行為和可重複的整合路徑。 它反映了當產品大於單一堆疊時所需的系統思維。",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "Rijandel 加密項目",
-        "text": "跨 128 位元、192 位元和 256 位元變體的 10 多個 Rijndael 實現的比較集。 跨語言重新實現安全敏感演算法是一項嚴格規範、可測試行為和語言級可移植性限制的嚴格練習， 對於處理敏感資料的系統來說所有有用的本能。",
+        "text": "跨 128 位元、192 位元和 256 位元變體的 {implementations} 多個 Rijndael 實現的比較集。 跨語言重新實現安全敏感演算法是一項嚴格規範、可測試行為和語言級可移植性限制的嚴格練習， 對於處理敏感資料的系統來說所有有用的本能。",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "圖靈機項目",
-        "text": "包含 30 多種圖靈機實現的系列。 用於示範不同程式語言的圖靈完備性以供研究，特別是 Tiger 程式語言。",
+        "text": "包含 {implementations} 多種圖靈機實現的系列。 用於示範不同程式語言的圖靈完備性以供研究，特別是 Tiger 程式語言。",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

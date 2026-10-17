@@ -148,7 +148,7 @@
           "lens": "재무 정확성은 표기에서 시작됩니다. 정수 센트 연산과 균형 잡힌 원장 항목이 자금 이동을 명확하게 만듭니다."
         },
         "interop": {
-          "summary": "15개 프로그래밍 언어와 18개 실행 패턴을 아우르는 언어 간 레퍼런스로, 런타임 경계에서 일어나는 일을 탐구합니다.",
+          "summary": "{languages}개 프로그래밍 언어와 {patterns}개 실행 패턴을 아우르는 언어 간 레퍼런스로, 런타임 경계에서 일어나는 일을 탐구합니다.",
           "lens": "어려운 부분은 런타임 간의 계약입니다. 데이터 교환, 프로세스 동작, 재현 가능한 실행이 문법보다 중요합니다."
         },
         "formatter": {
@@ -267,7 +267,7 @@
       },
       "connect_four": {
         "title": "4개 연결",
-        "text": "커넥트 포 게임의 90개 이상 구현으로 이루어진 거대한 패밀리. 이 프로젝트는 Java, C++, Python, JavaScript를 포함한 30개 이상의 프로그래밍 언어와, React·Angular·Blazor에서 Django·Spring Boot·Phoenix·PostgreSQL 등 50개 이상의 다양한 프레임워크·라이브러리·런타임·데이터베이스를 아우릅니다.",
+        "text": "커넥트 포 게임의 {implementations}개 이상 구현으로 이루어진 거대한 패밀리. 이 프로젝트는 Java, C++, Python, JavaScript를 포함한 {languages}개 이상의 프로그래밍 언어와, React·Angular·Blazor에서 Django·Spring Boot·Phoenix·PostgreSQL 등 {frameworks}개 이상의 다양한 프레임워크·라이브러리·런타임·데이터베이스를 아우릅니다.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -277,7 +277,7 @@
       },
       "interop": {
         "title": "상호운용성 프로젝트",
-        "text": "15개 프로그래밍 언어와 18개 실행 패턴을 포괄하는 언어 간 상호 운용성 참조 자료입니다. 이 프로젝트는 프로세스 계약, 데이터 교환, 런타임 동작, 반복 가능한 통합 경로 등 시스템이 취약해지는 경계를 조사합니다. 이는 제품이 단일 스택보다 클 때 필요한 시스템 사고를 반영합니다.",
+        "text": "{languages}개 프로그래밍 언어와 {patterns}개 실행 패턴을 포괄하는 언어 간 상호 운용성 참조 자료입니다. 이 프로젝트는 프로세스 계약, 데이터 교환, 런타임 동작, 반복 가능한 통합 경로 등 시스템이 취약해지는 경계를 조사합니다. 이는 제품이 단일 스택보다 클 때 필요한 시스템 사고를 반영합니다.",
         "link": "https://github.com/pattygcoding/Interop-Samples"
       },
       "inventory_register": {
@@ -357,7 +357,7 @@
       },
       "rijandel_encryption": {
         "title": "리잔델 암호화 프로젝트",
-        "text": "128, 192, 256비트 변형에 걸쳐 10개 이상의 Rijndael 구현 비교 세트입니다. 언어 전반에 걸쳐 보안에 민감한 알고리즘을 다시 구현하는 것은 정확한 사양, 테스트 가능한 동작 및 언어 수준 이식성의 한계에 대한 훈련된 작업입니다. 민감한 데이터를 처리하는 시스템에 대한 모든 유용한 본능.",
+        "text": "128, 192, 256비트 변형에 걸쳐 {implementations}개 이상의 Rijndael 구현 비교 세트입니다. 언어 전반에 걸쳐 보안에 민감한 알고리즘을 다시 구현하는 것은 정확한 사양, 테스트 가능한 동작 및 언어 수준 이식성의 한계에 대한 훈련된 작업입니다. 민감한 데이터를 처리하는 시스템에 대한 모든 유용한 본능.",
         "link": "https://github.com/pattygcoding/Rijandel-Encryption"
       },
       "suprememc": {
@@ -382,7 +382,7 @@
       },
       "turing_machine": {
         "title": "튜링 머신 프로젝트",
-        "text": "30개 이상의 Turing Machine 구현 제품군입니다. 연구를 위한 다양한 프로그래밍 언어, 특히 Tiger 프로그래밍 언어의 튜링 완전성을 입증하는 데 사용됩니다.",
+        "text": "{implementations}개 이상의 Turing Machine 구현 제품군입니다. 연구를 위한 다양한 프로그래밍 언어, 특히 Tiger 프로그래밍 언어의 튜링 완전성을 입증하는 데 사용됩니다.",
         "link": "https://github.com/pattygcoding/Turing-Machines"
       },
       "alkalab": {

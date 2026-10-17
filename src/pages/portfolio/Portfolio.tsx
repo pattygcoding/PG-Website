@@ -7,6 +7,7 @@ import {
 import { FiArrowUpRight, FiCheck, FiFilter, FiGrid, FiList, FiSearch, FiX } from "react-icons/fi";
 import { Tab } from "@/components/tab";
 import { useLang } from "@/lang/languageContext";
+import { useProjectCounts } from "@/lang/interpolateCounts";
 import links from "@/assets/links/links.json";
 import skills from "@/assets/skills/skills.json";
 import projectsData from "@/assets/projects/projects";
@@ -33,6 +34,7 @@ const featuredOrder = ["takeoff_engine", "inventory_register", "grocery_app", "t
 
 const Portfolio = () => {
 	const { t } = useLang();
+	const interpolate = useProjectCounts();
 	const entries = t("portfolio.entries") as Record<string, PortfolioEntry>;
 	const images = links.portfolio as Record<string, string>;
 	const location = useLocation();
@@ -200,7 +202,7 @@ const Portfolio = () => {
 								<div className="project-body">
 									{index === 0 && sort === "featured" && <div className="project-feature-label">{t("home.featured.title")}</div>}
 									<h2><LangAwareLink to={data.link}>{data.title}</LangAwareLink></h2>
-									<p>{data.text}</p>
+									<p>{interpolate(data.text, key)}</p>
 									{projectSkills.length > 0 && <div className="project-tags">{projectSkills.map((skill) => <LangAwareLink key={skill} className={selectedSkills.includes(skill) ? "is-selected" : ""} to={{ pathname: "/about", search: "?", hash: `#${skill}` }}>#{skillNames[skill]}</LangAwareLink>)}</div>}
 								</div>
 						</article>
