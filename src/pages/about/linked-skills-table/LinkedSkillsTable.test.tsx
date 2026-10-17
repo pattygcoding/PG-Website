@@ -172,3 +172,63 @@ test("clamps the variants by rendered rows instead of a fixed count", async () =
 	}
 });
 
+test("clamps a short variant list that still overflows two rows", async () => {
+	const heightDescriptor = Object.getOwnPropertyDescriptor(HTMLElement.prototype, "offsetHeight")!;
+	const topDescriptor = Object.getOwnPropertyDescriptor(HTMLElement.prototype, "offsetTop")!;
+	// Fewer variants than MAX_VARIANTS, so nothing is hidden on the first render and
+	// no "+ more" chip is drawn yet; the row clamp still has to trim the chip that
+	// reaches the third row.
+	Object.defineProperty(HTMLElement.prototype, "offsetHeight", { configurable: true, get(this: HTMLElement) { return this.tagName === "A" ? 26 : 0; } });
+	Object.defineProperty(HTMLElement.prototype, "offsetTop", { configurable: true, get(this: HTMLElement) { return [...(this.parentElement?.children ?? [])].indexOf(this) * 32; } });
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	const four = Array.from({ length: 4 }, (_, i) => ({ label: `Interop with C & V${i}`, group: "interop", link: `https://example.com/i${i}`, skills: ["go"] }));
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(
+			<MemoryRouter initialEntries={["/about#go"]}>
+				<LanguageProvider>
+					<LinkedSkillsTable id="skills-test" header="Languages" list={list} projects={four} entries={entries} skillNames={skillNames} />
+				</LanguageProvider>
+			</MemoryRouter>
+		));
+		expect(container.querySelectorAll(".skill-project-card__variants a").length).toBe(2);
+		expect(container.querySelector(".skill-project-card__more")!.textContent).toBe("+ more");
+	} finally {
+		act(() => root.unmount());
+		container.remove();
+		Object.defineProperty(HTMLElement.prototype, "offsetHeight", heightDescriptor);
+		Object.defineProperty(HTMLElement.prototype, "offsetTop", topDescriptor);
+	}
+});
+
+test("shortens interop chips to the two languages they pair", async () => {
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	const interop = [
+		{ label: "Interop with C & Python", group: "interop", link: "https://example.com/i1", skills: ["go"] },
+		{ label: "Interop with C & Assembly x64", group: "interop", link: "https://example.com/i2", skills: ["go"] },
+		{ label: "Interop with Java & Kotlin", group: "interop", link: "https://example.com/i3", skills: ["go"] },
+	];
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(
+			<MemoryRouter initialEntries={["/about#go"]}>
+				<LanguageProvider>
+					<LinkedSkillsTable id="skills-test" header="Languages" list={list} projects={interop} entries={entries} skillNames={skillNames} />
+				</LanguageProvider>
+			</MemoryRouter>
+		));
+		expect([...container.querySelectorAll(".skill-project-card__variants a")].map((chip) => chip.textContent))
+			.toEqual(["C & Python", "C & Assembly x64", "Java & Kotlin"]);
+		// The projects.json wording still heads the card.
+		expect(container.querySelector(".skill-project-card__title a")!.textContent).toContain("Interop with C & Python");
+	} finally {
+		act(() => root.unmount());
+		container.remove();
+	}
+});
+
+

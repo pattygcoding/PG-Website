@@ -52,6 +52,16 @@ const variantLabel = (label: string): string => {
 	return match ? match[1] : label;
 };
 
+// Interop samples are labelled "Interop with C & Python" in projects.json; a chip
+// only has room for the pair, so it reads "C + Python". The x64/x86 suffix stays,
+// since that is what tells the two Assembly entries apart.
+const INTEROP_VARIANT = /^Interop with (.+) & (.+)$/;
+
+const variantChipLabel = (label: string): string => {
+	const interop = label.match(INTEROP_VARIANT);
+	return interop ? `${interop[1]} & ${interop[2]}` : variantLabel(label);
+};
+
 const experienceLabel = (label: string): string => label.split(":").slice(1).join(":").trim() || label;
 
 const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
@@ -76,19 +86,20 @@ const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 	}, []);
 
 	// Clamp the variants by rendered rows rather than a fixed count: keep the chips
-	// that fit in MAX_ROWS rows and let the "+ more" chip follow them. Growing stops
-	// as soon as those rows are filled and a trim lands on the same filled list, so
-	// the adjustment always settles. With no layout to measure (jsdom) the zero
-	// offsetHeight bails out and MAX_VARIANTS stays the cut.
+	// that fit in MAX_ROWS rows and let the "+ more" chip follow them. Every card is
+	// measured, including one whose whole list is still visible, because the trim
+	// itself is what reveals the "+ more" chip. Growing stops once those rows are
+	// filled or nothing is left hidden, so the adjustment always settles. With no
+	// layout to measure (jsdom) the zero offsetHeight bails out and MAX_VARIANTS
+	// stays the cut.
 	useLayoutEffect(() => {
 		const container = variantsRef.current;
 		if (expanded || !container) return;
 		const chips = Array.from(container.querySelectorAll<HTMLElement>("a"));
-		const button = container.querySelector<HTMLElement>(".skill-project-card__more");
-		if (!chips.length || !button || !chips[0].offsetHeight) return;
+		if (!chips.length || !chips[0].offsetHeight) return;
 		const tops = [...new Set(chips.map((chip) => chip.offsetTop))].sort((first, second) => first - second);
 		if (tops.length > MAX_ROWS) setLimit(chips.filter((chip) => chip.offsetTop < tops[MAX_ROWS]).length);
-		else if (tops.length < MAX_ROWS) setLimit((value) => value + 1);
+		else if (tops.length < MAX_ROWS && chips.length < samples.length) setLimit((value) => value + 1);
 	}, [expanded, limit, samples, resizeTick]);
 
 	return (
@@ -102,7 +113,7 @@ const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 			{!single && (
 				<div className="skill-project-card__variants" ref={variantsRef}>
 					{visible.map((sample) => (
-						<LangAwareLink key={sample.label} to={sample.link}>{variantLabel(sample.label)}</LangAwareLink>
+						<LangAwareLink key={sample.label} to={sample.link}>{variantChipLabel(sample.label)}</LangAwareLink>
 					))}
 					{(hidden > 0 || expanded) && (
 						<button type="button" className="skill-project-card__more" onClick={toggle} aria-expanded={expanded}>
