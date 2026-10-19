@@ -76,6 +76,12 @@ const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 	// `{token}` counts are filled in here too.
 	const projectId = samples[0].group;
 	const single = samples.length === 1;
+	// A family whose samples are pages on its own site - interop's pairings, for
+	// example - opens the first option for the selected skill, so the card lands on
+	// a language's first pairing instead of the showcase's landing page.
+	const entryLink = (entry && entry.link) || samples[0].link;
+	const cardLink = single || samples.every(({ link }) => link.startsWith(entryLink)) ? samples[0].link : entryLink;
+
 	const visible = samples.slice(0, expanded ? samples.length : Math.min(limit, samples.length));
 	const hidden = samples.length - visible.length;
 
@@ -110,7 +116,7 @@ const ProjectCard = ({ samples, entry, onResize, t }: ProjectCardProps) => {
 	return (
 		<li className="skill-project-card">
 			<div className="skill-project-card__title">
-				<LangAwareLink to={single ? samples[0].link : (entry && entry.link) || samples[0].link}>
+				<LangAwareLink to={cardLink}>
 					{title}<FiArrowUpRight aria-hidden="true" />
 				</LangAwareLink>
 			</div>

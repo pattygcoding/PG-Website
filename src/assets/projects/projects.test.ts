@@ -17,6 +17,13 @@ const rijndael = projects.filter(({ group }) => group === "rijndael_encryption")
 const INTEROP = "https://interop.pattygcoding.com/";
 const interop = projects.filter(({ group }) => group === "interop");
 
+/**
+ * The Turing Machine reference has its own showcase too, where each
+ * implementation answers on a flat slug (`/ada`, `/assembly64`, `/fsharp`), so
+ * the group's ids are that showcase's slugs (see Turing-Machines `docs/links.md`).
+ */
+const TURING = "https://turing.pattygcoding.com/";
+const turing = projects.filter(({ group }) => group === "turing_machine");
 
 test("rijndael encryption samples open the showcase instead of GitHub", () => {
 	expect(rijndael.map(({ link }) => link)).toEqual([
@@ -74,8 +81,29 @@ test("interop keeps the two assembly variants apart by bit width", () => {
 	]);
 });
 
+test("turing machine samples open the showcase instead of GitHub", () => {
+	// The showcase publishes 42 implementations across 41 languages, one page each.
+	expect(turing.length).toBe(42);
+	const links = turing.map(({ link }) => link);
+	expect(new Set(links).size).toBe(links.length);
+	for (const link of links) expect(link).toMatch(/^https:\/\/turing\.pattygcoding\.com\/[a-z0-9]+$/);
+	// The repository's folder names are not the showcase's slugs.
+	for (const slug of ["assembly32", "assembly64", "fsharp", "objectivec", "vbnet", "powershell", "csharp"]) {
+		expect(links).toContain(`${TURING}${slug}`);
+	}
+});
+
+test("turing machine samples keep the names their entries give them", () => {
+	const labels = Object.fromEntries(turing.map(({ link, label }) => [link.replace(TURING, ""), label]));
+	expect(labels.assembly64).toBe("Turing Machine (Assembly x64)");
+	expect(labels.assembly32).toBe("Turing Machine (Assembly x86)");
+	expect(labels.powershell).toBe("Turing Machine (PowerShell)");
+	expect(labels.vbnet).toBe("Turing Machine (VB.NET)");
+	expect(labels.typescript).toBe("Turing Machine (TypeScript)");
+});
+
 interface LocaleMessages {
-	portfolio: { entries: { interop: { link: string }; rijndael_encryption: { link: string } } };
+	portfolio: { entries: { interop: { link: string }; rijndael_encryption: { link: string }; turing_machine: { link: string } } };
 }
 
 // The project cards read their links from the locale files, so every one of them
@@ -87,6 +115,6 @@ test("every locale sends the showcase cards to their own site", () => {
 	for (const [file, messages] of Object.entries(locales)) {
 		expect(`${file}: ${messages.portfolio.entries.rijndael_encryption.link}`).toBe(`${file}: ${SHOWCASE}`);
 		expect(`${file}: ${messages.portfolio.entries.interop.link}`).toBe(`${file}: ${INTEROP}`);
-
+		expect(`${file}: ${messages.portfolio.entries.turing_machine.link}`).toBe(`${file}: ${TURING}`);
 	}
 });

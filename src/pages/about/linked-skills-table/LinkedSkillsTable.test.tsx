@@ -255,5 +255,42 @@ test("shortens interop chips to the two languages they pair", async () => {
 		container.remove();
 	}
 });
+test("opens a family's first page for the selected skill instead of its landing page", async () => {
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	const pages = [
+		{ label: "Connect Four (Python)", group: "connect_four", link: "https://github.com/pattygcoding/Neo-Connect-Four-Language-Tree/tree/main/Python", skills: ["python"] },
+		{ label: "Connect Four (Django)", group: "connect_four", link: "https://github.com/pattygcoding/Neo-Connect-Four-Language-Tree/tree/main/Django", skills: ["python"] },
+		{ label: "Interop with Python & C++", group: "interop", link: "https://interop.pattygcoding.com/python-cpp", skills: ["python"] },
+		{ label: "Interop with Python & Java", group: "interop", link: "https://interop.pattygcoding.com/python-java", skills: ["python"] },
+	];
+	const cards = {
+		connect_four: { title: "Connect Four", text: "Many implementations.", link: "https://connectfour.pattygcoding.com" },
+		interop: { title: "Interop Samples", text: "Pairings.", link: "https://interop.pattygcoding.com/" },
+	};
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(
+			<MemoryRouter initialEntries={["/about#python"]}>
+				<LanguageProvider>
+					<LinkedSkillsTable id="skills-test" header="Languages" list={list} projects={pages} entries={cards} skillNames={skillNames} />
+				</LanguageProvider>
+			</MemoryRouter>
+		));
+		// A family whose samples are pages on its own site opens the first page for this
+		// skill; samples that live in a repository keep the project's own address.
+		expect([...container.querySelectorAll(".skill-project-card__title a")].map((card) => [card.textContent, card.getAttribute("href")]))
+			.toEqual([
+				["Connect Four", "https://connectfour.pattygcoding.com"],
+				["Interop Samples", "https://interop.pattygcoding.com/python-cpp"],
+			]);
+	} finally {
+		act(() => root.unmount());
+		container.remove();
+	}
+});
+
+
 
 
