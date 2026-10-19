@@ -62,7 +62,7 @@ export const ATLAS_FAMILIES: AtlasFamily[] = [
     { id: "minecraft", projects: ["suprememc", "minecraft_json_generator"] },
     { id: "wasm", projects: ["formatter", "alkalab", "snake", "tiger_programming_language"] },
     { id: "libraries", projects: ["powershell_library", "ruby_library", "lua_library", "excel_scripts"] },
-    { id: "languages", projects: ["interop", "connect_four", "turing_machine", "rijandel_encryption"] },
+    { id: "languages", projects: ["interop", "connect_four", "turing_machine", "rijndael_encryption"] },
     { id: "automation", projects: ["biblioteca", "python_maps", "pdf_builder", "neovim_config"] },
     { id: "experience", projects: ["professional_experience", "educational_experience"] },
 ].map((family, index, families) => {

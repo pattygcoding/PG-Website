@@ -28,7 +28,7 @@ test("leaves tokens without a count, and text without tokens, untouched", () => 
 test("counts are derived from projects.json, not written into the copy", () => {
 	const samplesIn = (group: string) => projects.filter((project) => project.group === group).length;
 	expect(projectCounts.connect_four.implementations).toBe(samplesIn("connect_four"));
-	expect(projectCounts.rijandel_encryption.implementations).toBe(samplesIn("rijandel_encryption"));
+	expect(projectCounts.rijndael_encryption.implementations).toBe(samplesIn("rijndael_encryption"));
 	expect(projectCounts.turing_machine.implementations).toBe(samplesIn("turing_machine"));
 	// Interop calls its sample count "patterns", so it carries no `implementations`.
 	expect(projectCounts.interop.patterns).toBe(samplesIn("interop"));

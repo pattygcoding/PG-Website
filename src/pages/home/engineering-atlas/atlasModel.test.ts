@@ -33,7 +33,7 @@ test("connections are bidirectional and stay within intentional project families
     expect(getConnectedProjects("takeoff_engine")).not.toContain("takeoff_engine");
     expect(getConnectedProjects("unknown")).toEqual([]);
     expect(getConnectedProjects("suprememc").sort()).toEqual([ATLAS_HUB, "minecraft_json_generator"].sort());
-    expect(getConnectedProjects("rijandel_encryption").sort()).toEqual([ATLAS_HUB, "interop", "connect_four", "turing_machine"].sort());
+    expect(getConnectedProjects("rijndael_encryption").sort()).toEqual([ATLAS_HUB, "interop", "connect_four", "turing_machine"].sort());
     expect(getConnectedProjects("snake").sort()).toEqual([ATLAS_HUB, "alkalab", "formatter", "tiger_programming_language"].sort());
     expect(getConnectedProjects("powershell_library").sort()).toEqual([ATLAS_HUB, "ruby_library", "lua_library", "excel_scripts"].sort());
     expect(getConnectedProjects("takeoff_engine")).not.toContain("formatter");

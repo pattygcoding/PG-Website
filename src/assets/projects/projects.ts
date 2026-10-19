@@ -13,11 +13,11 @@ export interface ProjectSample {
  * git/github/vscode skills is stored in `projects.json` as one compact block
  * instead of dozens of near-identical entries; this module expands such a block
  * back into ordinary samples. The sample-shaped groups are connect_four,
- * turing_machine and rijandel_encryption, and interop is the fourth; how many
+ * turing_machine and rijndael_encryption, and interop is the fourth; how many
  * samples each carries is counted in `projectCounts` below rather than written
  * into the copy, so the descriptions cannot drift as samples are added.
  *
- * rijandel_encryption links to the encryption.pattygcoding.com showcase instead
+ * rijndael_encryption links to the encryption.pattygcoding.com showcase instead
  * of GitHub, so its sample ids are that site's language slugs (c, cpp, csharp,
  * …) rather than the repository's folder names.
  *
@@ -106,7 +106,7 @@ const expandInterop = ({ group, label, link_base, common_skills, samples }: Expa
 const EXPAND_BLOCKS: Record<string, (block: ExpandBlock) => ProjectSample[]> = {
 	connect_four: expandSamples,
 	turing_machine: expandSamples,
-	rijandel_encryption: expandSamples,
+	rijndael_encryption: expandSamples,
 	interop: expandInterop,
 };
 
@@ -151,7 +151,7 @@ const countGroup = (group: string): GroupCounts => {
 
 const connectFour = countGroup("connect_four");
 const interop = countGroup("interop");
-const rijandel = countGroup("rijandel_encryption");
+const rijndael = countGroup("rijndael_encryption");
 const turing = countGroup("turing_machine");
 
 /**
@@ -166,7 +166,7 @@ const turing = countGroup("turing_machine");
 export const projectCounts: Record<string, Record<string, number>> = {
 	connect_four: { implementations: connectFour.implementations, languages: connectFour.languages, frameworks: connectFour.frameworks },
 	interop: { languages: interop.languages, patterns: interop.implementations },
-	rijandel_encryption: { implementations: rijandel.implementations },
+	rijndael_encryption: { implementations: rijndael.implementations },
 	turing_machine: { implementations: turing.implementations },
 };
 
