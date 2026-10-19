@@ -17,9 +17,9 @@ export interface ProjectSample {
  * samples each carries is counted in `projectCounts` below rather than written
  * into the copy, so the descriptions cannot drift as samples are added.
  *
- * rijndael_encryption links to the encryption.pattygcoding.com showcase instead
- * of GitHub, so its sample ids are that site's language slugs (c, cpp, csharp,
- * …) rather than the repository's folder names.
+ * rijndael_encryption and interop read their addresses from their own showcases
+ * instead of GitHub: the encryption language slugs (c, cpp, csharp, …) and the
+ * interop pairing addresses (ada-lisp, c-assembly-64bit, …).
  *
  * A sample is a bare id when the folder, skill id and skills.json name all agree,
  * otherwise an object:
@@ -38,10 +38,10 @@ export interface ProjectSample {
  * `tags`   the complete tag list, for the entries the shared ordering does not
  *          fit (Bash and PowerShell list `shell` before `vscode`)
  *
- * Interop is the other shape: one entry per language pair, written as
- * `[left, right, bitWidth?]`. skills.json supplies both names, the folder is
- * `<Left>/<Left> with <Right>[ (64bit|32bit)]` and the label is
- * `Interop with <Left> & <Right>[ x64|x86]`.
+ * Interop is the other shape: one entry per pairing the showcase publishes,
+ * written as `[host, guest, bitWidth?]`. skills.json supplies both names, the
+ * address is `<host>-<guest>[-32bit|-64bit]`, and the label is
+ * `Interop with <Host> & <Guest>[ x64|x86]`.
  *
  *   ["java", "clojure"]
  *   ["c", "assembly", "64bit"]
@@ -91,15 +91,15 @@ const expandSamples = ({ group, label, link_base, common_skills, samples }: Expa
 	});
 
 const expandInterop = ({ group, label, link_base, common_skills, samples }: ExpandBlock): ProjectSample[] =>
-	(samples as InteropSample[]).map(([left, right, bits]) => {
-		const folder = skillNames[left];
-		const partner = skillNames[right];
-		const path = `${folder}/${folder} with ${partner}${bits ? ` (${bits})` : ""}`;
+	(samples as InteropSample[]).map(([host, guest, bits]) => {
+		const left = skillNames[host];
+		const right = skillNames[guest];
+		const pairing = bits ? `${host}-${guest}-${bits}` : `${host}-${guest}`;
 		return {
-			link: link_base + encodePath(path),
-			label: `${label} ${folder} & ${partner}${bits ? ` ${INTEROP_BITS[bits]}` : ""}`,
+			link: link_base + pairing,
+			label: `${label} ${left} & ${right}${bits ? ` ${INTEROP_BITS[bits]}` : ""}`,
 			group,
-			skills: [left, right, ...common_skills],
+			skills: [host, guest, ...common_skills],
 		};
 	});
 
