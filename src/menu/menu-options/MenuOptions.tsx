@@ -38,7 +38,7 @@ const MenuOptions = ({ handleToggle, closeMenu }: MenuOptionsProps) => {
 	// Groups start truncated (collapsed) and expand on demand.
 	const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
 	const toggleGroup = (key: string) => setExpandedGroups((groups) => ({ ...groups, [key]: !groups[key] }));
-	const projectLink = ({ key, path, icon: Icon, external }: ProjectCatalogEntry) => external
+	const projectLink = ({ key, path = "#", icon: Icon, external }: ProjectCatalogEntry) => external
 		? <a href={path} target="_blank" rel="noopener noreferrer" onClick={dismiss} title={`${t(`menu.${key}`)} (opens in a new tab)`}>
 			<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
 		</a>
@@ -78,25 +78,36 @@ const MenuOptions = ({ handleToggle, closeMenu }: MenuOptionsProps) => {
 											: <Link {...linkProps} to={destination.path ?? "/"} aria-current={isCurrent ? "page" : undefined} onClick={dismiss}>{content}</Link>}
 										{isProjects && showProjects && (
 											<ul className="atlas-menu__projects" id="menu-projects">
-												{projects.map(({ key, path, icon: Icon, external, children }) => <li key={key} className={children ? "atlas-menu__project--group" : undefined}>
-													{external
-														? <a href={path} target="_blank" rel="noopener noreferrer" onClick={dismiss} title={`${t(`menu.${key}`)} (opens in a new tab)`}>
-															<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
-														</a>
-														: <Link to={path} onClick={dismiss} aria-current={pathname === path ? "page" : undefined}>
-															<Icon aria-hidden="true" /><span>{t(`menu.${key}`)}</span><FiArrowUpRight aria-hidden="true" />
-														</Link>}
-													{children && <>
-														<button type="button" className="atlas-menu__project-toggle" aria-expanded={Boolean(expandedGroups[key])} aria-controls={`menu-project-${key}`} aria-label={`${expandedGroups[key] ? "Collapse" : "Expand"} ${t(`menu.${key}`)}`} title={`${expandedGroups[key] ? "Collapse" : "Expand"} ${t(`menu.${key}`)}`} onClick={() => toggleGroup(key)}>
-															{expandedGroups[key] ? <FiMinus aria-hidden="true" /> : <FiPlus aria-hidden="true" />}
+												{projects.map(({ key, path, icon: Icon, external, children }) => {
+													const expanded = Boolean(expandedGroups[key]);
+													const label = t(`menu.${key}`);
+													const toggleLabel = `${expanded ? "Collapse" : "Expand"} ${label}`;
+													const toggleIcon = expanded ? <FiMinus aria-hidden="true" /> : <FiPlus aria-hidden="true" />;
+													// A link with children keeps its own row plus a separate expander; a group
+													// with no landing page (e.g. Framework Trees) is a dropdown on its own.
+													const row = !path
+														? <button type="button" className="atlas-menu__group-toggle" aria-expanded={expanded} aria-controls={`menu-project-${key}`} aria-label={toggleLabel} title={toggleLabel} onClick={() => toggleGroup(key)}>
+															<Icon aria-hidden="true" /><span>{label}</span>{toggleIcon}
 														</button>
-														{expandedGroups[key] && (
-															<ul className="atlas-menu__subprojects" id={`menu-project-${key}`}>
-																{children.map((child) => <li key={child.key}>{projectLink(child)}</li>)}
-															</ul>
-														)}
-													</>}
-												</li>)}
+														: external
+															? <a href={path} target="_blank" rel="noopener noreferrer" onClick={dismiss} title={`${label} (opens in a new tab)`}>
+																<Icon aria-hidden="true" /><span>{label}</span><FiArrowUpRight aria-hidden="true" />
+															</a>
+															: <Link to={path} onClick={dismiss} aria-current={pathname === path ? "page" : undefined}>
+																<Icon aria-hidden="true" /><span>{label}</span><FiArrowUpRight aria-hidden="true" />
+															</Link>;
+													return (
+														<li key={key} className={children ? "atlas-menu__project--group" : undefined}>
+															{row}
+															{children && path && <button type="button" className="atlas-menu__project-toggle" aria-expanded={expanded} aria-controls={`menu-project-${key}`} aria-label={toggleLabel} title={toggleLabel} onClick={() => toggleGroup(key)}>{toggleIcon}</button>}
+															{children && expanded && (
+																<ul className="atlas-menu__subprojects" id={`menu-project-${key}`}>
+																	{children.map((child) => <li key={child.key}>{projectLink(child)}</li>)}
+																</ul>
+															)}
+														</li>
+													);
+												})}
 											</ul>
 										)}
 									</li>

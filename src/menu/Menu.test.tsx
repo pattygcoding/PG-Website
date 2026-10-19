@@ -69,11 +69,36 @@ test("expands all project links and closes after selecting one", () => {
 	expect(projects.getAttribute("aria-expanded")).toBe("true");
 	const arcade = container.querySelector<HTMLElement>(".atlas-menu__project-toggle")!;
 	expect(arcade.getAttribute("aria-expanded")).toBe("false");
-	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "https://connectfour.pattygcoding.com/", "/formatter", "/languages", "/tiger"]);
+	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "/formatter", "/languages", "/tiger"]);
 	act(() => arcade.click());
 	expect(arcade.getAttribute("aria-expanded")).toBe("true");
-	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "https://arcade.pattygcoding.com/alkalab", "https://arcade.pattygcoding.com/rustcraft", "https://arcade.pattygcoding.com/snake", "https://arcade.pattygcoding.com/suprememc", "https://connectfour.pattygcoding.com/", "/formatter", "/languages", "/tiger"]);
+	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "https://arcade.pattygcoding.com/alkalab", "https://arcade.pattygcoding.com/rustcraft", "https://arcade.pattygcoding.com/snake", "https://arcade.pattygcoding.com/suprememc", "/formatter", "/languages", "/tiger"]);
 	click('#menu-projects a[href="/formatter"]');
+	expect(container.querySelector(".atlas-menu")).toBeNull();
+	expect(document.body.classList.contains("ovhidden")).toBe(false);
+});
+
+test("expands the framework trees dropdown into its subdomain links", () => {
+	renderMenu();
+	click('[aria-controls="menu-projects"]');
+	// A group with no landing page is its own dropdown: no anchor, one expander.
+	const group = container.querySelector<HTMLElement>(".atlas-menu__group-toggle")!;
+	// Framework Trees is a dropdown, not a link: its row carries no anchor of its own.
+	const rows = container.querySelectorAll("#menu-projects > li");
+	expect(rows[1].querySelector("a")).toBeNull();
+	expect(rows[1].querySelector(".atlas-menu__group-toggle")).toBe(group);
+	expect(group.getAttribute("aria-expanded")).toBe("false");
+	expect(group.getAttribute("aria-controls")).toBe("menu-project-framework_trees");
+	expect(container.querySelector("#menu-project-framework_trees")).toBeNull();
+	act(() => group.click());
+	expect(group.getAttribute("aria-expanded")).toBe("true");
+	expect(Array.from(container.querySelectorAll("#menu-project-framework_trees a"), (link: Element) => link.getAttribute("href"))).toEqual([
+		"https://connectfour.pattygcoding.com/",
+		"https://interop.pattygcoding.com/",
+		"https://encryption.pattygcoding.com/",
+		"https://turing.pattygcoding.com/",
+	]);
+	click('#menu-project-framework_trees a[href="https://turing.pattygcoding.com/"]');
 	expect(container.querySelector(".atlas-menu")).toBeNull();
 	expect(document.body.classList.contains("ovhidden")).toBe(false);
 });

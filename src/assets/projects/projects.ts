@@ -17,6 +17,10 @@ export interface ProjectSample {
  * samples each carries is counted in `projectCounts` below rather than written
  * into the copy, so the descriptions cannot drift as samples are added.
  *
+ * rijandel_encryption links to the encryption.pattygcoding.com showcase instead
+ * of GitHub, so its sample ids are that site's language slugs (c, cpp, csharp,
+ * …) rather than the repository's folder names.
+ *
  * A sample is a bare id when the folder, skill id and skills.json name all agree,
  * otherwise an object:
  *

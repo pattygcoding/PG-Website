@@ -71,7 +71,7 @@ My work connects engineering decisions to business outcomes. From a construction
 
 - **[Connect Four Language Tree](https://github.com/pattygcoding/Neo-Connect-Four-Language-Tree)**, 130+ implementations of Connect Four across 45 languages and 90 frameworks (React, Rails, ASP.NET, and more)
 - **[Interop Samples](https://github.com/pattygcoding/Interop-Samples)**, a cross-language interoperability reference spanning 15 languages and 18 execution patterns
-- **[Rijndael Encryption](https://github.com/pattygcoding/Rijandel-Encryption)**, 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
+- **[Rijndael Encryption](https://encryption.pattygcoding.com/)**, 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
 - **[Turing Machines](https://github.com/pattygcoding/Turing-Machines)**, 30+ implementations demonstrating Turing completeness across languages
 - **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)**, .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
 - **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)**, Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow

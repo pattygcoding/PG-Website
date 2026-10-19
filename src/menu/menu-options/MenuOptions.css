@@ -73,6 +73,9 @@
 .atlas-menu__projects a[aria-current="page"] { color: var(--menu-accent); background: rgb(150 220 198 / 6%); }
 .atlas-menu__project--group { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
 .atlas-menu__project--group > a { min-width: 0; }
+.atlas-menu__group-toggle { grid-column: 1 / -1; display: grid; grid-template-columns: 20px minmax(0, 1fr) 18px; align-items: center; gap: 12px; width: 100%; padding: 12px 8px; border: 0; background: transparent; color: var(--menu-muted); font: inherit; font-size: 14px; text-align: left; cursor: pointer; transition: color 180ms ease, background 180ms ease; }
+.atlas-menu__group-toggle:hover,
+.atlas-menu__group-toggle[aria-expanded="true"] { color: var(--menu-accent); background: rgb(150 220 198 / 6%); }
 .atlas-menu__project-toggle { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; margin-right: 4px; border: 0; border-radius: 50%; background: transparent; color: var(--menu-muted); font-size: 16px; cursor: pointer; transition: color 180ms ease, background 180ms ease; }
 .atlas-menu__project-toggle:hover { color: var(--menu-accent); background: rgb(150 220 198 / 8%); }
 .atlas-menu__subprojects { grid-column: 1 / -1; list-style: none; margin: 0 0 8px 16px; padding: 0 0 0 14px; border-left: 1px solid var(--menu-line); }
