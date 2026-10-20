@@ -73,7 +73,7 @@ My work connects engineering decisions to business outcomes. From a construction
 - **[Interop Samples](https://interop.pattygcoding.com/)**, a cross-language interoperability reference spanning 37 host languages and 88 pairings
 - **[Rijndael Encryption](https://encryption.pattygcoding.com/)**, 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
 - **[Turing Machines](https://turing.pattygcoding.com/)**, 42 implementations demonstrating Turing completeness across 41 languages
-- **[Grocery App (Blazor)](https://github.com/pattygcoding/Grocery-App-Blazor)**, .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
+- **[Grocery App (Blazor)](https://blazor.pattygcoding.com/)**, .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
 - **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)**, Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
 - **[PayrollOBOL](https://github.com/pattygcoding/PayrollOBOL)**, GnuCOBOL payroll processing with a SQLite double-entry ledger and Svelte dashboard
 - **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)**, a real Rust parser compiled to WebAssembly, validating and formatting entirely in-browser
