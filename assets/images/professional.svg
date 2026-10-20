@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">My Professional Experience</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#d9a85e" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#d9a85e" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#281e10" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#604824" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<path d="M 424 412 V 356 a 88 88 0 0 1 176 0 V 412" fill="none" stroke="#d9a85e" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+		<rect x="232" y="412" width="560" height="392" rx="48" fill="#ba873b"/>
+		<path d="M 280 412 H 744 a 48 48 0 0 1 48 48 V 532 H 232 V 460 a 48 48 0 0 1 48 -48 Z" fill="#ecc68d"/>
+		<rect x="472" y="500" width="80" height="64" rx="16" fill="#d9a85e"/>
+</svg>

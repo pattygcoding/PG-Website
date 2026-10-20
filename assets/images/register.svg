@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">Inventory Register</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#dc77df" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#dc77df" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#271028" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#5e2460" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<rect x="252" y="252" width="520" height="520" rx="64" fill="#dc77df"/>
+		<line x1="252" y1="376" x2="772" y2="376" fill="none" stroke="#271028" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+		<rect x="292" y="512" width="456" height="180" rx="32" fill="#371e38"/>
+		<rect x="332" y="552" width="48" height="100" rx="16" fill="#eea7f1"/>
+		<rect x="420" y="580" width="48" height="72" rx="16" fill="#eea7f1"/>
+		<rect x="508" y="552" width="48" height="100" rx="16" fill="#eea7f1"/>
+		<rect x="596" y="580" width="48" height="72" rx="16" fill="#eea7f1"/>
+		<rect x="684" y="552" width="48" height="100" rx="16" fill="#eea7f1"/>
+</svg>

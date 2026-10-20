@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">Patrick's Neovim Config</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#66d95e" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#66d95e" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#122810" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#286024" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<rect x="212" y="252" width="600" height="520" rx="44" fill="#20381e" stroke="#43ba3b" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+		<path d="M 256 252 H 768 a 44 44 0 0 1 44 44 V 340 H 212 V 296 a 44 44 0 0 1 44 -44 Z" fill="#3a8235"/>
+		<line x1="512" y1="340" x2="512" y2="772" fill="none" stroke="#3a8235" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+		<rect x="268" y="404" width="180" height="36" rx="18" fill="#93ec8d"/>
+		<rect x="268" y="468" width="220" height="36" rx="18" fill="#66d95e"/>
+		<rect x="268" y="532" width="140" height="36" rx="18" fill="#43ba3b"/>
+		<rect x="568" y="404" width="180" height="36" rx="18" fill="#43ba3b"/>
+		<rect x="568" y="468" width="120" height="36" rx="18" fill="#66d95e"/>
+		<rect x="268" y="628" width="60" height="44" rx="10" fill="#93ec8d"/>
+</svg>
