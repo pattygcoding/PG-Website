@@ -9,6 +9,7 @@
     "snake": "بازی مار",
     "portfolio_translator": "مترجم نمونه کارها",
     "formatter": "لینتر JSON و YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "با من تماس بگیرید",
     "home_description": "sys.root // نمای کلی اصلی",
     "about_description": "پروفایل مهندس // بیو و استک",
@@ -320,15 +321,10 @@
         "text": "مجموعه‌ای React با تفکر تولیدی که دسترسی و دسترسی جهانی را به عنوان الزامات مهندسی در نظر می‌گیرد. این شامل یک خط لوله ترجمه قابل نگهداری برای بیش از 100 زبان، ابزارهای تعاملی با پشتیبانی WebAssembly، الگوهای UI پاسخگو و در دسترس، و معماری پروژه است. طراحی شده تا با ارسال کار جدید رشد کند.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "کتابخانه اسکریپت لوا پاتریک",
-        "text": "یک کتابخانه مفید از اسکریپت های Lua برای مراجعات بعدی. این کتابخانه برای خودکارسازی وظایف در اسکریپت‌های Lua استفاده می‌شود، که می‌تواند برای کارهایی که نیاز به عملکرد دارند مفید باشد، زیرا Lua معمولاً یک زبان برنامه‌نویسی سریع‌تر از Python و Ruby است.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "اسکریپت های صفحه گسترده مایکروسافت اکسل پاتریک (VBA)",
-        "text": "یک کتابخانه مفید از اسکریپت های VBA برای مایکروسافت اکسل. این کتابخانه برای خودکارسازی وظایف در صفحات گسترده اکسل استفاده می شود.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "پیکربندی Patrick's Neovim",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "یک ابزار گزارش‌دهی مکانی پایتون که با GeoPandas و Matplotlib ساخته شده است تا نقشه‌های شهرستان و ایالت ایالات متحده را تولید کند. این داده‌های جغرافیایی را به مصنوعات تحلیلی قابل خواندن تبدیل می‌کند و یک طرز فکر خط لوله داده را نشان می‌دهد: کتابخانه‌های دامنه مناسب را انتخاب کنید، ورودی‌ها را عادی کنید، و خروجی‌هایی تولید کنید که از تصمیمات روشن حمایت کنید",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "کتابخانه اسکریپت پاورشل پاتریک",
-        "text": "یک کتابخانه مفید از اسکریپت های PowerShell برای مراجعات بعدی. با ویژگی اسکریپت $profile مفید است، به نظر من این برای خودکارسازی وظایف از ترمینال ویندوز بسیار مفید است، زیرا من از کاربران مکرر سیستم عامل ویندوز هستم.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "کتابخانه اسکریپت روبی پاتریک",
-        "text": "یک کتابخانه مفید از اسکریپت های روبی برای مراجعات بعدی. برای مفاهیم توسعه Ruby on Rails در آینده مفید است.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "یک ماد ماینکرفت که ابزارها، زره‌ها، هیولاها، بلوک‌ها، بُعدها و بسیاری ویژگی‌های سفارشی دیگر به بازی می‌افزاید. عمدتاً با Java و Kotlin ساخته شده و از نسخه‌های ماینکرفت ۱.۱۶ تا ۲۶.۲ پشتیبانی می‌کند.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "بازی مار",
         "text": "موتوری پرداخته برای مار که با Rust و Macroquad ساخته، به WebAssembly کامپایل و از طریق Canvas HTML5 رندر می‌شود. تیک‌های بازی قطعی ۰/۱۲ ثانیه‌ای را با حرکت درون‌یابی‌شده نرم، مراحل بازی صریح، کنترل پاسخگو، مدیریت برخورد و وضعیت‌های پیروزی و مجموعه آزمون متمرکزی که قواعد اصلی بازی را پوشش می‌دهد ترکیب می‌کند.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "زبان برنامه نویسی ببر",

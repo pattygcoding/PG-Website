@@ -9,6 +9,7 @@
     "snake": "Жылан ойыны",
     "portfolio_translator": "Портфолио аудармашысы",
     "formatter": "JSON және YAML линтері",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Маған хабарласыңыз",
     "home_description": "sys.root // негізгі шолу",
     "about_description": "инженер профилі // био және технологиялар",
@@ -320,15 +321,10 @@
         "text": "Қолжетімділік пен жаһандық қолжетімділікті инженерлік талаптар ретінде қарастыратын өндіріске негізделген React портфолиосы. Ол 100+ тілге арналған қолдау көрсетілетін аударма желісін, WebAssembly қолдайтын интерактивті құралдарды, жауап беретін және қол жетімді UI үлгілерін және жоба архитектурасын қамтиды. жаңа жұмыс жіберілген сайын өсуге арналған.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Патриктің Луа сценарийлер кітапханасы",
-        "text": "Болашақта анықтама үшін Lua сценарийлерінің пайдалы кітапханасы. Бұл кітапхана Lua сценарийлеріндегі тапсырмаларды автоматтандыру үшін пайдаланылады, ол өнімділікті қажет ететін тапсырмалар үшін ыңғайлы болуы мүмкін, өйткені Lua әдетте Python және Ruby екеуіне қарағанда жылдам сценарий тілі болып табылады.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Патриктің Microsoft Excel электрондық кесте сценарийлері (VBA)",
-        "text": "Microsoft Excel бағдарламасына арналған VBA сценарийлерінің пайдалы кітапханасы. Бұл кітапхана Excel электрондық кестелеріндегі тапсырмаларды автоматтандыру үшін пайдаланылады.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Патриктің Neovim конфигурациясы",
@@ -339,16 +335,6 @@
         "title": "Патрик картасының генераторы",
         "text": "АҚШ округтері мен штаттарының карталарын жасау үшін GeoPandas және Matplotlib көмегімен жасалған Python геокеңістіктік есеп беру құралы. Ол географиялық деректерді оқылатын талдау артефактілеріне айналдырып, деректер құбырының ой-өрісін көрсетеді: дұрыс домен кітапханаларын таңдаңыз, кірістерді қалыпқа келтіріңіз және нәтижелерді шығарады. нақты шешімдерді қолдайды.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Патриктің PowerShell сценарийлер кітапханасы",
-        "text": "Болашақ анықтама үшін PowerShell сценарийлерінің пайдалы кітапханасы. $profile сценарий мүмкіндігімен пайдалы, мен мұны Windows терминалындағы тапсырмаларды автоматтандыру үшін өте пайдалы деп санаймын, өйткені мен Windows ОЖ жиі пайдаланушысымын.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Патриктің Ruby сценарийлер кітапханасы",
-        "text": "Болашақта анықтама үшін пайдалы Ruby сценарийлерінің кітапханасы. Болашақ Ruby on Rails әзірлеу тұжырымдамалары үшін пайдалы.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Ойынға арнайы құралдар, сауыттар, мобтар, блоктар, өлшемдер және басқа да көптеген мүмкіндіктерді қосатын Minecraft моды. Негізінен Java және Kotlin тілдерінде құрылған, Minecraft 1.16-дан 26.2-ге дейінгі нұсқаларын қолдайды.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Жылан ойыны",
         "text": "Rust және Macroquad көмегімен құрылған, WebAssembly-ге компиляцияланған және HTML5 Canvas арқылы бейнеленетін жылтыратылған Жылан қозғалтқышы. Ол 0,12 секундтық детерминирленген ойын тиктерін тегіс интерполяцияланған қозғалыспен, нақты ойын кезеңдерімен, сезімтал басқарумен, соқтығысу мен жеңіс жағдайларын өңдеумен және ойынның негізгі ережелерін қамтитын бағытталған тест жиынтығымен біріктіреді.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger бағдарламалау тілі",

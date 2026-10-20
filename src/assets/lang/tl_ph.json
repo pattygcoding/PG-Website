@@ -9,6 +9,7 @@
     "snake": "Larong ahas",
     "portfolio_translator": "Tagasalin ng Portfolio",
     "formatter": "Linter ng JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Kontakin Ako",
     "home_description": "sys.root // pangunahing pangkalahatang-tanaw",
     "about_description": "profile ng inhinyero // bio at stack",
@@ -320,15 +321,10 @@
         "text": "Isang production-minded React portfolio na tinatrato ang accessibility at global reach bilang mga kinakailangan sa engineering. Kabilang dito ang isang pipeline ng mapanatili na pagsasalin para sa 100+ wika, mga interactive na tool na sinusuportahan ng WebAssembly, tumutugon at naa-access na mga pattern ng UI, at isang arkitektura ng proyekto idinisenyo upang lumago habang ipinapadala ang bagong trabaho.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Isang kapaki-pakinabang na library ng mga script ng Lua para sa sanggunian sa hinaharap. Ginagamit ang library na ito upang i-automate ang mga gawain sa mga script ng Lua, na maaaring magamit para sa mga gawaing nangangailangan ng pagganap, dahil ang Lua ay karaniwang isang mas mabilis na wika ng scripting kaysa sa parehong Python at Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Ang Microsoft Excel Spreadsheet Scripts (VBA) ni Patrick",
-        "text": "Isang kapaki-pakinabang na library ng mga VBA script para sa Microsoft Excel. Ginagamit ang library na ito upang i-automate ang mga gawain sa mga spreadsheet ng Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Ang Neovim Config ni Patrick",
@@ -339,16 +335,6 @@
         "title": "Tagabuo ng Mapa ni Patrick",
         "text": "Isang tool sa pag-uulat ng geospatial ng Python na binuo gamit ang GeoPandas at Matplotlib upang bumuo ng mga mapa ng county at estado ng U.S. Ginagawa nitong mga nababasang artifact ng pagsusuri ang heyograpikong data, na nagpapakita ng mindset ng pipeline ng data: piliin ang mga tamang library ng domain, gawing normal ang mga input, at gumawa ng mga output na suportahan ang mga malinaw na desisyon.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Isang kapaki-pakinabang na library ng mga PowerShell script para sa sanggunian sa hinaharap. Kapaki-pakinabang sa tampok na script ng $profile, nakita kong napakalaking tulong ito para sa pag-automate ng mga gawain mula sa terminal ng Windows, dahil madalas akong gumagamit ng Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Isang kapaki-pakinabang na library ng mga Ruby script para sa sanggunian sa hinaharap. Kapaki-pakinabang para sa hinaharap na mga konsepto ng pag-unlad ng Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Tagabuo ng Mga Kasanayan sa PDF",
@@ -365,10 +351,20 @@
         "text": "Isang mod ng Minecraft na nagdaragdag ng custom na tools, armor, mobs, blocks, dimensyon, at marami pang tampok sa laro. Binuo pangunahin gamit ang Java at Kotlin, na sumusuporta sa bersyon ng Minecraft 1.16 hanggang 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Larong ahas",
         "text": "Isang pulidong Ahas na engine na binuo gamit ang Rust at Macroquad, nakompile sa WebAssembly, at nire-render sa pamamagitan ng HTML5 Canvas. Pinagsasama nito ang deterministikong 0.12-segundong game ticks na may makinis na interpolated na paggalaw, malinaw na game phase, responsive na kontrol, paghawak sa banggaan at win-state, at isang focused test suite na sumasaklaw sa core rules ng laro.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Wika ng Tiger Programming",

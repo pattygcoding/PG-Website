@@ -19,6 +19,7 @@
     "interops": "Interops",
     "rijndael_encryption": "Rijndael Encryption",
     "turing_machines": "Turing Machines",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Contact Me",
     "home_description": "sys.root // main overview",
     "about_description": "engineer profile // bio & stack",
@@ -327,15 +328,10 @@
         "text": "A production-minded React portfolio that treats accessibility and global reach as engineering requirements. It includes a maintainable translation pipeline for 100+ languages, interactive tools backed by WebAssembly, responsive and accessible UI patterns, and a project architecture designed to grow as new work is shipped.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "A useful library of Lua scripts for future reference. This library is used to automate tasks in Lua scripts, which can come in handy for performance-needy tasks, as Lua is usually a faster scripting language than both Python and Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "A useful library of VBA scripts for Microsoft Excel. This library is used to automate tasks in Excel spreadsheets.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -346,16 +342,6 @@
         "title": "Patrick's Map Generator",
         "text": "A Python geospatial reporting tool built with GeoPandas and Matplotlib to generate U.S. county and state maps. It turns geographic data into readable analysis artifacts, demonstrating a data pipeline mindset: select the right domain libraries, normalize inputs, and produce outputs that support clear decisions.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "A useful library of PowerShell scripts for future reference. Useful with the $profile script feature, I find this immensely helpful for automating tasks from the Windows terminal, as I am a frequent user of the Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "A useful library of Ruby scripts for future reference. Useful for future Ruby on Rails developmental concepts.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -377,10 +363,20 @@
         "text": "A powder-sand chemistry lab built in Rust and compiled to WebAssembly. Paint sand, water, lava, steel, calcium carbide, or a lump of sodium and watch the physics and chemistry fight it out: sodium detonates in water, calcium carbide fizzes acetylene, lava fuses sand into glass, and density alone sorts oil, mercury, and sand. The engine runs 32 materials and 40 declarative reaction rules over a flat cell buffer, rendering pixels straight out of wasm linear memory with no per-frame copies.",
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Snake Game",
         "text": "A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly, and rendered through HTML5 Canvas. It combines deterministic 0.12-second game ticks with smooth interpolated movement, explicit game phases, responsive controls, collision and win-state handling, and a focused test suite covering the core game rules.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",

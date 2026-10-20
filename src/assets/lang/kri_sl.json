@@ -9,6 +9,7 @@
     "snake": "Snɛk ple",
     "portfolio_translator": "Pɔtfɔlio Transletɔ",
     "formatter": "JSON & YAML chɛka",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Kontakt Mi",
     "home_description": "sys.root // mɛn bilivyu",
     "about_description": "injinia profil // bio ɛn teknoloji",
@@ -320,15 +321,10 @@
         "text": "Wan prodakshɔn-maynd Riakt pɔtfɔlio we de trit aksesibiliti ɛn glob ɔl rich as injinɛri rikwaymɛnt. I inklud wan transleshɔn paip layn we dɛn kin mentenɛt fɔ 100+ langwej dɛn, intaraktiv tul dɛn we WebAssembly bak, rispɔnsiv ɛn aksesbul UI patɛn, ɛn wan prɔjek akitɛkɛt we dɛn mek fɔ gro as dɛn de ship nyu wok.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick in Lua Skript Laybri",
-        "text": "Wan yusful laybri fɔ Lua skript dɛn fɔ yuz tumara bambay. Dis laybri de yuz fɔ ɔtomayz wok dɛn na Lua skript, we kin kam fayn fɔ wok dɛn we nid fɔ pefɔmɛns, bikɔs Lua kin bi skriptin langwej we fast pas ɔl tu Paytɔn ɛn Rubi.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick in Maykrosoft Ɛksɛl Sprɛdshit Skript (VBA) .",
-        "text": "Wan yusful laybri fɔ VBA skript fɔ Maykrosoft Ɛksɛl. Dɛn kin yuz dis laybri fɔ ɔtomayz wok dɛn na Ɛksɛl sprɛdshit dɛn.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick in Neovim Kɔnfig",
@@ -339,16 +335,6 @@
         "title": "Patrick in Map Jɛnɛratɔ",
         "text": "Wan Paytɔn jiospɛshal ripɔt tul we dɛn bil wit JioPandas ɛn Matplotlib fɔ mek U.S. kɔntri ɛn stet map dɛn. I de tɔn jiografik data to ridabl analisis artifakt, we de sho wan data paip layn maynd sɛt: pik di rayt domɛyn laybri dɛn, nɔmaliz input dɛn, ɛn prodyuz autput dɛn we sɔpɔt klia disizhɔn dɛn.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick in PowerShell Skript Laybri",
-        "text": "Wan yusful laybri fɔ PowerShell skript fɔ riferɛns tumara bambay. Yuzful wit di $profile skript ficha, a si se dis rili ɛp fɔ ɔtomayz wok frɔm di Windows tɛminal, as a na pɔsin we kin yuz di Windows OS bɔku tɛm.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick in Rubi Skript Laybri",
-        "text": "Wan yusful laybri fɔ Ruby skript fɔ riferɛns tumara bambay. Yuzful fɔ fiuja Ruby on Rails divɛlɔpmɛnt kɔnsɛpt dɛn.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skil Bilda",
@@ -365,10 +351,20 @@
         "text": "Wan Minecraft mod we de ad kastɔm tul dɛn, amɔ, mɔb dɛn, blɔk dɛn, dimɛnshɔn dɛn, ɛn mɔni mɔ ficha dɛn na di ple. Bilt mɔni wit Java ɛn Kotlin, de sɔpɔt Minecraft 1.16 go dɔn to 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Snɛk ple",
         "text": "Wan finis Snɛk injin we dɛn bilt wit Rust ɛn Macroquad, kompail na WebAssembly, ɛn rɛndɛ tru HTML5 Canvas. I de jun 0.12-sɛkɔnd mɛk-chɔys ple tik dɛn wit myusikal mu­vmɛnt, klia ple faz dɛn, rɛspɔnsiv kɔntrul, kɔlizhɔn ɛn win-stet anling, ɛn wan fɔkas tɛst sut we de kɔba di kor rul dɛn.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tayga Progrɛm Langwej",

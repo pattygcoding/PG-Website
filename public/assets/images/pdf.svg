@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">PDF Skills Builder</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#6e7ddd" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#6e7ddd" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#101328" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#242c60" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<path d="M 252 212 H 640 L 732 304 V 812 H 252 Z" fill="#4556c4" stroke="#4556c4" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+		<polygon points="640,212 732,304 640,304" fill="#6e7ddd"/>
+		<rect x="304" y="400" width="376" height="40" rx="20" fill="#1e2238"/>
+		<rect x="304" y="480" width="300" height="40" rx="20" fill="#1e2238"/>
+		<rect x="304" y="560" width="340" height="40" rx="20" fill="#1e2238"/>
+		<circle cx="692" cy="728" r="100" fill="#9fa9ef"/>
+		<rect x="674" y="680" width="36" height="88" rx="8" fill="#1e2238"/>
+		<polygon points="656,752 728,752 692,804" fill="#1e2238"/>
+</svg>

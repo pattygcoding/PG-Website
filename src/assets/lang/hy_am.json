@@ -9,6 +9,7 @@
     "snake": "Օձի խաղ",
     "portfolio_translator": "Պորտֆոլիոյի թարգմանիչ",
     "formatter": "JSON և YAML ստուգիչ",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Կապվեք ինձ հետ",
     "home_description": "sys.root // գլխավոր ակնարկ",
     "about_description": "ինժեների պրոֆիլ // կենս․ և տեխնոլոգիաներ",
@@ -320,15 +321,10 @@
         "text": "Արտադրական մտածողությամբ React պորտֆոլիո, որը մատչելիությունն ու համաշխարհային հասանելիությունը դիտարկում են որպես ինժեներական պահանջներ: Այն ներառում է 100+ լեզուների համար պահպանվող թարգմանության խողովակաշար, ինտերակտիվ գործիքներ, որոնք ապահովված են WebAssembly-ով, արձագանքող և մատչելի միջերեսային օրինաչափություններ և նախագծի ճարտարապետություն: նախատեսված է աճել, քանի որ նոր աշխատանք է առաքվում:",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Պատրիկի Լուա Գրադարան",
-        "text": "Lua սկրիպտների օգտակար գրադարան հետագա հղումների համար: Այս գրադարանն օգտագործվում է Lua սկրիպտներում առաջադրանքները ավտոմատացնելու համար, որոնք կարող են օգտակար լինել կատարողականի կարիք ունեցող առաջադրանքների համար, քանի որ Lua-ն սովորաբար ավելի արագ սկրիպտային լեզու է, քան Python-ը և Ruby-ը:",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Պատրիկի Microsoft Excel աղյուսակների սցենարներ (VBA)",
-        "text": "Microsoft Excel-ի համար VBA սկրիպտների օգտակար գրադարան: Այս գրադարանն օգտագործվում է Excel աղյուսակներում առաջադրանքները ավտոմատացնելու համար:",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Պատրիկի քարտեզի գեներատոր",
         "text": "Python աշխարհատարածական հաշվետվության գործիք, որը ստեղծվել է GeoPandas-ի և Matplotlib-ի հետ՝ ԱՄՆ շրջանների և նահանգների քարտեզներ ստեղծելու համար: Այն աշխարհագրական տվյալները վերածում է ընթեռնելի վերլուծության արտեֆակտների՝ ցուցադրելով տվյալների խողովակաշարի մտածելակերպը. ընտրել ճիշտ տիրույթի գրադարանները, նորմալացնել մուտքերը և արտադրել ելքեր, որոնք աջակցել հստակ որոշումներին.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Պատրիկի PowerShell սցենարի գրադարան",
-        "text": "PowerShell սկրիպտների օգտակար գրադարան ապագա հղումների համար: Օգտակար է $profile script ֆունկցիայի հետ, ես գտնում եմ, որ սա չափազանց օգտակար է Windows տերմինալից առաջադրանքների ավտոմատացման համար, քանի որ ես Windows OS-ի հաճախակի օգտագործող եմ:",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Պատրիկի Ռուբի Գրադարան",
-        "text": "Ruby-ի սկրիպտների օգտակար գրադարան հետագա հղման համար: Օգտակար ապագա Ruby on Rails-ի զարգացման հայեցակարգերի համար:",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Minecraft մոդ, որը խաղին ավելացնում է հատուկ գործիքներ, զրահներ, մոբեր, բլոկներ, չափեր և բազմաթիվ այլ ֆունկցիաներ։ Կառուցված հիմնականում Java և Kotlin-ով, աջակցելով Minecraft 1.16-ից մինչև 26.2 տարբերակներին։",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Օձի խաղ",
         "text": "Մշակված օձի շարժիչ՝ կառուցված Rust և Macroquad-ով, կոմպիլացված WebAssembly և ցուցադրված HTML5 Canvas-ի միջոցով։ Այն միավորում է 0,12 վայրկյանանոց որոշիչ խաղային տիկերը հարթ ինտերպոլացված շարժման, հստակ խաղային փուլերի, արձագանքող կառավարման, բախումների և հաղթանակի վիճակների մշակման և կենտրոնացված թեստային հավաքածուի հետ՝ ընդգրկելով խաղի հիմնական կանոնները։",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger ծրագրավորման լեզու",

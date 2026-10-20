@@ -9,6 +9,7 @@
     "snake": "Dula sa bitin",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "Checker sa JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Kontaka Ako",
     "home_description": "sys.root // kinatibuk-ang pagtan-aw",
     "about_description": "profile sa inhenyero // bio ug teknolohiya",
@@ -320,15 +321,10 @@
         "text": "Usa ka portfolio sa React nga naghunahuna sa produksiyon nga nagtagad sa pagka-access ug pag-abot sa tibuuk kalibutan ingon mga kinahanglanon sa engineering. Naglakip kini sa usa ka mapadayon nga pipeline sa paghubad alang sa 100+ ka mga pinulongan, mga interactive nga himan nga gipaluyohan sa WebAssembly, responsive ug accessible nga mga pattern sa UI, ug usa ka arkitektura sa proyekto gidisenyo nga motubo samtang ang bag-ong trabaho gipadala.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Usa ka mapuslanon nga librarya sa mga script sa Lua alang sa umaabot nga pakisayran. Kini nga librarya gigamit sa pag-automate sa mga buluhaton sa Lua scripts, nga mahimong magamit alang sa performance-kinahanglan nga mga buluhaton, tungod kay ang Lua kasagaran usa ka mas paspas nga scripting nga pinulongan kay sa Python ug Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Ang Microsoft Excel Spreadsheet Scripts (VBA) ni Patrick",
-        "text": "Usa ka mapuslanon nga librarya sa mga script sa VBA alang sa Microsoft Excel. Kini nga librarya gigamit sa pag-automate sa mga buluhaton sa mga spreadsheet sa Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Ang Neovim Config ni Patrick",
@@ -339,16 +335,6 @@
         "title": "Patrick's Mapa Generator",
         "text": "Usa ka himan sa pagtaho sa geospatial sa Python nga gihimo gamit ang GeoPandas ug Matplotlib aron makamugna og mga mapa sa county ug estado sa US. Gihimo niini ang geograpikanhong datos nga mahimong mabasa nga mga artifact sa pagtuki, nga nagpakita sa usa ka data pipeline mindset: pagpili sa husto nga domain library, pag-normalize sa mga input, ug paghimo og mga output nga pagsuporta sa klaro nga mga desisyon.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Usa ka mapuslanon nga librarya sa mga PowerShell script para sa umaabot nga reperensiya. Mapuslanon sa $profile script nga bahin, akong nakita nga kini dako kaayo nga makatabang sa pag-automate sa mga buluhaton gikan sa Windows terminal, tungod kay ako usa ka kanunay nga tiggamit sa Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Usa ka mapuslanon nga librarya sa Ruby scripts alang sa umaabot nga pakisayran. Mapuslanon alang sa umaabot nga Ruby on Rails nga mga konsepto sa pag-uswag.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Usa ka mod sa Minecraft nga nagdugang og custom nga mga himan, armadura, mobs, blocks, mga sukat, ug daghan pang mga feature sa dula. Gitukod labi na sa Java ug Kotlin, nga nagsuporta sa mga bersyon sa Minecraft 1.16 hangtod 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Dula sa bitin",
         "text": "Usa ka pinasinaw nga Bitin nga engine nga gitukod uban sa Rust ug Macroquad, gi-compile sa WebAssembly, ug gi-render pinaagi sa HTML5 Canvas. Gi-hiusa kini ang 0.12-segundo nga deterministic game ticks uban sa hapsay nga interpolated nga paglihok, klaro nga mga phase sa dula, responsive nga kontrol, pagdumala sa mga bangga ug win-state, ug usa ka naka-focus nga suite sa pagsulay nga naglangkob sa mga batakang lagda sa dula.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Pinulongan sa Pagprograma sa Tigre",

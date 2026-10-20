@@ -9,6 +9,7 @@
     "snake": "Mbói ñembosarái",
     "portfolio_translator": "Traductor de Cartera rehegua",
     "formatter": "JSON & YAML verificador",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Eñe’ẽ Chendive",
     "home_description": "sys.root // teko jehecha guasu",
     "about_description": "ingeniero perfil // bio ha tecnología",
@@ -320,15 +321,10 @@
         "text": "Peteî cartera React ojepytasóva producción rehe otratáva accesibilidad ha alcance global ha'éva umi mba'e ojejeruréva ingeniería-pe. Oike ipype peteĩ pipeline ñembohasa rehegua oñeñangarekokuaáva 100+ ñe’ẽme g̃uarã, tembipuru’i interactivo oipytyvõva WebAssembly, UI ra’ãnga ombohováiva ha ojeikekuaava, ha peteĩ arquitectura proyecto rehegua ojejapóva okakuaa haguã oñemondo jave tembiapo pyahu.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick rembiapokue Lua Guion Biblioteca",
-        "text": "Peteĩ aranduka’i iporãva Lua script-kuéra rehegua ojepuru hag̃ua tenonderãme. Ko aranduka’i ojepuru oñemboheko hag̃ua tembiaporã Lua script-pe, ikatúva ou porã tembiaporã oñeikotevẽvape g̃uarã, Lua ha’égui jepi peteĩ ñe’ẽ scripting pya’eve Python ha Ruby-gui.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick rembiapokue Microsoft Excel kuatiañeꞌepyre (VBA) rehegua .",
-        "text": "Peteĩ aranduka’i iporãva script VBA rehegua Microsoft Excel-pe g̃uarã. Ko aranduka’i ojepuru ojejapo hag̃ua tembiaporã Excel kuatiañe’ẽme.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick rembiapokue Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick Mapa Generador rehegua",
         "text": "Peteĩ tembipuru Python marandu geoespacial rehegua oñemopuꞌavaꞌekue GeoPandas ha Matplotlib ndive ojejapo hag̃ua U.S. condado ha estado mapa. Ombojere umi dato geográfico artefacto análisis rehegua ojeleekuaávape, ohechaukáva peteĩ mentalidad pipeline de datos rehegua: eiporavo umi biblioteca dominio rehegua oĩporãva, enormalisávo insumo ha eproduci salida upéva oipytyvõ umi decisión hesakãva.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick PowerShell Ñe’ẽryru ryru",
-        "text": "Peteĩ aranduka’i iporãva PowerShell script-kuéra rehegua ojepuru hag̃ua tenonderãme. Iporã pe $profile script mba’ekuaarã ndive, ajuhu kóva tuicha oipytyvõha oñeautomatisa hag̃ua tembiaporã Windows terminal guive, che ha’égui peteĩ puruhára jepivegua Windows OS-pe.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick rembiapokue Ruby Guion Biblioteca",
-        "text": "Peteĩ aranduka’i iporãva Ruby script-kuéra rehegua ojepuru hag̃ua tenonderãme. Iporã umi concepto desarrollo Ruby on Rails oútavape g̃uarã.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Katupyry Mohendaha",
@@ -365,10 +351,20 @@
         "text": "Minecraft mod herramienta, armadura, mobs, blocks, dimensión ha hetave oreko. Java ha Kotlin-pe, Minecraft 1.16 26.2 ñe'ẽ.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Mbói ñembosarái",
         "text": "Rust ha Macroquad ndive jarýi engine WebAssembly ha HTML5 Canvas jahecha.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigre Ñe’ẽtekuaa rehegua",

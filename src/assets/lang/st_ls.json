@@ -9,6 +9,7 @@
     "snake": "Papali ea noha",
     "portfolio_translator": "Mofetoleli oa Portfolio",
     "formatter": "Molebeli oa JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Ikopanye le 'Na",
     "home_description": "sys.root // kakaretso e ka sehloohong",
     "about_description": "boemo ba moenjiniere // bio le mahlale",
@@ -320,15 +321,10 @@
         "text": "Setsi sa tlhahiso ea maikutlo sa React se sebetsanang le phihlello le phihlello ea lefats'e joalo ka litlhoko tsa boenjiniere. E kenyelletsa mokhoa o tsitsitseng oa ho fetolela lipuong tse 100+, lisebelisoa tse sebetsanang le litaba tse tšehelitsoeng ke WebAssembly, mekhoa ea UI e arabelang hantle le e fumanehang habonolo, le moralo oa projeke. e etselitsoeng ho hola ha mosebetsi o mocha o romelloa.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Laeborari ea bohlokoa ea mangolo a Lua bakeng sa tšebeliso ea nako e tlang. Laeborari ena e sebelisetsoa ho iketsetsa mesebetsi ka har'a mengolo ea Lua, e ka kenang hantle bakeng sa mesebetsi e hlokang ts'ebetso, kaha hangata Selua ke puo ea ho ngola e potlakileng ho feta Python le Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Laeborari ea bohlokoa ea mangolo a VBA bakeng sa Microsoft Excel. Laeborari ena e sebelisetsoa ho iketsetsa mesebetsi ho li-spreadsheet tsa Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "Sesebelisoa sa tlaleho sa Python geospatial se hahiloeng ka GeoPandas le Matplotlib ho hlahisa limmapa tsa setereke sa U.S. E fetola data ea sebaka hore e be li-artifact tse ka baloang, e bonts'a mohopolo oa lipeipi tsa data: khetha lilaebrari tse nepahetseng tsa sebaka, etsa lintho tse kenang ka mokhoa o tloaelehileng, 'me u hlahise liphetho tse nepahetseng. tshehetsa diqeto tse hlakileng.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Laeborari ea bohlokoa ea lingoloa tsa PowerShell bakeng sa litšupiso tsa nako e tlang. E na le thuso ka karolo ea $ profile script, ke fumana sena se thusa haholo bakeng sa ho iketsetsa mesebetsi ho tsoa ho terminal ea Windows, kaha ke motho ea sebelisang Windows OS khafetsa.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Laebrari e sebetsang ea lingoliloeng tsa Ruby bakeng sa litšupiso tsa nako e tlang. E na le thuso bakeng sa Ruby ea nakong e tlang mabapi le mehopolo ea ntlafatso ea Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Sehahi sa Litsebo tsa PDF",
@@ -365,10 +351,20 @@
         "text": "Mod ea Minecraft e eketsang lisebelisoa, lihlomo, li-mobs, li-block, lipalo-palo, le likarolo tse ling tse ngata tse khethehileng papaling. E hahiloe haholo-holo ka Java le Kotlin, e tšehetsang liphetolelo tsa Minecraft 1.16 ho isa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Papali ea noha",
         "text": "Enjene e hloekisitsoeng ea Noha e hahiloeng ka Rust le Macroquad, e kopantsoeng ho WebAssembly, 'me e hlahisoa ka HTML5 Canvas. E kopanya li-ticks tsa papali tsa 0.12-second tse netefalitsoeng le motsamao o bonolo oa interpolated, mekhahlelo e hlakileng ea papali, taolo e arabelang, ho sebetsana le likhohlano le maemo a tlholo, le seta se tsepamisitsoeng sa liteko se koahelang melao ea mantlha ea papali.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",

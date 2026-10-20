@@ -9,6 +9,7 @@
     "snake": "Dada ƒe fefe",
     "portfolio_translator": "Portfolio Gbegɔmeɖela",
     "formatter": "JSON & YAML ƒe kpokplɔ̃",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Te Ðe Ŋunye",
     "home_description": "sys.root // gbɔgblɔ vevienyenya",
     "about_description": "injunia ƒe numekugbalẽ // bio kple teknɔlɔgi",
@@ -320,15 +321,10 @@
         "text": "React ƒe agbalẽdzraɖoƒe si ƒe susu le nuwɔwɔ ŋu si bua alesi woate ŋu akpɔe kple xexeame katã ƒe asiɖoɖo anyi abe mɔ̃ɖaŋununya ƒe nudidiwo ene. Elɔ gbegɔmeɖeɖe ƒe mɔ̃ si woate ŋu alé be na na gbegbɔgblɔ 100+, dɔwɔnu siwo wɔa dɔ aduadu siwo WebAssembly da megbe na, UI ƒe nɔnɔme siwo wɔa dɔ eye woate ŋu akpɔ wo, kple dɔa ƒe xɔtuɖoɖo ɖe eme wowɔe be wòatsi ne wole dɔ yeyewo ɖom ɖe meli.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick ƒe Lua Nuŋɔŋlɔgbalẽdzraɖoƒe",
-        "text": "Lua ŋɔŋlɔdzesiwo ƒe agbalẽdzraɖoƒe si ŋu viɖe le be woazã le etsɔme. Wozãa agbalẽdzraɖoƒe sia tsɔ wɔa dɔwo le wo ɖokui si le Lua ŋɔŋlɔdzesiwo me, si ateŋu ava ɖe vi na dɔ siwo hiã dɔwɔwɔ, elabena zi geɖe la, Lua nyea ŋɔŋlɔdzesiwo ƒe gbegbɔgblɔ si zɔna kabakaba wu Python kple Ruby siaa.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick ƒe Microsoft Excel ƒe Agbalẽvi ƒe Nuŋɔŋlɔwo (VBA) .",
-        "text": "VBA ŋɔŋlɔdzesiwo ƒe agbalẽdzraɖoƒe si ŋu viɖe le na Microsoft Excel. Wozãa agbalẽdzraɖoƒe sia tsɔ wɔa dɔ siwo le Excel ƒe agbalẽviwo me le wo ɖokui si.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick ƒe Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick ƒe Anyigbatata Dɔwɔƒe",
         "text": "Python anyigba ƒe teƒe ŋuti nyatakaka dɔwɔnu si wotu kple GeoPandas kple Matplotlib be woawɔ U.S. nuto kple dukɔa ƒe anyigbatatawo. Etrɔa anyigba ƒe nɔnɔme ŋuti nyatakakawo wozua numekuku ƒe asinudɔwɔwɔ siwo woate ŋu axlẽ, si ɖea nyatakakawo ƒe pɔmpi ƒe susu fiana: tia domenyiŋusẽfianu ƒe agbalẽdzraɖoƒe siwo sɔ, na nusiwo wotsɔ de eme la nasɔ ɖe ɖoɖo nu, eye nàwɔ emetsonu siwo do alɔ nyametsotso siwo me kɔ.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick ƒe PowerShell Script Agbalẽdzraɖoƒe",
-        "text": "PowerShell ŋɔŋlɔdzesiwo ƒe agbalẽdzraɖoƒe si ŋu viɖe le hena etsɔme zazã. Viɖe le $profile script ƒe nɔnɔme ŋu, mekpɔe be esia kpena ɖe ame ŋu ŋutɔ le dɔwo wɔwɔ le wo ɖokui si tso Windows ƒe nuwuƒe, elabena menye Windows OS zãla enuenu.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick ƒe Ruby Script Agbalẽdzraɖoƒe",
-        "text": "Ruby ŋɔŋlɔdzesiwo ƒe agbalẽdzraɖoƒe si ŋu viɖe le be woazã le etsɔme. Viɖe le eŋu na etsɔme Ruby on Rails ƒe ŋgɔyiyi ƒe susuwo.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Aɖaŋudɔwo Tula",
@@ -365,10 +351,20 @@
         "text": "Minecraft mod si tsɔa customs dɔwɔnu, akpaƒu, mobs, blocks, momewo, kple bubuwo kpe ɖe fefea ŋu. Wotu ɖe Java kple Kotlin ŋu eye wòwɔa dɔ le Minecraft 1.16 va ɖo 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Dada ƒe fefe",
         "text": "Dada ƒe engine si ŋu wɔ dɔ le Rust kple Macroquad me, si wotso ɖe WebAssembly ƒe nɔnɔme eye wotu ɖe HTML5 Canvas ŋu.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger ƒe Ðoɖowɔɖi Gbegbɔgblɔ",

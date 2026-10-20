@@ -11,9 +11,10 @@ import { useProjectCounts } from "@/lang/interpolateCounts";
 import links from "@/assets/links/links.json";
 import skills from "@/assets/skills/skills.json";
 import projectsData from "@/assets/projects/projects";
+import { rankedProjectIds } from "@/assets/projects/rankings";
 import { useLocation, useNavigate } from "react-router-dom";
 import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
-import { readSkillSelection, writeSkillSelection, collectGroupSkills, matchesSkills } from "./portfolioFilters";
+import { readSkillSelection, writeSkillSelection, readDisplayOption, writeDisplayOption, collectGroupSkills, matchesSkills } from "./portfolioFilters";
 import "./PortfolioArchive.css";
 
 interface PortfolioEntry {
@@ -30,7 +31,7 @@ interface Skill {
 const allSkills = [...skills.languages, ...skills.frameworks, ...skills.other_technologies];
 const skillNames = Object.fromEntries(allSkills.map((skill) => [skill.id, skill.name]));
 const groupToSkillsMap = collectGroupSkills(projectsData.projects);
-const featuredOrder = ["takeoff_engine", "inventory_register", "grocery_app", "tiger_programming_language", "payrollobol", "formatter", "interop"];
+// The "Selected Work" order is the project ranking, defined in assets/projects/rankings.ts.
 
 const Portfolio = () => {
 	const { t } = useLang();
@@ -41,8 +42,11 @@ const Portfolio = () => {
 	const navigate = useNavigate();
 	const selectedSkills = readSkillSelection(location.search, location.hash);
 	const [projectQuery, setProjectQuery] = useState("");
-	const [view, setView] = useState("grid");
-	const [sort, setSort] = useState("featured");
+	// The URL is the source of truth for the display options, exactly as it already is
+	// for the skill filters: a shared link, a refresh, and the back button all land on
+	// the view and sort the sender was looking at, and defaults stay out of the URL.
+	const view = readDisplayOption(location.search, "view");
+	const sort = readDisplayOption(location.search, "sort");
 
 	// search terms for each dropdown
 	const [searchTerm, setSearchTerm] = useState({
@@ -55,17 +59,20 @@ const Portfolio = () => {
 		return `/assets/images/${filename}`;
 	};
 
-	const updateURL = (updated: string[]) => {
-		navigate({ pathname: location.pathname, search: writeSkillSelection(location.search, updated), hash: "" }, { replace: true, preventScrollReset: true });
+	const updateURL = (updated: { skills?: string[]; view?: string; sort?: string }) => {
+		let search = writeSkillSelection(location.search, updated.skills ?? selectedSkills);
+		search = writeDisplayOption(search, "view", updated.view ?? view);
+		search = writeDisplayOption(search, "sort", updated.sort ?? sort);
+		navigate({ pathname: location.pathname, search, hash: "" }, { replace: true, preventScrollReset: true });
 	};
 
 	const handleSkillSelect = (skillId: string) => {
-		updateURL(selectedSkills.includes(skillId)
+		updateURL({ skills: selectedSkills.includes(skillId)
 			? selectedSkills.filter((id) => id !== skillId)
-			: [...selectedSkills, skillId]);
+			: [...selectedSkills, skillId] });
 	};
 
-	const resetFilters = () => { setProjectQuery(""); updateURL([]); };
+	const resetFilters = () => { setProjectQuery(""); updateURL({ skills: [] }); };
 
 	const renderDropdown = (title: string, skillList: Skill[], keyName: keyof typeof searchTerm) => {
 		const term = searchTerm[keyName].toLowerCase();
@@ -123,8 +130,8 @@ const Portfolio = () => {
 		})
 		.sort(([firstKey, first], [secondKey, second]) => {
 			if (sort === "featured") {
-				const firstRank = featuredOrder.includes(firstKey) ? featuredOrder.indexOf(firstKey) : featuredOrder.length;
-				const secondRank = featuredOrder.includes(secondKey) ? featuredOrder.indexOf(secondKey) : featuredOrder.length;
+				const firstRank = rankedProjectIds.indexOf(firstKey);
+				const secondRank = rankedProjectIds.indexOf(secondKey);
 				if (firstRank !== secondRank) return firstRank - secondRank;
 			}
 			return first.title.localeCompare(second.title);
@@ -172,10 +179,10 @@ const Portfolio = () => {
 					<div className="portfolio-results-line">
 						<span aria-live="polite" aria-atomic="true"><strong>{visibleEntries.length}</strong> / {Object.keys(entries).length} {t("home.atlas.projects")}</span>
 						<div className="portfolio-view-tools">
-							<select aria-label="Sort projects" value={sort} onChange={(event) => setSort(event.target.value)}><option value="featured">{t("home.featured.title")}</option><option value="alphabetical">A - Z</option></select>
+							<select aria-label="Sort projects" value={sort} onChange={(event) => updateURL({ sort: event.target.value })}><option value="featured">{t("home.featured.title")}</option><option value="alphabetical">A - Z</option></select>
 							<div className="portfolio-view-switch" role="group" aria-label="Project view">
-								<button type="button" aria-label="Grid view" title="Grid view" aria-pressed={view === "grid"} onClick={() => setView("grid")}><FiGrid /></button>
-								<button type="button" aria-label="List view" title="List view" aria-pressed={view === "list"} onClick={() => setView("list")}><FiList /></button>
+								<button type="button" aria-label="Grid view" title="Grid view" aria-pressed={view === "grid"} onClick={() => updateURL({ view: "grid" })}><FiGrid /></button>
+								<button type="button" aria-label="List view" title="List view" aria-pressed={view === "list"} onClick={() => updateURL({ view: "list" })}><FiList /></button>
 							</div>
 						</div>
 					</div>

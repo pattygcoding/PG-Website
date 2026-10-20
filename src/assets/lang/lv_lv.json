@@ -9,6 +9,7 @@
     "snake": "Čūskas spēle",
     "portfolio_translator": "Portfeļa tulkotājs",
     "formatter": "JSON un YAML linteris",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Sazinieties ar mani",
     "home_description": "sys.root // galvenais pārskats",
     "about_description": "inženiera profils // bio un tehnoloģiju stek",
@@ -320,15 +321,10 @@
         "text": "Uz ražošanu vērsts React portfelis, kurā pieejamība un globālā sasniedzamība tiek uzskatīta par inženiertehniskām prasībām. Tas ietver uzturējamu tulkošanas cauruļvadu vairāk nekā 100 valodām, interaktīvus rīkus, ko nodrošina WebAssembly, atsaucīgus un pieejamus lietotāja interfeisa modeļus un projekta arhitektūru. paredzēts augšanai, kad tiek nosūtīts jauns darbs.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrika Lua skriptu bibliotēka",
-        "text": "Noderīga Lua skriptu bibliotēka turpmākai uzziņai. Šī bibliotēka tiek izmantota, lai automatizētu uzdevumus Lua skriptos, kas var būt noderīgi uzdevumiem, kuriem nepieciešama veiktspēja, jo Lua parasti ir ātrāka skriptu valoda nekā Python un Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrika Microsoft Excel izklājlapu skripti (VBA)",
-        "text": "Noderīga VBA skriptu bibliotēka programmai Microsoft Excel. Šī bibliotēka tiek izmantota, lai automatizētu uzdevumus Excel izklājlapās.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrika Neovim konfigurācija",
@@ -339,16 +335,6 @@
         "title": "Patrika karšu ģenerators",
         "text": "Python ģeotelpiskās atskaites rīks, kas izveidots ar GeoPandas un Matplotlib, lai ģenerētu ASV apgabalu un štatu kartes. Tas pārvērš ģeogrāfiskos datus par lasāmiem analīzes artefaktiem, demonstrējot datu plūsmas domāšanas veidu: atlasiet pareizās domēna bibliotēkas, normalizējiet ievades un izveidojiet izvades, kas atbalstīt skaidrus lēmumus.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrika PowerShell skriptu bibliotēka",
-        "text": "Noderīga PowerShell skriptu bibliotēka turpmākai uzziņai. Noderīgs ar $profile skripta funkciju, jo es uzskatu, ka tas ir ļoti noderīgs uzdevumu automatizēšanai no Windows termināļa, jo esmu biežs Windows OS lietotājs.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrika Rubīna skriptu bibliotēka",
-        "text": "Noderīga Ruby skriptu bibliotēka turpmākai uzziņai. Noderīgs nākotnes Ruby on Rails attīstības koncepcijām.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF prasmju veidotājs",
@@ -365,10 +351,20 @@
         "text": "Minecraft mods, kas spēlei pievieno pielāgotus rīkus, bruņas, mobus, blokus, dimensijas un daudzas citas funkcijas. Būvēts galvenokārt ar Java un Kotlin, atbalstot Minecraft versijas no 1.16 līdz 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Čūskas spēle",
         "text": "Pulēts Čūskas dzinējs, kas būvēts ar Rust un Macroquad, kompilēts uz WebAssembly un atveidots caur HTML5 Canvas. Tas apvieno deterministiskus 0,12 sekunžu spēles taktus ar gludu interpolētu kustību, skaidrām spēles fāzēm, atsaucīgu vadību, sadursmju un uzvaras stāvokļu apstrādi un fokusētu testu komplektu, kas aptver spēles pamatnoteikumus.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tīģera programmēšanas valoda",

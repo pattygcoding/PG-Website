@@ -9,6 +9,7 @@
     "snake": "Igra kača",
     "portfolio_translator": "Prevajalec portfelja",
     "formatter": "Linter za JSON in YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Kontaktiraj me",
     "home_description": "sys.root // glavni pregled",
     "about_description": "profil inženirja // bio in tehnologije",
@@ -320,15 +321,10 @@
         "text": "Proizvodno usmerjen portfelj React, ki obravnava dostopnost in globalni doseg kot inženirske zahteve. Vključuje cevovod za prevajanje za več kot 100 jezikov, interaktivna orodja, ki jih podpira WebAssembly, odzivne in dostopne vzorce uporabniškega vmesnika ter projektno arhitekturo zasnovan tako, da raste, ko je poslano novo delo.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Uporabna knjižnica skriptov Lua za prihodnjo uporabo. Ta knjižnica se uporablja za avtomatizacijo opravil v skriptih Lua, kar lahko pride prav pri opravilih, ki zahtevajo večjo zmogljivost, saj je Lua običajno hitrejši skriptni jezik kot Python in Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Uporabna knjižnica skriptov VBA za Microsoft Excel. Ta knjižnica se uporablja za avtomatizacijo opravil v Excelovih preglednicah.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "Orodje za geoprostorsko poročanje Python, izdelano z GeoPandas in Matplotlib za ustvarjanje zemljevidov okrožij in držav ZDA. Geografske podatke spremeni v berljive artefakte analize, ki prikazujejo miselnost podatkovnega cevovoda: izberite prave domenske knjižnice, normalizirajte vnose in ustvarite rezultate, ki podpirati jasne odločitve.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrickova knjižnica skriptov PowerShell",
-        "text": "Uporabna knjižnica skriptov PowerShell za prihodnjo uporabo. Koristno s funkcijo skripta $profile, se mi zdi izjemno koristno za avtomatizacijo opravil s terminala Windows, saj pogosto uporabljam operacijski sistem Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Uporabna knjižnica skriptov Ruby za prihodnjo uporabo. Uporabno za prihodnje razvojne koncepte Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft, ki igri doda lastna orodja, oklepe, sovražnike, bloke, dimenzije in številne druge funkcije. Zgrajen predvsem z Java in Kotlin, s podporo za različice Minecraft 1.16 do 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Igra kača",
         "text": "Izpiljen pogon igre Kača, zgrajen z Rust in Macroquad, preveden v WebAssembly in upodobljen prek HTML5 Canvas. Združuje deterministične igralne podtike po 0,12 sekunde z gladkim interpoliranim gibanjem, eksplicitnimi igralnimi fazami, odzivnim upravljanjem, obravnavo trkov in stanj zmage ter osredotočen nabor testov, ki pokriva osnovna pravila igre.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Programski jezik Tiger",

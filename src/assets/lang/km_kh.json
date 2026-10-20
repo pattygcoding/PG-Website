@@ -9,6 +9,7 @@
     "snake": "ល្បែងពស់",
     "portfolio_translator": "អ្នកបកប្រែផលប័ត្រ",
     "formatter": "អ្នកត្រួតពិនិត្យ JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "ទាក់ទងខ្ញុំ",
     "home_description": "sys.root // ទិដ្ឋភាពទូទៅ",
     "about_description": "ទម្រង់វិស្វករ // ជីវប្រវត្តិ និងបច្ចេកវិទ្យា",
@@ -320,15 +321,10 @@
         "text": "ផលប័ត្រ React ផ្តោតលើការផលិត ដែលចាត់ទុកភាពងាយស្រួល និងការឈានដល់ជាសកលជាតម្រូវការផ្នែកវិស្វកម្ម។ វារួមបញ្ចូលនូវបំពង់បកប្រែដែលអាចរក្សាបានសម្រាប់ 100+ ភាសា ឧបករណ៍អន្តរកម្មដែលគាំទ្រដោយ WebAssembly លំនាំ UI ដែលឆ្លើយតប និងអាចចូលប្រើបាន និងស្ថាបត្យកម្មគម្រោង រចនាឡើងដើម្បីរីកចម្រើននៅពេលដែលការងារថ្មីត្រូវបានដឹកជញ្ជូន។",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "បណ្ណាល័យដែលមានប្រយោជន៍នៃស្គ្រីប Lua សម្រាប់ជាឯកសារយោងនាពេលអនាគត។ បណ្ណាល័យនេះត្រូវបានប្រើដើម្បីធ្វើស្វ័យប្រវត្តិកម្មភារកិច្ចនៅក្នុងស្គ្រីប Lua ដែលអាចមានប្រយោជន៍សម្រាប់កិច្ចការដែលត្រូវការការអនុវត្ត ព្រោះជាទូទៅ Lua គឺជាភាសាស្គ្រីបលឿនជាងទាំង Python និង Ruby ។",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "បណ្ណាល័យដែលមានប្រយោជន៍នៃស្គ្រីប VBA សម្រាប់ Microsoft Excel ។ បណ្ណាល័យនេះត្រូវបានប្រើដើម្បីធ្វើស្វ័យប្រវត្តិកម្មភារកិច្ចនៅក្នុងសៀវភៅបញ្ជី Excel ។",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "ការកំណត់រចនាសម្ព័ន្ធ Neovim របស់ Patrick",
@@ -339,16 +335,6 @@
         "title": "ម៉ាស៊ីនបង្កើតផែនទីរបស់ Patrick",
         "text": "ឧបករណ៍រាយការណ៍ភូមិសាស្ត្រ Python ដែលបង្កើតឡើងដោយ GeoPandas និង Matplotlib ដើម្បីបង្កើតផែនទីស្រុក និងរដ្ឋរបស់សហរដ្ឋអាមេរិក។ វាប្រែទិន្នន័យភូមិសាស្រ្តទៅជាវត្ថុបុរាណវិភាគដែលអាចអានបាន បង្ហាញពីផ្នត់គំនិតបំពង់បង្ហូរទិន្នន័យ៖ ជ្រើសរើសបណ្ណាល័យដែនត្រឹមត្រូវ ធ្វើឱ្យធាតុចូលមានលក្ខណៈធម្មតា និងបង្កើតលទ្ធផលដែល គាំទ្រការសម្រេចចិត្តច្បាស់លាស់។",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "បណ្ណាល័យស្គ្រីប PowerShell របស់ Patrick",
-        "text": "បណ្ណាល័យដ៏មានប្រយោជន៍នៃស្គ្រីប PowerShell សម្រាប់ជាឯកសារយោងនាពេលអនាគត។ មានប្រយោជន៍ជាមួយនឹងមុខងារស្គ្រីប $profile ខ្ញុំយល់ថាវាមានប្រយោជន៍ច្រើនសម្រាប់ការធ្វើកិច្ចការដោយស្វ័យប្រវត្តិពីស្ថានីយ Windows ព្រោះខ្ញុំជាអ្នកប្រើប្រាស់ញឹកញាប់នៃ Windows OS ។",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "បណ្ណាល័យដ៏មានប្រយោជន៍នៃស្គ្រីប Ruby សម្រាប់ជាឯកសារយោងនាពេលអនាគត។ មានប្រយោជន៍សម្រាប់គំនិតអភិវឌ្ឍន៍ Ruby on Rails នាពេលអនាគត។",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "កម្មវិធីបង្កើតជំនាញ PDF",
@@ -365,10 +351,20 @@
         "text": "ម៉ូដ Minecraft ដែលបន្ថែមឧបករណ៍ផ្ទាល់ខ្លួន គ្រឿងសឹក mobs ប្លុក វិមាត្រ និងលក្ខណៈពិសេសជាច្រើនទៀតទៅក្នុងហ្គេម។ បង្កើតជាចម្បងជាមួយ Java និង Kotlin ដោយគាំទ្រកំណែ Minecraft 1.16 ដល់ 26.2។",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "ល្បែងពស់",
         "text": "ម៉ាស៊ីនពស់ដែលប៉ូលាល្អ បង្កើតជាមួយ Rust និង Macroquad ចងក្រងទៅ WebAssembly និងបង្ហាញតាមរយៈ HTML5 Canvas។ វាភ្ជាប់ការស៊ីសង្វាក់លេងហ្គេម 0.12 វិនាទីជាមួយចលនាលីនេអ៊ែររលូន ដំណាក់កាលហ្គេមច្បាស់លាស់ ការគ្រប់គ្រងឆ្លើយតប ការគ្រប់គ្រងការបុក និងស្ថានភាពឈ្នះ និងឈុតសាកល្បងផ្តោតដែលគ្របដណ្តប់ច្បាប់ស្នូលនៃហ្គេម។",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ភាសាសរសេរកម្មវិធី Tiger",

@@ -9,6 +9,7 @@
     "snake": "스네이크 게임",
     "portfolio_translator": "포트폴리오 번역기",
     "formatter": "JSON 및 YAML 린터",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "저에게 연락하세요",
     "home_description": "sys.root // 메인 개요",
     "about_description": "엔지니어 프로필 // 소개 및 스택",
@@ -320,15 +321,10 @@
         "text": "접근성과 글로벌 도달 범위를 엔지니어링 요구 사항으로 처리하는 프로덕션 지향 React 포트폴리오입니다. 여기에는 100개 이상의 언어에 대한 유지 관리 가능한 번역 파이프라인, WebAssembly가 지원하는 대화형 도구, 반응적이고 액세스 가능한 UI 패턴 및 프로젝트 아키텍처가 포함되어 있습니다. 새로운 작업이 출시됨에 따라 성장하도록 설계되었습니다.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick의 Lua 스크립트 라이브러리",
-        "text": "나중에 참조할 수 있는 유용한 Lua 스크립트 라이브러리입니다. 이 라이브러리는 Lua 스크립트에서 작업을 자동화하는 데 사용됩니다. Lua는 일반적으로 Python과 Ruby보다 빠른 스크립팅 언어이므로 성능이 필요한 작업에 유용할 수 있습니다.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick의 Microsoft Excel 스프레드시트 스크립트(VBA)",
-        "text": "Microsoft Excel용 VBA 스크립트의 유용한 라이브러리입니다. 이 라이브러리는 Excel 스프레드시트의 작업을 자동화하는 데 사용됩니다.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick의 Neovim 구성",
@@ -339,16 +335,6 @@
         "title": "패트릭의 지도 생성기",
         "text": "미국 카운티 및 주 지도를 생성하기 위해 GeoPandas 및 Matplotlib로 구축된 Python 지리공간 보고 도구입니다. 지리적 데이터를 읽을 수 있는 분석 아티팩트로 변환하여 데이터 파이프라인 사고방식을 보여줍니다. 올바른 도메인 라이브러리를 선택하고, 입력을 정규화하고, 다음과 같은 결과를 생성합니다. 명확한 결정을 지원합니다.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick의 PowerShell 스크립트 라이브러리",
-        "text": "나중에 참조할 수 있는 유용한 PowerShell 스크립트 라이브러리입니다. $profile 스크립트 기능과 함께 유용하며 저는 Windows OS를 자주 사용하기 때문에 Windows 터미널에서 작업을 자동화하는 데 매우 유용합니다.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick의 Ruby 스크립트 라이브러리",
-        "text": "나중에 참조할 수 있는 유용한 Ruby 스크립트 라이브러리입니다. 향후 Ruby on Rails 개발 개념에 유용합니다.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF 기술 빌더",
@@ -365,10 +351,20 @@
         "text": "게임에 커스텀 도구, 갑옷, 몹, 블록, 차원과 그 밖의 많은 기능을 추가하는 Minecraft 모드. 주로 Java와 Kotlin으로 구축되었으며 Minecraft 1.16~26.2 버전을 지원합니다.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "스네이크 게임",
         "text": "Rust와 Macroquad로 구축하고 WebAssembly로 컴파일하며 HTML5 Canvas로 렌더링하는 정교한 스네이크 엔진. 결정적 0.12초 게임 틱과 부드러운 보간 이동, 명시적 게임 단계, 반응형 조작, 충돌 및 승리 상태 처리, 핵심 게임 규칙을 다루는 집중된 테스트 스위트를 결합합니다.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "타이거 프로그래밍 언어",

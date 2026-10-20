@@ -9,6 +9,7 @@
     "snake": "Jocul șarpelui",
     "portfolio_translator": "Traducător de portofoliu",
     "formatter": "Linter JSON și YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Contactați-mă",
     "home_description": "sys.root // prezentare generală",
     "about_description": "profil inginer // bio și stivă tehnologică",
@@ -320,15 +321,10 @@
         "text": "Un portofoliu React orientat spre producție, care tratează accesibilitatea și acoperirea globală ca cerințe de inginerie. Include o conductă de traducere care poate fi întreținută pentru peste 100 de limbi, instrumente interactive susținute de WebAssembly, modele de UI receptive și accesibile și o arhitectură de proiect concepute pentru a crește pe măsură ce sunt livrate lucrări noi.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Biblioteca de scripturi Lua a lui Patrick",
-        "text": "O bibliotecă utilă de script-uri Lua pentru referințe viitoare. Această bibliotecă este folosită pentru automatizarea sarcinilor în scripturile Lua, ceea ce poate fi util pentru sarcinile care necesită performanță, deoarece Lua este de obicei un limbaj de scriptare mai rapid decât atât Python, cât și Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Scripturile pentru foi de calcul Microsoft Excel ale lui Patrick (VBA)",
-        "text": "O bibliotecă utilă de scripturi VBA pentru Microsoft Excel. Această bibliotecă este folosită pentru automatizarea sarcinilor din foile de calcul Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Configurația lui Patrick Neovim",
@@ -339,16 +335,6 @@
         "title": "Generatorul de hărți al lui Patrick",
         "text": "Un instrument de raportare geospațială Python construit cu GeoPandas și Matplotlib pentru a genera hărți ale județelor și ale statelor din SUA. Transformă datele geografice în artefacte de analiză care pot fi citite, demonstrând o mentalitate în pipeline de date: selectați bibliotecile de domeniu potrivite, normalizați intrările și produceți rezultate care susține decizii clare.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Biblioteca de scripturi PowerShell a lui Patrick",
-        "text": "O bibliotecă utilă de scripturi PowerShell pentru referințe viitoare. Util cu funcția de script $profile, consider că aceasta este extrem de utilă pentru automatizarea sarcinilor din terminalul Windows, deoarece sunt un utilizator frecvent al sistemului de operare Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Biblioteca de scripturi Ruby a lui Patrick",
-        "text": "O bibliotecă utilă de scripturi Ruby pentru referințe viitoare. Util pentru viitoarele concepte de dezvoltare Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Un mod Minecraft care adaugă unelte, armuri, mobs, blocuri, dimensiuni și multe alte funcții personalizate jocului. Construit în principal cu Java și Kotlin, cu suport pentru versiunile Minecraft 1.16 până la 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Jocul șarpelui",
         "text": "Un motor de Șarpe lustruit construit cu Rust și Macroquad, compilat în WebAssembly și redat prin Canvas HTML5. Combină tick-uri de joc deterministe de 0,12 secunde cu mișcare interpolată lină, faze de joc explicite, control receptiv, gestionarea coliziunilor și a stărilor de victorie și o suită de teste concentrată care acoperă regulile de bază ale jocului.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Limbajul de programare Tiger",

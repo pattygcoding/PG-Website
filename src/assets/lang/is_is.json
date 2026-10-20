@@ -9,6 +9,7 @@
     "snake": "Snákaleikur",
     "portfolio_translator": "Portfolio þýðandi",
     "formatter": "JSON- og YAML-villuprófari",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Hafðu samband við mig",
     "home_description": "sys.root // aðalyfirlit",
     "about_description": "verkfræðisnið // líf og tæknistafla",
@@ -320,15 +321,10 @@
         "text": "Framleiðslumiðað React safn sem lítur á aðgengi og alþjóðlegt umfang sem verkfræðilegar kröfur. Það felur í sér viðhaldshæfa þýðingarleiðslu fyrir 100+ tungumál, gagnvirk verkfæri studd af WebAssembly, móttækileg og aðgengileg notendaviðmótsmynstur og verkefnisarkitektúr hannað til að vaxa þegar nýtt verk er sent.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Gagnlegt safn af Lua forskriftum til framtíðarviðmiðunar. Þetta bókasafn er notað til að gera sjálfvirk verkefni í Lua forskriftum, sem getur komið sér vel fyrir afkastaþarf verkefni, þar sem Lua er venjulega hraðara forskriftarmál en bæði Python og Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel töflureikniforskriftir (VBA)",
-        "text": "Gagnlegt safn af VBA forskriftum fyrir Microsoft Excel. Þetta bókasafn er notað til að gera sjálfvirk verkefni í Excel töflureiknum.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "Python landsvæðisskýrslutól byggt með GeoPandas og Matplotlib til að búa til bandarísk fylkis- og ríkiskort. Það breytir landfræðilegum gögnum í læsilega greiningargripi, sýnir gagnaleiðsluhugsun: veldu réttu lénssöfnin, staðlaðu inntak og framleiðir úttak sem styðja skýrar ákvarðanir.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Gagnlegt safn af PowerShell forskriftum til framtíðarviðmiðunar. Gagnlegt með $profile script eiginleikanum, mér finnst þetta afar gagnlegt til að gera sjálfvirk verkefni frá Windows flugstöðinni, þar sem ég er tíður notandi Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Gagnlegt safn af Ruby forskriftum til framtíðarviðmiðunar. Gagnlegt fyrir Ruby on Rails þróunarhugtök framtíðarinnar.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Pdf færni Builder",
@@ -365,10 +351,20 @@
         "text": "Minecraft mod sem bætir sérsniðnum verkfærum, herklæðum, mobs, blokkum, víddum og mörgum fleiri eiginleikum við leikinn. Byggt aðallega með Java og Kotlin, með stuðningi fyrir Minecraft-útgáfur 1.16 til 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Snákaleikur",
         "text": "Fágað Snákaker í Rust og Macroquad, þýtt yfir í WebAssembly og birt í gegnum HTML5 Canvas. Það sameinar ákveðna 0,12 sekúndna leiktikk með sléttri innfletjaðri hreyfingu, skýrum leikstigum, móttækilegri stjórn, meðhöndlun árekstra og sigurstöðu og einbeittu prófsetti sem nær yfir grunnreglur leiksins.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger forritunarmál",

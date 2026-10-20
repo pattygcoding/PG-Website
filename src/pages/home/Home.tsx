@@ -7,8 +7,8 @@ import { useLang } from "@/lang/languageContext";
 import { useProjectCounts } from "@/lang/interpolateCounts";
 import type { CssVariables } from "@/types/css";
 import { LangAwareLink } from "@/components/lang-aware-link";
-import links from "@/assets/links/links.json";
 import EngineeringAtlas, { AtlasInvitation } from "./engineering-atlas/EngineeringAtlas";
+import { showcaseProjects } from "./showcase";
 import "./Home.css";
 import "./HomeShowcase.css";
 
@@ -16,52 +16,14 @@ const Home = () => {
 	const { t } = useLang();
 	const interpolate = useProjectCounts();
 	const portfolioEntries = t("portfolio.entries");
-	const featuredProjects = [
-		{
-			key: "takeoff_engine",
-			image: links.portfolio.takeoff_engine,
-			badges: [t("home.featured.badges.saas"), t("home.featured.badges.full_website")],
-			featured: true,
-		},
-		{
-			key: "tiger_programming_language",
-			image: links.portfolio.tiger_programming_language,
-			to: "/tiger",
-			badges: [t("home.featured.badges.available_here")],
-		},
-		{
-			key: "suprememc",
-			image: links.portfolio.suprememc,
-			badges: [t("home.featured.badges.minecraft_mod")],
-		},
-		{
-			key: "alkalab",
-			image: links.portfolio.alkalab,
-			badges: [t("home.featured.badges.available_here")],
-		},
-		{
-			key: "snake",
-			image: links.portfolio.snake,
-			badges: [t("home.featured.badges.available_here")],
-		},
-		{
-			key: "portfolio_website",
-			image: links.portfolio.portfolio_website,
-			badges: [t("home.featured.badges.full_website")],
-		},
-		{
-			key: "portfolio_translator",
-			image: "biblioteca.png",
-			to: "/languages",
-			badges: [t("home.featured.badges.available_here")],
-			data: {
-				title: t("languages.title"),
-				text: t("languages.description"),
-			},
-		},
-	].map((project) => ({
+	// Selected Work is the top of the project ranking (assets/projects/rankings.json),
+	// so the home page and the portfolio's "Selected Work" order can never disagree.
+	const featuredProjects = showcaseProjects.map((project) => ({
 		...project,
-		data: project.data || portfolioEntries[project.key],
+		data: project.dataKey === "languages"
+			? { title: t("languages.title"), text: t("languages.description") }
+			: portfolioEntries[project.key],
+		badges: project.badges.map((badge) => t(`home.featured.badges.${badge}`)),
 	}));
 
 	const renderProjectLink = (project: { to?: string; data: { link: string } }, content: React.ReactNode) => project.to ? (

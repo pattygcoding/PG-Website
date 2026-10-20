@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">Grocery App</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#5ed987" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#5ed987" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#102818" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#246038" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<path d="M 462 292 C 462 236 512 200 566 200 C 566 256 512 292 462 292 Z" fill="#5ed987"/>
+		<path d="M 276 452 C 276 292 748 292 748 452" fill="none" stroke="#8decad" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+		<rect x="240" y="432" width="544" height="72" rx="36" fill="#8decad"/>
+		<polygon points="288,504 736,504 700,832 324,832" fill="#3bba65" stroke="#3bba65" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+		<rect x="392" y="576" width="64" height="180" rx="32" fill="#102818"/>
+		<rect x="480" y="576" width="64" height="180" rx="32" fill="#102818"/>
+		<rect x="568" y="576" width="64" height="180" rx="32" fill="#102818"/>
+</svg>

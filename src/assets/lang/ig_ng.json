@@ -9,6 +9,7 @@
     "snake": "Egwuregwu agwọ",
     "portfolio_translator": "Ntụgharị Pọtụfoliyo",
     "formatter": "Onye nlele JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Kpọtụrụ m",
     "home_description": "sys.root // nchịkọta isi",
     "about_description": "profaịl injinịa // bio na teknụzụ",
@@ -320,15 +321,10 @@
         "text": "Pọtụfoliyo React nwere echiche mmepụta nke na-emeso nnweta na iru ụwa dị ka ihe injinia chọrọ. Ọ gụnyere pipeline ntụgharị asụsụ enwere ike idowe maka asụsụ 100+, ngwa mmekọrịta nke WebAssembly na-akwado, ụkpụrụ UI na-anabata yana ịnweta ya, yana ihe nrụpụta ọrụ. emebere ka ọ too ka a na-ebufe ọrụ ọhụrụ.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Ọbá akwụkwọ bara uru nke scripts Lua maka ntụnye aka n'ọdịnihu. A na-eji ọba akwụkwọ a na-arụ ọrụ na script Lua, nke nwere ike ịba uru maka ọrụ dị mkpa, ebe Lua na-abụkarị asụsụ scripting ngwa ngwa karịa Python na Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Ọbá akwụkwọ bara uru nke scripts VBA maka Microsoft Excel. A na-eji ọba akwụkwọ a na-arụ ọrụ na mpempe akwụkwọ Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "Ngwá ọrụ mkpesa geospatial Python nke ejiri GeoPandas na Matplotlib rụọ iji mepụta mpaghara US na maapụ steeti. Ọ na-atụgharị data mpaghara ka ọ bụrụ ihe nyocha enwere ike ịgụ, na-egosipụta echiche pipeline data: họrọ ọba akwụkwọ ngalaba ziri ezi, hazie ndenye, wee wepụta nsonaazụ ndị ahụ. na-akwado mkpebi doro anya.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Ọbá akwụkwọ bara uru nke edemede PowerShell maka ntụnye aka n'ọdịnihu. Ọ bara uru na njirimara script profaịlụ $, achọpụtara m na nke a na-enye aka nke ukwuu maka ịmegharị ọrụ site na Windows Terminal, ebe m na-eji Windows OS na-emekarị.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Ọbá akwụkwọ bara uru nke scripts Ruby maka ntụnye aka n'ọdịnihu. Ọ bara uru maka echiche mmepe Ruby on Rails n'ọdịnihu.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Onye nrụpụta nka PDF",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft nke na-agbakwụnye ngwaọrụ, ihe agha, mobs, blocks, akụkụ, na ọtụtụ atụmatụ ndị ọzọ ahaziri iche na egwuregwu ahụ. Ewuru ya nke ọma na Java na Kotlin, na-akwado ụdị Minecraft 1.16 ruo 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Egwuregwu agwọ",
         "text": "Injin Agwọ mara mma ewuru na Rust na Macroquad, kwado na WebAssembly, ma gosipụta site na HTML5 Canvas. Ọ na-ejikọta tik egwuregwu 0.12-sekọnd na-agbanwe agbanwe na mmegharị interpolation dị mma, usoro egwuregwu doro anya, njikwa na-azaghachi, njikwa nkukota na ọnọdụ mmeri, na usoro nnwale lekwasịrị anya nke na-ekpuchi iwu isi egwuregwu ahụ.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Asụsụ Mmemme Agụ",

@@ -9,6 +9,7 @@
     "snake": "Mutambo wenyoka",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "Muongorori weJSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Ndibate",
     "home_description": "sys.root // mucherechedzo mukuru",
     "about_description": "profile yeinjiniya // bio uye tekinoroji",
@@ -320,15 +321,10 @@
         "text": "Iyo yekugadzira-yepfungwa React portfolio inobata kuwanikwa uye kusvika kwepasirese sezvinodiwa zveinjiniya. Zvinosanganisira pombi inochengeteka yekushandura yemitauro 100+, maturusi ekudyidzana anotsigirwa neWebAssembly, maUI anoteerera uye anosvikirika, uye mavakirwo epurojekiti. yakagadzirirwa kukura sezvo basa idzva rinotumirwa.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Iraibhurari inobatsira yezvinyorwa zveLua zvekushandisa mune ramangwana. Raibhurari iyi inoshandiswa kuita otomatiki mabasa mumagwaro eLua, ayo anogona kuuya anobatsira pakuita-mabasa anodiwa, sezvo Lua inowanzoita mutauro unokurumidza kunyora kupfuura zvese Python naRuby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Raibhurari inobatsira yeVBA zvinyorwa zveMicrosoft Excel. Raibhurari iyi inoshandiswa kuita otomatiki mabasa muExcel spreadsheets.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Mepu jenareta",
         "text": "A Python geospatial reporting tool yakavakwa neGeoPandas uye Matplotlib kugadzira US County nemamepu enyika. Inoshandura geographic data kuita inoverengeka yekuongorora zvigadzirwa, ichiratidza pombi yedata yepfungwa: sarudza iyo chaiyo domain raibhurari, gadzirisa zvinopinda, uye gadzira zvinobuda izvo. tsigira sarudzo dzakajeka.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Raibhurari inobatsira yePowerShell zvinyorwa zvenguva yemberi. Inobatsira neiyo $profile script ficha, ndinoona izvi zvichibatsira zvakanyanya pakuita otomatiki mabasa kubva kuWindows terminal, sezvo ini ndichigara mushandisi weWindows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Iraibhurari inobatsira yeRuby zvinyorwa zvenguva yemberi. Inobatsira kune ramangwana Ruby pane Rails yekuvandudza pfungwa.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Mod yeMinecraft inowedzera zvishandiso zvakasarudzika, nhumbi dzehondo, mobs, block, hukuru, uye zvimwe zvakawanda zvinhu kumutambo. Yakavakwa zvakanyanya neJava neKotlin, ichitsigira vhezheni dzeMinecraft 1.16 kusvika 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Mutambo wenyoka",
         "text": "Injini yakatsetseka yeNyoka yakavakwa neRust neMacroquad, yakanyorwa kuWebAssembly, uye inogadzirwa kuburikidza neHTML5 Canvas. Inosanganisa tick dzemutambo dze0.12-second deterministic nekufamba kwakanaka kwakabatanidzwa, nhanho dzemutambo dzakajeka, kutonga kunopindura, kubata kurovera uye mamiriro ekukunda, uye seti yekuyedza yakanangana inovhara mitemo yepakati pemutambo.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Mutauro",

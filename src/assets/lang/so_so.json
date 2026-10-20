@@ -9,6 +9,7 @@
     "snake": "Ciyaarta abeska",
     "portfolio_translator": "Turjumaan Portfolio",
     "formatter": "Hubiyaha JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "ila soo xidhiidh",
     "home_description": "sys.root // dulmar guud",
     "about_description": "profile injineer // bio iyo teknoolojiyad",
@@ -320,15 +321,10 @@
         "text": "Wax soo saar-maskaxeed faylalka falcelinta kaaso ula dhaqma gelitaanka iyo gaadhista caalamiga ah sida shuruudaha injineernimada. Waxaa ka mid ah dhuumaha tarjumaadda la joogteyn karo ee 100+ luqadood, qalab is dhexgal ah oo uu taageeray WebAssembly, ka jawaab celin iyo qaababka UI oo la heli karo, iyo qaab dhismeed mashruuc loogu talagalay in ay koraan marka shaqo cusub la soo raro.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Maktabad faa'iido leh oo ah qoraallada Lua ee tixraaca mustaqbalka. Maktabaddan waxa loo isticmaalaa in lagu habeeyo hawlaha ku jira qoraallada Lua, kuwaas oo ku anfacaya hawlaha hawl-qabadka u baahan, maadaama Lua inta badan tahay luqad qoraal ah oo ka dhaqso badan Python iyo Ruby labadaba.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Maktabad faa'iido leh oo ah qoraallada VBA ee Microsoft Excel. Maktabaddan waxa loo istcmaalay in si otomaatig ah loogu sameeyo hawlaha ku jira xaashiyaha Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Dhaliyaha Khariidadda Patrick",
         "text": "Qalabka warbixinta geospatial Python oo lagu dhisay GeoPandas iyo Matplotlib si loo soo saaro khariidado gobolka iyo gobolka Mareykanka. Waxa ay xogta juqraafiga u rogtaa farshaxanno la akhriyi karo, oo tusinaya maskaxda dhuumaha xogta: dooro maktabadaha goobta saxda ah, caadi ka dhig agabka, oo soo saara wax soo saar taageer go'aamo cad cad.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Script",
-        "text": "Maktabad waxtar leh oo ah qoraallada PowerShell ee tixraaca mustaqbalka. Faa'iido u leh astaanta qoraalka profile $, waxaan u arkaa mid aad waxtar u leh si otomaatig ah hawlaha Windows terminalka, maadaama aan ahay isticmaale joogto ah Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Maktabad faa'iido leh oo ah qoraallada Ruby si loo tixraaco mustaqbalka. Faa'iido u leh mustaqbalka Ruby on Rails fikradaha horumarinta.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Dhisaha Xirfadaha PDF",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft oo ku dara ciyaarta qalab gaar ah, hub, mobs, blocks, cabbirro, iyo waxyaabo kale oo badan. Waxaa lagu dhisay inta badan Java iyo Kotlin, isagoo taageeraya noocyada Minecraft 1.16 ilaa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Ciyaarta abeska",
         "text": "Mashiin Abes ah oo la qurxiyey oo laga dhisay Rust iyo Macroquad, oo lagu isku-duubay WebAssembly, oo lagu muujiyay HTML5 Canvas. Waxay isku daraysaa dheecaan ciyaareed 0.12-ilbiriqsi ah oo la hubo dhaqdhaqaaq jilicsan oo la dhexgeliyey, marxalado ciyaareed cad, kontorool jawaab leh, maaraynta isku dhaca iyo xaaladaha guusha, iyo tijaabo kooban oo daboolaysa xeerarka asaasiga ah ee ciyaarta.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",

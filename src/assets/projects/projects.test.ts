@@ -103,24 +103,30 @@ test("turing machine samples keep the names their entries give them", () => {
 });
 
 /**
- * The script libraries have a showcase as well, one page per library language,
- * so each library sample opens its page there (see the Scripting-Library
- * `docs/links.md` link index). Python's library carries no project card, so its
- * projects.json entry is the only place its address appears.
+ * The script library has a showcase as well, one page per language, so each sample
+ * opens its page there while the project card itself opens the library (see the
+ * Scripting-Library `docs/links.md` link index). Python's page carries no card of
+ * its own, so its sample is the only place that address appears.
  */
 const SCRIPTS = "https://scripts.pattygcoding.com/";
-const scriptLibraries: Record<string, string> = {
-	excel_scripts: `${SCRIPTS}vba`,
-	lua_library: `${SCRIPTS}lua`,
-	powershell_library: `${SCRIPTS}powershell`,
-	python_library: `${SCRIPTS}python`,
-	ruby_library: `${SCRIPTS}ruby`,
+const scriptLibrary: Record<string, string> = {
+	vba: `${SCRIPTS}vba`,
+	lua: `${SCRIPTS}lua`,
+	powershell: `${SCRIPTS}powershell`,
+	python: `${SCRIPTS}python`,
+	ruby: `${SCRIPTS}ruby`,
 };
 
-test("script library samples open the showcase instead of GitHub", () => {
-	for (const [group, link] of Object.entries(scriptLibraries)) {
-		expect(projects.filter((sample) => sample.group === group).map((sample) => sample.link)).toEqual([link]);
-	}
+test("the script library keeps one page per language inside a single project", () => {
+	const samples = projects.filter(({ group }) => group === "scripting_library");
+	expect(samples.map(({ link }) => link).sort()).toEqual(Object.values(scriptLibrary).sort());
+	expect(samples.map(({ label }) => label)).toEqual([
+		"Script Library (VBA)",
+		"Script Library (Lua)",
+		"Script Library (PowerShell)",
+		"Script Library (Python)",
+		"Script Library (Ruby)",
+	]);
 	expect(projects.filter(({ link }) => /(Lua|Powershell|Python|Ruby|Spreadsheet)-Scripts/.test(link))).toEqual([]);
 });
 
@@ -130,11 +136,9 @@ interface LocaleMessages {
 			interop: { link: string };
 			rijndael_encryption: { link: string };
 			turing_machine: { link: string };
-			// The script libraries that carry a project card of their own.
-			excel_scripts: { link: string };
-			lua_library: { link: string };
-			powershell_library: { link: string };
-			ruby_library: { link: string };
+			rubix_cube_solver: { link: string };
+			// The script library: one card over five language pages.
+			scripting_library: { link: string };
 		};
 	};
 }
@@ -154,11 +158,19 @@ test("every locale sends the showcase cards to their own site", () => {
 
 // The script library cards follow the same rule. Python's library has no card of
 // its own, so the four languages that do are the ones whose copy is checked.
-test("every locale sends the script library cards to their own site", () => {
-	const carded = ["excel_scripts", "lua_library", "powershell_library", "ruby_library"] as const;
+const RUBIK = "https://arcade.pattygcoding.com/rubik";
+
+// The Rubik's Cube Solver is an arcade build now, so its card has to point at the
+// arcade page in every locale, the way the showcase cards point at their own sites.
+test("every locale sends the Rubik's Cube Solver card to the arcade build", () => {
 	for (const [file, messages] of Object.entries(locales)) {
-		for (const group of carded) {
-			expect(`${file}: ${messages.portfolio.entries[group].link}`).toBe(`${file}: ${scriptLibraries[group]}`);
-		}
+		expect(`${file}: ${messages.portfolio.entries.rubix_cube_solver.link}`).toBe(`${file}: ${RUBIK}`);
+	}
+});
+
+
+test("every locale sends the script library card to the library site", () => {
+	for (const [file, messages] of Object.entries(locales)) {
+		expect(`${file}: ${messages.portfolio.entries.scripting_library.link}`).toBe(`${file}: ${SCRIPTS}`);
 	}
 });

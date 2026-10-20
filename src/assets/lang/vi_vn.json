@@ -9,6 +9,7 @@
     "snake": "Trò chơi con rắn",
     "portfolio_translator": "Trình dịch danh mục đầu tư",
     "formatter": "Bộ kiểm tra JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Liên hệ với tôi",
     "home_description": "sys.root // tổng quan chính",
     "about_description": "hồ sơ kỹ sư // tiểu sử và ngăn xếp",
@@ -320,15 +321,10 @@
         "text": "Danh mục React thiên về sản xuất coi khả năng tiếp cận và phạm vi tiếp cận toàn cầu là các yêu cầu kỹ thuật. Nó bao gồm một quy trình dịch thuật có thể duy trì cho hơn 100 ngôn ngữ, các công cụ tương tác được hỗ trợ bởi WebAssugging, các mẫu giao diện người dùng đáp ứng và dễ truy cập cũng như kiến ​​trúc dự án được thiết kế để phát triển khi công việc mới được chuyển giao.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Thư viện tập lệnh Lua của Patrick",
-        "text": "Một thư viện tập lệnh Lua hữu ích để tham khảo sau này. Thư viện này được sử dụng để tự động hóa các tác vụ trong tập lệnh Lua, có thể hữu ích cho các tác vụ cần hiệu suất cao, vì Lua thường là ngôn ngữ tập lệnh nhanh hơn cả Python và Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Tập lệnh bảng tính Microsoft Excel (VBA) của Patrick",
-        "text": "Một thư viện hữu ích gồm các tập lệnh VBA cho Microsoft Excel. Thư viện này được sử dụng để tự động hóa các tác vụ trong bảng tính Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Cấu hình Neovim của Patrick",
@@ -339,16 +335,6 @@
         "title": "Trình tạo bản đồ của Patrick",
         "text": "Một công cụ báo cáo không gian địa lý bằng Python được xây dựng bằng GeoPandas và Matplotlib để tạo bản đồ quận và tiểu bang của Hoa Kỳ. Nó biến dữ liệu địa lý thành các tạo phẩm phân tích có thể đọc được, thể hiện tư duy đường dẫn dữ liệu: chọn đúng thư viện miền, chuẩn hóa đầu vào và tạo ra đầu ra phù hợp hỗ trợ các quyết định rõ ràng.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Thư viện tập lệnh PowerShell của Patrick",
-        "text": "Một thư viện tập lệnh PowerShell hữu ích để tham khảo trong tương lai. Hữu ích với tính năng tập lệnh $profile, tôi thấy điều này vô cùng hữu ích trong việc tự động hóa các tác vụ từ thiết bị đầu cuối Windows, vì tôi là người dùng thường xuyên của HĐH Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Thư viện tập lệnh Ruby của Patrick",
-        "text": "Một thư viện hữu ích gồm các tập lệnh Ruby để tham khảo trong tương lai. Hữu ích cho các khái niệm phát triển Ruby on Rails trong tương lai.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Trình tạo kỹ năng PDF",
@@ -365,10 +351,20 @@
         "text": "Một mod Minecraft thêm công cụ, giáp, mob, khối, chiều không gian và nhiều tính năng tùy chỉnh khác vào trò chơi. Được xây dựng chủ yếu bằng Java và Kotlin, hỗ trợ các phiên bản Minecraft 1.16 đến 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Trò chơi con rắn",
         "text": "Động cơ Rắn trau chuốt được xây dựng bằng Rust và Macroquad, biên dịch sang WebAssembly và kết xuất qua Canvas HTML5. Nó kết hợp nhịp game xác định 0,12 giây với chuyển động nội suy mượt mà, các giai đoạn game rõ ràng, điều khiển phản hồi, xử lý va chạm và trạng thái thắng, cùng bộ kiểm thử tập trung bao phủ các quy tắc cốt lõi của trò chơi.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Ngôn ngữ lập trình Tiger",

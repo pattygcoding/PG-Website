@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">Interop Project</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#6ea6dd" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#6ea6dd" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#101c28" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#244260" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<rect x="196" y="312" width="280" height="400" rx="48" fill="#1e2b38" stroke="#4585c4" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+		<rect x="548" y="312" width="280" height="400" rx="48" fill="none" stroke="#4585c4" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+		<line x1="280" y1="512" x2="744" y2="512" fill="none" stroke="#9fc7ef" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+		<polygon points="280,512 352,468 352,556" fill="#9fc7ef"/>
+		<polygon points="744,512 672,468 672,556" fill="#9fc7ef"/>
+</svg>

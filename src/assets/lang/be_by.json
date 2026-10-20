@@ -9,6 +9,7 @@
     "snake": "Гульня змея",
     "portfolio_translator": "Перакладчык партфоліо",
     "formatter": "Лінтар JSON і YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Звяжыцеся са мной",
     "home_description": "sys.root // галоўны агляд",
     "about_description": "профіль інжынера // бія і стэк",
@@ -320,15 +321,10 @@
         "text": "Прадукцыйны партфель React, які разглядае даступнасць і глабальны ахоп як інжынерныя патрабаванні. Ён уключае ў сябе канвеер перакладу для 100+ моў, інтэрактыўныя інструменты, якія падтрымліваюцца WebAssembly, спагадныя і даступныя шаблоны карыстальніцкага інтэрфейсу і архітэктуру праекта прызначаны для росту па меры адпраўкі новай працы.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Бібліятэка сцэнарыяў Lua Патрыка",
-        "text": "Карысная бібліятэка скрыптоў Lua для выкарыстання ў будучыні. Гэтая бібліятэка выкарыстоўваецца для аўтаматызацыі задач у скрыптах Lua, што можа спатрэбіцца для задач, якія патрабуюць высокай прадукцыйнасці, бо Lua звычайна з'яўляецца больш хуткай мовай сцэнарыяў, чым Python і Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Скрыпты электронных табліц Microsoft Excel Патрыка (VBA)",
-        "text": "Карысная бібліятэка скрыптоў VBA для Microsoft Excel. Гэтая бібліятэка выкарыстоўваецца для аўтаматызацыі задач у табліцах Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Канфігурацыя Patrick's Neovim",
@@ -339,16 +335,6 @@
         "title": "Генератар карты Патрыка",
         "text": "Інструмент геапрасторавых справаздач Python, створаны з GeoPandas і Matplotlib для стварэння карт акруг і штатаў ЗША. Ён ператварае геаграфічныя даныя ў зручныя для чытання артэфакты аналізу, дэманструючы настрой канвеера даных: выбірайце правільныя бібліятэкі дамена, нармалізуйце ўваходы і стварайце вынікі, якія падтрымліваць дакладныя рашэнні.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Бібліятэка сцэнарыяў PowerShell Патрыка",
-        "text": "Карысная бібліятэка сцэнарыяў PowerShell для выкарыстання ў будучыні. Карысна з функцыяй скрыпта $profile, я лічу гэта вельмі карысным для аўтаматызацыі задач з тэрмінала Windows, так як я часта карыстаюся АС Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Бібліятэка сцэнарыяў Patrick's Ruby",
-        "text": "Карысная бібліятэка скрыптоў Ruby для выкарыстання ў будучыні. Карысна для будучых канцэпцый развіцця Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Мод Minecraft, які дадае ў гульню ўласныя інструменты, даспехі, мобаў, блокі, вымярэнні і мноства іншых функцый. Пабудаваны ў асноўным на Java і Kotlin, з падтрымкай версій Minecraft ад 1.16 да 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Гульня змея",
         "text": "Паліраваны рухавік гульні Змей, пабудаваны на Rust і Macroquad, скампіляваны ў WebAssembly і адлюстроўваны праз HTML5 Canvas. Ён спалучае дэтэрмінаваныя гульнявыя тыкі па 0,12 секунды з плаўным інтэрпаляваным рухам, яўнымі гульнявымі фазамі, чулым кіраваннем, апрацоўкай сутыкненняў і станаў перамогі, а таксама сфакусаваным наборам тэстаў, які ахоплівае асноўныя правілы гульні.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Мова праграмавання Tiger",

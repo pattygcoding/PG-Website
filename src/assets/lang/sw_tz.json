@@ -9,6 +9,7 @@
     "snake": "Mchezo wa nyoka",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "Kikagua JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Wasiliana Nami",
     "home_description": "sys.root // muhtasari mkuu",
     "about_description": "wasifu wa mhandisi // bio na teknolojia",
@@ -320,15 +321,10 @@
         "text": "Kwingineko ya React inayozingatia uzalishaji ambayo inashughulikia ufikivu na ufikiaji wa kimataifa kama mahitaji ya kihandisi. Inajumuisha utafsiri unaoweza kudumishwa kwa lugha 100+, zana wasilianifu zinazoungwa mkono na WebAssembly, mifumo sikivu na inayofikika ya UI, na usanifu wa mradi. iliyoundwa kukua kama kazi mpya inasafirishwa.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Maktaba muhimu ya maandishi ya Lua kwa marejeleo ya siku zijazo. Maktaba hii inatumika kufanya kazi kiotomatiki katika hati za Lua, ambazo zinaweza kusaidia kwa kazi zinazohitaji utendakazi, kwani kwa kawaida Kilua ni lugha ya uandishi haraka kuliko Python na Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Hati za Lahajedwali za Microsoft Excel za Patrick (VBA)",
-        "text": "Maktaba muhimu ya hati za VBA kwa Microsoft Excel. Maktaba hii inatumika kufanya kazi kiotomatiki katika lahajedwali za Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Jenereta ya Ramani ya Patrick",
         "text": "Zana ya kuripoti ya kijiografia ya Python iliyojengwa kwa GeoPandas na Matplotlib ili kutengeneza ramani za kaunti na jimbo la U.S. Hubadilisha data ya kijiografia kuwa vizalia vya uchanganuzi vinavyosomeka, ikionyesha mtazamo wa bomba la data: chagua maktaba sahihi za kikoa, kurekebisha pembejeo, na kutoa matokeo ambayo kuunga mkono maamuzi ya wazi.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Maktaba muhimu ya hati za PowerShell kwa marejeleo ya siku zijazo. Inatumika na kipengele cha hati ya wasifu, naona hii inasaidia sana kwa kazi za kiotomatiki kutoka kwa terminal ya Windows, kwani mimi ni mtumiaji wa mara kwa mara wa Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Maktaba ya Hati ya Ruby ya Patrick",
-        "text": "Maktaba muhimu ya maandishi ya Ruby kwa marejeleo ya siku zijazo. Inatumika kwa dhana za ukuzaji za Ruby kwenye reli za siku zijazo.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Mjenzi wa Ujuzi wa PDF",
@@ -365,10 +351,20 @@
         "text": "Mod ya Minecraft inayoongeza zana maalum, silaha, mobs, bloki, vipimo, na vipengele vingine vingi kwenye mchezo. Imejengwa hasa kwa Java na Kotlin, inayosaidia matoleo ya Minecraft 1.16 hadi 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Mchezo wa nyoka",
         "text": "Injini ya Nyoka iliyong'aa iliyojengwa kwa Rust na Macroquad, kukusanywa kwa WebAssembly, na kutoa kupitia HTML5 Canvas. Huunganisha tiki za mchezo za 0.12-sekunde zilizobainika na mwendo laini wa kuingiliana, awamu wazi za mchezo, udhibiti unaoitikia, ushughulikiaji wa migongano na hali za ushindi, na seti ya majaribio iliyolenga inayojumuisha sheria za msingi za mchezo.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Lugha ya Kupanga Tiger",

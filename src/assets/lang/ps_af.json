@@ -9,6 +9,7 @@
     "snake": "د مار لوبه",
     "portfolio_translator": "د پورټ فولیو ژباړونکی",
     "formatter": "د JSON او YAML سمونکونکی",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "ما سره اړیکه ونیسئ",
     "home_description": "sys.root // اصلي کتنه",
     "about_description": "د انجینر پروفایل // بایو او ټیکنالوژي",
@@ -320,15 +321,10 @@
         "text": "د تولید ذهن لرونکي عکس العمل پورټ فولیو چې د لاسرسي او نړیوال لاسرسي سره د انجینرۍ اړتیاو په توګه چلند کوي. په دې کې د 100+ ژبو لپاره د ساتلو وړ ژباړې پایپ لاین، د WebAssembly لخوا ملاتړ شوي متقابل اوزار، ځواب ورکوونکي او د لاسرسي وړ UI نمونې، او د پروژې جوړښت شامل دي د ودې لپاره ډیزاین شوی لکه څنګه چې نوي کار لیږل کیږي.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "د پیټریک لوا سکریپټ کتابتون",
-        "text": "د راتلونکي حوالې لپاره د لوا سکریپټونو ګټور کتابتون. دا کتابتون په Lua سکریپټونو کې د کارونو اتومات کولو لپاره کارول کیږي، کوم چې د فعالیت اړتیاو لپاره کار کیدی شي، ځکه چې لوا معمولا د Python او Ruby دواړو په پرتله ګړندۍ سکریپټینګ ژبه ده.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "د پیټریک د مایکروسافټ ایکسل سپریډ شیټ سکریپټونه (VBA)",
-        "text": "د مایکروسافټ ایکسل لپاره د VBA سکریپټونو ګټور کتابتون. دا کتابتون په Excel سپریڈ شیټونو کې د کارونو اتومات کولو لپاره کارول کیږي.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "د پیټریک نیویم کنفیګ",
@@ -339,16 +335,6 @@
         "title": "د پیټریک نقشه جنراتور",
         "text": "د Python geospatial راپور ورکولو وسیله د GeoPandas او Matplotlib سره جوړه شوې ترڅو د متحده ایالاتو کاونټي او ایالتي نقشې رامینځته کړي. دا د جغرافیه ډیټا د لوستلو وړ تحلیلي آثارو ته اړوي، د ډیټا پایپ لاین ذهنیت څرګندوي: سم ډومین کتابتونونه غوره کړئ، آخذې نورمال کړئ، او محصول تولید کړئ چې د روښانه پریکړو ملاتړ.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "د پیټریک پاور شیل سکریپټ کتابتون",
-        "text": "د راتلونکي حوالې لپاره د PowerShell سکریپټونو ګټور کتابتون. د $ پروفایل سکریپټ فیچر سره ګټور ، زه دا د وینډوز ټرمینل څخه د اتوماتیک کارونو لپاره خورا ګټور وموم ، ځکه چې زه د وینډوز OS مکرر کارونکی یم.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "د پیټریک روبي سکریپټ کتابتون",
-        "text": "د راتلونکي حوالې لپاره د روبي سکریپټونو ګټور کتابتون. د راتلونکي روبي آن ریل پرمختیایی مفکورو لپاره ګټور.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "د PDF مهارتونو جوړونکی",
@@ -365,10 +351,20 @@
         "text": "د Minecraft موډ چې لوبې ته ځانګړي وسایل، زغره، موبس، بلاکونه، طول او ډېر نور ځانګړتیاوې زیاتوي. په اصل کې د Java او Kotlin سره جوړ شوی، د Minecraft 1.16 څخه تر 26.2 پورې نسخې ملاتړ کوي.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "د مار لوبه",
         "text": "د Rust او Macroquad سره جوړ شوی، WebAssembly ته کمپایل شوی او د HTML5 Canvas له لارې ښودل شوی ښه مار انجن. دا د 0.12-ثانیه ټاکلي لوبې ټیکونه د نرم انټرپولېټ شوي حرکت، څرګند لوبې مرحلو، حساس کنټرول، ټکر او بریا حالت اداره او د لوبې اصلي قاعدو پوښونکی متمرکز ازموینې سویټ سره یوځای کوي.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "د ټایګر پروګرامینګ ژبه",

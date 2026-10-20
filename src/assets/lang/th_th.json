@@ -9,6 +9,7 @@
     "snake": "เกมงู",
     "portfolio_translator": "นักแปลผลงาน",
     "formatter": "ลินเตอร์ JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "ติดต่อฉัน",
     "home_description": "sys.root // ภาพรวมหลัก",
     "about_description": "โปรไฟล์วิศวกร // ประวัติและเทคโนโลยี",
@@ -320,15 +321,10 @@
         "text": "พอร์ตโฟลิโอ React ที่คำนึงถึงการผลิตซึ่งถือว่าการเข้าถึงและการเข้าถึงทั่วโลกเป็นข้อกำหนดทางวิศวกรรม ประกอบด้วยไปป์ไลน์การแปลที่บำรุงรักษาได้สำหรับกว่า 100 ภาษา เครื่องมือโต้ตอบที่ได้รับการสนับสนุนจาก WebAssembly รูปแบบ UI ที่ตอบสนองและเข้าถึงได้ และสถาปัตยกรรมโครงการ ออกแบบให้เติบโตเมื่อมีการจัดส่งงานใหม่",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "ห้องสมุด Lua Script ของ Patrick",
-        "text": "ไลบรารีสคริปต์ Lua ที่มีประโยชน์สำหรับการอ้างอิงในอนาคต ไลบรารีนี้ใช้เพื่อทำงานอัตโนมัติในสคริปต์ Lua ซึ่งมีประโยชน์สำหรับงานที่ต้องการประสิทธิภาพ เนื่องจากโดยปกติแล้ว Lua เป็นภาษาสคริปต์ที่เร็วกว่าทั้ง Python และ Ruby",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "สคริปต์สเปรดชีต Microsoft Excel (VBA) ของ Patrick",
-        "text": "ไลบรารีสคริปต์ VBA ที่มีประโยชน์สำหรับ Microsoft Excel ไลบรารีนี้ใช้เพื่อทำงานอัตโนมัติในสเปรดชีต Excel",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "การกำหนดค่า Neovim ของ Patrick",
@@ -339,16 +335,6 @@
         "title": "เครื่องสร้างแผนที่ของแพทริค",
         "text": "เครื่องมือรายงานเชิงพื้นที่ของ Python ที่สร้างด้วย GeoPandas และ Matplotlib เพื่อสร้างแผนที่เคาน์ตีและรัฐของสหรัฐอเมริกา โดยจะเปลี่ยนข้อมูลทางภูมิศาสตร์ให้เป็นสิ่งประดิษฐ์การวิเคราะห์ที่อ่านได้ แสดงให้เห็นถึงกรอบความคิดไปป์ไลน์ข้อมูล: เลือกไลบรารีโดเมนที่เหมาะสม ปรับอินพุตให้เป็นมาตรฐาน และสร้างเอาต์พุตที่ สนับสนุนการตัดสินใจที่ชัดเจน",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "ไลบรารีสคริปต์ PowerShell ของ Patrick",
-        "text": "ไลบรารีสคริปต์ PowerShell ที่มีประโยชน์สำหรับการอ้างอิงในอนาคต มีประโยชน์กับฟีเจอร์สคริปต์ $profile ฉันพบว่าสิ่งนี้มีประโยชน์อย่างมากในการทำงานอัตโนมัติจากเทอร์มินัล Windows เนื่องจากฉันเป็นผู้ใช้ Windows OS เป็นประจำ",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "ไลบรารีสคริปต์ Ruby ของ Patrick",
-        "text": "ไลบรารีสคริปต์ Ruby ที่มีประโยชน์สำหรับการอ้างอิงในอนาคต มีประโยชน์สำหรับแนวคิดการพัฒนา Ruby on Rails ในอนาคต",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "เครื่องมือสร้างทักษะ PDF",
@@ -365,10 +351,20 @@
         "text": "ม็อด Minecraft ที่เพิ่มเครื่องมือ ชุดเกราะ ม็อบ บล็อก มิติ และคุณสมบัติพิเศษอื่น ๆ อีกมากมายให้กับเกม สร้างหลักด้วย Java และ Kotlin รองรับเวอร์ชัน Minecraft 1.16 ถึง 26.2",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "เกมงู",
         "text": "เอนจินงูที่ขัดเกลาสร้างด้วย Rust และ Macroquad คอมไพล์เป็น WebAssembly และเรนเดอร์ผ่าน Canvas HTML5 ผสานทิกเกมแบบกำหนดตายตัว 0.12 วินาทีกับการเคลื่อนที่แบบสอดแทรกที่นุ่มนวล ขั้นตอนเกมชัดเจน การควบคุมตอบสนอง การจัดการการชนและสถานะชนะ และชุดทดสอบที่เน้นครอบคลุมกฎหลักของเกม",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ภาษาโปรแกรมไทเกอร์",

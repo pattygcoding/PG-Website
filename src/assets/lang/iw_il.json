@@ -9,6 +9,7 @@
     "snake": "משחק הנחש",
     "portfolio_translator": "מתרגם תיקים",
     "formatter": "בודק JSON ו-YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "צור איתי קשר",
     "home_description": "sys.root // סקירה כללית",
     "about_description": "פרופיל מהנדס // ביוגרפיה וטכנולוגיות",
@@ -320,15 +321,10 @@
         "text": "תיק React בעל חשיבה ייצור שמתייחס לנגישות וטווח הגעה גלובלי כדרישות הנדסיות. הוא כולל צינור תרגום שניתן לתחזוקה עבור 100+ שפות, כלים אינטראקטיביים המגובים על ידי WebAssembly, דפוסי ממשק משתמש מגיבים ונגישים וארכיטקטורת פרויקט שנועד לגדול ככל שעבודות חדשות נשלחות.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "ספריית התסריטים של פטריק לואה",
-        "text": "ספרייה שימושית של סקריפטים של Lua לעיון עתידי. ספרייה זו משמשת לאוטומציה של משימות בסקריפטים של Lua, מה שיכול להועיל למשימות הדורשות ביצועים, שכן Lua היא בדרך כלל שפת סקריפטים מהירה יותר מ-Python וגם Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "סקריפטים של גיליון אלקטרוני של Microsoft Excel (VBA) של פטריק",
-        "text": "ספרייה שימושית של סקריפטים VBA עבור Microsoft Excel. ספרייה זו משמשת לאוטומטיות של משימות בגיליונות אלקטרוניים של Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "תצורת Neovim של פטריק",
@@ -339,16 +335,6 @@
         "title": "מחולל המפות של פטריק",
         "text": "כלי דיווח גיאו-מרחבי של Python שנבנה עם GeoPandas ו-Matplotlib כדי ליצור מפות של מחוזות ומדינות ארה\"ב. זה הופך נתונים גיאוגרפיים לחפצי ניתוח קריאים, ומדגים הלך רוח של צינור נתונים: בחר את ספריות התחום הנכונות, נרמל את הקלט והפק פלטים לתמוך בהחלטות ברורות.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "ספריית התסריטים PowerShell של פטריק",
-        "text": "ספרייה שימושית של סקריפטים של PowerShell לעיון עתידי. שימושי עם תכונת הסקריפט $profile, אני מוצא את זה מאוד מועיל עבור אוטומציה של משימות ממסוף Windows, מכיוון שאני משתמש תדיר במערכת ההפעלה Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "ספריית כתבי רובי של פטריק",
-        "text": "ספרייה שימושית של סקריפטים של רובי לעיון עתידי. שימושי לתפיסות התפתחותיות עתידיות של Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "מוד Minecraft שמוסיף למשחק כלים, שריון, מפלצות, בלוקים, ממדים ותכונות מותאמות רבות נוספות. נבנה בעיקר עם Java ו-Kotlin, ותומך בגרסאות Minecraft 1.16 עד 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "משחק הנחש",
         "text": "מנוע נחש מלוטש שנבנה עם Rust ו-Macroquad, הודר ל-WebAssembly ומוצג דרך HTML5 Canvas. הוא משלב פעימות משחק דטרמיניסטיות של 0.12 שניות עם תנועת אינטרפולציה חלקה, שלבי משחק ברורים, שליטה מגיבה, טיפול בהתנגשויות ומצבי ניצחון, וסט בדיקות ממוקד המכסה את כללי המשחק המרכזיים.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "שפת תכנות טייגר",

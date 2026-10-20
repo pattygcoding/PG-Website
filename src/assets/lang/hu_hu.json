@@ -9,6 +9,7 @@
     "snake": "Kígyójáték",
     "portfolio_translator": "Portfólió fordító",
     "formatter": "JSON- és YAML-linter",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Lépjen kapcsolatba velem",
     "home_description": "sys.root // fő áttekintés",
     "about_description": "mérnökprofil // bio és stack",
@@ -320,15 +321,10 @@
         "text": "Gyártásorientált React-portfólió, amely a hozzáférhetőséget és a globális elérést mérnöki követelményként kezeli. Tartalmaz egy karbantartható fordítási folyamatot több mint 100 nyelvhez, a WebAssembly által támogatott interaktív eszközöket, reszponzív és hozzáférhető felhasználói felületi mintákat, valamint egy projektarchitektúrát. úgy tervezték, hogy az új munkák kiszállításával növekedjen.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick Lua Script Library",
-        "text": "Hasznos Lua-szkriptek könyvtára későbbi használatra. Ezt a könyvtárat a Lua szkriptekben lévő feladatok automatizálására használják, ami jól jöhet a teljesítményt igénylő feladatoknál, mivel a Lua általában gyorsabb szkriptnyelv, mint a Python és a Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Hasznos VBA-szkriptek könyvtára a Microsoft Excel számára. Ez a könyvtár az Excel-táblázatokban végzett feladatok automatizálására szolgál.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick térképgenerátora",
         "text": "Egy Python térinformatikai jelentéskészítő eszköz, amely a GeoPandas és a Matplotlib segítségével készült az Egyesült Államok megye- és államtérképeinek előállításához. A földrajzi adatokat olvasható elemzési műtermékekké alakítja, demonstrálva az adatfolyam gondolkodásmódját: válassza ki a megfelelő tartományi könyvtárakat, normalizálja a bemeneteket, és olyan kimeneteket állít elő, amelyek támogatja az egyértelmű döntéseket.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick PowerShell Script Library",
-        "text": "Hasznos PowerShell-szkriptek könyvtára későbbi használatra. Hasznos a $profile script funkcióval, és rendkívül hasznosnak találom a feladatok Windows terminálról történő automatizálásában, mivel gyakori felhasználója vagyok a Windows operációs rendszernek.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Hasznos Ruby-szkriptek könyvtára későbbi használatra. Hasznos a Ruby on Rails jövőbeli fejlesztési koncepcióihoz.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Egy Minecraft-mod, amely egyedi eszközöket, páncélokat, mobokat, blokkokat, dimenziókat és még számos funkciót ad a játékhoz. Főleg Java és Kotlin nyelvvel készült, a Minecraft 1.16–26.2 verzióit támogatva.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Kígyójáték",
         "text": "Egy csiszolt Kígyómotor Rust és Macroquad segítségével, WebAssembly-re fordítva és HTML5 Canvas-on renderelve. Determinisztikus 0,12 másodperces játékütemeket kombinál sima interpolált mozgással, explicit játékfázisokkal, érzékeny vezérléssel, ütközés- és győzelmi állapotkezeléssel, valamint a játék alapszabályait lefedő fókuszált tesztkészlettel.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigris programozási nyelv",

@@ -9,6 +9,7 @@
     "snake": "Gra węża",
     "portfolio_translator": "Tłumacz portfolio",
     "formatter": "Linter JSON i YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Skontaktuj się ze mną",
     "home_description": "sys.root // główny przegląd",
     "about_description": "profil inżyniera // biografia i stos technologiczny",
@@ -320,15 +321,10 @@
         "text": "Portfolio React zorientowane na produkcję, które traktuje dostępność i globalny zasięg jako wymagania inżynieryjne. Zawiera łatwy w utrzymaniu potok tłumaczeń dla ponad 100 języków, interaktywne narzędzia wspierane przez WebAssembly, responsywne i dostępne wzorce interfejsu użytkownika oraz architekturę projektu zaprojektowany, aby rosnąć w miarę wysyłania nowych prac.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Biblioteka skryptów Lua Patricka",
-        "text": "Przydatna biblioteka skryptów Lua do wykorzystania w przyszłości. Ta biblioteka służy do automatyzacji zadań w skryptach Lua, co może się przydać w przypadku zadań wymagających dużej wydajności, ponieważ Lua jest zwykle szybszym językiem skryptowym niż zarówno Python, jak i Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Skrypty arkusza kalkulacyjnego Microsoft Excel (VBA) Patricka",
-        "text": "Przydatna biblioteka skryptów VBA dla Microsoft Excel. Biblioteka ta służy do automatyzacji zadań w arkuszach kalkulacyjnych Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Konfiguracja Neovima Patricka",
@@ -339,16 +335,6 @@
         "title": "Generator map Patricka",
         "text": "Narzędzie do raportowania geoprzestrzennego w języku Python zbudowane przy użyciu GeoPandas i Matplotlib do generowania map hrabstw i stanów USA. Zamienia dane geograficzne w czytelne artefakty analizy, demonstrując sposób myślenia oparty na potoku danych: wybierz odpowiednie biblioteki domen, normalizuj dane wejściowe i generuj wyniki, które wspierać jasne decyzje.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Biblioteka skryptów PowerShell Patricka",
-        "text": "Przydatna biblioteka skryptów PowerShell do wykorzystania w przyszłości. Przydatne w przypadku funkcji skryptu $profile. Uważam, że jest to niezwykle pomocne przy automatyzacji zadań z terminala Windows, ponieważ często korzystam z systemu operacyjnego Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Biblioteka skryptów Ruby Patricka",
-        "text": "Przydatna biblioteka skryptów Ruby do wykorzystania w przyszłości. Przydatne w przyszłych koncepcjach rozwojowych Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Kreator umiejętności PDF",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft, który dodaje do gry niestandardowe narzędzia, zbroje, moby, bloki, wymiary i wiele innych funkcji. Zbudowany głównie w Java i Kotlin, obsługuje wersje Minecraft od 1.16 do 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Gra węża",
         "text": "Dopracowany silnik gry Wąż zbudowany w Rust i Macroquad, skompilowany do WebAssembly i renderowany przez Canvas HTML5. Łączy deterministyczne ticki gry co 0,12 sekundy z płynnym interpolowanym ruchem, jawnymi fazami gry, responsywnym sterowaniem, obsługą kolizji i stanów zwycięstwa oraz skoncentrowanym zestawem testów obejmującym podstawowe reguły gry.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Język programowania Tiger",

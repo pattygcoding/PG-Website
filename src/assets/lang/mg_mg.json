@@ -9,6 +9,7 @@
     "snake": "Lalao bibilava",
     "portfolio_translator": "Mpandika Portfolio",
     "formatter": "Mpanamarina JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Contact Me",
     "home_description": "sys.root // topimaso lehibe",
     "about_description": "profilin'ny injeniera // bio sy teknolojia",
@@ -320,15 +321,10 @@
         "text": "Portfolio React miompana amin'ny famokarana izay mandray ny fahafaha-miditra sy ny fahatongavana eran'izao tontolo izao ho fitakiana injeniera. Anisan'izany ny fantsona fandikan-teny azo karakaraina ho an'ny fiteny 100+, fitaovana ifanakalozan-kevitra tohanan'ny WebAssembly, lamina UI mandray andraikitra sy azo idirana, ary rafitry ny tetikasa. natao hitombo rehefa misy asa vaovao alefa.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Tranomboky mahasoa amin'ny sora-baventy Lua ho fanondroana amin'ny ho avy. Ity trano famakiam-boky ity dia ampiasaina amin'ny fanaovana automatique ny asa amin'ny sora-baventy Lua, izay mety ho azo ampiasaina amin'ny asa mila fampandehanana, satria matetika ny Lua dia fiteny fanoratana haingana kokoa noho ny Python sy Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Tranomboky mahasoa amin'ny script VBA ho an'ny Microsoft Excel. Ity famakiam-boky ity dia ampiasaina amin'ny fanaovana automatique ny asa ao amin'ny takelaka Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "Fitaovan'ny tatitra geospatial Python namboarina miaraka amin'ny GeoPandas sy Matplotlib hamokarana sarintanin'i Etazonia sy fanjakana. Izy io dia mamadika ny angona ara-jeografika ho artifact famakafakana azo vakiana, maneho ny fomba fisainan'ny fantsona data: safidio ny tranomboky amin'ny sehatra mety, manara-dalàna ny fampidirana, ary mamokatra vokatra izay manohana fanapahan-kevitra mazava.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Tranomboky mahasoa amin'ny script PowerShell ho fanondroana amin'ny ho avy. Mahasoa amin'ny endri-tsoratra $profile script, hitako fa tena manampy tokoa izany amin'ny fampandehanana asa avy amin'ny terminal Windows, satria mpampiasa matetika ny Windows OS aho.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Tranomboky mahasoa amin'ny script Ruby ho fanondroana ho avy. Mahasoa ho an'ny hevitra fampandrosoana Ruby on Rails ho avy.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft izay manampy fitaovana manokana, fiadiana, mobs, block, refy, ary endri-javatra maro hafa amin'ny lalao. Vita amin'ny ankamaroan'ny Java sy Kotlin, manohana ny dikan-teny Minecraft 1.16 ka hatramin'ny 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Lalao bibilava",
         "text": "Mpanamboatra Bibilava voadio vita amin'ny Rust sy Macroquad, voaforona ho WebAssembly, ary aseho amin'ny alalan'ny HTML5 Canvas. Mampifandray ticks lalao 0.12 segondra tsy miova izy io amin'ny fihetsika mitsingevana malefaka, dingana lalao mazava, fanaraha-maso mamaly, fanodinana fifandonana sy toe-javatra fandresena, ary andiana fitsapana mifantoka izay mandrakotra ny lalàna fototra amin'ny lalao.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",

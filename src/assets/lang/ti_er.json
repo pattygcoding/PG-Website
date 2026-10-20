@@ -9,6 +9,7 @@
     "snake": "ጸወታ ተመን",
     "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
     "formatter": "JSON & YAML መርገጺ",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "ርኸቡኒ",
     "home_description": "sys.root // ቀንዲ ጽማቝ",
     "about_description": "መሃንድስ ፕሮፋይል // ባዮ ን ቴክኖሎጂ",
@@ -320,15 +321,10 @@
         "text": "ተበጻሕነትን ዓለማዊ ተበጻሕነትን ከም ምህንድስናዊ ጠለባት ዝሕዝ ንፍርያት ዝሓስብ ፖርትፎሊዮ ሪኣክት። ን100+ ቋንቋታት ዝኸውን ክዕቀብ ዝኽእል ናይ ትርጉም ሻምብቆ፣ ብWebAssembly ዝድገፉ መስተጋብራዊ መሳርሒታት፣ ምላሽ ዝህቡን ተበፃሕትን UI ቅዲታትን ፕሮጀክት ስነ-ህንፃን የጠቓልል ሓድሽ ስራሕ እናተላእከ ምስ ከደ ክዓቢ ዝተዳለወ እዩ።",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "ናይ ፓትሪክ ሉኣ ስክሪፕት ላይብረሪ",
-        "text": "ንመጻኢ መወከሲ ዝኸውን ጠቓሚ ቤተ-መጻሕፍቲ ስክሪፕት ሉኣ። እዚ ቤተ-መጻሕፍቲ ኣብ ስክሪፕት ሉኣ ንዝርከቡ ዕማማት ኣውቶማቲክ ንምግባር ዝጥቀመሉ ኮይኑ፡ ንኣፈጻጽማ ዘድልዮም ዕማማት ኣብ ረብሓ ክመጽእ ይኽእል እዩ፡ ምኽንያቱ ሉኣ መብዛሕትኡ ግዜ ካብ ክልቲኦም ፓይቶንን ሩቢን ዝቐልጠፈ ቋንቋ ስክሪፕቲንግ እዩ።",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "ፓትሪክ ናይ ማይክሮሶፍት ኤክሰል ስፕረድሺት ስክሪፕትስ (VBA)",
-        "text": "ንማይክሮሶፍት ኤክሰል ዝኸውን ጠቓሚ ቤተ-መጻሕፍቲ ናይ VBA ስክሪፕትታት። እዚ ቤተ-መጻሕፍቲ ኣብ ኤክሰል ስፕረድሺት ንዝርከቡ ዕማማት ኣውቶማቲክ ንምግባር ይጥቀመሉ።",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "ፓትሪክ ናይ ኒዮቪም ኮንፊግ",
@@ -339,16 +335,6 @@
         "title": "ፓትሪክ ካርታ ጀነሬተር",
         "text": "ብጂኦፓንዳስን ማትፕሎትሊብን ዝተሃንጸ ናይ ፓይቶን ጂኦስፓስያል ሪፖርቲንግ መሳርሒ ኮይኑ፡ ካርታታት ኣውራጃን ግዝኣታትን ኣመሪካ ንምፍራይ እዩ። ጂኦግራፍያዊ ዳታ ናብ ተነባቢ ናይ ትንተና ቅርስታት ይቕይሮ፣ ናይ ዳታ ሻምብቆ ኣተሓሳስባ የርኢ: ትኽክለኛ ናይ ዓውዲ ቤተ-መጻሕፍቲ ምምራጽ፣ እታዎታት ንቡር ምግባር፣ ከምኡ’ውን ውጽኢታት ምፍራይ ንጹር ውሳነታት ምድጋፍ።",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "ናይ ፓትሪክ ፓወርሼል ስክሪፕት ላይብረሪ",
-        "text": "ንመጻኢ መወከሲ ዝኸውን ጠቓሚ ቤተ-መጻሕፍቲ ስክሪፕት ፓወርሼል። ምስቲ $profile ስክሪፕት ባህሪ ጠቓሚ ኮይኑ፡ እዚ ካብ ዊንዶውስ ተርሚናል ዕማማት ኣውቶማቲክ ንምግባር ኣዝዩ ሓጋዚ ኮይኑ ረኺበዮ፡ ኣነ ብተደጋጋሚ ተጠቃሚ ዊንዶውስ ኦኤስ ስለ ዝኾንኩ።",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "ፓትሪክ ሩቢ ስክሪፕት ላይብረሪ",
-        "text": "ንመጻኢ መወከሲ ዝኸውን ጠቓሚ ቤተ-መጻሕፍቲ ስክሪፕት ሩቢ። ንመጻኢ ሩቢ ኦን ረይልስ ልምዓታዊ ኣምር ጠቓሚ እዩ።",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF ክእለት ሃናጺ",
@@ -365,10 +351,20 @@
         "text": "ፍሉያት መሳርሕታት, ትጥቅ, ሞብስ, ብሎክስ, ምእመናት ን ካልኦት ብዙሓት ባህርያት ናብ ጸወታ ዝውስኽ Minecraft ሞድ. ብዓቢኡ Java ን Kotlin ዝተሃንጸ, Minecraft 1.16 ክሳብ 26.2 ድጎማ ይገብር.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "ጸወታ ተመን",
         "text": "ብ Rust ን Macroquad ተሃንጺሩ, ናብ WebAssembly ተመስጥረ, ብ HTML5 Canvas ኣቢሉ ዝጸንሐ ጽሩይ ተመን ኢንጂን. 0.12-ሰከንድ ቆራጺ ጸወታ ቲክታት ምስ ለይቲ ኢንተርፖላይትድ ንቅንቀር, ግልጺ ጸወታ ደረጃታት, ምላሽ ህልኽ, ግጭት ን ዓወት-ኩነት ምድላው, ን ቀንዲ ጸወታ ሕግታት ዝሽፍን ተኸራማሚ ፈተና ስቱ ምስ ዝሓዘ እዩ.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ቋንቋ ፕሮግራሚንግ ትግራዋይ",

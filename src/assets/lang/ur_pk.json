@@ -9,6 +9,7 @@
     "snake": "سانپ کا کھیل",
     "portfolio_translator": "پورٹ فولیو مترجم",
     "formatter": "JSON اور YAML لِنٹر",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "مجھ سے رابطہ کریں۔",
     "home_description": "sys.root // مرکزی جائزہ",
     "about_description": "انجینئر پروفائل // تعارف اور ٹیکنالوجی",
@@ -320,15 +321,10 @@
         "text": "ایک پروڈکشن مائنڈڈ ری ایکٹ پورٹ فولیو جو رسائی اور عالمی رسائی کو انجینئرنگ کی ضروریات کے طور پر مانتا ہے۔ اس میں 100+ زبانوں کے لیے قابل ترجمے کی پائپ لائن، WebAssembly کی حمایت یافتہ انٹرایکٹو ٹولز، ریسپانسیو اور قابل رسائی UI پیٹرن، اور ایک پروجیکٹ فن تعمیر شامل ہے۔ نئے کام کے بھیجے جانے پر بڑھنے کے لیے ڈیزائن کیا گیا ہے۔",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "پیٹرک کی لوا اسکرپٹ لائبریری",
-        "text": "مستقبل کے حوالے کے لیے Lua اسکرپٹس کی ایک مفید لائبریری۔ اس لائبریری کا استعمال Lua اسکرپٹس میں کاموں کو خودکار کرنے کے لیے کیا جاتا ہے، جو کارکردگی کے لیے ضرورت مند کاموں کے لیے کارآمد ہو سکتا ہے، کیونکہ Lua عام طور پر Python اور Ruby دونوں کے مقابلے میں تیز اسکرپٹنگ زبان ہے۔",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "پیٹرک کی مائیکروسافٹ ایکسل اسپریڈشیٹ اسکرپٹس (VBA)",
-        "text": "Microsoft Excel کے لیے VBA اسکرپٹس کی ایک مفید لائبریری۔ یہ لائبریری ایکسل سپریڈ شیٹس میں کاموں کو خودکار کرنے کے لیے استعمال ہوتی ہے۔",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "پیٹرک کی نیوویم کنفیگ",
@@ -339,16 +335,6 @@
         "title": "پیٹرک کا نقشہ جنریٹر",
         "text": "امریکی کاؤنٹی اور ریاست کے نقشے تیار کرنے کے لیے جیو پانڈاس اور میٹپلوٹلیب کے ساتھ بنایا گیا ایک پائتھون جغرافیائی رپورٹنگ ٹول۔ یہ جغرافیائی ڈیٹا کو پڑھنے کے قابل تجزیہ نمونے میں بدل دیتا ہے، ڈیٹا پائپ لائن مائنڈ سیٹ کا مظاہرہ کرتا ہے: صحیح ڈومین لائبریریوں کا انتخاب کریں، ان پٹ کو معمول پر لائیں، اور آؤٹ پٹ تیار کریں جو واضح فیصلوں کی حمایت کریں۔",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "پیٹرک کی پاور شیل اسکرپٹ لائبریری",
-        "text": "مستقبل کے حوالے کے لیے PowerShell اسکرپٹس کی ایک مفید لائبریری۔ $profile اسکرپٹ فیچر کے ساتھ کارآمد، مجھے یہ ونڈوز ٹرمینل سے خودکار کاموں کے لیے بے حد مددگار معلوم ہوتا ہے، کیونکہ میں ونڈوز OS کا اکثر صارف ہوں۔",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "پیٹرک کی روبی اسکرپٹ لائبریری",
-        "text": "مستقبل کے حوالے کے لیے روبی اسکرپٹس کی مفید لائبریری۔ مستقبل کے روبی آن ریلز کے ترقیاتی تصورات کے لیے مفید ہے۔",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "پی ڈی ایف سکلز بلڈر",
@@ -365,10 +351,20 @@
         "text": "ایک Minecraft موڈ جو گیم میں کسٹم ٹولز، آرمر، موبس، بلاکس، طول و عرض اور بہت سی مزید خصوصیات کا اضافہ کرتا ہے۔ بنیادی طور پر Java اور Kotlin میں بنایا گیا، Minecraft 1.16 سے 26.2 تک کے ورژنز کو سپورٹ کرتا ہے۔",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "سانپ کا کھیل",
         "text": "Rust اور Macroquad کے ساتھ بنایا گیا، WebAssembly میں مرتب اور HTML5 Canvas کے ذریعے رینڈر کردہ ایک بہتر سانپ انجن۔ یہ 0.12 سیکنڈ کے تعین کنندہ گیم ٹکس کو ہموار انٹرپولیٹڈ حرکت، واضح گیم مراحل، ذمہ دار کنٹرول، تصادم اور فتح کی حالتوں کی ہینڈلنگ اور گیم کے بنیادی اصولوں کو محیط ایک مرکوز ٹیسٹ سوٹ کے ساتھ جوڑتا ہے۔",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ٹائیگر پروگرامنگ زبان",

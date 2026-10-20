@@ -50,8 +50,8 @@ const featuredProjects: FeaturedProject[] = [
 const skillAliases: Record<string, string> = { reactjs: "react", nodejs: "node", webassembly: "wasm", unit_testing: "testing", postgreql: "postgresql" };
 export const ATLAS_SKILL_LABELS: Record<string, string> = Object.fromEntries(Object.values(skillsData).flat().map(({ id, name }) => [skillAliases[id] || id, name]));
 const domains: Record<string, string> = {
-    connect_four: "experiences", alkalab: "experiences", snake: "experiences", suprememc: "experiences",
-    tiger_tailgating_pros: "products", educational_experience: "experiences", professional_experience: "experiences",
+    connect_four: "experiences", alkalab: "experiences", snake: "experiences", suprememc: "experiences", rustcraft: "experiences",
+    tiger_tailgating_pros: "products", educational_experience: "experiences", professional_experience: "experiences", rubix_cube_solver: "experiences",
 };
 // Projects without an on-site route fall back to their portfolio entry link.
 const routes: Record<string, string> = { tiger_programming_language: "/tiger" };
@@ -59,9 +59,9 @@ const projectIds: string[] = [...featuredProjects.map(({ id }) => id), ...Object
 export const ATLAS_HUB = "portfolio_website";
 export const ATLAS_FAMILIES: AtlasFamily[] = [
     { id: "business", projects: ["takeoff_engine", "inventory_register", "grocery_app", "payrollobol", "tiger_tailgating_pros"] },
-    { id: "minecraft", projects: ["suprememc", "minecraft_json_generator"] },
-    { id: "wasm", projects: ["formatter", "alkalab", "snake", "tiger_programming_language"] },
-    { id: "libraries", projects: ["powershell_library", "ruby_library", "lua_library", "excel_scripts"] },
+    { id: "minecraft", projects: ["suprememc", "minecraft_json_generator", "rustcraft"] },
+    { id: "wasm", projects: ["formatter", "alkalab", "snake", "tiger_programming_language", "rubix_cube_solver"] },
+    { id: "libraries", projects: ["scripting_library"] },
     { id: "languages", projects: ["interop", "connect_four", "turing_machine", "rijndael_encryption"] },
     { id: "automation", projects: ["biblioteca", "python_maps", "pdf_builder", "neovim_config"] },
     { id: "experience", projects: ["professional_experience", "educational_experience"] },

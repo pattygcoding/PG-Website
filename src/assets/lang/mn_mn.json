@@ -9,6 +9,7 @@
     "snake": "Могой тоглоом",
     "portfolio_translator": "Портфолио орчуулагч",
     "formatter": "JSON & YAML шалгагч",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Надтай холбоо бариарай",
     "home_description": "sys.root // үндсэн тойм",
     "about_description": "инженерийн профайл // био ба технологи",
@@ -320,15 +321,10 @@
         "text": "Хүртээмжтэй байдал, дэлхийн хүртээмжийг инженерийн шаардлага гэж үздэг үйлдвэрлэлийн сэтгэлгээтэй React багц. Үүнд 100+ хэлээр орчуулах боломжтой орчуулгын шугам, WebAssembly-ээр дэмжигдсэн интерактив хэрэгслүүд, мэдрэмжтэй, хүртээмжтэй UI загварууд, төслийн архитектур орно. шинэ ажил тээвэрлэгдэж байгаа тул ургуулах зориулалттай.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Патрикийн Луа скриптийн номын сан",
-        "text": "Ирээдүйд ашиглахад хэрэгтэй Луа скриптүүдийн номын сан. Луа нь ихэвчлэн Python болон Ruby-ээс илүү хурдан скрипт хэл байдаг тул энэ номын сан нь Lua скрипт дээрх даалгавруудыг автоматжуулахад ашиглагддаг бөгөөд энэ нь гүйцэтгэл шаарддаг даалгавруудад хэрэг болно.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Патрикийн Microsoft Excel хүснэгтийн скриптүүд (VBA)",
-        "text": "Microsoft Excel-д зориулсан VBA скриптүүдийн ашигтай номын сан. Энэхүү номын сан нь Excel хүснэгтийн ажлыг автоматжуулахад ашиглагддаг.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Патрикийн Neovim тохиргоо",
@@ -339,16 +335,6 @@
         "title": "Патрикийн газрын зураг үүсгэгч",
         "text": "АНУ-ын муж, муж улсын газрын зургийг үүсгэхийн тулд GeoPandas болон Matplotlib-тэй хамтран бүтээсэн Python-ын газарзүйн орон зайн мэдээлэх хэрэгсэл. Энэ нь газарзүйн өгөгдлийг уншигдахуйц дүн шинжилгээ хийх олдвор болгон хувиргаж, өгөгдөл дамжуулах сэтгэлгээг харуулж байна: зөв домайн сангуудыг сонгох, оролтыг хэвийн болгох, гаралтыг гаргах. тодорхой шийдвэр гаргахыг дэмжинэ.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Патрикийн PowerShell Script номын сан",
-        "text": "Ирээдүйд ашиглах PowerShell скриптүүдийн ашигтай номын сан. $profile скрипт функцийг ашиглахад тустай, би Windows үйлдлийн системийг байнга ашигладаг тул Windows терминалаас даалгавруудыг автоматжуулахад маш их тустай гэж бодож байна.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Патрикийн Ruby Script номын сан",
-        "text": "Ирээдүйд ашиглах боломжтой Ruby скриптүүдийн номын сан. Ирээдүйн Ruby on Rails хөгжүүлэлтийн үзэл баримтлалд хэрэг болно.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Тоглоомд тусгай хэрэгсэл, хуяг, mob, блок, хэмжээ болон бусад олон функц нэмдэг Minecraft мод. Голчлон Java ба Kotlin-ээр бүтээгдсэн, Minecraft 1.16-аас 26.2 хүртэлх хувилбарыг дэмждэг.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Могой тоглоом",
         "text": "Rust ба Macroquad-ээр бүтээж, WebAssembly руу компилж, HTML5 Canvas-аар дүрсэлсэн гялалзсан Могой хөдөлгүүр. Энэ нь 0.12 секундын детерминистик тоглоомын тикг гөлгөр интерполяцлагдсан хөдөлгөөн, тодорхой тоглоомын үе шат, хариу үйлдэлтэй удирдлага, мөргөлдөөн ба ялалтын төлөв удирдлага, тоглоомын гол дүрмийг хамарсан төвлөрсөн туршилтын багцтай нэгтгэдэг.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger програмчлалын хэл",

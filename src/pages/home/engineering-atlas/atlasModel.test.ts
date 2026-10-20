@@ -32,10 +32,10 @@ test("connections are bidirectional and stay within intentional project families
     expect(getConnectedProjects("inventory_register")).toContain("takeoff_engine");
     expect(getConnectedProjects("takeoff_engine")).not.toContain("takeoff_engine");
     expect(getConnectedProjects("unknown")).toEqual([]);
-    expect(getConnectedProjects("suprememc").sort()).toEqual([ATLAS_HUB, "minecraft_json_generator"].sort());
+    expect(getConnectedProjects("suprememc").sort()).toEqual([ATLAS_HUB, "minecraft_json_generator", "rustcraft"].sort());
     expect(getConnectedProjects("rijndael_encryption").sort()).toEqual([ATLAS_HUB, "interop", "connect_four", "turing_machine"].sort());
-    expect(getConnectedProjects("snake").sort()).toEqual([ATLAS_HUB, "alkalab", "formatter", "tiger_programming_language"].sort());
-    expect(getConnectedProjects("powershell_library").sort()).toEqual([ATLAS_HUB, "ruby_library", "lua_library", "excel_scripts"].sort());
+    expect(getConnectedProjects("snake").sort()).toEqual([ATLAS_HUB, "alkalab", "formatter", "rubix_cube_solver", "tiger_programming_language"].sort());
+    expect(getConnectedProjects("scripting_library")).toEqual([ATLAS_HUB]);
     expect(getConnectedProjects("takeoff_engine")).not.toContain("formatter");
     expect(getConnectedProjects("professional_experience")).not.toContain("connect_four");
 });
@@ -69,7 +69,7 @@ test("every atlas project has existing artwork, a destination, and English conte
     ATLAS_PROJECTS.forEach((project) => {
         // A project that lives on this site points at its own route (e.g. /formatter).
         expect(portfolioEntries[project.id].link).toMatch(/^(https:\/\/|\/)/);
-        expect(portfolioImages[project.image] || portfolioImages.default).toMatch(/\.png$/);
+        expect(portfolioImages[project.image] || portfolioImages.default).toMatch(/\.(png|svg)$/);
         expect(portfolioEntries[project.id].text).toBeTruthy();
         project.skills.forEach((skill) => expect(atlasSkillLabels[skill] || ATLAS_SKILL_LABELS[skill]).toBeTruthy());
     });
@@ -81,7 +81,7 @@ test("uses title case for atlas family labels", () => {
 });
 
 test("search uses translated display labels rather than internal identifiers", () => {
-    expect(filterAtlasProjects("all", "WebAssembly", portfolioEntries, atlasSkillLabels).map(({ id }) => id)).toEqual(["formatter", "portfolio_website", "alkalab", "snake", "tiger_programming_language"]);
+    expect(filterAtlasProjects("all", "WebAssembly", portfolioEntries, atlasSkillLabels).map(({ id }) => id)).toEqual(["formatter", "portfolio_website", "alkalab", "rubix_cube_solver", "snake", "rustcraft", "tiger_programming_language"]);
     expect(filterAtlasProjects("all", ".NET", portfolioEntries, { ...ATLAS_SKILL_LABELS, ...atlasSkillLabels }).map(({ id }) => id)).toContain("grocery_app");
     expect(filterAtlasProjects("all", "Datenfluss", entries, { pipelines: "Datenfluss" })).toHaveLength(3);
 });

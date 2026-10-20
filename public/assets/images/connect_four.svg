@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">Connect Four</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#db6666" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#db6666" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#281010" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#602424" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<rect x="212" y="272" width="600" height="480" rx="48" fill="#381e1e" stroke="#8a3838" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle cx="332" cy="396" r="52" fill="none" stroke="#8a3838" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle cx="452" cy="396" r="52" fill="none" stroke="#8a3838" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle cx="572" cy="396" r="52" fill="none" stroke="#8a3838" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle cx="692" cy="396" r="52" fill="none" stroke="#8a3838" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle cx="332" cy="628" r="52" fill="#ee9696"/>
+		<circle cx="452" cy="628" r="52" fill="#ee9696"/>
+		<circle cx="572" cy="628" r="52" fill="#ee9696"/>
+		<circle cx="692" cy="628" r="52" fill="#ee9696"/>
+</svg>

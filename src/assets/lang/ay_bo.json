@@ -9,6 +9,7 @@
     "snake": "Katari uywawita",
     "portfolio_translator": "Cartera Jaqukipiri",
     "formatter": "JSON & YAML uñakipiri",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Nayampi aruskipt’aña",
     "home_description": "sys.root // nayriri uñt'ayawi",
     "about_description": "injiniru perfil // aruskipawi ukhamaraki tecnología",
@@ -320,15 +321,10 @@
         "text": "Mä cartera React ukax producción ukar uñt’atawa, ukax accesibilidad ukat uraqpachan puriñapatakix ingeniería ukan mayiwinakapjamaw uñji. Ukax mä pipeline de traducción mantenimiento 100+ arunakataki, herramientas interactivas WebAssembly ukan yanapt’ata, patrón UI responsivo ukat accesible, ukat arquitectura de proyectos ukanakaw utji machaq lurawinakax apayanit ukhax jilxatañatakiw wakicht’ata.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick jupan Lua Guion Biblioteca ukan uñt'ayatawa",
-        "text": "Lua scripts ukan mä aski biblioteca jutïr uñt’ayañataki. Aka biblioteca ukax Lua scripts ukan lurawinakap automáticamente lurañatakiw apnaqasi, ukax lurañ munañ lurawinakatakix wali askïspawa, kunatix Lua ukax jilpachax Python ukat Ruby ukanakat sipanx juk’amp jank’ak scripting arut uñt’atawa.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick jupax Microsoft Excel ukan hoja de cálculo (VBA) ukan qillqatanakapawa.",
-        "text": "Mä aski biblioteca VBA scripts Microsoft Excel ukataki. Aka biblioteca ukax Excel ukan hojas de cálculo ukan lurawinakap automáticamente lurañatakiw apnaqasi.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick jupax Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick jupax Mapa Generador ukawa",
         "text": "Mä herramienta de informe geoespacial Python ukax GeoPandas ukat Matplotlib ukanakamp luratawa, U.S. markan ukat estado ukan mapanakap lurañataki. Ukax geográfico ukan yatiyawinakap uñakipañ artefactos ukar tukuyi, ukax mä pipeline de datos ukan amuyup uñacht’ayi: chiqap bibliotecas de dominio ukar ajlliña, insumos normaliza, ukatx salidas ukanak luraña qhana amtawinakaru yanapt’aña.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick jupax PowerShell Script Library ukan uñt'ayatawa",
-        "text": "Mä aski biblioteca PowerShell scripts jutïr uñakipañataki. $profile script lurawimp wali askiwa, nayax akax wali yanapt’atawa Windows terminal ukan lurawinakap automatizar lurañataki, kunatix nayax Windows OS ukan sapa kutiw apnaqirïta.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick chachan Ruby Script Library sat libropa",
-        "text": "Mä aski biblioteca Ruby scripts jutïr uñt’ayañataki. Jutïr Ruby on Rails ukan nayrar sartañ amuyunakatakix wali askiwa.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Yatiñanaka lurayiri",
@@ -365,10 +351,20 @@
         "text": "Minecraft mod mä herramienta, armadura, mobs, blocks, dimensiones ukhamaraki juk'ampinaka uywawita ukjaru apthapi. Java ukhamaraki Kotlin ukana luraña 1.16 ukhat 26.2 qhiparu.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Katari uywawita",
         "text": "Rust ukhamaraki Macroquad ukana, WebAssembly ukharu compilado ukhamaraki HTML5 Canvas ukana luraña engine.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigre Programación ukax mä juk’a pachanakanwa",

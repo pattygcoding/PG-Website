@@ -9,6 +9,7 @@
     "snake": "Ludus serpentis",
     "portfolio_translator": "Portfolio Translator",
     "formatter": "Linter JSON et YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Contact Me",
     "home_description": "sys.root // summarium principale",
     "about_description": "profilum machinatoris // curriculum et technologia",
@@ -320,15 +321,10 @@
         "text": "Portfolio productio animo react, quod accessibilitatem et globalem germen tractat ut opera necessaria. Continet conservabilem translationem pipelines pro 100+ linguis, instrumenta interactiva a WebAssembly adiuta, responsiva et pervia exemplaria UI, et architecturae project. ut crescere disposito novum opus sit amet.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patricii Lua Script Library",
-        "text": "Utilis bibliotheca Luae scripta ad futuram referuntur. Haec bibliotheca ad automataria negotia scriptorum Luae adhibetur, quae ad operas egenos exercendas expeditus venire potest, sicut Lua celerius lingua scriptionis quam Python et Ruby solet.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patricii Microsoft Praecedo Spreadsheet Scriptorum (VBA)",
-        "text": "Bibliotheca scriptorum VBA utilis pro Microsoft Praecedo. Haec bibliotheca ad automataria munia in Excel spreadsheets adhibetur.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patricii Neovim Mando",
@@ -339,16 +335,6 @@
         "title": "Patricii Map Generator",
         "text": "A Python geospatiale instrumentum nuntians cum GeoPandas et Matplotlib aedificatum ad generandum US comitatum et tabulas publicas. Notitia geographica vertit in artificialia analysin legenda, ostendens data pipelines questae: selectas bibliothecas domain rectas, initus normalize, et outputationes producendum quae auxilio clarum judicium.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patricii PowerShell Scriptor Library",
-        "text": "Bibliotheca scriptorum PowerShell utilis ad futuram referentiam. Utilis cum scripturo $profile, valde utilem invenio pro automando officiorum e Fenestrarum terminalium, sicut creber sum in Fenestra OS usor.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patricii Scriptor Library Ruby",
-        "text": "Bibliotheca scriptorum Rubyrum utilis ad futuram referentiam. Utilis pro futuris Ruby in Rails conceptus progressus progressus.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills conditor",
@@ -365,10 +351,20 @@
         "text": "Modus Minecraft qui instrumenta, arma, monstra, bloccos, dimensiones, et multas alias notas proprias ludo addit. Praesertim cum Java et Kotlin aedificatus, versiones Minecraft 1.16 usque ad 26.2 sustinet.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Ludus serpentis",
         "text": "Motor serpentis politus cum Rust et Macroquad aedificatus, in WebAssembly compilatus, et per HTML5 Canvas redditus. Deterministicos 0.12-secundorum lusionis ticks cum motu interpolationis levi, claris lusionis phasis, moderamine respondente, tractatione collisionum et statuum victoriae, et copia probationum intenta regulas lusionis fundamentales complectens coniungit.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Linguae tigris programmatio",

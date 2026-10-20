@@ -9,6 +9,7 @@
     "snake": "Игра змија",
     "portfolio_translator": "Портфолио Транслатор",
     "formatter": "Линтер за JSON и YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Контактирајте ме",
     "home_description": "sys.root // главни преглед",
     "about_description": "профил инжењера // био и стек",
@@ -320,15 +321,10 @@
         "text": "Реацт портфолио оријентисан на производњу који приступачност и глобални досег третира као инжењерске захтеве. Укључује цевовод за превођење за више од 100 језика, интерактивне алате које подржава ВебАссембли, прилагодљиве и доступне УИ обрасце и архитектуру пројекта дизајниран да расте како се нови рад шаље.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Патрицк'с Луа Сцрипт Либрари",
-        "text": "Корисна библиотека Луа скрипти за будућу употребу. Ова библиотека се користи за аутоматизацију задатака у Луа скриптама, што може бити згодно за задатке који захтевају перформансе, пошто је Луа обично бржи језик за скриптовање од Питхон-а и Руби-ја.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Патрикове Мицрософт Екцел скрипте прорачунских табела (ВБА)",
-        "text": "Корисна библиотека ВБА скрипти за Мицрософт Екцел. Ова библиотека се користи за аутоматизацију задатака у Екцел табелама.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Патрицк'с Неовим Цонфиг",
@@ -339,16 +335,6 @@
         "title": "Патриков генератор мапа",
         "text": "Питхон алатка за геопросторно извештавање направљена са ГеоПандас и Матплотлиб за генерисање америчких округа и држава. Претвара географске податке у читљиве аналитичке артефакте, демонстрирајући начин размишљања цевовода података: изаберите праве библиотеке домена, нормализујте улазе и производе излазе који подржавају јасне одлуке.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Патрикова ПоверСхелл библиотека скрипти",
-        "text": "Корисна библиотека ПоверСхелл скрипти за будућу употребу. Корисно са функцијом скрипте $профиле, сматрам да је ово изузетно корисно за аутоматизацију задатака са Виндовс терминала, пошто сам чест корисник Виндовс ОС-а.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Патрицк'с Руби Сцрипт Либрари",
-        "text": "Корисна библиотека Руби скрипти за будућу употребу. Корисно за будуће Руби он Раилс развојне концепте.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "ПДФ Скиллс Буилдер",
@@ -365,10 +351,20 @@
         "text": "Мод Minecraft који додаје прилагођене алате, оклопе, мобове, блокове, димензије и многе друге функције у игру. Изграђен углавном са Java и Kotlin, са подршком за верзије Minecraft 1.16 до 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Игра змија",
         "text": "Углачан мотор игре Змија изграђен са Rust и Macroquad, компајлиран у WebAssembly и приказиван кроз HTML5 Canvas. Комбинује детерминистичке игре тицкове од 0,12 секунде са глатким интерполисаним покретом, експлицитним фазама игре, осетљивом контролом, обрадом судара и стања победе, и фокусираним тест пакетом који покрива основна правила игре.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Тигер програмски језик",

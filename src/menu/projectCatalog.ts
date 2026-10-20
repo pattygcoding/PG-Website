@@ -1,5 +1,5 @@
 import type { IconType } from "react-icons";
-import { GiConsoleController } from "react-icons/gi";
+import { GiConsoleController, GiCube } from "react-icons/gi";
 import { VscTerminal, VscGlobe, VscJson, VscFileCode } from "react-icons/vsc";
 import { TbArrowsLeftRight, TbCpu, TbGridDots, TbLock, TbSitemap } from "react-icons/tb";
 import { Blocks, FlaskConical, Gamepad2, Pickaxe } from "./lucide-icons";
@@ -23,6 +23,7 @@ export const projects: ProjectCatalogEntry[] = [
 		external: true,
 		children: [
 			{ key: "alkalab", path: l.arcade.alkalab, icon: FlaskConical, external: true },
+			{ key: "rubix_cube_solver", path: l.arcade.rubik, icon: GiCube, external: true },
 			{ key: "rustcraft", path: l.arcade.rustcraft, icon: Pickaxe, external: true },
 			{ key: "snake", path: l.arcade.snake, icon: Gamepad2, external: true },
 			{ key: "suprememc", path: l.arcade.suprememc, icon: Blocks, external: true },

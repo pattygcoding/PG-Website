@@ -9,6 +9,7 @@
     "snake": "Ýylan oýny",
     "portfolio_translator": "Portfolio terjimeçisi",
     "formatter": "JSON & YAML barlagçysy",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Meniň bilen habarlaşyň",
     "home_description": "sys.root // baş syn",
     "about_description": "inžener profili // bio we tehnologiýa",
@@ -320,15 +321,10 @@
         "text": "Elýeterliligi we global derejä in engineeringenerçilik talaplary hökmünde seredýän önümçilik pikirli React portfeli. 100+ dil üçin dowam edip boljak terjime turbageçirijisini, WebAssemble tarapyndan goldanýan interaktiw gurallary, täsirli we elýeterli UI nagyşlaryny we taslama arhitekturasyny öz içine alýar täze iş iberilende ösmek üçin niýetlenendir.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrikiň Lua skript kitaphanasy",
-        "text": "Geljekde salgylanmak üçin Lua skriptleriniň peýdaly kitaphanasy. Bu kitaphana, Lua skriptlerindäki işleri awtomatlaşdyrmak üçin ulanylýar, ýerine ýetiriş zerur bolan meseleler üçin peýdaly bolup biler, sebäbi Lua adatça Python we Ruby-dan has çalt ýazuw dili.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrikiň Microsoft Excel elektron tablisasy skriptleri (VBA)",
-        "text": "Microsoft Excel üçin VBA skriptleriniň peýdaly kitaphanasy. Bu kitaphana Excel elektron tablisasyndaky işleri awtomatlaşdyrmak üçin ulanylýar.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrikiň Newim konfig",
@@ -339,16 +335,6 @@
         "title": "Patrikiň karta generatory",
         "text": "ABŞ-nyň etrap we döwlet kartalaryny döretmek üçin GeoPandas we Matplotlib bilen gurlan Python geospatial hasabat guraly. Geografiki maglumatlary okalýan derňew artefaktlaryna öwürýär, maglumat turbageçirijisiniň pikirini görkezýär: dogry domen kitaphanalaryny saýlaň, girişleri kadalaşdyryň we netijeleri çykaryň anyk kararlary goldaýar.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrikiň “PowerShell” skript kitaphanasy",
-        "text": "Geljekde salgylanmak üçin PowerShell skriptleriniň peýdaly kitaphanasy. $ Profil skript aýratynlygy bilen peýdaly, men Windows OS-dan ýygy-ýygydan ulanyjy bolanym üçin, Windows terminalyndaky meseleleri awtomatlaşdyrmak üçin gaty peýdaly diýip hasaplaýaryn.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrikiň Ruby skript kitaphanasy",
-        "text": "Geljekki salgylanma üçin Ruby skriptleriniň peýdaly kitaphanasy. Geljekdäki Ruby on Rails ösüş düşünjeleri üçin peýdaly.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF başarnyklary gurujy",
@@ -365,10 +351,20 @@
         "text": "Oýna özbaşdak gurallary, ýaraglary, mäzleri, bloklary, ölçegleri we beýleki köp aýratynlyklary goşýan Minecraft mody. Esasan Java we Kotlin bilen gurlan, Minecraft 1.16-dan 26.2 çenli wersiýalary goldaýar.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Ýylan oýny",
         "text": "Rust we Macroquad bilen gurlan, WebAssembly-e kompýuterleşdirilen we HTML5 Canvas arkaly görkezilen ýuka Ýylan hereketlendirijisi. 0.12-sekuntlyk kesgitli oýun tiglerini tekiz interpolirlenen hereket, açyk oýun fazalary, jogapberiji dolandyryş, çaknyşyk we ýeňiş ýagdaýyny işleme we oýnuň esasy düzgünlerini öz içine alýan jemlenen synag toplumy bilen birleşdirýär.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Igerolbars programma dili",

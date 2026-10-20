@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="mark-title">
+	<title id="mark-title">My Educational Experience</title>
+	<defs>
+		<radialGradient id="mark-glow" cx="50%" cy="40%" r="58%">
+			<stop offset="0" stop-color="#886edd" stop-opacity="0.16" />
+			<stop offset="1" stop-color="#886edd" stop-opacity="0" />
+		</radialGradient>
+	</defs>
+	<rect width="1024" height="1024" rx="180" fill="#161028" />
+	<rect x="4" y="4" width="1016" height="1016" rx="176" fill="none" stroke="#322460" stroke-width="8" />
+	<rect width="1024" height="1024" rx="180" fill="url(#mark-glow)" />
+		<polygon points="512,296 824,460 512,624 200,460" fill="#b19fef"/>
+		<polygon points="404,556 620,556 620,668 404,668" fill="#6345c4" stroke="#6345c4" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle cx="512" cy="288" r="26" fill="#886edd"/>
+		<path d="M 824 460 V 620" fill="none" stroke="#886edd" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+		<circle cx="824" cy="652" r="32" fill="#4f3b91"/>
+</svg>

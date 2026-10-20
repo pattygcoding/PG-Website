@@ -9,6 +9,7 @@
     "snake": "పాము ఆట",
     "portfolio_translator": "పోర్ట్‌ఫోలియో అనువాదకుడు",
     "formatter": "JSON & YAML లింటర్",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "నన్ను సంప్రదించండి",
     "home_description": "sys.root // ప్రధాన అవలోకనం",
     "about_description": "ఇంజనీర్ ప్రొఫైల్ // బయో మరియు టెక్నాలజీ",
@@ -320,15 +321,10 @@
         "text": "యాక్సెసిబిలిటీ మరియు గ్లోబల్ రీచ్‌ను ఇంజినీరింగ్ అవసరాలుగా పరిగణించే ప్రొడక్షన్-మైండెడ్ రియాక్ట్ పోర్ట్‌ఫోలియో. ఇది 100+ భాషల కోసం నిర్వహించదగిన అనువాద పైప్‌లైన్, WebAssembly ద్వారా మద్దతు ఇచ్చే ఇంటరాక్టివ్ టూల్స్, ప్రతిస్పందించే మరియు ప్రాప్యత చేయగల UI నమూనాలు మరియు ప్రాజెక్ట్ ఆర్కిటెక్చర్‌ను కలిగి ఉంటుంది. కొత్త పని రవాణా చేయబడినప్పుడు పెరిగేలా రూపొందించబడింది.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "పాట్రిక్స్ లువా స్క్రిప్ట్ లైబ్రరీ",
-        "text": "భవిష్యత్ సూచన కోసం లువా స్క్రిప్ట్‌ల ఉపయోగకరమైన లైబ్రరీ. ఈ లైబ్రరీ లువా స్క్రిప్ట్‌లలో టాస్క్‌లను ఆటోమేట్ చేయడానికి ఉపయోగించబడుతుంది, ఇది పనితీరు-అవసరమైన పనులకు ఉపయోగపడుతుంది, ఎందుకంటే లువా సాధారణంగా పైథాన్ మరియు రూబీ రెండింటి కంటే వేగవంతమైన స్క్రిప్టింగ్ భాష.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "పాట్రిక్ మైక్రోసాఫ్ట్ ఎక్సెల్ స్ప్రెడ్‌షీట్ స్క్రిప్ట్‌లు (VBA)",
-        "text": "Microsoft Excel కోసం VBA స్క్రిప్ట్‌ల ఉపయోగకరమైన లైబ్రరీ. Excel స్ప్రెడ్‌షీట్‌లలో టాస్క్‌లను ఆటోమేట్ చేయడానికి ఈ లైబ్రరీ ఉపయోగించబడుతుంది.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "పాట్రిక్స్ నియోవిమ్ కాన్ఫిగర్",
@@ -339,16 +335,6 @@
         "title": "పాట్రిక్ మ్యాప్ జనరేటర్",
         "text": "U.S. కౌంటీ మరియు స్టేట్ మ్యాప్‌లను రూపొందించడానికి జియోపాండాస్ మరియు మ్యాట్‌ప్లాట్‌లిబ్‌లతో రూపొందించబడిన పైథాన్ జియోస్పేషియల్ రిపోర్టింగ్ టూల్. ఇది భౌగోళిక డేటాను చదవగలిగే విశ్లేషణ కళాఖండాలుగా మారుస్తుంది, డేటా పైప్‌లైన్ మైండ్‌సెట్‌ను ప్రదర్శిస్తుంది: సరైన డొమైన్ లైబ్రరీలను ఎంచుకోండి, ఇన్‌పుట్‌లను సాధారణీకరించండి మరియు అవుట్‌పుట్‌లను ఉత్పత్తి చేస్తుంది స్పష్టమైన నిర్ణయాలకు మద్దతు ఇవ్వండి.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "పాట్రిక్స్ పవర్‌షెల్ స్క్రిప్ట్ లైబ్రరీ",
-        "text": "భవిష్యత్ సూచన కోసం PowerShell స్క్రిప్ట్‌ల ఉపయోగకరమైన లైబ్రరీ. $profile స్క్రిప్ట్ ఫీచర్‌తో ఉపయోగకరంగా ఉంది, నేను Windows టెర్మినల్ నుండి టాస్క్‌లను ఆటోమేట్ చేయడానికి ఇది చాలా సహాయకారిగా ఉంది, ఎందుకంటే నేను Windows OSని తరచుగా ఉపయోగిస్తుంటాను.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "పాట్రిక్స్ రూబీ స్క్రిప్ట్ లైబ్రరీ",
-        "text": "భవిష్యత్ సూచన కోసం రూబీ స్క్రిప్ట్‌ల ఉపయోగకరమైన లైబ్రరీ. భవిష్యత్ రూబీ ఆన్ రైల్స్ డెవలప్‌మెంటల్ కాన్సెప్ట్‌లకు ఉపయోగపడుతుంది.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF స్కిల్స్ బిల్డర్",
@@ -365,10 +351,20 @@
         "text": "గేమ్‌కు అనుకూల సాధనాలు, కవచాలు, మోబ్‌లు, బ్లాక్‌లు, కొలతలు మరియు మరెన్నో ఫీచర్లను జోడించే Minecraft మోడ్. ప్రధానంగా Java మరియు Kotlin‌తో నిర్మించబడింది, Minecraft సంస్కరణలు 1.16 నుండి 26.2 వరకు మద్దతు ఇస్తుంది.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "పాము ఆట",
         "text": "Rust మరియు Macroquad‌తో నిర్మించి, WebAssembly గా కంపైల్ చేసి, HTML5 Canvas ద్వారా రెండర్ చేసిన మెరుగుపెట్టిన పాము ఇంజిన్. ఇది 0.12-సెకను డిటర్మినిస్టిక్ గేమ్ టిక్‌లను మృదువైన ఇంటర్‌పోలేటెడ్ కదలిక, స్పష్టమైన గేమ్ దశలు, స్పందించే నియంత్రణ, ఢీకొనడం మరియు విజయ-స్థితి నిర్వహణ మరియు కోర్ గేమ్ నియమాలను కవర్ చేసే ఫోకస్ చేసిన పరీక్ష సూట్‌తో కలుపుతుంది.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "టైగర్ ప్రోగ్రామింగ్ లాంగ్వేజ్",

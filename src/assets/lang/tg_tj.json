@@ -9,6 +9,7 @@
     "snake": "Бозии мор",
     "portfolio_translator": "Тарҷумони портфолио",
     "formatter": "Тафтишкунандаи JSON ва YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Бо ман тамос гиред",
     "home_description": "sys.root // баррасии асосӣ",
     "about_description": "профили муҳандис // биё ва технология",
@@ -320,15 +321,10 @@
         "text": "Портфели ба истеҳсолот нигаронидашудаи React, ки дастрасӣ ва дастрасии глобалиро ҳамчун талаботи муҳандисӣ баррасӣ мекунад. Он лӯлаи тарҷумаи нигоҳдорӣ барои зиёда аз 100 забон, абзорҳои интерактивии аз ҷониби WebAssembly дастгирӣшаванда, намунаҳои UI ҷавобгӯ ва дастрас ва меъмории лоиҳаро дар бар мегирад. ки барои афзоиш додани кори нав пешбинӣ шудааст.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Китобхонаи скрипти Луа Патрик",
-        "text": "Китобхонаи муфиди скриптҳои Lua барои истинод дар оянда. Ин китобхона барои автоматикунонии вазифаҳо дар скриптҳои Lua истифода мешавад, ки метавонад барои иҷрои вазифаҳои ниёзманд муфид бошад, зеро Луа одатан нисбат ба Python ва Ruby забони скрипти тезтар аст.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Патрик скриптҳои ҷадвали электронии Microsoft Excel (VBA)",
-        "text": "Китобхонаи муфиди скриптҳои VBA барои Microsoft Excel. Ин китобхона барои автоматикунонии вазифаҳо дар ҷадвалҳои Excel истифода мешавад.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Конфигуратсияи Neovim Патрик",
@@ -339,16 +335,6 @@
         "title": "Генератори харитаи Патрик",
         "text": "Асбоби гузоришдиҳии геофазоии Python бо GeoPandas ва Matplotlib барои тавлиди харитаҳои музофот ва иёлоти ИМА сохта шудааст. Он маълумоти ҷуғрофиро ба артефактҳои таҳлилии хондашаванда табдил медиҳад, ки тафаккури лӯлаи маълумотро нишон медиҳад: китобхонаҳои домени дурустро интихоб кунед, воридотро ба эътидол оваред ва натиҷаҳоро ба даст оред, ки карорхои аник дастгирй мекунанд.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Китобхонаи скрипти PowerShell Патрик",
-        "text": "Китобхонаи муфиди скриптҳои PowerShell барои истинод дар оянда. Бо хусусияти скрипти $profile муфид аст, ман инро барои автоматикунонии вазифаҳо аз терминали Windows бениҳоят муфид меҳисобам, зеро ман корбари доимии OS Windows ҳастам.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Китобхонаи скрипти Ruby Патрик",
-        "text": "Китобхонаи муфиди скриптҳои Ruby барои истинод дар оянда. Барои консепсияҳои рушди ояндаи Ruby on Rails муфид аст.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Созандаи малакаҳои PDF",
@@ -365,10 +351,20 @@
         "text": "Муди Minecraft, ки ба бозӣ асбобҳои фармоишӣ, силоҳ, mobs, блокҳо, андозаҳо ва бисёр хусусиятҳои дигарро илова мекунад. Дар асосӣ бо Java ва Kotlin сохта шуда, нусаҳои Minecraft 1.16 то 26.2-ро дастгирӣ мекунад.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Бозии мор",
         "text": "Муҳаррики хуби Мор бо Rust ва Macroquad сохта, ба WebAssembly тартиб дода ва тавассути HTML5 Canvas намоиш додашуда. Он тикҳои қатъии бозии 0,12-сонияро бо ҳаракати ҳамвори интерполитсионишуда, марҳилаҳои равшани бозӣ, назорати ҳассос, коркарди бархӯрд ва ҳолатҳои ғалаба ва маҷмӯи озмоишии мутамарказ, ки қоидаҳои асосии бозиро дар бар мегирад, якҷоя мекунад.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Забони барномасозии Tiger",

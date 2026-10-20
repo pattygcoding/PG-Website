@@ -9,6 +9,7 @@
     "snake": "Kēmu nakahi",
     "portfolio_translator": "Kaiwhakamaori kōpaki",
     "formatter": "Kaitirotiro JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Whakapā Mai",
     "home_description": "sys.root // tirohanga whānui matua",
     "about_description": "kōtaha pūkaha // koiora me te hangarau",
@@ -320,15 +321,10 @@
         "text": "He kōpaki React e whakaaro nui ana ki te whakaputa e aro ana ki te urunga me te toronga o te ao hei whakaritenga miihini. Kei roto he paipa whakamaori ka taea te pupuri mo te 100+ reo, nga taputapu tauwhitiwhiti e tautokohia ana e WebAssembly, nga tauira UI aro me te uru, me te hoahoanga kaupapa. i hangaia kia tipu i te wa e tukuna ana nga mahi hou.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "He whare pukapuka whaihua o nga tuhinga a Lua hei tohutoro a meake nei. Ka whakamahia tenei whare pukapuka ki te whakaaunoa i nga mahi i roto i nga tuhinga a Lua, ka taea te whakamahi mo nga mahi e matea ana, i te mea he tere ake te reo tuhi a Lua i a Python me Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Ngā Hōtuhi Ripakari Microsoft Excel (VBA) a Patrick",
-        "text": "He whare pukapuka whaihua o nga tuhinga VBA mo Microsoft Excel. Ka whakamahia tenei puna ki te whakaaunoa i nga mahi i roto i nga ripanga Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "He taputapu purongo geospatial Python i hangaia me GeoPandas me Matplotlib hei whakaputa i nga mahere whenua me nga whenua o Amerika. Ka huri i nga raraunga matawhenua ki nga taonga tātari ka taea te panui, e whakaatu ana i te whakaaro paipa raraunga: kowhiria nga whare pukapuka rohe tika, whakatika i nga whakaurunga, ka whakaputa i nga putanga ka tautoko i nga whakatau marama.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "He whare pukapuka whaihua o nga tuhinga PowerShell hei tohutoro a meake nei. Ka whai hua me te waahanga tuhinga tuhi $profile, ka kitea e au he tino awhina tenei mo te whakaaunoa i nga mahi mai i te tauranga Windows, i te mea he kaiwhakamahi auau ahau ki te Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "He whare pukapuka whaihua o nga tuhinga Ruby hei tohutoro a meake nei. He pai mo nga ariā whanaketanga Ruby on Rails a meake nei.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Kaihanga Pukenga PDF",
@@ -365,10 +351,20 @@
         "text": "He mod Minecraft e tāpiri ana i ngā taputapu ritenga, pūweru, horoi, poraka, inenga, me ētahi atu āhuatanga maha ki te kēmu. I hangaia mātua ki te Java me te Kotlin, e tautoko ana i ngā putanga Minecraft 1.16 ki te 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Kēmu nakahi",
         "text": "He pūkaha Nakahi whakamiha i hangaia me te Rust me te Macroquad, i whakahiato ki WebAssembly, ā, i tuhia mā te HTML5 Canvas. Ka whakakotahi i ngā tiki kēmu 0.12-hēkona i te nekehanga i whakanekehia, ngā wāhanga kēmu mārama, te whakahaere urupare, te whakahaere tukinga me ngā āhua wikitoria, me tētahi huinga whakamātautau e kapi ana i ngā ture matua o te kēmu.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Te Reo Papatono Tiger",

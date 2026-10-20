@@ -9,6 +9,7 @@
     "snake": "Ilon o’yini",
     "portfolio_translator": "Portfolio tarjimoni",
     "formatter": "JSON va YAML lintеri",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Men bilan bog'laning",
     "home_description": "sys.root // asosiy sharh",
     "about_description": "muhandis profili // bio va texnologiya",
@@ -320,15 +321,10 @@
         "text": "Foydalanish imkoniyati va global foydalanishni muhandislik talablari sifatida ko'rib chiqadigan ishlab chiqarishga asoslangan React portfeli. U 100 dan ortiq tillar uchun qo'llab-quvvatlanadigan tarjima liniyasini, WebAssembly tomonidan qo'llab-quvvatlanadigan interfaol vositalarni, sezgir va foydalanish mumkin bo'lgan UI naqshlarini va loyiha arxitekturasini o'z ichiga oladi. yangi ish yuborilganda o'sishga mo'ljallangan.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrikning Lua skript kutubxonasi",
-        "text": "Kelajakda foydalanish uchun Lua skriptlarining foydali kutubxonasi. Ushbu kutubxona Lua skriptlaridagi vazifalarni avtomatlashtirish uchun ishlatiladi, bu esa unumdorlikka muhtoj bo'lgan vazifalar uchun qulay bo'lishi mumkin, chunki Lua odatda Python va Rubyga qaraganda tezroq skript tilidir.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrikning Microsoft Excel elektron jadval skriptlari (VBA)",
-        "text": "Microsoft Excel uchun VBA skriptlarining foydali kutubxonasi. Bu kutubxona Excel elektron jadvallaridagi vazifalarni avtomatlashtirish uchun ishlatiladi.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrikning Neovim konfiguratsiyasi",
@@ -339,16 +335,6 @@
         "title": "Patrik xaritasi generatori",
         "text": "AQSh okruglari va shtatlari xaritalarini yaratish uchun GeoPandas va Matplotlib bilan yaratilgan Python geofazoviy hisobot vositasi. U geografik ma'lumotlarni o'qilishi mumkin bo'lgan tahlil artefaktlariga aylantirib, ma'lumotlar uzatish liniyasining fikrlash tarzini namoyish etadi: to'g'ri domen kutubxonalarini tanlang, kirishlarni normallashtiradi va natijalarni ishlab chiqaradi. aniq qarorlarni qo'llab-quvvatlash.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrikning PowerShell skriptlar kutubxonasi",
-        "text": "Kelajakda foydalanish uchun PowerShell skriptlarining foydali kutubxonasi. $profile skript xususiyati bilan foydali, men buni Windows terminalidagi vazifalarni avtomatlashtirish uchun juda foydali deb bilaman, chunki men Windows operatsion tizimining tez-tez foydalanuvchisiman.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrikning Ruby skript kutubxonasi",
-        "text": "Kelajakda foydalanish uchun Ruby skriptlarining foydali kutubxonasi. Kelajakda Ruby on Rails ishlab chiqish tushunchalari uchun foydali.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF ko'nikmalarini yaratuvchisi",
@@ -365,10 +351,20 @@
         "text": "O'yinga maxsus vositalar, qurol-yarog'lar, mavjudotlar, bloklar, o'lchamlar va boshqa ko'plab xususiyatlarni qo'shadigan Minecraft mod. Asosan Java va Kotlin da qurilgan bo'lib, Minecraft 1.16 dan 26.2 gacha bo'lgan versiyalarini qo'llab-quvvatlaydi.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Ilon o'yini",
         "text": "Rust va Macroquad bilan qurilgan, WebAssembly ga kompilyatsiya qilingan va HTML5 Canvas orqali render qilingan sayqallangan Ilon dvigateli. U 0,12 soniyalik deterministik o'yin tiklarini silliq interpolyatsiya qilingan harakat, aniq o'yin bosqichlari, sezgir boshqaruv, to'qnashuv va g'alaba holatlarini boshqarish hamda o'yinning asosiy qoidalarini qamrab oluvchi yo'naltirilgan test to'plami bilan birlashtiradi.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger dasturlash tili",

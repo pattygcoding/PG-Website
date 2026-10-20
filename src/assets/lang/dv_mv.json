@@ -9,6 +9,7 @@
     "snake": "ހަރުފަ ކުޅިވަރު",
     "portfolio_translator": "ޕޯޓްފޯލިއޯ ޓްރާންސްލެޓަރ",
     "formatter": "JSON & YAML ޗެކަރު",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "އަޅުގަނޑާ ގުޅުން",
     "home_description": "sys.root // މައި އެންމެހާ ބެލުން",
     "about_description": "އިންޖިނިއަރު ޕްރޮފައިލް // ބަޔޯ އަދި ޓެކްނޮލޮޖީ",
@@ -320,15 +321,10 @@
         "text": "އެކްސެސިބިލިޓީއާއި ގްލޯބަލް ރީޗް އަކީ އިންޖިނިއަރިންގ ރިކުއަރމަންޓްތަކެއްގެ ގޮތުގައި ބަލާ ޕްރޮޑަކްޝަން މައިންޑް ރިއެކްޓް ޕޯޓްފޯލިއޯއެކެވެ. އެއީ 100+ ބަހަކަށް މެއިންޓެނެބަލް ޓްރާންސްލެޝަން ޕައިޕްލައިނާއި، ވެބްއެސެމްބްލީ އިން ބެކްޑް އިންޓަރެކްޓިވް ޓޫލްސް، ރެސްޕޮންސިވް އަދި އެކްސެސިބަލް ޔޫއައި ޕެޓަރންސް، އަދި ޕްރޮޖެކްޓް އަރކިޓެކްޗަރ އެއް ހިމެނޭ ގޮތަށެވެ އާ މަސައްކަތްތައް ޝިޕް ކުރާ ވަރަކަށް ކުރިއަރައި ދިއުމަށް ފަރުމާކޮށްފައިވެ އެވެ.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "ޕެޓްރިކްގެ ލުއާ ސްކްރިޕްޓް ލައިބްރަރީ އެވެ",
-        "text": "ކުރިއަށް އޮތްތަނުގައި ރިފަރެންސް ކުރުމަށްޓަކައި ލުއާ ސްކްރިޕްޓްތަކުގެ ބޭނުންތެރި ލައިބްރަރީއެކެވެ. މި ލައިބްރަރީ ބޭނުންކުރަނީ ލުއާ ސްކްރިޕްޓްތަކުގައި ކުރާ މަސައްކަތްތައް އޮޓޮމެޓިކް ކުރުމަށް ކަމަށާއި، މިއީ އާންމުކޮށް ޕައިތަން އަދި ރޫބީ އަށް ވުރެ އަވަސް ސްކްރިޕްޓިން ލޭންގުއޭޖަކަށް ވާތީ ޕާފޯމަންސް ބޭނުންވާ ޓާސްކްތަކަށް ވަރަށް ބޭނުންތެރި ލައިބްރަރީއެކެވެ.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "ޕެޓްރިކްގެ މައިކްރޮސޮފްޓް އެކްސެލް ސްޕްރެޑްޝީޓް ސްކްރިޕްޓްސް (ވީބީއޭ)",
-        "text": "މައިކްރޮސޮފްޓް އެކްސެލް އަށް ވީބީއޭ ސްކްރިޕްޓްތަކުގެ ބޭނުންތެރި ލައިބްރަރީއެކެވެ. މި ލައިބްރަރީ ބޭނުންކުރަނީ އެކްސެލް ސްޕްރެޑްޝީޓްތަކުގައި ކުރެވޭ މަސައްކަތްތައް އޮޓޮމެޓިކް ކުރުމަށްޓަކައެވެ.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "ޕެޓްރިކްގެ ނިއޯވިމް ކޮންފިގް",
@@ -339,16 +335,6 @@
         "title": "ޕެޓްރިކްގެ މެޕް ޖަނަރޭޓަރެވެ",
         "text": "އެމެރިކާގެ ކައުންޓީ އަދި ސްޓޭޓް މެޕްތައް އުފެއްދުމަށްޓަކައި ޖިއޮޕެންޑާސް އަދި މެޓްޕްލޮޓްލިބް އާއި އެކު ބިނާކޮށްފައިވާ ޕައިތަން ޖިއޮސްޕޭޝަލް ރިޕޯޓިންގ ޓޫލެކެވެ. އެއީ ޖިއޮގްރަފިކް ޑޭޓާ ކިޔޭނެ އެނަލިސިސް އާޓިފަކްޓްތަކަށް ބަދަލުކޮށް، ޑޭޓާ ޕައިޕްލައިން މައިންޑްސެޓެއް ދައްކުވައިދޭ ކަމެކެވެ: ރަނގަޅު ޑޮމެއިން ލައިބްރަރީތައް ހޮވައި، އިންޕުޓްތައް ނޯމަލައިޒްކޮށް، އެ އައުޓްޕުޓްތައް އުފެއްދުން ސާފު ނިންމުންތަކަށް ތާއީދުކުރުން.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "ޕެޓްރިކްގެ ޕަވަރޝެލް ސްކްރިޕްޓް ލައިބްރަރީ އެވެ",
-        "text": "ކުރިއަށް އޮތްތަނުގައި ރިފަރެންސް ކުރުމަށްޓަކައި ޕަވަރޝެލް ސްކްރިޕްޓްތަކުގެ ބޭނުންތެރި ލައިބްރަރީއެކެވެ. $profile ސްކްރިޕްޓް ފީޗާއާއެކު ބޭނުންތެރި، އަޅުގަނޑަކީ ވިންޑޯޒް އޮއެސް ގިނައިން ބޭނުންކުރާ މީހަކަށް ވާތީ، ވިންޑޯޒް ޓާރމިނަލް އިން ޓާސްކްތައް އޮޓޮމެޓިކް ކުރުމަށް މިއީ އިންތިހާއަށް އެހީތެރިވެދޭ ކަމެއް ކަމަށް އަޅުގަނޑަށް ފެނެއެވެ.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "ޕެޓްރިކްގެ ރޫބީ ސްކްރިޕްޓް ލައިބްރަރީ އެވެ",
-        "text": "ކުރިއަށް އޮތްތަނުގައި ބޭނުންކުރެވޭނެ ރޫބީ ސްކްރިޕްޓްތަކުގެ ބޭނުންތެރި ލައިބްރަރީއެކެވެ. ކުރިއަށް އޮތް ރޫބީ އޮން ރޭލްސް ޑިވެލޮޕްމަންޓް ކޮންސެޕްޓްތަކަށް ބޭނުންތެރި.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "ޕީޑީއެފް ސްކިލްސް ބިލްޑަރ",
@@ -365,10 +351,20 @@
         "text": "ކަސްޓަމް ޓޫލްތައް، އާރމަރ، މޮބްސް، ބްލޮކްސް، ޑައިމެންޝަން، އަދި އެހެން އިތުރު ގިނަ ހާއްސަ ފީޗާތައް ގޭމަށް އިތުރުކުރާ Minecraft މޮޑެއް. މައިގަނޑު ގޮތެއްގައި Java އަދި Kotlin އިން ބިނާކުރެވި، Minecraft 1.16 އިން 26.2 އަށް ވާ ވާރޝަންތައް ސަޕޯޓް ކުރެއެވެ.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "ހަރުފަ ކުޅިވަރު",
         "text": "Rust އަދި Macroquad އިން ބިނާކުރެވުނު، WebAssembly އަށް ކޮމްޕައިލް ކުރެވުނު، އަދި HTML5 Canvas މެދުން ރެންޑަރ ކުރެވުނު ޕޮލިޝް ކުރެވުނު ހަރުފަ އިންޖިނެއް. 0.12-ސެކެންޓުގެ ޑެޓަރމިނިސްޓިކް ގޭމް ޓިކްތައް، ސްމޫދް އިންޓަރޕޮލޭޝަންގެ ހެރިމޫވްމަންޓް، ސާފު ގޭމް ފޭޒްތައް، ރެސްޕޮންސިވް ކޮންޓްރޯލް، ކޮލިޜަން އަދި ވިން-ސްޓޭޓް ހެންޑްލިންގ، އަދި ގޭމްގެ ކޯ ރޫލްތައް ކަރަންޓް ކުރާ ފޯކަސް ޓެސްޓް ސޫއިޓެއް ހިމެނެއެވެ.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ޓައިގަރ ޕްރޮގްރާމިންގ ލެންގުއޭޖް",

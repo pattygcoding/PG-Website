@@ -9,6 +9,7 @@
     "snake": "Wasan maciji",
     "portfolio_translator": "Mai Fassarar Fayil",
     "formatter": "Mai duba JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Tuntube Ni",
     "home_description": "sys.root // babban bayani",
     "about_description": "bayanin injiniya // bio da technology",
@@ -320,15 +321,10 @@
         "text": "Fayil ɗin amsa mai ra'ayin samarwa wanda ke kula da isa da isa ga duniya azaman buƙatun injiniya. Ya haɗa da bututun fassarar da za a iya kiyayewa don harsuna 100+, kayan aikin mu'amala da WebAssembly ke goyan baya, ƙirar UI mai amsawa da samun dama, da tsarin gine-ginen aiki. an tsara don girma yayin da ake jigilar sabon aiki.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Laburare mai fa'ida na rubutun Lua don tunani na gaba. Ana amfani da wannan ɗakin karatu don sarrafa ayyuka a cikin rubutun Lua, wanda zai iya zuwa da amfani don ayyuka masu buƙata, saboda Lua yawanci yaren rubutu ne mai sauri fiye da Python da Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Rubutun Rubutun Rubutun (VBA)",
-        "text": "Laburare mai amfani na rubutun VBA don Microsoft Excel. Ana amfani da wannan ɗakin karatu don sarrafa ayyuka a cikin maƙunsar bayanai na Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick's Map Generator",
         "text": "Kayan aikin ba da rahoto na geospatial Python wanda aka gina tare da GeoPandas da Matplotlib don samar da gundumar Amurka da taswirar jihohi. Yana juya bayanan yanki zuwa kayan tarihi masu iya karantawa, yana nuna tunanin bututun bayanai: zaɓi ɗakunan ɗakunan karatu da suka dace, daidaita abubuwan da aka shigar, da samar da abubuwan da zasu iya haifar da. goyi bayan yanke shawara.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Laburare mai fa'ida na rubutun PowerShell don tunani na gaba. Mai amfani tare da fasalin rubutun bayanan $, Na sami wannan yana taimakawa sosai don sarrafa ayyuka daga tashar Windows, saboda ni mai yawan amfani da Windows OS ne.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Laburare mai amfani na rubutun Ruby don tunani na gaba. Yana da amfani ga tunanin ci gaban Ruby akan Rails na gaba.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Mod na Minecraft wanda ke ƙara kayan aiki na musamman, sulke, mobs, blocks, girma, da sauran ayyuka da yawa a wasan. An gina shi da farko tare da Java da Kotlin, yana tallafawa nau'ikan Minecraft 1.16 zuwa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Wasan maciji",
         "text": "Injin Maciji mai kyau wanda aka gina tare da Rust da Macroquad, haɗe zuwa WebAssembly, kuma ana nuna shi ta hanyar HTML5 Canvas. Yana haɗa ticking na wasa na 0.12-seconds da motsi mai santsi, bayyanannun matakan wasa, sarrafawa mai sauri, sarrafa karo da yanayin nasara, da kuma cikakken saitin gwaji wanda ya rufe tsarin wasan na asali.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",

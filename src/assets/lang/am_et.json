@@ -9,6 +9,7 @@
     "snake": "እባብ ጨዋታ",
     "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
     "formatter": "JSON እና YAML ፍተሻ",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "አግኙኝ።",
     "home_description": "sys.root // ዋና አጠቃላይ እይታ",
     "about_description": "የመሐንዲስ መገለጫ // ባዮ እና ቴክኖሎጂ ስብስብ",
@@ -320,15 +321,10 @@
         "text": "ተደራሽነትን እና ዓለም አቀፋዊ ተደራሽነትን እንደ የምህንድስና መስፈርቶች የሚይዝ የምርት አእምሮ ያለው React ፖርትፎሊዮ። ለ100+ ቋንቋዎች ሊቆይ የሚችል የትርጉም ቧንቧ መስመር፣ በWebAssembly የሚደገፉ መስተጋብራዊ መሳሪያዎችን፣ ምላሽ ሰጭ እና ተደራሽ የUI ቅጦችን እና የፕሮጀክት አርክቴክቸርን ያካትታል። አዲስ ሥራ ሲላክ ለማደግ የተነደፈ.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "የፓትሪክ ሉአ ስክሪፕት ቤተ መጻሕፍት",
-        "text": "ለወደፊቱ ማጣቀሻ የሚሆን ጠቃሚ የሉአ ስክሪፕቶች ቤተ-መጽሐፍት። ይህ ቤተ-መጽሐፍት በሉአ ስክሪፕቶች ውስጥ ያሉ ተግባራትን በራስ ሰር ለመስራት ይጠቅማል፣ ይህም ለአፈጻጸም አስፈላጊ ለሆኑ ተግባራት ጠቃሚ ነው፣ ምክንያቱም ሉኣ አብዛኛውን ጊዜ ከፓይዘን እና ከሩቢ የበለጠ ፈጣን የስክሪፕት ቋንቋ ነው።",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "የፓትሪክ የማይክሮሶፍት ኤክሴል የተመን ሉህ ስክሪፕቶች (VBA)",
-        "text": "የማይክሮሶፍት ኤክሴል የVBA ስክሪፕቶች ጠቃሚ ቤተ-መጽሐፍት። ይህ ቤተ-መጽሐፍት በኤክሴል የተመን ሉሆች ውስጥ ሥራዎችን በራስ ሰር ለመሥራት ያገለግላል።",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "የፓትሪክ ኒዮቪም ውቅር",
@@ -339,16 +335,6 @@
         "title": "የፓትሪክ ካርታ አመንጪ",
         "text": "የዩኤስ ካውንቲ እና የግዛት ካርታዎችን ለማመንጨት ከጂኦፓንዳስ እና ማትፕሎትሊብ ጋር የተገነባ የፓይዘን ጂኦስፓሻል ሪፖርት ማድረጊያ መሳሪያ። የጂኦግራፊያዊ መረጃን ወደ ተነባቢ ትንተና ቅርሶች ይለውጣል፣ የውሂብ ማስተላለፊያ መስመር አስተሳሰብን ያሳያል፡ ትክክለኛውን የጎራ ቤተ-መጻሕፍት ይምረጡ፣ ግብዓቶችን መደበኛ ያድርጉት እና ውጤቱን ያመነጫሉ። ግልጽ ውሳኔዎችን ይደግፉ.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "የፓትሪክ ፓወር ሼል ስክሪፕት ቤተ መጻሕፍት",
-        "text": "ጠቃሚ የPowerShell ስክሪፕቶች ለወደፊቱ ማጣቀሻ። በ$ የመገለጫ ስክሪፕት ባህሪ ጠቃሚ ሆኖ አግኝቼዋለሁ፣ እኔ የዊንዶውስ ኦኤስ አዘውትሮ ተጠቃሚ ስለሆንኩ ስራዎችን ከዊንዶውስ ተርሚናል በራስ ሰር ለመስራት በጣም ጠቃሚ ሆኖ አግኝቼዋለሁ።",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "የፓትሪክ ሩቢ ስክሪፕት ቤተ መጻሕፍት",
-        "text": "ለወደፊት ማጣቀሻ ጠቃሚ የሩቢ ስክሪፕቶች ቤተ-መጽሐፍት። ለወደፊቱ Ruby on Rails የእድገት ጽንሰ-ሀሳቦች ጠቃሚ።",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "ፒዲኤፍ ችሎታ ገንቢ",
@@ -365,10 +351,20 @@
         "text": "ብጁ መሳሪያዎችን፣ ትጥቅን፣ ጭራቆችን፣ ብሎኮችን፣ ልኬቶችን እና ሌሎች ብዙ ባህሪያትን ወደ ጨዋታው የሚጨምር የMinecraft ሞድ። በዋናነት በJava እና Kotlin የተገነባ፣ Minecraft ስሪቶችን 1.16 እስከ 26.2 የሚደግፍ።",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "እባብ ጨዋታ",
         "text": "በRust እና Macroquad የተገነባ፣ ወደ WebAssembly የተጠናቀረ እና በHTML5 Canvas የሚቀርብ የተጣራ እባብ ሞተር። ወጥ የሆነ 0.12-ሰከንድ የጨዋታ ቲኮችን ከለሰለሰ የተጠላለፈ እንቅስቃሴ፣ ግልጽ የጨዋታ ደረጃዎች፣ ምላሽ ሰጪ መቆጣጠሪያዎች፣ የግጭት እና የማሸነፍ ሁኔታ አያያዝ እና ዋናዎቹን የጨዋታ ህጎች የሚሸፍን ያተኮረ የሙከራ ስብስብ ያጣምራል።",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ነብር ፕሮግራሚንግ ቋንቋ",

@@ -9,6 +9,7 @@
     "snake": "Hra had",
     "portfolio_translator": "Překladač portfolia",
     "formatter": "Linter JSON a YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Kontaktujte mě",
     "home_description": "sys.root // hlavní přehled",
     "about_description": "profil inženýra // bio a technologie",
@@ -320,15 +321,10 @@
         "text": "Portfolio React zaměřené na produkci, které považuje dostupnost a globální dosah za technické požadavky. Zahrnuje udržovatelný překladový kanál pro více než 100 jazyků, interaktivní nástroje podporované WebAssembly, responzivní a přístupné vzory uživatelského rozhraní a architekturu projektu. navrženy tak, aby rostly s expedicí nového díla.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Užitečná knihovna Lua skriptů pro budoucí použití. Tato knihovna se používá k automatizaci úloh ve skriptech Lua, což se může hodit pro úkoly vyžadující výkon, protože Lua je obvykle rychlejší skriptovací jazyk než Python i Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Užitečná knihovna skriptů VBA pro Microsoft Excel. Tato knihovna se používá k automatizaci úloh v tabulkách Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrikův generátor map",
         "text": "Geoprostorový reportovací nástroj Pythonu vytvořený s GeoPandas a Matplotlib pro generování map okresů a států USA. Přeměňuje geografická data na čitelné analytické artefakty a demonstruje způsob myšlení v oblasti datového potrubí: vyberte správné knihovny domén, normalizujte vstupy a produkujte výstupy, které podporovat jasná rozhodnutí.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Patrick's PowerShell Script Library",
-        "text": "Užitečná knihovna skriptů PowerShell pro budoucí použití. Užitečné s funkcí skriptu $profile, považuji to za nesmírně užitečné pro automatizaci úloh z terminálu Windows, protože jsem častým uživatelem operačního systému Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Patrick's Ruby Script Library",
-        "text": "Užitečná knihovna skriptů Ruby pro budoucí použití. Užitečné pro budoucí vývojové koncepty Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "PDF Skills Builder",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft, který do hry přidává vlastní nástroje, zbroje, moby, bloky, dimenze a mnoho dalších funkcí. Postaven především s Java a Kotlin, s podporou verzí Minecraft 1.16 až 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Hra had",
         "text": "Vyleštěný motor hry Had postavený s Rust a Macroquad, zkompilovaný do WebAssembly a vykreslovaný přes HTML5 Canvas. Kombinuje deterministické herní ticky po 0,12 sekundy s plynulým interpolovaným pohybem, explicitní herní fáze, responzivní ovládání, zpracování kolizí a stavů výhry a cílenou testovací sadu pokrývající základní pravidla hry.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Programovací jazyk Tiger",

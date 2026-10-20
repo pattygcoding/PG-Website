@@ -9,6 +9,7 @@
     "snake": "Logħba tas-serp",
     "portfolio_translator": "Traduttur tal-portafoll",
     "formatter": "Verifikatur JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Ikkuntattjani",
     "home_description": "sys.root // ħarsa ġenerali prinċipali",
     "about_description": "profil tal-inġinier // bijo u teknoloġiji",
@@ -320,15 +321,10 @@
         "text": "Portafoll ta’ React li jaħseb għall-produzzjoni li jittratta l-aċċessibilità u l-firxa globali bħala rekwiżiti ta’ inġinerija. Jinkludi pipeline ta’ traduzzjoni li jista’ jinżamm għal aktar minn 100 lingwa, għodod interattivi appoġġjati minn WebAssembly, mudelli ta’ UI li jirreaġixxu u aċċessibbli, u arkitettura tal-proġett iddisinjat biex jikber hekk kif xogħol ġdid jintbagħat.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Patrick's Lua Script Library",
-        "text": "Librerija utli ta 'skripts Lua għal referenza futura. Din il-librerija tintuża biex jiġu awtomatizzati l-kompiti fl-iskripts Lua, li jistgħu jkunu utli għal kompiti li jeħtieġu prestazzjoni, peress li Lua ġeneralment ikun lingwa ta 'skripts aktar mgħaġġla kemm minn Python kif ukoll minn Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Spreadsheet Scripts ta' Microsoft Excel ta' Patrick (VBA)",
-        "text": "Librerija utli ta 'skripts VBA għal Microsoft Excel. Din il-librerija tintuża biex jiġu awtomatizzati l-kompiti fi spreadsheets Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick's Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Ġeneratur tal-Mappa ta' Patrick",
         "text": "Għodda ta’ rappurtar ġeospazjali Python mibnija b’GeoPandas u Matplotlib biex tiġġenera mapep tal-kontea u tal-istat tal-Istati Uniti. Tibdel id-dejta ġeografika f'artifatti ta' analiżi li jistgħu jinqraw, li turi mentalità ta' pipeline tad-dejta: agħżel il-libreriji tad-dominju t-tajba, innormalizza l-inputs, u tipproduċi outputs li jappoġġjaw deċiżjonijiet ċari.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Il-Librerija tal-Iskrittura PowerShell ta' Patrick",
-        "text": "Librerija utli ta' skripts PowerShell għal referenza futura. Utli mal-karatteristika ta 'script $profile, insib dan ta' għajnuna immens għall-awtomatizzazzjoni tal-kompiti mit-terminal tal-Windows, peress li jien utent frekwenti tal-Windows OS.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Ruby Script Librerija ta' Patrick",
-        "text": "Librerija utli ta' skripts Ruby għal referenza futura. Utli għall-kunċetti ta' żvilupp futuri ta' Ruby on Rails.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Bennej tal-Ħiliet PDF",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft li jżid għodod, armatura, mobs, blokki, dimensjonijiet, u ħafna karatteristiċi oħra personalizzati mal-logħba. Mibni l-aktar ma' Java u Kotlin, li jappoġġja l-verżjonijiet Minecraft 1.16 sa 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Logħba tas-serp",
         "text": "Magna illustrata tas-Serp mibnija ma' Rust u Macroquad, ikkompilata għal WebAssembly, u rrenduta permezz ta' HTML5 Canvas. Tgħaqqad ticks tal-logħba deterministiċi ta' 0.12 sekondi ma' moviment lixx interpolat, fażijiet tal-logħba ċari, kontroll responsiv, trattament ta' ħabtiet u stati ta' rebħa, u sett ta' testijiet iffokat li jkopri r-regoli ewlenin tal-logħba.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",

@@ -9,6 +9,7 @@
     "snake": "Dolanan ula",
     "portfolio_translator": "Penerjemah Portofolio",
     "formatter": "Pemriksa JSON & YAML",
+    "rubix_cube_solver": "Rubik's Cube Solver",
     "contact": "Kontak Aku",
     "home_description": "sys.root // ringkesan utama",
     "about_description": "profil insinyur // bio lan teknologi",
@@ -320,15 +321,10 @@
         "text": "Portofolio React sing mikir babagan produksi sing nganggep aksesibilitas lan jangkauan global minangka syarat teknik. Iki kalebu pipeline terjemahan sing bisa dijaga kanggo 100+ basa, alat interaktif sing didhukung WebAssembly, pola UI sing responsif lan bisa diakses, lan arsitektur proyek. dirancang kanggo tuwuh minangka karya anyar dikirim.",
         "link": "https://www.pattygcoding.com"
       },
-      "lua_library": {
-        "title": "Pustaka Skrip Lua Patrick",
-        "text": "Pustaka skrip Lua sing migunani kanggo referensi ing mangsa ngarep. Pustaka iki digunakake kanggo ngotomatisasi tugas ing skrip Lua, sing bisa migunani kanggo tugas sing mbutuhake kinerja, amarga Lua biasane dadi basa skrip sing luwih cepet tinimbang Python lan Ruby.",
-        "link": "https://scripts.pattygcoding.com/lua"
-      },
-      "excel_scripts": {
-        "title": "Patrick's Microsoft Excel Spreadsheet Scripts (VBA)",
-        "text": "Pustaka skrip VBA sing migunani kanggo Microsoft Excel. Pustaka iki digunakake kanggo ngotomatisasi tugas ing spreadsheet Excel.",
-        "link": "https://scripts.pattygcoding.com/vba"
+      "scripting_library": {
+        "title": "Scripting Library",
+        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
         "title": "Patrick kang Neovim Config",
@@ -339,16 +335,6 @@
         "title": "Patrick kang Peta Generator",
         "text": "Alat pelapor geospasial Python sing dibangun nganggo GeoPandas lan Matplotlib kanggo ngasilake peta kabupaten lan negara bagian AS. Dadi data geografis dadi artefak analisis sing bisa diwaca, nuduhake pola pikir pipa data: pilih perpustakaan domain sing bener, normalake input, lan ngasilake output sing ndhukung keputusan sing jelas.",
         "link": "https://github.com/pattygcoding/Python-Maps"
-      },
-      "powershell_library": {
-        "title": "Pustaka Skrip PowerShell Patrick",
-        "text": "Pustaka skrip PowerShell sing migunani kanggo referensi ing mangsa ngarep. Migunani karo fitur skrip $profile, aku nemokake iki migunani banget kanggo ngotomatisasi tugas saka terminal Windows, amarga aku kerep dadi pangguna OS Windows.",
-        "link": "https://scripts.pattygcoding.com/powershell"
-      },
-      "ruby_library": {
-        "title": "Perpustakaan Skrip Ruby Patrick",
-        "text": "Pustaka skrip Ruby sing migunani kanggo referensi ing mangsa ngarep. Migunani kanggo konsep pembangunan Ruby on Rails ing mangsa ngarep.",
-        "link": "https://scripts.pattygcoding.com/ruby"
       },
       "pdf_builder": {
         "title": "Pambangun Skills PDF",
@@ -365,10 +351,20 @@
         "text": "Mod Minecraft sing nambahake piranti khusus, waja, mobs, blok, dimensi, lan akeh fitur liyane ing game. Dibangun utamane nganggo Java lan Kotlin, ndhukung versi Minecraft 1.16 nganti 26.2.",
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
+      "rubix_cube_solver": {
+        "title": "Rubik's Cube Solver",
+        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "link": "https://arcade.pattygcoding.com/rubik"
+      },
       "snake": {
         "title": "Dolanan ula",
         "text": "Mesin Ula sing polesan dibangun nganggo Rust lan Macroquad, dikompilasi menyang WebAssembly, lan dirender liwat HTML5 Canvas. Iki gabungke tick game deterministik 0.12 detik karo gerakan interpolasi sing lancar, fase game sing jelas, kontrol responsif, penanganan tabrakan lan status menang, lan suite tes fokus sing nyakup aturan inti game.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "rustcraft": {
+        "title": "Rustcraft",
+        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Basa Pemrograman Tiger",
