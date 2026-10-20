@@ -50,14 +50,14 @@ My work connects engineering decisions to business outcomes. From a construction
     </td>
   </tr>
   <tr>
-    <td width="120"><img src="https://www.pattygcoding.com/assets/images/alkalab.png" width="90" /></td>
+    <td width="120"><img src="https://www.pattygcoding.com/assets/images/alkalab.svg" width="90" /></td>
     <td>
       <a href="https://arcade.pattygcoding.com/alkalab"><strong>Alkalab</strong></a>: <code>Available Here</code><br />
       A powder-sand chemistry lab built in Rust and compiled to WebAssembly, sodium detonates in water, carbide fizzes acetylene, and lava fuses sand into glass across 32 materials and 40 declarative reaction rules, with pixels rendered straight out of wasm linear memory and no per-frame copies.
     </td>
   </tr>
   <tr>
-    <td width="120"><img src="https://www.pattygcoding.com/assets/images/snake.png" width="90" /></td>
+    <td width="120"><img src="https://www.pattygcoding.com/assets/images/snake.svg" width="90" /></td>
     <td>
       <a href="https://arcade.pattygcoding.com/snake"><strong>Snake</strong></a>: <code>Available Here</code><br />
       A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly and rendered through HTML5 Canvas, with deterministic ticks, smooth interpolation, and a focused test suite.
@@ -69,15 +69,16 @@ My work connects engineering decisions to business outcomes. From a construction
 
 ### Other Notable Builds
 
-- **[Connect Four Language Tree](https://github.com/pattygcoding/Neo-Connect-Four-Language-Tree)**, 130+ implementations of Connect Four across 45 languages and 90 frameworks (React, Rails, ASP.NET, and more)
+- **[Connect Four Language Tree](https://connectfour.pattygcoding.com/)**, 130+ implementations of Connect Four across 45 languages and 90 frameworks (React, Rails, ASP.NET, and more)
 - **[Interop Samples](https://interop.pattygcoding.com/)**, a cross-language interoperability reference spanning 37 host languages and 88 pairings
 - **[Rijndael Encryption](https://encryption.pattygcoding.com/)**, 10+ implementations of Rijndael (AES) across 128/192/256-bit variants
 - **[Turing Machines](https://turing.pattygcoding.com/)**, 42 implementations demonstrating Turing completeness across 41 languages
+- **[Scripting Library](https://scripts.pattygcoding.com/)**, automation scripts collected by language: VBA for Excel, Lua, PowerShell, Python, and Ruby, each on a page of its own
 - **[Grocery App (Blazor)](https://blazor.pattygcoding.com/)**, .NET 9 Blazor Server app with controller/service/repository boundaries and full test coverage
 - **[Inventory Register](https://github.com/pattygcoding/Restaurant-Inventory-Register)**, Angular 17+ and Node.js POS workflow with RBAC and a mock payment flow
 - **[PayrollOBOL](https://github.com/pattygcoding/PayrollOBOL)**, GnuCOBOL payroll processing with a SQLite double-entry ledger and Svelte dashboard
-- **[JSON & YAML Auto Formatter](https://github.com/pattygcoding/JSON-YAML-Auto-Formatter)**, a real Rust parser compiled to WebAssembly, validating and formatting entirely in-browser
-- **[Biblioteca JSON](https://github.com/pattygcoding/Biblioteca-JSON)**, a Python library catalog exercise backed by JSON data storage
+- **[JSON & YAML Auto Formatter](https://www.pattygcoding.com/formatter)**, a real Rust parser compiled to WebAssembly, validating and formatting entirely in-browser
+- **[Portfolio Translator](https://www.pattygcoding.com/languages)**, the site's 100+ language pipeline with URL-based language switching and an interactive world map
 
 ---
 

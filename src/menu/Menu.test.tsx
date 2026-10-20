@@ -67,7 +67,13 @@ test("expands all project links and closes after selecting one", () => {
 	const projects = container.querySelector<HTMLElement>('[aria-controls="menu-projects"]')!;
 	act(() => projects.click());
 	expect(projects.getAttribute("aria-expanded")).toBe("true");
-	const arcade = container.querySelector<HTMLElement>(".atlas-menu__project-toggle")!;
+	const arcade = container.querySelector<HTMLElement>('[aria-controls="menu-project-arcade"]')!;
+	const arcadeHome = container.querySelector<HTMLAnchorElement>(".atlas-menu__project-landing")!;
+	// The row opens the subprojects; the arcade site itself is on the button beside it.
+	expect(arcade.tagName).toBe("BUTTON");
+	expect(arcade.className).toContain("atlas-menu__group-toggle--with-link");
+	expect(arcadeHome.getAttribute("href")).toBe("https://arcade.pattygcoding.com");
+	expect(arcadeHome.getAttribute("target")).toBe("_blank");
 	expect(arcade.getAttribute("aria-expanded")).toBe("false");
 	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "/formatter", "/languages", "https://scripts.pattygcoding.com/", "/tiger"]);
 	act(() => arcade.click());
@@ -89,12 +95,14 @@ test("opens the scripting library on its own site in a new tab", () => {
 test("expands the framework trees dropdown into its subdomain links", () => {
 	renderMenu();
 	click('[aria-controls="menu-projects"]');
-	// A group with no landing page is its own dropdown: no anchor, one expander.
-	const group = container.querySelector<HTMLElement>(".atlas-menu__group-toggle")!;
+	// Every group's row is its own dropdown; Framework Trees has no landing page,
+	// so it carries no link beside it either.
+	const group = container.querySelector<HTMLElement>('[aria-controls="menu-project-framework_trees"]')!;
 	// Framework Trees is a dropdown, not a link: its row carries no anchor of its own.
 	const rows = container.querySelectorAll("#menu-projects > li");
 	expect(rows[1].querySelector("a")).toBeNull();
 	expect(rows[1].querySelector(".atlas-menu__group-toggle")).toBe(group);
+	expect(rows[1].querySelector(".atlas-menu__project-landing")).toBeNull();
 	expect(group.getAttribute("aria-expanded")).toBe("false");
 	expect(group.getAttribute("aria-controls")).toBe("menu-project-framework_trees");
 	expect(container.querySelector("#menu-project-framework_trees")).toBeNull();
