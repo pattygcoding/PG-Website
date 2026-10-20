@@ -1,6 +1,6 @@
 import type { IconType } from "react-icons";
 import { GiConsoleController } from "react-icons/gi";
-import { VscTerminal, VscGlobe, VscJson } from "react-icons/vsc";
+import { VscTerminal, VscGlobe, VscJson, VscFileCode } from "react-icons/vsc";
 import { TbArrowsLeftRight, TbCpu, TbGridDots, TbLock, TbSitemap } from "react-icons/tb";
 import { Blocks, FlaskConical, Gamepad2, Pickaxe } from "./lucide-icons";
 import l from "@/assets/links/links.json";
@@ -40,5 +40,6 @@ export const projects: ProjectCatalogEntry[] = [
 	},
 	{ key: "formatter", path: l.menu.formatter, icon: VscJson },
 	{ key: "portfolio_translator", path: l.menu.languages, icon: VscGlobe },
+	{ key: "scripting_library", path: l.scripts.home, icon: VscFileCode, external: true },
 	{ key: "tiger", path: l.menu.tiger, icon: VscTerminal },
 ];

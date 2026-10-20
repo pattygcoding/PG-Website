@@ -69,13 +69,21 @@ test("expands all project links and closes after selecting one", () => {
 	expect(projects.getAttribute("aria-expanded")).toBe("true");
 	const arcade = container.querySelector<HTMLElement>(".atlas-menu__project-toggle")!;
 	expect(arcade.getAttribute("aria-expanded")).toBe("false");
-	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "/formatter", "/languages", "/tiger"]);
+	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "/formatter", "/languages", "https://scripts.pattygcoding.com/", "/tiger"]);
 	act(() => arcade.click());
 	expect(arcade.getAttribute("aria-expanded")).toBe("true");
-	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "https://arcade.pattygcoding.com/alkalab", "https://arcade.pattygcoding.com/rustcraft", "https://arcade.pattygcoding.com/snake", "https://arcade.pattygcoding.com/suprememc", "/formatter", "/languages", "/tiger"]);
+	expect(Array.from(container.querySelectorAll("#menu-projects a"), (link: Element) => link.getAttribute("href"))).toEqual(["https://arcade.pattygcoding.com", "https://arcade.pattygcoding.com/alkalab", "https://arcade.pattygcoding.com/rustcraft", "https://arcade.pattygcoding.com/snake", "https://arcade.pattygcoding.com/suprememc", "/formatter", "/languages", "https://scripts.pattygcoding.com/", "/tiger"]);
 	click('#menu-projects a[href="/formatter"]');
 	expect(container.querySelector(".atlas-menu")).toBeNull();
 	expect(document.body.classList.contains("ovhidden")).toBe(false);
+});
+
+test("opens the scripting library on its own site in a new tab", () => {
+	renderMenu();
+	click('[aria-controls="menu-projects"]');
+	const library = container.querySelector<HTMLAnchorElement>('#menu-projects a[href="https://scripts.pattygcoding.com/"]')!;
+	expect(library.getAttribute("target")).toBe("_blank");
+	expect(library.getAttribute("rel")).toBe("noopener noreferrer");
 });
 
 test("expands the framework trees dropdown into its subdomain links", () => {

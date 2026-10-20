@@ -102,8 +102,41 @@ test("turing machine samples keep the names their entries give them", () => {
 	expect(labels.typescript).toBe("Turing Machine (TypeScript)");
 });
 
+/**
+ * The script libraries have a showcase as well, one page per library language,
+ * so each library sample opens its page there (see the Scripting-Library
+ * `docs/links.md` link index). Python's library carries no project card, so its
+ * projects.json entry is the only place its address appears.
+ */
+const SCRIPTS = "https://scripts.pattygcoding.com/";
+const scriptLibraries: Record<string, string> = {
+	excel_scripts: `${SCRIPTS}vba`,
+	lua_library: `${SCRIPTS}lua`,
+	powershell_library: `${SCRIPTS}powershell`,
+	python_library: `${SCRIPTS}python`,
+	ruby_library: `${SCRIPTS}ruby`,
+};
+
+test("script library samples open the showcase instead of GitHub", () => {
+	for (const [group, link] of Object.entries(scriptLibraries)) {
+		expect(projects.filter((sample) => sample.group === group).map((sample) => sample.link)).toEqual([link]);
+	}
+	expect(projects.filter(({ link }) => /(Lua|Powershell|Python|Ruby|Spreadsheet)-Scripts/.test(link))).toEqual([]);
+});
+
 interface LocaleMessages {
-	portfolio: { entries: { interop: { link: string }; rijndael_encryption: { link: string }; turing_machine: { link: string } } };
+	portfolio: {
+		entries: {
+			interop: { link: string };
+			rijndael_encryption: { link: string };
+			turing_machine: { link: string };
+			// The script libraries that carry a project card of their own.
+			excel_scripts: { link: string };
+			lua_library: { link: string };
+			powershell_library: { link: string };
+			ruby_library: { link: string };
+		};
+	};
 }
 
 // The project cards read their links from the locale files, so every one of them
@@ -116,5 +149,16 @@ test("every locale sends the showcase cards to their own site", () => {
 		expect(`${file}: ${messages.portfolio.entries.rijndael_encryption.link}`).toBe(`${file}: ${SHOWCASE}`);
 		expect(`${file}: ${messages.portfolio.entries.interop.link}`).toBe(`${file}: ${INTEROP}`);
 		expect(`${file}: ${messages.portfolio.entries.turing_machine.link}`).toBe(`${file}: ${TURING}`);
+	}
+});
+
+// The script library cards follow the same rule. Python's library has no card of
+// its own, so the four languages that do are the ones whose copy is checked.
+test("every locale sends the script library cards to their own site", () => {
+	const carded = ["excel_scripts", "lua_library", "powershell_library", "ruby_library"] as const;
+	for (const [file, messages] of Object.entries(locales)) {
+		for (const group of carded) {
+			expect(`${file}: ${messages.portfolio.entries[group].link}`).toBe(`${file}: ${scriptLibraries[group]}`);
+		}
 	}
 });
