@@ -27,7 +27,9 @@
     "connect_four": "چار قطار زبان کا درخت",
     "alkalab_description": "کیمسٹری لیب سمولیشن / WASM",
     "rustcraft_description": "Minecraft طرز کا ووکسل کھیل / Rust اور wgpu",
-    "suprememc_description": "Minecraft موڈ شوکیس / Java"
+    "suprememc_description": "Minecraft موڈ شوکیس / Java",
+    "chess_engine": "شطرنج کا انجن",
+    "chess_engine_description": "بٹ بورڈ انجن / WASM اور کارکن"
   },
   "home": {
     "title": "سینئر فل اسٹیک انجینئر | پروڈکٹ اور سسٹمز",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Rust میں بنائی گئی اور WebAssembly میں مرتب کی گئی ایک پاؤڈر-ریت کیمسٹری لیب۔ ریت، پانی، لاوا، سٹیل، کیلشیم کاربائیڈ یا سوڈیم کا ایک ٹکڑا پینٹ کریں اور دیکھیں کہ فزکس اور کیمسٹری کیسے لڑتے ہیں: سوڈیم پانی میں پھٹتا ہے، کیلشیم کاربائیڈ ایسٹیلین خارج کرتا ہے، لاوا ریت کو شیشے میں تبدیل کرتا ہے اور اکیلے کثافت تیل، پارہ اور ریت کو الگ کرتی ہے۔ انجن ایک فلیٹ سیل بفر پر 32 مواد اور 40 اعلانی ردعمل کے اصول چلاتا ہے، پکسلز کو براہ راست wasm لکیری میموری سے بغیر فی فریم کاپی رینڈر کرتا ہے۔",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "شطرنج کا انجن",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

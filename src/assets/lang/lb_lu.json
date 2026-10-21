@@ -27,7 +27,9 @@
     "connect_four": "Sproochebam Véier an enger Rei",
     "alkalab_description": "Chemielabor-Simulatioun / WASM",
     "rustcraft_description": "Voxelspill am Minecraft-Stil / Rust a wgpu",
-    "suprememc_description": "Minecraft-Mod-Schaufenster / Java"
+    "suprememc_description": "Minecraft-Mod-Schaufenster / Java",
+    "chess_engine": "Schachmotor",
+    "chess_engine_description": "bitboard Motor / WASM & Aarbechter"
   },
   "home": {
     "title": "Senior Full-Stack Ingenieur | Produit & Systemer",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "E Pudder-Sand-Chemielabor, gebaut a Rust a kompiléiert op WebAssembly. Mol Sand, Waasser, Lava, Stol, Kalziumkarbid oder e Stéck Natrium a kuck, wéi Physik a Chemie kämpfen: Natrium detonéiert am Waasser, Kalziumkarbid setzt Acetylen fräi, Lava schmëlzt Sand zu Glas, an Dicht eleng trennt Ueleg, Quecksëlwer a Sand. De Motor leeft 32 Materialien an 40 deklarativ Reaktiounsregele iwwer e flaache Zellbuffer, a rendert Pixelen direkt aus dem wasm-lineare Gedächtnis ouni Kopien pro Frame.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Schachmotor",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

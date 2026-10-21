@@ -27,7 +27,9 @@
     "connect_four": "Četri pēc kārtas valodu koks",
     "alkalab_description": "ķīmijas laboratorijas simulācija / WASM",
     "rustcraft_description": "Minecraft stila vokseļu spēle / Rust un wgpu",
-    "suprememc_description": "Minecraft moda vitrīna / Java"
+    "suprememc_description": "Minecraft moda vitrīna / Java",
+    "chess_engine": "Šaha dzinējs",
+    "chess_engine_description": "bitu tāfeles dzinējs / WASM & Worker"
   },
   "home": {
     "title": "Vecākais Full-Stack inženieris | Produkti un sistēmas",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Pulvera-smilšu ķīmijas laboratorija, kas būvēta Rust valodā un kompilēta uz WebAssembly. Krāsojiet smiltis, ūdeni, lavu, tēraudu, kalcija karbīdu vai nātrija gabaliņu un vērojiet, kā fizika un ķīmija cīnās: nātrijs detonē ūdenī, kalcija karbīds izdala acetilēnu, lava pārvērš smiltis stiklā, un tikai blīvums atdala eļļu, dzīvsudrabu un smiltis. Dzinējs apstrādā 32 materiālus un 40 deklaratīvus reakcijas noteikumus pāri plakanam šūnu buferim, atveidojot pikseļus tieši no wasm lineārās atmiņas bez kopēšanas katrā kadrā.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Šaha dzinējs",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

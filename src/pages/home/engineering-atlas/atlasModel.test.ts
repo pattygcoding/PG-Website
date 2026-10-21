@@ -34,7 +34,7 @@ test("connections are bidirectional and stay within intentional project families
     expect(getConnectedProjects("unknown")).toEqual([]);
     expect(getConnectedProjects("suprememc").sort()).toEqual([ATLAS_HUB, "minecraft_json_generator", "rustcraft"].sort());
     expect(getConnectedProjects("rijndael_encryption").sort()).toEqual([ATLAS_HUB, "interop", "connect_four", "turing_machine"].sort());
-    expect(getConnectedProjects("snake").sort()).toEqual([ATLAS_HUB, "alkalab", "formatter", "rubix_cube_solver", "tiger_programming_language"].sort());
+    expect(getConnectedProjects("snake").sort()).toEqual([ATLAS_HUB, "alkalab", "chess_engine", "formatter", "rubix_cube_solver", "tiger_programming_language"].sort());
     expect(getConnectedProjects("scripting_library")).toEqual([ATLAS_HUB]);
     expect(getConnectedProjects("takeoff_engine")).not.toContain("formatter");
     expect(getConnectedProjects("professional_experience")).not.toContain("connect_four");
@@ -81,7 +81,7 @@ test("uses title case for atlas family labels", () => {
 });
 
 test("search uses translated display labels rather than internal identifiers", () => {
-    expect(filterAtlasProjects("all", "WebAssembly", portfolioEntries, atlasSkillLabels).map(({ id }) => id)).toEqual(["formatter", "portfolio_website", "alkalab", "rubix_cube_solver", "snake", "rustcraft", "tiger_programming_language"]);
+    expect(filterAtlasProjects("all", "WebAssembly", portfolioEntries, atlasSkillLabels).map(({ id }) => id)).toEqual(["formatter", "portfolio_website", "alkalab", "chess_engine", "rubix_cube_solver", "snake", "rustcraft", "tiger_programming_language"]);
     expect(filterAtlasProjects("all", ".NET", portfolioEntries, { ...ATLAS_SKILL_LABELS, ...atlasSkillLabels }).map(({ id }) => id)).toContain("grocery_app");
     expect(filterAtlasProjects("all", "Datenfluss", entries, { pipelines: "Datenfluss" })).toHaveLength(3);
 });

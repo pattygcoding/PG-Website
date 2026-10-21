@@ -27,7 +27,9 @@
     "connect_four": "Pokok bahasa Empat Serangkai",
     "alkalab_description": "simulasi makmal kimia / WASM",
     "rustcraft_description": "permainan voxel gaya Minecraft / Rust dan wgpu",
-    "suprememc_description": "pameran mod Minecraft / Java"
+    "suprememc_description": "pameran mod Minecraft / Java",
+    "chess_engine": "Enjin Catur",
+    "chess_engine_description": "enjin papan bit/ WASM & pekerja"
   },
   "home": {
     "title": "Jurutera Timbunan Penuh Kanan | Produk & Sistem",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Makmal kimia pasir-serbuk yang dibina dengan Rust dan dikompil ke WebAssembly. Lukislah pasir, air, lava, keluli, kalsium karbida, atau seketul natrium dan saksikan fizik dan kimia bertarung: natrium meletup dalam air, kalsium karbida mengeluarkan asetilena, lava mencairkan pasir menjadi kaca, dan kepadatan sahaja menyisihkan minyak, merkuri, dan pasir. Enjin memproses 32 bahan dan 40 peraturan tindak balas deklaratif di atas penimbal sel rata, merender piksel terus daripada memori linear wasm tanpa salinan setiap bingkai.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Enjin Catur",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

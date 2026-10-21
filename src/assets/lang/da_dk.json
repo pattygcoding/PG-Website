@@ -27,7 +27,9 @@
     "connect_four": "Fire på stribe-sprogtræ",
     "alkalab_description": "simulering af kemilaboratorium / WASM",
     "rustcraft_description": "Minecraft-lignende voxel-spil / Rust & wgpu",
-    "suprememc_description": "Minecraft-mod showcase / Java"
+    "suprememc_description": "Minecraft-mod showcase / Java",
+    "chess_engine": "Skakmotor",
+    "chess_engine_description": "bitboardmotor/WASM & arbejdstager"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkt & Systemer",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "Et pulversand-kemilaboratorium bygget i Rust og kompileret til WebAssembly. Mal sand, vand, lava, stål, kalciumkarbid eller et stykke natrium, og se fysik og kemi kæmpe: natrium detonerer i vand, kalciumkarbid frigiver acetylen, lava smelter sand til glas, og alene massefylden sorterer olie, kviksølv og sand. Motoren kører 32 materialer og 40 deklarative reaktionsregler på en flad cellebuffer og renderer pixels direkte fra wasm-lagrets lineære hukommelse uden kopier pr. billede.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Skakmotor",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "En skakmaskine skrevet i Rust og kompileret til WebAsċ. Den søger med iterativ uddybning af negamax, alfa-beta beskæring, en 32 MB transpositionstabel og en stille søgning ved bladene; den evaluerer med koniske kvadratiske tabeller og ordrer bevæger sig af MVV-LVA, mordere og historie. Motoren kører i en Web Worker, så brættet aldrig fryser, og dens bevægelsesgenerator kontrolleres i browseren mod de offentliggjorte perft-tællinger - 20, 400, 8,902, 197,281 og 4.865.609 noder for de første fem dybder."
       }
     }
   },

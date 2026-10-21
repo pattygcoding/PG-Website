@@ -27,7 +27,9 @@
     "connect_four": "Coeden iaith Pedwar yn olynol",
     "alkalab_description": "efelychiad labordy cemeg / WASM",
     "rustcraft_description": "gêm voxel arddull Minecraft / Rust a wgpu",
-    "suprememc_description": "arddangosfa mod Minecraft / Java"
+    "suprememc_description": "arddangosfa mod Minecraft / Java",
+    "chess_engine": "Peiriant Gwyddbwyll",
+    "chess_engine_description": "peiriant bitboard / WASM & gweithiwr"
   },
   "home": {
     "title": "Uwch Beiriannydd Pentwr | Cynnyrch a Systemau",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "Labordy cemeg tywod-powdr wedi'i adeiladu mewn Rust a'i gyfuno i WebAssembly. Peintiwch dywod, dŵr, lafa, dur, calsiwm carbid, neu ddarn o sodiwm a gwyliwch ffiseg a chemeg yn ymladd: mae sodiwm yn ffrwydro mewn dŵr, mae calsiwm carbid yn rhyddhau asetylen, mae lafa'n toddi tywod yn wydr, a dim ond dwysedd sy'n gwahanu olew, mercwri, a thywod. Mae'r injan yn rhedeg 32 deunydd a 40 rheol adwaith datganiadol dros ffer es gyfnewid cell wastad, gan rendro picseli yn uniongyrchol o gof llinellol wasm heb gopïau fesul ffrâm.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Peiriant Gwyddbwyll",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Peiriant gwyddbwyll wedi'i ysgrifennu mewn rhwd a'i lunio i WebAssembly. Mae'n chwilio gyda negamax dyfnhau ailadroddol, tocio alffa - beta, tabl trawsosod 32 MB a chwiliad quiescence ar y dail; mae'n gwerthuso gyda thablau darn - sgwâr taprog a gorchmynion symud gan MVVV - LVA, lladdwyr a hanes. Mae'r injan yn rhedeg mewn Gweithiwr Gwe fel nad yw'r bwrdd byth yn rhewi, ac mae ei generadur symud yn cael ei wirio yn y porwr yn erbyn y cyfrifon perfedd cyhoeddedig - 20, 400, 8,902, 197,281 a 4,865,609 nod ar gyfer y pum dyfnder cyntaf."
       }
     }
   },

@@ -27,7 +27,9 @@
     "connect_four": "Keturių eilėje kalbų medis",
     "alkalab_description": "chemijos laboratorijos simuliacija / WASM",
     "rustcraft_description": "Minecraft stiliaus vokselių žaidimas / Rust ir wgpu",
-    "suprememc_description": "Minecraft modų vitrina / Java"
+    "suprememc_description": "Minecraft modų vitrina / Java",
+    "chess_engine": "Šachmatų Variklis",
+    "chess_engine_description": "duomenų lentos variklis / WASM ir darbuotojas"
   },
   "home": {
     "title": "Vyresnysis pilno krūvio inžinierius | Produktai ir sistemos",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Miltelių-smėlio chemijos laboratorija, sukurta Rust ir kompiliuota į WebAssembly. Pieškite smėlį, vandenį, lavą, plieną, kalcio karbidą ar natrio gabalėlį ir stebėkite, kaip fizika bei chemija kovoja: natris detonuoja vandenyje, kalcio karbidas išskiria acetileną, lava paverčia smėlį stiklu, o vien tankis atskiria alyvą, gyvsidabrį ir smėlį. Variklis apdoroja 32 medžiagas ir 40 deklaratyvių reakcijos taisyklių per plokščią ląstelių buferį, atvaizduodamas pikselius tiesiai iš wasm tiesinės atminties be kopijų kadrui.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Šachmatų Variklis",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

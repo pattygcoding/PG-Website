@@ -27,7 +27,9 @@
     "connect_four": "Jezičko stablo „Četiri u nizu“",
     "alkalab_description": "simulacija hemijskog laboratorija / WASM",
     "rustcraft_description": "voxel igra u stilu Minecraft / Rust i wgpu",
-    "suprememc_description": "vitrina moda Minecraft / Java"
+    "suprememc_description": "vitrina moda Minecraft / Java",
+    "chess_engine": "Šahovska mašina",
+    "chess_engine_description": "bitboard engine / WASM & worker"
   },
   "home": {
     "title": "Senior Full-Stack inženjer | Proizvodi i sistemi",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "Hemijski laboratorij od praškastog pijeska izgrađen u Rust i kompajliran u WebAssembly. Bojite pijesak, vodu, lavu, čelik, kalcijum-karbid ili komad natrija i gledajte kako se fizika i hemija bore: natrij detonira u vodi, kalcijum-karbid oslobađa acetilen, lava topi pijesak u staklo, a sama gustina razdvaja ulje, živu i pijesak. Motor izvršava 32 materijala i 40 deklarativnih pravila reakcija na ravnom međuspremniku ćelija, prikazujući piksele izravno iz linearne memorije wasm bez kopija po kadru.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Šahovska mašina",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Šahovski motor napisan u Rustu i kompajliran u WebAssembly. Pretražuje sa iterativnim produbljivanjem negamax, alfa-beta obrezivanjem, tablicom transpozicije od 32 MB i pretragom mirovanja na listovima; procjenjuje sa suženim tabelama po komadu i kvadratu i naređuje kretanje putem MVV-LVA, ubica i historije. Motor radi u Web Workeru tako da se ploča nikada ne zamrzava, a generator pokreta se provjerava u pregledniku u odnosu na objavljene brojeve perfta - 20, 400, 8.902, 197.281 i 4.865.609 čvorova za prvih pet dubina."
       }
     }
   },

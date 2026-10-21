@@ -27,7 +27,9 @@
     "connect_four": "Árbol de idiomas de Conecta 4",
     "alkalab_description": "simulación de laboratorio de química / WASM",
     "rustcraft_description": "juego de vóxeles estilo Minecraft / Rust y wgpu",
-    "suprememc_description": "muestra de mod Minecraft / Java"
+    "suprememc_description": "muestra de mod Minecraft / Java",
+    "chess_engine": "Motor de ajedrez",
+    "chess_engine_description": "bitboard engine / WASM & worker"
   },
   "home": {
     "title": "Ingeniero sénior full-stack | Productos y sistemas",
@@ -386,6 +388,10 @@
         "title": "Alkalab",
         "text": "Un laboratorio de química de arena en polvo construido en Rust y compilado a WebAssembly. Pinta arena, agua, lava, acero, carburo de calcio o un trozo de sodio y mira cómo la física y la química luchan: el sodio detona en el agua, el carburo de calcio burbujea acetileno, la lava fusiona la arena en vidrio y la densidad sola ordena aceite, mercurio y arena. El motor ejecuta 32 materiales y 40 reglas de reacción declarativas sobre un buffer plano de celdas, renderizando píxeles directamente desde la memoria lineal wasm sin copias por fotograma.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Motor de ajedrez",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

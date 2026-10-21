@@ -27,7 +27,9 @@
     "connect_four": "Arbre linguistique Puissance 4",
     "alkalab_description": "simulation de laboratoire de chimie / WASM",
     "rustcraft_description": "jeu voxel type Minecraft / Rust & wgpu",
-    "suprememc_description": "vitrine de mod Minecraft / Java"
+    "suprememc_description": "vitrine de mod Minecraft / Java",
+    "chess_engine": "Moteur d'échecs",
+    "chess_engine_description": "moteur bitboard/ WASM & travailleur"
   },
   "home": {
     "title": "Ingénieur Full-Stack Sénior | Produit et systèmes",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Un laboratoire de chimie en sable-poudre construit en Rust et compilé en WebAssembly. Peignez du sable, de l'eau, de la lave, de l'acier, du carbure de calcium ou un morceau de sodium et regardez la physique et la chimie s'affronter : le sodium détonne dans l'eau, le carbure de calcium libère de l'acétylène, la lave fond le sable en verre, et la densité seule trie l'huile, le mercure et le sable. Le moteur exécute 32 matériaux et 40 règles de réaction déclaratives sur un tampon de cellules plat, rendant les pixels directement depuis la mémoire linéaire wasm sans copies par image.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Moteur d'échecs",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

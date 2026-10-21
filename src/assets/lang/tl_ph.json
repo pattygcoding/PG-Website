@@ -27,7 +27,9 @@
     "connect_four": "Punong-wika ng Apat na Magkasunod",
     "alkalab_description": "simulasyon ng chemistry lab / WASM",
     "rustcraft_description": "larong voxel na istilo ng Minecraft / Rust at wgpu",
-    "suprememc_description": "pagpapakita ng mod ng Minecraft / Java"
+    "suprememc_description": "pagpapakita ng mod ng Minecraft / Java",
+    "chess_engine": "Chess Engine",
+    "chess_engine_description": "bitcoin & AltCoinsBitcoin, Litecoin, Dash, Ethereumâ €_-15%"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto at Sistema",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Isang chemistry lab ng powder-sand na binuo sa Rust at nakompile sa WebAssembly. Ipinta ang buhangin, tubig, lava, bakal, calcium carbide, o isang tipak ng sodium at panoorin ang pisika at kimika na maglaban: sumasabog ang sodium sa tubig, bumubula ng acetylene ang calcium carbide, tinutunaw ng lava ang buhangin tungo sa salamin, at ang densidad lamang ang nag-aayos ng langis, mercury, at buhangin. Ang engine ay nagpapatakbo ng 32 material at 40 declarative na reaction rules sa isang flat cell buffer, na nagre-render ng mga pixel nang direkta mula sa wasm linear memory nang walang kopya bawat frame.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Chess Engine",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

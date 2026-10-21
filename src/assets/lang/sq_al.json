@@ -27,7 +27,9 @@
     "connect_four": "Pema gjuhësore Katër me radhë",
     "alkalab_description": "simulim laboratori kimie / WASM",
     "rustcraft_description": "lojë voxel në stilin Minecraft / Rust dhe wgpu",
-    "suprememc_description": "vitrinë e modit Minecraft / Java"
+    "suprememc_description": "vitrinë e modit Minecraft / Java",
+    "chess_engine": "Motori i shahut",
+    "chess_engine_description": "motor bitboard / WASM & punëtor"
   },
   "home": {
     "title": "Inxhinier i Lartë i Stack-it të Plotë | Produkti dhe Sistemet",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Laborator kimie me rërë pluhur i ndërtuar në Rust dhe i kompiluar në WebAssembly. Pikturoni rërë, ujë, lavë, çelik, karbid kalciumi ose një copë natrium dhe shikoni fizikën dhe kiminë duke u përballur: natriumi shpërthen në ujë, karbidi i kalciumit lëshon acetilen, lava e kthen rërën në qelq dhe vetëm dendësia ndan vajin, merkurin dhe rërën. Motori përpunon 32 materiale dhe 40 rregulla reaksioni deklarative mbi një bufer të sheshtë qelizash, duke shfaqur pikselët drejtpërdrejt nga memoria lineare e wasm pa kopje për kornizë.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Motori i shahut",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

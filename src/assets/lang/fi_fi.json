@@ -27,7 +27,9 @@
     "connect_four": "Neljän suora -kielipuu",
     "alkalab_description": "kemian laboratorion simulointi / WASM",
     "rustcraft_description": "Minecraft-tyylinen voxelipeli / Rust ja wgpu",
-    "suprememc_description": "Minecraft-modin esittely / Java"
+    "suprememc_description": "Minecraft-modin esittely / Java",
+    "chess_engine": "Shakkikone",
+    "chess_engine_description": "bittilautamoottori/ WASM & työntekijä"
   },
   "home": {
     "title": "Vanhempi Full-Stack-insinööri | Tuotteet ja järjestelmät",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Pulverihiekkainen kemian laboratorio, joka on rakennettu Rustilla ja käännetty WebAssemblyksi. Maalaa hiekkaa, vettä, laavaa, terästä, kalsiumkarbidia tai pala natriumia ja katso, miten fysiikka ja kemia taistelevat: natrium räjähtää vedessä, kalsiumkarbidi kuplii asetyleeniä, laava sulattaa hiekan lasiksi ja pelkkä tiheys lajittelee öljyn, elohopean ja hiekan. Moottori ajaa 32 materiaalia ja 40 deklaratiivista reaktiosääntöä tasaisella solupuskurilla ja renderöi pikselit suoraan wasmin lineaarisesta muistista ilman kopioita ruutua kohti.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Shakkikone",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

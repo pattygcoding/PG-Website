@@ -27,7 +27,9 @@
     "connect_four": "Dörd birlikdə dil ağacı",
     "alkalab_description": "kimya laboratoriyası simulyasiyası / WASM",
     "rustcraft_description": "Minecraft tipli voksel oyunu / Rust və wgpu",
-    "suprememc_description": "Minecraft modu vitrini / Java"
+    "suprememc_description": "Minecraft modu vitrini / Java",
+    "chess_engine": "Şahmat Mühərriki",
+    "chess_engine_description": "bitboard mühərriki / WASM və işçi"
   },
   "home": {
     "title": "Baş Tam Stack Mühəndisi | Məhsul və Sistemlər",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "Rust ilə qurulmuş və WebAssembly-ə kompilyasiya edilmiş toz qum kimya laboratoriyası. Qum, su, lava, polad, kalsium-karbid və ya bir parça natrium çəkin və fizika ilə kimyanın necə döyüşdüyünü izləyin: natrium suda partlayır, kalsium-karbid asetilen çıxarır, lava qumu şüşəyə çevirir və tək sıxlıq yağı, civəni və qumu ayırır. Mühərrik düz hüceyrə buferi üzərində 32 material və 40 deklarativ reaksiya qaydası işlədir, pikselləri kare başına surətsiz birbaşa wasm xətti yaddaşından göstərir.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Şahmat Mühərriki",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Rustda yazılmış və WebAssembly-a tərtib edilmiş şahmat mühərriki. O, itisürətli dərinləşən negamax, alfa-beta budama, 32 MB-lıq transpozisiya cədvəli və yarpaqlarda dördlük axtarışı ilə axtarış edir; kranlı parça-parça cədvəlləri ilə qiymətləndirir və sifarişlər MVV-LVA, killers və tarixi ilə hərəkət edir. Mühərrik Web Worker-də işləyir, belə ki, lövhə heç vaxt donmur və onun hərəkət generatoru brauzerdə dərc edilmiş perft sayına qarşı yoxlanılır - 20, 400, 8,902, 197,281 və İlk beş dərinlik üçün 4,865,609 düyün."
       }
     }
   },

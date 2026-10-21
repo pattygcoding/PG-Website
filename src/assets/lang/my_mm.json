@@ -27,7 +27,9 @@
     "connect_four": "လေးတန်း ဘာသာစကားသစ်ပင်",
     "alkalab_description": "ဓာတုဗေဒ ဓာတ်ခွဲခန်း simulation / WASM",
     "rustcraft_description": "Minecraft ပုံစံ voxel ဂိမ်း / Rust နှင့် wgpu",
-    "suprememc_description": "Minecraft mod ပြသမှု / Java"
+    "suprememc_description": "Minecraft mod ပြသမှု / Java",
+    "chess_engine": "စစ်တုရင်အင်ဂျင်",
+    "chess_engine_description": "bitboard အင်ဂျင် / WASM & အလုပ်သမား"
   },
   "home": {
     "title": "အကြီးတန်း Full-Stack အင်ဂျင်နီယာ | ထုတ်ကုန် & စနစ်များ",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Rust ဖြင့် တည်ဆောက်ပြီး WebAssembly သို့ compile လုပ်ထားသော မှုန့်-သဲ ဓာတုဗေဒ ဓာတ်ခွဲခန်း။ သဲ၊ ရေ၊ ချော်ရည်၊ သံမဏိ၊ ကယ်လစီယမ်ကာဘိုက် သို့မဟုတ် ဆိုဒီယမ်တစ်တုံး ဆွဲပြီး ရူပဗေဒနှင့် ဓာတုဗေဒ မည်သို့ တိုက်ခိုက်ကြသည်ကို ကြည့်ပါ- ဆိုဒီယမ်သည် ရေတွင် ပေါက်ကွဲသည်၊ ကယ်လစီယမ်ကာဘိုက်သည် အက်စီတလင်း ထုတ်လွှတ်သည်၊ ချော်ရည်သည် သဲကို ဖန်အဖြစ် အရည်ပျော်စေပြီး သိပ်သည်းဆတစ်ခုတည်းက ဆီ၊ ပြဒါးနှင့် သဲတို့ကို ခွဲထားသည်။ အင်ဂျင်သည် ပြားချပ်သော cell buffer ပေါ်တွင် ပစ္စည်း 32 ခုနှင့် declarative တုံ့ပြန်မှုစည်းမျဉ်း 40 ခုကို လည်ပတ်ပြီး frame တစ်ခုစီတွင် ကော်ပီမရှိဘဲ wasm linear memory မှ pixels များကို တိုက်ရိုက် render လုပ်သည်။",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "စစ်တုရင်အင်ဂျင်",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

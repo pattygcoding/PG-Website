@@ -27,7 +27,9 @@
     "connect_four": "Connect Four-taalbome",
     "alkalab_description": "chemielaboratorium-simulasie / WASM",
     "rustcraft_description": "Minecraft-styl voxel-speletjie / Rust & wgpu",
-    "suprememc_description": "Minecraft-mod-vertoning / Java"
+    "suprememc_description": "Minecraft-mod-vertoning / Java",
+    "chess_engine": "Skaak enjin",
+    "chess_engine_description": "bitboard enjin / WASM & werker"
   },
   "home": {
     "title": "Senior Full-Stack Ingenieur | Produk & Stelsels",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "'n Poeiersand-chemielaboratorium gebou in Rust en gekompileer na WebAssembly. Verf sand, water, lawa, staal, kalsiumkarbied of 'n klont natrium en kyk hoe die fisika en chemie mekaar beveg: natrium ontplof in water, kalsiumkarbied borrel asetileen, lawa smelt sand tot glas, en digtheid alleen sorteer olie, kwik en sand. Die enjin draai 32 materiale en 40 deklaratiewe reaksiereëls oor 'n plat selbuffer, en lewer pixels reguit uit wasm-lineêre geheue sonder per-raam kopieë.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Skaak enjin",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "'N skaak enjin geskryf in Rust en saamgestel om WebAssembly. Dit soek met iteratiewe verdieping negamax, alfa-beta snoei, 'n 32 MB transposisie tafel en 'n quiescence soektog by die blare; Dit evalueer met tapse stuk-vierkante tafels en bestellings beweeg deur MVV-LVA, moordenaars en geskiedenis. Die enjin loop in 'n Web Werker sodat die raad nooit vries, en sy skuif kragopwekker is nagegaan in die leser teen die gepubliseerde perft tel - 20, 400, 8,902, 197,281 en 4,865,609 knope vir die eerste vyf dieptes."
       }
     }
   },

@@ -27,7 +27,9 @@
     "connect_four": "Fyra i rad-språkträd",
     "alkalab_description": "kemi labbsimulering / WASM",
     "rustcraft_description": "Minecraft-liknande voxelspel / Rust & wgpu",
-    "suprememc_description": "Minecraft-mod showcase / Java"
+    "suprememc_description": "Minecraft-mod showcase / Java",
+    "chess_engine": "Schackmotor",
+    "chess_engine_description": "bitboardmotor/ WASM & arbetare"
   },
   "home": {
     "title": "Senior full-stack ingenjör | Produkt & System",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Ett pulversand-kemilabb byggt i Rust och kompilerat till WebAssembly. Måla sand, vatten, lava, stål, kalciumkarbid eller en bit natrium och se fysik och kemi slåss: natrium detonerar i vatten, kalciumkarbid avger acetylen, lava smälter sand till glas och enbart densitet sorterar olja, kvicksilver och sand. Motorn kör 32 material och 40 deklarativa reaktionsregler över en platt cellbuffert och renderar pixlar direkt från wasm:s linjära minne utan kopior per bildruta.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Schackmotor",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

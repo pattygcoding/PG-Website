@@ -27,7 +27,9 @@
     "connect_four": "Ami négyes nyelvfa",
     "alkalab_description": "kémiai laboratóriumi szimuláció / WASM",
     "rustcraft_description": "Minecraft-stílusú voxeljáték / Rust és wgpu",
-    "suprememc_description": "Minecraft-mod bemutató / Java"
+    "suprememc_description": "Minecraft-mod bemutató / Java",
+    "chess_engine": "Sakkmotor",
+    "chess_engine_description": "bitboard motor / WASM és munkás"
   },
   "home": {
     "title": "Senior Full Stack mérnök | Termékek és rendszerek",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Egy por-homok kémiai laboratórium Rustban építve és WebAssembly-re fordítva. Fess homokot, vizet, lávát, acélt, kalcium-karbidot vagy egy darab nátriumot, és nézd, ahogy a fizika és a kémia megküzd egymással: a nátrium a vízben felrobban, a kalcium-karbid acetilént bocsát ki, a láva a homokot üveggé olvasztja, és önmagában a sűrűség választja szét az olajat, a higanyt és a homokot. A motor 32 anyagot és 40 deklaratív reakciószabályt futtat egy lapos cellapuffer felett, és közvetlenül a wasm lineáris memóriájából renderel pixeleket, képkockánkénti másolatok nélkül.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Sakkmotor",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

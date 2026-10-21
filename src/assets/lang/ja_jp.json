@@ -27,7 +27,9 @@
     "connect_four": "コネクトフォー言語ツリー",
     "alkalab_description": "化学実験室シミュレーション / WASM",
     "rustcraft_description": "Minecraft風ボクセルゲーム / Rust & wgpu",
-    "suprememc_description": "Minecraft MODショーケース / Java"
+    "suprememc_description": "Minecraft MODショーケース / Java",
+    "chess_engine": "チェスエンジン",
+    "chess_engine_description": "bitboardエンジン/WASMおよびワーカー"
   },
   "home": {
     "title": "シニア フルスタック エンジニア |製品とシステム",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Rustで構築しWebAssemblyにコンパイルした粉砂化学実験室。砂、水、溶岩、鋼、炭化カルシウム、またはナトリウムの塊を描くと、物理と化学の攻防が見られる: ナトリウムは水中で爆発し、炭化カルシウムはアセチレンを発し、溶岩は砂をガラスに変え、密度だけで油、水銀、砂が分かれる。エンジンは32の素材と40の宣言的リアクションルールをフラットなセルバッファ上で実行し、フレームごとのコピーなしにwasmの線形メモリから直接ピクセルを描画する。",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "チェスエンジン",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

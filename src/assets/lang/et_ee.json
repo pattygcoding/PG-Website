@@ -27,7 +27,9 @@
     "connect_four": "Neli rida keelepuu",
     "alkalab_description": "keemialabori simulatsioon / WASM",
     "rustcraft_description": "Minecraft-tüüpi vokselimäng / Rust ja wgpu",
-    "suprememc_description": "Minecraft modi vaateaken / Java"
+    "suprememc_description": "Minecraft modi vaateaken / Java",
+    "chess_engine": "Male mootor",
+    "chess_engine_description": "bitiplaadi mootor / WASM ja töötaja"
   },
   "home": {
     "title": "Full-Stack'i vaneminsener | Tooted ja süsteemid",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Pulbri-liiva keemialabor, mis on ehitatud Rust keeles ja kompileeritud WebAssemblyks. Värvige liiva, vett, laavat, terast, kaltsiumkarbiidi või tükikest naatriumi ja vaadake, kuidas füüsika ja keemia võitlevad: naatrium detoneerib vees, kaltsiumkarbiid eraldab atsetüleeni, laava sulatab liiva klaasiks ja ainult tihedus sorteerib õli, elavhõbeda ja liiva. Mootor töötab 32 materjali ja 40 deklaratiivse reaktsioonireegliga üle tasase rakupuhvri, renderdades piksleid otse wasm lineaar-mälust ilma kaadri kohta tehtavate koopiateta.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Male mootor",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

@@ -27,7 +27,9 @@
     "connect_four": "Cây ngôn ngữ Bốn liên tiếp",
     "alkalab_description": "mô phỏng phòng thí nghiệm hóa học / WASM",
     "rustcraft_description": "trò chơi voxel kiểu Minecraft / Rust và wgpu",
-    "suprememc_description": "trưng bày mod Minecraft / Java"
+    "suprememc_description": "trưng bày mod Minecraft / Java",
+    "chess_engine": "Công cụ Cờ vua",
+    "chess_engine_description": "động cơ bitboard / WASM & công nhân"
   },
   "home": {
     "title": "Kỹ sư Full-Stack cấp cao | Sản phẩm & Hệ thống",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Phòng thí nghiệm hóa học cát bột được xây dựng bằng Rust và biên dịch sang WebAssembly. Vẽ cát, nước, dung nham, thép, canxi cacbua hoặc một cục natri và xem vật lý cùng hóa học tranh đấu: natri nổ trong nước, canxi cacbua sủi bọt axetylen, dung nham nung cát thành thủy tinh, và một mình mật độ tách dầu, thủy ngân và cát. Động cơ xử lý 32 vật liệu và 40 quy tắc phản ứng khai báo trên vùng đệm ô phẳng, kết xuất pixel trực tiếp từ bộ nhớ tuyến tính wasm mà không sao chép theo khung hình.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Công cụ Cờ vua",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

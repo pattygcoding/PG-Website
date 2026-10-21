@@ -27,7 +27,9 @@
     "connect_four": "Vier gewinnt Sprachbaum",
     "alkalab_description": "Chemielabor-Simulation / WASM",
     "rustcraft_description": "Minecraft-artiges Voxel-Spiel / Rust & wgpu",
-    "suprememc_description": "Minecraft-Mod-Showcase / Java"
+    "suprememc_description": "Minecraft-Mod-Showcase / Java",
+    "chess_engine": "Schach-Engine",
+    "chess_engine_description": "bitboard-Engine/ WASM & Worker"
   },
   "home": {
     "title": "Leitender Full-Stack-Ingenieur | Produkt & Systeme",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "Ein Pulver-Sand-Chemielabor, in Rust gebaut und zu WebAssembly kompiliert. Male Sand, Wasser, Lava, Stahl, Kalziumkarbid oder ein Stück Natrium und sieh zu, wie Physik und Chemie kämpfen: Natrium detoniert in Wasser, Kalziumkarbid sprudelt Acetylen, Lava schmilzt Sand zu Glas, und die Dichte allein sortiert Öl, Quecksilber und Sand. Die Engine verarbeitet 32 Materialien und 40 deklarative Reaktionsregeln über einen flachen Zellpuffer und rendert Pixel direkt aus dem linearen wasm-Speicher ohne Kopien pro Frame.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Schach-Engine",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Eine Schach-Engine, die in Rust geschrieben und in WebAssembly kompiliert wurde. Es sucht mit iterativem Vertiefungsnegamax, Alpha-Beta-Schnitt, einer 32 MB Transpositionstabelle und einer Ruhesuche an den Blättern; es wertet mit konischen Stück-Quadrat-Tabellen aus und befiehlt Züge von MVV-LVA, Killer und Geschichte. Die Engine läuft in einem Web Worker, so dass das Board nie einfriert, und sein Bewegungsgenerator wird im Browser mit den veröffentlichten Perft-Zählungen - 20, 400, 8.902, 197.281 und 4.865.609 Knoten für die ersten fünf Tiefen."
       }
     }
   },

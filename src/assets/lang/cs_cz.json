@@ -27,7 +27,9 @@
     "connect_four": "Jazykový strom Piškvorek",
     "alkalab_description": "simulace chemické laboratoře / WASM",
     "rustcraft_description": "voxelová hra ve stylu Minecraft / Rust a wgpu",
-    "suprememc_description": "prezentace módu Minecraft / Java"
+    "suprememc_description": "prezentace módu Minecraft / Java",
+    "chess_engine": "Šachový stroj",
+    "chess_engine_description": "bitboardový motor / WASM a pracovník"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkt a systémy",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "Chemická laboratoř z práškového písku postavená v Rustu a zkompilovaná do WebAssembly. Malujte písek, vodu, lávu, ocel, karbid vápenatý nebo kus sodíku a sledujte, jak spolu fyzika a chemie bojují: sodík detonuje ve vodě, karbid vápenatý uvolňuje acetylen, láva taví písek ve sklo a samotná hustota třídí olej, rtuť a písek. Motor běží na 32 materiálech a 40 deklarativních reakčních pravidlech na plochém buněčném bufferu a vykresluje pixely přímo z lineární paměti wasm bez kopií na snímek.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Šachový stroj",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Šachový engine napsaný v jazyce Rust a zkompilovaný do WebAssembly. Vyhledává pomocí iteračního prohlubování negamax, alfa-beta prořezávání, 32 MB transpoziční tabulky a klidového vyhledávání na listech; vyhodnocuje pomocí zúžených čtvercových tabulek a objednává pohyby MVV-LVA, zabijáky a historii. Motor běží ve Web Workeru tak, aby deska nikdy nezamrzla a její tahový generátor je v prohlížeči kontrolován proti publikovaným perftovým počtům - 20, 400, 8 902, 197 281 a 4 865 609 uzlů pro prvních pět hloubek."
       }
     }
   },

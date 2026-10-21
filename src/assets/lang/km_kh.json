@@ -27,7 +27,9 @@
     "connect_four": "ដើមឈើភាសា បួនតម្រៀប",
     "alkalab_description": "ក្លែងធ្វើមន្ទីរពិសោធន៍គីមី / WASM",
     "rustcraft_description": "ល្បែង voxel រចនាប័ទ្ម Minecraft / Rust និង wgpu",
-    "suprememc_description": "ការតាំងបង្ហាញម៉ូដ Minecraft / Java"
+    "suprememc_description": "ការតាំងបង្ហាញម៉ូដ Minecraft / Java",
+    "chess_engine": "ម៉ាស៊ីនអុក",
+    "chess_engine_description": "ម៉ាស៊ីន bitboard / WASM & កម្មករ"
   },
   "home": {
     "title": "វិស្វករពេញជង់ជាន់ខ្ពស់ | ផលិតផល និងប្រព័ន្ធ",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "មន្ទីរពិសោធន៍គីមីខ្សាច់ម្សៅដែលបង្កើតជាមួយ Rust និងចងក្រងទៅ WebAssembly។ លាបខ្សាច់ ទឹក កម្អែភ្នំភ្លើង ដែក calcium carbide ឬដុំសូដ្យូម និងមើលរបៀបដែលរូបវិទ្យា និងគីមីវិទ្យាប្រយុទ្ធគ្នា៖ សូដ្យូមផ្ទុះក្នុងទឹក calcium carbide បញ្ចេញ acetylene កម្អែរលាយខ្សាច់ទៅជាកែវ ហើយដង់ស៊ីតេតែមួយគត់បំបែកប្រេង បារត និងខ្សាច់។ ម៉ាស៊ីនដំណើរការសម្ភារៈ 32 និងច្បាប់ប្រតិកម្មប្រកាស 40 លើ buffer កោសិការាបស្មើ ដោយបង្ហាញពីភីកសែលដោយផ្ទាល់ពីអង្គចងចាំលីនេអ៊ែរ wasm ដោយគ្មានការចម្លងក្នុងមួយហ្វ្រេម។",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "ម៉ាស៊ីនអុក",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

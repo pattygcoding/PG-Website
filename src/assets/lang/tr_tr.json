@@ -27,7 +27,9 @@
     "connect_four": "Dört Sıra Dil Ağacı",
     "alkalab_description": "kimya laboratuvarı simülasyonu / WASM",
     "rustcraft_description": "Minecraft tarzı voxel oyunu / Rust ve wgpu",
-    "suprememc_description": "Minecraft modu vitrini / Java"
+    "suprememc_description": "Minecraft modu vitrini / Java",
+    "chess_engine": "Satranç Motoru",
+    "chess_engine_description": "bitboard motoru / WASM & işçi"
   },
   "home": {
     "title": "Kıdemli Tam Yığın Mühendisi | Ürün ve Sistemler",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Rust ile oluşturulmuş ve WebAssembly'ye derlenmiş bir toz kum kimya laboratuvarı. Kum, su, lav, çelik, kalsiyum karbür veya bir parça sodyum çizin ve fizik ile kimyanın savaşını izleyin: sodyum suda patlar, kalsiyum karbür asetilen kabarcıkları çıkarır, lav kumu cama dönüştürür ve yoğunluk tek başına yağı, cıvayı ve kumu ayırır. Motor, düz bir hücre tamponu üzerinde 32 malzeme ve 40 bildirime dayalı reaksiyon kuralı çalıştırır ve pikselleri kare başına kopya olmadan doğrudan wasm doğrusal belleğinden işler.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Satranç Motoru",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

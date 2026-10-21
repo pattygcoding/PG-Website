@@ -27,7 +27,9 @@
     "connect_four": "Vier op een rij-taalbomen",
     "alkalab_description": "scheikundelab-simulatie / WASM",
     "rustcraft_description": "Minecraft-achtig voxelspel / Rust & wgpu",
-    "suprememc_description": "Minecraft-mod-showcase / Java"
+    "suprememc_description": "Minecraft-mod-showcase / Java",
+    "chess_engine": "Schaakmotor",
+    "chess_engine_description": "bitboard engine / WASM & arbeider"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Producten en systemen",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Een poedersand-chemielab gebouwd in Rust en gecompileerd naar WebAssembly. Schilder zand, water, lava, staal, calciumcarbide of een klontje natrium en kijk hoe fysica en chemie het uitvechten: natrium ontploft in water, calciumcarbide borrelt acetyleen, lava smelt zand tot glas en dichtheid alleen sorteert olie, kwik en zand. De engine draait 32 materialen en 40 declaratieve reactieregels over een platte celbuffer en rendert pixels rechtstreeks uit het lineaire wasm-geheugen zonder kopieën per frame.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Schaakmotor",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

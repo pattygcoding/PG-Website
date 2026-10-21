@@ -27,7 +27,9 @@
     "connect_four": "To—rt qator til daraxti",
     "alkalab_description": "kimyo laboratoriyasi simulyatsiyasi / WASM",
     "rustcraft_description": "Minecraft uslubidagi voksel o’yini / Rust va wgpu",
-    "suprememc_description": "Minecraft mod vitrinasi / Java"
+    "suprememc_description": "Minecraft mod vitrinasi / Java",
+    "chess_engine": "Shaxmat dvigateli",
+    "chess_engine_description": "bitboard dvigateli / WASM va ishchi"
   },
   "home": {
     "title": "Katta to'liq stack muhandisi | Mahsulot va tizimlar",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Rust da qurilgan va WebAssembly ga kompilyatsiya qilingan kukun-qum kimyo laboratoriyasi. Qum, suv, lava, po'lat, kaltsiy karbid yoki bir bo'lak natriy chizing va fizika va kimyo qanday kurashishini tomosha qiling: natriy suvda portlaydi, kaltsiy karbid asetilen chiqaradi, lava qumni shishaga aylantiradi va faqat zichlik moyni, simobni va qumni ajratadi. Dvigatel tekis hujayra buferi ustida 32 material va 40 deklarativ reaktsiya qoidalarini ishga tushiradi, piksellarni to'g'ridan-to'g'ri wasm chiziqli xotirasidan kadrda nusxalarsiz render qiladi.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Shaxmat dvigateli",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

@@ -51,6 +51,7 @@ const skillAliases: Record<string, string> = { reactjs: "react", nodejs: "node",
 export const ATLAS_SKILL_LABELS: Record<string, string> = Object.fromEntries(Object.values(skillsData).flat().map(({ id, name }) => [skillAliases[id] || id, name]));
 const domains: Record<string, string> = {
     connect_four: "experiences", alkalab: "experiences", snake: "experiences", suprememc: "experiences", rustcraft: "experiences",
+    chess_engine: "experiences",
     tiger_tailgating_pros: "products", educational_experience: "experiences", professional_experience: "experiences", rubix_cube_solver: "experiences",
 };
 // Projects without an on-site route fall back to their portfolio entry link.
@@ -60,7 +61,7 @@ export const ATLAS_HUB = "portfolio_website";
 export const ATLAS_FAMILIES: AtlasFamily[] = [
     { id: "business", projects: ["takeoff_engine", "inventory_register", "grocery_app", "payrollobol", "tiger_tailgating_pros"] },
     { id: "minecraft", projects: ["suprememc", "minecraft_json_generator", "rustcraft"] },
-    { id: "wasm", projects: ["formatter", "alkalab", "snake", "tiger_programming_language", "rubix_cube_solver"] },
+    { id: "wasm", projects: ["formatter", "alkalab", "chess_engine", "snake", "tiger_programming_language", "rubix_cube_solver"] },
     { id: "libraries", projects: ["scripting_library"] },
     { id: "languages", projects: ["interop", "connect_four", "turing_machine", "rijndael_encryption"] },
     { id: "automation", projects: ["biblioteca", "python_maps", "pdf_builder", "neovim_config"] },
@@ -80,12 +81,16 @@ export const ATLAS_PROJECTS: AtlasProject[] = projectIds.map((id) => {
     const family = ATLAS_FAMILIES.find((entry) => entry.projects.includes(id));
     const position = family?.projects.indexOf(id) || 0;
     const angle = -Math.PI / 2 + position * Math.PI * 2 / (family?.projects.length || 1);
+    // A family of five fits the ring the original layout used; more members would
+    // crowd the neighbours the map promises never to overlap, so the ring grows with
+    // the family rather than the family being spread thinner.
+    const radiusScale = Math.max(1, ((family?.projects.length || 1) - 1) / 4);
     return {
         id, skills, domain: featured?.domain || domains[id] || "systems", image: id,
         to: featured?.to || routes[id],
         family: family?.id || "portfolio",
-        x: family ? family.x + Math.cos(angle) * 230 / ATLAS_SIZE.width * 100 : 50,
-        y: family ? family.y + Math.sin(angle) * 155 / ATLAS_SIZE.height * 100 : 50,
+        x: family ? family.x + Math.cos(angle) * 230 * radiusScale / ATLAS_SIZE.width * 100 : 50,
+        y: family ? family.y + Math.sin(angle) * 155 * radiusScale / ATLAS_SIZE.height * 100 : 50,
     };
 });
 

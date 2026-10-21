@@ -27,7 +27,9 @@
     "connect_four": "Jezikovno drevo Štirje v vrsto",
     "alkalab_description": "simulacija kemijskega laboratorija / WASM",
     "rustcraft_description": "voxel igra v slogu Minecraft / Rust in wgpu",
-    "suprememc_description": "predstavitev moda Minecraft / Java"
+    "suprememc_description": "predstavitev moda Minecraft / Java",
+    "chess_engine": "Šahovski motor",
+    "chess_engine_description": "bitboard motor / WASM & Worker"
   },
   "home": {
     "title": "Senior Full-Stack inženir | Izdelek in sistemi",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Kemijski laboratorij iz praškastega peska, zgrajen v Rustu in preveden v WebAssembly. Pobarvajte pesek, vodo, lavo, jeklo, kalcijev karbid ali kos natrija in opazujte, kako se fizika in kemija borita: natrij detonira v vodi, kalcijev karbid sprošča acetilen, lava stali pesek v steklo in sama gostota razvrsti olje, živo srebro in pesek. Pogon izvaja 32 materialov in 40 deklarativnih pravil reakcij na ravnem medpomnilniku celic ter upodablja slikovne pike neposredno iz linearnega pomnilnika wasm brez kopij na sličico.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Šahovski motor",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

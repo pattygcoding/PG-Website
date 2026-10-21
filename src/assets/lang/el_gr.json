@@ -27,7 +27,9 @@
     "connect_four": "Δέντρο γλωσσών Τέσσερα στη σειρά",
     "alkalab_description": "προσομοίωση εργαστηρίου χημείας / WASM",
     "rustcraft_description": "παιχνίδι voxel τύπου Minecraft / Rust και wgpu",
-    "suprememc_description": "παρουσίαση mod Minecraft / Java"
+    "suprememc_description": "παρουσίαση mod Minecraft / Java",
+    "chess_engine": "Μηχανή σκακιού",
+    "chess_engine_description": "μηχανή bitboard / WASM & εργαζόμενος"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Προϊόν & Συστήματα",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Ένα εργαστήριο χημείας με σκόνη-άμμο που κατασκευάστηκε σε Rust και μεταγλωττίστηκε σε WebAssembly. Ζωγραφίστε άμμο, νερό, λάβα, χάλυβα, καρβίδιο του ασβεστίου ή ένα κομμάτι νάτριο και παρακολουθήστε τη φυσική και τη χημεία να συγκρούονται: το νάτριο εκρήγνυται στο νερό, το καρβίδιο του ασβεστίου εκλύει ακετυλένιο, η λάβα μετατρέπει την άμμο σε γυαλί και μόνη η πυκνότητα διαχωρίζει λάδι, υδράργυρο και άμμο. Η μηχανή εκτελεί 32 υλικά και 40 δηλωτικούς κανόνες αντίδρασης σε ένα επίπεδο buffer κυψελών, αποδίδοντας εικονοστοιχεία απευθείας από τη γραμμική μνήμη wasm χωρίς αντιγραφές ανά καρέ.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Μηχανή σκακιού",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

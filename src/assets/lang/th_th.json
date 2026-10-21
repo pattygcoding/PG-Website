@@ -27,7 +27,9 @@
     "connect_four": "ต้นไม้ภาษาเกมสี่ต่อ",
     "alkalab_description": "การจำลองห้องปฏิบัติการเคมี / WASM",
     "rustcraft_description": "เกมวอกเซลสไตล์ Minecraft / Rust และ wgpu",
-    "suprememc_description": "โชว์เคสม็อด Minecraft / Java"
+    "suprememc_description": "โชว์เคสม็อด Minecraft / Java",
+    "chess_engine": "เครื่องยนต์หมากรุก",
+    "chess_engine_description": "เครื่องยนต์บิตบอร์ด/WASM และคนงาน"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | ผลิตภัณฑ์และระบบ",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "ห้องปฏิบัติการเคมีทรายผงที่สร้างด้วย Rust และคอมไพล์เป็น WebAssembly วาดทราย น้ำ ลาวา เหล็ก แคลเซียมคาร์ไบด์ หรือโซเดียมชิ้นหนึ่ง แล้วดูฟิสิกส์และเคมีต่อสู้กัน โซเดียมระเบิดในน้ำ แคลเซียมคาร์ไบด์ปล่อยอะเซทิลีน ลาวาหลอมทรายเป็นแก้ว และความหนาแน่นเพียงอย่างเดียวแยกน้ำมัน ปรอท และทราย เอนจินประมวลผล 32 วัสดุและกฎปฏิกิริยาเชิงประกาศ 40 ข้อบนบัฟเฟอร์เซลล์แบน โดยเรนเดอร์พิกเซลโดยตรงจากหน่วยความจำเชิงเส้นของ wasm โดยไม่มีการคัดลอกต่อเฟรม",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "เครื่องยนต์หมากรุก",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

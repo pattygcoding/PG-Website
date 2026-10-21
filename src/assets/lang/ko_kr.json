@@ -27,7 +27,9 @@
     "connect_four": "커넥트 포 언어 트리",
     "alkalab_description": "화학 실험실 시뮬레이션 / WASM",
     "rustcraft_description": "Minecraft풍 복셀 게임 / Rust 및 wgpu",
-    "suprememc_description": "Minecraft 모드 쇼케이스 / Java"
+    "suprememc_description": "Minecraft 모드 쇼케이스 / Java",
+    "chess_engine": "체스 엔진",
+    "chess_engine_description": "비트보드 엔진/WASM 및 작업자"
   },
   "home": {
     "title": "수석 풀스택 엔지니어 | 제품 및 시스템",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Rust로 구축하고 WebAssembly로 컴파일한 분말 모래 화학 실험실. 모래, 물, 용암, 강철, 탄화칼슘 또는 나트륨 덩어리를 그리면 물리와 화학이 싸우는 모습을 볼 수 있습니다. 나트륨은 물에서 폭발하고, 탄화칼슘은 아세틸렌을 내보내며, 용암은 모래를 유리로 녹이고, 밀도만으로 기름·수은·모래가 분리됩니다. 엔진은 평평한 셀 버퍼 위에서 32개 재료와 40개 선언적 반응 규칙을 처리하며, 프레임별 복사 없이 wasm 선형 메모리에서 직접 픽셀을 렌더링합니다.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "체스 엔진",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

@@ -27,7 +27,9 @@
     "connect_four": "Arbore lingvistic Patru la rând",
     "alkalab_description": "simulare laborator de chimie / WASM",
     "rustcraft_description": "joc voxel stil Minecraft / Rust și wgpu",
-    "suprememc_description": "vitrină mod Minecraft / Java"
+    "suprememc_description": "vitrină mod Minecraft / Java",
+    "chess_engine": "Motor de șah",
+    "chess_engine_description": "motor placă bitboard/ WASM și lucrător"
   },
   "home": {
     "title": "Inginer Senior Full-Stack | Produs și sisteme",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Un laborator de chimie cu nisip pudră construit în Rust și compilat în WebAssembly. Pictează nisip, apă, lavă, oțel, carbură de calciu sau o bucată de sodiu și privește fizica și chimia luptându-se: sodiul detonează în apă, carbura de calciu eliberează acetilenă, lava topește nisipul în sticlă, iar densitatea singură sortează uleiul, mercurul și nisipul. Motorul rulează 32 de materiale și 40 de reguli de reacție declarative peste un tampon plat de celule, redând pixeli direct din memoria liniară wasm fără copii pe cadru.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Motor de șah",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

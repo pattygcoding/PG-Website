@@ -27,7 +27,9 @@
     "connect_four": "Jazykový strom Štyri v rade",
     "alkalab_description": "simulácia chemického laboratória / WASM",
     "rustcraft_description": "voxelová hra v štýle Minecraft / Rust a wgpu",
-    "suprememc_description": "prezentácia módu Minecraft / Java"
+    "suprememc_description": "prezentácia módu Minecraft / Java",
+    "chess_engine": "Šachový stroj",
+    "chess_engine_description": "bitboardový motor / WASM a pracovník"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkt a systémy",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Chemické laboratórium z práškového piesku postavené v Ruste a skompilované do WebAssembly. Maľujte piesok, vodu, lávu, oceľ, karbid vápenatý alebo kus sodíka a sledujte, ako spolu fyzika a chémia bojujú: sodík detonuje vo vode, karbid vápenatý uvoľňuje acetylén, láva taví piesok na sklo a samotná hustota triedia olej, ortuť a piesok. Motor beží na 32 materiáloch a 40 deklaratívnych pravidlách reakcií na plochom bunkovom buffre a vykresľuje pixely priamo z lineárnej pamäte wasm bez kópií na snímok.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Šachový stroj",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

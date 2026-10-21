@@ -8,6 +8,7 @@
     "arcade": "Arcade",
     "tiger": "Tiger - A Custom Programming Language",
     "alkalab": "Alkalab",
+    "chess_engine": "Chess Engine",
     "rustcraft": "Rustcraft",
     "snake": "Snake Game",
     "suprememc": "SupremeMC Minecraft Mod",
@@ -28,6 +29,7 @@
     "tiger_description": "custom compiler & AST visualizer",
     "snake_description": "classic arcade game / WASM",
     "alkalab_description": "chemistry lab simulation / WASM",
+    "chess_engine_description": "bitboard engine / WASM & worker",
     "rustcraft_description": "Minecraft-style voxel game / Rust & wgpu",
     "suprememc_description": "Minecraft mod showcase / Java",
     "portfolio_translator_description": "100+ language matrix & i18n",
@@ -362,6 +364,11 @@
         "title": "Alkalab",
         "text": "A powder-sand chemistry lab built in Rust and compiled to WebAssembly. Paint sand, water, lava, steel, calcium carbide, or a lump of sodium and watch the physics and chemistry fight it out: sodium detonates in water, calcium carbide fizzes acetylene, lava fuses sand into glass, and density alone sorts oil, mercury, and sand. The engine runs 32 materials and 40 declarative reaction rules over a flat cell buffer, rendering pixels straight out of wasm linear memory with no per-frame copies.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Chess Engine",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths.",
+        "link": "https://arcade.pattygcoding.com/chess"
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube Solver",

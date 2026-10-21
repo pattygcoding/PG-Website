@@ -27,7 +27,9 @@
     "connect_four": "Drzewo języków Czterech w rzędzie",
     "alkalab_description": "symulacja laboratorium chemicznego / WASM",
     "rustcraft_description": "gra wokselowa w stylu Minecraft / Rust i wgpu",
-    "suprememc_description": "prezentacja moda Minecraft / Java"
+    "suprememc_description": "prezentacja moda Minecraft / Java",
+    "chess_engine": "Mechanizm szachowy",
+    "chess_engine_description": "silnik bitboardowy / WASM i pracownik"
   },
   "home": {
     "title": "Starszy inżynier pełnoetatowy | Produkty i systemy",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Laboratorium chemiczne z proszkowego piasku zbudowane w Rust i skompilowane do WebAssembly. Maluj piasek, wodę, lawę, stal, węglik wapnia lub kawałek sodu i obserwuj, jak walczą fizyka i chemia: sód detonuje w wodzie, węglik wapnia wydziela acetylen, lawa topi piasek w szkło, a sama gęstość rozdziela olej, rtęć i piasek. Silnik przetwarza 32 materiały i 40 deklaratywnych reguł reakcji na płaskim buforze komórek, renderując piksele bezpośrednio z liniowej pamięci wasm bez kopii na klatkę.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Mechanizm szachowy",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

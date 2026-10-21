@@ -27,7 +27,9 @@
     "connect_four": "አራት ማገናኘት የቋንቋ ዛፍ",
     "alkalab_description": "የኬሚስትሪ ላብራቶሪ ማስመሰል / WASM",
     "rustcraft_description": "Minecraft ዓይነት ቮክስል ጨዋታ / Rust እና wgpu",
-    "suprememc_description": "Minecraft ሞድ ማሳያ / Java"
+    "suprememc_description": "Minecraft ሞድ ማሳያ / Java",
+    "chess_engine": "የቼዝ ሞተር",
+    "chess_engine_description": "ቢትቦርድ ሞተር / WASM & ሰራተኛ"
   },
   "home": {
     "title": "ሲኒየር ሙሉ-ቁልል መሐንዲስ | ምርት እና ስርዓቶች",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "በRust የተገነባ እና ወደ WebAssembly የተጠናቀረ የዱቄት-አሸዋ ኬሚስትሪ ላብራቶሪ። አሸዋ፣ ውሃ፣ ላቫ፣ ብረት፣ የካልሲየም ካርቦይድ ወይም አንድ የሶዲየም ቁራጭ ይቀቡ እና ፊዚክስ እና ኬሚስትሪ ሲታገሉ ይመልከቱ፡ ሶዲየም በውሃ ውስጥ ይፈነዳል፣ ካልሲየም ካርቦይድ አሴቲሊን ያፈላል፣ ላቫ አሸዋን ወደ ብርጭቆ ይለውጣል፣ እና ጥግግት ብቻ ዘይትን፣ ሜርኩሪን እና አሸዋን ይለያል። ሞተሩ 32 ቁሶችን እና 40 የማወጃ ምላሽ ህጎችን በጠፍጣፋ ሴል ቋት ያካሂዳል፣ ፒክስሎችን በቀጥታ ከwasm መስመራዊ ማህደረ ትውስታ ያቀርባል።",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "የቼዝ ሞተር",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "በቼዝ የተፃፈ እና ወደ WebAssembly የተዋሃደ የቼዝ ሞተር ። Iterative ጥልቀት negamax, አልፋ-ቤታ pruning, አንድ 32 ሜባ የመተላለፊያ ሰንጠረዥ እና ቅጠሎች ላይ quiescence ፍለጋ ጋር ይፈለጋል; የታሸገ ቁራጭ-quare ሰንጠረዦች ጋር ይገመግማል እና ትዕዛዞች በ MVV-LVA ፣ ገዳዮች እና ታሪክ ይንቀሳቀሳሉ ። ሞተሩ በድር ሰራተኛ ውስጥ ይሠራል ስለዚህ ቦርዱ በጭራሽ አይቀዘቅዝም ፣ እና አንቀሳቃሹ ጄኔሬተር በታተመው የጥፋተኝነት ቆጠራዎች ላይ በአሳሹ ውስጥ ይፈትሻል - 20, 400, 8,902, 197,281 እና ለመጀመሪያዎቹ አምስት ጥልቀት 4,865,609 ኖዶች ።"
       }
     }
   },

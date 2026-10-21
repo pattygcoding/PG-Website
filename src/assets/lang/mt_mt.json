@@ -27,7 +27,9 @@
     "connect_four": "Siġra tal-lingwi Erbgħa fir-ringiela",
     "alkalab_description": "simulazzjoni ta' laboratorju tal-kimika / WASM",
     "rustcraft_description": "logħba voxel stil Minecraft / Rust u wgpu",
-    "suprememc_description": "wirja tal-mod Minecraft / Java"
+    "suprememc_description": "wirja tal-mod Minecraft / Java",
+    "chess_engine": "Magna taċ-Ċessjoni",
+    "chess_engine_description": "magna bitboard / WASM u ħaddiem"
   },
   "home": {
     "title": "Inġinier Anzjan Full-Stack | Prodott u Sistemi",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Laboratorju tal-kimika ta' ramel-fi trab mibni f'Rust u kkompilat għal WebAssembly. Żebgħa ramel, ilma, lava, azzar, kalċju karbur, jew biċċa sodju u ara kif il-fiżika u l-kimika jiġġieldu: is-sodju jidetonà fl-ilma, il-kalċju karbur jarmi aċetilena, il-lava ddub ir-ramel fi ħġieġ, u d-densità waħedha tissepara żejt, merkurju, u ramel. Il-magna tmexxi 32 materjal u 40 regola ta' reazzjoni dikjarattiva fuq buffer ċatt ta' ċelloli, u tirrendi pixels direttament mill-memorja lineari wasm mingħajr kopji għal kull frame.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Magna taċ-Ċessjoni",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

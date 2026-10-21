@@ -27,7 +27,9 @@
     "connect_four": "Kahoy sa pinulongan Upat nga sunod",
     "alkalab_description": "simulasyon sa lab sa chemistry / WASM",
     "rustcraft_description": "voxel nga dula nga estilo sa Minecraft / Rust ug wgpu",
-    "suprememc_description": "pagpakita sa mod sa Minecraft / Java"
+    "suprememc_description": "pagpakita sa mod sa Minecraft / Java",
+    "chess_engine": "Chess Engine",
+    "chess_engine_description": "makina sa bitboard/ WASM & trabahante"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto ug Sistema",
@@ -385,6 +387,11 @@
         "title": "Alkalab",
         "text": "Usa ka chemistry lab sa pulbos-buhangin nga gitukod sa Rust ug gi-compile sa WebAssembly. Ipinta ang buhangin, tubig, lava, puthaw, calcium carbide, o usa ka piraso sa sodium ug tan-awa kung giunsa pag-away ang physics ug chemistry: ang sodium mobuto sa tubig, ang calcium carbide nagpagawas og acetylene, ang lava natunaw ang buhangin ngadto sa bildo, ug ang densidad lamang ang nagbulag sa lana, mercury, ug buhangin. Ang engine nagpadagan sa 32 nga mga materyal ug 40 nga mga lagda sa reaksyon sa usa ka flat cell buffer, nga nag-render sa mga pixel direkta sa wasm linear memory nga walay mga kopya matag frame.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Chess Engine",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Usa ka makina sa chess nga gisulat sa Rust ug gitigum sa WebAssembly. Gipangita niini ang iterative deepening negamax, alpha-beta pruning, usa ka 32 MB transposition table ug usa ka quiescence search sa mga dahon; kini nagsusi sa tapered piece-square tables ug mga mando nga gipalihok sa MVV-LVA, mga mamumuno ug kasaysayan. Ang makina nagdagan sa usa ka Web Worker aron ang board dili gyud mag-freeze, ug ang generator sa paglihok niini gisusi sa browser kontra sa gipatik nga mga ihap sa perft - 20, 400, 8,902, 197,281 ug 4,865,609 node alang sa unang lima ka giladmon."
       }
     }
   },

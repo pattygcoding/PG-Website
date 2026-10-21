@@ -27,7 +27,9 @@
     "connect_four": "Дөрөв дараалан хэлний мод",
     "alkalab_description": "химийн лабораторийн симуляци / WASM",
     "rustcraft_description": "Minecraft хэв маягийн воксель тоглоом / Rust ба wgpu",
-    "suprememc_description": "Minecraft мод үзүүлэх / Java"
+    "suprememc_description": "Minecraft мод үзүүлэх / Java",
+    "chess_engine": "Шатрын хөдөлгүүр",
+    "chess_engine_description": "bitboard engine / WASM & worker"
   },
   "home": {
     "title": "Ахлах бүрэн стек инженер | Бүтээгдэхүүн ба систем",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Rust-ээр бүтээж WebAssembly руу компилсан нунтаг-элс химийн лаборатори. Элс, ус, лав, ган, кальцийн карбид эсвэл натрийн хэсэг зурж, физик, хими хэрхэн тэмцэж байгааг хар: натри усанд дэлбэрдэг, кальцийн карбид ацетилен ялгаруулдаг, лав элсийг шил болгон хайлдаг, зөвхөн нягтрал нь тос, мөнгөн ус, элсийг ялгадаг. Хөдөлгүүр нь хавтгай эсийн буфер дээр 32 материал, 40 зарлагдсан урвалын дүрмийг ажиллуулж, wasm шугаман санах ойноос фрейм тутамд хуулбаргүй пикселийг шууд дүрсэлдэг.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Шатрын хөдөлгүүр",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

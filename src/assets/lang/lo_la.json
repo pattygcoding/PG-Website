@@ -27,7 +27,9 @@
     "connect_four": "ຕົ້ນໄມ້ພາສາ ສີ່ຕໍ່",
     "alkalab_description": "ຈຳລອງຫ້ອງທົດລອງເຄມີ / WASM",
     "rustcraft_description": "ເກມ voxel ແບບ Minecraft / Rust ແລະ wgpu",
-    "suprememc_description": "ງານວາງສະແດງ mod Minecraft / Java"
+    "suprememc_description": "ງານວາງສະແດງ mod Minecraft / Java",
+    "chess_engine": "ເຄື່ອງຈັກ Chess",
+    "chess_engine_description": "bitboard ເຄື່ອງຈັກ / WASM & ພະນັກງານ"
   },
   "home": {
     "title": "ອາວຸໂສ Full-Stack Engineer | ຜະລິດຕະພັນ & ລະບົບ",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "ຫ້ອງທົດລອງເຄມີຊາຍຜົງທີ່ສ້າງດ້ວຍ Rust ແລະ ແປເປັນ WebAssembly. ທາສີຊາຍ ນໍ້າ ລາວາ ເຫຼັກ calcium carbide ຫຼື ກ້ອນ sodium ແລະ ເບິ່ງວິທີຟີຊິກ ແລະ ເຄມີສາດຕໍ່ສູ້: sodium ລະເບີດໃນນໍ້າ calcium carbide ປ່ອຍ acetylene ລາວາລະລາຍຊາຍກາຍເປັນແກ້ວ ແລະ ຄວາມໜາແໜ້ນຢ່າງດຽວແຍກນໍ້າມັນ mercury ແລະ ຊາຍ. ເຄື່ອງຈັກດຳເນີນການ 32 ວັດສະດຸ ແລະ 40 ກົດປະຕິກິລິຍາທີ່ປະກາດ ເທິງ buffer ເຊລແບນ ສະແດງ pixels ໂດຍກົງຈາກຫນ່ວຍຄວາມຈຳເສັ້ນ wasm ໂດຍບໍ່ມີການສຳເນົາຕໍ່ frame.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "ເຄື່ອງຈັກ Chess",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },

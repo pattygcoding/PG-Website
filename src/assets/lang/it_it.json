@@ -27,7 +27,9 @@
     "connect_four": "Albero linguistico Forza 4",
     "alkalab_description": "simulazione laboratorio di chimica / WASM",
     "rustcraft_description": "gioco voxel stile Minecraft / Rust e wgpu",
-    "suprememc_description": "vetrina mod Minecraft / Java"
+    "suprememc_description": "vetrina mod Minecraft / Java",
+    "chess_engine": "Motore a scacchi",
+    "chess_engine_description": "bitboard engine / WASM & worker"
   },
   "home": {
     "title": "Ingegnere full-stack senior | Prodotti e sistemi",
@@ -385,6 +387,10 @@
         "title": "Alkalab",
         "text": "Un laboratorio di chimica a sabbia in polvere costruito in Rust e compilato in WebAssembly. Dipingi sabbia, acqua, lava, acciaio, carburo di calcio o un pezzo di sodio e osserva fisica e chimica combattersi: il sodio detona in acqua, il carburo di calcio sprigiona acetilene, la lava fonde la sabbia in vetro e la densità da sola ordina olio, mercurio e sabbia. Il motore esegue 32 materiali e 40 regole di reazione dichiarative su un buffer piatto di celle, rendendo i pixel direttamente dalla memoria lineare wasm senza copie per fotogramma.",
         "link": "https://arcade.pattygcoding.com/alkalab"
+      },
+      "chess_engine": {
+        "title": "Motore a scacchi",
+        "link": "https://arcade.pattygcoding.com/chess"
       }
     }
   },
