@@ -1,0 +1,1 @@
+import{n as e,t}from"./jsx-runtime-CXCudH8Z.js";import{t as n}from"./en_us-DJMFinNj.js";e();var r=t(),i=({title:e})=>(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(`title`,{children:`${e} - ${n.tab.title}`}),(0,r.jsx)(`meta`,{name:`description`,content:n.tab.description})]});export{i as t};
