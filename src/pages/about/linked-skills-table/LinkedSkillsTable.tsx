@@ -4,6 +4,7 @@ import { FiArrowDown, FiArrowUpRight, FiBookOpen, FiBriefcase, FiSearch, FiX } f
 import { getLanguageTag, useLang } from "@/lang/languageContext";
 import { useProjectCounts } from "@/lang/interpolateCounts";
 import LangAwareLink from "@/components/lang-aware-link/LangAwareLink";
+import { projectWeights } from "@/assets/projects/rankings";
 import "./LinkedSkillsTable.css";
 
 const EXPERIENCE_GROUPS = ["professional_experience", "educational_experience"];
@@ -148,6 +149,8 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 	const [projectsHaveMore, setProjectsHaveMore] = useState(false);
 	const [query, setQuery] = useState("");
 
+	// The index stays alphabetical: it is how a skill is found, not a ranking. The
+	// ranking shows up in the detail panel below, where a skill's work is ordered.
 	const sortedList = useMemo(() => list
 		.map((skill) => {
 			const seen = new Set<string>();
@@ -191,7 +194,12 @@ const LinkedSkillsTable = ({ id, header, list, projects, entries = {}, skillName
 
 		return {
 			experience,
-			projectGroups: [...groups.entries()].map(([group, samples]) => ({ group, samples, entry: entries[group] })),
+			// The cards, and the sentence the summary builds from them, run down the
+			// project ranking too, so a skill's strongest work is read first.
+			projectGroups: [...groups.entries()]
+				.sort(([first], [second]) => (projectWeights[second] || 0) - (projectWeights[first] || 0)
+					|| (entries[first]?.title ?? first).localeCompare(entries[second]?.title ?? second))
+				.map(([group, samples]) => ({ group, samples, entry: entries[group] })),
 			related: [...related.entries()]
 				.sort((a, b) => b[1] - a[1] || skillNames[a[0]].localeCompare(skillNames[b[0]]))
 				.slice(0, MAX_RELATED)

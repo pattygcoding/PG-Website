@@ -10,6 +10,8 @@ const list = [
 	{ id: "go", name: "Go" },
 	{ id: "cobol", name: "COBOL" },
 ];
+// The groups are real portfolio ids, so the shipped ranking orders the work cards in
+// the detail panel: Connect Four (35) before Snake (10) before the entry (1).
 const projects = [
 	{ label: "PROFESSIONAL EXPERIENCE: Acme", group: "professional_experience", link: "https://example.com/acme", skills: ["python", "docker"] },
 	{ label: "Connect Four (Python)", group: "connect_four", link: "https://example.com/c4/python", skills: ["python"] },
@@ -66,6 +68,35 @@ test("shows grouped details for the selected skill", async () => {
 		expect([...container.querySelectorAll(".skill-related button")].map((b) => b.textContent)).toEqual(["Docker"]);
 	} finally {
 		cleanup();
+	}
+});
+
+test("orders a skill's work by the project ranking, not by the order the samples arrive in", async () => {
+	global.IS_REACT_ACT_ENVIRONMENT = true;
+	// Deliberately listed the other way round, with the professional entry last.
+	const shuffled = [
+		{ label: "Snake", group: "snake", link: "https://example.com/snake", skills: ["python"] },
+		{ label: "Connect Four (Python)", group: "connect_four", link: "https://example.com/c4/python", skills: ["python"] },
+		{ label: "PROFESSIONAL EXPERIENCE: Acme", group: "professional_experience", link: "https://example.com/acme", skills: ["python"] },
+	];
+	const container = document.createElement("div");
+	document.body.appendChild(container);
+	const root = createRoot(container);
+	try {
+		await act(async () => root.render(
+			<MemoryRouter initialEntries={["/about#python"]}>
+				<LanguageProvider>
+					<LinkedSkillsTable id="skills-test" header="Languages" list={list} projects={shuffled} entries={entries} skillNames={skillNames} />
+				</LanguageProvider>
+			</MemoryRouter>
+		));
+		// Connect Four (35) leads Snake (10) whatever order the samples came in, and the
+		// sentence the summary builds reads the same way behind the experience line.
+		expect([...container.querySelectorAll(".skill-project-card__title a")].map((card) => card.textContent)).toEqual(["Connect Four", "Snake"]);
+		expect(container.querySelector(".skill-detail__summary")!.textContent).toBe("Used professionally at Acme. Also applied in Connect Four and Snake.");
+	} finally {
+		act(() => root.unmount());
+		container.remove();
 	}
 });
 
