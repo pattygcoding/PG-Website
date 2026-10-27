@@ -403,3 +403,131 @@
 	}
 }
 
+
+/* ---- Page hero: description copy with the Tiger-vs-CPython chart on the right ---- */
+
+.tiger-hero {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(340px, 480px);
+	gap: 24px 56px;
+	align-items: start;
+}
+
+.tiger-perf-card {
+	margin: 0;
+	padding: 22px 24px 18px;
+	border: 1px solid var(--page-line);
+	border-radius: 12px;
+	background: var(--page-surface);
+	box-shadow: 0 20px 50px -30px rgba(0, 0, 0, 0.9);
+}
+
+.tiger-perf-chart {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: visible;
+	color: var(--page-muted);
+	font: 500 0.72rem/1.45 Consolas, "Courier New", monospace;
+}
+
+.tiger-perf-chart .tiger-perf-title {
+	fill: var(--text-color);
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+}
+
+.tiger-perf-chart .tiger-perf-badge {
+	fill: var(--accent-color);
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.tiger-perf-chart .tiger-perf-subtitle {
+	fill: var(--page-muted);
+	font-size: 11px;
+}
+
+.tiger-perf-chart .tiger-perf-label {
+	fill: var(--page-muted);
+	font-size: 12px;
+}
+
+.tiger-perf-chart .tiger-perf-ratio {
+	fill: var(--text-color);
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.tiger-perf-chart .tiger-perf-rule-label {
+	fill: var(--page-muted);
+	font-size: 10px;
+	letter-spacing: 0.04em;
+}
+
+.tiger-perf-chart .tiger-perf-track {
+	fill: var(--page-muted);
+	opacity: 0.22;
+}
+
+.tiger-perf-chart .tiger-perf-bar {
+	fill: var(--accent-color);
+}
+
+.tiger-perf-chart .tiger-perf-rule {
+	stroke: var(--page-muted);
+	stroke-width: 1;
+	stroke-dasharray: 3 4;
+	opacity: 0.65;
+}
+
+.tiger-perf-caption {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 18px;
+	margin-top: 16px;
+	padding-top: 14px;
+	border-top: 1px solid var(--page-line);
+	color: var(--page-muted);
+	font: 500 0.72rem/1.5 Consolas, "Courier New", monospace;
+}
+
+.tiger-perf-key {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.tiger-perf-swatch {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 2px;
+	background: var(--accent-color);
+}
+
+.tiger-perf-swatch.is-python {
+	background: var(--page-muted);
+	opacity: 0.5;
+}
+
+.tiger-perf-note {
+	width: 100%;
+	color: color-mix(in srgb, var(--text-color) 84%, var(--bg-color));
+}
+
+@media (max-width: 1080px) {
+	.tiger-hero {
+		grid-template-columns: 1fr;
+		gap: 22px;
+	}
+
+	.tiger-perf-card {
+		max-width: 480px;
+	}
+}
+

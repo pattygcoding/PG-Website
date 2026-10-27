@@ -438,7 +438,7 @@
   "tiger": {
     "title": "Tiger Language",
     "legacy_repo": "View legacy Go implementation",
-    "description": "Tiger is a custom programming language and Rust interpreter built to explore runtime architecture, language semantics, and performance tradeoffs. The original Go interpreter remains available as a legacy implementation. Compiling the interpreter to WebAssembly turns that systems work into an interactive, browser-based product: users can execute programs directly while the runtime remains portable and isolated from the host application.",
+    "description": "Tiger is a production-grade custom programming language and a Rust interpreter built for performance. Its compiled bytecode engine and tree-walking reference interpreter stay in lockstep across a 44-program benchmark corpus, and the paired in-process protocol keeps the runtime at or ahead of CPython on every asserted section — performance that competes directly with Python and Ruby for day-to-day scripting. The original Go interpreter remains available as a legacy implementation. Compiling the interpreter to WebAssembly turns that systems work into an interactive, browser-based product: users can execute programs directly while the runtime remains portable and isolated from the host application.",
     "more_info1": "For more information, refer to the README in the",
     "more_info2": "Tiger Programming Language GitHub Repository.",
     "select_engine": "Select Engine:",

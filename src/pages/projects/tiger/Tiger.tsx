@@ -6,6 +6,7 @@ import { useLang } from "@/lang/languageContext";
 import l from '@/assets/links/links.json';
 import { tokenize } from "./highlight";
 import { createInputChannel, type InputChannel } from "./inputChannel";
+import PerformanceChart from "./PerformanceChart";
 import "./Tiger.css";
 import "@/components/page-shell/PageShell.css";
 
@@ -244,7 +245,10 @@ const Tiger = () => {
 				<header className="page-heading">
 						<div className="page-eyebrow"><span>Tiger</span></div>
 						<h1>{t("tiger.title")}</h1>
-						<p>{t("tiger.description")}</p>
+						<div className="tiger-hero">
+							<p>{t("tiger.description")}</p>
+							<PerformanceChart className="tiger-hero-chart" />
+						</div>
 						<div className="tiger-repo-actions">
 							<RepoButton href={l.tiger} />
 							<RepoButton href={l.tiger_legacy_go} label={t("tiger.legacy_repo")} variant="secondary" />
