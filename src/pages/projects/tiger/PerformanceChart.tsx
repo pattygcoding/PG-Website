@@ -47,7 +47,7 @@ const PerformanceChart = ({ className }: PerformanceChartProps) => (
 			role="img"
 			aria-label="Tiger versus CPython: every asserted protocol section is at or ahead of CPython"
 		>
-			<title>Tiger vs CPython — every asserted protocol section at or ahead of CPython</title>
+			<title>Tiger vs CPython: every asserted protocol section at or ahead of CPython</title>
 
 			<text className="tiger-perf-title" x={0} y={22}>
 				Tiger vs CPython
