@@ -2,27 +2,27 @@
  * The Tiger-vs-CPython chart shown beside the page description.
  *
  * The eight values are the asserted sections of the paired in-process protocol in
- * the Tiger repository (`benchmarks/python/README.md`). A ratio is Tiger's
- * execute-alone time over CPython's `exec` time, with each program's own compile
- * removed from both sides, so a bar that stops short of the 1.00x rule means Tiger
+ * the Tiger repository (`benchmarks/python/README.md`). A speedup is CPython's
+ * `exec` time over Tiger's execute-alone time, with each program's own compile
+ * removed from both sides, so a bar that reaches past the 1.00x rule means Tiger
  * is faster on that section. The chart only draws measured values that already
  * live in the repository; it does not introduce new benchmark claims.
  */
 
 interface Section {
 	name: string;
-	ratio: number;
+	speedup: number;
 }
 
 const SECTIONS: ReadonlyArray<Section> = [
-	{ name: "strings", ratio: 0.38 },
-	{ name: "calls", ratio: 0.7 },
-	{ name: "loop", ratio: 0.71 },
-	{ name: "lists", ratio: 0.8 },
-	{ name: "methods", ratio: 0.86 },
-	{ name: "dicts", ratio: 0.89 },
-	{ name: "all", ratio: 0.93 },
-	{ name: "recursion", ratio: 0.94 },
+	{ name: "strings", speedup: 2.60 },
+	{ name: "calls", speedup: 1.42 },
+	{ name: "loop", speedup: 1.41 },
+	{ name: "lists", speedup: 1.25 },
+	{ name: "methods", speedup: 1.17 },
+	{ name: "dicts", speedup: 1.13 },
+	{ name: "all", speedup: 1.08 },
+	{ name: "recursion", speedup: 1.07 },
 ];
 
 const ROW_HEIGHT = 27;
@@ -31,8 +31,9 @@ const BAR_HEIGHT = 10;
 const LABEL_X = 104;
 const BAR_X = 114;
 const TRACK_WIDTH = 272;
-const RULE_X = BAR_X + TRACK_WIDTH;
-const RATIO_X = RULE_X + 10;
+const MAX_SPEEDUP = Math.max(...SECTIONS.map((section) => section.speedup));
+const RULE_X = BAR_X + TRACK_WIDTH / MAX_SPEEDUP;
+const RATIO_X = BAR_X + TRACK_WIDTH + 10;
 const LAST_ROW_BOTTOM = FIRST_ROW_TOP + (SECTIONS.length - 1) * ROW_HEIGHT + 6 + BAR_HEIGHT;
 
 interface PerformanceChartProps {
@@ -53,7 +54,7 @@ const PerformanceChart = ({ className }: PerformanceChartProps) => (
 				Tiger vs CPython
 			</text>
 			<text className="tiger-perf-badge" x={440} y={22} textAnchor="end">
-				lower is faster
+				higher is faster
 			</text>
 			<text className="tiger-perf-subtitle" x={0} y={44}>
 				one fixed workload · both sides in process · compile removed
@@ -66,7 +67,7 @@ const PerformanceChart = ({ className }: PerformanceChartProps) => (
 
 			{SECTIONS.map((section, index) => {
 				const top = FIRST_ROW_TOP + index * ROW_HEIGHT;
-				const width = Math.round(section.ratio * TRACK_WIDTH);
+				const width = Math.round((section.speedup / MAX_SPEEDUP) * TRACK_WIDTH);
 				const labelY = top + 6 + BAR_HEIGHT / 2 + 4;
 				return (
 					<g key={section.name}>
@@ -90,7 +91,7 @@ const PerformanceChart = ({ className }: PerformanceChartProps) => (
 							rx={2}
 						/>
 						<text className="tiger-perf-ratio" x={RATIO_X} y={labelY}>
-							{section.ratio.toFixed(2)}x
+							{section.speedup.toFixed(2)}x
 						</text>
 					</g>
 				);
