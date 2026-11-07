@@ -734,100 +734,17 @@
             ]
         },
         {
-            "link": "https://scripts.pattygcoding.com/vba",
-            "label": "Script Library (VBA)",
             "group": "scripting_library",
-            "skills": [
-                "excel",
-                "git",
-                "github",
-                "vba",
-                "vscode",
-                "vuejs",
-                "typescript",
-                "javascript",
-                "vite",
-                "tailwindcss",
-                "nodejs",
-                "json",
-                "ci_cd"
-            ]
-        },
-        {
-            "link": "https://scripts.pattygcoding.com/lua",
-            "label": "Script Library (Lua)",
-            "group": "scripting_library",
-            "skills": [
+            "expand": true,
+            "label": "Script Library",
+            "link_base": "https://scripts.pattygcoding.com/",
+            "common_skills": ["git", "github", "vscode", "vuejs", "typescript", "javascript", "vite", "tailwindcss", "nodejs", "json", "ci_cd"],
+            "samples": [
+                { "id": "vba", "skill": "vba", "tags": ["excel", "git", "github", "vba", "vscode", "vuejs", "typescript", "javascript", "vite", "tailwindcss", "nodejs", "json", "ci_cd"] },
                 "lua",
-                "git",
-                "github",
-                "vscode",
-                "vuejs",
-                "typescript",
-                "javascript",
-                "vite",
-                "tailwindcss",
-                "nodejs",
-                "json",
-                "ci_cd"
-            ]
-        },
-        {
-            "link": "https://scripts.pattygcoding.com/powershell",
-            "label": "Script Library (PowerShell)",
-            "group": "scripting_library",
-            "skills": [
-                "powershell",
-                "git",
-                "github",
-                "shell",
-                "vscode",
-                "vuejs",
-                "typescript",
-                "javascript",
-                "vite",
-                "tailwindcss",
-                "nodejs",
-                "json",
-                "ci_cd"
-            ]
-        },
-        {
-            "link": "https://scripts.pattygcoding.com/python",
-            "label": "Script Library (Python)",
-            "group": "scripting_library",
-            "skills": [
+                { "id": "powershell", "skill": "powershell", "tags": ["powershell", "git", "github", "shell", "vscode", "vuejs", "typescript", "javascript", "vite", "tailwindcss", "nodejs", "json", "ci_cd"] },
                 "python",
-                "git",
-                "github",
-                "vscode",
-                "vuejs",
-                "typescript",
-                "javascript",
-                "vite",
-                "tailwindcss",
-                "nodejs",
-                "json",
-                "ci_cd"
-            ]
-        },
-        {
-            "link": "https://scripts.pattygcoding.com/ruby",
-            "label": "Script Library (Ruby)",
-            "group": "scripting_library",
-            "skills": [
-                "ruby",
-                "git",
-                "github",
-                "vscode",
-                "vuejs",
-                "typescript",
-                "javascript",
-                "vite",
-                "tailwindcss",
-                "nodejs",
-                "json",
-                "ci_cd"
+                "ruby"
             ]
         },
         {

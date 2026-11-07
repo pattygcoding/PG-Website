@@ -13,9 +13,10 @@ export interface ProjectSample {
  * git/github/vscode skills is stored in `projects.json` as one compact block
  * instead of dozens of near-identical entries; this module expands such a block
  * back into ordinary samples. The sample-shaped groups are connect_four,
- * turing_machine and rijndael_encryption, and interop is the fourth; how many
- * samples each carries is counted in `projectCounts` below rather than written
- * into the copy, so the descriptions cannot drift as samples are added.
+ * turing_machine, rijndael_encryption and scripting_library, and interop is the
+ * other shape; a group whose copy quotes counts has them read from
+ * `projectCounts` below rather than written into the copy, so the descriptions
+ * cannot drift as samples are added.
  *
  * rijndael_encryption and interop read their addresses from their own showcases
  * instead of GitHub: the encryption language slugs (c, cpp, csharp, …) and the
@@ -107,6 +108,7 @@ const EXPAND_BLOCKS: Record<string, (block: ExpandBlock) => ProjectSample[]> = {
 	connect_four: expandSamples,
 	turing_machine: expandSamples,
 	rijndael_encryption: expandSamples,
+	scripting_library: expandSamples,
 	interop: expandInterop,
 };
 
