@@ -21,6 +21,7 @@
     "rijndael_encryption": "Rijndael Encryption",
     "turing_machines": "Turing Machines",
     "rubix_cube_solver": "Rubik's Cube Solver",
+    "reclaim_4160": "Reclaim 4160",
     "contact": "Contact Me",
     "home_description": "sys.root // main overview",
     "about_description": "engineer profile // bio & stack",
@@ -32,6 +33,7 @@
     "chess_engine_description": "bitboard engine / WASM & worker",
     "rustcraft_description": "Minecraft-style voxel game / Rust & wgpu",
     "suprememc_description": "Minecraft mod showcase / Java",
+    "reclaim_4160_description": "college game, reclaimed / C++ & WASM",
     "portfolio_translator_description": "100+ language matrix & i18n",
     "formatter_description": "syntax validator & converter",
     "scripting_library_description": "automation scripts // 6 languages",
@@ -379,6 +381,11 @@
         "title": "Snake Game",
         "text": "A polished Snake engine built with Rust and Macroquad, compiled to WebAssembly, and rendered through HTML5 Canvas. It combines deterministic 0.12-second game ticks with smooth interpolated movement, explicit game phases, responsive controls, collision and win-state handling, and a focused test suite covering the core game rules.",
         "link": "https://arcade.pattygcoding.com/snake"
+      },
+      "reclaim_4160": {
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype.",
+        "link": "https://arcade.pattygcoding.com/reclaim"
       },
       "rustcraft": {
         "title": "Rustcraft",
