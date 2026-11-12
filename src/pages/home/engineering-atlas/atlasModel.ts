@@ -61,7 +61,7 @@ export const ATLAS_HUB = "portfolio_website";
 export const ATLAS_FAMILIES: AtlasFamily[] = [
     { id: "business", projects: ["takeoff_engine", "inventory_register", "grocery_app", "payrollobol", "tiger_tailgating_pros"] },
     { id: "minecraft", projects: ["suprememc", "minecraft_json_generator", "rustcraft"] },
-    { id: "wasm", projects: ["formatter", "alkalab", "chess_engine", "snake", "tiger_programming_language", "rubix_cube_solver"] },
+    { id: "wasm", projects: ["formatter", "alkalab", "chess_engine", "snake", "rubix_cube_solver", "reclaim_4160", "tiger_programming_language"] },
     { id: "libraries", projects: ["scripting_library"] },
     { id: "languages", projects: ["interop", "connect_four", "turing_machine", "rijndael_encryption"] },
     { id: "automation", projects: ["biblioteca", "python_maps", "pdf_builder", "neovim_config"] },

@@ -13,7 +13,7 @@
     "snake": "Snake Game",
     "suprememc": "SupremeMC Minecraft Mod",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "JSON & YAML Linter",
+    "formatter": "Auto-Linter",
     "scripting_library": "Scripting Library",
     "connect_four": "Connect Four",
     "framework_trees": "Framework Trees",
@@ -35,7 +35,7 @@
     "suprememc_description": "Minecraft mod showcase / Java",
     "reclaim_4160_description": "college game, reclaimed / C++ & WASM",
     "portfolio_translator_description": "100+ language matrix & i18n",
-    "formatter_description": "syntax validator & converter",
+    "formatter_description": "multi-format linter & formatter // WASM",
     "scripting_library_description": "automation scripts // 6 languages",
     "contact_description": "open transmission // get in touch"
   },
@@ -150,8 +150,8 @@
           "lens": "The hard part is the contract between runtimes: data exchange, process behavior, and repeatable execution matter more than syntax."
         },
         "formatter": {
-          "summary": "A real Rust parsing engine compiled to WebAssembly. JSON and YAML validation and formatting run locally in the browser.",
-          "lens": "Moving the parser to the browser trades a larger client payload for local processing, portability, and fewer server dependencies."
+          "summary": "A Zig WebAssembly linter and formatter for JSON, YAML, XML, HTML, TOML, CSV and TSV. Validation and formatting run locally in the browser.",
+          "lens": "Formatting is a trust problem: parse with a real grammar, preserve the author's text, and keep the data on the client."
         },
         "portfolio_website": {
           "summary": "The site you're in: a React portfolio with 100+ languages, accessible interactions, and working WebAssembly tools.",
@@ -303,8 +303,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
-        "text": "A browser-based JSON and YAML validation and formatting tool built in Rust and compiled to WebAssembly. Moving the parsing engine into WASM keeps the interaction responsive and local to the browser while applying a real parser to catch invalid input. It is a focused example of choosing a runtime architecture for performance, portability, and user trust.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter is a browser-based linter and formatter for JSON, YAML, XML, HTML, TOML, CSV and TSV. The Zig engine compiles to WebAssembly and runs entirely in the browser: it validates with real parsers, re-indents documents without rewriting their contents, and preserves comments, anchors, CDATA, quoting and numeric precision. The project spans three implementations — Go, Rust and Zig — with the earlier versions archived for comparison.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -419,11 +419,12 @@
     "description": "I respond to inquires from email and LinkedIn messages. I also will call back if my number is provided via resume or otherwise, though I prefer to keep my phone number private."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "legacy_repo": "View legacy Go implementation",
-    "description": "A browser-based data quality tool that validates and formats JSON and YAML using a Rust engine compiled to WebAssembly. The architecture keeps parsing close to the user for fast, private feedback while enforcing real syntax rules at the data boundary. It is a compact example of designing a dependable developer workflow around correctness, performance, and trust.",
+    "legacy_rust": "View legacy Rust implementation",
+    "description": "Auto-Linter is a browser-based data-quality tool that validates and formats JSON, YAML, XML, HTML, TOML, CSV and TSV with a Zig engine compiled to WebAssembly. Parsing stays close to the user for fast, private feedback while enforcing real syntax rules at the data boundary. It preserves the author's text, rejects malformed input, and shows how one small WebAssembly module can power a dependable developer workflow.",
     "more_info1": "For more information, refer to the README in the",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Auto-Linter Repository.",
     "format_as": "Format As:",
     "auto_detect": "Auto Detect",
     "format": "Lint & Format",
@@ -431,12 +432,12 @@
     "valid_yaml": "✓ Valid YAML",
     "invalid_json": "Invalid JSON",
     "invalid_yaml": "Invalid YAML",
-    "empty_input": "Please enter some JSON or YAML to lint.",
+    "empty_input": "Please enter some JSON, YAML, XML, HTML, TOML, CSV or TSV to lint.",
     "too_large": "Input too large (max 1MB allowed).",
     "fixed_yaml_spacing": "⚠ YAML had invalid spacing/indentation but has been auto-fixed and formatted.",
-    "loading": "Loading formatter...",
+    "loading": "Loading Auto-Linter...",
     "waiting_for_input": "Waiting for input...",
-    "load_failed": "Unable to load formatter.",
+    "load_failed": "Unable to load Auto-Linter.",
     "output": "Output:",
     "input_code": "Input",
     "json_examples": "JSON Examples",

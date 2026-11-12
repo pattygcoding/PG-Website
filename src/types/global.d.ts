@@ -11,9 +11,9 @@ declare namespace Intl {
 declare var IS_REACT_ACT_ENVIRONMENT: boolean;
 
 // WASM glue lives in public/wasm and is loaded as a classic script at runtime.
-// Tiger drives its Rust runtime through its own bridge (/wasm/tiger.js). The
-// formatter's Rust bridge (/wasm/formatter.js) installs `formatInput` and
-// `formatJSON` once `FormatterWasm.init` resolves.
+// Tiger drives its Rust runtime through its own bridge (/wasm/tiger.js).
+// Auto-Linter's Zig bridge (/wasm/formatter.js) installs `formatInput` and
+// `formatJSON` once `AutoLinter.init` (also exposed as `FormatterWasm`) resolves.
 interface FormatterWasmApi {
 	init: (
 		source: string | URL | ArrayBuffer | ArrayBufferView | WebAssembly.Module
@@ -23,6 +23,7 @@ interface FormatterWasmApi {
 }
 
 interface Window {
+	AutoLinter: FormatterWasmApi;
 	FormatterWasm: FormatterWasmApi;
 	formatInput: (source: string, mode: string) => string;
 	formatJSON: (source: string, mode: string) => string;

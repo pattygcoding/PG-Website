@@ -31,7 +31,7 @@ Patrick Goodwin is an experienced full-stack software engineer with a demonstrat
 
 ### 🚀 **Advanced Projects Showcase**
 - **Tiger Language Interpreter**: Custom programming language with WebAssembly implementations in both Go and Rust
-- **JSON & YAML Formatter**: WebAssembly-powered formatter with real-time validation
+- **Auto-Linter**: Zig WebAssembly multi-format linter and formatter with real-time validation
 
 ### 🎨 **Modern UI/UX**
 - **Responsive Design**: Mobile-first approach with Bootstrap 5
@@ -83,12 +83,12 @@ A custom programming language implementation with dual WebAssembly backends:
 - **Interactive Editor**: Real-time code execution and syntax highlighting
 - **WebAssembly Integration**: Seamless browser-based execution
 
-### 2. 🔧 **JSON & YAML Formatter**
-A high-performance formatter with WebAssembly backend:
-- **Real-time Formatting**: Instant JSON/YAML formatting and validation
+### 2. 🔧 **Auto-Linter**
+A high-performance linter and formatter with a Zig WebAssembly backend:
+- **Real-time Formatting**: Instant validation and formatting for seven file formats
 - **Error Detection**: Comprehensive error reporting and suggestions
 - **WebAssembly Performance**: Native-speed parsing and formatting
-- **Multi-format Support**: JSON, YAML, and automatic format detection
+- **Multi-format Support**: JSON, YAML, XML, HTML, TOML, CSV and TSV, with automatic detection where it is unambiguous
 
 ---
 

@@ -1,11 +1,11 @@
 /*
- * JavaScript half of the WebAssembly bridge.
+ * JavaScript half of the WebAssembly bridge for Auto-Linter.
  *
- * The module is built with plain `cargo build --target wasm32-unknown-unknown`, so
- * there is no generated glue to import: this file allocates the two argument
- * strings inside the module's memory, calls `format_input`, and copies the answer
- * back out. The answer buffer belongs to the module and is reused by the next call,
- * which is why it is read immediately.
+ * The module is built with plain `zig build`, so there is no generated glue to
+ * import: this file allocates the two argument strings inside the module's
+ * memory, calls `format_input`, and copies the answer back out. The answer buffer
+ * belongs to the module and is reused by the next call, which is why it is read
+ * immediately.
  *
  * `init` accepts a URL, a Response body, an ArrayBuffer, a typed array or an
  * already compiled WebAssembly.Module, so the browser can fetch and Node can read
@@ -23,6 +23,11 @@
     const FORCED_MODES = {
         "///force:json///": "json",
         "///force:yaml///": "yaml",
+        "///force:xml///": "xml",
+        "///force:html///": "html",
+        "///force:toml///": "toml",
+        "///force:csv///": "csv",
+        "///force:tsv///": "tsv",
     };
 
     function splitForcedMode(input, mode) {
@@ -113,6 +118,7 @@
         global.formatInput = format;
         global.formatJSON = format;
         global.FormatterWasm = api;
+        global.AutoLinter = api;
         return api;
     }
 
@@ -125,6 +131,7 @@
     };
 
     global.FormatterWasm = api;
+    global.AutoLinter = api;
     if (typeof module === "object" && module !== null && module.exports) {
         module.exports = api;
     }

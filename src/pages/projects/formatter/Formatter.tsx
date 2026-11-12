@@ -8,6 +8,9 @@ import l from "@/assets/links/links.json";
 import Prism from "prismjs";
 import "prismjs/components/prism-json";
 import "prismjs/components/prism-yaml";
+import "prismjs/components/prism-toml";
+import "prismjs/components/prism-csv";
+import "prismjs/components/prism-markup";
 import "@/components/page-shell/PageShell.css";
 import "./FormatterWorkbench.css";
 
@@ -29,6 +32,11 @@ const pills: Array<{ value: string; label?: string; labelKey?: string }> = [
 	{ value: "auto", labelKey: "formatter.auto_detect" },
 	{ value: "json", label: "JSON" },
 	{ value: "yaml", label: "YAML" },
+	{ value: "xml", label: "XML" },
+	{ value: "html", label: "HTML" },
+	{ value: "toml", label: "TOML" },
+	{ value: "csv", label: "CSV" },
+	{ value: "tsv", label: "TSV" },
 ];
 
 const Formatter = () => {
@@ -77,10 +85,10 @@ const Formatter = () => {
 					document.body.appendChild(script);
 				});
 
-				await window.FormatterWasm.init("/wasm/formatter.wasm");
+				await window.AutoLinter.init("/wasm/formatter.wasm");
 
 				if (typeof window.formatInput !== "function") {
-					throw new Error("Formatter did not initialize");
+					throw new Error("Auto-Linter did not initialize");
 				}
 
 				engineLoaded.current = true;
@@ -119,7 +127,16 @@ const Formatter = () => {
 		}
 	};
 
-	const highlightLanguage = formatMode === "yaml" ? "yaml" : "json";
+	const highlightLanguage =
+		formatMode === "yaml"
+			? "yaml"
+			: formatMode === "toml"
+				? "toml"
+				: formatMode === "csv" || formatMode === "tsv"
+					? "csv"
+					: formatMode === "xml" || formatMode === "html"
+						? "markup"
+						: "json";
 	const highlightedCode = Prism.highlight(
 		code,
 		Prism.languages[highlightLanguage],
@@ -176,11 +193,12 @@ const Formatter = () => {
 			<main className="formatter-page portfolio-shell">
 				<Tab title={t("formatter.title")} />
 				<header className="page-heading">
-						<div className="page-eyebrow"><span>JSON + YAML</span></div>
+						<div className="page-eyebrow"><span>JSON · YAML · XML · HTML · TOML · CSV · TSV</span></div>
 						<h1>{t("formatter.title")}</h1>
 						<p>{t("formatter.description")}</p>
 						<div className="formatter-repo-actions">
 							<RepoButton href={l.formatter} />
+							<RepoButton href={l.formatter_legacy_rust} label={t("formatter.legacy_rust")} variant="secondary" />
 							<RepoButton href={l.formatter_legacy_go} label={t("formatter.legacy_repo")} variant="secondary" />
 						</div>
 				</header>
