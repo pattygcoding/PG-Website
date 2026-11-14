@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "براؤزر پر مبنی JSON اور YAML کی توثیق اور فارمیٹنگ ٹول Go میں بنایا گیا ہے اور WebAssembly میں مرتب کیا گیا ہے۔ پارسنگ انجن کو WASM میں منتقل کرنے سے براؤزر کے ساتھ تعامل کو ریسپانسیو اور لوکل رکھا جاتا ہے جبکہ غلط ان پٹ کو پکڑنے کے لیے اصلی پارسر کا اطلاق ہوتا ہے۔ یہ کارکردگی، پورٹیبلٹی، اور صارف کے اعتماد کے لیے رن ٹائم فن تعمیر کو منتخب کرنے کی ایک مرکوز مثال ہے۔",
+        "text": "Auto-Linter JSON، YAML، XML، HTML، TOML، CSV اور TSV کے لیے براؤزر پر مبنی لنٹر اور فارمیٹر ہے۔ Zig انجن WebAssembly میں کمپائل ہو کر مکمل طور پر براؤزر میں چلتا ہے: یہ حقیقی پارسرز سے تصدیق کرتا ہے، دستاویزات کا مواد دوبارہ لکھے بغیر دوبارہ انڈینٹ کرتا ہے، اور تبصرے، اینکرز، CDATA، اقتباسات اور عددی درستگی محفوظ رکھتا ہے۔ منصوبے میں تین نفاذ شامل ہیں — Go، Rust اور Zig — پہلے کے ورژن موازنے کے لیے محفوظ ہیں۔",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "سکرپٹ لائبریری",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "خودکار اسکرپٹس کی ایک یکجا لائبریری، ہر زبان کے لیے ایک صفحہ: Excel اسپریڈ شیٹس کے لیے VBA، ہلکے ٹولنگ کے لیے Lua، Windows انتظام کے لیے PowerShell، روزمرہ ڈیٹا کام کے لیے Python اور اسکرپٹنگ تجربات کے لیے Ruby۔ ہر اسکرپٹ دوبارہ استعمال کے لیے لکھا گیا ہے، اس لیے مجموعہ پانچ بکھرے ریپوزٹریوں کے بجائے ایک منصوبے کے طور پر برقرار رکھا جاتا ہے۔",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael خفیہ کاری منصوبہ",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128، 192 اور 256 بٹ اقسام میں Rijndael کے {implementations} نفاذ کا موازنہی مجموعہ۔ کسی حفاظتی لحاظ سے حساس الگورتھم کو مختلف زبانوں میں دوبارہ نافذ کرنا درست تفصیلات، قابلِ جانچ رویے اور زبان کی سطح پر نقل پذیری کی حدود کا ایک منظم مشق ہے — یہ سب حساس ڈیٹا سنبھالنے والے نظاموں کے لیے مفید فطرتیں ہیں۔",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "روبی ک کیوب حل کرنے والا",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "ایک انٹرایکٹو 3D روبکس کیوب جس پر آپ اسٹکر بہ اسٹکر رنگ بھرتے ہیں — خود کیوب پر یا اس کے کھلے جال پر — اور پھر Rust سے WebAssembly میں کمپائل شدہ Herbert Kociemba طرز کی دو مرحلوں والی تلاش سے حل کرتے ہیں۔ Svelte انٹرفیس three.js سے کیوب رینڈر کرتا ہے، رنگ بھری حالت، اس کی درستگی کی جانچ اور حل کنندہ کی فیسلٹ سٹرنگ ہم آہنگ رکھتا ہے، اور حل کو ایک ٹائم لائن پر چال بہ چال چلاتا ہے جسے آپ اسکرب، مرحلہ وار آگے بڑھا اور دوبارہ چلا سکتے ہیں۔",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Rust اور wgpu میں بنا اور WebAssembly میں کمپائل شدہ Minecraft طرز کا ووکسل گیم، اس لیے یہ سیدھا براؤزر میں کھیلا جاتا ہے۔ یہ آرکیڈ کا سینڈ باکس بلڈ ہے: بلاکی خطہ اور ایک ووکسل دنیا جو جدید گرافکس پائپ لائن سے کھینچی گئی ہے، جو گیم انجن کے اوپر نہیں بلکہ Rust ٹول چین پر شروع سے لکھی گئی ہے۔",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ٹائیگر پروگرامنگ زبان",
-        "text": "گو میں ایک حسب ضرورت پروگرامنگ لینگویج اور ترجمان بنایا گیا ہے جو لینگویج رن ٹائم ڈیزائن، ایگزیکیوشن رویے، اور پرفارمنس ٹریڈ آف کو دریافت کرتا ہے۔ اسے WebAssembly میں مرتب کرنا اور اسے پورٹ فولیو میں ضم کرنے سے سسٹم لیول انجینئرنگ کے لیے ایک حقیقی، قابل معائنہ پروڈکٹ کی سطح بنتی ہے بجائے اس کے کہ اس کام کو صرف ذخیرہ کرنے کا تجربہ۔",
+        "text": "زبان کے رن ٹائم ڈیزائن، عمل درآمد کے رویے اور کارکردگی کے تبادلوں کو دریافت کرنے کے لیے Rust میں بنایا گیا ایک کسٹم پروگرامنگ زبان اور انٹرپریٹر۔ اصل Go انٹرپریٹر لیگیسی نفاذ کے طور پر دستیاب رہتا ہے۔ اسے WebAssembly میں کمپائل کر کے پورٹ فولیو میں شامل کرنا سسٹم سطح کی انجینئرنگ کے لیے ایک حقیقی، قابلِ معائنہ پروڈکٹ سطح بناتا ہے، بجائے اس کے کہ کام کو محض ریپوزٹری کا تجربہ رہنے دیا جائے۔",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "شطرنج انجن",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust میں لکھا گیا اور WebAssembly میں کمپائل شدہ شطرنج انجن۔ یہ تکراری گہرائی بڑھانے والے نیگامیکس، الفا-بیٹا تراش، 32 MB ٹرانسپوزیشن ٹیبل اور پتوں پر کوائسنس تلاش سے جستجو کرتا ہے؛ یہ تنگ ہوتے پیس-اسکوائر ٹیبل سے اندازہ لگاتا ہے اور چالیں MVV-LVA، کلرز اور ہسٹری سے ترتیب دیتا ہے۔ انجن Web Worker میں چلتا ہے تاکہ بورڈ کبھی منجمد نہ ہو، اور اس کا چال جنریٹر براؤزر میں شائع شدہ perft گنتی کے مطابق جانچا جاتا ہے — پہلی پانچ گہرائیوں کے لیے 20، 400، 8,902، 197,281 اور 4,865,609 نوڈ۔"
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ایک بازیابی کا منصوبہ ہے: کالج میں ادھورے CPSC 4160 گیم کے طور پر جو شروع ہوا — آخری ٹوائلٹ پیپر کے رول اٹھائیں اور جراثیم کے آپ کو تھکا دینے سے پہلے کاؤنٹر تک پہنچیں — اسے SDL2 پر جدید C++20 انجن کے طور پر شروع سے دوبارہ بنایا اور WebAssembly میں کمپائل کیا گیا ہے۔ اس میں دس بڑھتے ہوئے راہداریاں ہیں، ساتھ گشت کرنے اور پیچھا کرنے والی جراثیم AI، پک اپ، ذرات اور ٹچ کنٹرولز — اصل پروٹوٹائپ کی کوئی شارٹ کٹ نہیں۔"
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "ایک قطعی، دوبارہ چلانے کے قابل لمٹ آرڈر بک میچنگ انجن۔ انجن خود خالص Ruby ہے جس میں Rails نہیں، اور Rails 8 اسے ایک ہی SQLite فائل پر پیش کرتا ہے۔ ہر کمانڈ انجن کے دیکھنے سے پہلے رائٹ-اہیڈ لاگ میں شامل ہوتی ہے، اس لیے بک کی کوئی بھی ماضی کی حالت ایک تہہ ہی دور ہے، اور دوبارہ چلانے کی وفاداری مارکیٹ کے لائیو رہتے ہوئے ریکارڈ شدہ فنگر پرنٹس موازنہ کر کے ثابت کی جاتی ہے۔ قیمت-وقت کی ترجیح، GTC/IOC/FOK، قطار کی پوزیشن برقرار رکھنے یا کھو دینے والی ترامیم، اور خودکار تجارت کی روک تھام — ہر کمانڈ کے بعد بیج شدہ فز سوٹ میں چودہ انویریئنٹس سے جانچی جاتی ہیں۔ براؤزر کو Action Cable کے ذریعے دس ہرٹز کی سیڑھی ملتی ہے، جبکہ کمانڈز HTTP پر اوپر جاتی ہیں۔",
         "title": "PIT میچنگ انجن"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "ایک براؤزر پر مبنی ڈیٹا کوالٹی ٹول جو WebAssembly میں مرتب کردہ Go انجن کا استعمال کرتے ہوئے JSON اور YAML کی توثیق اور فارمیٹ کرتا ہے۔ ڈیٹا باؤنڈری پر حقیقی نحوی قوانین کو نافذ کرتے ہوئے فن تعمیر تیز رفتار، نجی تاثرات کے لیے صارف کے قریب سے تجزیہ کرتا رہتا ہے۔ یہ درستگی، کارکردگی، اور اعتماد کے ارد گرد ایک قابل اعتماد ڈویلپر ورک فلو کو ڈیزائن کرنے کی ایک جامع مثال ہے۔",
+    "description": "Auto-Linter براؤزر پر مبنی ڈیٹا معیار کا ایک ٹول ہے جو WebAssembly میں کمپائل شدہ Zig انجن کے ذریعے JSON، YAML، XML، HTML، TOML، CSV اور TSV کی تصدیق اور فارمیٹ کرتا ہے۔ پارسنگ صارف کے قریب ہی رہتی ہے — تیز اور نجی رائے کے لیے — جبکہ ڈیٹا کی حد پر حقیقی نحوی قواعد نافذ کرتا ہے۔ یہ مصنف کا متن محفوظ رکھتا ہے، خراب ان پٹ مسترد کرتا ہے، اور دکھاتا ہے کہ ایک چھوٹا WebAssembly ماڈیول کیسے ایک قابلِ بھروسا ڈویلپر ورک فلو چلا سکتا ہے۔",
     "more_info1": "مزید معلومات کے لیے، میں README سے رجوع کریں۔",
     "more_info2": "Auto-Linter ریپوزٹری۔",
     "format_as": "فارمیٹ بطور:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "ٹائیگر کی زبان",
-    "description": "ٹائیگر ایک حسب ضرورت پروگرامنگ لینگویج ہے اور گو انٹرپریٹر رن ٹائم آرکیٹیکچر، لینگویج سیمنٹکس، اور پرفارمنس ٹریڈ آف کو دریافت کرنے کے لیے بنایا گیا ہے۔ مترجم کو WebAssembly میں مرتب کرنے سے یہ بدل جاتا ہے کہ سسٹم ایک انٹرایکٹو، براؤزر پر مبنی پروڈکٹ میں کام کرتے ہیں: صارف پروگراموں کو براہ راست چلا سکتے ہیں جب کہ رن ٹائم پورٹیبل رہتا ہے۔ اور میزبان درخواست سے الگ تھلگ۔",
+    "description": "Tiger ایک پروڈکشن معیار کی کسٹم پروگرامنگ زبان اور کارکردگی کے لیے بنایا گیا Rust انٹرپریٹر ہے۔ اس کا کمپائل شدہ بائٹ کوڈ انجن اور ٹری واکنگ حوالہ جاتی انٹرپریٹر 44 پروگراموں کے بینچ مارک کارپس میں ہم قدم رہتے ہیں، اور ساتھ والا ان پروسیس پروٹوکول ہر تصدیق شدہ حصے میں رن ٹائم کو CPython کے برابر یا آگے رکھتا ہے، روزمرہ اسکرپٹنگ میں Python اور Ruby سے براہ راست مقابلہ کرنے والی کارکردگی کے ساتھ۔ اصل Go انٹرپریٹر لیگیسی نفاذ کے طور پر دستیاب رہتا ہے۔ انٹرپریٹر کو WebAssembly میں کمپائل کرنا اس سسٹم کام کو ایک انٹرایکٹو، براؤزر پر مبنی پروڈکٹ بنا دیتا ہے: صارفین براہ راست پروگرام چلا سکتے ہیں جبکہ رن ٹائم قابلِ نقل اور ہوسٹ ایپلیکیشن سے الگ رہتا ہے۔",
     "more_info1": "مزید معلومات کے لیے، میں README سے رجوع کریں۔",
     "more_info2": "ٹائیگر پروگرامنگ لینگویج گٹ ہب ریپوزٹری۔",
     "select_engine": "انجن منتخب کریں:",
