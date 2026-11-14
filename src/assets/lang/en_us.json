@@ -93,6 +93,7 @@
         "minecraft": "SupremeMC & Minecraft",
         "wasm": "WebAssembly Projects",
         "libraries": "Script Libraries",
+        "markets": "Markets & Trading Systems",
         "languages": "Language Experiments",
         "automation": "Automation & Data Tools",
         "experience": "Professional & Educational Experience"
@@ -351,6 +352,11 @@
         "title": "PDF Skills Builder",
         "text": "A document-generation workflow built with Python, Pdfkit, Jinja2, HTML, and structured JSON data. It separates reusable data from presentation templates to generate tailored PDF resumes consistently, a practical pattern for reducing manual work and making business documents repeatable.",
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
+      },
+      "pit_matching_engine": {
+        "title": "PIT Matching Engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "link": "https://github.com/pattygcoding/pit-matching-engine"
       },
       "rijndael_encryption": {
         "title": "Rijndael Encryption Project",

@@ -215,6 +215,10 @@
     ],
     "frameworks": [
         {
+            "id": "action_cable",
+            "name": "Action Cable"
+        },
+        {
             "id": "angular",
             "name": "Angular"
         },
@@ -417,6 +421,10 @@
         {
             "id": "sqlite",
             "name": "SQLite"
+        },
+        {
+            "id": "stimulus",
+            "name": "Stimulus"
         },
         {
             "id": "svelte",
@@ -660,6 +668,14 @@
             "name": "Sanic"
         },
         {
+            "id": "solid_cable",
+            "name": "Solid Cable"
+        },
+        {
+            "id": "solid_queue",
+            "name": "Solid Queue"
+        },
+        {
             "id": "solidjs",
             "name": "SolidJS"
         },
@@ -786,6 +802,10 @@
             "name": "GitHub Pages"
         },
         {
+            "id": "importmap",
+            "name": "Importmap"
+        },
+        {
             "id": "infisical",
             "name": "Infisical"
         },
@@ -820,6 +840,10 @@
         {
             "id": "linux",
             "name": "Linux"
+        },
+        {
+            "id": "minitest",
+            "name": "Minitest"
         },
         {
             "id": "mssql",
@@ -864,6 +888,14 @@
         {
             "id": "postman",
             "name": "Postman"
+        },
+        {
+            "id": "prometheus",
+            "name": "Prometheus"
+        },
+        {
+            "id": "propshaft",
+            "name": "Propshaft"
         },
         {
             "id": "rest_apis",
@@ -924,6 +956,10 @@
         {
             "id": "wasi",
             "name": "WASI"
+        },
+        {
+            "id": "websockets",
+            "name": "WebSockets"
         }
     ]
 }
