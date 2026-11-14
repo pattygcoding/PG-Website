@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "బ్రౌజర్ ఆధారిత JSON మరియు YAML ధ్రువీకరణ మరియు ఫార్మాటింగ్ సాధనం Goలో నిర్మించబడింది మరియు WebAssemblyకి కంపైల్ చేయబడింది. అన్వయించే ఇంజిన్‌ను WASMలోకి తరలించడం వలన చెల్లని ఇన్‌పుట్‌ను క్యాచ్ చేయడానికి నిజమైన పార్సర్‌ను వర్తింపజేసేటప్పుడు పరస్పర చర్య ప్రతిస్పందించేలా మరియు బ్రౌజర్‌కి స్థానికంగా ఉంచుతుంది. ఇది పనితీరు, పోర్టబిలిటీ మరియు వినియోగదారు విశ్వాసం కోసం రన్‌టైమ్ ఆర్కిటెక్చర్‌ను ఎంచుకోవడానికి కేంద్రీకృత ఉదాహరణ.",
+        "text": "Auto-Linter అనేది JSON, YAML, XML, HTML, TOML, CSV మరియు TSV కోసం బ్రౌజర్ ఆధారిత లింటర్ మరియు ఫార్మాటర్. Zig ఇంజిన్ WebAssemblyకి కంపైల్ అయి పూర్తిగా బ్రౌజర్‌లో నడుస్తుంది: ఇది నిజమైన పార్సర్లతో ధృవీకరిస్తుంది, పత్రాల కంటెంట్‌ను తిరిగి రాయకుండా ఇండెంట్ చేస్తుంది మరియు వ్యాఖ్యలు, యాంకర్లు, CDATA, కోట్స్ మరియు సంఖ్యా ఖచ్చితత్వాన్ని సంరక్షిస్తుంది. ప్రాజెక్టులో మూడు అమలులు ఉన్నాయి — Go, Rust మరియు Zig — మునుపటి వెర్షన్లు పోలిక కోసం ఆర్కైవ్ చేయబడ్డాయి.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "స్క్రిప్ట్ లైబ్రరీ",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "ప్రతి భాషకు ఒక పేజీతో ఆటోమేషన్ స్క్రిప్ట్‌ల ఏకీకృత లైబ్రరీ: Excel స్ప్రెడ్‌షీట్‌లకు VBA, తేలికపాటి టూలింగ్‌కు Lua, Windows నిర్వహణకు PowerShell, రోజువారీ డేటా పనికి Python మరియు స్క్రిప్టింగ్ ప్రయోగాలకు Ruby. ప్రతి స్క్రిప్ట్ తిరిగి ఉపయోగించేలా రాయబడింది, కాబట్టి సేకరణ ఐదు చెదురుమదురు రిపాజిటరీలకు బదులు ఒక ప్రాజెక్టుగా నిర్వహించబడుతుంది.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael గుప్తీకరణ ప్రాజెక్టు",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128, 192 మరియు 256-బిట్ వేరియంట్లలో Rijndael యొక్క {implementations} అమలుల తులనాత్మక సముదాయం. భద్రతా-సున్నితమైన అల్గారిథమ్‌ను వివిధ భాషల్లో తిరిగి అమలు చేయడం అనేది ఖచ్చితమైన స్పెసిఫికేషన్లు, పరీక్షించదగిన ప్రవర్తన మరియు భాషా-స్థాయి పోర్టబిలిటీ పరిమితులపై క్రమశిక్షణాయుత అభ్యాసం — సున్నితమైన డేటాను నిర్వహించే సిస్టమ్‌లకు ఇవన్నీ ఉపయోగకరమైన సహజ ప్రవృత్తులు.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "రూబిక్ క్యూబ్ పరిష్కారం",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "మీరు స్టిక్కర్ మీద స్టిక్కర్ రంగు వేసే ఇంటరాక్టివ్ 3D రూబిక్స్ క్యూబ్ — క్యూబ్ మీదే లేదా దాని విప్పిన జాలీ మీద — ఆపై Rust నుండి WebAssemblyకి కంపైల్ చేసిన Herbert Kociemba శైలి రెండు-దశల శోధనతో పరిష్కరించండి. Svelte ఇంటర్‌ఫేస్ three.jsతో క్యూబ్‌ను రెండర్ చేస్తుంది, రంగు వేసిన స్థితి, దాని చెల్లుబాటు తనిఖీలు మరియు పరిష్కర్త ఫేస్‌లెట్ స్ట్రింగ్‌ను సమకాలీకంగా ఉంచుతుంది, మరియు పరిష్కారాన్ని మీరు స్క్రబ్ చేయగల, దశలవారీగా ముందుకు సాగగల మరియు మళ్లీ ప్లే చేయగల టైమ్‌లైన్‌లో ఒక్కో ఎత్తుగడగా ప్లే చేస్తుంది.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Rust మరియు wgpuతో నిర్మించి WebAssemblyకి కంపైల్ చేసిన Minecraft శైలి వాక్సెల్ గేమ్, కాబట్టి ఇది నేరుగా బ్రౌజర్‌లో ఆడవచ్చు. ఇది ఆర్కేడ్ యొక్క శాండ్‌బాక్స్ బిల్డ్: బ్లాకీ భూభాగం మరియు ఆధునిక గ్రాఫిక్స్ పైప్‌లైన్ ద్వారా గీసిన వాక్సెల్ ప్రపంచం, గేమ్ ఇంజిన్ మీద కాకుండా Rust టూల్‌చెయిన్‌లో మొదటి నుండి రాయబడింది.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "టైగర్ ప్రోగ్రామింగ్ లాంగ్వేజ్",
-        "text": "భాష రన్‌టైమ్ డిజైన్, ఎగ్జిక్యూషన్ బిహేవియర్ మరియు పెర్ఫార్మెన్స్ ట్రేడ్‌ఆఫ్‌లను అన్వేషించడానికి గోలో రూపొందించబడిన అనుకూల ప్రోగ్రామింగ్ లాంగ్వేజ్ మరియు ఇంటర్‌ప్రెటర్. దీన్ని వెబ్‌అసెంబ్లీకి కంపైల్ చేయడం మరియు దానిని పోర్ట్‌ఫోలియోలో ఇంటిగ్రేట్ చేయడం ద్వారా పనిని వదిలివేయడం కంటే సిస్టమ్స్-స్థాయి ఇంజనీరింగ్ కోసం నిజమైన, తనిఖీ చేయదగిన ఉత్పత్తి ఉపరితలాన్ని సృష్టిస్తుంది రిపోజిటరీ-మాత్రమే ప్రయోగం.",
+        "text": "భాష రన్‌టైమ్ డిజైన్, అమలు ప్రవర్తన మరియు పనితీరు రాజీలను అన్వేషించడానికి Rustలో నిర్మించిన కస్టమ్ ప్రోగ్రామింగ్ భాష మరియు ఇంటర్‌ప్రెటర్. అసలు Go ఇంటర్‌ప్రెటర్ లెగసీ అమలుగా అందుబాటులో ఉంటుంది. దీన్ని WebAssemblyకి కంపైల్ చేసి పోర్ట్‌ఫోలియోలో చేర్చడం సిస్టమ్-స్థాయి ఇంజినీరింగ్‌కు నిజమైన, పరిశీలించదగిన ఉత్పత్తి ఉపరితలాన్ని సృష్టిస్తుంది, పనిని కేవలం రిపాజిటరీ ప్రయోగంగా మిగల్చకుండా.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "చదరంగ ఇంజిన్",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rustలో రాసి WebAssemblyకి కంపైల్ చేసిన చదరంగ ఇంజిన్. ఇది పునరావృత లోతు పెంపు నెగామ్యాక్స్, ఆల్ఫా-బీటా కత్తిరింపు, 32 MB ట్రాన్స్‌పొజిషన్ పట్టిక మరియు ఆకుల్లో క్వైసెన్స్ శోధనతో వెతుకుతుంది; ఇది సన్నబడే పీస్-స్క్వేర్ పట్టికలతో మూల్యాంకనం చేస్తుంది మరియు ఎత్తుగడలను MVV-LVA, కిల్లర్లు మరియు హిస్టరీతో క్రమబద్ధీకరిస్తుంది. ఇంజిన్ Web Workerలో నడుస్తుంది కాబట్టి బోర్డు ఎప్పుడూ గడ్డకట్టదు, మరియు దాని ఎత్తుగడ జనరేటర్ బ్రౌజర్‌లో ప్రచురిత perft సంఖ్యలతో సరిపోల్చి తనిఖీ చేయబడుతుంది — మొదటి ఐదు లోతులకు 20, 400, 8,902, 197,281 మరియు 4,865,609 నోడ్లు."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ఒక పునరుద్ధరణ ప్రాజెక్ట్: కళాశాలలో అసంపూర్ణ CPSC 4160 గేమ్‌గా మొదలైనది — చివరి టాయిలెట్ పేపర్ రోల్లను తీసుకుని, సూక్ష్మజీవులు మిమ్మల్ని అలసటకు గురిచేసే ముందే కౌంటర్‌కు చేరుకోండి — SDL2 మీద ఆధునిక C++20 ఇంజిన్‌గా మొదటి నుండి తిరిగి నిర్మించి WebAssemblyకి కంపైల్ చేయబడింది. ఇందులో పది పెరుగుతున్న కారిడార్లు, పెట్రోలింగ్ మరియు వెంబడించే సూక్ష్మజీవి AI, పికప్‌లు, కణాలు మరియు టచ్ నియంత్రణలు ఉన్నాయి — అసలు ప్రోటోటైప్ షార్ట్‌కట్‌లు ఏవీ లేవు."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "నిర్ణయాత్మక, తిరిగి ప్లే చేయగల లిమిట్-ఆర్డర్-బుక్ మ్యాచింగ్ ఇంజిన్. ఇంజిన్ స్వయంగా Rails లేని స్వచ్ఛమైన Ruby, మరియు Rails 8 దాన్ని ఒకే SQLite ఫైల్ మీద అందిస్తుంది. ప్రతి ఆదేశం ఇంజిన్ చూసే ముందే రైట్-అహెడ్ లాగ్‌కు జోడించబడుతుంది, కాబట్టి బుక్ గత స్థితి ఏదైనా ఒక మడత దూరంలో ఉంటుంది, మరియు మార్కెట్ లైవ్‌గా ఉన్నప్పుడు నమోదు చేసిన ఫింగర్‌ప్రింట్లను పోల్చి పునఃప్రసారం నిజాయితీగా ఉందని నిరూపిస్తారు. ధర-సమయ ప్రాధాన్యత, GTC/IOC/FOK, క్యూ స్థానాన్ని నిలుపుకునే లేదా కోల్పోయే సవరణలు మరియు స్వీయ-వాణిజ్య నివారణ — ప్రతి ఆదేశం తర్వాత విత్తన ఫజ్ సూట్‌లో పద్నాలుగు ఇన్వేరియంట్లతో నిర్ధారించబడతాయి. బ్రౌజర్‌కు Action Cable ద్వారా పది-హెర్ట్జ్ నిచ్చెన లభిస్తుంది, ఆదేశాలు HTTP ద్వారా పైకి వెళ్తాయి.",
         "title": "PIT సరిపోలిక ఇంజిన్"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssemblyకి కంపైల్ చేయబడిన Go ఇంజిన్‌ని ఉపయోగించి JSON మరియు YAMLని ధృవీకరించే మరియు ఫార్మాట్ చేసే బ్రౌజర్ ఆధారిత డేటా నాణ్యత సాధనం. డేటా సరిహద్దు వద్ద నిజమైన సింటాక్స్ నియమాలను అమలు చేస్తున్నప్పుడు ఆర్కిటెక్చర్ వేగవంతమైన, ప్రైవేట్ ఫీడ్‌బ్యాక్ కోసం వినియోగదారుకు దగ్గరగా అన్వయిస్తూనే ఉంటుంది. ఖచ్చితత్వం, పనితీరు మరియు విశ్వాసం చుట్టూ ఆధారపడదగిన డెవలపర్ వర్క్‌ఫ్లో రూపకల్పనకు ఇది ఒక కాంపాక్ట్ ఉదాహరణ.",
+    "description": "Auto-Linter అనేది బ్రౌజర్ ఆధారిత డేటా-నాణ్యత సాధనం, ఇది WebAssemblyకి కంపైల్ చేసిన Zig ఇంజిన్తో JSON, YAML, XML, HTML, TOML, CSV మరియు TSVలను ధృవీకరించి ఫార్మాట్ చేస్తుంది. పార్సింగ్ వినియోగదారు దగ్గరే ఉంటుంది — వేగవంతమైన, ప్రైవేట్ అభిప్రాయం కోసం — మరియు డేటా సరిహద్దులో నిజమైన సింటాక్స్ నియమాలను అమలు చేస్తుంది. ఇది రచయిత పాఠ్యాన్ని సంరక్షిస్తుంది, తప్పుడు ఇన్‌పుట్‌ను తిరస్కరిస్తుంది మరియు ఒక చిన్న WebAssembly మాడ్యూల్ నమ్మదగిన డెవలపర్ వర్క్‌ఫ్లోను ఎలా నడపగలదో చూపిస్తుంది.",
     "more_info1": "మరింత సమాచారం కోసం, READMEని చూడండి",
     "more_info2": "Auto-Linter నిల్వ.",
     "format_as": "ఇలా ఫార్మాట్ చేయండి:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "పులి భాష",
-    "description": "టైగర్ అనేది కస్టమ్ ప్రోగ్రామింగ్ లాంగ్వేజ్ మరియు రన్‌టైమ్ ఆర్కిటెక్చర్, లాంగ్వేజ్ సెమాంటిక్స్ మరియు పెర్ఫార్మెన్స్ ట్రేడ్‌ఆఫ్‌లను అన్వేషించడానికి రూపొందించబడిన గో ఇంటర్‌ప్రెటర్. వెబ్‌అసెంబ్లీకి ఇంటర్‌ప్రెటర్‌ను కంపైల్ చేయడం వలన సిస్టమ్‌లు ఇంటరాక్టివ్, బ్రౌజర్ ఆధారిత ఉత్పత్తిగా పని చేస్తాయి: రన్‌టైమ్ పోర్టబుల్‌గా ఉన్నప్పుడు వినియోగదారులు ప్రోగ్రామ్‌లను నేరుగా అమలు చేయవచ్చు మరియు హోస్ట్ అప్లికేషన్ నుండి వేరుచేయబడింది.",
+    "description": "Tiger అనేది ప్రొడక్షన్ స్థాయి కస్టమ్ ప్రోగ్రామింగ్ భాష మరియు పనితీరు కోసం నిర్మించిన Rust ఇంటర్‌ప్రెటర్. దాని కంపైల్ చేసిన బైట్‌కోడ్ ఇంజిన్ మరియు ట్రీ-వాకింగ్ రెఫరెన్స్ ఇంటర్‌ప్రెటర్ 44 ప్రోగ్రాముల బెంచ్‌మార్క్ కార్పస్‌లో సమానంగా సాగుతాయి, మరియు జతగా ఉన్న ఇన్-ప్రాసెస్ ప్రోటోకాల్ ప్రతి ధృవీకరించిన విభాగంలో రన్‌టైమ్‌ను CPython స్థాయిలో లేదా దానికి ముందుంచుతుంది, రోజువారీ స్క్రిప్టింగ్‌కు Python మరియు Rubyతో నేరుగా పోటీ పడే పనితీరుతో. అసలు Go ఇంటర్‌ప్రెటర్ లెగసీ అమలుగా అందుబాటులో ఉంటుంది. ఇంటర్‌ప్రెటర్‌ను WebAssemblyకి కంపైల్ చేయడం ఆ సిస్టమ్ పనిని ఇంటరాక్టివ్, బ్రౌజర్ ఆధారిత ఉత్పత్తిగా మారుస్తుంది: వినియోగదారులు నేరుగా ప్రోగ్రాములను నడపవచ్చు, రన్‌టైమ్ పోర్టబుల్‌గా మరియు హోస్ట్ అప్లికేషన్ నుండి వేరుగా ఉంటుంది.",
     "more_info1": "మరింత సమాచారం కోసం, READMEని చూడండి",
     "more_info2": "టైగర్ ప్రోగ్రామింగ్ లాంగ్వేజ్ GitHub రిపోజిటరీ.",
     "select_engine": "ఇంజిన్ను ఎంచుకోండి:",
