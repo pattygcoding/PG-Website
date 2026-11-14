@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "A navigatorio substructio JSON et YAML sanatio et instrumentum formatting in Go constructum et ad WebAssembly compilavit. Movens machinam parsing in WASM conservat commercium responsivum et localem ad navigatorem dum applicando parser realis ad input irritum capiendum. Exemplum focused est eligendi runtime architecturae perficiendi, portabilitatis, et fidei usoris.",
+        "text": "Auto-Linter est navigatrum substructio et formatorium JSON, YAML, XML, HTML, TOML, CSV et TSV. Instrumentum Zig ad WebAssembly componit et totum in navigatro decurrit: cum parsers reales, documenta re-indentum sine rescriptis contentis validat, et commentarios, ancoras, CDATA, notiones et praecisionem numerorum conservat. Exertum in tres exsecutiones - Ite, Rust et Zig - cum versionibus prioribus ad comparationem in archivo.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Bibliotheca scriptorum",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Bibliotheca scriptorum automationis consolidata, una pagina per linguam: VBA pro Praecedo schedae, Lua pro levitate instrumenti, PowerShell pro Fenestra administratione, Python pro cotidiano data opera, et Ruby pro experimentis scripting. Singula scripturae scriptione palimpsesta scripta sunt, ita collectio pro quinque repositoriis dispersis unum consilium conservatur.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Institutum cryptationis Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Copia comparativa de {implementations} Rijndael exsequendi trans 128-, 192-, et 256-bit variantes. Reimplere algorithmum securitatis-sensitivum trans linguas est exercitatio disciplinae in exactis specificationibus, moribus testabilium, limites portabilitatis linguae planae, omnes utiles instinctus ad systemata quae sensitivas notitias tractant.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Solutor Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interactive 3D Cubi Rubik tu obice pingis per obice - in ipso cubo vel rete eius explicato - tum solve cum Herberto Kociemba stilo duos-phasis inquisitionis a Rust ad WebAssembly exaratas. Interfacius Svelte cubum reddit cum tribus.j, pictam servat, ejus validitatem compescit, ac chorda solventis in sync, solutionem retro moventem agit per tempus movendo, quod potes scrutere, ingredi, et re-ludere.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Voxel ludus Minecraft-styli in Rust cum wgpu constructus et ad WebAssembly elaboratus, sic recto in navigatro agit. Sandbox cryptoporticus est aedificare: loca angusta et voxel mundus per pipeline graphice moderni ducta, a scabro in rubigine toolchain potius quam super machinam ludi scriptam.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Linguae tigris programmatio",
-        "text": "Consuetudo programmandi linguam et interpretem aedificatum in Go ad explorandum consilium linguae runtimicae, mores exsecutionis, et negotiationes exercendas. WebAssembly eam componens et eam in librarium integrans realem et inspectabilem superficiei producti systematis plani machinalis potius efficit quam ut opus relinquat. repositio solum experimentum.",
+        "text": "Consuetudo programmandi linguam et interpretem in Rust aedificatum ad explorandum linguarum runtim consilium, exsecutionem mores, et mercationes exercendas. Originale Go interpres, exsecutionem legatum praesto manet. WebAssembly eam componens et eam in librarium integrans realem et inspectabilem superficiei producti systematis plani machinationis efficit potius quam opus repositorium solum experimentum relinquens.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "Machina scaccorum",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Tormentum latrunculorum in Rust scriptum et ad WebAssembly compilavit. Iterativa perscrutatur negamax, putatio alpha-beta, tabula transpositionis 32 MB et quiescentia in foliis quaeramus; id aestimat tabulis quadratis acuminatis et mandatis per MVV-LVA, interfectores et historiam. Machina in operante telae currit ut tabula numquam constringitur, eiusque motus generans in navigatro contra perftos libellos editos reprimitur."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Revocare 4160 consilium est reclamationis: quod incepit ut dimidium confectum CPSC 4160 ludum in collegio - capto ultimos rotulos latrinae chartae et ad checkout antequam semina te deprimant - reaedificatum est a VULNUS sicut modernus C++20 machinam in SDL2 et ad WebAssembly compilavit. Naves decem siclos escantes cum germine AI, pickups, particulas et tactus controllatas peragrantes et persequentes, nullas e compendiis prototypi originalis."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "A deterministica, replayable limit-ordinis libri machinam adaptans. Machina ipsa est pura Ruby cum nulla Rails in ea, a Rails 8 super unum fasciculum SQLite ministratum. Omne mandatum ad praemissam trabem scribendam apponitur antequam machinam viderit, itaque omnis status libri praeteriti unum ovile est, et remonstratio fidelium per comparationes digitorum notarum dum in foro viveret comprobatur. Pretium temporis prioritas, GTC/IOC/FOK, emendae queue situm servant vel amittunt, et praeventionis sui commercia asseruntur per quattuordecim invariantes post omne mandatum in suiti seminali. Scala navigatoris decem Hertz super Actionem Cable accipit, dum mandata per HTTP ascendunt.",
         "title": "Machina congruentiae PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Navicularum substructio notitia qualitatis instrumenti quod validat et format JSON et YAML utens machinam ad WebAssembly compilata. Architectura parsing proxima ad usorem servat ad ieiunium, opiniones privatas dum coercitio realis syntaxin regulas in notitia terminorum. Pactum est exemplum elaborandi certa elit operandi circa rectitudinem, effectum, et fidem.",
+    "description": "Auto-Linter est instrumentum navigatoris notitia-qualitatis quae validat et format JSON, YAML, XML, HTML, TOML, CSV et TSV cum machinam Zig exaratam ad WebAssembly. Parsing prope utenti ad ieiunium manet, opiniones privatas dum coercitio realis syntaxin regulas in notitia limitis. Auctoris textum conservat, input deformatum respuit, et ostendit quomodo unus modulus WebAssembly parvae potentiae certae elit workflow possit.",
     "more_info1": "Pro maiori refer ad README in the",
     "more_info2": "Repositorium Auto-Linter.",
     "format_as": "Forma sicut:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Lingua tigris",
-    "description": "Tigris consuetudo est linguae programmandi et Go interpres aedificavit ad explorandum architecturae runticae, linguae semanticae, et mercaturae exercendae. Interpres ad WebAssembly componendo vertit systemata quae operantur in productum interactivo, substructio pasco: utentes programmata recta exercere possunt dum portatile runtime manet et semotus ab hospite spectat.",
+    "description": "Tigris est modus productionis gradus linguae programmandi et interpres Rust ad perficiendum aedificatus. Eius bytecode machinam et arborem ambulationis referat interpres in lockstep transmisso per 44 programmatis probationem corpus compilavit, et protocollum in processu iunctum CPython in omni sectione asserta vel antecedens servat, cum effectu quod directe cum Pythone et Ruby in scriptione diei certat. Originale Go interpres, exsecutionem legatum praesto manet. Interpres ad WebAssembly componendo vertit systemata quae operantur in productum interactivo, pasco fundato: utentes programmata directe exercere possunt, dum tempus portabile et remotum ab hospite applicatione manet.",
     "more_info1": "Pro maiori refer ad README in the",
     "more_info2": "Tigris Programmatio Linguae GitHub Repositorium.",
     "select_engine": "Lego Engine:",

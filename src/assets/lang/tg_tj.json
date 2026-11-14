@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Асбоби тасдиқ ва форматкунии JSON ва YAML дар асоси браузер, ки дар Go сохта шудааст ва дар WebAssembly тартиб дода шудааст. Гузаронидани муҳаррики таҳлил ба WASM муоширати мутақобиларо ба браузер ҷавобгӯ ва маҳаллӣ нигоҳ медорад ва ҳангоми татбиқи таҳлилгари воқеӣ барои гирифтани вуруди нодуруст. Ин як намунаи нигаронидаи интихоби меъмории вақти корӣ барои кор, қобилият ва эътимоди корбар аст.",
+        "text": "Auto-Linter як линтер ва форматкунандаи ба браузер асосёфта барои JSON, YAML, XML, HTML, TOML, CSV ва TSV мебошад. Муҳаррики Zig ба WebAssembly тартиб дода, пурра дар браузер кор мекунад: он бо таҳлилгарони воқеӣ тасдиқ мекунад, ҳуҷҷатҳоро бидуни аз нав навиштани мундариҷаи онҳо дубора ворид мекунад ва шарҳҳо, лангарҳо, CDATA, иқтибосҳо ва дақиқии рақамиро нигоҳ медорад. Лоиҳа се татбиқро дар бар мегирад - Go, Rust ва Zig - бо версияҳои қаблӣ барои муқоиса бойгонӣ шудаанд.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Китобхонаи скриптҳо",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Китобхонаи муттаҳидшудаи скриптҳои автоматизатсия бо як саҳифа барои ҳар забон: VBA барои ҷадвалҳои Excel, Lua барои асбобҳои сабук, PowerShell барои маъмурияти Windows, Python барои кори ҳаррӯзаи додаҳо ва Ruby барои таҷрибаҳои скрипт. Ҳар як скрипт барои истифодаи дубора навишта шудааст, аз ин рӯ коллексия ба ҷои панҷ анбори пароканда ҳамчун як лоиҳа нигоҳ дошта мешавад.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Лоиҳаи рамзгузории Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Маҷмӯи муқоисавии татбиқи {implementations} Rijndael дар вариантҳои 128-, 192- ва 256-бит. Таҷдиди алгоритми ҳассос ба амният дар байни забонҳо як машқи интизомӣ дар мушаххасоти дақиқ, рафтори санҷидашаванда ва ҳудуди интиқолпазирии сатҳи забон, ҳама инстинктҳои муфид барои системаҳое мебошад, ки маълумоти ҳассосро коркард мекунанд.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Ҳалкунандаи куби Рубик",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Куби интерактивии 3D Рубик, шумо стикерро бо стикер ранг мекунед - дар худи куб ё дар шабакаи кушодаи он - ва сипас бо ҷустуҷӯи думарҳилаи услуби Ҳерберт Косиемба, ки аз Rust то WebAssembly тартиб дода шудааст, ҳал кунед. Интерфейси Svelte кубро бо three.js медиҳад, ҳолати рангшуда, санҷиши эътибори он ва сатри рӯшноии ҳалкунандаро дар ҳамоҳангӣ нигоҳ медорад ва ҳалли ҳалли худро бо ҳаракат дар ҷадвали вақт, ки шумо метавонед скраб, қадам гузаронед ва дубора бозӣ кунед, бозмегардонад.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Бозии вокселии услуби Майнкрафт, ки дар Rust бо wgpu сохта шудааст ва дар WebAssembly тартиб дода шудааст, аз ин рӯ он мустақиман дар браузер бозӣ мекунад. Ин сохти қуттии аркада аст: релефи блок ва ҷаҳони воксел, ки тавассути лӯлаи графикии муосир кашида шудааст, на дар болои муҳаррики бозӣ, ки аз сифр дар силсилаи асбобҳои Rust навишта шудааст.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Забони барномасозии Tiger",
-        "text": "Забони барномасозӣ ва тарҷумони фармоишӣ, ки дар Go сохта шудааст, барои омӯхтани тарроҳии вақти кор, рафтори иҷро ва бархӯрди иҷроиш. Тартиб додани он ба WebAssembly ва ҳамгироӣ кардани он ба портфел сатҳи воқеии маҳсулотро барои муҳандисии сатҳи система эҷод мекунад, на ин ки корро ҳамчун як таҷрибаи танҳо барои анбор.",
+        "text": "Забони барномасозии фармоишӣ ва тарҷумоне, ки дар Rust сохта шудааст, то тарҳрезии вақти кор, рафтори иҷро ва бархӯрдҳои иҷрои забонро таҳқиқ кунад. Тарҷумони аслии Go ҳамчун татбиқи меросӣ дастрас боқӣ мемонад. Тартиб додани он ба WebAssembly ва ҳамгироӣ кардани он ба портфел як сатҳи воқеии маҳсулотро барои муҳандисии сатҳи системаҳо эҷод мекунад, на ин ки корро ҳамчун як таҷриба танҳо барои анбор тарк кунад.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Двигатели шатранҷ",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Муҳаррики шоҳмот бо забони Rust навишта шудааст ва дар WebAssembly тартиб дода шудааст. Он бо амиқи такрории negamax, навдаро алфа-бета, ҷадвали интиқоли 32 МБ ва ҷустуҷӯи ором дар баргҳо ҷустуҷӯ мекунад; он бо мизҳои порчаи-мураббаъ tapered ва фармонҳои иқдомҳои аз ҷониби MVV-LVA арзёбӣ, қотилони ва таърих. Муҳаррик дар Web Worker кор мекунад, то ки тахта ҳеҷ гоҳ ях накунад ва генератори ҳаракати он дар браузер аз рӯи ҳисобҳои чопшуда - 20, 400, 8,902, 197,281 ва 4,865,609 гиреҳҳо барои панҷ умқи аввал тафтиш карда мешавад."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 як лоиҳаи мелиоративӣ аст: он чизе, ки ҳамчун бозии нимтайёри CPSC 4160 дар коллеҷ оғоз ёфт - охирин варақаҳои коғази ҳоҷатхонаро гиред ва пеш аз он ки микробҳо шуморо фарсуда кунанд, ба кассира расед - аз сифр ҳамчун муҳаррики муосири C++20 дар SDLA аз нав сохта шудааст ва ба тариқи Web тартиб дода шудааст. Он даҳ гузаргоҳи афзоишёбандаро бо посбонӣ ва таъқиби микробҳои AI, пикапҳо, зарраҳо ва назорати ламсӣ мефиристад, ҳеҷ яке аз миёнабурҳои прототипи аслӣ нест."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Муҳаррики мувофиқи лимити фармоишӣ-китоби муайянкунанда, такроршаванда. Худи муҳаррик Ruby пок аст, ки дар он Rails мавҷуд нест ва аз ҷониби Rails 8 дар як файли SQLite хидмат мекунад. Ҳар як фармон пеш аз он ки муҳаррик онро бубинад, ба сабти пешакии навиштаҷот замима карда мешавад, аз ин рӯ ҳама ҳолати гузаштаи китоб як маротиба дур аст ва такрори он бо муқоисаи изи ангуштони сабтшуда ҳангоми зинда будани бозор собит мешавад. Афзалияти нарх ба вақт, GTC/IOC/FOK, ислоҳҳое, ки мавқеъи навбатро нигоҳ медоранд ё аз даст медиҳанд ва пешгирии тиҷорати худ аз ҷониби чордаҳ инвариант пас аз ҳар як фармон дар маҷмӯи fuzz-и тухмӣ тасдиқ карда мешаванд. Браузер аз болои Action Cable нардбони даҳ гертс мегирад, дар ҳоле ки фармонҳо аз болои HTTP боло мераванд.",
         "title": "Двигатели мувофиқаи PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Асбоби сифати маълумот дар асоси браузер, ки JSON ва YAML-ро бо истифода аз муҳаррики Go, ки дар WebAssembly тартиб дода шудааст, тасдиқ ва формат мекунад. Меъморӣ таҳлили наздик ба корбарро барои аксуламали зуд ва хусусӣ идома медиҳад ва ҳангоми иҷрои қоидаҳои воқеии синтаксис дар сарҳади додаҳо. Ин як намунаи паймонест, ки тарҳрезии ҷараёни кории боэътимоди таҳиякунанда дар атрофи дурустӣ, иҷро ва эътимод аст.",
+    "description": "Auto-Linter як воситаи сифати маълумот дар асоси браузер мебошад, ки JSON, YAML, XML, HTML, TOML, CSV ва TSV-ро бо муҳаррики Zig, ки дар WebAssembly тартиб дода шудааст, тасдиқ ва формат мекунад. Таҳлил барои аксуламали зуд ва хусусӣ ҳангоми иҷрои қоидаҳои воқеии синтаксис дар сарҳади додаҳо ба корбар наздик мемонад. Он матни муаллифро ҳифз мекунад, вуруди нодурустро рад мекунад ва нишон медиҳад, ки чӣ гуна як модули хурди WebAssembly ҷараёни кории боэътимоди таҳиягарро таъмин карда метавонад.",
     "more_info1": "Барои маълумоти иловагӣ, ба README дар",
     "more_info2": "Анбори Auto-Linter.",
     "format_as": "Формат ҳамчун:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Забони паланг",
-    "description": "Tiger як забони барномасозии фармоишӣ ва тарҷумони Go мебошад, ки барои омӯхтани меъмории вақти корӣ, семантикаи забон ва бархӯрди иҷроиш сохта шудааст. Тарҷумонро ба WebAssembly табдил медиҳад, ки системаҳо ба як маҳсулоти интерактивӣ ва браузер асосёфта кор мекунанд: корбарон метавонанд барномаҳоро мустақиман иҷро кунанд, дар ҳоле ки вақти корӣ сайёр боқӣ мемонад ва аз барномаи мизбон ҷудо карда шудааст.",
+    "description": "Tiger як забони барномасозии фармоишии сатҳи истеҳсолӣ ва тарҷумони Rust аст, ки барои иҷроиш сохта шудааст. Муҳаррики байткоди тартибдодашуда ва тарҷумони истинод ба дарахт сайр дар як корпуси стандартии 44-барнома дар қафо мемонанд ва протоколи коркарди ҷуфтшуда вақти корро дар ҳар як бахши тасдиқшуда дар CPython нигоҳ медорад ва иҷрои он мустақиман бо Python ва Ruby барои скрипти ҳаррӯза рақобат мекунад. Тарҷумони аслии Go ҳамчун татбиқи меросӣ дастрас боқӣ мемонад. Тарҷумонро ба WebAssembly табдил медиҳад, ки системаҳо ба як маҳсулоти интерактивӣ ва браузер асосёфта кор мекунанд: корбарон метавонанд барномаҳоро мустақиман иҷро кунанд, дар ҳоле ки вақти корӣ аз барномаи ҳостӣ интиқолшаванда ва ҷудошуда боқӣ мемонад.",
     "more_info1": "Барои маълумоти иловагӣ, ба README дар",
     "more_info2": "Забони барномасозии Tiger Repository GitHub.",
     "select_engine": "Муҳаррикро интихоб кунед:",

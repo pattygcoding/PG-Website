@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Alat pengesahan dan pemformatan JSON dan YAML berasaskan pelayar terbina dalam Go dan disusun ke WebAssembly. Mengalihkan enjin parsing ke WASM memastikan interaksi responsif dan setempat kepada penyemak imbas sambil menggunakan parser sebenar untuk menangkap input yang tidak sah. Ia adalah contoh tertumpu untuk memilih seni bina masa jalan untuk prestasi, mudah alih dan kepercayaan pengguna.",
+        "text": "Auto-Linter ialah linter dan pemformat berasaskan pelayar untuk JSON, YAML, XML, HTML, TOML, CSV dan TSV. Enjin Zig menyusun ke WebAssembly dan berjalan sepenuhnya dalam penyemak imbas: ia mengesahkan dengan penghurai sebenar, memasukkan semula dokumen tanpa menulis semula kandungannya, dan mengekalkan ulasan, sauh, CDATA, petikan dan ketepatan angka. Projek ini merangkumi tiga pelaksanaan — Go, Rust dan Zig — dengan versi terdahulu diarkibkan untuk perbandingan.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Pustaka skrip",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Perpustakaan skrip automasi yang disatukan, dengan satu halaman bagi setiap bahasa: hamparan VBA untuk Excel, Lua untuk alatan ringan, PowerShell untuk pentadbiran Windows, Python untuk kerja data harian dan Ruby untuk eksperimen skrip. Setiap skrip ditulis untuk digunakan semula, jadi koleksi dikekalkan sebagai satu projek dan bukannya lima repositori bertaburan.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Projek penyulitan Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Satu set perbandingan pelaksanaan Rijndael {implementations} merentas varian 128-, 192- dan 256-bit. Melaksanakan semula algoritma sensitif keselamatan merentas bahasa ialah latihan yang berdisiplin dalam spesifikasi yang tepat, tingkah laku yang boleh diuji dan had kemudahalihan peringkat bahasa, semua naluri berguna untuk sistem yang mengendalikan data sensitif.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Penyelesai Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Kiub Rubik 3D interaktif yang anda cat pelekat menggunakan pelekat - pada kiub itu sendiri atau pada jaringnya yang tidak dilipat - dan kemudian selesaikan dengan carian dua fasa gaya Herbert Kociemba yang disusun daripada Rust ke WebAssembly. Antara muka Svelte menjadikan kiub dengan three.js, mengekalkan keadaan dicat, semakan kesahihannya dan rentetan facelet penyelesai dalam penyegerakan, dan memainkan penyelesaian kembali bergerak dengan bergerak pada garis masa yang anda boleh gosok, melangkah dan main semula.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Permainan voxel gaya Minecraft yang dibina dalam Rust dengan wgpu dan disusun ke WebAssembly, jadi ia dimainkan terus dalam penyemak imbas. Ia adalah binaan kotak pasir arked: rupa bumi berhalangan dan dunia voxel yang dilukis melalui saluran paip grafik moden, ditulis dari awal pada rantai alat Rust dan bukannya di atas enjin permainan.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Bahasa Pengaturcaraan Harimau",
-        "text": "Bahasa pengaturcaraan tersuai dan penterjemah terbina dalam Pergi untuk meneroka reka bentuk masa jalan bahasa, tingkah laku pelaksanaan dan pertukaran prestasi. Menyusunnya ke WebAssembly dan menyepadukannya ke dalam portfolio mencipta permukaan produk yang sebenar dan boleh diperiksa untuk kejuruteraan peringkat sistem dan bukannya meninggalkan kerja sebagai percubaan repositori sahaja.",
+        "text": "Bahasa pengaturcaraan tersuai dan penterjemah terbina dalam Rust untuk meneroka reka bentuk masa jalan bahasa, tingkah laku pelaksanaan dan pertukaran prestasi. Jurubahasa Go asal kekal tersedia sebagai pelaksanaan warisan. Menyusunnya ke WebAssembly dan menyepadukannya ke dalam portfolio mencipta permukaan produk yang sebenar dan boleh diperiksa untuk kejuruteraan peringkat sistem dan bukannya meninggalkan kerja sebagai percubaan repositori sahaja.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Enjin catur",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Enjin catur yang ditulis dalam Rust dan disusun ke WebAssembly. Ia mencari dengan negamaks pendalaman berulang, pemangkasan alfa-beta, jadual transposisi 32 MB dan carian senyap pada daun; ia menilai dengan jadual sekeping segi empat tirus dan mengarahkan pergerakan oleh MVV-LVA, pembunuh dan sejarah. Enjin berfungsi dalam Web Worker supaya papan tidak pernah membeku, dan penjana pergerakannya disemak dalam penyemak imbas terhadap kiraan perft yang diterbitkan - 20, 400, 8,902, 197,281 dan 4,865,609 nod untuk lima kedalaman pertama."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ialah projek penambakan: yang bermula sebagai permainan CPSC 4160 separuh siap di kolej - ambil gulungan terakhir kertas tandas dan sampai ke tempat pembayaran sebelum kuman melemahkan anda - telah dibina semula dari awal sebagai enjin C++20 moden pada SDL2 dan disusun ke WebAssembly. Ia menghantar sepuluh lorong yang semakin meningkat dengan rondaan dan pengejaran kuman AI, pikap, zarah dan kawalan sentuh, tiada satu pun pintasan prototaip asal."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Enjin padanan buku pesanan had yang pasti dan boleh dimainkan semula. Enjin itu sendiri adalah Ruby tulen tanpa Rails di dalamnya, dilayan oleh Rails 8 pada satu fail SQLite. Setiap arahan dilampirkan pada log tulis ke hadapan sebelum enjin melihatnya, jadi mana-mana keadaan masa lalu buku itu hanya satu lipatan, dan ulang tayang terbukti setia dengan membandingkan cap jari yang direkodkan semasa pasaran sedang bersiaran. Keutamaan masa harga, GTC/IOC/FOK, pindaan yang mengekalkan atau kehilangan kedudukan baris gilir, dan pencegahan perdagangan sendiri ditegaskan oleh empat belas invarian selepas setiap perintah dalam suite fuzz berbiji. Penyemak imbas mendapat tangga sepuluh hertz atas Action Cable, manakala arahan naik melalui HTTP.",
         "title": "Enjin pemadanan PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Alat kualiti data berasaskan pelayar yang mengesahkan dan memformat JSON dan YAML menggunakan enjin Go yang disusun ke WebAssembly. Seni bina terus menghuraikan dekat dengan pengguna untuk maklum balas peribadi yang pantas sambil menguatkuasakan peraturan sintaks sebenar di sempadan data. Ia merupakan contoh padat untuk mereka bentuk aliran kerja pembangun yang boleh dipercayai di sekitar ketepatan, prestasi dan kepercayaan.",
+    "description": "Auto-Linter ialah alat kualiti data berasaskan pelayar yang mengesahkan dan memformat JSON, YAML, XML, HTML, TOML, CSV dan TSV dengan enjin Zig yang disusun ke WebAssembly. Penghuraian kekal dekat dengan pengguna untuk maklum balas peribadi yang pantas sambil menguatkuasakan peraturan sintaks sebenar di sempadan data. Ia mengekalkan teks pengarang, menolak input yang tidak betul dan menunjukkan bagaimana satu modul WebAssembly kecil boleh menggerakkan aliran kerja pembangun yang boleh dipercayai.",
     "more_info1": "Untuk maklumat lanjut, rujuk README dalam",
     "more_info2": "Repositori Auto-Linter.",
     "format_as": "Format Sebagai:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Bahasa Harimau",
-    "description": "Tiger ialah bahasa pengaturcaraan tersuai dan penterjemah Go yang dibina untuk meneroka seni bina masa jalan, semantik bahasa dan pertukaran prestasi. Menyusun penterjemah ke WebAssembly menjadikan sistem berfungsi menjadi produk berasaskan penyemak imbas yang interaktif: pengguna boleh melaksanakan program secara langsung sementara masa jalan kekal mudah alih dan diasingkan daripada aplikasi hos.",
+    "description": "Tiger ialah bahasa pengaturcaraan tersuai gred pengeluaran dan penterjemah Rust yang dibina untuk prestasi. Enjin kod bait yang disusun dan jurubahasa rujukan berjalan pokok kekal dalam langkah terkunci merentas korpus penanda aras 44 program, dan protokol dalam proses yang berpasangan mengekalkan masa jalan pada atau lebih awal daripada CPython pada setiap bahagian yang ditegaskan, dengan prestasi yang bersaing secara langsung dengan Python dan Ruby untuk skrip harian. Jurubahasa Go asal kekal tersedia sebagai pelaksanaan warisan. Menyusun penterjemah ke WebAssembly menjadikan sistem berfungsi menjadi produk berasaskan pelayar interaktif: pengguna boleh melaksanakan program secara langsung sementara masa jalan kekal mudah alih dan terpencil daripada aplikasi hos.",
     "more_info1": "Untuk maklumat lanjut, rujuk README dalam",
     "more_info2": "Repositori GitHub Bahasa Pengaturcaraan Harimau.",
     "select_engine": "Pilih Enjin:",

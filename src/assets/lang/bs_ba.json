@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Alat za JSON i YAML validaciju i formatiranje zasnovan na pretraživaču izgrađen u Go i preveden u WebAssembly. Premještanje motora za raščlanjivanje u WASM održava interakciju osjetljivom i lokalnom za pretraživač dok se primjenjuje pravi parser za hvatanje nevažećeg unosa. To je fokusiran primjer odabira runtime arhitekture za performanse, prenosivost i povjerenje korisnika.",
+        "text": "Auto-Linter je linter i formater zasnovan na pretraživaču za JSON, YAML, XML, HTML, TOML, CSV i TSV. Zig mehanizam se kompajlira u WebAssembly i u potpunosti radi u pretraživaču: proverava valjanost pravim parserima, ponovo uvlači dokumente bez ponovnog pisanja njihovog sadržaja i čuva komentare, sidra, CDATA, citiranje i numeričku preciznost. Projekat obuhvata tri implementacije — Go, Rust i Zig — sa ranijim verzijama arhiviranim za poređenje.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Biblioteka skripti",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Konsolidovana biblioteka skripti za automatizaciju, sa jednom stranicom po jeziku: VBA za Excel tabele, Lua za lagane alate, PowerShell za Windows administraciju, Python za svakodnevni rad sa podacima i Ruby za eksperimente sa skriptovanjem. Svaka skripta je napisana za ponovnu upotrebu, tako da se kolekcija održava kao jedan projekat umjesto pet raštrkanih spremišta.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Projekat Rijndael šifrovanja",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Uporedni skup {implementations} Rijndael implementacija u 128-, 192- i 256-bitnim varijantama. Ponovna implementacija sigurnosno-osjetljivog algoritma na različitim jezicima je disciplinovana vježba u preciznim specifikacijama, provjerljivom ponašanju i granicama prenosivosti na nivou jezika, svi korisni instinkti za sisteme koji rukuju osjetljivim podacima.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rješavač Rubikove kocke",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interaktivna 3D Rubikova kocka koju slikate naljepnicu po naljepnicu - na samoj kocki ili na njenoj rasklopljenoj mreži - a zatim rješavate dvofaznom pretragom u stilu Herberta Kociembe kompajliranom od Rusta do WebAssembly-a. Svelte sučelje prikazuje kocku sa three.js, održava obojeno stanje, njegove provjere valjanosti i niz faceleta rješavača u sinhronizaciji, i reproducira rješenje korak po korak na vremenskoj liniji koju možete provlačiti, koračati i ponovo igrati.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Voxel igra u Minecraft stilu izgrađena u Rustu sa wgpu-om i kompajlirana u WebAssembly, tako da se igra direktno u pretraživaču. To je arkadna pješčana konstrukcija: blokovi teren i voksel svijet provučen modernim grafičkim kanalom, napisan ispočetka na lancu alata Rust, a ne na vrhu igrice.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger programski jezik",
-        "text": "Prilagođeni programski jezik i tumač ugrađen u Go za istraživanje dizajna vremena izvršavanja jezika, ponašanja pri izvršavanju i kompromisa u pogledu performansi. Kompajliranje u WebAssembly i integracija u portfolio stvara stvarnu površinu proizvoda koja se može pregledati za inženjering na nivou sistema, umjesto da ostavlja posao kao eksperiment samo za spremište.",
+        "text": "Prilagođeni programski jezik i interpretator ugrađen u Rust za istraživanje dizajna vremena izvršavanja jezika, ponašanja pri izvršavanju i kompromisa u pogledu performansi. Originalni Go interpreter ostaje dostupan kao naslijeđena implementacija. Kompajliranje u WebAssembly i integracija u portfolio stvara stvarnu površinu proizvoda koja se može pregledati za inženjering na nivou sistema, a ne ostavljajući rad kao eksperiment samo u spremištu.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Šahovski motor",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Šahovska mašina napisana u Rustu i kompajlirana u WebAssembly. Pretražuje sa iterativnim produbljivanjem negamax-a, alfa-beta orezivanje, transpozicionom tablicom od 32 MB i pretraživanjem u mirovanju na listovima; procjenjuje sa suženim tablicama piece-kvadrat i naređuje poteze MVV-LVA, ubica i historije. Motor radi u Web Workeru tako da se ploča nikada ne zamrzne, a njen generator kretanja se provjerava u pretraživaču u odnosu na objavljene perft counts - 20, 400, 8,902, 197,281 i 4,865,609 čvorova za prvih pet dubina."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 je projekat reklamacije: ono što je počelo kao napola završena igra CPSC 4160 na koledžu - zgrabite posljednje rolne toalet papira i dođite do blagajne prije nego vas klice istroše - obnovljeno je od nule kao moderni C++20 motor na SDL2 i kompajlirano u WebAsse. Isporučuje deset eskalirajućih prolaza s AI patroliranjem i proganjanjem klica, pickupovima, česticama i kontrolama na dodir, nijednom od prečica originalnog prototipa."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Deterministički mehanizam za usklađivanje knjiga ograničenih naloga koji se može ponovo igrati. Sam motor je čisti Ruby bez Railsa u njemu, opslužuje Rails 8 preko jednog SQLite fajla. Svaka naredba se dodaje dnevniku za upisivanje unaprijed prije nego što je motor vidi, tako da je svako prošlo stanje knjige udaljeno jedan puta, a repriza se dokazuje vjernom upoređivanjem otisaka prstiju snimljenih dok je tržište bilo živo. Prioritet cena-vreme, GTC/IOC/FOK, izmene koje zadržavaju ili gube poziciju u redu, i prevenciju samotrgovine potvrđuju četrnaest invarijanti nakon svake komande u započetom fuzz paketu. Pretraživač dobija lestvicu od deset herca preko Action Cable-a, dok komande idu gore preko HTTP-a.",
         "title": "PIT motor za spajanje"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Alat za kvalitet podataka zasnovan na pretraživaču koji provjerava i formatira JSON i YAML koristeći Go motor kompajliran u WebAssembly. Arhitektura održava raščlanjivanje blizu korisnika za brzu, privatnu povratnu informaciju, dok provodi prava pravila sintakse na granici podataka. To je kompaktan primjer dizajniranja pouzdanog toka rada programera oko ispravnosti, performansi i povjerenja.",
+    "description": "Auto-Linter je alat za kvalitet podataka zasnovan na pretraživaču koji validira i formatira JSON, YAML, XML, HTML, TOML, CSV i TSV sa Zig mašinom kompajliranom u WebAssembly. Parsing ostaje blizak korisniku za brze, privatne povratne informacije, dok provodi stvarna pravila sintakse na granici podataka. Čuva autorov tekst, odbija pogrešno oblikovani unos i pokazuje kako jedan mali WebAssembly modul može pokretati pouzdan tok rada programera.",
     "more_info1": "Za više informacija, pogledajte README u",
     "more_info2": "Repozitorij Auto-Lintera.",
     "format_as": "Format kao:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tiger Language",
-    "description": "Tiger je prilagođeni programski jezik i Go interpreter napravljen da istražuje arhitekturu vremena izvršavanja, semantiku jezika i kompromise u pogledu performansi. Kompajliranje interpretera u WebAssembly pretvara sisteme u interaktivni proizvod zasnovan na pretraživaču: korisnici mogu direktno izvršavati programe dok vrijeme izvršavanja ostaje prenosivo i izolovan od host aplikacije.",
+    "description": "Tiger je prilagođeni programski jezik proizvodne klase i Rust tumač napravljen za performanse. Njegov kompajlirani motor bajtkoda i referentni interpreter za hodanje po drvetu ostaju u koraku sa 44-programskim referentnim korpusom, a upareni protokol u procesu održava vrijeme izvođenja na ili ispred CPythona na svakom potvrđenom dijelu, uz performanse koje se direktno nadmeću sa Pythonom i Rubyjem za svakodnevno skriptiranje. Originalni Go interpreter ostaje dostupan kao naslijeđena implementacija. Kompajliranje interpretera u WebAssembly pretvara sisteme u interaktivni proizvod baziran na pretraživaču: korisnici mogu direktno izvršavati programe dok vrijeme izvršavanja ostaje prenosivo i izolirano od host aplikacije.",
     "more_info1": "Za više informacija, pogledajte README u",
     "more_info2": "Tiger programski jezik GitHub repozitorijum.",
     "select_engine": "Odaberite motor:",

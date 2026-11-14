@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Базиран на браузър JSON и YAML инструмент за валидиране и форматиране, вграден в Go и компилиран в WebAssembly. Преместването на механизма за анализиране в WASM поддържа взаимодействието отзивчиво и локално за браузъра, като същевременно прилага истински анализатор за улавяне на невалиден вход. Това е фокусиран пример за избор на архитектура по време на изпълнение за производителност, преносимост и доверие на потребителите.",
+        "text": "Auto-Linter е базиран на браузър линтер и формататор за JSON, YAML, XML, HTML, TOML, CSV и TSV. Машината Zig се компилира към WebAssembly и работи изцяло в браузъра: проверява с реални парсери, преотстъпва документи, без да пренаписва съдържанието им, и запазва коментари, котви, CDATA, цитиране и цифрова точност. Проектът обхваща три реализации — Go, Rust и Zig — с по-ранните версии, архивирани за сравнение.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Библиотека със скриптове",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Консолидирана библиотека от скриптове за автоматизация, с по една страница на език: VBA за електронни таблици на Excel, Lua за олекотени инструменти, PowerShell за администриране на Windows, Python за ежедневна работа с данни и Ruby за експерименти със скриптове. Всеки скрипт е написан за повторно използване, така че колекцията се поддържа като един проект вместо пет разпръснати хранилища.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Проект за криптиране Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Сравнителен набор от реализации на {implementations} Rijndael в 128-, 192- и 256-битови варианти. Повторното внедряване на чувствителен към сигурността алгоритъм на различни езици е дисциплинирано упражнение за точни спецификации, поведение, което може да се тества, и границите на преносимостта на ниво език, всички полезни инстинкти за системи, които обработват чувствителни данни.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Решавач на куба на Рубик",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Интерактивно 3D кубче на Рубик рисувате стикер по стикер – върху самия куб или върху разгънатата му мрежа – и след това решавате с двуфазово търсене в стил Herbert Kociemba, компилирано от Rust към WebAssembly. Интерфейсът Svelte изобразява куба с three.js, поддържа боядисаното състояние, проверките му за валидност и фасет низа на решаващия инструмент в синхрон и възпроизвежда решението обратно движение по движение на времева линия, която можете да прелиствате, преминавате през и възпроизвеждате отново.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Вокселна игра в стил Minecraft, изградена в Rust с wgpu и компилирана в WebAssembly, така че да се възпроизвежда направо в браузъра. Това е изграждането на пясъчника на аркадата: блоков терен и вокселен свят, начертан чрез модерен графичен конвейер, написан от нулата върху веригата инструменти Rust, а не върху двигател на играта.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Език за програмиране Tiger",
-        "text": "Персонализиран език за програмиране и интерпретатор, вградени в Go, за да изследвате дизайна на времето за изпълнение на езика, поведението при изпълнение и компромисите в производителността. Компилирането му в WebAssembly и интегрирането му в портфолиото създава реална, инспектируема продуктова повърхност за инженеринг на системно ниво, вместо да оставя работата като експеримент само за хранилище.",
+        "text": "Персонализиран език за програмиране и интерпретатор, вградени в Rust, за да изследват дизайна на времето за изпълнение на езика, поведението при изпълнение и компромисите в производителността. Оригиналният интерпретатор на Go остава наличен като наследена реализация. Компилирането му в WebAssembly и интегрирането му в портфолиото създава реална, инспектируема продуктова повърхност за инженеринг на системно ниво, вместо да оставя работата като експеримент само за хранилище.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Шахматен двигател",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Шахматен двигател, написан на Rust и компилиран в WebAssembly. Той търси с итеративно задълбочаване negamax, алфа-бета подрязване, 32 MB таблица за транспониране и търсене в покой на листата; той оценява със заострени таблици с фигури и нарежда ходове по MVV-LVA, убийци и история. Енджинът работи в Web Worker, така че бордът никога не замръзва, а неговият генератор на движение се проверява в браузъра спрямо публикуваните perft бройки - 20, 400, 8,902, 197,281 и 4,865,609 възли за първите пет дълбочини."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 е проект за рекултивация: това, което започна като полузавършена игра CPSC 4160 в колежа - вземете последните ролки тоалетна хартия и стигнете до касата, преди микробите да са ви изтощили - е възстановено от нулата като модерен C++20 двигател на SDL2 и компилиран в WebAssembly. Той доставя десет ескалиращи пътеки с патрулиране и преследване на зародиши AI, пикапи, частици и сензорни контроли, нито един от преките пътища на оригиналния прототип."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Детерминистичен двигател за съпоставяне на лимитирани поръчки и книга с възможност за преиграване. Самият двигател е чист Ruby без Rails в него, обслужван от Rails 8 върху един SQLite файл. Всяка команда се добавя към дневник за предварително записване, преди машината да я види, така че всяко минало състояние на книгата е едно прегъване, а повторението се доказва вярно чрез сравняване на отпечатъци, записани, докато пазарът е бил активен. Приоритет цена-време, GTC/IOC/FOK, поправки, които запазват или губят позиция на опашката, и предотвратяване на самостоятелна търговия се заявяват от четиринадесет инварианта след всяка команда в зареден набор от размити. Браузърът получава стълба от десет херца през Action Cable, докато командите се издигат през HTTP.",
         "title": "Двигател за съпоставяне PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Базиран на браузър инструмент за качество на данните, който валидира и форматира JSON и YAML с помощта на Go двигател, компилиран към WebAssembly. Архитектурата поддържа синтактичния анализ близо до потребителя за бърза лична обратна връзка, като същевременно налага реални правила за синтаксис на границата на данните. Това е компактен пример за проектиране на надежден работен процес за разработчици около коректност, производителност и доверие.",
+    "description": "Auto-Linter е базиран на браузър инструмент за качество на данните, който валидира и форматира JSON, YAML, XML, HTML, TOML, CSV и TSV с Zig двигател, компилиран към WebAssembly. Разборът остава близо до потребителя за бърза лична обратна връзка, като същевременно налага реални правила за синтаксис на границата на данните. Той запазва текста на автора, отхвърля неправилно формирания вход и показва как един малък модул WebAssembly може да захранва надежден работен процес на разработчици.",
     "more_info1": "За повече информация вижте README в",
     "more_info2": "Хранилище на Auto-Linter.",
     "format_as": "Форматиране като:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Тигърски език",
-    "description": "Tiger е персонализиран език за програмиране и интерпретатор на Go, създаден да изследва архитектурата по време на изпълнение, езиковата семантика и компромисите в производителността. Компилирането на интерпретатора към WebAssembly превръща работата на системите в интерактивен, базиран на браузър продукт: потребителите могат да изпълняват програми директно, докато времето за изпълнение остава преносимо и изолиран от хост приложението.",
+    "description": "Tiger е потребителски език за програмиране от производствен клас и интерпретатор на Rust, създаден за производителност. Неговият компилиран байткод механизъм и референтен интерпретатор за ходене по дърво остават в крачка в 44-програмен сравнителен корпус, а сдвоеният в процес протокол поддържа времето за изпълнение на или пред CPython на всеки заявен раздел, с производителност, която се конкурира директно с Python и Ruby за ежедневно скриптиране. Оригиналният интерпретатор на Go остава наличен като наследена реализация. Компилирането на интерпретатора към WebAssembly превръща работата на системите в интерактивен, базиран на браузър продукт: потребителите могат да изпълняват програми директно, докато времето за изпълнение остава преносимо и изолирано от хост приложението.",
     "more_info1": "За повече информация вижте README в",
     "more_info2": "Език за програмиране Tiger GitHub хранилище.",
     "select_engine": "Изберете двигател:",

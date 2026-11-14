@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Բրաուզերի վրա հիմնված JSON և YAML վավերացման և ձևաչափման գործիք, որը կառուցվել է Go-ում և կազմվել WebAssembly-ում: Վերլուծող շարժիչը WASM տեղափոխելը պահպանում է փոխազդեցությունը բրաուզերի համար պատասխանատու և տեղային՝ միաժամանակ կիրառելով իրական վերլուծիչ՝ անվավեր մուտքագրումը որսալու համար: Սա գործարկման ժամանակի ճարտարապետություն ընտրելու կենտրոնացված օրինակ է կատարողականի, շարժունակության և օգտագործողի վստահության համար:",
+        "text": "Auto-Linter-ը բրաուզերի վրա հիմնված լինտեր և ձևաչափ է JSON, YAML, XML, HTML, TOML, CSV և TSV-ի համար: Zig շարժիչը հավաքվում է WebAssembly-ին և ամբողջությամբ աշխատում է բրաուզերում. այն վավերացնում է իրական վերլուծիչներով, նորից նահանջում է փաստաթղթերը՝ առանց դրանց բովանդակությունը վերաշարադրելու և պահպանում է մեկնաբանությունները, խարիսխները, CDATA-ն, մեջբերումները և թվային ճշգրտությունը: Նախագիծը ներառում է երեք իրականացում՝ Go, Rust և Zig, իսկ ավելի վաղ արխիվացված տարբերակները համեմատության համար:",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Սկրիպտերի գրադարան",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Ավտոմատացման սկրիպտների համախմբված գրադարան՝ յուրաքանչյուր լեզվով մեկ էջով. VBA Excel աղյուսակների համար, Lua՝ թեթև գործիքների համար, PowerShell Windows-ի կառավարման համար, Python՝ ամենօրյա տվյալների աշխատանքի համար և Ruby՝ սկրիպտային փորձերի համար: Յուրաքանչյուր սցենար գրված է նորից օգտագործելու համար, ուստի հավաքածուն պահպանվում է որպես մեկ նախագիծ՝ հինգ ցրված պահեստների փոխարեն:",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael գաղտնագրման նախագիծ",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "{implementations} Rijndael իրականացումների համեմատական ​​հավաքածու 128-, 192- և 256-բիթանոց տարբերակներում: Անվտանգության նկատմամբ զգայուն ալգորիթմի վերագործարկումը բոլոր լեզուներով կարգապահ վարժություն է ճշգրիտ բնութագրերի, փորձարկվող վարքագծի և լեզվի մակարդակի շարժականության սահմանների, բոլոր օգտակար բնազդները համակարգերի համար, որոնք մշակում են զգայուն տվյալները:",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Ռուբիկի խաղալիքի լուծիչ",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Ինտերակտիվ 3D Ռուբիկի խորանարդը դուք կպչուկ առ կպչուն նկարում եք՝ հենց խորանարդի վրա կամ դրա բացված ցանցի վրա, և այնուհետև լուծում եք Հերբերտ Կոչիեմբա ոճի երկփուլ որոնման միջոցով՝ կազմված Rust-ից մինչև WebAssembly: Svelte ինտերֆեյսը ներկայացնում է խորանարդը three.js-ով, պահպանում է ներկված վիճակը, դրա վավերականության ստուգումը և լուծողի երեսպատման տողը համաժամեցված, և քայլ առ քայլ խաղում է լուծումը ժամանակացույցի վրա, որը կարող եք մաքրել, անցնել և նորից խաղալ:",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft ոճի voxel խաղ, որը կառուցված է Rust-ով wgpu-ով և կազմված է WebAssembly-ում, այնպես որ այն ուղիղ խաղում է բրաուզերում: Դա արկադային ավազատուփի կառուցումն է. խճճված տեղանք և վոքսել աշխարհ, որը գծված է ժամանակակից գրաֆիկական խողովակաշարի միջով, որը գրված է զրոյից Rust գործիքների շղթայի վրա, այլ ոչ թե խաղային շարժիչի վերևում:",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger ծրագրավորման լեզու",
-        "text": "Հատուկ ծրագրավորման լեզու և թարգմանիչ, որը կառուցված է Go-ում՝ ուսումնասիրելու լեզվի գործարկման ժամանակի դիզայնը, կատարման վարքագիծը և կատարողականի փոխզիջումները: Այն WebAssembly-ում հավաքելը և պորտֆոլիոյում ինտեգրելը ստեղծում է իրական, ստուգելի արտադրանքի մակերես համակարգերի մակարդակի ճարտարագիտության համար, այլ ոչ թե աշխատանքը թողնելու համար միայն պահեստային փորձ:",
+        "text": "Հատուկ ծրագրավորման լեզու և թարգմանիչ, որը կառուցվել է Rust-ում` ուսումնասիրելու լեզվի գործարկման ժամանակի դիզայնը, կատարման վարքագիծը և կատարողականի փոխզիջումները: Go-ի սկզբնական թարգմանիչը հասանելի է մնում որպես ժառանգական ներդրում: Այն WebAssembly-ում հավաքելը և պորտֆոլիոյում ինտեգրելը ստեղծում է իրական, ստուգելի արտադրանքի մակերես համակարգերի մակարդակի ճարտարագիտության համար, այլ ոչ թե աշխատանքը թողնում է որպես միայն պահեստային փորձ:",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Շախմատային շարժիչ",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust-ով գրված և WebAssembly-ում կազմված շախմատային շարժիչ: Այն որոնում է կրկնվող խորացող negamax-ով, ալֆա-բետա էտումով, 32 ՄԲ տրանսպոզիցիոն աղյուսակով և տերևների մոտ հանդարտ որոնումով; այն գնահատում է շերտավոր քառակուսի աղյուսակներով և պատվիրում է MVV-LVA-ի, մարդասպանների և պատմության քայլերը: Շարժիչը աշխատում է Web Worker-ում, այնպես որ տախտակը երբեք չի սառչում, և դրա շարժման գեներատորը ստուգվում է զննարկիչում հրապարակված պերֆտի հաշվումներով՝ 20, 400, 8,902, 197,281 և 4,865,609 հանգույցներ առաջին հինգ խորությունների համար:"
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160-ը վերականգնողական ծրագիր է. այն, ինչ սկսվեց որպես կիսավարտ CPSC 4160 խաղ քոլեջում. վերցրեք զուգարանի թղթի վերջին գլանափաթեթները և հասեք դրամարկղին, նախքան մանրէները ձեզ կհյուծեն, զրոյից վերակառուցվել է որպես ժամանակակից C++20 շարժիչ SDL2-ում և կազմվել WebAsse-ում: Այն առաքում է տասը աճող միջանցք՝ պարեկային և հետապնդող մանրէային AI-ի, պիկապների, մասնիկների և հպման կառավարիչներով՝ բնօրինակ նախատիպի դյուրանցումներից ոչ մեկը:"
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Որոշիչ, վերարտադրվող սահմանային կարգերի գրքի համապատասխան շարժիչ: Շարժիչն ինքնին մաքուր Ruby է՝ առանց Rails-ի, որը սպասարկվում է Rails 8-ի կողմից մեկ SQLite ֆայլի միջոցով: Յուրաքանչյուր հրաման կցվում է նախօրոք գրելու մատյանին, նախքան շարժիչը այն տեսնելը, այնպես որ գրքի ցանկացած նախկին վիճակ մեկ անգամ հեռավորության վրա է, և կրկնությունը հավատարիմ է ապացուցվում՝ համեմատելով մատնահետքերը, որոնք արձանագրվել են շուկայի գործողության ժամանակ: Գնային ժամանակի առաջնահերթությունը՝ GTC/IOC/FOK, փոփոխությունները, որոնք պահպանում կամ կորցնում են հերթի դիրքը, և ինքնաառևտրի կանխարգելումը հաստատվում են տասնչորս անփոփոխներով՝ սերմնավորված fuzz փաթեթի յուրաքանչյուր հրամանից հետո: Զննարկիչը Action Cable-ի վրայով ստանում է տասը հերց սանդուղք, մինչդեռ հրամանները բարձրանում են HTTP-ով:",
         "title": "PIT համապատասխանեցման շարժիչ"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Բրաուզերի վրա հիմնված տվյալների որակի գործիք, որը վավերացնում և ձևավորում է JSON և YAML՝ օգտագործելով Go շարժիչը, որը կազմված է WebAssembly-ում: Ճարտարապետությունը շարունակում է վերլուծել օգտատիրոջը մոտ՝ արագ, մասնավոր հետադարձ կապի համար՝ միաժամանակ կիրառելով իրական շարահյուսական կանոնները տվյալների սահմանում: Դա ճիշտ, կատարողականության և վստահության շուրջ հուսալի մշակողի աշխատանքային հոսքի նախագծման կոմպակտ օրինակ է:",
+    "description": "Auto-Linter-ը բրաուզերի վրա հիմնված տվյալների որակի գործիք է, որը վավերացնում և ձևավորում է JSON, YAML, XML, HTML, TOML, CSV և TSV Zig շարժիչով, որը կազմված է WebAssembly-ում: Վերլուծումը մոտ է մնում օգտատիրոջը արագ, մասնավոր հետադարձ կապի համար՝ միաժամանակ տվյալների սահմաններում իրական շարահյուսական կանոնների պահպանմամբ: Այն պահպանում է հեղինակի տեքստը, մերժում է սխալ մուտքագրումը և ցույց է տալիս, թե ինչպես է WebAssembly-ի մեկ փոքր մոդուլը կարող է ապահովել հուսալի մշակողի աշխատանքային հոսքը:",
     "more_info1": "Լրացուցիչ տեղեկությունների համար դիմեք README-ին",
     "more_info2": "Auto-Linter-ի պահոց։",
     "format_as": "Ձևաչափել որպես.",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Վագրի լեզու",
-    "description": "Tiger-ը հարմարեցված ծրագրավորման լեզու է և Go թարգմանիչ, որը ստեղծվել է ուսումնասիրելու գործարկման ժամանակի ճարտարապետությունը, լեզվի իմաստաբանությունը և կատարողականի փոխզիջումները: Թարգմանիչը WebAssembly-ում կազմելը վերածում է, որ համակարգերն աշխատում են ինտերակտիվ բրաուզերի վրա հիմնված արտադրանքի. և մեկուսացված է հյուրընկալող հավելվածից:",
+    "description": "Tiger-ը արտադրության կարգի հատուկ ծրագրավորման լեզու է և Rust թարգմանիչ, որը ստեղծվել է կատարման համար: Դրա կազմված բայթկոդի շարժիչը և ծառի վրա քայլող տեղեկատու թարգմանիչը մնում են կողպեքի 44-ծրագրի չափանիշի կորպուսում, և զուգակցված գործընթացի արձանագրությունը պահում է գործարկման ժամանակը CPython-ից կամ դրանից առաջ յուրաքանչյուր հաստատված հատվածում, որն ուղղակիորեն մրցակցում է Python-ի և Ruby-ի հետ ամենօրյա սկրիպտավորման համար: Go-ի սկզբնական թարգմանիչը հասանելի է մնում որպես ժառանգական ներդրում: Թարգմանիչը WebAssembly-ին կազմելը վերածում է, որ համակարգերն աշխատում են ինտերակտիվ, բրաուզերի վրա հիմնված արտադրանքի. օգտատերերը կարող են ուղղակիորեն ծրագրեր իրականացնել, մինչդեռ գործարկման ժամանակը մնում է շարժական և մեկուսացված հյուրընկալող հավելվածից:",
     "more_info1": "Լրացուցիչ տեղեկությունների համար դիմեք README-ին",
     "more_info2": "Tiger ծրագրավորման լեզվի GitHub պահեստ:",
     "select_engine": "Ընտրեք շարժիչ.",

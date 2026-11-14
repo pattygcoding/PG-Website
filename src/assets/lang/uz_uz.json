@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Brauzerga asoslangan JSON va YAML tekshirish va formatlash vositasi Go-da o'rnatilgan va WebAssembly-ga kompilyatsiya qilingan. Tahlil mexanizmini WASM-ga o'tkazish noto'g'ri kiritilgan ma'lumotlarni ushlash uchun haqiqiy tahlilchini qo'llash bilan o'zaro ta'sirni brauzer uchun sezgir va mahalliy qiladi. Bu unumdorlik, portativlik va foydalanuvchi ishonchi uchun ish vaqti arxitekturasini tanlashning aniq namunasidir.",
+        "text": "Auto-Linter - bu JSON, YAML, XML, HTML, TOML, CSV va TSV uchun brauzerga asoslangan linter va formatlovchi. Zig dvigateli WebAssembly-ga kompilyatsiya qilinadi va to'liq brauzerda ishlaydi: u haqiqiy tahlilchilar bilan tasdiqlaydi, hujjatlarni mazmunini qayta yozmasdan qayta cheklaydi va sharhlar, langarlar, CDATA, iqtibos va raqamli aniqlikni saqlaydi. Loyiha uchta dasturni o'z ichiga oladi - Go, Rust va Zig - oldingi versiyalari taqqoslash uchun arxivlangan.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skriptlar kutubxonasi",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Har bir tilda bitta sahifadan iborat avtomatlashtirish skriptlarining jamlangan kutubxonasi: Excel elektron jadvallari uchun VBA, engil asboblar uchun Lua, Windows boshqaruvi uchun PowerShell, kundalik maʼlumotlar bilan ishlash uchun Python va skript tajribalari uchun Ruby. Har bir skript qayta foydalanish uchun yozilgan, shuning uchun to'plam beshta tarqoq ombor o'rniga bitta loyiha sifatida saqlanadi.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael shifrlash loyihasi",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128-, 192- va 256-bitli variantlarda {implementations} Rijndael ilovalarining qiyosiy toʻplami. Xavfsizlikka sezgir algoritmni tillar boʻylab qaytadan amalga oshirish aniq spetsifikatsiyalar, sinovdan oʻtkaziladigan xatti-harakatlar va til darajasidagi portativlik chegaralari boʻyicha intizomli mashqdir, bu nozik maʼlumotlarni qayta ishlaydigan tizimlar uchun barcha foydali instinktlardir.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik kubini yechuvchi",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interfaol 3D Rubik kubini stiker orqali - kubning o'ziga yoki uning ochilmagan tarmog'iga bo'yab, keyin Rust-dan WebAssembly-ga tuzilgan Gerbert Kociemba uslubidagi ikki fazali qidiruv yordamida hal qilasiz. Svelte interfeysi kubni three.js bilan ko'rsatadi, bo'yalgan holatini, uning haqiqiyligini tekshiradi va hal qiluvchi yuzma-so'z satrini sinxronlashda saqlaydi va siz tozalash, bosib o'tish va qayta o'ynash mumkin bo'lgan vaqt jadvalida harakatlanish orqali yechimni orqaga siljitadi.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft uslubidagi voksel o'yini Rust-da wgpu bilan qurilgan va WebAssembly-ga kompilyatsiya qilingan, shuning uchun u to'g'ridan-to'g'ri brauzerda o'ynaydi. Bu arkadaning sandbox qurilishi: blokli er va zamonaviy grafik trubkasi orqali chizilgan voksel dunyosi, noldan o'yin dvigatelining tepasida emas, balki Rust asboblar zanjirida yozilgan.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger dasturlash tili",
-        "text": "Tilning ishlash vaqti dizayni, ijro harakati va unumdorlik nisbatlarini oʻrganish uchun Go-da oʻrnatilgan maxsus dasturlash tili va tarjimon. Uni WebAssembly-ga kompilyatsiya qilish va uni portfelga integratsiya qilish, ishni asl nusxa sifatida qoldirmasdan, tizim darajasidagi muhandislik uchun haqiqiy, tekshiriladigan mahsulot yuzasini yaratadi. faqat repozitoriy tajriba.",
+        "text": "Tilning ishlash vaqti dizayni, ijro harakati va ishlash imkoniyatlarini o'rganish uchun Rust-da yaratilgan maxsus dasturlash tili va tarjimon. Asl Go tarjimoni eski dastur sifatida mavjud bo'lib qoladi. Uni WebAssembly-ga kompilyatsiya qilish va uni portfelga integratsiya qilish, ishni faqat ombor uchun tajriba sifatida qoldirmasdan, tizim darajasidagi muhandislik uchun haqiqiy, tekshiriladigan mahsulot yuzasini yaratadi.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Shaxmat dvigateli",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust-da yozilgan va WebAssembly-ga kompilyatsiya qilingan shaxmat dvigateli. U iterativ chuqurlashtiruvchi negamax, alfa-beta kesish, 32 MB transpozitsiya jadvali va barglardagi sukunatni qidirish bilan qidiradi; u MVV-LVA, qotillar va tarix bo'yicha toraytirilgan bo'lak-kvadrat jadvallar va buyurtmalar harakatlari bilan baholaydi. Dvigatel Web Worker-da ishlaydi, shuning uchun plata hech qachon muzlamaydi va uning harakat generatori brauzerda e'lon qilingan perft soniga - 20, 400, 8,902, 197,281 va 4,865,609 tugunlarga nisbatan birinchi besh chuqurlikda tekshiriladi."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 rekultivatsiya loyihasidir: kollejda yarim tayyor CPSC 4160 oʻyini sifatida boshlangan narsa - oxirgi dush qogʻozlarini oling va mikroblar sizni emirishdan oldin hisob-kitobga yetib boring - SDL2-da zamonaviy C++20 dvigateli sifatida noldan qayta tiklandi va Web-da toʻplandi. U asl prototipning yorliqlaridan birortasi ham bo'lmagan, patrul va ta'qib qiluvchi mikrob AI, pikaplar, zarrachalar va sensorli boshqaruv bilan o'nta ko'tariladigan yo'laklarni jo'natadi."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Deterministik, takrorlanuvchi chegara-buyurtma kitobiga mos keladigan vosita. Dvigatelning o'zi sof Ruby bo'lib, unda Rails yo'q, Rails 8 bitta SQLite fayli orqali xizmat qiladi. Har bir buyruq dvigatel ko'rishdan oldin oldindan yozish jurnaliga qo'shiladi, shuning uchun kitobning har qanday o'tmishdagi holati bir marta uzoqda bo'ladi va bozor jonli vaqtida yozilgan barmoq izlarini solishtirish orqali takrorlash ishonchli bo'ladi. Narx-vaqt ustuvorligi, GTC/XOQ/FOK, navbat pozitsiyasini saqlaydigan yoki yo'qotadigan tuzatishlar va o'z-o'zini savdoning oldini olish urug'langan fuzz to'plamidagi har bir buyruqdan keyin o'n to'rtta invariant tomonidan tasdiqlanadi. Brauzer Action Cable orqali o'n gertsli narvon oladi, buyruqlar esa HTTP orqali yuqoriga ko'tariladi.",
         "title": "PIT moslashtirish dvigateli"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssembly-ga kompilyatsiya qilingan Go mexanizmi yordamida JSON va YAML-ni tasdiqlaydigan va formatlaydigan brauzerga asoslangan ma'lumotlar sifati vositasi. Arxitektura ma'lumotlar chegarasida haqiqiy sintaksis qoidalarini qo'llagan holda tezkor, shaxsiy fikr-mulohazalarni olish uchun foydalanuvchiga yaqin tahlilni davom ettiradi. Bu to'g'rilik, ishlash va ishonch atrofida ishonchli ishlab chiquvchi ish oqimini loyihalashning ixcham namunasidir.",
+    "description": "Auto-Linter - bu WebAssembly-ga tuzilgan Zig dvigateli bilan JSON, YAML, XML, HTML, TOML, CSV va TSVni tasdiqlovchi va formatlaydigan brauzerga asoslangan ma'lumotlar sifati vositasi. Tahrirlash tezkor, shaxsiy fikr-mulohaza uchun foydalanuvchiga yaqin bo'lib, ma'lumotlar chegarasida haqiqiy sintaksis qoidalarini qo'llaydi. U muallif matnini saqlaydi, noto‘g‘ri kiritilgan kiritishni rad etadi va bitta kichik WebAssembly moduli ishonchli ishlab chiquvchi ish oqimini qanday quvvatlantirishi mumkinligini ko‘rsatadi.",
     "more_info1": "Qo'shimcha ma'lumot olish uchun README-ga qarang",
     "more_info2": "Auto-Linter ombori.",
     "format_as": "Formatlash:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Yo'lbars tili",
-    "description": "Tiger - bu maxsus dasturlash tili va Go tarjimoni ish vaqti arxitekturasi, til semantikasi va ishlash samaradorligini o'rganish uchun yaratilgan. Tarjimonni WebAssembly-ga kompilyatsiya qilish tizimlarni interaktiv, brauzerga asoslangan mahsulotga aylantiradi: foydalanuvchilar dasturlarni to'g'ridan-to'g'ri bajarishlari mumkin, ish vaqti esa portativ bo'lib qoladi. va xost ilovasidan ajratilgan.",
+    "description": "Tiger - bu ishlab chiqarish darajasidagi maxsus dasturlash tili va ishlash uchun yaratilgan Rust tarjimoni. Uning kompilyatsiya qilingan bayt-kod dvigateli va daraxtda yurish mos yozuvlar tarjimoni 44-dasturli benchmark korpusi bo'ylab blokirovkada qoladi va bog'langan jarayon protokoli ish vaqtini har bir tasdiqlangan bo'limda CPython-da yoki undan oldinda ushlab turadi, unumdorligi kunlik skript uchun to'g'ridan-to'g'ri Python va Ruby bilan raqobatlashadi. Asl Go tarjimoni eski dastur sifatida mavjud bo'lib qoladi. Tarjimonni WebAssembly-ga kompilyatsiya qilish tizimlarning interaktiv, brauzerga asoslangan mahsulotga aylanishiga olib keladi: foydalanuvchilar dasturlarni to'g'ridan-to'g'ri bajarishlari mumkin, shu bilan birga ish vaqti portativ va xost ilovasidan ajratilgan holda qoladi.",
     "more_info1": "Qo'shimcha ma'lumot olish uchun README-ga qarang",
     "more_info2": "Tiger dasturlash tili GitHub ombori.",
     "select_engine": "Dvigatelni tanlang:",

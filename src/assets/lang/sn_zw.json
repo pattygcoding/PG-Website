@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Bhurawuza-yakavakirwa JSON uye YAML kusimbiswa uye fomati chishandiso chakavakirwa muGo uye chakagadzirirwa kuWebAssembly. Kufambisa injini yekufambisa muWASM inochengeta kupindirana kuchipindura uye kwenzvimbo kune bhurawuza paunenge uchishandisa parser chaiyo kuti ubate iyo isiriyo yekuisa. Iwo muenzaniso wakatarisana wekusarudza yekumhanyisa nguva yekuvaka yekuita, kutakurika, uye mushandisi kuvimba.",
+        "text": "Auto-Linter ibrowser-based linter uye fomati yeJSON, YAML, XML, HTML, TOML, CSV uye TSV. Injini yeZig inounganidza kuWebAssembly uye inomhanya zvachose mubrowser: inosimbisa nevatambi chaivo, inodzoreredza magwaro pasina kunyorazve zviri mukati, uye inochengetedza makomendi, anchors, CDATA, kutora uye nhamba chaiyo. Iyo purojekiti inotambanudzira kuita katatu - Go, Rust uye Zig - ine shanduro dzekutanga dzakachengetwa kuti dzienzaniswe.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Rizvimbo rekuchengetera script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Raibhurari yakasanganiswa yezvinyorwa zveotomatiki, ine peji imwe pamutauro: VBA yeExcel maspredishiti, Lua yekureruka kwekushandisa, PowerShell yeWindows manejimendi, Python yebasa remazuva ese data, uye Ruby yezviyedzo zvekunyora. Manyoro ega ega anonyorwa kuti ashandiswezve, saka muunganidzwa unochengetwa sepurojekiti imwe chete pachinzvimbo chezvishanu zvakapararira.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Chirongwa chekufihira Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Seti yekuenzanisa ye {implementations} Rijndael mashandisirwo pane 128-, 192-, uye 256-bit akasiyana. Kudzokorodza algorithm inonzwisa kuchengeteka mumitauro yese ibasa rakarongeka mune zvakatemwa, maitiro anoyedzwa, uye miganhu yekutakurika kwechikamu chemutauro, ese anobatsira masikirwo emasisitimu anobata data rakakomba.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Musangano weRubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Inodyidzana 3D Rubik's Cube yaunopenda nechinamira - pacube pachayo kana pamambure ayo akavhurwa - uye wogadzirisa neHerbert Kociemba maitiro ekutsvaga kwezvikamu zviviri akaunganidzwa kubva kuRust kuenda kuWebAssembly. Iyo Svelte interface inoita kuti cube iite three.js, inochengeta mamiriro akapendwa, kuongorora kwayo kushanda kwayo, uye tambo yemugadziri wemugadziri inoenderana, uye inoridza mhinduro yekudzokera kumashure nekufamba pane imwe nguva yaunogona kukwesha, kutsika, uye kutambazve.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Mutambo weMinecraft-style voxel wakavakwa muRust newgpu uye wakagadzirirwa kuWebAssembly, saka unotamba wakananga mubrowser. Ndiyo arcade's sandbox kuvaka: blocky terrain uye nyika yevoxel yakadhonzwa nepaipi yemazuva ano yemifananidzo, yakanyorwa kubva pakatanga paRust toolchain kwete pamusoro peinjini yemutambo.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Mutauro",
-        "text": "Mutauro wechirongwa chetsika uye muturikiri wakavakwa muGo kuti uongorore dhizaini yemutauro wenguva, maitiro ekuita, uye mashandiro anoita. Kuiunganidza kuWebAssembly uye kuibatanidza mupodfolio inogadzira chaiyo, inotarisika chigadzirwa chepamusoro chemasisitimu-level engineering pane kusiya basa se repository-chete kuedza.",
+        "text": "Mutauro wechirongwa chetsika uye muturikiri akavakwa muRust kuti aongorore dhizaini yemutauro wenguva, maitiro ekuita, uye mashandiro anoita. Muturikiri wekutanga weGo anoramba aripo sechishandiso chenhaka. Kuiunganidza kuWebAssembly nekuibatanidza mupotfolio inogadzira chaiyo, inotarisika chigadzirwa chepamusoro chesisitimu-level engineering pane kusiya basa sechiyedzo-chete.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Injini yechess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Injini ye chess yakanyorwa muRust uye yakabatanidzwa kuWebAssembly. Inotsvaga nekudzika kwakadzika negamax, alpha-beta kuchekerera, 32 MB transposition tafura uye runyararo kutsvaga pamashizha; inoongorora netapered chidimbu-square matafura uye mirairo inofamba neMVV-LVA, mhondi uye nhoroondo. Injini inomhanya muWebhu Worker saka bhodhi harimbofa chando, uye jenareta rayo rinotariswa mubrowser zvichipesana neakaburitswa perft kuverenga - 20, 400, 8,902, 197,281 uye 4,865,609 node kune dzakadzika shanu dzekutanga."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Kudzorera 4160 ipurojekiti yekudzorerazve: iyo yakatanga sehafu-yapera CPSC 4160 mutambo mukoreji - tora mapepa ekupedzisira epepa rechimbuzi uye usvike pakubuda utachiona husati hwakupedza - yakavakwa patsva kubva pakatanga sechimanjemanje C++20 injini paSDL2 uye yakagadzirwa kuWebAssembly. Inotakura nzira gumi dziri kuwedzera nekutarisa uye kudzingirira utachiona AI, mapikicha, zvimedu uye zvidhinha zvekubata, hapana kana imwe yemapfupi eiyo yekutanga prototype."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "A deterministic, replayable limit-order-book inoenderana injini. Iyo injini pachayo yakachena Ruby isina Rails mairi, inoshandirwa neRails 8 pamusoro peimwe SQLite faira. Wese murairo unowedzerwa kune yekunyora-mberi logi injini isati yazviona, saka chero yakapfuura mamiriro ebhuku iri kure, uye replay inoratidzwa yakatendeka nekuenzanisa mafingerprints akarekodhwa apo musika uripo. Mutengo-nguva yakakosha, GTC/IOC/FOK, inogadzirisa inochengeta kana kurasikirwa nechinzvimbo chemutsetse, uye kudzivirira kuzvitengesa kunosimbiswa negumi nemana akasiyana mushure mekuraira kwega kwega mune seeded fuzz suite. Iyo bhurawuza inowana gumi-hertz manera pamusoro peAction Cable, nepo mirairo ichikwira pamusoro peHTTP.",
         "title": "Injini yekubatanidza PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Bhurawuza-yakavakirwa data mhando chishandiso chinosimbisa uye mafomati JSON uye YAML uchishandisa Go injini yakaunganidzwa kuWebAssembly. Iyo dhizaini inoramba ichienda padyo nemushandisi nekukurumidza, yakavanzika mhinduro uku uchisimbisa chaiyo syntax mitemo pamuganho wedata. Iwo muenzaniso wakakwana wekugadzira inovimbika yekuvandudza yekufambisa kutenderedza kurongeka, kuita, uye kuvimba.",
+    "description": "Auto-Linter ibrowser-based data-quality tool iyo inosimbisa uye mafomati JSON, YAML, XML, HTML, TOML, CSV uye TSV ine Zig injini yakarongedzwa kuWebAssembly. Parsing inogara padyo nemushandisi nekukurumidza, yakavanzika mhinduro uku uchimanikidza chaiyo syntax mitemo pamuganho wedata. Iyo inochengetedza zvinyorwa zvemunyori, inoramba kuisirwa zvisina kunaka, uye inoratidza kuti imwe diki yeWebAssembly module inogona sei kupa simba rakavimbika rekuvandudza mafambiro.",
     "more_info1": "Kuti uwane rumwe ruzivo, tarisa iyo README mu",
     "more_info2": "Rizvimbo rekuchengetera Auto-Linter.",
     "format_as": "Format Se:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tiger Mutauro",
-    "description": "Tiger itsika yekuronga mutauro uye Go muturikiri akavakirwa kuti aongorore runtime zvivakwa, mutauro semantics, uye kuita tradeoffs. Kuunganidza muturikiri kuWebAssembly inoshandura kuti masisitimu anoshanda kuita inodyidzana, browser-yakavakirwa chigadzirwa: vashandisi vanogona kuita zvirongwa zvakananga nepo nguva yekumhanya ichiri kutakurika. uye yakaparadzaniswa kubva kune iyo host application.",
+    "description": "Tiger igadziriso-giredhi tsika yekuronga mutauro uye muturikiri weRust wakavakirwa kuita. Yayo yakaunganidzwa bytecode injini uye muti-inofamba referefeta muturikiri anogara akavharika mhiri kwe44-chirongwa chebhenji corpus, uye paired-in-process protocol inochengeta nguva yekumhanya iri kana kumberi kweCPython pachikamu chega chega chakasimbiswa, nekuita kunokwikwidza zvakananga nePython naRuby pakunyorwa kwezuva nezuva. Muturikiri wekutanga weGo anoramba aripo sechishandiso chenhaka. Kuunganidza muturikiri kuWebAssembly kunoshandura kuti masisitimu anoshanda kuita inodyidzana, browser-yakavakirwa chigadzirwa: vashandisi vanogona kuita zvirongwa zvakananga nepo nguva yekumhanya ichiramba ichitakurika uye yakaparadzaniswa kubva kune iyo host application.",
     "more_info1": "Kuti uwane rumwe ruzivo, tarisa iyo README mu",
     "more_info2": "Tiger Programming Mutauro GitHub Repository.",
     "select_engine": "Sarudza Injini:",

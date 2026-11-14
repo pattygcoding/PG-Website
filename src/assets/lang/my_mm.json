@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "ဘရောက်ဆာအခြေခံ JSON နှင့် YAML အတည်ပြုခြင်းနှင့် ဖော်မတ်ချခြင်းတူးလ်ကို Go တွင် တည်ဆောက်ပြီး WebAssembly သို့ စုစည်းထားသည်။ ခွဲခြမ်းစိတ်ဖြာခြင်းအင်ဂျင်ကို WASM သို့ ရွှေ့ခြင်းသည် မှန်ကန်မှုမရှိသော ထည့်သွင်းမှုကိုဖမ်းမိရန် စစ်မှန်သော ခွဲခြမ်းစိတ်ဖြာမှုကို အသုံးပြုနေစဉ်တွင် အပြန်အလှန်တုံ့ပြန်မှုကို ဘရောက်ဆာထံ ထားရှိပေးပါသည်။ ၎င်းသည် စွမ်းဆောင်ရည်၊ သယ်ဆောင်ရလွယ်ကူမှုနှင့် အသုံးပြုသူယုံကြည်မှုအတွက် runtime တည်ဆောက်ပုံကို ရွေးချယ်ခြင်း၏ အဓိကဥပမာတစ်ခုဖြစ်သည်။",
+        "text": "Auto-Linter သည် JSON၊ YAML၊ XML၊ HTML၊ TOML၊ CSV နှင့် TSV အတွက် ဘရောင်ဇာအခြေခံ ဖိုင်တွဲနှင့် ဖော်မတ်တာတစ်ခုဖြစ်သည်။ Zig အင်ဂျင်သည် WebAssembly တွင်စုစည်းပြီး browser တွင်လုံးဝအလုပ်လုပ်သည်- ၎င်းသည်စစ်မှန်သောခွဲခြမ်းစိတ်ဖြာမှုများဖြင့်တရားဝင်သည်၊ ၎င်းတို့၏အကြောင်းအရာများကိုပြန်လည်ရေးသားခြင်းမပြုဘဲစာရွက်စာတမ်းများကိုပြန်လည်ဖြည့်သွင်းကာမှတ်ချက်များ၊ ကျောက်ဆူးများ၊ CDATA၊ ကိုးကားခြင်းနှင့်ဂဏန်းတိကျမှုကိုထိန်းသိမ်းထားသည်။ ပရောဂျက်သည် Go, Rust နှင့် Zig — ကို နှိုင်းယှဉ်ရန်အတွက် မော်ကွန်းတင်ထားသော အစောပိုင်းဗားရှင်းများဖြင့် အကောင်အထည်ဖော်မှုသုံးခုကို ချဲ့ထွင်ထားသည်။",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "စကရစ်ပ် စာကြည့်တိုက်",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "ဘာသာစကားတစ်ခုလျှင် စာမျက်နှာတစ်မျက်နှာပါရှိသော အလိုအလျောက်စနစ်ဆိုင်ရာ ဇာတ်ညွှန်းများစုစည်းထားသော စာကြည့်တိုက်- Excel စာရင်းဇယားများအတွက် VBA၊ ပေါ့ပါးသောကိရိယာအတွက် Lua၊ Windows စီမံခန့်ခွဲမှုအတွက် PowerShell၊ နေ့စဉ်ဒေတာအလုပ်အတွက် Python နှင့် scripting စမ်းသပ်မှုများအတွက် Ruby။ ဇာတ်ညွှန်းတစ်ခုစီကို ပြန်လည်အသုံးပြုရန်အတွက် ရေးသားထားသောကြောင့် စုစည်းမှုကို ပြန့်ကျဲနေသော သိုလှောင်မှုငါးခုအစား ပရောဂျက်တစ်ခုအဖြစ် ထိန်းသိမ်းထားသည်။",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael ကုဒ်ဝှက်ခြင်း ပရောဂျက်",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128-၊ 192- နှင့် 256-ဘစ်မျိုးကွဲများကြားရှိ {implementations} Rijndael အကောင်အထည်ဖော်မှုများ နှိုင်းယှဉ်ထားသော။ ဘာသာစကားများတစ်လျှောက် လုံခြုံရေးအကဲဆတ်သော အယ်လဂိုရီသမ်ကို ပြန်လည်အကောင်အထည်ဖော်ခြင်းသည် တိကျသောသတ်မှတ်ချက်များ၊ စမ်းသပ်နိုင်သောအပြုအမူနှင့် ဘာသာစကားအဆင့်သယ်ဆောင်ရလွယ်ကူမှု ကန့်သတ်ချက်များ၊ အထိခိုက်မခံသောဒေတာကိုကိုင်တွယ်သည့်စနစ်များအတွက် အသုံးဝင်သောဗီဇအားလုံးအတွက် စည်းကမ်းရှိလေ့ကျင့်ခန်းတစ်ခုဖြစ်သည်။",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube ဖြေရှင်းသူ",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "အပြန်အလှန်တုံ့ပြန်နိုင်သော 3D Rubik's Cube စတစ်ကာကို - cube ပေါ်တွင် သို့မဟုတ် ၎င်း၏ ဖြန့်ထားသောပိုက်ပေါ်တွင် စတစ်ကာဖြင့် သင်ခြယ်မှုန်းပြီးနောက် Rust မှ WebAssembly မှ စုစည်းထားသော Herbert Kociemba စတိုင် နှစ်ဆင့်ရှာဖွေမှုဖြင့် ဖြေရှင်းပါ။ Svelte အင်တာဖေ့စ်သည် cube ကို three.js ဖြင့် ပြန်ဆိုပေးသည်၊ ဆေးခြယ်ထားသော အခြေအနေ၊ ၎င်း၏ တရားဝင်မှု စစ်ဆေးမှုများ၊ နှင့် ဖြေရှင်းသူ၏ facelet string ကို ထပ်တူကျစေပြီး၊ သင်ပွတ်တိုက်နိုင်၊ ဖြတ်ကျော်ကာ ပြန်ကစားနိုင်သော timeline ပေါ်တွင် ရွှေ့ခြင်းဖြင့် ဖြေရှင်းချက်ကို ပြန်ဖွင့်ပေးပါသည်။",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "wgpu ဖြင့် Rust ဖြင့်တည်ဆောက်ထားသော Minecraft စတိုင် voxel ဂိမ်းဖြစ်ပြီး WebAssembly သို့စုစည်းထားသောကြောင့် ၎င်းသည် browser တွင် တိုက်ရိုက်ကစားနိုင်သည်။ ၎င်းသည် ဂိမ်းအင်ဂျင်၏အပေါ်ထက် Rust toolchain ပေါ်တွင် အစမှနေ၍ ရေးသားထားသော ခေတ်မီဂရပ်ဖစ်ပိုက်လိုင်းမှတဆင့် ရေးဆွဲထားသော အာကိတ်၏ sandbox တည်ဆောက်မှုဖြစ်သည်- ပိတ်ဆို့နေသောမြေပြင်နှင့် voxel ကမ္ဘာ။",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming ဘာသာစကား",
-        "text": "စိတ်ကြိုက်ပရိုဂရမ်းမင်းဘာသာစကားနှင့် စကားပြန်ကို Go တွင်တည်ဆောက်ထားသော ဘာသာစကား runtime ဒီဇိုင်း၊ လုပ်ဆောင်မှုအမူအကျင့်နှင့် စွမ်းဆောင်ရည်ဖလှယ်မှုများကို ရှာဖွေရန်။ ၎င်းကို WebAssembly တွင် စုစည်းပြီး အစုစုတွင် ပေါင်းစည်းခြင်းသည် အလုပ်အဖြစ် ထားရမည့်အစား စနစ်အဆင့် အင်ဂျင်နီယာအတွက် စစ်မှန်သော စစ်ဆေးနိုင်သော ထုတ်ကုန်မျက်နှာပြင်ကို ဖန်တီးပေးပါသည်။ သိုလှောင်ရုံ-သာ စမ်းသပ်မှု။",
+        "text": "ဘာသာစကား runtime ဒီဇိုင်း၊ လုပ်ဆောင်မှုအပြုအမူနှင့် စွမ်းဆောင်ရည် ဖလှယ်မှုများကို ရှာဖွေရန် Rust တွင် တည်ဆောက်ထားသော စိတ်ကြိုက်ပရိုဂရမ်ဘာသာစကားနှင့် စကားပြန်။ မူရင်း Go စကားပြန်ကို အမွေအနှစ်အဖြစ် အကောင်အထည်ဖော်ရန် ကျန်ရှိနေပါသည်။ ၎င်းကို WebAssembly တွင် စုစည်းပြီး အစုစုတွင် ပေါင်းစည်းခြင်းသည် အလုပ်အား သိုလှောင်ရုံ-စမ်းသပ်မှုတစ်ခုအဖြစ် မထားဘဲ စနစ်အဆင့် အင်ဂျင်နီယာအတွက် အမှန်တကယ် စစ်ဆေးနိုင်သော ထုတ်ကုန်မျက်နှာပြင်ကို ဖန်တီးပေးပါသည်။",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "စစ်တုရင် အင်ဂျင်",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust ဖြင့် ရေးသားထားသော စစ်တုရင်အင်ဂျင်ကို WebAssembly တွင် ပြုစုထားသည်။ ၎င်းသည် ထပ်ခါထပ်ခါ နက်ရှိုင်းစေသော negamax၊ alpha-beta pruning၊ 32 MB transposition table နှင့် အရွက်များတွင် ငြိမ်သက်စွာရှာဖွေမှုတို့ဖြင့် ရှာဖွေသည်။ MVV-LVA၊ လူသတ်သမားများနှင့် မှတ်တမ်းများက သေးငယ်သော အပိုင်းစတုရန်းဇယားများဖြင့် အကဲဖြတ်သည်။ အင်ဂျင်သည် Web Worker တွင်လည်ပတ်နေသောကြောင့် ဘုတ်သည် ဘယ်သောအခါမျှ မအေးခဲဘဲ ၎င်း၏ရွေ့လျားမှုဂျင်နရေတာသည် ထုတ်ဝေထားသော perft counts များဖြစ်သည့် 20, 400, 8,902, 197,281 နှင့် 4,865,609 node များအတွက် ဘရောက်ဆာတွင် စစ်ဆေးထားသည်။"
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 သည် ပြန်လည်ထူထောင်ရေးပရောဂျက်တစ်ခုဖြစ်သည်- ကောလိပ်တွင် တစ်ဝက်ပြီးသွားသည့် CPSC 4160 ဂိမ်းအဖြစ် စတင်ခဲ့ရာ - နောက်ဆုံးအိမ်သာသုံးစက္ကူလိပ်များကိုယူပြီး ပိုးမွှားမပျောက်ခင် ငွေရှင်းသည့်နေရာသို့ရောက်ရှိခဲ့သည် - SDL2 ရှိ ခေတ်မီ C++20 အင်ဂျင်အဖြစ် အစမှပြန်လည်တည်ဆောက်ပြီး WebAssembly သို့ စုစည်းထားသည်။ ၎င်းသည် ကင်းလှည့်ခြင်း နှင့် လိုက်ဖမ်းသည့် ပိုးမွှား AI၊ ပစ်ကပ်များ၊ အမှုန်များနှင့် ထိတွေ့ထိန်းချုပ်မှုများပါရှိသော တိုးမြင့်လာနေသော လမ်းဆယ်ခုကို ပို့ဆောင်ပေးသည်၊၊ မူလပုံစံ၏ ဖြတ်လမ်းများထဲမှ တစ်ခုမျှ မရှိပါ။"
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "အဆုံးအဖြတ်ပေးသော၊ ပြန်လည်ပြသနိုင်သော ကန့်သတ်ချက်-စာအုပ်တွဲဖက်အင်ဂျင်။ အင်ဂျင်ကိုယ်တိုင်က SQLite ဖိုင်တစ်ခုတည်းအတွက် Rails 8 က လုပ်ဆောင်ပေးသော Rails မပါရှိသော Ruby အစစ်ဖြစ်သည်။ အင်ဂျင်ကိုမမြင်မီ ရေးမှတ်ထားသော မှတ်တမ်းတစ်ခုစီတွင် ကွန်မန်းတစ်ခုစီကို ပေါင်းထည့်ထားသောကြောင့် စာအုပ်၏အတိတ်အခြေအနေသည် တစ်ဆမျှသာကျန်တော့ပြီး စျေးကွက်တိုက်ရိုက်ထုတ်လွှင့်နေချိန်တွင် မှတ်တမ်းတင်ထားသော လက်ဗွေများကို နှိုင်းယှဉ်ခြင်းဖြင့် ပြန်လည်ပြသခြင်းသည် သစ္စာရှိကြောင်း သက်သေပြပါသည်။ စျေးနှုန်းအချိန် ဦးစားပေး၊ GTC/IOC/FOK၊ တန်းစီနေသောနေရာကို ထိန်းထားရန် သို့မဟုတ် ဆုံးရှုံးခြင်းတို့ကို ပြင်ဆင်ပေးသည်၊ စေ့စပ်ထားသော fuzz suite တွင် အမိန့်တိုင်းတိုင်းပြီးနောက် 14 မျိုးကွဲတစ်မျိုးမှ အရောင်းအ၀ယ်ကာကွယ်ခြင်းကို အခိုင်အမာပြောဆိုသည်။ ညွှန်ကြားချက်များသည် HTTP ထက်တက်နေချိန်တွင် ဘရောက်ဆာသည် Action Cable မှ ဆယ်ဟတ်ဇ်လှေကားကို ရရှိသည်။",
         "title": "PIT ကိုက်ညီမှု အင်ဂျင်"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssembly တွင်စုစည်းထားသော Go အင်ဂျင်ကို အသုံးပြု၍ JSON နှင့် YAML ကို တရားဝင်ဖော်မတ်ပေးသည့် ဘရောက်ဆာအခြေခံဒေတာအရည်အသွေးတူးလ်။ ဗိသုကာသည် ဒေတာနယ်နိမိတ်ရှိ စစ်မှန်သော syntax စည်းမျဉ်းများကို လိုက်နာစဉ်တွင် လျင်မြန်ပြီး သီးသန့်တုံ့ပြန်ချက်အတွက် အသုံးပြုသူနှင့် အနီးကပ် ခွဲခြမ်းစိပ်ဖြာပေးပါသည်။ ၎င်းသည် မှန်ကန်မှု၊ စွမ်းဆောင်ရည်နှင့် ယုံကြည်စိတ်ချမှုတို့နှင့်ပတ်သက်၍ ယုံကြည်စိတ်ချရသော developer workflow ကို ဒီဇိုင်းထုတ်ခြင်း၏ ကျစ်ကျစ်လျစ်လျစ်သော ဥပမာတစ်ခုဖြစ်သည်။",
+    "description": "Auto-Linter သည် WebAssembly တွင် Zig အင်ဂျင်ဖြင့် စုစည်းထားသော JSON, YAML, XML, HTML, TOML, CSV နှင့် TSV တို့ကို တရားဝင်အောင် ဖော်မတ်ပေးသည့် ဘရောက်ဆာအခြေခံ ဒေတာအရည်အသွေး တူးလ်တစ်ခုဖြစ်သည်။ ဒေတာနယ်နိမိတ်တွင် စစ်မှန်သော syntax စည်းမျဉ်းများကို ပြဋ္ဌာန်းထားစဉ် လျင်မြန်ပြီး သီးသန့်တုံ့ပြန်ချက်အတွက် ခွဲခြမ်းစိတ်ဖြာခြင်းသည် သုံးစွဲသူနှင့် နီးကပ်နေပါသည်။ ၎င်းသည် စာရေးဆရာ၏ စာသားကို ထိန်းသိမ်းသည်၊ ပုံသဏ္ဍာန်မမှန်သော ထည့်သွင်းမှုကို ပယ်ချပြီး WebAssembly module ငယ်တစ်ခုသည် အားကိုးရလောက်သော developer workflow ကို မည်ကဲ့သို့ စွမ်းဆောင်နိုင်သည်ကို ပြသသည်။",
     "more_info1": "ပိုမိုသိရှိလိုပါက README ကို ကိုးကားပါ။",
     "more_info2": "Auto-Linter သိုလှောင်ရုံ။",
     "format_as": "ဖော်မတ်-",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "ကျားဘာသာစကား",
-    "description": "Tiger သည် စိတ်ကြိုက်ပရိုဂရမ်းမင်းဘာသာစကားတစ်ခုဖြစ်ပြီး runtime တည်ဆောက်ပုံ၊ ဘာသာစကား အဓိပ္ပါယ်သတ်မှတ်ချက်များနှင့် စွမ်းဆောင်ရည်ဖလှယ်မှုများကို ရှာဖွေရန် တည်ဆောက်ထားသော Go စကားပြန်။ စကားပြန်ကို WebAssembly တွင် စုစည်းခြင်းဖြင့် စနစ်များသည် အပြန်အလှန်အကျိုးပြုသော၊ ဘရောက်ဆာအခြေခံထုတ်ကုန်အဖြစ်သို့ ပြောင်းလဲစေသည်- အသုံးပြုသူများသည် runtime သည် သယ်ဆောင်ရလွယ်ကူနေသော်လည်း ပရိုဂရမ်များကို တိုက်ရိုက်လုပ်ဆောင်နိုင်သည်။ နှင့် host application မှခွဲထုတ်ထားသည်။",
+    "description": "Tiger သည် ထုတ်လုပ်မှုအဆင့် စိတ်ကြိုက်ပရိုဂရမ်ဘာသာစကားတစ်ခုဖြစ်ပြီး စွမ်းဆောင်ရည်အတွက် တည်ဆောက်ထားသည့် Rust စကားပြန်ဖြစ်သည်။ ၎င်း၏စုစည်းထားသော bytecode အင်ဂျင်နှင့် သစ်ပင်-လမ်းလျှောက်ရည်ညွှန်းစကားပြန်သည် 44-ပရိုဂရမ်စံနှုန်း corpus တွင် lockstep တွင်ရှိနေကာ၊ တွဲလုပ်ထားသည့်လုပ်ငန်းစဉ်အတွင်း protocol သည် အခိုင်အမာကဏ္ဍတိုင်းတွင် သို့မဟုတ် Python နှင့် Ruby တို့ကို တိုက်ရိုက်ယှဉ်ပြိုင်နိုင်သော စွမ်းဆောင်ရည်ဖြင့် CPython ၏ runtime ကို ခိုင်လုံသောအပိုင်းတိုင်းတွင် ထားရှိမည်ဖြစ်သည်။ မူရင်း Go စကားပြန်ကို အမွေအနှစ်အဖြစ် အကောင်အထည်ဖော်ရန် ကျန်ရှိနေပါသည်။ စကားပြန်ကို WebAssembly တွင် စုစည်းခြင်းဖြင့် စနစ်များသည် အပြန်အလှန်အကျိုးပြုသော၊ ဘရောက်ဆာ-အခြေခံထားသော ထုတ်ကုန်တစ်ခုအဖြစ်သို့ ပြောင်းလဲစေသည်- အသုံးပြုသူများသည် runtime ကို သယ်ဆောင်ရလွယ်ကူပြီး host application နှင့် သီးခြားခွဲထားချိန်တွင် ပရိုဂရမ်များကို တိုက်ရိုက်လုပ်ဆောင်နိုင်သည်။",
     "more_info1": "ပိုမိုသိရှိလိုပါက README ကို ကိုးကားပါ။",
     "more_info2": "Tiger Programming Language GitHub Repository ။",
     "select_engine": "အင်ဂျင်ကို ရွေးပါ-",

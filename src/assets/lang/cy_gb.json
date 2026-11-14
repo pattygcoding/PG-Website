@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Offeryn dilysu a fformatio JSON ac YAML sy'n seiliedig ar borwr a adeiladwyd yn Go ac a luniwyd i WebAssembly. Mae symud yr injan dosrannu i WASM yn cadw'r rhyngweithiad yn ymatebol ac yn lleol i'r porwr wrth gymhwyso parser go iawn i ddal mewnbwn annilys. Mae'n enghraifft benodol o ddewis pensaernïaeth amser rhedeg ar gyfer perfformiad, hygludedd ac ymddiriedaeth defnyddwyr.",
+        "text": "Mae Auto-Linter yn linyn a fformatiwr sy'n seiliedig ar borwr ar gyfer JSON, YAML, XML, HTML, TOML, CSV a TSV. Mae'r injan Zig yn crynhoi i WebAssembly ac yn rhedeg yn gyfan gwbl yn y porwr: mae'n dilysu gyda pharswyr go iawn, yn ail-mewnosod dogfennau heb ailysgrifennu eu cynnwys, ac yn cadw sylwadau, angorau, CDATA, dyfynnu a manwl gywirdeb rhifol. Mae'r prosiect yn rhychwantu tri gweithrediad - Go, Rust a Zig - gyda'r fersiynau cynharach wedi'u harchifo i'w cymharu.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Llyfrgell sgriptiau",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Llyfrgell gyfunol o sgriptiau awtomeiddio, gydag un dudalen i bob iaith: VBA ar gyfer taenlenni Excel, Lua ar gyfer offer ysgafn, PowerShell ar gyfer gweinyddu Windows, Python ar gyfer gwaith data bob dydd, a Ruby ar gyfer arbrofion sgriptio. Ysgrifennir pob sgript i'w hailddefnyddio, felly cedwir y casgliad fel un prosiect yn hytrach na phum storfa wasgaredig.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Project amgryptio Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Set gymharol o weithrediadau {implementations} Rijndael ar draws amrywiadau 128-, 192-, a 256-bit. Mae ail-weithredu algorithm sy'n sensitif i ddiogelwch ar draws ieithoedd yn ymarfer disgybledig mewn union fanylebau, ymddygiad profadwy, a chyfyngiadau hygludedd lefel iaith, sydd i gyd yn reddfau defnyddiol ar gyfer systemau sy'n trin data sensitif.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Ddatrysydd Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Cube Rubik rhyngweithiol 3D rydych chi'n ei baentio â sticer - ar y ciwb ei hun neu ar ei rwyd heb ei blygu - ac yna'n ei ddatrys gyda chwiliad dau gam yn arddull Herbert Kociemba a luniwyd o Rust i WebAssembly. Mae'r rhyngwyneb Svelte yn rendro'r ciwb gyda three.js, yn cadw'r cyflwr wedi'i baentio, ei wiriadau dilysrwydd, a llinyn facelet y datryswr mewn cydamseriad, ac yn chwarae'r datrysiad yn ôl symud trwy symud ar linell amser y gallwch chi brysgwydd, camu drwodd, ac ail-chwarae.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Gêm voxel arddull Minecraft wedi'i hadeiladu yn Rust gyda wgpu a'i llunio i WebAssembly, felly mae'n chwarae'n syth yn y porwr. Adeilad blwch tywod yr arcêd yw hwn: tir blociog a byd voxel wedi'i dynnu trwy biblinell graffeg fodern, wedi'i ysgrifennu o'r dechrau ar y gadwyn offer Rust yn hytrach nag ar ben injan gêm.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Iaith Rhaglennu Teigr",
-        "text": "Iaith raglennu arfer a dehonglydd wedi'i ymgorffori yn Go i archwilio dyluniad amser rhedeg iaith, ymddygiad gweithredu, a chyfaddawdau perfformiad. Mae ei grynhoi i WebAssembly a'i integreiddio i'r portffolio yn creu arwyneb cynnyrch gwirioneddol, y gellir ei archwilio ar gyfer peirianneg lefel systemau yn hytrach na gadael y gwaith fel un. arbrawf ystorfa yn unig.",
+        "text": "Iaith raglennu arfer a dehonglydd wedi'i adeiladu yn Rust i archwilio dyluniad amser rhedeg iaith, ymddygiad gweithredu, a chyfaddawdau perfformiad. Mae'r dehonglydd Go gwreiddiol yn parhau i fod ar gael fel gweithrediad etifeddiaeth. Mae ei grynhoi i WebAssembly a'i integreiddio i'r portffolio yn creu arwyneb cynnyrch go iawn y gellir ei archwilio ar gyfer peirianneg lefel systemau yn hytrach na gadael y gwaith fel arbrawf ystorfa yn unig.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Peiriant gwyddbwyll",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Peiriant gwyddbwyll wedi'i ysgrifennu yn Rust a'i lunio i WebAssembly. Mae'n chwilio gyda negamax dyfnhau iteraidd, tocio alffa-beta, tabl trawsosod 32 MB a chwiliad tawelwch ar y dail; mae'n gwerthuso gyda thablau darn-sgwâr taprog a symudiadau archebion gan MVV-LVA, lladdwyr a hanes. Mae'r injan yn rhedeg mewn Gweithiwr Gwe felly nid yw'r bwrdd byth yn rhewi, ac mae ei generadur symud yn cael ei wirio yn y porwr yn erbyn y cyfrifiadau perft cyhoeddedig - nodau 20, 400, 8,902, 197,281 a 4,865,609 ar gyfer y pum dyfnder cyntaf."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Mae Reclaim 4160 yn brosiect adennill: mae'r hyn a ddechreuodd fel gêm CPSC 4160 hanner-orffen yn y coleg - cydio yn y rholiau olaf o bapur toiled a chyrraedd y ddesg dalu cyn i'r germau eich blino - wedi'i ailadeiladu o'r dechrau fel injan C++20 modern ar SDL2 a'i lunio i WebAssembly. Mae'n cludo deg eil cynyddol gyda phatrolio ac erlid germ AI, pickups, gronynnau a rheolyddion cyffwrdd, dim un o lwybrau byr y prototeip gwreiddiol."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Peiriant paru llyfr terfyn penderfyniaethol y gellir ei hailchwarae. Mae'r injan ei hun yn Ruby pur heb unrhyw Reiliau ynddo, a wasanaethir gan Rails 8 dros un ffeil SQLite. Mae pob gorchymyn wedi'i atodi i log ysgrifennu ymlaen llaw cyn i'r injan ei weld, felly mae unrhyw gyflwr blaenorol yn y llyfr yn un plygu i ffwrdd, a phrofir ailchwarae yn ffyddlon trwy gymharu olion bysedd a gofnodwyd tra roedd y farchnad yn fyw. Mae blaenoriaeth pris-amser, GTC/IOC/FOK, yn diwygio sy'n cadw neu'n colli safle ciw, ac mae atal hunan-fasnach yn cael ei haeru gan bedwar ar ddeg o amrywiadau ar ôl pob gorchymyn mewn cyfres fuzz hadedig. Mae'r porwr yn cael ysgol ddeg hertz dros Action Cable, tra bod gorchmynion yn mynd i fyny dros HTTP.",
         "title": "Peiriant paru PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Offeryn ansawdd data sy'n seiliedig ar borwr sy'n dilysu ac yn fformatio JSON ac YAML gan ddefnyddio injan Go a luniwyd i WebAssembly. Mae'r bensaernïaeth yn parhau i ddosrannu'n agos at y defnyddiwr ar gyfer adborth cyflym, preifat tra'n gorfodi rheolau cystrawen go iawn ar y ffin data. Mae'n enghraifft gryno o ddylunio llif gwaith datblygwr dibynadwy o amgylch cywirdeb, perfformiad ac ymddiriedaeth.",
+    "description": "Offeryn ansawdd data sy'n seiliedig ar borwr yw Auto-Linter sy'n dilysu ac yn fformatio JSON, YAML, XML, HTML, TOML, CSV a TSV gyda pheiriant Zig a luniwyd i WebAssembly. Mae dosrannu yn aros yn agos at y defnyddiwr ar gyfer adborth cyflym, preifat tra'n gorfodi rheolau cystrawen go iawn ar y ffin data. Mae'n cadw testun yr awdur, yn gwrthod mewnbwn wedi'i gamffurfio, ac yn dangos sut y gall un modiwl WebAssembly bach bweru llif gwaith datblygwr dibynadwy.",
     "more_info1": "Am ragor o wybodaeth, cyfeiriwch at y README yn y",
     "more_info2": "Ystorfa Auto-Linter.",
     "format_as": "Fformat Fel:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Iaith Teigr",
-    "description": "Mae Tiger yn ddehonglydd iaith raglennu arfer a Go a adeiladwyd i archwilio pensaernïaeth amser rhedeg, semanteg iaith, a chyfaddawdau perfformiad. Mae llunio'r cyfieithydd ar y pryd i WebAssembly yn troi bod systemau'n gweithio'n gynnyrch rhyngweithiol sy'n seiliedig ar borwr: gall defnyddwyr gyflawni rhaglenni'n uniongyrchol tra bod yr amser rhedeg yn parhau'n gludadwy ac yn ynysig o'r cais gwesteiwr.",
+    "description": "Mae Tiger yn iaith raglennu arfer gradd cynhyrchu ac yn ddehonglydd Rust a adeiladwyd ar gyfer perfformiad. Mae ei injan bytecode a ddehonglydd cyfeirio cerdded coed yn aros yn lockstep ar draws corpws meincnod 44-rhaglen, ac mae'r protocol mewn-proses mewn parau yn cadw'r amser rhedeg ar neu o flaen CPython ar bob adran honedig, gyda pherfformiad sy'n cystadlu'n uniongyrchol â Python a Ruby ar gyfer sgriptio o ddydd i ddydd. Mae'r dehonglydd Go gwreiddiol yn parhau i fod ar gael fel gweithrediad etifeddiaeth. Mae llunio'r cyfieithydd ar y pryd i WebAssembly yn troi bod systemau'n gweithio'n gynnyrch rhyngweithiol sy'n seiliedig ar borwr: gall defnyddwyr gyflawni rhaglenni'n uniongyrchol tra bod yr amser rhedeg yn parhau i fod yn gludadwy ac wedi'i ynysu o'r rhaglen gwesteiwr.",
     "more_info1": "Am ragor o wybodaeth, cyfeiriwch at y README yn y",
     "more_info2": "Cadwrfa Iaith Rhaglennu Teigr GitHub.",
     "select_engine": "Dewiswch Beiriant:",

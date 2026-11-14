@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Një mjet verifikimi dhe formatimi i bazuar në shfletues JSON dhe YAML i ndërtuar në Go dhe i përpiluar në WebAssembly. Lëvizja e motorit analizues në WASM e mban ndërveprimin të përgjegjshëm dhe lokal në shfletuesin ndërsa aplikon një analizues të vërtetë për të kapur hyrjen e pavlefshme. Është një shembull i fokusuar i zgjedhjes së një arkitekture të kohës së funksionimit për performancën, transportueshmërinë dhe besimin e përdoruesit.",
+        "text": "Auto-Linter është një linter dhe formatues i bazuar në shfletues për JSON, YAML, XML, HTML, TOML, CSV dhe TSV. Motori Zig përpilohet në WebAssembly dhe funksionon tërësisht në shfletues: vërteton me analizues të vërtetë, rinisë dokumentet pa e rishkruar përmbajtjen e tyre dhe ruan komentet, ankorat, CDATA, citimet dhe saktësinë numerike. Projekti përfshin tre zbatime - Go, Rust dhe Zig - me versionet e mëparshme të arkivuara për krahasim.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Bibliotekë skriptesh",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Një bibliotekë e konsoliduar e skripteve të automatizimit, me një faqe për gjuhë: VBA për spreadsheets Excel, Lua për vegla pune të lehta, PowerShell për administrimin e Windows, Python për punën e përditshme të të dhënave dhe Ruby për eksperimente skriptimi. Çdo skenar është shkruar për t'u ripërdorur, kështu që koleksioni mbahet si një projekt në vend të pesë depove të shpërndara.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Projekt enkriptimi Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Një grup krahasues i zbatimeve {implementations} Rijndael në variantet 128-, 192- dhe 256-bit. Rizbatimi i një algoritmi të ndjeshëm ndaj sigurisë nëpër gjuhë është një ushtrim i disiplinuar në specifikimet e sakta, sjelljen e testueshme dhe kufijtë e transportueshmërisë në nivel gjuhësor, të gjitha instinktet e dobishme për sistemet që trajtojnë të dhëna të ndjeshme.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Zgjidhës Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Një Kub Rubik interaktiv 3D ju pikturoni ngjitëse pas ngjitëse - në vetë kubin ose në rrjetën e tij të shpalosur - dhe më pas e zgjidhni me një kërkim dyfazor të stilit Herbert Kociemba të përpiluar nga Rust në WebAssembly. Ndërfaqja Svelte e jep kubin me three.js, mban të sinkronizuara gjendjen e pikturuar, kontrollet e vlefshmërisë së tij dhe vargun e faqes së zgjidhësit, dhe luan zgjidhjen mbrapa lëvizje pas lëvizjeje në një afat kohor që mund ta pastroni, të kaloni dhe ta riluani.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Një lojë voxel e stilit Minecraft e ndërtuar në Rust me wgpu dhe e përpiluar në WebAssembly, kështu që luhet drejtpërdrejt në shfletues. Është ndërtimi i kutisë së rërës së arcades: terren i bllokuar dhe një botë voksele e tërhequr përmes një tubacioni grafike moderne, të shkruar nga e para në zinxhirin e veglave Rust dhe jo në majë të një motori loje.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Gjuha e programimit Tiger",
-        "text": "Një gjuhë programimi dhe përkthyes i personalizuar i ndërtuar në Go për të eksploruar dizajnin e kohës së ekzekutimit të gjuhës, sjelljen e ekzekutimit dhe shkëmbimet e performancës. Përpilimi i tij në WebAssembly dhe integrimi i tij në portofol krijon një sipërfaqe produkti të vërtetë dhe të inspektueshme për inxhinierinë e nivelit të sistemeve në vend që ta lërë punën si një eksperiment vetëm për depo.",
+        "text": "Një gjuhë programimi dhe përkthyes i personalizuar i ndërtuar në Rust për të eksploruar dizajnin e gjuhës së ekzekutimit, sjelljen e ekzekutimit dhe kompromiset e performancës. Përkthyesi origjinal Go mbetet i disponueshëm si një zbatim i trashëguar. Përpilimi i tij në WebAssembly dhe integrimi i tij në portofol krijon një sipërfaqe produkti të vërtetë dhe të inspektueshme për inxhinierinë e nivelit të sistemeve në vend që ta lërë punën si një eksperiment vetëm për depo.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Motor shahu",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Një motor shahu i shkruar në Rust dhe i përpiluar në WebAssembly. Kërkon me negamax me thellim përsëritës, krasitje alfa-beta, një tabelë transpozimi 32 MB dhe një kërkim qetësie në gjethe; ai vlerëson me tabela të ngushta me pjesë katrore dhe urdhëron lëvizje nga MVV-LVA, vrasës dhe histori. Motori funksionon në një Web Worker kështu që bordi nuk ngrin kurrë dhe gjeneratori i lëvizjes së tij kontrollohet në shfletues kundrejt numrave të perfteve të publikuara - 20, 400, 8,902, 197,281 dhe 4,865,609 nyje për pesë thellësitë e para."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 është një projekt rikuperimi: ajo që filloi si një lojë gjysmë e përfunduar CPSC 4160 në kolegj - kapni rrotullat e fundit të letrës higjienike dhe arrini në arkë përpara se mikrobet t'ju lodhin - është rindërtuar nga e para si një motor modern C++20 në SDL2 dhe është përpiluar në WebAsse. Ai dërgon dhjetë korridoret e përshkallëzuara me patrullimin dhe ndjekjen e inteligjencës artificiale të mikrobeve, kapëse, grimca dhe kontrolle me prekje, asnjë nga shkurtoret e prototipit origjinal."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Një motor përcaktues, i riluajtshëm që përputhet me porositë e limiteve. Vetë motori është Ruby i pastër pa Rails në të, i shërbyer nga Rails 8 mbi një skedar të vetëm SQLite. Çdo komandë i bashkëngjitet një regjistri të parashkrimit përpara se motori ta shohë atë, kështu që çdo gjendje e mëparshme e librit është një herë larg dhe një rishikim vërtetohet besnik duke krahasuar shenjat e gishtave të regjistruara kur tregu ishte aktiv. Prioriteti i çmimit në kohë, GTC/IOC/FOK, ndryshimet që mbajnë ose humbasin pozicionin e radhës dhe parandalimi i vetë-tregtimit pohohen nga katërmbëdhjetë invariante pas çdo komande në një paketë fuzz të mbjellë. Shfletuesi merr një shkallë dhjetë herc mbi Action Cable, ndërsa komandat ngjiten mbi HTTP.",
         "title": "Motor përputhjeje PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Një mjet i cilësisë së të dhënave të bazuar në shfletues që vërteton dhe formaton JSON dhe YAML duke përdorur një motor Go të përpiluar në WebAssembly. Arkitektura vazhdon të analizojë afër përdoruesit për reagime të shpejta dhe private, ndërsa zbaton rregullat reale sintaksore në kufirin e të dhënave. Është një shembull kompakt i projektimit të një fluksi pune të besueshëm të zhvilluesit rreth korrektësisë, performancës dhe besimit.",
+    "description": "Auto-Linter është një mjet i cilësisë së të dhënave të bazuar në shfletues që vërteton dhe formaton JSON, YAML, XML, HTML, TOML, CSV dhe TSV me një motor Zig të përpiluar në WebAssembly. Analizimi qëndron pranë përdoruesit për reagime të shpejta dhe private, ndërkohë që zbaton rregullat reale sintaksore në kufirin e të dhënave. Ai ruan tekstin e autorit, refuzon hyrjen e keqformuar dhe tregon se si një modul i vogël WebAssembly mund të fuqizojë një rrjedhë pune të besueshme të zhvilluesit.",
     "more_info1": "Për më shumë informacion, referojuni README në",
     "more_info2": "Depoja e Auto-Linter.",
     "format_as": "Formatoni si:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Gjuha e Tigrit",
-    "description": "Tiger është një gjuhë programimi me porosi dhe përkthyes Go i krijuar për të eksploruar arkitekturën e kohës së ekzekutimit, semantikën e gjuhës dhe kompromiset e performancës. Përpilimi i përkthyesit në WebAssembly e kthen që sistemet funksionojnë në një produkt interaktiv, të bazuar në shfletues: përdoruesit mund të ekzekutojnë programe drejtpërdrejt ndërsa koha e ekzekutimit mbetet e lëvizshme dhe të izoluara nga aplikacioni pritës.",
+    "description": "Tiger është një gjuhë programimi me porosi të klasës së prodhimit dhe një përkthyes Rust i krijuar për performancë. Motori i tij i përpiluar i bytekodit dhe interpretuesi i referencës në këmbë qëndrojnë në hap në një korpus standard me 44 programe dhe protokolli i çiftuar në proces e mban kohën e ekzekutimit në ose përpara CPython në çdo seksion të pohuar, me performancë që konkurron drejtpërdrejt me Python dhe Ruby për skriptimin e përditshëm. Përkthyesi origjinal Go mbetet i disponueshëm si një zbatim i trashëguar. Përpilimi i përkthyesit në WebAssembly e kthen që sistemet funksionojnë në një produkt interaktiv, të bazuar në shfletues: përdoruesit mund të ekzekutojnë programe drejtpërdrejt ndërsa koha e ekzekutimit mbetet e lëvizshme dhe e izoluar nga aplikacioni pritës.",
     "more_info1": "Për më shumë informacion, referojuni README në",
     "more_info2": "Depoja e GitHub të Gjuhës së Programimit Tiger.",
     "select_engine": "Zgjidhni motorin:",

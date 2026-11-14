@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Fitaovana fanamafisana JSON sy YAML miorina amin'ny navigateur namboarina tao amin'ny Go ary natambatra ho WebAssembly. Ny famindra ny motera fanaparitahana ao amin'ny WASM dia mitazona ny fifaneraserana ho mamaly sy eo an-toerana amin'ny navigateur rehefa mampihatra parser tena izy mba hahazoana fidirana tsy mety. Izy io dia ohatra iray mifantoka amin'ny fisafidianana rafitra fampandehanana ho an'ny fampisehoana, ny fahafaha-mitondra ary ny fahatokisan'ny mpampiasa.",
+        "text": "Auto-Linter dia linter sy formater mifototra amin'ny navigateur ho an'ny JSON, YAML, XML, HTML, TOML, CSV ary TSV. Ny motera Zig dia mitambatra ao amin'ny WebAssembly ary mandeha tanteraka ao amin'ny navigateur: manamarina amin'ny parser tena izy, mamerina mamerina ny antontan-taratasy nefa tsy manoratra ny votoatiny, ary mitahiry fanehoan-kevitra, vatofantsika, CDATA, fanononana ary fametahana isa. Ny tetikasa dia misy fampiharana telo - Mandehana, Rust ary Zig - miaraka amin'ireo dikan-teny teo aloha voatahiry ho fampitahana.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Tahiry script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Tranombokim-bokin'ny automatique, misy pejy iray isaky ny fiteny: VBA ho an'ny Excel spreadsheets, Lua ho an'ny fitaovana maivana, PowerShell ho an'ny fitantanana Windows, Python ho an'ny asa angona isan'andro, ary Ruby ho an'ny andrana fanoratana. Ny script tsirairay dia nosoratana mba hampiasaina indray, ka ny fanangonana dia tazonina ho tetikasa iray fa tsy fitehirizana dimy miparitaka.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Tetikasa fanafenana Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Sehatra fampitahana {implementations} Rijndael amin'ny karazany 128-, 192-, ary 256-bit. Ny famerenana indray ny algorithm saro-pady amin'ny fiteny dia fanazaran-tena amin'ny famaritana mazava tsara, ny fitondran-tena azo andrana ary ny fetran'ny fahafaha-mitondra amin'ny fiteny, ireo toetra mahasoa rehetra ho an'ny rafitra mitantana angona saro-pady.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Mpamaha ny Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Kiobà Rubik 3D ifanakalozan-kevitra izay mandoko sticker amin'ny alalan'ny sticker - eo amin'ny goba mihitsy na eo amin'ny haratony tsy mivelatra - ary avy eo dia voavaha amin'ny fikarohana dingana roa fomba Herbert Kociemba natambatra avy amin'ny Rust mankany amin'ny WebAssembly. Ny interface Svelte dia mamadika ny goba miaraka amin'ny three.js, mitazona ny toetra voaloko, ny fanamarinana ny maha-ara-dalàna azy, ary ny tadin'ny facelet an'ny solver amin'ny sync, ary mamerina ny vahaolana amin'ny alàlan'ny fihetsehana amin'ny fandaharam-potoana azonao kosehina, hamakivakiana, ary hilalao indray.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Lalao voxel amin'ny fomba Minecraft namboarina tamin'ny Rust miaraka amin'ny wgpu ary natambatra ao amin'ny WebAssembly, noho izany dia milalao mivantana ao amin'ny navigateur. Io no fananganana boaty fasika an'ny arcade: terrain mipetaka sy tontolo voxel voasintona amin'ny alàlan'ny fantsona sary maoderina, nosoratana hatrany amin'ny rojo fitaovana Rust fa tsy eo an-tampon'ny motera lalao.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
-        "text": "Fiteny fandaharana manokana sy mpandika teny naorina ao amin'ny Mandehana hijery ny endrika fampandehanan-draharaha amin'ny fiteny, ny fitondran-tena famonoana ary ny fifanakalozam-barotra. Ny fanangonana azy ao amin'ny WebAssembly ary ny fampidirana azy ao amin'ny portfolio dia miteraka vokatra tena izy sy azo jerena ho an'ny injeniera amin'ny rafitra fa tsy mamela ny asa ho toy ny andrana ihany no repository.",
+        "text": "Fiteny fandaharana manokana sy mpandika teny natsangana tamin'ny Rust mba hijerena ny famolavolana ny fotoana fandehan'ny fiteny, ny fitondran-tena famonoana ary ny fifanakalozam-barotra. Ny mpandika teny Go tany am-boalohany dia mbola azo ampiasaina ho fampiharana lova. Ny fanangonana azy ao amin'ny WebAssembly ary ny fampidirana azy ao amin'ny portfolio dia miteraka vokatra tena izy sy azo jerena ho an'ny injeniera amin'ny rafitra fa tsy mamela ny asa ho toy ny andrana ihany.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Maotera chess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Motera échec nosoratana tamin'ny Rust ary natambatra ho WebAssembly. Izy io dia mikaroka miaraka amin'ny negamax fampitomboana miverimberina, fanetezana alfa-beta, tabilao transposition 32 MB ary fikarohana mangina amin'ny ravina; manombana amin'ny latabatra miendrika toradroa izy io ary mandidy ny fihetsehan'ny MVV-LVA, mpamono olona ary tantara. Ny motera dia mandeha amin'ny Web Worker ka tsy mivaingana mihitsy ny board, ary voamarika ao amin'ny navigateur ny mpamoaka azy mihetsika manoloana ny isan'ny perft navoaka - 20, 400, 8,902, 197,281 ary 4,865,609 nodes ho an'ny halalin'ny dimy voalohany."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Tetikasa fanarenana ny Reclaim 4160: izay nanomboka tamin'ny lalao CPSC 4160 efa vita tamin'ny antsasany tany amin'ny oniversite - alao ny horonan-taratasy fidiovana farany ary tongava any amin'ny kaontinao alohan'ny hamelezan'ny mikraoba anao - dia naorina hatrany am-boalohany ho motera C ++ 20 maoderina amin'ny SDL2 ary natambatra ao amin'ny WebAssembly. Izy io dia mandefa lalantsara folo mihamitombo miaraka amin'ny fisafoana sy fanenjehana mikraoba AI, pickups, poti sy fanaraha-maso mikasika, tsy misy amin'ireo hitsin-dàlana amin'ny prototype tany am-boalohany."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Motera mifanandrify amin'ny famandrihana boky voafetra, azo averina. Ny motera mihitsy dia Ruby madio tsy misy Rails ao anatiny, karakarain'ny Rails 8 amin'ny rakitra SQLite tokana. Ny baiko rehetra dia ampiarahina amin'ny diary manoratra mialoha alohan'ny hahitan'ny motera azy, noho izany ny toetry ny boky taloha dia miforitra iray, ary ny famerenana dia voaporofo fa mahatoky amin'ny fampitahana ny dian-tanana voarakitra nandritra ny fotoanan'ny tsena. Ny laharam-pahamehana amin'ny vidiny, ny GTC/IOC/FOK, dia manitsy izay mitazona na mahavery ny toeran'ny filaharana, ary ny fisorohana ny varotra tena dia ambaran'ny invariant efatra ambin'ny folo aorian'ny baiko rehetra ao amin'ny suite fuzz voafantina. Ny navigateur dia mahazo tohatra folo hertz eo amin'ny Action Cable, raha ny baiko kosa miakatra amin'ny HTTP.",
         "title": "Maotera fanambarana PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Fitaovana kalitao angon-drakitra mifototra amin'ny navigateur izay manamarina sy mamolavola ny JSON sy YAML amin'ny fampiasana motera Go natambatra ao amin'ny WebAssembly. Ny maritrano dia tsy mitsahatra manadihady akaiky ny mpampiasa mba hahazoana valiny haingana sy manokana ary mampihatra ny fitsipiky ny syntax tena izy amin'ny sisin'ny data. Izy io dia ohatra mirindra amin'ny fandrafetana rindranasan'ny developer azo ianteherana manodidina ny fahamendrehana, ny fampisehoana ary ny fahatokisana.",
+    "description": "Auto-Linter dia fitaovana kalitao data mifototra amin'ny navigateur izay manamarina sy mamolavola ny JSON, YAML, XML, HTML, TOML, CSV ary TSV miaraka amin'ny motera Zig natambatra ao amin'ny WebAssembly. Ny parsing dia mijanona eo akaikin'ny mpampiasa mba hahazoana valiny haingana sy manokana ary mampihatra ny fitsipiky ny syntax tena izy amin'ny sisin'ny data. Izy io dia mitahiry ny lahatsoratry ny mpanoratra, mandà ny fampidiran-dresaka diso, ary mampiseho ny fomba ahafahan'ny maodely WebAssembly kely iray manome hery ny workflow azo ianteherana.",
     "more_info1": "Raha mila fanazavana fanampiny dia jereo ny README ao amin'ny",
     "more_info2": "Tahiry Auto-Linter.",
     "format_as": "Fomba toy ny:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Fiteny tigra",
-    "description": "Ny Tiger dia fiteny fandaharana mahazatra ary mpandika teny Go natsangana mba hijerena ny maritrano amin'ny fotoana fandehanana, ny semantika amin'ny fiteny, ary ny varotra fampisehoana. Ny fanangonana ny mpandika teny amin'ny WebAssembly dia mamadika fa ny rafitra dia miasa ho toy ny vokatra ifanakalozan-kevitra mifototra amin'ny navigateur: ny mpampiasa dia afaka manatanteraka programa mivantana raha mbola azo entina ihany ny fotoana fandehanana. ary mitoka-monina amin'ny fampiharana mpampiantrano.",
+    "description": "Tiger dia fiteny fandaharana mahazatra amin'ny famokarana ary mpandika teny Rust namboarina ho an'ny fampisehoana. Ny motera bytecode voaangona sy ny mpandika teny mandeha amin'ny hazo dia mijanona amin'ny lockstep manerana ny corpus benchmark 44-programa, ary ny protocole in-process dia mitazona ny fotoana fandehanana amin'ny CPython na alohan'ny CPython isaky ny fizarana, miaraka amin'ny fampisehoana izay mifaninana mivantana amin'i Python sy Ruby ho an'ny scripting isan'andro. Ny mpandika teny Go tany am-boalohany dia mbola azo ampiasaina ho fampiharana lova. Ny fanangonana ny mpandika teny ao amin'ny WebAssembly dia mamadika fa ny rafitra dia miasa ho vokatra ifanakalozan-kevitra mifototra amin'ny navigateur: ny mpampiasa dia afaka manatanteraka programa mivantana raha toa ka mijanona ho azo entina sy mitokana amin'ny fampiharana mpampiantrano ny fotoana fandehanana.",
     "more_info1": "Raha mila fanazavana fanampiny dia jereo ny README ao amin'ny",
     "more_info2": "GitHub Repository amin'ny fiteny fandaharana Tiger.",
     "select_engine": "Select Engine:",

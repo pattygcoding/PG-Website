@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Vafrabundið JSON og YAML staðfestingar- og sniðverkfæri innbyggt í Go og sett saman í WebAssembly. Með því að færa þáttunarvélina yfir í WASM heldur samskiptin viðbragðsgóð og staðbundin fyrir vafranum á meðan raunverulegur flokkari er notaður til að ná ógildu inntaki. Það er einbeitt dæmi um að velja keyrsluarkitektúr fyrir frammistöðu, flytjanleika og traust notenda.",
+        "text": "Auto-Linter er vafrabundið linter og formatter fyrir JSON, YAML, XML, HTML, TOML, CSV og TSV. Zig vélin safnar saman í WebAssembly og keyrir að öllu leyti í vafranum: hún staðfestir með raunverulegum þáttum, inndregur skjöl aftur án þess að endurskrifa innihald þeirra og varðveitir athugasemdir, akkeri, CDATA, tilvitnanir og tölulega nákvæmni. Verkefnið spannar þrjár útfærslur - Go, Rust og Zig - með fyrri útgáfum í geymslu til samanburðar.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skriftabókasafn",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Sameiginlegt bókasafn sjálfvirkniforskrifta, með einni síðu á hverju tungumáli: VBA fyrir Excel töflureikna, Lua fyrir létt verkfæri, PowerShell fyrir Windows stjórnun, Python fyrir daglega gagnavinnu og Ruby fyrir forskriftartilraunir. Hvert handrit er skrifað til að vera endurnýtt, þannig að safninu er haldið við sem eitt verkefni í stað fimm dreifðra geyma.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael dulritunarverkefni",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Samanburðarsett af {implementations} Rijndael útfærslum á 128-, 192- og 256-bita afbrigðum. Að endurútfæra öryggisviðkvæmt reiknirit á milli tungumála er öguð æfing í nákvæmum forskriftum, prófanlegri hegðun og takmörkum færanleika á tungumálastigi, allt gagnlegt eðlishvöt fyrir kerfi sem meðhöndla viðkvæm gögn.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube leysir",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Gagnvirkan 3D Rubik's Cube sem þú málar límmiða fyrir límmiða - á teninginn sjálfan eða á útbrotið net hans - og leysir síðan með tveggja fasa leit í Herbert Kociemba stíl sem er sett saman frá Rust til WebAssembly. Svelte viðmótið gerir teninginn með three.js, heldur máluðu ástandi, réttmætisprófunum og andlitsstreng leysisins samstilltum og spilar lausnina til baka hreyfingu fyrir hreyfingu á tímalínu sem þú getur skrúbbað, stigið í gegnum og spilað aftur.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Voxel-leikur í Minecraft-stíl byggður í Rust með wgpu og settur saman í WebAssembly, svo hann spilar beint í vafranum. Þetta er sandkassauppbygging spilasalarins: gróft landslag og voxel heimur dreginn í gegnum nútíma grafíkleiðslu, skrifuð frá grunni á Rust verkfærakeðjuna frekar en ofan á leikjavél.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger forritunarmál",
-        "text": "Sérsniðið forritunarmál og túlkur innbyggður í Go til að kanna tungumálakjórtímahönnun, framkvæmdarhegðun og frammistöðu. Með því að setja það saman í WebAssembly og samþætta það í eigu myndast raunverulegt, skoðanlegt vöruyfirborð fyrir verkfræði á kerfisstigi frekar en að yfirgefa verkið sem tilraun til geymslu eingöngu.",
+        "text": "Sérsniðið forritunarmál og túlkur smíðaður í Rust til að kanna tungumálakjórtímahönnun, framkvæmdarhegðun og frammistöðuskipti. Uppruni Go túlkurinn er áfram fáanlegur sem eldri útfærsla. Með því að setja það saman í WebAssembly og samþætta það í eignasafnið skapast raunverulegt, skoðanlegt vöruyfirborð fyrir verkfræði á kerfisstigi frekar en að yfirgefa verkið sem tilraun sem eingöngu er geymsla.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Skákvél",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Skákvél skrifuð í Rust og sett saman í WebAssembly. Það leitar með endurtekinni dýpkun negamax, alfa-beta pruning, 32 MB lögleiðingartöflu og kyrrðarleit á blöðunum; það metur með mjókkuðum ferningatöflum og pantar hreyfingar eftir MVV-LVA, morðingja og sögu. Vélin keyrir í Web Worker þannig að borðið frýs aldrei og hreyfanlegur rafall hennar er athugaður í vafranum á móti birtum hæfileikum - 20, 400, 8.902, 197.281 og 4.865.609 hnútar á fyrstu fimm dýpunum."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 er endurheimtarverkefni: það sem byrjaði sem hálfkláraður CPSC 4160 leikur í háskóla - gríptu síðustu klósettpappírsrúllurnar og náðu í kassann áður en sýklarnir eyðast - hefur verið endurbyggt frá grunni sem nútíma C++20 vél á SDL2 og sett saman í WebAssembly. Það sendir tíu stigvaxandi göngur með eftirliti og eltingu gervigreindar, pallbíla, agnir og snertistjórnun, engin af flýtileiðunum í upprunalegu frumgerðinni."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Ákveðin, endurspilanleg samsvörunarvél fyrir takmarkaða pöntun. Vélin sjálf er hrein rúbín án teina í henni, þjónað af Rails 8 yfir einni SQLite skrá. Sérhver skipun er bætt við framskráningarskrá áður en vélin sér hana, þannig að öll fyrri staða bókarinnar er einu sinni í burtu, og endurspilun sannast trú með því að bera saman fingraför sem tekin voru upp á meðan markaðurinn var í beinni. Forgangur verðs og tíma, GTC/IOC/FOK, breytingar sem halda eða missa biðröð og forvarnir gegn sjálfsviðskiptum eru fullyrt af fjórtán óbreytanlegum mönnum eftir hverja skipun í fræðandi fuzz suite. Vafrinn fær tíu hertz stiga yfir Action Cable en skipanir fara upp yfir HTTP.",
         "title": "PIT paraðarvél"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Gagnagæðatól sem byggir á vafra sem staðfestir og forsníðir JSON og YAML með því að nota Go vél sem er sett saman í WebAssembly. Arkitektúrinn heldur áfram að flokka nálægt notandanum fyrir hraðvirka, persónulega endurgjöf á meðan hann framfylgir raunverulegum setningafræðireglum við gagnamörkin. Það er fyrirferðarlítið dæmi um að hanna áreiðanlegt verkflæði þróunaraðila í kringum réttmæti, frammistöðu og traust.",
+    "description": "Auto-Linter er vafrabundið gagnagæðatól sem staðfestir og forsniður JSON, YAML, XML, HTML, TOML, CSV og TSV með Zig vél sem er sett saman í WebAssembly. Aðgreining er nálægt notandanum fyrir hraðvirka, persónulega endurgjöf á meðan raunverulegum setningafræðireglum er framfylgt við gagnamörkin. Það varðveitir texta höfundar, hafnar misgerð inntak og sýnir hvernig ein lítil WebAssembly eining getur knúið áreiðanlegt verkflæði þróunaraðila.",
     "more_info1": "Fyrir frekari upplýsingar, sjá README í",
     "more_info2": "Auto-Linter gagnageymsla.",
     "format_as": "Snið sem:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tiger tungumál",
-    "description": "Tiger er sérsniðið forritunarmál og Go túlkur smíðaður til að kanna keyrsluarkitektúr, merkingarfræði tungumála og frammistöðu. Með því að setja túlkinn saman í WebAssembly breytist þessi kerfi í gagnvirka vöru sem byggir á vafra: notendur geta keyrt forrit beint á meðan keyrslutíminn er færanlegur og einangrað frá hýsingarforritinu.",
+    "description": "Tiger er sérsniðið forritunarmál í framleiðslustigi og Rust túlkur smíðaður fyrir frammistöðu. Samsetta bætikóðavélin hennar og trjágangandi viðmiðunartúlkur haldast í lás yfir 44 forrita viðmiðunarsamskiptareglur, og pöruð samskiptareglur í vinnslu halda keyrslutímanum við eða á undan CPython á hverjum staðhæfðum hluta, með frammistöðu sem keppir beint við Python og Ruby um daglega forskriftargerð. Uppruni Go túlkurinn er áfram fáanlegur sem eldri útfærsla. Með því að setja túlkinn saman í WebAssembly breytist þessi kerfi í gagnvirka vöru sem byggir á vafra: notendur geta keyrt forrit beint á meðan keyrslutíminn er áfram flytjanlegur og einangraður frá hýsingarforritinu.",
     "more_info1": "Fyrir frekari upplýsingar, sjá README í",
     "more_info2": "Tiger forritunarmál GitHub geymsla.",
     "select_engine": "Veldu vél:",

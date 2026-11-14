@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "ბრაუზერზე დაფუძნებული JSON და YAML ვალიდაციისა და ფორმატირების ხელსაწყო, რომელიც ჩაშენებულია Go-ში და შედგენილია WebAssembly-ში. ანალიზების ძრავის გადატანა WASM-ში ინარჩუნებს ინტერაქციას ბრაუზერზე პასუხისმგებელ და ლოკალურს, ხოლო რეალურ პარსერს იყენებს არასწორი შეყვანის დასაჭერად. ეს არის სამუშაო დროის არქიტექტურის არჩევის ორიენტირებული მაგალითი შესრულების, პორტაბელურობისა და მომხმარებლის ნდობისთვის.",
+        "text": "Auto-Linter არის ბრაუზერზე დაფუძნებული ლინტერი და ფორმატორი JSON, YAML, XML, HTML, TOML, CSV და TSV-სთვის. Zig ძრავა შედგენილია WebAssembly-ში და მთლიანად მუშაობს ბრაუზერში: ის ამოწმებს რეალური პარსერებით, ხელახლა აბრუნებს დოკუმენტებს მათი შინაარსის გადაწერის გარეშე და ინახავს კომენტარებს, წამყვანებს, CDATA-ს, ციტირებას და ციფრულ სიზუსტეს. პროექტი მოიცავს სამ განხორციელებას - Go, Rust და Zig - შედარებისთვის დაარქივებული წინა ვერსიები.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "სკრიპტების ბიბლიოთეკა",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "ავტომატიზაციის სკრიპტების კონსოლიდირებული ბიბლიოთეკა, ერთი გვერდით თითო ენაზე: VBA Excel ცხრილებისთვის, Lua მსუბუქი ხელსაწყოებისთვის, PowerShell Windows-ის ადმინისტრირებისთვის, Python ყოველდღიური მონაცემების მუშაობისთვის და Ruby სკრიპტირების ექსპერიმენტებისთვის. თითოეული სკრიპტი იწერება ხელახლა გამოსაყენებლად, ამიტომ კოლექცია ინახება როგორც ერთი პროექტი, ნაცვლად ხუთი მიმოფანტული საცავისა.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael-ის დაშიფრვის პროექტი",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "{implementations} Rijndael-ის იმპლემენტაციების შედარებითი ნაკრები 128-, 192- და 256-ბიტიან ვარიანტებში. უსაფრთხოების მიმართ მგრძნობიარე ალგორითმის ხელახალი დანერგვა ენებზე არის დისციპლინირებული სავარჯიშო ზუსტი სპეციფიკაციების, ტესტირებადი ქცევისა და ენის დონის პორტაბელურობის საზღვრებში, ყველა სასარგებლო ინსტინქტი სისტემებისთვის, რომლებიც ამუშავებენ მგრძნობიარე მონაცემებს.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "რუბიკის კუბის ამომხსნელი",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "ინტერაქტიული 3D რუბიკის კუბი თქვენ ხატავთ სტიკერს სტიკერზე - თავად კუბზე ან მის გაშლილ ბადეზე - და შემდეგ წყვეტთ ჰერბერტ კოციემბას სტილის ორფაზიანი ძიებით, რომელიც შედგენილია Rust-დან WebAssembly-მდე. Svelte ინტერფეისი ასახავს კუბს three.js-ით, ინახავს დახატულ მდგომარეობას, მის მოქმედების შემოწმებას და ამომხსნელის ფეისლეტის სტრიქონს სინქრონიზებულად და უკრავს გამოსავალს უკანა მოძრაობით იმ ვადებში, რომლითაც შეგიძლიათ გაასუფთაოთ, გადალახოთ და ხელახლა ითამაშოთ.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft-ის სტილის ვოქსელის თამაში, რომელიც აშენებულია Rust-ში wgpu-ით და შედგენილია WebAssembly-ში, ასე რომ ის პირდაპირ ბრაუზერში თამაშობს. ეს არის არკადის ქვიშის ყუთის კონსტრუქცია: ბლოკირებული რელიეფი და ვოქსელური სამყარო, რომელიც შედგენილია თანამედროვე გრაფიკული მილსადენით, დაწერილი ნულიდან Rust-ის ხელსაწყოების ჯაჭვზე და არა თამაშის ძრავის თავზე.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger პროგრამირების ენა",
-        "text": "მორგებული პროგრამირების ენა და თარჯიმანი, რომელიც ჩაშენებულია Go-ში, რათა შეისწავლოს ენის გაშვების დიზაინი, შესრულების ქცევა და შესრულების ურთიერთდამოკიდებულებები. მისი შედგენა WebAssembly-ში და მისი ინტეგრირება პორტფოლიოში ქმნის რეალურ, შესამოწმებელ პროდუქტის ზედაპირს სისტემის დონის ინჟინერიისთვის, ვიდრე სამუშაოს დატოვებას. ექსპერიმენტი მხოლოდ საცავისთვის.",
+        "text": "მორგებული პროგრამირების ენა და თარჯიმანი, რომელიც ჩაშენებულია Rust-ში, რათა შეისწავლოს ენის გაშვების დიზაინი, შესრულების ქცევა და შესრულების ურთიერთდამოკიდებულება. ორიგინალური Go თარჯიმანი ხელმისაწვდომი რჩება, როგორც მემკვიდრეობითი განხორციელება. მისი შედგენა WebAssembly-ში და მისი ინტეგრირება პორტფოლიოში ქმნის რეალურ, შესამოწმებელ პროდუქტის ზედაპირს სისტემის დონის ინჟინერიისთვის, ვიდრე სამუშაოს მხოლოდ საცავისთვის განკუთვნილი ექსპერიმენტის სახით დატოვებას.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "საჭადრაკო ძრავა",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "ჭადრაკის ძრავა დაწერილი Rust-ში და შედგენილი WebAssembly-ში. ის ეძებს განმეორებითი გაღრმავების ნეგამაქსით, ალფა-ბეტა გასხვლით, 32 მბ ტრანსპოზიციის ცხრილით და ფოთლებზე დასვენების ძიებით; ის აფასებს შეკუმშული კვადრატული ცხრილებით და ბრძანებს მოძრაობებს MVV-LVA, მკვლელები და ისტორია. ძრავა მუშაობს Web Worker-ში, ასე რომ დაფა არასოდეს იყინება და მისი მოძრაობის გენერატორი მოწმდება ბრაუზერში გამოქვეყნებული პერფტის რაოდენობასთან შედარებით - 20, 400, 8,902, 197,281 და 4,865,609 კვანძი პირველი ხუთი სიღრმისთვის."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 არის სამელიორაციო პროექტი: ის, რაც დაიწყო, როგორც ნახევრად დასრულებული CPSC 4160 თამაში კოლეჯში - აიღეთ ტუალეტის ქაღალდის ბოლო რულონები და მიაღწიეთ საფასურს, სანამ მიკრობები დაგაცვეთ - თავიდან იქნა აშენებული, როგორც თანამედროვე C++20 ძრავა SDL2-ზე და შედგენილია WebAsse-ზე. ის აგზავნის ათი ესკალაციის ბილიკს პატრულირებისა და დევნის ჩანასახის ხელოვნური ინტელექტის, პიკაპების, ნაწილაკების და სენსორული კონტროლით, ორიგინალური პროტოტიპის არც ერთი მალსახმობი."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "განმსაზღვრელი, ხელახლა დაკვრადი ლიმიტის შეკვეთის წიგნის შესატყვისი ძრავა. თავად ძრავა არის სუფთა რუბი, რომელსაც არ აქვს რელსები, რომელსაც ემსახურება Rails 8 ერთი SQLite ფაილით. ყველა ბრძანება ემატება წინასწარ ჩაწერის ჟურნალს, სანამ ძრავი დაინახავს მას, ასე რომ, წიგნის ნებისმიერი წარსული მდგომარეობა ერთი ჯერ არის დაშორებული და გამეორება ერთგულია ბაზრის არსებობის დროს დაფიქსირებული თითის ანაბეჭდების შედარებით. ფასი-დროის პრიორიტეტი, GTC/IOC/FOK, შესწორებები, რომლებიც ინარჩუნებენ ან კარგავენ რიგში პოზიციას და თვითვაჭრობის პრევენციას ამტკიცებს თოთხმეტი უცვლელი ყოველი ბრძანების შემდეგ დათესილ ფუზ კომპლექტში. ბრაუზერი იღებს ათი ჰერციან კიბეს Action Cable-ზე, ხოლო ბრძანებები აწვება HTTP-ზე.",
         "title": "PIT შესაბამისობის ძრავა"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "ბრაუზერზე დაფუძნებული მონაცემთა ხარისხის ინსტრუმენტი, რომელიც ამოწმებს და ფორმატირებს JSON-სა და YAML-ს WebAssembly-ში შედგენილი Go ძრავის გამოყენებით. არქიტექტურა აგრძელებს მომხმარებლის ანალიზს სწრაფი, პირადი გამოხმაურებისთვის, ხოლო მონაცემთა საზღვრებში რეალური სინტაქსის წესების დაცვას. ეს არის დეველოპერის საიმედო სამუშაო ნაკადის შემუშავების კომპაქტური მაგალითი სისწორის, შესრულებისა და ნდობის გარშემო.",
+    "description": "Auto-Linter არის ბრაუზერზე დაფუძნებული მონაცემთა ხარისხის ინსტრუმენტი, რომელიც ამოწმებს და აფორმებს JSON, YAML, XML, HTML, TOML, CSV და TSV Zig ძრავით, რომელიც შედგენილია WebAssembly-ში. ანალიზები მომხმარებელთან ახლოს რჩება სწრაფი, პირადი გამოხმაურებისთვის, ხოლო მონაცემთა საზღვრებში რეალური სინტაქსის წესების დაცვა. ის ინახავს ავტორის ტექსტს, უარყოფს არასწორ შეყვანას და გვიჩვენებს, როგორ შეუძლია ერთ პატარა WebAssembly მოდულს დეველოპერის საიმედო სამუშაო ნაკადის გაძლიერება.",
     "more_info1": "დამატებითი ინფორმაციისთვის მიმართეთ README-ს",
     "more_info2": "Auto-Linter-ის საცავი.",
     "format_as": "ფორმატირება როგორც:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "ვეფხვის ენა",
-    "description": "Tiger არის პერსონალური პროგრამირების ენა და Go თარჯიმანი, რომელიც შექმნილია გაშვების არქიტექტურის, ენის სემანტიკისა და შესრულების ურთიერთგაგების შესასწავლად. თარჯიმანი WebAssembly-ში აქცევს, რომ სისტემები მუშაობენ ინტერაქტიულ, ბრაუზერზე დაფუძნებულ პროდუქტად: მომხმარებლებს შეუძლიათ პირდაპირ განახორციელონ პროგრამები, სანამ გაშვების დრო რჩება პორტატული. და იზოლირებულია მასპინძელი აპლიკაციიდან.",
+    "description": "Tiger არის წარმოების კლასის მორგებული პროგრამირების ენა და Rust თარჯიმანი, რომელიც შექმნილია შესრულებისთვის. მისი შედგენილი ბაიტეკოდის ძრავა და ხეზე მოსიარულე საცნობარო თარჯიმანი რჩება 44-პროგრამიანი საორიენტაციო კორპუსში, ხოლო დაწყვილებული პროცესის პროტოკოლი ინარჩუნებს გაშვებას CPython-ზე ან მის წინ ყველა დამტკიცებულ განყოფილებაზე, შესრულებით, რომელიც პირდაპირ კონკურენციას უწევს Python-სა და Ruby-ს ყოველდღიური სკრიპტისთვის. ორიგინალური Go თარჯიმანი ხელმისაწვდომი რჩება, როგორც მემკვიდრეობითი განხორციელება. თარჯიმანი WebAssembly-ში აქცევს, რომ სისტემები მუშაობენ ინტერაქტიულ, ბრაუზერზე დაფუძნებულ პროდუქტად: მომხმარებლებს შეუძლიათ პირდაპირ განახორციელონ პროგრამები, სანამ გაშვების დრო რჩება პორტატული და იზოლირებული მასპინძელი აპლიკაციისგან.",
     "more_info1": "დამატებითი ინფორმაციისთვის მიმართეთ README-ს",
     "more_info2": "Tiger პროგრამირების ენის GitHub საცავი.",
     "select_engine": "აირჩიეთ ძრავა:",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Chombo kinachotegemea kivinjari cha JSON na YAML cha uthibitishaji na uumbizaji kilichoundwa katika Go na kukusanywa kwa WebAssembly. Kuhamisha injini ya uchanganuzi kwenye WASM huweka mwingiliano kuwa wa mwitikio na wa ndani kwa kivinjari huku ukitumia kichanganuzi halisi kupata ingizo lisilo sahihi. Ni mfano mahususi wa kuchagua usanifu wa wakati wa utekelezaji kwa ajili ya utendaji, kubebeka na uaminifu wa mtumiaji.",
+        "text": "Auto-Linter ni linter inayotegemea kivinjari na umbizo la JSON, YAML, XML, HTML, TOML, CSV na TSV. Injini ya Zig inaundwa na WebAssembly na huendesha kabisa katika kivinjari: inaidhinishwa na vichanganuzi halisi, inaingiza tena hati bila kuandika upya yaliyomo, na kuhifadhi maoni, nanga, CDATA, nukuu na usahihi wa nambari. Mradi unajumuisha utekelezaji tatu - Go, Rust na Zig - na matoleo ya awali yamewekwa kwenye kumbukumbu kwa kulinganisha.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Maktaba ya script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Maktaba iliyounganishwa ya hati za otomatiki, yenye ukurasa mmoja kwa kila lugha: VBA ya lahajedwali za Excel, Lua kwa zana nyepesi, PowerShell kwa usimamizi wa Windows, Python kwa kazi ya kila siku ya data, na Ruby kwa majaribio ya uandishi. Kila hati imeandikwa kutumika tena, kwa hivyo mkusanyiko hutunzwa kama mradi mmoja badala ya hazina tano zilizotawanyika.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Mradi wa usimbaji fiche Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Seti linganishi ya {implementations} Utekelezaji wa Rijndael katika vibadala 128-, 192- na 256-bit. Kutekeleza upya algoriti ambayo ni nyeti kwa usalama katika lugha zote ni zoezi la nidhamu katika ubainifu kamili, tabia inayoweza kujaribiwa, na vikomo vya uwezo wa kubebeka wa kiwango cha lugha, silika muhimu kwa mifumo inayoshughulikia data nyeti.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Kisuluhishi cha Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Mchemraba wa 3D wa Rubik unaoingiliana unapaka kibandiko kwa kibandiko - kwenye mchemraba wenyewe au kwenye wavu wake uliofunuliwa - na kisha usuluhishe kwa mtindo wa Herbert Kociemba wa utafutaji wa awamu mbili uliokusanywa kutoka Rust hadi WebAssembly. Kiolesura cha Svelte kinaonyesha mchemraba na three.js, huweka hali iliyopakwa rangi, hukagua uhalali wake, na mfuatano wa sehemu ya kisuluhishi katika kusawazisha, na hucheza suluhu ya kurudi nyuma kwa kusonga kwenye rekodi ya matukio unayoweza kusugua, kupitia, na kucheza tena.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Mchezo wa voxel wa mtindo wa Minecraft uliojengwa ndani ya Rust na wgpu na kukusanywa kwa WebAssembly, kwa hivyo unacheza moja kwa moja kwenye kivinjari. Ni muundo wa kisanduku cha mchangani katika ukumbi wa michezo: ardhi ya eneo lililozuiliwa na ulimwengu wa voxel uliochorwa kupitia bomba la kisasa la michoro, iliyoandikwa kutoka mwanzo kwenye mnyororo wa zana wa Rust badala ya juu ya injini ya mchezo.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Lugha ya Kupanga Tiger",
-        "text": "Lugha maalum ya programu na mkalimani iliyoundwa katika Go ili kuchunguza muundo wa wakati wa utekelezaji wa lugha, tabia ya utekelezaji na utendakazi. Kuikusanya kwa WebAssembly na kuijumuisha kwenye kwingineko hutengeneza uso wa bidhaa halisi, unaoweza kuonekana kwa uhandisi wa kiwango cha mifumo badala ya kuacha kazi kama chombo. jaribio la hazina pekee.",
+        "text": "Lugha maalum ya upangaji na mkalimani iliyoundwa katika Rust ili kuchunguza muundo wa wakati wa utekelezaji wa lugha, tabia ya utekelezaji na utendakazi. Mkalimani asilia wa Go bado anapatikana kama utekelezaji wa urithi. Kuikusanya kwa WebAssembly na kuiunganisha kwenye kwingineko hutengeneza uso halisi wa bidhaa unaoweza kuonekana kwa uhandisi wa kiwango cha mifumo badala ya kuacha kazi kama jaribio la hazina pekee.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "Injini ya chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Injini ya chess iliyoandikwa kwa Rust na iliyokusanywa kwa WebAssembly. Inatafuta kwa kuongeza mara kwa mara negamax, upogoaji wa alpha-beta, jedwali la ubadilishaji la MB 32 na utafutaji wa utulivu kwenye majani; inatathmini kwa jedwali la kipande-mraba na maagizo ya hatua kwa MVV-LVA, wauaji na historia. Injini huendeshwa kwa Mfanyakazi wa Wavuti ili bodi isigandishe kamwe, na jenereta yake ya kusongesha inaangaliwa kwenye kivinjari dhidi ya hesabu za perft zilizochapishwa - 20, 400, 8,902, 197,281 na 4,865,609 nodi kwa kina tano za kwanza."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ni mradi wa kurejesha tena: mchezo ulioanza kama mchezo uliokamilika wa CPSC 4160 chuoni - chukua karatasi za mwisho za choo na ufikie malipo kabla ya vijidudu kukuchosha - umejengwa upya tangu mwanzo kama injini ya kisasa ya C++20 kwenye SDL2 na kuunganishwa kwa WebAssembly. Husafirisha njia kumi zinazoongezeka zenye doria na kufukuza vijidudu AI, picha, chembe na vidhibiti vya kugusa, hakuna njia za mkato za mfano halisi."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Injini ya kubainisha, inayoweza kucheza tena na kikomo cha agizo-kitabu. Injini yenyewe ni Ruby safi bila reli ndani yake, inayohudumiwa na Reli 8 juu ya faili moja ya SQLite. Kila amri inaambatishwa kwa kumbukumbu ya kuandika mbele kabla ya injini kuiona, kwa hivyo hali yoyote ya zamani ya kitabu iko mara moja, na uchezaji wa marudio unathibitishwa kwa uaminifu kwa kulinganisha alama za vidole zilizorekodiwa wakati soko lilikuwa moja kwa moja. Kipaumbele cha muda wa bei, GTC/IOC/FOK, hurekebisha hali hiyo ya kuweka au kupoteza nafasi ya foleni, na uzuiaji wa biashara binafsi unathibitishwa na vibadala kumi na nne baada ya kila amri katika mpangilio wa fuzz uliowekwa. Kivinjari hupata ngazi ya hertz kumi juu ya Action Cable, huku amri zikipanda juu ya HTTP.",
         "title": "Injini ya kuoanisha PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Zana ya ubora wa data inayotegemea kivinjari ambayo huidhinisha na kuunda JSON na YAML kwa kutumia injini ya Go iliyokusanywa kwa WebAssembly. Usanifu unaendelea kuchanganua karibu na mtumiaji kwa maoni ya haraka na ya faragha huku ukitekeleza sheria halisi za sintaksia kwenye mpaka wa data. Ni mfano thabiti wa kubuni utendakazi unaotegemewa wa msanidi programu kuhusu usahihi, utendakazi na uaminifu.",
+    "description": "Auto-Linter ni zana ya ubora wa data inayotegemea kivinjari ambayo huidhinisha na kuunda JSON, YAML, XML, HTML, TOML, CSV na TSV kwa kutumia injini ya Zig iliyokusanywa kwa WebAssembly. Uchanganuzi hukaa karibu na mtumiaji kwa maoni ya haraka na ya faragha huku ukitekeleza sheria halisi za sintaksia kwenye mpaka wa data. Inahifadhi maandishi ya mwandishi, inakataa ingizo mbovu, na inaonyesha jinsi moduli moja ndogo ya WebAssembly inavyoweza kuwasha mtiririko wa kazi unaotegemewa wa msanidi programu.",
     "more_info1": "Kwa habari zaidi, rejelea README katika",
     "more_info2": "Hazina ya Auto-Linter.",
     "format_as": "Umbizo Kama:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Lugha ya Tiger",
-    "description": "Tiger ni lugha maalum ya kupanga programu na mkalimani wa Go iliyoundwa ili kuchunguza usanifu wa wakati wa utekelezaji, semantiki za lugha na utendakazi. Kukusanya mkalimani kwa WebAssembly kunageuza mifumo kuwa bidhaa inayoingiliana, inayotegemea kivinjari: watumiaji wanaweza kutekeleza programu moja kwa moja huku muda wa utekelezaji ukiendelea kubebeka. na kutengwa na programu mwenyeji.",
+    "description": "Tiger ni lugha ya upangaji ya kiwango cha uzalishaji na mkalimani wa Rust iliyoundwa kwa utendakazi. Injini yake ya bytecode iliyokusanywa na mkalimani wa marejeleo ya kutembea kwa mti hukaa katika hatua iliyofungiwa katika safu ya alama za programu 44, na itifaki iliyooanishwa ya mchakato huweka muda wa utekelezaji kuwa au mbele ya CPython kwenye kila sehemu inayodaiwa, na utendakazi unaoshindana moja kwa moja na Python na Ruby kwa uandishi wa kila siku. Mkalimani asilia wa Go bado anapatikana kama utekelezaji wa urithi. Kukusanya mkalimani kwa WebAssembly hugeuza mifumo kufanya kazi kuwa bidhaa inayoingiliana, inayotegemea kivinjari: watumiaji wanaweza kutekeleza programu moja kwa moja huku muda wa utekelezaji ukisalia kubebeka na kutengwa na programu-tumizi ya seva pangishi.",
     "more_info1": "Kwa habari zaidi, rejelea README katika",
     "more_info2": "Hazina ya GitHub ya Lugha ya Kupanga Lugha.",
     "select_engine": "Chagua Injini:",

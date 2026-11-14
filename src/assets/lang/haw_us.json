@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "ʻO JSON a me YAML i hoʻokumu ʻia i ka polokalamu kele pūnaewele hōʻoia a me ka hoʻopili ʻana i nā hāmeʻa i kūkulu ʻia ma Go a hōʻuluʻulu ʻia i WebAssembly. ʻO ka hoʻoneʻe ʻana i ka ʻenekini parsing i WASM e mālama i ka pane ʻana a me ka kūloko i ka polokalamu kele pūnaewele ʻoiai e noi ana i kahi parser maoli e hopu i ka hoʻokomo hewa ʻole. He laʻana koʻikoʻi ia o ke koho ʻana i kahi hoʻolālā runtime no ka hana, portability, a me ka hilinaʻi mea hoʻohana.",
+        "text": "ʻO Auto-Linter kahi linter a me ka formatter no JSON, YAML, XML, HTML, TOML, CSV a me TSV. Hoʻopili ka ʻenekini Zig i WebAssembly a holo holoʻokoʻa i ka polokalamu kele pūnaewele: hōʻoia me nā parser maoli, hoʻopili hou i nā palapala me ka ʻole o ka kākau hou ʻana i kā lākou mau ʻike, a mālama i nā manaʻo, heleuma, CDATA, quoting a me ka pololei helu. Hoʻolālā ka papahana i ʻekolu hoʻokō - Go, Rust a me Zig - me nā mana mua i hoʻopaʻa ʻia no ka hoʻohālikelike.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Ka hale waihona script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "He waihona hoʻohui ʻia o nā palapala ʻomi, me hoʻokahi ʻaoʻao no kēlā me kēia ʻōlelo: VBA no nā pāpalapala Excel, Lua no nā mea hana māmā, PowerShell no ka hoʻokele Windows, Python no ka hana ʻikepili i kēlā me kēia lā, a me Ruby no nā hoʻokolohua palapala. Kākau ʻia kēlā me kēia palapala e hoʻohana hou ʻia, no laila mālama ʻia ka hōʻiliʻili ʻana ma ke ʻano he papahana hoʻokahi ma mua o ʻelima mau waihona hoʻopuehu.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Ka papahana paʻa Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "He pūʻulu hoʻohālikelike o {implementations} Rijndael hoʻokō ma waena o nā ʻano like ʻole 128-, 192-, a me 256-bit. ʻO ka hoʻokō hou ʻana i kahi algorithm e pili ana i ka palekana ma waena o nā ʻōlelo he hoʻomaʻamaʻa aʻo ʻia i nā kikoʻī kikoʻī, nā ʻano hiki ke hoʻāʻo ʻia, a me nā palena o ka lawe ʻana i ka pae ʻōlelo, nā manaʻo pono āpau no nā ʻōnaehana e mālama i ka ʻikepili koʻikoʻi.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Ka hōʻoia Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "ʻO kahi 3D Rubik's Cube pāʻani āu e pena ai i ka sticker ma ka sticker - ma ka cube pono'ī a i ʻole ma kāna ʻupena i wehe ʻia - a laila e hoʻoponopono me kahi hulina ʻelua ʻano Herbert Kociemba i hōʻuluʻulu ʻia mai Rust a i WebAssembly. Hāʻawi ka Svelte interface i ka cube me three.js, mālama i ka mokuʻāina pena, kona hōʻoia ʻana, a me ke kaula facelet o ka solver i ka sync, a hoʻokani i ka hoʻonā hoʻi i ka neʻe ʻana ma kahi kaʻina manawa hiki iā ʻoe ke holoi, hele a pāʻani hou.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "He pāʻani voxel kaila Minecraft i kūkulu ʻia ma Rust me wgpu a hoʻohui ʻia i WebAssembly, no laila ke pāʻani pololei nei i ka polokalamu kele pūnaewele. ʻO ia ke kūkulu ʻia ʻana o ka pahu pahu pahu: ʻāina poloka a me ka honua voxel i huki ʻia ma o ka pipeline kiʻi kiʻi hou, i kākau ʻia mai ka ʻohi ʻana ma luna o ka mea hana Rust ma mua o ka ʻenekini pāʻani.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ʻŌlelo Papahana Tiger",
-        "text": "He ʻōlelo hoʻolālā maʻamau a me ka unuhi ʻōlelo i kūkulu ʻia ma Go e ʻimi i ka hoʻolālā manawa holo ʻōlelo, ka hana hoʻokō, a me nā kālepa hana. ʻO ka hōʻuluʻulu ʻana iā WebAssembly a me ka hoʻohui ʻana iā ia i loko o ka waihona e hana i kahi ʻili huahana maoli a nānā ʻia no ka ʻenehana pae ʻōnaehana ma mua o ka haʻalele ʻana i ka hana ma ke ʻano he hoʻokolohua waihona wale nō.",
+        "text": "He ʻōlelo hoʻolālā maʻamau a me ka unuhi ʻōlelo i kūkulu ʻia ma Rust e ʻimi i ka hoʻolālā manawa holo ʻōlelo, ka hana hoʻokō, a me nā kālepa hana. Loaʻa ka unuhi ʻōlelo Go kumu ma ke ʻano he hoʻokō hoʻoilina. ʻO ka hōʻuluʻulu ʻana iā WebAssembly a me ka hoʻohui ʻana iā ia i loko o ka waihona e hana i kahi ʻili huahana maoli a nānā ʻia no ka ʻenekini pae ʻōnaehana ma mua o ka waiho ʻana i ka hana ma ke ʻano he hoʻokolohua waihona wale nō.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Ka ʻōnaehana pāʻahikī",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "He mīkini chess i kākau ʻia ma Rust a hōʻuluʻulu ʻia i WebAssembly. Huli ia me ka negamax hoʻonui hou ʻana, ka ʻohi alpha-beta, kahi papa transposition 32 MB a me ka huli ʻana i nā lau; loiloi ia me nā papa ʻāpana ʻāpana ʻāpana a me nā kauoha i neʻe ʻia e MVV-LVA, nā mea pepehi a me ka mōʻaukala. Holo ka ʻenekini i loko o kahi Web Worker no laila ʻaʻole maloʻo ka papa, a nānā ʻia kāna mea hoʻoneʻe neʻe ma ka polokalamu kele i nā helu perft i paʻi ʻia - 20, 400, 8,902, 197,281 a me 4,865,609 nodes no nā hohonu ʻelima mua."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "ʻO ka Reclaim 4160 kahi papahana hoʻihoʻi: ʻo ka mea i hoʻomaka i ka pāʻani CPSC 4160 hapalua i hoʻopau ʻia ma ke kulanui - hopu i nā ʻōwili pepa hope loa a hiki i ka hale kūʻai ma mua o ka hoʻopau ʻana o nā germs iā ʻoe - ua kūkulu hou ʻia mai ka wā ʻōpala e like me ka mīkini C ++ 20 hou ma SDL2 a hoʻohui ʻia i WebAssembly. Hoʻouna ʻo ia i nā aisles piʻi he ʻumi me ka patrolling a me ka hahai ʻana i ka germ AI, pickups, particles and touch controls, ʻaʻohe o nā pōkole o ka prototype kumu."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "He ʻenekini hoʻohālikelike puke palena palena hiki ke hoʻokani hou ʻia. ʻO ka ʻenekini ponoʻī he Ruby maʻemaʻe ʻaʻohe Rails i loko, lawelawe ʻia e Rails 8 ma luna o kahi faila SQLite hoʻokahi. Hoʻopili ʻia kēlā me kēia kauoha i kahi moʻolelo kākau mua ma mua o ka ʻike ʻana o ka ʻenekini, no laila, ʻo ka mokuʻāina o ka puke i hala hoʻokahi paʻi, a ua hōʻoia ʻia ka hana hou ʻana ma ka hoʻohālikelike ʻana i nā manamana lima i hoʻopaʻa ʻia i ka wā e ola ana ka mākeke. ʻO ke kumu kūʻai-manawa mua, GTC/IOC/FOK, e hoʻololi i ka mālama ʻana a i ʻole ka nalo ʻana i ke kūlana queue, a ʻo ka pale ʻana i ke kālepa ponoʻī e ʻōlelo ʻia e nā ʻumikūmāhā invariants ma hope o kēlā me kēia kauoha i loko o kahi hui fuzz seeded. Loaʻa i ka polokalamu kele pūnaewele he ʻumi-hertz alapiʻi ma luna o Action Cable, aʻo nā kauoha e piʻi ma luna o HTTP.",
         "title": "Ka ʻōnaehana hōʻoia PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "ʻO kahi mea hana pono ʻikepili e pili ana i ka polokalamu kele pūnaewele e hōʻoia a hōʻano hou iā JSON a me YAML me ka hoʻohana ʻana i kahi ʻenekini Go i hōʻuluʻulu ʻia i WebAssembly. Ke hoʻomau nei ka hale hoʻolālā e hoʻopili kokoke i ka mea hoʻohana no ka wikiwiki a me ka manaʻo pilikino ʻoiai ke hoʻokō nei i nā lula syntax maoli ma ka palena ʻikepili. He laʻana koʻikoʻi ia o ka hoʻolālā ʻana i kahi kahe hana hoʻomohala hilinaʻi e pili ana i ka pololei, ka hana, a me ka hilinaʻi.",
+    "description": "ʻO Auto-Linter kahi mea hoʻohana pono ʻikepili e pili ana i ka polokalamu kele pūnaewele e hōʻoia a hoʻohālikelike iā JSON, YAML, XML, HTML, TOML, CSV a me TSV me kahi ʻenekini Zig i hōʻuluʻulu ʻia i WebAssembly. Noho ʻo Parsing ma kahi kokoke i ka mea hoʻohana no ka wikiwiki a me ka manaʻo pilikino ʻoiai ke hoʻokō nei i nā lula syntax maoli ma ka palena ʻikepili. Mālama ʻo ia i ka kikokikona a ka mea kākau, hōʻole i ka hoʻokomo hewa ʻana, a hōʻike i ke ʻano e hiki ai i kahi ʻāpana WebAssembly liʻiliʻi ke hoʻoikaika i kahi kaila hana hoʻomohala hilinaʻi.",
     "more_info1": "No ka ʻike hou aku, e nānā i ka README ma ka",
     "more_info2": "Ka hale waihona o Auto-Linter.",
     "format_as": "Hōʻano e like me:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "ʻŌlelo Tiga",
-    "description": "He ʻōlelo hoʻonohonoho maʻamau ʻo Tiger a ʻo Go ka unuhi ʻōlelo i kūkulu ʻia e ʻimi i ka hoʻolālā manawa holo, nā semantics ʻōlelo, a me nā kālepa hana. ʻO ka hōʻuluʻulu ʻana i ka unuhi ʻōlelo iā WebAssembly e hoʻololi i nā ʻōnaehana e hana i kahi huahana pili, polokalamu kele pūnaewele: hiki i nā mea hoʻohana ke hoʻokō pololei i nā papahana ʻoiai e mau ana ka wā holo. a hoʻokaʻawale ʻia mai ka noi hoʻokipa.",
+    "description": "ʻO Tiger kahi ʻōlelo papahana maʻamau a me kahi unuhi unuhi Rust i kūkulu ʻia no ka hana. ʻO kāna ʻenekini bytecode i hui pū ʻia a me ka unuhi ʻōlelo hele lāʻau e noho ma ka lockstep ma waena o kahi benchmark corpus 44-program, a mālama ka protocol in-process i ka manawa holo ma mua a i ʻole ma mua o CPython ma kēlā me kēia ʻāpana i ʻōlelo ʻia, me ka hana e hoʻokūkū pololei me Python a me Ruby no ka kākau ʻana i kēlā me kēia lā. Loaʻa ka unuhi ʻōlelo Go kumu ma ke ʻano he hoʻokō hoʻoilina. ʻO ka hōʻuluʻulu ʻana i ka unuhi ʻōlelo iā WebAssembly e hoʻololi i nā ʻōnaehana e hana i kahi huahana pili, polokalamu kele pūnaewele: hiki i nā mea hoʻohana ke hoʻokō pololei i nā papahana ʻoiai e hoʻomau ʻia ka wā holo a kaʻawale mai ka noi hoʻokipa.",
     "more_info1": "No ka ʻike hou aku, e nānā i ka README ma ka",
     "more_info2": "ʻO ka Tiger Programming Language GitHub Repository.",
     "select_engine": "E koho i ka ʻenekini:",

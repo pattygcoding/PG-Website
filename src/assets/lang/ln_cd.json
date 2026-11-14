@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Esaleli ya bondimi mpe ya formatage JSON mpe YAML oyo esalemi na navigateur oyo etongami na Go mpe esangisi na WebAssembly. Kokende na moteur ya parsing na WASM ebatelaka interaction responsive mpe locale na navigateur tango ozali kosalela parser ya solo mpo na kokanga entrée invalide. Ezali ndakisa oyo etali mingi ya kopona architecture ya tango ya kosala mpo na performance, portability, mpe confiance ya mosaleli.",
+        "text": "Auto-Linter ezali linter mpe formatteur oyo esalemi na navigateur mpo na JSON, YAML, XML, HTML, TOML, CSV mpe TSV. Moteur Zig e compiler na WebAssembly mpe etambolaka mobimba na navigateur : e validaka na ba parseurs ya solo, e re-indenter mikanda sans kokoma lisusu contenus na yango, mpe ebatelaka ba commentaires, ba ancres, CDATA, citation mpe précision numérique. Projet oyo etali ba mise en œuvre misato — Go, Rust na Zig — na ba versions ya liboso oyo e archivé pona ko comparer.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Ndako ya script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Bibliothèque consolidé ya ba scripts ya automation, na page moko na monoko moko : VBA pona ba feuilles de calcul ya Excel, Lua pona ba outils ya poids léger, PowerShell pona administration ya Windows, Python pona mosala ya ba données ya mokolo na mokolo, pe Ruby pona ba expériences ya scripting. Script moko na moko ekomami mpo na kosalelama lisusu, yango wana liboke ebatelami lokola projet moko na esika ya ba dépôts mitano oyo epalangani.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Projet ya kotɛlɛmɛla ya Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Ensemble comparatif ya ba implémentations ya {implementations} Rijndael na kati ya ba variantes ya 128-, 192-, na 256-bit. Kozongela kosalela algorithme oyo etali bokengi na minoko ezali exercice discipliné na ba spécifications ya sikisiki, comportement oyo ekoki komekama, mpe ba limite ya portabilité na niveau ya langue, nionso wana ezali instincts ya tina mpo na ba systèmes oyo esimbaka ba données sensibles.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Mosaleli ya Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Cube ya Rubik 3D interactif opakolaka sticker na sticker - na cube yango moko to na filet na yango déplié - et puis o résoudre na recherche ya deux phases ya style Herbert Kociemba compilé depuis Rust ti na WebAssembly. Interface Svelte ezo rendre cube na three.js, ezo garder état peinture, ba vérifications ya validité na yango, na chaîne ya facelet ya solveur na synchron, pe ezo beta solution ya sima mouvement par mouvement na chronologie oyo okoki ko scrub, ko passer, pe ko jouer lisusu.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Lisano ya voxel ya lolenge ya Minecraft oyo etongami na Rust na wgpu mpe esangisi na WebAssembly, yango wana esakanaka semba na navigateur. Ezali arcade ya sandbox build: terrain ya bloc mpe mokili ya voxel oyo ebendami na nzela ya pipeline ya graphique ya mikolo oyo, ekomami depuis zéro na chaîne d’outils Rust na esika ya kozala likolo ya moteur ya jeu.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Langue ya Programmation ya Tigre",
-        "text": "A custom programming language and interpreter built in Go to explore language runtime design, execution behavior, and performance tradeoffs. Compiling it to WebAssembly and integrating it into the portfolio creates a real, inspectable product surface for systems-level engineering rather than leaving the work as a repository-only experiment.",
+        "text": "Langue ya programmation personnalisée mpe interprète oyo etongami na Rust mpo na kotala design ya tango ya exécution ya langue, comportement ya exécution, mpe ba tradeoffs ya performance. Mobongoli ya Go ya ebandeli etikali lokola bosaleli ya libula. Kosangisa yango na WebAssembly mpe kosangisa yango na portefeuille esali surface ya produit ya solo, inspectable mpo na ingénierie ya niveau ya systèmes na esika ya kotika mosala lokola expérience ya dépôt kaka.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "Motɔlɔmi ya chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Moteur ya échecs oyo ekomami na Rust mpe esangisi na WebAssembly. Ezali koluka na profondeur iteratif negamax, kokata alpha-beta, tableau ya transposition ya 32 MB mpe boluki ya quiescence na nkasa; yango e évaluaka na ba tableaux coniques pièce-carré mpe e commander ba mouvements par MVV-LVA, babomi mpe histoire. Moteur ezo tambola na Web Worker donc carte e congeler jamais, pe générateur ya déplacement na yango e vérifier na navigateur contre ba comptes perft publiés - 20, 400, 8.902, 197.281 na 4.865.609 noeuds pona ba profondeurs mitano ya liboso."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ezali projet ya reclamation : oyo ebandaki lokola jeu ya CPSC 4160 oyo esilaki demi-fini na université - kanga ba rouleaux ya suka ya papier hygiénique mpe kokoma na checkout avant ba germes e lembisa yo - etongami lisusu depuis zéro lokola moteur moderne C++20 na SDL2 mpe esangisi na WebAssembly. Ezali kotinda ba couloirs zomi oyo ezali komata na patrouille mpe kolanda AI ya germe, ba pickups, ba particules mpe ba contrôles tactile, moko te ya ba raccourcis ya prototype original."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Moteur ya matching ya limite-order-book oyo ekoki ko jouer déterministe, oyo ekoki ko jouer lisusu. Moteur yango moko ezali Ruby ya peto na Rails te na kati, esalelami na Rails 8 likolo ya fichier SQLite moko. Etinda nyonso ebakisami na mokanda ya kokoma liboso liboso ete motɛ́lɛ emona yango, yango wana ezalela nyonso ya kala ya buku ezali na ntaka ya mbala moko, mpe kozongela kolakisa emonisami sembo na kokokanisaka bilembo ya misapi oyo ezwamaki ntango zando ezalaki na bomoi. Priorité ya temps-prix, GTC/IOC/FOK, ebongisaka oyo ebatelaka to ebungisaka position ya molongo, mpe prévention ya auto-commerce e asserté na ba invariants zomi na minei sima ya commande nionso na suite ya fuzz seeded. Navigateur ezuaka escalier ya hertz zomi likolo ya Action Cable, alors que ba commandes emata likolo ya HTTP.",
         "title": "Motɔlɔmi ya kokutisa PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Esaleli ya qualité ya ba données oyo esalemi na navigateur oyo e validaka pe e formataka JSON na YAML na kosalelaka moteur Go oyo esangisi na WebAssembly. Architecture ezo continuer ko parser pene ya mosaleli pona ba retours ya mbangu, ya privé tout en forcer mibeko ya syntaxe ya solo na ndelo ya ba données. Ezali ndakisa ya moke ya kosala mosala ya mobongisi oyo ekoki kotyelama motema nzinganzinga ya bosolo, bosali, mpe bondimi.",
+    "description": "Auto-Linter ezali esaleli ya qualité ya ba données oyo esalemi na navigateur oyo e validaka pe e formataka JSON, YAML, XML, HTML, TOML, CSV na TSV na moteur Zig oyo esangisi na WebAssembly. Parsing etikalaka penepene na mosaleli mpo na bozongisi ya mbangu, ya privé tango ezali kosala ete mibeko ya syntaxe ya solo ezala na ndelo ya ba données. Ebatelaka makomi ya mokomi, eboyaka bokotisi oyo esalemi malamu te, mpe elakisaka lolenge nini module moko ya moke ya WebAssembly ekoki kopesa nguya na mosala ya mobongisi oyo ekoki kotyelama motema.",
     "more_info1": "Mpo na koyeba makambo mosusu, tala README na",
     "more_info2": "Ndako ya Auto-Linter.",
     "format_as": "Format Lokola:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Monoko ya Tigre",
-    "description": "Tiger ezali monoko ya programmation personnalisée mpe interprète Go oyo etongami mpo na kotala architecture ya tango ya kosala, sémantique ya monoko, mpe ba tradeoffs ya performance. Kosangisa interprète na WebAssembly ebongoli que ba systèmes esalaka na produit interactif, basé na navigateur : basaleli bakoki ko exécuter ba programmes directement pendant que temps d’exécution etikali portable mpe ekabwani na application ya hôte.",
+    "description": "Tiger ezali monoko ya programmation personnalisée ya production-grade mpe interprète ya Rust oyo etongami mpo na performance. Moteur na yango ya bytecode compilé mpe interprète ya référence ya kotambola na nzete etikalaka na lockstep na kati ya corpus ya benchmark ya 44 programme, mpe protocole ya processus couplé ebatelaka tango ya kosala na to liboso ya CPython na eteni nionso oyo elobami, na performance oyo ezali kobunda mbala moko na Python mpe Ruby mpo na scripting ya mokolo na mokolo. Mobongoli ya Go ya ebandeli etikali lokola bosaleli ya libula. Kosangisa interprète na WebAssembly ebongoli que ba systèmes esalaka na produit interactif, basé na navigateur : basaleli bakoki ko exécuter ba programmes directement pendant que temps d’exécution etikali portable mpe isolé na application hôte.",
     "more_info1": "Mpo na koyeba makambo mosusu, tala README na",
     "more_info2": "Langue ya programmation ya Tiger Ebombelo ya GitHub.",
     "select_engine": "Pona Moteur:",

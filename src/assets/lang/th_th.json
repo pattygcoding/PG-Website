@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "เครื่องมือตรวจสอบและจัดรูปแบบ JSON และ YAML บนเบราว์เซอร์ที่สร้างขึ้นใน Go และคอมไพล์เป็น WebAssembly การย้ายกลไกการแยกวิเคราะห์ไปยัง WASM จะทำให้การโต้ตอบตอบสนองและอยู่ในเบราว์เซอร์ ในขณะที่ใช้ตัวแยกวิเคราะห์จริงเพื่อตรวจจับอินพุตที่ไม่ถูกต้อง นี่เป็นตัวอย่างที่มุ่งเน้นในการเลือกสถาปัตยกรรมรันไทม์สำหรับประสิทธิภาพ ความสะดวกในการพกพา และความไว้วางใจของผู้ใช้",
+        "text": "Auto-Linter เป็น linter และฟอร์แมตเตอร์ที่ใช้เบราว์เซอร์สำหรับ JSON, YAML, XML, HTML, TOML, CSV และ TSV เอ็นจิ้น Zig คอมไพล์เป็น WebAssembly และรันทั้งหมดในเบราว์เซอร์: ตรวจสอบกับ parsers จริง เยื้องเอกสารใหม่โดยไม่ต้องเขียนเนื้อหาใหม่ และรักษาความคิดเห็น จุดยึด CDATA การอ้างอิง และความแม่นยำของตัวเลข โปรเจ็กต์นี้ครอบคลุมการใช้งานสามแบบ ได้แก่ Go, Rust และ Zig โดยที่เวอร์ชันก่อนหน้านี้ถูกเก็บไว้เพื่อการเปรียบเทียบ",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "คลังสคริปต์",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "ไลบรารีรวมของสคริปต์อัตโนมัติที่มีหนึ่งหน้าต่อภาษา: VBA สำหรับสเปรดชีต Excel, Lua สำหรับเครื่องมือน้ำหนักเบา, PowerShell สำหรับการดูแลระบบ Windows, Python สำหรับงานข้อมูลในชีวิตประจำวัน และ Ruby สำหรับการทดลองเขียนสคริปต์ แต่ละสคริปต์ถูกเขียนเพื่อนำมาใช้ซ้ำ ดังนั้นคอลเลกชันจึงได้รับการดูแลเป็นโปรเจ็กต์เดียว แทนที่จะมีที่เก็บกระจัดกระจายห้าแห่ง",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "โครงการการเข้ารหัส Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "ชุดเปรียบเทียบของการใช้งาน {implementations} Rijndael ในเวอร์ชัน 128-, 192- และ 256 บิต การนำอัลกอริธึมที่คำนึงถึงความปลอดภัยไปใช้ในภาษาต่างๆ นั้นเป็นการฝึกหัดที่มีระเบียบวินัยในข้อกำหนดเฉพาะที่แน่นอน พฤติกรรมที่ทดสอบได้ และขีดจำกัดของความสามารถในการพกพาในระดับภาษา ทั้งหมดนี้ถือเป็นสัญชาตญาณที่เป็นประโยชน์สำหรับระบบที่จัดการข้อมูลที่ละเอียดอ่อน",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "โปรแกรมแก้ลูกบาศก์ของรูบิก",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Cube 3D Rubik's แบบโต้ตอบที่คุณวาดสติกเกอร์ด้วยสติกเกอร์ - บนลูกบาศก์นั้นเองหรือบนตาข่ายที่กางออก - จากนั้นแก้ปัญหาด้วยการค้นหาสองเฟสสไตล์ Herbert Kociemba ที่รวบรวมจาก Rust ถึง WebAssembly อินเทอร์เฟซ Svelte เรนเดอร์คิวบ์ด้วย three.js รักษาสถานะที่ทาสี การตรวจสอบความถูกต้อง และสตริง facelet ของตัวแก้ปัญหาให้ซิงค์กัน และเล่นโซลูชันย้อนกลับโดยการย้ายบนไทม์ไลน์ที่คุณสามารถสครับ เลื่อนผ่าน และเล่นซ้ำได้",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "เกม voxel สไตล์ Minecraft ที่สร้างขึ้นใน Rust พร้อม wgpu และคอมไพล์เป็น WebAssembly ดังนั้นจึงเล่นได้โดยตรงในเบราว์เซอร์ มันเป็นโครงสร้างแซนด์บ็อกซ์ของอาร์เคด: ภูมิประเทศที่เป็นบล็อกและโลก voxel ที่ลากผ่านท่อกราฟิกที่ทันสมัย ​​เขียนขึ้นตั้งแต่เริ่มต้นบน toolchain Rust แทนที่จะเป็นบนเอ็นจิ้นเกม",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ภาษาโปรแกรมไทเกอร์",
-        "text": "ภาษาการเขียนโปรแกรมและล่ามแบบกำหนดเองที่สร้างขึ้นใน Go เพื่อสำรวจการออกแบบรันไทม์ของภาษา พฤติกรรมการดำเนินการ และข้อดีข้อเสียของประสิทธิภาพ การคอมไพล์ลงใน WebAssembly และรวมเข้ากับพอร์ตโฟลิโอจะสร้างพื้นผิวผลิตภัณฑ์จริงที่สามารถตรวจสอบได้สำหรับวิศวกรรมระดับระบบ แทนที่จะทิ้งงานไว้เฉยๆ การทดลองเฉพาะพื้นที่เก็บข้อมูล",
+        "text": "ภาษาการเขียนโปรแกรมและล่ามแบบกำหนดเองที่สร้างขึ้นใน Rust เพื่อสำรวจการออกแบบรันไทม์ของภาษา พฤติกรรมการดำเนินการ และการแลกเปลี่ยนประสิทธิภาพ ล่าม Go ดั้งเดิมยังคงใช้งานได้ในรูปแบบการใช้งานแบบเดิม การคอมไพล์ลงใน WebAssembly และรวมเข้ากับพอร์ตโฟลิโอจะสร้างพื้นผิวผลิตภัณฑ์จริงที่ตรวจสอบได้สำหรับวิศวกรรมระดับระบบ แทนที่จะปล่อยให้งานเป็นเพียงการทดลองที่เก็บข้อมูลเท่านั้น",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "เอนจินหมากรุก",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "เอ็นจิ้นหมากรุกที่เขียนด้วยภาษา Rust และคอมไพล์เป็น WebAssembly ค้นหาด้วย negamax ที่ลึกขึ้นซ้ำๆ การตัดแต่งอัลฟาเบต้า ตารางการขนย้าย 32 MB และการค้นหาความสงบที่ใบไม้ มันประเมินด้วยตารางชิ้นสี่เหลี่ยมเรียวและคำสั่งย้ายโดย MVV-LVA นักฆ่าและประวัติศาสตร์ เอ็นจิ้นทำงานใน Web Worker ดังนั้นบอร์ดจึงไม่ค้าง และเครื่องสร้างการเคลื่อนที่จะถูกตรวจสอบในเบราว์เซอร์เทียบกับจำนวน perft ที่เผยแพร่ - 20, 400, 8,902, 197,281 และ 4,865,609 โหนดสำหรับห้าความลึกแรก"
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 เป็นโครงการบุกเบิก: สิ่งที่เริ่มต้นจากเกม CPSC 4160 ที่เล่นเสร็จเพียงครึ่งเดียวในวิทยาลัย - คว้ากระดาษชำระม้วนสุดท้ายและไปชำระเงินก่อนที่เชื้อโรคจะกัดกินคุณ - ได้รับการสร้างขึ้นใหม่ตั้งแต่ต้นในฐานะกลไก C++20 ที่ทันสมัยบน SDL2 และคอมไพล์เป็น WebAssembly โดยจะจัดส่งช่องทางที่เพิ่มขึ้น 10 ช่องพร้อมกับการลาดตระเวนและไล่ตามเชื้อโรค AI, ปิ๊กอัพ, อนุภาค และระบบควบคุมแบบสัมผัส โดยไม่มีทางลัดของต้นแบบดั้งเดิม"
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "เอ็นจิ้นการจับคู่ลำดับหนังสือตามจำกัดที่กำหนดและเล่นซ้ำได้ ตัวเครื่องยนต์เองนั้นเป็น Ruby ล้วนๆ โดยไม่มี Rails อยู่ในนั้น ให้บริการโดย Rails 8 บนไฟล์ SQLite ไฟล์เดียว ทุกคำสั่งจะถูกผนวกเข้ากับบันทึกการเขียนล่วงหน้าก่อนที่เครื่องยนต์จะเห็น ดังนั้นสถานะที่ผ่านมาของหนังสือจึงอยู่ห่างออกไปหนึ่งพับ และการเล่นซ้ำได้รับการพิสูจน์แล้วว่าเชื่อถือได้โดยการเปรียบเทียบลายนิ้วมือที่บันทึกไว้ในขณะที่ตลาดมีการเผยแพร่ ลำดับความสำคัญของราคา-เวลา, GTC/IOC/FOK แก้ไขการรักษาหรือสูญเสียตำแหน่งคิว และการป้องกันการค้าตนเองได้รับการยืนยันโดยค่าคงที่สิบสี่ค่าหลังจากทุกคำสั่งในชุดฟัซซีที่เริ่มต้น เบราว์เซอร์รับบันไดสิบเฮิรตซ์บน Action Cable ในขณะที่คำสั่งขึ้นบน HTTP",
         "title": "เอนจินจับคู่ PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "เครื่องมือตรวจสอบคุณภาพข้อมูลบนเบราว์เซอร์ที่ตรวจสอบและจัดรูปแบบ JSON และ YAML โดยใช้กลไก Go ที่คอมไพล์เป็น WebAssembly สถาปัตยกรรมจะคอยแยกวิเคราะห์ใกล้กับผู้ใช้เพื่อการตอบกลับที่รวดเร็วและเป็นส่วนตัว ในขณะเดียวกันก็บังคับใช้กฎไวยากรณ์จริงที่ขอบเขตข้อมูล นี่เป็นตัวอย่างสั้นๆ ของการออกแบบเวิร์กโฟลว์ของนักพัฒนาที่เชื่อถือได้เกี่ยวกับความถูกต้อง ประสิทธิภาพ และความน่าเชื่อถือ",
+    "description": "Auto-Linter เป็นเครื่องมือตรวจสอบคุณภาพข้อมูลบนเบราว์เซอร์ที่ตรวจสอบและจัดรูปแบบ JSON, YAML, XML, HTML, TOML, CSV และ TSV ด้วยกลไก Zig ที่คอมไพล์เป็น WebAssembly การแยกวิเคราะห์จะอยู่ใกล้กับผู้ใช้เพื่อการตอบกลับที่รวดเร็วและเป็นส่วนตัว ในขณะเดียวกันก็บังคับใช้กฎไวยากรณ์จริงที่ขอบเขตข้อมูล โดยจะรักษาข้อความของผู้เขียน ปฏิเสธอินพุตที่มีรูปแบบไม่ถูกต้อง และแสดงให้เห็นว่าโมดูล WebAssembly ขนาดเล็กโมดูลหนึ่งสามารถขับเคลื่อนเวิร์กโฟลว์ของนักพัฒนาที่เชื่อถือได้ได้อย่างไร",
     "more_info1": "สำหรับข้อมูลเพิ่มเติม โปรดดูที่ README ใน",
     "more_info2": "ที่เก็บ Auto-Linter",
     "format_as": "จัดรูปแบบเป็น:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "ภาษาเสือ",
-    "description": "Tiger เป็นภาษาโปรแกรมแบบกำหนดเองและตัวแปล Go ที่สร้างขึ้นเพื่อสำรวจสถาปัตยกรรมรันไทม์ อรรถศาสตร์ของภาษา และข้อดีข้อเสียของประสิทธิภาพ การรวบรวมล่ามเป็น WebAssembly จะทำให้ระบบทำงานเป็นผลิตภัณฑ์แบบโต้ตอบที่ใช้เบราว์เซอร์: ผู้ใช้สามารถรันโปรแกรมได้โดยตรงในขณะที่รันไทม์ยังคงเป็นแบบพกพา และแยกออกจากแอปพลิเคชันโฮสต์",
+    "description": "Tiger คือภาษาการเขียนโปรแกรมแบบกำหนดเองระดับการผลิตและเป็นล่าม Rust ที่สร้างขึ้นเพื่อประสิทธิภาพ เอ็นจิ้นโค้ดไบต์ที่คอมไพล์แล้วและตัวแปลอ้างอิง Tree-walking ของมันยังคงอยู่ในขั้นตอนล็อคในคลังข้อมูลการวัดประสิทธิภาพ 44 โปรแกรม และโปรโตคอลในกระบวนการที่จับคู่จะรักษารันไทม์ไว้ที่หรือนำหน้า CPython ในทุกส่วนที่ยืนยัน ด้วยประสิทธิภาพที่แข่งขันโดยตรงกับ Python และ Ruby สำหรับการเขียนสคริปต์แบบวันต่อวัน ล่าม Go ดั้งเดิมยังคงใช้งานได้ในรูปแบบการใช้งานแบบเดิม การรวบรวมล่ามเป็น WebAssembly จะทำให้ระบบทำงานเป็นผลิตภัณฑ์แบบโต้ตอบที่ใช้เบราว์เซอร์: ผู้ใช้สามารถรันโปรแกรมได้โดยตรงในขณะที่รันไทม์ยังคงเป็นแบบพกพาและแยกได้จากแอปพลิเคชันโฮสต์",
     "more_info1": "สำหรับข้อมูลเพิ่มเติม โปรดดูที่ README ใน",
     "more_info2": "พื้นที่เก็บข้อมูล GitHub ภาษาการเขียนโปรแกรม Tiger",
     "select_engine": "เลือกเครื่องยนต์:",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Mä navegador ukan JSON ukat YAML ukan chiqanchawi ukat formato ukan herramienta ukaw Go ukan lurata ukatx WebAssembly ukar apthapitawa. Motor de parsing WASM ukar apayañax interacción ukax respuesta ukat local ukaruw uñji, ukampirus chiqpach parser ukampiw jan wali mantañanak katjañatakix apnaqasi. Mä uñacht’awiwa, mä arquitectura de ejecución de tiempo ajlliñatakiwa, lurañataki, apañataki, ukhamaraki apnaqiriru atinisiñapataki.",
+        "text": "Auto-Linter ukax mä linter ukat formato de navegador ukawa JSON, YAML, XML, HTML, TOML, CSV ukat TSV ukataki. Zig motor ukax WebAssembly ukar apthapi ukatx taqpach navegador ukanw apnaqasi: chiqpach parsers ukanakamp chiqanchatawa, documentos ukanakax wasitat indentación ukar uñt’ayi jan contenido ukar wasitat qillqt’asa, ukatx comentarios, anclajes, CDATA, citaciones ukat precisión numérica ukanakaw imatäski. Aka proyectox kimsa phuqhawiruw uñt’ayi — Go, Rust ukat Zig — nayrïr versión ukanakax archivadas ukanakamp chikancht’asiñatakiwa.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Script qillqata",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Mä biblioteca consolidada de scripts de automatización, sapa arut mä panka: VBA Excel hojas de cálculo ukataki, Lua k’acha herramientas ukataki, PowerShell Windows apnaqañataki, Python sapa uru datos irnaqañataki, ukatx Ruby scripting yant’awinakataki. Sapa script ukax wasitat apnaqañatakiw qillqt’ata, ukhamax apthapiwix mä proyecto ukhamaw uñjasi, phisqa ch’iqiyata imañ utanakat sipansa.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael qhispiñ lurawixa",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Mä comparativo conjunto de {implementations} Rijndael implementaciones ukanakax 128-, 192-, ukat 256-bit variantes ukanakanwa. Mä algoritmo seguridad-sensible arunak taypin wasitat phuqhañax mä ejercicio disciplinado ukhamawa, especificaciones exactas, yant’añjam sarnaqawi, ukat límites de portabilidad nivel de lengua, taqi ukax sistemas ukanakatakix instintos askiwa, ukax datos sensibles ukanakaruw apnaqi.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube qhispiñ qillqata",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Mä interactivo 3D Rubik's Cube ukax pegatina por pegatina pintat - cubo pachpan jan ukax jan doblado red ukan - ukatx mä Herbert Kociemba estilo pä fase thakhinak Rust ukan WebAssembly ukar apthapit ukamp askichañamawa. Interfaz Svelte ukax cubo ukarux three.js ukamp uñacht’ayi, estado pintat ukar uñji, validez ukar uñakipañapa, ukat solver ukan facelet ukan cadena ukar sincronización ukar uñt’ayi, ukatx solución ukar kutt’añ kutt’ayañamp sarnaqañamp mä línea de tiempo ukan anataña, ukax fregar, paso ukat wasitat anataña.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Mä Minecraft-estilo voxel anatäwix Rust ukan wgpu ukamp luratawa ukatx WebAssembly ukar apthapitawa, ukhamat chiqak navegador ukan anatañataki. Ukax arcade ukan sandbox ukan lurawipawa: terreno bloqueado ukat mä mundo voxel ukaw mä moderno pipeline gráfica ukan dibujata, zero ukhat Rust ukan cadena de herramientas ukan qillqt’ata, janiw mä motor de juegos ukan qillqt’atakiti.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigre Programación ukax mä juk’a pachanakanwa",
-        "text": "Mä programación aru ukat jaqukipirix lurat Go ukanx arut apnaqañ pachan diseño, ejecución comportamiento ukat rendimiento tradeoffs ukanakat yatxatañataki. WebAssembly ukar apthapiñax ukat cartera ukar mayacht’añax chiqpach, uñakipt’añjam producto superficie uñstayi ingeniería nivel de sistemas ukataki jan ukax lurawinak jaytañat sipansa a imañ utar uñtasita yant’awi.",
+        "text": "Mä programación aru ukat jaqukipirix Rust ukan luratawa, arut apnaqañ pachan diseño, ejecución comportamiento ukat rendimiento tradeoffs ukanakat yatxatañataki. Go ukan nayrïr jaqukipirix mä herencia implementación ukhamaw qhiparaski. WebAssembly ukar apthapiña ukat cartera ukar mayacht’añax chiqpach, uñakipt’añjam producto superficie uñstayi ingeniería nivel de sistemas ukataki, jan ukax lurawix mä experimento de repositorio ukhamak jaytañat sipansa.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "Ajedrez lurawixa",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Mä motor de ajedrez ukax Rust ukan qillqt’atawa ukatx WebAssembly ukar apthapitawa. Ukax iterativo profundización negamax, poda alfa-beta, mä tabla de transposición 32 MB ukat mä quiescencia thakhi laphinakan thaqhatawa; ukax tablas cónicas de pieza-cuadrado ukanakamp chiqanchatawa ukatx MVV-LVA, jiwayirinaka ukat historia ukanakan sarnaqawip kamachi. Motorax mä Web Worker ukanw apnaqasi ukhamat tablax janipuniw congelañapakiti, ukatx generador de movimiento ukax navegador ukanx uñakipataw perft ukan jakthapiwinakapamp uñt’ayata - 20, 400, 8.902, 197.281 ukat 4.865.609 nodos nayrïr phisqa manqhanakataki."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ukax mä proyecto de recuperación ukawa: kunatix universidadan chikat tukuyat CPSC 4160 anatäwjam qalltawayi - qhipa rollos de papel higiénico ukanak apthapisin janïr gérmenes ukanakax jan ch’amanïkipanx caja ukar puriñkama - zero ukhat wasitat luratawa, mä moderno motor C++20 SDL2 ukat WebAssembly ukar apthapita. Tunka pasillos escaladores ukanakaruw patrullar ukhamarak arknaqañ gérmenes AI, pickups, partículas ukat controles táctiles ukanakamp apayani, janiw kunas prototipo original ukan atajos ukanakas utjkiti."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Mä determinista, replayable límite-orden-libro ukar uñtasit motor. Motorax pachpa q’uma Ruby ukawa, janiw Rails ukax utjkiti, Rails 8 ukax mä sapa SQLite archivo ukan servitawa. Sapa kamachix mä registro de escritura nayraqatar yapxatatawa janïr motorax uñjkipana, ukhamax kuna nayra estado librox mä kutikiw saraski, ukat mä reproducción ukax chiqa chuymanïtap uñacht’ayasi, qhathux jakaskäna ukhax grabado huella digital ukanakamp chikancht’asisaw uñacht’ayasi. Precio-tiempo prioridad, GTC/IOC/FOK, chiqanchawixa posición de fila ukan uñjata jan ukaxa chhaqhayaña, ukatxa autocomercio jark’aqawixa tunka pusini invariantes ukanakampiwa afirmadas sapa kamachi tukuyatatxa mä suite fuzz sembrada ukanxa. Navegador ukax tunka hertz escalera Cable de Acción ukaruw puri, ukatx kamachinakax HTTP ukaruw jilxati.",
         "title": "PIT lurawixa"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Mä herramienta de calidad de datos basado en navegador ukax JSON ukat YAML ukanak chiqanchañataki ukat formato ukar uñt’ayi, mä motor Go ukampiw WebAssembly ukar apthapita. Arquitectura ukax apnaqiri jak’an parsing ukaruw saraski, jank’aki, privado amtawinakataki, ukampirus chiqpach sintaxis kamachinakax datos límite ukan phuqhaski. Mä compacto uñacht’awiwa mä confiable desarrollador irnaqawi lurañataki chiqapa, lurawi, ukhamaraki atinisiña.",
+    "description": "Auto-Linter ukax mä herramienta de calidad de datos ukarjam uñt’atawa, ukax JSON, YAML, XML, HTML, TOML, CSV ukat TSV ukanak chiqaparuw uñt’ayi ukatx formato uñt’ayi, mä motor Zig ukampiw WebAssembly ukar apthapita. Parsing ukax apnaqirin jak’apan qhipararaki, jank’ak, privado amuyunak lurañataki, ukampirus chiqpach sintaxis kamachinakax datos límite ukan phuqhasiñapataki. Qillqirin qillqatap imaraki, jan wali uñt’at mantawinak jan iyawsañataki, ukatx kunjams mä jisk’a WebAssembly módulo ukax mä atiniskañ desarrollador irnaqäw ch’amanchaspa uk uñacht’ayi.",
     "more_info1": "Juk’amp yatxatañatakix README ukar uñakipt’añäni",
     "more_info2": "Auto-Linter ukax qhispiñ qillqata.",
     "format_as": "Formato Kunjamatixa:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tigre Aru",
-    "description": "Tiger ukax mä programación aru ukat Go intérprete ukawa, ukax arquitectura de tiempo de ejecución, semántica de lenguas ukat rendimiento tradeoffs ukanakat yatxatañatakiw lurata. WebAssembly ukar jaqukipirir apthapiñax sistemas ukan irnaqatapat mä interactivo, navegador ukarjam lurat producto ukar tukuyi: apnaqirinakax programas ukanakax chiqak phuqhapxaspaw kunawsatix ejecución ukax portátil ukhamak qhiparaski ukatxa host aplicación ukata yaqhawjaru jaqukipata.",
+    "description": "Tiger ukax mä producción-grado de programación personalizada aru ukat Rust intérprete ukax lurañatakiw lurata. Motor de bytecode compilado ukat quqa-sarnaqañ referencia intérprete ukax lockstep ukan qhiparapxi mä corpus de referencia 44 programas ukanxa, ukatx protocolo de proceso pareado ukax sapa afirmado t’aqapanx CPython ukan jan ukax nayrar sartañ pacharuw uñji, lurawimp ukax Python ukat Ruby ukanakamp chiqak atipt’asiw urut urur scripting ukataki. Go ukan nayrïr jaqukipirix mä herencia implementación ukhamaw qhiparaski. WebAssembly ukar jaqukipirir apthapiñax sistemas ukan irnaqataparux mä interactivo, navegador ukarjam lurat producto ukar tukuyi: apnaqirinakax programas ukanakax chiqak phuqhapxaspaw kunawsatix ejecución ukax portátil ukhamarak aplicación host ukan yaqhawjar jaqukipata.",
     "more_info1": "Juk’amp yatxatañatakix README ukar uñakipt’añäni",
     "more_info2": "Tigre Programación Lengua GitHub ukan imañ utapa.",
     "select_engine": "Motor ajlliñ: 1.1.",

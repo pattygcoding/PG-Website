@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Go-da gurlan we WebAssemble-e düzülen brauzer esasly JSON we YAML tassyklama we formatlaýyş guraly. Derňew motoryny WASM-a geçirmek, nädogry giriş almak üçin hakyky seljeriji ulanylanda, brauzerde özara täsirini täsirli we ýerli saklaýar. Iş ýerine ýetirijiligi, göterijiligi we ulanyjy ynamy üçin iş wagtynyň arhitekturasyny saýlamagyň esasy mysaly.",
+        "text": "“Auto-Linter” JSON, YAML, XML, HTML, TOML, CSV we TSV üçin brauzer esasly linter we formatlaýjydyr. Zig hereketlendirijisi WebAssemble-e jemlenýär we bütinleý brauzerde işleýär: hakyky derňewçiler bilen tassyklanýar, mazmunyny täzeden ýazmazdan resminamalary täzeden görkezýär we teswirleri, labyrlary, CDATA, sitata we san takyklygyny saklaýar. Taslama üç ýerine ýetirişi öz içine alýar - Go, Rust we Zig - deňeşdirmek üçin arhiwlenen öňki wersiýalary bilen.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skript kitaphanasy",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Her dilde bir sahypa bolan awtomatlaşdyrylan skriptleriň jemlenen kitaphanasy: Excel elektron tablisalary üçin VBA, ýeňil gurallar üçin Lua, Windows administrasiýasy üçin PowerShell, gündelik maglumatlar üçin Python we skript synaglary üçin Ruby. Her skript gaýtadan ulanmak üçin ýazylýar, şonuň üçin ýygyndy bäş dargadylan ammaryň ýerine bir taslama hökmünde saklanýar.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael şifrleme taslamasy",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128-, 192- we 256 bitli görnüşlerde {implementations} Rijndael ýerine ýetirişleriniň deňeşdirme toplumy. Dilleriň arasynda howpsuzlyga duýgur algoritmi durmuşa geçirmek takyk spesifikasiýalarda, synagdan geçirip boljak hereketlerde we dil derejesindäki göterijiligiň çäklerinde tertipli maşk bolup, duýgur maglumatlary dolandyrýan ulgamlar üçin ähli peýdaly instinktlerdir.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik kubasynyň çözgüdi",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interaktiw 3D Rubik Kuby, stiker bilen kubyň özünde ýa-da açylmadyk torda stiker bilen reňkleýärsiňiz, soň bolsa Rüstden WebAssemble-e düzülen iki fazaly gözleg Herbert Kociemba stili bilen çözýärsiňiz. “Svelte” interfeýsi kuby üç.js bilen görkezýär, boýalan ýagdaýy, ygtybarlylygyny barlaýar we çözüjiniň facelet setirini sinhron saklaýar we çözüp, ädimläp we täzeden oýnap boljak wagt çyzgysy boýunça çözgüdi yzyna süýşürýär.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "“Minecraft” görnüşli woksel oýny, Rustda wgpu bilen gurlan we WebAssemble-e düzülen, şonuň üçin göni brauzerde oýnaýar. Bu arçanyň sandyk gutusydyr: petikli ýer we oýun motorynyň üstünde däl-de, Rüst gural zynjyrynda noldan ýazylan häzirki zaman grafika turbageçirijisi arkaly çekilen woksel dünýäsi.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Igerolbars programma dili",
-        "text": "Diliň iş wagtynyň dizaýnyny, ýerine ýetiriş häsiýetini we öndürijilik söwdasyny öwrenmek üçin Go-da gurlan adaty programmirleme dili we terjimeçisi. WebAssemble-e düzmek we bukjanyň içine goşmak, işden çykman, ulgam derejesindäki in engineeringenerçilik üçin hakyky, barlanylýan önüm ýüzüni döredýär. ammarda diňe synag.",
+        "text": "Diliň iş wagtynyň dizaýnyny, ýerine ýetiriş häsiýetini we öndürijilik söwdasyny öwrenmek üçin Rüstde gurlan adaty programmirleme dili we terjimeçisi. Asyl Go terjimeçisi miras hökmünde durmuşa geçirilýär. “WebAssemble” -e düzmek we bukjanyň içine goşmak, diňe ammar eksperimenti hökmünde işlemän, ulgam derejesindäki in engineeringenerçilik üçin hakyky, barlap boljak önüm ýüzüni döredýär.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Şahmat hereketlendirijisi",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rüstde ýazylan we WebAssemble-e düzülen küşt dwigateli. Gaýtalama çuňlaşdyrýan negamax, alfa-beta daramak, 32 MB geçiş tablisasy we ýapraklarda rahatlyk gözlegi bilen gözleýär; MVV-LVA, ganhorlar we taryh tarapyndan ýasalan bölek kwadrat tablisalar we sargytlar bilen baha berýär. Dwigatel Web Worker-de işleýär, şonuň üçin tagta hiç haçan doňmaýar we hereket generatory brauzerde çap edilen perft sanlaryna - ilkinji bäş çuňluk üçin 20, 400, 8,902, 197,281 we 4,865,609 düwün barlanýar."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "“Reclaim 4160” meliorasiýa taslamasydyr: kollejde ýarym gutaran CPSC 4160 oýny hökmünde başlanan zat - hajathana kagyzlarynyň iň soňky kagyzlaryny alyň we mikroblar könelmezden ozal barlag nokadyna ýetiň - SDL2-de häzirki zaman C ++ 20 hereketlendirijisi hökmünde noldan guruldy we WebAssemble-e düzüldi. Gözegçilik we mikrob AI, pikaplar, bölejikler we sensor dolandyryşlary bilen ýokarlanýan on sany geçelgäni iberýär, asyl prototipiň gysga ýollarynyň hiç biri-de ýok."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Kesgitleýji, gaýtalanyp boljak çäk-tertip-kitap gabat gelýän hereketlendiriji. Motoryň özi arassa Ruby, içinde Rels ýok, bir SQLite faýlynda Rails 8 tarapyndan hyzmat edilýär. Her buýruk, hereketlendirijini görmezden ozal ýazuw gündeligine goşulýar, şonuň üçin kitabyň islendik öňki ýagdaýy bir esse daşlaşýar we bazar janly wagtynda ýazylan barmak yzlaryny deňeşdirip, gaýtadan görkezilmegi wepalylygy subut edilýär. Nyrh wagtynyň ileri tutulmagy, GTC / IOC / FOK, nobatyň ornuny saklaýan ýa-da ýitirýän düzedişler we öz-özüňi söwdanyň öňüni almak, tohumly bulaşyk toplumdaky her buýrukdan soň on dört adam tarapyndan tassyklanýar. Brauzer, Hereket kabelinden on gerts basgançak alýar, buýruklar bolsa HTTP-den ýokary.",
         "title": "PIT gabat gelme hereketlendirijisi"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssemble-e düzülen Go motoryny ulanyp, JSON we YAML-y tassyklaýan we formatlaýan brauzer esasly maglumat hil guraly. Arhitektura, maglumatlar serhedinde hakyky sintaksis düzgünlerini ýerine ýetirmek bilen, çalt, şahsy pikir alyşmak üçin ulanyja ýakynlaşmagy dowam etdirýär. Dogrylygyň, öndürijiligiň we ynamyň töwereginde ygtybarly işläp düzüjiniň işini dizaýn etmegiň ykjam mysaly.",
+    "description": "“Auto-Linter”, JSA, YAML, XML, HTML, TOML, CSV we TSV-ni WebAssemble-e düzülen Zig dwigateli bilen tassyklaýan we formatlaýan brauzer esasly maglumat hil guralydyr. Parsing, maglumatlar serhedinde hakyky sintaksis düzgünlerini ýerine ýetirmek bilen çalt, şahsy pikir alyşmak üçin ulanyja ýakyn durýar. Awtoryň tekstini gorap saklaýar, nädogry girizilen maglumatlary ret edýär we bir kiçi WebAssemble modulynyň ygtybarly işläp düzüjiniň işini nädip güýçlendirip biljekdigini görkezýär.",
     "more_info1": "Has giňişleýin maglumat üçin README serediň",
     "more_info2": "Auto-Linter ammarçy.",
     "format_as": "Formaty:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Igerolbars dili",
-    "description": "Tiger, iş wagtynyň arhitekturasyny, dil semantikasyny we öndürijilik söwdasyny öwrenmek üçin gurlan adaty programma dili we Go terjimeçisi. WebAssemble-ä terjimeçini düzmek ulgamlaryň interaktiw, brauzer esasly önüme öwrülmegine öwrülýär: ulanyjylar iş wagty göçme manyda gönüden-göni programmalary ýerine ýetirip bilerler. we kabul ediji programmadan üzňe.",
+    "description": "“Tiger” önümçilik derejesindäki adaty programmirleme dili we ýerine ýetiriş üçin gurlan “Rust” terjimeçisi. Toplanan kod kody we agaçdan ýöreýän terjimeçi 44 programma ölçeg korpusynyň üstünde saklanýar we jübütlenen protokol, her gün tassyklanan bölümde Python we Ruby bilen gönüden-göni bäsleşýän ýerine ýetiriş bilen CPython-da ýa-da öňde durýar. Asyl Go terjimeçisi miras hökmünde durmuşa geçirilýär. Terjimeçini WebAssemble-e düzmek, ulgamlaryň interaktiw, brauzer esasly önüme öwrülmegine öwrülýär: ulanyjylar iş wagty göçme we host programmasyndan izolirlenen wagtynda programmalary göni ýerine ýetirip bilerler.",
     "more_info1": "Has giňişleýin maglumat üçin README serediň",
     "more_info2": "Igerolbars programmirleme dili GitHub ammary.",
     "select_engine": "Motory saýlaň:",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Peteĩ tembipuru JSON ha YAML jekuaauka ha formato rehegua oñemopyendáva kundahárape oñemopuꞌavaꞌekue Go-pe ha oñemboheko WebAssembly-pe. Oñemonguꞌevo motor de parsing WASM-pe omantene interacción ombohováiva ha local kundahárape ojeporu aja peteĩ parser añetegua ojejagarra hag̃ua entrada ndoikóiva. Haꞌehína peteĩ techapyrã oñembohapéva ojeporavóva peteĩ arquitectura ejecución rehegua ojejapo hag̃ua, ojegueraha hag̃ua ha puruhára ojerovia hag̃ua.",
+        "text": "Auto-Linter niko peteĩ linter ha formato ojejapóva kundahárape JSON, YAML, XML, HTML, TOML, CSV ha TSV-pe g̃uarã. Pe motor Zig oñembyaty WebAssembly-pe ha oñemboguata opaite kundahárape: oñemoañete parser añeteguáva ndive, oindent jey kuatiakuéra ohai jey’ỹre ipypegua, ha oñongatu ñe’ẽñemi, ancla, CDATA, cita ha precisión numérica. Ko tembiaporã oguereko mbohapy implementación — Go, Rust ha Zig — umi versión tenondegua ndive oñearchiva oñembojoja hag̃ua.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Tembikuaa script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Peteĩ aranduka’i oñembojoajúva script automatización rehegua, oguerekóva peteĩ página peteĩ ñe’ẽme: VBA Excel kuatiañe’ẽme g̃uarã, Lua tembipururã ligero-pe g̃uarã, PowerShell Windows ñemboguatarã, Python tembiapo ára ha ára rehegua ha Ruby scripting jeporekarã. Káda script ojehai ojepuru jey hag̃ua, upévare oñeñongatu pe ñemonoꞌo peteĩ proyecto ramo poteĩ tenda isarambipáva rangue.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael ñeñe'ẽkandua tembiapo",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Peteĩ aty ombojojáva {implementations} Rijndael implementación rehegua 128-, 192- ha 256 bits variante rupive. Oñemombaꞌapo jey hag̃ua peteĩ algoritmo seguridad rehegua ñeꞌepykuaa rupive haꞌehína peteĩ ejercicio disciplinado especificación exacta-pe, comportamiento oñehaꞌãva ha umi límite portabilidad nivel idioma rehegua, opaite instinto útil umi sistema oñatendeva dato sensitivo-pe g̃uarã.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube ñeñe'ẽkandu",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Peteĩ Rubik’s Cube 3D interactivo repinta pegatina por pegatina - pe cubo-pe voi térã ired ojedesplegávape - ha upéi resoluciona peteĩ jeheka mokõi fase estilo Herbert Kociemba reheve oñembojoajúva Rust guive WebAssembly peve. Pe interfaz Svelte ojapo pe kubo three.js rupive, oñongatu pe estado oñepinta vaꞌekue, umi jesareko ivalidez rehegua ha pe solucionador facelet ryru sincronizado-pe, ha ombopu pe solución jey movimiento por movimiento peteĩ línea de tiempo ikatúva rembojere, rehasapa ha rembopu jey.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Peteĩ ñembosarái voxel estilo Minecraft-pegua oñemopuꞌavaꞌekue Rust-pe wgpu ndive ha oñemboheko WebAssembly-pe, upévare oñembosarái derecho kundahárape. Ha’e pe arcade sandbox ñemopu’ã: terreno bloqueado ha peteĩ mundo voxel ojedibujáva peteĩ pipeline gráfico moderno rupive, ojehaíva cero guive cadena de herramientas Rust-pe ndaha’éi peteĩ motor de juego ári.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigre Ñe’ẽtekuaa rehegua",
-        "text": "Peteĩ lenguaje programación ha intérprete personalizado oñemopuꞌavaꞌekue Go-pe ehesaꞌeꞌo hag̃ua ñeꞌepykuaa ñemboguata jave diseño, ejecución reko ha compensación desempeño rehegua. Oñembyatývo WebAssembly-pe ha oñembojoaju cartera-pe omoheñói peteĩ superficie producto añeteguáva, ojehechakuaáva ingeniería nivel sistema-pe g̃uarã oheja rangue tembiapo peteĩ ramo experimento repositorio-pe g̃uarãnte.",
+        "text": "Peteĩ lenguaje programación personalizado ha intérprete oñemopuꞌavaꞌekue Rust-pe ohesaꞌeꞌo hag̃ua ñeꞌepykuaa ñemboguata jave diseño, ejecución reko ha compensación desempeño rehegua. Pe intérprete Go original opyta disponible implementación legado ramo. Oñembyatývo WebAssembly-pe ha oñembojoaju cartera-pe omoheñói peteĩ superficie producto añeteguáva, ojehechakuaáva ingeniería nivel sistema-pe g̃uarã oheja rangue tembiapo peteĩ experimento repositorio-pe g̃uarãnte.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Mba'e ojapo ñembosarái",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Peteĩ motor ajedrez rehegua ojehaíva Rust-pe ha oñembyatýva WebAssembly-pe. Ojeporeka profundización iterativa negamax reheve, poda alfa-beta reheve, peteĩ cuadro de transposición 32 MB ha peteĩ jeporeka quiescencia rehegua hoguekuérape; oevalua umi cuadro cónico pieza-cuadrado ha omanda movimiento MVV-LVA, asesino ha tembiasa. Pe motor ombaꞌapo peteĩ Web Worker-pe upéicha pe tablero arakaꞌeve noñecongelái, ha igenerador de movimiento ojehecha navegador-pe umi conteo perft oñemoherakuãva rehe - 20, 400, 8.902, 197.281 ha 4.865.609 nodo umi cinco pypuku tenondegua rehegua."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 haꞌehína peteĩ proyecto recuperación rehegua: oñepyrũvaꞌekue peteĩ ñembosarái CPSC 4160 medio terminado ramo universidad-pe - ejagarra umi rollo paha kuatia higiénico rehegua ha ehupyty pe caja-pe umi gérmenes ndedesgasta mboyve - oñemopuꞌa jey cero guive peteĩ motor C++20 moderno ramo SDL2-pe ha oñembyaty WebAssembly-pe. Omondo umi pasillo escalada orekóva patrullera ha persecución gérmenes AI, pickup, partícula ha control táctil, ni peteîva umi atajo prototipo original."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Peteĩ motor ojoajúva límite-orden-libro determinista, ojejoguáva jey. Pe motor voi haꞌehína Ruby puro ndorekóiva Rails ipype, oservíva Rails 8 peteĩ archivo SQLite ári. Opaite tembiapoukapy oñembojoaju peteĩ registro jehai tenonde gotyo motor ohecha mboyve, upévare oimeraẽ estado ohasava’ekue aranduka rehegua oĩ peteĩ jey mombyry, ha peteĩ reproducción ojehechauka fiel oñembojojávo umi huella digital ojegraváva mercado oĩ aja en vivo. Prioridad precio-tiempo, GTC/IOC/FOK, omoambue omantene térã operde posición fila, ha prevención autocomercio oñemoañete catorce invariante rire opavave comando peteî suite fuzz sembrada-pe. Pe kundahára ohupyty peteĩ escalera diez hertz rehegua Cable de Acción ári, umi tembiapoukapy ojupi aja HTTP ári.",
         "title": "PIT mba'e ojapo"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Peteĩ tembipuru’i datokuéra calidad rehegua oñemopyendáva kundahárape omoañete ha ombohapéva JSON ha YAML oipurúvo peteĩ motor Go oñembohekopyréva WebAssembly-pe. Pe arquitectura osegi o’analisa hi’aguĩva puruháragui ñe’ẽñemi pya’e ha privado-pe g̃uarã omoañete aja umi regla sintaxis añetegua datokuéra rembe’ýpe. Haꞌehína peteĩ techapyrã compacto ojediseño hag̃ua peteĩ desarrollador rembiapo rape ojeroviakuaáva hekopete, rendimiento ha jerovia jerére.",
+    "description": "Auto-Linter niko peteĩ tembipuru’i datokuéra calidad rehegua oñemopyendáva kundahárape, omoañete ha ombohapéva JSON, YAML, XML, HTML, TOML, CSV ha TSV peteĩ motor Zig oñembohekopyréva WebAssembly-pe. Ñe’ẽñemi opyta hi’aguĩ puruháragui ñe’ẽñemi pya’e ha privado-pe g̃uarã omoañete aja ñe’ẽjoaju regla añetegua datokuéra rembe’ýpe. Oñongatu haihára jehaipyre, ombotove jeike oñembosakoꞌivaꞌekue ha ohechauka mbaꞌeichaitépa peteĩ módulo WebAssembly michĩva ikatu omombarete peteĩ tembiaporã moheñóihara ojeroviakuaáva.",
     "more_info1": "Ojeikuaave hag̃ua, ehecha README oĩva pe...",
     "more_info2": "Auto-Linter ñeñe'ẽapygua.",
     "format_as": "Formato Péicha:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tigre Ñe’ẽ",
-    "description": "Tiger haꞌehína peteĩ lenguaje programación personalizado ha intérprete Go oñemopuꞌavaꞌekue ojehecha hag̃ua arquitectura ejecución jave, semántica ñeꞌe rehegua ha compensación desempeño rehegua. Oñembyatývo intérprete WebAssembly-pe oñembohasa umi sistema ombaꞌapoha peteĩ producto interactivo, navegador-pe: puruhára ikatu ojapo programa directamente pe tiempo de ejecución opyta aja portátil ha ojeipeꞌavaꞌekue aplicación host-gui.",
+    "description": "Tiger haꞌehína peteĩ lenguaje programación personalizado grado producción rehegua ha peteĩ intérprete Rust oñemopuꞌavaꞌekue ojejapo hag̃ua. Imotor bytecode oñembohekopyréva ha intérprete referencia oguatáva yvyramáta rehegua opyta lockstep-pe peteĩ corpus de referencia 44 programa rehegua rupive, ha protocolo proceso-pe oñembojoajúva omantene tiempo de ejecución CPython-pe térã tenondeve opaite sección afirmada-pe, rendimiento ndive okompeti directamente Python ha Ruby ndive scripting ára ha ára rehegua. Pe intérprete Go original opyta disponible implementación legado ramo. Oñembyatývo intérprete WebAssembly-pe oñembohasa umi sistema ombaꞌapoha peteĩ producto interactivo, navegador-pe: puruhára ikatu ojapo programa directamente pe tiempo de ejecución opyta aja portátil ha aislado aplicación host-gui.",
     "more_info1": "Ojeikuaave hag̃ua, ehecha README oĩva pe...",
     "more_info2": "Tigre Ñe’ẽ Programación rehegua GitHub ryru.",
     "select_engine": "Eiporavo Motor:",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Böngészőalapú JSON- és YAML-ellenőrző és -formázó eszköz, amely a Go-ba épült és WebAssembly-re lett fordítva. Ha az elemző motort a WASM-be helyezi át, az interakció érzékeny és lokális marad a böngésző számára, miközben valódi értelmezőt alkalmaz az érvénytelen bevitel elkapására. Ez egy fókuszált példa a futásidejű architektúra kiválasztására a teljesítmény, a hordozhatóság és a felhasználói bizalom érdekében.",
+        "text": "Az Auto-Linter egy böngészőalapú linter és formázó JSON, YAML, XML, HTML, TOML, CSV és TSV számára. A Zig motor WebAssembly-re fordít, és teljes egészében a böngészőben fut: valódi elemzőkkel érvényesíti, újra behúzza a dokumentumokat anélkül, hogy átírná a tartalmukat, és megőrzi a megjegyzéseket, horgonyokat, CDATA-t, idézeteket és numerikus pontosságot. A projekt három megvalósítást ölel fel – Go, Rust és Zig –, a korábbi verziókat pedig összehasonlítás céljából archiváljuk.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Szkriptkönyvtár",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Automatizálási szkriptek konszolidált könyvtára, nyelvenként egy oldallal: VBA az Excel-táblázatokhoz, Lua a könnyűszerszámokhoz, PowerShell a Windows-adminisztrációhoz, Python a mindennapi adatmunkához és Ruby a szkriptelési kísérletekhez. Minden szkript újrafelhasználásra van megírva, így a gyűjteményt egy projektként tartják fenn öt szétszórt tárhely helyett.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael titkosítási projekt",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "{implementations} Rijndael-megvalósítások összehasonlító halmaza 128, 192 és 256 bites változatok között. A biztonságra érzékeny algoritmusok nyelvek közötti újraimplementálása fegyelmezett gyakorlat a pontos specifikációk, a tesztelhető viselkedés és a nyelvi szintű hordozhatóság korlátai terén, amelyek mind hasznosak az érzékeny adatokat kezelő rendszerek számára.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik-kocka megoldó",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interaktív 3D Rubik-kocka, amelyet matricáról matricára festünk – magára a kockára vagy annak kibontott hálójára –, majd megoldjuk a Herbert Kociemba stílusú kétfázisú kereséssel, amelyet Rusttól WebAssembly-ig összeállítottunk. A Svelte felület három.js-szel jeleníti meg a kockát, szinkronban tartja a festett állapotot, az érvényességi ellenőrzéseket és a megoldó facelet karakterláncát, és mozdulatról lépésre játssza vissza a megoldást egy idővonalon, amelyen át lehet lépni, át lehet lépni és újra lejátszani.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft-stílusú voxeljáték, amely Rust-ba épült wgpu-val, és WebAssembly-re lett fordítva, így közvetlenül a böngészőben játszható. Ez az arcade sandbox felépítése: kockás terep és egy modern grafikus csővezetéken keresztül rajzolt voxelvilág, amely a semmiből a Rust eszközláncra van írva, nem pedig egy játékmotor tetejére.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigris programozási nyelv",
-        "text": "A Goba beépített egyéni programozási nyelv és tolmács a nyelvi futásidejű tervezés, a végrehajtási viselkedés és a teljesítmény kompromisszumainak felfedezéséhez. WebAssembly-be való fordítása és a portfólióba integrálása valódi, áttekinthető termékfelületet hoz létre a rendszerszintű tervezéshez, ahelyett, hogy a munkát hagyná csak adattár kísérlet.",
+        "text": "A Rustba beépített egyedi programozási nyelv és tolmács a nyelvi futásidejű tervezés, a végrehajtási viselkedés és a teljesítmény kompromisszumainak felfedezéséhez. Az eredeti Go interpreter örökölt megvalósításként továbbra is elérhető marad. WebAssembly-be való fordítása és a portfólióba integrálása valódi, áttekinthető termékfelületet hoz létre a rendszerszintű tervezéshez, ahelyett, hogy a munkát csak a repository kísérletnek hagyná.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Sakk motor",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust nyelven írt sakkmotor, amelyet WebAssembly-re fordítottak. Iteratív mélyítő negamax-szal, alfa-béta metszéssel, 32 MB-os transzponáló táblázattal és nyugalmi kereséssel keres a leveleknél; kúpos darab-négyzet asztalokkal értékeli, és az MVV-LVA lépéseit, a gyilkosokat és a történelmet rendeli el. A motor Web Workerben fut, így a tábla soha nem fagy le, és a mozgásgenerátort a böngészőben ellenőrzik a közzétett perft számok alapján – 20, 400, 8 902, 197 281 és 4 865 609 csomópont az első öt mélységben."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "A Reclaim 4160 egy helyreállítási projekt: ami egy félkész CPSC 4160-as játékként kezdődött az egyetemen – fogd meg az utolsó tekercs WC-papírt, és érd el a pénztárat, mielőtt a kórokozók elkoptatnának – a semmiből újjáépítették modern C++20 motorrá SDL2-n, és WebAssembly-re fordították. Tíz növekvő folyosót szállít járőrözéssel és csírahalászó MI-vel, hangszedőkkel, részecskékkel és érintésvezérléssel, amelyek egyike sem az eredeti prototípus parancsikonjainak egyike sem."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Determinisztikus, újrajátszható limit-order-book egyeztető motor. Maga a motor tiszta Ruby, Rails nélkül, és a Rails 8 szolgálja ki egyetlen SQLite fájlon keresztül. Minden parancs hozzáfűződik egy előreírási naplóhoz, mielőtt a motor látná, így a könyv bármely korábbi állapota egy hajtásnyira van, és az újrajátszás hűségesnek bizonyul a piac működése közben rögzített ujjlenyomatok összehasonlításával. Az ár-idő prioritást, a GTC/IOC/FOK-t, a sorpozíció megtartását vagy elvesztését biztosító módosításokat, valamint az önkereskedés-megelőzést tizennégy invariáns érvényesíti minden parancs után egy magolt fuzz csomagban. A böngésző tízhertzes létrát kap az Action Cable-n, míg a parancsok HTTP-n keresztül mennek felfelé.",
         "title": "PIT párosító motor"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Böngésző alapú adatminőségi eszköz, amely a JSON-t és a YAML-t a WebAssembly-re fordított Go motor segítségével ellenőrzi és formázza. Az architektúra folyamatosan a felhasználó közelében elemzi a gyors, privát visszajelzést, miközben valós szintaktikai szabályokat kényszerít ki az adathatáron. Ez egy kompakt példa egy megbízható fejlesztői munkafolyamat tervezésére a helyesség, a teljesítmény és a bizalom köré.",
+    "description": "Az Auto-Linter egy böngészőalapú adatminőségi eszköz, amely a JSON, YAML, XML, HTML, TOML, CSV és TSV fájlokat a WebAssembly-re fordított Zig motorral ellenőrzi és formázza. Az elemzés a felhasználó közelében marad a gyors, privát visszajelzés érdekében, miközben valós szintaktikai szabályokat kényszerít ki az adathatáron. Megőrzi a szerző szövegét, elutasítja a hibás formátumú bevitelt, és megmutatja, hogyan képes egyetlen kis WebAssembly modul egy megbízható fejlesztői munkafolyamatot működtetni.",
     "more_info1": "További információkért tekintse meg a README részt a",
     "more_info2": "Auto-Linter tároló.",
     "format_as": "Formátum mint:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tigris nyelv",
-    "description": "A Tiger egy egyedi programozási nyelv és Go interpreter, amely a futásidejű architektúra, a nyelvi szemantika és a teljesítménybeli kompromisszumok felfedezésére készült. Az interpreter WebAssembly-re való fordítása a rendszerek működését interaktív, böngésző alapú termékké alakítja: a felhasználók közvetlenül futtathatják a programokat, miközben a futási környezet hordozható marad. és elkülönítve a gazdaalkalmazástól.",
+    "description": "A Tiger egy gyártási szintű egyedi programozási nyelv és egy Rust interpreter, amelyet teljesítményre építettek. Összeállított bájtkódos motorja és fán járó referencia értelmezője egy 44 programból álló benchmark korpuszban marad, és a párosított folyamat közbeni protokoll a futási időt a CPythonnál tartja vagy megelőzi minden érvényes szakaszon, olyan teljesítménnyel, amely közvetlenül versenyez a Pythonnal és a Rubyval a napi szkriptekért. Az eredeti Go interpreter örökölt megvalósításként továbbra is elérhető marad. Az interpreter WebAssembly-re való fordítása a rendszerek működését interaktív, böngésző alapú termékké változtatja: a felhasználók közvetlenül futtathatják a programokat, miközben a futási környezet hordozható és elszigetelt marad a gazdagéptől.",
     "more_info1": "További információkért tekintse meg a README részt a",
     "more_info2": "Tiger programozási nyelv GitHub Repository.",
     "select_engine": "Motor kiválasztása:",

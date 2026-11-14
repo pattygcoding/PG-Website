@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "E Browser-baséiert JSON an YAML Validatiouns- a Formatéierungsinstrument a Go gebaut a kompiléiert op WebAssembly. Beweegt de Parsingmotor an WASM hält d'Interaktioun reaktiounsfäeger a lokal fir de Browser wärend e richtege Parser applizéiert gëtt fir ongülteg Input ze fangen. Et ass e fokusséiert Beispill fir eng Runtimearchitektur fir Leeschtung, Portabilitéit a Benotzervertrauen ze wielen.",
+        "text": "Auto-Linter ass e Browser-baséiert Linter a Formatter fir JSON, YAML, XML, HTML, TOML, CSV an TSV. Den Zig-Motor kompiléiert op WebAssembly a leeft ganz am Browser: et validéiert mat echte Parser, re-indentéiert Dokumenter ouni hir Inhalter nei ze schreiwen, a behält Kommentaren, Anker, CDATA, Zitat an numeresch Präzisioun. De Projet spant dräi Implementatiounen - Go, Rust an Zig - mat de fréiere Versioune archivéiert fir de Verglach.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Script-Bibliothéik",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Eng konsolidéiert Bibliothéik vun Automatisatiounsskripter, mat enger Säit pro Sprooch: VBA fir Excel Spreadsheets, Lua fir liicht Tooling, PowerShell fir Windows Administratioun, Python fir alldeeglech Datenaarbecht, a Ruby fir Skriptexperimenter. All Skript ass geschriwwe fir weiderbenotzt ze ginn, sou datt d'Sammlung als ee Projet erhale gëtt anstatt fënnef verspreet Repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael-Verschléisslungsprojet",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Eng Comparativ Set vu {implementations} Rijndael Implementatiounen iwwer 128-, 192- an 256-Bit Varianten. D'Reimplementatioun vun engem Sécherheetsempfindlechen Algorithmus iwwer Sproochen ass eng disziplinéiert Übung an exakt Spezifikatioune, testbar Verhalen, an d'Limite vun der Sproocheniveau Portabilitéit, all nëtzlech Instinkter fir Systemer déi sensibel Donnéeën handhaben.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube-Léiser",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "En interaktiven 3D Rubik's Cube Dir molen Sticker fir Sticker - op de Wierfel selwer oder op sengem ausgeklappt Netz - an dann léist mat engem Herbert Kociemba Stil Zwee-Phase Sich kompiléiert vu Rust bis WebAssembly. D'Svelte Interface stellt de Wierfel mat three.js, hält de gemoolt Staat, seng Validitéit Kontrollen, an d'Solver Facelet String synchroniséiert, a spillt d'Léisung zréck réckelen duerch plënneren op enger Timeline Dir scrub kann, Schrëtt duerch, an nees Leeschtung.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "E Minecraft-Stil Voxel-Spill gebaut a Rust mat wgpu a kompiléiert op WebAssembly, sou datt et direkt am Browser spillt. Et ass d'Sandkëscht vun der Arkad gebaut: blockéiert Terrain an eng Voxel Welt duerch eng modern Grafik Pipeline gezeechent, vun Null op der Rust Toolchain geschriwwen anstatt uewen op engem Spillmotor.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programméiersprooch",
-        "text": "Eng personaliséiert Programméierungssprooch an Dolmetscher gebaut a Go fir Sprooche Runtime Design, Ausféierungsverhalen a Leeschtungsverhältnisser ze entdecken. Et op WebAssembly ze kompiléieren an et an de Portfolio z'integréieren erstellt eng real, inspektabel Produktoberfläche fir System-Niveau Ingenieur anstatt d'Aarbecht als eng Repository-nëmmen Experiment.",
+        "text": "Eng personaliséiert Programméierungssprooch an Dolmetscher gebaut am Rust fir Sprooche Runtime Design, Ausféierungsverhalen a Leeschtungsverhältnisser ze entdecken. Den originelle Go Dolmetscher bleift als Legacy Implementatioun verfügbar. Et op WebAssembly ze kompiléieren an et an de Portfolio z'integréieren erstellt eng real, inspektabel Produktoberfläche fir System-Niveau Ingenieur anstatt d'Aarbecht als e Repository-nëmmen Experiment ze verloossen.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Schach-Moteur",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "E Schachmotor geschriwwen a Rust a kompiléiert op WebAssembly. Et sicht mat iterativen Verdéifung Negamax, Alpha-Beta-Pruning, engem 32 MB Transpositionstabell an enger Rousich bei de Blieder; et evaluéiert mat tapered Stéck-Feld Dëscher an Uerder Beweegunge vun MVV-LVA, Killer an Geschicht. De Motor leeft an engem Web Worker sou datt de Bord ni afréiert, a säi Beweegungsgenerator gëtt am Browser géint déi verëffentlecht Perftzuelen iwwerpréift - 20, 400, 8,902, 197,281 an 4,865,609 Node fir déi éischt fënnef Déiften."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ass e Erhuelungsprojet: wat ugefaang huet als hallef fäerdeg CPSC 4160 Spill op der Uni - gräift déi lescht Rollen Toilettepabeier an erreecht d'Kasse ier d'Keimen Iech erofhuelen - gouf vun Null als modernen C++20-Motor op SDL2 opgebaut an op WebAssembly kompiléiert. Et verschéckt zéng eskaléierend Aisles mat patrouilléieren a verfollegen Keim AI, Pickupen, Partikelen an Touch Kontrollen, keng vun den Ofkiirzungen vum originelle Prototyp."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Eng deterministesch, replaybar Limit-Commande-Buch passende Motor. De Motor selwer ass pure Ruby ouni Schinne dran, zerwéiert vu Rails 8 iwwer eng eenzeg SQLite Datei. All Kommando gëtt un e Write-Ahead-Log bäigefüügt ier de Motor et gesäit, sou datt all vergaangen Zoustand vum Buch eng Kéier ewech ass, an e Replay gëtt trei bewisen andeems Fangerofdréck vergläicht, déi opgeholl goufen wärend de Maart live war. Präis-Zäit Prioritéit, GTC / IOC / FOK, amends datt Schlaang Positioun behalen oder verléieren, an Self-Handel Preventioun behaapt vun véierzéng invariants no all Kommando an engem gesaat fuzz Suite. De Browser kritt eng zéng Hertz Leeder iwwer Action Cable, während Kommandoen iwwer HTTP eropgoen.",
         "title": "PIT-Match-Moteur"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "E Browser-baséiert Datequalitéitsinstrument dat JSON an YAML validéiert a formatéiert mat engem Go-Motor kompiléiert op WebAssembly. D'Architektur hält no beim Benotzer parséieren fir séier, privat Feedback wärend echte Syntaxregelen op der Dategrenz ëmsetzen. Et ass e kompakt Beispill fir en zouverlässeg Entwéckler Workflow ronderëm Richtegkeet, Leeschtung a Vertrauen ze designen.",
+    "description": "Auto-Linter ass e Browser-baséiert Datequalitéitsinstrument dat JSON, YAML, XML, HTML, TOML, CSV an TSV validéiert a formatéiert mat engem Zig-Motor op WebAssembly kompiléiert. Parsing bleift no beim Benotzer fir séier, privat Feedback wärend echte Syntaxregelen op der Dategrenz ëmsetzen. Et bewahrt den Text vum Auteur, refuséiert falschen Input, a weist wéi ee klenge WebAssembly Modul en zouverlässeg Entwéckler Workflow kann ënnerstëtzen.",
     "more_info1": "Fir méi Informatiounen, kuckt op de README am",
     "more_info2": "Auto-Linter-Repositorium.",
     "format_as": "Format als:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tiger Sprooch",
-    "description": "Tiger ass eng personaliséiert Programméierungssprooch a Go Dolmetscher gebaut fir d'Runtimearchitektur, d'Sproochsemantik an d'Performance-Ofdreiwungen ze entdecken. D'Kompilatioun vum Dolmetscher op WebAssembly verwandelt datt Systemer an en interaktiven, Browser-baséiert Produkt funktionnéieren: Benotzer kënnen Programmer direkt ausféieren, während d'Runtime portabel bleift an isoléiert vun der Hostapplikatioun.",
+    "description": "Tiger ass eng Produktiounsgrad personaliséiert Programméierungssprooch an e Rust Dolmetscher gebaut fir Leeschtung. Säi kompiléierte Bytecode-Motor an de Bam-Walking Referenz Dolmetscher bleiwen am Sperrstrooss iwwer e 44-Programm Benchmark Corpus, an de gepaart am Prozess Protokoll hält d'Runtime bei oder virum CPython op all behaapt Sektioun, mat Leeschtung déi direkt mat Python a Ruby konkurréiere fir alldeeglech Scripting. Den originelle Go Dolmetscher bleift als Legacy Implementatioun verfügbar. D'Kompilatioun vum Dolmetscher op WebAssembly verwandelt datt Systemer an en interaktiven, Browser-baséiert Produkt funktionnéieren: Benotzer kënnen Programmer direkt ausféieren, während d'Runtime portabel bleift an isoléiert vun der Hostapplikatioun.",
     "more_info1": "Fir méi Informatiounen, kuckt op de README am",
     "more_info2": "Tiger Programméiersprooch GitHub Repository.",
     "select_engine": "Wielt Motor:",

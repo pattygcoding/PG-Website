@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Ένα εργαλείο επικύρωσης και μορφοποίησης JSON και YAML που βασίζεται σε πρόγραμμα περιήγησης, ενσωματωμένο στο Go και μεταγλωττισμένο στο WebAssembly. Η μετακίνηση της μηχανής ανάλυσης στο WASM διατηρεί την αλληλεπίδραση ανταποκρινόμενη και τοπική στο πρόγραμμα περιήγησης, ενώ εφαρμόζεται ένας πραγματικός αναλυτής για τη σύλληψη μη έγκυρης εισόδου. Είναι ένα εστιασμένο παράδειγμα επιλογής αρχιτεκτονικής χρόνου εκτέλεσης για απόδοση, φορητότητα και εμπιστοσύνη των χρηστών.",
+        "text": "Το Auto-Linter είναι ένα linter και μορφοποιητής που βασίζεται σε πρόγραμμα περιήγησης για JSON, YAML, XML, HTML, TOML, CSV και TSV. Η μηχανή Zig μεταγλωττίζεται στο WebAssembly και εκτελείται εξ ολοκλήρου στο πρόγραμμα περιήγησης: επικυρώνει με πραγματικούς αναλυτές, επαναφέρει τα έγγραφα χωρίς να ξαναγράψει το περιεχόμενό τους και διατηρεί σχόλια, αγκυρώσεις, CDATA, παραθέσεις και αριθμητική ακρίβεια. Το έργο καλύπτει τρεις υλοποιήσεις — Go, Rust και Zig — με τις προηγούμενες εκδόσεις να αρχειοθετούνται για σύγκριση.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Βιβλιοθήκη σεναρίων",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Μια ενοποιημένη βιβλιοθήκη σεναρίων αυτοματισμού, με μία σελίδα ανά γλώσσα: VBA για υπολογιστικά φύλλα Excel, Lua για ελαφριά εργαλεία, PowerShell για διαχείριση Windows, Python για καθημερινή εργασία δεδομένων και Ruby για πειράματα δέσμης ενεργειών. Κάθε σενάριο γράφεται για να επαναχρησιμοποιηθεί, επομένως η συλλογή διατηρείται ως ένα έργο αντί για πέντε διάσπαρτα αποθετήρια.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Έργο κρυπτογράφησης Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Ένα συγκριτικό σύνολο εφαρμογών {implementations} Rijndael σε παραλλαγές 128-, 192- και 256-bit. Η εκ νέου εφαρμογή ενός ευαίσθητου ως προς την ασφάλεια αλγορίθμου σε όλες τις γλώσσες είναι μια πειθαρχημένη άσκηση στις ακριβείς προδιαγραφές, τη συμπεριφορά που μπορεί να ελεγχθεί και τα όρια φορητότητας σε επίπεδο γλώσσας, όλα χρήσιμα ένστικτα για συστήματα που χειρίζονται ευαίσθητα δεδομένα.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Λύτης κύβου Rubik",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Ένα διαδραστικό τρισδιάστατο κύβο του Ρούμπικ ζωγραφίζετε αυτοκόλλητο με αυτοκόλλητο - στον ίδιο τον κύβο ή στο ξεδιπλωμένο δίχτυ του - και στη συνέχεια λύνετε με μια αναζήτηση δύο φάσεων σε στυλ Herbert Kociemba που έχει συγκεντρωθεί από το Rust στο WebAssembly. Η διεπαφή Svelte αποδίδει τον κύβο με three.js, διατηρεί τη ζωγραφική κατάσταση, τους ελέγχους εγκυρότητάς του και τη συμβολοσειρά facelet του λύτη σε συγχρονισμό, και αναπαράγει τη λύση ανά τακτά χρονικά διαστήματα σε μια λωρίδα χρόνου που μπορείτε να καθαρίσετε, να προχωρήσετε και να παίξετε ξανά.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Ένα παιχνίδι voxel σε στυλ Minecraft, ενσωματωμένο στο Rust με wgpu και μεταγλωττισμένο στο WebAssembly, ώστε να παίζει απευθείας στο πρόγραμμα περιήγησης. Είναι η κατασκευή του sandbox του arcade: ογκώδης εδάφη και ένας κόσμος voxel που σχεδιάζεται μέσα από έναν σύγχρονο αγωγό γραφικών, γραμμένο από την αρχή στην αλυσίδα εργαλείων Rust και όχι πάνω από μια μηχανή παιχνιδιών.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Γλώσσα Προγραμματισμού Tiger",
-        "text": "Μια προσαρμοσμένη γλώσσα προγραμματισμού και διερμηνέας ενσωματωμένη στο Go για να εξερευνήσετε τη σχεδίαση χρόνου εκτέλεσης γλώσσας, τη συμπεριφορά εκτέλεσης και τις ανταλλαγές απόδοσης. Η μεταγλώττιση του στο WebAssembly και η ενσωμάτωσή του στο χαρτοφυλάκιο δημιουργεί μια πραγματική, επιθεωρήσιμη επιφάνεια προϊόντος για μηχανική σε επίπεδο συστήματος αντί να αφήνει την εργασία ως πείραμα μόνο για αποθετήριο.",
+        "text": "Μια προσαρμοσμένη γλώσσα προγραμματισμού και διερμηνέας που έχει ενσωματωθεί στο Rust για να εξερευνά τη σχεδίαση χρόνου εκτέλεσης γλώσσας, τη συμπεριφορά εκτέλεσης και τις ανταλλαγές απόδοσης. Ο αρχικός διερμηνέας Go παραμένει διαθέσιμος ως εφαρμογή παλαιού τύπου. Η μεταγλώττιση του στο WebAssembly και η ενσωμάτωσή του στο χαρτοφυλάκιο δημιουργεί μια πραγματική, επιθεωρήσιμη επιφάνεια προϊόντος για μηχανική σε επίπεδο συστήματος αντί να αφήνει την εργασία ως πείραμα μόνο για αποθετήριο.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Μηχανή σκακιού",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Μια μηχανή σκακιού γραμμένη σε Rust και μεταγλωττισμένη στο WebAssembly. Πραγματοποιεί αναζήτηση με επαναληπτική εμβάθυνση negamax, κλάδεμα άλφα-βήτα, πίνακα μεταφοράς 32 MB και αναζήτηση ηρεμίας στα φύλλα. αξιολογεί με κωνικά τετράγωνα τραπέζια και παραγγέλνει κινήσεις από MVV-LVA, δολοφόνους και ιστορία. Ο κινητήρας λειτουργεί σε Web Worker, έτσι η πλακέτα δεν παγώνει ποτέ και η γεννήτρια κινήσεών της ελέγχεται στο πρόγραμμα περιήγησης σε σχέση με τις δημοσιευμένες μετρήσεις perft - 20, 400, 8,902, 197,281 και 4,865,609 κόμβους για τα πρώτα πέντε βάθη."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Το Reclaim 4160 είναι ένα έργο αποκατάστασης: αυτό που ξεκίνησε ως ένα μισοτελειωμένο παιχνίδι CPSC 4160 στο κολέγιο - πάρτε τα τελευταία ρολά χαρτιού υγείας και φτάστε στο ταμείο πριν σας φθείρουν τα μικρόβια - έχει ξαναχτιστεί από την αρχή ως μια σύγχρονη μηχανή C++20 σε SDL2 και μεταγλωττίστηκε στο WebAsse. Αποστέλλει δέκα κλιμακωτούς διαδρόμους με περιπολία και κυνήγι μικροβιακής τεχνητής νοημοσύνης, pickups, σωματίδια και χειριστήρια αφής, καμία από τις συντομεύσεις του αρχικού πρωτοτύπου."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Μια ντετερμινιστική, επαναλαμβανόμενη μηχανή αντιστοίχισης βιβλίων ορίων παραγγελιών. Ο ίδιος ο κινητήρας είναι καθαρός Ruby χωρίς Rails, που εξυπηρετείται από το Rails 8 σε ένα μόνο αρχείο SQLite. Κάθε εντολή προσαρτάται σε ένα αρχείο καταγραφής εγγραφής προτού το δει ο κινητήρας, επομένως οποιαδήποτε προηγούμενη κατάσταση του βιβλίου είναι μία φορά μακριά και η επανάληψη αποδεικνύεται πιστή συγκρίνοντας τα δακτυλικά αποτυπώματα που καταγράφηκαν ενώ η αγορά ήταν ζωντανή. Η προτεραιότητα τιμής-χρόνου, GTC/IOC/FOK, τροποποιήσεις που διατηρούν ή χάνουν τη θέση της ουράς και η αποτροπή αυτοσυναλλαγών επιβεβαιώνονται από δεκατέσσερις αμετάβλητες μετά από κάθε εντολή σε μια σειρά fuzz που έχει δημιουργηθεί. Το πρόγραμμα περιήγησης λαμβάνει μια κλίμακα δέκα hertz πάνω από το Action Cable, ενώ οι εντολές ανεβαίνουν μέσω HTTP.",
         "title": "Μηχανή αντιστοίχισης PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Ένα εργαλείο ποιότητας δεδομένων που βασίζεται σε πρόγραμμα περιήγησης που επικυρώνει και μορφοποιεί τα JSON και YAML χρησιμοποιώντας μια μηχανή Go μεταγλωττισμένη στο WebAssembly. Η αρχιτεκτονική συνεχίζει να αναλύει τον χρήστη για γρήγορη, ιδιωτική ανατροφοδότηση, ενώ παράλληλα επιβάλλει πραγματικούς συντακτικούς κανόνες στο όριο δεδομένων. Είναι ένα συμπαγές παράδειγμα σχεδιασμού μιας αξιόπιστης ροής εργασιών προγραμματιστή γύρω από την ορθότητα, την απόδοση και την εμπιστοσύνη.",
+    "description": "Το Auto-Linter είναι ένα εργαλείο ποιότητας δεδομένων που βασίζεται σε πρόγραμμα περιήγησης που επικυρώνει και μορφοποιεί τα JSON, YAML, XML, HTML, TOML, CSV και TSV με μια μηχανή Zig που έχει μεταγλωττιστεί στο WebAssembly. Η ανάλυση παραμένει κοντά στον χρήστη για γρήγορη, ιδιωτική ανατροφοδότηση, ενώ παράλληλα επιβάλλει πραγματικούς συντακτικούς κανόνες στο όριο δεδομένων. Διατηρεί το κείμενο του συγγραφέα, απορρίπτει την εισαγωγή με λανθασμένη μορφή και δείχνει πώς μια μικρή μονάδα WebAssembly μπορεί να τροφοδοτήσει μια αξιόπιστη ροή εργασιών προγραμματιστή.",
     "more_info1": "Για περισσότερες πληροφορίες, ανατρέξτε στο README στο",
     "more_info2": "Αποθετήριο Auto-Linter.",
     "format_as": "Μορφοποίηση ως:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Γλώσσα Τίγρης",
-    "description": "Το Tiger είναι μια προσαρμοσμένη γλώσσα προγραμματισμού και διερμηνέας Go που έχει δημιουργηθεί για να εξερευνά την αρχιτεκτονική χρόνου εκτέλεσης, τη σημασιολογία της γλώσσας και τις ανταλλαγές απόδοσης. Η μεταγλώττιση του διερμηνέα στο WebAssembly μετατρέπει τα συστήματα που λειτουργούν σε ένα διαδραστικό προϊόν που βασίζεται σε πρόγραμμα περιήγησης: οι χρήστες μπορούν να εκτελούν προγράμματα απευθείας ενώ ο χρόνος εκτέλεσης παραμένει φορητός και απομονώνεται από την εφαρμογή υποδοχής.",
+    "description": "Το Tiger είναι μια προσαρμοσμένη γλώσσα προγραμματισμού ποιότητας παραγωγής και ένας διερμηνέας Rust κατασκευασμένος για απόδοση. Ο μεταγλωττισμένος κινητήρας bytecode του και ο διερμηνέας αναφοράς που περπατά δέντρο παραμένουν σε lockstep σε ένα σώμα συγκριτικής αξιολόγησης 44 προγραμμάτων και το ζευγοποιημένο πρωτόκολλο in-process διατηρεί το χρόνο εκτέλεσης στο CPython ή πάνω από αυτό σε κάθε επιβεβαιωμένη ενότητα, με απόδοση που ανταγωνίζεται άμεσα την Python και τη Ruby για την καθημερινή δέσμη ενεργειών. Ο αρχικός διερμηνέας Go παραμένει διαθέσιμος ως εφαρμογή παλαιού τύπου. Η μεταγλώττιση του διερμηνέα στο WebAssembly μετατρέπει ότι τα συστήματα λειτουργούν σε ένα διαδραστικό προϊόν που βασίζεται σε πρόγραμμα περιήγησης: οι χρήστες μπορούν να εκτελούν προγράμματα απευθείας ενώ ο χρόνος εκτέλεσης παραμένει φορητός και απομονωμένος από την εφαρμογή κεντρικού υπολογιστή.",
     "more_info1": "Για περισσότερες πληροφορίες, ανατρέξτε στο README στο",
     "more_info2": "Tiger Programming Language GitHub Repository.",
     "select_engine": "Επιλογή κινητήρα:",

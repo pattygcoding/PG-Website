@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Ithuluzi elisekelwe kusiphequluli le-JSON ne-YAML lokuqinisekisa kanye nethuluzi lokufometha elakhelwe ku-Go futhi lahlanganiswa ku-WebAssembly. Ukuhambisa injini yokuhlaziya iye ku-WASM kugcina ukusebenzisana kusabela futhi kwasendaweni esipheqululini ngenkathi usebenzisa umhlahleli wangempela ukuze ubambe okokufaka okungavumelekile. Kuyisibonelo esigxilisiwe sokukhetha ukwakheka kwesikhathi sokusebenza sokusebenza, ukuphatheka, nokwethenjwa komsebenzisi.",
+        "text": "I-Auto-Linter iyi-linter esekelwe kusiphequluli nefomethi ye-JSON, YAML, XML, HTML, TOML, CSV kanye ne-TSV. Injini ye-Zig ihlanganisela ku-WebAssembly futhi isebenza ngokuphelele esipheqululini: iqinisekisa ngabahlaziyi bangempela, iphinda ihlehlise amadokhumenti ngaphandle kokubhala kabusha okuqukethwe kwayo, futhi ilondoloza ukuphawula, amahange, i-CDATA, ukucaphuna nokunemba kwezinombolo. Iphrojekthi ihlanganisa ukusetshenziswa okuthathu - i-Go, Rust kanye ne-Zig - enezinguqulo zangaphambili ezigcinwe kungobo yomlando ukuze ziqhathaniswe.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Umtapo wolwazi we-script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Umtapo wolwazi ohlanganisiwe wemibhalo ezenzakalelayo, enekhasi elilodwa ngolimi ngalunye: I-VBA yamaspredishithi e-Excel, i-Lua yamathuluzi angasindi, i-PowerShell yokuphatha i-Windows, i-Python yomsebenzi wedatha yansuku zonke, kanye ne-Ruby yokuhlolwa kombhalo. Umbhalo ngamunye ubhalwa ukuthi usetshenziswe kabusha, ngakho iqoqo ligcinwa njengephrojekthi eyodwa esikhundleni samaqoqo amahlanu ahlakazekile.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Umsebenzi wokufihla i-Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Isethi yokuqhathanisa {implementations} yokusetshenziswa kwe-Rijndael kukho konke okuhlukile okungu-128-, 192-, no-256-bit. Ukusebenzisa kabusha i-algorithm ezwela ukuvikeleka kuzo zonke izilimi kuwumsebenzi onesiyalo ekucacisweni okunembile, ukuziphatha okuhlolekayo, kanye nemikhawulo yokuphatheka kweleveli yolimi, wonke umuzwa ongokwemvelo owusizo wamasistimu aphatha idatha ebucayi.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Isixazululi se-Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "I-Cube ye-3D Rubik's esebenzisanayo oyipendayo isitika ngesitikha - ku-cube ngokwayo noma ku-net yayo evuliwe - bese uyixazulula ngosesho lwesitayela sika-Herbert Kociemba oluyizigaba ezimbili oluhlanganiswe kusukela ku-Rust kuya ku-WebAssembly. Isixhumi esibonakalayo se-Svelte sihumusha i-cube nge-three.js, igcina isimo esipendiwe, ukuhlola ukufaneleka kwayo, kanye neyunithi yezinhlamvu ye-facelet yesixazululi ekuvumelaniseni, futhi idlala isixazululo sokubuyisela emuva ngokuhamba emugqeni wesikhathi ongakwazi ukuwukhuhla, ukudlula kuwo, bese udlala kabusha.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Umdlalo we-voxel wesitayela se-Minecraft owakhiwe ku-Rust nge-wgpu futhi wahlanganiswa ku-WebAssembly, ngakho udlala ngqo esipheqululini. Isakhiwo sebhokisi lesihlabathi se-arcade: indawo eyi-blocky kanye nomhlaba we-voxel odwetshwe ngepayipi lezithombe zesimanjemanje, ezibhalwe kusukela ekuqaleni ku-Rust toolchain kunaphezu kwenjini yegeyimu.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "I-Tiger Programming Language",
-        "text": "Ulimi lokuhlela lwangokwezifiso notolika olwakhelwe kokuthi Go ukuze uhlole umklamo wesikhathi sokusebenza solimi, ukuziphatha kokwenza, nokuhwebelana kokusebenza. Ukuyihlanganisa ku-WebAssembly nokuyihlanganisa kuphothifoliyo kwakha indawo yangempela yomkhiqizo, ebukekayo yobunjiniyela bezinga lezinhlelo kunokushiya umsebenzi isilingo senqolobane kuphela.",
+        "text": "Ulimi lokuhlela lwangokwezifiso notolika owakhelwe ku-Rust ukuze ahlole idizayini yesikhathi sokusebenza solimi, ukuziphatha kokwenza, nokuhwebelana kokusebenza. Umhumushi we-Go wangempela uhlala etholakala njengokusetshenziswa kwefa. Ukuyihlanganisa ku-WebAssembly nokuyihlanganisa kuphothifoliyo kwakha indawo yangempela yomkhiqizo, ebukekayo yobunjiniyela bezinga lesistimu kunokushiya umsebenzi njengokuhlolwa kwendawo yokugcina kuphela.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Injini yechess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Injini ye-chess ebhalwe nge-Rust futhi yahlanganiswa ku-WebAssembly. Isesha ngokujula okuphindaphindwayo kwe-negamax, ukuthenwa kwe-alpha-beta, ithebula lokuguqula elingu-32 MB kanye nokusesha okuthule emaqabunga; ihlola ngamatafula e-tapered piece-square nama-oda ahamba nge-MVV-LVA, ababulali nomlando. Injini isebenza ku-Web Worker ukuze ibhodi lingalokothi limiswe yiqhwa, futhi ijeneretha yayo yokuhambisa ibhekwa esipheqululini ngokumelene nezibalo ze-perft ezishicilelwe - 20, 400, 8,902, 197,281 kanye no-4,865,609 amanodi ekujuleni okuhlanu kokuqala."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "I-Reclaim 4160 iwumsebenzi wokufuna kabusha: okwaqala njengomdlalo osuphelile we-CPSC 4160 ekolishi - thatha amaphepha okugcina ephepha lasendlini yangasese futhi ufinyelele lapho ukhokha khona ngaphambi kokuba amagciwane akudinise - sekwakhiwe kabusha kusukela ekuqaleni njengenjini yesimanje C++20 ku-SDL2 futhi yahlanganiswa kuWebAssembly. Ithumela amaphasishi ayishumi akhuphukayo anokuqapha nokujaha amagciwane e-AI, ama-pickup, izinhlayiya nezilawuli zokuthinta, azikho izinqamuleli ze-prototype yasekuqaleni."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Injini enqumayo, edlalwa kabusha ehambisana ne-oda-ncwadi. Injini ngokwayo i-Ruby ehlanzekile engenazo Izitimela kuyo, isetshenziswa yi-Rails 8 phezu kwefayela elilodwa le-SQLite. Wonke umyalo wenezelwa kulogi yokubhala ngaphambili ngaphambi kokuba injini iyibone, ngakho-ke noma yisiphi isimo esidlule sencwadi siqhelelene kanye, futhi ukudlala kabusha kufakazelwa ukuthi kuthembekile ngokuqhathanisa izigxivizo zeminwe ezirekhodwe ngenkathi imakethe ibukhoma. Okubalulekile kwesikhathi senani, i-GTC/IOC/FOK, echibiyela okugcina noma okulahlekelwa indawo yolayini, futhi ukuvimbela ukuzithengisa kufakazelwa ukuguquguquka okuyishumi nane ngemva komyalo ngamunye ku-seeded fuzz suite. Isiphequluli sithola iledi ye-hertz eyishumi phezu kwe-Action Cable, kuyilapho imiyalo ikhuphuka phezu kwe-HTTP.",
         "title": "Injini yokufanisa i-PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Ithuluzi lekhwalithi yedatha elisekelwe kusiphequluli eliqinisekisa futhi lifomethe i-JSON ne-YAML kusetshenziswa injini ye-Go ehlanganiswe ku-WebAssembly. I-architecture ilokhu ihlaziya eduze nomsebenzisi ukuze uthole impendulo esheshayo, eyimfihlo kuyilapho isebenzisa imithetho ye-syntax yangempela emngceleni wedatha. Kuyisibonelo esihlangene sokuklama ukugeleza komsebenzi kanjiniyela okuthembekile mayelana nokulunga, ukusebenza, nokwethemba.",
+    "description": "I-Auto-Linter iyithuluzi lekhwalithi yedatha elisekelwe kusiphequluli eliqinisekisa futhi lifomethe i-JSON, YAML, XML, HTML, TOML, CSV kanye ne-TSV ngenjini ye-Zig ehlanganiswe ku-WebAssembly. Ukuhlaziya kuhlala kuseduze nomsebenzisi ukuze uthole impendulo esheshayo, eyimfihlo kuyilapho kusetshenziswa imithetho ye-syntax yangempela emngceleni wedatha. Igcina umbhalo wombhali, yenqaba okokufaka okungalungile, futhi ibonisa ukuthi imojuli eyodwa encane ye-WebAssembly inganika amandla kanjani ukugeleza komsebenzi okuthembekile konjiniyela.",
     "more_info1": "Ukuze uthole ulwazi olwengeziwe, bheka i-README ku",
     "more_info2": "Isitolo se-Auto-Linter.",
     "format_as": "Fometha Njenge:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Ulimi Lwengwe",
-    "description": "I-Tiger iwulimi lokuhlela ngokwezifiso kanye nomhumushi we-Go eyakhelwe ukuhlola izakhiwo zesikhathi sokusebenza, i-semantics yolimi, nokuhwebelana kokusebenza. Ukuhlanganisa umhumushi ku-WebAssembly kushintsha ukuthi amasistimu asebenza abe umkhiqizo osebenzisanayo, osuselwe kusiphequluli: abasebenzisi bangakwazi ukwenza izinhlelo ngokuqondile kuyilapho isikhathi sokusebenza sihlala siphatheka. futhi ihlukanisiwe kuhlelo lokusebenza lomsingathi.",
+    "description": "I-Tiger iwulimi lohlelo lwangokwezifiso lwebanga lokukhiqiza kanye nomhumushi weRust eyakhelwe ukusebenza. Injini yayo ye-bytecode ehlanganisiwe kanye nomhumushi wereferensi ohamba esihlahleni uhlala e-lockstep yonkana ikhompusi ye-benchmark yezinhlelo ezingu-44, futhi inqubo elandelwayo ebhanqiwe igcina isikhathi sokusebenza sikhona noma ngaphambi kwe-CPython kuzo zonke izingxenye ezigonyelwayo, nokusebenza okuncintisana ngokuqondile nePython neRuby ekubhalweni kwansuku zonke. Umhumushi we-Go wangempela uhlala etholakala njengokusetshenziswa kwefa. Ukuhlanganisa umhumushi ku-WebAssembly kushintsha ukuthi amasistimu asebenza abe umkhiqizo osebenzisanayo, osuselwe kusiphequluli: abasebenzisi bangakwazi ukwenza izinhlelo ngokuqondile kuyilapho isikhathi sokusebenza sihlala siphatheka futhi sihlukanisiwe nohlelo lokusebenza lomsingathi.",
     "more_info1": "Ukuze uthole ulwazi olwengeziwe, bheka i-README ku",
     "more_info2": "I-Tiger Programming Language GitHub Repository.",
     "select_engine": "Khetha Injini:",

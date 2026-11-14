@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "JSON na tushen burauza da ingantaccen kayan aikin YAML da aka gina a cikin Go kuma an haɗa su zuwa WebAssembly. Matsar da injin fasinja zuwa WASM yana sa hulɗar ta kasance mai amsawa kuma ta gida ga mai binciken yayin da ake amfani da fasinja na gaske don kama shigar da ba daidai ba. Misali ne da aka mayar da hankali na zabar tsarin gine-ginen lokacin aiki don aiki, ɗaukakawa, da amanar mai amfani.",
+        "text": "Auto-Linter shine tushen linter da mai tsarawa don JSON, YAML, XML, HTML, TOML, CSV da TSV. Injin Zig yana tattarawa zuwa WebAssembly kuma yana aiki gabaɗaya a cikin burauzar: yana ingantawa tare da masu bincike na gaske, sake shigar da takardu ba tare da sake rubuta abubuwan da ke cikin su ba, kuma yana adana sharhi, anchors, CDATA, faɗa da daidaitattun lambobi. Aikin ya ƙunshi aiwatarwa guda uku - Go, Tsatsa da Zig - tare da sigar farko da aka adana don kwatanta.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Laburaren script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Ƙaƙƙarfan ɗakin karatu na rubutun aiki da kai, tare da shafi ɗaya a kowane harshe: VBA don maƙunsar rubutu na Excel, Lua don kayan aiki mara nauyi, PowerShell don gwamnatin Windows, Python don aikin bayanan yau da kullun, da Ruby don gwaje-gwajen rubutun. An rubuta kowane rubutun don a sake amfani da shi, don haka ana kiyaye tarin a matsayin aiki ɗaya maimakon wuraren da aka warwatse guda biyar.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Aikin encryption Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Saitin kwatancen aiwatarwa na {implementations} Rijndael a cikin bambance-bambancen 128-, 192-, da 256-bit. Sake aiwatar da algorithm mai hankali na tsaro a cikin harsunan horo ne mai horo a cikin takamaiman ƙayyadaddun bayanai, halayen da za a iya gwadawa, da iyakan iya ɗaukar matakin matakin harshe, duk ilhami masu amfani ga tsarin da ke sarrafa bayanai masu mahimmanci.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Mai warware Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Cube na Rubik's Cube na 3D mai mu'amala kuna zana siti ta sitika - akan cube ɗin kanta ko akan gidan yanar gizon sa - sannan ku warware tare da salon binciken Herbert Kociemba mai tsari biyu wanda aka harhada daga Rust zuwa WebAssembly. Svelte interface yana ba da cube tare da three.js, yana kiyaye yanayin fenti, ingantattun sahihancin sa, da string facelet na mai warwarewa cikin daidaitawa, kuma yana kunna maganin baya motsawa ta matsawa akan tsarin tafiyar lokaci da zaku iya gogewa, shiga, da sake kunnawa.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Wasan voxel mai salo na Minecraft wanda aka gina a cikin Rust tare da wgpu kuma an haɗa shi zuwa WebAssembly, don haka yana wasa kai tsaye a cikin mai lilo. Ginin akwatin yashi ne na arcade: ƙasa mai katange da duniyar voxel da aka zana ta bututun zane na zamani, wanda aka rubuta daga karce akan sarƙar kayan aikin Rust maimakon saman injin wasa.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
-        "text": "Yaren tsara shirye-shirye na al'ada da mai fassara da aka gina a cikin Go don bincika ƙirar lokacin aiki na harshe, halayen aiwatarwa, da cinikin aiki. Ƙirƙirar shi zuwa WebAssembly da haɗa shi a cikin fayil ɗin yana haifar da haƙiƙa, samfurin samfurin da ba a iya gani ba don aikin injiniya na matakin tsarin maimakon barin aikin a matsayin ma'ajiya-kawai gwaji.",
+        "text": "Yaren tsara shirye-shirye na al'ada da mai fassara da aka gina a cikin Rust don bincika ƙirar lokacin aiki na harshe, halayen aiwatarwa, da cinikin aiki. Asalin fassarar Go yana nan a matsayin aiwatarwa na gado. Ƙirƙirar shi zuwa WebAssembly da haɗa shi a cikin fayil ɗin yana haifar da haƙiƙa, samfurin da ba a iya gani ba don aikin injiniya na tsarin-tsari maimakon barin aikin a matsayin gwaji-kawai gwaji.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "Injini na chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Injin dara da aka rubuta cikin Rust kuma an haɗa shi zuwa WebAssembly. Yana bincika tare da zurfafa zurfafa negamax, alpha-beta pruning, tebur mai juzu'i na 32 MB da bincike mai zurfi a cikin ganyayyaki; yana ƙididdigewa tare da tef ɗin tebur-square da oda da motsi ta MVV-LVA, kisa da tarihi. Injin yana gudana a cikin Ma'aikacin Yanar Gizo don haka hukumar ba ta daskarewa, kuma ana bincika janareta ta motsi a cikin mashigar bincike akan ƙidayar da aka buga - 20, 400, 8,902, 197,281 da 4,865,609 nodes don zurfin biyar na farko."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Maida 4160 aikin sakewa ne: abin da ya fara a matsayin wasan CPSC 4160 da aka kammala a kwaleji - ƙwace takardan bayan gida na ƙarshe kuma isa wurin biya kafin ƙwayoyin cuta su lalata ku - an sake gina su daga karce azaman injin C ++20 na zamani akan SDL2 kuma an haɗa su zuwa WebAssembly. Yana jigilar manyan tituna guda goma tare da sintiri da bibiyar ƙwayoyin cuta AI, ɗaukar hoto, barbashi da sarrafawar taɓawa, babu ɗayan gajerun hanyoyin ƙirar asali."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Ingin da ya dace da ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun bayanai, mai sake kunnawa da ƙayyadaddun ƙayyadaddun littafi. Injin kanta Ruby mai tsabta ce ba tare da Rails a cikinta ba, wanda Rails 8 ke aiki akan fayil ɗin SQLite guda ɗaya. Kowane umarni ana lika shi ne a cikin guntun rubutu kafin injin ya gan shi, don haka duk yanayin da ya gabata na littafin ya ninka ninki ɗaya, kuma sake kunnawa yana tabbatar da aminci ta hanyar kwatanta hotunan yatsu da aka rubuta yayin da kasuwa ke raye. fifiko-lokacin farashi, GTC/IOC/FOK, gyara wanda ke kiyaye ko rasa matsayi na layi, da rigakafin cinikin kai ana tabbatar da su ta hanyar bambance-bambancen guda goma sha huɗu bayan kowane umarni a cikin tarin fuzz ɗin iri. Mai binciken yana samun tsani-hertz goma akan Action Cable, yayin da umarni ya hau kan HTTP.",
         "title": "Injini na matching PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Kayan aiki mai inganci na tushen burauza wanda ke ingantawa da tsara JSON da YAML ta amfani da injin Go da aka harhada zuwa WebAssembly. Gine-ginen yana ci gaba da ɓarna kusa da mai amfani don amsa mai sauri, masu zaman kansu yayin aiwatar da ainihin ƙa'idodin syntax a iyakar bayanai. Ƙaƙƙarfan misali ne na ƙirƙira ingantaccen aiki na mai haɓakawa a kusa da daidaito, aiki, da amana.",
+    "description": "Auto-Linter kayan aikin ingancin bayanai ne na tushen burauza wanda ke ingantawa da tsara tsarin JSON, YAML, XML, HTML, TOML, CSV da TSV tare da injin Zig da aka harhada zuwa WebAssembly. Parsing yana kasancewa kusa da mai amfani don amsa mai sauri, mai sirri yayin aiwatar da ainihin ƙa'idodin daidaitawa a iyakar bayanai. Yana adana rubutun marubucin, yana ƙin shigarwar da ba daidai ba, kuma yana nuna yadda ƙaramin rukunin yanar gizo na WebAssembly zai iya ƙarfafa ingantaccen aikin haɓakawa.",
     "more_info1": "Don ƙarin bayani, koma zuwa README a cikin",
     "more_info2": "Ma'ajin Auto-Linter.",
     "format_as": "Tsara Kamar:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Harshen Tiger",
-    "description": "Tiger yaren tsara shirye-shirye ne na al'ada da mai fassarar Go wanda aka gina don bincika gine-ginen lokacin aiki, nazarin harshe, da cinikin aiki. Ƙirƙirar mai fassara zuwa WebAssembly yana juya cewa tsarin yana aiki zuwa samfurin ma'amala, tushen burauzar: masu amfani zasu iya aiwatar da shirye-shirye kai tsaye yayin da lokacin aiki ya kasance mai ɗaukar nauyi. kuma keɓe daga aikace-aikacen mai watsa shiri.",
+    "description": "Tiger yaren shirye-shirye ne na al'ada na samarwa da kuma fassarar tsatsa da aka gina don aiki. Ingin bytecode da aka haɗe shi da mai fassarar tafiya na bishiya suna tsayawa a kulle a cikin tsarin tsarin tsarin 44, kuma tsarin aiki guda biyu yana kiyaye lokacin aiki a ko gaba da CPython akan kowane sashe da aka tabbatar, tare da aikin da ke gasa kai tsaye tare da Python da Ruby don rubutun yau da kullun. Asalin fassarar Go yana nan a matsayin aiwatarwa na gado. Ƙirƙirar mai fassara zuwa WebAssembly yana juya cewa tsarin yana aiki zuwa samfurin ma'amala, tushen burauza: masu amfani za su iya aiwatar da shirye-shirye kai tsaye yayin da lokacin aiki ya kasance mai ɗaukar hoto da keɓe daga aikace-aikacen mai watsa shiri.",
     "more_info1": "Don ƙarin bayani, koma zuwa README a cikin",
     "more_info2": "Tiger Programming Language GitHub Repository.",
     "select_engine": "Zaɓi Injin:",

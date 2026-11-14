@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "כלי אימות ועיצוב מבוסס-דפדפן JSON ו-YAML שנבנה ב-Go והידור ל-WebAssembly. העברת מנוע הניתוח ל-WASM שומר על האינטראקציה מגיבה ומקומית לדפדפן תוך החלת מנתח אמיתי כדי לתפוס קלט לא חוקי. זוהי דוגמה ממוקדת לבחירת ארכיטקטורת זמן ריצה לביצועים, ניידות ואמון המשתמש.",
+        "text": "Auto-Linter הוא linter ופורמט מבוסס דפדפן עבור JSON, YAML, XML, HTML, TOML, CSV ו-TSV. מנוע ה-Zig מתחבר ל-WebAssembly ופועל כולו בדפדפן: הוא מאמת עם מנתחים אמיתיים, מכניס מסמכים מחדש מבלי לשכתב את תוכנם, ושומר על הערות, עוגנים, CDATA, ציטוטים ודיוק מספרי. הפרויקט משתרע על פני שלושה יישומים - Go, Rust ו-Zig - כאשר הגרסאות הקודמות מאוחסנות בארכיון לצורך השוואה.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "ספריית סקריפטים",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "ספרייה מאוחדת של סקריפטים אוטומציה, עם עמוד אחד לכל שפה: VBA עבור גיליונות אלקטרוניים של Excel, Lua עבור כלי עבודה קלים, PowerShell עבור ניהול Windows, Python לעבודת נתונים יומיומית, ו-Ruby עבור ניסויי סקריפטים. כל סקריפט נכתב לשימוש חוזר, כך שהאוסף נשמר כפרויקט אחד במקום חמישה מאגרים מפוזרים.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "פרויקט הצפנת Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "קבוצה השוואתית של יישומי {implementations} Rijndael על פני גרסאות של 128, 192 ו-256 סיביות. יישום מחדש של אלגוריתם רגיש לאבטחה על פני שפות הוא תרגיל ממושמע במפרטים מדויקים, התנהגות הניתנת לבדיקה ומגבלות של ניידות ברמת השפה, כולם אינסטינקטים שימושיים למערכות המטפלות בנתונים רגישים.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "פותר קוביית רוביק",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "קוביית Rubik's תלת מימדית אינטראקטיבית אתה מצייר מדבקה אחר מדבקה - על הקובייה עצמה או על הרשת הפרושה שלה - ואז פותרים עם חיפוש דו-פאזי בסגנון הרברט קוצ'מבה שנערך מ-Rust ל-WebAssembly. ממשק Svelte מעבד את הקובייה עם three.js, שומר על המצב המצויר, בדיקות התקפות שלו ומחרוזת הפנים של הפותר מסונכרנים, ומשמיע את הפתרון אחורה מהלך אחר צעד על ציר זמן שאתה יכול לשפשף, לעבור דרכו ולשחק מחדש.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "משחק ווקסל בסגנון Minecraft שנבנה ב-Rust עם wgpu והורכב ל-WebAssembly, כך שהוא משחק ישר בדפדפן. זהו מבנה ארגז החול של הארקייד: שטח חסום ועולם ווקסל שנמשך דרך צינור גרפי מודרני, שנכתב מאפס על שרשרת הכלים Rust ולא על גבי מנוע משחק.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "שפת תכנות טייגר",
-        "text": "שפת תכנות מותאמת אישית ומתורגמן מובנה ב-Go כדי לחקור את עיצוב זמן הריצה של השפה, התנהגות ביצוע ושינויים בביצועים. הידור שלו ל-WebAssembly ושילובו בפורטפוליו יוצר משטח מוצר אמיתי וניתן לבדיקה להנדסה ברמת מערכות במקום לעזוב את העבודה בתור ניסוי במאגר בלבד.",
+        "text": "שפת תכנות ומתורגמן מותאמים אישית שנבנו ב-Rust כדי לחקור את עיצוב זמן הריצה של השפה, התנהגות ביצוע ושינויים בביצועים. המתורגמן המקורי של Go נשאר זמין כיישום מדור קודם. הידור שלו ל-WebAssembly ושילובו בפורטפוליו יוצר משטח מוצר אמיתי וניתן לבדיקה עבור הנדסה ברמת המערכות במקום להשאיר את העבודה כניסוי של מאגר בלבד.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "מנוע שחמט",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "מנוע שחמט שנכתב ב-Rust והורכב ל-WebAssembly. הוא מחפש בהעמקה איטרטיבית negamax, גיזום אלפא-ביתא, טבלת טרנספוזיציה של 32 מגה-בייט וחיפוש שקט על העלים; הוא מעריך עם טבלאות מחודדות בריבוע ומזמין מהלכים לפי MVV-LVA, רוצחים והיסטוריה. המנוע פועל ב-Web Worker כך שהלוח לעולם לא קופא, ומחולל התנועה שלו נבדק בדפדפן מול ספירות היכולות שפורסמו - 20, 400, 8,902, 197,281 ו-4,865,609 צמתים עבור חמשת העומקים הראשונים."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 הוא פרויקט שיחזור: מה שהתחיל כמשחק CPSC 4160 חצי גמור בקולג' - תפסו את גלילי נייר הטואלט האחרונים והגיעו לקופה לפני שהחיידקים מתבלים - נבנה מחדש מאפס כמנוע C++20 מודרני ב-SDL2 והוידור ל-WebAssembly. הוא שולח עשרה מעברים מתקדמים עם סיור ורדיפה של AI, טנדרים, חלקיקים ובקרות מגע, אף אחד מקיצורי הדרך של אב הטיפוס המקורי."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "מנוע התאמת ספר מוגבל להזמנה דטרמיניסטי שניתן להשמעה חוזרת. המנוע עצמו הוא רובי טהור ללא Rails בו, מוגש על ידי Rails 8 על קובץ SQLite בודד. כל פקודה מצורפת ליומן כתיבה קדימה לפני שהמנוע רואה אותה, כך שכל מצב עבר של הספר נמצא במרחק של קיפול אחד, ושידור חוזר מוכח כנאמנות על ידי השוואת טביעות אצבע שנרשמו בזמן שהשוק היה חי. עדיפות מחיר-זמן, GTC/IOC/FOK, מתקנות ששומרות או מאבדות את מיקום התור, ומניעת סחר עצמי מוענקות על ידי ארבעה עשר משתנה לאחר כל פקודה בחבילת fuzz seeded. הדפדפן מקבל סולם של עשרה הרץ מעל Action Cable, בעוד הפקודות עולות מעל HTTP.",
         "title": "מנוע התאמה PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "כלי איכות נתונים מבוסס דפדפן המאמת ומעצב את JSON ו-YAML באמצעות מנוע Go הידור ל-WebAssembly. הארכיטקטורה ממשיכה לנתח קרוב למשתמש לקבלת משוב מהיר ופרטי תוך אכיפת חוקי תחביר אמיתיים בגבול הנתונים. זוהי דוגמה קומפקטית לתכנון זרימת עבודה אמינה של מפתחים סביב נכונות, ביצועים ואמון.",
+    "description": "Auto-Linter הוא כלי מבוסס דפדפן לאיכות נתונים המאמת ומעצב את JSON, YAML, XML, HTML, TOML, CSV ו-TSV עם מנוע Zig הידור ל-WebAssembly. הניתוח נשאר קרוב למשתמש לקבלת משוב מהיר ופרטי תוך אכיפת חוקי תחביר אמיתיים בגבול הנתונים. הוא שומר על הטקסט של המחבר, דוחה קלט שגוי ומראה כיצד מודול WebAssembly קטן אחד יכול להפעיל זרימת עבודה אמינה של מפתחים.",
     "more_info1": "למידע נוסף, עיין ב-README ב-",
     "more_info2": "מאגר Auto-Linter.",
     "format_as": "פורמט כ:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "שפת הנמר",
-    "description": "Tiger היא שפת תכנות מותאמת אישית ומתורגמנית Go שנבנתה כדי לחקור את ארכיטקטורת זמן הריצה, סמנטיקה של השפה וחילופי ביצועים. הידור של המתורגמן ל-WebAssembly הופך את עבודת המערכות למוצר אינטראקטיבי מבוסס דפדפן: משתמשים יכולים להפעיל תוכניות ישירות בזמן שזמן הריצה נשאר נייד ומבודד מהאפליקציה המארח.",
+    "description": "Tiger היא שפת תכנות מותאמת אישית בדרגת ייצור ומתורגמן Rust שנבנה לביצועים. מנוע ה-bytecode המותאם ומתורגמן ההליכה על העצים שלו נשארים בצעד נעילה על פני קורפוס של 44 תוכניות בנצ'מרק, והפרוטוקול המזווג בתהליך שומר על זמן הריצה ב-CPython או לפניו בכל קטע מוצהר, עם ביצועים שמתחרים ישירות עם Python ו-Ruby עבור סקריפטים יומיומיים. המתורגמן המקורי של Go נשאר זמין כיישום מדור קודם. הידור של המתורגמן ל-WebAssembly הופך את עבודת המערכות למוצר אינטראקטיבי מבוסס דפדפן: משתמשים יכולים להפעיל תוכניות ישירות בזמן שזמן הריצה נשאר נייד ומבודד מהיישום המארח.",
     "more_info1": "למידע נוסף, עיין ב-README ב-",
     "more_info2": "מאגר GitHub בשפת התכנות טייגר.",
     "select_engine": "בחר מנוע:",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Хөтөч дээр суурилсан JSON болон YAML баталгаажуулах, форматлах хэрэгсэл нь Go-д суурилагдсан бөгөөд WebAssembly-д хөрвүүлсэн. Шинжилгээний системийг WASM руу шилжүүлснээр хүчингүй оролтыг барьж авахын тулд бодит задлан шинжлэгчийг ашиглахын зэрэгцээ харилцан үйлчлэл нь хөтчид хариу үйлдэл үзүүлж, локал байх болно. Энэ нь гүйцэтгэл, зөөврийн байдал, хэрэглэгчийн итгэлцлийн хувьд ажиллах үеийн архитектурыг сонгоход чиглэсэн жишээ юм.",
+        "text": "Auto-Linter нь хөтөч дээр суурилсан JSON, YAML, XML, HTML, TOML, CSV болон TSV-д зориулсан линтер болон форматлагч юм. Zig хөдөлгүүр нь WebAssembly-д хөрвүүлээд бүхэлдээ хөтөч дээр ажилладаг: энэ нь бодит задлан шинжлэгчээр баталгаажуулж, агуулгыг нь дахин бичихгүйгээр баримт бичгүүдийг дахин оруулах, тайлбар, зангуу, CDATA, ишлэл, тоон нарийвчлалыг хадгалдаг. Төсөл нь Go, Rust, Zig гэсэн гурван хэрэгжилтийг хамардаг бөгөөд өмнөх хувилбаруудыг харьцуулах зорилгоор архивласан.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Скриптийн сан",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Хэл бүрт нэг хуудастай автоматжуулалтын скриптүүдийн нэгдсэн номын сан: Excel хүснэгтэд зориулсан VBA, хөнгөн багаж хэрэгсэлд зориулсан Lua, Windows-ийн удирдлагад зориулсан PowerShell, өдөр тутмын өгөгдлийн ажилд зориулсан Python, скрипт бичих туршилтуудад зориулсан Ruby. Скрипт бүрийг дахин ашиглахаар бичсэн тул цуглуулгыг таван тархай бутархай хадгалахын оронд нэг төсөл болгон хадгалдаг.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael шифрлэлтийн төсөл",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128, 192, 256 битийн хувилбаруудын {implementations} Rijndael хэрэгжүүлэлтийн харьцуулсан багц. Аюулгүй байдлын мэдрэмтгий алгоритмыг хэлээр дахин хэрэгжүүлэх нь нарийн үзүүлэлтүүд, туршигддаг зан байдал, хэлний түвшний зөөврийн хязгаарлалт зэрэг эмзэг өгөгдөлтэй харьцдаг системүүдэд хэрэгтэй зөн совингийн сахилга баттай дасгал юм.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Рубик куб тайлагч",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Интерактив 3D Рубикийн шоо стикерийг шоо дээр эсвэл задалсан сүлжээнд наалтаар будаж, дараа нь Rust-аас WebAssembly хүртэл эмхэтгэсэн Герберт Коциемба маягийн хоёр үе шаттай хайлтаар шийднэ. Svelte интерфэйс нь кубыг three.js-ээр дүрсэлж, будсан байдал, түүний хүчинтэй эсэхийг шалгадаг бөгөөд шийдлийн утсыг синхрончлолд байлгаж, шийдлийг скраб, давж, дахин тоглуулах боломжтой цагийн шугамаар хөдөлгөж тоглодог.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft маягийн воксел тоглоомыг Rust-д wgpu-тай суулгаж, WebAssembly-д хөрвүүлсэн тул хөтөч дээр шууд тоглодог. Энэ бол тоглоомын хөдөлгүүрийн дээд талд бус Rust хэрэгслийн гинж дээр эхнээс нь бичигдсэн орчин үеийн график шугамаар зурсан блоклосон газар нутаг, дууны ертөнц юм.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger програмчлалын хэл",
-        "text": "Хэлний ажиллах цагийн загвар, гүйцэтгэлийн төлөв байдал, гүйцэтгэлийн өөрчлөлтийг судлахын тулд Go-д суурилуулсан тусгай програмчлалын хэл болон орчуулагч. Үүнийг WebAssembly-д эмхэтгэж, багцад нэгтгэх нь ажлаа орхихын оронд системийн түвшний инженерчлэлийн хувьд бодитой, шалгаж болохуйц бүтээгдэхүүний гадаргууг бий болгодог. зөвхөн репозиторын туршилт.",
+        "text": "Хэлний ажиллах цагийн дизайн, гүйцэтгэлийн байдал, гүйцэтгэлийн өөрчлөлтийг судлах зорилгоор Rust-д бүтээгдсэн тусгай програмчлалын хэл, орчуулагч. Жинхэнэ Go орчуулагч нь хуучин хэрэгжүүлэлт хэлбэрээр боломжтой хэвээр байна. Үүнийг WebAssembly-д нэгтгэж, багцад нэгтгэснээр уг ажлыг зөвхөн репозиторын туршилт болгон орхихоос илүүтэй системийн түвшний инженерчлэлийн хувьд бодит, шалгаж болохуйц бүтээгдэхүүний гадаргууг бий болгодог.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Шатрын хөдөлгүүр",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust дээр бичээд WebAssembly-д эмхэтгэсэн шатрын хөдөлгүүр. Энэ нь давталттай гүнзгийрүүлэх negamax, альфа-бета тайрах, 32 МБ шилжүүлэн суулгах хүснэгт болон навчис дээр нам гүм хайлтаар хайлт хийдэг; энэ нь нарийссан дөрвөлжин хүснэгтүүд болон MVV-LVA, алуурчид болон түүхийн дагуу нүүдлийн захиалгаар үнэлдэг. Хөдөлгүүр нь Web Worker дээр ажилладаг тул самбар хэзээ ч хөлддөггүй бөгөөд түүний хөдөлгөгчийг хөтөч дээр нийтлэгдсэн тоогоор шалгадаг - эхний таван гүнд 20, 400, 8,902, 197,281, 4,865,609 зангилаа."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 бол нөхөн сэргээх төсөл юм: коллежид хагас дутуу хийгдсэн CPSC 4160 тоглоомоор эхэлсэн зүйл - нянгууд таныг элэгдэлд оруулахаас өмнө ариун цэврийн цаасныхаа сүүлчийн хэсгийг аваад, тооцоогоо хийх - SDL2 дээр орчин үеийн C++20 хөдөлгүүр болгон эхнээс нь сэргээж, Web-д эмхэтгэсэн. Энэ нь нянгийн хиймэл оюун ухаан, пикап, тоосонцор, мэдрэгчтэй удирдлага бүхий эргүүл, хөөцөлдөх арав гаруй шат дамжлагатай бөгөөд анхны прототипийн товчлолуудын аль нь ч биш юм."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Тодорхойлолттой, дахин тоглуулах боломжтой хязгаар-захиалга-номтой тохирох хөдөлгүүр. Хөдөлгүүр нь өөрөө Rails-гүй цэвэр Ruby бөгөөд Rails 8 нь нэг SQLite файл дээр үйлчилдэг. Хөдөлгүүрийг харахаас өмнө команд бүрийг урьдчилан бичих бүртгэлд хавсаргасан тул номын өмнөх төлөв нэг нугалах зайд байх бөгөөд зах зээл дээр бичигдсэн хурууны хээг харьцуулж үзэх замаар дахин тоглуулах нь үнэн зөв болохыг нотолсон. Үнийн цаг хугацааны тэргүүлэх чиглэл, GTC/IOC/FOK, дарааллын байрлалыг хадгалах эсвэл алдах нэмэлт өөрчлөлтүүд, өөрөө худалдаа хийхээс урьдчилан сэргийлэх зэрэг нь үржүүлсэн fuzz багц дахь тушаал бүрийн дараа арван дөрвөн өөрчлөгддөггүй. Хөтөч нь Action Cable-ээр арван герцийн шат авдаг бол тушаалууд HTTP-ээр дээшилдэг.",
         "title": "PIT тохируулах хөдөлгүүр"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssembly-д эмхэтгэсэн Go хөдөлгүүрийг ашиглан JSON болон YAML-г баталгаажуулж, форматлах хөтөч дээр суурилсан өгөгдлийн чанарын хэрэгсэл. Архитектур нь өгөгдлийн зааг дээр бодит синтакс дүрмийг мөрдүүлэхийн зэрэгцээ хурдан, хувийн санал хүсэлтийг авахын тулд хэрэглэгчдэд ойрхон задлан шинжилдэг. Энэ нь зөв, гүйцэтгэл, итгэлцлийн эргэн тойронд найдвартай хөгжүүлэгчийн ажлын урсгалыг зохион бүтээх авсаархан жишээ юм.",
+    "description": "Auto-Linter нь WebAssembly-д эмхэтгэсэн Zig хөдөлгүүрээр JSON, YAML, XML, HTML, TOML, CSV болон TSV-г баталгаажуулж, форматлах хөтөч дээр суурилсан өгөгдлийн чанарын хэрэгсэл юм. Шинжилгээ нь өгөгдлийн хил дээр бодит синтакс дүрмийг хэрэгжүүлэхийн зэрэгцээ хурдан, хувийн санал хүсэлтийг өгөхийн тулд хэрэглэгчдэд ойр байдаг. Энэ нь зохиогчийн текстийг хадгалж, алдаатай оролтоос татгалзаж, нэг жижиг WebAssembly модуль нь найдвартай хөгжүүлэгчийн ажлын урсгалыг хэрхэн тэжээж болохыг харуулдаг.",
     "more_info1": "Дэлгэрэнгүй мэдээллийг README хэсгээс авна уу",
     "more_info2": "Auto-Linter-ийн агуулах.",
     "format_as": "Формат:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Бар хэл",
-    "description": "Tiger бол ажиллах цагийн архитектур, хэлний семантик болон гүйцэтгэлийн солилцоог судлах зорилгоор бүтээгдсэн тусгай програмчлалын хэл ба Go орчуулагч юм. Орчуулагчийг WebAssembly-д хөрвүүлснээр системүүд интерактив, хөтөч дээр суурилсан бүтээгдэхүүн болж хувирдаг: ажиллах хугацаа зөөврийн хэвээр байх үед хэрэглэгчид програмыг шууд гүйцэтгэх боломжтой. болон хост програмаас тусгаарлагдсан.",
+    "description": "Tiger бол үйлдвэрлэлийн түвшний захиалгат програмчлалын хэл бөгөөд гүйцэтгэлд зориулж бүтээсэн Rust орчуулагч юм. Түүний эмхэтгэсэн байт кодын хөдөлгүүр болон модоор алхаж буй лавлах орчуулагч нь 44 програмын жишиг корпусын дунд зогсолтгүй ажилладаг бөгөөд хосолсон процессын протокол нь өдөр тутмын скрипт хийхэд Python болон Ruby-тэй шууд өрсөлддөг гүйцэтгэлтэй, батлагдсан хэсэг бүр дээр ажиллах цагийг CPython дээр эсвэл түүнээс өмнө байлгадаг. Жинхэнэ Go орчуулагч нь хуучин хэрэгжүүлэлт хэлбэрээр боломжтой хэвээр байна. Орчуулагчийг WebAssembly-д хөрвүүлснээр системүүд интерактив, хөтөч дээр суурилсан бүтээгдэхүүн болж хувирдаг: ажиллах хугацаа нь зөөврийн бөгөөд хост програмаас тусгаарлагдсан хэвээр байх үед хэрэглэгчид програмыг шууд гүйцэтгэх боломжтой.",
     "more_info1": "Дэлгэрэнгүй мэдээллийг README хэсгээс авна уу",
     "more_info2": "Tiger програмчлалын хэлний GitHub репозитор.",
     "select_engine": "Хөдөлгүүрийг сонгох:",

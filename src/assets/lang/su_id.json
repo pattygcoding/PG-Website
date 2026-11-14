@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Alat validasi sareng pormat JSON sareng YAML basis browser anu diwangun dina Go sareng disusun kana WebAssembly. Mindahkeun mesin parsing kana WASM ngajaga interaksi responsif sareng lokal ka browser bari nerapkeun parser nyata pikeun nyekel input anu teu sah. Ieu mangrupikeun conto anu difokuskeun pikeun milih arsitéktur runtime pikeun pagelaran, portabilitas, sareng kapercayaan pangguna.",
+        "text": "Auto-Linter mangrupikeun linter sareng pormat dumasar browser pikeun JSON, YAML, XML, HTML, TOML, CSV sareng TSV. mesin Zig compiles mun WebAssembly tur ngajalankeun sagemblengna dina browser nu: eta validates kalawan parsers nyata, ulang indents dokumén tanpa rewriting eusina, sarta preserves komentar, jangkar, CDATA, quoting na precision numerik. Proyék éta ngalangkungan tilu palaksanaan - Go, Rust sareng Zig - kalayan versi sateuacana diarsipkeun pikeun ngabandingkeun.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Pustaka script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Perpustakaan skrip otomatis anu dihijikeun, kalayan hiji halaman per basa: VBA pikeun spreadsheet Excel, Lua pikeun alat anu ringan, PowerShell pikeun administrasi Windows, Python pikeun padamelan data sapopoé, sareng Ruby pikeun ékspérimén skrip. Unggal naskah ditulis pikeun dipaké deui, ku kituna koleksi dijaga salaku hiji proyék tinimbang lima repositories sumebar.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Proyek enkripsi Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Hiji set komparatif {implementations} Rijndael palaksanaan sakuliah 128-, 192-, jeung 256-bit varian. Nerapkeun deui algoritma sénsitip-kaamanan di sakuliah basa mangrupikeun latihan anu disiplin dina spésifikasi anu pasti, paripolah anu tiasa diuji, sareng wates portabilitas tingkat basa, sadaya naluri mangpaat pikeun sistem anu nanganan data sénsitip.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Penyelesai Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Kubus Rubik 3D interaktif anu anjeun cet stiker ku stiker - dina kubus sorangan atanapi dina jaring anu dibuka - teras direngsekeun ku panyungsi dua fase gaya Herbert Kociemba anu disusun tina Rust to WebAssembly. Antarbeungeut Svelte ngajadikeun kubus kalawan three.js, ngajaga kaayaan dicét, cék validitas na, sarta solver urang senar facelet di singkronisasi, sarta maénkeun solusi deui move ku move on timeline anjeun tiasa scrub, ngaliwatan, sarta ulang muter .",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Hiji kaulinan voxel Minecraft-gaya diwangun dina Rust kalawan wgpu sarta disusun pikeun WebAssembly, jadi muterkeun lempeng dina browser nu. Ieu téh mangrupa sandbox arcade urang ngawangun: rupa bumi blocky sarta dunya voxel digambar ngaliwatan pipa grafik modern, ditulis ti scratch dina toolchain Rust tinimbang dina luhureun mesin kaulinan.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Basa Pemrograman Macan",
-        "text": "Basa pamrograman khusus sareng juru basa anu diwangun dina Go pikeun ngajalajah desain runtime basa, paripolah palaksanaan, sareng tradeoffs kinerja. Nyusun kana WebAssembly sareng ngahijikeun kana portopolio nyiptakeun permukaan produk anu nyata, tiasa ditilik pikeun rékayasa tingkat sistem tinimbang ngantunkeun padamelan salaku a percobaan gudang wungkul.",
+        "text": "Basa pamrograman khusus sareng juru basa anu diwangun dina Rust pikeun ngajalajah desain runtime basa, paripolah palaksanaan, sareng tradeoffs kinerja. Penerjemah Go asli tetep sayogi salaku palaksanaan warisan. Nyusun kana WebAssembly sareng ngahijikeun kana portopolio nyiptakeun permukaan produk anu nyata sareng tiasa ditilik pikeun rékayasa tingkat sistem tinimbang ngantunkeun padamelan salaku ékspérimén ngan ukur gudang.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Mesin catur",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Mesin catur anu ditulis dina Rust sareng disusun kana WebAssembly. Éta milarian kalayan negamax deepening iterative, pruning alfa-béta, tabel transposisi 32 MB sareng milarian quiescence dina daun; eta ngaevaluasi kalawan tapered tabel sapotong-kuadrat sarta pesenan ngalir ku MVV-LVA, Killers sarta sajarah. Mesin dijalankeun dina Worker Wéb sahingga dewan henteu kantos beku, sareng generator gerakna dipariksa dina browser ngalawan jumlah perft anu diterbitkeun - 20, 400, 8,902, 197,281 sareng 4,865,609 titik pikeun lima jerona munggaran."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 mangrupikeun proyek reklamasi: naon anu dimimitian salaku kaulinan CPSC 4160 satengah réngsé dina kuliah - rebut gulungan kertas toilet anu terakhir sareng ngahontal kasir sateuacan kuman ngagemkeun anjeun - parantos diwangun deui ti mimiti salaku mesin C ++ 20 modéren dina SDL2 sareng disusun kana WebAssembly. Ieu kapal sapuluh aisles escalating kalawan patrolling sarta chasing germ AI, pickups, partikel sarta kadali touch, taya sahiji potong kompas tina prototipe aslina."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "A deterministik, replayable mesin cocog wates-urutan-buku. Mesin sorangan murni Ruby tanpa rel di dinya, dilayanan ku rel 8 leuwih hiji file SQLite tunggal. Unggal paréntah dipasang dina log nulis sateuacan mesin ningali éta, ku kituna sagala kaayaan buku anu kapungkur hiji lipet jauh, sareng replay dibuktikeun satia ku ngabandingkeun sidik anu dirékam nalika pasar hirup. Prioritas harga-waktos, GTC / IOC / FOK, ngajadikeun amandemen anu ngajaga atanapi kaleungitan posisi antrian, sareng pencegahan perdagangan diri ditegeskeun ku opat belas invarian saatos unggal paréntah dina suite fuzz seeded. Browser meunang tangga sapuluh-hertz dina Kabel Aksi, sedengkeun paréntah naék kana HTTP.",
         "title": "Mesin nyocogkeun PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Alat kualitas data basis browser anu ngesahkeun sareng pormat JSON sareng YAML nganggo mesin Go anu disusun kana WebAssembly. Arsitékturna terus nga-parsing caket sareng pangguna pikeun gancang, tanggapan pribadi bari ngalaksanakeun aturan sintaksis anu nyata dina wates data. Ieu mangrupikeun conto kompak pikeun ngarancang alur kerja pamekar anu tiasa diandelkeun ngeunaan kabeneran, kinerja, sareng amanah.",
+    "description": "Auto-Linter mangrupikeun alat kualitas data dumasar browser anu ngesahkeun sareng pormat JSON, YAML, XML, HTML, TOML, CSV sareng TSV kalayan mesin Zig anu disusun kana WebAssembly. Parsing tetep deukeut ka pamaké pikeun gancang, eupan balik pribadi bari enforcing aturan sintaksis nyata dina wates data. Ieu preserves téks pangarang urang, rejects input malformed, sarta nembongkeun sabaraha hiji modul WebAssembly leutik bisa kakuatan hiji workflow pamekar diandelkeun.",
     "more_info1": "Kanggo inpo nu leuwih lengkep, tingal README dina",
     "more_info2": "Gudang Auto-Linter.",
     "format_as": "Format Salaku:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Basa Macan",
-    "description": "Macan mangrupikeun basa pamrograman khusus sareng juru juru Go diwangun pikeun ngajalajah arsitéktur runtime, semantik basa, sareng tradeoffs kinerja. Nyusun juru kana WebAssembly ngarobahna yén sistem tiasa dianggo janten produk interaktif dumasar browser: pangguna tiasa ngaéksekusi program sacara langsung bari waktos jalanna tetep dibabawa. sareng terasing tina aplikasi host.",
+    "description": "Macan mangrupikeun basa pamrograman khusus kelas produksi sareng juru basa Rust anu diwangun pikeun pagelaran. Mesin bytecode anu disusun sareng juru rujukan tatangkalan tetep dina lockstep dina korpus patokan 44-program, sareng protokol prosés anu dipasangkeun ngajaga waktos jalanna dina atanapi payuneun CPython dina unggal bagian anu ditegeskeun, kalayan pagelaran anu bersaing langsung sareng Python sareng Ruby pikeun skrip dinten-dinten. Penerjemah Go asli tetep sayogi salaku palaksanaan warisan. Nyusun juru kana WebAssembly ngarobahna yén sistem tiasa dianggo kana produk interaktif dumasar browser: pangguna tiasa ngaéksekusi program sacara langsung bari waktos jalanna tetep dibabawa sareng terasing tina aplikasi host.",
     "more_info1": "Kanggo inpo nu leuwih lengkep, tingal README dina",
     "more_info2": "Macan Programming Language GitHub Repository.",
     "select_engine": "Pilih Engine:",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "ኣብ Go ዝተሃንጸን ናብ WebAssembly ዝተጠርነፈን ኣብ መርበብ ሓበሬታ ዝተመርኮሰ JSONን YAMLን ናይ ምጽዳቕን ቅርጺን መሳርሒ። ነቲ ናይ ምፍታሽ ሞተር ናብ WASM ምግዓዝ ነቲ ምትእስሳር ምላሽ ዝህብን ንብራውዘር ከባብያውን ይገብሮ ኣብ ርእሲኡ ድማ ዘይሕጋዊ ምእታው ንምሓዝ ሓቀኛ ፓርሰር ኣብ ግብሪ ይውዕል። ንኣፈጻጽማ፣ ተንቀሳቓሲነትን ምትእምማን ተጠቃሚን ዝኸውን ናይ ምዝዋር ግዜ ስነ ህንጻ ​​ንምምራጽ ትኹረት ዝገበረ ኣብነት እዩ።",
+        "text": "Auto-Linter ኣብ መርበብ ሓበሬታ ዝተመርኮሰ ንJSON, YAML, XML, HTML, TOML, CSVን TSVን ዝኸውን linterን formatterን እዩ። ሞተር ዚግ ናብ WebAssembly ይእከብን ምሉእ ብምሉእ ኣብ መርበብ ሓበሬታ ይሰርሕን: ብሓቀኛ ፓርሰርስ የረጋግጽ: ትሕዝቶኦም ዳግማይ ከይጸሓፈ ሰነዳት ዳግማይ ይእቱ: ከምኡውን ርእይቶታት: መልህቕ: CDATA: ምጥቃስን ቁጽራዊ ትኽክለኛነትን ይዕቅብ። እቲ ፕሮጀክት ሰለስተ ኣተገባብራታት ዝሽፍን እዩ — Go, Rust and Zig — ምስቶም ቀዳሞት ስሪት ንመነጻጸሪ ኣብ ማህደር ተቐሚጦም።",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "ናይ script ቤተ መጻሕፍቲ",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "ዝተጠርነፈ ቤተ-መጻሕፍቲ ኣውቶማቲክ ስክሪፕትታት፡ ንነፍሲ ​​ወከፍ ቋንቋ ሓደ ገጽ ዘለዎ፡ VBA ንኤክሰል ስፕረድሺት፡ Lua ንቐሊል መሳርሒታት፡ ፓወርሼል ንዊንዶውስ ምምሕዳር፡ ፓይቶን ንመዓልታዊ ስራሕ ዳታ፡ ከምኡ’ውን ሩቢ ንፈተነታት ስክሪፕቲንግ። ነፍሲ ወከፍ ስክሪፕት ዳግማይ ንኽጥቀመሉ ዝተጻሕፈ እዩ፣ ስለዚ እቲ እኽብካብ ኣብ ክንዲ ሓሙሽተ ፋሕ ዝበሉ መኽዘናት ከም ሓደ ፕሮጀክት ይዕቀብ።",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "ናይ Rijndael ኤንክሪፕሽን ፕሮጀክት",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "ንጽጽራዊ ስብስብ ናይ {implementations} ሪጅንዳል ኣተገባብራታት ኣብ መላእ 128-፣ 192-፣ ከምኡውን 256-ቢት ፍልልያት። ኣብ መላእ ቋንቋታት ንጸጥታ ዝምልከት ኣልጎሪዝም ዳግማይ ምትግባር፡ ኣብ ልክዕ ስፔሲፊኬሽን፡ ክፍተን ዝኽእል ባህርያት፡ ከምኡ’ውን ደረት ናይ ቋንቋ-ደረጃ ተንቀሳቓሲ ስነ-ስርዓት ዘለዎ ልምምድ ኮይኑ፡ እዚ ኩሉ ንሃሳስ ዳታ ዝሕዙ ስርዓታት ጠቓሚ ባህርያዊ ድሌታት እዩ።",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "ናይ Rubik's Cube ፈታሒ",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "ሓደ መስተጋብራዊ 3D Rubik's Cube ስቲከር ብስቲከር ትስእሎ - ኣብቲ ኩብ ባዕሉ ወይ ኣብቲ ዘይተዓጽፈ መርበቡ - ድሕሪኡ ድማ ካብ Rust ናብ WebAssembly ብዝተጠርነፈ ክልተ ምዕራፋት ዘለዎ ናይ Herbert Kociemba ቅዲ ትፈትሖ። እቲ Svelte interface ነቲ ኩብ ብ three.js ይሰርሖ፣ ነቲ ዝተቐብአ ኩነታት፣ ቅኑዕነቱ ይምርምር፣ ከምኡውን ናይቲ ፈታሒ facelet string ኣብ ምትእስሳር ይሕዞ፣ ከምኡ’ውን ነቲ ፍታሕ ንድሕሪት ምንቅስቓስ ብምንቅስቓስ ኣብ መስመር ግዜ ክትሽርብቦ፣ ክትስጉሞን ዳግማይ ክትጻወቶን እትኽእል መስመር ይጻወቶ።",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "ኣብ Rust ምስ wgpu ዝተሃንጸን ናብ WebAssembly ዝተጠርነፈን ብቅዲ ማይንክራፍት ዝስራሕ ቮክሰል ጸወታ፡ ስለዚ ትኽ ኢሉ ኣብ መርበብ ሓበሬታ ይጻወት። ንሱ ናይቲ ኣርኬድ ሳንድቦክስ ህንጻ እዩ: ብሎኪ መሬትን ብዘመናዊ ግራፊክስ ሻምብቆ ዝተሳእለ ቮክሰል ዓለምን: ካብ ባዶ ኣብ ልዕሊ ሞተር ጸወታ ዘይኮነስ ኣብ ሩስት ቱልቸይን ዝተጻሕፈ።",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ቋንቋ ፕሮግራሚንግ ትግራዋይ",
-        "text": "ኣብ ኪድ ዝተሃንጸ ብሕታዊ ቋንቋ ፕሮግራሚንግን ተርጓሚን ዲዛይን ናይ ምዝዋር ግዜ ቋንቋ፣ ባህሪ ምፍጻምን ምትሕውዋስ ኣፈጻጽማን ንምድህሳስ። ናብ WebAssembly ምጥርናፍን ኣብቲ ፖርትፎሊዮ ምውህሃድን ነቲ ስራሕ ከም ሓደ ካብ ምግዳፍ ንሲስተም-ደረጃ ምህንድስና ሓቀኛን ዝፍተሽን ገጽ ፍርያት ይፈጥር ኣብ መኽዘን ጥራይ ዝግበር ፈተነ።",
+        "text": "ኣብ Rust ዝተሃንጸ ብሕታዊ ቋንቋ ፕሮግራሚንግን ተርጓሚን ንዲዛይን ናይ ምዝዋር ግዜ ቋንቋ፣ ባህሪ ምፍጻምን ምትሕውዋስ ኣፈጻጽማን ንምድህሳስ። እቲ ኦሪጅናል ጎ ተርጓሚ ከም ውርሻዊ ኣተገባብራ ኮይኑ ይቕጽል ኣሎ። ናብ WebAssembly ምጥርናፍን ኣብቲ ፖርትፎሊዮ ምውህሃድን ነቲ ስራሕ ከም መኽዘን ጥራይ ዝግበር ፈተነ ካብ ምግዳፍ፡ ንደረጃ ስርዓታት ምህንድስና ሓቀኛን ዝፍተሽን ገጽ ፍርያት ይፈጥር።",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "ናይ chess ሞተር",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "ብ Rust ዝተጻሕፈን ናብ WebAssembly ዝተጠርነፈን ሞተር ቸስ። ብተደጋጋሚ ዕምቆት ነጋማክስ፣ ኣልፋ-ቤታ ምግራዝ፣ 32 ሜባ ትራንስፖዚሽን ጠረጴዛን ኣብ ቆፅሊ ኲስሰንስ ምድላይን ይደሊ፤ ብቴፐርድ ፒስ-ስኩዌር ሰንጠረዥ ይግምግምን ብኤምቪቪ-ኤልቪኤ፣ ቀተልትን ታሪኽን ዝግበር ምንቅስቓሳት ይእዝዝን። እቲ ሞተር ኣብ Web Worker ስለ ዝሰርሕ እቲ ቦርድ ፈጺሙ ኣይዓርፍን እዩ፣ እቲ ናይ ምንቅስቓስ ጀነሬተር ድማ ኣብቲ መርበብ ሓበሬታ ምስቲ ዝተሓትመ ቁጽሪ ፐርፍት ይምርመር - 20, 400, 8,902, 197,281 ከምኡውን 4,865,609 ኖድስ ንመጀመርታ ሓሙሽተ ዕምቆት።"
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "ሪክላይም 4160 ናይ ምሕዋይ ፕሮጀክት እዩ: እቲ ኣብ ኮለጅ ከም ፍርቂ ዝተዛዘመ ጸወታ CPSC 4160 ዝጀመረ - ናይ መወዳእታ ጥቕላል ናይ ሽቓቕ ወረቐት ሒዝካ ቅድሚ እቶም ጀርምታት ምድኻሞም ናብቲ ምውጻእ ገንዘብ ምብጻሕ - ካብ ባዶ ከም ዘመናዊ C++20 ሞተር ኣብ SDL2 ዳግማይ ተሃኒጹ ናብ WebAssembly ተጠርኒፉ ኣሎ። ዓሰርተ እናዓበዩ ዝኸይድ መንገድታት ምስ ፓትሮሊንግን ምህዳድን ጀርም AI፡ ፒክኣፕ፡ ፓርቲክላትን ተንከስካሲ መቆጻጸሪታትን ትሰድድ፡ እዚ ድማ ካብቲ መበቆላዊ ፕሮቶታይፕ ዝኾነ ኣቋራጭ መንገዲ የለን።"
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "ውሱን፣ ዳግማይ ክጻወት ዝኽእል ደረት-ትእዛዝ-መጽሓፍ ዝሰማማዕ ሞተር። እቲ ሞተር ንባዕሉ ጽሩይ ሩቢ ኮይኑ ኣብ ውሽጡ Rails ዘይብሉ ኮይኑ፡ ብ Rails 8 ኣብ ልዕሊ ሓደ SQLite ፋይል ይግልገል። ነፍሲ ወከፍ ትእዛዝ ቅድሚ ሞተር ምርኣዩ ኣብ ቅድሚት ምጽሓፍ ሎግ ይውሰኽ፣ ስለዚ ዝኾነ ሕሉፍ ኩነታት ናይታ መጽሓፍ ሓደ ዕጽፊ ርሒቑ ይርከብ፣ ዳግማይ ምጽዋት ድማ ዕዳጋ ቀጥታዊ ኣብ ዝነበረሉ እዋን ዝተቐድሐ ኣሰር ኣጻብዕቲ ብምንጽጻር እሙን ምዃኑ ይረጋገጽ። ዋጋ-ግዜ ቀዳምነት፡ GTC/IOC/FOK፡ ሪጋ ቦታ ዝሕልዉ ወይ ዝስእኑ መመሓየሺታት፡ ከምኡ’ውን ምክልኻል ርእሰ-ንግዲ ድሕሪ ነፍሲ ወከፍ ትእዛዝ ኣብ ዝተዘርአ ፋዝ ሱት ብዓሰርተ ኣርባዕተ ዘይልወጡ ይረጋገጽ። እቲ መርበብ ሓበሬታ ኣብ ልዕሊ Action Cable ዓሰርተ ሄርትዝ መሳልል ክረክብ እንከሎ፡ ትእዛዛት ድማ ኣብ ልዕሊ HTTP ይድይቡ።",
         "title": "ናይ PIT ማዛመጃ ሞተር"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "ኣብ መርበብ ሓበሬታ ዝተመርኮሰ መሳርሒ ጽሬት ዳታ ኮይኑ፡ ናብ WebAssembly ዝተጠርነፈ Go engine ተጠቒሙ JSONን YAMLን ዘረጋግጽን ቅርጺ ዝህብን እዩ። እቲ ስነ ህንጻ ​​ንቕልጡፍን ብሕታውን ግብረ መልሲ ናብቲ ተጠቃሚ ቀሪቡ ምትንታን ይቕጽል፡ ኣብ ወሰን ዳታ ድማ ሓቀኛ ሕግታት ስነ-ቓል የተግብር። ኣብ ዙርያ ቅኑዕነት፣ ኣፈፃፅማን ምትእምማንን ዘተኣማምን ዋሕዚ ስራሕ ዲቨሎፐር ንምንዳፍ ዝሕግዝ ውሱን ኣብነት እዩ።",
+    "description": "Auto-Linter ኣብ መርበብ ሓበሬታ ዝተመርኮሰ ዳታ-ጽሬት መሳርሒ ኮይኑ፡ ንJSON, YAML, XML, HTML, TOML, CSV ከምኡ’ውን TSV ብዚግ ሞተር ናብ WebAssembly ዝተጠርነፈ ዘረጋግጽን ቅርጺ ዝህብን እዩ። ምትንታን ኣብ ወሰን ዳታ ሓቀኛ ሕግታት ስነ-ቓል እናኣተግብረ ንቕልጡፍን ብሕታውን ግብረ-መልሲ ናብ ተጠቃሚ ቀረባ ኮይኑ ይጸንሕ። ንጽሑፍ ደራሲ ይዕቅብ፣ ንዝተበላሸወ ምእታው ይነጽግ፣ ከምኡ’ውን ሓደ ንእሽቶ ሞዱል WebAssembly ከመይ ጌሩ ንሓደ ርግጸኛ ዋሕዚ ስራሕ ዲቨሎፐር ሓይሊ ከም ዝህብ ዘርኢ እዩ።",
     "more_info1": "ንዝያዳ ሓበሬታ ኣብ README ኣብ...",
     "more_info2": "ናይ Auto-Linter መዕቆቢ።",
     "format_as": "ቅርጺ ከምዚ፤",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "ቋንቋ ትግራዋይ",
-    "description": "ታይገር ብሕታዊ ፕሮግራሚንግ ቋንቋን ጎ ተርጓሚን ኮይኑ ኣብ ግዜ ምዝዋር ስነ ህንጻ፣ ትርጉም ቋንቋን ምትሕውዋስ ኣፈጻጽማን ንምድህሳስ ዝተሃንጸ እዩ። ነቲ ተርጓሚ ናብ WebAssembly ምጥርናፍ ስርዓታት ከም ዝሰርሑ ናብ መስተጋብራዊ፡ ኣብ መርበብ ሓበሬታ ዝተመርኮሰ ፍርያት ይቕይሮ: ተጠቀምቲ እቲ ናይ ምዝዋር ግዜ ተንቀሳቓሲ ኮይኑ እናሃለወ ብቐጥታ ፕሮግራማት ክፍጽሙ ይኽእሉ ከምኡ’ውን ካብቲ ኣአንጋዲ መተግበሪ ተነጺሉ።",
+    "description": "ታይገር ንፍርያት ዝኸውን ብሕታዊ ፕሮግራሚንግ ላንጋዋጅን ንኣፈጻጽማ ዝተሃንጸ ሩስት ተርጓሚን እዩ። እቲ ዝተጠርነፈ ባይትኮድ ሞተርን ገረብ-ምጉዓዝ መወከሲ ተርጓሚኡን ኣብ ልዕሊ 44-ፕሮግራም መዐቀኒ ኮርፐስ ኣብ lockstep ይጸንሕ፣ እቲ ዝተጻምደ ኣብ መስርሕ ዘሎ ፕሮቶኮል ድማ ነቲ ናይ ምዝዋር ግዜ ኣብ ነፍሲ ወከፍ ዝተረጋገጸ ክፍሊ ኣብ CPython ወይ ቅድሚኡ ይሕዞ፣ ምስ ፓይቶንን ሩቢን ብቐጥታ ዝወዳደር ኣፈጻጽማ ንመዓልታዊ ስክሪፕቲንግ። እቲ ኦሪጅናል ጎ ተርጓሚ ከም ውርሻዊ ኣተገባብራ ኮይኑ ይቕጽል ኣሎ። ነቲ ተርጓሚ ናብ WebAssembly ምጥርናፍ ስርዓታት ከም ዝሰርሑ ናብ መስተጋብራዊ፡ ኣብ መርበብ ሓበሬታ ዝተመርኮሰ ፍርያት ይቕይሮ: ተጠቀምቲ እቲ ናይ ምዝዋር ግዜ ተንቀሳቓስን ካብቲ ኣአንጋዲ መተግበሪ ተነጺሉን እናሃለወ ብቐጥታ ፕሮግራማት ክፍጽሙ ይኽእሉ።",
     "more_info1": "ንዝያዳ ሓበሬታ ኣብ README ኣብ...",
     "more_info2": "ቋንቋ ፕሮግራሚንግ ህበይ GitHub መኽዘን።",
     "select_engine": "ሞተር ምረጽ፤",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Brauzer əsaslı JSON və YAML doğrulama və formatlaşdırma aləti Go-da qurulmuş və WebAssembly-də tərtib edilmişdir. Təhlil mühərrikinin WASM-ə köçürülməsi etibarsız daxiletməni tutmaq üçün real təhlilçi tətbiq edərkən qarşılıqlı əlaqəni brauzer üçün cavabdeh və yerli saxlayır. Performans, daşınma və istifadəçi etibarı üçün iş vaxtı arxitekturasının seçilməsinin diqqət mərkəzində olan nümunəsidir.",
+        "text": "Auto-Linter JSON, YAML, XML, HTML, TOML, CSV və TSV üçün brauzer əsaslı linter və formatlayıcıdır. Zig mühərriki WebAssembly-də tərtib edilir və tamamilə brauzerdə işləyir: o, real analizatorlarla təsdiq edir, sənədləri onların məzmununu yenidən yazmadan yenidən girintiləyir, şərhləri, lövbərləri, CDATA-nı, sitatları və rəqəmlərin dəqiqliyini qoruyur. Layihə üç tətbiqi əhatə edir - Go, Rust və Zig - əvvəlki versiyaları müqayisə üçün arxivləşdirilmişdir.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skript kitabxanası",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Hər dildə bir səhifə olan avtomatlaşdırma skriptlərinin birləşdirilmiş kitabxanası: Excel cədvəlləri üçün VBA, yüngül alətlər üçün Lua, Windows idarəsi üçün PowerShell, gündəlik məlumat işi üçün Python və skript təcrübələri üçün Ruby. Hər bir skript təkrar istifadə edilmək üçün yazılmışdır, buna görə də kolleksiya beş səpələnmiş depo əvəzinə bir layihə kimi saxlanılır.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael şifrələmə layihəsi",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128, 192 və 256 bit variantları üzrə {implementations} Rijndael tətbiqlərinin müqayisəli dəsti. Təhlükəsizliyə həssas alqoritmin dillər arasında yenidən həyata keçirilməsi dəqiq spesifikasiyalar, sınaqdan keçirilə bilən davranış və dil səviyyəsində daşınma məhdudiyyətləri, həssas məlumatları idarə edən sistemlər üçün bütün faydalı instinktlər üzrə intizamlı məşqdir.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik kubunu həll edən",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "İnteraktiv 3D Rubik Kubunu stikerlə stikerlə - kubun özündə və ya onun açılmamış şəbəkəsində rəngləyirsiniz və sonra Rust-dan WebAssembly-ə qədər tərtib edilmiş Herbert Kociemba üslublu iki fazalı axtarışla həll edirsiniz. Svelte interfeysi kubu three.js ilə təqdim edir, rənglənmiş vəziyyəti, onun etibarlılığını yoxlayır və həlledicinin üz simini sinxronlaşdırır və ovuşdura, keçə və yenidən oynaya biləcəyiniz zaman çizelgesi üzrə hərəkət edərək həlli geriyə hərəkət etdirir.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Rust-da wgpu ilə qurulmuş və WebAssembly-də tərtib edilmiş Minecraft üslublu voksel oyunu, ona görə də birbaşa brauzerdə oynayır. Bu, arxadanın qum qutusudur: bloklu ərazi və müasir qrafika kəməri ilə çəkilmiş səs dünyası, oyun mühərrikinin üstündə deyil, sıfırdan Rust alətlər silsiləsində yazılmışdır.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Proqramlaşdırma Dili",
-        "text": "Dilin işləmə vaxtı dizaynını, icra davranışını və performans mübadilələrini araşdırmaq üçün Go-da qurulmuş fərdi proqramlaşdırma dili və tərcüməçi. Onu WebAssembly-ə tərtib etmək və portfelə inteqrasiya etmək, işi bir vəzifə kimi tərk etməkdənsə, sistem səviyyəli mühəndislik üçün real, yoxlanıla bilən məhsul səthi yaradır. yalnız depo üçün sınaq.",
+        "text": "Dilin işləmə müddəti dizaynını, icra davranışını və performans mübadilələrini araşdırmaq üçün Rust-da qurulmuş fərdi proqramlaşdırma dili və tərcüməçi. Orijinal Go tərcüməçisi köhnə tətbiq kimi əlçatan olaraq qalır. Onu WebAssembly-ə tərtib etmək və portfelə inteqrasiya etmək işi yalnız depo üçün sınaq kimi tərk etməkdənsə, sistem səviyyəli mühəndislik üçün real, yoxlanıla bilən məhsul səthi yaradır.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Şahmat mühərriki",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust dilində yazılmış və WebAssembly-də tərtib edilmiş şahmat mühərriki. O, iterativ dərinləşdirmə negamax, alfa-beta budama, 32 MB transpozisiya cədvəli və yarpaqlarda sükunət axtarışı ilə axtarış edir; o, MVV-LVA, killers və tarixə görə konik parça-kvadrat masalar və sifariş hərəkətləri ilə qiymətləndirir. Mühərrik Veb İşçisində işləyir, ona görə də lövhə heç vaxt donmur və onun hərəkət generatoru brauzerdə dərc edilmiş perft sayılarına - 20, 400, 8,902, 197,281 və ilk beş dərinlik üçün 4,865,609 qovşaqlara qarşı yoxlanılır."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 rekultivasiya layihəsidir: kollecdə yarımçıq qalmış CPSC 4160 oyunu kimi başlayan şey - son tualet kağızı rulonlarını götürün və mikroblar sizi yormadan yoxlamaya çatın - SDL2-də müasir C++20 mühərriki kimi sıfırdan yenidən qurulub və WebA-da tərtib edilib. O, orijinal prototipin qısa yollarından heç biri olmayan, patrul və təqib mikrob AI, pikaplar, hissəciklər və toxunma nəzarətləri ilə on yüksələn koridor göndərir."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Deterministik, təkrar oxuna bilən limit-sifariş-kitab uyğunluğu mühərriki. Mühərrikin özü təmiz Ruby-dir, içərisində heç bir Rails yoxdur, Rails 8 tək SQLite faylı üzərində xidmət göstərir. Mühərrik onu görməzdən əvvəl hər bir əmr qabaqcadan yazma jurnalına əlavə olunur, buna görə də kitabın istənilən keçmiş vəziyyəti bir qat uzaqdadır və bazar canlı olduğu müddətdə qeydə alınan barmaq izlərini müqayisə etməklə təkrarlamanın etibarlılığı sübut olunur. Qiymət-zaman prioriteti, GTC/IOC/FOK, növbə mövqeyini saxlayan və ya itirən düzəlişlər və öz-özünə ticarətin qarşısının alınması toxumlanmış fuzz paketində hər əmrdən sonra on dörd invariant tərəfindən təsdiqlənir. Brauzer Action Cable üzərindən on herslik nərdivan əldə edir, əmrlər isə HTTP üzərindən yuxarı qalxır.",
         "title": "PIT uyğunlaşdırma mühərriki"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssembly-də tərtib edilmiş Go mühərrikindən istifadə edərək JSON və YAML-ni təsdiqləyən və formatlayan brauzer əsaslı məlumat keyfiyyəti aləti. Arxitektura məlumat sərhədində real sintaksis qaydalarını tətbiq edərkən sürətli, şəxsi rəy üçün istifadəçiyə yaxın təhlillər aparır. Bu, düzgünlük, performans və etibar ətrafında etibarlı inkişaf etdirici iş axınının dizaynının yığcam nümunəsidir.",
+    "description": "Auto-Linter, WebAssembly üçün tərtib edilmiş Zig mühərriki ilə JSON, YAML, XML, HTML, TOML, CSV və TSV-ni təsdiqləyən və formatlayan brauzer əsaslı məlumat keyfiyyəti alətidir. Məlumat sərhədində real sintaksis qaydalarını tətbiq edərkən təhlil sürətli, şəxsi rəy üçün istifadəçiyə yaxın qalır. O, müəllifin mətnini qoruyur, düzgün olmayan daxiletməni rədd edir və bir kiçik WebAssembly modulunun etibarlı tərtibatçı iş axınına necə güc verə biləcəyini göstərir.",
     "more_info1": "Ətraflı məlumat üçün README-ə baxın",
     "more_info2": "Auto-Linter anbarı.",
     "format_as": "Format:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Pələng dili",
-    "description": "Tiger iş vaxtı arxitekturasını, dil semantikasını və performans mübadilələrini araşdırmaq üçün qurulmuş fərdi proqramlaşdırma dili və Go tərcüməçisidir. Tərcüməçinin WebAssembly-ə tərtib edilməsi sistemlərin interaktiv, brauzer əsaslı məhsula çevrilməsinə səbəb olur: istifadəçilər proqramları birbaşa icra edə bilərlər, eyni zamanda iş vaxtı portativ qalır. və host proqramından təcrid olunmuşdur.",
+    "description": "Tiger istehsal səviyyəli xüsusi proqramlaşdırma dili və performans üçün qurulmuş Rust tərcüməçisidir. Onun tərtib edilmiş bayt-kod mühərriki və ağacda gəzən istinad tərcüməçisi 44-proqramlı etalon korpusda addım-addım dayanır və qoşalaşmış prosesdaxili protokol gündəlik skript üçün birbaşa Python və Ruby ilə rəqabət aparan performansla, hər təsdiqlənmiş bölmədə iş vaxtını CPython-da və ya ondan qabaqda saxlayır. Orijinal Go tərcüməçisi köhnə tətbiq kimi əlçatan olaraq qalır. Tərcüməçinin WebAssembly-ə tərtib edilməsi sistemlərin interaktiv, brauzer əsaslı məhsula çevrilməsini təmin edir: istifadəçilər proqramları birbaşa icra edə, icra müddəti portativ və host proqramından təcrid olunmuş vəziyyətdə qalır.",
     "more_info1": "Ətraflı məlumat üçün README-ə baxın",
     "more_info2": "Tiger Proqramlaşdırma Dili GitHub Repository.",
     "select_engine": "Mühərriki seçin:",

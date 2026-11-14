@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Selainpohjainen JSON- ja YAML-tarkistus- ja -muotoilutyökalu, joka on sisäänrakennettu Gossa ja käännetty WebAssemblyyn. Jäsennysmoottorin siirtäminen WASM:iin pitää vuorovaikutuksen responsiivisena ja paikallisena selaimelle samalla kun käytetään oikeaa jäsentäjää virheellisen syötteen havaitsemiseksi. Se on keskittynyt esimerkki suoritusaikaisen arkkitehtuurin valitsemisesta suorituskyvyn, siirrettävyyden ja käyttäjien luottamuksen kannalta.",
+        "text": "Auto-Linter on selainpohjainen linteri ja muotoiluohjelma JSON-, YAML-, XML-, HTML-, TOML-, CSV- ja TSV-tiedostoille. Zig-moottori kääntää WebAssemblyyn ja toimii kokonaan selaimessa: se vahvistaa oikeiden jäsentimien avulla, sisentää asiakirjat uudelleen kirjoittamatta niiden sisältöä uudelleen ja säilyttää kommentit, ankkurit, CDATA:n, lainaukset ja numeerisen tarkkuuden. Projekti kattaa kolme toteutusta - Go, Rust ja Zig - ja aiemmat versiot arkistoidaan vertailua varten.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skriptikirjasto",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Konsolidoitu automaatiokomentosarjojen kirjasto, jossa on yksi sivu kielellä: VBA Excel-laskentataulukoille, Lua kevyelle työkalulle, PowerShell Windows-hallintaan, Python jokapäiväiseen datatyöhön ja Ruby komentosarjakokeiluihin. Jokainen skripti on kirjoitettu käytettäväksi uudelleen, joten kokoelmaa ylläpidetään yhtenä projektina viiden hajallaan olevan tietovaraston sijaan.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael-salauksen projekti",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Vertaileva joukko {implementations} Rijndael-toteutuksia 128-, 192- ja 256-bittisissä muunnelmissa. Turvallisuusherkän algoritmin uudelleenkäyttööntäminen eri kielillä on kurinalaista harjoitusta tarkkojen määrittelyjen, testattavan käyttäytymisen ja kielitason siirrettävyyden rajojen suhteen. Kaikki ovat hyödyllisiä arkaluonteisia tietoja käsitteleville järjestelmille.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubikin kuution ratkaisija",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interaktiivinen 3D Rubikin kuutio, jonka maalaat tarra kerrallaan – itse kuutioon tai sen avautuneeseen verkkoon – ja ratkaiset sitten Herbert Kociemba -tyylisellä kaksivaiheisella haulla, joka on koottu Rustista WebAssemblyyn. Svelte-käyttöliittymä renderöi kuution three.js:llä, pitää maalatun tilan, sen kelpoisuustarkistukset ja ratkaisijan fasettimerkkijonon synkronoituna ja toistaa ratkaisun takaisin siirto liikkeeltä aikajanalla, jonka voit selailla, astua läpi ja toistaa uudelleen.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft-tyylinen vokselipeli, joka on rakennettu Rustissa wgpu:lla ja käännetty WebAssemblyyn, joten se pelaa suoraan selaimessa. Se on pelihallin hiekkalaatikkorakennelma: lohkomaista maastoa ja vokselimaailmaa piirrettynä nykyaikaisen grafiikkaputken kautta, joka on kirjoitettu tyhjästä Rust-työkaluketjuun pelimoottorin sijaan.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger ohjelmointikieli",
-        "text": "Mukautettu ohjelmointikieli ja sisäänrakennettu Go-tulkki tutkiaksesi kielen ajonaikaista suunnittelua, suorituskäyttäytymistä ja suorituskyvyn kompromisseja. Sen kääntäminen WebAssemblyyn ja integrointi portfolioon luo todellisen, tarkastettavan tuotepinnan järjestelmätason suunnittelulle sen sijaan, että työ jätettäisiin vain arkiston kokeilu.",
+        "text": "Rustiin rakennettu mukautettu ohjelmointikieli ja tulkki, joka tutkii kielen ajonaikaista suunnittelua, suorituskäyttäytymistä ja suorituskyvyn kompromisseja. Alkuperäinen Go-tulkki on edelleen saatavilla vanhana toteutuksena. Sen kääntäminen WebAssemblyyn ja integrointi portfolioon luo todellisen, tarkastettavan tuotepinnan järjestelmätason suunnittelulle sen sijaan, että työ jätettäisiin pelkkään arkistokokeiluksi.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Shakkimoottori",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Shakkimoottori, joka on kirjoitettu Rustilla ja käännetty WebAssemblyyn. Se etsii iteratiivisella syventävällä negamaxilla, alfa-beta-leikkauksella, 32 Mt:n transponointitaulukolla ja hiljentymishaulla lehdistä; se arvioi kapenevilla neliöpöydillä ja tilaa MVV-LVA:n liikkeitä, tappajia ja historiaa. Moottori toimii Web Workerissa, joten levy ei koskaan jähmety, ja sen siirtogeneraattori tarkistetaan selaimessa julkaistujen suoritusarvojen perusteella – 20, 400, 8 902, 197 281 ja 4 865 609 solmua ensimmäisellä viidellä syvyydellä."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 on kierrätysprojekti: se, mikä alkoi puolivalmiina CPSC 4160 -pelinä yliopistolla – nappaa viimeiset wc-paperirullat ja saavu kassalle ennen kuin bakteerit kuluttavat sinut – on rakennettu tyhjästä SDL2:n moderniksi C++20-moottoriksi ja käännetty WebAssemblyyn. Se toimittaa kymmenen lisääntyvää käytävää, joissa on partioivia ja jahtaavia bakteereita, poimintoja, hiukkasia ja kosketusohjaimia, jotka eivät ole alkuperäisen prototyypin pikanäppäimiä."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Deterministinen, toistettavissa oleva raja-tilauskirjan täsmäytysmoottori. Moottori itsessään on puhdasta Ruby-levyä, jossa ei ole kiskoja, ja Rails 8 palvelee yhden SQLite-tiedoston kautta. Jokainen komento liitetään kirjoituslokiin ennen kuin moottori näkee sen, joten kaikki kirjan aiemmat tilat ovat yhden taitteen päässä, ja toisto osoittautuu uskolliseksi vertaamalla sormenjälkiä, jotka on tallennettu markkinoiden ollessa käynnissä. Hinta-aikaprioriteetti, GTC/IOC/FOK, muutokset, jotka säilyttävät tai menettävät jonon sijainnin, ja itsekaupan esto vahvistetaan neljätoista invariantilla jokaisen komennon jälkeen siemennetyssä fuzz-sarjassa. Selain saa kymmenen hertsin tikkaat Action Cablen kautta, kun taas komennot nousevat HTTP:n kautta.",
         "title": "PIT-yhdistämismoottori"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Selainpohjainen tiedonlaatutyökalu, joka tarkistaa ja muotoilee JSON- ja YAML-tiedostoja WebAssemblyyn käännetyn Go-moottorin avulla. Arkkitehtuuri jäsentää jatkuvasti lähellä käyttäjää nopean, yksityisen palautteen saamiseksi samalla kun se valvoo todellisia syntaksisääntöjä tietorajoilla. Se on kompakti esimerkki luotettavan kehittäjän työnkulun suunnittelusta oikeellisuuden, suorituskyvyn ja luottamuksen ympärille.",
+    "description": "Auto-Linter on selainpohjainen tiedonlaadun työkalu, joka vahvistaa ja muotoilee JSON-, YAML-, XML-, HTML-, TOML-, CSV- ja TSV-tiedostoja WebAssemblyyn käännetyllä Zig-moottorilla. Jäsennys pysyy lähellä käyttäjää nopean, yksityisen palautteen saamiseksi samalla, kun se valvoo todellisia syntaksisääntöjä tietorajoilla. Se säilyttää kirjoittajan tekstin, hylkää väärin muotoiltuja syötteitä ja näyttää, kuinka yksi pieni WebAssembly-moduuli voi toimia luotettavan kehittäjän työnkulun avulla.",
     "more_info1": "Lisätietoja on kohdassa README",
     "more_info2": "Auto-Linterin arkisto.",
     "format_as": "Muotoile muodossa:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tiikerin kieli",
-    "description": "Tiger on mukautettu ohjelmointikieli ja Go-tulkki, joka on suunniteltu tutkimaan ajonaikaista arkkitehtuuria, kielen semantiikkaa ja suorituskyvyn kompromisseja. Tulkin kääntäminen WebAssembly-muotoon muuttaa järjestelmien toimivuuden interaktiiviseksi, selainpohjaiseksi tuotteeksi: käyttäjät voivat suorittaa ohjelmia suoraan, kun suoritusaika pysyy kannettavana. ja eristetty isäntäsovelluksesta.",
+    "description": "Tiger on tuotantotason mukautettu ohjelmointikieli ja suorituskykyä varten suunniteltu Rust-tulkki. Sen koottu tavukoodimoottori ja puussa kävelevä viitetulkki pysyvät lukossa 44 ohjelman vertailukorpuksen yli, ja parillinen prosessin välinen protokolla pitää suoritusajan CPythonissa tai sitä edellä jokaisessa vahvistetussa osiossa suorituskyvyllä, joka kilpailee suoraan Pythonin ja Rubyn kanssa päivittäisestä komentosarjasta. Alkuperäinen Go-tulkki on edelleen saatavilla vanhana toteutuksena. Tulkin kääntäminen WebAssembly-muotoon muuttaa järjestelmien toimivuuden interaktiiviseksi, selainpohjaiseksi tuotteeksi: käyttäjät voivat suorittaa ohjelmia suoraan, kun suoritusaika pysyy kannettavana ja eristettynä isäntäsovelluksesta.",
     "more_info1": "Lisätietoja on kohdassa README",
     "more_info2": "Tiger-ohjelmointikielen GitHub-varasto.",
     "select_engine": "Valitse moottori:",

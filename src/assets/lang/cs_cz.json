@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Nástroj pro ověřování a formátování JSON a YAML založený na prohlížeči vestavěný v Go a kompilovaný do WebAssembly. Přesunutí modulu analýzy do WASM udržuje interakci citlivou a místní pro prohlížeč a zároveň používá skutečný analyzátor k zachycení neplatného vstupu. Je to zaměřený příklad výběru runtime architektury pro výkon, přenositelnost a důvěru uživatelů.",
+        "text": "Auto-Linter je prohlížečový linter a formátovač pro JSON, YAML, XML, HTML, TOML, CSV a TSV. Zig engine se zkompiluje do WebAssembly a běží zcela v prohlížeči: ověřuje se skutečnými analyzátory, znovu odsazuje dokumenty bez přepisování jejich obsahu a zachovává komentáře, kotvy, CDATA, citace a číselnou přesnost. Projekt zahrnuje tři implementace – Go, Rust a Zig – s předchozími verzemi archivovanými pro srovnání.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Knihovna skriptů",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Konsolidovaná knihovna automatizačních skriptů s jednou stránkou na jazyk: VBA pro tabulky Excel, Lua pro odlehčené nástroje, PowerShell pro správu Windows, Python pro každodenní práci s daty a Ruby pro experimenty se skriptováním. Každý skript je napsán pro opětovné použití, takže kolekce je udržována jako jeden projekt namísto pěti rozptýlených úložišť.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Projekt šifrování Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Srovnávací sada implementací {implementations} Rijndael ve 128bitových, 192bitových a 256bitových variantách. Reimplementace algoritmu citlivého na zabezpečení napříč jazyky je disciplinovaným cvičením přesných specifikací, testovatelného chování a limitů přenositelnosti na jazykové úrovni, což jsou všechny užitečné instinkty pro systémy, které zpracovávají citlivá data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Řešič Rubikovy kostky",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interaktivní 3D Rubikovu kostku malujete nálepku po nálepce - na kostku samotnou nebo na její rozloženou síť - a poté ji vyřešíte dvoufázovým vyhledáváním ve stylu Herberta Kociemby sestaveným z Rust do WebAssembly. Rozhraní Svelte vykresluje krychli pomocí three.js, udržuje vybarvený stav, jeho kontroly platnosti a řetězec faceletů řešitele v synchronizaci a přehraje řešení krok za krokem na časové ose, kterou můžete procházet, procházet a znovu hrát.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Voxel hra ve stylu Minecraftu postavená v Rustu s wgpu a zkompilovaná do WebAssembly, takže se hraje přímo v prohlížeči. Je to sandboxová konstrukce arkády: hranatý terén a voxelový svět nakreslený moderním grafickým potrubím, napsaný od nuly na Rust toolchain spíše než na vrcholu herního enginu.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Programovací jazyk Tiger",
-        "text": "Vlastní programovací jazyk a interpret vestavěný v Go k prozkoumání návrhu jazykového runtime, chování při provádění a kompromisů ve výkonu. Zkompilováním do WebAssembly a integrací do portfolia vytvoříte skutečný, kontrolovatelný povrch produktu pro systémové inženýrství, místo abyste práci opustili jako experiment pouze s úložištěm.",
+        "text": "Vlastní programovací jazyk a interpret vestavěný v Rustu k prozkoumání návrhu běhového prostředí, chování při provádění a kompromisů ve výkonu. Původní interpret Go zůstává k dispozici jako starší implementace. Zkompilováním do WebAssembly a integrací do portfolia vytvoříte skutečný, kontrolovatelný povrch produktu pro systémové inženýrství, spíše než ponechání práce jako experimentu pouze s úložištěm.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Šachový engine",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Šachový engine napsaný v Rustu a zkompilovaný do WebAssembly. Hledá s iterativním prohlubujícím se negamaxem, alfa-beta prořezáváním, 32 MB transpoziční tabulkou a klidovým vyhledáváním na listech; vyhodnocuje se zúženými čtvercovými tabulkami a objednává pohyby MVV-LVA, zabijáky a historii. Engine běží ve Web Workeru, takže deska nikdy nezamrzne, a jeho generátor pohybu je v prohlížeči kontrolován podle publikovaných počtů perft – 20, 400, 8 902, 197 281 a 4 865 609 uzlů pro prvních pět hloubek."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 je rekultivační projekt: to, co začalo jako zpola dokončená hra CPSC 4160 na vysoké škole – popadněte poslední role toaletního papíru a dostaňte se k pokladně, než vás otráví bacily – bylo od nuly přestavěno jako moderní engine C++20 na SDL2 a zkompilováno do WebAssembly. Dodává deset eskalujících uliček s hlídkovou a pronásledovanou AI, snímači, částicemi a dotykovým ovládáním, žádná ze zkratek původního prototypu."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Deterministický, znovu hratelný engine pro párování knih s limitními objednávkami. Samotný engine je čistě Ruby bez Rails, obsluhovaný Rails 8 přes jeden SQLite soubor. Každý příkaz je připojen k záznamu dopředu, než jej motor uvidí, takže jakýkoli minulý stav knihy je o jeden záhyb vzdálen a opakování se prokáže jako věrné porovnáním otisků prstů zaznamenaných v době, kdy byl trh aktivní. Priorita ceny a času, GTC/IOC/FOK, úpravy, které udržují nebo ztrácejí pozici ve frontě, a prevence vlastního obchodu jsou prosazovány čtrnácti invarianty po každém příkazu v nasazené fuzz sadě. Prohlížeč získá desetihertzový žebříček přes Action Cable, zatímco příkazy jdou nahoru přes HTTP.",
         "title": "PIT matching engine"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Nástroj pro kvalitu dat založený na prohlížeči, který ověřuje a formátuje JSON a YAML pomocí nástroje Go zkompilovaného do WebAssembly. Architektura udržuje analýzu blízko uživatele pro rychlou, soukromou zpětnou vazbu a zároveň prosazuje skutečná pravidla syntaxe na hranici dat. Je to kompaktní příklad navrhování spolehlivého pracovního postupu vývojářů v oblasti správnosti, výkonu a důvěry.",
+    "description": "Auto-Linter je nástroj pro kvalitu dat založený na prohlížeči, který ověřuje a formátuje JSON, YAML, XML, HTML, TOML, CSV a TSV pomocí jádra Zig kompilovaného do WebAssembly. Analýza zůstává v blízkosti uživatele pro rychlou, soukromou zpětnou vazbu a zároveň prosazuje skutečná pravidla syntaxe na hranici dat. Zachovává autorův text, odmítá chybný vstup a ukazuje, jak může jeden malý modul WebAssembly pohánět spolehlivý vývojářský pracovní postup.",
     "more_info1": "Další informace najdete v README v",
     "more_info2": "Repozitář Auto-Linteru.",
     "format_as": "Formátovat jako:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tygří jazyk",
-    "description": "Tiger je vlastní programovací jazyk a interpret Go vytvořený k prozkoumání runtime architektury, sémantiky jazyka a kompromisů ve výkonu. Kompilace tlumočníka do WebAssembly změní fungování systémů na interaktivní produkt založený na prohlížeči: uživatelé mohou spouštět programy přímo, zatímco běhové prostředí zůstává přenosné. a izolován od hostitelské aplikace.",
+    "description": "Tiger je vlastní programovací jazyk produkční úrovně a interpret Rust vytvořený pro výkon. Jeho zkompilovaný bytecode engine a strom-walking referenční interpret se drží v patách napříč 44-programovým benchmarkovým korpusem a spárovaný in-process protokol udržuje běhový čas na nebo před CPythonem v každé deklarované sekci, s výkonem, který přímo soutěží s Pythonem a Ruby pro každodenní skriptování. Původní interpret Go zůstává k dispozici jako starší implementace. Kompilace tlumočníka do WebAssembly mění fungování systémů v interaktivní produkt založený na prohlížeči: uživatelé mohou spouštět programy přímo, zatímco běhové prostředí zůstává přenosné a izolované od hostitelské aplikace.",
     "more_info1": "Další informace najdete v README v",
     "more_info2": "Repozitář GitHub pro programovací jazyk Tiger.",
     "select_engine": "Vyberte motor:",

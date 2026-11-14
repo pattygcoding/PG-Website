@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Uirlis bhailíochtaithe agus formáidithe JSON agus YAML atá bunaithe ar bhrabhsálaí a tógadh in Go agus a tiomsaíodh do WebAssembly. Má bhogtar an t-inneall parsála go WASM coinnítear an t-idirghníomhú sofhreagrach agus áitiúil don bhrabhsálaí agus é ag cur fíor-pharsálaí i bhfeidhm chun ionchur neamhbhailí a ghabháil. Is sampla dírithe é de ailtireacht ama rite a roghnú le haghaidh feidhmíochta, iniomparthacht agus muinín úsáideora.",
+        "text": "Is éard atá i Auto-Linter ná línéir agus formáidí brabhsálaí-bhunaithe le haghaidh JSON, YAML, XML, HTML, TOML, CSV agus TSV. Tiomsaíonn an t-inneall Zig go WebAssembly agus ritheann sé go hiomlán sa bhrabhsálaí: bailíochtaíonn sé le fíor-pharsálaithe, athdhéanann sé doiciméid gan a n-inneachar a athscríobh, agus caomhnaíonn sé tráchtanna, ancairí, CDATA, cruinneas lua agus uimhriúil. Cuimsíonn an tionscadal trí chur i bhfeidhm - Go, Rust agus Zig - agus na leaganacha níos luaithe curtha i gcartlann le haghaidh comparáide.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Leabharlann scripteanna",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Leabharlann chomhdhlúite de scripteanna uathoibrithe, le leathanach amháin in aghaidh na teanga: VBA le haghaidh scarbhileoga Excel, Lua le haghaidh uirlisí éadroma, PowerShell do riarachán Windows, Python le haghaidh obair sonraí laethúil, agus Ruby le haghaidh turgnaimh scriptithe. Scríobhtar gach script le hathúsáid, mar sin coinnítear an bailiúchán mar thionscadal amháin in ionad cúig stór scaipthe.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Tionscadal criptiú Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Sraith chomparáideach de {implementations} feidhmithe Rijndael thar 128-, 192-, agus leagan 256-giotán. Is cleachtadh disciplínithe é algartam íogair slándála a chur i bhfeidhm thar theangacha maidir le sonraíochtaí cruinne, iompar intástáilte, agus teorainneacha na hinaistritheachta ag leibhéal teanga, gach instinct úsáideach do chórais a láimhseálann sonraí íogaire.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Réiteoir Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Ciúb Rubik idirghníomhach 3D a phéinteálann tú le greamán - ar an gciúb féin nó ar a líon neamhfhillteach - agus ansin réitíonn tú le cuardach dhá chéim i stíl Herbert Kociemba a tiomsaíodh ó Rust go WebAssembly. Déanann comhéadan Svelte an ciúb le three.js, coinníonn sé an stát péinteáilte, seiceálann a bhailíocht, agus teaghrán aghaidh an réiteora i sioncrónú, agus imríonn sé an réiteach ar ais ag bogadh ar aghaidh ar amlíne inar féidir leat scrobarnach, céim a dhéanamh agus ath-imirt.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Cluiche voxel ar stíl Minecraft a tógadh i Rust le wgpu agus a cuireadh le chéile chuig WebAssembly, mar sin imríonn sé go díreach sa bhrabhsálaí. Tógáil bosca gainimh an stuara é: tír-raon bacach agus domhan voxel arna tharraingt trí phíblíne grafaicí nua-aimseartha, scríofa ón tús ar an slabhra uirlisí Rust seachas ar bharr inneall cluiche.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Teanga Ríomhchlárúcháin Tíogair",
-        "text": "Teanga ríomhchlárúcháin shaincheaptha agus ateangaire a tógadh in Téigh chun dearadh ama rite teanga, iompraíocht forghníomhaithe agus comhbhabhtáil feidhmíochta a iniúchadh. Trí é a thiomsú le WebAssembly agus é a chomhtháthú sa phunann cruthaítear dromchla táirge fíor in-iniúchta d’innealtóireacht ar leibhéal an chórais seachas an obair a fhágáil mar turgnamh stór amháin.",
+        "text": "Teanga ríomhchlárúcháin agus ateangaire saincheaptha a tógadh i Rust chun dearadh ama rite teanga, iompar forghníomhaithe agus comhbhabhtáil feidhmíochta a iniúchadh. Tá an bun-teangaire Go fós ar fáil mar chur i bhfeidhm oidhreachta. Trí é a thiomsú le WebAssembly agus é a chomhtháthú sa phunann cruthaítear dromchla táirge fíor-iniúchta d’innealtóireacht ar leibhéal na gcóras seachas an obair a fhágáil mar thurgnamh stór amháin.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Inneall ficheall",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Inneall fichille scríofa i Rust agus tiomsaithe do WebAssembly. Déanann sé cuardach le negamax doimhniú atriallach, bearradh alfa-béite, tábla trasuímh 32 MB agus cuardach ciúine ag na duilleoga; déanann sé meastóireacht le táblaí píosa-cearnacha barrchaolaithe agus bogann orduithe de réir MVV-LVA, marfóirí agus stair. Ritheann an t-inneall in Oibrí Gréasáin mar sin ní reoiteann an bord choíche, agus déantar a ghineadóir aistrithe a sheiceáil sa bhrabhsálaí i gcoinne na n-áireamh perft foilsithe - nóid 20, 400, 8,902, 197,281 agus 4,865,609 don chéad chúig dhoimhneacht."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Is tionscadal míntírithe é Reclaim 4160: a thosaigh mar chluiche leathchríochnaithe CPSC 4160 sa choláiste - grab na rollaí deiridh páipéir leithris agus sroich an tseiceáil amach sula gcaitheann na frídíní tú - atógadh ón tús é mar inneall C++20 nua-aimseartha ar SDL2 agus tiomsaíodh é do WebAssembly. Seoltar deich aisle ardaithe leis agus iad ag patról agus sa tóir ar AI frídíní, piocadh suas, cáithníní agus rialuithe tadhaill, gan aon cheann de aicearraí an fhréamhshamhail bhunaidh."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Inneall meaitseála leabhar ordaithe cinntitheach, inathimeartha. Is é an t-inneall féin Ruby íon gan aon Rails ann, a fhreastalaíonn Rails 8 thar comhad SQLite amháin. Cuirtear gach ordú i gceangal le loga réamhscríofa sula bhfeiceann an t-inneall é, mar sin déantar aon staid den leabhar san am atá caite a fhilleadh, agus cruthaítear go bhfuil athimirt dílis trí mhéarloirg a taifeadadh agus an margadh beo a chur i gcomparáid. Leasaíonn tosaíocht praghais-ama, GTC/IOC/FOK, an suíomh scuaine a choimeádann nó a chailleann, agus dearbhaítear cosc ​​ar fhéin-thrádáil le ceithre athróg déag tar éis gach ordú i sraith fuzz sílithe. Faigheann an brabhsálaí dréimire deich hertz thar Chábla Gníomhaíochta, agus téann orduithe suas thar HTTP.",
         "title": "Inneall meaitseála PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Uirlis cháilíocht sonraí bunaithe ar bhrabhsálaí a bhailíochtaíonn agus a fhormáidíonn JSON agus YAML ag baint úsáide as inneall Go tiomsaithe do WebAssembly. Coinníonn an ailtireacht parsáil gar don úsáideoir le haghaidh aiseolais tapa, príobháideach agus ag an am céanna rialacha comhréire fíor a fhorfheidhmiú ag teorainn na sonraí. Is sampla dlúth é de shreabhadh oibre forbróra iontaofa a dhearadh maidir le cruinneas, feidhmíocht agus muinín.",
+    "description": "Uirlis chaighdeán sonraí atá bunaithe ar bhrabhsálaí is ea Auto-Linter a bhailíochtaíonn agus a fhormáidíonn JSON, YAML, XML, HTML, TOML, CSV agus TSV le hinneall Zig tiomsaithe do WebAssembly. Fanann an pharsáil gar don úsáideoir le haghaidh aiseolais tapa, phríobháideach agus ag an am céanna tá fíorrialacha comhréire á bhforfheidhmiú ag teorainn na sonraí. Caomhnaíonn sé téacs an údair, diúltaíonn sé ionchur míchumtha, agus taispeánann sé conas is féidir le modúl beag WebAssembly amháin sreabhadh oibre forbróra iontaofa a chumhachtú.",
     "more_info1": "Le haghaidh tuilleadh faisnéise, déan tagairt don README sa",
     "more_info2": "Stór Auto-Linter.",
     "format_as": "Formáid Mar:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Teanga Tíogair",
-    "description": "Is teanga ríomhchlárúcháin shaincheaptha é Tíogair agus ateangaire Go a tógadh chun ailtireacht ama rite, séimeantaic teanga, agus comhbhabhtáil feidhmíochta a iniúchadh. Nuair a chuirtear an t-ateangaire le chéile chuig WebAssembly is éard atá i gceist leis na córais sin ná táirge idirghníomhach bunaithe ar bhrabhsálaí: is féidir le húsáideoirí cláir a rith go díreach agus an t-am rite fós iniompartha agus scoite amach ón bhfeidhmchlár óstach.",
+    "description": "Is teanga ríomhchláraithe shaincheaptha de ghrád táirgeachta é Tíogair agus ateangaire Rust a tógadh le haghaidh feidhmíochta. Fanann an t-inneall bytecode tiomsaithe agus ateangaire tagartha crann-siúlóid i lockstep thar chorpas tagarmharcála 44-clár, agus coimeádann an prótacal inphróiseála péireáilte an t-am rite ag CPython nó chun tosaigh ar gach rannóg dhearbhaithe, le feidhmíocht atá in iomaíocht go díreach le Python agus Ruby le haghaidh scriptithe ó lá go lá. Tá an bun-teangaire Go fós ar fáil mar chur i bhfeidhm oidhreachta. Nuair a chuirtear an t-ateangaire le chéile chuig WebAssembly is éard a bhíonn i gceist leis na córais sin ná táirge idirghníomhach bunaithe ar bhrabhsálaí: is féidir le húsáideoirí cláir a fheidhmiú go díreach fad is a fhanann an t-am rite iniompartha agus scoite amach ón bhfeidhmchlár óstaigh.",
     "more_info1": "Le haghaidh tuilleadh faisnéise, déan tagairt don README sa",
     "more_info2": "Teanga Ríomhchláraithe Tíogair Stór GitHub.",
     "select_engine": "Roghnaigh Inneall:",

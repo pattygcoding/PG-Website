@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Wan brawza-based JSON ɛn YAML validɛshɔn ɛn fɔmat tul we dɛn bil insay Go ɛn kɔmpilayt to WebAssembly. We yu muv di parsing injin insay WASM, i de kip di intarakshɔn rispɔnsiv ɛn lokal to di brawza we yu de aplay rial pars fɔ kech invalid input. Na wan fɔs ɛgzampul fɔ pik wan rɔntaym akitɛkɛt fɔ pefɔmɛns, pɔtabiliti, ɛn yuz trɔst.",
+        "text": "Auto-Linter na brawza-based linter ɛn fɔmat fɔ JSON, YAML, XML, HTML, TOML, CSV ɛn TSV. Di Zig injin de kɔmpilayt to WebAssembly ɛn i de rɔn ɔlsay na di brawza: i de validet wit rial pars, i de ri-indent dɔkyumɛnt dɛn we i nɔ rayt bak wetin de insay, ɛn i de kip kɔmɛnt, ankɔ, CDATA, kot ɛn nɔmba prɛsishɔn. Di projɛkt span tri implimɛnt — Go, Rust ɛn Zig — wit di fɔs vɛshɔn dɛn we dɛn arkiv fɔ kɔmpia.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skrip librari",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Wan kɔnsolidɛt laybri fɔ ɔtomɛshɔn skript, wit wan pej fɔ ɛni langwej: VBA fɔ Excel sprɛdshit, Lua fɔ laytwɛt tul, PowerShell fɔ Windows administreshɔn, Paytɔn fɔ ɛvride data wok, ɛn Ruby fɔ skriptin ɛkspiriɛns. Dɛn rayt ɛni skript fɔ mek dɛn yuz am bak, so dɛn kin kip di kɔleshiɔn as wan prɔjek instead fɔ fayv ripɔsitɔri dɛn we skata.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael ɛnkript projɛk",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Wan kɔmparativ sɛt fɔ {implementations} Rijndael implimɛnt dɛn akɔs 128-, 192-, ɛn 256-bit vɛryɔnt dɛn. Riimpliment wan sikyɔriti-sɛnsitiv algɔrithm akɔdin to langwej dɛn na wan disiplin ɛgzampul insay ɛksaktɔ spɛsifikɛshɔn, tɛstable bihayvya, ɛn di limit fɔ langwej-lɛvel pɔtabiliti, ɔl na yusful instinkt fɔ sistɛm dɛn we de handle sɛnsitiv data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube solvɛ",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Wan intaraktiv 3D Rubik’s Cube yu peint stika bay stika - pan di kub sɛf ɔ pan in unfolded net - ɛn afta dat sɔlv wit wan Herbert Kociemba stayl tu-faz sɔch we dɛn kɔmpilayt frɔm Rust to WebAssembly. Di Svelte intafeys de rɛnd di kub wit tri.js, kip di stet we dɛn peint, in validiti chɛk, ɛn di sɔlva in feslet string in sink, ɛn ple di sɔlv bak muv bay muv pan wan tɛmlayn we yu kin skrab, stɛp tru, ɛn ri-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Wan Minecraft-stayl voxel gem we dɛn bil insay Rust wit wgpu ɛn kɔmpilayt to WebAssembly, so i de ple stret na di brawza. Na di arɛd in sanbɔks bild: blɔk tɛri ɛn wan voksɛl wɔl we dɛn drɔ tru wan mɔdan grafik paip layn, we dɛn rayt frɔm skrach pan di Rust tulchɛn pas fɔ rayt am pan gem injin.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tayga Progrɛm Langwej",
-        "text": "Wan kɔstɔm programin langwej ɛn intaprita we dɛn bil insay Go fɔ ɛksplɔrɔ langwej rɔntaym dizayn, ɛgzikishɔn bihayvya, ɛn pefɔmɛns tredɔf. Fɔ kɔmpilayt am to WebAssembly ɛn intagret am insay di pɔtfolio de mek wan rial, inspɛktabl prodak sɔfa fɔ sistɛm-lɛvel injinɛri pas fɔ lɛf di wok as a ripɔsitɔri-onli ɛkspiriɛns.",
+        "text": "Wan kɔstɔm programin langwej ɛn intaprita we dɛn bil insay Rust fɔ ɛksplɔrɔ langwej rɔntaym dizayn, ɛgzikishɔn bihayvya, ɛn pefɔmɛns tred ɔf. Di ɔrijinal Go intaprita stil de as lɛgsi implimɛnt. Fɔ kɔmpilayt am to WebAssembly ɛn intagret am insay di pɔtfolio de mek wan rial, inspɛktabl prodak sɔfa fɔ sistɛm-lɛvɛl injinɛri pas fɔ lɛf di wok as ripɔsitɔri-onli ɛkspiriɛns.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "Chɛs engine",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Wan chɛs injin we dɛn rayt insay Rust ɛn kɔmpilayt to WebAssembly. I de sכch wit itεraytiv dip negamax, alfa-beta pruning, wan 32 MB transposishכn tebul εn wan quiescence sכch na di lif dεm; i de evalyu wit tapered pies-skwea tebul ɛn ɔda muv bay MVV-LVA, kil ɛn istri. Di injin de rɔn insay wan Wɛb Wokman so di bɔd nɔ de ɛva friz, ɛn dɛn de chɛk in muv jenɛra na di brawza agens di pɔblish perft kɔnt dɛn - 20, 400, 8,902, 197,281 ɛn 4,865,609 node fɔ di fɔs fayv dip dɛn."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Riklɛm 4160 na riklamashɔn projɛkt: wetin bigin as af-finish CPSC 4160 gem na kɔleji - grap di las rol dɛn fɔ tɔylɛt pepa ɛn rich di chɛk-ɔut bifo di jem dɛn wear yu dɔŋ - dɛn dɔn bil am bak frɔm skrach as mɔdan C++20 injin na SDL2 ɛn kɔmpilayt am to WebAssembly. I de ship tɛn eskalet ais wit patrol ɛn chasing jem AI, pik-ap, patikyula ɛn tɔch kɔntrol, nɔ pan di shɔtkat dɛn fɔ di ɔrijinal protɔtayp."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Wan ditɛminist, riplayable limit-ɔda-buk maching injin. Di injin insɛf na pure Ruby we nɔ gɛt Rails insay, we Rails 8 de sav oba wan singl SQLite fayl. Dɛn kin ad ɛni kɔmand to wan lɔg we dɛn kin rayt bifo di injin si am, so ɛnitin we di buk bin dɔn de trade, na wan fold, ɛn dɛn kin pruv se i fetful wan bay we dɛn kɔmpia di finga prɛnt dɛn we dɛn bin dɔn rɛkɔd we di makit bin de layv. Prays-taym prayoritɛd, GTC/IOC/FOK, amɛnd dɛn we de kip ɔ lɔs kiyu pozishɔn, ɛn sɛlf-tred prɛvɛnshɔn na fɔtin invayriant dɛn de asɛf afta ɛvri kɔmand insay wan sid fuz suit. Di brawza kin gɛt tɛn-htz lada oba Akshɔn Kebul, we di kɔmand dɛn kin go ɔp oba HTTP.",
         "title": "PIT match engine"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Wan brawza-based data kwaliti tul we de validet ɛn fɔmat JSON ɛn YAML yuz wan Go injin we dɛn kɔmpilayt to WebAssembly. Di akitɛkɛt de kip de pars klos to di yuza fɔ fast, prayvet fidbak we i de ɛnfɔs rial sɛntaks lɔ dɛn na di data bɔda. Na wan kɔmpakt ɛgzampul fɔ disayn wan divɛlɔpa wokflɔ we pɔsin kin abop pan rawnd kɔrɛkt, pefɔmɛns, ɛn trɔst.",
+    "description": "Auto-Linter na brawza-based data-kwaliti tul we de validet ɛn fɔmat JSON, YAML, XML, HTML, TOML, CSV ɛn TSV wit wan Zig injin we dɛn kɔmpilayt to WebAssembly. Parsing de nia di yuza fɔ fast, prayvet fidbak we i de ɛnfɔs rial sɛntaks lɔ dɛn na di data bɔda. I de kip di ɔda pɔsin in tɛks, i de rijɛkt di input we nɔ fayn, ɛn i de sho aw wan smɔl WɛbAsɛmbli mɔdyul kin pawa wan divɛlɔpa wokflɔ we pɔsin kin abop pan.",
     "more_info1": "Fɔ no mɔ, rid di README we de na di",
     "more_info2": "Auto-Linter stɔ.",
     "format_as": "Fɔmat As:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tayga Langwej",
-    "description": "Tiger na kɔstɔm programin langwej ɛn Go intaprita we dɛn bil fɔ ɛksplɔrɔ rɔntaym akitɛkɛt, langwej sɛmantiks, ɛn pefɔmɛns tred ɔf. We yu kɔmpilayt di intaprita to WebAssembly, i de tɔn dat sistɛm dɛn we de wok to intaraktiv, brawza-bɛs prodak: di wan dɛn we de yuz am kin ɛksɛkutiv program dɛn dairekt wan we di rɔntaym stil de pɔtabl ɛn isol frɔm di ɔs aplikeshɔn.",
+    "description": "Tiger na prodakshɔn-grɛd kɔstɔm programin langwej ɛn na Rust intaprita we dɛn bil fɔ pefɔmɛns. I kɔmpilayt baytkɔd injin ɛn tri-wɔk rɛfrɛns intaprita de insay lɔkstɛp akɔdin to wan 44-program bɛnchmak kɔpɔs, ɛn di pe in-prɔsɛs protɔkɔl de kip di rɔntaym na ɔ bifo CPython pan ɛvri asɛf sɛkshɔn, wit pefɔmɛns we de kɔmpit dairekt wit Paytɔn ɛn Rubi fɔ de-to-de skriptin. Di ɔrijinal Go intaprita stil de as lɛgsi implimɛnt. We yu kɔmpilayt di intaprita to WebAssembly, i de tɔn dat sistɛm dɛn we de wok to intaraktiv, brawza-bɛs prodak: yuzman dɛn kin ɛksɛkutiv program dɛn dairekt we di rɔntaym de kɔntinyu fɔ pɔtabl ɛn isol frɔm di ɔs aplikeshɔn.",
     "more_info1": "Fɔ no mɔ, rid di README we de na di",
     "more_info2": "Tayga Progrɛm Langwej GitHub Ripɔsitɔri.",
     "select_engine": "Pik di Injin:",

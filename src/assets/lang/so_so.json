@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "JSON ku salaysan browserka iyo ansaxinta YAML iyo qalab lagu dhisay Go oo lagu soo ururiyay WebAssembly. U raridda mishiinka wax-kala-soocidda ee WASM waxay ka dhigaysaa is-dhexgalka mid ka jawaabaya oo maxalli ah browserka iyada oo la adeegsanayo parser-ka dhabta ah si loo qabto gelinta aan sax ahayn. Waa tusaale diirada saaraya doorashada qaab dhismeedka runtime ee waxqabadka, qaadida, iyo aaminaadda isticmaalaha.",
+        "text": "Auto-Linter waa browser-ku-saleysan linter iyo qaabeeyaha JSON, YAML, XML, HTML, TOML, CSV iyo TSV. Matoorka Zig wuxuu ku ururiyaa WebAssembly wuxuuna ku shaqeeyaa gebi ahaanba browserka: wuxuu ku ansaxiyaa baarayaasha dhabta ah, dib u soo geli dukumentiyada iyagoon dib u qorin waxa ku jira, wuxuuna ilaaliyaa faallooyinka, barroosinnada, CDATA, xigashada iyo saxnaanta tirada. Mashruucu wuxuu ka kooban yahay saddex fulin - Go, Rust iyo Zig - iyadoo noocyadii hore loo kaydiyay isbarbardhigga.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Maktabadda script-yada",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Maktabadaha isku dhafan ee qoraallada otomaatiga ah, oo leh hal bog afkii: VBA ee xaashida xaashida ee Excel, Lua qalabaynta fudud, PowerShell ee maamulka Windows, Python shaqada xogta maalinlaha ah, iyo Ruby ee tijaabooyinka qoraalka. Qoraal kasta waxaa loo qoray in dib loo isticmaalo, sidaas darteed ururinta waxaa loo hayaa hal mashruuc halkii ay ka ahaan lahayd shan kayd oo kala firirsan.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Mashruuca sirta Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Qayb isbarbardhigga ah oo ah {implementations} Rijndael fulinta oo dhan 128-, 192-, iyo 256-bit kala duwanaanshuhu. Dib u soo celinta algorithm-xasaasiga leh ee luqadaha oo dhan waa layli edbin ah oo qeexid sax ah, habdhaqan la tijaabin karo, iyo xadka qaadida heerka luqadda, dhammaan dareenka waxtarka leh ee nidaamyada gacanta ku haya xogta xasaasiga ah.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Xalliyaha Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "3D Rubik's Cube oo is-dhexgal leh waxaad ku dhejinaysaa dhejisyo - cube lafteeda ama shabaggeeda furfuran - ka dib waxaad ku xallisaa qaab Herbert Kociemba raadinta laba weji ah oo laga soo ururiyay Rust ilaa WebAssembly. Interface-ka Svelte waxa uu ka dhigayaa cube saddex.js, waxa uu ilaaliyaa xaaladda rinjiyeysan, hubinta ansaxnimada, iyo xadhkaha wejiga xaliyaha oo isku mid ah, oo waxa uu u ciyaaraa xalka dib u dhaqaaq adiga oo ku dhaqaaqa wakhti aad xoqin karto, dhex mari karto, oo dib u ciyaari karto.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Ciyaarta voxel ee qaabka Minecraft lagu dhisay Rust oo leh wgpu waxaana lagu soo ururiyay WebAssembly, marka waxay si toos ah ugu dhex shaqeysaa browserka. Waa dhismaha sanduuqa ciideed ee arcade: dhul xanniban iyo adduunyo voxel ah oo lagu sawiray dhuumaha garaafyada casriga ah, oo laga soo qoray xoqan silsiladda aaladda Rust halkii ay ka ahaan lahayd korka mashiinka ciyaarta.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
-        "text": "Luqadda barnaamijka gaarka ah iyo turjubaanka lagu dhisay Go si ay u sahamiso luuqadda naqshadaynta runtime, dhaqanka fulinta, iyo wax-is-dhaafsiga waxqabadka. Isku-dubbarididda WebAssembly iyo ku-daridda faylalka-kooxdu waxay abuurtaa wax soo saar dhab ah, oo la baari karo oo loogu talagalay injineernimada heerka-nidaamyada halkii ay uga tegi lahayd shaqada sidii tijaabada kayd-kaliya.",
+        "text": "Luuqad barnaamij gaar ah iyo turjubaan lagu dhisay Rust si ay u sahamiyaan naqshadaynta wakhtiga runtime-ga luqadda, dhaqanka fulinta, iyo ganacsiyada waxqabadka. Turjubaanka Go ee asalka ah ayaa weli diyaar u ah hirgelinta dhaxalka. Isku-dubbarididda WebAssembly iyo isku-dhafka faylalka waxay abuurtaa wax-soo-saarka dhabta ah, oo la hubin karo ee injineernimada heerka-habka halkii ay ka tagi lahayd shaqada sidii tijaabo kayd-keliya.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Matoorada chess-ka",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Mishiin chess ah oo ku qoran Rust oo lagu soo ururiyay WebAssembly. Waxay ku baadhaysaa negamax qotodheer oo isdabajoog ah, manjooyin alfa-beta ah, miis 32 MB ah iyo raadinta rafaadka caleemaha; waxay ku qiimaysaa miisas afar geesle ah oo duuban waxayna amar ku bixisay dhaqdhaqaaqyada MVV-LVA, dilaayaasha iyo taariikhda. Matoorku waxa uu ku dhex shaqeeyaa Shaqeeyaha Shabakadda si guddigu waligiis u barafoobin, dhaliye dhaqaajintiisana waxa lagu eegayaa browserka iyada oo la eegayo tirooyinka la daabacay - 20, 400, 8,902, 197,281 iyo 4,865,609 nodes ee shanta mool ee hore."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Soo celinta 4160 waa mashruuc dib u soo celin ah: waxa ku bilaabmay ciyaarta CPSC 4160 ee kuleejka oo nus dhammaatay - qabso duubka ugu dambeeya ee warqadaha musqusha oo gaadh hubinta ka hor inta aanu jeermisku kaa xidhin - ayaa laga soo dhisay xoqan sidii matoor casri ah oo C ++20 ah oo SDL2 ah waxaana lagu soo ururiyay WebAssembly. Waxay soo rartay toban waddo oo sii kordheysa oo leh roondo iyo ceyrsashada jeermiska AI, soo-qaadista, walxaha iyo kontaroolada taabashada, midkoodna ma jiro hab-gaabyada tusaalaha asalka ah."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Matoorka u dhigma buug go'aamin kara, dib loo ciyaari karo. Matoorka laftiisu waa Ruby saafi ah oo aan lahayn tareen, oo ay u adeegaan Rails 8 hal fayl oo SQLite ah. Amar kasta waxaa lagu dhejiyaa qoraal horudhac ah ka hor inta uusan matoorku arkin, markaa xaalad kasta oo buuggu soo dhaaftay waa hal laab, ku celcelinta waxaa lagu caddeeyaa aamin iyadoo la is barbardhigayo faraha la duubay intii uu suuqu noolaa. Mudnaanta-waqtiga qiimaha, GTC/IOC/FOK, waxay wax ka beddeshaa inay ilaaliso ama lumiso booska safka, iyo ka hortagga is-ganacsiga waxaa caddeeya afar iyo toban is-beddel ka dib amar kasta oo ku yaal qolka fuzz ee abuuran. Barowsarku wuxuu helayaa jaranjaro toban-hertz ah oo ka sarreeya Action Cable, halka amarrada ay kor u dhaafaan HTTP.",
         "title": "Matoorada is-waafajinta PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Qalabka tayada xogta ku salaysan browser-ka kaas oo ansixiya oo qaabeeya JSON iyo YAML iyadoo la isticmaalayo Go engine oo lagu soo ururiyay WebAssembly. Nashqaduhu waxa ay ku hayaan u kala shaandheynta u dhow isticmaalaha si degdeg ah, jawaab celin gaar ah iyada oo la xoojinayo xeerarka syntax dhabta ah ee xadka xogta. Waa tusaale kooban oo naqshadaynta socodka shaqo ee horumariye la isku halayn karo oo ku wareegsan saxnaanta, waxqabadka, iyo kalsoonida.",
+    "description": "Auto-Linter waa qalab tayada xogta ku salaysan browser-ka kaas oo ansixiyaa oo qaabeeya JSON, YAML, XML, HTML, TOML, CSV iyo TSV oo leh matoor Zig ah oo lagu soo ururiyay WebAssembly. Falanqaynta waxay ku dhowdahay isticmaalaha si dhakhso leh, jawaab celin gaar ah iyada oo la xoojinayo sharciyada syntax dhabta ah ee xadka xogta. Waxa ay ilaalisaa qoraalka qoraaga, diidaysa gelinta khaldan, oo waxay tustaa sida mid ka mid ah modules WebAssembly yar uu awood u yeelan karo horumariye la isku halayn karo.",
     "more_info1": "Wixii macluumaad dheeraad ah, tixraac README ee ku jira",
     "more_info2": "Bakhaarka Auto-Linter.",
     "format_as": "Qaabka Sida:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Luuqadda Shabeelka",
-    "description": "Tiger waa luuqad barnaamijeed caado u ah iyo Turjubaanka Go loo dhisay si uu u sahamiyo qaab dhismeedka runtime, semantics luqadda, iyo ganacsiyada waxqabadka. Isku-dubarid turjubaanka WebAssembly waxay u beddeshaa in nidaamyadu u shaqeeyaan is dhexgal, badeecad ku salaysan browserka: isticmaalayaashu waxay si toos ah u fulin karaan barnaamijyada iyada oo wakhtiga runtu uu yahay mid la qaadi karo oo ka go'an codsiga martida loo yahay.",
+    "description": "Shabeel waa luuqad barnaamij gaar ah oo heer-soo-saar ah iyo turjumaan daxal ah oo loo dhisay waxqabad. Matoorka bytecode ee la soo ururiyey iyo turjubaanka tixraaca geed-socodka ayaa joogsanaya qufulka guud ahaan 44-barnaamijkabeegga corpus, iyo borotokoolka lamaanan-socodka ku jira wuxuu hayaa wakhtiga runtime ama ka hor CPython qayb kasta oo la caddeeyo, oo leh waxqabad si toos ah ula tartamaya Python iyo Ruby qoraal-maalin-maalin ah. Turjubaanka Go ee asalka ah ayaa weli diyaar u ah hirgelinta dhaxalka. Isku-dubbarididda turjubaanka WebAssembly waxay u beddeshaa in nidaamyadu u shaqeeyaan is dhexgal, badeecad ku salaysan browser: isticmaalayaashu waxay si toos ah u fulin karaan barnaamijyada iyada oo wakhtiga runtime uu yahay mid la qaadi karo oo ka go'an codsiga martida loo yahay.",
     "more_info1": "Wixii macluumaad dheeraad ah, tixraac README ee ku jira",
     "more_info2": "Tiger Programming Language GitHub Kaydka.",
     "select_engine": "Dooro Matoorka:",

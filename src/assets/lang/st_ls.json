@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Sesebelisoa sa netefatso sa JSON le YAML se thehiloeng ho sebatli le sesebelisoa sa fomete se hahiloeng ho Go mme se hlophisoa ho WebAssembly. Ho tsamaisa enjene ea ho fetisa ho WASM ho boloka tšebelisano e le eona e arabelang ebile e le sebakeng sa sebatli ha u ntse u sebelisa parser ea 'nete ho ts'oara lintlha tse fosahetseng. Ke mohlala o tsepamisitsoeng oa ho khetha moralo oa nako ea ho sebetsa bakeng sa ts'ebetso, ho nkeha habonolo, le ts'epo ea basebelisi.",
+        "text": "Auto-Linter ke linter le sebopeho sa sebatli sa JSON, YAML, XML, HTML, TOML, CSV le TSV. Enjene ea Zig e bokella ho WebAssembly 'me e sebetsa ka ho feletseng ho sebatli: e tiisa ka li-parser tsa sebele, e kenya hape litokomane ntle le ho ngola litaba tsa eona bocha,' me e boloka maikutlo, liankora, CDATA, qotso le ho nepahala ha lipalo. Morero o kenyelletsa ts'ebetsong tse tharo - Go, Rust le Zig - ka liphetolelo tsa pejana tse bolokiloeng bakeng sa ho bapisa.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Laeborari ya script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Laeborari e kopaneng ea lingoliloeng tse ikemetseng, e nang le leqephe le le leng ka puo ka 'ngoe: VBA bakeng sa li-spreadsheet tsa Excel, Lua bakeng sa lisebelisoa tse bobebe, PowerShell bakeng sa tsamaiso ea Windows, Python bakeng sa mosebetsi oa letsatsi le letsatsi oa data, le Ruby bakeng sa liteko tsa ho ngola. Mongolo o mong le o mong o ngoletsoe hore o sebelisoe hape, kahoo pokello e bolokoa e le morero o le mong ho e-na le lipolokelo tse hlano tse hasantsoeng.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Projeke ya enkripshene ya Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Papiso ea {implementations} ts'ebetsong ea Rijndael ho 128-, 192-, le 256-bit tse fapaneng. Ho kenya ts'ebetsong algorithm e hlokolosi ea ts'ireletso ho pholletsa le lipuo ke boikoetliso bo nang le boits'oaro bo hlakileng, boits'oaro bo lekiloeng, le meeli ea ho khoneha ha maemo a puo, maikutlo a bohlokoa bakeng sa litsamaiso tse sebetsanang le lintlha tsa bohlokoa.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Sebahlabboli sa Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "3D Rubik's Cube eo u e pentang ka setikara - ho cube ka boeona kapa letlooa la eona le sa phutholoha - ebe u e rarolla ka mokhoa oa ho batla oa Herbert Kociemba oa mekhahlelo e 'meli o hlophisitsoeng ho tloha Rust ho ea ho WebAssembly. Svelte interface e fana ka cube ka three.js, e boloka boemo bo pentiloeng, tlhahlobo ea ho nepahala ha eona, le khoele ea sefahleho sa solver e lumellana, 'me e bapala tharollo ea ho khutlela morao ka ho tsamaea ka nako eo u ka e senyang, oa feta, le ho e bapala hape.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Papali ea voxel ea mofuta oa Minecraft e hahiloeng Rust ka wgpu 'me e hlophisitsoe ho WebAssembly, kahoo e bapala ka kotloloho ho sebatli. Ke sebaka sa \"sandbox\" sa \"arcade\" sa \"blocky terrain\" le lefats'e la voxel le entsoeng ka peipi ea sejoale-joale ea litšoantšo, e ngotsoeng ho tloha qalong ho Rust toolchain ho fapana le enjene ea papali.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
-        "text": "Puo e tloahelehileng ea ho etsa mananeo le mofetoleli e hahiloeng ho Go ho hlahloba moralo oa puo ea nako ea ho sebetsa, boitšoaro ba ts'ebetso, le liphetoho tsa ts'ebetso. Ho e bokella ho WebAssembly le ho e kopanya ka har'a potefolio ho theha sebaka sa sebele sa sehlahisoa sa lihlahisoa bakeng sa boenjiniere ba boemo ba tsamaiso ho e-na le ho tlohela mosebetsi e le teko ea polokelo feela.",
+        "text": "Puo e tloahelehileng ea ho etsa mananeo le mofetoleli e hahiloeng ka Rust ho hlahloba moralo oa nako ea puo, boitšoaro ba ts'ebetso, le liphetoho tsa ts'ebetso. Mofetoleli oa pele oa Go o ntse a le teng e le ts'ebetsong ea lefa. Ho e bokella ho WebAssembly le ho e kopanya ka har'a potefolio ho theha sebaka sa sebele sa sehlahisoa sa lihlahisoa bakeng sa boenjiniere ba boemo ba tsamaiso ho e-na le ho tlohela mosebetsi e le teko ea polokelo feela.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Enjene ya chess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Enjene ea chess e ngotsoeng ka Rust mme e hlophisitsoe ho WebAssembly. E phenyekolla ka negamax e tebisang khafetsa, ho poma alpha-beta, tafole ea phetoho ea 32 MB le ho batla ho khutsa makhasi; e lekola ka litafole tse tapered-square-square le litaelo tse tsamaeang ke MVV-LVA, babolai le nalane. Enjene e sebetsa ho Web Worker e le hore boto e se ke ea hoama, 'me jenereithara ea eona ea ho falla e hlahlojoa ho sebatli khahlano le lipalo tse hatisitsoeng tsa perft - 20, 400, 8,902, 197,281 le 4,865,609 node bakeng sa botebo ba bohlano ba pele."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ke projeke ea ho nchafatsa: se qalileng e le papali ea CPSC 4160 e felileng ka halofo k'holejeng - ts'oara lipampiri tsa ho qetela tsa pampiri ea ntloana 'me u fihlele tefo pele likokoana-hloko li u khathatsa - e se e hahiloe bocha ho tloha qalong joalo ka enjine ea sejoale-joale ea C++20 ho SDL2 mme e hlophisitsoe ho WebAssembly. E tsamaisa li-aisles tse leshome tse ntseng li eketseha ka ho paterola le ho lelekisa likokoana-hloko tsa AI, li-pickup, likaroloana le li-control tsa ho ama, ha ho le e 'ngoe ea likhutšoane tsa prototype ea pele."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Enjine e bapisang, e ka bapaloang hape ea moeli oa buka. Enjene ka boeona e na le Ruby e hloekileng e se nang Rails ho eona, e sebeletsoa ke Rails 8 holim'a faele e le 'ngoe ea SQLite. Taelo e 'ngoe le e 'ngoe e kenyelelitsoe lethathamong la pele-pele pele enjene e e bona, kahoo boemo leha e le bofe ba nakong e fetileng ba buka bo ka qojoa hanngoe, 'me papali e bonts'a hore e tšepahala ka ho bapisa menoana e tlalehiloeng ha 'maraka o ntse o le teng. Ntho e tlang pele ka nako ea theko, GTC/IOC/FOK, e lokisa ho boloka kapa ho lahleheloa ke maemo a mela, le thibelo ea ho ikhotsofatsa e tiisitsoe ke batho ba leshome le metso e mene ba sa fetoheng ka mor'a taelo e 'ngoe le e 'ngoe ea fuzz suite. Sebatli se fumana lere ea li-hertz tse leshome holim'a Action Cable, ha litaelo li ea holimo ho HTTP.",
         "title": "Enjene ya ho bapisa PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Sesebelisoa sa boleng ba data se thehiloeng ho sebatli se netefatsang le ho fometa JSON le YAML se sebelisa enjine ea Go e hlophisitsoeng ho WebAssembly. Meaho e lula e atamela haufi le mosebelisi bakeng sa maikutlo a potlakileng, a lekunutu ha a ntse a tiisa melao ea 'nete ea syntax moeling oa data. Ke mohlala o kopanetsoeng oa ho rala mokhoa oa ho sebetsa oa nts'etsopele o tšepahalang mabapi le ho nepahala, ts'ebetso le ts'epo.",
+    "description": "Auto-Linter ke sesebelisoa sa boleng ba data se thehiloeng ho sebatli se netefatsang le ho fomata JSON, YAML, XML, HTML, TOML, CSV le TSV ka enjine ea Zig e hlophisitsoeng ho WebAssembly. Parsing e lula e le haufi le mosebelisi bakeng sa maikutlo a potlakileng, a lekunutu ha a ntse a tiisa melao ea 'nete ea syntax moeling oa data. E boloka sengoloa sa sengoli, e hana tlhahiso e fosahetseng, 'me e bonts'a hore na mojule o le mong o monyane oa WebAssembly o ka matlafatsa ts'ebetso ea mohlahlami e tšepahalang joang.",
     "more_info1": "Ho fumana lintlha tse ling, sheba ho README ho",
     "more_info2": "Polokelo ya Auto-Linter.",
     "format_as": "Fomata Joalo ka:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Leleme la Nkwe",
-    "description": "Nkwe ke puo e itlhommeng pele 'me mofetoleli oa Go o etselitsoe ho hlahloba meralo ea nako ea ho sebetsa, semantics ea puo le likhohlano tsa ts'ebetso. Ho bokella mofetoleli ho WebAssembly ho fetola litsamaiso hore e be sehlahisoa se sebelisanang, se thehiloeng ho sebatli: basebelisi ba ka etsa mananeo ka kotloloho ha nako ea ho sebetsa e ntse e le bonolo. le ho qheleloa ka thoko ho sesebelisoa sa moamoheli.",
+    "description": "Nkwe ke puo ea lenaneo la maemo a tlhahiso le mofetoleli oa Rust o etselitsoeng ts'ebetso. Enjene ea eona ea bytecode e hlophisitsoeng le mofetoleli oa litšupiso tse tsamaeang ka lifate li lula li koalehile ka har'a lenaneo la benchmark corpus ea 44, 'me protocol e kopantsoeng ea ts'ebetso e boloka nako ea ho sebetsa e le pele kapa pele ho CPython karolong e' ngoe le e 'ngoe e boletsoeng, ka ts'ebetso e qothisanang lehlokoa le Python le Ruby bakeng sa ho ngola letsatsi le letsatsi. Mofetoleli oa pele oa Go o ntse a le teng e le ts'ebetsong ea lefa. Ho bokella mofetoleli ho WebAssembly ho fetola litsamaiso hore e be sehlahisoa se sebelisanang, se thehiloeng ho sebatli: basebelisi ba ka etsa mananeo ka kotloloho ha nako ea ho sebetsa e ntse e le bonolo ebile e arohane le sesebelisoa sa moamoheli.",
     "more_info1": "Ho fumana lintlha tse ling, sheba ho README ho",
     "more_info2": "Tiger Programming Puo ea GitHub Repository.",
     "select_engine": "Khetha Enjine:",

@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Ngwa nkwado JSON na YAML dabere na ihe nchọgharị wuru na Go wee chịkọta ya na WebAssembly. Ịbugharị injin ntugharị n'ime WASM na-eme ka mmekọrịta ahụ na-anabata na mpaghara na ihe nchọgharị ahụ ka ị na-etinye ezigbo nzacha iji nweta ntinye na-ezighi ezi. Ọ bụ ihe atụ lekwasịrị anya nke ịhọrọ nhazi oge ịgba ọsọ maka ịrụ ọrụ, ibugharị, na ntụkwasị obi onye ọrụ.",
+        "text": "Auto-Linter bụ linter na usoro ihe nchọgharị dabere na JSON, YAML, XML, HTML, TOML, CSV na TSV. Injin Zig na-achịkọta na WebAssembly ma na-arụ ọrụ kpamkpam na ihe nchọgharị ahụ: ọ na-eji ezigbo parsers na-akwado, degharịa akwụkwọ na-edoghị ọdịnaya ha, ma na-echekwa nkọwa, arịlịka, CDATA, nhota na ọnụọgụgụ. Ihe oru ngo a gbasara mmejuputa iwu ato - Go, Rust na Zig - na-edobere ụdị nke mbụ maka ntụnyere.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Ọbá akwụkwọ script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Ọbá akwụkwọ scripts akpaaka ejirikọtara ọnụ, nwere otu ibe n'asụsụ ọ bụla: VBA maka akwụkwọ mgbasa ozi Excel, Lua maka ngwa ngwa dị fechaa, PowerShell maka nchịkwa Windows, Python maka ọrụ data ụbọchị niile, yana Ruby maka nnwale edemede. Edere edemede ọ bụla ka a ga-ejigharị ya, yabụ na-edobe mkpokọta ahụ ka otu ọrụ kama ịbụ ebe nchekwa ise gbasasịrị.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Atụmatụ mkpọchi Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Usoro ntụnyere nke mmejuputa iwu {implementations} Rijndael gafere 128-, 192-, na 256-bit variants. Ịmeghachi algọridim nwere mmetụta nchekwa n'ofe asụsụ bụ mmega ahụ a na-adọ aka ná ntị na nkọwapụta, omume a na-anwale, na oke nke ibugharị ọkwa asụsụ, mmuo niile bara uru maka sistemụ na-ejikwa data dị nro.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Ihe na-azọpụta Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "3D Rubik's Cube na-emekọrịta ihe ị na-ese ihe mmado site na ihe mmado - na cube n'onwe ya ma ọ bụ na ụgbụ ya ekpughere - wee dozie ya site na nchọ ụzọ abụọ nke Herbert Kociemba agbakọtara site na Rust ruo WebAssembly. Ihe interface Svelte na-enye cube ahụ na three.js, na-edobe steeti esere ese, ndenye ikike ya, yana eriri facelet nke onye na-edozi ya na mmekọrịta, ma na-eme ihe ngwọta azụ site na ịgagharị na usoro iheomume ị nwere ike ihicha, gafere, wee kpọọgharịa.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Egwuregwu voxel ụdị nke Minecraft wuru na Rust na wgpu wee chịkọta ya na WebAssembly, yabụ ọ na-egwu ozugbo na ihe nchọgharị ahụ. Ọ bụ igbe ájá nke arcade: ebe mgbochi na ụwa voxel nke ewepụtara site na pipeline eserese ọgbara ọhụrụ, nke edere site na ọkọ n'elu rust toolchain kama ịbụ n'elu igwe egwuregwu.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Asụsụ Mmemme Agụ",
-        "text": "Asụsụ mmemme na ntụgharị asụsụ arụrụ n'ime Go ka inyocha nhazi oge ojiri asụsụ, omume mmebe, yana azụmaahịa arụmọrụ. Ịchịkọta ya na WebAssembly na itinye ya na Pọtụfoliyo na-emepụta ezigbo ngwaahịa ngwaahịa maka nhazi ọkwa usoro kama ịhapụ ọrụ ahụ dị ka nnwale naanị ebe nchekwa.",
+        "text": "Asụsụ mmemme na onye ntụgharị okwu arụrụ n'ime Rust iji nyochaa nhazi oge a na-agba ọsọ asụsụ, omume ogbugbu, yana ahịa ahịa arụmọrụ. Ntụgharị Go mbụ ka dị ka mmejuputa ihe nketa. Ịchịkọta ya na WebAssembly na ijikọta ya na Pọtụfoliyo na-emepụta ezigbo ngwaahịa a na-apụghị ịhụ anya maka nhazi ọkwa usoro kama ịhapụ ọrụ ahụ dị ka nyocha-nanị nnwale.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Injini chess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Igwe chess nke edere na Rust wee chịkọta ya na WebAssembly. Ọ na-achọgharị na negamax na-emewanyewanye nke ọma, alfa-beta kwachaa, tebụl ntụgharị 32 MB na nyocha quiescence na akwụkwọ; ọ na-enyocha ya na tebụl mpempe-square nke nwere mpempe akwụkwọ wee nye iwu mmegharị site na MVV-LVA, egbu egbu na akụkọ ihe mere eme. Injin ahụ na-arụ ọrụ n'ime onye ọrụ Weebụ ka bọọdụ ahụ ghara ifriizi, a na-enyocha onye na-ebugharị ya na ihe nchọgharị ahụ megide ọnụ ọgụgụ perft ebipụtara - 20, 400, 8,902, 197,281 na 4,865,609 ọnụ maka omimi ise mbụ."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Nkwụghachi 4160 bụ ọrụ mweghachi: ihe malitere dị ka egwuregwu CPSC 4160 emechara ọkara na kọleji - jide akwụkwọ mpịakọta ikpeazụ wee rute ndenye ego tupu nje ahụ daa gị - emeghachila ya site na ọkọ dị ka injin C ++ 20 ọgbara ọhụrụ na SDL2 wee chịkọta ya na WebAssembly. Ọ na-ebufe ụzọ iri na-arị elu nke na-eji patrolling na ịchụ nje AI, pickups, particles na njikwa aka, ọ nweghị ụzọ mkpirisi nke ụdị mbụ."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Igwe na-ekpebi akwụkwọ, nke enwere ike ịmegharị oke-usoro dabara adaba. Injin n'onwe ya dị ọcha Ruby na-enweghị Rails n'ime ya, nke Rails 8 na-eje ozi karịa otu faịlụ SQLite. A na-etinye iwu ọ bụla n'akwụkwọ ndekọ tupu injin ahụ ahụ ya, yabụ ọnọdụ ọ bụla gara aga nke akwụkwọ ahụ dị n'otu ebe, a na-egosipụtakwa nkwugharị ya nke kwesịrị ntụkwasị obi site n'iji akara mkpịsị aka e dekọrọ mgbe ahịa ahụ dị ndụ. Ihe kacha mkpa oge ọnụahịa, GTC/IOC/FOK, na-emezi nke na-edobe ma ọ bụ tụfuo ọnọdụ kwụ n'ahịrị, yana mgbochi ịzụ ahịa onwe onye na-ekwenye ekwenye site na iri na anọ invariants mgbe iwu ọ bụla dị na seeded fuzz suite. Ihe nchọgharị ahụ na-enweta ọkwa iri-hertz n'elu Action Cable, ebe iwu na-arị elu karịa HTTP.",
         "title": "Injini na-eme ka PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Ngwá ọrụ ogo data dabere na ihe nchọgharị na-akwado ma na-ahazi JSON na YAML site na iji injin Go agbakọtara na WebAssembly. Ihe owuwu ahụ na-aga n'ihu na-atụgharị n'akụkụ onye ọrụ maka nzaghachi ngwa ngwa, nke onwe ma na-emenye ezigbo iwu syntax na oke data. Ọ bụ ihe atụ kọmpat nke imepụta usoro nrụpụta onye nrụpụta a pụrụ ịdabere na ya gburugburu izizi, arụmọrụ na ntụkwasị obi.",
+    "description": "Auto-Linter bụ ngwa data dabere na ihe nchọgharị na-akwado ma hazie JSON, YAML, XML, HTML, TOML, CSV na TSV nwere injin Zig agbakọtara na WebAssembly. Ntugharị na-anọ nso onye ọrụ maka nzaghachi ngwa ngwa, nke onwe ma na-emenye ezigbo iwu syntax na oke data. Ọ na-echekwa ederede onye odee, na-ajụ ntinye adịghị mma, ma gosi otu obere WebAssembly modul nwere ike isi mee ka usoro ọrụ mmepụta ihe dabere.",
     "more_info1": "Maka ozi ndị ọzọ, rụtụ aka na README na",
     "more_info2": "Ebe nchekwa Auto-Linter.",
     "format_as": "Ụdị dị ka:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Asụsụ Agụ",
-    "description": "Agụ bụ asụsụ mmemme ahaziri ahazi yana onye ntụgharị Go arụpụtara iji nyochaa nhazi oge ịgba ọsọ, ihe ọmụmụ asụsụ, yana azụmaahịa arụmọrụ. Ịchịkọta onye ntụgharị okwu na WebAssembly na-atụgharị na sistemụ na-arụ ọrụ ka ọ bụrụ ngwaahịa na-emekọrịta ihe, nke dabere na ihe nchọgharị: ndị ọrụ nwere ike ịme mmemme ozugbo ka oge na-agba ọsọ ka na-ebugharị. na iche na ngwa nnabata.",
+    "description": "Agụ bụ asụsụ mmemme omenala na-emepụta ihe yana onye ntụgharị okwu nchara wuru maka ịrụ ọrụ. Igwe bytecode chịkọtara na onye ntụgharị okwu na-eje ije na osisi na-anọ na mkpọchi n'ofe 44-program benchmark corpus, yana usoro ejikọtara ọnụ na-edobe oge ojiri gaa na ma ọ bụ n'ihu CPython na ngalaba ọ bụla ekwuputara, yana arụmọrụ nke na-asọ mpi Python na Ruby maka ịde ederede kwa ụbọchị. Ntụgharị Go mbụ ka dị ka mmejuputa ihe nketa. Ịchịkọta onye ntụgharị na WebAssembly na-atụgharị na sistemụ na-arụ ọrụ ka ọ bụrụ ngwaahịa na-emekọrịta ihe, ihe nchọgharị dabere na ihe nchọgharị: ndị ọrụ nwere ike ịme mmemme ozugbo ebe oge ọ na-agba ọsọ ka na-ebugharị ma kewapụrụ na ngwa nnabata.",
     "more_info1": "Maka ozi ndị ọzọ, rụtụ aka na README na",
     "more_info2": "Tiger Programming Language GitHub Repository.",
     "select_engine": "Họrọ Inji:",

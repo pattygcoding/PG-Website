@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "JSON kple YAML ƒe kpeɖodzinana kple ɖoɖowɔwɔ dɔwɔnu si wotu ɖe browser dzi si wotu ɖe Go me eye woƒoe nu ƒu ɖe WebAssembly me. Ne èʋu parsing engine la yi WASM me la, enaa kadodoa nɔa ŋu ɖom eye wònɔa teƒe ɖeka na browser la esime nèle parser ŋutɔŋutɔ zãm be yealé nya siwo mesɔ o. Enye kpɔɖeŋu si ŋu wotsi dzi ɖo le tiatiawɔɣi ƒe xɔtuɖaŋu na dɔwɔwɔ, tsɔtsɔ yi teƒe bubu, kple zãla ƒe kakaɖedzi.",
+        "text": "Auto-Linter nye linter kple formatter si wotu ɖe web-browser dzi na JSON, YAML, XML, HTML, TOML, CSV kple TSV. Zig mɔ̃a ƒoa ƒu ɖe WebAssembly me eye wòwɔa dɔ bliboe le browser la me: eɖoa kpe edzi kple parser ŋutɔŋutɔwo, egbugbɔa nuŋlɔɖiwo dea eme evɔ megaŋlɔa wo me nyawo o, eye wòdzraa nyaŋuɖoɖowo, sekewo, CDATA, nyayɔyɔ kple xexlẽdzesiwo ƒe nyateƒetoto ɖo. Dɔa xɔ dɔwɔwɔ etɔ̃ — Go, Rust kple Zig — kple esiwo do ŋgɔ siwo wodzra ɖo ɖi hena wo tsɔtsɔ sɔ kple wo nɔewo.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Script nuƒᴐƒe",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Agbalẽdzraɖoƒe si woƒo ƒu si me automation scripts le, si me axa ɖeka le gbegbɔgblɔ ɖesiaɖe me: VBA na Excel spreadsheets, Lua na dɔwɔnu siwo le bɔbɔe, PowerShell na Windows dzikpɔkpɔ, Python na gbesiagbe nyatakakawo ƒe dɔwɔwɔ, kple Ruby na scripting dodokpɔwo. Woŋlɔa ŋɔŋlɔdzesi ɖesiaɖe be woagazã ake, eyata woléa nuƒoƒoƒua ɖe te abe dɔ ɖeka ene tsɔ wu be woanɔ nudzraɖoƒe atɔ̃ siwo kaka ɖe teƒeteƒewo.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael ƒe ɖeɖeɖi dɔ",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "{implementations} Rijndael ƒe dɔwɔwɔwo ƒe ƒuƒoƒo si wotsɔ sɔ kple wo nɔewo le 128-, 192-, kple 256-bit ƒe vovototowo me. Dedienɔnɔ ƒe mɔnu aɖe gbugbɔgazã le gbegbɔgblɔwo katã me nye dɔwɔwɔ si ŋu woɖɔ ɖo le nɔnɔme siwo sɔ pɛpɛpɛ, nuwɔna si woate ŋu ado kpɔ, kple seɖoƒe siwo le gbegbɔgblɔ ƒe ɖoɖo nu tsɔtsɔ yi teƒe bubuwo ŋu, siwo katã nye dzɔdzɔmeŋutete siwo ŋu viɖe le na ɖoɖo siwo kpɔa nyatakaka veviwo gbɔ.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube tɔnuƒᴐ",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "3D Rubik ƒe Kubi si me wowɔa nu aduadu le si nètaa nutrenu ɖe ​​nutrenu dzi - le kubi la ŋutɔ dzi alo le eƒe ɖɔ si womebla o dzi - eye emegbe nèkpɔa egbɔ kple Herbert Kociemba ƒe atsyã ƒe didi si me wowɔa nu eve le si woƒo ƒu tso Rust yi WebAssembly. Svelte ƒe ŋgɔdonya la wɔa kubi la kple three.js, enaa nɔnɔme si wota, eƒe nyateƒenyenye ƒe dodokpɔwo, kple solver ƒe facelet ka la nɔa ɖekawɔwɔ me, eye wòƒoa egbɔkpɔnua ƒe megbe ʋuʋu to ʋuʋu me le ɣeyiɣi ƒe ɖoɖo si nàte ŋu atutu, afɔ to eme, eye nàgbugbɔ aƒoe.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Voxel fefe si le abe Minecraft ene si wotu le Rust me kple wgpu eye woƒoe nu ƒu ɖe WebAssembly me, eyata eƒoa tẽ le web-kpɔkplɔa me. Enye fefewɔƒea ƒe sandbox tutu: anyigba si dzi kpe gbadzɛwo le kple voxel xexe si wota to egbegbe nɔnɔmetatawo ƒe pɔmpi dzi, si woŋlɔ tso gɔmedzedzea me le Rust dɔwɔnuwo ƒe kɔsɔkɔsɔa dzi tsɔ wu be woaŋlɔe ɖe fefemɔ̃ aɖe tame.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger ƒe Ðoɖowɔɖi Gbegbɔgblɔ",
-        "text": "Dɔwɔɖoɖo ƒe gbegbɔgblɔ kple gbegɔmeɖela tɔxɛ si wotu ɖe Go me be nàdzro gbegbɔgblɔ ƒe dɔwɔwɔ ƒe ɣeyiɣi ƒe ɖoɖowɔwɔ, dɔwɔwɔ ƒe nuwɔna, kple dɔwɔwɔ ƒe asitsatsa me. Eƒoƒo ƒu ɖe WebAssembly me kple etsɔtsɔ de portfolio la me wɔa adzɔnuwo ƒe anyigba ŋutɔŋutɔ, si woate ŋu alé ŋku ɖe eŋu na systems-level engineering tsɔ wu be woagblẽ dɔa ɖi abe a nudzraɖoƒe ɖeɖeko dodokpɔ.",
+        "text": "Dɔwɔɖoɖo ƒe gbegbɔgblɔ kple gbegɔmeɖela si wowɔ ɖe ɖoɖo nu si wotu ɖe Rust me be wòaku gbegbɔgblɔ ƒe dɔwɔwɔ ƒe ɣeyiɣi ƒe ɖoɖowɔwɔ, dɔwɔwɔ ƒe nuwɔna, kple dɔwɔwɔ ƒe asitsatsa me. Go gɔmeɖela gbãtɔ gakpɔtɔ li abe domenyinu ƒe dɔwɔwɔ ene. Eƒo ƒu ɖe WebAssembly me eye wotsɔe de portfolio la me naa adzɔnuwo ƒe anyigba ŋutɔŋutɔ si woate ŋu alé ŋku ɖo na ɖoɖowo ƒe ɖoƒe ƒe mɔ̃ɖaŋu tsɔ wu be woagblẽ dɔa ɖi abe dodokpɔ si woawɔ le nudzraɖoƒe ɖeɖeko ene.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Chess dɔwɔƒe",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Chess-mɔ̃ si woŋlɔ ɖe Rust me eye woƒoe nu ƒu ɖe WebAssembly me. Edia kple iterative deepening negamax, alpha-beta pruning, 32 MB transposition table kple quiescence didi le aŋgbawo gbɔ; edaa asɔ kple tapered piece-square tables eye wòɖea gbe na ʋuʋu to MVV-LVA, amewulawo kple ŋutinya dzi. Mɔ̃a zɔna le Web Worker me ale be board la metsia tsikpe gbeɖe o, eye wokpɔa eƒe move generator la le browser la me tsɔ sɔ kple perft xexlẽme siwo wota - 20, 400, 8,902, 197,281 kple 4,865,609 nodes na goglome atɔ̃ gbãtɔwo."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 nye nuwo gbugbɔgaxɔ ƒe dɔ: nusi dze egɔme abe CPSC 4160 fefe si wowu afã kple afã le kɔledzi - lé nugododeƒegbalẽ mamlɛawo eye nàɖo nugododeƒe hafi dɔlékuiawo naɖe fu na wò - wogbugbɔe tu tso gɔmedzedzea me abe egbegbe C++20 mɔ̃ ene le SDL2 dzi eye woƒoe nu ƒu ɖe WebAssembly. Eɖoa mɔ ewo siwo dzina ɖe edzi kple dɔlékuiwo ƒe AI, pickups, particles kple touch controls siwo le tsatsam hele wo yome tim, siwo menye mɔ kpui siwo le kpɔɖeŋu gbãtɔa me la dometɔ aɖeke o."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Mɔ̃ si woɖo ɖi, si woate ŋu agbugbɔ aƒo, si nye seɖoƒe-ɖoɖo-gbalẽ si sɔ kple wo nɔewo. Mɔ̃a ŋutɔ nye Ruby dzadzɛ si me Rails aɖeke mele o, si Rails 8 subɔna le SQLite faɛl ɖeka dzi. Wotsɔa sedede ɖesiaɖe kpena ɖe nuŋlɔɖi si woŋlɔ do ŋgɔ ŋu hafi mɔ̃a nakpɔe, eyata agbalẽa ƒe nɔnɔme ɖesiaɖe si nɔ anyi va yi la didi zi gbɔ zi ɖeka, eye woɖea nuteƒewɔwɔ fiana ne wogbugbɔ ƒoe to asibidɛ siwo wolé ɖe mɔ̃ dzi esime asitsaƒea nɔ agbe la tsɔtsɔ sɔ kple wo nɔewo me. Ga home-ɣeyiɣi ƒe nu vevitɔ, GTC/IOC/FOK, ɖɔɖɔɖo siwo léa fli ƒe nɔƒe ɖe te alo bua, kple ɖokuisitsatsa ƒe mɔxexe ɖe enu la, wotsɔa invariants wuiene ɖoa kpe edzi le sedede ɖesiaɖe megbe le seeded fuzz suite me. Browser la xɔa atrakpui si ƒe lolome nye hertz ewo le Action Cable dzi, esime sededewo yia dzi to HTTP dzi.",
         "title": "PIT dɔwɔƒe si wɔa nu"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Dɔwɔnu si wotu ɖe nyatakakawo ƒe nyonyome dzi si wotu ɖe web-browser dzi si ɖoa kpe JSON kple YAML dzi hewɔa ɖoɖo ɖe wo ŋu to Go mɔ̃ si woƒo ƒu ɖe WebAssembly me. Xɔtuɖaŋua yia edzi nɔa nu me tom le zãla la gbɔ tututu hena nyaŋuɖoɖo kabakaba, si nye ame ŋutɔ tɔ esime wòle nyagɔmeɖegbalẽ ƒe se ŋutɔŋutɔwo dzi wɔm le nyatakakawo ƒe liƒo dzi. Enye kpɔɖeŋu si le sue si nye ɖoɖowɔwɔ ɖe developer ƒe dɔwɔwɔ ƒe ɖoɖo si dzi woate ŋu aka ɖo ŋu ƒo xlã dzɔdzɔenyenye, dɔwɔwɔ, kple kakaɖedzi.",
+    "description": "Auto-Linter nye dɔwɔnu si wotu ɖe nyatakakawo ƒe nyonyome dzi si wotu ɖe web-browser dzi si ɖoa kpe JSON, YAML, XML, HTML, TOML, CSV kple TSV dzi hewɔa ɖoɖo ɖe eŋu kple Zig mɔ̃ si woƒo ƒu ɖe WebAssembly. Numeɖeɖe nɔa te ɖe zãla ŋu hena nyaŋuɖoɖo kabakaba, si nye ame ŋutɔ tɔ esime wòle nyagɔmeɖegbalẽ ƒe se ŋutɔŋutɔwo dzi wɔm le nyatakakawo ƒe liƒo dzi. Ekpɔa agbalẽŋlɔla ƒe nuŋɔŋlɔwo ta, gbea nyawo tsɔtsɔ de eme si womewɔ nyuie o, eye wòɖea alesi WebAssembly module sue ɖeka ate ŋu ana ŋusẽ developer ƒe dɔwɔwɔ si dzi woate ŋu aka ɖo la fiana.",
     "more_info1": "Ne èdi nyatakaka bubuwo la, kpɔ README si le...",
     "more_info2": "Auto-Linter deƒe do me si le dzata nu me.",
     "format_as": "Format As:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tiger Gbegbɔgblɔ",
-    "description": "Tiger nye ɖoɖowɔɖi ƒe gbegbɔgblɔ si wowɔ ɖe ɖoɖo nu kple Go gbegɔmeɖela si wotu be woatsɔ adzro dɔwɔwɔ ƒe xɔtuɖaŋu, gbegbɔgblɔ ƒe gɔmesese, kple dɔwɔwɔ ƒe asitsatsa me. Gbegɔmeɖela la ƒoƒo ƒu ɖe WebAssembly me trɔa be ɖoɖowo nawɔ dɔ wòzua nusi wɔa dɔ, si wotu ɖe web-browser dzi: ezãlawo ate ŋu awɔ dɔwɔɖoɖowo tẽ esime dɔwɔwɔ ƒe ɣeyiɣia gakpɔtɔ nye esi woate ŋu atsɔ ayi teƒe bubu eye woɖee ɖe aga tso host dɔwɔɖoɖoa gbɔ.",
+    "description": "Tiger nye ɖoɖowɔɖi ƒe gbegbɔgblɔ si wowɔ ɖe ɖoɖo nu si woate ŋu awɔ kple Rust gbegɔmeɖela si wotu na dɔwɔwɔ. Eƒe bytecode mɔ̃ si woƒo ƒu kple ati-zɔzɔ ƒe nufiame gɔmeɖela nɔa lockstep me le 44-program benchmark corpus me, eye paired in-process protocol naa dɔwɔwɔ ƒe ɣeyiɣia nɔa CPython alo do ŋgɔ na CPython le akpa ɖesiaɖe si woɖo kpe edzi me, kple dɔwɔwɔ si ʋlia ho kple Python kple Ruby tẽ hena gbesiagbe nuŋɔŋlɔ. Go gɔmeɖela gbãtɔ gakpɔtɔ li abe domenyinu ƒe dɔwɔwɔ ene. Gbegɔmeɖela la ƒoƒo ƒu ɖe WebAssembly me trɔa be ɖoɖowo nawɔ dɔ wòzua nusi wɔa dɔ, si wotu ɖe web-browser dzi: ezãlawo ate ŋu awɔ dɔwɔɖoɖowo tẽ esime dɔwɔwɔ ƒe ɣeyiɣia gakpɔtɔ nye esi woate ŋu atsɔ ayi teƒe bubu eye wòɖe eɖokui ɖe aga tso host dɔwɔɖoɖoa gbɔ.",
     "more_info1": "Ne èdi nyatakaka bubuwo la, kpɔ README si le...",
     "more_info2": "Tiger Dɔwɔɖoɖo Gbegbɔgblɔ GitHub Nudzraɖoƒe.",
     "select_engine": "Tia Mɔ̃a:",

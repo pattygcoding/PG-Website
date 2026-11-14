@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "බ්‍රවුසරය පදනම් කරගත් JSON සහ YAML වලංගුකරණ සහ හැඩතල ගැන්වීමේ මෙවලමක් Go හි ගොඩනගා WebAssembly වෙත සම්පාදනය කර ඇත. විග්‍රහ කිරීමේ එන්ජිම WASM වෙත ගෙන යාමෙන් අන්තර්ක්‍රියාව ප්‍රතිචාරාත්මකව සහ බ්‍රවුසරයට දේශීයව තබා ගන්නා අතරේ වලංගු නොවන ආදානයක් අල්ලා ගැනීමට සැබෑ විග්‍රහයක් යොදයි. එය කාර්ය සාධනය, අතේ ගෙන යා හැකි බව සහ පරිශීලක විශ්වාසය සඳහා ධාවන කාල ගෘහ නිර්මාණ ශිල්පය තෝරා ගැනීමේ කේන්ද්‍රගත උදාහරණයකි.",
+        "text": "Auto-Linter යනු JSON, YAML, XML, HTML, TOML, CSV සහ TSV සඳහා බ්‍රවුසර පාදක ලින්ටරයක් ​​සහ හැඩතල ගැන්වීමකි. Zig එන්ජිම WebAssembly වෙත සම්පාදනය කර සම්පූර්ණයෙන්ම බ්‍රවුසරය තුළ ක්‍රියාත්මක වේ: එය සැබෑ විග්‍රහ කරන්නන් සමඟ වලංගු කරයි, ඒවායේ අන්තර්ගතය නැවත ලිවීමකින් තොරව ලේඛන නැවත ඉන්ඩෙන්ට් කරයි, සහ අදහස්, නැංගුරම්, CDATA, උපුටා දැක්වීම් සහ සංඛ්‍යාත්මක නිරවද්‍යතාවය ආරක්ෂා කරයි. ව්‍යාපෘතිය ක්‍රියාත්මක කිරීම් තුනක් - Go, Rust සහ Zig - සංසන්දනය කිරීම සඳහා සංරක්ෂණය කරන ලද පෙර අනුවාද සමඟ.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "ස්ක්‍රිප්ට් පුස්තකාලය",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "එක් භාෂාවකට එක් පිටුවක් සහිත ස්වයංක්‍රීය ස්ක්‍රිප්ට් වල ඒකාබද්ධ පුස්තකාලයක්: Excel පැතුරුම්පත් සඳහා VBA, සැහැල්ලු මෙවලම් සඳහා Lua, Windows පරිපාලනය සඳහා PowerShell, එදිනෙදා දත්ත වැඩ සඳහා Python සහ ස්ක්‍රිප්ටින් පරීක්ෂණ සඳහා Ruby. සෑම ස්ක්‍රිප්ට් එකක්ම නැවත භාවිතා කිරීමට ලියා ඇත, එබැවින් එකතුව විසිරුණු ගබඩා පහක් වෙනුවට එක් ව්‍යාපෘතියක් ලෙස පවත්වාගෙන යයි.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael ගුප්තකරණ ව්‍යාපෘතිය",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128-, 192-, සහ 256-bit ප්‍රභේද හරහා {implementations} Rijndael ක්‍රියාත්මක කිරීමේ සංසන්දනාත්මක කට්ටලයක්. භාෂා හරහා ආරක්ෂක-සංවේදී ඇල්ගොරිතමයක් නැවත ක්‍රියාත්මක කිරීම යනු සංවේදී දත්ත හසුරුවන පද්ධති සඳහා ප්‍රයෝජනවත් සහජ බුද්ධියක් වන නියම පිරිවිතර, පරීක්ෂා කළ හැකි හැසිරීම් සහ භාෂා මට්ටමේ අතේ ගෙන යා හැකි සීමාවන් පිළිබඳ විනයානුකූල අභ්‍යාසයකි.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "රූබික් ධූරකය විසඳනය",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "අන්තර්ක්‍රියාකාරී 3D Rubik's Cube ඔබ ස්ටිකරය මගින් ස්ටිකරය පින්තාරු කරයි - ඝනකයේම හෝ එහි දිගහැරුණු දැලෙහි - ඉන්පසු Rust සිට WebAssembly දක්වා සම්පාදනය කරන ලද Herbert Kociemba මාදිලියේ ද්වි-අදියර සෙවීමකින් විසඳන්න. Svelte අතුරුමුහුණත කැටය three.js සමඟින් විදැහුම් කරයි, පින්තාරු කරන ලද තත්ත්වය, එහි වලංගු භාවය පිරික්සුම්, සහ විසදුම්කරුගේ මුහුණත තන්තුව සමමුහුර්තව තබා ගනී, සහ ඔබට ස්ක්‍රබ් කිරීමට, පියවරෙන් පියවර සහ නැවත වාදනය කළ හැකි කාලරාමුවක් මත චලනය කිරීමෙන් විසඳුම ආපසු ගෙනයාම වාදනය කරයි.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft-style voxel ක්‍රීඩාවක් Wgpu සමඟ රස්ට් තුළ ගොඩනගා WebAssembly වෙත සම්පාදනය කර ඇත, එබැවින් එය බ්‍රවුසරයේ කෙළින්ම ක්‍රීඩා කරයි. එය ආකේඩ් හි සෑන්ඩ්බොක්ස් ගොඩනැගීමයි: අවහිර වූ භූමි ප්‍රදේශයක් සහ නවීන ග්‍රැෆික් නල මාර්ගයක් හරහා ඇද ගන්නා ලද වොක්සෙල් ලෝකයක්, ක්‍රීඩා එන්ජිමක් මත නොව රස්ට් මෙවලම් දාමයේ මුල සිට ලියා ඇත.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "කොටි ක්‍රමලේඛන භාෂාව",
-        "text": "භාෂා ධාවන කාල සැලසුම්, ක්‍රියාත්මක කිරීමේ හැසිරීම, සහ කාර්ය සාධන හුවමාරු කිරීම් ගවේෂණය කිරීමට Go තුළ ගොඩනගා ඇති අභිරුචි ක්‍රමලේඛන භාෂාවක් සහ පරිවර්තකයක්. එය WebAssembly වෙත සම්පාදනය කිරීම සහ එය කළඹට අනුකලනය කිරීම මඟින් කාර්යයක් ලෙස අත්හැරීමට වඩා පද්ධති මට්ටමේ ඉංජිනේරු විද්‍යාව සඳහා සැබෑ, පරීක්ෂා කළ හැකි නිෂ්පාදන මතුපිටක් නිර්මාණය කරයි. ගබඩාව-පමණක් අත්හදා බැලීම.",
+        "text": "භාෂා ධාවන කාල සැලසුම්, ක්‍රියාත්මක කිරීමේ හැසිරීම සහ කාර්ය සාධන වෙළඳාම් ගවේෂණය කිරීම සඳහා රස්ට් තුළ ගොඩනගා ඇති අභිරුචි ක්‍රමලේඛන භාෂාවක් සහ පරිවර්තකයක්. මුල් Go පරිවර්තකය උරුම ක්‍රියාත්මක කිරීමක් ලෙස පවතී. එය WebAssembly වෙත සම්පාදනය කර එය කළඹට අනුකලනය කිරීමෙන් වැඩ නිධිය-පමණක් අත්හදාබැලීමක් ලෙස අත්හැරීමට වඩා පද්ධති මට්ටමේ ඉංජිනේරු විද්‍යාව සඳහා සැබෑ, පරීක්ෂා කළ හැකි නිෂ්පාදන මතුපිටක් නිර්මාණය කරයි.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "චෙස් එන්ජිම",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "රස්ට් වලින් ලියා WebAssembly වෙත සම්පාදනය කරන ලද චෙස් එන්ජිමක්. එය පුනරාවර්තන ගැඹුරු කිරීමේ negamax, alpha-beta කප්පාදුව, 32 MB සංක්‍රාන්ති වගුවක් සහ පත්‍රවල නිස්කලංක සෙවීමක් සමඟින් සොයයි; එය ටේපර්ඩ් කෑලි-චතුරස්‍ර වගු සමඟින් ඇගයීමට ලක් කරන අතර MVV-LVA, ඝාතකයන් සහ ඉතිහාසය මගින් චලනයන් ඇණවුම් කරයි. එන්ජිම Web Worker එකක ක්‍රියාත්මක වන නිසා පුවරුව කිසිවිටක කැටි නොවන අතර එහි චලන උත්පාදක යන්ත්‍රය බ්‍රවුසරයේ ප්‍රකාශිත perft ගණන් වලට එරෙහිව පරීක්ෂා කරනු ලැබේ - පළමු ගැඹුර පහ සඳහා 20, 400, 8,902, 197,281 සහ 4,865,609 නෝඩ්."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 යනු ගොඩකිරීමේ ව්‍යාපෘතියකි: එය විද්‍යාලයේ අඩක් නිම කළ CPSC 4160 ක්‍රීඩාවක් ලෙස ආරම්භ විය - අවසාන වැසිකිලි කඩදාසි රෝල් ගෙන විෂබීජ ඔබව වෙහෙසට පත් කිරීමට පෙර පිටවීම වෙත ළඟා වන්න - SDL2 හි නවීන C++20 එන්ජිමක් ලෙස මුල සිටම නැවත ගොඩනඟා WebAssembly වෙත සම්පාදනය කර ඇත. එය මුල් මූලාකෘතියේ කෙටිමං කිසිවක් නොවන, විෂබීජ AI, පිකප්, අංශු සහ ස්පර්ශ පාලනය සමඟ මුර සංචාරය සහ හඹා යන අන්තරාල දහයක් නැව්ගත කරයි."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "අධිෂ්ඨානශීලී, නැවත ධාවනය කළ හැකි සීමා-ඇණවුම්-පොත් ගැලපුම් එන්ජිමක්. එන්ජිම තනි SQLite ගොනුවක් හරහා Rails 8 විසින් සපයනු ලබන රේල් පීලි නොමැති පිරිසිදු Ruby වේ. සෑම විධානයක්ම එන්ජිම දැකීමට පෙර ලිවීමට-ඉදිරියට ලොගයට එකතු කරනු ලැබේ, එබැවින් පොතේ ඕනෑම අතීත තත්වයක් එක ගුණයකින් දුරින් ඇති අතර, වෙළඳපල සජීවීව පවතින විට සටහන් වූ ඇඟිලි සලකුණු සංසන්දනය කිරීමෙන් නැවත ධාවනය විශ්වාසවන්ත බව ඔප්පු වේ. මිල-කාල ප්‍රමුඛතාවය, GTC/IOC/FOK, පෝලිම් ස්ථානය තබා ගන්නා හෝ නැති කරන සංශෝධන සහ ස්වයං-වෙළඳාම වැළැක්වීම සීඩ් ෆස් කට්ටලයක සෑම විධානයකටම පසුව වෙනස්වන දහහතරක් විසින් ප්‍රකාශ කරනු ලැබේ. බ්‍රවුසරයට Action Cable හරහා හර්ට්ස් 10 ඉණිමඟක් ලැබෙන අතර HTTP හරහා විධාන ඉහළ යයි.",
         "title": "PIT ගැළපීමේ එන්ජිම"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssembly වෙත සම්පාදනය කරන ලද Go එන්ජිමක් භාවිතයෙන් JSON සහ YAML වලංගු කරන සහ හැඩතල ගන්වන බ්‍රවුසර පදනම් වූ දත්ත තත්ත්ව මෙවලමක්. දත්ත මායිමේ සැබෑ වාක්‍ය ඛණ්ඩ රීති බලාත්මක කරන අතරේ ගෘහ නිර්මාණ ශිල්පය වේගවත්, පුද්ගලික ප්‍රතිපෝෂණ සඳහා පරිශීලකයාට සමීපව විග්‍රහ කරයි. එය නිවැරදි බව, කාර්ය සාධනය සහ විශ්වාසය වටා විශ්වාසනීය සංවර්ධක කාර්ය ප්‍රවාහයක් සැලසුම් කිරීමේ සංයුක්ත උදාහරණයකි.",
+    "description": "Auto-Linter යනු WebAssembly වෙත සම්පාදනය කරන ලද Zig එන්ජිමක් සහිත JSON, YAML, XML, HTML, TOML, CSV සහ TSV වලංගු කරන සහ හැඩතල ගන්වන බ්‍රවුසර-පාදක දත්ත-ගුණාත්මක මෙවලමකි. දත්ත මායිමේ සැබෑ වාක්‍ය ඛණ්ඩ රීති බලාත්මක කරන අතරතුර විග්‍රහ කිරීම වේගවත්, පුද්ගලික ප්‍රතිපෝෂණ සඳහා පරිශීලකයාට සමීපව පවතී. එය කර්තෘගේ පෙළ සංරක්ෂණය කරයි, විකෘති ආදානය ප්‍රතික්ෂේප කරයි, සහ එක් කුඩා WebAssembly මොඩියුලයක් විශ්වාස කළ හැකි සංවර්ධක කාර්ය ප්‍රවාහයක් බලගන්වන්නේ කෙසේදැයි පෙන්වයි.",
     "more_info1": "වැඩි විස්තර සඳහා, README වෙත යොමු වන්න",
     "more_info2": "Auto-Linter ගබඩාව.",
     "format_as": "ආකෘතිය ලෙස:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "කොටි භාෂාව",
-    "description": "Tiger යනු අභිරුචි ක්‍රමලේඛන භාෂාවක් වන අතර ධාවන කාල ගෘහ නිර්මාණ ශිල්පය, භාෂා අර්ථ ශාස්ත්‍රය සහ කාර්ය සාධන වෙළඳාම ගවේෂණය කිරීම සඳහා ගොඩනගා ඇති Go පරිවර්තකය. පරිවර්තකය WebAssembly වෙත සම්පාදනය කිරීමෙන් පද්ධති අන්තර්ක්‍රියාකාරී, බ්‍රවුසර පාදක නිෂ්පාදනයක් බවට පත් කරයි: ධාවන කාලය අතේ ගෙන යා හැකිව තිබියදී පරිශීලකයින්ට වැඩසටහන් සෘජුවම ක්‍රියාත්මක කළ හැක. සහ සත්කාරක යෙදුමෙන් හුදකලා වේ.",
+    "description": "Tiger යනු නිෂ්පාදන ශ්‍රේණියේ අභිරුචි ක්‍රමලේඛන භාෂාවක් වන අතර කාර්ය සාධනය සඳහා ගොඩනගා ඇති රස්ට් පරිවර්තකයකි. එහි සම්පාදනය කරන ලද බයිට්කෝඩ් එන්ජිම සහ ගස්-ඇවිදින පරිවර්තකය 44-වැඩසටහන් බෙන්ච්මාර්ක් කෝපස් හරහා අගුලු දමා ඇති අතර, යුගලනය කරන ලද ක්‍රියාවලියේ ප්‍රොටෝකෝලය සෑම ප්‍රකාශිත කොටසකම ධාවන කාලය CPython හි හෝ ඉදිරියෙන් තබයි, කාර්ය සාධනය සමඟ Python සහ Ruby script සමඟ සෘජුවම තරඟ කරයි. මුල් Go පරිවර්තකය උරුම ක්‍රියාත්මක කිරීමක් ලෙස පවතී. පරිවර්තකය WebAssembly වෙත සම්පාදනය කිරීමෙන් පද්ධති අන්තර්ක්‍රියාකාරී, බ්‍රවුසරය පදනම් වූ නිෂ්පාදනයක් බවට පත් කරයි: ධාවන කාලය අතේ ගෙන යා හැකි සහ ධාරක යෙදුමෙන් හුදකලා වන අතර පරිශීලකයින්ට වැඩසටහන් සෘජුවම ක්‍රියාත්මක කළ හැකිය.",
     "more_info1": "වැඩි විස්තර සඳහා, README වෙත යොමු වන්න",
     "more_info2": "Tiger Programming Language GitHub ගබඩාව.",
     "select_engine": "එන්ජිම තෝරන්න:",

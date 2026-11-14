@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "உலாவி அடிப்படையிலான JSON மற்றும் YAML சரிபார்ப்பு மற்றும் வடிவமைத்தல் கருவி Go இல் கட்டமைக்கப்பட்டு WebAssembly இல் தொகுக்கப்பட்டது. பாகுபடுத்தும் இயந்திரத்தை WASM க்கு நகர்த்துவது, தவறான உள்ளீட்டைப் பிடிக்க உண்மையான பாகுபடுத்தியைப் பயன்படுத்தும் போது, ​​ஊடாடுதலைப் பதிலளிக்கக்கூடியதாகவும், உலாவிக்கு உள்ளூர்தாகவும் வைத்திருக்கும். செயல்திறன், பெயர்வுத்திறன் மற்றும் பயனர் நம்பிக்கைக்கான இயக்க நேரக் கட்டமைப்பைத் தேர்ந்தெடுப்பதற்கு இது ஒரு மையப்படுத்தப்பட்ட எடுத்துக்காட்டு.",
+        "text": "Auto-Linter என்பது JSON, YAML, XML, HTML, TOML, CSV மற்றும் TSVக்கான உலாவி அடிப்படையிலான லிண்டர் மற்றும் வடிவமைப்பாகும். ஜிக் எஞ்சின் WebAssembly க்கு தொகுக்கப்பட்டு முழுவதுமாக உலாவியில் இயங்குகிறது: இது உண்மையான பாகுபடுத்திகள் மூலம் சரிபார்க்கிறது, ஆவணங்களை அவற்றின் உள்ளடக்கங்களை மீண்டும் எழுதாமல் மீண்டும் உள்தள்ளுகிறது, மேலும் கருத்துகள், அறிவிப்பாளர்கள், CDATA, மேற்கோள் மற்றும் எண் துல்லியம் ஆகியவற்றைப் பாதுகாக்கிறது. கோ, ரஸ்ட் மற்றும் ஜிக் ஆகிய மூன்று செயலாக்கங்களை இந்த திட்டம் விரிவுபடுத்துகிறது - முந்தைய பதிப்புகள் ஒப்பிடுவதற்காக காப்பகப்படுத்தப்பட்டுள்ளன.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "ஸ்கிரிப்ட் நூலகம்",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "ஒரு மொழிக்கு ஒரு பக்கத்துடன் தன்னியக்க ஸ்கிரிப்ட்களின் ஒருங்கிணைந்த நூலகம்: எக்செல் விரிதாள்களுக்கான VBA, இலகுரக கருவிகளுக்கான Lua, Windows நிர்வாகத்திற்கான PowerShell, தினசரி தரவு வேலைக்கான பைதான் மற்றும் ஸ்கிரிப்டிங் பரிசோதனைகளுக்கான ரூபி. ஒவ்வொரு ஸ்கிரிப்டும் மீண்டும் பயன்படுத்த எழுதப்பட்டுள்ளது, எனவே சேகரிப்பு ஐந்து சிதறிய களஞ்சியங்களுக்கு பதிலாக ஒரு திட்டமாக பராமரிக்கப்படுகிறது.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael மறையாக்க திட்டம்",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128-, 192- மற்றும் 256-பிட் வகைகளில் {implementations} Rijndael செயலாக்கங்களின் ஒப்பீட்டு தொகுப்பு. மொழிகள் முழுவதும் பாதுகாப்பு-உணர்திறன் அல்காரிதத்தை மீண்டும் செயல்படுத்துவது என்பது துல்லியமான விவரக்குறிப்புகள், சோதிக்கக்கூடிய நடத்தை மற்றும் மொழி-நிலை பெயர்வுத்திறன் வரம்புகள், முக்கியமான தரவைக் கையாளும் அமைப்புகளுக்கான அனைத்து பயனுள்ள உள்ளுணர்வுகளிலும் ஒரு ஒழுங்குபடுத்தப்பட்ட பயிற்சியாகும்.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "ரூபிக் க்யூப் தீர்வு",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "ஒரு ஊடாடும் 3D ரூபிக்ஸ் கியூப் நீங்கள் ஸ்டிக்கர் மூலம் ஸ்டிக்கரை வரைகிறீர்கள் - கனசதுரத்தில் அல்லது அதன் விரிந்த வலையில் - பின்னர் ரஸ்ட் முதல் WebAssembly வரை தொகுக்கப்பட்ட Herbert Kociemba பாணி இரண்டு-கட்ட தேடலைப் பயன்படுத்தி தீர்க்கவும். ஸ்வெல்ட் இடைமுகமானது க்யூபை மூன்று.js மூலம் வழங்குகிறது, வர்ணம் பூசப்பட்ட நிலை, அதன் செல்லுபடியாகும் சோதனைகள் மற்றும் தீர்வின் முகநூல் சரம் ஆகியவற்றை ஒத்திசைவில் வைத்திருக்கிறது, மேலும் நீங்கள் ஸ்க்ரப் செய்து, படியெடுத்து, மீண்டும் இயக்கக்கூடிய காலவரிசையின் மூலம் தீர்வை மீண்டும் இயக்குகிறது.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "ஒரு Minecraft பாணி வோக்சல் கேம் ரஸ்டில் wgpu உடன் கட்டமைக்கப்பட்டு, WebAssembly க்கு தொகுக்கப்பட்டது, எனவே இது உலாவியில் நேராக விளையாடுகிறது. இது ஆர்கேட்டின் சாண்ட்பாக்ஸ் உருவாக்கம்: பிளாக்கி நிலப்பரப்பு மற்றும் நவீன கிராபிக்ஸ் பைப்லைன் மூலம் வரையப்பட்ட ஒரு வோக்சல் உலகம், கேம் இன்ஜினின் மேல் இல்லாமல் ரஸ்ட் டூல்செயினில் புதிதாக எழுதப்பட்டது.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "புலி நிரலாக்க மொழி",
-        "text": "தனிப்பயன் நிரலாக்க மொழி மற்றும் மொழி பெயர்ப்பாளர், மொழி இயக்க நேர வடிவமைப்பு, செயல்படுத்தல் நடத்தை மற்றும் செயல்திறன் பரிமாற்றங்களை ஆராய Go இல் கட்டமைக்கப்பட்டுள்ளது. அதை WebAssembly க்கு தொகுத்து, அதை போர்ட்ஃபோலியோவில் ஒருங்கிணைப்பது, வேலையை விட்டுவிடாமல், கணினி நிலை பொறியியலுக்கு உண்மையான, ஆய்வு செய்யக்கூடிய தயாரிப்பு மேற்பரப்பை உருவாக்குகிறது. களஞ்சியம்-மட்டும் சோதனை.",
+        "text": "தனிப்பயன் நிரலாக்க மொழி மற்றும் மொழியின் இயக்க நேர வடிவமைப்பு, செயல்படுத்தல் நடத்தை மற்றும் செயல்திறன் பரிமாற்றங்கள் ஆகியவற்றை ஆராய ரஸ்டில் கட்டமைக்கப்பட்ட மொழிபெயர்ப்பாளர். அசல் Go மொழிபெயர்ப்பான் மரபுச் செயலாக்கமாகவே உள்ளது. அதை WebAssembly க்கு தொகுத்து, அதை போர்ட்ஃபோலியோவில் ஒருங்கிணைப்பது, ஒரு களஞ்சியமாக-மட்டும் பரிசோதனையாக வேலையை விட்டுவிடாமல், கணினி-நிலை பொறியியலுக்கான உண்மையான, ஆய்வு செய்யக்கூடிய தயாரிப்பு மேற்பரப்பை உருவாக்குகிறது.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "சதுரங்க இயந்திரம்",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "ரஸ்டில் எழுதப்பட்ட ஒரு சதுரங்க இயந்திரம் மற்றும் WebAssembly க்கு தொகுக்கப்பட்டது. இது மீண்டும் மீண்டும் ஆழமாக்கும் நெகாமாக்ஸ், ஆல்பா-பீட்டா ப்ரூனிங், 32 எம்பி இடமாற்ற அட்டவணை மற்றும் இலைகளில் ஒரு அமைதியான தேடல் ஆகியவற்றைக் கொண்டு தேடுகிறது; இது குறுகலான துண்டு-சதுர அட்டவணைகள் மூலம் மதிப்பிடுகிறது மற்றும் MVV-LVA, கொலையாளிகள் மற்றும் வரலாற்றின் நகர்வுகளை ஆர்டர் செய்கிறது. இன்ஜின் வெப் ஒர்க்கரில் இயங்குவதால் போர்டு உறைவதில்லை, மேலும் அதன் நகர்வு ஜெனரேட்டர் முதல் ஐந்து ஆழங்களுக்கு 20, 400, 8,902, 197,281 மற்றும் 4,865,609 நோட்களுக்கு எதிராக உலாவியில் சரிபார்க்கப்படுகிறது."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "ரீக்ளைம் 4160 என்பது ஒரு மறுசீரமைப்புத் திட்டம்: கல்லூரியில் பாதி முடிக்கப்பட்ட CPSC 4160 கேமாகத் தொடங்கியது - கழிப்பறைத் தாளின் கடைசி ரோல்களை எடுத்து, கிருமிகள் தேய்ந்துவிடும் முன் செக் அவுட்டை அடையுங்கள் - புதிதாக SDL2 இல் நவீன C++20 இன்ஜினாக மீண்டும் கட்டப்பட்டு, WebAssembly இல் தொகுக்கப்பட்டது. இது ரோந்து மற்றும் துரத்தல் கிருமி AI, பிக்அப்கள், துகள்கள் மற்றும் தொடு கட்டுப்பாடுகள், அசல் முன்மாதிரியின் குறுக்குவழிகள் எதுவுமில்லாமல் பத்து அதிகரிக்கும் இடைகழிகளை அனுப்புகிறது."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "ஒரு உறுதியான, மீண்டும் இயக்கக்கூடிய வரம்பு-ஆர்டர்-புத்தகம் பொருந்தக்கூடிய இயந்திரம். இந்த எஞ்சின் தூய ரூபி ஆகும், அதில் தண்டவாளங்கள் எதுவும் இல்லை, இது ஒரு SQLite கோப்பில் ரெயில்ஸ் 8 ஆல் வழங்கப்படுகிறது. ஒவ்வொரு கட்டளையும் எஞ்சின் பார்க்கும் முன் எழுதும் பதிவுடன் இணைக்கப்படும், எனவே புத்தகத்தின் எந்த கடந்த நிலையும் ஒரு மடங்கு தொலைவில் உள்ளது, மேலும் சந்தை நேரலையில் பதிவுசெய்யப்பட்ட கைரேகைகளை ஒப்பிடுவதன் மூலம் மறுபதிப்பு உண்மையாக நிரூபிக்கப்படுகிறது. விலை நேர முன்னுரிமை, GTC/IOC/FOK, வரிசை நிலையை வைத்திருக்கும் அல்லது இழக்கும் திருத்தங்கள் மற்றும் சுய-வர்த்தகத் தடுப்பு ஆகியவை விதைக்கப்பட்ட ஃபஸ் தொகுப்பில் உள்ள ஒவ்வொரு கட்டளைக்குப் பிறகும் பதினான்கு மாறுபாடுகளால் வலியுறுத்தப்படுகின்றன. உலாவியானது அதிரடி கேபிளில் பத்து ஹெர்ட்ஸ் ஏணியைப் பெறுகிறது, அதே நேரத்தில் HTTP வழியாக கட்டளைகள் மேலே செல்லும்.",
         "title": "PIT பொருத்த இயந்திரம்"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssembly இல் தொகுக்கப்பட்ட Go இன்ஜினைப் பயன்படுத்தி JSON மற்றும் YAMLஐச் சரிபார்த்து வடிவமைக்கும் உலாவி அடிப்படையிலான தரவுத் தரக் கருவி. தரவு எல்லையில் உண்மையான தொடரியல் விதிகளைச் செயல்படுத்தும் போது, ​​கட்டிடக்கலையானது வேகமான, தனிப்பட்ட கருத்துக்களுக்காக பயனருக்கு நெருக்கமாக பாகுபடுத்துகிறது. துல்லியம், செயல்திறன் மற்றும் நம்பிக்கையைச் சுற்றி நம்பகமான டெவலப்பர் பணிப்பாய்வு வடிவமைப்பதற்கான ஒரு சிறிய உதாரணம் இது.",
+    "description": "Auto-Linter என்பது உலாவி அடிப்படையிலான தரவு-தரக் கருவியாகும், இது JSON, YAML, XML, HTML, TOML, CSV மற்றும் TSV ஆகியவற்றை WebAssembly இல் தொகுக்கப்பட்ட ஜிக் இயந்திரத்துடன் சரிபார்க்கிறது மற்றும் வடிவமைக்கிறது. தரவு எல்லையில் உண்மையான தொடரியல் விதிகளைச் செயல்படுத்தும் போது, ​​பாகுபடுத்துதல் வேகமான, தனிப்பட்ட கருத்துக்காக பயனருக்கு நெருக்கமாக இருக்கும். இது ஆசிரியரின் உரையைப் பாதுகாக்கிறது, தவறான உள்ளீட்டை நிராகரிக்கிறது, மேலும் ஒரு சிறிய WebAssembly தொகுதி எவ்வாறு நம்பகமான டெவலப்பர் பணிப்பாய்வுக்கு சக்தியளிக்கும் என்பதைக் காட்டுகிறது.",
     "more_info1": "மேலும் தகவலுக்கு, இல் உள்ள README ஐப் பார்க்கவும்",
     "more_info2": "Auto-Linter களஞ்சியம்.",
     "format_as": "வடிவம்:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "புலி மொழி",
-    "description": "டைகர் என்பது தனிப்பயன் நிரலாக்க மொழி மற்றும் இயக்க நேர கட்டமைப்பு, மொழி சொற்பொருள் மற்றும் செயல்திறன் பரிமாற்றங்களை ஆராய்வதற்காக உருவாக்கப்பட்ட Go மொழிபெயர்ப்பாளர். மொழிபெயர்ப்பாளரை WebAssembly க்கு தொகுத்தல், அமைப்புகள் ஒரு ஊடாடும், உலாவி அடிப்படையிலான தயாரிப்பாக வேலை செய்யும்: இயக்க நேரம் கையடக்கமாக இருக்கும்போது பயனர்கள் நேரடியாக நிரல்களை இயக்க முடியும் மற்றும் ஹோஸ்ட் பயன்பாட்டிலிருந்து தனிமைப்படுத்தப்பட்டது.",
+    "description": "டைகர் என்பது ஒரு உற்பத்தி-தர தனிப்பயன் நிரலாக்க மொழி மற்றும் செயல்திறனுக்காக உருவாக்கப்பட்ட ஒரு ரஸ்ட் மொழிபெயர்ப்பாளர். அதன் தொகுக்கப்பட்ட பைட்கோட் எஞ்சின் மற்றும் ட்ரீ-வாக்கிங் ரெஃபரன்ஸ் மொழிபெயர்ப்பாளர் 44-நிரல் பெஞ்ச்மார்க் கார்பஸ் முழுவதும் லாக்ஸ்டெப்பில் தங்கியிருக்கும், மேலும் இணைக்கப்பட்ட செயல்முறை நெறிமுறையானது இயக்க நேரத்தை CPython க்கு முன்னதாகவோ அல்லது அதற்கு முன்னதாகவோ ஒவ்வொரு உறுதிப்படுத்தப்பட்ட பிரிவிலும் வைத்திருக்கிறது, செயல்திறன் மூலம் பைதான் மற்றும் ரூபியுடன் நேரடியாகப் போட்டியிடுகிறது. அசல் Go மொழிபெயர்ப்பான் மரபுச் செயலாக்கமாகவே உள்ளது. மொழிபெயர்ப்பாளரை WebAssembly க்கு தொகுத்தால், கணினிகள் ஊடாடக்கூடிய, உலாவி அடிப்படையிலான தயாரிப்பாக செயல்படுகின்றன: இயக்க நேரம் போர்ட்டபிள் மற்றும் ஹோஸ்ட் பயன்பாட்டிலிருந்து தனிமைப்படுத்தப்பட்ட நிலையில் பயனர்கள் நேரடியாக நிரல்களை இயக்க முடியும்.",
     "more_info1": "மேலும் தகவலுக்கு, இல் உள்ள README ஐப் பார்க்கவும்",
     "more_info2": "Tiger Programming Language GitHub களஞ்சியம்.",
     "select_engine": "எஞ்சினைத் தேர்ந்தெடுக்கவும்:",

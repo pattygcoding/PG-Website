@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Huk maskaqpi ruwasqa JSON chaymanta YAML chiqaqchay chaymanta formato yanapakuy Go kaqpi ruwasqa chaymanta WebAssembly kaqman huñusqa. T'aqwiq motorta WASM kaqman kuyuchiyqa tinkiyta kutichiq chaymanta llaqtayuq maskaqman waqaychan chiqa t'aqwiq churachkaspa mana allin yaykuy hap'inapaq. Huk enfocadu ejemplon huk purichiy pacha arquitectura akllanapaq ruwanapaq, apaykachanapaq chaymanta ruwaqpa hapipakuyninpaq.",
+        "text": "Auto-Linter nisqaqa JSON , YAML , XML , HTML , TOML , CSV , TSV nisqapaq maskaqpi ruwasqa linter , formato nisqapas. Zig motorqa WebAssembly kaqman huñun chaymanta tukuyninpi maskaqpi purin: chiqa t'aqwiqkunawan chiqaqchan, qillqakunata wakmanta indentan mana musuqmanta qillqaspa, chaymanta rimaykunata, anclakuna, CDATA, cita chaymanta yupay chiqanchayta waqaychan. Kay llamk'ayqa kimsa ruwaykunata — Go, Rust chaymanta Zig — ñawpaq ruwaykunawan tupachisqa tupachiypaq waqaychasqa.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Script qillqa wasi",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Huk huñusqa biblioteca automatizacion scriptkunamanta, sapa simipaq huk p'anqayuq: VBA Excel yupay raphikunapaq, Lua llasaq yanapakuykunapaq, PowerShell Windows kamachiypaq, Python sapa p'unchaw willay llamkanapaq, chaymanta Ruby script experimentokunapaq. Sapa qillqa mayt'uqa musuqmanta llamk'achinapaqmi qillqasqa, chayrayku huñusqaqa huk llamk'ay hinam waqaychasqa, pichqa chiqisqa waqaychasqakunap rantinpi.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael qillqa ruwasqa",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Huk tupachisqa huñu {implementations} Rijndael ruwanakuna 128-, 192-, chaymanta 256-bit variantes kaqpi. Huk algoritmo harkasqa-sensitivo simikunapura wakmanta ruwayqa huk disciplinasqa ruwaymi chiqap especificacionkunapi, pruebapaq ruwaypi, chaymanta simi-nivel apaykachanapa limitekunapi, llapa allin instintokuna sistemakuna sensitivo willayta hapiqkunapaq.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube allichay",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Huk interactivo 3D Rubik's Cube pegatinamanta pegatina pintanki - kikin cubo kaqpi utaq mana p'altachasqa llikapi - chaymanta huk Herbert Kociemba estilo iskay fase maskaywan allichanki Rust kaqmanta WebAssembly kaqman huñusqa. Svelte interfazqa kimsa.js kaqwan kubo ruwan, pintasqa estadota, valideznin qhawayninkunata, chaymanta allichaqpa facelet watiqayninta tinkisqapi waqaychan, chaymanta solucionta kutiy kuyuywan kuyuywan pukllan huk pacha chirupi maqchiyta, puriyta chaymanta wakmanta pukllayta.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Huk Minecraft-hina voxel pukllay Rust kaqpi wgpu kaqwan ruwasqa chaymanta WebAssembly kaqman huñusqa, chayrayku chiqan maskaqpi pukllan. Chayqa arcadepa rit'i caja ruwayninmi: bloqueo terreno chaymanta huk voxel pacha siq'isqa huk kunan pacha gráfico pipeline nisqawan, zeromanta qillqasqa Rust herramientakuna cadena nisqapi aswanpas huk pukllay motorpa hawanpi.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigre Programación nisqa simi",
-        "text": "Huk sapanchasqa programakuna simi chaymanta t'ikraq ruwasqa Riy simi purichiy pacha ruwayta, ruway ruwayta chaymanta ruway rantinakuykunata maskanapaq. WebAssembly kaqman huñuy chaymanta cartera kaqman tinkiyqa chiqa, qhawanapaq ruru hawata ruwan sistemakuna-nivel ingeniería kaqpaq aswan llamk'ayta a hina saqispa waqaychasqa-lla experimento.",
+        "text": "Rust kaqpi ruwasqa sapanchasqa programacion simi chaymanta t'ikraq simi purichiy pacha ruwayta, ruway ruwayta chaymanta ruway rantinakuykunata maskanapaq. Ñawpaq Go t'ikraq huk herencia ruway hina qhipakuchkan. WebAssembly kaqman huñuy chaymanta cartera kaqman tinkiyqa chiqa, qhawanapaq ruru hawata ruwan sistemakuna-nivel ingeniería kaqpaq aswan llamk'ayta huk waqaychasqa-lla experimento hina saqispa.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Ajedrez ruwasqa",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust nisqapi qillqasqa, WebAssembly nisqaman huñusqa ajedrez motor. Maskanmi iterativo profundización negamax, poda alfa-beta, huk tabla de transposición 32 MB hinallataq huk quiescencia maskay raphikunapi; chaymi chaninchan tablas cónicas de pedazo-cuadrado nisqawan hinaspa kamachin kuyuykunata MVV-LVA, wañuchiqkuna hinaspa historia nisqawan. Motorqa Web Llamk'aqpi purin chayrayku tabla mana hayk'aqpas congelanchu, chaymanta kuyuy generadornin navegadorpi qhawasqa kachkan chaymanta lluqsichisqa perft yupaykunawan - 20, 400, 8.902, 197.281 chaymanta 4.865.609 nodos ñawpaq pichqa ukhukunapaq."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 huk recuperación ruwaymi: imachus qallarirqa huk kuskan tukusqa CPSC 4160 pukllay hina universidadpi - hap'iy qhipa rollokuna papel higiénico kaqmanta chaymanta chayay cajaman manaraq gérmenes usuchisunki - zeromanta musuqmanta ruwasqa huk moderno C++20 motor hina SDL2 kaqpi chaymanta WebAssembly kaqman huñusqa. Chunka escalador pasillokunata patrullakuq hinaspa qatiy gérmenes AI nisqawan, pickups nisqawan, partículas nisqawan chaymanta controles táctiles nisqawan apachin, manam mayqinpas chay prototipo originalpa llalliq ñanninkunachu."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Huk determinista, yapamanta pukllanapaq limite-orden-libro tupachiq motor. Kikin motorqa ch'uya Ruby nisqa mana Rails nisqayuq, Rails 8 nisqawan huklla SQLite willañiqipi llamk'achisqa. Sapa kamachiyqa huk qillqana ñawpaqman qillqana registroman yapasqa manaraq motor rikuchkaptin, chayrayku mayqin ñawpaq estadopas libromanta huk kuti karun, chaymanta huk kuti pukllayqa hunt'aq kayninta rikuchikun qhatu kawsachkaptin grabasqa dedokuna tupachispa. Precio-tiempo ñawpaqman churay, GTC/IOC/FOK, allichan mayqinkunachus fila posiciónta waqaychanku utaq chinkachinku, chaymanta kikin qhatuy hark'ay chunka tawayuq invariantes kaqwan sapa kamachiymanta qhipaman huk muhuchasqa fuzz suite kaqpi afirmasqa kanku. Navegador chunka hertz escalera Acción Cable kaqninta hapin, kamachiykuna HTTP kaqninta wicharin.",
         "title": "PIT ruwasqa"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Huk maskaqpi ruwasqa willay calidad yanapakuy mayqinchus JSON chaymanta YAML chiqaqchan chaymanta formato ruwan huk Go motor WebAssembly kaqman huñusqa llamk'achispa. Arquitecturaqa llamk'aqpa qayllanpi t'aqwiyta waqaychan usqhayta, sapalla kutichiypaq chiqa sintaxis kamachiykunata willaypa linderonpi kamachichkaspa. Huk compacto ejemplon huk confiable paqarichiqqa llamkanakuna ruwaypaq chiqan kay, ruway chaymanta hapipakuy muyuriqpi.",
+    "description": "Auto-Linter huk maskaqpi ruwasqa willay-qullqi yanapakuymi, JSON, YAML, XML, HTML, TOML, CSV chaymanta TSV huk Zig motorwan WebAssembly kaqman huñusqa chiqaqchan chaymanta formato ruwan. T'aqwiyqa llamk'aqpa qayllanpi qhipan usqhayta, sapalla kutichiypaq chiqa sintaxis kamachiykunata willaypa linderonpi kamachichkaspa. Qillqaqpa qillqayninta waqaychan, mana allin ruwasqa yaykuyninta mana chaskinchu, chaymanta rikuchin imayna huk huch'uy WebAssembly módulo huk hapipakuq paqarichiqqa llamkana puriyta kallpachayta atin.",
     "more_info1": "Astawan yachayta munaspaqa, README nisqapi qhaway",
     "more_info2": "Auto-Linter qillqa wasi.",
     "format_as": "Formato As:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tigre Simi",
-    "description": "Tiger huk ruwasqa programacion simi chaymanta Go t'ikraq ruwasqa purichiy pacha arquitectura, simi semántica chaymanta ruway rantinakuykuna maskanapaq. Intérprete WebAssembly kaqman huñuyqa sistemakuna llamk'asqankuta huk interactivo, maskaqpi ruwasqa ruruman tikran: ruwaqkuna programakunata chiqalla ruwayta atinku puriy pacha apaykachanapaq hina kachkaptin chaymanta host ruwanamanta t'aqasqa.",
+    "description": "Tiger nisqaqa ruruchina-grado sapanchasqa programacion simim , Rust t'ikraqtaq ruwanapaq ruwasqa. Huñusqa bytecode motornin chaymanta sach'a-puriq referencia t'ikraq lockstep kaqpi qhipakunku 44-programa benchmark corpus kaqpi, chaymanta iskaychasqa ruwaypi protocolo puriy pachata CPython kaqpi utaq ñawpaqninpi sapa afirmasqa t'aqapi waqaychan, ruwaywan mayqinchus chiqalla Python kaqwan Ruby kaqwan atipanakun sapa p'unchaw scripting kaqpaq. Ñawpaq Go t'ikraq huk herencia ruway hina qhipakuchkan. Intérprete WebAssembly kaqman huñuyqa sistemakuna llamk'asqankuta huk interactivo, maskaqpi ruwasqa ruruman tikran: ruwaqkuna programakunata chiqalla ruwayta atinku puriy pacha apaykachanapaq chaymanta sapanchasqa quq ruwanamanta kachkaptin.",
     "more_info1": "Astawan yachayta munaspaqa, README nisqapi qhaway",
     "more_info2": "Tigre Programación Simi GitHub Waqaychasqa.",
     "select_engine": "Motorta akllay:",

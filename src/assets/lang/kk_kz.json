@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Браузер негізіндегі JSON және YAML тексеру және пішімдеу құралы Go жүйесінде орнатылған және WebAssembly жүйесінде құрастырылған. Талдау механизмін WASM ішіне жылжыту жарамсыз енгізуді ұстау үшін нақты талдаушыны қолдану кезінде өзара әрекеттесуді браузерге жауап береді және жергілікті етеді. Бұл өнімділік, портативтілік және пайдаланушы сенімі үшін орындау уақыты архитектурасын таңдаудың бағдарланған мысалы.",
+        "text": "Auto-Linter — JSON, YAML, XML, HTML, TOML, CSV және TSV үшін браузерге негізделген линтер және пішімдеу. Zig механизмі WebAssembly-ге компиляция жасайды және толығымен браузерде жұмыс істейді: ол нақты талдаушылармен тексереді, құжаттарды олардың мазмұнын қайта жазбай қайта шегіндіреді және түсініктемелерді, анкерлерді, CDATA, дәйексөзді және сандық дәлдікті сақтайды. Жоба үш іске асыруды қамтиды - Go, Rust және Zig - бұрынғы нұсқалары салыстыру үшін мұрағатталған.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Скрипт кітапханасы",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Әр тілде бір бет бар автоматтандыру сценарийлерінің біріктірілген кітапханасы: Excel электрондық кестелеріне арналған VBA, жеңіл құралдарға арналған Lua, Windows әкімшілігіне арналған PowerShell, күнделікті деректермен жұмыс істеуге арналған Python және сценарийлер эксперименттеріне арналған Ruby. Әрбір сценарий қайта пайдалану үшін жазылған, сондықтан жинақ бес шашыраңқы репозиторийдің орнына бір жоба ретінде сақталады.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael шифрлау жобасы",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "128-, 192- және 256-биттік нұсқалардағы {implementations} Rijndael іске асыруларының салыстырмалы жиынтығы. Тілдер арасында қауіпсіздікке сезімтал алгоритмді қайта іске асыру - бұл нақты спецификациялар, тексерілетін мінез-құлық және тіл деңгейіндегі портативтілік шектеулері, құпия деректерді өңдейтін жүйелер үшін барлық пайдалы инстинкттер бойынша тәртіпті жаттығу.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Рубик кубын шешуші",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Интерактивті 3D Рубик текшесін стикер арқылы - текшенің өзінде немесе оның ашылған желісінде бояйсыз, содан кейін Rust-тен WebAssembly-ге жинақталған Герберт Коциемба стиліндегі екі фазалы іздеу арқылы шешесіз. Svelte интерфейсі текшені three.js арқылы көрсетеді, боялған күйді, оның жарамдылығын тексереді және шешушінің беттік жолын синхрондауды сақтайды және скрабтауға, өтуге және қайта ойнауға болатын уақыт сызығында жылжыту арқылы шешімді кері жылжыту арқылы ойнатады.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft стиліндегі воксель ойыны Rust жүйесінде wgpu көмегімен құрастырылған және WebAssembly-ге жинақталған, сондықтан ол браузерде тікелей ойнайды. Бұл аркаданың құмсалғыш құрылысы: блокты рельеф және ойын қозғалтқышының үстіне емес, Rust құралдар тізбегінде нөлден бастап жазылған заманауи графикалық құбыр арқылы сызылған воксель әлемі.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger бағдарламалау тілі",
-        "text": "Тілдің орындалу уақытының дизайнын, орындалу әрекетін және өнімділік айырбастауларын зерттеу үшін Go ішінде орнатылған теңшелетін бағдарламалау тілі мен аудармашы. Оны WebAssembly-ге құрастыру және оны портфолиоға біріктіру жұмысты біртұтас ретінде қалдырмай, жүйелік деңгейдегі инженерия үшін нақты, тексерілетін өнім бетін жасайды. тек репозиторий эксперименті.",
+        "text": "Тілдің орындалу уақытының дизайнын, орындалу әрекетін және өнімділік айырбастауларын зерттеу үшін Rust жүйесінде жасалған теңшелетін бағдарламалау тілі мен аудармашы. Түпнұсқа Go аудармашысы бұрынғы іске асыру ретінде қолжетімді болып қалады. Оны WebAssembly жүйесіне құрастыру және оны портфолиоға біріктіру жұмысты тек репозиторий эксперименті ретінде қалдырмай, жүйелік деңгейдегі инженерия үшін нақты, тексерілетін өнім бетін жасайды.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Шахмат қозғалтқышы",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Rust тілінде жазылған және WebAssembly сайтында құрастырылған шахмат қозғалтқышы. Ол итеративті тереңдету negamax, альфа-бета кесу, 32 МБ транспозиция кестесі және жапырақтарда тыныштық іздеу арқылы іздейді; ол MVV-LVA, киллер және тарих бойынша конустық кесінді квадрат кестелермен және тапсырыстармен қозғалыстармен бағалайды. Қозғалтқыш Web Worker жүйесінде жұмыс істейді, сондықтан тақта ешқашан қатып қалмайды және оның жылжыту генераторы шолғышта жарияланған перфттік сандармен - 20, 400, 8,902, 197,281 және алғашқы бес тереңдіктегі 4,865,609 түйіндермен тексеріледі."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 - бұл қалпына келтіру жобасы: колледжде жартылай аяқталған CPSC 4160 ойыны ретінде басталған – дәретхана қағазының соңғы орамдарын алып, микробтар сізді тоздырмай тұрып тексеруге жетіңіз - SDL2 жүйесінде заманауи C++20 қозғалтқышы ретінде нөлден бастап қайта жасалды және Web-де құрастырылды. Ол патрульдеу және микробтарды қуу, пикаптар, бөлшектер және сенсорлық басқару элементтері бар он өсетін дәлізді жібереді, түпнұсқа прототиптің төте жолдарының ешқайсысы да жоқ."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Детерминирленген, қайталанатын шекті тапсырыс кітабын сәйкестендіру қозғалтқышы. Қозғалтқыштың өзі бір SQLite файлы арқылы Rails 8 арқылы қызмет көрсететін, Rails жоқ таза Ruby болып табылады. Әрбір пәрмен қозғалтқыш оны көрмей тұрып, алдын ала жазу журналына қосылады, сондықтан кітаптың кез келген бұрынғы күйі бір есе қашықтықта болады және нарықта тірі болған кезде жазылған саусақ іздерін салыстыру арқылы қайталау дұрыстығын дәлелдейді. Баға-уақыт басымдылығы, GTC/IOC/FOK, кезек позициясын сақтайтын немесе жоғалтатын түзетулер және өзіндік сауданың алдын алу егілген fuzz жиынтығындағы әрбір пәрменнен кейін он төрт инвариантпен бекітіледі. Браузер Action Cable арқылы он герцтік баспалдақ алады, ал командалар HTTP арқылы жоғарылайды.",
         "title": "PIT сәйкестендіру қозғалтқышы"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "WebAssembly жүйесіне құрастырылған Go механизмін пайдаланып JSON және YAML файлдарын тексеретін және пішімдейтін шолғышқа негізделген деректер сапасының құралы. Архитектура деректер шекарасында нақты синтаксистік ережелерді орындау кезінде жылдам, жеке кері байланыс үшін пайдаланушыға жақын талдауды жалғастырады. Бұл дұрыстық, өнімділік және сенімділік төңірегінде сенімді әзірлеушінің жұмыс процесін жобалаудың ықшам мысалы.",
+    "description": "Auto-Linter — WebAssembly жүйесіне құрастырылған Zig механизмімен JSON, YAML, XML, HTML, TOML, CSV және TSV файлдарын тексеретін және пішімдейтін шолғышқа негізделген деректер сапасының құралы. Деректер шекарасында нақты синтаксистік ережелерді орындау кезінде талдау жылдам, жеке кері байланыс үшін пайдаланушыға жақын болады. Ол автордың мәтінін сақтайды, дұрыс емес енгізуден бас тартады және бір шағын WebAssembly модулінің сенімді әзірлеуші ​​жұмыс процесін қуаттай алатынын көрсетеді.",
     "more_info1": "Қосымша ақпаратты мына жерден README бөлімінен қараңыз",
     "more_info2": "Auto-Linter қоймасы.",
     "format_as": "Пішім:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Жолбарыс тілі",
-    "description": "Tiger – орындалу уақытының архитектурасын, тіл семантикасын және өнімділік сәйкестігін зерттеу үшін жасалған реттелетін бағдарламалау тілі және Go аудармашысы. Аудармашыны WebAssembly жүйесіне құрастыру жүйелер интерактивті, браузерге негізделген өнімге айналады: пайдаланушылар орындалу уақыты портативті болып қалған кезде бағдарламаларды тікелей орындай алады. және хост қолданбасынан оқшауланған.",
+    "description": "Tiger - өндірістік деңгейдегі пайдаланушы бағдарламалау тілі және өнімділік үшін жасалған Rust аудармашы. Оның құрастырылған байт-кодтық қозғалтқышы және ағашпен жүретін анықтамалық аудармашы 44-бағдарламалық эталондық корпуста блокада қалады және жұптастырылған процесс протоколы күнделікті сценарийлер үшін Python және Ruby-мен тікелей бәсекелесетін өнімділікпен әрбір бекітілген бөлімде CPython-да немесе одан жоғары орындалу уақытын сақтайды. Түпнұсқа Go аудармашысы бұрынғы іске асыру ретінде қолжетімді болып қалады. Аудармашыны WebAssembly-ге құрастыру жүйелердің интерактивті, браузерге негізделген өнімге жұмыс істейтінін көрсетеді: пайдаланушылар орындалу уақыты портативті және хост қолданбасынан оқшауланған күйде бағдарламаларды тікелей орындай алады.",
     "more_info1": "Қосымша ақпаратты мына жерден README бөлімінен қараңыз",
     "more_info2": "Tiger бағдарламалау тілі GitHub репозиторийі.",
     "select_engine": "Қозғалтқышты таңдау:",

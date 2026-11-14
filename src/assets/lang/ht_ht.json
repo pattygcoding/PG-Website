@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Yon navigatè ki baze sou JSON ak YAML validation ak zouti fòma bati nan Go ak konpile nan WebAssembly. Deplase motè analiz la nan WASM kenbe entèraksyon an reponn ak lokal nan navigatè a pandan y ap aplike yon analizeur reyèl pou trape opinyon envalid. Li se yon egzanp konsantre sou chwazi yon achitekti ègzekutabl pou pèfòmans, portabilite, ak konfyans itilizatè.",
+        "text": "Auto-Linter se yon linter ak fòmatè ki baze sou navigatè pou JSON, YAML, XML, HTML, TOML, CSV ak TSV. Motè Zig la konpile nan WebAssembly epi li kouri antyèman nan navigatè a: li valide ak analizeur reyèl, re-endent dokiman san yo pa reekri sa yo, epi li prezève kòmantè, lank, CDATA, sitasyon ak presizyon nimerik. Pwojè a kouvri twa aplikasyon - Go, Rust ak Zig - ak vèsyon pi bonè yo achiv pou konparezon.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Bibliyotèk script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Yon bibliyotèk konsolide scripts automatisation, ak yon paj pou chak lang: VBA pou Excel feuilles, Lua pou zouti ki lejè, PowerShell pou Windows administrasyon, Python pou travay done chak jou, ak Ruby pou eksperyans scripting. Chak script ekri pou yo itilize ankò, kidonk koleksyon an konsève kòm yon pwojè olye de senk depo yo gaye.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Pwojè chifreman Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Yon seri konparatif nan enplemantasyon {implementations} Rijndael atravè varyant 128-, 192-, ak 256-bit. Re-enplimante yon algorithm sekirite-sansib atravè lang yo se yon egzèsis disipline nan espesifikasyon egzak, konpòtman teste, ak limit yo nan portabilite nan nivo lang, tout ensten itil pou sistèm ki okipe done sansib.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Solvosè Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Yon kib Rubik entèaktif 3D ou pentire fichye pa fich - sou kib la li menm oswa sou nèt li depliye - ak Lè sa a, rezoud ak yon rechèch Herbert Kociemba style de-faz konpile soti nan Rust nan WebAssembly. Koòdone Svelte a rann kib la ak twa.js, kenbe eta a pentire, chèk validite li yo, ak fisèl fasèt rezolisyon an nan senkronize, epi jwe solisyon an tounen deplase pa deplase sou yon delè ou ka frote, etap atravè, ak re-jwe.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Yon jwèt voxel Minecraft-style bati nan Rust ak wgpu ak konpile nan WebAssembly, kidonk li jwe tou dwat nan navigatè a. Li se konstriksyon sandbox arcade a: tèren an blòk ak yon mond voxel trase atravè yon tiyo grafik modèn, ekri nan grate sou chèn zouti Rust olye ke sou tèt yon motè jwèt.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
-        "text": "Yon langaj pwogramasyon koutim ak entèprèt ki te bati nan Go to explore design runtime language, konpòtman ekzekisyon, ak konpwomi pèfòmans. Konpile li nan WebAssembly ak entegre li nan dosye a kreye yon sifas pwodwi reyèl, ki enspekte pou jeni nivo sistèm olye ke kite travay la kòm yon eksperyans depo-sèlman.",
+        "text": "Yon langaj pwogramasyon koutim ak entèprèt ki te bati nan Rust pou eksplore konsepsyon langaj, konpòtman ekzekisyon, ak konpwomi pèfòmans. Entèprèt Go orijinal la rete disponib kòm yon aplikasyon eritaj. Konpile li nan WebAssembly ak entegre li nan pòtfolyo a kreye yon sifas pwodwi reyèl, ki enspekte pou jeni nivo sistèm olye ke kite travay la kòm yon eksperyans depo-sèlman.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Motè echec",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Yon motè echèk ekri nan Rust ak konpile nan WebAssembly. Li fè rechèch ak negamax grandisan iteratif, koupe alfa-beta, yon tab transpozisyon 32 MB ak yon rechèch silans nan fèy yo; li evalye ak tab conique moso-kare ak lòd mouvman pa MVV-LVA, asasen ak istwa. Motè a kouri nan yon travayè entènèt pou tablo a pa janm jele, epi dèlko mouvman li yo tcheke nan navigatè a kont konte perft yo pibliye - 20, 400, 8,902, 197,281 ak 4,865,609 nœuds pou senk premye pwofondè yo."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 se yon pwojè rekiperasyon: sa ki te kòmanse kòm yon jwèt CPSC 4160 mwatye fini nan kolèj - pwan dènye woulo papye twalèt yo epi rive nan kesye a anvan mikwòb yo mete w desann - te rebati nan grafouyen kòm yon motè C++20 modèn sou SDL2 epi konpile nan WebAssembly. Li voye dis koulwa k ap monte ak patwouy ak kouri dèyè jèm AI, pickups, patikil ak kontwòl manyen, pa youn nan rakoursi pwototip orijinal la."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Yon motè matche limit-lòd-liv detèminist, rejouabl. Motè nan tèt li se pi Ruby ki pa gen okenn Rails nan li, sèvi ak Rails 8 sou yon sèl dosye SQLite. Chak kòmandman ajoute nan yon boutèy demi lit anvan motè a wè li, kidonk nenpòt eta sot pase a nan liv la se yon sèl pli lwen, epi yo pwouve yon replay fidèl lè w konpare anprent dwèt anrejistre pandan mache a te vivan. Priyorite pri-tan, GTC/IOC/FOK, amannman ki kenbe oswa pèdi pozisyon keu, ak prevansyon pwòp tèt ou-komès yo reklame pa katòz invariants apre chak kòmand nan yon suite fuzz grenn. Navigatè a jwenn yon nechèl dis-hertz sou Action Cable, pandan y ap kòmandman yo monte sou HTTP.",
         "title": "Motè matche PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Yon zouti bon jan kalite done ki baze sou navigatè ki valide ak fòma JSON ak YAML lè l sèvi avèk yon motè Go konpile nan WebAssembly. Achitekti a kenbe analiz tou pre itilizatè a pou rapid, fidbak prive pandan y ap aplike règ sentaks reyèl nan fwontyè done yo. Li se yon egzanp kontra enfòmèl ant konsepsyon yon workflow pwomotè serye alantou kòrèk, pèfòmans, ak konfyans.",
+    "description": "Auto-Linter se yon zouti bon jan kalite done ki baze sou navigatè ki valide ak fòma JSON, YAML, XML, HTML, TOML, CSV ak TSV ak yon motè Zig konpile nan WebAssembly. Analize rete pre itilizatè a pou yon fidbak rapid, prive pandan y ap aplike règ sentaks reyèl nan fwontyè done yo. Li prezève tèks otè a, li rejte opinyon ki pa gen fòm, epi li montre kijan yon ti modil WebAssembly ka mache sou yon workflow pwomotè serye.",
     "more_info1": "Pou plis enfòmasyon, al gade nan README nan",
     "more_info2": "Depo Auto-Linter.",
     "format_as": "Fòma kòm:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Lang tig",
-    "description": "Tiger se yon langaj pwogram koutim ak yon entèprèt Go ki te bati pou eksplore achitekti ègzekutabl, semantik langaj, ak konpwomi pèfòmans. Konpile entèprèt la nan WebAssembly fè ke sistèm yo travay nan yon pwodwi entèaktif, ki baze sou navigatè: itilizatè yo ka egzekite pwogram dirèkteman pandan y ap egzekite a rete pòtab. ak izole nan aplikasyon an lame.",
+    "description": "Tiger se yon langaj pwogramasyon pèsonalize pwodiksyon ak yon entèprèt Rust ki te konstwi pou pèfòmans. Motè bytecode konpile li yo ak entèprèt referans pye bwa yo rete annapre atravè yon corpus referans 44-pwogram yo, ak pwotokòl pè nan pwosesis la kenbe tan an nan oswa devan CPython sou chak seksyon afime, ak pèfòmans ki konkirans dirèkteman ak Python ak Ruby pou scripting chak jou. Entèprèt Go orijinal la rete disponib kòm yon aplikasyon eritaj. Konpile entèprèt la nan WebAssembly vire ke sistèm yo travay nan yon pwodwi entèaktif, ki baze sou navigatè: itilizatè yo ka egzekite pwogram dirèkteman pandan y ap egzekite a rete pòtab ak izole nan aplikasyon an lame.",
     "more_info1": "Pou plis enfòmasyon, al gade nan README nan",
     "more_info2": "Tiger Programming Language GitHub Repository.",
     "select_engine": "Chwazi motè:",

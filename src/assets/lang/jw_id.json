@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Alat validasi lan format JSON lan YAML basis browser sing dibangun ing Go lan dikompilasi menyang WebAssembly. Obah mesin parsing menyang WASM supaya interaksi responsif lan lokal kanggo browser nalika nglamar parser nyata kanggo nyekel input ora bener. Iki minangka conto fokus milih arsitektur runtime kanggo kinerja, portabilitas, lan kapercayan pangguna.",
+        "text": "Auto-Linter minangka linter lan formater basis browser kanggo JSON, YAML, XML, HTML, TOML, CSV lan TSV. Mesin Zig nglumpukake WebAssembly lan mlaku kabeh ing browser: validasi karo parser nyata, dokumen indent maneh tanpa nulis ulang isine, lan njaga komentar, jangkar, CDATA, kutipan lan presisi angka. Proyèk iki kalebu telung implementasine - Go, Rust lan Zig - kanthi versi sadurungé diarsipaké kanggo mbandhingaké.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Pustaka script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Pustaka skrip otomatisasi gabungan, kanthi siji kaca saben basa: VBA kanggo spreadsheet Excel, Lua kanggo piranti sing entheng, PowerShell kanggo administrasi Windows, Python kanggo kerja data saben dina, lan Ruby kanggo eksperimen skrip. Saben skrip ditulis supaya bisa digunakake maneh, mula koleksi kasebut tetep dadi siji proyek tinimbang limang repositori sing kasebar.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Proyek enkripsi Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Sakumpulan komparatif {implementations} Rijndael implementasine ing varian 128-, 192-, lan 256-bit. Ngleksanakake maneh algoritma sing sensitif keamanan ing antarane basa minangka latihan sing disiplin ing spesifikasi sing tepat, prilaku sing bisa diuji, lan watesan portabilitas tingkat basa, kabeh naluri migunani kanggo sistem sing nangani data sensitif.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Panyelesaian Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Kubus Rubik 3D interaktif sing sampeyan cet stiker kanthi stiker - ing kubus kasebut dhewe utawa ing jaring sing dibukak - banjur diatasi kanthi telusuran rong tahap gaya Herbert Kociemba sing disusun saka Rust menyang WebAssembly. Antarmuka Svelte nerjemahake kotak karo three.js, tetep negara dicet, mriksa kesahihan, lan senar facelet solver ing sink, lan muter solusi bali pamindhahan dening pamindhahan ing timeline sampeyan bisa scrub, langkah liwat, lan muter maneh.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "A game voxel Minecraft-gaya dibangun ing Rust karo wgpu lan nyawiji kanggo WebAssembly, supaya muter langsung ing browser. Iku mbangun kothak wedhi arcade: terrain blocky lan donya voxel digambar liwat pipo grafis modern, ditulis saka ngeruk ing toolchain Rust tinimbang ing ndhuwur mesin game.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Basa Pemrograman Tiger",
-        "text": "Basa pamrograman lan juru basa khusus sing dibangun ing Go kanggo njelajah desain runtime basa, prilaku eksekusi, lan tradeoff kinerja. Nggabungake menyang WebAssembly lan nggabungake menyang portofolio nggawe permukaan produk sing nyata lan bisa dipriksa kanggo teknik tingkat sistem tinimbang ninggalake karya kasebut minangka eksperimen mung gudang.",
+        "text": "Basa pamrograman lan juru basa khusus sing dibangun ing Rust kanggo njelajah desain runtime basa, prilaku eksekusi, lan tradeoff kinerja. Penerjemah Go asli tetep kasedhiya minangka implementasine warisan. Nggabungake menyang WebAssembly lan nggabungake menyang portofolio nggawe permukaan produk sing nyata lan bisa dipriksa kanggo teknik tingkat sistem tinimbang ninggalake karya kasebut minangka eksperimen mung gudang.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "link": "https://arcade.pattygcoding.com/chess",
         "title": "Mesin catur",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Mesin catur sing ditulis ing Rust lan dikompilasi menyang WebAssembly. Telusuran kanthi negamax pendalaman iteratif, pruning alpha-beta, tabel transposisi 32 MB lan telusuran sepi ing godhong; iku ngira-ngira karo tapered Tabel Piece-alun lan pesenan gerakane dening MVV-LVA, pembunuh lan sajarah. Mesin mlaku ing Worker Web supaya papan ora nate beku, lan generator pamindhahan dicenthang ing browser nglawan jumlah perft sing diterbitake - 20, 400, 8,902, 197,281 lan 4,865,609 kelenjar kanggo limang ambane pisanan."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 minangka proyek reklamasi: sing diwiwiti minangka game CPSC 4160 setengah rampung ing kuliah - njupuk gulungan kertas jamban pungkasan lan tekan checkout sadurunge kuman nyandhang sampeyan - wis dibangun maneh saka awal minangka mesin C ++ 20 modern ing SDL2 lan dikompilasi menyang WebAssembly. Iki ngirim sepuluh lorong sing mundhak kanthi patroli lan ngoyak kuman AI, pickup, partikel lan kontrol tutul, ora ana trabasan saka prototipe asli."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "A deterministik, replayable mesin watesan-order-buku cocog. Mesin kasebut yaiku Ruby murni tanpa Rails, dilayani dening Rails 8 liwat file SQLite siji. Saben printah ditambahake menyang log nulis ing ngarep sadurunge mesin ndeleng, supaya kabeh negara sing kepungkur saka buku kasebut dadi siji, lan muter maneh dibuktekake kanthi setya kanthi mbandhingake sidik jari sing direkam nalika pasar urip. Prioritas rega-wektu, GTC / IOC / FOK, amandemen sing tetep utawa ilang posisi antrian, lan nyegah perdagangan diri ditegesake dening patbelas invarian sawise saben printah ing suite fuzz sing dibiji. Browser entuk tangga sepuluh hertz liwat Action Cable, nalika printah munggah liwat HTTP.",
         "title": "Mesin mbandingakake PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Alat kualitas data basis browser sing validasi lan format JSON lan YAML nggunakake mesin Go sing dikompilasi menyang WebAssembly. Arsitèktur kasebut terus ngurai kanthi cedhak karo pangguna kanggo umpan balik pribadi kanthi cepet nalika ngetrapake aturan sintaksis nyata ing wates data. Iki minangka conto kompak ngrancang alur kerja pangembang sing bisa dipercaya babagan akurasi, kinerja, lan kepercayaan.",
+    "description": "Auto-Linter minangka alat kualitas data basis browser sing validasi lan format JSON, YAML, XML, HTML, TOML, CSV lan TSV kanthi mesin Zig sing dikompilasi menyang WebAssembly. Parsing tetep cedhak karo pangguna kanggo umpan balik pribadi kanthi cepet nalika ngetrapake aturan sintaksis nyata ing wates data. Iku ngreksa teks penulis, nolak input malformed, lan nuduhake carane siji modul WebAssembly cilik bisa daya alur kerja pangembang gumantung.",
     "more_info1": "Kanggo informasi luwih lengkap, waca README ing",
     "more_info2": "Gudang Auto-Linter.",
     "format_as": "Format Minangka:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Basa Macan",
-    "description": "Tiger minangka basa pamrograman khusus lan juru basa Go sing dibangun kanggo njelajah arsitektur runtime, semantik basa, lan tradeoff kinerja. Nglumpukake interpreter menyang WebAssembly ngowahi sistem kasebut dadi produk interaktif berbasis browser: pangguna bisa nglakokake program kanthi langsung nalika runtime tetep portabel. lan diisolasi saka aplikasi inang.",
+    "description": "Tiger minangka basa pamrograman khusus kelas produksi lan juru basa Rust sing dibangun kanggo kinerja. Mesin bytecode sing dikompilasi lan interpreter referensi mlaku-mlaku ing wit tetep ana ing korpus pathokan 44-program, lan protokol ing proses sing dipasangake tetep runtime ing utawa luwih dhisik tinimbang CPython ing saben bagean sing ditegesake, kanthi kinerja sing bersaing langsung karo Python lan Ruby kanggo skrip saben dina. Penerjemah Go asli tetep kasedhiya minangka implementasine warisan. Nglumpukake interpreter menyang WebAssembly ngowahi sistem kasebut dadi produk interaktif adhedhasar browser: pangguna bisa nglakokake program kanthi langsung nalika runtime tetep portabel lan diisolasi saka aplikasi host.",
     "more_info1": "Kanggo informasi luwih lengkap, waca README ing",
     "more_info2": "Repositori GitHub Basa Pemrograman Tiger.",
     "select_engine": "Pilih Engine:",

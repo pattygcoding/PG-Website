@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Isang browser-based na JSON at YAML validation at formatting tool na binuo sa Go at pinagsama-sama sa WebAssembly. Ang paglipat ng parsing engine sa WASM ay nagpapanatili sa pakikipag-ugnayan na tumutugon at lokal sa browser habang nag-aaplay ng tunay na parser upang makakuha ng di-wastong input. Ito ay isang nakatutok na halimbawa ng pagpili ng isang runtime architecture para sa performance, portability, at tiwala ng user.",
+        "text": "Ang Auto-Linter ay isang browser-based linter at formatter para sa JSON, YAML, XML, HTML, TOML, CSV at TSV. Ang Zig engine ay nag-compile sa WebAssembly at ganap na tumatakbo sa browser: ito ay nagpapatunay gamit ang mga tunay na parser, muling nag-indent ng mga dokumento nang hindi muling isinusulat ang kanilang mga nilalaman, at pinapanatili ang mga komento, anchor, CDATA, pagsipi at katumpakan ng numero. Ang proyekto ay sumasaklaw sa tatlong pagpapatupad — Go, Rust at Zig — kasama ang mga naunang bersyon na naka-archive para sa paghahambing.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Library ng script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Isang pinagsama-samang library ng mga automation script, na may isang pahina sa bawat wika: VBA para sa mga Excel spreadsheet, Lua para sa magaan na tooling, PowerShell para sa Windows administration, Python para sa pang-araw-araw na data work, at Ruby para sa mga eksperimento sa scripting. Ang bawat script ay isinulat upang magamit muli, kaya ang koleksyon ay pinananatili bilang isang proyekto sa halip na limang nakakalat na mga repositoryo.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Proyekto ng Rijndael encryption",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Isang comparative set ng {implementations} Rijndael na mga pagpapatupad sa 128-, 192-, at 256-bit na variant. Ang muling pagpapatupad ng algorithm na sensitibo sa seguridad sa mga wika ay isang disiplinadong pagsasanay sa mga eksaktong detalye, masusubok na gawi, at mga limitasyon ng portability sa antas ng wika, lahat ng kapaki-pakinabang na instinct para sa mga system na humahawak ng sensitibong data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Isang interactive na 3D Rubik's Cube na pinipinturaan mo ng sticker sa pamamagitan ng sticker - sa mismong cube o sa nakabukang net nito - at pagkatapos ay lutasin gamit ang isang Herbert Kociemba style two-phase search na pinagsama-sama mula sa Rust hanggang WebAssembly. Ang Svelte interface ay nagre-render sa cube na may three.js, pinapanatili ang painted state, ang validity check nito, at ang facelet string ng solver na naka-sync, at pinapatugtog ang solusyon pabalik sa paglipat sa isang timeline na maaari mong i-scrub, hakbang-hakbang, at muling i-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Isang Minecraft-style voxel game na binuo sa Rust na may wgpu at pinagsama-sama sa WebAssembly, kaya diretso itong nagpe-play sa browser. Ito ang sandbox build ng arcade: mala-block na lupain at isang voxel na mundo na iginuhit sa pamamagitan ng modernong graphics pipeline, na isinulat mula sa simula sa Rust toolchain sa halip na sa ibabaw ng isang game engine.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Wika ng Tiger Programming",
-        "text": "Isang custom na programming language at interpreter na binuo sa Go to explore language runtime design, execution behavior, at performance tradeoffs. Ang pag-compile nito sa WebAssembly at pagsasama nito sa portfolio ay lumilikha ng isang tunay, nasusuri na ibabaw ng produkto para sa system-level engineering sa halip na iwan ang trabaho bilang isang eksperimento na imbakan lamang.",
+        "text": "Isang custom na programming language at interpreter na binuo sa Rust upang tuklasin ang disenyo ng runtime ng wika, gawi sa pagpapatupad, at mga tradeoff sa pagganap. Ang orihinal na Go interpreter ay nananatiling available bilang isang legacy na pagpapatupad. Ang pag-compile nito sa WebAssembly at pagsasama nito sa portfolio ay lumilikha ng isang tunay, nasusuri na ibabaw ng produkto para sa system-level na engineering sa halip na iwan ang trabaho bilang isang eksperimento na repositoryo lamang.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Chess engine",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Isang chess engine na nakasulat sa Rust at pinagsama-sama sa WebAssembly. Naghahanap ito gamit ang iterative deepening negamax, alpha-beta pruning, isang 32 MB transposition table at isang quiescence na paghahanap sa mga dahon; sinusuri nito gamit ang tapered piece-square table at nag-uutos ng mga galaw ng MVV-LVA, mga mamamatay-tao at kasaysayan. Gumagana ang makina sa isang Web Worker kaya hindi kailanman nag-freeze ang board, at ang generator ng paglipat nito ay sinusuri sa browser laban sa mga nai-publish na bilang ng perft - 20, 400, 8,902, 197,281 at 4,865,609 node para sa unang limang depth."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Ang Reclaim 4160 ay isang proyekto sa reclamation: kung ano ang nagsimula bilang isang kalahating tapos na laro ng CPSC 4160 sa kolehiyo - kunin ang mga huling rolyo ng toilet paper at abutin ang checkout bago ka mapagod ng mga mikrobyo - ay itinayong muli mula sa simula bilang isang modernong C++20 engine sa SDL2 at pinagsama-sama sa WebAssembly. Nagpapadala ito ng sampung dumaraming pasilyo na may patrolling at paghabol sa mikrobyo na AI, mga pickup, particle at touch control, wala sa mga shortcut ng orihinal na prototype."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Isang deterministic, replayable na limit-order-book na tumutugma sa engine. Ang makina mismo ay purong Ruby na walang Rails sa loob nito, na inihahatid ng Rails 8 sa isang solong SQLite file. Ang bawat utos ay idinaragdag sa isang write-ahead log bago ito makita ng makina, kaya ang anumang nakaraang estado ng aklat ay isang tiklop ang layo, at ang isang replay ay napatunayang tapat sa pamamagitan ng paghahambing ng mga fingerprint na naitala habang ang merkado ay live. Priyoridad sa oras ng presyo, GTC/IOC/FOK, ang mga pagbabago na nagpapanatili o nawawalan ng posisyon ng pila, at ang pag-iwas sa self-trade ay iginiit ng labing-apat na invariant pagkatapos ng bawat command sa isang seeded fuzz suite. Ang browser ay nakakakuha ng sampung hertz na hagdan sa ibabaw ng Action Cable, habang ang mga command ay umaakyat sa HTTP.",
         "title": "PIT matching engine"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Isang tool sa kalidad ng data na nakabatay sa browser na nagpapatunay at nagfo-format ng JSON at YAML gamit ang isang Go engine na pinagsama-sama sa WebAssembly. Ang arkitektura ay patuloy na nag-parse malapit sa user para sa mabilis, pribadong feedback habang ipinapatupad ang mga tunay na panuntunan ng syntax sa hangganan ng data. Ito ay isang compact na halimbawa ng pagdidisenyo ng isang maaasahang daloy ng trabaho ng developer sa paligid ng kawastuhan, pagganap, at pagtitiwala.",
+    "description": "Ang Auto-Linter ay isang tool sa kalidad ng data na nakabatay sa browser na nagpapatunay at nag-format ng JSON, YAML, XML, HTML, TOML, CSV at TSV na may Zig engine na pinagsama-sama sa WebAssembly. Ang pag-parse ay nananatiling malapit sa user para sa mabilis at pribadong feedback habang ipinapatupad ang mga tunay na panuntunan ng syntax sa hangganan ng data. Pinapanatili nito ang teksto ng may-akda, tinatanggihan ang maling pag-input, at ipinapakita kung paano mapapagana ng isang maliit na module ng WebAssembly ang isang maaasahang daloy ng trabaho ng developer.",
     "more_info1": "Para sa karagdagang impormasyon, sumangguni sa README sa",
     "more_info2": "Repository ng Auto-Linter.",
     "format_as": "Format Bilang:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Wika ng Tigre",
-    "description": "Ang Tiger ay isang custom na programming language at Go interpreter na binuo para i-explore ang runtime architecture, language semantics, at performance tradeoffs. Ang pagsasama-sama ng interpreter sa WebAssembly ay nagiging isang interactive, browser-based na produkto: ang mga user ay maaaring direktang magsagawa ng mga programa habang ang runtime ay nananatiling portable at nakahiwalay sa host application.",
+    "description": "Ang Tiger ay isang production-grade custom programming language at isang Rust interpreter na binuo para sa pagganap. Ang pinagsama-samang bytecode engine nito at tree-walking reference interpreter ay nananatili sa lockstep sa isang 44-program na benchmark corpus, at pinapanatili ng nakapares na in-process na protocol ang runtime sa o nauuna sa CPython sa bawat iginiit na seksyon, na may performance na direktang nakikipagkumpitensya sa Python at Ruby para sa pang-araw-araw na scripting. Ang orihinal na Go interpreter ay nananatiling available bilang isang legacy na pagpapatupad. Ang pag-compile ng interpreter sa WebAssembly ay nagiging isang interactive, browser-based na produkto: ang mga user ay maaaring direktang magsagawa ng mga program habang ang runtime ay nananatiling portable at nakahiwalay sa host application.",
     "more_info1": "Para sa karagdagang impormasyon, sumangguni sa README sa",
     "more_info2": "GitHub Repository ng Wika ng Tiger Programming.",
     "select_engine": "Piliin ang Engine:",

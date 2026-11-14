@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Uz pārlūkprogrammu balstīts JSON un YAML validācijas un formatēšanas rīks, kas iebūvēts Go un kompilēts WebAssembly. Pārvietojot parsēšanas programmu uz WASM, mijiedarbība tiek saglabāta atsaucīga un lokāla pārlūkprogrammai, vienlaikus izmantojot īstu parsētāju, lai uztvertu nederīgu ievadi. Tas ir mērķtiecīgs piemērs izpildlaika arhitektūras izvēlei veiktspējai, pārnesamībai un lietotāju uzticībai.",
+        "text": "Auto-Linter ir uz pārlūkprogrammu balstīta linter un formatētājs JSON, YAML, XML, HTML, TOML, CSV un TSV. Zig dzinējs tiek kompilēts WebAssembly un pilnībā darbojas pārlūkprogrammā: tas tiek pārbaudīts, izmantojot reālus parsētājus, atkārtoti ievieto dokumentus, nepārrakstot to saturu, un saglabā komentārus, enkurus, CDATA, citātus un ciparu precizitāti. Projekts aptver trīs implementācijas — Go, Rust un Zig — ar iepriekšējām versijām, kas ir arhivētas salīdzināšanai.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skriptu bibliotēka",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Konsolidēta automatizācijas skriptu bibliotēka ar vienu lapu katrā valodā: VBA Excel izklājlapām, Lua vieglajiem rīkiem, PowerShell Windows administrēšanai, Python ikdienas datu darbam un Ruby skriptu eksperimentiem. Katrs skripts ir rakstīts, lai to izmantotu atkārtoti, tāpēc kolekcija tiek uzturēta kā viens projekts piecu izkliedētu krātuvju vietā.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael šifrēšanas projekts",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Salīdzinoša {implementations} Rijndael implementāciju kopa 128, 192 un 256 bitu variantos. Drošības ziņā jutīga algoritma atkārtota ieviešana dažādās valodās ir disciplinēts vingrinājums precīzām specifikācijām, pārbaudāmai uzvedībai un valodas līmeņa pārnesamības ierobežojumiem, kas ir noderīgi instinkti sistēmām, kas apstrādā sensitīvus datus.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubika kuba risinātājs",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interaktīvs 3D Rubika kubs, kurā uzlīmējat uzlīmi pēc uzlīmes — uz paša kuba vai uz tā izlocītā tīkla — un pēc tam atrisiniet, izmantojot Herberta Kociemba stila divfāžu meklēšanu, kas apkopota no Rust līdz WebAssembly. Svelte interfeiss atveido kubu ar three.js, saglabā krāsoto stāvokli, tā derīguma pārbaudes un risinātāja fasetes virkni sinhronizācijā, kā arī atskaņo risinājuma kustību pa kustībām atpakaļ laika skalā, kuru varat notīrīt, iziet cauri un atkārtoti atskaņot.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft stila vokseļu spēle, kas iebūvēta Rust ar wgpu un kompilēta WebAssembly, tāpēc tā tiek atskaņota tieši pārlūkprogrammā. Tā ir arkādes smilškastes konstrukcija: bloķēts reljefs un vokseļu pasaule, kas zīmēta caur modernu grafikas cauruļvadu, kas no jauna uzrakstīta Rust rīku ķēdē, nevis spēles dzinēja virsotnē.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tīģera programmēšanas valoda",
-        "text": "Programmā Go iebūvēta pielāgota programmēšanas valoda un tulks, lai izpētītu valodas izpildlaika dizainu, izpildes uzvedību un veiktspējas kompromisus. Kompilējot to WebAssembly un integrējot to portfelī, tiek izveidota reāla, pārbaudāma produkta virsma sistēmu līmeņa inženierijai, nevis atstāta darbu kā tikai repozitorija eksperiments.",
+        "text": "Pielāgota programmēšanas valoda un tulks, kas iebūvēts Rust, lai izpētītu valodas izpildlaika dizainu, izpildes uzvedību un veiktspējas kompromisus. Sākotnējais Go tulks joprojām ir pieejams kā mantota ieviešana. Kompilējot to WebAssembly un integrējot to portfelī, tiek radīta reāla, pārbaudāma produkta virsma sistēmu līmeņa inženierijai, nevis atstāts darbs kā tikai repozitorija eksperiments.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Šaha dzinējs",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Šaha dzinējs, kas rakstīts Rust un apkopots WebAssembly. Tā meklē, izmantojot iteratīvu padziļināšanu negamax, alfa-beta atzarošanu, 32 MB transponēšanas tabulu un klusuma meklēšanu lapās; tā vērtē ar konusveida gabala kvadrātveida galdiem un pasūta MVV-LVA gājienus, killerus un vēsturi. Dzinējs darbojas Web Worker, tāpēc dēlis nekad nesasaldē, un tā pārvietošanās ģenerators pārlūkprogrammā tiek pārbaudīts, salīdzinot ar publicētajiem skaitļiem — 20, 400, 8 902, 197 281 un 4 865 609 mezgli pirmajos piecos dziļumos."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 ir meliorācijas projekts: tas, kas sākās kā puspabeigta CPSC 4160 spēle koledžā — satveriet pēdējos tualetes papīra ruļļus un sasniedziet kasi, pirms baktērijas jūs nogurdina — ir no jauna pārbūvēts kā moderns C++20 dzinējs SDL2 un apkopots WebAssembly. Tas piegādā desmit pieaugošas ejas ar patrulēšanas un dīgļu dzīšanas AI, uztvērējiem, daļiņām un skārienvadības ierīcēm, neviena no sākotnējā prototipa saīsnēm."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Deterministisks, atkārtoti atskaņojams limitu pasūtījumu grāmatu saskaņošanas dzinējs. Pats dzinējs ir tīrs rubīns bez Rails, ko apkalpo Rails 8, izmantojot vienu SQLite failu. Katra komanda tiek pievienota priekšrakstīšanas žurnālam, pirms dzinējs to redz, tāpēc jebkurš grāmatas pagātnes stāvoklis ir redzams vienu reizi, un atkārtojums tiek pierādīts, salīdzinot pirkstu nospiedumus, kas reģistrēti tirgus darbības laikā. Cenas-laika prioritāte, GTC/IOC/FOK, grozījumi, kas saglabā vai zaudē rindas pozīciju, un paštirdzniecības novēršanu nodrošina četrpadsmit invarianti pēc katras komandas iesētā fuzz komplektā. Pārlūkprogramma iegūst desmit hercu kāpnes, izmantojot Action Cable, savukārt komandas tiek palielinātas, izmantojot HTTP.",
         "title": "PIT saderināšanas dzinējs"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Uz pārlūkprogrammu balstīts datu kvalitātes rīks, kas validē un formatē JSON un YAML, izmantojot Go dzinēju, kas kompilēts WebAssembly. Arhitektūra turpina analizēt lietotāja tuvumā, lai nodrošinātu ātru, privātu atgriezenisko saiti, vienlaikus ieviešot reālus sintakses noteikumus datu robežās. Tas ir kompakts piemērs uzticamas izstrādātāja darbplūsmas izveidei, ņemot vērā pareizību, veiktspēju un uzticamību.",
+    "description": "Auto-Linter ir uz pārlūkprogrammu balstīts datu kvalitātes rīks, kas validē un formatē JSON, YAML, XML, HTML, TOML, CSV un TSV ar Zig dzinēju, kas apkopots WebAssembly. Parsēšana ir tuvu lietotājam, lai nodrošinātu ātru, privātu atgriezenisko saiti, vienlaikus ieviešot reālus sintakses noteikumus datu robežās. Tas saglabā autora tekstu, noraida nepareizi veidotu ievadi un parāda, kā viens neliels WebAssembly modulis var nodrošināt uzticamu izstrādātāja darbplūsmu.",
     "more_info1": "Lai iegūtu papildinformāciju, skatiet README sadaļā",
     "more_info2": "Auto-Linter repozitorijs.",
     "format_as": "Formatēt kā:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tīģera valoda",
-    "description": "Tiger ir pielāgota programmēšanas valoda un Go tulks, kas izstrādāts, lai izpētītu izpildlaika arhitektūru, valodas semantiku un veiktspējas kompromisus. Tulka kompilēšana WebAssembly pārvērš sistēmu darbību par interaktīvu, uz pārlūkprogrammu balstītu produktu: lietotāji var tieši izpildīt programmas, kamēr izpildlaiks paliek pārnēsājams. un izolēts no resursdatora lietojumprogrammas.",
+    "description": "Tiger ir ražošanas līmeņa pielāgota programmēšanas valoda un Rust tulks, kas izstrādāts veiktspējai. Tā kompilētais baitkoda dzinējs un koku staigāšanas atsauces tulks ir bloķēts 44 programmu etalona korpusā, un pārī savienotais procesa protokols nodrošina izpildlaiku CPython līmenī vai apsteidzot to katrā norādītajā sadaļā, nodrošinot veiktspēju, kas tieši konkurē ar Python un Ruby ikdienas skriptu veikšanā. Sākotnējais Go tulks joprojām ir pieejams kā mantota ieviešana. Tulka kompilēšana WebAssembly pārvērš sistēmu darbību par interaktīvu, uz pārlūkprogrammu balstītu produktu: lietotāji var tieši izpildīt programmas, kamēr izpildlaiks paliek pārnēsājams un izolēts no resursdatora lietojumprogrammas.",
     "more_info1": "Lai iegūtu papildinformāciju, skatiet README sadaļā",
     "more_info2": "Tiger programmēšanas valodas GitHub krātuve.",
     "select_engine": "Izvēlieties dzinēju:",

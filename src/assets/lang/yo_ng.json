@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "JSON ti o da lori ẹrọ aṣawakiri ati afọwọsi YAML ati ohun elo kika ti a ṣe sinu Go ati ṣajọ si WebAssembly. Gbigbe ẹrọ itọka sinu WASM jẹ ki ibaraenisepo jẹ idahun ati agbegbe si ẹrọ aṣawakiri lakoko lilo parser gidi kan lati mu titẹ sii ti ko tọ. O jẹ apẹẹrẹ aifọwọyi ti yiyan faaji asiko asiko fun iṣẹ ṣiṣe, gbigbe, ati igbẹkẹle olumulo.",
+        "text": "Laifọwọyi-Linter jẹ linter ti o da lori ẹrọ aṣawakiri ati ọna kika fun JSON, YAML, XML, HTML, TOML, CSV ati TSV. Enjini Zig n ṣe akopọ si WebAssembly ati ṣiṣe ni kikun ni ẹrọ aṣawakiri: o fọwọsi pẹlu awọn atupalẹ gidi, tun-ṣe awọn iwe aṣẹ laisi atunko awọn akoonu wọn, ati tọju awọn asọye, awọn ìdákọró, CDATA, agbasọ ọrọ ati konge nomba. Ise agbese na ni awọn imuṣẹ mẹta - Lọ, Rust ati Zig - pẹlu awọn ẹya iṣaaju ti o wa ni ipamọ fun lafiwe.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Ilé-ìkàwé script",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Ile-ikawe isọdọkan ti awọn iwe afọwọkọ adaṣe, pẹlu oju-iwe kan fun ede: VBA fun awọn iwe kaakiri Excel, Lua fun ohun elo irinṣẹ iwuwo fẹẹrẹ, PowerShell fun iṣakoso Windows, Python fun iṣẹ data lojoojumọ, ati Ruby fun awọn adanwo iwe afọwọkọ. A kọ iwe afọwọkọ kọọkan lati tun lo, nitorinaa a ṣe itọju gbigba naa bi iṣẹ akanṣe kan dipo awọn ibi ipamọ tuka marun.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Iṣẹ akanṣe ifiṣọ-ikọ Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Eto afiwera ti awọn imuṣẹ {implementations} Rijndael kọja 128-, 192-, ati awọn iyatọ 256-bit. Ṣiṣe atunṣe algorithm aabo-aabo kọja awọn ede jẹ adaṣe ibawi ni awọn pato pato, ihuwasi idanwo, ati awọn opin ti gbigbe ipele-ede, gbogbo awọn instincts ti o wulo fun awọn ọna ṣiṣe ti o mu data ifura mu.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Ipànúda Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Ibaṣepọ 3D Rubik's Cube ti o kun sitika nipasẹ sitika - lori cube funrararẹ tabi lori awọn nẹtiwọọki ti a ṣii - ati lẹhinna yanju pẹlu aṣa aṣa Herbert Kociemba ni wiwa ipele meji ti a ṣajọ lati ipata si WebAssembly. Svelte ni wiwo mu cube pẹlu three.js, ntọju awọn ya ipinle, awọn oniwe-wiwulo sọwedowo, ati awọn solver ká facelet okun ni ìsiṣẹpọ, ati ki o yoo awọn ojutu pada gbe nipa gbigbe lori kan Ago ti o le scrub, Akobaratan nipasẹ, ki o si tun-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Ere voxel ara Minecraft ti a ṣe ni Rust pẹlu wgpu ati ṣajọ si WebAssembly, nitorinaa o ṣiṣẹ taara ni ẹrọ aṣawakiri. O jẹ ikole apoti iyanrin ti arcade: ilẹ blocky ati agbaye voxel ti a fa nipasẹ opo gigun ti epo ti ode oni, ti a kọ lati ibere lori ohun elo Rust dipo ju lori ẹrọ ere kan.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Ede siseto Tiger",
-        "text": "Ede siseto aṣa ati onitumọ ti a ṣe sinu Go lati ṣawari apẹrẹ asiko asiko ede, ihuwasi ipaniyan, ati awọn iṣowo iṣẹ. Ṣiṣakojọpọ rẹ si WebAssembly ati sisọpọ sinu portfolio ṣẹda gidi kan, oju ọja ti a ṣe ayẹwo fun imọ-ẹrọ ipele-ipele ju ki o lọ kuro ni iṣẹ bi a ibi ipamọ-nikan ṣàdánwò.",
+        "text": "Ede siseto aṣa ati onitumọ ti a ṣe sinu Rust lati ṣawari apẹrẹ asiko asiko ede, ihuwasi ipaniyan, ati awọn iṣowo iṣẹ ṣiṣe. Onitumọ Go atilẹba si wa bi imuse julọ. Ṣiṣakojọpọ rẹ si WebAssembly ati sisọpọ sinu portfolio ṣẹda gidi kan, oju ọja ti a ṣe ayẹwo fun imọ-ẹrọ ipele-ipele ju ki o lọ kuro ni iṣẹ bi idanwo ibi-ipamọ-nikan.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Eje chess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Ẹnjini chess ti a kọ sinu ipata ati ṣajọ si WebAssembly. O n wa pẹlu negamax ti o jinlẹ, alpha-beta pruning, tabili transposition 32 MB ati wiwa quiescence ni awọn ewe; o akojopo pẹlu tapered nkan-square tabili ati bibere e nipa MVV-LVA, aporó ati itan. Ẹnjini naa nṣiṣẹ ninu Oṣiṣẹ wẹẹbu kan ki igbimọ naa ko di didi, ati pe a ṣe ayẹwo olupilẹṣẹ gbigbe rẹ ni ẹrọ aṣawakiri lodi si awọn iṣiro perft ti a tẹjade - 20, 400, 8,902, 197,281 ati awọn apa 4,865,609 fun awọn ijinle marun akọkọ."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 jẹ iṣẹ akanṣe atunṣe: ohun ti o bẹrẹ bi ere CPSC 4160 ti o pari-idaji ni kọlẹji - gba awọn yipo ti o kẹhin ti iwe igbonse ki o de ibi isanwo ṣaaju ki awọn germs wọ ọ silẹ - ti tun ṣe lati ibere bi ẹrọ C ++20 ode oni lori SDL2 ati pe o ṣajọpọ si WebAssembly. O gbe ọkọ oju-ọna mẹwa ti o pọ si pẹlu patrolling ati lepa germ AI, awọn gbigbe, awọn patikulu ati awọn iṣakoso ifọwọkan, ko si ọkan ninu awọn ọna abuja ti apẹrẹ atilẹba."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "A deterministic, replayable iye to-ibere-iwe tuntun engine. Ẹnjini funrararẹ jẹ Ruby mimọ ti ko si Awọn oju-irin ninu rẹ, ti a ṣiṣẹ nipasẹ Rails 8 lori faili SQLite kan. Gbogbo aṣẹ ni a fi kun iwe kikọ siwaju ṣaaju ki ẹrọ naa to rii, nitorinaa eyikeyi ipo ti o ti kọja ti iwe jẹ ilọpo kan, ati pe atunwi kan jẹ otitọ nipasẹ ifiwera awọn ika ọwọ ti o gbasilẹ lakoko ti ọja naa wa laaye. Ni ayo akoko-owo, GTC/IOC/FOK, ṣe atunṣe ti o tọju tabi padanu ipo isinyi, ati idena iṣowo ti ara ẹni ni a sọ nipasẹ awọn iyatọ mẹrinla lẹhin gbogbo aṣẹ ni suite fuzz ti irugbin. Aṣàwákiri naa gba akaba-hertz mẹwa lori Action Cable, lakoko ti awọn aṣẹ lọ soke lori HTTP.",
         "title": "Eje ifaṣamọna PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Ohun elo didara data ti o da lori ẹrọ aṣawakiri ti o fọwọsi ati ọna kika JSON ati YAML nipa lilo ẹrọ Go ti a ṣajọ si WebAssembly. Awọn faaji n tọju itọka si olumulo fun iyara, awọn esi ikọkọ lakoko imuse awọn ofin sintasi gidi ni aala data. O jẹ apẹẹrẹ iwapọ ti ṣiṣe apẹrẹ iṣan-iṣẹ idagbasoke idagbasoke ti o gbẹkẹle ni ayika titọ, iṣẹ, ati igbẹkẹle.",
+    "description": "Laifọwọyi-Linter jẹ ohun elo didara data ti o da lori ẹrọ aṣawakiri ti o fọwọsi ati awọn ọna kika JSON, YAML, XML, HTML, TOML, CSV ati TSV pẹlu ẹrọ Zig ti a ṣajọpọ si WebAssembly. Parsing duro sunmo olumulo fun iyara, esi ikọkọ lakoko imuṣiṣẹ awọn ofin sintasi gidi ni aala data. O ṣe itọju ọrọ onkọwe, kọ titẹ sii aiṣedeede, ati ṣafihan bi module WebAssembly kekere kan ṣe le ṣe agbara iṣan-iṣẹ idagbasoke idagbasoke ti o gbẹkẹle.",
     "more_info1": "Fun alaye diẹ sii, tọka si README ninu",
     "more_info2": "Ibi ipamọ Auto-Linter.",
     "format_as": "Ilana Bi:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Ede Tiger",
-    "description": "Tiger jẹ ede siseto aṣa ati Go onitumọ ti a ṣe lati ṣe iwadii faaji asiko asiko, atunmọ ede, ati awọn iṣowo iṣẹ ṣiṣe. Ṣiṣakojọpọ onitumọ si WebAssembly yipada pe awọn eto ṣiṣẹ sinu ibaraenisepo, ọja orisun ẹrọ aṣawakiri: awọn olumulo le ṣiṣẹ awọn eto taara lakoko asiko ṣiṣe wa ni gbigbe ati ki o ya sọtọ lati ogun ohun elo.",
+    "description": "Tiger jẹ ede siseto aṣa aṣa iṣelọpọ ati onitumọ Rust ti a ṣe fun iṣẹ ṣiṣe. Enjini bytecode ti a ṣakopọ rẹ ati onitumọ itọkasi lilọ-igi duro ni titiipa kọja 44-protocol benchmark corpus, ati ilana ilana isọdọkan ntọju akoko asiko ni tabi ṣaju CPython lori gbogbo apakan ti a sọ, pẹlu iṣẹ ṣiṣe ti o dije taara pẹlu Python ati Ruby fun iwe afọwọkọ ọjọ-si-ọjọ. Onitumọ Go atilẹba si wa bi imuse julọ. Ṣiṣakojọpọ onitumọ si WebAssembly yipada pe awọn ọna ṣiṣe ṣiṣẹ sinu ibaraenisepo, ọja orisun ẹrọ aṣawakiri: awọn olumulo le ṣiṣẹ awọn eto taara lakoko asiko ṣiṣe wa ni gbigbe ati ya sọtọ lati ohun elo agbalejo.",
     "more_info1": "Fun alaye diẹ sii, tọka si README ninu",
     "more_info2": "Tiger Programming Language GitHub Ibi ipamọ.",
     "select_engine": "Yan Ẹrọ:",

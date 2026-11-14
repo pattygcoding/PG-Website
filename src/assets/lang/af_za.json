@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "'n Blaaier-gebaseerde JSON- en YAML-validerings- en formateringsinstrument wat in Go ingebou is en saamgestel is na WebAssembly. Deur die ontleedenjin na WASM te skuif, hou die interaksie reageer en plaaslik op die blaaier terwyl 'n regte ontleder toegepas word om ongeldige insette te kry. Dit is 'n gefokusde voorbeeld van die keuse van 'n runtime-argitektuur vir werkverrigting, oordraagbaarheid en gebruikersvertroue.",
+        "text": "Auto-Linter is 'n blaaier-gebaseerde linter en formatterer vir JSON, YAML, XML, HTML, TOML, CSV en TSV. Die Zig-enjin word saamgestel na WebAssembly en loop geheel en al in die blaaier: dit bekragtig met regte ontleders, herinkeep dokumente sonder om hul inhoud te herskryf, en behou opmerkings, ankers, CDATA, aanhalings en numeriese akkuraatheid. Die projek strek oor drie implementerings - Go, Rust en Zig - met die vroeëre weergawes wat vir vergelyking geargiveer is.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Skrip-biblioteek",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "'n Gekonsolideerde biblioteek van outomatiseringsskrifte, met een bladsy per taal: VBA vir Excel-sigblaaie, Lua vir liggewiggereedskap, PowerShell vir Windows-administrasie, Python vir alledaagse datawerk, en Ruby vir script-eksperimente. Elke skrif is geskryf om hergebruik te word, so die versameling word in stand gehou as een projek in plaas van vyf verspreide bewaarplekke.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael-enkripsieprojek",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "'n Vergelykende stel {implementations} Rijndael-implementerings oor 128-, 192- en 256-bis variante. Die herimplementering van 'n sekuriteitsensitiewe algoritme oor tale heen is 'n gedissiplineerde oefening in presiese spesifikasies, toetsbare gedrag en die grense van taalvlakoordraagbaarheid, alles nuttige instinkte vir stelsels wat sensitiewe data hanteer.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubik's Cube-oplosser",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "'n Interaktiewe 3D Rubik's Cube wat jy plakker vir plakker verf - op die kubus self of op sy oopgevoude net - en dan oplos met 'n Herbert Kociemba-styl tweefase-soektog wat saamgestel is van Rust tot WebAssembly. Die Svelte-koppelvlak gee die kubus met three.js weer, hou die geverfde toestand, sy geldigheidskontroles en die oplosser se facelet-string gesinchroniseer, en speel die oplossing terug skuif vir skuif op 'n tydlyn wat jy kan skrop, deurstap en weer speel.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "'n Minecraft-styl voxel-speletjie wat in Rust met wgpu gebou is en saamgestel is na WebAssembly, so dit speel reguit in die blaaier. Dit is die arcade se sandbox-bou: blokagtige terrein en 'n voxel-wêreld getrek deur 'n moderne grafiese pyplyn, geskryf van nuuts af op die Rust-gereedskapketting eerder as bo-op 'n speletjie-enjin.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger-programmeertaal",
-        "text": "'n Pasgemaakte programmeertaal en tolk wat in Go ingebou is om taallooptydontwerp, uitvoeringsgedrag en prestasie-afwykings te verken. Deur dit saam te stel na WebAssembly en dit in die portefeulje te integreer, skep 'n werklike, inspekteerbare produkoppervlak vir stelselvlak-ingenieurswese eerder as om die werk as 'n slegs-bewaarplek-eksperiment.",
+        "text": "'n Pasgemaakte programmeertaal en tolk wat in Rust gebou is om taallooptydontwerp, uitvoeringsgedrag en prestasie-afwykings te verken. Die oorspronklike Go-tolk bly beskikbaar as 'n nalatenskapimplementering. Deur dit saam te stel na WebAssembly en dit in die portefeulje te integreer, skep 'n werklike, inspekteerbare produkoppervlak vir ingenieurswese op stelselvlak eerder as om die werk as 'n bewaarplek-net eksperiment te verlaat.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Skaak-enjin",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "'n Skaakenjin geskryf in Rust en saamgestel na WebAssembly. Dit soek met iteratiewe verdieping negamax, alfa-beta snoei, 'n 32 MB transposisie tabel en 'n stilte soektog by die blare; dit evalueer met tapse stuk-vierkantige tabelle en bestel bewegings deur MVV-LVA, moordenaars en geskiedenis. Die enjin loop in 'n Web Worker sodat die bord nooit vries nie, en sy skuifgenerator word in die blaaier gekontroleer teen die gepubliseerde perft tellings - 20, 400, 8 902, 197 281 en 4 865 609 nodusse vir die eerste vyf dieptes."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 is 'n herwinningsprojek: wat begin het as 'n halfvoltooide CPSC 4160-speletjie in die universiteit - gryp die laaste rolle toiletpapier en bereik die betaalpunt voor die kieme jou afslyt - is van nuuts af herbou as 'n moderne C++20-enjin op SDL2 en saamgestel na WebAssembly. Dit stuur tien eskalerende gange met patrollering en jag van kiem-KI, bakkies, deeltjies en raakkontroles, nie een van die kortpaaie van die oorspronklike prototipe nie."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "'n Deterministiese, herspeelbare limiet-order-boek bypassende enjin. Die enjin self is pure Ruby met geen Rails daarin nie, bedien deur Rails 8 oor 'n enkele SQLite-lêer. Elke opdrag word by 'n voorskryf-logboek aangeheg voordat die enjin dit sien, so enige vorige toestand van die boek is een vou weg, en 'n herhaling word getrou bewys deur vingerafdrukke te vergelyk wat aangeteken is terwyl die mark lewendig was. Prys-tyd prioriteit, GTC/IOC/FOK, wysig wat touposisie behou of verloor, en selfhandelvoorkoming word deur veertien onveranderlikes na elke opdrag in 'n gesaaide fuzz-suite beweer. Die blaaier kry 'n tien-hertz-leer oor Action Cable, terwyl opdragte oor HTTP opgaan.",
         "title": "PIT-koördineringsenjin"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "'n Blaaier-gebaseerde datakwaliteithulpmiddel wat JSON en YAML bekragtig en formateer met behulp van 'n Go-enjin wat saamgestel is na WebAssembly. Die argitektuur hou aan om naby die gebruiker te ontleed vir vinnige, private terugvoer terwyl regte sintaksisreëls by die datagrens afdwing. Dit is 'n kompakte voorbeeld van die ontwerp van 'n betroubare ontwikkelaarwerkvloei rondom korrektheid, werkverrigting en vertroue.",
+    "description": "Auto-Linter is 'n blaaier-gebaseerde data-kwaliteit hulpmiddel wat JSON, YAML, XML, HTML, TOML, CSV en TSV valideer en formateer met 'n Zig-enjin wat saamgestel is na WebAssembly. Ontleding bly naby aan die gebruiker vir vinnige, private terugvoer terwyl regte sintaksisreëls by die datagrens afdwing. Dit bewaar die skrywer se teks, verwerp misvormde invoer, en wys hoe een klein WebAssembly-module 'n betroubare ontwikkelaarwerkvloei kan aandryf.",
     "more_info1": "Vir meer inligting, verwys na die README in die",
     "more_info2": "Auto-Linter-bewaarplek.",
     "format_as": "Formateer as:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tiger Taal",
-    "description": "Tiger is 'n pasgemaakte programmeertaal en Go-tolk wat gebou is om runtime-argitektuur, taalsemantiek en prestasie-afwykings te verken. Die samestelling van die tolk na WebAssembly verander daardie stelselwerk in 'n interaktiewe, blaaier-gebaseerde produk: gebruikers kan programme direk uitvoer terwyl die looptyd draagbaar bly en geïsoleer van die gasheertoepassing.",
+    "description": "Tiger is 'n produksie-graad pasgemaakte programmeertaal en 'n Rust-tolk gebou vir prestasie. Sy saamgestelde greepkode-enjin en boomloop-verwysingstolk bly in slot oor 'n 44-program maatstafkorpus, en die gepaarde in-proses protokol hou die looptyd by of voor CPython op elke beweerde afdeling, met werkverrigting wat direk meeding met Python en Ruby vir daaglikse scripting. Die oorspronklike Go-tolk bly beskikbaar as 'n nalatenskapimplementering. Die samestelling van die tolk na WebAssembly verander daardie stelsels se werk in 'n interaktiewe, blaaier-gebaseerde produk: gebruikers kan programme direk uitvoer terwyl die looptyd draagbaar en geïsoleer van die gasheertoepassing bly.",
     "more_info1": "Vir meer inligting, verwys na die README in die",
     "more_info2": "Tiger-programmeertaal GitHub-bewaarplek.",
     "select_engine": "Kies enjin:",

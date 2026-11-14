@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Naršyklėje pagrįstas JSON ir YAML patvirtinimo ir formatavimo įrankis, sukurtas „Go“ ir sukompiliuotas į „WebAssembly“. Perkėlus analizavimo variklį į WASM, sąveika išlieka jautri ir vietinė naršyklėje, o taikant tikrą analizatorių, kad gautų neteisingą įvestį. Tai ryškus vykdymo laiko architektūros pasirinkimo pavyzdys, siekiant užtikrinti našumą, perkeliamumą ir vartotojų pasitikėjimą.",
+        "text": "„Auto-Linter“ yra naršyklėje sukurtas JSON, YAML, XML, HTML, TOML, CSV ir TSV formatavimo įrankis. „Zig“ variklis kompiliuojamas į „WebAssembly“ ir veikia tik naršyklėje: jis patvirtina tikrus analizatorius, iš naujo įtraukia dokumentus neperrašydamas jų turinio ir išsaugo komentarus, inkarus, CDATA, citatas ir skaitinį tikslumą. Projektas apima tris įgyvendinimus – „Go“, „Rust“ ir „Zig“, o ankstesnės versijos suarchyvuotos palyginimui.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Scenarijų biblioteka",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Konsoliduota automatizavimo scenarijų biblioteka su vienu puslapiu kiekvienai kalbai: VBA, skirta „Excel“ skaičiuoklėms, „Lua“, skirta lengviems įrankiams, „PowerShell“, skirta „Windows“ administravimui, „Python“ kasdieniniam duomenų darbui ir „Ruby“ scenarijų eksperimentams. Kiekvienas scenarijus yra parašytas pakartotiniam naudojimui, todėl kolekcija palaikoma kaip vienas projektas, o ne penkios išsklaidytos saugyklos.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael šifravimo projektas",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Lyginamasis {implementations} Rijndael diegimų rinkinys 128, 192 ir 256 bitų variantuose. Saugumui jautraus algoritmo pakartotinis įdiegimas įvairiose kalbose yra disciplinuotas tikslių specifikacijų, tikrinamo elgesio ir kalbos lygio perkeliamumo ribų pratimas – visa tai naudinga instinktai sistemoms, kurios tvarko jautrius duomenis.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Rubiko kubo sprendėjas",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Interaktyvus 3D Rubiko kubas, kurį piešiate lipduką po lipduko – ant paties kubo arba ant jo išskleisto tinklelio – ir išspręskite naudodami Herbert Kociemba stiliaus dviejų fazių paiešką, sudarytą iš Rust į WebAssembly. Svelte sąsaja atvaizduoja kubą su three.js, išlaiko nudažytą būseną, jo galiojimo patikrinimus ir sprendiklio briaunų eilutę sinchronizuojame ir atkuria sprendimą judesiu judesiu laiko juostoje, kurią galite nubraukti, pereiti ir paleisti iš naujo.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft stiliaus vokselių žaidimas, sukurtas „Rust“ su wgpu ir sukompiliuotas „WebAssembly“, todėl žaidžiamas tiesiai naršyklėje. Tai arkados smėlio dėžės konstrukcija: blokuotas reljefas ir vokselių pasaulis, nubrėžtas per šiuolaikinį grafikos vamzdyną, parašytas nuo nulio ant Rust įrankių grandinės, o ne ant žaidimo variklio.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tigro programavimo kalba",
-        "text": "„Go“ integruota programavimo kalba ir vertėjas, kad galėtumėte ištirti kalbos vykdymo laiką, vykdymo elgseną ir našumo kompromisus. Sukompiliavus jį į WebAssembly ir integravus į portfelį, sukuriamas tikras, apžiūrimas produkto paviršius, skirtas sistemų lygmens inžinerijai, o ne palikti darbą kaip Tik saugyklos eksperimentas.",
+        "text": "Pasirinktinė programavimo kalba ir vertėjas, sukurtas „Rust“, siekiant ištirti kalbos vykdymo laiką, vykdymo elgseną ir našumo kompromisus. Originalus „Go“ vertėjas išlieka prieinamas kaip senas diegimas. Sukompiliavus jį į WebAssembly ir integravus į portfelį, sukuriamas tikras, apžiūrimas produkto paviršius, skirtas sistemų lygmens inžinerijai, o ne palikti darbą kaip tik saugyklos eksperimentą.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Šachmatų variklis",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Šachmatų variklis, parašytas Rust ir sukompiliuotas į WebAssembly. Ji ieško naudojant kartotinį gilinimo negamax, alfa-beta genėjimą, 32 MB perkėlimo lentelę ir tylos paiešką lapuose; ji vertina su kūginiais kvadratiniais stalais ir užsako MVV-LVA judesius, žudikus ir istoriją. Variklis veikia Web Worker, todėl plokštė niekada neužšąla, o jos judesių generatorius patikrinamas naršyklėje, palyginti su paskelbtais klaidų skaičiais – 20, 400, 8 902, 197 281 ir 4 865 609 mazgai per pirmuosius penkis gylius."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 yra atkūrimo projektas: tai, kas prasidėjo kaip nebaigtas CPSC 4160 žaidimas koledže – čiupkite paskutinius tualetinio popieriaus ritinėlius ir pasiekite kasą, kol mikrobai nenusibodo – buvo nuo nulio atkurtas kaip modernus C++20 variklis SDL2 ir sukompiliuotas į WebAssembly. Jis pristato dešimt besiplečiančių koridorių su patruliuojančiu ir persekiojančiu AI, rinktuvais, dalelėmis ir jutikliniais valdikliais – nė viena iš pirminio prototipo nuorodų."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Deterministinis, pakartojamas limitų užsakymų knygos atitikimo variklis. Pats variklis yra grynas rubinas, kuriame nėra bėgių, o Rails 8 aptarnaujamas per vieną SQLite failą. Kiekviena komanda pridedama prie įrašymo į priekį žurnalo, kol variklis ją nepamatys, todėl bet kokia ankstesnė knygos būsena yra perlenkta, o pakartojimas įrodomas patikimas palyginus pirštų atspaudus, įrašytus rinkoje veikiant. Kainos ir laiko prioritetas, GTC/IOC/FOK, pataisos, kuriomis išlaikoma arba prarandama pozicija eilėje, ir savaiminio apsikeitimo prevencija yra tvirtinama keturiolika invariantų po kiekvienos komandos pradiniame fuzz rinkinyje. Naršyklė gauna dešimties hercų kopėčias per Action Cable, o komandos kyla per HTTP.",
         "title": "PIT derinimo variklis"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Naršyklės pagrindu sukurtas duomenų kokybės įrankis, kuris patvirtina ir formatuoja JSON ir YAML naudojant „Go“ variklį, sukompiliuotą „WebAssembly“. Architektūra nuolat analizuojama arti vartotojo, kad gautų greitą, privatų grįžtamąjį ryšį, o duomenų ribose įgyvendinamos tikros sintaksės taisyklės. Tai kompaktiškas pavyzdys, kaip sukurti patikimą kūrėjo darbo eigą, susijusią su teisingumu, našumu ir pasitikėjimu.",
+    "description": "„Auto-Linter“ yra naršyklėje pagrįstas duomenų kokybės įrankis, kuris patvirtina ir formatuoja JSON, YAML, XML, HTML, TOML, CSV ir TSV su Zig varikliu, sukompiliuotu į WebAssembly. Nagrinėjimas lieka šalia vartotojo, kad gautų greitą, privatų grįžtamąjį ryšį, o duomenų ribose įgyvendinamos tikros sintaksės taisyklės. Jis išsaugo autoriaus tekstą, atmeta netinkamai suformuotą įvestį ir parodo, kaip vienas mažas WebAssembly modulis gali užtikrinti patikimą kūrėjo darbo eigą.",
     "more_info1": "Norėdami gauti daugiau informacijos, žr. README, esančiame",
     "more_info2": "Auto-Linter saugykla.",
     "format_as": "Formatas kaip:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Tigro kalba",
-    "description": "„Tiger“ yra tinkinta programavimo kalba ir „Go“ vertėjas, skirtas tyrinėti vykdymo architektūrą, kalbos semantiką ir našumo kompromisus. Sukompiliavus vertėją į WebAssembly, sistemos veikia interaktyviu, naršykle pagrįstu produktu: vartotojai gali vykdyti programas tiesiogiai, o vykdymo laikas išlieka nešiojamas. ir izoliuotas nuo pagrindinės programos.",
+    "description": "„Tiger“ yra gamybinio lygio pritaikyta programavimo kalba ir „Rust“ vertėjas, sukurtas našumui. Jo sudarytas baitinio kodo variklis ir medžiu vaikščiojantis nuorodų interpretatorius veikia 44 programų etaloniniame korpuse, o suporuotas proceso protokolas užtikrina, kad kiekvienoje nurodytoje dalyje vykdymo laikas būtų toks pat kaip CPython arba prieš jį, o našumas tiesiogiai konkuruoja su Python ir Ruby dėl kasdienių scenarijų. Originalus „Go“ vertėjas išlieka prieinamas kaip senas diegimas. Sukompiliavus vertėją į WebAssembly, sistemos veikia į interaktyvų, naršyklės pagrindu sukurtą produktą: vartotojai gali vykdyti programas tiesiogiai, o vykdymo laikas išlieka nešiojamas ir atskirtas nuo pagrindinės programos.",
     "more_info1": "Norėdami gauti daugiau informacijos, žr. README, esančiame",
     "more_info2": "Tigro programavimo kalbos GitHub saugykla.",
     "select_engine": "Pasirinkite variklį:",

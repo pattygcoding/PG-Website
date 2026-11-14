@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "He taputapu whakamana a JSON me te YAML i runga i te tirotiro i hangaia i roto i te Haere me te whakahiato ki te WebAssembly. Ko te neke i te miihini parsing ki roto i te WASM ka mau tonu te taunekeneke ki te aro me te rohe ki te kaitirotiro i te wa e tono ana he parser tuuturu hei hopu i te whakauru muhu. He tauira arotahi mo te kowhiri i te hoahoanga wa whakahaere mo te mahi, te kawe, me te whakawhirinaki a te kaiwhakamahi.",
+        "text": "Ko te Auto-Linter he papaa me te whakahōputu mo JSON, YAML, XML, HTML, TOML, CSV me TSV. Ka whakahiato te miihini Zig ki te WebAssembly ka rere katoa i roto i te kaitirotiro: ka whakamanahia me nga parser tuuturu, ka kuhu ano i nga tuhinga me te kore e tuhi ano i o raatau ihirangi, ka pupuri i nga korero, punga, CDATA, whakahua me te tika tau. E toru nga whakatinanatanga o te kaupapa - Haere, Rust me Zig - me nga putanga o mua i purangahia hei whakataurite.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Whare pukapuka tuhinga",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "He whare pukapuka whakatōpū o nga tuhinga aunoa, kotahi te wharangi mo ia reo: VBA mo nga ripanga Excel, Lua mo te taputapu mama, PowerShell mo te whakahaere Windows, Python mo nga mahi raraunga ia ra, me Ruby mo nga whakamatautau tuhi. Ka tuhia ia tuhinga hei whakamahi ano, no reira ka mau tonu te kohinga hei kaupapa kotahi, kaua ki nga putunga marara e rima.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Kaupapa whakamunanga Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "He huinga whakatairite o {implementations} Rijndael whakatinana puta noa i nga momo 128-, 192-, me te 256-bit. Ko te whakatinana i te algorithm tairongo-haumarutanga puta noa i nga reo he mahi maataki i roto i nga whakaritenga tika, te whanonga ka taea te whakamatautau, me nga tepe o te kawe taumata-reo, nga parapara whaihua katoa mo nga punaha e hapai ana i nga raraunga tairongo.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Whakaahua Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "He Matapihi Rubik 3D tauwhitiwhiti ka peitahia e koe ma te whakapiri - i runga i te mataono tonu, i runga ranei i tana kupenga tuwhera - ka whakaoti ma te ahua Herbert Kociemba rapu-waahanga e rua i kohia mai i Rust ki WebAssembly. Ko te atanga Svelte e whakaatu ana i te mataono ki te toru.js, ka pupuri i te ahua peita, ona arowhai whaimana, me te aho facelet o te kaiwhakarewa i roto i te tukutahi, me te purei i te otinga whakamuri ma te neke i runga i te raarangi ka taea e koe te horoi, te hikoi, me te purei ano.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "He keemu voxel ahua Minecraft i hangaia ki Rust me te wgpu ka whakahiato ki te WebAssembly, no reira ka purei tika ki te tirotiro. Ko te hanga pouaka kirikiri o te arcade: te whenua paraka me te ao voxel i toia mai i te paipa whakairoiro hou, i tuhia mai i te wahanga ki runga i te mekameka taputapu Rust, kaua ki runga ake o te miihini keemu.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Te Reo Papatono Tiger",
-        "text": "He reo whakahōtaka ritenga me te kaiwhakamaori i hangaia i roto Haere ki te tuhura i te hoahoa wa-haere reo, te whanonga mahi, me nga whakawhitinga mahi. Ko te whakahiato ki te WebAssembly me te whakauru ki roto i te kopaki ka hangaia he mata hua tino, ka taea te tirotiro mo te miihini taumata-raupapa, kaua ki te waiho i te mahi hei he whakamatautau-anake.",
+        "text": "He reo whakahōtaka ritenga me te kaiwhakamaori i hangaia i roto i te Rust ki te tuhura i te hoahoa wa whakahaere reo, te whanonga mahi, me nga mahi hokohoko. Kei te waatea tonu te kaiwhakamaori a Go hei whakatinanatanga tuku iho. Ko te whakahiato ki te WebAssembly me te whakauru ki roto i te kopaki ka hangaia he mata hua tino, ka taea te tirotiro mo te miihini taumata-raupapa, kaua ki te waiho i te mahi hei whakamatautau putunga-anake.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Miihini chess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "He miihini chess i tuhia ki te Rust ka whakahiato ki WebAssembly. Ka rapua me te negamax whakahohonu haere, he tapahi alpha-beta, he ripanga whakawhiti 32 MB me te rapu quiescence i nga rau; ka arotakehia me nga teepu tapawha tapawha me te whakahau i nga nekehanga a MVV-LVA, nga kaipatu me nga hitori. Ka rere te miihini i roto i te Kaimahi Tukutuku kia kore ai te poari e whakatio, ka takina tana kaihanga neke i roto i te kaitirotiro ki nga kaute i whakaputaina - 20, 400, 8,902, 197,281 me te 4,865,609 node mo nga rire tuatahi e rima."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Ko te Reclaim 4160 he kaupapa whakaora: he aha te mea i timata mai i te keemu CPSC 4160 kua oti te haurua i te kaareti - kapohia nga rarangi whakamutunga o te pepa wharepaku ka tae atu ki te utu i mua i te paunga o te iroriki - kua hanga ano mai i te wahanga hei miihini C++20 hou i runga i te SDL2 ka whakahiatohia ki WebAssembly. Ka tukuna e ia tekau nga huarahi e piki haere ana me te tirotiro me te whai i te iroriki AI, te tiki, nga matūriki me nga mana pa, kaore tetahi o nga pokatata o te tauira taketake."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "He pūkaha whakaōrite, he pūkaha whakaōrite pukapuka tepe-raupapa. Ko te miihini tonu he Ruby parakore kaore he Rails kei roto, ka tukuna e Rails 8 mo te konae SQLite kotahi. Ko nga whakahau katoa ka apitihia ki te raarangi tuhi i mua i te kitenga o te miihini, na reira ko nga ahuatanga o mua o te pukapuka ka wehe kotahi, a ka kitea te pono o te tukurua ma te whakataurite i nga tapumati i hopukina i te wa e ora ana te maakete. Ko te kaupapa matua o te utu, GTC/IOC/FOK, he whakatikatika e pupuri ana, e ngaro ana ranei te tuunga tutira, me te aukati hokohoko-whaiaro e kii ana te tekau ma wha nga rereke i muri i ia whakahau i roto i te huinga kakano kakano. Ka whiwhi te kaitirotiro i te arawhata tekau-hertz i runga i te Tauera Mahi, ka piki ake nga whakahau ki runga HTTP.",
         "title": "Miihini whakatairite PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "He taputapu kounga raraunga e pa ana ki te kaitirotiro e whakamana ana, e whakahōputu ana i a JSON me YAML ma te whakamahi i te miihini Go i whakahiato ki WebAssembly. Ko te hoahoanga e noho tata ana ki te kaiwhakamahi mo te tere, mo te urupare motuhake i te wa e whakamanahia ana nga ture wetereo pono i te rohenga raraunga. He tauira kiato o te hoahoa i te rerengamahi kaiwhakawhanake pono mo te tika, te mahi, me te whakawhirinaki.",
+    "description": "Ko te Auto-Linter he taputapu kounga-raraunga e pa ana ki te kaitirotiro e whakamana ana me te whakahōputu i a JSON, YAML, XML, HTML, TOML, CSV me TSV me te miihini Zig i whakahiato ki te WebAssembly. Ka noho tata te Parsing ki te kaiwhakamahi mo te urupare tere, mo te urupare motuhake i te wa e whakakaha ana i nga ture wetereo pono i te rohenga raraunga. Ka tiakina e ia te tuhinga a te kaituhi, ka whakakore i te whakaurunga kino, me te whakaatu me pehea e taea ai e tetahi kōwae WebAssembly iti te mana i te rerengamahi kaiwhakawhanake.",
     "more_info1": "Mo etahi atu korero, tirohia te README i roto i te",
     "more_info2": "Te putia o Auto-Linter.",
     "format_as": "Whakahōputu Hei:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Te Reo Tiger",
-    "description": "Ko te Tiger he reo whakahōtaka ritenga me te kaiwhakamaori Haere i hangaia ki te torotoro i te hoahoanga o te wa whakahaere, nga tohu reo, me nga mahi hokohoko. Ko te whakahiato i te kaiwhakamaori ki te WebAssembly ka huri ka mahi nga punaha ki roto i te hua tauwhitiwhiti, i runga i te kaitirotiro: ka taea e nga kaiwhakamahi te whakahaere tika i nga papatono i te wa e mau tonu ana te wa whakahaere. ka wehea mai i te tono kaihautu.",
+    "description": "Ko te Tiger he reo hootaka ritenga-whakaputa me te kaiwhakamaori Rust i hangaia mo te mahi. Ko tana miihini bytecode kua whakahiato me te kaiwhakamaori tohutoro hikoi-rakau e noho ana i roto i te raka i runga i te huinga tohu tohu 44-hōtaka, me te kawa-a-tukatuka takirua e pupuri ana i te wa oma i mua atu ranei i te CPython i runga i nga waahanga e kii ana, me nga mahi e whakataetae tika ana ki a Python me Ruby mo te tuhi tuhi o ia ra. Kei te waatea tonu te kaiwhakamaori a Go hei whakatinanatanga tuku iho. Ko te whakahiato i te kaiwhakamaori ki te WebAssembly ka huri ka mahi nga punaha ki te hua tauwhitiwhiti, hua-tirotiro: ka taea e nga kaiwhakamahi te whakahaere tika i nga kaupapa i te wa e mau tonu ana te wa whakahaere me te wehe mai i te tono manaaki.",
     "more_info1": "Mo etahi atu korero, tirohia te README i roto i te",
     "more_info2": "Te Reo Papatono Tiger Repository GitHub.",
     "select_engine": "Tīpako Pūkaha:",

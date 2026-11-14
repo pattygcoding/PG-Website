@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "Għodda għall-validazzjoni u l-ifformattjar tal-JSON u YAML ibbażata fuq il-brawżer mibnija f'Go u kkompilata f'WebAssembly. Iċ-ċaqliq tal-magna tal-parsing f'WASM iżomm l-interazzjoni reattiva u lokali għall-browser filwaqt li tapplika parser reali biex jaqbad input invalidu. Huwa eżempju ffukat tal-għażla ta 'arkitettura runtime għall-prestazzjoni, il-portabbiltà, u l-fiduċja tal-utent.",
+        "text": "Auto-Linter huwa linter u formatter ibbażat fuq browser għal JSON, YAML, XML, HTML, TOML, CSV u TSV. Il-magna Zig tikkompila għal WebAssembly u taħdem għal kollox fil-browser: tivvalida b'parsers reali, terġa 'tintlaħ id-dokumenti mingħajr tikteb mill-ġdid il-kontenut tagħhom, u tippreserva l-kummenti, l-ankri, is-CDATA, il-kwotazzjoni u l-preċiżjoni numerika. Il-proġett jifrex fuq tliet implimentazzjonijiet — Go, Rust u Zig — bil-verżjonijiet preċedenti arkivjati għal tqabbil.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "Librerija ta' scripts",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "Librerija kkonsolidata ta’ skripts ta’ awtomazzjoni, b’paġna waħda għal kull lingwa: VBA għal spreadsheets Excel, Lua għal għodda ħafifa, PowerShell għall-amministrazzjoni tal-Windows, Python għal xogħol ta’ dejta ta’ kuljum, u Ruby għal esperimenti ta’ scripting. Kull skript huwa miktub biex jerġa' jintuża, u għalhekk il-kollezzjoni tinżamm bħala proġett wieħed minflok ħames repożitorji mferrxa.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Proġett ta' ċifrar Rijndael",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "Sett komparattiv ta' {implementations} implimentazzjonijiet ta' Rijndael fuq varjanti ta' 128-, 192-, u 256-bit. L-implimentazzjoni mill-ġdid ta' algoritmu sensittiv għas-sigurtà fil-lingwi kollha huwa eżerċizzju dixxiplinat fi speċifikazzjonijiet eżatti, imġieba li tista' tiġi ttestjata, u l-limiti tal-portabbiltà fil-livell tal-lingwa, kollha instinti utli għal sistemi li jimmaniġġjaw data sensittiva.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "Solventur Rubik's Cube",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "Rubik's Cube 3D interattiv inti żebgħa stiker b'istiker - fuq il-kubu innifsu jew fuq ix-xibka mhux mitwija tiegħu - u mbagħad issolvi b'tfittxija f'żewġ fażijiet stil Herbert Kociemba miġbura minn Rust għal WebAssembly. L-interface Svelte tirrendi l-kubu bi three.js, iżomm l-istat miżbugħ, il-kontrolli tal-validità tiegħu, u s-sekwenza tal-facelet tas-solver f'sinkronizzazzjoni, u tilgħab is-soluzzjoni lura mossa b'ċaqliq fuq linja ta 'żmien li tista' Scrub, pass permezz, u terġa 'tilgħab.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Logħba voxel stil Minecraft mibnija fis-sadid b'wgpu u kkompilata għal WebAssembly, għalhekk tilgħab dritta fil-browser. Hija l-bini tar-ramel tal-arcade: terren imblokka u dinja voxel mfassla permezz ta 'pipeline ta' grafika moderna, miktuba mill-bidu fuq is-sadid toolchain aktar milli fuq quċċata ta 'magna tal-logħob.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programming Language",
-        "text": "Lingwa ta' programmar apposta u interpretu mibni f'Mur biex tesplora d-disinn tar-runtime tal-lingwa, l-imġieba ta' eżekuzzjoni, u l-kompromessi tal-prestazzjoni. Il-kumpilazzjoni tagħha ma' WebAssembly u l-integrazzjoni tagħha fil-portafoll toħloq wiċċ tal-prodott reali u spezzjonabbli għall-inġinerija fil-livell tas-sistemi aktar milli tħalli x-xogħol bħala esperiment ta' repożitorju biss.",
+        "text": "Lingwa ta' programmar u interpretu apposta mibnija f'Rut biex jesploraw id-disinn tal-lingwa runtime, l-imġieba tal-eżekuzzjoni, u l-kompromessi tal-prestazzjoni. L-interpretu oriġinali ta' Go jibqa' disponibbli bħala implimentazzjoni legacy. Il-kumpilazzjoni tagħha ma' WebAssembly u l-integrazzjoni tagħha fil-portafoll toħloq wiċċ ta 'prodott reali u spezzjonabbli għall-inġinerija fil-livell tas-sistemi aktar milli tħalli x-xogħol bħala esperiment ta' repożitorju biss.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "Motur tal-iċċess",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "Magna taċ-ċess miktuba bir-Rut u miġbura għal WebAssembly. Hija tfittex b'negamax iterattiv ta 'approfondiment, żbir alpha-beta, tabella ta' traspożizzjoni ta '32 MB u tfittxija ta' quiescence fil-weraq; jevalwa b'tabelli biċċa-kwadru għax-xejn u tordna ċaqliq minn MVV-LVA, qattiela u storja. Il-magna taħdem f'Web Worker sabiex il-bord qatt ma jiffriża, u l-ġeneratur tal-moviment tiegħu jiġi ċċekkjat fil-browser kontra l-għadd tal-perft ippubblikat - 20, 400, 8,902, 197,281 u 4,865,609 nodi għall-ewwel ħames fond."
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 huwa proġett ta 'reklamazzjoni: dak li beda bħala logħba CPSC 4160 nofs lest fil-kulleġġ - aqbad l-aħħar rollijiet ta' toilet paper u tilħaq iċ-checkout qabel ma l-mikrobi jilbsuk - reġa' nbena mill-bidu bħala magna moderna C++20 fuq SDL2 u kkompilata għal WebAssembly. Tibgħat għaxar passaġġi li qed jeskalaw bl-għassa u l-ġiri tal-mikrobi AI, pickups, partiċelli u kontrolli tal-mess, l-ebda waħda mis-shortcuts tal-prototip oriġinali."
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "Magna ta' tqabbil deterministiku, replayable-limit-order-book. Il-magna nnifisha hija Ruby pur mingħajr Rails fiha, moqdija minn Rails 8 fuq fajl SQLite wieħed. Kull kmand huwa mehmuż ma 'ġurnal ta' write-ahead qabel ma l-magna tarah, għalhekk kwalunkwe stat tal-passat tal-ktieb huwa darba waħda 'l bogħod, u replay huwa ppruvat fidil billi jitqabblu l-marki tas-swaba' rreġistrati waqt li s-suq kien ħaj. Prijorità tal-prezz tal-ħin, GTC/IOC/FOK, emendi li jżommu jew jitilfu l-pożizzjoni tal-kju, u l-prevenzjoni ta 'l-awto-kummerċ huma affermati minn erbatax-il invarjant wara kull kmand f'suite fuzz miżrugħa. Il-browser jieħu sellum ta 'għaxar hertz fuq Action Cable, filwaqt li l-kmandi jitla' fuq HTTP.",
         "title": "Motur ta' match PIT"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "Għodda tal-kwalità tad-dejta bbażata fuq il-browser li tivvalida u tifformattja JSON u YAML billi tuża magna Go kkompilata għal WebAssembly. L-arkitettura żżomm parsing qrib l-utent għal feedback veloċi u privat filwaqt li tinforza regoli tas-sintassi reali fil-konfini tad-dejta. Huwa eżempju kompatt tat-tfassil ta 'fluss tax-xogħol ta' żviluppatur affidabbli madwar il-korrettezza, il-prestazzjoni u l-fiduċja.",
+    "description": "Auto-Linter hija għodda tal-kwalità tad-dejta bbażata fuq il-browser li tivvalida u tifformattja JSON, YAML, XML, HTML, TOML, CSV u TSV b'magna Zig miġbura ma' WebAssembly. Il-parsing jibqa' qrib l-utent għal feedback veloċi u privat filwaqt li jinforza regoli reali tas-sintassi fil-konfini tad-dejta. Jippreserva t-test tal-awtur, jirrifjuta input malformat, u juri kif modulu WebAssembly wieħed żgħir jista' jħaddem fluss tax-xogħol tal-iżviluppatur affidabbli.",
     "more_info1": "Għal aktar informazzjoni, irreferi għall-README fil-",
     "more_info2": "Repożitorju Auto-Linter.",
     "format_as": "Format Kif:",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "Lingwa Tiger",
-    "description": "Tiger hija lingwa ta' programmar apposta u interpretu Go mibnija biex tesplora l-arkitettura tar-runtime, is-semantika tal-lingwa, u l-kompromessi tal-prestazzjoni. Il-kumpilazzjoni tal-interpretu għal WebAssembly iddawwar li s-sistemi jaħdmu fi prodott interattiv ibbażat fuq il-brawżer: l-utenti jistgħu jeżegwixxu programmi direttament filwaqt li r-runtime jibqa’ portabbli u iżolati mill-applikazzjoni ospitanti.",
+    "description": "Tiger hija lingwa ta 'programmar personalizzata ta' grad ta 'produzzjoni u interpretu Rust mibnija għall-prestazzjoni. Il-magna tal-bytecode kkompilata tagħha u l-interpretu ta’ referenza tal-mixi tas-siġar jibqgħu f’lokk tul corpus ta’ benchmark ta’ 44 programm, u l-protokoll fil-proċess imqabbad iżomm ir-runtime fuq jew qabel CPython fuq kull sezzjoni affermata, b’rendiment li jikkompeti direttament ma’ Python u Ruby għal scripting ta’ kuljum. L-interpretu oriġinali ta' Go jibqa' disponibbli bħala implimentazzjoni legacy. Il-kumpilazzjoni tal-interpretu għal WebAssembly iddawwar li s-sistemi jaħdmu fi prodott interattiv, ibbażat fuq il-browser: l-utenti jistgħu jeżegwixxu programmi direttament filwaqt li r-runtime jibqa’ portabbli u iżolat mill-applikazzjoni ospitanti.",
     "more_info1": "Għal aktar informazzjoni, irreferi għall-README fil-",
     "more_info2": "Tiger Programming Language GitHub Repożitorju.",
     "select_engine": "Agħżel il-Magna:",

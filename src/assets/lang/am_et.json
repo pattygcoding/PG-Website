@@ -305,7 +305,7 @@
       },
       "formatter": {
         "title": "Auto-Linter",
-        "text": "በአሳሽ ላይ የተመሰረተ JSON እና YAML የማረጋገጫ እና የቅርጸት መሳሪያ በGo ውስጥ የተሰራ እና ወደ WebAssembly የተጠናቀረ። ትክክለኛ ያልሆነ ግቤት ለማግኘት ትክክለኛ ተንታኝን በመተግበር ላይ ያለውን መተንተን ሞተሩን ወደ WASM መውሰድ መስተጋብር ምላሽ ሰጭ እና ለአሳሹ አካባቢያዊ ያደርገዋል። ለአፈጻጸም፣ ተንቀሳቃሽነት እና የተጠቃሚ እምነት የሩጫ ጊዜ አርክቴክቸርን የመምረጥ ያተኮረ ምሳሌ ነው።",
+        "text": "Auto-Linter አሳሽ ላይ የተመሰረተ ለJSON፣ YAML፣ XML፣ HTML፣ TOML፣ CSV እና TSV ፎርማት ነው። የዚግ ኤንጂን ወደ WebAssembly ያጠናቅራል እና ሙሉ በሙሉ በአሳሹ ውስጥ ይሰራል፡ በእውነተኛ ተንታኞች ያረጋግጣል፣ ይዘታቸውን ሳይፅፉ ሰነዶችን እንደገና ያስቀምጣል፣ እና አስተያየቶችን፣ መልህቆችን፣ ሲዲኤታን፣ ጥቅሶችን እና የቁጥር ትክክለኛነትን ይጠብቃል። ፕሮጀክቱ ሶስት አተገባበርን ያጠቃልላል - Go, Rust እና Zig - ቀደምት ስሪቶች ለማነፃፀር በማህደር ተቀምጠዋል.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -335,7 +335,7 @@
       },
       "scripting_library": {
         "title": "የ script ቤተ-መጻሕፍት",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "text": "የተዋሃደ የአውቶሜሽን ስክሪፕቶች ቤተ መጻሕፍት፣ በቋንቋ አንድ ገጽ፡ VBA ለኤክሴል የተመን ሉህ፣ ሉአ ለቀላል ክብደት መሣሪያ፣ PowerShell ለዊንዶውስ አስተዳደር፣ Python ለዕለታዊ መረጃ ሥራ፣ እና Ruby ለስክሪፕት ሙከራዎች። እያንዳንዱ ስክሪፕት እንደገና ጥቅም ላይ እንዲውል የተፃፈ ነው, ስለዚህ ስብስቡ ከአምስት የተበታተኑ ማከማቻዎች ይልቅ እንደ አንድ ፕሮጀክት ይቆያል.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -355,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "የ Rijndael ምስጠራ ፕሮጀክት",
-        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
+        "text": "በ128-፣ 192- እና 256-ቢት ተለዋጮች መካከል ያለው የ{implementations} Rijndael ትግበራዎች ንፅፅር ስብስብ። በቋንቋዎች ውስጥ ደህንነትን የሚነካ ስልተ-ቀመርን እንደገና መተግበር በትክክለኛ ዝርዝር መግለጫዎች፣ ሊፈተን የሚችል ባህሪ እና የቋንቋ ደረጃ ተንቀሳቃሽነት ገደቦች ላይ የሰለጠነ ልምምድ ነው፣ ሁሉም ሚስጥራዊነት ያለው መረጃን ለሚይዙ ስርዓቶች ጠቃሚ ውስጠቶች።",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -365,7 +365,7 @@
       },
       "rubix_cube_solver": {
         "title": "የ Rubik's Cube ፈታኛ",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "text": "በይነተገናኝ 3D Rubik's Cube ተለጣፊን በተለጣፊ - በራሱ ኪዩብ ላይ ወይም በተዘረጋው መረቡ ላይ - እና ከዛ በ Herbert Kociemba style ባለ ሁለት-ደረጃ ፍለጋ ከ Rust እስከ WebAssembly በተጠናቀረ። የSvelte በይነገጽ ኩብውን በሶስት.js ያቀርባል፣ የተቀባውን ሁኔታ፣ ትክክለኛነቱን ያረጋግጣል፣ እና የፈታኙን ፊሌትት ሕብረቁምፊ እንዲመሳሰል ያደርጋል፣ እና መፍትሄውን በጊዜ መስመር በማንቀሳቀስ በማሸብለል፣ ማለፍ እና እንደገና መጫወት ይችላሉ።",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -375,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Minecraft-style voxel ጨዋታ በሩስት ውስጥ ከwgpu ጋር አብሮ የተሰራ እና ወደ WebAssembly የተጠናቀረ፣ ስለዚህ በቀጥታ በአሳሹ ውስጥ ይጫወታል። እሱ የመጫወቻ ስፍራው ማጠሪያ ግንባታ ነው፡ blocky terrain እና በዘመናዊ ግራፊክስ ቧንቧ መስመር የተሳለ የቮክሰል አለም በጨዋታ ሞተር ላይ ሳይሆን በ Rust toolchain ላይ ከባዶ የተጻፈ ነው።",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "ነብር ፕሮግራሚንግ ቋንቋ",
-        "text": "በGo ውስጥ የተገነባ ብጁ የፕሮግራም አወጣጥ ቋንቋ እና አስተርጓሚ የቋንቋ የአሂድ ጊዜ ዲዛይንን፣ የአፈጻጸም ባህሪን እና የአፈጻጸም ሽግግሮችን ለማሰስ። ወደ WebAssembly ማጠናቀር እና ወደ ፖርትፎሊዮ ማዋሃድ ስራውን ከመተው ይልቅ ለስርዓተ-ደረጃ ምህንድስና እውነተኛ፣ የማይፈተሽ የምርት ገጽ ይፈጥራል። ማከማቻ-ብቻ ሙከራ።",
+        "text": "የቋንቋ የአሂድ ጊዜ ዲዛይንን፣ የአፈጻጸም ባህሪን እና የአፈጻጸም ግብይቶችን ለማሰስ በሩስት ውስጥ የተገነባ ብጁ የፕሮግራም አወጣጥ ቋንቋ እና ተርጓሚ። ዋናው የ Go አስተርጓሚ እንደ ውርስ ትግበራ ይቀራል። ወደ WebAssembly ማጠናቀር እና ወደ ፖርትፎሊዮው ማዋሃድ ስራውን እንደ ማጠራቀሚያ-ብቻ ሙከራ ከመተው ይልቅ ለስርዓተ-ደረጃ ምህንድስና እውነተኛ እና ሊፈተሽ የሚችል የምርት ገጽ ይፈጥራል።",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -401,16 +401,16 @@
       "chess_engine": {
         "title": "የ chess ሞተር",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+        "text": "የቼዝ ሞተር በሩስት የተፃፈ እና ወደ WebAssembly የተጠናቀረ። እሱ ተደጋጋሚ ጥልቀት ያለው ኔጋማክስ፣ የአልፋ-ቤታ መግረዝ፣ 32 ሜባ የመለዋወጫ ጠረጴዛ እና በቅጠሎች ላይ የጥያቄ ፍለጋን ይፈልጋል። እሱ በተለጠፈ ቁራጭ-ካሬ ጠረጴዛዎች ይገመግማል እና በ MVV-LVA ፣ገዳዮች እና ታሪክ እንቅስቃሴዎችን ያዛል። ሞተሩ በድር ሰራተኛ ውስጥ ይሰራል ስለዚህ ቦርዱ በጭራሽ አይቀዘቅዝም እና የእንቅስቃሴው ጄነሬተር በአሳሹ ውስጥ ከታተሙት የፐርፍት ብዛት - 20, 400, 8,902, 197,281 እና 4,865,609 ኖዶች ለመጀመሪያዎቹ አምስት ጥልቀቶች።"
       },
       "reclaim_4160": {
         "link": "https://arcade.pattygcoding.com/reclaim",
         "title": "Reclaim 4160",
-        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+        "text": "Reclaim 4160 የማገገሚያ ፕሮጄክት ነው፡- በኮሌጅ ውስጥ በግማሽ የተጠናቀቀ ሲፒኤስሲ 4160 ጨዋታ የጀመረው - የመጨረሻውን የሽንት ቤት ወረቀት ያዙ እና ጀርሞቹ እርስዎን ከማዳከምዎ በፊት ቼክ ማውጣቱን ይድረሱ - ከባዶ እንደ ዘመናዊ C ++20 ሞተር በኤስዲኤል 2 ተገንብቶ ወደ WebAssembly ተሰብስቧል። ጀርም AIን፣ ፒካፕን፣ ቅንጣቶችን እና የንክኪ መቆጣጠሪያዎችን በመቆጣጠር እና በማሳደድ አስር የሚያድጉ መንገዶችን ያስተላልፋል፣ ከዋናው ፕሮቶታይፕ የትኛውም አቋራጭ የለም።"
       },
       "pit_matching_engine": {
         "link": "https://github.com/pattygcoding/pit-matching-engine",
-        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "text": "የሚወስን ፣ ሊደገም የሚችል ገደብ-ትዕዛዝ-መጽሐፍ ተዛማጅ ሞተር። ሞተሩ ራሱ ንፁህ Ruby ነው በውስጡ ምንም የባቡር ሐዲድ የሌለው፣ በአንድ የSQLite ፋይል በሬልስ 8 ያገለግላል። እያንዳንዱ ትዕዛዝ ሞተሩ ከማየቱ በፊት አስቀድሞ በሚጽፍ ሎግ ላይ ተያይዟል፣ ስለዚህ የትኛውም የመፅሃፉ ያለፈ ሁኔታ አንድ እጥፍ ይርቃል እና በገበያው ላይ በነበረበት ጊዜ የተመዘገቡትን የጣት አሻራዎች በማነፃፀር ድገም ታማኝነት ያረጋግጣል። የዋጋ-ጊዜ ቅድሚያ፣ GTC/IOC/FOK፣ የወረፋ ቦታን የሚጠብቅ ወይም የሚያጠፋ ማሻሻያ፣ እና የራስ ንግድ መከላከል በአስራ አራት ተለዋዋጮች የተረጋገጠው በዘሩ ፉዝ ስብስብ ውስጥ ካለ እያንዳንዱ ትዕዛዝ በኋላ ነው። አሳሹ በድርጊት ኬብል ላይ አስር ​​ሄርትዝ መሰላል ሲያገኝ ትእዛዞቹ በኤችቲቲፒ ወደ ላይ ይወጣሉ።",
         "title": "የ PIT ማስማቻ ሞተር"
       }
     }
@@ -426,7 +426,7 @@
   },
   "formatter": {
     "title": "Auto-Linter",
-    "description": "በአሳሽ ላይ የተመሰረተ የውሂብ ጥራት መሳሪያ JSON እና YAMLን ወደ WebAssembly የተጠናቀረ Go engine በመጠቀም የሚያጸድቅ እና የሚቀርፅ። አርክቴክቸር ለፈጣን እና ለግል ግብረ መልስ ከተጠቃሚው ጋር ተጠግቶ መተንተንን ይቀጥላል በመረጃ ወሰን ላይ እውነተኛ የአገባብ ህጎችን እያስከበረ ነው። በትክክለኛነት፣ አፈጻጸም እና እምነት ዙሪያ አስተማማኝ የገንቢ የስራ ፍሰት ለመንደፍ የታመቀ ምሳሌ ነው።",
+    "description": "Auto-Linter JSON፣ YAML፣ XML፣ HTML፣ TOML፣ CSV እና TSV በ WebAssembly ከተጠናቀረ ዚግ ሞተር ጋር የሚያረጋግጥ እና የሚቀርፅ በአሳሽ ላይ የተመሰረተ የውሂብ ጥራት መሳሪያ ነው። ትክክለኛ የአገባብ ደንቦችን በውሂብ ወሰን ላይ በማስፈጸም ላይ መተንተን ለፈጣን እና ለግል ግብረመልስ ከተጠቃሚው ጋር ይቀራረባል። የደራሲውን ጽሑፍ ይጠብቃል፣ የተዛባ ግቤትን ውድቅ ያደርጋል፣ እና አንድ ትንሽ የዌብአሴምብሊ ሞጁል እንዴት አስተማማኝ የገንቢ የስራ ፍሰትን እንደሚያጎለብት ያሳያል።",
     "more_info1": "ለበለጠ መረጃ፣ በ ውስጥ ያለውን README ይመልከቱ",
     "more_info2": "የ Auto-Linter መጋቢ።",
     "format_as": "ቅርጸት እንደ፡-",
@@ -451,7 +451,7 @@
   },
   "tiger": {
     "title": "የነብር ቋንቋ",
-    "description": "ነብር ብጁ የፕሮግራም አወጣጥ ቋንቋ እና የ Go ተርጓሚ የሩጫ ጊዜ አርክቴክቸርን፣ የቋንቋ ፍቺን እና የአፈጻጸም ግብይቶችን ለማሰስ የተሰራ ነው። አስተርጓሚውን ወደ WebAssembly ማጠናቀር ሲስተሞች ወደ በይነተገናኝ እና አሳሽ ላይ የተመሰረተ ምርት እንዲሰሩ ያደርጋቸዋል፡ የሂደቱ ጊዜ ተንቀሳቃሽ ሆኖ ሲቆይ ተጠቃሚዎች ፕሮግራሞችን በቀጥታ ማከናወን ይችላሉ። እና ከአስተናጋጁ መተግበሪያ ተለይቷል።",
+    "description": "ነብር የምርት ደረጃ ብጁ የፕሮግራም አወጣጥ ቋንቋ እና ለአፈጻጸም የተሰራ የዝገት አስተርጓሚ ነው። የተቀናበረው የባይቴኮድ ሞተር እና የዛፍ መራመድ ማመሳከሪያ አስተርጓሚ በ44-ፕሮግራም ቤንችማርክ ኮርፐስ ውስጥ ቆልፍ ላይ ይቆያሉ፣ እና በሂደት ላይ ያለው ፕሮቶኮል የሩጫ ጊዜውን በእያንዳንዱ የተረጋገጠ ክፍል ላይ ከCPython በፊት ወይም ቀደም ብሎ ያቆያል፣ ይህም ከ Python እና Ruby ጋር በቀጥታ የሚወዳደር አፈጻጸም ነው። ዋናው የ Go አስተርጓሚ እንደ ውርስ ትግበራ ይቀራል። አስተርጓሚውን ወደ WebAssembly ማጠናቀር ሲስተሞች ወደ በይነተገናኝ እና አሳሽ ላይ የተመረኮዙ ምርቶች እንዲሆኑ ይቀይራል፡ ተጠቃሚዎች ፕሮግራሞችን በቀጥታ ማከናወን የሚችሉት የሩጫ ጊዜው ተንቀሳቃሽ እና ከአስተናጋጅ መተግበሪያ ተነጥሎ እያለ ነው።",
     "more_info1": "ለበለጠ መረጃ፣ በ ውስጥ ያለውን README ይመልከቱ",
     "more_info2": "Tiger Programming Language GitHub ማከማቻ።",
     "select_engine": "ሞተር ይምረጡ፡-",
