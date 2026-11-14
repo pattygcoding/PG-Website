@@ -8,8 +8,8 @@
     "tiger": "Tiger - ພາສາຂຽນໂປຣແກຣມສ່ວນຕົວ",
     "snake": "ເກມງູ",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "ຕົວກວດ JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "ໂປຣແກຣມແກ້ Rubik's Cube",
     "contact": "ຕິດຕໍ່ຂ້ອຍ",
     "home_description": "sys.root // ພາບລວມຫຼັກ",
     "about_description": "ໂປຣໄຟລ໌ວິສະວະກອນ // ຊີວະປະຫວັດ ແລະ ເຕັກໂນໂລຢີ",
@@ -18,18 +18,26 @@
     "tiger_description": "ໂປຣແກຣມລວບລວມສ່ວນຕົວ ແລະ AST ຕົວເບິ່ງ",
     "snake_description": "ເກມອາເຄດຄລາສສິກ / WASM",
     "portfolio_translator_description": "matrix ພາສາ 100+ ແລະ i18n",
-    "formatter_description": "ຕົວກວດສອບ ແລະ ແປງ syntax",
+    "formatter_description": "ໂປຣແກຣມກວດສອບ ແລະ ຈັດຮູບແບບຫຼາຍຮູບແບບ // WASM",
     "contact_description": "ສົ່ງແບບເປີດ // ຕິດຕໍ່ຂ້ອຍ",
     "arcade": "ອາເຄດ",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "ຕົ້ນໄມ້ພາສາ ສີ່ຕໍ່",
+    "connect_four": "Connect Four",
     "alkalab_description": "ຈຳລອງຫ້ອງທົດລອງເຄມີ / WASM",
     "rustcraft_description": "ເກມ voxel ແບບ Minecraft / Rust ແລະ wgpu",
     "suprememc_description": "ງານວາງສະແດງ mod Minecraft / Java",
-    "chess_engine": "ເຄື່ອງຈັກ Chess",
-    "chess_engine_description": "bitboard ເຄື່ອງຈັກ / WASM & ພະນັກງານ"
+    "chess_engine": "ເຄື່ອງຈັກໝາຫຸນ",
+    "chess_engine_description": "ເຄື່ອງຈັກ bitboard / WASM ແລະ worker",
+    "framework_trees": "ຕົ້ນໄມ້ເຟຣມເວີກ",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "ການເຂົ້າລະຫັດ Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "ສະຄຣິບອັດຕະໂນມັດ // ພາສາ 6",
+    "reclaim_4160_description": "ເກມມະຫາວິທະຍາໄລ, ໄດ້ຮັບຄືນ / C++ ແລະ WASM",
+    "turing_machines": "ເຄື່ອງຈັກ Turing",
+    "scripting_library": "ຫໍສະໝຸດສະຄຣິບ"
   },
   "home": {
     "title": "ອາວຸໂສ Full-Stack Engineer | ຜະລິດຕະພັນ & ລະບົບ",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "ໂຄງການທີ່ໂດດເດັ່ນ",
       "title": "ຜົນງານທີ່ເລືອກ",
-      "description": "ຫົກໂຄງການທີ່ສະແດງເຖິງວິທີທີ່ດີທີ່ສຸດທີ່ຂ້ອຍປ່ຽນຄວາມຄິດທີ່ມີຄວາມທະເຍີທະຍານ ໃຫ້ເປັນຊອບແວທີ່ເງົາງາມ ແລະ ເຮັດວຽກ.",
+      "description": "ໂຄງການທີ່ສະແດງໃຫ້ເຫັນຢ່າງດີທີ່ສຸດວ່າຂ້ອຍປ່ຽນຄວາມຄິດທີ່ມີຄວາມທະເຍື່ອຍໃຫ້ເປັນຊອບແວທີ່ມີຄຸນນະພາບ ແລະ ເຮັດວຽກໄດ້.",
       "view_project": "ເບິ່ງໂຄງການ",
       "open_project": "ເປີດໂຄງການສົດ",
       "view_all": "ສຳຫຼວດ portfolio ເຕັມ",
@@ -101,7 +109,8 @@
         "libraries": "ຫ້ອງສະໝຸດສະຄຣິບ",
         "languages": "ການທົດລອງພາສາ",
         "automation": "ເຄື່ອງມືອັດຕະໂນມັດ ແລະ ຂໍ້ມູນ",
-        "experience": "ປະສົບການວິຊາຊີບ ແລະ ການສຶກສາ"
+        "experience": "ປະສົບການວິຊາຊີບ ແລະ ການສຶກສາ",
+        "markets": "ຕະຫຼາດ ແລະ ລະບົບການຄ້າ"
       },
       "browser_native": "ຕົ້ນເດີມຂອງບຣາວເຊີ / ບໍ່ມີເຊີບເວີ",
       "no_results": "ບໍ່ມີໂຄງການທີ່ກົງກັນ",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "ການເຂົ້າເຖິງ",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "ຄວາມຖືກຕ້ອງທາງການເງິນເລີ່ມຕົ້ນຈາກການສະແດງ: ເລກຄະນິດສາດເຊັນເຕັມ ແລະ ລາຍການທີ່ສົມດຸນ ເຮັດໃຫ້ການເຄື່ອນຍ້າຍເງິນຊັດເຈນ."
         },
         "interop": {
-          "summary": "ເອກະສານອ້າງອີງຂ້າມພາສາທີ່ກວມ {languages} ພາສາຂຽນໂປຣແກຣມ ແລະ {patterns} ຮູບແບບການປະມວນຜົນ ສຳຫຼວດສິ່ງທີ່ເກີດຂຶ້ນທີ່ຂອບຂອງເວລາປະມວນຜົນ.",
+          "summary": "ເອກະສານອ້າງອີງຂ້າມພາສາ ທີ່ກວມເອົາ {languages} ພາສາໂປຣແກຣມ ແລະ {patterns} ຮູບແບບການດຳເນີນການ ເຊິ່ງສຳຫຼວດວ່າມີຫຍັງເກີດຂຶ້ນໃນຂອບເຂດ runtime.",
           "lens": "ສ່ວນທີ່ຍາກແມ່ນສັນຍາລະຫວ່າງເວລາປະມວນຜົນ: ການແລກປ່ຽນຂໍ້ມູນ ພຶດຕິກຳຂອງຂະບວນການ ແລະ ການປະມວນຜົນທີ່ເຮັດຊ້ຳໄດ້ ສຳຄັນກວ່າ syntax."
         },
         "formatter": {
-          "summary": "ເຄື່ອງຈັກວິເຄາະ Go ຕົວຈິງທີ່ຖືກແປເປັນ WebAssembly. ການກວດສອບ ແລະ ຈັດຮູບແບບ JSON ແລະ YAML ເຮັດວຽກຢູ່ໃນບຣາວເຊີ.",
-          "lens": "ການຍ້າຍຕົວວິເຄາະໄປບຣາວເຊີ ແລກປ່ຽນພາລະລູກຄ້າທີ່ໃຫຍ່ກວ່າ ສຳລັບການປະມວນຜົນທ້ອງຖິ່ນ ຄວາມສາມາດຍ້າຍໄດ້ ແລະ ການເພິ່ງພາເຊີບເວີເໜືອກວ່າ."
+          "summary": "ໂປຣແກຣມກວດສອບ ແລະ ຈັດຮູບແບບ WebAssembly ຂຽນດ້ວຍ Zig ສຳລັບ JSON, YAML, XML, HTML, TOML, CSV ແລະ TSV. ການກວດສອບ ແລະ ການຈັດຮູບແບບເຮັດວຽກໃນເບຣົາເຊີແບບໃນພື້ນທີ່.",
+          "lens": "ການຈັດຮູບແບບແມ່ນບັນຫາຄວາມໄວ້ວາງໃຈ: ວິເຄາະດ້ວຍໄວຍາກອນຈິງ, ຮັກສາຂໍ້ຄວາມຂອງຜູ້ຂຽນ ແລະ ເກັບຂໍ້ມູນໄວ້ໃນ client."
         },
         "portfolio_website": {
           "summary": "ເວັບໄຊທີ່ເຈົ້າຢູ່: portfolio React ທີ່ມີພາສາ 100+ ການໂຕ້ຕອບທີ່ເຂົ້າເຖິງໄດ້ ແລະ ເຄື່ອງມື WebAssembly ທີ່ເຮັດວຽກ.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML ຮູບແບບອັດຕະໂນມັດ",
+        "title": "Auto-Linter",
         "text": "ເຄື່ອງມືການກວດສອບ ແລະການຈັດຮູບແບບ JSON ແລະ YAML ທີ່ອີງໃສ່ໂປຣແກຣມທ່ອງເວັບທີ່ສ້າງຂຶ້ນໃນ Go ແລະຖືກລວບລວມໃສ່ WebAssembly. ການເຄື່ອນຍ້າຍເຄື່ອງຈັກວິເຄາະເຂົ້າໄປໃນ WASM ຮັກສາປະຕິສໍາພັນທີ່ຕອບສະຫນອງແລະທ້ອງຖິ່ນກັບຕົວທ່ອງເວັບໃນຂະນະທີ່ນໍາໃຊ້ຕົວວິເຄາະທີ່ແທ້ຈິງເພື່ອຈັບຂໍ້ມູນທີ່ບໍ່ຖືກຕ້ອງ. ມັນເປັນຕົວຢ່າງທີ່ສຸມໃສ່ການເລືອກສະຖາປັດຕະຍະກໍາ runtime ສໍາລັບການປະຕິບັດ, ການພົກພາ, ແລະຄວາມໄວ້ວາງໃຈຂອງຜູ້ໃຊ້.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "ຫໍສະໝຸດສະຄຣິບ",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "ໂຄງການເຂົ້າລະຫັດ Rijndael",
-        "text": "ຊຸດການປຽບທຽບຂອງການປະຕິບັດ {implementations} Rijndael ໃນທົ່ວຕົວແປ 128-, 192-, ແລະ 256-bit. ການປະຕິບັດຂັ້ນຕອນວິທີຄວາມປອດໄພທີ່ລະອຽດອ່ອນໃນທົ່ວພາສາແມ່ນການອອກກໍາລັງກາຍທີ່ມີລະບຽບວິໄນໃນສະເພາະທີ່ແນ່ນອນ, ພຶດຕິກໍາທີ່ສາມາດທົດສອບໄດ້, ແລະຂອບເຂດຈໍາກັດຂອງລະດັບພາສາ, instincts ທີ່ເປັນປະໂຫຍດທັງຫມົດສໍາລັບລະບົບທີ່ຈັດການກັບຂໍ້ມູນທີ່ລະອຽດອ່ອນ.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "ໂປຣແກຣມແກ້ Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "ໂຄງການເຄື່ອງຈັກ Turing",
-        "text": "ຄອບຄົວຂອງຫຼາຍກວ່າ {implementations} ການປະຕິບັດຂອງເຄື່ອງຈັກ Turing. ໃຊ້ເພື່ອສະແດງຄວາມສົມບູນ turing ສໍາລັບພາສາການຂຽນໂປລແກລມທີ່ແຕກຕ່າງກັນສໍາລັບການຄົ້ນຄວ້າ, ໂດຍສະເພາະສໍາລັບພາສາ Tiger Programming.",
+        "text": "ຄອບຄົວຂອງການຈຳລອງ {implementations} ຂອງເຄື່ອງຈັກ Turing. ໃຊ້ເພື່ອສະແດງຄວາມສົມບູນຂອງ Turing ຂອງພາສາໂປຣແກຣມຕ່າງໆ ສຳລັບການຄົ້ນຄວ້າ ໂດຍສະເພາະສຳລັບພາສາ Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "ເຄື່ອງຈັກ Chess",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "ເຄື່ອງຈັກໝາຫຸນ",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "ເຄື່ອງຈັກຈັບຄູ່ PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "ຂ້ອຍຕອບຄໍາຖາມຈາກອີເມວແລະຂໍ້ຄວາມ LinkedIn. ຂ້ອຍຍັງຈະໂທກັບຖ້າເບີໂທລະສັບຂອງຂ້ອຍຖືກສະໜອງໃຫ້ຜ່ານຊີວະປະຫວັດຫຍໍ້ ຫຼືທາງອື່ນ, ເຖິງແມ່ນວ່າຂ້ອຍຢາກຈະຮັກສາເບີໂທລະສັບຂອງຂ້ອຍໃຫ້ເປັນສ່ວນຕົວ."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "ເຄື່ອງ​ມື​ຄຸນ​ນະ​ພາບ​ຂໍ້​ມູນ​ທີ່​ອີງ​ໃສ່​ຕົວ​ທ່ອງ​ເວັບ​ທີ່​ກວດ​ສອບ​ແລະ​ການ​ຈັດ​ຮູບ​ແບບ JSON ແລະ YAML ໂດຍ​ນໍາ​ໃຊ້​ເຄື່ອງ​ຈັກ Go ສັງ​ລວມ​ກັບ WebAssembly. ສະຖາປັດຕະຍະ ກຳ ສືບຕໍ່ວິເຄາະຢ່າງໃກ້ຊິດກັບຜູ້ໃຊ້ເພື່ອໃຫ້ ຄຳ ຕິຊົມສ່ວນຕົວໄວ, ໃນຂະນະທີ່ບັງຄັບໃຊ້ກົດລະບຽບ syntax ທີ່ແທ້ຈິງຢູ່ໃນຂອບເຂດຂໍ້ມູນ. ມັນເປັນຕົວຢ່າງທີ່ຫນາແຫນ້ນຂອງການອອກແບບຂັ້ນຕອນການເຮັດວຽກຂອງຜູ້ພັດທະນາທີ່ເຊື່ອຖືໄດ້ກ່ຽວກັບຄວາມຖືກຕ້ອງ, ການປະຕິບັດ, ແລະຄວາມໄວ້ວາງໃຈ.",
     "more_info1": "ສໍາລັບຂໍ້ມູນເພີ່ມເຕີມ, ເບິ່ງ README ໃນ",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "ຄັງ Auto-Linter.",
     "format_as": "ຮູບແບບເປັນ:",
     "auto_detect": "ກວດຫາອັດຕະໂນມັດ",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML ທີ່ຖືກຕ້ອງ",
     "invalid_json": "JSON ບໍ່ຖືກຕ້ອງ",
     "invalid_yaml": "YAML ບໍ່ຖືກຕ້ອງ",
-    "empty_input": "ກະລຸນາໃສ່ບາງ JSON ຫຼື YAML ເພື່ອ lint.",
+    "empty_input": "ປ້ອນ JSON, YAML, XML, HTML, TOML, CSV ຫຼື TSV ເພື່ອກວດສອບ.",
     "too_large": "ປ້ອນຂໍ້ມູນໃຫຍ່ເກີນໄປ (ສູງສຸດ 1MB ອະນຸຍາດ).",
     "fixed_yaml_spacing": "⚠ YAML ມີຊ່ອງຫວ່າງ/ການຫຍໍ້ໜ້າບໍ່ຖືກຕ້ອງ ແຕ່ໄດ້ຖືກແກ້ໄຂ ແລະຈັດຮູບແບບອັດຕະໂນມັດ.",
-    "loading": "ກຳລັງໂຫຼດຕົວຟໍແມັດ...",
+    "loading": "ກຳລັງໂຫຼດ Auto-Linter...",
     "waiting_for_input": "ກຳລັງລໍຖ້າການປ້ອນຂໍ້ມູນ...",
-    "load_failed": "ບໍ່ສາມາດໂຫຼດຕົວຟໍແມັດໄດ້.",
+    "load_failed": "ບໍ່ສາມາດໂຫຼດ Auto-Linter ໄດ້.",
     "output": "ຜົນຜະລິດ:",
     "input_code": "ປ້ອນຂໍ້ມູນ",
     "json_examples": "JSON ຕົວຢ່າງ",
-    "yaml_examples": "YAML ຕົວຢ່າງ"
+    "yaml_examples": "YAML ຕົວຢ່າງ",
+    "legacy_repo": "ເບິ່ງການຈຳລອງ Go ເກົ່າ",
+    "legacy_rust": "ເບິ່ງການຈຳລອງ Rust ເກົ່າ"
   },
   "tiger": {
     "title": "ພາສາເສືອ",
@@ -436,7 +459,8 @@
     "run_tiger": "ແລ່ນ Tiger",
     "output": "ຜົນຜະລິດ:",
     "stop": "ຢຸດ",
-    "program_input": "ການປ້ອນຂໍ້ມູນໂປຣແກຣມ"
+    "program_input": "ການປ້ອນຂໍ້ມູນໂປຣແກຣມ",
+    "legacy_repo": "ເບິ່ງການຈຳລອງ Go ເກົ່າ"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "ຊູມເຂົ້າ",
         "zoom_out": "ຊູມອອກ",
         "reset": "ຣີເຊັດມຸມມອງ"
+      },
+      "country_names": {
+        "show": "ສະແດງຊື່ປະເທດ",
+        "hide": "ເຊື່ອງຊື່ປະເທດ"
       }
     },
     "supported_languages": {

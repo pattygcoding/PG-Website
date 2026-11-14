@@ -8,8 +8,8 @@
     "tiger": "Tiger - စိတ်ကြိုက် ပရိုဂရမ်းမင်းဘာသာစကား",
     "snake": "မြွေဂိမ်း",
     "portfolio_translator": "Portfolio ဘာသာပြန်သူ",
-    "formatter": "JSON & YAML checker",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube ဖြေရှင်းသူ",
     "contact": "ငါ့ကိုဆက်သွယ်ပါ။",
     "home_description": "sys.root // အဓိကခြုံငုံသုံးသပ်ချက်",
     "about_description": "အင်ဂျင်နီယာ ပရိုဖိုင် // အတ္ထုပ္ပတ္တိ နှင့် နည်းပညာ",
@@ -18,18 +18,26 @@
     "tiger_description": "စိတ်ကြိုက် compiler နှင့် AST visualizer",
     "snake_description": "ဂန္တဝင် arcade ဂိမ်း / WASM",
     "portfolio_translator_description": "ဘာသာစကား 100+ matrix နှင့် i18n",
-    "formatter_description": "syntax validator နှင့် converter",
+    "formatter_description": "ဖော်မတ်အမျိုးမျိုး linter နှင့် formatter // WASM",
     "contact_description": "ပွင့်လင်းစွာပို့လွှတ်ခြင်း // ဆက်သွယ်ပါ",
     "arcade": "အာကိတ်",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "လေးတန်း ဘာသာစကားသစ်ပင်",
+    "connect_four": "Connect Four",
     "alkalab_description": "ဓာတုဗေဒ ဓာတ်ခွဲခန်း simulation / WASM",
     "rustcraft_description": "Minecraft ပုံစံ voxel ဂိမ်း / Rust နှင့် wgpu",
     "suprememc_description": "Minecraft mod ပြသမှု / Java",
-    "chess_engine": "စစ်တုရင်အင်ဂျင်",
-    "chess_engine_description": "bitboard အင်ဂျင် / WASM & အလုပ်သမား"
+    "chess_engine": "စစ်တုရင် အင်ဂျင်",
+    "chess_engine_description": "bitboard အင်ဂျင် / WASM နှင့် worker",
+    "framework_trees": "ဖရိန်ဝေါ့ခ် သစ်ပင်များ",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael ကုဒ်ဝှက်ခြင်း",
+    "interops": "Interops",
+    "scripting_library_description": "အလိုအလျောက် စကရစ်ပ်များ // ဘာသာစကား 6",
+    "reclaim_4160_description": "ကောလိပ်ဂိမ်း၊ ပြန်လည်ရယူ / C++ နှင့် WASM",
+    "turing_machines": "Turing စက်များ",
+    "scripting_library": "စကရစ်ပ် စာကြည့်တိုက်"
   },
   "home": {
     "title": "အကြီးတန်း Full-Stack အင်ဂျင်နီယာ | ထုတ်ကုန် & စနစ်များ",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "ထင်ရှားသော ပရောဂျက်များ",
       "title": "ရွေးချယ်ထားသော လက်ရာများ",
-      "description": "ရည်မှန်းချက်ကြီးသော စိတ်ကူးများကို သန့်စင်ပြီး အလုပ်လုပ်သော ဆော့ဖ်ဝဲအဖြစ် မည်သို့ပြောင်းလဲသည်ကို အကောင်းဆုံး ကိုယ်စားပြုသည့် ပရောဂျက်ခြောက်ခု။",
+      "description": "ကျွန်တော်သည် စိန်ကူးသစ်များကို ပြီးပြည့်စုံပြီး အလုပ်လုပ်နိုင်သော ဆော့ဖ်ဝဲအဖြစ် ဘယ်လိုပြောင်းလဲသည်ကို အကောင်းဆုံးပြသော ပရောဂျက်များ။",
       "view_project": "ပရောဂျက် ကြည့်ရှုပါ",
       "open_project": "တိုက်ရိုက်ပရောဂျက် ဖွင့်ပါ",
       "view_all": "ပြီးပြည့်စုံသော portfolio စူးစမ်းပါ",
@@ -101,7 +109,8 @@
         "libraries": "Script စာကြည့်တိုက်များ",
         "languages": "ဘာသာစကား စမ်းသပ်မှုများ",
         "automation": "အလိုအလျောက်လုပ်ဆောင်မှုနှင့် ဒေတာ ကိရိယာများ",
-        "experience": "ပရော်ဖက်ရှင်နယ်နှင့် ပညာရေး အတွေ့အကြုံ"
+        "experience": "ပရော်ဖက်ရှင်နယ်နှင့် ပညာရေး အတွေ့အကြုံ",
+        "markets": "ဈေးကွက်နှင့် ကုန်သွယ်ရေး စနစ်များ"
       },
       "browser_native": "Browser ဇာတိ / server မပါ",
       "no_results": "ကိုက်ညီသော ပရောဂျက် မရှိပါ",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "ဝင်ရောက်နိုင်မှု",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "ငွေရေးကြေးရေး မှန်ကန်မှုသည် ကိုယ်စားပြုမှုမှ စတင်သည်- ပေါင်းစုံ cent ဂဏန်းသင်္ချာနှင့် မျှတသော စာရင်းသွင်း entries များသည် ငွေရွှေ့ပြောင်းမှုကို ရှင်းလင်းစေသည်။"
         },
         "interop": {
-          "summary": "ပရိုဂရမ်းမင်း ဘာသာစကား {languages} ခုနှင့် လုပ်ဆောင်မှုပုံစံ {patterns} ခုကို လွှမ်းခြုံပြီး runtime နယ်နိမိတ်များတွင် ဖြစ်ပျက်သည်ကို စူးစမ်းသော ဘာသာစကားဖြတ်ကျော် ကိုးကားချက်။",
+          "summary": "ဘာသာစကားများအကြား ကိုးကားချက် {languages} ပရိုဂရမ်ဘာသာစကားနှင့် {patterns} လုပ်ဆောင်မှုပုံစံများကို ပါဝင်ပြီး runtime နယ်နိမိတ်တွင် ဖြစ်ပေါ်သည်ကို လေ့လာသည်။",
           "lens": "ခက်ခဲသော အပိုင်းမှာ runtime များကြား စာချုပ်ဖြစ်သည်- ဒေတာဖလှယ်မှု၊ လုပ်ငန်းစဉ်အပြုအမူနှင့် ထပ်ခါတလဲလဲ လုပ်ဆောင်နိုင်မှုသည် syntax ထက် ပိုအရေးကြီးသည်။"
         },
         "formatter": {
-          "summary": "WebAssembly သို့ compile လုပ်ထားသော အမှန်တကယ် Go parsing engine။ JSON နှင့် YAML စစ်ဆေးခြင်းနှင့် ဖော်မတ်ခြင်းသည် browser တွင် ဒေသအလိုက် လုပ်ဆောင်သည်။",
-          "lens": "Parser ကို browser သို့ ရွှေ့ခြင်းသည် ပိုကြီးသော client payload ကို ဒေသပြောင်းလဲမှု၊ သယ်ယူနိုင်မှုနှင့် server မှီခိုမှု နည်းပါးခြင်းတို့ဖြင့် လဲလှယ်သည်။"
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV နှင့် TSV အတွက် Zig ဖြင့် ရေးထားသော WebAssembly linter နှင့် formatter ဖြစ်သည်။ စစ်ဆေးခြင်းနှင့် ဖော်မတ်ခြင်းကို browser အတွင်း၌ ဒေသခံအဖြစ် လုပ်ဆောင်သည်။",
+          "lens": "ဖော်မတ်ခြင်းသည် ယုံကြည်မှုဆိုင်ရာ ကိစ္စဖြစ်သည်- အမှန်တကယ် ဓာတ်သဘောတရားဖြင့် ခွဲခြမ်းစိတ်ဖြာပါ၊ စာရေးသူ၏ စာသားကို ထိန်းသိမ်းပါ၊ ဒေတာကို client တွင် ထားပါ။"
         },
         "portfolio_website": {
           "summary": "သင်ရောက်နေသော ဆိုဒ်- ဘာသာစကား 100+, ဝင်ရောက်နိုင်သော အပြန်အလှန်မှုများနှင့် အလုပ်လုပ်သော WebAssembly ကိရိယာများ ပါဝင်သော React portfolio။",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON နှင့် YAML အော်တိုဖော်မတ်တာ",
+        "title": "Auto-Linter",
         "text": "ဘရောက်ဆာအခြေခံ JSON နှင့် YAML အတည်ပြုခြင်းနှင့် ဖော်မတ်ချခြင်းတူးလ်ကို Go တွင် တည်ဆောက်ပြီး WebAssembly သို့ စုစည်းထားသည်။ ခွဲခြမ်းစိတ်ဖြာခြင်းအင်ဂျင်ကို WASM သို့ ရွှေ့ခြင်းသည် မှန်ကန်မှုမရှိသော ထည့်သွင်းမှုကိုဖမ်းမိရန် စစ်မှန်သော ခွဲခြမ်းစိတ်ဖြာမှုကို အသုံးပြုနေစဉ်တွင် အပြန်အလှန်တုံ့ပြန်မှုကို ဘရောက်ဆာထံ ထားရှိပေးပါသည်။ ၎င်းသည် စွမ်းဆောင်ရည်၊ သယ်ဆောင်ရလွယ်ကူမှုနှင့် အသုံးပြုသူယုံကြည်မှုအတွက် runtime တည်ဆောက်ပုံကို ရွေးချယ်ခြင်း၏ အဓိကဥပမာတစ်ခုဖြစ်သည်။",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "စကရစ်ပ် စာကြည့်တိုက်",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael ကုဒ်ဝှက်ခြင်းပရောဂျက်",
-        "text": "128-၊ 192-၊ နှင့် 256-bit မျိုးကွဲများတစ်လျှောက် {implementations} Rijndael အကောင်အထည်ဖော်မှုများ၏ နှိုင်းယှဉ်မှုအစု။ ဘာသာစကားများတစ်လျှောက် လုံခြုံရေးအကဲဆတ်သော အယ်လဂိုရီသမ်ကို ပြန်လည်အကောင်အထည်ဖော်ခြင်းသည် တိကျသောသတ်မှတ်ချက်များ၊ စမ်းသပ်နိုင်သောအပြုအမူနှင့် ဘာသာစကားအဆင့် သယ်ဆောင်ရလွယ်ကူမှု ကန့်သတ်ချက်များအတွက် စည်းကမ်းရှိလေ့ကျင့်ခန်းတစ်ခုဖြစ်သည်။ အရေးကြီးသောဒေတာကို ကိုင်တွယ်သည့်စနစ်များအတွက် အသုံးဝင်သောဗီဇအားလုံး။",
+        "title": "Rijndael ကုဒ်ဝှက်ခြင်း ပရောဂျက်",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube ဖြေရှင်းသူ",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing စက်ပရောဂျက်",
-        "text": "Turing Machine ၏ အကောင်အထည်ဖော်မှု {implementations} ကျော်ရှိသော မိသားစု။ အထူးသဖြင့် Tiger Programming Language အတွက် သုတေသနအတွက် မတူညီသော ပရိုဂရမ်းမင်းဘာသာစကားများအတွက် turing ပြီးပြည့်စုံမှုကို သရုပ်ပြရန် အသုံးပြုသည်။",
+        "text": "Turing စက်အတွက် အကောင်အထည်ဖော် {implementations} ခု၏ မိသားစု။ ရှာဖွေရေးအတွက် ပရိုဂရမ်ဘာသာစကားအမျိုးမျိုး၏ Turing ပြည့်စုံမှုကို ပြသရန် အသုံးပြုသည်၊ အထူးသဖြင့် Tiger ဘာသာစကားအတွက်။",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "စစ်တုရင်အင်ဂျင်",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "စစ်တုရင် အင်ဂျင်",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT ကိုက်ညီမှု အင်ဂျင်"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "အီးမေးလ်နှင့် LinkedIn မက်ဆေ့ချ်များမှ စုံစမ်းမေးမြန်းမှုများကို ကျွန်ုပ်တုံ့ပြန်ပါသည်။ ကျွန်ုပ်၏ဖုန်းနံပါတ်ကို ကိုယ်ရေးရာဇဝင်မှတစ်ဆင့် သို့မဟုတ် အခြားနည်းဖြင့် ပေးထားပါက ကျွန်ုပ်၏ဖုန်းနံပါတ်ကို သီးသန့်ထားလိုသော်လည်း ကျွန်ုပ်သည်လည်း ပြန်လည်ခေါ်ဆိုပါမည်။"
   },
   "formatter": {
-    "title": "JSON နှင့် YAML Linter",
+    "title": "Auto-Linter",
     "description": "WebAssembly တွင်စုစည်းထားသော Go အင်ဂျင်ကို အသုံးပြု၍ JSON နှင့် YAML ကို တရားဝင်ဖော်မတ်ပေးသည့် ဘရောက်ဆာအခြေခံဒေတာအရည်အသွေးတူးလ်။ ဗိသုကာသည် ဒေတာနယ်နိမိတ်ရှိ စစ်မှန်သော syntax စည်းမျဉ်းများကို လိုက်နာစဉ်တွင် လျင်မြန်ပြီး သီးသန့်တုံ့ပြန်ချက်အတွက် အသုံးပြုသူနှင့် အနီးကပ် ခွဲခြမ်းစိပ်ဖြာပေးပါသည်။ ၎င်းသည် မှန်ကန်မှု၊ စွမ်းဆောင်ရည်နှင့် ယုံကြည်စိတ်ချမှုတို့နှင့်ပတ်သက်၍ ယုံကြည်စိတ်ချရသော developer workflow ကို ဒီဇိုင်းထုတ်ခြင်း၏ ကျစ်ကျစ်လျစ်လျစ်သော ဥပမာတစ်ခုဖြစ်သည်။",
     "more_info1": "ပိုမိုသိရှိလိုပါက README ကို ကိုးကားပါ။",
-    "more_info2": "JSON/YAML ဖော်မတ်တာ သိုလှောင်မှု။",
+    "more_info2": "Auto-Linter သိုလှောင်ရုံ။",
     "format_as": "ဖော်မတ်-",
     "auto_detect": "အလိုအလျောက် ထောက်လှမ်းခြင်း။",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ တရားဝင် YAML",
     "invalid_json": "JSON မမှန်ကန်ပါ။",
     "invalid_yaml": "YAML မမှန်ပါ။",
-    "empty_input": "အလင်းပြန်ရန်အတွက် JSON သို့မဟုတ် YAML အချို့ကို ထည့်သွင်းပါ။",
+    "empty_input": "စစ်ဆေးရန် JSON, YAML, XML, HTML, TOML, CSV သို့မဟုတ် TSV ထည့်ပါ။",
     "too_large": "ထည့်သွင်းမှု အလွန်ကြီးသည် (အများဆုံး 1MB ခွင့်ပြုသည်)။",
     "fixed_yaml_spacing": "⚠ YAML တွင် မမှန်ကန်သော အကွာအဝေး/အင်တင်းအား ပါရှိသော်လည်း အလိုအလျောက် ပြင်ဆင်ပြီး ဖော်မတ်လုပ်ထားသည်။",
-    "loading": "ဖော်မတ်ကိရိယာကို ဖွင့်နေသည်...",
+    "loading": "Auto-Linter ကို ဖွင့်နေသည်...",
     "waiting_for_input": "ထည့်သွင်းမှုကို စောင့်ဆိုင်းနေသည်...",
-    "load_failed": "ဖော်မတ်ကိရိယာကို ဖွင့်၍မရပါ။",
+    "load_failed": "Auto-Linter ကို ဖွင့်မရပါ။",
     "output": "အထွက်-",
     "input_code": "ထည့်သွင်းခြင်း။",
     "json_examples": "JSON နမူနာများ",
-    "yaml_examples": "YAML ဥပမာများ"
+    "yaml_examples": "YAML ဥပမာများ",
+    "legacy_repo": "Go အကောင်အထည်ဖော်ဟောင်း ကြည့်ရန်",
+    "legacy_rust": "Rust အကောင်အထည်ဖော်ဟောင်း ကြည့်ရန်"
   },
   "tiger": {
     "title": "ကျားဘာသာစကား",
@@ -436,7 +459,8 @@
     "run_tiger": "ကျားပြေး",
     "output": "အထွက်-",
     "stop": "ရပ်တန့်",
-    "program_input": "ပရိုဂရမ် ထည့်သွင်းမှု"
+    "program_input": "ပရိုဂရမ် ထည့်သွင်းမှု",
+    "legacy_repo": "Go အကောင်အထည်ဖော်ဟောင်း ကြည့်ရန်"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "ချဲ့ကြည့်ပါ။",
         "zoom_out": "ချဲ့ကြည့်ပါ။",
         "reset": "မြင်ကွင်းကို ပြန်လည်သတ်မှတ်ပါ။"
+      },
+      "country_names": {
+        "show": "နိုင်ငံအမည်များ ပြရန်",
+        "hide": "နိုင်ငံအမည်များ ဖျောက်ရန်"
       }
     },
     "supported_languages": {
