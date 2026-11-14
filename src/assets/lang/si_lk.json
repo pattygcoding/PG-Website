@@ -8,8 +8,8 @@
     "tiger": "Tiger - අභිරුචි ක්රමලේඛන භාෂාවක්",
     "snake": "සර්ප ක්රීඩාව",
     "portfolio_translator": "Portfolio පරිවර්තකය",
-    "formatter": "JSON & YAML පරීක්ෂක",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "රූබික් ධූරකය විසඳනය",
     "contact": "මාව සම්බන්ධ කරගන්න",
     "home_description": "sys.root // ප්රධාන දළ විශ්ලේෂණය",
     "about_description": "ඉංජිනේරු පැතිකඩ // චරිතාපදානය සහ තාක්ෂණය",
@@ -18,18 +18,26 @@
     "tiger_description": "අභිරුචි සම්පාදක සහ AST දෘශ්යකාරකය",
     "snake_description": "සම්භාව්ය ආකේඩ් ක්රීඩාව / WASM",
     "portfolio_translator_description": "භාෂා 100+ matrix සහ i18n",
-    "formatter_description": "සින්ටැක්ස් වලංගුකාරකය සහ පරිවර්තකය",
+    "formatter_description": "බහු-ආකෘති linter සහ formatter // WASM",
     "contact_description": "විවෘත සම්ප්රේෂණය // සම්බන්ධ වන්න",
     "arcade": "ආකේඩ්",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "හතරේ සරළ භාෂා ගස",
+    "connect_four": "Connect Four",
     "alkalab_description": "රසායන විද්යාගාර සමාකරණය / WASM",
     "rustcraft_description": "Minecraft ආකාරයේ voxel ක්රීඩාව / Rust සහ wgpu",
     "suprememc_description": "Minecraft මොඩ් ප්රදර්ශනය / Java",
     "chess_engine": "චෙස් එන්ජිම",
-    "chess_engine_description": "බිට්බෝඩ් එන්ජිම / WASM සහ සේවකයා"
+    "chess_engine_description": "bitboard එන්ජිම / WASM සහ වර්කර්",
+    "framework_trees": "රාමු ගස්",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael ගුප්තකරණය",
+    "interops": "Interops",
+    "scripting_library_description": "ස්වයංක්‍රීය ස්ක්‍රිප්ට් // භාෂා 6",
+    "reclaim_4160_description": "විශ්වවිද්‍යාල ක්‍රීඩාව, නැවත ලබාගත් / C++ සහ WASM",
+    "turing_machines": "Turing යන්ත්‍ර",
+    "scripting_library": "ස්ක්‍රිප්ට් පුස්තකාලය"
   },
   "home": {
     "title": "ජ්‍යෙෂ්ඨ පූර්ණ-මණ්ඩල ඉංජිනේරු | නිෂ්පාදන සහ පද්ධති",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "විශේෂ ව්‍යාපෘති",
       "title": "තෝරාගත් කෘති",
-      "description": "අභිලාෂකාමී අදහස් ඔප මට්ටම් කළ, ක්‍රියාකාරී මෘදුකාංග බවට පත් කරන ආකාරය වඩාත් හොඳින් නියෝජනය කරන ව්‍යාපෘති හයක්.",
+      "description": "මම උපකාරී යෝජනා ක්‍රියාකාරී මෘදුකාංග බවට පරිවර්තනය කරන ආකාරය හොඳින් පෙන්වන ව්‍යාපෘති.",
       "view_project": "ව්‍යාපෘතිය බලන්න",
       "open_project": "සජීවී ව්‍යාපෘතිය විවෘත කරන්න",
       "view_all": "සම්පූර්ණ කළඹ ගවේෂණය කරන්න",
@@ -101,7 +109,8 @@
         "libraries": "ස්ක්රිප්ට් පුස්තකාල",
         "languages": "භාෂා පර්යේෂණ",
         "automation": "ස්වයංක්රීයකරණය සහ දත්ත මෙවලම්",
-        "experience": "වෘත්තීය සහ අධ්යාපනික අත්දැකීම"
+        "experience": "වෘත්තීය සහ අධ්යාපනික අත්දැකීම",
+        "markets": "වෙළඳපොළ සහ වෙළඳාම පද්ධති"
       },
       "browser_native": "බ්රවුසර-ස්වදේශික / සේවාදායකය නොමැතිව",
       "no_results": "ගැළපෙන ව්යාපෘති නොමැත",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "ප්‍රවේශ්‍යතාව",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "මූල්‍ය නිවැරදිභාවය නියෝජනයෙන් ආරම්භ වේ: සම්පූර්ණ ශත ගණිතය සහ සමතුලිත ඇතුළත් කිරීම් මුදල් චලනය පැහැදිලි කරයි."
         },
         "interop": {
-          "summary": "ක්‍රමලේඛන භාෂා {languages}ක් සහ ක්‍රියාත්මක රටා {patterns}ක් ආවරණය කරන, ක්‍රියාත්මක කාල සීමාවන්හි සිදුවන දේ ගවේෂණය කරන හරස්-භාෂා යොමුවක්.",
+          "summary": "භාෂා අතර යොමුවක් {languages} වැඩසටහන් භාෂා සහ {patterns} ක්‍රියාත්මක රටා ආවරණය කරයි, runtime සීමා තුළ සිදුවන්නේ කුමක්දැයි පරීක්ෂා කරයි.",
           "lens": "දුෂ්කර කොටස වන්නේ ක්‍රියාත්මක වේලාවන් අතර ගිවිසුමයි: දත්ත හුවමාරුව, ක්‍රියාවලි හැසිරීම සහ පුනරාවර්තන ක්‍රියාත්මක කිරීම syntax ට වඩා වැදගත් වේ."
         },
         "formatter": {
-          "summary": "WebAssembly සඳහා සම්පාදනය කළ සැබෑ Go විශ්ලේෂණ එන්ජිමක්. JSON සහ YAML වලංගු කිරීම සහ ආකෘතිකරණය බ්‍රවුසරයේ ප්‍රාදේශීයව ක්‍රියාත්මක වේ.",
-          "lens": "විශ්ලේෂකය බ්‍රවුසරයට ගෙනයාම, විශාල සේවාදායක බර ප්‍රාදේශීය සැකසීම, අතේ ගෙන යා හැකි බව සහ අඩු සේවාදායක යැපීම සමඟ හුවමාරු කරයි."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV සහ TSV සඳහා Zig භාවිතයෙන් ලියන ලද WebAssembly linter සහ formatter. තහවුරු කිරීම සහ ආකෘතිකරණය බ්‍රවුසරයේ දේශීයව ධාවනය වේ.",
+          "lens": "ආකෘතිකරණය විශ්වාසයේ ප්‍රශ්නයකි: සැබෑ ව්‍යාකරණයකින් විශ්ලේෂණය කරන්න, කර්තෘගේ පෙළ රැක ගන්න, දත්ත සේවාදායකයේ තබන්න."
         },
         "portfolio_website": {
           "summary": "ඔබ සිටින වෙබ් අඩවිය: භාෂා 100+, ප්‍රවේශ විය හැකි අන්තර්ක්‍රියා සහ ක්‍රියාකාරී WebAssembly මෙවලම් සහිත React කළඹක්.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON සහ YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "බ්‍රවුසරය පදනම් කරගත් JSON සහ YAML වලංගුකරණ සහ හැඩතල ගැන්වීමේ මෙවලමක් Go හි ගොඩනගා WebAssembly වෙත සම්පාදනය කර ඇත. විග්‍රහ කිරීමේ එන්ජිම WASM වෙත ගෙන යාමෙන් අන්තර්ක්‍රියාව ප්‍රතිචාරාත්මකව සහ බ්‍රවුසරයට දේශීයව තබා ගන්නා අතරේ වලංගු නොවන ආදානයක් අල්ලා ගැනීමට සැබෑ විග්‍රහයක් යොදයි. එය කාර්ය සාධනය, අතේ ගෙන යා හැකි බව සහ පරිශීලක විශ්වාසය සඳහා ධාවන කාල ගෘහ නිර්මාණ ශිල්පය තෝරා ගැනීමේ කේන්ද්‍රගත උදාහරණයකි.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "ස්ක්‍රිප්ට් පුස්තකාලය",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael සංකේතාංකන ව්යාපෘතිය",
-        "text": "128-, 192-, සහ 256-bit ප්‍රභේද හරහා {implementations} Rijndael ක්‍රියාත්මක කිරීමේ සංසන්දනාත්මක කට්ටලයක්. භාෂා හරහා ආරක්‍ෂක-සංවේදී ඇල්ගොරිතමයක් නැවත ක්‍රියාත්මක කිරීම යනු නිශ්චිත පිරිවිතර, පරීක්ෂා කළ හැකි හැසිරීම් සහ භාෂා මට්ටමේ අතේ ගෙන යා හැකි සීමාවන් පිළිබඳ විනයානුකූල අභ්‍යාසයකි. සංවේදී දත්ත හසුරුවන පද්ධති සඳහා සියලුම ප්‍රයෝජනවත් සහජ බුද්ධිය.",
+        "title": "Rijndael ගුප්තකරණ ව්‍යාපෘතිය",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "රූබික් ධූරකය විසඳනය",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "ටියුරින් යන්ත්‍ර ව්‍යාපෘතිය",
-        "text": "ටියුරින් යන්ත්‍රයේ ක්‍රියාත්මක කිරීම් {implementations} ට වැඩි පවුලක්. පර්යේෂණ සඳහා, විශේෂයෙන් කොටි ක්‍රමලේඛන භාෂාව සඳහා විවිධ ක්‍රමලේඛන භාෂා සඳහා ටියුරින් සම්පූර්ණත්වය ප්‍රදර්ශනය කිරීමට භාවිතා කරයි.",
+        "text": "Turing යන්ත්‍රයේ {implementations} ක්‍රියාත්මක කිරීම් පවුලක්. පර්යේෂණ සඳහා විවිධ වැඩසටහන් භාෂා වල turing සම්පූර්ණ බව පෙන්වීමට භාවිත වේ, විශේෂයෙන් Tiger භාෂාව සඳහා.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "චෙස් එන්ජිම",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT ගැළපීමේ එන්ජිම"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "මම ඊමේල් සහ LinkedIn පණිවිඩ වලින් විමසීම් වලට ප්‍රතිචාර දක්වමි. මගේ දුරකථන අංකය රහසිගතව තබා ගැනීමට මා කැමති වුවද, නැවත ආරම්භ කිරීම හරහා හෝ වෙනත් ආකාරයකින් මගේ අංකය ලබා දෙන්නේ නම් මම නැවත අමතන්නෙමි."
   },
   "formatter": {
-    "title": "JSON සහ YAML ලින්ටර්",
+    "title": "Auto-Linter",
     "description": "WebAssembly වෙත සම්පාදනය කරන ලද Go එන්ජිමක් භාවිතයෙන් JSON සහ YAML වලංගු කරන සහ හැඩතල ගන්වන බ්‍රවුසර පදනම් වූ දත්ත තත්ත්ව මෙවලමක්. දත්ත මායිමේ සැබෑ වාක්‍ය ඛණ්ඩ රීති බලාත්මක කරන අතරේ ගෘහ නිර්මාණ ශිල්පය වේගවත්, පුද්ගලික ප්‍රතිපෝෂණ සඳහා පරිශීලකයාට සමීපව විග්‍රහ කරයි. එය නිවැරදි බව, කාර්ය සාධනය සහ විශ්වාසය වටා විශ්වාසනීය සංවර්ධක කාර්ය ප්‍රවාහයක් සැලසුම් කිරීමේ සංයුක්ත උදාහරණයකි.",
     "more_info1": "වැඩි විස්තර සඳහා, README වෙත යොමු වන්න",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Auto-Linter ගබඩාව.",
     "format_as": "ආකෘතිය ලෙස:",
     "auto_detect": "ස්වයංක්‍රීයව හඳුනාගැනීම",
     "format": "ලින්ට් සහ ආකෘතිය",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ වලංගු YAML",
     "invalid_json": "වලංගු නොවන JSON",
     "invalid_yaml": "වලංගු නොවන YAML",
-    "empty_input": "කරුණාකර JSON හෝ YAML කිහිපයක් ලින්ට් කිරීමට ඇතුළත් කරන්න.",
+    "empty_input": "පරීක්ෂා කිරීමට JSON, YAML, XML, HTML, TOML, CSV හෝ TSV ඇතුළත් කරන්න.",
     "too_large": "ආදානය ඉතා විශාලයි (උපරිම 1MB ඉඩ දී ඇත).",
     "fixed_yaml_spacing": "⚠ YAML හි වලංගු නොවන පරතරයක්/ඉඩෙන්ටේෂන් එකක් තිබූ නමුත් ස්වයංක්‍රීයව සවි කර හැඩතල ගන්වා ඇත.",
-    "loading": "ආකෘතිය පූරණය වෙමින්...",
+    "loading": "Auto-Linter පූරණය වෙමින්...",
     "waiting_for_input": "ආදානය සඳහා රැඳී සිටිමින්...",
-    "load_failed": "ආකෘතිය පූරණය කළ නොහැක.",
+    "load_failed": "Auto-Linter පූරණය කළ නොහැක.",
     "output": "ප්‍රතිදානය:",
     "input_code": "ආදානය",
     "json_examples": "JSON උදාහරණ",
-    "yaml_examples": "YAML උදාහරණ"
+    "yaml_examples": "YAML උදාහරණ",
+    "legacy_repo": "පැරණි Go ක්‍රියාත්මක කිරීම බලන්න",
+    "legacy_rust": "පැරණි Rust ක්‍රියාත්මක කිරීම බලන්න"
   },
   "tiger": {
     "title": "කොටි භාෂාව",
@@ -436,7 +459,8 @@
     "run_tiger": "කොටි දුවන්න",
     "output": "ප්‍රතිදානය:",
     "stop": "නවත්වන්න",
-    "program_input": "වැඩසටහන් ආදානය"
+    "program_input": "වැඩසටහන් ආදානය",
+    "legacy_repo": "පැරණි Go ක්‍රියාත්මක කිරීම බලන්න"
   },
   "tab": {
     "title": "පැට්රික් ගුඩ්වින්",
@@ -501,6 +525,10 @@
         "zoom_in": "විශාලනය කරන්න",
         "zoom_out": "විශාලනය කරන්න",
         "reset": "දර්ශනය යළි පිහිටුවන්න"
+      },
+      "country_names": {
+        "show": "රටවල් නම් පෙන්වන්න",
+        "hide": "රටවල් නම් සඟවන්න"
       }
     },
     "supported_languages": {

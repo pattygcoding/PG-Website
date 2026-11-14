@@ -8,8 +8,8 @@
     "tiger": "Tiger - Un llenguatge de programació personalitzat",
     "snake": "Joc de la serp",
     "portfolio_translator": "Traductor de cartera",
-    "formatter": "Linter JSON i YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Solucionador de Rubik's Cube",
     "contact": "Contacta amb mi",
     "home_description": "sys.root // visió general principal",
     "about_description": "perfil d'enginyer // bio i stack",
@@ -18,16 +18,26 @@
     "tiger_description": "compilador personalitzat i visualitzador AST",
     "snake_description": "joc arcade clàssic / WASM",
     "portfolio_translator_description": "matriu de 100+ idiomes i i18n",
-    "formatter_description": "validador i conversor de sintaxi",
+    "formatter_description": "linter i formatador multiformat // WASM",
     "contact_description": "transmissió oberta // posa't en contacte",
     "arcade": "Arcade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Arbre de llengües de Connecta 4",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulació de laboratori de química / WASM",
     "rustcraft_description": "joc de vòxels estil Minecraft / Rust i wgpu",
-    "suprememc_description": "mostra de mod Minecraft / Java"
+    "suprememc_description": "mostra de mod Minecraft / Java",
+    "framework_trees": "Arbres de marcs",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Xifratge Rijndael",
+    "chess_engine": "Motor d'escacs",
+    "interops": "Interops",
+    "chess_engine_description": "motor bitboard / WASM i worker",
+    "scripting_library_description": "scripts d'automatització // 6 llengües",
+    "reclaim_4160_description": "joc universitari, recuperat / C++ i WASM",
+    "turing_machines": "Màquines de Turing",
+    "scripting_library": "Biblioteca de scripts"
   },
   "home": {
     "title": "Enginyer sènior Full-Stack | Producte i Sistemes",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Projectes destacats",
       "title": "Treball seleccionat",
-      "description": "Sis projectes que representen millor com converteixo idees ambicioses en programari polit i funcional.",
+      "description": "Projectes que mostren millor com converteixo idees ambiciosos en programari polit i funcional.",
       "view_project": "Veure projecte",
       "open_project": "Obrir projecte en directe",
       "view_all": "Explora el portafoli complet",
@@ -99,7 +109,8 @@
         "libraries": "Biblioteques d'scripts",
         "languages": "Experiments d'idiomes",
         "automation": "Eines d'automatització i dades",
-        "experience": "Experiència professional i educativa"
+        "experience": "Experiència professional i educativa",
+        "markets": "Mercats i sistemes de comerç"
       },
       "browser_native": "Natiu del navegador / sense servidor",
       "no_results": "No hi ha projectes coincidents",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Accessibilitat",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "La correcció financera comença amb la representació: l'aritmètica en cèntims enters i els assentaments equilibrats fan explícit el moviment de diners."
         },
         "interop": {
-          "summary": "Una referència entre llenguatges que abasta {languages} llenguatges de programació i {patterns} patrons d'execució, explorant què passa als límits del temps d'execució.",
+          "summary": "Una referència entre llenguatges que cobreix {languages} llenguatges de programació i {patterns} patrons d'execució, explorant què passa a les fronteres del runtime.",
           "lens": "La part difícil és el contracte entre els runtimes: l'intercanvi de dades, el comportament dels processos i l'execució repetible importen més que la sintaxi."
         },
         "formatter": {
-          "summary": "Un motor d'anàlisi Go real compilat a WebAssembly. La validació i el formatatge de JSON i YAML s'executen localment al navegador.",
-          "lens": "Moure el parser al navegador intercanvia una càrrega més gran del client per processament local, portabilitat i menys dependències del servidor."
+          "summary": "Un linter i formatador WebAssembly escrit en Zig per a JSON, YAML, XML, HTML, TOML, CSV i TSV. La validació i el format s'executen localment al navegador.",
+          "lens": "El format és una qüestió de confiança: analitza amb una gramàtica real, conserva el text de l'autor i mantén les dades al client."
         },
         "portfolio_website": {
           "summary": "El lloc on ets: un portafoli React amb més de 100 idiomes, interaccions accessibles i eines WebAssembly funcionals.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Formatador automàtic JSON i YAML",
+        "title": "Auto-Linter",
         "text": "Una eina de validació i format JSON i YAML basada en navegador integrada a Go i compilada a WebAssembly. Moure el motor d'anàlisi a WASM manté la interacció sensible i local al navegador mentre s'aplica un analitzador real per capturar entrada no vàlida. És un exemple enfocat de triar una arquitectura de temps d'execució per al rendiment, la portabilitat i la confiança dels usuaris.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Biblioteca de scripts",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -343,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Projecte de xifratge Rijndael",
-        "text": "Un conjunt comparatiu de més de {implementations} implementacions de Rijndael en variants de 128, 192 i 256 bits. La reimplementació d'un algorisme sensible a la seguretat entre idiomes és un exercici disciplinat d'especificacions exactes, comportament comprovable i límits de la portabilitat a nivell d'idioma. tots els instints útils per als sistemes que gestionen dades sensibles.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Solucionador de Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Projecte Màquina de Turing",
-        "text": "Família de més de {implementations} implementacions de la màquina de Turing. S'utilitza per demostrar la integritat de diferents llenguatges de programació per a la investigació, especialment per al llenguatge de programació Tiger.",
+        "text": "Una família de {implementations} implementacions de la Màquina de Turing. S'utilitza per demostrar la plenitud de Turing de diferents llenguatges de programació amb finalitats de recerca, especialment per al llenguatge Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Motor d'escacs",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Motor de coincidències PIT"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Responc a les consultes del correu electrònic i dels missatges de LinkedIn. També tornaré a trucar si el meu número es proporciona mitjançant un currículum o d'una altra manera, tot i que prefereixo mantenir el meu número de telèfon privat."
   },
   "formatter": {
-    "title": "JSON i YAML Linter",
+    "title": "Auto-Linter",
     "description": "Una eina de qualitat de dades basada en navegador que valida i forma JSON i YAML mitjançant un motor Go compilat a WebAssembly. L'arquitectura segueix analitzant a prop de l'usuari per obtenir comentaris ràpids i privats alhora que imposa regles de sintaxi reals al límit de les dades. És un exemple compacte de disseny d'un flux de treball de desenvolupador fiable al voltant de la correcció, el rendiment i la confiança.",
     "more_info1": "Per obtenir més informació, consulteu el README a la pàgina",
-    "more_info2": "Repositori de formatadors JSON/YAML.",
+    "more_info2": "Repositori d'Auto-Linter.",
     "format_as": "Format com a:",
     "auto_detect": "Detecció automàtica",
     "format": "Pelusa i format",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ YAML vàlid",
     "invalid_json": "JSON no vàlid",
     "invalid_yaml": "YAML no vàlid",
-    "empty_input": "Introduïu una mica de JSON o YAML per lint.",
+    "empty_input": "Introduïu JSON, YAML, XML, HTML, TOML, CSV o TSV per comprovar.",
     "too_large": "L'entrada és massa gran (permet 1 MB com a màxim).",
     "fixed_yaml_spacing": "⚠ YAML tenia un espai/sagnat no vàlid, però s'ha corregit i formatat automàticament.",
-    "loading": "S'està carregant el formatador...",
+    "loading": "S'està carregant Auto-Linter...",
     "waiting_for_input": "S'està esperant l'entrada...",
-    "load_failed": "No es pot carregar el formatador.",
+    "load_failed": "No s'ha pogut carregar Auto-Linter.",
     "output": "Sortida:",
     "input_code": "Entrada",
     "json_examples": "Exemples de JSON",
-    "yaml_examples": "Exemples de YAML"
+    "yaml_examples": "Exemples de YAML",
+    "legacy_repo": "Mostra la implementació antiga de Go",
+    "legacy_rust": "Mostra la implementació antiga de Rust"
   },
   "tiger": {
     "title": "Llengua Tigre",
@@ -433,7 +459,8 @@
     "run_tiger": "Corre Tiger",
     "output": "Sortida:",
     "stop": "Atura",
-    "program_input": "Entrada del programa"
+    "program_input": "Entrada del programa",
+    "legacy_repo": "Mostra la implementació antiga de Go"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -498,6 +525,10 @@
         "zoom_in": "Apropa",
         "zoom_out": "Allunya el zoom",
         "reset": "Restableix la vista"
+      },
+      "country_names": {
+        "show": "Mostra els noms dels països",
+        "hide": "Amaga els noms dels països"
       }
     },
     "supported_languages": {

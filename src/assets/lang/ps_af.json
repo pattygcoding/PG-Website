@@ -8,8 +8,8 @@
     "tiger": "Tiger - یوه ځانګړې پروګرامینګ ژبه",
     "snake": "د مار لوبه",
     "portfolio_translator": "د پورټ فولیو ژباړونکی",
-    "formatter": "د JSON او YAML سمونکونکی",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "د Rubik's Cube حل کوونکی",
     "contact": "ما سره اړیکه ونیسئ",
     "home_description": "sys.root // اصلي کتنه",
     "about_description": "د انجینر پروفایل // بایو او ټیکنالوژي",
@@ -18,16 +18,26 @@
     "tiger_description": "ځانګړی کمپایلر او AST لیدونکی",
     "snake_description": "کلاسیک آرکیډ لوبه / WASM",
     "portfolio_translator_description": "د 100+ ژبو میټرکس او i18n",
-    "formatter_description": "سینټکس تاییدوونکی او بدلوونکی",
+    "formatter_description": "ډیر بڼې linter او formatter // WASM",
     "contact_description": "پرانیستې لېږد // اړیکه ونیسئ",
     "arcade": "آرکیډ",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "د څلورو پرله پسې ژبه ونه",
+    "connect_four": "Connect Four",
     "alkalab_description": "د کیمیا لابراتوار سمول / WASM",
     "rustcraft_description": "د Minecraft سټایل ووکسیل لوبه / Rust او wgpu",
-    "suprememc_description": "د Minecraft موډ ننداره / Java"
+    "suprememc_description": "د Minecraft موډ ننداره / Java",
+    "framework_trees": "د framework ونې",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "د Rijndael کوډونه",
+    "chess_engine": "د chess انجن",
+    "interops": "Interops",
+    "chess_engine_description": "د bitboard انجن / WASM او کارګر",
+    "scripting_library_description": "د اتومات کیدو scriptونه // 6 ژبې",
+    "reclaim_4160_description": "د کالج لوبه، بیا ترلاسه شوې / C++ او WASM",
+    "turing_machines": "د تورینګ ماشینونه",
+    "scripting_library": "د script کتابتون"
   },
   "home": {
     "title": "لوړ پوړی بشپړ سټیک انجینر | محصول او سیسټمونه",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "ښه ښکاره پروژې",
       "title": "ټاکل شوي کارونه",
-      "description": "شپږ پروژې چې غوره ښکاره کوي زه څنګه لوی هیلې په ښه، فعال سافټویر بدلوم.",
+      "description": "هغه پروژې چې ښه ښیې چې زه څنګه ننګونې نظریې په بشپړ، کارکوونکي سافټویر بدلوم.",
       "view_project": "پروژه وګورئ",
       "open_project": "ژوندۍ پروژه پرانیزئ",
       "view_all": "بشپړ پورټ فولیو وپلټئ",
@@ -99,7 +109,8 @@
         "libraries": "سکریپټ کتابتونونه",
         "languages": "ژبني تجربې",
         "automation": "د اتومات او معلوماتو وسایل",
-        "experience": "مسلکي او تحصیلي تجربه"
+        "experience": "مسلکي او تحصیلي تجربه",
+        "markets": "بازارونه او د سوداګرۍ سیستمونه"
       },
       "browser_native": "د براوزر اصلي / پرته له سرور",
       "no_results": "هیڅ ورته پروژه نشته",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "لاسرسی",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "مالي سمتیا له استازولۍ څخه پیلېږي: د بشپړ سینټ حساب او متوازن داخلې د پیسو حرکت څرګندوي."
         },
         "interop": {
-          "summary": "د {languages} پروګرامینګ ژبو او {patterns} اجرایی نمونو پوښونکی د ژبو ترمنځ حواله، چې د اجرا وخت له پولو سره څه پیښېږي څېړي.",
+          "summary": "د ژبو ترمنځ حواله چې {languages} پروګرام جوړونې ژبې او {patterns} د تطبیق بڼې رانغاړي، او د runtime په پوله کې څه چې پیښیږي څیړي.",
           "lens": "سخته برخه د اجرا وختونو ترمنځ تړون دی: د معلوماتو تبادله، د پروسې چلند او تکرارېدونکی اجرا له سینټکس څخه ډېر مهم دی."
         },
         "formatter": {
-          "summary": "یو واقعي Go پارسنگ انجن چې WebAssembly ته جوړ شوی. د JSON او YAML تایید او فارمیټینګ په براوزر کې په سیمه ییزه توګه ځي.",
-          "lens": "پارسر په براوزر کې لېږدول لوی کلاینټ پېلوډ د سیمه ییز پروسس، پورټیبلتیا او کم سرور تکیه سره بدلوي."
+          "summary": "د JSON، YAML، XML، HTML، TOML، CSV او TSV لپاره د Zig په مرسته لیکل شوی WebAssembly linter او formatter. تصدیق او بڼه د براوزر دننه سیمه ایز کار کوي.",
+          "lens": "بڼه د باور مسئله ده: په اصلي ګرامر سره تحلیل، د لیکوال متن ساتل، او معلومات د پیرودونکي سره ساتل."
         },
         "portfolio_website": {
           "summary": "هغه سایټ چې تاسو پکې یاست: د 100+ ژبو، لاسرسي وړ تعاملاتو او فعال WebAssembly وسایلو سره React پورټ فولیو.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON او YAML آٹو فارمیټر",
+        "title": "Auto-Linter",
         "text": "د براوزر میشته JSON او YAML تایید او فارمیټ کولو وسیله په Go کې جوړه شوې او WebAssembly ته جوړه شوې. WASM ته د پارسینګ انجن لیږدول براوزر ته متقابل ځواب ورکوونکی او ځایی ساتي پداسې حال کې چې د غلط ان پټ نیولو لپاره ریښتیني پارسر پلي کوي. دا د فعالیت ، پورټ وړتیا ، او کارونکي باور لپاره د چلولو وخت جوړښت غوره کولو متمرکز مثال دی.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "د script کتابتون",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "د Rijndael د کوډ کولو پروژه",
-        "text": "په 128-، 192-، او 256-bit ډولونو کې د {implementations} Rijndael تطبیقونو پرتله کول. په ژبو کې د امنیت حساس الګوریتم بیا پلي کول په دقیقو مشخصاتو، د آزموینې وړ چلند، او د ژبې په کچه د لیږد وړتیا محدودیتونو کې یو منظم تمرین دی. د سیسټمونو لپاره ټول ګټور انډولونه چې حساس معلومات اداره کوي.",
+        "title": "د Rijndael کوډونه پروژه",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "د Rubik's Cube حل کوونکی",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "د تورینګ ماشین پروژه",
-        "text": "د تورینګ ماشین له {implementations} څخه زیاتو پلي کونکو کورنۍ. د څیړنې لپاره د مختلف پروګرامینګ ژبو لپاره د بشپړتیا ښودلو لپاره کارول کیږي، په ځانګړې توګه د ټایګر پروګرامینګ ژبې لپاره.",
+        "text": "د {implementations} د تورینګ ماشین تطبیقونو کورنۍ. د بیلابیلو پروګرام جوړونې ژبو د تورینګ بشپړتیا د څیړنې لپاره ښودلو کې کارول کیږي، په ځانګړې توګه د Tiger ژبې لپاره.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "د chess انجن",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "د PIT تطبیق انجن"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "زه د بریښنالیک او لینکډین پیغامونو پوښتنو ته ځواب ورکوم. زه به بیرته زنګ ووهم که زما شمیره د بیا پیلولو یا بل ډول له لارې چمتو شوې وي، که څه هم زه غوره ګڼم چې زما د تلیفون شمیره شخصي وساتم."
   },
   "formatter": {
-    "title": "JSON او YAML لینټر",
+    "title": "Auto-Linter",
     "description": "د براوزر پراساس د ډیټا کیفیت وسیله چې WebAssembly ته ترتیب شوي Go انجن په کارولو سره JSON او YAML تایید او فارمیټ کوي. جوړښت د ګړندي ، شخصي فیډبیک لپاره کارونکي ته نږدې تجزیه کوي پداسې حال کې چې د ډیټا په حد کې د اصلي ترکیب قواعد پلي کوي. دا د سموالي، فعالیت، او باور په شاوخوا کې د باور وړ پراختیا کونکي کاري فلو ډیزاین کولو یوه جامع بیلګه ده.",
     "more_info1": "د ‏‎README‎‏ پاڼې اړوند نور معلومات په فسبوک کې اوګورئ",
-    "more_info2": "JSON/YAML فارمیټر ذخیره.",
+    "more_info2": "د Auto-Linter زیرمه.",
     "format_as": "بڼه لکه:",
     "auto_detect": "اتومات کشف",
     "format": "لینټ او بڼه",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ معتبر YAML",
     "invalid_json": "ناسم JSON",
     "invalid_yaml": "ناسم YAML",
-    "empty_input": "مهرباني وکړئ د لینټ کولو لپاره ځینې JSON یا YAML دننه کړئ.",
+    "empty_input": "د کتنې لپاره JSON، YAML، XML، HTML، TOML، CSV یا TSV دننه کړئ.",
     "too_large": "ننوت ډیر لوی دی ( اعظمي 1MB اجازه لري).",
     "fixed_yaml_spacing": "⚠ YAML ناسم فاصله / نښه درلوده مګر په اتوماتيک ډول ټاکل شوی او فارمیټ شوی.",
-    "loading": "د فارمټر لوډ کول...",
+    "loading": "Auto-Linter پورته کېږي...",
     "waiting_for_input": "د ننوتلو په انتظار...",
-    "load_failed": "د فارمټر پورته کولو توان نلري.",
+    "load_failed": "Auto-Linter ونهaita.",
     "output": "محصول:",
     "input_code": "داخلول",
     "json_examples": "د JSON مثالونه",
-    "yaml_examples": "د YAML مثالونه"
+    "yaml_examples": "د YAML مثالونه",
+    "legacy_repo": "زوړ Go تطبیق وګورئ",
+    "legacy_rust": "زوړ Rust تطبیق وګورئ"
   },
   "tiger": {
     "title": "د شیر ژبه",
@@ -433,7 +459,8 @@
     "run_tiger": "شیر یې کړئ",
     "output": "محصول:",
     "stop": "درول",
-    "program_input": "د پروګرام داخل"
+    "program_input": "د پروګرام داخل",
+    "legacy_repo": "زوړ Go تطبیق وګورئ"
   },
   "tab": {
     "title": "پیټریک ګوډون",
@@ -498,6 +525,10 @@
         "zoom_in": "زوم ان",
         "zoom_out": "زوم اوټ",
         "reset": "لید بیا تنظیم کړئ"
+      },
+      "country_names": {
+        "show": "د هیوادونو نومونه ښکاره کړئ",
+        "hide": "د هیوادونو نومونه پټ کړئ"
       }
     },
     "supported_languages": {

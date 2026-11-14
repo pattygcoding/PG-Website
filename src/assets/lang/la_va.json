@@ -8,8 +8,8 @@
     "tiger": "Tiger - Lingua programmandi propria",
     "snake": "Ludus serpentis",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "Linter JSON et YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Solutor Rubik's Cube",
     "contact": "Contact Me",
     "home_description": "sys.root // summarium principale",
     "about_description": "profilum machinatoris // curriculum et technologia",
@@ -18,16 +18,26 @@
     "tiger_description": "compilator proprius et visualisator AST",
     "snake_description": "ludus arcedii classicus / WASM",
     "portfolio_translator_description": "matricula 100+ linguarum et i18n",
-    "formatter_description": "validator et conversor syntaxeos",
+    "formatter_description": "linter et formatter multifacie // WASM",
     "contact_description": "transmissio aperta // contigere",
     "arcade": "Arcaedium",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Arbor linguarum Quattuor in Ordine",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulatio laboratorii chemiae / WASM",
     "rustcraft_description": "ludus voxel in stilo Minecraft / Rust et wgpu",
-    "suprememc_description": "monstratio modorum Minecraft / Java"
+    "suprememc_description": "monstratio modorum Minecraft / Java",
+    "framework_trees": "Arbores framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Cryptatio Rijndael",
+    "chess_engine": "Machina scaccorum",
+    "interops": "Interops",
+    "chess_engine_description": "machina bitboard / WASM et operarius",
+    "scripting_library_description": "scripta automataria // 6 linguae",
+    "reclaim_4160_description": "lusus universitatis, recuperatus / C++ et WASM",
+    "turing_machines": "Machinae Turing",
+    "scripting_library": "Bibliotheca scriptorum"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Product & Systems",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Proiecta selecta",
       "title": "Opera selecta",
-      "description": "Sex proiecta quae optimo modo repraesentant quomodo ideas ambitiosas in programmaturam politam et operantem verto.",
+      "description": "Opera quae optime ostendunt quemadmodum cogitationes magnas in programmata perfecta et operantia vertam.",
       "view_project": "Vide proiectum",
       "open_project": "Aperi proiectum vivum",
       "view_all": "Explora portfolio plenam",
@@ -99,7 +109,8 @@
         "libraries": "Bibliothecae scriptorum",
         "languages": "Experimenta linguarum",
         "automation": "Instrumenta automationis et datorum",
-        "experience": "Experientia professionalis et educationis"
+        "experience": "Experientia professionalis et educationis",
+        "markets": "Fora et systemata mercaturae"
       },
       "browser_native": "Nativus navigatri / sine servo",
       "no_results": "Nulla proiecta congruentia",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Accessibilitas",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Correctio oeconomica incipit a repraesentatione: arithmetica centorum integrorum et scribtiones libratae motum pecuniae explicitum faciunt."
         },
         "interop": {
-          "summary": "Referentia inter linguas {languages} linguas programmandi et {patterns} exemplaria executionis complectens, explorans quid in finibus temporis executionis eveniat.",
+          "summary": "Relatio inter linguas {languages} linguas programmandi et {patterns} exempla exsequendi complectens, quae in finibus runtime fiunt scrutatur.",
           "lens": "Pars difficilis est contractus inter tempora executionis: commutatio datorum, mores processuum, et executio repetibilis plus valent quam syntax."
         },
         "formatter": {
-          "summary": "Verus motor analysis Go in WebAssembly compilatus. Validatio et formatio JSON et YAML localiter in navigatro currunt.",
-          "lens": "Ferre analysam in navigatrum maiorem onus clientis pro processione locali, portabilitate, et minoribus servitutiis commutat."
+          "summary": "Linter et formatter WebAssembly Zig scriptus ad JSON, YAML, XML, HTML, TOML, CSV et TSV. Probatio et formatio loco in navigatro currunt.",
+          "lens": "Formatio negotium fidei est: grammatica vera disseca, textum auctoris serva, data apud clientem tene."
         },
         "portfolio_website": {
           "summary": "Situs in quo es: portfolio React cum 100+ linguis, interactionibus accessibilibus, et instrumentis WebAssembly operantibus.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "A navigatorio substructio JSON et YAML sanatio et instrumentum formatting in Go constructum et ad WebAssembly compilavit. Movens machinam parsing in WASM conservat commercium responsivum et localem ad navigatorem dum applicando parser realis ad input irritum capiendum. Exemplum focused est eligendi runtime architecturae perficiendi, portabilitatis, et fidei usoris.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Bibliotheca scriptorum",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Encryption Project",
-        "text": "Copia comparativa {implementations} Rijndael exsequendi trans 128-, 192-, et 256-bit variantes. Reimplere algorithmum securitatis-sensitivum trans linguas est exercitatio disciplinae in exactis specificationibus, moribus testabilium et limitibus portabilitatis linguae inaequalis; omnes instinctus utiles ad systemata quae data sensitiva tractant.",
+        "title": "Institutum cryptationis Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Solutor Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Machina Project",
-        "text": "Familia super {implementations} exsecutiones Machinae Turingae. Solebant demonstrare perfectionem vertere pro variis programmandis linguis ad investigationes, praesertim pro Lingua Programming Tigris.",
+        "text": "Familia {implementations} machinae Turing. Ad turing plenitudinem linguarum programmandi diversarum demonstrandam in investigatione uti solet, praesertim linguae Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Machina scaccorum",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Machina congruentiae PIT"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Respondeo ex inscriptione et nuntios LinkedIn inquirit. Ego etiam revocabo si numerus meus provisus est per resumere vel aliter, etsi malim numerum telephonicum privatum servare."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Navicularum substructio notitia qualitatis instrumenti quod validat et format JSON et YAML utens machinam ad WebAssembly compilata. Architectura parsing proxima ad usorem servat ad ieiunium, opiniones privatas dum coercitio realis syntaxin regulas in notitia terminorum. Pactum est exemplum elaborandi certa elit operandi circa rectitudinem, effectum, et fidem.",
     "more_info1": "Pro maiori refer ad README in the",
-    "more_info2": "JSON/YAML Formatter Repositorium.",
+    "more_info2": "Repositorium Auto-Linter.",
     "format_as": "Forma sicut:",
     "auto_detect": "Auto deprehendere",
     "format": "Linte & Format",
@@ -412,16 +436,18 @@
     "valid_yaml": "Valid YAML",
     "invalid_json": "Aliquam JSON",
     "invalid_yaml": "Aliquam YAML",
-    "empty_input": "Quaeso, JSON vel YAML in linteolum ingredere.",
+    "empty_input": "Inscribe JSON, YAML, XML, HTML, TOML, CSV aut TSV probanda.",
     "too_large": "Nimis magna potenti (max 1MB permisit).",
     "fixed_yaml_spacing": "⚠ YAML invalidum spatii / incisum sed auto-fixum et formatum est.",
-    "loading": "Formatter Loading...",
+    "loading": "Auto-Linter oneriari...",
     "waiting_for_input": "Exspectans initus...",
-    "load_failed": "'Non formatter load.",
+    "load_failed": "Auto-Linter oneriari non potuit.",
     "output": "Output:",
     "input_code": "Input",
     "json_examples": "JSON Exempla",
-    "yaml_examples": "YAML Exempla"
+    "yaml_examples": "YAML Exempla",
+    "legacy_repo": "Veterem Go implementationem vide",
+    "legacy_rust": "Veterem Rust implementationem vide"
   },
   "tiger": {
     "title": "Lingua tigris",
@@ -433,7 +459,8 @@
     "run_tiger": "Curre Tigris",
     "output": "Output:",
     "stop": "Siste",
-    "program_input": "Introitus programmatis"
+    "program_input": "Introitus programmatis",
+    "legacy_repo": "Veterem Go implementationem vide"
   },
   "tab": {
     "title": "Patricius Goodwin",
@@ -498,6 +525,10 @@
         "zoom_in": "In zoom",
         "zoom_out": "Retrahe",
         "reset": "Reset View"
+      },
+      "country_names": {
+        "show": "Nomina civitatum ostende",
+        "hide": "Nomina civitatum absconde"
       }
     },
     "supported_languages": {

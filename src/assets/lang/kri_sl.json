@@ -8,8 +8,8 @@
     "tiger": "Tiger - Wan Kastɔm Prɔgraming Langwej",
     "snake": "Snɛk ple",
     "portfolio_translator": "Pɔtfɔlio Transletɔ",
-    "formatter": "JSON & YAML chɛka",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube solvɛ",
     "contact": "Kontakt Mi",
     "home_description": "sys.root // mɛn bilivyu",
     "about_description": "injinia profil // bio ɛn teknoloji",
@@ -18,16 +18,26 @@
     "tiger_description": "kastɔm kompaila ɛn AST vizyualiza",
     "snake_description": "klɑsik arked ple / WASM",
     "portfolio_translator_description": "100+ langwej matriks ɛn i18n",
-    "formatter_description": "sintaks validatɔ ɛn kɔnvɛta",
+    "formatter_description": "linta na forma fo plɛnti tin // WASM",
     "contact_description": "opin trans­mishɔn // kɔntakt mi",
     "arcade": "Arked",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Tɔk langwej tri Fɔ na wan layn",
+    "connect_four": "Connect Four",
     "alkalab_description": "kɛmistri lab simulɛshɔn / WASM",
     "rustcraft_description": "voksɛl ple lɛk Minecraft / Rust ɛn wgpu",
-    "suprememc_description": "Minecraft mod sho / Java"
+    "suprememc_description": "Minecraft mod sho / Java",
+    "framework_trees": "Fɔmwork tri",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael ɛnkript",
+    "chess_engine": "Chɛs engine",
+    "interops": "Interops",
+    "chess_engine_description": "bitboard engine / WASM na waka",
+    "scripting_library_description": "otometik skript // 6 langwej",
+    "reclaim_4160_description": "kɔlɛj gɛm, tek bɛk / C++ na WASM",
+    "turing_machines": "Turing Mashi",
+    "scripting_library": "Skrip librari"
   },
   "home": {
     "title": "Sinia Ful-Stak Injinia | Prodakt & Sistem dɛn",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Chuz projekt dɛn",
       "title": "Chuz wok dɛn",
-      "description": "Siks projekt dɛn we de sho di bɛst aw i mek ambishɔs aydia dɛn tɔn gud ɛn wokin sɔftwea.",
+      "description": "Dem projekti we de sho bɛtɛ bɛtɛ aw yu de tɛm a big tin we yu tink bɛtɛ go na gud, de wok software.",
       "view_project": "Luk di projekt",
       "open_project": "Opin di layv projekt",
       "view_all": "Eksplor di ful portfolio",
@@ -99,7 +109,8 @@
         "libraries": "Skrip laybrari dɛn",
         "languages": "Langwej eksperimɛnt dɛn",
         "automation": "Automeshɔn ɛn data tul dɛn",
-        "experience": "Pro­fɛshɔnal ɛn Ɛdyukɛshɔnal ekspiriɛns"
+        "experience": "Pro­fɛshɔnal ɛn Ɛdyukɛshɔnal ekspiriɛns",
+        "markets": "Markit na treding sistim"
       },
       "browser_native": "Browser-netiv / na wan sɛva",
       "no_results": "Nɔ wan projekt fit",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Aksɛsibul",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Finanshal kɔrɛktnɛs de stat wit rip­rɛzɛntɛshɔn: ful-sɛnt aritmɛtik ɛn balansɛd ɛntri dɛn de mek moni muvmɛnt ikspɔsit."
         },
         "interop": {
-          "summary": "Wan kros-langwej rifrɛns we de kɔba {languages} prɔgraming langwej ɛn {patterns} ɛksikyu­shɔn patɛn dɛn, de eksplor wetin de apin na di taym ɛnd dɛn.",
+          "summary": "Sɛntɛs inta langwej we de kova {languages} program langwej na {patterns} ɛm we dem de yus, e de luk wetin de apin na runtime bɔda.",
           "lens": "Di ɔd pɔt na di agrimɛnt bitwin taym dɛn: data ɛkschaynj, prɔsɛs biheyviɔ, ɛn rɛpɛtɛbul ɛksikyushɔn mɔ impɔtant pas sintaks."
         },
         "formatter": {
-          "summary": "Wan rili Go parsing injin we de wok na WebAssembly. JSON ɛn YAML validɛshɔn ɛn fɔmatin de wok lokali na di browser.",
-          "lens": "Muv di parser na di browser de chaynj mɔ biga klyant layd fɔ lokal prɔsesin, pɔtabul, ɛn lɛs dipɛndɛn pan sɛva."
+          "summary": "Linta na forma na WebAssembly we dem rait insɛ Zig fo JSON, YAML, XML, HTML, TOML, CSV na TSV. E de chek na forma insɛ brausa.",
+          "lens": "Fɔmating na chos we de gi trost: pars am na tru grammar, kip a data we a rait, na kip a data na klayant."
         },
         "portfolio_website": {
           "summary": "Di sayt we yu de: wan React portfolio wit 100+ langwej, aksɛsibul inta­aksyɔn dɛn, ɛn WebAssembly tul dɛn we de wok.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Ɔto Fɔmat",
+        "title": "Auto-Linter",
         "text": "Wan brawza-based JSON ɛn YAML validɛshɔn ɛn fɔmat tul we dɛn bil insay Go ɛn kɔmpilayt to WebAssembly. We yu muv di parsing injin insay WASM, i de kip di intarakshɔn rispɔnsiv ɛn lokal to di brawza we yu de aplay rial pars fɔ kech invalid input. Na wan fɔs ɛgzampul fɔ pik wan rɔntaym akitɛkɛt fɔ pefɔmɛns, pɔtabiliti, ɛn yuz trɔst.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skrip librari",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Enkripshɔn Projɛkt",
-        "text": "Wan kɔmparativ sɛt fɔ {implementations} Rijndael implimɛnt dɛn akɔs 128-, 192-, ɛn 256-bit vɛryɔnt dɛn. Fɔ ri-implimɛnt wan sikyɔriti-sɛnsitiv algɔrithm akɔdin to langwej dɛn na wan disiplin ɛgzampul insay ɛksaktɔl spɛsifikɛshɔn dɛn, tɛstable bihayvya, ɛn di limit dɛn fɔ langwej-lɛvel pɔtabiliti, ɔl di yusful instinkt fɔ sistɛm dɛn we de handle sɛnsitiv data.",
+        "title": "Rijndael ɛnkript projɛk",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube solvɛ",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Mashin Projɛkt",
-        "text": "Famili fɔ ova {implementations} implimɛnt dɛn fɔ di Turing Mashin. Yuz fɔ sho turing kɔmplitnɛs fɔ difrɛn programin langwej fɔ risach, mɔ fɔ di Tayga Progrɛm Langwej.",
+        "text": "Fambili fɔ {implementations} fɔ Turing Mashi. Dem de yus am fɔ sho turing completeness fɔ difrent program langwej fɔ risɛch, espesial fɔ Tiger langwej.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Chɛs engine",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT match engine"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "A kin ansa kwɛstyɔn dɛn frɔm imel ɛn LinkedIn mɛsej dɛn. A go kɔl bak bak if dɛn gi mi nɔmba bay rizyum ɔ ɔda we, pan ɔl we a lɛk fɔ kip mi fon nɔmba prayvet."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Wan brawza-based data kwaliti tul we de validet ɛn fɔmat JSON ɛn YAML yuz wan Go injin we dɛn kɔmpilayt to WebAssembly. Di akitɛkɛt de kip de pars klos to di yuza fɔ fast, prayvet fidbak we i de ɛnfɔs rial sɛntaks lɔ dɛn na di data bɔda. Na wan kɔmpakt ɛgzampul fɔ disayn wan divɛlɔpa wokflɔ we pɔsin kin abop pan rawnd kɔrɛkt, pefɔmɛns, ɛn trɔst.",
     "more_info1": "Fɔ no mɔ, rid di README we de na di",
-    "more_info2": "JSON/YAML Fɔmat Ripɔsitɔri.",
+    "more_info2": "Auto-Linter stɔ.",
     "format_as": "Fɔmat As:",
     "auto_detect": "Ɔto Ditekt fɔ di pɔsin",
     "format": "Lint & Fɔmat",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ Valid YAML",
     "invalid_json": "JSON we nɔ rayt",
     "invalid_yaml": "YAML we nɔ rayt",
-    "empty_input": "Duya ɛnta sɔm JSON ɔ YAML fɔ lint.",
+    "empty_input": "Put JSON, YAML, XML, HTML, TOML, CSV o TSV insɛ fɔ chek am.",
     "too_large": "Input tu big (maks 1MB alaw).",
     "fixed_yaml_spacing": "⚠ YAML bin gɛt invalid spacing/indentation bɔt dɛn dɔn ɔto-fiks am ɛn fɔmat am.",
-    "loading": "We yu de lod fɔmat...",
+    "loading": "E de lod Auto-Linter...",
     "waiting_for_input": "Wet fɔ input...",
-    "load_failed": "Nɔ ebul fɔ lod fɔmat.",
+    "load_failed": "No de lod Auto-Linter nɔ.",
     "output": "Di tin we dɛn kin pul: .",
     "input_code": "Input we dɛn put insay",
     "json_examples": "JSON Ɛgzampul dɛn",
-    "yaml_examples": "YAML Ɛgzampul dɛn"
+    "yaml_examples": "YAML Ɛgzampul dɛn",
+    "legacy_repo": "Luk o tri Go implementation",
+    "legacy_rust": "Luk o tri Rust implementation"
   },
   "tiger": {
     "title": "Tayga Langwej",
@@ -433,7 +459,8 @@
     "run_tiger": "Rɔn Tayga",
     "output": "Di tin we dɛn kin pul: .",
     "stop": "Stɔp",
-    "program_input": "Prɔgram input"
+    "program_input": "Prɔgram input",
+    "legacy_repo": "Luk o tri Go implementation"
   },
   "tab": {
     "title": "Patrik Gudwin bin de",
@@ -498,6 +525,10 @@
         "zoom_in": "Zum In insay",
         "zoom_out": "Zum Ɔut",
         "reset": "Riset di View"
+      },
+      "country_names": {
+        "show": "Sho na nem fɔ ɛri kantri",
+        "hide": "Hɛd na nem fɔ ɛri kantri"
       }
     },
     "supported_languages": {
