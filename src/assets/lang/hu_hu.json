@@ -8,8 +8,8 @@
     "tiger": "Tiger - Egy egyedi programozási nyelv",
     "snake": "Kígyójáték",
     "portfolio_translator": "Portfólió fordító",
-    "formatter": "JSON- és YAML-linter",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik-kocka megoldó",
     "contact": "Lépjen kapcsolatba velem",
     "home_description": "sys.root // fő áttekintés",
     "about_description": "mérnökprofil // bio és stack",
@@ -18,18 +18,26 @@
     "tiger_description": "egyedi fordító és AST-megjelenítő",
     "snake_description": "klasszikus játéktermi játék / WASM",
     "portfolio_translator_description": "100+ nyelvi mátrix és i18n",
-    "formatter_description": "szintaxis-ellenőrző és konverter",
+    "formatter_description": "többformátumú linter és formázó // WASM",
     "contact_description": "nyílt átvitel // vegye fel velem a kapcsolatot",
     "arcade": "Játékterem",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Ami négyes nyelvfa",
+    "connect_four": "Connect Four",
     "alkalab_description": "kémiai laboratóriumi szimuláció / WASM",
     "rustcraft_description": "Minecraft-stílusú voxeljáték / Rust és wgpu",
     "suprememc_description": "Minecraft-mod bemutató / Java",
-    "chess_engine": "Sakkmotor",
-    "chess_engine_description": "bitboard motor / WASM és munkás"
+    "chess_engine": "Sakk motor",
+    "chess_engine_description": "bitboard motor / WASM és worker",
+    "framework_trees": "Keretrendszerek fái",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael titkosítás",
+    "interops": "Interops",
+    "scripting_library_description": "automatizálási szkriptek // 6 nyelv",
+    "reclaim_4160_description": "egyetemi játék, újraépítve / C++ és WASM",
+    "turing_machines": "Turing-gépek",
+    "scripting_library": "Szkriptkönyvtár"
   },
   "home": {
     "title": "Senior Full Stack mérnök | Termékek és rendszerek",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Kiemelt projektek",
       "title": "Válogatott munkák",
-      "description": "Hat projekt, amelyek legjobban képviselik, hogyan változtatom át az ambiciózus ötleteket csiszolt, működő szoftverré.",
+      "description": "Projektek, amelyek a legjobban mutatják, hogyan alakítom a nagyratörő ötleteket kiforrott, működő szoftverré.",
       "view_project": "Projekt megtekintése",
       "open_project": "Élő projekt megnyitása",
       "view_all": "A teljes portfólió felfedezése",
@@ -101,7 +109,8 @@
         "libraries": "Szkriptkönyvtárak",
         "languages": "Nyelvi kísérletek",
         "automation": "Automatizálási és adateszközök",
-        "experience": "Szakmai és oktatási tapasztalat"
+        "experience": "Szakmai és oktatási tapasztalat",
+        "markets": "Piacok és kereskedési rendszerek"
       },
       "browser_native": "Böngészőben natív / szerver nélkül",
       "no_results": "Nincs egyező projekt",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Akadálymentesség",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "A pénzügyi helyesség a reprezentációval kezdődik: az egész centes aritmetika és a kiegyensúlyozott könyvelési tételek a pénzmozgást explicitté teszik."
         },
         "interop": {
-          "summary": "Egy nyelvek közötti referencia, amely {languages} programozási nyelvet és {patterns} végrehajtási mintát ölel fel, és azt vizsgálja, mi történik a futásidejű határokon.",
+          "summary": "Nyelvek közötti áttekintés {languages} programozási nyelvről és {patterns} végrehajtási mintáról, amely a futási idejű határokat vizsgálja.",
           "lens": "A nehéz rész a futásidők közötti szerződés: az adatcsere, a folyamatviselkedés és a reprodukálható végrehajtás többet számít, mint a szintaxis."
         },
         "formatter": {
-          "summary": "Egy valódi Go elemzőmotor WebAssembly-re fordítva. A JSON- és YAML-validálás és formázás a böngészőben, helyben fut.",
-          "lens": "Az elemző böngészőbe helyezése nagyobb kliens-terhelést cserél helyi feldolgozásra, hordozhatóságra és kevesebb szerverfüggőségre."
+          "summary": "Zig nyelven írt WebAssembly linter és formázó JSON, YAML, XML, HTML, TOML, CSV és TSV formátumokhoz. Az ellenőrzés és formázás helyben, a böngészőben fut.",
+          "lens": "A formázás bizalmi kérdés: valódi nyelvtanával elemezz, őrizd meg a szerző szövegét, és tartsd az adatokat a kliensen."
         },
         "portfolio_website": {
           "summary": "Az oldal, ahol vagy: egy React-portfólió 100+ nyelvvel, akadálymentes interakciókkal és működő WebAssembly-eszközökkel.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON és YAML automatikus formázó",
+        "title": "Auto-Linter",
         "text": "Böngészőalapú JSON- és YAML-ellenőrző és -formázó eszköz, amely a Go-ba épült és WebAssembly-re lett fordítva. Ha az elemző motort a WASM-be helyezi át, az interakció érzékeny és lokális marad a böngésző számára, miközben valódi értelmezőt alkalmaz az érvénytelen bevitel elkapására. Ez egy fókuszált példa a futásidejű architektúra kiválasztására a teljesítmény, a hordozhatóság és a felhasználói bizalom érdekében.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Szkriptkönyvtár",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael titkosítási projekt",
-        "text": "{implementations} Rijndael-megvalósítás összehasonlító készlete 128, 192 és 256 bites változatok között. A biztonságra érzékeny algoritmusok nyelvek közötti újraimplementálása fegyelmezett gyakorlat a pontos specifikációk, a tesztelhető viselkedés és a nyelvi szintű hordozhatóság korlátai terén, minden hasznos ösztön az érzékeny adatokat kezelő rendszerek számára.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik-kocka megoldó",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing-gép projekt",
-        "text": "A Turing-gép több mint {implementations} implementációjából álló család. Különböző kutatási programozási nyelvek, különösen a tigris programozási nyelv teljességének bemutatására szolgál.",
+        "text": "{implementations} Turing-gép implementáció családja. A különböző programozási nyelvek Turing-teljességének bemutatására szolgál kutatási célból, különösen a Tiger programozási nyelvhez.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Sakkmotor",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Sakk motor",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT párosító motor"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "E-mailben és LinkedIn üzenetben válaszolok megkeresésekre. Akkor is visszahívom, ha a számomat önéletrajzban vagy más módon megadom, bár a telefonszámomat inkább titokban tartom."
   },
   "formatter": {
-    "title": "JSON és YAML Linter",
+    "title": "Auto-Linter",
     "description": "Böngésző alapú adatminőségi eszköz, amely a JSON-t és a YAML-t a WebAssembly-re fordított Go motor segítségével ellenőrzi és formázza. Az architektúra folyamatosan a felhasználó közelében elemzi a gyors, privát visszajelzést, miközben valós szintaktikai szabályokat kényszerít ki az adathatáron. Ez egy kompakt példa egy megbízható fejlesztői munkafolyamat tervezésére a helyesség, a teljesítmény és a bizalom köré.",
     "more_info1": "További információkért tekintse meg a README részt a",
-    "more_info2": "JSON/YAML formázótár.",
+    "more_info2": "Auto-Linter tároló.",
     "format_as": "Formátum mint:",
     "auto_detect": "Automatikus észlelés",
     "format": "Szösz és formátum",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Érvényes YAML",
     "invalid_json": "Érvénytelen JSON",
     "invalid_yaml": "Érvénytelen YAML",
-    "empty_input": "Kérjük, adjon meg néhány JSON-t vagy YAML-t a szöszöléshez.",
+    "empty_input": "Írj be JSON, YAML, XML, HTML, TOML, CSV vagy TSV tartalmat az ellenőrzéshez.",
     "too_large": "A bemenet túl nagy (legfeljebb 1 MB megengedett).",
     "fixed_yaml_spacing": "⚠ A YAML-ben érvénytelen szóköz/behúzás volt, de automatikusan kijavították és formázták.",
-    "loading": "Formázó betöltése...",
+    "loading": "Auto-Linter betöltése...",
     "waiting_for_input": "Várakozás a bevitelre...",
-    "load_failed": "Nem sikerült betölteni a formázót.",
+    "load_failed": "Az Auto-Linter nem tölthető be.",
     "output": "Kimenet:",
     "input_code": "Bemenet",
     "json_examples": "JSON-példák",
-    "yaml_examples": "YAML példák"
+    "yaml_examples": "YAML példák",
+    "legacy_repo": "Régi Go implementáció megtekintése",
+    "legacy_rust": "Régi Rust implementáció megtekintése"
   },
   "tiger": {
     "title": "Tigris nyelv",
@@ -436,7 +459,8 @@
     "run_tiger": "Fuss Tiger",
     "output": "Kimenet:",
     "stop": "Leállítás",
-    "program_input": "Programbemenet"
+    "program_input": "Programbemenet",
+    "legacy_repo": "Régi Go implementáció megtekintése"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Nagyítás",
         "zoom_out": "Kicsinyítés",
         "reset": "Nézet visszaállítása"
+      },
+      "country_names": {
+        "show": "Országnevek megjelenítése",
+        "hide": "Országnevek elrejtése"
       }
     },
     "supported_languages": {

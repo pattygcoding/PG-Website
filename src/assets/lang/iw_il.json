@@ -8,8 +8,8 @@
     "tiger": "Tiger - שפת תכנות מותאמת אישית",
     "snake": "משחק הנחש",
     "portfolio_translator": "מתרגם תיקים",
-    "formatter": "בודק JSON ו-YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "פותר קוביית רוביק",
     "contact": "צור איתי קשר",
     "home_description": "sys.root // סקירה כללית",
     "about_description": "פרופיל מהנדס // ביוגרפיה וטכנולוגיות",
@@ -18,16 +18,26 @@
     "tiger_description": "מהדר מותאם אישית ומציג AST",
     "snake_description": "משחק ארקייד קלאסי / WASM",
     "portfolio_translator_description": "מטריצת 100+ שפות ו-i18n",
-    "formatter_description": "מאמת וממיר תחביר",
+    "formatter_description": "לינטר ומעצב מרובה־פורמטים // WASM",
     "contact_description": "שידור פתוח // צרו קשר",
     "arcade": "ארקייד",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "עץ שפות ארבעה בטור",
+    "connect_four": "Connect Four",
     "alkalab_description": "סימולציית מעבדת כימיה / WASM",
     "rustcraft_description": "משחק ווקסל בסגנון Minecraft / Rust ו-wgpu",
-    "suprememc_description": "תצוגת מוד Minecraft / Java"
+    "suprememc_description": "תצוגת מוד Minecraft / Java",
+    "framework_trees": "עצי פריימוורק",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "הצפנת Rijndael",
+    "chess_engine": "מנוע שחמט",
+    "interops": "Interops",
+    "chess_engine_description": "מנוע bitboard / WASM ו ‎worker",
+    "scripting_library_description": "סקריפטים לאוטומציה // 6 שפות",
+    "reclaim_4160_description": "משחק קולג׳, נכבש מחדש / C++ ו ‎WASM",
+    "turing_machines": "מכונות טיורינג",
+    "scripting_library": "ספריית סקריפטים"
   },
   "home": {
     "title": "מהנדס בכיר מחסנית מלאה | מוצר ומערכות",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "פרויקטים נבחרים",
       "title": "עבודות נבחרות",
-      "description": "ששה פרויקטים המייצגים בצורה הטובה ביותר כיצד אני הופך רעיונות שאפתניים לתוכנה מלוטשת ועובדת.",
+      "description": "פרויקטים שמראים הכי טוב כיצד אני הופך רעיונות שאפתניים לתוכנה מלוטשת ופועלת.",
       "view_project": "לצפות בפרויקט",
       "open_project": "לפתוח פרויקט חי",
       "view_all": "לחקור את תיק העבודות המלא",
@@ -99,7 +109,8 @@
         "libraries": "ספריות סקריפטים",
         "languages": "ניסויי שפה",
         "automation": "כלי אוטומציה ונתונים",
-        "experience": "ניסיון מקצועי וחינוכי"
+        "experience": "ניסיון מקצועי וחינוכי",
+        "markets": "שווקים ומערכות מסחר"
       },
       "browser_native": "יליד דפדפן / ללא שרת",
       "no_results": "אין פרויקטים תואמים",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "נגישות",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "נכונות פיננסית מתחילה בייצוג: חשבון באגורות שלמות ורישומים מאוזנים הופכים את תנועת הכסף למפורשת."
         },
         "interop": {
-          "summary": "התייחסות בין-שפתית המכסה {languages} שפות תכנות ו-{patterns} תבניות ביצוע, החוקרת מה קורה בגבולות זמן הריצה.",
+          "summary": "סקירה בין־לשונית המכסה {languages} שפות תכנות ו ‎{patterns} דפוסי הוצאה לפועל, הבוחנת מה קורה בגבולות זמן הריצה.",
           "lens": "החלק הקשה הוא החוזה בין זמני הריצה: החלפת נתונים, התנהגות תהליכים וביצוע ניתן לשחזור חשובים יותר מתחביר."
         },
         "formatter": {
-          "summary": "מנוע ניתוח Go אמיתי שהידור ל-WebAssembly. אימות ועיצוב JSON ו-YAML פועלים מקומית בדפדפן.",
-          "lens": "העברת המנתח לדפדפן מחליפה מטען לקוח גדול יותר בעיבוד מקומי, ניידות ופחות תלות בשרת."
+          "summary": "לינטר ומעצב WebAssembly שנכתב ב-Zig עבור JSON, YAML, XML, HTML, TOML, CSV ו TSV. האימות והעיצוב מתבצעים מקומית בדפדפן.",
+          "lens": "עיצוב הוא עניין של אמון: לנתח עם דקדוק אמיתי, לשמר את טקסט המחבר ולשמור את הנתונים בצד הלקוח."
         },
         "portfolio_website": {
           "summary": "האתר שבו אתם נמצאים: תיק עבודות React עם 100+ שפות, אינטראקציות נגישות וכלי WebAssembly פועלים.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "פורמט אוטומטי של JSON ו-YAML",
+        "title": "Auto-Linter",
         "text": "כלי אימות ועיצוב מבוסס-דפדפן JSON ו-YAML שנבנה ב-Go והידור ל-WebAssembly. העברת מנוע הניתוח ל-WASM שומר על האינטראקציה מגיבה ומקומית לדפדפן תוך החלת מנתח אמיתי כדי לתפוס קלט לא חוקי. זוהי דוגמה ממוקדת לבחירת ארכיטקטורת זמן ריצה לביצועים, ניידות ואמון המשתמש.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "ספריית סקריפטים",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "פרויקט הצפנה של רינדל",
-        "text": "קבוצה השוואתית של {implementations} יישומי Rijndael על פני גרסאות של 128, 192 ו-256 סיביות. יישום מחדש של אלגוריתם רגיש לאבטחה על פני שפות הוא תרגיל ממושמע במפרטים מדויקים, התנהגות הניתנת לבדיקה ומגבלות הניידות ברמת השפה, כל האינסטינקטים השימושיים למערכות המטפלות בנתונים רגישים.",
+        "title": "פרויקט הצפנת Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "פותר קוביית רוביק",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "פרויקט מכונת טיורינג",
-        "text": "משפחה של למעלה מ-{implementations} יישומים של מכונת הטיורינג. משמש להדגמת שלמות הטיורינג עבור שפות תכנות שונות למחקר, במיוחד עבור שפת התכנות טייגר.",
+        "text": "משפחה של {implementations} מימושי מכונת טיורינג. משמשת להדגמת שלמות טיורינג של שפות תכנות שונות לצורכי מחקר, במיוחד עבור שפת התכנות Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "מנוע שחמט",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "מנוע התאמה PIT"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "אני עונה לפניות מהודעות דואר אלקטרוני ו-LinkedIn. אני גם אתקשר בחזרה אם המספר שלי יסופק באמצעות קורות חיים או אחרת, אם כי אני מעדיף לשמור את מספר הטלפון שלי פרטי."
   },
   "formatter": {
-    "title": "JSON ו-YAML לינטר",
+    "title": "Auto-Linter",
     "description": "כלי איכות נתונים מבוסס דפדפן המאמת ומעצב את JSON ו-YAML באמצעות מנוע Go הידור ל-WebAssembly. הארכיטקטורה ממשיכה לנתח קרוב למשתמש לקבלת משוב מהיר ופרטי תוך אכיפת חוקי תחביר אמיתיים בגבול הנתונים. זוהי דוגמה קומפקטית לתכנון זרימת עבודה אמינה של מפתחים סביב נכונות, ביצועים ואמון.",
     "more_info1": "למידע נוסף, עיין ב-README ב-",
-    "more_info2": "מאגר פורמטים של JSON/YAML.",
+    "more_info2": "מאגר Auto-Linter.",
     "format_as": "פורמט כ:",
     "auto_detect": "זיהוי אוטומטי",
     "format": "מוך ופורמט",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ YAML תקף",
     "invalid_json": "JSON לא חוקי",
     "invalid_yaml": "YAML לא חוקי",
-    "empty_input": "אנא הזן קצת JSON או YAML כדי למוך.",
+    "empty_input": "הזן JSON, YAML, XML, HTML, TOML, CSV או TSV לבדיקה.",
     "too_large": "קלט גדול מדי (מקסימום 1MB מותר).",
     "fixed_yaml_spacing": "⚠ ל-YAML היו מרווחים/כניסה לא חוקיים, אך תוקן ועוצב באופן אוטומטי.",
-    "loading": "טוען פורמט...",
+    "loading": "טוען את Auto-Linter...",
     "waiting_for_input": "ממתין לקלט...",
-    "load_failed": "לא ניתן לטעון את הפורמט.",
+    "load_failed": "לא ניתן לטעון את Auto-Linter.",
     "output": "תְפוּקָה:",
     "input_code": "קֶלֶט",
     "json_examples": "דוגמאות של JSON",
-    "yaml_examples": "דוגמאות של YAML"
+    "yaml_examples": "דוגמאות של YAML",
+    "legacy_repo": "הצג מימוש Go ישן",
+    "legacy_rust": "הצג מימוש Rust ישן"
   },
   "tiger": {
     "title": "שפת הנמר",
@@ -433,7 +459,8 @@
     "run_tiger": "הפעל את טייגר",
     "output": "תְפוּקָה:",
     "stop": "עצור",
-    "program_input": "קלט תוכנית"
+    "program_input": "קלט תוכנית",
+    "legacy_repo": "הצג מימוש Go ישן"
   },
   "tab": {
     "title": "פטריק גודווין",
@@ -498,6 +525,10 @@
         "zoom_in": "לְהִתְמַקֵד",
         "zoom_out": "זום אאוט",
         "reset": "אפס את התצוגה"
+      },
+      "country_names": {
+        "show": "הצג שמות מדינות",
+        "hide": "הסתר שמות מדינות"
       }
     },
     "supported_languages": {

@@ -8,8 +8,8 @@
     "tiger": "Tiger - అనుకూల ప్రోగ్రామింగ్ భాష",
     "snake": "పాము ఆట",
     "portfolio_translator": "పోర్ట్‌ఫోలియో అనువాదకుడు",
-    "formatter": "JSON & YAML లింటర్",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "రూబిక్ క్యూబ్ పరిష్కారం",
     "contact": "నన్ను సంప్రదించండి",
     "home_description": "sys.root // ప్రధాన అవలోకనం",
     "about_description": "ఇంజనీర్ ప్రొఫైల్ // బయో మరియు టెక్నాలజీ",
@@ -18,18 +18,26 @@
     "tiger_description": "అనుకూల కంపైలర్ మరియు AST వీక్షకం",
     "snake_description": "క్లాసిక్ ఆర్కేడ్ గేమ్ / WASM",
     "portfolio_translator_description": "100+ భాషా మాతృక మరియు i18n",
-    "formatter_description": "సింటాక్స్ ధృవీకరణ మరియు మార్పిడి",
+    "formatter_description": "బహు-ఫార్మాట్ linter మరియు formatter // WASM",
     "contact_description": "ఓపెన్ ట్రాన్స్మిషన్ // సంప్రదించండి",
     "arcade": "ఆర్కేడ్",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "నాలుగు వరుస భాషా చెట్టు",
+    "connect_four": "Connect Four",
     "alkalab_description": "కెమిస్ట్రీ ల్యాబ్ అనుకరణ / WASM",
     "rustcraft_description": "Minecraft శైలి వోక్సెల్ గేమ్ / Rust మరియు wgpu",
     "suprememc_description": "Minecraft మోడ్ షోకేస్ / Java",
-    "chess_engine": "చెస్ ఇంజిన్",
-    "chess_engine_description": "బిట్ ‌ బోర్డ్ ఇంజిన్ / వాస్మ్ & వర్కర్"
+    "chess_engine": "చదరంగ ఇంజిన్",
+    "chess_engine_description": "bitboard ఇంజిన్ / WASM మరియు worker",
+    "framework_trees": "ఫ్రేమ్‌వర్క్ చెట్లు",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael గుప్తీకరణ",
+    "interops": "Interops",
+    "scripting_library_description": "ఆటోమేషన్ స్క్రిప్టులు // 6 భాషలు",
+    "reclaim_4160_description": "కళాశాల ఆట, తిరిగి పొందబడింది / C++ మరియు WASM",
+    "turing_machines": "Turing మెషీన్లు",
+    "scripting_library": "స్క్రిప్ట్ లైబ్రరీ"
   },
   "home": {
     "title": "సీనియర్ ఫుల్-స్టాక్ ఇంజనీర్ | ఉత్పత్తి & సిస్టమ్స్",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "ప్రత్యేక ప్రాజెక్టులు",
       "title": "ఎంచుకున్న రచనలు",
-      "description": "ఆశావహ ఆలోచనలను నేను మెరుగుపెట్టిన, పనిచేసే సాఫ్ట్‌వేర్‌గా ఎలా మారుస్తానో ఉత్తమంగా సూచించే ఆరు ప్రాజెక్టులు.",
+      "description": "నేను మహත්కాంక్షల ఆలోచనలను ఎలా పరిపూర్ణమైన, పనిచేసే సాఫ్ట్‌వేర్‌గా మార్చానో బాగా చూపించే ప్రాజెక్టులు.",
       "view_project": "ప్రాజెక్ట్ చూడండి",
       "open_project": "లైవ్ ప్రాజెక్ట్ తెరవండి",
       "view_all": "పూర్తి పోర్ట్‌ఫోలియో అన్వేషించండి",
@@ -101,7 +109,8 @@
         "libraries": "స్క్రిప్ట్ లైబ్రరీలు",
         "languages": "భాషా ప్రయోగాలు",
         "automation": "ఆటోమేషన్ & డేటా సాధనాలు",
-        "experience": "వృత్తిపరమైన & విద్యా అనుభవం"
+        "experience": "వృత్తిపరమైన & విద్యా అనుభవం",
+        "markets": "మార్కెట్లు మరియు ట్రేడింగ్ వ్యవస్థలు"
       },
       "browser_native": "బ్రౌజర్-స్వదేశీ / సర్వర్ లేకుండా",
       "no_results": "సరిపోలే ప్రాజెక్టులు లేవు",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "యాక్సెసిబిలిటీ",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "ఆర్థిక ఖచ్చితత్వం ప్రాతినిధ్యంతో ప్రారంభమవుతుంది: పూర్తి-సెంట్ అంకగణితం మరియు సమతుల్య నమోదులు డబ్బు కదలికను స్పష్టం చేస్తాయి."
         },
         "interop": {
-          "summary": "{languages} ప్రోగ్రామింగ్ భాషలు మరియు {patterns} ఎగ్జిక్యూషన్ పద్ధతులను కవర్ చేసే క్రాస్-లాంగ్వేజ్ రిఫరెన్స్, రన్‌టైమ్ సరిహద్దుల్లో ఏమి జరుగుతుందో అన్వేషిస్తుంది.",
+          "summary": "బహుభాషా సూచన {languages} ప్రోగ్రామింగ్ భాషలు మరియు {patterns} అమలు నమూనాలను కవర్ చేస్తుంది, runtime సరిహద్దుల్లో ఏమి జరుగుతుందో పరిశీలిస్తుంది.",
           "lens": "కష్టమైన భాగం రన్‌టైమ్‌ల మధ్య ఒప్పందం: డేటా మార్పిడి, ప్రాసెస్ ప్రవర్తన మరియు పునరావృతమయ్యే అమలు కంటే సింటాక్స్ కంటే ఎక్కువ ముఖ్యం."
         },
         "formatter": {
-          "summary": "WebAssembly గా కంపైల్ చేయబడిన నిజమైన Go పార్సింగ్ ఇంజిన్. JSON మరియు YAML ధృవీకరణ మరియు ఫార్మాటింగ్ బ్రౌజర్‌లో స్థానికంగా నడుస్తాయి.",
-          "lens": "పార్సర్‌ను బ్రౌజర్‌కు తరలించడం పెద్ద క్లయింట్ పేలోడ్‌ను స్థానిక ప్రాసెసింగ్, పోర్టబిలిటీ మరియు తక్కువ సర్వర్ ఆధారపడటాన్ని మార్పిడి చేస్తుంది."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV మరియు TSV కోసం Zigలో రాసిన WebAssembly linter మరియు formatter. ధృవీకరణ మరియు ఫార్మాటింగ్ బ్రౌజర్‌లో స్థానికంగా నడుస్తాయి.",
+          "lens": "ఫార్మాటింగ్ విశ్వాసం విషయం: నిజమైన వ్యాకరణంతో విశ్లేషించండి, రచయిత వచనాన్ని ఉంచండి, డేటాను క్లయింట్‌లో ఉంచండి."
         },
         "portfolio_website": {
           "summary": "మీరు ఉన్న సైట్: 100+ భాషలు, ప్రాప్యత చేయగల పరస్పర చర్యలు మరియు పనిచేసే WebAssembly సాధనాలతో కూడిన React పోర్ట్‌ఫోలియో.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML ఆటో ఫార్మాటర్",
+        "title": "Auto-Linter",
         "text": "బ్రౌజర్ ఆధారిత JSON మరియు YAML ధ్రువీకరణ మరియు ఫార్మాటింగ్ సాధనం Goలో నిర్మించబడింది మరియు WebAssemblyకి కంపైల్ చేయబడింది. అన్వయించే ఇంజిన్‌ను WASMలోకి తరలించడం వలన చెల్లని ఇన్‌పుట్‌ను క్యాచ్ చేయడానికి నిజమైన పార్సర్‌ను వర్తింపజేసేటప్పుడు పరస్పర చర్య ప్రతిస్పందించేలా మరియు బ్రౌజర్‌కి స్థానికంగా ఉంచుతుంది. ఇది పనితీరు, పోర్టబిలిటీ మరియు వినియోగదారు విశ్వాసం కోసం రన్‌టైమ్ ఆర్కిటెక్చర్‌ను ఎంచుకోవడానికి కేంద్రీకృత ఉదాహరణ.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "స్క్రిప్ట్ లైబ్రరీ",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "రిజాండెల్ ఎన్‌క్రిప్షన్ ప్రాజెక్ట్",
-        "text": "128-, 192- మరియు 256-బిట్ వేరియంట్‌లలో {implementations} Rijndael అమలుల తులనాత్మక సెట్. భాషల అంతటా భద్రతా-సున్నితమైన అల్గారిథమ్‌ని మళ్లీ అమలు చేయడం అనేది ఖచ్చితమైన లక్షణాలు, పరీక్షించదగిన ప్రవర్తన మరియు భాష-స్థాయి పోర్టబిలిటీ పరిమితులలో క్రమశిక్షణతో కూడిన వ్యాయామం, సున్నితమైన డేటాను నిర్వహించే సిస్టమ్‌ల కోసం అన్ని ఉపయోగకరమైన ప్రవృత్తులు.",
+        "title": "Rijndael గుప్తీకరణ ప్రాజెక్టు",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "రూబిక్ క్యూబ్ పరిష్కారం",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "ట్యూరింగ్ మెషిన్ ప్రాజెక్ట్",
-        "text": "ట్యూరింగ్ మెషిన్ యొక్క {implementations} ఇంప్లిమెంట్‌ల కుటుంబం. పరిశోధన కోసం, ముఖ్యంగా టైగర్ ప్రోగ్రామింగ్ లాంగ్వేజ్ కోసం వివిధ ప్రోగ్రామింగ్ లాంగ్వేజ్‌ల కోసం ట్యూరింగ్ సంపూర్ణతను ప్రదర్శించడానికి ఉపయోగిస్తారు.",
+        "text": "Turing మెషీన్‌ య {implementations} అమలు కుటుంబం. పరిశోధన కోసం వివిధ ప్రోగ్రామింగ్ భాషల turing పూర్ణతను చూపించడానికి ఉపయోగిస్తారు, ప్రత్యేకంగా Tiger భాష కోసం.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "చెస్ ఇంజిన్",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "చదరంగ ఇంజిన్",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT సరిపోలిక ఇంజిన్"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "నేను ఇమెయిల్ మరియు లింక్డ్ఇన్ సందేశాల నుండి విచారణలకు ప్రతిస్పందిస్తాను. నేను నా ఫోన్ నంబర్‌ను ప్రైవేట్‌గా ఉంచాలనుకుంటున్నప్పటికీ, నా నంబర్ రెజ్యూమ్ ద్వారా అందించబడితే లేదా మరేదైనా తిరిగి కాల్ చేస్తాను."
   },
   "formatter": {
-    "title": "JSON & YAML లింటర్",
+    "title": "Auto-Linter",
     "description": "WebAssemblyకి కంపైల్ చేయబడిన Go ఇంజిన్‌ని ఉపయోగించి JSON మరియు YAMLని ధృవీకరించే మరియు ఫార్మాట్ చేసే బ్రౌజర్ ఆధారిత డేటా నాణ్యత సాధనం. డేటా సరిహద్దు వద్ద నిజమైన సింటాక్స్ నియమాలను అమలు చేస్తున్నప్పుడు ఆర్కిటెక్చర్ వేగవంతమైన, ప్రైవేట్ ఫీడ్‌బ్యాక్ కోసం వినియోగదారుకు దగ్గరగా అన్వయిస్తూనే ఉంటుంది. ఖచ్చితత్వం, పనితీరు మరియు విశ్వాసం చుట్టూ ఆధారపడదగిన డెవలపర్ వర్క్‌ఫ్లో రూపకల్పనకు ఇది ఒక కాంపాక్ట్ ఉదాహరణ.",
     "more_info1": "మరింత సమాచారం కోసం, READMEని చూడండి",
-    "more_info2": "JSON/YAML ఫార్మాటర్ రిపోజిటరీ.",
+    "more_info2": "Auto-Linter నిల్వ.",
     "format_as": "ఇలా ఫార్మాట్ చేయండి:",
     "auto_detect": "స్వయంచాలకంగా గుర్తించండి",
     "format": "లింట్ & ఫార్మాట్",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ చెల్లుబాటు అయ్యే YAML",
     "invalid_json": "చెల్లని JSON",
     "invalid_yaml": "చెల్లని YAML",
-    "empty_input": "దయచేసి లింట్ చేయడానికి కొన్ని JSON లేదా YAMLని నమోదు చేయండి.",
+    "empty_input": "తనిఖీ కోసం JSON, YAML, XML, HTML, TOML, CSV లేదా TSV నమోదు చేయండి.",
     "too_large": "ఇన్‌పుట్ చాలా పెద్దది (గరిష్టంగా 1MB అనుమతించబడుతుంది).",
     "fixed_yaml_spacing": "⚠ YAML చెల్లని అంతరం/ఇండెంటేషన్‌ను కలిగి ఉంది కానీ స్వయంచాలకంగా పరిష్కరించబడింది మరియు ఫార్మాట్ చేయబడింది.",
-    "loading": "ఫార్మాట్‌ని లోడ్ చేస్తోంది...",
+    "loading": "Auto-Linter లోడ్ అవుతోంది...",
     "waiting_for_input": "ఇన్‌పుట్ కోసం వేచి ఉంది...",
-    "load_failed": "ఫార్మాట్‌ని లోడ్ చేయడం సాధ్యపడలేదు.",
+    "load_failed": "Auto-Linter లోడ్ చేయలేకపోయింది.",
     "output": "అవుట్‌పుట్:",
     "input_code": "ఇన్పుట్",
     "json_examples": "JSON ఉదాహరణలు",
-    "yaml_examples": "YAML ఉదాహరణలు"
+    "yaml_examples": "YAML ఉదాహరణలు",
+    "legacy_repo": "పాత Go అమలు చూడండి",
+    "legacy_rust": "పాత Rust అమలు చూడండి"
   },
   "tiger": {
     "title": "పులి భాష",
@@ -436,7 +459,8 @@
     "run_tiger": "రన్ టైగర్",
     "output": "అవుట్‌పుట్:",
     "stop": "ఆపండి",
-    "program_input": "ప్రోగ్రామ్ ఇన్‌పుట్"
+    "program_input": "ప్రోగ్రామ్ ఇన్‌పుట్",
+    "legacy_repo": "పాత Go అమలు చూడండి"
   },
   "tab": {
     "title": "పాట్రిక్ గుడ్విన్",
@@ -501,6 +525,10 @@
         "zoom_in": "జూమ్ ఇన్ చేయండి",
         "zoom_out": "జూమ్ అవుట్ చేయండి",
         "reset": "వీక్షణను రీసెట్ చేయండి"
+      },
+      "country_names": {
+        "show": "దేశాల పేర్లు చూపించు",
+        "hide": "దేశాల పేర్లు దాచు"
       }
     },
     "supported_languages": {

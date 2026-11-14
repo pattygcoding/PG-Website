@@ -8,8 +8,8 @@
     "tiger": "Tiger - Lingwa ta' Programmar Personalizzata",
     "snake": "Logħba tas-serp",
     "portfolio_translator": "Traduttur tal-portafoll",
-    "formatter": "Verifikatur JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Solventur Rubik's Cube",
     "contact": "Ikkuntattjani",
     "home_description": "sys.root // ħarsa ġenerali prinċipali",
     "about_description": "profil tal-inġinier // bijo u teknoloġiji",
@@ -18,18 +18,26 @@
     "tiger_description": "kompilatur personalizzat u viżwalizzatur AST",
     "snake_description": "logħba arkade klassika / WASM",
     "portfolio_translator_description": "matriċi ta' 100+ lingwa u i18n",
-    "formatter_description": "validatur u konvertitur tas-sintassi",
+    "formatter_description": "linter u formatter b'diversi formati // WASM",
     "contact_description": "trasmissjoni miftuħa // ikkuntattjani",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Siġra tal-lingwi Erbgħa fir-ringiela",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulazzjoni ta' laboratorju tal-kimika / WASM",
     "rustcraft_description": "logħba voxel stil Minecraft / Rust u wgpu",
     "suprememc_description": "wirja tal-mod Minecraft / Java",
-    "chess_engine": "Magna taċ-Ċessjoni",
-    "chess_engine_description": "magna bitboard / WASM u ħaddiem"
+    "chess_engine": "Motur tal-iċċess",
+    "chess_engine_description": "motur bitboard / WASM u ħaddiem",
+    "framework_trees": "Siġar ta' frameworks",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Ċifrar Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "scripts awtomatizzati // 6 lingwi",
+    "reclaim_4160_description": "logħba tal-kulleġġ, irreġġa' lura / C++ u WASM",
+    "turing_machines": "Makkinarju Turing",
+    "scripting_library": "Librerija ta' scripts"
   },
   "home": {
     "title": "Inġinier Anzjan Full-Stack | Prodott u Sistemi",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Proġetti magħżula",
       "title": "Xogħlijiet magħżula",
-      "description": "Sitt proġetti li jirrappreżentaw l-aħjar kif inbiddel ideat ambizzjużi f'softwer illustrat u li jaħdem.",
+      "description": "Proġetti li jwuru l-aqwa kif nipponni ideat ambjużi f'software imtejjeb li jaħdem.",
       "view_project": "Ara l-proġett",
       "open_project": "Iftaħ proġett dirett",
       "view_all": "Esplora l-portafoll sħiħ",
@@ -101,7 +109,8 @@
         "libraries": "Libreriji ta' skripts",
         "languages": "Esperimenti tal-lingwi",
         "automation": "Għodod tal-awtomazzjoni u tad-dejta",
-        "experience": "Esperjenza professjonali u edukattiva"
+        "experience": "Esperjenza professjonali u edukattiva",
+        "markets": "Swieq u sistemi ta' kummerċ"
       },
       "browser_native": "Nattiv tal-browser / mingħajr server",
       "no_results": "L-ebda proġett li jaqbel",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Aċċessibbiltà",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Il-korrettezza finanzjarja tibda bir-rappreżentazzjoni: aritmetika ta' ċenteżmi sħaħ u daħliet bilanċjati jagħmlu l-moviment tal-flus espliċitu."
         },
         "interop": {
-          "summary": "Referenza bejn il-lingwi li tkopri {languages}-il lingwa ta' programmar u {patterns}-mudell ta' eżekuzzjoni, li tesplora x'jiġri fil-fruntieri tal-ħin tal-eżekuzzjoni.",
+          "summary": "Referenza bejn lingwi li tkopri {languages} lingwi ta' programmar u {patterns} mudelli ta' eżekuzzjoni, u tinvestiga x'jiġri fil-konfini tar-runtime.",
           "lens": "Il-parti diffiċli hija l-kuntratt bejn iż-żminijiet tal-eżekuzzjoni: l-iskambju tad-dejta, l-imġiba tal-proċessi, u l-eżekuzzjoni ripetibbli jiswew aktar mis-sintassi."
         },
         "formatter": {
-          "summary": "Magni ta' parsing Go reali kkompilat għal WebAssembly. Il-validazzjoni u l-ifformattjar ta' JSON u YAML jaħdmu lokalment fil-browser.",
-          "lens": "Li ċċaqlaq il-parser għall-browser jiskambja piż akbar tal-klijent għal ipproċessar lokali, portabbiltà, u inqas dipendenzi mis-server."
+          "summary": "Linter u formatter WebAssembly miktub bil-Zig għal JSON, YAML, XML, HTML, TOML, CSV u TSV. Il-validazzjoni u l-formatjar isiru lokalment fil-browser.",
+          "lens": "Il-formatjar huwa kwistjoni ta' fiduċja: analizza b'grammatika vera, żomm it-test tal-awtur, u żomm id-dejta fuq il-klijent."
         },
         "portfolio_website": {
           "summary": "Is-sit li fih int: portafoll React b'100+ lingwa, interazzjonijiet aċċessibbli, u għodod WebAssembly li jaħdmu.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Għodda għall-validazzjoni u l-ifformattjar tal-JSON u YAML ibbażata fuq il-brawżer mibnija f'Go u kkompilata f'WebAssembly. Iċ-ċaqliq tal-magna tal-parsing f'WASM iżomm l-interazzjoni reattiva u lokali għall-browser filwaqt li tapplika parser reali biex jaqbad input invalidu. Huwa eżempju ffukat tal-għażla ta 'arkitettura runtime għall-prestazzjoni, il-portabbiltà, u l-fiduċja tal-utent.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Librerija ta' scripts",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Proġett ta' Encryption Rijndael",
-        "text": "Sett komparattiv ta’ {implementations} implimentazzjonijiet ta’ Rijndael fuq varjanti ta’ 128, 192 u 256 bit. L-implimentazzjoni mill-ġdid ta' algoritmu sensittiv għas-sigurtà fil-lingwi kollha huwa eżerċizzju dixxiplinat fi speċifikazzjonijiet eżatti, imġieba li tista' tiġi ttestjata, u l-limiti tal-portabbiltà fil-livell tal-lingwa, l-istinti utli kollha għal sistemi li jimmaniġġjaw data sensittiva.",
+        "title": "Proġett ta' ċifrar Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Solventur Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Proġett Magni Turing",
-        "text": "Familja ta 'aktar minn {implementations} implimentazzjoni tal-Magni Turing. Użat biex juri l-kompletezza tat-turing għal lingwi ta' programmar differenti għar-riċerka, speċjalment għall-Lingwa ta' Programmazzjoni Tiger.",
+        "text": "Familja ta' {implementations} implementazzjonijiet tal-Magna Turing. Intużat biex juri t-turing completeness ta' lingwi differenti għar-riċerka, speċjalment għal-lingwa Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Magna taċ-Ċessjoni",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Motur tal-iċċess",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Motur ta' match PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Nirrispondi għal mistoqsijiet minn email u messaġġi LinkedIn. Jien ukoll se nċempel lura jekk in-numru tiegħi jiġi pprovdut permezz ta' jerġa jew mod ieħor, għalkemm nippreferi nżomm in-numru tat-telefon tiegħi privat."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Għodda tal-kwalità tad-dejta bbażata fuq il-browser li tivvalida u tifformattja JSON u YAML billi tuża magna Go kkompilata għal WebAssembly. L-arkitettura żżomm parsing qrib l-utent għal feedback veloċi u privat filwaqt li tinforza regoli tas-sintassi reali fil-konfini tad-dejta. Huwa eżempju kompatt tat-tfassil ta 'fluss tax-xogħol ta' żviluppatur affidabbli madwar il-korrettezza, il-prestazzjoni u l-fiduċja.",
     "more_info1": "Għal aktar informazzjoni, irreferi għall-README fil-",
-    "more_info2": "Repożitorju tal-Formattriċi JSON/YAML.",
+    "more_info2": "Repożitorju Auto-Linter.",
     "format_as": "Format Kif:",
     "auto_detect": "Auto Detect",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML validu",
     "invalid_json": "JSON mhux validu",
     "invalid_yaml": "YAML invalidu",
-    "empty_input": "Jekk jogħġbok daħħal xi JSON jew YAML biex tgħaqqad.",
+    "empty_input": "Daħħal JSON, YAML, XML, HTML, TOML, CSV jew TSV biex tiċċekkja.",
     "too_large": "Input kbir wisq (mass 1MB permess).",
     "fixed_yaml_spacing": "⚠ YAML kellu spazjar/indentazzjoni invalida iżda ġie ffissat u fformattjat awtomatikament.",
-    "loading": "Tagħbija tal-formatter...",
+    "loading": "Qed itella' Auto-Linter...",
     "waiting_for_input": "Stennija għall-input...",
-    "load_failed": "Ma tistax tgħabbi l-formatter.",
+    "load_failed": "Ma stahħqx itella' Auto-Linter.",
     "output": "Output:",
     "input_code": "Input",
     "json_examples": "Eżempji JSON",
-    "yaml_examples": "Eżempji YAML"
+    "yaml_examples": "Eżempji YAML",
+    "legacy_repo": "Ara l-implementazzjoni Go l-antika",
+    "legacy_rust": "Ara l-implementazzjoni Rust l-antika"
   },
   "tiger": {
     "title": "Lingwa Tiger",
@@ -436,7 +459,8 @@
     "run_tiger": "Mexxi Tiger",
     "output": "Output:",
     "stop": "Ieqaf",
-    "program_input": "Input tal-programm"
+    "program_input": "Input tal-programm",
+    "legacy_repo": "Ara l-implementazzjoni Go l-antika"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Zoom In",
         "zoom_out": "Zoom Out",
         "reset": "Irrisettja View"
+      },
+      "country_names": {
+        "show": "Uri l-ismijiet tal-pajjiżi",
+        "hide": "Aħbi l-ismijiet tal-pajjiżi"
       }
     },
     "supported_languages": {

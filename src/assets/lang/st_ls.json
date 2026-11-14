@@ -8,8 +8,8 @@
     "tiger": "Tiger - Puo e Ikhethileng ea Lenaneo",
     "snake": "Papali ea noha",
     "portfolio_translator": "Mofetoleli oa Portfolio",
-    "formatter": "Molebeli oa JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Sebahlabboli sa Rubik's Cube",
     "contact": "Ikopanye le 'Na",
     "home_description": "sys.root // kakaretso e ka sehloohong",
     "about_description": "boemo ba moenjiniere // bio le mahlale",
@@ -18,18 +18,26 @@
     "tiger_description": "compiler e kgethehileng le AST sebonwa",
     "snake_description": "papali ea arkade ea khale / WASM",
     "portfolio_translator_description": "matrix ea lipuo tse 100+ le i18n",
-    "formatter_description": "molebeli le mofetoleli oa syntax",
+    "formatter_description": "linter le formatter la mefuta e ngata // WASM",
     "contact_description": "phetiso e butseng // ikopanye le nna",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Sefate sa puo tse Nne ka latellano",
+    "connect_four": "Connect Four",
     "alkalab_description": "papiso ea laboratara ea k'hemistri / WASM",
     "rustcraft_description": "papali ea voxel ea mofuta oa Minecraft / Rust le wgpu",
     "suprememc_description": "pontsho ea mod ea Minecraft / Java",
-    "chess_engine": "Chess Engine",
-    "chess_engine_description": "enjene ya bitboard/ WASM & mosebeletsi"
+    "chess_engine": "Enjene ya chess",
+    "chess_engine_description": "enjene ya bitboard / WASM le sebetsi",
+    "framework_trees": "Mehlodi ya di-framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Enkripshene ya Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "di-script tsa ho ikema-ema // lipuo 6",
+    "reclaim_4160_description": "papadi ya kholo, e boetsoeng / C++ le WASM",
+    "turing_machines": "Di-enjene tsa Turing",
+    "scripting_library": "Laeborari ya script"
   },
   "home": {
     "title": "Moenjiniere ea Phahameng ka ho Fetisisa | Sehlahisoa & Litsamaiso",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Merero e kgethiloeng",
       "title": "Mesebetsi e kgethiloeng",
-      "description": "Merero e tsheletseng e emelang hantle ka ho fetisisa kamoo ke fetolang mehopolo e matla ho software e lekaneng le e sebetsang.",
+      "description": "Diphoofolo tse bontsang hantle hore na ke etsa jwang hore mehopolo e ikemiselitseng e nne software e phethaitseng e sebetsang.",
       "view_project": "Sheba projeke",
       "open_project": "Bula projeke e phelang",
       "view_all": "Fumana portfolio e felletseng",
@@ -101,7 +109,8 @@
         "libraries": "Dilaeborari tsa script",
         "languages": "Diteko tsa puo",
         "automation": "Lisebelisoa tsa automation le data",
-        "experience": "Boiphihlelo ba setsebi le thuto"
+        "experience": "Boiphihlelo ba setsebi le thuto",
+        "markets": "Mabenkele le di-system tsa kgwebisano"
       },
       "browser_native": "Motheo oa sebatli / ntle le seva",
       "no_results": "Ha ho merero e tšoanang",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Phihlello",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Ho nepahala ha lichelete ho qala ka boemeli: lipalo tsa lisente tse felletseng le litlaleho tse leka-lekaneng li hlakisa motsamao oa chelete."
         },
         "interop": {
-          "summary": "Referense ea lipuo tse fapaneng e kenyelletsang lipuo tse {languages} tsa lenaneo le mekhoa e {patterns} ea ts'ebetso, e batlisisang se etsahalang meeling ea nako ea ts'ebetso.",
+          "summary": "Tekeletšo ya lipuo tse ngata e akarelletsang {languages} lipuo tsa ho ngaka le {patterns} mekhoa ya ho sebetsa, e hlahlobang se etsahalang mebileng ya runtime.",
           "lens": "Karolo e thata ke konteraka pakeng tsa linako tsa ts'ebetso: phapanyetsano ea data, boitšoaro ba ts'ebetso, le ts'ebetso e pheta-phetoang li bohlokoa ho feta syntax."
         },
         "formatter": {
-          "summary": "Enjene ea 'nete ea parsing ea Go e kopantsoeng ho WebAssembly. Ho netefatsa le ho hlophisa JSON le YAML ho sebetsa sebakeng sa heno ho sebatli.",
-          "lens": "Ho fetisa parser ho sebatli ho fapanyetsana meroalo e meholo ea moreki bakeng sa ts'ebetso ea lehae, ho tsamaisana, le ho itshetleha hanyane ho seva."
+          "summary": "Linter le formatter la WebAssembly le ngadilwang ka Zig bakeng sa JSON, YAML, XML, HTML, TOML, CSV le TSV. Netefatsa le ho hlophola ha etswa mo setšong ho browser.",
+          "lens": "Ho hlophola ke bothata ba tshepelo: hlapholla ka puo e nnete, boloka molaetsa oa mongoli, mme o boloke data ho moreki."
         },
         "portfolio_website": {
           "summary": "Sebaka sa marang-rang seo u leng ho sona: portfolio ea React e nang le lipuo tse 100+, litšebelisano tse fihlelloang, le lisebelisoa tsa WebAssembly tse sebetsang.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Sesebelisoa sa netefatso sa JSON le YAML se thehiloeng ho sebatli le sesebelisoa sa fomete se hahiloeng ho Go mme se hlophisoa ho WebAssembly. Ho tsamaisa enjene ea ho fetisa ho WASM ho boloka tšebelisano e le eona e arabelang ebile e le sebakeng sa sebatli ha u ntse u sebelisa parser ea 'nete ho ts'oara lintlha tse fosahetseng. Ke mohlala o tsepamisitsoeng oa ho khetha moralo oa nako ea ho sebetsa bakeng sa ts'ebetso, ho nkeha habonolo, le ts'epo ea basebelisi.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Laeborari ya script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Morero oa Encryption oa Rijndael",
-        "text": "Papiso ea {implementations} Rijndael e kenngoeng tšebetsong ka mefuta e fapaneng ea 128-, 192-, le 256-bit. Ho kenya ts'ebetsong algorithm e hlokolosi ea ts'ireletso ho pholletsa le lipuo ke boikoetliso bo nang le boits'oaro bo nepahetseng, boits'oaro bo ka lekoang, le meeli ea ho khoneha ha maemo a puo, maikutlo ohle a bohlokoa bakeng sa litsamaiso tse sebetsanang le data ea bohlokoa.",
+        "title": "Projeke ya enkripshene ya Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Sebahlabboli sa Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Morero oa mochini oa Turing",
-        "text": "Lelapa la ts'ebetsong e fetang {implementations} ea Mochini oa Turing. E sebelisoa ho bonts'a botlalo ba lipuo tse fapaneng tsa lenaneo bakeng sa lipatlisiso, haholo-holo bakeng sa Puo ea Lenaneo la Tiger.",
+        "text": "Lehlakho la {implementations} tsa Turing Machine. Li sebelisoa ho bontša turing completeness ya lipuo tse ngata tsa ho ngaka bakeng sa lipatlisiso, haholo bakeng sa puo ya Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Chess Engine",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Enjene ya chess",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Enjene ya ho bapisa PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ke arabela lipotso tse tsoang ho imeile le melaetsa ea LinkedIn. Ke tla khutlela hape haeba nomoro ea ka e fanoa ka resume kapa ho seng joalo, leha ke khetha ho boloka nomoro ea ka ea mohala e le lekunutu."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Sesebelisoa sa boleng ba data se thehiloeng ho sebatli se netefatsang le ho fometa JSON le YAML se sebelisa enjine ea Go e hlophisitsoeng ho WebAssembly. Meaho e lula e atamela haufi le mosebelisi bakeng sa maikutlo a potlakileng, a lekunutu ha a ntse a tiisa melao ea 'nete ea syntax moeling oa data. Ke mohlala o kopanetsoeng oa ho rala mokhoa oa ho sebetsa oa nts'etsopele o tšepahalang mabapi le ho nepahala, ts'ebetso le ts'epo.",
     "more_info1": "Ho fumana lintlha tse ling, sheba ho README ho",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Polokelo ya Auto-Linter.",
     "format_as": "Fomata Joalo ka:",
     "auto_detect": "Ho lemoha ka ho iketsa",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML e sebetsang",
     "invalid_json": "JSON e fosahetse",
     "invalid_yaml": "YAML e sa sebetseng",
-    "empty_input": "Ka kopo, kenya tse ling tsa JSON kapa YAML ho li hokahanya.",
+    "empty_input": "Kenya JSON, YAML, XML, HTML, TOML, CSV kapa TSV ho hlahloba.",
     "too_large": "Kenyo e kholo haholo (boholo 1MB bo lumelletsoe).",
     "fixed_yaml_spacing": "⚠ YAML e ne e na le sebaka se sa sebetseng/indentation empa e itlhophiselitse ebile e hlophisitsoe.",
-    "loading": "E kenya sebopeho...",
+    "loading": "Ho khaola Auto-Linter...",
     "waiting_for_input": "E emetse tlhahiso...",
-    "load_failed": "Ha e khone ho kenya sebopeho sa sebopeho.",
+    "load_failed": "Ha e kgone ho khaola Auto-Linter.",
     "output": "Sephetho:",
     "input_code": "Kenyeletso",
     "json_examples": "JSON Mehlala",
-    "yaml_examples": "YAML Mehlala"
+    "yaml_examples": "YAML Mehlala",
+    "legacy_repo": "Sheba ts'ebetso ya kgale ya Go",
+    "legacy_rust": "Sheba ts'ebetso ya kgale ya Rust"
   },
   "tiger": {
     "title": "Leleme la Nkwe",
@@ -436,7 +459,8 @@
     "run_tiger": "Matha Nkoe",
     "output": "Sephetho:",
     "stop": "Emisa",
-    "program_input": "Kenyelletso ea lenaneo"
+    "program_input": "Kenyelletso ea lenaneo",
+    "legacy_repo": "Sheba ts'ebetso ya kgale ya Go"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Atometsa",
         "zoom_out": "Atolosa",
         "reset": "Seta Botjha View"
+      },
+      "country_names": {
+        "show": "Bontša maina a dinae",
+        "hide": "Khutla maina a dinae"
       }
     },
     "supported_languages": {

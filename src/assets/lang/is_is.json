@@ -8,8 +8,8 @@
     "tiger": "Tiger - Sérsniðið forritunarmál",
     "snake": "Snákaleikur",
     "portfolio_translator": "Portfolio þýðandi",
-    "formatter": "JSON- og YAML-villuprófari",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube leysir",
     "contact": "Hafðu samband við mig",
     "home_description": "sys.root // aðalyfirlit",
     "about_description": "verkfræðisnið // líf og tæknistafla",
@@ -18,18 +18,26 @@
     "tiger_description": "sérsniðinn þýðandi og AST-sýnir",
     "snake_description": "klassískur spilakassaleikur / WASM",
     "portfolio_translator_description": "100+ tungumálafylki og i18n",
-    "formatter_description": "málfræðivilluprófari og breytir",
+    "formatter_description": "linter og formunarvél fyrir mörg snið // WASM",
     "contact_description": "opin sending // hafðu samband",
     "arcade": "Spilakassi",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Tungumálatré Fjórir í röð",
+    "connect_four": "Connect Four",
     "alkalab_description": "hermun efnalaboratory / WASM",
     "rustcraft_description": "voxelleikur í Minecraft-stíl / Rust og wgpu",
     "suprememc_description": "Minecraft mod-sýning / Java",
     "chess_engine": "Skákvél",
-    "chess_engine_description": "bÍTTABORÐSVÉL/ WASM &"
+    "chess_engine_description": "bitboard-vél / WASM og vinnulok",
+    "framework_trees": "Tré ramma",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael dulritun",
+    "interops": "Interops",
+    "scripting_library_description": "sjálfvirkar skrár // 6 mál",
+    "reclaim_4160_description": "háskólapilsleikur, endurheimtur / C++ og WASM",
+    "turing_machines": "Turing-vélar",
+    "scripting_library": "Skriftabókasafn"
   },
   "home": {
     "title": "Senior full-Stack verkfræðingur | Vara og kerfi",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Framúrskarandi verkefni",
       "title": "Valin verk",
-      "description": "Sex verkefni sem sýna best hvernig ég breyti metnaðarfullum hugmyndum í fágaðan, virkan hugbúnað.",
+      "description": "Verkefni sem sýna best hvernig ég breyti metnaðarfullum hugmyndum í fullgerðan, vinnandi hugbúnað.",
       "view_project": "Skoða verkefni",
       "open_project": "Opna beint verkefni",
       "view_all": "Kannaðu heildarsafnið",
@@ -101,7 +109,8 @@
         "libraries": "Skriftusöfn",
         "languages": "Tungumálatilraunir",
         "automation": "Sjálfvirkni- og gagnaverkfæri",
-        "experience": "Fag- og menntunarreynsla"
+        "experience": "Fag- og menntunarreynsla",
+        "markets": "Markaðir og viðskiptakerfi"
       },
       "browser_native": "Vafra-innfædd / án þjóns",
       "no_results": "Engin samsvörunarverkefni",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Aðgengi",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Fjárhagsleg réttmæti hefst með framsetningu: heiltölucentí-útreikningar og jafnvægðar færslur gera peningahreyfingar skýrar."
         },
         "interop": {
-          "summary": "Málmilli-tilvísun sem nær yfir {languages} forritunarmál og {patterns} framkvæmdarmynstur, ramsakar hvað gerist á keyrslutímamörkum.",
+          "summary": "Tilvísun sem nær yfir {languages} forritunarmál og {patterns} keyrslumynstur, sem rannsakar hvað gerist á keyrslumörkum.",
           "lens": "Erfiða hlutinn er samningurinn milli keyrslutíma: gagnaskipti, hegðun ferla og endurtekin framkvæmd skipta meira máli en málfræði."
         },
         "formatter": {
-          "summary": "Alvöru Go-þáttunarvél þýdd yfir í WebAssembly. JSON- og YAML-sannprófun og sniðun keyrir staðbundið í vafranum.",
-          "lens": "Að flytja þáttarann í vafrann skiptir stærra viðskiptavinahleðslu út fyrir staðbundna vinnslu, færanleika og færri netþjónaóh járneindir."
+          "summary": "Linter og formunarvél fyrir WebAssembly skrifuð í Zig fyrir JSON, YAML, XML, HTML, TOML, CSV og TSV. Sannvottun og formun renna staðbundið í vafranum.",
+          "lens": "Formun er traustsmats: þátta með raunverulegri málfræði, varðveita texta höfundar og halda gögnum á biðlara."
         },
         "portfolio_website": {
           "summary": "Síðan sem þú ert í: React-safn með 100+ tungumálum, aðgengilegum samskiptum og virkum WebAssembly-verkfærum.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML sjálfvirkt formatter",
+        "title": "Auto-Linter",
         "text": "Vafrabundið JSON og YAML staðfestingar- og sniðverkfæri innbyggt í Go og sett saman í WebAssembly. Með því að færa þáttunarvélina yfir í WASM heldur samskiptin viðbragðsgóð og staðbundin fyrir vafranum á meðan raunverulegur flokkari er notaður til að ná ógildu inntaki. Það er einbeitt dæmi um að velja keyrsluarkitektúr fyrir frammistöðu, flytjanleika og traust notenda.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skriftabókasafn",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael dulkóðunarverkefni",
-        "text": "Samanburðarsett af {implementations} Rijndael útfærslum í 128-, 192- og 256-bita afbrigðum. Að endurútfæra öryggisviðkvæmt reiknirit á milli tungumála er öguð æfing í nákvæmum forskriftum, prófunarhæfri hegðun og takmörkum færanleika á tungumálastigi, allt gagnlegt eðlishvöt fyrir kerfi sem meðhöndla viðkvæm gögn.",
+        "title": "Rijndael dulritunarverkefni",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube leysir",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing vélaverkefnið",
-        "text": "Fjölskylda yfir {implementations} útfærslur af Turing vélinni. Notað til að sýna fram á heilleika fyrir mismunandi forritunarmál til rannsókna, sérstaklega fyrir Tiger forritunarmálið.",
+        "text": "Fjölskylda {implementations} útfærslna á Turing-vél. Notuð til að sýna turing-fullkomnun mismunandi forritunarmála í rannsóknarskyni, einkum fyrir Tiger-málið.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "Skákvél",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT paraðarvél"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ég svara fyrirspurnum úr tölvupósti og LinkedIn skilaboðum. Ég mun líka hringja til baka ef númerið mitt er gefið upp með ferilskrá eða á annan hátt, þó ég vil frekar halda símanúmerinu mínu lokuðu."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Gagnagæðatól sem byggir á vafra sem staðfestir og forsníðir JSON og YAML með því að nota Go vél sem er sett saman í WebAssembly. Arkitektúrinn heldur áfram að flokka nálægt notandanum fyrir hraðvirka, persónulega endurgjöf á meðan hann framfylgir raunverulegum setningafræðireglum við gagnamörkin. Það er fyrirferðarlítið dæmi um að hanna áreiðanlegt verkflæði þróunaraðila í kringum réttmæti, frammistöðu og traust.",
     "more_info1": "Fyrir frekari upplýsingar, sjá README í",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Auto-Linter gagnageymsla.",
     "format_as": "Snið sem:",
     "auto_detect": "Sjálfvirk skynjun",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Gildir YAML",
     "invalid_json": "Ógilt JSON",
     "invalid_yaml": "Ógilt YAML",
-    "empty_input": "Vinsamlegast sláðu inn JSON eða YAML til að lint.",
+    "empty_input": "Sláðu inn JSON, YAML, XML, HTML, TOML, CSV eða TSV til að athuga.",
     "too_large": "Inntak of stórt (hámark 1MB leyft).",
     "fixed_yaml_spacing": "⚠ YAML var með ógilt bil/inndrátt en hefur verið sjálfvirkt lagfært og sniðið.",
-    "loading": "Hleður formatter...",
+    "loading": "Hleð Auto-Linter...",
     "waiting_for_input": "Bíður eftir inntaki...",
-    "load_failed": "Ekki er hægt að hlaða formatter.",
+    "load_failed": "Get ekki hlaðið Auto-Linter.",
     "output": "Framleiðsla:",
     "input_code": "Inntak",
     "json_examples": "JSON dæmi",
-    "yaml_examples": "YAML dæmi"
+    "yaml_examples": "YAML dæmi",
+    "legacy_repo": "Skoða gamla Go útfærslu",
+    "legacy_rust": "Skoða gamla Rust útfærslu"
   },
   "tiger": {
     "title": "Tiger tungumál",
@@ -436,7 +459,8 @@
     "run_tiger": "Hlaupa Tiger",
     "output": "Framleiðsla:",
     "stop": "Stöðva",
-    "program_input": "Forritsinntak"
+    "program_input": "Forritsinntak",
+    "legacy_repo": "Skoða gamla Go útfærslu"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Aðdráttur inn",
         "zoom_out": "Aðdráttur út",
         "reset": "Endurstilla útsýni"
+      },
+      "country_names": {
+        "show": "Sýna heiti landa",
+        "hide": "Fela heiti landa"
       }
     },
     "supported_languages": {

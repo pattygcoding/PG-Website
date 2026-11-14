@@ -8,8 +8,8 @@
     "tiger": "Tiger - Mukautettu ohjelmointikieli",
     "snake": "Matopeli",
     "portfolio_translator": "Portfolion kääntäjä",
-    "formatter": "JSON- ja YAML-lintteri",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubikin kuution ratkaisija",
     "contact": "Ota minuun yhteyttä",
     "home_description": "sys.root // pääkatsaus",
     "about_description": "insinöörin profiili // bio ja pino",
@@ -18,18 +18,26 @@
     "tiger_description": "mukautettu kääntäjä ja AST-visualisoija",
     "snake_description": "klassinen kolikkopeli / WASM",
     "portfolio_translator_description": "100+ kielen matriisi ja i18n",
-    "formatter_description": "syntaksin varmennin ja muunnin",
+    "formatter_description": "monimuotoinen linter ja muotoilija // WASM",
     "contact_description": "avoin siirto // ota yhteyttä",
     "arcade": "Kolikkopelit",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Neljän suora -kielipuu",
+    "connect_four": "Connect Four",
     "alkalab_description": "kemian laboratorion simulointi / WASM",
     "rustcraft_description": "Minecraft-tyylinen voxelipeli / Rust ja wgpu",
     "suprememc_description": "Minecraft-modin esittely / Java",
-    "chess_engine": "Shakkikone",
-    "chess_engine_description": "bittilautamoottori/ WASM & työntekijä"
+    "chess_engine": "Shakkimoottori",
+    "chess_engine_description": "bittilaudan moottori / WASM ja worker",
+    "framework_trees": "Runkokehikkojen puut",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael-salaus",
+    "interops": "Interops",
+    "scripting_library_description": "automaatiokirjoitukset // 6 kieltä",
+    "reclaim_4160_description": "opiskelijapeli, otettu takaisin / C++ ja WASM",
+    "turing_machines": "Turingin koneet",
+    "scripting_library": "Skriptikirjasto"
   },
   "home": {
     "title": "Vanhempi Full-Stack-insinööri | Tuotteet ja järjestelmät",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Valitut projektit",
       "title": "Valitut työt",
-      "description": "Kuusi projektia, jotka parhaiten edustavat sitä, miten muutan kunnianhimoiset ideat hiottuiksi, toimiviksi ohjelmistoiksi.",
+      "description": "Projektit, jotka parhaiten näyttävät, miten muutan kunnianhimoiset ideat hiotuksi, toimivaksi ohjelmistoksi.",
       "view_project": "Näytä projekti",
       "open_project": "Avaa live-projekti",
       "view_all": "Tutustu koko portfolioon",
@@ -101,7 +109,8 @@
         "libraries": "Skriptikirjastot",
         "languages": "Kielikokeet",
         "automation": "Automaatio- ja data-työkalut",
-        "experience": "Ammatillinen ja koulutuksellinen kokemus"
+        "experience": "Ammatillinen ja koulutuksellinen kokemus",
+        "markets": "Markkinat ja kaupankäyntijärjestelmät"
       },
       "browser_native": "Selainnatiivi / ei palvelinta",
       "no_results": "Ei vastaavia projekteja",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Saavutettavuus",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Taloudellinen oikeellisuus alkaa esitystavasta: kokonaisten senttien aritmetiikka ja tasapainotetut kirjaukset tekevät rahan liikkeestä näkyvää."
         },
         "interop": {
-          "summary": "Kieltenvälinen viite, joka kattaa {languages} ohjelmointikieltä ja {patterns} suoritusmallia ja tutkii, mitä tapahtuu ajonaikaisilla rajoilla.",
+          "summary": "Kielten välinen vertailu, joka kattaa {languages} ohjelmointikieltä ja {patterns} suoritusmallia ja tutkii, mitä ajonaikaisilla rajoilla tapahtuu.",
           "lens": "Vaikea osa on ajonaikaisten ympäristöjen välinen sopimus: tiedonvaihto, prosessikäyttäytyminen ja toistettava suoritus merkitsevät enemmän kuin syntaksi."
         },
         "formatter": {
-          "summary": "Aito Go-jäsennysmoottori, joka on käännetty WebAssemblyksi. JSON- ja YAML-varmennus ja -muotoilu toimivat paikallisesti selaimessa.",
-          "lens": "Jäsentimen siirtäminen selaimeen vaihtaa suuremman asiakaslatauksen paikalliseen käsittelyyn, siirrettävyyteen ja vähempiin palvelinriippuvuuksiin."
+          "summary": "Zigillä kirjoitettu WebAssembly-linteri ja -muotoilija JSON:lle, YAML:lle, XML:lle, HTML:lle, TOML:lle, CSV:lle ja TSV:lle. Validointi ja muotoilu ajetaan paikallisesti selaimessa.",
+          "lens": "Muotoilu on luottamuskysymys: jäsennä oikealla kieliopilla, säilytä tekijän teksti ja pidä tiedot asiakkaalla."
         },
         "portfolio_website": {
           "summary": "Sivusto, jolla olet: React-portfolio, jossa on yli 100 kieltä, saavutettavia vuorovaikutuksia ja toimivia WebAssembly-työkaluja.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON ja YAML automaattinen muotoilu",
+        "title": "Auto-Linter",
         "text": "Selainpohjainen JSON- ja YAML-tarkistus- ja -muotoilutyökalu, joka on sisäänrakennettu Gossa ja käännetty WebAssemblyyn. Jäsennysmoottorin siirtäminen WASM:iin pitää vuorovaikutuksen responsiivisena ja paikallisena selaimelle samalla kun käytetään oikeaa jäsentäjää virheellisen syötteen havaitsemiseksi. Se on keskittynyt esimerkki suoritusaikaisen arkkitehtuurin valitsemisesta suorituskyvyn, siirrettävyyden ja käyttäjien luottamuksen kannalta.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skriptikirjasto",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndaelin salausprojekti",
-        "text": "Vertaileva joukko {implementations} Rijndael-toteutusta 128-, 192- ja 256-bittisillä versioilla. Turvallisuusherkän algoritmin uudelleenkäyttööntäminen eri kielillä on kurinalaista harjoitusta tarkkojen määritelmien, testattavan toiminnan ja kielitason siirrettävyyden rajojen suhteen. kaikki hyödylliset vaistot arkaluonteisia tietoja käsitteleville järjestelmille.",
+        "title": "Rijndael-salauksen projekti",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubikin kuution ratkaisija",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turingin koneprojekti",
-        "text": "Perhe, jossa on yli {implementations} Turingin koneen toteutusta. Käytetään osoittamaan täydellisyyttä eri ohjelmointikielille tutkimukseen, erityisesti Tiger-ohjelmointikielelle.",
+        "text": "Perhe {implementations} Turingin koneen toteutuksia. Käytetään osoittamaan eri ohjelmointikielten Turing-omaisuutta tutkimustarkoituksiin, erityisesti Tiger-ohjelmointikielelle.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Shakkikone",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Shakkimoottori",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT-yhdistämismoottori"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Vastaan ​​tiedusteluihin sähköpostilla ja LinkedIn-viesteillä. Soitan myös takaisin, jos numeroni on annettu ansioluettelossa tai muuten, vaikka pidän puhelinnumeroni mieluummin yksityisenä."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Selainpohjainen tiedonlaatutyökalu, joka tarkistaa ja muotoilee JSON- ja YAML-tiedostoja WebAssemblyyn käännetyn Go-moottorin avulla. Arkkitehtuuri jäsentää jatkuvasti lähellä käyttäjää nopean, yksityisen palautteen saamiseksi samalla kun se valvoo todellisia syntaksisääntöjä tietorajoilla. Se on kompakti esimerkki luotettavan kehittäjän työnkulun suunnittelusta oikeellisuuden, suorituskyvyn ja luottamuksen ympärille.",
     "more_info1": "Lisätietoja on kohdassa README",
-    "more_info2": "JSON/YAML-muotoiluvarasto.",
+    "more_info2": "Auto-Linterin arkisto.",
     "format_as": "Muotoile muodossa:",
     "auto_detect": "Automaattinen tunnistus",
     "format": "Nukka ja muoto",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Kelvollinen YAML",
     "invalid_json": "Virheellinen JSON",
     "invalid_yaml": "Virheellinen YAML",
-    "empty_input": "Syötä JSON- tai YAML-koodi nukkaamaan.",
+    "empty_input": "Anna JSON, YAML, XML, HTML, TOML, CSV tai TSV tarkistettavaksi.",
     "too_large": "Syöte liian suuri (enintään 1 Mt sallittu).",
     "fixed_yaml_spacing": "⚠ YAML:ssä oli virheellinen väli/sisennys, mutta se on korjattu ja muotoiltu automaattisesti.",
-    "loading": "Ladataan muotoilulaitetta...",
+    "loading": "Ladataan Auto-Linteriä...",
     "waiting_for_input": "Odotetaan syöttöä...",
-    "load_failed": "Alustajaa ei voi ladata.",
+    "load_failed": "Auto-Linterin lataus ei onnistunut.",
     "output": "Lähtö:",
     "input_code": "Syöte",
     "json_examples": "JSON-esimerkkejä",
-    "yaml_examples": "YAML esimerkkejä"
+    "yaml_examples": "YAML esimerkkejä",
+    "legacy_repo": "Näytä vanha Go-toteutus",
+    "legacy_rust": "Näytä vanha Rust-toteutus"
   },
   "tiger": {
     "title": "Tiikerin kieli",
@@ -436,7 +459,8 @@
     "run_tiger": "Juokse Tiger",
     "output": "Lähtö:",
     "stop": "Pysäytä",
-    "program_input": "Ohjelman syöte"
+    "program_input": "Ohjelman syöte",
+    "legacy_repo": "Näytä vanha Go-toteutus"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Lähennä",
         "zoom_out": "Loitonna",
         "reset": "Palauta näkymä"
+      },
+      "country_names": {
+        "show": "Näytä maiden nimet",
+        "hide": "Piilota maiden nimet"
       }
     },
     "supported_languages": {

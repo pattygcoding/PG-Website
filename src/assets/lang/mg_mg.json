@@ -8,8 +8,8 @@
     "tiger": "Tiger - Fiteny fandaharana manokana",
     "snake": "Lalao bibilava",
     "portfolio_translator": "Mpandika Portfolio",
-    "formatter": "Mpanamarina JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Mpamaha ny Rubik's Cube",
     "contact": "Contact Me",
     "home_description": "sys.root // topimaso lehibe",
     "about_description": "profilin'ny injeniera // bio sy teknolojia",
@@ -18,18 +18,26 @@
     "tiger_description": "mpanangona manokana sy mpiseho AST",
     "snake_description": "lalao arkady klasika / WASM",
     "portfolio_translator_description": "matrika fiteny 100+ sy i18n",
-    "formatter_description": "mpamarina sy mpanova syntax",
+    "formatter_description": "linter sy formatter karazana maro // WASM",
     "contact_description": "famakiana misokatra // mifandraisa aminay",
     "arcade": "Arkady",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Hazo fiteny Efatra Mifanesy",
+    "connect_four": "Connect Four",
     "alkalab_description": "fanahafana laboratoara simia / WASM",
     "rustcraft_description": "lalao voxel fomba Minecraft / Rust sy wgpu",
     "suprememc_description": "fampisehoana mod Minecraft / Java",
-    "chess_engine": "Chess Engine",
-    "chess_engine_description": "bitboard maotera / WASM & mpiasa"
+    "chess_engine": "Maotera chess",
+    "chess_engine_description": "maotera bitboard / WASM sy mpiasa",
+    "framework_trees": "Hazo framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Fanafenana Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "script famitana // fiteny 6",
+    "reclaim_4160_description": "lalao an-tsekoly, naverina / C++ sy WASM",
+    "turing_machines": "Maody Turing",
+    "scripting_library": "Tahiry script"
   },
   "home": {
     "title": "Senior Full Stack Engineer | Vokatra & Rafitra",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Tetikasa nasongadina",
       "title": "Asa voafantina",
-      "description": "Tetikasa enina izay maneho tsara indrindra ny fomba amadikako hevitra manahirana ho rindrambaiko voadio sy miasa.",
+      "description": "Ireo tetikasa izay mampiseho tsara ny fomba amboariko ho rindrina mandeha tsara sy mahomby ny hevitra mahatsaram-panahy.",
       "view_project": "Jereo tetikasa",
       "open_project": "Sokafy tetikasa mivantana",
       "view_all": "Tadiavo ny portfolio feno",
@@ -101,7 +109,8 @@
         "libraries": "Tranomboky script",
         "languages": "Fanandramana fiteny",
         "automation": "Fitaovana automatisation sy data",
-        "experience": "Zava-baovao matianina sy fanabeazana"
+        "experience": "Zava-baovao matianina sy fanabeazana",
+        "markets": "Tsena sy rafitra varotra"
       },
       "browser_native": "Voajanahary amin'ny navigateur / tsy misy serveur",
       "no_results": "Tsy misy tetikasa mifanaraka",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Fahafahana miditra",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Ny fahamarinan'ny foto-bola dia manomboka amin'ny fanehoana: ny aritmetika cent feno sy ny soratra mifandanja dia mampazava ny fivezivezen'ny vola."
         },
         "interop": {
-          "summary": "Raki-tsoratra iraisan'ny fiteny izay mandrakotra {languages} fiteny fandaharana sy {patterns} fomba fanatanterahana, mijery izay mitranga eo amin'ny sisin'ny fotoana fanatanterahana.",
+          "summary": "Fanoroana teny maro izay mandrakitra {languages} fiteny fandaharana sy {patterns} fomba fiasa, izay mikaroka ny zavatra mitranga eny amin' ny sisiny runtime.",
           "lens": "Ny ampahany sarotra dia ny fifanarahana eo amin'ny fotoana fanatanterahana: ny fifanakalozana data, ny fitondran-tenan'ny dingana, ary ny fanatanterahana azo averina dia zava-dehibe kokoa noho ny syntax."
         },
         "formatter": {
-          "summary": "Mpanamboatra parse Go tena izy voaforona ho WebAssembly. Ny fanamarinana sy fanoratana JSON sy YAML dia mandeha eo an-toerana ao amin'ny navigateur.",
-          "lens": "Ny famindrana ny parser ho any amin'ny navigateur dia manakalo entana lehibe kokoa ho an'ny client ho fanodinana eo an-toerana, fahafaha-mitondra, ary fiankinana kely kokoa amin'ny serveur."
+          "summary": "Linter sy formatter WebAssembly nosoratna amin' i Zig ho an' i JSON, YAML, XML, HTML, TOML, CSV sy TSV. Ny fanamarinana sy ny fanitsiana dia mandeha ao anatin' ny browser.",
+          "lens": "Ny fanitsiana dia lalana fifahatonana: tsindrio amin' ny fitsipika teny marina, tehirizo ny lahatsoratra ataon' ny mpanoratra, ary tehirizo ny angona ao amin' ny mpanjifa."
         },
         "portfolio_website": {
           "summary": "Ny tranokala misy anao: portfolio React miaraka amin'ny fiteny 100+, fifaneraserana azo idirana, ary fitaovana WebAssembly miasa.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Fitaovana fanamafisana JSON sy YAML miorina amin'ny navigateur namboarina tao amin'ny Go ary natambatra ho WebAssembly. Ny famindra ny motera fanaparitahana ao amin'ny WASM dia mitazona ny fifaneraserana ho mamaly sy eo an-toerana amin'ny navigateur rehefa mampihatra parser tena izy mba hahazoana fidirana tsy mety. Izy io dia ohatra iray mifantoka amin'ny fisafidianana rafitra fampandehanana ho an'ny fampisehoana, ny fahafaha-mitondra ary ny fahatokisan'ny mpampiasa.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Tahiry script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Encryption Project",
-        "text": "Sehatra fampitahana amin'ny fampiharana Rijndael {implementations} manerana ny variana 128-, 192-, ary 256-bit. Ny famerenana ny algorithm saro-pady amin'ny fiarovana amin'ny fiteny dia fanazaran-tena amin'ny fepetra voafaritra tsara, fitondran-tena azo andrana ary ny fetran'ny fahafaha-mitondra amin'ny fiteny, instincts mahasoa rehetra ho an'ny rafitra mitantana angona saro-pady.",
+        "title": "Tetikasa fanafenana Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Mpamaha ny Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Machine Project",
-        "text": "Fianakaviana mihoatra ny {implementations} ny fampiharana ny Turing Machine. Nampiasaina mba hampisehoana ny fahafenoan'ny fihodinana amin'ny fiteny fandaharana samihafa ho an'ny fikarohana, indrindra ho an'ny Tiger Programming Language.",
+        "text": "Fianakaviana {implementations} maody Turing. Ampiasaina hitadiavana ny turing completeness amin' ny fiteny maro fandaharana ho an' ny fikarohana, indrindra ho an' ny fiteny Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Chess Engine",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Maotera chess",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Maotera fanambarana PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Mamaly fanontaniana amin'ny mailaka sy hafatra LinkedIn aho. Hiantso ihany koa aho raha omena amin'ny alàlan'ny resume na amin'ny fomba hafa ny laharan-tsaiko, na dia aleoko manokana aza ny laharan-telefaoniko."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Fitaovana kalitao angon-drakitra mifototra amin'ny navigateur izay manamarina sy mamolavola ny JSON sy YAML amin'ny fampiasana motera Go natambatra ao amin'ny WebAssembly. Ny maritrano dia tsy mitsahatra manadihady akaiky ny mpampiasa mba hahazoana valiny haingana sy manokana ary mampihatra ny fitsipiky ny syntax tena izy amin'ny sisin'ny data. Izy io dia ohatra mirindra amin'ny fandrafetana rindranasan'ny developer azo ianteherana manodidina ny fahamendrehana, ny fampisehoana ary ny fahatokisana.",
     "more_info1": "Raha mila fanazavana fanampiny dia jereo ny README ao amin'ny",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Tahiry Auto-Linter.",
     "format_as": "Fomba toy ny:",
     "auto_detect": "Auto Detect",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML manankery",
     "invalid_json": "JSON tsy mety",
     "invalid_yaml": "YAML tsy mety",
-    "empty_input": "Ampidiro azafady JSON na YAML vitsivitsy mba hanoratra.",
+    "empty_input": "Ampidiro JSON, YAML, XML, HTML, TOML, CSV na TSV hovana.",
     "too_large": "Lehibe loatra ny fampidirana (1MB ambony indrindra azo atao).",
     "fixed_yaml_spacing": "⚠ Ny YAML dia nanana elanelana/indentation tsy mety fa namboarina ho azy sy novolavolaina.",
-    "loading": "Mampiditra formatter...",
+    "loading": "Eo am-pampidirana an' i Auto-Linter...",
     "waiting_for_input": "Miandry fampidirana...",
-    "load_failed": "Tsy afaka mampiditra formatter.",
+    "load_failed": "Tsy afaka nampiditra an' i Auto-Linter.",
     "output": "Output:",
     "input_code": "fahan'ny",
     "json_examples": "Ohatra JSON",
-    "yaml_examples": "Ohatra YAML"
+    "yaml_examples": "Ohatra YAML",
+    "legacy_repo": "Jereo ny maody Go taloha",
+    "legacy_rust": "Jereo ny maody Rust taloha"
   },
   "tiger": {
     "title": "Fiteny tigra",
@@ -436,7 +459,8 @@
     "run_tiger": "Mihazakazaka Tiger",
     "output": "Output:",
     "stop": "Ajanona",
-    "program_input": "Fampidirana rindrankajy"
+    "program_input": "Fampidirana rindrankajy",
+    "legacy_repo": "Jereo ny maody Go taloha"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Zoom In",
         "zoom_out": "Zoom Out",
         "reset": "Reset View"
+      },
+      "country_names": {
+        "show": "Asehoy ny anaran-tany",
+        "hide": "Afenoy ny anaran-tany"
       }
     },
     "supported_languages": {

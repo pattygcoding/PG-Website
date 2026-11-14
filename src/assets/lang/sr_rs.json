@@ -8,8 +8,8 @@
     "tiger": "Tiger - Прилагођени програмски језик",
     "snake": "Игра змија",
     "portfolio_translator": "Портфолио Транслатор",
-    "formatter": "Линтер за JSON и YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Решавач Рубикове коцке",
     "contact": "Контактирајте ме",
     "home_description": "sys.root // главни преглед",
     "about_description": "профил инжењера // био и стек",
@@ -18,16 +18,26 @@
     "tiger_description": "прилагођени компајлер и визуализатор AST",
     "snake_description": "класична аркадна игра / WASM",
     "portfolio_translator_description": "матрица 100+ језика и i18n",
-    "formatter_description": "валидатор и конвертор синтаксе",
+    "formatter_description": "linter и форматтер више формата // WASM",
     "contact_description": "отворени пренос // контактирајте ме",
     "arcade": "Аркада",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Језичко дрво „Четири у низу“",
+    "connect_four": "Connect Four",
     "alkalab_description": "симулација хемијске лабораторије / WASM",
     "rustcraft_description": "воксел игра у стилу Minecraft / Rust и wgpu",
-    "suprememc_description": "витрина мода Minecraft / Java"
+    "suprememc_description": "витрина мода Minecraft / Java",
+    "framework_trees": "Дрвеће оквира",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael шифровање",
+    "chess_engine": "Шаховски мотор",
+    "interops": "Interops",
+    "chess_engine_description": "bitboard мотор / WASM и worker",
+    "scripting_library_description": "скрипте за аутоматизацију // 6 језика",
+    "reclaim_4160_description": "факултетска игра, поново освојена / C++ и WASM",
+    "turing_machines": "Тјурингове машине",
+    "scripting_library": "Библиотека скрипти"
   },
   "home": {
     "title": "Сениор Фулл-Стацк Енгинеер | Производи и системи",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Истакнути пројекти",
       "title": "Изабрани радови",
-      "description": "Шест пројеката који најбоље представљају како амбициозне идеје претварам у углачан, функционалан софтвер.",
+      "description": "Пројекти који најбоље показују како амбициозне идеје претварам у углађен, функционалан софтвер.",
       "view_project": "Прикажи пројекат",
       "open_project": "Отвори уживо пројекат",
       "view_all": "Истражите комплетан портфолио",
@@ -99,7 +109,8 @@
         "libraries": "Библиотеке скрипти",
         "languages": "Језички експерименти",
         "automation": "Алати за аутоматизацију и податке",
-        "experience": "Професионално и образовно искуство"
+        "experience": "Професионално и образовно искуство",
+        "markets": "Тржишта и системи за трговину"
       },
       "browser_native": "Изворно у прегледачу / без сервера",
       "no_results": "Нема одговарајућих пројеката",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Приступачност",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Финансијска исправност почиње представљањем: аритметика у целим парама и уравнотежени књиговодствени уноси чине кретање новца експлицитним."
         },
         "interop": {
-          "summary": "Међујезичка референца која покрива {languages} програмских језика и {patterns} образаца извршења, истражујући шта се дешава на границама окружења за извршење.",
+          "summary": "Вишејезична референца која обухвата {languages} програмских језика и {patterns} узорака извршавања, истражује шта се дешава на границама извршног окружења.",
           "lens": "Тежак део је уговор између окружења за извршење: размена података, понашање процеса и обновљиво извршење су важнији од синтаксе."
         },
         "formatter": {
-          "summary": "Прави Go парсинг мотор компајлиран у WebAssembly. Валидација и форматирање JSON и YAML раде локално у прегледачу.",
-          "lens": "Премештање парсера у прегледач размењује већи терет клијента за локалну обраду, преносивост и мање зависности од сервера."
+          "summary": "Linter и форматтер за WebAssembly написан у Zig за JSON, YAML, XML, HTML, TOML, CSV и TSV. Валидација и форматирање раде локално у прегледачу.",
+          "lens": "Форматирање је питање поверења: парсирај правом граматиком, сачувај ауторов текст и држи податке на клијенту."
         },
         "portfolio_website": {
           "summary": "Сајт на коме се налазите: React портфолио са 100+ језика, приступачним интеракцијама и функционалним алатима WebAssembly.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "ЈСОН & ИАМЛ Ауто Форматер",
+        "title": "Auto-Linter",
         "text": "ЈСОН и ИАМЛ алат за валидацију и форматирање заснован на претраживачу изграђен у Го и компајлиран у ВебАссембли. Премештање машине за рашчлањивање у ВАСМ одржава интеракцију одговорном и локалном за претраживач док се примењује прави парсер да ухвати неважећи унос. То је фокусиран пример одабира рунтиме архитектуре за перформансе, преносивост и поверење корисника.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Библиотека скрипти",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Пројекат шифровања Ријандел",
-        "text": "Упоредни скуп од {implementations} Ријндаел имплементација у 128-, 192- и 256-битним варијантама. Поновна имплементација безбедносно осетљивог алгоритма на више језика је дисциплинована вежба у тачним спецификацијама, понашању које се може тестирати и границама преносивости на нивоу језика, сви корисни инстинкти за системе који рукују осетљивим подацима.",
+        "title": "Пројекат Rijndael шифровања",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Решавач Рубикове коцке",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Пројекат Тјурингове машине",
-        "text": "Породица од преко {implementations} имплементација Тјурингове машине. Користи се за демонстрирање Турингове комплетности за различите програмске језике за истраживање, посебно за програмски језик Тигер.",
+        "text": "Породица од {implementations} имплементација Тјурингове машине. Користи се за демонстрацију тьуринговске потпуности различитих програмских језика у истраживачке сврхе, посебно за програмски језик Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Шаховски мотор",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT мотор за спајање"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Одговарам на упите из е-поште и ЛинкедИн порука. Такође ћу назвати узвратити ако мој број буде наведен у животопису или на неки други начин, иако више волим да мој број телефона остане приватан."
   },
   "formatter": {
-    "title": "ЈСОН & ИАМЛ Линтер",
+    "title": "Auto-Linter",
     "description": "Алат за квалитет података заснован на претраживачу који потврђује и форматира ЈСОН и ИАМЛ користећи Го мотор преведен у ВебАссембли. Архитектура одржава рашчлањивање близу корисника за брзе, приватне повратне информације, док примењује права правила синтаксе на граници података. То је компактан пример дизајнирања поузданог тока рада програмера око исправности, перформанси и поверења.",
     "more_info1": "За више информација погледајте РЕАДМЕ у",
-    "more_info2": "ЈСОН/ИАМЛ Репозиторијум форматера.",
+    "more_info2": "Репозиторијум Auto-Linter-а.",
     "format_as": "Формат као:",
     "auto_detect": "Ауто Детецт",
     "format": "Линт & Формат",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ Валид ИАМЛ",
     "invalid_json": "Неважећи ЈСОН",
     "invalid_yaml": "Неважећи ИАМЛ",
-    "empty_input": "Унесите неки ЈСОН или ИАМЛ за линт.",
+    "empty_input": "Унесите JSON, YAML, XML, HTML, TOML, CSV или TSV за проверу.",
     "too_large": "Унос је превелик (дозвољено највише 1 МБ).",
     "fixed_yaml_spacing": "⚠ ИАМЛ је имао неважећи размак/увлачење, али је аутоматски поправљен и форматиран.",
-    "loading": "Учитавање форматера...",
+    "loading": "Учитавање Auto-Linter-а...",
     "waiting_for_input": "Чека се унос...",
-    "load_failed": "Није могуће учитати форматер.",
+    "load_failed": "Није могуће учитати Auto-Linter.",
     "output": "Излаз:",
     "input_code": "Инпут",
     "json_examples": "ЈСОН примери",
-    "yaml_examples": "ИАМЛ примери"
+    "yaml_examples": "ИАМЛ примери",
+    "legacy_repo": "Прикажи стару Go имплементацију",
+    "legacy_rust": "Прикажи стару Rust имплементацију"
   },
   "tiger": {
     "title": "Тигер Лангуаге",
@@ -433,7 +459,8 @@
     "run_tiger": "Трчи Тигер",
     "output": "Излаз:",
     "stop": "Стоп",
-    "program_input": "Улаз програма"
+    "program_input": "Улаз програма",
+    "legacy_repo": "Прикажи стару Go имплементацију"
   },
   "tab": {
     "title": "Патрицк Гоодвин",
@@ -498,6 +525,10 @@
         "zoom_in": "Увећај",
         "zoom_out": "Зоом Оут",
         "reset": "Ресетујте приказ"
+      },
+      "country_names": {
+        "show": "Прикажи називе земаља",
+        "hide": "Сакриј називе земаља"
       }
     },
     "supported_languages": {

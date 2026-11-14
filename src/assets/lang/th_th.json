@@ -8,8 +8,8 @@
     "tiger": "Tiger - ภาษาการเขียนโปรแกรมที่กำหนดเอง",
     "snake": "เกมงู",
     "portfolio_translator": "นักแปลผลงาน",
-    "formatter": "ลินเตอร์ JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "โปรแกรมแก้ลูกบาศก์ของรูบิก",
     "contact": "ติดต่อฉัน",
     "home_description": "sys.root // ภาพรวมหลัก",
     "about_description": "โปรไฟล์วิศวกร // ประวัติและเทคโนโลยี",
@@ -18,18 +18,26 @@
     "tiger_description": "คอมไพเลอร์ที่กำหนดเองและตัวแสดง AST",
     "snake_description": "เกมอาร์เคดคลาสสิก / WASM",
     "portfolio_translator_description": "เมทริกซ์ 100+ ภาษาและ i18n",
-    "formatter_description": "ตัวตรวจสอบและแปลงไวยากรณ์",
+    "formatter_description": "ตัวກ�องและตัวจัดรูปแบบหลายรูปแบบ // WASM",
     "contact_description": "การส่งสัญญาณเปิด // ติดต่อฉัน",
     "arcade": "เกมอาร์เคด",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "ต้นไม้ภาษาเกมสี่ต่อ",
+    "connect_four": "Connect Four",
     "alkalab_description": "การจำลองห้องปฏิบัติการเคมี / WASM",
     "rustcraft_description": "เกมวอกเซลสไตล์ Minecraft / Rust และ wgpu",
     "suprememc_description": "โชว์เคสม็อด Minecraft / Java",
-    "chess_engine": "เครื่องยนต์หมากรุก",
-    "chess_engine_description": "เครื่องยนต์บิตบอร์ด/WASM และคนงาน"
+    "chess_engine": "เอนจินหมากรุก",
+    "chess_engine_description": "เอนจินบอร์ดบิต / WASM และ worker",
+    "framework_trees": "ต้นไม้เฟรมเวิร์ก",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "การเข้ารหัส Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "สคริปต์อัตโนมัติ // 6 ภาษา",
+    "reclaim_4160_description": "เกมมหาวิทยาลัย ฟื้นคืน / C++ และ WASM",
+    "turing_machines": "เครื่องเทอริ่ง",
+    "scripting_library": "คลังสคริปต์"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | ผลิตภัณฑ์และระบบ",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "โปรเจกต์เด่น",
       "title": "ผลงานที่เลือก",
-      "description": "หกโปรเจกต์ที่แสดงให้เห็นดีที่สุดว่าฉันเปลี่ยนความคิดทะเยอทะยานให้เป็นซอฟต์แวร์ที่ขัดเกลาและใช้งานได้อย่างไร",
+      "description": "โครงการที่แสดงให้เห็นดีที่สุดว่าฉันเปลี่ยนไอเดียที่ทะเยอทะยานให้กลายเป็นซอฟต์แวร์ที่ขัดเกลาแล้วและใช้งานได้จริง",
       "view_project": "ดูโปรเจกต์",
       "open_project": "เปิดโปรเจกต์สด",
       "view_all": "สำรวจผลงานทั้งหมด",
@@ -101,7 +109,8 @@
         "libraries": "ไลบรารีสคริปต์",
         "languages": "การทดลองภาษา",
         "automation": "เครื่องมืออัตโนมัติและข้อมูล",
-        "experience": "ประสบการณ์มืออาชีพและการศึกษา"
+        "experience": "ประสบการณ์มืออาชีพและการศึกษา",
+        "markets": "ตลาดและระบบการซื้อขาย"
       },
       "browser_native": "เนทีฟในเบราว์เซอร์ / ไม่มีเซิร์ฟเวอร์",
       "no_results": "ไม่มีโปรเจกต์ที่ตรงกัน",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "การเข้าถึง",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "ความถูกต้องทางการเงินเริ่มต้นด้วยการแทนค่า คณิตศาสตร์เซนต์เต็มจำนวนและรายการบัญชีที่สมดุลทำให้การเคลื่อนไหวของเงินชัดเจน"
         },
         "interop": {
-          "summary": "เอกสารอ้างอิงข้ามภาษาที่ครอบคลุม {languages} ภาษาการเขียนโปรแกรมและ {patterns} รูปแบบการดำเนินการ สำรวจสิ่งที่เกิดขึ้นที่ขอบเขตเวลารันไทม์",
+          "summary": "เอกสารอ้างอิงข้ามภาษาที่ครอบคลุม {languages} ภาษาโปรแกรมและ {patterns} รูปแบบการดำเนินการ สำรวจสิ่งที่เกิดขึ้นที่ขอบเขตของ runtime",
           "lens": "ส่วนที่ยากคือสัญญาระหว่างรันไทม์ การแลกเปลี่ยนข้อมูล พฤติกรรมกระบวนการ และการดำเนินการที่ทำซ้ำได้สำคัญกว่าไวยากรณ์"
         },
         "formatter": {
-          "summary": "เอนจินแยกวิเคราะห์ Go จริงที่คอมไพล์เป็น WebAssembly การตรวจสอบและการจัดรูปแบบ JSON และ YAML ทำงานในเครื่องในเบราว์เซอร์",
-          "lens": "การย้ายตัวแยกวิเคราะห์ไปยังเบราว์เซอร์แลกเปลี่ยนเพย์โหลดไคลเอนต์ที่ใหญ่ขึ้นกับการประมวลผลในเครื่อง ความพกพา และการพึ่งพาเซิร์ฟเวอร์น้อยลง"
+          "summary": "ตัวກ�องและตัวจัดรูปแบบ WebAssembly ที่เขียนด้วย Zig สำหรับ JSON, YAML, XML, HTML, TOML, CSV และ TSV การตรวจสอบและการจัดรูปแบบทำงานในเบราว์เซอร์ในเครื่อง",
+          "lens": "การจัดรูปแบบเป็นประเด็นของความไว้วางใจ: แยกวิเคราะห์ด้วยไวยากรณ์จริง รักษาข้อความของผู้เขียน และเก็บข้อมูลไว้ที่ฝั่งไคลเอนต์"
         },
         "portfolio_website": {
           "summary": "เว็บไซต์ที่คุณอยู่ใน React ผลงานที่มี 100+ ภาษา การโต้ตอบที่เข้าถึงได้ และเครื่องมือ WebAssembly ที่ใช้งานได้",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "ตัวจัดรูปแบบอัตโนมัติ JSON และ YAML",
+        "title": "Auto-Linter",
         "text": "เครื่องมือตรวจสอบและจัดรูปแบบ JSON และ YAML บนเบราว์เซอร์ที่สร้างขึ้นใน Go และคอมไพล์เป็น WebAssembly การย้ายกลไกการแยกวิเคราะห์ไปยัง WASM จะทำให้การโต้ตอบตอบสนองและอยู่ในเบราว์เซอร์ ในขณะที่ใช้ตัวแยกวิเคราะห์จริงเพื่อตรวจจับอินพุตที่ไม่ถูกต้อง นี่เป็นตัวอย่างที่มุ่งเน้นในการเลือกสถาปัตยกรรมรันไทม์สำหรับประสิทธิภาพ ความสะดวกในการพกพา และความไว้วางใจของผู้ใช้",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "คลังสคริปต์",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "โครงการเข้ารหัส Rijndael",
-        "text": "ชุดเปรียบเทียบของการใช้งาน Rijndael มากกว่า {implementations} รายการในเวอร์ชัน 128-, 192- และ 256 บิต การนำอัลกอริธึมที่ไวต่อความปลอดภัยไปใช้ในภาษาต่างๆ นั้นเป็นการฝึกหัดที่มีระเบียบวินัยในข้อกำหนดเฉพาะที่แน่นอน พฤติกรรมที่ทดสอบได้ และขีดจำกัดของความสามารถในการพกพาระดับภาษา สัญชาตญาณที่เป็นประโยชน์ทั้งหมดสำหรับระบบที่จัดการข้อมูลที่ละเอียดอ่อน",
+        "title": "โครงการการเข้ารหัส Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "โปรแกรมแก้ลูกบาศก์ของรูบิก",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "โครงการเครื่องจักรทัวริง",
-        "text": "กลุ่มผลิตภัณฑ์ Turing Machine มากกว่า {implementations} รายการ ใช้เพื่อสาธิตความสมบูรณ์ของทัวริงสำหรับภาษาโปรแกรมต่างๆ เพื่อการวิจัย โดยเฉพาะสำหรับภาษาโปรแกรม Tiger",
+        "text": "ตระกูลของการดำเนินการเครื่องเทอริงจำนวน {implementations} รายการ ใช้สาธิตความครบถ้วนตามเกณฑ์เทอริงของภาษาโปรแกรมต่าง ๆ เพื่อการวิจัย โดยเฉพาะภาษาโปรแกรม Tiger",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "เครื่องยนต์หมากรุก",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "เอนจินหมากรุก",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "เอนจินจับคู่ PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "ฉันตอบคำถามจากอีเมลและข้อความ LinkedIn ฉันจะโทรกลับด้วยหากหมายเลขของฉันให้ไว้ทางประวัติย่อหรืออย่างอื่น แม้ว่าฉันจะชอบเก็บหมายเลขโทรศัพท์ของฉันไว้เป็นส่วนตัวก็ตาม"
   },
   "formatter": {
-    "title": "JSON และ YAML ลินเตอร์",
+    "title": "Auto-Linter",
     "description": "เครื่องมือตรวจสอบคุณภาพข้อมูลบนเบราว์เซอร์ที่ตรวจสอบและจัดรูปแบบ JSON และ YAML โดยใช้กลไก Go ที่คอมไพล์เป็น WebAssembly สถาปัตยกรรมจะคอยแยกวิเคราะห์ใกล้กับผู้ใช้เพื่อการตอบกลับที่รวดเร็วและเป็นส่วนตัว ในขณะเดียวกันก็บังคับใช้กฎไวยากรณ์จริงที่ขอบเขตข้อมูล นี่เป็นตัวอย่างสั้นๆ ของการออกแบบเวิร์กโฟลว์ของนักพัฒนาที่เชื่อถือได้เกี่ยวกับความถูกต้อง ประสิทธิภาพ และความน่าเชื่อถือ",
     "more_info1": "สำหรับข้อมูลเพิ่มเติม โปรดดูที่ README ใน",
-    "more_info2": "พื้นที่เก็บข้อมูลฟอร์แมตเตอร์ JSON/YAML",
+    "more_info2": "ที่เก็บ Auto-Linter",
     "format_as": "จัดรูปแบบเป็น:",
     "auto_detect": "ตรวจจับอัตโนมัติ",
     "format": "ผ้าสำลีและรูปแบบ",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML ที่ถูกต้อง",
     "invalid_json": "JSON ไม่ถูกต้อง",
     "invalid_yaml": "YAML ไม่ถูกต้อง",
-    "empty_input": "โปรดป้อน JSON หรือ YAML บางส่วนเพื่อขุย",
+    "empty_input": "ป้อน JSON, YAML, XML, HTML, TOML, CSV หรือ TSV เพื่อตรวจสอบ",
     "too_large": "อินพุตใหญ่เกินไป (อนุญาตสูงสุด 1MB)",
     "fixed_yaml_spacing": "⚠ YAML มีการเว้นวรรค/การเยื้องไม่ถูกต้อง แต่ได้รับการแก้ไขและจัดรูปแบบอัตโนมัติแล้ว",
-    "loading": "กำลังโหลดฟอร์แมตเตอร์...",
+    "loading": "กำลังโหลด Auto-Linter...",
     "waiting_for_input": "กำลังรออินพุต...",
-    "load_failed": "ไม่สามารถโหลดฟอร์แมตเตอร์ได้",
+    "load_failed": "ไม่สามารถโหลด Auto-Linter ได้",
     "output": "เอาท์พุท:",
     "input_code": "ป้อนข้อมูล",
     "json_examples": "ตัวอย่าง JSON",
-    "yaml_examples": "ตัวอย่าง YAML"
+    "yaml_examples": "ตัวอย่าง YAML",
+    "legacy_repo": "ดูการดำเนินการ Go แบบเดิม",
+    "legacy_rust": "ดูการดำเนินการ Rust แบบเดิม"
   },
   "tiger": {
     "title": "ภาษาเสือ",
@@ -436,7 +459,8 @@
     "run_tiger": "วิ่งเสือ",
     "output": "เอาท์พุท:",
     "stop": "หยุด",
-    "program_input": "อินพุตโปรแกรม"
+    "program_input": "อินพุตโปรแกรม",
+    "legacy_repo": "ดูการดำเนินการ Go แบบเดิม"
   },
   "tab": {
     "title": "แพทริค กู๊ดวิน",
@@ -501,6 +525,10 @@
         "zoom_in": "ซูมเข้า",
         "zoom_out": "ซูมออก",
         "reset": "รีเซ็ตมุมมอง"
+      },
+      "country_names": {
+        "show": "แสดงชื่อประเทศ",
+        "hide": "ซ่อนชื่อประเทศ"
       }
     },
     "supported_languages": {

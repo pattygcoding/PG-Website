@@ -8,8 +8,8 @@
     "tiger": "Tiger - Yon Lang Pwogramasyon Custom",
     "snake": "Jwèt koulèv",
     "portfolio_translator": "Portfolio tradiktè",
-    "formatter": "Verifikatè JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Solvosè Rubik's Cube",
     "contact": "Kontakte mwen",
     "home_description": "sys.root // apèsi prensipal",
     "about_description": "pwofil enjenyè // biyografi ak teknoloji",
@@ -18,18 +18,26 @@
     "tiger_description": "konpilatè custom ak vizyalizatè AST",
     "snake_description": "jwèt arcade klasik / WASM",
     "portfolio_translator_description": "matris 100+ lang ak i18n",
-    "formatter_description": "validatè ak konvètisè sentaks",
+    "formatter_description": "linter ak fòmatè plizyè fòma // WASM",
     "contact_description": "transmisyon ouvè // kontakte m",
     "arcade": "Arkad",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Pye bwa lang Kat nan yon liy",
+    "connect_four": "Connect Four",
     "alkalab_description": "similasyon laboratwa chimi / WASM",
     "rustcraft_description": "jwèt voxel stil Minecraft / Rust ak wgpu",
     "suprememc_description": "ekspozisyon mod Minecraft / Java",
-    "chess_engine": "Motè Echèk",
-    "chess_engine_description": "motè bitboard / WASM & travayè"
+    "chess_engine": "Motè echec",
+    "chess_engine_description": "motè bitboard / WASM ak travayè",
+    "framework_trees": "Pye kadwo",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Chifreman Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "script otomasyon // 6 lang",
+    "reclaim_4160_description": "jewografi kolèj, rekonki / C++ ak WASM",
+    "turing_machines": "Makin Turing",
+    "scripting_library": "Bibliyotèk script"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Pwodwi & Sistèm",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Pwojè chwazi",
       "title": "Travay chwazi",
-      "description": "Sis pwojè ki reprezante pi byen kijan mwen transfòme lide anbisye an lojisyèl poli ak fonksyònman.",
+      "description": "Pwojè sa yo ki montre pi byen kijan mwen chanje lide ki gen anbisyon an sèvis ki byen fòme epi k ap mache.",
       "view_project": "Gade pwojè",
       "open_project": "Louvri pwojè an dirèk",
       "view_all": "Eksplore portfolio konplè a",
@@ -101,7 +109,8 @@
         "libraries": "Bibliyotèk script",
         "languages": "Eksperyans lang",
         "automation": "Zouti automatisation ak done",
-        "experience": "Eksperyans pwofesyonèl ak edikatif"
+        "experience": "Eksperyans pwofesyonèl ak edikatif",
+        "markets": "Mache ak sistèm komès"
       },
       "browser_native": "Natif navigatè / san server",
       "no_results": "Pa gen pwojè matche",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Aksè",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Koreksyon finansye kòmanse ak reprezantasyon: aritmetik santim konplè ak antre ekilibre fè mouvman lajan klè."
         },
         "interop": {
-          "summary": "Yon referans trans-lang ki kouvri {languages} lang pwogramasyon ak {patterns} modèl ekzekisyon, eksplore sa k pase nan limit tan ekzekisyon.",
+          "summary": "Yon referans entèlang ki kouvri {languages} lang pwogramasyon ak {patterns} modèl egzekisyon, k ap egzaminen sa k ap pase sou fwontyè runtime.",
           "lens": "Pat ki difisil la se kontra ant tan ekzekisyon: echanj done, konpòtman pwosesis, ak ekzekisyon repètitif pi enpòtan pase sentaks."
         },
         "formatter": {
-          "summary": "Yon motè parsing Go reyèl ki konpile nan WebAssembly. Validasyon ak fòma JSON ak YAML fonksyone lokalman nan navigatè a.",
-          "lens": "Dekale parser la nan navigatè a echanj yon pi gwo chaj kliyan pou pwosesis lokal, pòtab, ak mwens depandans server."
+          "summary": "Yon linter ak fòmatè WebAssembly ki ekri an Zig pou JSON, YAML, XML, HTML, TOML, CSV ak TSV. Validasyon ak fòmatay ap fèt lokalman nan navigatè a.",
+          "lens": "Fòmatay se yon kesyon konfyans: analize ak yon gramè reyèl, kenbe tèks otè a, epi kenbe done sou kliyan an."
         },
         "portfolio_website": {
           "summary": "Sit la kote ou ye: yon portfolio React ak 100+ lang, entèraksyon aksesib, ak zouti WebAssembly k ap travay.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Yon navigatè ki baze sou JSON ak YAML validation ak zouti fòma bati nan Go ak konpile nan WebAssembly. Deplase motè analiz la nan WASM kenbe entèraksyon an reponn ak lokal nan navigatè a pandan y ap aplike yon analizeur reyèl pou trape opinyon envalid. Li se yon egzanp konsantre sou chwazi yon achitekti ègzekutabl pou pèfòmans, portabilite, ak konfyans itilizatè.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Bibliyotèk script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Pwojè chifreman Rijndael",
-        "text": "Yon seri konparatif plis pase {implementations} aplikasyon Rijndael atravè 128-, 192-, ak 256-bit varyant. Re-enplimante yon algorithm sekirite-sansib atravè lang yo se yon egzèsis disipline nan espesifikasyon egzak, konpòtman teste, ak limit yo nan portabilite nan nivo lang. tout ensten itil pou sistèm ki okipe done sansib.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Solvosè Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Pwojè machin Turing",
-        "text": "Fanmi ki gen plis pase {implementations} aplikasyon Turing Machine. Itilize pou demontre konplè pou diferan langaj pwogramasyon pou rechèch, espesyalman pou langaj pwogramasyon Tiger.",
+        "text": "Yon fanmi {implementations} enplantasyon Makin Turing. Yo sèvi ak li pou montre turing completeness lang pwogramasyon divès pou rechèch, espesyalman pou lang Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Motè Echèk",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Motè echec",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Motè matche PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Mwen reponn kesyon ki soti nan imel ak mesaj LinkedIn. Mwen pral rele tou si yo bay nimewo mwen an atravè rezime oswa otreman, menmsi mwen prefere kenbe nimewo telefòn mwen an prive."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Yon zouti bon jan kalite done ki baze sou navigatè ki valide ak fòma JSON ak YAML lè l sèvi avèk yon motè Go konpile nan WebAssembly. Achitekti a kenbe analiz tou pre itilizatè a pou rapid, fidbak prive pandan y ap aplike règ sentaks reyèl nan fwontyè done yo. Li se yon egzanp kontra enfòmèl ant konsepsyon yon workflow pwomotè serye alantou kòrèk, pèfòmans, ak konfyans.",
     "more_info1": "Pou plis enfòmasyon, al gade nan README nan",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Depo Auto-Linter.",
     "format_as": "Fòma kòm:",
     "auto_detect": "Detekte oto",
     "format": "Lint & Fòma",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML ki valab",
     "invalid_json": "JSON pa valab",
     "invalid_yaml": "YAML envalid",
-    "empty_input": "Tanpri antre kèk JSON oswa YAML pou lint.",
+    "empty_input": "Antre JSON, YAML, XML, HTML, TOML, CSV oswa TSV pou verifye.",
     "too_large": "Antre twò gwo (max 1MB pèmèt).",
     "fixed_yaml_spacing": "⚠ YAML te gen espas/indentasyon ki pa valab men li te oto-ranje ak fòma.",
-    "loading": "Chaje fòmatè...",
+    "loading": "Ap chaje Auto-Linter...",
     "waiting_for_input": "Map tann opinyon...",
-    "load_failed": "Pa kapab chaje fòmatè.",
+    "load_failed": "Pa ka chaje Auto-Linter.",
     "output": "Sòti:",
     "input_code": "Antre",
     "json_examples": "Egzanp JSON",
-    "yaml_examples": "Egzanp YAML"
+    "yaml_examples": "Egzanp YAML",
+    "legacy_repo": "Gade ansyen enplantasyon Go",
+    "legacy_rust": "Gade ansyen enplantasyon Rust"
   },
   "tiger": {
     "title": "Lang tig",
@@ -436,7 +459,8 @@
     "run_tiger": "Kouri Tiger",
     "output": "Sòti:",
     "stop": "Sispann",
-    "program_input": "Antre pwogram"
+    "program_input": "Antre pwogram",
+    "legacy_repo": "Gade ansyen enplantasyon Go"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Zoom nan",
         "zoom_out": "Zoom Out",
         "reset": "Reyajiste View"
+      },
+      "country_names": {
+        "show": "Montre non peyi",
+        "hide": "Kache non peyi"
       }
     },
     "supported_languages": {

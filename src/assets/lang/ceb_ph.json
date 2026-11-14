@@ -8,8 +8,8 @@
     "tiger": "Tiger - Usa ka Custom nga Pinulongan sa Programming",
     "snake": "Dula sa bitin",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "Checker sa JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube solver",
     "contact": "Kontaka Ako",
     "home_description": "sys.root // kinatibuk-ang pagtan-aw",
     "about_description": "profile sa inhenyero // bio ug teknolohiya",
@@ -18,18 +18,26 @@
     "tiger_description": "custom compiler ug AST visualizer",
     "snake_description": "klasikong arkade nga dula / WASM",
     "portfolio_translator_description": "matrix sa 100+ nga pinulongan ug i18n",
-    "formatter_description": "validator ug converter sa syntax",
+    "formatter_description": "linter ug formatter sa daghang format // WASM",
     "contact_description": "bukas nga transmission // kontaka ako",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Kahoy sa pinulongan Upat nga sunod",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulasyon sa lab sa chemistry / WASM",
     "rustcraft_description": "voxel nga dula nga estilo sa Minecraft / Rust ug wgpu",
     "suprememc_description": "pagpakita sa mod sa Minecraft / Java",
-    "chess_engine": "Chess Engine",
-    "chess_engine_description": "makina sa bitboard/ WASM & trabahante"
+    "chess_engine": "Chess engine",
+    "chess_engine_description": "bitboard engine / WASM ug worker",
+    "framework_trees": "Mga kahoy sa framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael encryption",
+    "interops": "Interops",
+    "scripting_library_description": "mga script sa automation // 6 ka pinulongan",
+    "reclaim_4160_description": "dula sa kolehiyo, gibawi pag-usab / C++ ug WASM",
+    "turing_machines": "Mga Turing Machine",
+    "scripting_library": "Library sa script"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto ug Sistema",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Pinili nga mga proyekto",
       "title": "Pinili nga mga buhat",
-      "description": "Unom ka mga proyekto nga labing nagrepresentar kung giunsa nako pagbag-o ang ambisyoso nga mga ideya ngadto sa pinasinaw, nagtrabaho nga software.",
+      "description": "Ang mga proyekto nga labing maayo nagpakita kung giunsa nako pag-usbon ang mga ambisyoso nga ideya ngadto sa usa ka hapsay nga software nga molihok.",
       "view_project": "Tan-awa ang proyekto",
       "open_project": "Ablihi ang live nga proyekto",
       "view_all": "Susihon ang kompleto nga portfolio",
@@ -101,7 +109,8 @@
         "libraries": "Mga library sa script",
         "languages": "Mga eksperimento sa pinulongan",
         "automation": "Mga himan sa automation ug data",
-        "experience": "Propesyonal ug pang-edukasyon nga kasinatian"
+        "experience": "Propesyonal ug pang-edukasyon nga kasinatian",
+        "markets": "Mga merkado ug sistema sa negosyo"
       },
       "browser_native": "Native sa browser / walay server",
       "no_results": "Walay mga proyekto nga katumbas",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Pagka-access",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Ang katukma sa pinansya nagsugod sa representasyon: ang aritmetika sa bug-os nga cents ug balanse nga mga entry naghimo sa paglihok sa salapi nga klaro."
         },
         "interop": {
-          "summary": "Usa ka cross-language nga reperensiya nga naglangkob sa {languages} ka programming language ug {patterns} ka pattern sa pagpatuman, nga nag-eksplorar kung unsa ang mahitabo sa mga utlanan sa runtime.",
+          "summary": "Usa ka cross-language nga referensya nga naglangkob sa {languages} programming languages ug {patterns} execution patterns, nga nagtan-aw unsay mahitabo sa runtime boundaries.",
           "lens": "Ang lisud nga bahin mao ang kontrata tali sa mga runtime: ang pagpaambit sa data, pamatasan sa proseso, ug masubli nga pagpatuman mas importante kaysa syntax."
         },
         "formatter": {
-          "summary": "Usa ka tinuod nga Go parsing engine nga gi-compile sa WebAssembly. Ang pag-validate ug pag-format sa JSON ug YAML nagdagan nga lokal sa browser.",
-          "lens": "Ang pagbalhin sa parser sa browser nagbaylo og mas dako nga payload sa kliyente alang sa lokal nga pagproseso, portability, ug gamay nga pagsalig sa server."
+          "summary": "Linter ug formatter sa WebAssembly nga gisulat sa Zig alang sa JSON, YAML, XML, HTML, TOML, CSV ug TSV. Ang pag-validate ug pag-format modagan locally sa browser.",
+          "lens": "Ang formatting usa ka isyu sa pagsalig: i-parse gamit ang tinuod nga grammar, tipigi ang teksto sa awtor, ug tipigi ang data sa client."
         },
         "portfolio_website": {
           "summary": "Ang site nga imong naa: usa ka React portfolio nga adunay 100+ nga pinulongan, accessible nga mga interaksyon, ug mga himan sa WebAssembly nga nagtrabaho.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Usa ka browser-based nga JSON ug YAML validation ug formatting tool nga gitukod sa Go ug gihugpong sa WebAssembly. Ang pagbalhin sa parsing engine ngadto sa WASM mopadayon sa interaksyon nga responsive ug lokal sa browser samtang nag-aplay ug tinuod nga parser aron makuha ang dili balido nga input. Kini usa ka gipunting nga panig-ingnan sa pagpili sa usa ka runtime nga arkitektura alang sa pasundayag, kadali, ug pagsalig sa gumagamit.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Library sa script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Proyekto sa Pag-encrypt sa Rijndael",
-        "text": "Usa ka comparative set sa {implementations} Rijndael nga pagpatuman sa 128-, 192-, ug 256-bit nga mga variant. Ang pag-implementar pag-usab sa usa ka algorithm nga sensitibo sa seguridad sa tibuok mga pinulongan usa ka disiplinado nga ehersisyo sa eksaktong mga espesipikasyon, masulayan nga kinaiya, ug ang mga limitasyon sa lebel sa pinulongan nga madala, tanan nga mapuslanon nga mga instinct para sa mga sistema nga nagdumala sa sensitibo nga datos.",
+        "title": "Proyekto sa Rijndael encryption",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube solver",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Proyekto sa Turing Machine",
-        "text": "Pamilya sa kapin sa {implementations} ka mga pagpatuman sa Turing Machine. Gigamit aron ipakita ang pagkakompleto sa turing alang sa lain-laing mga programming language alang sa panukiduki, ilabi na alang sa Tiger Programming Language.",
+        "text": "Usa ka pamilya sa {implementations} implementasyon sa Turing Machine. Gigamit aron ipakita ang turing completeness sa lain-laing programming languages alang sa research, ilabi na alang sa Tiger programming language.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,9 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Chess Engine",
+        "title": "Chess engine",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "Usa ka makina sa chess nga gisulat sa Rust ug gitigum sa WebAssembly. Gipangita niini ang iterative deepening negamax, alpha-beta pruning, usa ka 32 MB transposition table ug usa ka quiescence search sa mga dahon; kini nagsusi sa tapered piece-square tables ug mga mando nga gipalihok sa MVV-LVA, mga mamumuno ug kasaysayan. Ang makina nagdagan sa usa ka Web Worker aron ang board dili gyud mag-freeze, ug ang generator sa paglihok niini gisusi sa browser kontra sa gipatik nga mga ihap sa perft - 20, 400, 8,902, 197,281 ug 4,865,609 node alang sa unang lima ka giladmon."
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT matching engine"
       }
     }
   },
@@ -405,10 +425,10 @@
     "description": "Motubag ko sa mga pangutana gikan sa email ug LinkedIn nga mga mensahe. Motawag usab ako og balik kung ang akong numero gihatag pinaagi sa resume o kung dili, bisan kung gusto nako nga itago ang akong numero sa telepono nga pribado."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Usa ka himan sa kalidad sa datos nga nakabase sa browser nga nag-validate ug nag-format sa JSON ug YAML gamit ang Go engine nga giipon sa WebAssembly. Ang arkitektura nagpadayon sa pag-parse duol sa tiggamit alang sa paspas, pribado nga feedback samtang gipatuman ang tinuod nga mga lagda sa syntax sa utlanan sa datos. Kini usa ka compact nga pananglitan sa pagdesinyo sa usa ka kasaligan nga dagan sa trabaho sa developer sa palibot sa katukma, pasundayag, ug pagsalig.",
     "more_info1": "Para sa dugang nga impormasyon, tan-awa ang README sa",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Repository sa Auto-Linter.",
     "format_as": "Format Ingon:",
     "auto_detect": "Auto Detect",
     "format": "Lint ug Format",
@@ -416,16 +436,18 @@
     "valid_yaml": "✓ Balido nga YAML",
     "invalid_json": "Dili balido nga JSON",
     "invalid_yaml": "Dili balido nga YAML",
-    "empty_input": "Palihug isulod ang pipila ka JSON o YAML aron lint.",
+    "empty_input": "Pagsulod og JSON, YAML, XML, HTML, TOML, CSV o TSV aron susihon.",
     "too_large": "Dagko kaayo ang input (max 1MB gitugot).",
     "fixed_yaml_spacing": "⚠ Ang YAML adunay dili balido nga gilay-on/indentasyon apan awtomatik nga giayo ug giporma.",
-    "loading": "Nagkarga sa tig-format...",
+    "loading": "Gina-load ang Auto-Linter...",
     "waiting_for_input": "Naghulat alang sa input...",
-    "load_failed": "Dili ma-load ang formatter.",
+    "load_failed": "Dili ma-load ang Auto-Linter.",
     "output": "Output:",
     "input_code": "Input",
     "json_examples": "Mga Ehemplo sa JSON",
-    "yaml_examples": "Mga Ehemplo sa YAML"
+    "yaml_examples": "Mga Ehemplo sa YAML",
+    "legacy_repo": "Tan-awon ang karaan nga Go implementation",
+    "legacy_rust": "Tan-awon ang karaan nga Rust implementation"
   },
   "tiger": {
     "title": "Pinulongan sa Tigre",
@@ -437,7 +459,8 @@
     "run_tiger": "Dagan Tigre",
     "output": "Output:",
     "stop": "Hunong",
-    "program_input": "Input sa programa"
+    "program_input": "Input sa programa",
+    "legacy_repo": "Tan-awon ang karaan nga Go implementation"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -502,6 +525,10 @@
         "zoom_in": "Pag-zoom In",
         "zoom_out": "Pag-zoom Out",
         "reset": "I-reset ang Panglantaw"
+      },
+      "country_names": {
+        "show": "Ipakita ang mga ngalan sa nasud",
+        "hide": "Itago ang mga ngalan sa nasud"
       }
     },
     "supported_languages": {

@@ -8,8 +8,8 @@
     "tiger": "Tiger - Isang Custom na Wikang Pamprograma",
     "snake": "Larong ahas",
     "portfolio_translator": "Tagasalin ng Portfolio",
-    "formatter": "Linter ng JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube solver",
     "contact": "Kontakin Ako",
     "home_description": "sys.root // pangunahing pangkalahatang-tanaw",
     "about_description": "profile ng inhinyero // bio at stack",
@@ -18,18 +18,26 @@
     "tiger_description": "custom na compiler at AST visualizer",
     "snake_description": "klasikong laro sa arkade / WASM",
     "portfolio_translator_description": "100+ language matrix at i18n",
-    "formatter_description": "validator at converter ng syntax",
+    "formatter_description": "multi-format na linter at formatter // WASM",
     "contact_description": "bukas na transmisyon // makipag-ugnayan",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Punong-wika ng Apat na Magkasunod",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulasyon ng chemistry lab / WASM",
     "rustcraft_description": "larong voxel na istilo ng Minecraft / Rust at wgpu",
     "suprememc_description": "pagpapakita ng mod ng Minecraft / Java",
-    "chess_engine": "Chess Engine",
-    "chess_engine_description": "bitcoin & AltCoinsBitcoin, Litecoin, Dash, Ethereumâ €_-15%"
+    "chess_engine": "Chess engine",
+    "chess_engine_description": "bitboard engine / WASM at worker",
+    "framework_trees": "Mga puno ng framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael encryption",
+    "interops": "Interops",
+    "scripting_library_description": "mga script ng automation // 6 na wika",
+    "reclaim_4160_description": "laro sa kolehiyo, binawi muli / C++ at WASM",
+    "turing_machines": "Mga Turing Machine",
+    "scripting_library": "Library ng script"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produkto at Sistema",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Itinatampok na mga proyekto",
       "title": "Piniling mga gawa",
-      "description": "Anim na proyekto na kumakatawan sa pinakamahusay kung paano ko ginagawang pulidong, gumaganang software ang ambisyosong mga ideya.",
+      "description": "Mga proyektong pinakamahusay na nagpapakita kung paano ko ginagawang pinong, gumaganang software ang mga ambisyosong ideya.",
       "view_project": "Tingnan ang proyekto",
       "open_project": "Buksan ang live na proyekto",
       "view_all": "Tuklasin ang kumpletong portfolio",
@@ -101,7 +109,8 @@
         "libraries": "Mga library ng script",
         "languages": "Mga eksperimento sa wika",
         "automation": "Mga tool sa automation at data",
-        "experience": "Propesyonal at pang-edukasyon na karanasan"
+        "experience": "Propesyonal at pang-edukasyon na karanasan",
+        "markets": "Mga merkado at sistema ng pangangalakal"
       },
       "browser_native": "Likas sa browser / walang server",
       "no_results": "Walang tumutugmang proyekto",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Pagka-access",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Nagsisimula ang kawastuhan sa pananalapi sa representasyon: ang aritmetikang buong-sentimos at balanseng mga entry ay nagiging malinaw ang paggalaw ng pera."
         },
         "interop": {
-          "summary": "Isang sanggunian sa pagitan ng wika na sumasaklaw sa {languages} programming language at {patterns} pattern ng pagpapatupad, na tumutuklas kung ano ang nangyayari sa mga hangganan ng runtime.",
+          "summary": "Isang cross-language na sanggunian na sumasaklaw sa {languages} programming language at {patterns} execution pattern, na sumusuri kung ano ang nangyayari sa mga hangganan ng runtime.",
           "lens": "Ang mahirap na bahagi ay ang kontrata sa pagitan ng mga runtime: ang pagpapalitan ng data, kilos ng proseso, at paulit-ulit na pagpapatupad ay mas mahalaga kaysa syntax."
         },
         "formatter": {
-          "summary": "Isang tunay na Go parsing engine na nakompile sa WebAssembly. Ang pagpapatunay at pag-format ng JSON at YAML ay tumatakbo nang lokal sa browser.",
-          "lens": "Ang paglipat ng parser sa browser ay ipinagpapalit ang mas malaking payload ng kliyente sa lokal na pagproseso, portabilidad, at mas kaunting dependency sa server."
+          "summary": "Isang linter at formatter para sa WebAssembly na isinulat sa Zig para sa JSON, YAML, XML, HTML, TOML, CSV at TSV. Tumatakbo nang lokal sa browser ang validation at formatting.",
+          "lens": "Ang formatting ay isang usapin ng tiwala: i-parse gamit ang tunay na grammar, panatilihin ang teksto ng may-akda, at panatilihin ang data sa client."
         },
         "portfolio_website": {
           "summary": "Ang site na nasa ka: isang React portfolio na may 100+ na wika, aksesibleng mga interaksyon, at gumaganang WebAssembly tools.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON at YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Isang browser-based na JSON at YAML validation at formatting tool na binuo sa Go at pinagsama-sama sa WebAssembly. Ang paglipat ng parsing engine sa WASM ay nagpapanatili sa pakikipag-ugnayan na tumutugon at lokal sa browser habang nag-aaplay ng tunay na parser upang makakuha ng di-wastong input. Ito ay isang nakatutok na halimbawa ng pagpili ng isang runtime architecture para sa performance, portability, at tiwala ng user.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Library ng script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Proyekto sa Pag-encrypt ng Rijndael",
-        "text": "Isang comparative set ng {implementations} Rijndael na pagpapatupad sa 128-, 192-, at 256-bit na variant. Ang muling pagpapatupad ng algorithm na sensitibo sa seguridad sa mga wika ay isang disiplinadong pagsasanay sa mga eksaktong detalye, masusubok na gawi, at ang mga limitasyon ng portability sa antas ng wika, lahat ng kapaki-pakinabang na instinct para sa mga system na humahawak ng sensitibong data.",
+        "title": "Proyekto ng Rijndael encryption",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube solver",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Proyekto ng Turing Machine",
-        "text": "Pamilya ng higit sa {implementations} pagpapatupad ng Turing Machine. Ginagamit upang ipakita ang pagiging kumpleto ng turing para sa iba't ibang programming language para sa pananaliksik, lalo na para sa Tiger Programming Language.",
+        "text": "Pamilya ng {implementations} implementasyon ng Turing Machine. Ginagamit upang ipakita ang turing completeness ng iba''t ibang programming language para sa pananaliksik, lalo na para sa wikang Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Chess Engine",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Chess engine",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT matching engine"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Tumugon ako sa mga pagtatanong mula sa email at mga mensahe sa LinkedIn. Tatawag din ako kung ang aking numero ay ibinigay sa pamamagitan ng resume o kung hindi man, kahit na mas gusto kong panatilihing pribado ang aking numero ng telepono."
   },
   "formatter": {
-    "title": "JSON at YAML Linter",
+    "title": "Auto-Linter",
     "description": "Isang tool sa kalidad ng data na nakabatay sa browser na nagpapatunay at nagfo-format ng JSON at YAML gamit ang isang Go engine na pinagsama-sama sa WebAssembly. Ang arkitektura ay patuloy na nag-parse malapit sa user para sa mabilis, pribadong feedback habang ipinapatupad ang mga tunay na panuntunan ng syntax sa hangganan ng data. Ito ay isang compact na halimbawa ng pagdidisenyo ng isang maaasahang daloy ng trabaho ng developer sa paligid ng kawastuhan, pagganap, at pagtitiwala.",
     "more_info1": "Para sa karagdagang impormasyon, sumangguni sa README sa",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Repository ng Auto-Linter.",
     "format_as": "Format Bilang:",
     "auto_detect": "Auto Detect",
     "format": "Lint at Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Wastong YAML",
     "invalid_json": "Di-wastong JSON",
     "invalid_yaml": "Di-wastong YAML",
-    "empty_input": "Mangyaring maglagay ng ilang JSON o YAML upang lint.",
+    "empty_input": "Maglagay ng JSON, YAML, XML, HTML, TOML, CSV o TSV upang suriin.",
     "too_large": "Masyadong malaki ang input (max 1MB pinapayagan).",
     "fixed_yaml_spacing": "⚠ Ang YAML ay nagkaroon ng di-wastong spacing/indentation ngunit na-auto-fix at na-format.",
-    "loading": "Nilo-load ang formatter...",
+    "loading": "Naglo-load ng Auto-Linter...",
     "waiting_for_input": "Naghihintay ng input...",
-    "load_failed": "Hindi ma-load ang formatter.",
+    "load_failed": "Hindi ma-load ang Auto-Linter.",
     "output": "Output:",
     "input_code": "Input",
     "json_examples": "Mga Halimbawa ng JSON",
-    "yaml_examples": "Mga Halimbawa ng YAML"
+    "yaml_examples": "Mga Halimbawa ng YAML",
+    "legacy_repo": "Tingnan ang legacy na Go implementation",
+    "legacy_rust": "Tingnan ang legacy na Rust implementation"
   },
   "tiger": {
     "title": "Wika ng Tigre",
@@ -436,7 +459,8 @@
     "run_tiger": "Patakbuhin ang Tigre",
     "output": "Output:",
     "stop": "Itigil",
-    "program_input": "Input ng programa"
+    "program_input": "Input ng programa",
+    "legacy_repo": "Tingnan ang legacy na Go implementation"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Mag-zoom In",
         "zoom_out": "Mag-zoom Out",
         "reset": "I-reset ang View"
+      },
+      "country_names": {
+        "show": "Ipakita ang mga pangalan ng bansa",
+        "hide": "Itago ang mga pangalan ng bansa"
       }
     },
     "supported_languages": {

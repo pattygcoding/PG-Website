@@ -8,8 +8,8 @@
     "tiger": "Tiger - Huk Especial Programación Simi",
     "snake": "Mach'aqway pukllay",
     "portfolio_translator": "Carteramanta tikraq",
-    "formatter": "JSON & YAML qhawaq",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube allichay",
     "contact": "Contacto Ñuqawan",
     "home_description": "sys.root // hatun qhaway",
     "about_description": "injiniru perfil // bio ima tecnología ima",
@@ -18,18 +18,26 @@
     "tiger_description": "especial compilador ima AST visualizador ima",
     "snake_description": "clásico arcade pukllay / WASM",
     "portfolio_translator_description": "100+ simi matriz ima i18n ima",
-    "formatter_description": "sintaxis validador ima conversor ima",
+    "formatter_description": "linter hinallataq formatifikador achka ruwasqa // WASM",
     "contact_description": "kicha transmitido // waqyakuway",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Simi sach'a Tawa huk siguiendota",
+    "connect_four": "Connect Four",
     "alkalab_description": "química laboratorio simulación / WASM",
     "rustcraft_description": "voxel pukllay Minecraft estilo / Rust ima wgpu ima",
     "suprememc_description": "Minecraft mod vitrina / Java",
-    "chess_engine": "Motor de Ajedrez",
-    "chess_engine_description": "bitboard motor / WASM & llamk&#39;aq"
+    "chess_engine": "Ajedrez ruwasqa",
+    "chess_engine_description": "bitboard ruwasqa / WASM hinallataq ruwaq",
+    "framework_trees": "Framework sachʼakuna",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael qillqa",
+    "interops": "Interops",
+    "scripting_library_description": "script automatizasqa // rimay 6",
+    "reclaim_4160_description": "yachay wasi pukllay, kutichisqa / C++ hinallataq WASM",
+    "turing_machines": "Turing Máquinakuna",
+    "scripting_library": "Script qillqa wasi"
   },
   "home": {
     "title": "Kuraq Ingeniero Full-Pila | Producto & Sistemas nisqakuna",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Akllasqa proyectos",
       "title": "Akllasqa llamk'aykuna",
-      "description": "Suqta proyectos yachachiq imaynam ambicioso ideas software pulido ima funcionando ima ruwani.",
+      "description": "Kay imaymana ruwasqakuna, imayna hina llamkʼayta atinichis, allin ruwasqa software kaqman.",
       "view_project": "Qhaway proyecto",
       "open_project": "Kichariy vivo proyecto",
       "view_all": "Maskhay completo portfolio",
@@ -101,7 +109,8 @@
         "libraries": "Script librerías",
         "languages": "Simi experimentos",
         "automation": "Automatización ima data herramientas ima",
-        "experience": "Profesional ima educativo experiencia ima"
+        "experience": "Profesional ima educativo experiencia ima",
+        "markets": "Qhatukuna ruwasqakuna"
       },
       "browser_native": "Navegador nativo / sin servidor",
       "no_results": "Manam kanchu proyectos iguala",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Accesibilidad",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Financiero exactitud representaciónmanta qallarin: completo cent aritmética ima balanceado entradas ima dinero kuyuy claro."
         },
         "interop": {
-          "summary": "Interlingua referencia {languages} programación simikunata ima {patterns} ejecución patrones ima, tiempo límitespi kanan maskhan.",
+          "summary": "Arunaka qillqa, {languages} rimaykunawan {patterns} ruwasqakunawan, runtime saywaypi imapas.",
           "lens": "Sasa parte runtime contrato: data intercambio, proceso comportamiento, ima repetible ejecución sintaxismanta astawan importante."
         },
         "formatter": {
-          "summary": "Chay Go parsing motor WebAssemblyman compilado. JSON ima YAML validación ima formato navegadorpi local llamk'an.",
-          "lens": "Parser navegadorpi churan cliente carga astawan local procesamiento, portabilidad, ima mana server dependencia."
+          "summary": "Linter hinallataq formatifikador WebAssembly, Zigwan qillqasqa, JSON, YAML, XML, HTML, TOML, CSV hinallataq TSV.",
+          "lens": "Formatifikayqa confianzam: qillqayta, ruwaqpa qillqasqanta, datata."
         },
         "portfolio_website": {
           "summary": "Sitio kanaykipi: React portfolio 100+ simikunawan, accesible interacciones, ima WebAssembly herramientas llamkaq.",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "Tawa tinkuchiy",
-        "text": "Tawa huk siguiendo {implementations} implementaciones hatun ayllu. Proyecto Java, C++, Python, JavaScript {languages} programación simikuna ima React, Angular, Blazor Django, Spring Boot, Phoenix, PostgreSQL.",
+        "text": "Connect Four {implementations} ruwasqakuna. {languages} rimaykunapi, Java, C++, Python, JavaScript, {frameworks} framework, biblioteca, runtime, base de datos, React, Angular, Blazor, Django, Spring Boot, Phoenix, PostgreSQL.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formato",
+        "title": "Auto-Linter",
         "text": "Huk maskaqpi ruwasqa JSON chaymanta YAML chiqaqchay chaymanta formato yanapakuy Go kaqpi ruwasqa chaymanta WebAssembly kaqman huñusqa. T'aqwiq motorta WASM kaqman kuyuchiyqa tinkiyta kutichiq chaymanta llaqtayuq maskaqman waqaychan chiqa t'aqwiq churachkaspa mana allin yaykuy hap'inapaq. Huk enfocadu ejemplon huk purichiy pacha arquitectura akllanapaq ruwanapaq, apaykachanapaq chaymanta ruwaqpa hapipakuyninpaq.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Script qillqa wasi",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Chifrado Proyecto",
-        "text": "Huk tupachisqa huñu {implementations} Rijndael ruwanakuna 128-, 192-, chaymanta 256-bit variantes kaqpi. Huk algoritmo harkasqa-sensitivo simikunapura wakmanta ruwayqa huk disciplinasqa ruwaymi chiqap especificacionkunapi, pruebasqa ruwaypi, chaymanta simi-nivel apaykachanapa limitekunapi, llapa allin instintokuna sistemakuna sensitivo willayta hapiqkunapaq.",
+        "title": "Rijndael qillqa ruwasqa",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube allichay",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Maquina Proyecto",
-        "text": "Ayllu {implementations} masnin implementacionkuna Turing Machine nisqamanta. Hukhina programacion simikunapaq turing hunt'asqa kayninta rikuchinapaq llamk'achisqa, maskanapaq, aswanta Tigre Programación Simipaq.",
+        "text": "Turing Máquina {implementations} ruwasqakuna. Yaqha rimaykunata Turing huntʼayta, Tiger rimayta.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Motor de Ajedrez",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Ajedrez ruwasqa",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT ruwasqa"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Correo electrónico chaymanta LinkedIn willakuykunamanta tapukuykunaman kutichini. Hinallataqmi kutichisaq sichus numeroy qosqa kanqa curriculum vitae nisqawan otaq hukwanpas, ichaqa aswan allinmi kanman telefono numeroyta sapallaypi waqaychayta."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Huk maskaqpi ruwasqa willay calidad yanapakuy mayqinchus JSON chaymanta YAML chiqaqchan chaymanta formato ruwan huk Go motor WebAssembly kaqman huñusqa llamk'achispa. Arquitecturaqa llamk'aqpa qayllanpi t'aqwiyta waqaychan usqhayta, sapalla kutichiypaq chiqa sintaxis kamachiykunata willaypa linderonpi kamachichkaspa. Huk compacto ejemplon huk confiable paqarichiqqa llamkanakuna ruwaypaq chiqan kay, ruway chaymanta hapipakuy muyuriqpi.",
     "more_info1": "Astawan yachayta munaspaqa, README nisqapi qhaway",
-    "more_info2": "JSON/YAML Formato nisqa Waqaychasqa.",
+    "more_info2": "Auto-Linter qillqa wasi.",
     "format_as": "Formato As:",
     "auto_detect": "Auto Detección nisqa",
     "format": "Pelusa & Formato",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML valido",
     "invalid_json": "Mana allin JSON",
     "invalid_yaml": "YAML mana allin",
-    "empty_input": "Ama hina kaspa, wakin JSON icha YAML nisqakunata lint nisqapaq qillqay.",
+    "empty_input": "JSON, YAML, XML, HTML, TOML, CSV utaq TSV yaykuchiy.",
     "too_large": "Yaykuchiy ancha hatun (max 1MB saqisqa).",
     "fixed_yaml_spacing": "⚠ YAML mana allin espaciamiento/indentación nisqayuq karqan ichaqa kikillanmanta allichasqa, formatochasqa ima.",
-    "loading": "Formatota kargachkanki...",
+    "loading": "Auto-Linter churaspa...",
     "waiting_for_input": "Yaykuchiyta suyaspa...",
-    "load_failed": "Mana formatadorta kargayta atispa.",
+    "load_failed": "Auto-Linter manam atinichu.",
     "output": "Lluqsisqa: .",
     "input_code": "Yaykuchiy",
     "json_examples": "JSON Ejemplokuna",
-    "yaml_examples": "YAML Ejemplokuna"
+    "yaml_examples": "YAML Ejemplokuna",
+    "legacy_repo": "Yaqha Go ruwasqata rikuchiy",
+    "legacy_rust": "Yaqha Rust ruwasqata rikuchiy"
   },
   "tiger": {
     "title": "Tigre Simi",
@@ -436,7 +459,8 @@
     "run_tiger": "Ruway Tigre",
     "output": "Lluqsisqa: .",
     "stop": "Sayay",
-    "program_input": "Programa yaykuy"
+    "program_input": "Programa yaykuy",
+    "legacy_repo": "Yaqha Go ruwasqata rikuchiy"
   },
   "tab": {
     "title": "Patrick Goodwin sutiyuq runa",
@@ -501,6 +525,10 @@
         "zoom_in": "Zoom In nisqa",
         "zoom_out": "Zoom Out nisqa",
         "reset": "Qhaway kaqmanta churay"
+      },
+      "country_names": {
+        "show": "Suyukuna sutikunata rikuchiy",
+        "hide": "Suyukuna sutikunata pakiy"
       }
     },
     "supported_languages": {

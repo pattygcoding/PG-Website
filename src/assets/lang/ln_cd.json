@@ -8,8 +8,8 @@
     "tiger": "Tiger - Lokota ya Kombo ya Programme",
     "snake": "Momekano ya nyoka",
     "portfolio_translator": "Mobongoli ya Portefeuille",
-    "formatter": "Vérificateur JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Mosaleli ya Rubik's Cube",
     "contact": "Contactez Ngai",
     "home_description": "sys.root // lisakoli monene",
     "about_description": "profile ya ingénieur // bio mpe teknoloji",
@@ -18,16 +18,26 @@
     "tiger_description": "compilateur ya particulier mpe visualiseur AST",
     "snake_description": "momekano ya arkade ya kala / WASM",
     "portfolio_translator_description": "matrice ya nkota 100+ mpe i18n",
-    "formatter_description": "avec vérificateur mpe convertisseur ya syntaxe",
+    "formatter_description": "linter na formatter ya lolenge nyonso // WASM",
     "contact_description": "botindami ya polele // bébéla ngáí",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Nzete ya nkota Mine na molongo",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulation ya laboratoire ya chimie / WASM",
     "rustcraft_description": "momekano voxel lokola Minecraft / Rust mpe wgpu",
-    "suprememc_description": "monzámá ya mod Minecraft / Java"
+    "suprememc_description": "monzámá ya mod Minecraft / Java",
+    "framework_trees": "Mibembo ya framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Kotɛlɛmɛla ya Rijndael",
+    "chess_engine": "Motɔlɔmi ya chess",
+    "interops": "Interops",
+    "chess_engine_description": "motɔlɔmi ya bitboard / WASM mpe mosali",
+    "scripting_library_description": "script ya kosala moto oyo // minoko 6",
+    "reclaim_4160_description": "lisano ya kelasi, oyo ezongi / C++ mpe WASM",
+    "turing_machines": "Mitɔlɔmi ya Turing",
+    "scripting_library": "Ndako ya script"
   },
   "home": {
     "title": "Ingénieur ya Likolo ya Stack Complète | Produit & Systèmes ya kosala",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Misala oyo eponami",
       "title": "Misala oyo eponami",
-      "description": "Misala motoba oyo ezali kokonisa malamu na ndenge nakomisaka makanisi ya mpiko logiciel ya malamu mpe ya kosala.",
+      "description": "Mikambo oyo ezali kotilika maloba oyo etalaka malili mpo na kokóma na makanisi mabe mpo na kosala logiciel ya malili oyo esalaka.",
       "view_project": "Tala mosala",
       "open_project": "Kofungola mosala ya bomoi",
       "view_all": "Pémbola portfolio ya mobimba",
@@ -99,7 +109,8 @@
         "libraries": "Ba bibliothèque ya script",
         "languages": "Ba essai ya nkota",
         "automation": "Bibundeli ya automatisation mpe données",
-        "experience": "Expérience ya mosala mpe ya kelasi"
+        "experience": "Expérience ya mosala mpe ya kelasi",
+        "markets": "Zolo mpe misala ya komɛli"
       },
       "browser_native": "Ya libota ya navigateur / sans serveur",
       "no_results": "Moko te ya misala ebongi",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Kozala na bokɔti",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Correction ya mbongo ebandaka na représentation: arithmétique ya centimes complets mpe entrées équilibrées esalaka ete mouvement ya mbongo ezala clair."
         },
         "interop": {
-          "summary": "Référence interlangue oyo ezipi nkota {languages} ya programmation mpe ba modèles {patterns} ya exécution, oyo ezali ko explorer likambo oyo esalemi na ba limites ya temps d'exécution.",
+          "summary": "Litɔ́ndɔ́ ya minoko mingi oyo ezali na {languages} minoko ya programme mpe {patterns} lolenge ya kosala, elongoli nini ewumela na mipaka ya runtime.",
           "lens": "Eloko ya mpasi ezali contrat kati na ba temps d'exécution: échange ya données, comportement ya processus, mpe exécution répétable ezali na ntina mingi koleka syntaxe."
         },
         "formatter": {
-          "summary": "Moteur ya parsing Go ya solo oyo ezali compilé na WebAssembly. Vérification mpe formatage ya JSON mpe YAML esalaka na ndenge ya local na navigateur.",
-          "lens": "Kotinda parser na navigateur esanganaka charge ya client monene mpo na traitement local, portabilité, mpe kokesana na serveur."
+          "summary": "Linter na formatter ya WebAssembly oyo esalami na Zig mpo na JSON, YAML, XML, HTML, TOML, CSV mpe TSV. Kotɛlɛmɛla mpe kosala format ezwaka mokanda na browser.",
+          "lens": "Format ezali mokambo ya liloba ya kebwaka: tɛla mpo na maloba ya solo, bongisa maloba ya mokomi, mpe bongisa data na client."
         },
         "portfolio_website": {
           "summary": "Site oyo ozali na kati: portfolio React na nkota 100+, interactions ya kozala na bokɔti, mpe bibundeli ya WebAssembly oyo ezali kosala.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Formateur ya Automatique",
+        "title": "Auto-Linter",
         "text": "Esaleli ya bondimi mpe ya formatage JSON mpe YAML oyo esalemi na navigateur oyo etongami na Go mpe esangisi na WebAssembly. Kokende na moteur ya parsing na WASM ebatelaka interaction responsive mpe locale na navigateur tango ozali kosalela parser ya solo mpo na kokanga entrée invalide. Ezali ndakisa oyo etali mingi ya kopona architecture ya tango ya kosala mpo na performance, portability, mpe confiance ya mosaleli.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Ndako ya script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Projet ya Encryption ya Rijndael",
-        "text": "Ensemble comparatif ya {implementations} implementations ya Rijndael na kati ya ba variantes 128-, 192-, na 256-bit. Kozongela kosalela algorithme oyo etali bokengi na minoko nyonso ezali ngalasisi ya disipilini na makambo ya sikisiki, bizaleli oyo ekoki komekama, mpe ndelo ya bokumbi na nivo ya nkota, . ba instincts nionso ya tina pona ba systèmes oyo esimbaka ba données sensibles.",
+        "title": "Projet ya kotɛlɛmɛla ya Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Mosaleli ya Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Projet ya Machine ya Turing",
-        "text": "Libota ya plus de {implementations} implémentations ya Machine Turing. Esalemi mpo na kolakisa turing completeness mpo na ba langues ya programmation ndenge na ndenge mpo na bolukiluki, mingi mingi mpo na Tiger Programming Language.",
+        "text": "Lɛlɛ ya {implementations} ya Turing Machine. Esalelaka mpo na kolakisa turing completeness ya minoko ya programme mpo na bolukiluki, mingi mpo na minoko ya Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Motɔlɔmi ya chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Motɔlɔmi ya kokutisa PIT"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Nayanolaka na mituna oyo euti na ba messages ya email mpe ya LinkedIn. Nakobenga mpe lisusu soki bapesi ngai nimero na ngai na nzela ya CV to na ndenge mosusu, atako nalingaka kobomba nimero na ngai ya telefone na nkuku."
   },
   "formatter": {
-    "title": "JSON & YAML Linter ya kolala",
+    "title": "Auto-Linter",
     "description": "Esaleli ya qualité ya ba données oyo esalemi na navigateur oyo e validaka pe e formataka JSON na YAML na kosalelaka moteur Go oyo esangisi na WebAssembly. Architecture ezo continuer ko parser pene ya mosaleli pona ba retours ya mbangu, ya privé tout en forcer mibeko ya syntaxe ya solo na ndelo ya ba données. Ezali ndakisa ya moke ya kosala mosala ya mobongisi oyo ekoki kotyelama motema nzinganzinga ya bosolo, bosali, mpe bondimi.",
     "more_info1": "Mpo na koyeba makambo mosusu, tala README na",
-    "more_info2": "Bobombi ya Formatteur ya JSON/YAML.",
+    "more_info2": "Ndako ya Auto-Linter.",
     "format_as": "Format Lokola:",
     "auto_detect": "Auto Détection na yango",
     "format": "Lint & Format ya kosala",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ YAML oyo ezali na ntina",
     "invalid_json": "JSON oyo ezali na ntina te",
     "invalid_yaml": "YAML oyo ezali na ntina te",
-    "empty_input": "Svp kotisa mua JSON to YAML pona lint.",
+    "empty_input": "Koma JSON, YAML, XML, HTML, TOML, CSV to TSV mpo na komeka.",
     "too_large": "Entrée trop munene (max 1MB epesami nzela).",
     "fixed_yaml_spacing": "⚠ YAML ezalaki na espacement/indentation invalide kasi esili auto-fixé mpe formaté.",
-    "loading": "Nazali ko charger formateur...",
+    "loading": "Auto-Linter ezali kokómisa...",
     "waiting_for_input": "Kozela ba entrées...",
-    "load_failed": "Ezali na makoki te ya ko charger formateur.",
+    "load_failed": "Auto-Linter esalaka te.",
     "output": "Bobimisi:",
     "input_code": "Bokotisi",
     "json_examples": "Bandakisa ya JSON",
-    "yaml_examples": "YAML Bandakisa"
+    "yaml_examples": "YAML Bandakisa",
+    "legacy_repo": "Tala mosala ya Go ya kala",
+    "legacy_rust": "Tala mosala ya Rust ya kala"
   },
   "tiger": {
     "title": "Monoko ya Tigre",
@@ -433,7 +459,8 @@
     "run_tiger": "Kima Tigre",
     "output": "Bobimisi:",
     "stop": "Kotika",
-    "program_input": "Bokɔti ya programme"
+    "program_input": "Bokɔti ya programme",
+    "legacy_repo": "Tala mosala ya Go ya kala"
   },
   "tab": {
     "title": "Patrick Goodwin, oyo azali na mbongo mingi",
@@ -498,6 +525,10 @@
         "zoom_in": "Zoom Na kati",
         "zoom_out": "Zoom Out",
         "reset": "Réinitialiser Vue"
+      },
+      "country_names": {
+        "show": "Lakisa minoko ya mikili",
+        "hide": "Holola minoko ya mikili"
       }
     },
     "supported_languages": {

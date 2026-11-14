@@ -8,8 +8,8 @@
     "tiger": "Tiger - یک زبان برنامه‌نویسی سفارشی",
     "snake": "بازی مار",
     "portfolio_translator": "مترجم نمونه کارها",
-    "formatter": "لینتر JSON و YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "حل‌کننده روبیک",
     "contact": "با من تماس بگیرید",
     "home_description": "sys.root // نمای کلی اصلی",
     "about_description": "پروفایل مهندس // بیو و استک",
@@ -18,18 +18,26 @@
     "tiger_description": "کامپایلر سفارشی و تجسم‌کننده AST",
     "snake_description": "بازی آرکید کلاسیک / WASM",
     "portfolio_translator_description": "ماتریس بیش از ۱۰۰ زبان و i18n",
-    "formatter_description": "اعتبارسنج و تبدیل‌کننده نحو",
+    "formatter_description": "لینتر و قالب‌بند چندقالبی // WASM",
     "contact_description": "انتقال باز // با من در تماس باشید",
     "arcade": "آرکید",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "درخت زبانی چهار در یک ردیف",
+    "connect_four": "Connect Four",
     "alkalab_description": "شبیه‌سازی آزمایشگاه شیمی / WASM",
     "rustcraft_description": "بازی وکسل به سبک ماینکرفت / Rust و wgpu",
     "suprememc_description": "ویترین ماد ماینکرفت / Java",
     "chess_engine": "موتور شطرنج",
-    "chess_engine_description": "موتور بیت‌بورد / WASM و کارگر"
+    "chess_engine_description": "موتور bitboard / WASM و worker",
+    "framework_trees": "درخت‌های فریم‌ورک",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "رمزنگاری Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "اسکریپت‌های خودکارسازی // ۶ زبان",
+    "reclaim_4160_description": "بازی دانشگاهی، بازپس‌گرفته‌شده / C++ و WASM",
+    "turing_machines": "ماشین‌های تورینگ",
+    "scripting_library": "کتابخانه اسکریپت"
   },
   "home": {
     "title": "مهندس ارشد تمام پشته | محصول و سیستم ها",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "پروژه‌های برگزیده",
       "title": "آثار منتخب",
-      "description": "شش پروژه که بهترین بازنمایی از چگونگی تبدیل ایده‌های بلندپروازانه به نرم‌افزاری پرداخته و کارآمد هستند.",
+      "description": "پروژه‌هایی که بهترین نحو نشان می‌دهند چگونه ایده‌های بلندپروازانه را به نرم‌افزاری آراسته و کاربردی تبدیل می‌کنم.",
       "view_project": "مشاهده پروژه",
       "open_project": "باز کردن پروژه زنده",
       "view_all": "کاوش نمونه‌کار کامل",
@@ -101,7 +109,8 @@
         "libraries": "کتابخانه‌های اسکریپت",
         "languages": "آزمایش‌های زبانی",
         "automation": "ابزارهای خودکارسازی و داده",
-        "experience": "تجربه حرفه‌ای و آموزشی"
+        "experience": "تجربه حرفه‌ای و آموزشی",
+        "markets": "بازارها و سامانه‌های معاملاتی"
       },
       "browser_native": "بومی مرورگر / بدون سرور",
       "no_results": "پروژه هم‌خوانی وجود ندارد",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "دسترس‌پذیری",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "درستی مالی با بازنمایی آغاز می‌شود: حساب داری در سنت کامل و ثبت‌های متوازن، جابه‌جایی پول را صریح می‌کنند."
         },
         "interop": {
-          "summary": "مرجعی بین‌زبانی که {languages} زبان برنامه‌نویسی و {patterns} الگوی اجرا را پوشش می‌دهد و آنچه در مرزهای زمان اجرا رخ می‌دهد را کاوش می‌کند.",
+          "summary": "مرجع میان‌زبانی که {languages} زبان برنامه‌نویسی و {patterns} الگوی اجرا را دربرمی‌گیرد و بررسی می‌کند در مرزهای runtime چه می‌گذرد.",
           "lens": "بخش دشوار قرارداد بین زمان‌های اجراست: تبادل داده، رفتار فرآیند و اجرای تکرارپذیر مهم‌تر از نحو هستند."
         },
         "formatter": {
-          "summary": "موتور تجزیه واقعی Go که به WebAssembly کامپایل شده است. اعتبارسنجی و قالب‌بندی JSON و YAML به‌صورت محلی در مرورگر اجرا می‌شود.",
-          "lens": "انتقال تجزیه‌گر به مرورگر، بار مشتری بزرگ‌تر را با پردازش محلی، قابلیت انتقال و وابستگی‌های کمتر به سرور مبادله می‌کند."
+          "summary": "لینتر و قالب‌بند WebAssembly نوشته‌شده با Zig برای JSON، YAML، XML، HTML، TOML، CSV و TSV. اعتبارسنجی و قالب‌بندی به‌صورت محلی در مرورگر اجرا می‌شود.",
+          "lens": "قالب‌بندی مسئله اعتماد است: با گرامر واقعی تحلیل کنید، متن نویسنده را حفظ کنید و داده‌ها را در کلاینت نگه دارید."
         },
         "portfolio_website": {
           "summary": "سایتی که در آن هستید: نمونه‌کاری React با بیش از ۱۰۰ زبان، تعامل‌های دسترس‌پذیر و ابزارهای کارای WebAssembly.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "فرمت کننده خودکار JSON و YAML",
+        "title": "Auto-Linter",
         "text": "یک ابزار اعتبارسنجی و قالب‌بندی مبتنی بر مرورگر JSON و YAML که در Go ساخته شده و در WebAssembly کامپایل شده است. انتقال موتور تجزیه به WASM تعامل را به مرورگر پاسخگو و محلی نگه می دارد در حالی که از یک تجزیه کننده واقعی برای گرفتن ورودی نامعتبر استفاده می شود. این یک نمونه متمرکز از انتخاب معماری زمان اجرا برای عملکرد، قابلیت حمل و اعتماد کاربر است.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "کتابخانه اسکریپت",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "پروژه رمزگذاری ریجاندل",
-        "text": "مجموعه ای مقایسه ای از {implementations} پیاده سازی Rijndael در انواع 128-، 192- و 256 بیتی. پیاده‌سازی مجدد یک الگوریتم حساس به امنیت در بین زبان‌ها یک تمرین منظم در مشخصات دقیق، رفتار قابل آزمایش و محدودیت‌های قابل حمل در سطح زبان است. همه غرایز مفید برای سیستم هایی که داده های حساس را مدیریت می کنند.",
+        "title": "پروژه رمزنگاری Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "حل‌کننده روبیک",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "پروژه ماشین تورینگ",
-        "text": "خانواده بیش از {implementations} پیاده سازی ماشین تورینگ. برای نشان دادن کامل بودن تورینگ برای زبان های برنامه نویسی مختلف برای تحقیق، به ویژه برای زبان برنامه نویسی Tiger استفاده می شود.",
+        "text": "خانواده‌ای از {implementations} پیاده‌سازی ماشین تورینگ. برای نشان دادن تورینگ کاملی زبان‌های مختلف برنامه‌نویسی با هدف پژوهش، به‌ویژه زبان Tiger، به کار می‌رود.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "موتور شطرنج",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "موتور تطبیق PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "من به درخواست های ایمیل و پیام های لینکدین پاسخ می دهم. همچنین اگر شماره من از طریق رزومه یا موارد دیگر ارائه شود، تماس خواهم گرفت، اگرچه ترجیح می دهم شماره تلفن خود را خصوصی نگه دارم."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "یک ابزار کیفیت داده مبتنی بر مرورگر که JSON و YAML را با استفاده از موتور Go کامپایل شده در WebAssembly تأیید و قالب‌بندی می‌کند. این معماری برای بازخورد سریع و خصوصی، در حالی که قوانین نحو واقعی را در مرز داده اعمال می‌کند، نزدیک به کاربر تجزیه می‌شود. این یک نمونه جمع و جور از طراحی یک گردش کار توسعه دهنده قابل اعتماد در مورد صحت، عملکرد و اعتماد است.",
     "more_info1": "برای اطلاعات بیشتر، به README در",
-    "more_info2": "مخزن فرمت JSON/YAML.",
+    "more_info2": "مخزن Auto-Linter.",
     "format_as": "قالب بندی به عنوان:",
     "auto_detect": "تشخیص خودکار",
     "format": "پرز و فرمت",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML معتبر",
     "invalid_json": "JSON نامعتبر است",
     "invalid_yaml": "YAML نامعتبر است",
-    "empty_input": "لطفاً مقداری JSON یا YAML را برای پر کردن وارد کنید.",
+    "empty_input": "برای بررسی JSON، YAML، XML، HTML، TOML، CSV یا TSV وارد کنید.",
     "too_large": "ورودی خیلی بزرگ است (حداکثر 1 مگابایت مجاز).",
     "fixed_yaml_spacing": "⚠ YAML فاصله/تورفتگی نامعتبر داشت اما به صورت خودکار اصلاح و قالب بندی شده است.",
-    "loading": "در حال بارگیری فرمت کننده...",
+    "loading": "در حال بارگذاری Auto-Linter...",
     "waiting_for_input": "در انتظار ورودی...",
-    "load_failed": "فرمت‌کننده بارگیری نمی‌شود.",
+    "load_failed": "بارگذاری Auto-Linter ممکن نشد.",
     "output": "خروجی:",
     "input_code": "ورودی",
     "json_examples": "نمونه های JSON",
-    "yaml_examples": "مثال های YAML"
+    "yaml_examples": "مثال های YAML",
+    "legacy_repo": "مشاهده پیاده‌سازی قدیمی Go",
+    "legacy_rust": "مشاهده پیاده‌سازی قدیمی Rust"
   },
   "tiger": {
     "title": "زبان ببر",
@@ -436,7 +459,8 @@
     "run_tiger": "ببر را اجرا کن",
     "output": "خروجی:",
     "stop": "توقف",
-    "program_input": "ورودی برنامه"
+    "program_input": "ورودی برنامه",
+    "legacy_repo": "مشاهده پیاده‌سازی قدیمی Go"
   },
   "tab": {
     "title": "پاتریک گودوین",
@@ -501,6 +525,10 @@
         "zoom_in": "بزرگنمایی",
         "zoom_out": "بزرگنمایی",
         "reset": "بازنشانی نمای"
+      },
+      "country_names": {
+        "show": "نمایش نام کشورها",
+        "hide": "پنهان کردن نام کشورها"
       }
     },
     "supported_languages": {

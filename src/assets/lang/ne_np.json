@@ -8,8 +8,8 @@
     "tiger": "Tiger - अनुकूलन प्रोग्रामिङ भाषा",
     "snake": "सर्प खेल",
     "portfolio_translator": "पोर्टफोलियो अनुवादक",
-    "formatter": "JSON र YAML लिन्टर",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "रुबिक क्युब समाधानकर्ता",
     "contact": "मलाई सम्पर्क गर्नुहोस्",
     "home_description": "sys.root // मुख्य सिंहावलोकन",
     "about_description": "इन्जिनियर प्रोफाइल // बायो र प्रविधि",
@@ -18,18 +18,26 @@
     "tiger_description": "अनुकूलन कम्पाइलर र AST दृश्यक",
     "snake_description": "क्लासिक आर्केड खेल / WASM",
     "portfolio_translator_description": "100+ भाषा म्याट्रिक्स र i18n",
-    "formatter_description": "सिन्ट्याक्स प्रमाणक र रूपान्तरणकर्ता",
+    "formatter_description": "बहु-ढाँचा linter र formatter // WASM",
     "contact_description": "खुला प्रसारण // सम्पर्क गर्नुहोस्",
     "arcade": "आर्केड",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "चार लाइन भाषा वृक्ष",
+    "connect_four": "Connect Four",
     "alkalab_description": "रसायन प्रयोगशाला सिमुलेशन / WASM",
     "rustcraft_description": "Minecraft शैली भक्सेल खेल / Rust र wgpu",
     "suprememc_description": "Minecraft मोड शोकेस / Java",
-    "chess_engine": "चेस इन्जिन",
-    "chess_engine_description": "बिटबोर्ड इन्जिन / WASM र कामदार"
+    "chess_engine": "शतरंज इन्जिन",
+    "chess_engine_description": "bitboard इन्जिन / WASM र worker",
+    "framework_trees": "फ्रेमवर्क रूखहरू",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael गोप्यीकरण",
+    "interops": "Interops",
+    "scripting_library_description": "स्वचालन स्क्रिप्टहरू // ६ भाषा",
+    "reclaim_4160_description": "कलेज खेल, पुनः प्राप्त / C++ र WASM",
+    "turing_machines": "Turing मेसिनहरू",
+    "scripting_library": "स्क्रिप्ट पुस्तकालय"
   },
   "home": {
     "title": "वरिष्ठ पूर्ण-स्ट्याक इन्जिनियर | उत्पादन र प्रणाली",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "विशेष परियोजनाहरू",
       "title": "छनोट गरिएका कामहरू",
-      "description": "महत्वाकांक्षी विचारहरूलाई राम्ररी बनाइएको, काम गर्ने सफ्टवेयरमा कसरी परिणत गर्छु भन्ने उत्कृष्ट प्रतिनिधित्व गर्ने छ वटा परियोजनाहरू।",
+      "description": "ती परियोजनाहरूले राम्ररी देखाउँछन् कि मैले महत्त्वाकांक्षी विचारहरूलाई कसरी परिष्कृत, काम गर्ने सफ्टवेयरमा बदल्छु।",
       "view_project": "परियोजना हेर्नुहोस्",
       "open_project": "प्रत्यक्ष परियोजना खोल्नुहोस्",
       "view_all": "पूर्ण पोर्टफोलियो अन्वेषण गर्नुहोस्",
@@ -101,7 +109,8 @@
         "libraries": "स्क्रिप्ट पुस्तकालयहरू",
         "languages": "भाषा प्रयोगहरू",
         "automation": "स्वचालन र डेटा उपकरणहरू",
-        "experience": "व्यावसायिक र शैक्षिक अनुभव"
+        "experience": "व्यावसायिक र शैक्षिक अनुभव",
+        "markets": "बजार र व्यापार प्रणालीहरू"
       },
       "browser_native": "ब्राउजर-मूल / सर्भर बिना",
       "no_results": "मिल्ने परियोजनाहरू छैनन्",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "पहुँचयोग्यता",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "आर्थिक सटीकता प्रतिनिधित्वबाट सुरु हुन्छ: पूर्ण-सेन्ट अङ्कगणित र सन्तुलित खाता प्रविष्टिहरूले पैसाको चाललाई स्पष्ट बनाउँछन्।"
         },
         "interop": {
-          "summary": "{languages} प्रोग्रामिङ भाषा र {patterns} कार्यान्वयन ढाँचा समेट्ने क्रस-भाषा सन्दर्भ, रनटाइम सीमामा के हुन्छ भन्ने अन्वेषण गर्ने।",
+          "summary": "बहुभाषिक सन्दर्भ जसले {languages} प्रोग्रामिङ भाषा र {patterns} कार्यान्वयन ढाँचा समेट्छ र runtime को सीमामा के हुन्छ भन्ने अन्वेषण गर्छ।",
           "lens": "कठिन भाग रनटाइमहरू बीचको सम्झौता हो: डेटा आदानप्रदान, प्रक्रिया व्यवहार र दोहोर्याउन सकिने कार्यान्वयन सिन्ट्याक्सभन्दा महत्त्वपूर्ण हुन्छन्।"
         },
         "formatter": {
-          "summary": "WebAssembly मा कम्पाइल गरिएको वास्तविक Go पार्सिङ इन्जिन। JSON र YAML प्रमाणीकरण र ढाँचा ब्राउजरमा स्थानीय रूपमा चल्छ।",
-          "lens": "पार्सरलाई ब्राउजरमा सार्दा ठूलो क्लाइन्ट पेलोडलाई स्थानीय प्रक्रिया, पोर्टेबिलिटी र कम सर्भर निर्भरतासँग साटिन्छ।"
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV र TSV का लागि Zig मा लेखिएको WebAssembly linter र formatter। प्रमाणीकरण र ढाँचागत ब्राउजरमै स्थानीय रूपमा चल्छ।",
+          "lens": "ढाँचागत विश्वासको विषय हो: वास्तविक व्याकरणले विश्लेषण गर्नुहोस्, लेखकको पाठ जोगाउनुहोस् र डेटा क्लाइन्टमा राख्नुहोस्।"
         },
         "portfolio_website": {
           "summary": "तपाईं भएको साइट: 100+ भाषा, पहुँचयोग्य अन्तरक्रिया र काम गर्ने WebAssembly उपकरणसहितको React पोर्टफोलियो।",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON र YAML स्वत: ढाँचा",
+        "title": "Auto-Linter",
         "text": "एक ब्राउजर-आधारित JSON र YAML प्रमाणीकरण र ढाँचा उपकरण Go मा निर्मित र WebAssembly मा संकलित। WASM मा पार्सिङ इन्जिन सार्दा अमान्य इनपुट समात्न वास्तविक पार्सर लागू गर्दा अन्तरक्रियालाई उत्तरदायी र स्थानीय ब्राउजरमा राख्छ। यो प्रदर्शन, पोर्टेबिलिटी, र प्रयोगकर्ता विश्वासको लागि रनटाइम आर्किटेक्चर छनौट गर्ने एक केन्द्रित उदाहरण हो।",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "स्क्रिप्ट पुस्तकालय",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael एन्क्रिप्शन परियोजना",
-        "text": "128-, 192-, र 256-बिट भेरियन्टहरूमा {implementations} Rijndael कार्यान्वयनहरूको तुलनात्मक सेट। भाषाहरूमा सुरक्षा-संवेदनशील एल्गोरिदम पुन: लागू गर्नु सटीक विशिष्टताहरू, परीक्षण योग्य व्यवहार, र भाषा-स्तर पोर्टेबिलिटीको सीमाहरूमा अनुशासित अभ्यास हो, संवेदनशील डाटा ह्यान्डल गर्ने प्रणालीहरूको लागि सबै उपयोगी प्रवृत्तिहरू।",
+        "title": "Rijndael गोप्यीकरण परियोजना",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "रुबिक क्युब समाधानकर्ता",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "ट्युरिङ मेसिन परियोजना",
-        "text": "ट्युरिङ मेसिनको {implementations} भन्दा बढी कार्यान्वयनहरूको परिवार। अनुसन्धानका लागि विभिन्न प्रोग्रामिङ भाषाहरूका लागि ट्युरिङ पूर्णता प्रदर्शन गर्न प्रयोग गरिन्छ, विशेष गरी टाइगर प्रोग्रामिङ भाषाको लागि।",
+        "text": "Turing मेसिनका {implementations} कार्यान्वयनको परिवार। अनुसन्धानका लागि विभिन्न प्रोग्रामिङ भाषाको turing पूर्णता देखाउन प्रयोग गरिन्छ, विशेष गरी Tiger भाषाका लागि।",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "चेस इन्जिन",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "शतरंज इन्जिन",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT मिलान इन्जिन"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "म इमेल र LinkedIn सन्देशहरूबाट सोधपुछको जवाफ दिन्छु। म मेरो फोन नम्बर गोप्य राख्न रुचाउँछु भने पनि मेरो नम्बर पुन: सुरु वा अन्यथा मार्फत प्रदान गरिएको छ भने म फिर्ता कल गर्नेछु।"
   },
   "formatter": {
-    "title": "JSON र YAML Linter",
+    "title": "Auto-Linter",
     "description": "WebAssembly मा कम्पाइल गरिएको Go इन्जिन प्रयोग गरेर JSON र YAML लाई प्रमाणीकरण र ढाँचा गर्ने ब्राउजरमा आधारित डेटा गुणस्तर उपकरण। वास्तुकलाले डेटा सीमामा वास्तविक वाक्यविन्यास नियमहरू लागू गर्दा छिटो, निजी प्रतिक्रियाको लागि प्रयोगकर्ताको नजिक पार्सिङ राख्छ। यो शुद्धता, कार्यसम्पादन र विश्वासको वरिपरि भरपर्दो विकासकर्ता कार्यप्रवाह डिजाइन गर्ने एउटा कम्प्याक्ट उदाहरण हो।",
     "more_info1": "थप जानकारीको लागि, README मा हेर्नुहोस्",
-    "more_info2": "JSON/YAML ढाँचा भण्डार।",
+    "more_info2": "Auto-Linter भण्डारण।",
     "format_as": "यस रूपमा ढाँचा:",
     "auto_detect": "स्वत: पत्ता लगाउनुहोस्",
     "format": "लिन्ट र ढाँचा",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ मान्य YAML",
     "invalid_json": "अमान्य JSON",
     "invalid_yaml": "अवैध YAML",
-    "empty_input": "कृपया lint गर्न केहि JSON वा YAML प्रविष्ट गर्नुहोस्।",
+    "empty_input": "जाँच गर्न JSON, YAML, XML, HTML, TOML, CSV वा TSV लेख्नुहोस्।",
     "too_large": "इनपुट धेरै ठूलो (अधिकतम 1MB अनुमति छ)।",
     "fixed_yaml_spacing": "⚠ YAML मा अमान्य स्पेसिङ/इन्डेन्टेसन थियो तर स्वत: निश्चित र ढाँचा गरिएको छ।",
-    "loading": "ढाँचा लोड गर्दै...",
+    "loading": "Auto-Linter लोड हुँदैछ...",
     "waiting_for_input": "इनपुटको लागि प्रतिक्षा गर्दै...",
-    "load_failed": "ढाँचा लोड गर्न असमर्थ।",
+    "load_failed": "Auto-Linter लोड गर्न सकिएन।",
     "output": "आउटपुट:",
     "input_code": "इनपुट",
     "json_examples": "JSON उदाहरणहरू",
-    "yaml_examples": "YAML उदाहरणहरू"
+    "yaml_examples": "YAML उदाहरणहरू",
+    "legacy_repo": "पुरानो Go कार्यान्वयन हेर्नुहोस्",
+    "legacy_rust": "पुरानो Rust कार्यान्वयन हेर्नुहोस्"
   },
   "tiger": {
     "title": "बाघ भाषा",
@@ -436,7 +459,8 @@
     "run_tiger": "बाघ चलाउनुहोस्",
     "output": "आउटपुट:",
     "stop": "रोक्नुहोस्",
-    "program_input": "प्रोग्राम इनपुट"
+    "program_input": "प्रोग्राम इनपुट",
+    "legacy_repo": "पुरानो Go कार्यान्वयन हेर्नुहोस्"
   },
   "tab": {
     "title": "प्याट्रिक गुडविन",
@@ -501,6 +525,10 @@
         "zoom_in": "जुम इन गर्नुहोस्",
         "zoom_out": "जुम आउट गर्नुहोस्",
         "reset": "दृश्य रिसेट गर्नुहोस्"
+      },
+      "country_names": {
+        "show": "देशका नाम देखाउनुहोस्",
+        "hide": "देशका नाम लुकाउनुहोस्"
       }
     },
     "supported_languages": {

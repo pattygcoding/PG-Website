@@ -8,8 +8,8 @@
     "tiger": "Tiger - Programa Ñe'ẽ Personalizado",
     "snake": "Mbói ñembosarái",
     "portfolio_translator": "Traductor de Cartera rehegua",
-    "formatter": "JSON & YAML verificador",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube ñeñe'ẽkandu",
     "contact": "Eñe’ẽ Chendive",
     "home_description": "sys.root // teko jehecha guasu",
     "about_description": "ingeniero perfil // bio ha tecnología",
@@ -18,18 +18,26 @@
     "tiger_description": "compilador personalizado ha AST visualizador",
     "snake_description": "arcade ñembosarái clásico / WASM",
     "portfolio_translator_description": "100+ ñe'ẽ matriz ha i18n",
-    "formatter_description": "sintaxis validador ha conversor",
+    "formatter_description": "linter ha formatter oiko mba'épe // WASM",
     "contact_description": "ñemboheko pe'ã / eñemboja che rehe",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Ñe'ẽ yvyramata Irundy ojoapy",
+    "connect_four": "Connect Four",
     "alkalab_description": "química laboratorio simulación / WASM",
     "rustcraft_description": "voxel ñembosarái Minecraft estilo / Rust ha wgpu",
     "suprememc_description": "Minecraft mod jahechauka / Java",
-    "chess_engine": "Motorokuéra [jehaijey_editar código",
-    "chess_engine_description": "mba'apoha/ Mba'apohára/Mba'apohára"
+    "chess_engine": "Mba'e ojapo ñembosarái",
+    "chess_engine_description": "bitboard mba'e ojapo / WASM ha mba'e ojapo",
+    "framework_trees": "Framework ysoty",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael ñeñe'ẽkandua",
+    "interops": "Interops",
+    "scripting_library_description": "script oiko iñambue // ñe'ẽ 6",
+    "reclaim_4160_description": "tembikuaa mba'e ojapo, ojehechauka jey / C++ ha WASM",
+    "turing_machines": "Turing Máquinakuéra",
+    "scripting_library": "Tembikuaa script"
   },
   "home": {
     "title": "Ingeniero Senior de Pila Completa | Producto & Sistemas rehegua",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Poravopyre proyecto",
       "title": "Poravopyre rembiapo",
-      "description": "Poteĩ proyecto ohechauka ambicioso idea software pyre ha oikovéva.",
+      "description": "Umbiapo tekojoja ohecha porãvéva ha oikóva, umi mba'erã omoambue ha oiko tembikuaa porãvéva.",
       "view_project": "Ehecha proyecto",
       "open_project": "Eipe'a proyecto oikovéva",
       "view_all": "Eheka portfolio oñondivepa",
@@ -101,7 +109,8 @@
         "libraries": "Script aranduka",
         "languages": "Ñe'ẽ jaha'ã",
         "automation": "Automatización ha data tembiporu",
-        "experience": "Profesional ha educación tembi'aha"
+        "experience": "Profesional ha educación tembi'aha",
+        "markets": "Ñemuhára ha oñeñuhakúva"
       },
       "browser_native": "Browser ojejapopyre / servidor ndaipóri",
       "no_results": "Ndaipóri proyecto ojoguáva",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Accesibilidad",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Financiera exactitud representación: centavo completo aritmética ha equilibrio entrada."
         },
         "interop": {
-          "summary": "Lenguaje jo'ajúpe referencia {languages} programación lengua ha {patterns} ejecución patrón, tiempo límite jehecha.",
+          "summary": "Ñe'ẽ mokõiha mba'érepa oñehesa'ÿijo {languages} ñe'ẽ tembikuaa ha {patterns} mba'e ojapóva, ohechakuaa mba'épa oiko runtime ro'y rupive.",
           "lens": "Ijetu'u runtime contrato: data intercambio, proceso comportamiento ha ejecución repetible sintaxis mbove."
         },
         "formatter": {
-          "summary": "Go parser verdadero WebAssembly-pe. JSON ha YAML validación ha formateo browser-pe.",
-          "lens": "Parser browser-pe ojejapo cliente carga local procesamiento portabilidad."
+          "summary": "Linter ha formatter WebAssembly pegua, ojehai Zig rupive, JSON, YAML, XML, HTML, TOML, CSV ha TSV rehe. Ñehesa'ÿijo ha ñembojapa oiko tenda ryepýpe.",
+          "lens": "Ñembojapa ha'e mba'e py'aguapýpe: ñehesa'ÿijo ñe'ẽngue añetévape, ñeñe'ẽ ohaihára, ha umi apytu'ũ umi mba'e oñeñuhakúva."
         },
         "portfolio_website": {
           "summary": "Sitio: React portfolio 100+ ñe'ẽ accesible interacción WebAssembly tembiporu.",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "Ombojoaju Irundy",
-        "text": "Irundy ojoapy {implementations} implementación py ru'ã. Java, C++, Python ha JavaScript {languages} programación ñe'ẽ ha React, Angular, Blazor Django, Spring Boot, Phoenix, PostgreSQL.",
+        "text": "Connect Four pegua {implementations} mba'e ojapóva. Umi mba'e ojapóva {languages} ñe'ẽ tembikuaa, Java, C++, Python, JavaScript, ha {frameworks} framework, biblioteca, runtime ha base de datos, React, Angular, Blazor guive Django, Spring Boot, Phoenix, PostgreSQL peve.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Formato Automóvil rehegua",
+        "title": "Auto-Linter",
         "text": "Peteĩ tembipuru JSON ha YAML jekuaauka ha formato rehegua oñemopyendáva kundahárape oñemopuꞌavaꞌekue Go-pe ha oñemboheko WebAssembly-pe. Oñemonguꞌevo motor de parsing WASM-pe omantene interacción ombohováiva ha local kundahárape ojeporu aja peteĩ parser añetegua ojejagarra hag̃ua entrada ndoikóiva. Haꞌehína peteĩ techapyrã oñembohapéva ojeporavóva peteĩ arquitectura ejecución rehegua ojejapo hag̃ua, ojegueraha hag̃ua ha puruhára ojerovia hag̃ua.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Tembikuaa script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Proyecto Cifrado Rijndael rehegua",
-        "text": "Peteĩ aty ombojojáva {implementations} Rijndael implementación rehegua 128-, 192- ha 256 bits variante rupive. Oñemombaꞌapo jey hag̃ua peteĩ algoritmo sensitivo seguridad rehegua ñeꞌepykuaa rupive haꞌehína peteĩ ejercicio disciplinado especificación exacta-pe, comportamiento oñehaꞌãva ha umi límite portabilidad nivel idioma rehegua, opaite instinto iporãva sistema-kuérape g̃uarã oñatendeva dato sensitivo rehe.",
+        "title": "Rijndael ñeñe'ẽkandua tembiapo",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube ñeñe'ẽkandu",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Proyecto Máquina Turing rehegua",
-        "text": "Familia orekóva {implementations} implementación Máquina Turing rehegua. Ojepuru ojehechauka hag̃ua turing completidad opaichagua lenguaje programación rehegua oñeinvestiga hag̃ua, koꞌetevéramo Tiger Programming Language-pe g̃uarã.",
+        "text": "Turing Máquinare {implementations} mba'e ojapóva. Ojehechauka hag̃ua ñe'ẽ tembikuaa mba'épa Turing rehecha porãva, oñemoarandu rã, ha Peter Tiger ñe'ẽme.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Motorokuéra [jehaijey_editar código",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Mba'e ojapo ñembosarái",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT mba'e ojapo"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ambohovái porandu oúva correo electrónico ha LinkedIn marandu-gui. Avei ahenói jeýta oñeme’ẽramo che número currículum rupive térã ambue hendáicha, jepe aipotave añongatu che número de teléfono privado."
   },
   "formatter": {
-    "title": "JSON & YAML Linter rehegua",
+    "title": "Auto-Linter",
     "description": "Peteĩ tembipuru’i datokuéra calidad rehegua oñemopyendáva kundahárape omoañete ha ombohapéva JSON ha YAML oipurúvo peteĩ motor Go oñembohekopyréva WebAssembly-pe. Pe arquitectura osegi o’analisa hi’aguĩva puruháragui ñe’ẽñemi pya’e ha privado-pe g̃uarã omoañete aja umi regla sintaxis añetegua datokuéra rembe’ýpe. Haꞌehína peteĩ techapyrã compacto ojediseño hag̃ua peteĩ desarrollador rembiapo rape ojeroviakuaáva hekopete, rendimiento ha jerovia jerére.",
     "more_info1": "Ojeikuaave hag̃ua, ehecha README oĩva pe...",
-    "more_info2": "JSON/YAML Formato rehegua ryru.",
+    "more_info2": "Auto-Linter ñeñe'ẽapygua.",
     "format_as": "Formato Péicha:",
     "auto_detect": "Auto Detección rehegua",
     "format": "Pelusa & Formato rehegua",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML ovale",
     "invalid_json": "JSON ndoikóiva",
     "invalid_yaml": "YAML ndojeporúiva",
-    "empty_input": "Emoinge michĩmi JSON térã YAML lint-pe g̃uarã.",
+    "empty_input": "Ejuhu JSON, YAML, XML, HTML, TOML, CSV térã TSV ñehesa'ÿijorã.",
     "too_large": "Entrada tuichaiterei (max 1MB ojeheja).",
     "fixed_yaml_spacing": "⚠ YAML oguereko va’ekue espaciado/indentación ndovaléiva ha katu oñemyatyrõ ijehegui ha oñeformatea.",
-    "loading": "Ojekarga hína formatador...",
+    "loading": "Oñembojuaju Auto-Linter...",
     "waiting_for_input": "Oha'arõvo entrada...",
-    "load_failed": "Ndaikatúi ojekarga formato rehegua.",
+    "load_failed": "Ndoku.e'ái Auto-Linter.",
     "output": "Osẽva: 1.1.",
     "input_code": "Insumo rehegua",
     "json_examples": "JSON Techapyrã",
-    "yaml_examples": "YAML Techapyrã"
+    "yaml_examples": "YAML Techapyrã",
+    "legacy_repo": "Ohecha Go mba'e ojapóva yma",
+    "legacy_rust": "Ohecha Rust mba'e ojapóva yma"
   },
   "tiger": {
     "title": "Tigre Ñe’ẽ",
@@ -436,7 +459,8 @@
     "run_tiger": "Eñani Tigre",
     "output": "Osẽva: 1.1.",
     "stop": "Epyta",
-    "program_input": "Programa jeike"
+    "program_input": "Programa jeike",
+    "legacy_repo": "Ohecha Go mba'e ojapóva yma"
   },
   "tab": {
     "title": "Patrick Goodwin rehegua",
@@ -501,6 +525,10 @@
         "zoom_in": "Zoom In rehegua",
         "zoom_out": "Zoom Out",
         "reset": "Reset jehechauka"
+      },
+      "country_names": {
+        "show": "Ohechauka tetã réra",
+        "hide": "Oñeñandu tetã réra"
       }
     },
     "supported_languages": {

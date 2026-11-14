@@ -8,8 +8,8 @@
     "tiger": "Tiger - Basa Program Khusus",
     "snake": "Dolanan ula",
     "portfolio_translator": "Penerjemah Portofolio",
-    "formatter": "Pemriksa JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Panyelesaian Rubik's Cube",
     "contact": "Kontak Aku",
     "home_description": "sys.root // ringkesan utama",
     "about_description": "profil insinyur // bio lan teknologi",
@@ -18,16 +18,26 @@
     "tiger_description": "kompiler khusus lan visualizer AST",
     "snake_description": "dolanan arkade klasik / WASM",
     "portfolio_translator_description": "matriks 100+ basa lan i18n",
-    "formatter_description": "validator lan konverter sintaksis",
+    "formatter_description": "linter lan formatter multi format // WASM",
     "contact_description": "transmisi mbukak // hubungi kula",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Wit basa Papat ing baris",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulasi lab kimia / WASM",
     "rustcraft_description": "dolanan voxel gaya Minecraft / Rust lan wgpu",
-    "suprememc_description": "pameran mod Minecraft / Java"
+    "suprememc_description": "pameran mod Minecraft / Java",
+    "framework_trees": "Pohon framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Enkripsi Rijndael",
+    "chess_engine": "Mesin catur",
+    "interops": "Interops",
+    "chess_engine_description": "mesin bitboard / WASM lan pekerja",
+    "scripting_library_description": "script otomatisasi // 6 basa",
+    "reclaim_4160_description": "dolanan kuliah, dibalèkaké manèh / C++ lan WASM",
+    "turing_machines": "Mesin Turing",
+    "scripting_library": "Pustaka script"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Produk & Sistem",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Proyek sing dipilih",
       "title": "Karya sing dipilih",
-      "description": "Enem proyek sing paling makili cara aku ngowahi ide ambisius dadi piranti lunak sing polesan lan bisa digunakake.",
+      "description": "Proyek sing paling apik nampilake carane aku ngowahi gagasan ambisius dadi piranti lunak sing rampung lan bisa digunakake.",
       "view_project": "Deleng proyek",
       "open_project": "Bukak proyek langsung",
       "view_all": "Jelajahi portofolio lengkap",
@@ -99,7 +109,8 @@
         "libraries": "Perpustakaan skrip",
         "languages": "Eksperimen basa",
         "automation": "Piranti otomatisasi & data",
-        "experience": "Pengalaman profesional & pendidikan"
+        "experience": "Pengalaman profesional & pendidikan",
+        "markets": "Pasar lan sistem dagang"
       },
       "browser_native": "Pribumi browser / tanpa server",
       "no_results": "Ora ana proyek sing cocog",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Aksesibilitas",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Ketepatan finansial diwiwiti kanthi representasi: aritmetika sen lengkap lan entri seimbang nggawe gerakan dhuwit eksplisit."
         },
         "interop": {
-          "summary": "Referensi lintas basa sing nyakup {languages} basa program lan {patterns} pola eksekusi, njelajahi apa sing kedadeyan ing wates runtime.",
+          "summary": "Referensi antar basa sing ngliputi {languages} basa program lan {patterns} pola eksekusi, ngina sinau apa sing kelakon ing watesan runtime.",
           "lens": "Bagian sing angel yaiku kontrak antarane runtime: ijol-ijolan data, prilaku proses, lan eksekusi sing bisa diulang luwih penting tinimbang sintaksis."
         },
         "formatter": {
-          "summary": "Mesin parsing Go asli sing dikompilasi menyang WebAssembly. Validasi lan format JSON lan YAML mlaku lokal ing browser.",
-          "lens": "Mindhah parser menyang browser ngganti muatan klien sing luwih gedhe kanggo proses lokal, portabilitas, lan kurang gumantung server."
+          "summary": "Linter lan formatter WebAssembly sing ditulis nganggo Zig kanggo JSON, YAML, XML, HTML, TOML, CSV lan TSV. Validasi lan format dijalukno ing browser.",
+          "lens": "Format iku perkara kapercayan: analisa nganggo tata basa tenanan, njaga teks penulis, lan simpen data ing klien."
         },
         "portfolio_website": {
           "summary": "Situs sing sampeyan ana: portofolio React kanthi 100+ basa, interaksi sing bisa diakses, lan piranti WebAssembly sing bisa digunakake.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Alat validasi lan format JSON lan YAML basis browser sing dibangun ing Go lan dikompilasi menyang WebAssembly. Obah mesin parsing menyang WASM supaya interaksi responsif lan lokal kanggo browser nalika nglamar parser nyata kanggo nyekel input ora bener. Iki minangka conto fokus milih arsitektur runtime kanggo kinerja, portabilitas, lan kapercayan pangguna.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Pustaka script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Proyek Enkripsi Rijndael",
-        "text": "Set komparatif saka {implementations} implementasi Rijndael ing varian 128-, 192-, lan 256-bit. Ngleksanakake maneh algoritma sing sensitif keamanan ing antarane basa minangka latihan sing disiplin ing spesifikasi sing tepat, prilaku sing bisa diuji, lan watesan portabilitas tingkat basa, kabeh naluri migunani kanggo sistem sing nangani data sensitif.",
+        "title": "Proyek enkripsi Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Panyelesaian Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Proyek Mesin Turing",
-        "text": "Kulawarga luwih saka {implementations} implementasi saka Mesin Turing. Digunakake kanggo nduduhake kelengkapan turing kanggo macem-macem basa pamrograman kanggo riset, utamane kanggo Basa Pemrograman Macan.",
+        "text": "Kulawarga {implementations} implementasi Mesin Turing. Digunakake kanggo nuduhake turing completeness basa program sing beda kanggo riset, utamané basa Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Mesin catur",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Mesin mbandingakake PIT"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Aku nanggapi pitakon saka email lan pesen LinkedIn. Aku uga bakal nelpon maneh yen nomerku diwenehake liwat resume utawa liya, sanajan aku luwih seneng njaga nomer telponku pribadi."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Alat kualitas data basis browser sing validasi lan format JSON lan YAML nggunakake mesin Go sing dikompilasi menyang WebAssembly. Arsitèktur kasebut terus ngurai kanthi cedhak karo pangguna kanggo umpan balik pribadi kanthi cepet nalika ngetrapake aturan sintaksis nyata ing wates data. Iki minangka conto kompak ngrancang alur kerja pangembang sing bisa dipercaya babagan akurasi, kinerja, lan kepercayaan.",
     "more_info1": "Kanggo informasi luwih lengkap, waca README ing",
-    "more_info2": "Repositori Formatter JSON/YAML.",
+    "more_info2": "Gudang Auto-Linter.",
     "format_as": "Format Minangka:",
     "auto_detect": "Deteksi otomatis",
     "format": "Lint & Format",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ YAML sing sah",
     "invalid_json": "JSON ora sah",
     "invalid_yaml": "YAML ora sah",
-    "empty_input": "Mangga ketik sawetara JSON utawa YAML kanggo lint.",
+    "empty_input": "Lebokno JSON, YAML, XML, HTML, TOML, CSV utawa TSV kanggo dipriksa.",
     "too_large": "Input gedhe banget (maks 1MB diidini).",
     "fixed_yaml_spacing": "⚠ YAML nduweni spasi/indentasi sing ora bener nanging wis didandani lan diformat kanthi otomatis.",
-    "loading": "Ngunggah formatter...",
+    "loading": "Mbukak Auto-Linter...",
     "waiting_for_input": "Nunggu masukan...",
-    "load_failed": "Ora bisa mbukak formatter.",
+    "load_failed": "Ora bisa mbukak Auto-Linter.",
     "output": "Output:",
     "input_code": "Input",
     "json_examples": "Tuladha JSON",
-    "yaml_examples": "Tuladha YAML"
+    "yaml_examples": "Tuladha YAML",
+    "legacy_repo": "Delok implementasi Go lawas",
+    "legacy_rust": "Delok implementasi Rust lawas"
   },
   "tiger": {
     "title": "Basa Macan",
@@ -433,7 +459,8 @@
     "run_tiger": "Mlaku Macan",
     "output": "Output:",
     "stop": "Mungkasi",
-    "program_input": "Input program"
+    "program_input": "Input program",
+    "legacy_repo": "Delok implementasi Go lawas"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -498,6 +525,10 @@
         "zoom_in": "Zoom In",
         "zoom_out": "Zoom Out",
         "reset": "Reset Tampilan"
+      },
+      "country_names": {
+        "show": "Tuduhna jeneng negara",
+        "hide": "Dhelikna jeneng negara"
       }
     },
     "supported_languages": {

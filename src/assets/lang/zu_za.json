@@ -8,8 +8,8 @@
     "tiger": "Tiger - Ulimi Lokuhlela Okhethekile",
     "snake": "Umdlalo wenyoka",
     "portfolio_translator": "Umhumushi wephothifoliyo",
-    "formatter": "I-checker ye-JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Isixazululi se-Rubik's Cube",
     "contact": "Thinta mina",
     "home_description": "sys.root // umbono omkhulu",
     "about_description": "iphrofayili kanjiniyela // bio nobuchwepheshe",
@@ -18,18 +18,26 @@
     "tiger_description": "i-compiler ekhethekile nesibonisi se-AST",
     "snake_description": "umdlalo we-arcade wakudala / WASM",
     "portfolio_translator_description": "i-matrix yezilimi ezingaphezu kwe-100 ne-i18n",
-    "formatter_description": "isiqinisekisi kanye nomguquli wesyntax",
+    "formatter_description": "linter nesifomethi samadolobha ahlukene // WASM",
     "contact_description": "ukudlulisela okuvulekile // xhumana nami",
     "arcade": "I-arcade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Umuthi wezilimi Omine ngomugqa",
+    "connect_four": "Connect Four",
     "alkalab_description": "ukulingisa ilabhorethri yamakhemikhali / WASM",
     "rustcraft_description": "umdlalo we-voxel ofana ne-Minecraft / Rust kanye ne-wgpu",
     "suprememc_description": "umbukiso we-mod ye-Minecraft / Java",
-    "chess_engine": "Injini Yama-Chess",
-    "chess_engine_description": "injini ye-bitboard / i-WASM & isisebenzi"
+    "chess_engine": "Injini yechess",
+    "chess_engine_description": "injini ye-bitboard / WASM nomsebenzi",
+    "framework_trees": "Izikhuni zezisebenzi",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Ukufihla i-Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "ama-script okuzenzakhela // ulimi 6",
+    "reclaim_4160_description": "umdlalo wekolishi, okubuyisiwe / C++ ne-WASM",
+    "turing_machines": "Imashini zikaTuring",
+    "scripting_library": "Umtapo wolwazi we-script"
   },
   "home": {
     "title": "Unjiniyela Omkhulu Ogcwele Isitaki | Umkhiqizo Nezinhlelo",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Amaphrojekthi akhethiwe",
       "title": "Imisebenzi ekhethiwe",
-      "description": "Amaphrojekthi ayisithupha amelela kangcono ukuthi ngiguqula kanjani imibono ehlakaniphile ibe isoftware ephucuziwe nephumelelayo.",
+      "description": "Imikhiqizo ebonisa kahle ukuthi ngiguqula kanjani imibono enamandla ibe isoftware esebeneyo, ecwebezile.",
       "view_project": "Buka iphrojekthi",
       "open_project": "Vula iphrojekthi ebukhoma",
       "view_all": "Hlola iphothifoliyo ephelele",
@@ -101,7 +109,8 @@
         "libraries": "Imithala yezinhlamvu ezibhalwayo",
         "languages": "Ukuhlolwa kwezilimi",
         "automation": "Amathuluzi okuzenzakalela nedatha",
-        "experience": "Okuhlangenwe nakho kobuchwepheshe nemfundo"
+        "experience": "Okuhlangenwe nakho kobuchwepheshe nemfundo",
+        "markets": "Imakethe nezinhlelo zokuhwebana"
       },
       "browser_native": "Okungokwebrawuza / ngaphandle kweseva",
       "no_results": "Azikho amaphrojekthi ahambisanayo",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Ukufinyeleleka",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Ukunemba kwezimali kuqala ngokumelela: izibalo zamacent avolileyo nokungenisa okulinganiselayo kukhanyisa ukuhamba kwemali."
         },
         "interop": {
-          "summary": "Inkomba yezilimi ehlukene ehlanganisa izilimi eziyi-{languages} zokuhlela namaphethini ayi-{patterns} okusebenza, ehlola okwenzekayo emingceleni yesikhathi sokusebenza.",
+          "summary": "Ukubheka phakathi kolimi okubandakanya {languages} ulimi loluhlelo kanye {patterns} ukusebenza, okuhlola ukuthi kwenzakani emingcelweni yohlelo.",
           "lens": "Ingxenye enzima isivumelwano phakathi kwezikhathi zokusebenza: ukushintshana kwedatha, ukuziphatha kwenqubo, nokusebenza okuphindaphindekayo kubalulekile kunesyntax."
         },
         "formatter": {
-          "summary": "Injini yangempela yokuhlaziya i-Go ehlanganiswe ne-WebAssembly. Ukuqinisekisa nokuhlela kwe-JSON ne-YAML kusebenza endaweni yesiphequluli.",
-          "lens": "Ukuhambisa i-parser kwisiphequluli kushintshana nomthwalo omkhulu weklayenti ukuze kucushwe endaweni, ukuthuthwa, nokuncika okuncane kweseva."
+          "summary": "Isihlengisi (linter) nesifomethi se-WebAssembly esibhalwe ngo-Zig se-JSON, YAML, XML, HTML, TOML, CSV ne-TSV. Ukuqinisekisa nokufometha kwenzeka ngaphakathi kwesiphequluli.",
+          "lens": "Ukufometha kudume umbuzo womuntu: hlola ngezilungiselelo zokubhala eziqondile, gcina umbhalo womqambi, bese ugcina idatha klayenti."
         },
         "portfolio_website": {
           "summary": "Isayithi okukulo: iphothifoliyo ye-React enezilimi ezingaphezu kwe-100, ukusebenzisana okufinyelelekayo, namathuluzi e-WebAssembly asebenzayo.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "I-JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Ithuluzi elisekelwe kusiphequluli le-JSON ne-YAML lokuqinisekisa kanye nethuluzi lokufometha elakhelwe ku-Go futhi lahlanganiswa ku-WebAssembly. Ukuhambisa injini yokuhlaziya iye ku-WASM kugcina ukusebenzisana kusabela futhi kwasendaweni esipheqululini ngenkathi usebenzisa umhlahleli wangempela ukuze ubambe okokufaka okungavumelekile. Kuyisibonelo esigxilisiwe sokukhetha ukwakheka kwesikhathi sokusebenza sokusebenza, ukuphatheka, nokwethenjwa komsebenzisi.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Umtapo wolwazi we-script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Iphrojekthi yokubethela ye-Rijndael",
-        "text": "Isethi yokuqhathanisa yokusetshenziswa kwe-Rijndael engu-{implementations} kuzo zonke izinhlobo ezingu-128-, 192-, kanye no-256-bit. Ukusebenzisa kabusha i-algorithm ezwela ukuvikeleka kuzo zonke izilimi kuwumsebenzi onesiyalo ekucacisweni okunembile, ukuziphatha okuhlolekayo, kanye nemikhawulo yokuphatheka kwezinga lolimi, wonke umzwelo owusizo wamasistimu aphatha idatha ebucayi.",
+        "title": "Umsebenzi wokufihla i-Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Isixazululi se-Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Iphrojekthi yomshini wokuthunga",
-        "text": "Umndeni wezinto ezisetshenziswayo ezingaphezu kuka-{implementations} zoMshini weTuring. Isetshenziselwa ukukhombisa ukuphelela kwezilimi ezihlukahlukene zokuhlela ukuze kwenziwe ucwaningo, ikakhulukazi olimini lokuhlela lwe-Tiger.",
+        "text": "Umndeni {implementations} wokusetshenziswa kwemashini kaTuring. Isetshenziselwa ukukhombisa ukuqeda kukaTuring kolimi oluhlukile ukuhlola nje, ikakhulu ulimi lwe-Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Injini Yama-Chess",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Injini yechess",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Injini yokufanisa i-PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ngiphendula imibuzo evela ku-imeyili kanye nemilayezo ye-LinkedIn. Ngizophinda ngishaye ucingo uma inombolo yami ihlinzekwe ngokuqalisa kabusha noma ngenye indlela, nakuba ngikhetha ukugcina inombolo yami yocingo iyimfihlo."
   },
   "formatter": {
-    "title": "I-JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Ithuluzi lekhwalithi yedatha elisekelwe kusiphequluli eliqinisekisa futhi lifomethe i-JSON ne-YAML kusetshenziswa injini ye-Go ehlanganiswe ku-WebAssembly. I-architecture ilokhu ihlaziya eduze nomsebenzisi ukuze uthole impendulo esheshayo, eyimfihlo kuyilapho isebenzisa imithetho ye-syntax yangempela emngceleni wedatha. Kuyisibonelo esihlangene sokuklama ukugeleza komsebenzi kanjiniyela okuthembekile mayelana nokulunga, ukusebenza, nokwethemba.",
     "more_info1": "Ukuze uthole ulwazi olwengeziwe, bheka i-README ku",
-    "more_info2": "I-JSON/YAML Formatter Repository.",
+    "more_info2": "Isitolo se-Auto-Linter.",
     "format_as": "Fometha Njenge:",
     "auto_detect": "Thola ngokuzenzakalelayo",
     "format": "I-Lint & Ifomethi",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ I-YAML esebenzayo",
     "invalid_json": "I-JSON engavumelekile",
     "invalid_yaml": "I-YAML engavumelekile",
-    "empty_input": "Sicela ufake i-JSON noma i-YAML ukuze uyixhume.",
+    "empty_input": "Faka i-JSON, YAML, XML, HTML, TOML, CSV noma i-TSV ukuhlola.",
     "too_large": "Okokufaka kukhulu kakhulu (ubukhulu obungu-1MB buvunyelwe).",
     "fixed_yaml_spacing": "⚠ I-YAML ibinesikhala/i-indent engavumelekile kodwa ilungiswe ngokuzenzakalela futhi yafomethwa.",
-    "loading": "Ilayisha ifomethi...",
+    "loading": "Kulayishwa i-Auto-Linter...",
     "waiting_for_input": "Ilinde okokufaka...",
-    "load_failed": "Ayikwazi ukulayisha ifomethi.",
+    "load_failed": "Ayikwazanga ukulayisha i-Auto-Linter.",
     "output": "Okukhiphayo:",
     "input_code": "Okokufaka",
     "json_examples": "JSON Izibonelo",
-    "yaml_examples": "Izibonelo ze-YAML"
+    "yaml_examples": "Izibonelo ze-YAML",
+    "legacy_repo": "Bona ukusetshenziswa okuqala kwe-Go",
+    "legacy_rust": "Bona ukusetshenziswa okuqala kwe-Rust"
   },
   "tiger": {
     "title": "Ulimi Lwengwe",
@@ -436,7 +459,8 @@
     "run_tiger": "Gijimani Tiger",
     "output": "Okukhiphayo:",
     "stop": "Misa",
-    "program_input": "Okokufaka kohlelo"
+    "program_input": "Okokufaka kohlelo",
+    "legacy_repo": "Bona ukusetshenziswa okuqala kwe-Go"
   },
   "tab": {
     "title": "UPatrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Sondeza",
         "zoom_out": "Hlehlisa",
         "reset": "Setha kabusha Ukubuka"
+      },
+      "country_names": {
+        "show": "Bonisa amagama amazwe",
+        "hide": "Fihla amagama amazwe"
       }
     },
     "supported_languages": {

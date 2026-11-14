@@ -8,8 +8,8 @@
     "tiger": "Tiger - Μια προσαρμοσμένη γλώσσα προγραμματισμού",
     "snake": "Παιχνίδι φιδιού",
     "portfolio_translator": "Μεταφραστής χαρτοφυλακίου",
-    "formatter": "Έλεγχος JSON και YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Λύτης κύβου Rubik",
     "contact": "Επικοινωνήστε μαζί μου",
     "home_description": "sys.root // κύρια επισκόπηση",
     "about_description": "προφίλ μηχανικού // βιογραφικό και στοίβα",
@@ -18,18 +18,26 @@
     "tiger_description": "προσαρμοσμένος μεταγλωττιστής και οπτικοποιητής AST",
     "snake_description": "κλασικό παιχνίδι αρκάντ / WASM",
     "portfolio_translator_description": "πίνακας 100+ γλωσσών και i18n",
-    "formatter_description": "ελεγκτής και μετατροπέας σύνταξης",
+    "formatter_description": "linter και formatter πολλαπλών μορφών // WASM",
     "contact_description": "ανοιχτή μετάδοση // επικοινωνήστε μαζί μου",
     "arcade": "Αρκάντ",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Δέντρο γλωσσών Τέσσερα στη σειρά",
+    "connect_four": "Connect Four",
     "alkalab_description": "προσομοίωση εργαστηρίου χημείας / WASM",
     "rustcraft_description": "παιχνίδι voxel τύπου Minecraft / Rust και wgpu",
     "suprememc_description": "παρουσίαση mod Minecraft / Java",
     "chess_engine": "Μηχανή σκακιού",
-    "chess_engine_description": "μηχανή bitboard / WASM & εργαζόμενος"
+    "chess_engine_description": "μηχανή bitboard / WASM και worker",
+    "framework_trees": "Δέντρα πλαισίων",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Κρυπτογράφηση Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "σενάρια αυτοματοποίησης // 6 γλώσσες",
+    "reclaim_4160_description": "παιχνίδι πανεπιστημίου, ανακτημένο / C++ και WASM",
+    "turing_machines": "Μηχανές Turing",
+    "scripting_library": "Βιβλιοθήκη σεναρίων"
   },
   "home": {
     "title": "Senior Full-Stack Engineer | Προϊόν & Συστήματα",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Επιλεγμένα έργα",
       "title": "Επιλεγμένη δουλειά",
-      "description": "Έξι έργα που αντιπροσωπεύουν καλύτερα το πώς μετατρέπω τις φιλόδοξες ιδέες σε γυαλισμένο, λειτουργικό λογισμικό.",
+      "description": "Έργα που δείχνουν καλύτερα πώς μετατρέπω φιλόδοξες ιδέες σε καλοδουλεμένο, λειτουργικό λογισμικό.",
       "view_project": "Προβολή έργου",
       "open_project": "Άνοιγμα ζωντανού έργου",
       "view_all": "Εξερεύνηση πλήρους χαρτοφυλακίου",
@@ -101,7 +109,8 @@
         "libraries": "Βιβλιοθήκες σεναρίων",
         "languages": "Γλωσσικά πειράματα",
         "automation": "Εργαλεία αυτοματισμού και δεδομένων",
-        "experience": "Επαγγελματική και εκπαιδευτική εμπειρία"
+        "experience": "Επαγγελματική και εκπαιδευτική εμπειρία",
+        "markets": "Αγορές και συστήματα συναλλαγών"
       },
       "browser_native": "Εγγενές στον browser / χωρίς διακομιστή",
       "no_results": "Δεν υπάρχουν αντίστοιχα έργα",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Προσβασιμότητα",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Η οικονομική ορθότητα ξεκινά με την αναπαράσταση: η αριθμητική σε ακέραια λεπτά και οι ισορροπημένες εγγραφές καθιστούν τη μετακίνηση χρημάτων σαφή."
         },
         "interop": {
-          "summary": "Μια αναφορά μεταξύ γλωσσών που καλύπτει {languages} γλώσσες προγραμματισμού και {patterns} μοτίβα εκτέλεσης, εξερευνώντας τι συμβαίνει στα όρια του χρόνου εκτέλεσης.",
+          "summary": "Μια διαγλωσσική αναφορά που καλύπτει {languages} γλώσσες προγραμματισμού και {patterns} πρότυπα εκτέλεσης, διερευνώντας τι συμβαίνει στα όρια του runtime.",
           "lens": "Το δύσκολο μέρος είναι το συμβόλαιο μεταξύ των χρόνων εκτέλεσης: η ανταλλαγή δεδομένων, η συμπεριφορά των διαδικασιών και η επαναλήψιμη εκτέλεση μετρούν περισσότερο από τη σύνταξη."
         },
         "formatter": {
-          "summary": "Μια πραγματική μηχανή ανάλυσης Go μεταγλωττισμένη σε WebAssembly. Η επικύρωση και η μορφοποίηση JSON και YAML εκτελούνται τοπικά στον browser.",
-          "lens": "Η μεταφορά του parser στον browser ανταλλάσσει μεγαλύτερο φορτίο πελάτη με τοπική επεξεργασία, φορητότητα και λιγότερες εξαρτήσεις από τον διακομιστή."
+          "summary": "Ένα linter και formatter για WebAssembly γραμμένο σε Zig για JSON, YAML, XML, HTML, TOML, CSV και TSV. Η επικύρωση και η μορφοποίηση εκτελούνται τοπικά στον περιηγητή.",
+          "lens": "Η μορφοποίηση είναι ζήτημα εμπιστοσύνης: ανάλυση με πραγματική γραμματική, διατήρηση του κειμένου του συγγραφέα και διατήρηση των δεδομένων στον πελάτη."
         },
         "portfolio_website": {
           "summary": "Ο ιστότοπος στον οποίο βρίσκεστε: ένα χαρτοφυλάκιο React με 100+ γλώσσες, προσβάσιμες αλληλεπιδράσεις και λειτουργικά εργαλεία WebAssembly.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Αυτόματος Μορφοποιητής JSON & YAML",
+        "title": "Auto-Linter",
         "text": "Ένα εργαλείο επικύρωσης και μορφοποίησης JSON και YAML που βασίζεται σε πρόγραμμα περιήγησης, ενσωματωμένο στο Go και μεταγλωττισμένο στο WebAssembly. Η μετακίνηση της μηχανής ανάλυσης στο WASM διατηρεί την αλληλεπίδραση ανταποκρινόμενη και τοπική στο πρόγραμμα περιήγησης, ενώ εφαρμόζεται ένας πραγματικός αναλυτής για τη σύλληψη μη έγκυρης εισόδου. Είναι ένα εστιασμένο παράδειγμα επιλογής αρχιτεκτονικής χρόνου εκτέλεσης για απόδοση, φορητότητα και εμπιστοσύνη των χρηστών.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Βιβλιοθήκη σεναρίων",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Encryption Project",
-        "text": "Ένα συγκριτικό σύνολο {implementations} υλοποιήσεων Rijndael σε παραλλαγές 128-, 192- και 256-bit. Η εκ νέου εφαρμογή ενός ευαίσθητου ως προς την ασφάλεια αλγορίθμου σε όλες τις γλώσσες είναι μια πειθαρχημένη άσκηση σε ακριβείς προδιαγραφές, ελεγχόμενη συμπεριφορά και τα όρια φορητότητας σε επίπεδο γλώσσας, όλα τα χρήσιμα ένστικτα για συστήματα που χειρίζονται ευαίσθητα δεδομένα.",
+        "title": "Έργο κρυπτογράφησης Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Λύτης κύβου Rubik",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Έργο Turing Machine",
-        "text": "Οικογένεια άνω των {implementations} εφαρμογών της Μηχανής Turing. Χρησιμοποιείται για την επίδειξη της πληρότητας του turing για διαφορετικές γλώσσες προγραμματισμού για έρευνα, ειδικά για τη γλώσσα προγραμματισμού Tiger.",
+        "text": "Οικογένεια {implementations} υλοποιήσεων της Μηχανής Turing. Χρησιμοποιείται για την επίδειξη πληρότητας Turing διαφορετικών γλωσσών προγραμματισμού για ερευνητικούς σκοπούς, ειδικά για τη γλώσσα προγραμματισμού Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "Μηχανή σκακιού",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Μηχανή αντιστοίχισης PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Απαντώ σε ερωτήματα από μηνύματα ηλεκτρονικού ταχυδρομείου και LinkedIn. Θα καλέσω επίσης εάν ο αριθμός μου παρέχεται μέσω βιογραφικού ή με άλλο τρόπο, αν και προτιμώ να κρατήσω τον αριθμό τηλεφώνου μου ιδιωτικό."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Ένα εργαλείο ποιότητας δεδομένων που βασίζεται σε πρόγραμμα περιήγησης που επικυρώνει και μορφοποιεί τα JSON και YAML χρησιμοποιώντας μια μηχανή Go μεταγλωττισμένη στο WebAssembly. Η αρχιτεκτονική συνεχίζει να αναλύει τον χρήστη για γρήγορη, ιδιωτική ανατροφοδότηση, ενώ παράλληλα επιβάλλει πραγματικούς συντακτικούς κανόνες στο όριο δεδομένων. Είναι ένα συμπαγές παράδειγμα σχεδιασμού μιας αξιόπιστης ροής εργασιών προγραμματιστή γύρω από την ορθότητα, την απόδοση και την εμπιστοσύνη.",
     "more_info1": "Για περισσότερες πληροφορίες, ανατρέξτε στο README στο",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Αποθετήριο Auto-Linter.",
     "format_as": "Μορφοποίηση ως:",
     "auto_detect": "Αυτόματος εντοπισμός",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Έγκυρο YAML",
     "invalid_json": "Μη έγκυρο JSON",
     "invalid_yaml": "Μη έγκυρο YAML",
-    "empty_input": "Εισαγάγετε κάποιο JSON ή YAML για λιντ.",
+    "empty_input": "Εισαγάγετε JSON, YAML, XML, HTML, TOML, CSV ή TSV για έλεγχο.",
     "too_large": "Η είσοδος είναι πολύ μεγάλη (επιτρέπεται το μέγιστο 1MB).",
     "fixed_yaml_spacing": "⚠ Το YAML είχε μη έγκυρο διάστημα/εσοχή, αλλά διορθώθηκε και μορφοποιήθηκε αυτόματα.",
-    "loading": "Φόρτωση μορφοποιητή...",
+    "loading": "Φόρτωση Auto-Linter...",
     "waiting_for_input": "Αναμονή για εισαγωγή...",
-    "load_failed": "Δεν είναι δυνατή η φόρτωση του μορφοποιητή.",
+    "load_failed": "Δεν ήταν δυνατή η φόρτωση του Auto-Linter.",
     "output": "Παραγωγή:",
     "input_code": "Εισαγωγή",
     "json_examples": "Παραδείγματα JSON",
-    "yaml_examples": "Παραδείγματα YAML"
+    "yaml_examples": "Παραδείγματα YAML",
+    "legacy_repo": "Προβολή παλαιάς υλοποίησης Go",
+    "legacy_rust": "Προβολή παλαιάς υλοποίησης Rust"
   },
   "tiger": {
     "title": "Γλώσσα Τίγρης",
@@ -436,7 +459,8 @@
     "run_tiger": "Τρέξτε τον Τίγρη",
     "output": "Παραγωγή:",
     "stop": "Διακοπή",
-    "program_input": "Είσοδος προγράμματος"
+    "program_input": "Είσοδος προγράμματος",
+    "legacy_repo": "Προβολή παλαιάς υλοποίησης Go"
   },
   "tab": {
     "title": "Πάτρικ Γκούντγουιν",
@@ -501,6 +525,10 @@
         "zoom_in": "Μεγέθυνση",
         "zoom_out": "Σμίκρυνση",
         "reset": "Επαναφορά προβολής"
+      },
+      "country_names": {
+        "show": "Εμφάνιση ονομάτων χωρών",
+        "hide": "Απόκρυψη ονομάτων χωρών"
       }
     },
     "supported_languages": {

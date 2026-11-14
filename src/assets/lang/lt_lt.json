@@ -8,8 +8,8 @@
     "tiger": "Tiger - Pritaikyta programavimo kalba",
     "snake": "Gyvatės žaidimas",
     "portfolio_translator": "Portfelio vertėjas",
-    "formatter": "JSON ir YAML tikrintuvas",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubiko kubo sprendėjas",
     "contact": "Susisiekite su manimi",
     "home_description": "sys.root // pagrindinė apžvalga",
     "about_description": "inžinieriaus profilis // bio ir technologijos",
@@ -18,18 +18,26 @@
     "tiger_description": "pritaikytas kompiliatorius ir AST vizualizatorius",
     "snake_description": "klasikinis arkadinis žaidimas / WASM",
     "portfolio_translator_description": "100+ kalbų matrica ir i18n",
-    "formatter_description": "sintaksės tikrintuvas ir keitiklis",
+    "formatter_description": "įvairių formatų linteris ir formuotojas // WASM",
     "contact_description": "atviras perdavimas // susisiekite",
     "arcade": "Arkadiniai",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Keturių eilėje kalbų medis",
+    "connect_four": "Connect Four",
     "alkalab_description": "chemijos laboratorijos simuliacija / WASM",
     "rustcraft_description": "Minecraft stiliaus vokselių žaidimas / Rust ir wgpu",
     "suprememc_description": "Minecraft modų vitrina / Java",
-    "chess_engine": "Šachmatų Variklis",
-    "chess_engine_description": "duomenų lentos variklis / WASM ir darbuotojas"
+    "chess_engine": "Šachmatų variklis",
+    "chess_engine_description": "bitboard variklis / WASM ir worker",
+    "framework_trees": "Karkasų medžiai",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael šifravimas",
+    "interops": "Interops",
+    "scripting_library_description": "automatizavimo scenarijai // 6 kalbos",
+    "reclaim_4160_description": "studijų žaidimas, susigrąžintas / C++ ir WASM",
+    "turing_machines": "Turingo mašinos",
+    "scripting_library": "Scenarijų biblioteka"
   },
   "home": {
     "title": "Vyresnysis pilno krūvio inžinierius | Produktai ir sistemos",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Išskirti projektai",
       "title": "Pasirinkti darbai",
-      "description": "Šeši projektai, geriausiai atspindintys, kaip ambicingas idėjas paverčiu išgryninta ir veikiančia programine įranga.",
+      "description": "Projektai, kurie geriausiai parodo, kaip ambicingas idėjas paverčiu tobula, veikiančia programine įranga.",
       "view_project": "Peržiūrėti projektą",
       "open_project": "Atidaryti tiesioginį projektą",
       "view_all": "Tyrinėti visą portfelį",
@@ -101,7 +109,8 @@
         "libraries": "Scenarijų bibliotekos",
         "languages": "Kalbų eksperimentai",
         "automation": "Automatizavimo ir duomenų įrankiai",
-        "experience": "Profesinė ir mokymosi patirtis"
+        "experience": "Profesinė ir mokymosi patirtis",
+        "markets": "Rinkos ir prekybos sistemos"
       },
       "browser_native": "Vietinis naršyklėje / be serverio",
       "no_results": "Nėra atitinkančių projektų",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Prieinamumas",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Finansinis tikslumas prasideda nuo atvaizdavimo: visa centų aritmetika ir subalansuoti įrašai paverčia pinigų judėjimą aiškiu."
         },
         "interop": {
-          "summary": "Tarpkalbinė nuoroda, apimanti {languages} programavimo kalbų ir {patterns} vykdymo modelių, tyrinėjanti, kas vyksta vykdymo laiko ribose.",
+          "summary": "Tarpkalbinė apžvalga, apimanti {languages} programavimo kalbų ir {patterns} vykdymo modelių, tirianti, kas vyksta vykdymo laiko ribose.",
           "lens": "Sunki dalis yra sutartis tarp vykdymo aplinkų: duomenų apsikeitimas, procesų elgsena ir pakartojamas vykdymas svarbesni nei sintaksė."
         },
         "formatter": {
-          "summary": "Tikras Go analizės variklis, kompiliuotas į WebAssembly. JSON ir YAML tikrinimas ir formatavimas veikia lokaliai naršyklėje.",
-          "lens": "Analizatoriaus perkėlimas į naršyklę iškeičia didesnį kliento krūvį į vietinį apdorojimą, nešiojamumą ir mažiau priklausomybių nuo serverio."
+          "summary": "Zig parašytas WebAssembly linteris ir formuotojas JSON, YAML, XML, HTML, TOML, CSV ir TSV. Tikrinimas ir formatavimas vyksta lokaliai naršyklėje.",
+          "lens": "Formatavimas yra pasitikėjimo klausimas: analizuok tikra gramatika, išsaugok autoriaus tekstą ir laikyk duomenis kliente."
         },
         "portfolio_website": {
           "summary": "Svetainė, kurioje esate: React portfelis su 100+ kalbų, prieinamomis sąveikomis ir veikiančiais WebAssembly įrankiais.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON ir YAML automatinis formatavimas",
+        "title": "Auto-Linter",
         "text": "Naršyklėje pagrįstas JSON ir YAML patvirtinimo ir formatavimo įrankis, sukurtas „Go“ ir sukompiliuotas į „WebAssembly“. Perkėlus analizavimo variklį į WASM, sąveika išlieka jautri ir vietinė naršyklėje, o taikant tikrą analizatorių, kad gautų neteisingą įvestį. Tai ryškus vykdymo laiko architektūros pasirinkimo pavyzdys, siekiant užtikrinti našumą, perkeliamumą ir vartotojų pasitikėjimą.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Scenarijų biblioteka",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael šifravimo projektas",
-        "text": "Lyginamasis {implementations} ir daugiau „Rijndael“ diegimų rinkinys 128, 192 ir 256 bitų variantuose. Saugumui jautraus algoritmo pakartotinis įdiegimas įvairiose kalbose yra disciplinuotas tikslių specifikacijų, tikrinamo elgesio ir kalbos lygio perkeliamumo ribų pratimas. visi naudingi instinktai sistemoms, kurios tvarko jautrius duomenis.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubiko kubo sprendėjas",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turingo mašinos projektas",
-        "text": "Daugiau nei {implementations} Tiuringo mašinos diegimų šeima. Naudojamas įvairių programavimo kalbų, ypač Tigro programavimo kalbos, tobulumo demonstravimui.",
+        "text": "{implementations} Turingo mašinos realizacijų šeima. Naudojama demonstruojant įvairių programavimo kalbų turingiškumą tyrimams, ypač Tiger programavimo kalbai.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Šachmatų Variklis",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Šachmatų variklis",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT derinimo variklis"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Atsakau į užklausas el. paštu ir LinkedIn žinutėmis. Taip pat perskambinsiu, jei mano numeris bus pateiktas gyvenimo aprašyme ar kitaip, nors norėčiau, kad mano telefono numeris būtų privatus."
   },
   "formatter": {
-    "title": "JSON ir YAML Linter",
+    "title": "Auto-Linter",
     "description": "Naršyklės pagrindu sukurtas duomenų kokybės įrankis, kuris patvirtina ir formatuoja JSON ir YAML naudojant „Go“ variklį, sukompiliuotą „WebAssembly“. Architektūra nuolat analizuojama arti vartotojo, kad gautų greitą, privatų grįžtamąjį ryšį, o duomenų ribose įgyvendinamos tikros sintaksės taisyklės. Tai kompaktiškas pavyzdys, kaip sukurti patikimą kūrėjo darbo eigą, susijusią su teisingumu, našumu ir pasitikėjimu.",
     "more_info1": "Norėdami gauti daugiau informacijos, žr. README, esančiame",
-    "more_info2": "JSON / YAML formatavimo saugykla.",
+    "more_info2": "Auto-Linter saugykla.",
     "format_as": "Formatas kaip:",
     "auto_detect": "Automatinis aptikimas",
     "format": "Pūkelis ir formatas",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Galiojantis YAML",
     "invalid_json": "Netinkamas JSON",
     "invalid_yaml": "Neteisingas YAML",
-    "empty_input": "Įveskite šiek tiek JSON arba YAML, kad galėtumėte lindyti.",
+    "empty_input": "Įveskite JSON, YAML, XML, HTML, TOML, CSV arba TSV tikrinimui.",
     "too_large": "Įvestis per didelė (leistina daugiausia 1 MB).",
     "fixed_yaml_spacing": "⚠ YAML buvo neteisingas tarpas / įtrauka, bet jis buvo automatiškai pataisytas ir suformatuotas.",
-    "loading": "Įkeliamas formatuotojas...",
+    "loading": "Įkeliamas Auto-Linter...",
     "waiting_for_input": "Laukiama įvesties...",
-    "load_failed": "Nepavyko įkelti formatuotojo.",
+    "load_failed": "Nepavyko įkelti Auto-Linter.",
     "output": "Išvestis:",
     "input_code": "Įvestis",
     "json_examples": "JSON pavyzdžiai",
-    "yaml_examples": "YAML pavyzdžiai"
+    "yaml_examples": "YAML pavyzdžiai",
+    "legacy_repo": "Rodyti seną Go realizaciją",
+    "legacy_rust": "Rodyti seną Rust realizaciją"
   },
   "tiger": {
     "title": "Tigro kalba",
@@ -436,7 +459,8 @@
     "run_tiger": "Paleisti Tigrą",
     "output": "Išvestis:",
     "stop": "Sustabdyti",
-    "program_input": "Programos įvestis"
+    "program_input": "Programos įvestis",
+    "legacy_repo": "Rodyti seną Go realizaciją"
   },
   "tab": {
     "title": "Patrikas Gudvinas",
@@ -501,6 +525,10 @@
         "zoom_in": "Padidinti",
         "zoom_out": "Sumažinti",
         "reset": "Iš naujo nustatyti rodinį"
+      },
+      "country_names": {
+        "show": "Rodyti šalių pavadinimus",
+        "hide": "Slėpti šalių pavadinimus"
       }
     },
     "supported_languages": {

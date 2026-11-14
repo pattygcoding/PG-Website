@@ -8,8 +8,8 @@
     "tiger": "Tiger - Pielāgota programmēšanas valoda",
     "snake": "Čūskas spēle",
     "portfolio_translator": "Portfeļa tulkotājs",
-    "formatter": "JSON un YAML linteris",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubika kuba risinātājs",
     "contact": "Sazinieties ar mani",
     "home_description": "sys.root // galvenais pārskats",
     "about_description": "inženiera profils // bio un tehnoloģiju stek",
@@ -18,18 +18,26 @@
     "tiger_description": "pielāgots kompilators un AST vizualizētājs",
     "snake_description": "klasiskā arkādes spēle / WASM",
     "portfolio_translator_description": "100+ valodu matrica un i18n",
-    "formatter_description": "sintakses pārbaudītājs un pārveidotājs",
+    "formatter_description": "vairāku formātu linteris un formatētājs // WASM",
     "contact_description": "atvērta pārraide // sazinieties",
     "arcade": "Arkādes",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Četri pēc kārtas valodu koks",
+    "connect_four": "Connect Four",
     "alkalab_description": "ķīmijas laboratorijas simulācija / WASM",
     "rustcraft_description": "Minecraft stila vokseļu spēle / Rust un wgpu",
     "suprememc_description": "Minecraft moda vitrīna / Java",
     "chess_engine": "Šaha dzinējs",
-    "chess_engine_description": "bitu tāfeles dzinējs / WASM & Worker"
+    "chess_engine_description": "bitboard dzinējs / WASM un worker",
+    "framework_trees": "Ietvaru koki",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael šifrēšana",
+    "interops": "Interops",
+    "scripting_library_description": "automatizācijas skripti // 6 valodas",
+    "reclaim_4160_description": "studiju spēle, atgūta / C++ un WASM",
+    "turing_machines": "Turinga mašīnas",
+    "scripting_library": "Skriptu bibliotēka"
   },
   "home": {
     "title": "Vecākais Full-Stack inženieris | Produkti un sistēmas",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Izcelti projekti",
       "title": "Atlasīti darbi",
-      "description": "Seši projekti, kas vislabāk atspoguļo, kā es pārvēršu ambiciozas idejas pulētā un darbojošā programmatūrā.",
+      "description": "Projekti, kas vislabāk parāda, kā es pārvēršu vērienīgas idejas izsmalcinātā, strādājošā programmatūrā.",
       "view_project": "Skatīt projektu",
       "open_project": "Atvērt tiešraides projektu",
       "view_all": "Izpētīt pilnu portfeli",
@@ -101,7 +109,8 @@
         "libraries": "Skriptu bibliotēkas",
         "languages": "Valodu eksperimenti",
         "automation": "Automatizācijas un datu rīki",
-        "experience": "Profesionālā un izglītības pieredze"
+        "experience": "Profesionālā un izglītības pieredze",
+        "markets": "Tirgi un tirdzniecības sistēmas"
       },
       "browser_native": "Vietējais pārlūkā / bez servera",
       "no_results": "Nav atbilstošu projektu",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Pieejamība",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Finanšu pareizība sākas ar reprezentāciju: veselu centu aritmētika un sabalansēti grāmatvedības ieraksti padara naudas kustību nepārprotamu."
         },
         "interop": {
-          "summary": "Starpvalodu atsauce, kas aptver {languages} programmēšanas valodas un {patterns} izpildes modeļus, izpētot, kas notiek izpildes laika robežās.",
+          "summary": "Starpvalodu atsauce, kas aptver {languages} programmēšanas valodas un {patterns} izpildes modeļus, pētot, kas notiek izpildlaika robežās.",
           "lens": "Grūtā daļa ir līgums starp izpildes vidēm: datu apmaiņa, procesu uzvedība un atkārtojama izpilde ir svarīgāka par sintaksi."
         },
         "formatter": {
-          "summary": "Īsts Go parsēšanas dzinējs, kas kompilēts uz WebAssembly. JSON un YAML validācija un formatēšana darbojas lokāli pārlūkā.",
-          "lens": "Parsera pārvietošana pārlūkā apmaina lielāku klienta slodzi pret lokālu apstrādi, pārnesamību un mazāk atkarību no servera."
+          "summary": "Zig rakstīts WebAssembly linteris un formatētājs JSON, YAML, XML, HTML, TOML, CSV un TSV. Validācija un formatēšana darbojas lokāli pārlūkā.",
+          "lens": "Formatēšana ir uzticības jautājums: parsē ar īstu gramatiku, saglabā autora tekstu un turē datus klientā."
         },
         "portfolio_website": {
           "summary": "Vietne, kurā atrodaties: React portfelis ar 100+ valodām, pieejamām mijiedarbībām un darbojošos WebAssembly rīkiem.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON un YAML automātiskais formatētājs",
+        "title": "Auto-Linter",
         "text": "Uz pārlūkprogrammu balstīts JSON un YAML validācijas un formatēšanas rīks, kas iebūvēts Go un kompilēts WebAssembly. Pārvietojot parsēšanas programmu uz WASM, mijiedarbība tiek saglabāta atsaucīga un lokāla pārlūkprogrammai, vienlaikus izmantojot īstu parsētāju, lai uztvertu nederīgu ievadi. Tas ir mērķtiecīgs piemērs izpildlaika arhitektūras izvēlei veiktspējai, pārnesamībai un lietotāju uzticībai.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skriptu bibliotēka",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael šifrēšanas projekts",
-        "text": "{implementations} Rijndael implementāciju salīdzinoša kopa 128, 192 un 256 bitu variantos. Drošības ziņā jutīga algoritma atkārtota ieviešana dažādās valodās ir disciplinēts vingrinājums precīzām specifikācijām, pārbaudāmai uzvedībai un valodas līmeņa pārnesamības ierobežojumiem, visi noderīgie instinkti sistēmām, kas apstrādā sensitīvus datus.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubika kuba risinātājs",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Tjūringa mašīnas projekts",
-        "text": "Ģimene, kurā ir vairāk nekā {implementations} Tjūringa mašīnas implementāciju. Izmanto, lai demonstrētu dažādu programmēšanas valodu, īpaši tīģera programmēšanas valodu, pilnīgumu pētniecībai.",
+        "text": "{implementations} Turinga mašīnas realizāciju saime. Izmanto, lai parādītu dažādu programmēšanas valodu turingpilnību pētniecības nolūkos, īpaši Tiger programmēšanas valodai.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "Šaha dzinējs",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT saderināšanas dzinējs"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Es atbildu uz jautājumiem no e-pasta un LinkedIn ziņojumiem. Es arī atzvanīšu, ja mans numurs tiks sniegts, izmantojot CV vai citādi, lai gan es gribētu, lai mans tālruņa numurs būtu privāts."
   },
   "formatter": {
-    "title": "JSON un YAML Linter",
+    "title": "Auto-Linter",
     "description": "Uz pārlūkprogrammu balstīts datu kvalitātes rīks, kas validē un formatē JSON un YAML, izmantojot Go dzinēju, kas kompilēts WebAssembly. Arhitektūra turpina analizēt lietotāja tuvumā, lai nodrošinātu ātru, privātu atgriezenisko saiti, vienlaikus ieviešot reālus sintakses noteikumus datu robežās. Tas ir kompakts piemērs uzticamas izstrādātāja darbplūsmas izveidei, ņemot vērā pareizību, veiktspēju un uzticamību.",
     "more_info1": "Lai iegūtu papildinformāciju, skatiet README sadaļā",
-    "more_info2": "JSON/YAML formatēšanas repozitorijs.",
+    "more_info2": "Auto-Linter repozitorijs.",
     "format_as": "Formatēt kā:",
     "auto_detect": "Automātiskā noteikšana",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Derīgs YAML",
     "invalid_json": "Nederīgs JSON",
     "invalid_yaml": "Nederīgs YAML",
-    "empty_input": "Lūdzu, ievadiet kādu JSON vai YAML, lai izvilktu.",
+    "empty_input": "Ievadiet JSON, YAML, XML, HTML, TOML, CSV vai TSV pārbaudei.",
     "too_large": "Pārāk liela ievade (atļauts ne vairāk kā 1 MB).",
     "fixed_yaml_spacing": "⚠ YAML bija nederīga atstarpe/atkāpe, taču tā ir automātiski labota un formatēta.",
-    "loading": "Notiek formatētāja ielāde...",
+    "loading": "Notiek Auto-Linter ielāde...",
     "waiting_for_input": "Gaida ievadi...",
-    "load_failed": "Nevar ielādēt formatētāju.",
+    "load_failed": "Nevar ielādēt Auto-Linter.",
     "output": "Izvade:",
     "input_code": "Ievade",
     "json_examples": "JSON piemēri",
-    "yaml_examples": "YAML piemēri"
+    "yaml_examples": "YAML piemēri",
+    "legacy_repo": "Skatīt veco Go realizāciju",
+    "legacy_rust": "Skatīt veco Rust realizāciju"
   },
   "tiger": {
     "title": "Tīģera valoda",
@@ -436,7 +459,8 @@
     "run_tiger": "Palaist Tīģeri",
     "output": "Izvade:",
     "stop": "Apturēt",
-    "program_input": "Programmas ievade"
+    "program_input": "Programmas ievade",
+    "legacy_repo": "Skatīt veco Go realizāciju"
   },
   "tab": {
     "title": "Patriks Gudvins",
@@ -501,6 +525,10 @@
         "zoom_in": "Pietuvināt",
         "zoom_out": "Tālināt",
         "reset": "Atiestatīt skatu"
+      },
+      "country_names": {
+        "show": "Rādīt valstu nosaukumus",
+        "hide": "Paslēpt valstu nosaukumus"
       }
     },
     "supported_languages": {

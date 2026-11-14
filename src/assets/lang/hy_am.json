@@ -8,8 +8,8 @@
     "tiger": "Tiger - Հատուկ ծրագրավորման լեզու",
     "snake": "Օձի խաղ",
     "portfolio_translator": "Պորտֆոլիոյի թարգմանիչ",
-    "formatter": "JSON և YAML ստուգիչ",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Ռուբիկի խաղալիքի լուծիչ",
     "contact": "Կապվեք ինձ հետ",
     "home_description": "sys.root // գլխավոր ակնարկ",
     "about_description": "ինժեների պրոֆիլ // կենս․ և տեխնոլոգիաներ",
@@ -18,18 +18,26 @@
     "tiger_description": "հատուկ կոմպիլյատոր և AST վիզուալիզատոր",
     "snake_description": "դասական արկադային խաղ / WASM",
     "portfolio_translator_description": "100+ լեզվի մատրից և i18n",
-    "formatter_description": "շարահյուսության ստուգիչ և փոխարկիչ",
+    "formatter_description": "բազմաֆորմատ linter և ձևաչափող // WASM",
     "contact_description": "բաց փոխանցում // կապվեք ինձ հետ",
     "arcade": "Արկադա",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Չորսի շարք լեզվական ծառ",
+    "connect_four": "Connect Four",
     "alkalab_description": "քիմիական լաբորատորիայի սիմուլյացիա / WASM",
     "rustcraft_description": "Minecraft ոճի վոխսել խաղ / Rust և wgpu",
     "suprememc_description": "Minecraft մոդ ցուցադրություն / Java",
     "chess_engine": "Շախմատային շարժիչ",
-    "chess_engine_description": "բիթբորդային շարժիչ / WASM և աշխատող"
+    "chess_engine_description": "bitboard շարժիչ / WASM և worker",
+    "framework_trees": "Շրջանակների ծառերը",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael գաղտնագրում",
+    "interops": "Interops",
+    "scripting_library_description": "ավտոմատացման սկրիպտեր // 6 լեզու",
+    "reclaim_4160_description": "համալսարանական խաղ, վերականգնված / C++ և WASM",
+    "turing_machines": "Թյուրինգի մեքենաներ",
+    "scripting_library": "Սկրիպտերի գրադարան"
   },
   "home": {
     "title": "Ավագ Full Stack Engineer | Ապրանք և համակարգեր",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Ընտրյալ նախագծեր",
       "title": "Ընտրյալ աշխատանքներ",
-      "description": "Վեց նախագիծ, որոնք լավագույնս ներկայացնում են, թե ինչպես եմ հավակնոտ գաղափարները վերածում մշակված, աշխատող ծրագրային ապահովման։",
+      "description": "Նախագծեր, որոնք լավագույնս ցույց են տալիս, թե ինչպես եմ հավակնոտ գաղափարները վերածում կատարելագործված, աշխատող ծրագրաշարի։",
       "view_project": "Դիտել նախագիծը",
       "open_project": "Բացել կենդանի նախագիծը",
       "view_all": "Ուսումնասիրել ամբողջ պորտֆոլիոն",
@@ -101,7 +109,8 @@
         "libraries": "Սկրիպտ գրադարաններ",
         "languages": "Լեզվական փորձեր",
         "automation": "Ավտոմատացման և տվյալների գործիքներ",
-        "experience": "Մասնագիտական և կրթական փորձ"
+        "experience": "Մասնագիտական և կրթական փորձ",
+        "markets": "Շուկաներ և առևտրային համակարգեր"
       },
       "browser_native": "Բրաուզեր-մայրենի / առանց սերվերի",
       "no_results": "Համապատասխան նախագծեր չկան",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Հասանելիություն",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Ֆինանսական ճշգրտությունը սկսվում է ներկայացումից. ամբողջ սենթ թվաբանությունը և հավասարակշռված գրառումները դարձնում են փողի տեղաշարժը հստակ։"
         },
         "interop": {
-          "summary": "Լեզուների միջև հղում՝ ընդգրկելով {languages} ծրագրավորման լեզու և {patterns} կատարման օրինաչափություն՝ ուսումնասիրելով, թե ինչ է տեղի ունենում կատարման ժամանակի սահմաններում։",
+          "summary": "Միջլեզվային ակնարկ, որն ընդգրկում է {languages} ծրագրավորման լեզու և {patterns} կատարման նմուշ՝ ուսումնասիրելով, թե ինչ է կատարվում runtime-ի սահմաններում։",
           "lens": "Դժվար մասը կատարման միջավայրերի միջև պայմանագիրն է. տվյալների փոխանակումը, գործընթացի վարքագիծը և կրկնելի կատարումն ավելի կարևոր են, քան շարահյուսությունը։"
         },
         "formatter": {
-          "summary": "Իսկական Go վերլուծող շարժիչ՝ կոմպիլացված WebAssembly։ JSON և YAML ստուգումը և ֆորմատավորումն աշխատում են բրաուզերում տեղային։",
-          "lens": "Վերլուծողը բրաուզեր տեղափոխելը ավելի մեծ հաճախորդի բեռը փոխանակում է տեղային մշակման, դյուրատարության և ավելի քիչ սերվերային կախվածությունների հետ։"
+          "summary": "Linter և ձևաչափող WebAssembly-ի համար՝ գրված Zig-ով JSON, YAML, XML, HTML, TOML, CSV և TSV ֆորմատների համար։ Վավերացումը և ձևաչափումը կատարվում են տեղում՝ բրաուզերում։",
+          "lens": "Ձևաչափումը վստահության հարց է. վերլուծիր իրական քերականությամբ, պահպանիր հեղինակի տեքստը և տվյալները պահիր հաճախորդի կողմում։"
         },
         "portfolio_website": {
           "summary": "Այն կայքը, որտեղ դուք եք. React պորտֆոլիո 100+ լեզուներով, մատչելի փոխազդեցություններով և աշխատող WebAssembly գործիքներով։",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON և YAML ավտոմատ ձևաչափիչ",
+        "title": "Auto-Linter",
         "text": "Բրաուզերի վրա հիմնված JSON և YAML վավերացման և ձևաչափման գործիք, որը կառուցվել է Go-ում և կազմվել WebAssembly-ում: Վերլուծող շարժիչը WASM տեղափոխելը պահպանում է փոխազդեցությունը բրաուզերի համար պատասխանատու և տեղային՝ միաժամանակ կիրառելով իրական վերլուծիչ՝ անվավեր մուտքագրումը որսալու համար: Սա գործարկման ժամանակի ճարտարապետություն ընտրելու կենտրոնացված օրինակ է կատարողականի, շարժունակության և օգտագործողի վստահության համար:",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Սկրիպտերի գրադարան",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael ծածկագրման նախագիծ",
-        "text": "{implementations} Rijndael իրականացումների համեմատական ​​հավաքածու 128-, 192- և 256-բիթանոց տարբերակներում: Անվտանգության նկատմամբ զգայուն ալգորիթմի կրկնակի ներդրումը լեզուներով կարգապահ վարժություն է ճշգրիտ բնութագրերի, փորձարկվող վարքագծի և լեզվի մակարդակի տեղափոխելիության սահմաններում, բոլոր օգտակար բնազդները համակարգերի համար, որոնք մշակում են զգայուն տվյալները:",
+        "title": "Rijndael գաղտնագրման նախագիծ",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Ռուբիկի խաղալիքի լուծիչ",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Machine նախագիծ",
-        "text": "Turing Machine-ի ավելի քան {implementations} ներդրում ունեցող ընտանիք: Օգտագործվում է հետազոտության համար տարբեր ծրագրավորման լեզուների շրջագծման ամբողջականությունը ցուցադրելու համար, հատկապես Tiger ծրագրավորման լեզվի համար:",
+        "text": "{implementations} իրականացման ընտանիք՝ Թյուրինգի մեքենայի համար։ Օգտագործվում է տարբեր ծրագրավորման լեզուների Թյուրինգի ամբողջականությունը ցույց տալու համար՝ հետազոտական նպատակներով, հատկապես Tiger լեզվի համար։",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "Շախմատային շարժիչ",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT համապատասխանեցման շարժիչ"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ես պատասխանում եմ էլփոստի և LinkedIn հաղորդագրությունների հարցումներին: Ես նաև կզանգեմ, եթե իմ համարը տրամադրվի ռեզյումեի միջոցով կամ այլ կերպ, թեև ես նախընտրում եմ իմ հեռախոսահամարը գաղտնի պահել:"
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Բրաուզերի վրա հիմնված տվյալների որակի գործիք, որը վավերացնում և ձևավորում է JSON և YAML՝ օգտագործելով Go շարժիչը, որը կազմված է WebAssembly-ում: Ճարտարապետությունը շարունակում է վերլուծել օգտատիրոջը մոտ՝ արագ, մասնավոր հետադարձ կապի համար՝ միաժամանակ կիրառելով իրական շարահյուսական կանոնները տվյալների սահմանում: Դա ճիշտ, կատարողականության և վստահության շուրջ հուսալի մշակողի աշխատանքային հոսքի նախագծման կոմպակտ օրինակ է:",
     "more_info1": "Լրացուցիչ տեղեկությունների համար դիմեք README-ին",
-    "more_info2": "JSON/YAML ձևաչափերի պահեստ:",
+    "more_info2": "Auto-Linter-ի պահոց։",
     "format_as": "Ձևաչափել որպես.",
     "auto_detect": "Ավտոմատ հայտնաբերում",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Վավեր YAML",
     "invalid_json": "Անվավեր JSON",
     "invalid_yaml": "Անվավեր YAML",
-    "empty_input": "Խնդրում ենք մուտքագրել մի քանի JSON կամ YAML՝ ներծծելու համար:",
+    "empty_input": "Մուտքագրեք JSON, YAML, XML, HTML, TOML, CSV կամ TSV՝ ստուգելու համար։",
     "too_large": "Մուտքագրումը չափազանց մեծ է (թույլատրելի է առավելագույնը 1 ՄԲ):",
     "fixed_yaml_spacing": "⚠ YAML-ն ուներ անվավեր միջակայք/խորշ, բայց ավտոմատ շտկվել և ձևաչափվել է:",
-    "loading": "Բեռնվում է ձևաչափիչը...",
+    "loading": "Auto-Linter-ը բեռնվում է...",
     "waiting_for_input": "Սպասում է մուտքագրման...",
-    "load_failed": "Չհաջողվեց բեռնել ձևաչափիչը:",
+    "load_failed": "Հնարավոր չէ բեռնել Auto-Linter-ը։",
     "output": "Արդյունք:",
     "input_code": "Մուտքագրում",
     "json_examples": "JSON Օրինակներ",
-    "yaml_examples": "YAML օրինակներ"
+    "yaml_examples": "YAML օրինակներ",
+    "legacy_repo": "Դիտել հին Go իրականացումը",
+    "legacy_rust": "Դիտել հին Rust իրականացումը"
   },
   "tiger": {
     "title": "Վագրի լեզու",
@@ -436,7 +459,8 @@
     "run_tiger": "Run Tiger",
     "output": "Արդյունք:",
     "stop": "Կանգառ",
-    "program_input": "Ծրագրի մուտք"
+    "program_input": "Ծրագրի մուտք",
+    "legacy_repo": "Դիտել հին Go իրականացումը"
   },
   "tab": {
     "title": "Պատրիկ Գուդվին",
@@ -501,6 +525,10 @@
         "zoom_in": "Մեծացնել",
         "zoom_out": "Մեծացնել",
         "reset": "Վերականգնել տեսքը"
+      },
+      "country_names": {
+        "show": "Ցույց տալ երկրների անունները",
+        "hide": "Թաքցնել երկրների անունները"
       }
     },
     "supported_languages": {

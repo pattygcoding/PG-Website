@@ -8,8 +8,8 @@
     "tiger": "Tiger - ፍሉይ ፕሮግራሚንግ ቋንቋ",
     "snake": "ጸወታ ተመን",
     "portfolio_translator": "ፖርትፎሊዮ ተርጓሚ",
-    "formatter": "JSON & YAML መርገጺ",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "ናይ Rubik's Cube ፈታሒ",
     "contact": "ርኸቡኒ",
     "home_description": "sys.root // ቀንዲ ጽማቝ",
     "about_description": "መሃንድስ ፕሮፋይል // ባዮ ን ቴክኖሎጂ",
@@ -18,16 +18,26 @@
     "tiger_description": "ፍሉይ ኮምፓይለር ን AST ርእይቶ",
     "snake_description": "ቀደማዊ ኣርከድ ጸወታ / WASM",
     "portfolio_translator_description": "100+ ቋንቋ ማትሪክስ ን i18n",
-    "formatter_description": "ሲንታክስ መርገጺ ን ከውላዊ",
+    "formatter_description": "ኣብ ብዙሕ ቅርጺታት linter ከምኡን'ን formatter // WASM",
     "contact_description": "ክፉት ምልኣኽ // ተዋጻአኒ",
     "arcade": "ኣርከድ",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "ምላስ ኣግራብ ኣርባዕተ ብሰልፊ",
+    "connect_four": "Connect Four",
     "alkalab_description": "ኬሚስትሪ ላቦራቶሪ ሲሙሌሽን / WASM",
     "rustcraft_description": "ቪክስል ጸወታ ኣገባብ Minecraft / Rust ን wgpu",
-    "suprememc_description": "Minecraft ሞድ ርእይቶ / Java"
+    "suprememc_description": "Minecraft ሞድ ርእይቶ / Java",
+    "framework_trees": "ናይ framework ዕፆታት",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "ናይ Rijndael ኤንክሪፕሽን",
+    "chess_engine": "ናይ chess ሞተር",
+    "interops": "Interops",
+    "chess_engine_description": "ናይ bitboard ሞተር / WASM ከምኡን'ን worker",
+    "scripting_library_description": "ናይ ኣውቶማቲክ script // 6 ቋንቋታት",
+    "reclaim_4160_description": "ናይ ኮለጅ ጸወታ፣ ዳግማይ ተረኪቡ / C++ ከምኡን'ን WASM",
+    "turing_machines": "ናይ Turing ማሽናት",
+    "scripting_library": "ናይ script ቤተ መጻሕፍቲ"
   },
   "home": {
     "title": "ላዕለዋይ ሙሉእ-ስታክ መሃንድስ | ፍርያትን ስርዓታትን",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "ኣጻሚርካ ፕሮጀክታት",
       "title": "ኣጻሚርካ ስራሓት",
-      "description": "ኣብላጽ ሰብ ሃይለኛ ሓሳባት ናብ ጽሩይ ን ሰራሕ ሶፍትዌር ከም ዝልውጥ ዝሕብሩ ሽዱሽተ ፕሮጀክታት.",
+      "description": "ዝተመሓየሸ፣ ዝሰርሕ ሰርትፈር ከም ዝኸውን ዝገልጹ ፕሮጀክታት።",
       "view_project": "ፕሮጀክት ርአ",
       "open_project": "ብቀጥታ ፕሮጀክት ክፈት",
       "view_all": "ምሉእ ፖርትፎልዮ ዳህስስ",
@@ -99,7 +109,8 @@
         "libraries": "ስክሪፕት ቤተ-መጻሕፍቲ",
         "languages": "ቋንቋ ፈተነታት",
         "automation": "ኣውቶሜሽን ን ዳታ መሳርሕታት",
-        "experience": "ፕሮፌሽናል ን ትምህርታዊ ተመክሮ"
+        "experience": "ፕሮፌሽናል ን ትምህርታዊ ተመክሮ",
+        "markets": "ገበያታትን ናይ ንግዲ ስርዓታትን"
       },
       "browser_native": "ብራውዘር ተወሊዱ / ብዘይ ሰርቨር",
       "no_results": "ተመሳሳሊ ፕሮጀክታት የለን",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "ተደራሽነት",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "ቁጠባዊ ቅኑዕነት ብኣንጻር ውክልና ይጅምር: ምሉእ-ሳንቲም ኣትሜቲክስ ን ሚዛናዊ ኣትዎታት ናይ ገንዘብ ንቅንቀር ግልጺ ይገብር."
         },
         "interop": {
-          "summary": "{languages} ፕሮግራሚንግ ቋንቋታት ን {patterns} ናይ ምግባር ሞዴላት ዝሽፍን, ኣብ ራንታይም ወሰን እንታይ ከም ዝኸውን ዝዳህስስ ተሻጋሪ-ቋንቋ ምድላው.",
+          "summary": "ን {languages} ፕሮግራም ቋንቋታትን {patterns} ናይ ምትግባር ናሙናታትን ዝሽፍን ናይ ቋንቋ መፍለጢ።",
           "lens": "ከቢድ ክፋል ራንታይምታት ዝኾነ ውዕል እዩ: ዳታ ምልውዋጥ, ስርዓት ባህሪ, ን ድግም ምግባር ካብ ሲንታክስ ዝገድፍ እዩ."
         },
         "formatter": {
-          "summary": "WebAssembly ዝተመስጠረ ሓቂ Go ምትሕትታሕ ኢንጂን. JSON ን YAML ምርግጋጽ ን ምድላው ኣብ ብራውዘር ብሃገራዊ ይሰርሕ.",
-          "lens": "ፓርሰር ናብ ብራውዘር ምንቅስቓስ ዝዓበየ ደላየ-ጾር ምትእትታው ሃገራዊ ምስራሕ, ተጓዓዛነት, ን ዝተወሓደ ሰርቨር ጥገነነት."
+          "summary": "ን JSON፣ YAML፣ XML፣ HTML፣ TOML፣ CSV ከምኡን'ን TSV ብ Zig ዝተጸረፈ የ WebAssembly linter ከምኡን'ን formatter። ምርግጋጽን ቅርጺትን ኣብ ውሽጢ browser ይሰርሑ።",
+          "lens": "ቅርጺት ጉዳይ እምነት እዩ፦ ብሓቂ ሰዋስው ተንትን፣ ጽሑፍ ደራሲ ዕቑብ ከምኡን'ን ዳታ ኣብ ዓንቀጻ ይሓዙ።"
         },
         "portfolio_website": {
           "summary": "ዝኾንካ ሳይት: 100+ ቋንቋታት, ተደራሽ ርክባት, ን ዝሰርሑ WebAssembly መሳርሕታት ዘለዎ React ፖርትፎልዮ.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML ኣውቶ ፎርማተር",
+        "title": "Auto-Linter",
         "text": "ኣብ Go ዝተሃንጸን ናብ WebAssembly ዝተጠርነፈን ኣብ መርበብ ሓበሬታ ዝተመርኮሰ JSONን YAMLን ናይ ምጽዳቕን ቅርጺን መሳርሒ። ነቲ ናይ ምፍታሽ ሞተር ናብ WASM ምግዓዝ ነቲ ምትእስሳር ምላሽ ዝህብን ንብራውዘር ከባብያውን ይገብሮ ኣብ ርእሲኡ ድማ ዘይሕጋዊ ምእታው ንምሓዝ ሓቀኛ ፓርሰር ኣብ ግብሪ ይውዕል። ንኣፈጻጽማ፣ ተንቀሳቓሲነትን ምትእምማን ተጠቃሚን ዝኸውን ናይ ምዝዋር ግዜ ስነ ህንጻ ​​ንምምራጽ ትኹረት ዝገበረ ኣብነት እዩ።",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "ናይ script ቤተ መጻሕፍቲ",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "ፕሮጀክት ኢንክሪፕሽን ሪጃንደል",
-        "text": "ንጽጽራዊ ስብስብ {implementations} ሪጅንዳል ኣተገባብራታት ኣብ መላእ 128-፣ 192-፣ ከምኡውን 256-ቢት ፍልልያት። ኣብ መላእ ቋንቋታት ንጸጥታ ዝምልከት ኣልጎሪዝም ዳግማይ ምትግባር ኣብ ልክዕ ስፔሲፊኬሽን፡ ክፍተን ዝኽእል ባህርያትን ደረት ናይ ቋንቋ-ደረጃ ምትሕልላፍን ስነ-ስርዓት ዘለዎ ልምምድ እዩ፡ ኩሎም ጠቐምቲ ባህርያዊ ድሌታት ንሃሳስ ዳታ ዝሕዙ ስርዓታት።",
+        "title": "ናይ Rijndael ኤንክሪፕሽን ፕሮጀክት",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "ናይ Rubik's Cube ፈታሒ",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "ፕሮጀክት ማሽን ቱሪንግ",
-        "text": "ስድራቤት ልዕሊ {implementations} ኣተገባብራታት ናይ ቱሪንግ ማሽን። ንመጽናዕቲ ንዝተፈላለዩ ቋንቋታት ፕሮግራሚንግ ብፍላይ ድማ ንቋንቋ ፕሮግራሚንግ ነብሪ ምሉእነት ቱሪንግ ንምግላጽ ዝውዕል።",
+        "text": "ናይ {implementations} ናይ Turing ማሽን ተግባራት ስድራ። ንምርምር ንተፈላለይቲ ፕሮግራም ቋንቋታት turingness ንምርኣይ ይጥቀም፣ ብፍላይ ን Tiger ፕሮግራም ቋንቋ።",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "ናይ chess ሞተር",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "ናይ PIT ማዛመጃ ሞተር"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "ካብ ኢመይልን መልእኽትታት ሊንክድይንን ንዝቐርብ ሕቶታት እምልስ። ቁጽረይ ብሪዝዩም ወይ ብኻልእ መንገዲ እንተተዋሂቡ እውን ክድውል እየ፡ ዋላ እኳ ቁጽሪ ተሌፎነይ ብሕታዊ ክኸውን እንተመረጽኩ።"
   },
   "formatter": {
-    "title": "JSON & YAML ሊንተር",
+    "title": "Auto-Linter",
     "description": "ኣብ መርበብ ሓበሬታ ዝተመርኮሰ መሳርሒ ጽሬት ዳታ ኮይኑ፡ ናብ WebAssembly ዝተጠርነፈ Go engine ተጠቒሙ JSONን YAMLን ዘረጋግጽን ቅርጺ ዝህብን እዩ። እቲ ስነ ህንጻ ​​ንቕልጡፍን ብሕታውን ግብረ መልሲ ናብቲ ተጠቃሚ ቀሪቡ ምትንታን ይቕጽል፡ ኣብ ወሰን ዳታ ድማ ሓቀኛ ሕግታት ስነ-ቓል የተግብር። ኣብ ዙርያ ቅኑዕነት፣ ኣፈፃፅማን ምትእምማንን ዘተኣማምን ዋሕዚ ስራሕ ዲቨሎፐር ንምንዳፍ ዝሕግዝ ውሱን ኣብነት እዩ።",
     "more_info1": "ንዝያዳ ሓበሬታ ኣብ README ኣብ...",
-    "more_info2": "JSON/YAML ፎርማተር መኽዘን።",
+    "more_info2": "ናይ Auto-Linter መዕቆቢ።",
     "format_as": "ቅርጺ ከምዚ፤",
     "auto_detect": "ኣውቶ ዲቴክት።",
     "format": "ሊንት & ፎርማት",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ ቅኑዕ ያማል",
     "invalid_json": "ዘይሕጋዊ JSON እዩ።",
     "invalid_yaml": "ዘይሕጋዊ YAML",
-    "empty_input": "በጃኹም ገለ JSON ወይ YAML to lint ኣእትዉ።",
+    "empty_input": "ንምፍታሕ JSON፣ YAML፣ XML፣ HTML፣ TOML፣ CSV ወይ TSV ኣእትዉ።",
     "too_large": "ምእታው ኣዝዩ ዓቢ (max 1MB ይፍቀድ)።",
     "fixed_yaml_spacing": "⚠ YAML ዘይሕጋዊ ርሕቀት/ምእታው ነይርዎ ግን ብኣውቶማቲክ ተዓሪዩን ፎርማት ተገይሩሉን ኣሎ።",
-    "loading": "ፎርማተር ይጽዕን ኣሎ...",
+    "loading": "Auto-Linter ይጽዓን ኣሎ...",
     "waiting_for_input": "እታው ንጽበ...",
-    "load_failed": "ፎርማተር ምጽዓን ኣይከኣለን።",
+    "load_failed": "Auto-Linter ክጽዓን ኣይከኣለን።",
     "output": "ውጽኢት፤",
     "input_code": "እታው",
     "json_examples": "JSON ኣብነታት",
-    "yaml_examples": "YAML ኣብነታት"
+    "yaml_examples": "YAML ኣብነታት",
+    "legacy_repo": "ዓቐቢተ ዝነበረ Go ተግባር ርአ",
+    "legacy_rust": "ዓቐቢተ ዝነበረ Rust ተግባር ርአ"
   },
   "tiger": {
     "title": "ቋንቋ ትግራዋይ",
@@ -433,7 +459,8 @@
     "run_tiger": "ሩን ትግራዋይ",
     "output": "ውጽኢት፤",
     "stop": "ዓቆም",
-    "program_input": "ፕሮግራም ኣእትዎ"
+    "program_input": "ፕሮግራም ኣእትዎ",
+    "legacy_repo": "ዓቐቢተ ዝነበረ Go ተግባር ርአ"
   },
   "tab": {
     "title": "ፓትሪክ ጉድዊን ዝበሃሉ ምሁራት ምዃኖም ይፍለጥ",
@@ -498,6 +525,10 @@
         "zoom_in": "ዙም ኢን ምግባር",
         "zoom_out": "ዙም ኣውት ምግባር",
         "reset": "ሪሰት ቪው"
+      },
+      "country_names": {
+        "show": "ስም ዓለማት ኣርእይ",
+        "hide": "ስም ዓለማት ደናግፍ"
       }
     },
     "supported_languages": {

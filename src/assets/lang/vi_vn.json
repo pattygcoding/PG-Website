@@ -8,8 +8,8 @@
     "tiger": "Tiger - Ngôn ngữ lập trình tùy chỉnh",
     "snake": "Trò chơi con rắn",
     "portfolio_translator": "Trình dịch danh mục đầu tư",
-    "formatter": "Bộ kiểm tra JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Trình giải Rubik's Cube",
     "contact": "Liên hệ với tôi",
     "home_description": "sys.root // tổng quan chính",
     "about_description": "hồ sơ kỹ sư // tiểu sử và ngăn xếp",
@@ -18,18 +18,26 @@
     "tiger_description": "trình biên dịch tùy chỉnh và bộ trực quan AST",
     "snake_description": "trò chơi điện tử cổ điển / WASM",
     "portfolio_translator_description": "ma trận 100+ ngôn ngữ và i18n",
-    "formatter_description": "trình xác thực và chuyển đổi cú pháp",
+    "formatter_description": "trình kiểm tra & định dạng đa định dạng // WASM",
     "contact_description": "truyền mở // liên hệ với tôi",
     "arcade": "Trò chơi điện tử",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Cây ngôn ngữ Bốn liên tiếp",
+    "connect_four": "Connect Four",
     "alkalab_description": "mô phỏng phòng thí nghiệm hóa học / WASM",
     "rustcraft_description": "trò chơi voxel kiểu Minecraft / Rust và wgpu",
     "suprememc_description": "trưng bày mod Minecraft / Java",
-    "chess_engine": "Công cụ Cờ vua",
-    "chess_engine_description": "động cơ bitboard / WASM & công nhân"
+    "chess_engine": "Engine cờ vua",
+    "chess_engine_description": "engine bitboard / WASM & worker",
+    "framework_trees": "Cây framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Mã hóa Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "script tự động hóa // 6 ngôn ngữ",
+    "reclaim_4160_description": "trò chơi đại học, được tái thiết / C++ & WASM",
+    "turing_machines": "Máy Turing",
+    "scripting_library": "Thư viện script"
   },
   "home": {
     "title": "Kỹ sư Full-Stack cấp cao | Sản phẩm & Hệ thống",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Dự án nổi bật",
       "title": "Tác phẩm chọn lọc",
-      "description": "Sáu dự án đại diện tốt nhất cho cách tôi biến ý tưởng đầy tham vọng thành phần mềm trau chuốt và hoạt động.",
+      "description": "Những dự án thể hiện rõ nhất cách tôi biến các ý tưởng tham vọng thành phần mềm hoàn thiện, hoạt động được.",
       "view_project": "Xem dự án",
       "open_project": "Mở dự án trực tiếp",
       "view_all": "Khám phá danh mục đầy đủ",
@@ -101,7 +109,8 @@
         "libraries": "Thư viện tập lệnh",
         "languages": "Thử nghiệm ngôn ngữ",
         "automation": "Công cụ tự động hóa và dữ liệu",
-        "experience": "Kinh nghiệm chuyên môn và giáo dục"
+        "experience": "Kinh nghiệm chuyên môn và giáo dục",
+        "markets": "Thị trường và hệ thống giao dịch"
       },
       "browser_native": "Gốc trình duyệt / không máy chủ",
       "no_results": "Không có dự án phù hợp",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Khả năng truy cập",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Tính chính xác tài chính bắt đầu từ biểu diễn: số học xu nguyên và các bút toán cân bằng giúp việc di chuyển tiền trở nên rõ ràng."
         },
         "interop": {
-          "summary": "Tài liệu tham khảo đa ngôn ngữ bao trùm {languages} ngôn ngữ lập trình và {patterns} mẫu thực thi, khám phá điều xảy ra ở ranh giới thời gian chạy.",
+          "summary": "Một tài liệu tham chiếu đa ngôn ngữ bao gồm {languages} ngôn ngữ lập trình và {patterns} mẫu thực thi, khám phá điều gì xảy ra ở ranh giới runtime.",
           "lens": "Phần khó là hợp đồng giữa các thời gian chạy: trao đổi dữ liệu, hành vi tiến trình và thực thi lặp lại quan trọng hơn cú pháp."
         },
         "formatter": {
-          "summary": "Một bộ phân tích Go thực sự được biên dịch sang WebAssembly. Việc xác thực và định dạng JSON và YAML chạy cục bộ trong trình duyệt.",
-          "lens": "Chuyển bộ phân tích vào trình duyệt đổi tải trọng khách hàng lớn hơn lấy xử lý cục bộ, tính di động và ít phụ thuộc máy chủ hơn."
+          "summary": "Trình kiểm tra và định dạng WebAssembly viết bằng Zig cho JSON, YAML, XML, HTML, TOML, CSV và TSV. Việc xác thực và định dạng chạy cục bộ trong trình duyệt.",
+          "lens": "Định dạng là vấn đề tin cậy: phân tích bằng ngữ pháp thật, giữ nguyên văn bản của tác giả và giữ dữ liệu ở phía client."
         },
         "portfolio_website": {
           "summary": "Trang web bạn đang xem: danh mục React với 100+ ngôn ngữ, tương tác dễ truy cập và công cụ WebAssembly hoạt động.",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "Kết nối bốn",
-        "text": "Một đại gia đình với hơn {implementations} cách triển khai trò chơi Bốn liên tiếp. Dự án bao trùm hơn {languages} ngôn ngữ lập trình, bao gồm Java, C++, Python và JavaScript, cùng hơn {frameworks} framework, thư viện, thời gian chạy và cơ sở dữ liệu khác nhau, từ React, Angular và Blazor đến Django, Spring Boot, Phoenix, PostgreSQL và hơn thế.",
+        "text": "Một họ khổng lồ gồm {implementations} bản hiện thực của trò Connect Four. Dự án bao gồm {languages} ngôn ngữ lập trình, gồm Java, C++, Python và JavaScript, cùng {frameworks} framework, thư viện, runtime và cơ sở dữ liệu khác nhau, từ React, Angular và Blazor đến Django, Spring Boot, Phoenix, PostgreSQL và hơn thế nữa.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -280,7 +290,7 @@
       },
       "interop": {
         "title": "Dự án tương tác",
-        "text": "Tài liệu tham khảo về khả năng tương tác đa ngôn ngữ bao gồm {languages} ngôn ngữ lập trình và {patterns} mẫu thực thi. Dự án điều tra ranh giới nơi các hệ thống thường trở nên dễ vỡ: hợp đồng xử lý, trao đổi dữ liệu, hành vi thời gian chạy và các đường dẫn tích hợp có thể lặp lại. Nó phản ánh tư duy hệ thống cần thiết khi một sản phẩm lớn hơn một ngăn xếp đơn lẻ.",
+        "text": "Một tài liệu tham chiếu khả năng tương tác đa ngôn ngữ bao gồm {languages} ngôn ngữ lập trình và {patterns} mẫu thực thi. Dự án khảo sát ranh giới nơi hệ thống thường trở nên mong manh: hợp đồng tiến trình, trao đổi dữ liệu, hành vi runtime và các đường tích hợp có thể lặp lại. Nó phản ánh tư duy hệ thống cần thiết khi một sản phẩm lớn hơn một stack duy nhất.",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -294,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Trình định dạng tự động JSON & YAML",
-        "text": "Một công cụ định dạng và xác thực JSON và YAML dựa trên trình duyệt được tích hợp trong Go và được biên dịch sang WebAssugging. Việc di chuyển công cụ phân tích cú pháp vào WASM giúp tương tác phản hồi nhanh và cục bộ với trình duyệt trong khi áp dụng trình phân tích cú pháp thực sự để bắt đầu vào không hợp lệ. Đây là một ví dụ tập trung về việc chọn kiến ​​trúc thời gian chạy dựa trên hiệu suất, tính di động và sự tin cậy của người dùng.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter là trình kiểm tra và định dạng dựa trên trình duyệt cho JSON, YAML, XML, HTML, TOML, CSV và TSV. Engine Zig được biên dịch sang WebAssembly và chạy hoàn toàn trong trình duyệt: nó xác thực bằng parser thật, thụt lề lại tài liệu mà không viết lại nội dung, đồng thời giữ nguyên chú thích, neo, CDATA, dấu ngoặc và độ chính xác số. Dự án gồm ba bản hiện thực — Go, Rust và Zig — với các phiên bản trước được lưu trữ để so sánh.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -324,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "Thư viện script",
+        "text": "Một thư viện script tự động hóa hợp nhất, mỗi ngôn ngữ một trang: VBA cho bảng tính Excel, Lua cho công cụ nhẹ, PowerShell cho quản trị Windows, Python cho công việc dữ liệu hằng ngày và Ruby cho các thử nghiệm script. Mỗi script được viết để tái sử dụng, nên bộ sưu tập được duy trì như một dự án thay vì năm kho mã rải rác.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Dự án mã hóa Rijndael",
-        "text": "Một bộ so sánh gồm hơn {implementations} triển khai Rijndael trên các biến thể 128-, 192- và 256-bit. Việc triển khai lại thuật toán nhạy cảm về bảo mật trên các ngôn ngữ là một bài tập có kỷ luật về các thông số kỹ thuật chính xác, hành vi có thể kiểm tra được và các giới hạn về khả năng di chuyển ở cấp độ ngôn ngữ, tất cả các bản năng hữu ích cho các hệ thống xử lý dữ liệu nhạy cảm.",
+        "text": "Một tập hợp so sánh gồm {implementations} bản hiện thực Rijndael trên các biến thể 128, 192 và 256 bit. Việc hiện thực lại một thuật toán nhạy cảm về bảo mật trên nhiều ngôn ngữ là một bài tập kỷ luật về đặc tả chính xác, hành vi có thể kiểm thử và giới hạn tính khả chuyển ở cấp ngôn ngữ — tất cả đều là bản năng hữu ích cho các hệ thống xử lý dữ liệu nhạy cảm.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "Trình giải Rubik's Cube",
+        "text": "Một khối Rubik's Cube 3D tương tác mà bạn tô từng sticker — trên chính khối lập phương hoặc trên hình khai triển của nó — rồi giải bằng tìm kiếm hai pha kiểu Herbert Kociemba được biên dịch từ Rust sang WebAssembly. Giao diện Svelte dựng khối lập phương bằng three.js, giữ đồng bộ trạng thái đã tô, các kiểm tra hợp lệ và chuỗi facelet của trình giải, đồng thời phát lại lời giải theo từng nước trên dòng thời gian mà bạn có thể kéo, chuyển từng bước và phát lại.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -365,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Một trò chơi voxel kiểu Minecraft viết bằng Rust với wgpu và biên dịch sang WebAssembly, nên chơi trực tiếp trong trình duyệt. Đó là bản sandbox của arcade: địa hình dạng khối và thế giới voxel được vẽ qua một pipeline đồ họa hiện đại, viết từ đầu trên toolchain Rust thay vì trên một engine trò chơi.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Ngôn ngữ lập trình Tiger",
-        "text": "Ngôn ngữ lập trình tùy chỉnh và trình thông dịch được tích hợp trong Go để khám phá thiết kế thời gian chạy ngôn ngữ, hành vi thực thi và sự cân bằng hiệu suất. Việc biên dịch nó thành WebAssembly và tích hợp nó vào danh mục sẽ tạo ra bề mặt sản phẩm thực tế, có thể kiểm tra được cho kỹ thuật cấp hệ thống thay vì để công việc như một thử nghiệm chỉ dành cho kho lưu trữ.",
+        "text": "Một ngôn ngữ lập trình tùy biến và trình thông dịch viết bằng Rust để khám phá thiết kế runtime, hành vi thực thi và các đánh đổi hiệu năng. Trình thông dịch Go ban đầu vẫn được cung cấp như một bản hiện thực kế thừa. Biên dịch nó sang WebAssembly và tích hợp vào portfolio tạo ra một bề mặt sản phẩm thực sự có thể kiểm tra cho kỹ thuật hệ thống, thay vì để công việc chỉ là một thử nghiệm trong kho mã.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Dự án máy Turing",
-        "text": "Nhóm hơn {implementations} triển khai Máy Turing. Được sử dụng để chứng minh tính hoàn chỉnh của Turing đối với các ngôn ngữ lập trình khác nhau để nghiên cứu, đặc biệt là Ngôn ngữ lập trình Tiger.",
+        "text": "Họ {implementations} bản hiện thực Máy Turing. Dùng để chứng minh tính đầy đủ Turing cho các ngôn ngữ lập trình khác nhau phục vụ nghiên cứu, đặc biệt là ngôn ngữ lập trình Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Công cụ Cờ vua",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Engine cờ vua",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Một engine cờ vua viết bằng Rust và biên dịch sang WebAssembly. Nó tìm kiếm bằng negamax tăng độ sâu từng bước, cắt tỉa alfa-beta, bảng hoán vị 32 MB và tìm kiếm tĩnh ở các lá; đánh giá bằng bảng piece-square thu hẹp dần và sắp xếp nước đi theo MVV-LVA, killer và history. Engine chạy trong Web Worker để bàn cờ không bao giờ đóng băng, và bộ sinh nước đi được kiểm tra trong trình duyệt với các giá trị perft đã công bố — 20, 400, 8.902, 197.281 và 4.865.609 nút cho năm độ sâu đầu tiên."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 là một dự án tái thiết: thứ bắt đầu như một trò chơi CPSC 4160 dang dở thời đại học — giành những cuộn giấy vệ sinh cuối cùng và đến quầy thanh toán trước khi vi khuẩn làm bạn kiệt sức — đã được dựng lại từ đầu thành engine C++20 hiện đại trên SDL2 và biên dịch sang WebAssembly. Nó có mười lối đi tăng dần độ khó với AI vi khuẩn tuần tra và truy đuổi, vật phẩm, hạt và điều khiển cảm ứng, không có lối tắt nào của nguyên mẫu ban đầu."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "Một engine khớp lệnh sổ lệnh giới hạn tất định và có thể phát lại. Bản thân engine là Ruby thuần không có Rails, được Rails 8 phục vụ qua một tệp SQLite duy nhất. Mỗi lệnh được ghi vào write-ahead log trước khi engine nhìn thấy, nên mọi trạng thái quá khứ của sổ lệnh chỉ cách một lần gấp, và việc phát lại được chứng minh trung thực bằng cách so sánh các vân tay được ghi trong khi thị trường đang chạy trực tiếp. Ưu tiên giá-thời gian, GTC/IOC/FOK, các sửa đổi giữ hoặc mất vị trí hàng đợi và ngăn tự giao dịch được khẳng định bằng mười bốn bất biến sau mỗi lệnh trong một bộ fuzz có hạt giống. Trình duyệt nhận thang mười hertz qua Action Cable, còn các lệnh đi lên qua HTTP.",
+        "title": "Engine khớp lệnh PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Tôi trả lời các câu hỏi từ email và tin nhắn LinkedIn. Tôi cũng sẽ gọi lại nếu số của tôi được cung cấp qua sơ yếu lý lịch hoặc cách khác, mặc dù tôi muốn giữ số điện thoại của mình ở chế độ riêng tư."
   },
   "formatter": {
-    "title": "Kẻ nói dối JSON & YAML",
-    "description": "Một công cụ chất lượng dữ liệu dựa trên trình duyệt giúp xác thực và định dạng JSON và YAML bằng cách sử dụng công cụ Go được biên dịch sang WebAssembly. Kiến trúc tiếp tục phân tích cú pháp gần gũi với người dùng để có phản hồi nhanh chóng, riêng tư trong khi thực thi các quy tắc cú pháp thực tế ở ranh giới dữ liệu. Đây là một ví dụ nhỏ gọn về việc thiết kế quy trình làm việc đáng tin cậy của nhà phát triển xoay quanh tính chính xác, hiệu suất và độ tin cậy.",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter là công cụ chất lượng dữ liệu trên trình duyệt, xác thực và định dạng JSON, YAML, XML, HTML, TOML, CSV và TSV bằng engine Zig biên dịch sang WebAssembly. Việc phân tích vẫn ở gần người dùng để phản hồi nhanh và riêng tư, đồng thời áp đặt các quy tắc cú pháp thật tại ranh giới dữ liệu. Nó giữ nguyên văn bản của tác giả, từ chối đầu vào sai định dạng và cho thấy một mô-đun WebAssembly nhỏ có thể vận hành một quy trình làm việc đáng tin cậy cho nhà phát triển như thế nào.",
     "more_info1": "Để biết thêm thông tin, hãy tham khảo README trong",
-    "more_info2": "Kho lưu trữ định dạng JSON/YAML.",
+    "more_info2": "Kho lưu trữ Auto-Linter.",
     "format_as": "Định dạng dưới dạng:",
     "auto_detect": "Tự động phát hiện",
     "format": "Lint & Định dạng",
@@ -415,20 +436,22 @@
     "valid_yaml": "✓ YAML hợp lệ",
     "invalid_json": "JSON không hợp lệ",
     "invalid_yaml": "YAML không hợp lệ",
-    "empty_input": "Vui lòng nhập một số JSON hoặc YAML để tìm lỗi mã nguồn.",
+    "empty_input": "Hãy nhập JSON, YAML, XML, HTML, TOML, CSV hoặc TSV để kiểm tra.",
     "too_large": "Đầu vào quá lớn (cho phép tối đa 1MB).",
     "fixed_yaml_spacing": "⚠ YAML có khoảng cách/thụt lề không hợp lệ nhưng đã được tự động sửa và định dạng.",
-    "loading": "Đang tải bộ định dạng...",
+    "loading": "Đang tải Auto-Linter...",
     "waiting_for_input": "Đang chờ nhập liệu...",
-    "load_failed": "Không thể tải định dạng.",
+    "load_failed": "Không thể tải Auto-Linter.",
     "output": "Đầu ra:",
     "input_code": "đầu vào",
     "json_examples": "Ví dụ về JSON",
-    "yaml_examples": "Ví dụ về YAML"
+    "yaml_examples": "Ví dụ về YAML",
+    "legacy_repo": "Xem bản hiện thực Go kế thừa",
+    "legacy_rust": "Xem bản hiện thực Rust kế thừa"
   },
   "tiger": {
     "title": "Ngôn ngữ hổ",
-    "description": "Tiger là ngôn ngữ lập trình tùy chỉnh và trình thông dịch Go được xây dựng để khám phá kiến ​​trúc thời gian chạy, ngữ nghĩa ngôn ngữ và sự cân bằng hiệu suất. Việc biên dịch trình thông dịch sang WebAssugging biến hệ thống đó hoạt động thành một sản phẩm tương tác dựa trên trình duyệt: người dùng có thể thực thi chương trình trực tiếp trong khi thời gian chạy vẫn có thể di chuyển được và bị cô lập khỏi ứng dụng máy chủ.",
+    "description": "Tiger là một ngôn ngữ lập trình tùy biến đạt chuẩn sản xuất và một trình thông dịch viết bằng Rust hướng tới hiệu năng. Engine bytecode đã biên dịch và trình thông dịch tham chiếu kiểu duyệt cây luôn đồng bộ trên bộ dữ liệu chuẩn gồm 44 chương trình, còn giao thức in-process đi kèm giữ runtime ngang bằng hoặc vượt CPython ở mọi phần được kiểm tra, với hiệu năng cạnh tranh trực tiếp với Python và Ruby cho việc viết script hằng ngày. Trình thông dịch Go ban đầu vẫn được cung cấp như một bản hiện thực kế thừa. Việc biên dịch trình thông dịch sang WebAssembly biến công việc hệ thống này thành một sản phẩm tương tác trên trình duyệt: người dùng có thể chạy chương trình trực tiếp trong khi runtime vẫn khả chuyển và tách biệt khỏi ứng dụng chủ.",
     "more_info1": "Để biết thêm thông tin, hãy tham khảo README trong",
     "more_info2": "Kho lưu trữ GitHub của ngôn ngữ lập trình Tiger.",
     "select_engine": "Chọn động cơ:",
@@ -436,7 +459,8 @@
     "run_tiger": "Chạy hổ",
     "output": "Đầu ra:",
     "stop": "Dừng",
-    "program_input": "Đầu vào chương trình"
+    "program_input": "Đầu vào chương trình",
+    "legacy_repo": "Xem bản hiện thực Go kế thừa"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Phóng to",
         "zoom_out": "Thu nhỏ",
         "reset": "Đặt lại chế độ xem"
+      },
+      "country_names": {
+        "show": "Hiện tên quốc gia",
+        "hide": "Ẩn tên quốc gia"
       }
     },
     "supported_languages": {

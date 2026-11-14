@@ -8,8 +8,8 @@
     "tiger": "Tiger - தனிப்பயன் நிரலாக்க மொழி",
     "snake": "பாம்பு விளையாட்டு",
     "portfolio_translator": "போர்ட்ஃபோலியோ மொழிபெயர்ப்பாளர்",
-    "formatter": "JSON & YAML சரிபார்ப்பி",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "ரூபிக் க்யூப் தீர்வு",
     "contact": "என்னை தொடர்பு கொள்ளவும்",
     "home_description": "sys.root // முதன்மை கண்ணோட்டம்",
     "about_description": "பொறியாளர் சுயவிவரம் // சுயவிவரம் மற்றும் தொழில்நுட்பம்",
@@ -18,18 +18,26 @@
     "tiger_description": "தனிப்பயன் தொகுப்பி மற்றும் AST காட்சியாக்கி",
     "snake_description": "உன்னதமான ஆர்கேட் விளையாட்டு / WASM",
     "portfolio_translator_description": "100+ மொழி அணி மற்றும் i18n",
-    "formatter_description": "தொடரியல் சரிபார்ப்பி மற்றும் மாற்றி",
+    "formatter_description": "பல வடிவ linter மற்றும் formatter // WASM",
     "contact_description": "திறந்த பரிமாற்றம் // என்னைத் தொடர்பு கொள்ளவும்",
     "arcade": "ஆர்கேட்",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "நான்கு கோடு மொழி மரம்",
+    "connect_four": "Connect Four",
     "alkalab_description": "வேதியியல் ஆய்வக உருவகப்படுத்துதல் / WASM",
     "rustcraft_description": "Minecraft பாணி வோக்செல் விளையாட்டு / Rust மற்றும் wgpu",
     "suprememc_description": "Minecraft மோட் காட்சியகம் / Java",
     "chess_engine": "சதுரங்க இயந்திரம்",
-    "chess_engine_description": "பிட்போர்டு எஞ்சின் / WASM & தொழிலாளி"
+    "chess_engine_description": "bitboard இயந்திரம் / WASM மற்றும் worker",
+    "framework_trees": "கட்டமைப்பு மரங்கள்",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael மறையாக்கம்",
+    "interops": "Interops",
+    "scripting_library_description": "தானியங்கு ஸ்கிரிப்ட்கள் // 6 மொழிகள்",
+    "reclaim_4160_description": "கல்லூரி விளையாட்டு, மீட்கப்பட்டது / C++ மற்றும் WASM",
+    "turing_machines": "Turing இயந்திரங்கள்",
+    "scripting_library": "ஸ்கிரிப்ட் நூலகம்"
   },
   "home": {
     "title": "மூத்த முழு அடுக்கு பொறியாளர் | தயாரிப்பு & அமைப்புகள்",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "சிறப்பம்சமான திட்டங்கள்",
       "title": "தேர்ந்தெடுக்கப்பட்ட படைப்புகள்",
-      "description": "லட்சிய யோசனைகளை மெருகூட்டப்பட்ட, செயல்படும் மென்பொருளாக நான் எப்படி மாற்றுகிறேன் என்பதை சிறப்பாகப் பிரதிநிதித்துவப்படுத்தும் ஆறு திட்டங்கள்.",
+      "description": "நான் லட்சியமிக்க யோசனைகளைச் செதுக்கப்பட்ட, செயல்படும் மென்பொருளாக எவ்வாறு மாற்றுகிறேன் என்பதைச் சிறப்பாகக் காட்டும் திட்டங்கள்.",
       "view_project": "திட்டத்தைப் பார்க்கவும்",
       "open_project": "நேரடி திட்டத்தைத் திற",
       "view_all": "முழு போர்ட்ஃபோலியோவை ஆராயுங்கள்",
@@ -101,7 +109,8 @@
         "libraries": "ஸ்கிரிப்ட் நூலகங்கள்",
         "languages": "மொழி சோதனைகள்",
         "automation": "தானியங்கி & தரவு கருவிகள்",
-        "experience": "தொழில்முறை & கல்வி அனுபவம்"
+        "experience": "தொழில்முறை & கல்வி அனுபவம்",
+        "markets": "சந்தைகள் மற்றும் வர்த்தக அமைப்புகள்"
       },
       "browser_native": "உலாவி-சொந்த / சேவையகம் இல்லை",
       "no_results": "பொருந்தும் திட்டங்கள் இல்லை",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "அணுகல்தன்மை",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "நிதி சரியானது பிரதிநிதித்துவத்துடன் தொடங்குகிறது: முழு-சென்ட் எண்கணிதம் மற்றும் சமநிலையான பதிவுகள் பண இயக்கத்தை தெளிவாக்குகின்றன."
         },
         "interop": {
-          "summary": "{languages} நிரலாக்க மொழிகள் மற்றும் {patterns} செயலாக்க முறைகளை உள்ளடக்கிய குறுக்கு-மொழி குறிப்பு, ரன் டைம் எல்லைகளில் என்ன நடக்கிறது என்பதை ஆராய்கிறது.",
+          "summary": "பல மொழி குறிப்பு {languages} நிரலாக்க மொழிகள் மற்றும் {patterns} செயல்படுத்தல் முறைகளை உள்ளடக்கி, runtime எல்லைகளில் என்ன நடக்கிறது என்பதை ஆராய்கிறது.",
           "lens": "கடினமான பகுதி ரன்டைம்களுக்கு இடையிலான ஒப்பந்தம்: தரவு பரிமாற்றம், செயல்முறை நடத்தை மற்றும் மீண்டும் செயலாக்குதல் ஆகியவை தொடரியலை விட முக்கியம்."
         },
         "formatter": {
-          "summary": "WebAssembly ஆக தொகுக்கப்பட்ட உண்மையான Go பகுப்பாய்வு எந்திரம். JSON மற்றும் YAML சரிபார்த்தல் மற்றும் வடிவமைத்தல் உலாவியில் உள்நாட்டில் இயங்கும்.",
-          "lens": "பாகுபடுத்தியை உலாவிக்கு நகர்த்துவது பெரிய கிளையன் சுமைக்கு ஈடாக உள்ளூர் செயலாக்கம், போர்ட்டபிலிட்டி மற்றும் குறைவான சேவையக சார்புகளைப் பெறுகிறது."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV மற்றும் TSV க்கு Zig இல் எழுதப்பட்ட WebAssembly linter மற்றும் formatter. சரிபார்ப்பு மற்றும் வடிவமைப்பு உலாவியில் உள்ளூரில் இயங்கும்.",
+          "lens": "வடிவமைப்பு நம்பிக்கையின் விஷயம்: உண்மையான இலக்கணத்துடன் பகுப்பாய்வு செய்யுங்கள், ஆசிரியரின் உரையைப் பாதுகாக்கவும், தரவை வாடிக்கையாளரிடம் வைக்கவும்."
         },
         "portfolio_website": {
           "summary": "நீங்கள் இருக்கும் தளம்: 100+ மொழிகள், அணுகக்கூடிய தொடர்புகள் மற்றும் செயல்படும் WebAssembly கருவிகளைக் கொண்ட React போர்ட்ஃபோலியோ.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML ஆட்டோ ஃபார்மேட்டர்",
+        "title": "Auto-Linter",
         "text": "உலாவி அடிப்படையிலான JSON மற்றும் YAML சரிபார்ப்பு மற்றும் வடிவமைத்தல் கருவி Go இல் கட்டமைக்கப்பட்டு WebAssembly இல் தொகுக்கப்பட்டது. பாகுபடுத்தும் இயந்திரத்தை WASM க்கு நகர்த்துவது, தவறான உள்ளீட்டைப் பிடிக்க உண்மையான பாகுபடுத்தியைப் பயன்படுத்தும் போது, ​​ஊடாடுதலைப் பதிலளிக்கக்கூடியதாகவும், உலாவிக்கு உள்ளூர்தாகவும் வைத்திருக்கும். செயல்திறன், பெயர்வுத்திறன் மற்றும் பயனர் நம்பிக்கைக்கான இயக்க நேரக் கட்டமைப்பைத் தேர்ந்தெடுப்பதற்கு இது ஒரு மையப்படுத்தப்பட்ட எடுத்துக்காட்டு.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "ஸ்கிரிப்ட் நூலகம்",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "ரிஜான்டெல் குறியாக்க திட்டம்",
-        "text": "128-, 192- மற்றும் 256-பிட் வகைகளில் {implementations} Rijndael செயலாக்கங்களின் ஒப்பீட்டு தொகுப்பு. மொழிகள் முழுவதும் பாதுகாப்பு-உணர்திறன் அல்காரிதத்தை மீண்டும் செயல்படுத்துவது என்பது சரியான விவரக்குறிப்புகள், சோதிக்கக்கூடிய நடத்தை மற்றும் மொழி-நிலை பெயர்வுத்திறன் வரம்புகள் ஆகியவற்றில் ஒரு ஒழுங்குபடுத்தப்பட்ட பயிற்சியாகும். முக்கியமான தரவுகளைக் கையாளும் அமைப்புகளுக்கான அனைத்து பயனுள்ள உள்ளுணர்வுகளும்.",
+        "title": "Rijndael மறையாக்க திட்டம்",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "ரூபிக் க்யூப் தீர்வு",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "டூரிங் மெஷின் திட்டம்",
-        "text": "டூரிங் இயந்திரத்தின் {implementations}க்கும் மேற்பட்ட செயலாக்கங்களைக் கொண்ட குடும்பம். ஆராய்ச்சிக்காக, குறிப்பாக டைகர் புரோகிராமிங் மொழிக்கு வெவ்வேறு நிரலாக்க மொழிகளுக்கு ட்யூரிங் முழுமையை நிரூபிக்கப் பயன்படுகிறது.",
+        "text": "Turing இயந்திரத்தின் {implementations} செயல்படுத்தல்களின் குடும்பம். ஆராய்ச்சிக்காக பல்வேறு நிரலாக்க மொழிகளின் turing முழுமையை விளக்கப் பயன்படுகிறது, குறிப்பாக Tiger மொழிக்கு.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "சதுரங்க இயந்திரம்",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT பொருத்த இயந்திரம்"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "மின்னஞ்சல் மற்றும் லிங்க்ட்இன் செய்திகளிலிருந்து கேட்கப்படும் கேள்விகளுக்கு நான் பதிலளிக்கிறேன். எனது ஃபோன் எண்ணை தனிப்பட்ட முறையில் வைத்திருக்க விரும்பினாலும், எனது எண்ணை ரெஸ்யூம் மூலமாகவோ அல்லது வேறுவிதமாகவோ வழங்கினால் மீண்டும் அழைப்பேன்."
   },
   "formatter": {
-    "title": "JSON & YAML லின்டர்",
+    "title": "Auto-Linter",
     "description": "WebAssembly இல் தொகுக்கப்பட்ட Go இன்ஜினைப் பயன்படுத்தி JSON மற்றும் YAMLஐச் சரிபார்த்து வடிவமைக்கும் உலாவி அடிப்படையிலான தரவுத் தரக் கருவி. தரவு எல்லையில் உண்மையான தொடரியல் விதிகளைச் செயல்படுத்தும் போது, ​​கட்டிடக்கலையானது வேகமான, தனிப்பட்ட கருத்துக்களுக்காக பயனருக்கு நெருக்கமாக பாகுபடுத்துகிறது. துல்லியம், செயல்திறன் மற்றும் நம்பிக்கையைச் சுற்றி நம்பகமான டெவலப்பர் பணிப்பாய்வு வடிவமைப்பதற்கான ஒரு சிறிய உதாரணம் இது.",
     "more_info1": "மேலும் தகவலுக்கு, இல் உள்ள README ஐப் பார்க்கவும்",
-    "more_info2": "JSON/YAML ஃபார்மேட்டர் களஞ்சியம்.",
+    "more_info2": "Auto-Linter களஞ்சியம்.",
     "format_as": "வடிவம்:",
     "auto_detect": "தானாக கண்டறிதல்",
     "format": "லிண்ட் & வடிவம்",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ செல்லுபடியாகும் YAML",
     "invalid_json": "தவறான JSON",
     "invalid_yaml": "தவறான YAML",
-    "empty_input": "லின்ட் செய்ய சில JSON அல்லது YAML ஐ உள்ளிடவும்.",
+    "empty_input": "சரிபார்க்க JSON, YAML, XML, HTML, TOML, CSV அல்லது TSV உள்ளிடவும்.",
     "too_large": "உள்ளீடு மிகவும் பெரியது (அதிகபட்சம் 1MB அனுமதிக்கப்படுகிறது).",
     "fixed_yaml_spacing": "⚠ YAML இல் தவறான இடைவெளி/இன்டென்டேஷன் இருந்தது, ஆனால் தானாக சரி செய்யப்பட்டு வடிவமைக்கப்பட்டது.",
-    "loading": "ஃபார்மேட்டரை ஏற்றுகிறது...",
+    "loading": "Auto-Linter ஏற்றப்படுகிறது...",
     "waiting_for_input": "உள்ளீட்டிற்காக காத்திருக்கிறது...",
-    "load_failed": "வடிவமைப்பை ஏற்ற முடியவில்லை.",
+    "load_failed": "Auto-Linter ஐ ஏற்ற முடியவில்லை.",
     "output": "வெளியீடு:",
     "input_code": "உள்ளீடு",
     "json_examples": "JSON எடுத்துக்காட்டுகள்",
-    "yaml_examples": "YAML எடுத்துக்காட்டுகள்"
+    "yaml_examples": "YAML எடுத்துக்காட்டுகள்",
+    "legacy_repo": "பழைய Go செயல்படுத்தலைப் பார்",
+    "legacy_rust": "பழைய Rust செயல்படுத்தலைப் பார்"
   },
   "tiger": {
     "title": "புலி மொழி",
@@ -436,7 +459,8 @@
     "run_tiger": "டைகர் இயக்கவும்",
     "output": "வெளியீடு:",
     "stop": "நிறுத்து",
-    "program_input": "நிரல் உள்ளீடு"
+    "program_input": "நிரல் உள்ளீடு",
+    "legacy_repo": "பழைய Go செயல்படுத்தலைப் பார்"
   },
   "tab": {
     "title": "பேட்ரிக் குட்வின்",
@@ -501,6 +525,10 @@
         "zoom_in": "பெரிதாக்கவும்",
         "zoom_out": "பெரிதாக்கவும்",
         "reset": "பார்வையை மீட்டமைக்கவும்"
+      },
+      "country_names": {
+        "show": "நாடுகளின் பெயர்களைக் காட்டு",
+        "hide": "நாடுகளின் பெயர்களை மறை"
       }
     },
     "supported_languages": {

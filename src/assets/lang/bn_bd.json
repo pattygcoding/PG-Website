@@ -8,8 +8,8 @@
     "tiger": "Tiger - একটি কাস্টম প্রোগ্রামিং ভাষা",
     "snake": "সাপের খেলা",
     "portfolio_translator": "পোর্টফোলিও অনুবাদক",
-    "formatter": "JSON ও YAML লিন্টার",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "রুবিক কিউব সমাধানকারী",
     "contact": "আমার সাথে যোগাযোগ করুন",
     "home_description": "sys.root // প্রধান ওভারভিউ",
     "about_description": "প্রকৌশলী প্রোফাইল // বায়ো ও প্রযুক্তি স্ট্যাক",
@@ -18,16 +18,26 @@
     "tiger_description": "কাস্টম কম্পাইলার এবং AST ভিজ্যুয়ালাইজার",
     "snake_description": "ক্লাসিক আর্কেড গেম / WASM",
     "portfolio_translator_description": "100+ ভাষা ম্যাট্রিক্স এবং i18n",
-    "formatter_description": "সিনট্যাক্স ভ্যালিডেটর এবং কনভার্টার",
+    "formatter_description": "বহু-ফরম্যাট linter ও formatter // WASM",
     "contact_description": "খোলা সংক্রমণ // যোগাযোগ করুন",
     "arcade": "আর্কেড",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "চার সারি ভাষা গাছ",
+    "connect_four": "Connect Four",
     "alkalab_description": "রসায়ন ল্যাব সিমুলেশন / WASM",
     "rustcraft_description": "Minecraft-স্টাইল ভক্সেল গেম / Rust এবং wgpu",
-    "suprememc_description": "Minecraft মোড শোকেস / Java"
+    "suprememc_description": "Minecraft মোড শোকেস / Java",
+    "framework_trees": "ফ্রেমওয়ার্ক গাছ",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael এনক্রিপশন",
+    "chess_engine": "দাবা ইঞ্জিন",
+    "interops": "Interops",
+    "chess_engine_description": "bitboard ইঞ্জিন / WASM ও ওয়ার্কার",
+    "scripting_library_description": "অটোমেশন স্ক্রিপ্ট // ৬টি ভাষা",
+    "reclaim_4160_description": "কলেজ গেম, পুনরুদ্ধারকৃত / C++ ও WASM",
+    "turing_machines": "Turing মেশিন",
+    "scripting_library": "স্ক্রিপ্ট লাইব্রেরি"
   },
   "home": {
     "title": "সিনিয়র ফুল-স্ট্যাক ইঞ্জিনিয়ার | পণ্য ও সিস্টেম",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "নির্বাচিত প্রকল্প",
       "title": "নির্বাচিত কাজ",
-      "description": "ছয়টি প্রকল্প যা সবচেয়ে ভালোভাবে প্রতিনিধিত্ব করে আমি কীভাবে উচ্চাকাঙ্ক্ষী ধারণাকে পালিশকৃত, কার্যকর সফটওয়্যারে পরিণত করি।",
+      "description": "যে প্রকল্পগুলো সবচেয়ে ভালোভাবে দেখায় কীভাবে আমি উচ্চাভিলাষী ধারণাগুলোকে নিখুঁত, কার্যকর সফটওয়্যারে রূপান্তর করি।",
       "view_project": "প্রকল্প দেখুন",
       "open_project": "লাইভ প্রকল্প খুলুন",
       "view_all": "সম্পূর্ণ পোর্টফোলিও অন্বেষণ করুন",
@@ -99,7 +109,8 @@
         "libraries": "স্ক্রিপ্ট লাইব্রেরি",
         "languages": "ভাষা পরীক্ষা",
         "automation": "অটোমেশন ও ডেটা টুল",
-        "experience": "পেশাদার ও শিক্ষাগত অভিজ্ঞতা"
+        "experience": "পেশাদার ও শিক্ষাগত অভিজ্ঞতা",
+        "markets": "বাজার ও ট্রেডিং সিস্টেম"
       },
       "browser_native": "ব্রাউজার-নেটিভ / সার্ভার ছাড়া",
       "no_results": "কোনো মিলে যাওয়া প্রকল্প নেই",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "অ্যাক্সেসিবিলিটি",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "আর্থিক সঠিকতা উপস্থাপনা দিয়ে শুরু হয়: পূর্ণ-সেন্ট পাটিগণিত এবং ভারসাম্যপূর্ণ খতিয়ান এন্ট্রি অর্থের চলাচলকে স্পষ্ট করে।"
         },
         "interop": {
-          "summary": "{languages}টি প্রোগ্রামিং ভাষা এবং {patterns}টি নির্বাহ প্যাটার্ন জুড়ে বিস্তৃত একটি ক্রস-ভাষা রেফারেন্স, যা রানটাইম সীমানায় কী ঘটে তা অন্বেষণ করে।",
+          "summary": "বহু-ভাষার রেফারেন্স যা {languages} প্রোগ্রামিং ভাষা ও {patterns} এক্সিকিউশন প্যাটার্ন জুড়ে থাকে এবং runtime সীমানায় কী ঘটে তা অনুসন্ধান করে।",
           "lens": "কঠিন অংশটি হ'ল রানটাইমগুলির মধ্যে চুক্তি: ডেটা বিনিময়, প্রক্রিয়া আচরণ এবং পুনরাবৃত্তিযোগ্য নির্বাহ সিনট্যাক্সের চেয়ে গুরুত্বপূর্ণ।"
         },
         "formatter": {
-          "summary": "WebAssembly-এ কম্পাইল করা একটি প্রকৃত Go পার্সিং ইঞ্জিন। JSON এবং YAML যাচাই ও ফরম্যাটিং ব্রাউজারে স্থানীয়ভাবে চলে।",
-          "lens": "পার্সারকে ব্রাউজারে সরানো একটি বড় ক্লায়েন্ট পেলোডকে স্থানীয় প্রক্রিয়াকরণ, পোর্টেবিলিটি এবং কম সার্ভার নির্ভরতার সাথে বিনিময় করে।"
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV ও TSV-এর জন্য Zig-এ লেখা WebAssembly linter ও formatter। যাচাই ও ফরম্যাট ব্রাউজারে স্থানীয়ভাবে চলে।",
+          "lens": "ফরম্যাটিং আস্থার বিষয়: প্রকৃত ব্যাকরণ দিয়ে পার্স করুন, লেখকের পাঠ্য সংরক্ষণ করুন এবং ডেটা ক্লায়েন্টে রাখুন।"
         },
         "portfolio_website": {
           "summary": "আপনি যে সাইটে আছেন: 100+ ভাষা, অ্যাক্সেসযোগ্য ইন্টারঅ্যাকশন এবং কার্যকর WebAssembly টুলসহ একটি React পোর্টফোলিও।",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON এবং YAML অটো ফরম্যাটার",
+        "title": "Auto-Linter",
         "text": "একটি ব্রাউজার-ভিত্তিক JSON এবং YAML যাচাইকরণ এবং ফর্ম্যাটিং টুল Go-তে তৈরি এবং WebAssembly-এ কম্পাইল করা হয়েছে। WASM-এ পার্সিং ইঞ্জিন স্থানান্তর করা অবৈধ ইনপুট ধরার জন্য একটি বাস্তব পার্সার প্রয়োগ করার সময় মিথস্ক্রিয়া প্রতিক্রিয়াশীল এবং ব্রাউজারে স্থানীয় রাখে। এটি কার্যক্ষমতা, বহনযোগ্যতা এবং ব্যবহারকারীর বিশ্বাসের জন্য একটি রানটাইম আর্কিটেকচার বেছে নেওয়ার একটি নিবদ্ধ উদাহরণ।",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "স্ক্রিপ্ট লাইব্রেরি",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "রিজান্ডেল এনক্রিপশন প্রকল্প",
-        "text": "128-, 192-, এবং 256-বিট ভেরিয়েন্ট জুড়ে {implementations} Rijndael বাস্তবায়নের একটি তুলনামূলক সেট। ভাষা জুড়ে একটি নিরাপত্তা-সংবেদনশীল অ্যালগরিদম পুনরায় প্রয়োগ করা সঠিক বৈশিষ্ট্য, পরীক্ষাযোগ্য আচরণ এবং ভাষা-স্তরের বহনযোগ্যতার সীমাতে একটি সুশৃঙ্খল অনুশীলন, সংবেদনশীল ডেটা পরিচালনা করে এমন সিস্টেমের জন্য সমস্ত দরকারী প্রবৃত্তি।",
+        "title": "Rijndael এনক্রিপশন প্রকল্প",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "রুবিক কিউব সমাধানকারী",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "টুরিং মেশিন প্রকল্প",
-        "text": "টিউরিং মেশিনের {implementations} এর বেশি বাস্তবায়নের পরিবার। গবেষণার জন্য বিভিন্ন প্রোগ্রামিং ল্যাঙ্গুয়েজ, বিশেষ করে টাইগার প্রোগ্রামিং ল্যাঙ্গুয়েজের জন্য সম্পূর্ণতা প্রদর্শন করতে ব্যবহৃত হয়।",
+        "text": "Turing মেশিনের {implementations} বাস্তবায়নের পরিবার। গবেষণার জন্য বিভিন্ন প্রোগ্রামিং ভাষার turing completeness দেখাতে ব্যবহৃত হয়, বিশেষত Tiger প্রোগ্রামিং ভাষার জন্য।",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "দাবা ইঞ্জিন",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT ম্যাচিং ইঞ্জিন"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "আমি ইমেল এবং লিঙ্কডইন বার্তা থেকে অনুসন্ধানের জবাব দিই। আমি আবার কল করব যদি আমার নম্বরটি জীবনবৃত্তান্তের মাধ্যমে বা অন্যথায় দেওয়া হয়, যদিও আমি আমার ফোন নম্বর ব্যক্তিগত রাখতে পছন্দ করি।"
   },
   "formatter": {
-    "title": "JSON এবং YAML লিন্টার",
+    "title": "Auto-Linter",
     "description": "একটি ব্রাউজার-ভিত্তিক ডেটা গুণমানের টুল যা WebAssembly-এ কম্পাইল করা Go ইঞ্জিন ব্যবহার করে JSON এবং YAML-কে যাচাই করে এবং ফর্ম্যাট করে। ডেটা সীমানায় বাস্তব সিনট্যাক্স নিয়ম প্রয়োগ করার সময় আর্কিটেকচার দ্রুত, ব্যক্তিগত প্রতিক্রিয়ার জন্য ব্যবহারকারীর কাছাকাছি পার্সিং রাখে। এটি সঠিকতা, কর্মক্ষমতা এবং বিশ্বাসের চারপাশে নির্ভরযোগ্য বিকাশকারী কর্মপ্রবাহ ডিজাইন করার একটি কম্প্যাক্ট উদাহরণ।",
     "more_info1": "আরও তথ্যের জন্য, README দেখুন",
-    "more_info2": "JSON/YAML ফর্ম্যাটার সংগ্রহস্থল।",
+    "more_info2": "Auto-Linter রিপোজিটরি।",
     "format_as": "ফর্ম্যাট হিসাবে:",
     "auto_detect": "অটো ডিটেক্ট",
     "format": "লিন্ট এবং ফরম্যাট",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ বৈধ YAML",
     "invalid_json": "অবৈধ JSON",
     "invalid_yaml": "অবৈধ YAML",
-    "empty_input": "অনুগ্রহ করে লিন্ট করতে কিছু JSON বা YAML লিখুন।",
+    "empty_input": "যাচাই করতে JSON, YAML, XML, HTML, TOML, CSV বা TSV লিখুন।",
     "too_large": "ইনপুট খুব বড় (সর্বোচ্চ 1MB অনুমোদিত)।",
     "fixed_yaml_spacing": "⚠ YAML এর অবৈধ ব্যবধান/ইন্ডেন্টেশন ছিল কিন্তু স্বয়ংক্রিয়ভাবে স্থির করা হয়েছে এবং ফর্ম্যাট করা হয়েছে।",
-    "loading": "ফর্ম্যাটার লোড হচ্ছে...",
+    "loading": "Auto-Linter লোড হচ্ছে...",
     "waiting_for_input": "ইনপুটের জন্য অপেক্ষা করা হচ্ছে...",
-    "load_failed": "ফরম্যাটার লোড করতে অক্ষম।",
+    "load_failed": "Auto-Linter লোড করা যায়নি।",
     "output": "আউটপুট:",
     "input_code": "ইনপুট",
     "json_examples": "JSON উদাহরণ",
-    "yaml_examples": "YAML উদাহরণ"
+    "yaml_examples": "YAML উদাহরণ",
+    "legacy_repo": "পুরোনো Go বাস্তবায়ন দেখুন",
+    "legacy_rust": "পুরোনো Rust বাস্তবায়ন দেখুন"
   },
   "tiger": {
     "title": "বাঘের ভাষা",
@@ -433,7 +459,8 @@
     "run_tiger": "চালান বাঘ",
     "output": "আউটপুট:",
     "stop": "থামুন",
-    "program_input": "প্রোগ্রাম ইনপুট"
+    "program_input": "প্রোগ্রাম ইনপুট",
+    "legacy_repo": "পুরোনো Go বাস্তবায়ন দেখুন"
   },
   "tab": {
     "title": "প্যাট্রিক গুডউইন",
@@ -498,6 +525,10 @@
         "zoom_in": "জুম ইন করুন",
         "zoom_out": "জুম আউট করুন",
         "reset": "ভিউ রিসেট করুন"
+      },
+      "country_names": {
+        "show": "দেশের নাম দেখান",
+        "hide": "দেশের নাম লুকান"
       }
     },
     "supported_languages": {

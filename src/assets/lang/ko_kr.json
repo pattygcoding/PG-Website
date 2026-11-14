@@ -8,8 +8,8 @@
     "tiger": "Tiger - 커스텀 프로그래밍 언어",
     "snake": "스네이크 게임",
     "portfolio_translator": "포트폴리오 번역기",
-    "formatter": "JSON 및 YAML 린터",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "루빅 큐브 솔버",
     "contact": "저에게 연락하세요",
     "home_description": "sys.root // 메인 개요",
     "about_description": "엔지니어 프로필 // 소개 및 스택",
@@ -18,18 +18,26 @@
     "tiger_description": "커스텀 컴파일러 및 AST 시각화 도구",
     "snake_description": "클래식 아케이드 게임 / WASM",
     "portfolio_translator_description": "100+ 언어 매트릭스 및 i18n",
-    "formatter_description": "구문 검증기 및 변환기",
+    "formatter_description": "다중 포맷 린터 및 포맷터 // WASM",
     "contact_description": "공개 전송 // 연락하기",
     "arcade": "아케이드",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "커넥트 포 언어 트리",
+    "connect_four": "Connect Four",
     "alkalab_description": "화학 실험실 시뮬레이션 / WASM",
     "rustcraft_description": "Minecraft풍 복셀 게임 / Rust 및 wgpu",
     "suprememc_description": "Minecraft 모드 쇼케이스 / Java",
     "chess_engine": "체스 엔진",
-    "chess_engine_description": "비트보드 엔진/WASM 및 작업자"
+    "chess_engine_description": "비트보드 엔진 / WASM 및 워커",
+    "framework_trees": "프레임워크 트리",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael 암호화",
+    "interops": "Interops",
+    "scripting_library_description": "자동화 스크립트 // 6개 언어",
+    "reclaim_4160_description": "대학 게임, 복구 / C++ 및 WASM",
+    "turing_machines": "튜링 기계",
+    "scripting_library": "스크립트 라이브러리"
   },
   "home": {
     "title": "수석 풀스택 엔지니어 | 제품 및 시스템",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "추천 프로젝트",
       "title": "선별된 작업",
-      "description": "야심 찬 아이디어를 다듬어진 작동하는 소프트웨어로 바꾸는 방식을 가장 잘 보여주는 여섯 개 프로젝트.",
+      "description": "야심 찬 아이디어를 다듬어진 동작하는 소프트웨어로 바꾸는 방식을 가장 잘 보여 주는 프로젝트.",
       "view_project": "프로젝트 보기",
       "open_project": "라이브 프로젝트 열기",
       "view_all": "전체 포트폴리오 탐색",
@@ -101,7 +109,8 @@
         "libraries": "스크립트 라이브러리",
         "languages": "언어 실험",
         "automation": "자동화 및 데이터 도구",
-        "experience": "전문 및 교육 경력"
+        "experience": "전문 및 교육 경력",
+        "markets": "시장 및 트레이딩 시스템"
       },
       "browser_native": "브라우저 네이티브 / 서버 불필요",
       "no_results": "일치하는 프로젝트가 없습니다",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "접근성",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "재무 정확성은 표기에서 시작됩니다. 정수 센트 연산과 균형 잡힌 원장 항목이 자금 이동을 명확하게 만듭니다."
         },
         "interop": {
-          "summary": "{languages}개 프로그래밍 언어와 {patterns}개 실행 패턴을 아우르는 언어 간 레퍼런스로, 런타임 경계에서 일어나는 일을 탐구합니다.",
+          "summary": "{languages}개의 프로그래밍 언어와 {patterns}개의 실행 패턴을 아우르는 언어 간 참조 자료로, 런타임 경계에서 일어나는 일을 살펴봅니다.",
           "lens": "어려운 부분은 런타임 간의 계약입니다. 데이터 교환, 프로세스 동작, 재현 가능한 실행이 문법보다 중요합니다."
         },
         "formatter": {
-          "summary": "WebAssembly로 컴파일된 실제 Go 파싱 엔진. JSON 및 YAML 검증과 형식화가 브라우저에서 로컬로 실행됩니다.",
-          "lens": "파서를 브라우저로 옮기면 더 큰 클라이언트 페이로드를 대가로 로컬 처리, 이식성, 더 적은 서버 의존성을 얻습니다."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV, TSV를 위한 Zig 기반 WebAssembly 린터 및 포맷터. 검증과 포맷팅은 브라우저에서 로컬로 실행됩니다.",
+          "lens": "포맷팅은 신뢰의 문제입니다. 실제 문법으로 파싱하고, 작성자의 텍스트를 보존하며, 데이터를 클라이언트에 둡니다."
         },
         "portfolio_website": {
           "summary": "지금 보고 있는 사이트: 100개 이상의 언어, 접근 가능한 상호작용, 작동하는 WebAssembly 도구를 갖춘 React 포트폴리오.",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "4개 연결",
-        "text": "커넥트 포 게임의 {implementations}개 이상 구현으로 이루어진 거대한 패밀리. 이 프로젝트는 Java, C++, Python, JavaScript를 포함한 {languages}개 이상의 프로그래밍 언어와, React·Angular·Blazor에서 Django·Spring Boot·Phoenix·PostgreSQL 등 {frameworks}개 이상의 다양한 프레임워크·라이브러리·런타임·데이터베이스를 아우릅니다.",
+        "text": "Connect Four 게임의 {implementations}개 구현으로 이루어진 방대한 패밀리. Java, C++, Python, JavaScript를 포함한 {languages}개 프로그래밍 언어와, React, Angular, Blazor부터 Django, Spring Boot, Phoenix, PostgreSQL까지 {frameworks}개의 프레임워크, 라이브러리, 런타임, 데이터베이스를 다룹니다.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -280,7 +290,7 @@
       },
       "interop": {
         "title": "상호운용성 프로젝트",
-        "text": "{languages}개 프로그래밍 언어와 {patterns}개 실행 패턴을 포괄하는 언어 간 상호 운용성 참조 자료입니다. 이 프로젝트는 프로세스 계약, 데이터 교환, 런타임 동작, 반복 가능한 통합 경로 등 시스템이 취약해지는 경계를 조사합니다. 이는 제품이 단일 스택보다 클 때 필요한 시스템 사고를 반영합니다.",
+        "text": "{languages}개의 프로그래밍 언어와 {patterns}개의 실행 패턴을 아우르는 언어 간 상호운용 참조 자료. 시스템이 자주 취약해지는 경계, 즉 프로세스 계약, 데이터 교환, 런타임 동작, 반복 가능한 통합 경로를 조사합니다. 제품이 단일 스택보다 클 때 필요한 시스템적 사고를 반영합니다.",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -294,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON 및 YAML 자동 포맷터",
-        "text": "Go에 내장되어 WebAssembly로 컴파일된 브라우저 기반 JSON 및 YAML 유효성 검사 및 서식 지정 도구입니다. 구문 분석 엔진을 WASM으로 이동하면 상호 작용이 반응적이고 브라우저에 로컬로 유지되는 동시에 실제 구문 분석기를 적용하여 유효하지 않은 입력을 포착할 수 있습니다. 성능, 이식성 및 사용자 신뢰를 위해 런타임 아키텍처를 선택하는 데 중점을 둔 예입니다.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter는 JSON, YAML, XML, HTML, TOML, CSV, TSV를 지원하는 브라우저 기반 린터이자 포맷터입니다. Zig 엔진은 WebAssembly로 컴파일되어 전적으로 브라우저에서 실행됩니다. 실제 파서로 검증하고, 내용을 다시 쓰지 않으면서 문서 들여쓰기를 정리하며, 주석·앵커·CDATA·따옴표·숫자 정밀도를 보존합니다. 프로젝트는 Go, Rust, Zig 세 가지 구현으로 구성되며 이전 버전은 비교용으로 보관되어 있습니다.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -324,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "스크립트 라이브러리",
+        "text": "언어별 페이지로 구성된 자동화 스크립트 라이브러리. Excel 스프레드시트용 VBA, 경량 도구용 Lua, Windows 관리용 PowerShell, 일상 데이터 작업용 Python, 스크립트 실험용 Ruby를 담았습니다. 각 스크립트는 재사용을 염두에 두고 작성되어 흩어진 다섯 개 저장소가 아닌 하나의 프로젝트로 관리합니다.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "리잔델 암호화 프로젝트",
-        "text": "128, 192, 256비트 변형에 걸쳐 {implementations}개 이상의 Rijndael 구현 비교 세트입니다. 언어 전반에 걸쳐 보안에 민감한 알고리즘을 다시 구현하는 것은 정확한 사양, 테스트 가능한 동작 및 언어 수준 이식성의 한계에 대한 훈련된 작업입니다. 민감한 데이터를 처리하는 시스템에 대한 모든 유용한 본능.",
+        "title": "Rijndael 암호화 프로젝트",
+        "text": "128, 192, 256비트 변형에 대한 Rijndael의 {implementations}개 구현 비교 모음. 보안에 민감한 알고리즘을 여러 언어로 다시 구현하는 일은 정확한 명세, 테스트 가능한 동작, 언어 수준 이식성의 한계를 다루는 규율 있는 훈련이며, 민감한 데이터를 처리하는 시스템에 유용한 감각을 길러 줍니다.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "루빅 큐브 솔버",
+        "text": "큐브 자체나 펼친 전개도에서 스티커를 한 장씩 칠할 수 있는 인터랙티브 3D 루빅 큐브. Rust에서 WebAssembly로 컴파일한 Herbert Kociemba 스타일의 2단계 탐색으로 풉니다. Svelte 인터페이스는 three.js로 큐브를 렌더링하고 칠한 상태, 유효성 검사, 솔버의 면 문자열을 동기화하며, 타임라인에서 스크럽·단계 실행·다시 재생할 수 있도록 풀이를 한 수씩 재생합니다.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -365,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Rust와 wgpu로 작성되어 WebAssembly로 컴파일된 Minecraft 스타일 복셀 게임이라 브라우저에서 바로 플레이됩니다. 아케이드의 샌드박스 빌드로, 최신 그래픽 파이프라인으로 그린 블록 지형과 복셀 월드를 담았으며 게임 엔진이 아니라 Rust 툴체인 위에서 처음부터 작성되었습니다.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "타이거 프로그래밍 언어",
-        "text": "언어 런타임 설계, 실행 동작 및 성능 균형을 탐색하기 위해 Go에 내장된 맞춤형 프로그래밍 언어 및 인터프리터입니다. 이를 WebAssembly로 컴파일하고 포트폴리오에 통합하면 작업을 그대로 두는 대신 시스템 수준 엔지니어링을 위한 실제적이고 검사 가능한 제품 표면이 생성됩니다. 저장소 전용 실험.",
+        "text": "언어 런타임 설계, 실행 동작, 성능 트레이드오프를 탐구하기 위해 Rust로 작성한 자체 프로그래밍 언어와 인터프리터. 기존 Go 인터프리터는 레거시 구현으로 계속 사용할 수 있습니다. WebAssembly로 컴파일하고 포트폴리오에 통합하면 저장소 실험에 머무르지 않고 시스템 엔지니어링을 실제로 살펴볼 수 있는 제품 표면을 만듭니다.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "튜링 머신 프로젝트",
-        "text": "{implementations}개 이상의 Turing Machine 구현 제품군입니다. 연구를 위한 다양한 프로그래밍 언어, 특히 Tiger 프로그래밍 언어의 튜링 완전성을 입증하는 데 사용됩니다.",
+        "text": "튜링 기계의 {implementations}개 구현 패밀리. Tiger 프로그래밍 언어를 비롯한 여러 프로그래밍 언어의 튜링 완전성을 연구 목적으로 입증하는 데 사용됩니다.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "체스 엔진",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Rust로 작성되어 WebAssembly로 컴파일된 체스 엔진. 반복 심화 네가맥스, 알파-베타 가지치기, 32MB 전위 테이블, 잎에서의 정지 탐색으로 탐색합니다. 평가에는 점감하는 기물-칸 테이블을 사용하고, 수 정렬은 MVV-LVA, 킬러, 히스토리로 수행합니다. 엔진은 Web Worker에서 실행되어 보드가 멈추지 않으며, 수 생성기는 브라우저에서 공개된 perft 값과 대조됩니다. 처음 5개 깊이는 20, 400, 8,902, 197,281, 4,865,609 노드입니다."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160은 복구 프로젝트입니다. 대학 시절 절반쯤 만든 CPSC 4160 게임 — 마지막 화장지 롤을 챙겨 세균에게 지치기 전에 계산대까지 가는 — 을 SDL2 기반 현대적 C++20 엔진으로 처음부터 다시 만들고 WebAssembly로 컴파일했습니다. 배회하고 추격하는 세균 AI, 10개의 점점 어려워지는 통로, 아이템, 파티클, 터치 조작을 갖추었으며 원조 프로토타입의 지름길은 없습니다."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "결정적이고 재현 가능한 지정가 주문 장부 매칭 엔진. 엔진 자체는 Rails가 없는 순수 Ruby이며 Rails 8이 단일 SQLite 파일로 제공합니다. 모든 명령은 엔진이 보기 전에 write-ahead 로그에 추가되므로 장부의 과거 상태는 한 번의 폴드로 되돌릴 수 있고, 시장 운영 중에 기록한 지문을 비교해 재현의 충실함을 증명합니다. 가격-시간 우선, GTC/IOC/FOK, 큐 위치를 유지하거나 잃는 정정, 자기거래 방지는 시드가 있는 퍼즈 스위트에서 명령마다 14개의 불변식으로 검증됩니다. 브라우저는 Action Cable을 통해 10Hz 사다리를 받고, 명령은 HTTP로 올라갑니다.",
+        "title": "PIT 매칭 엔진"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "나는 이메일과 LinkedIn 메시지를 통한 문의에 응답합니다. 또한 이력서 등을 통해 내 전화번호가 제공되면 다시 전화하겠습니다. 하지만 전화번호는 비공개로 유지하는 것이 좋습니다."
   },
   "formatter": {
-    "title": "JSON 및 YAML 린터",
-    "description": "WebAssembly로 컴파일된 Go 엔진을 사용하여 JSON 및 YAML을 검증하고 형식을 지정하는 브라우저 기반 데이터 품질 도구입니다. 아키텍처는 데이터 경계에서 실제 구문 규칙을 적용하는 동시에 빠른 개인 피드백을 위해 사용자 가까이에서 계속 구문 분석합니다. 이는 정확성, 성능 및 신뢰를 중심으로 신뢰할 수 있는 개발자 워크플로를 설계하는 간단한 예입니다.",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter는 Zig 엔진을 WebAssembly로 컴파일하여 JSON, YAML, XML, HTML, TOML, CSV, TSV를 검증하고 포맷하는 브라우저 기반 데이터 품질 도구입니다. 파싱은 사용자 가까이에서 이루어져 빠르고 비공개적인 피드백을 제공하며, 데이터 경계에서는 실제 구문 규칙을 적용합니다. 작성자의 텍스트를 보존하고 잘못된 입력을 거부하며, 작은 WebAssembly 모듈 하나가 신뢰할 수 있는 개발자 워크플로를 어떻게 뒷받침하는지 보여 줍니다.",
     "more_info1": "자세한 내용은 README를 참조하세요.",
-    "more_info2": "JSON/YAML 포맷터 저장소.",
+    "more_info2": "Auto-Linter 저장소.",
     "format_as": "형식:",
     "auto_detect": "자동 감지",
     "format": "린트 및 형식",
@@ -415,20 +436,22 @@
     "valid_yaml": "✓ 유효한 YAML",
     "invalid_json": "잘못된 JSON",
     "invalid_yaml": "잘못된 YAML",
-    "empty_input": "Lint에 JSON 또는 YAML을 입력하세요.",
+    "empty_input": "검사할 JSON, YAML, XML, HTML, TOML, CSV 또는 TSV를 입력하세요.",
     "too_large": "입력값이 너무 큽니다(최대 1MB 허용).",
     "fixed_yaml_spacing": "⚠ YAML에 잘못된 간격/들여쓰기가 있었지만 자동으로 수정되고 형식이 지정되었습니다.",
-    "loading": "포맷터 로드 중...",
+    "loading": "Auto-Linter 불러오는 중...",
     "waiting_for_input": "입력을 기다리는 중...",
-    "load_failed": "포맷터를 로드할 수 없습니다.",
+    "load_failed": "Auto-Linter를 불러올 수 없습니다.",
     "output": "산출:",
     "input_code": "입력",
     "json_examples": "JSON 예",
-    "yaml_examples": "YAML 예"
+    "yaml_examples": "YAML 예",
+    "legacy_repo": "Go 레거시 구현 보기",
+    "legacy_rust": "Rust 레거시 구현 보기"
   },
   "tiger": {
     "title": "호랑이 언어",
-    "description": "Tiger는 런타임 아키텍처, 언어 의미 및 성능 균형을 탐색하기 위해 구축된 맞춤형 프로그래밍 언어이자 Go 인터프리터입니다. 인터프리터를 WebAssembly로 컴파일하면 시스템이 대화형 브라우저 기반 제품으로 작동합니다. 즉, 런타임이 이식 가능한 상태에서 사용자가 직접 프로그램을 실행할 수 있습니다. 호스트 애플리케이션으로부터 격리됩니다.",
+    "description": "Tiger는 실사용 수준의 자체 프로그래밍 언어이자 성능을 위해 Rust로 작성된 인터프리터입니다. 컴파일된 바이트코드 엔진과 트리 워킹 참조 인터프리터는 44개 프로그램 벤치마크 코퍼스에서 항상 동기화되며, 함께 제공되는 인프로세스 프로토콜은 검증된 모든 구간에서 CPython과 동등하거나 그 이상의 런타임을 유지합니다. 일상적인 스크립팅에서는 Python과 Ruby와 직접 경쟁하는 성능을 냅니다. 기존 Go 인터프리터는 레거시 구현으로 계속 사용할 수 있습니다. 인터프리터를 WebAssembly로 컴파일하면 이 시스템 작업이 대화형 브라우저 제품이 됩니다. 런타임은 이식성을 유지하면서 호스트 애플리케이션과 격리되고, 사용자는 프로그램을 바로 실행할 수 있습니다.",
     "more_info1": "자세한 내용은 README를 참조하세요.",
     "more_info2": "Tiger 프로그래밍 언어 GitHub 저장소.",
     "select_engine": "엔진 선택:",
@@ -436,7 +459,8 @@
     "run_tiger": "런 타이거",
     "output": "산출:",
     "stop": "정지",
-    "program_input": "프로그램 입력"
+    "program_input": "프로그램 입력",
+    "legacy_repo": "Go 레거시 구현 보기"
   },
   "tab": {
     "title": "패트릭 굿윈",
@@ -501,6 +525,10 @@
         "zoom_in": "확대",
         "zoom_out": "축소",
         "reset": "보기 재설정"
+      },
+      "country_names": {
+        "show": "국가 이름 표시",
+        "hide": "국가 이름 숨기기"
       }
     },
     "supported_languages": {

@@ -8,8 +8,8 @@
     "tiger": "Tiger - Kohandatud programmeerimiskeel",
     "snake": "Madumäng",
     "portfolio_translator": "Portfelli tõlkija",
-    "formatter": "JSON-i ja YAML-i linter",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubiku kuubi lahendaja",
     "contact": "Võtke minuga ühendust",
     "home_description": "sys.root // peamine ülevaade",
     "about_description": "inseneri profiil // bio ja tehnoloogiahunnik",
@@ -18,18 +18,26 @@
     "tiger_description": "kohandatud kompilaator ja AST-visualiseerija",
     "snake_description": "klassikaline arkaadimäng / WASM",
     "portfolio_translator_description": "100+ keele maatriks ja i18n",
-    "formatter_description": "süntaksivalidaator ja -muundur",
+    "formatter_description": "multiformaadiline linter ja vormija // WASM",
     "contact_description": "avatud edastus // võtke ühendust",
     "arcade": "Arkaadimängud",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Neli rida keelepuu",
+    "connect_four": "Connect Four",
     "alkalab_description": "keemialabori simulatsioon / WASM",
     "rustcraft_description": "Minecraft-tüüpi vokselimäng / Rust ja wgpu",
     "suprememc_description": "Minecraft modi vaateaken / Java",
-    "chess_engine": "Male mootor",
-    "chess_engine_description": "bitiplaadi mootor / WASM ja töötaja"
+    "chess_engine": "Malemootor",
+    "chess_engine_description": "bitboard mootor / WASM ja worker",
+    "framework_trees": "Raamistike puud",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael'i krüpteerimine",
+    "interops": "Interops",
+    "scripting_library_description": "automatiseerimise skriptid // 6 keelt",
+    "reclaim_4160_description": "ülikoolimäng, tagasi võidetud / C++ ja WASM",
+    "turing_machines": "Turingi masinad",
+    "scripting_library": "Skriptide raamatukogu"
   },
   "home": {
     "title": "Full-Stack'i vaneminsener | Tooted ja süsteemid",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Esiletõstetud projektid",
       "title": "Valitud tööd",
-      "description": "Kuus projekti, mis esindavad kõige paremini seda, kuidas muudan ambitsioonikad ideed lihvitud ja töötavaks tarkvaraks.",
+      "description": "Projektid, mis näitavad kõige paremini, kuidas ma muudan mõttukad ideed lihvitud ja töötavaks tarkvaraks.",
       "view_project": "Vaata projekti",
       "open_project": "Ava otseülekanne-projekt",
       "view_all": "Avasta täielik portfell",
@@ -101,7 +109,8 @@
         "libraries": "Skriptiraamatukogud",
         "languages": "Keelekatsed",
         "automation": "Automatiseerimise ja andmete tööriistad",
-        "experience": "Kutsealane ja õppekogemus"
+        "experience": "Kutsealane ja õppekogemus",
+        "markets": "Turud ja kauplemissüsteemid"
       },
       "browser_native": "Brauserinatiivne / ilma serverita",
       "no_results": "Sobivaid projekte pole",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Ligipääsetavus",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Finantsiline õigsus algab esitusest: täis-sendiaritmeetika ja tasakaalustatud kirjed muudavad raha liikumise selgesõnaliseks."
         },
         "interop": {
-          "summary": "Keelteülene viide, mis hõlmab {languages} programmeerimiskeelt ja {patterns} täitmisviisi, uurides, mis toimub täitusaja piiridel.",
+          "summary": "Keeltevaheline ülevaade, mis hõlmab {languages} programmeerimiskeelt ja {patterns} täitmismustrit, uurides, mis toimub käitusaja piiridel.",
           "lens": "Raske osa on täituskeskkondade vaheline leping: andmevahetus, protsessikäitumine ja korratav täitmine on olulisemad kui süntaks."
         },
         "formatter": {
-          "summary": "Päris Go parsimismootor, mis on kompileeritud WebAssemblyks. JSON-i ja YAML-i valideerimine ja vormindamine töötab brauseris lokaalselt.",
-          "lens": "Parseri brauserisse viimine vahetab suurema kliendi koormuse lokaalse töötluse, kaasaskantavuse ja vähemate serverisõltuvuste vastu."
+          "summary": "Zig'is kirjutatud WebAssembly linter ja vormija JSON-ile, YAML-ile, XML-ile, HTML-ile, TOML-ile, CSV-le ja TSV-le. Valideerimine ja vormindamine jooksevad lokaalselt brauseris.",
+          "lens": "Vormindamine on usalduse küsimus: parsimine päris grammatikaga, autori teksti säilitamine ja andmete hoidmine kliendipoolses."
         },
         "portfolio_website": {
           "summary": "Sait, kus te olete: React-portfell üle 100 keele, ligipääsetavate interaktsioonide ja töötavate WebAssembly tööriistadega.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON ja YAML automaatne vormindaja",
+        "title": "Auto-Linter",
         "text": "Brauseripõhine JSON- ja YAML-i valideerimis- ja vormindamistööriist, mis on sisse ehitatud Go-sse ja kompileeritud WebAssemblysse. Sõelumismootori teisaldamine WASM-i hoiab interaktsiooni brauseri jaoks tundlikuna ja lokaalsena, rakendades samal ajal tõelist parserit, et tabada vale sisend. See on keskendunud näide käitusaegse arhitektuuri valimisest jõudluse, kaasaskantavuse ja kasutaja usalduse jaoks.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skriptide raamatukogu",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndaeli krüpteerimisprojekt",
-        "text": "{implementations} Rijndaeli rakenduste võrdlev komplekt 128-, 192- ja 256-bitistes variantides. Turvatundliku algoritmi uuesti rakendamine erinevates keeltes on distsiplineeritud harjutus täpsete spetsifikatsioonide, testitava käitumise ja keeletaseme kaasaskantavuse piiride osas. kõik kasulikud instinktid tundlikke andmeid käsitlevate süsteemide jaoks.",
+        "title": "Rijndael'i krüpteerimise projekt",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubiku kuubi lahendaja",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turingi masina projekt",
-        "text": "Perekond, mis koosneb enam kui {implementations} Turingi masina juurutusest. Kasutatakse erinevate programmeerimiskeelte täielikkuse demonstreerimiseks uuringute jaoks, eriti tiigri programmeerimiskeele jaoks.",
+        "text": "{implementations} Turingi masina teostuse perekond. Kasutatakse erinevate programmeerimiskeelte Turingi tõelisuse tõestamiseks uurimustöös, eriti Tigeri programmeerimiskeele jaoks.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Male mootor",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Malemootor",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT sobitamise mootor"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Vastan e-kirjade ja LinkedIn sõnumite päringutele. Helistan tagasi ka siis, kui mu number on esitatud CV kaudu või muul viisil, kuigi eelistan hoida oma telefoninumbrit privaatsena."
   },
   "formatter": {
-    "title": "JSON ja YAML Linter",
+    "title": "Auto-Linter",
     "description": "Brauseripõhine andmekvaliteedi tööriist, mis valideerib ja vormindab JSON-i ja YAML-i, kasutades WebAssemblysse kompileeritud Go-mootorit. Arhitektuur sõelub kasutaja lähedal, et saada kiiret ja privaatset tagasisidet, jõustades samal ajal andmepiiril reaalseid süntaksireegleid. See on kompaktne näide usaldusväärse arendaja töövoo kujundamisest korrektsuse, jõudluse ja usaldusväärsuse alusel.",
     "more_info1": "Lisateabe saamiseks vaadake README jaotises",
-    "more_info2": "JSON/YAML-vorminguhoidla.",
+    "more_info2": "Auto-Linteri hoidla.",
     "format_as": "Vorminda kui:",
     "auto_detect": "Automaatne tuvastamine",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Kehtiv YAML",
     "invalid_json": "Vale JSON",
     "invalid_yaml": "Kehtetu YAML",
-    "empty_input": "Sisestage lintimiseks JSON või YAML.",
+    "empty_input": "Sisestage JSON, YAML, XML, HTML, TOML, CSV või TSV kontrollimiseks.",
     "too_large": "Sisend on liiga suur (lubatud kuni 1 MB).",
     "fixed_yaml_spacing": "⚠ YAML-is olid tühikud/taanded kehvad, kuid see on automaatselt parandatud ja vormindatud.",
-    "loading": "Vormindaja laadimine...",
+    "loading": "Auto-Linteri laadimine...",
     "waiting_for_input": "Ootan sisendit...",
-    "load_failed": "Vormindajat ei saa laadida.",
+    "load_failed": "Auto-Linterit ei õnnestunud laadida.",
     "output": "Väljund:",
     "input_code": "Sisend",
     "json_examples": "JSON-i näited",
-    "yaml_examples": "YAML-i näited"
+    "yaml_examples": "YAML-i näited",
+    "legacy_repo": "Vaata vana Go teostust",
+    "legacy_rust": "Vaata vana Rust teostust"
   },
   "tiger": {
     "title": "Tiigri keel",
@@ -436,7 +459,8 @@
     "run_tiger": "Jookse Tiiger",
     "output": "Väljund:",
     "stop": "Peata",
-    "program_input": "Programmi sisend"
+    "program_input": "Programmi sisend",
+    "legacy_repo": "Vaata vana Go teostust"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Suumi sisse",
         "zoom_out": "Suumi välja",
         "reset": "Lähtesta vaade"
+      },
+      "country_names": {
+        "show": "Näita riikide nimesid",
+        "hide": "Peida riikide nimed"
       }
     },
     "supported_languages": {

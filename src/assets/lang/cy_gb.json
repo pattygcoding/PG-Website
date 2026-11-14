@@ -8,8 +8,8 @@
     "tiger": "Tiger - Iaith Rhaglennu Arferiad",
     "snake": "Gêm y neidr",
     "portfolio_translator": "Cyfieithydd Portffolio",
-    "formatter": "Gwirydd JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Ddatrysydd Rubik's Cube",
     "contact": "Cysylltwch â Fi",
     "home_description": "sys.root // trosolwg cyffredinol",
     "about_description": "proffil peiriannydd // bio a thechnolegau",
@@ -18,18 +18,26 @@
     "tiger_description": "crynydd arferiad a delweddwr AST",
     "snake_description": "gêm arcêd glasurol / WASM",
     "portfolio_translator_description": "matrics 100+ iaith ac i18n",
-    "formatter_description": "dilysydd a thrawsddyrnydd cystrawen",
+    "formatter_description": "linter a fformatiwr aml-fformat // WASM",
     "contact_description": "trosglwyddiad agored // cysylltwch â mi",
     "arcade": "Arcêd",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Coeden iaith Pedwar yn olynol",
+    "connect_four": "Connect Four",
     "alkalab_description": "efelychiad labordy cemeg / WASM",
     "rustcraft_description": "gêm voxel arddull Minecraft / Rust a wgpu",
     "suprememc_description": "arddangosfa mod Minecraft / Java",
-    "chess_engine": "Peiriant Gwyddbwyll",
-    "chess_engine_description": "peiriant bitboard / WASM & gweithiwr"
+    "chess_engine": "Peiriant gwyddbwyll",
+    "chess_engine_description": "peiriant bitboard / WASM a gweithiwr",
+    "framework_trees": "Coed fframwaith",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Amgryptio Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "sgriptiau awtomeiddio // 6 iaith",
+    "reclaim_4160_description": "gêm coleg, wedi'i hadfer / C++ a WASM",
+    "turing_machines": "Peiriannau Turing",
+    "scripting_library": "Llyfrgell sgriptiau"
   },
   "home": {
     "title": "Uwch Beiriannydd Pentwr | Cynnyrch a Systemau",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Prosiectau nodedig",
       "title": "Gweithiau dethol",
-      "description": "Chwe phrosiect sy'n cynrychioli orau sut rwy'n troi syniadau uchelgeisiol yn feddalwedd loyw a gweithredol.",
+      "description": "Projectau sy'n dangos orau sut rwy'n troi syniadau uchelgeisiol yn feddalwedd wedi'i gweini sy'n gweithio.",
       "view_project": "Gweld y prosiect",
       "open_project": "Agor prosiect byw",
       "view_all": "Archwilio'r portffolio cyflawn",
@@ -101,7 +109,8 @@
         "libraries": "Llyfrgelloedd sgript",
         "languages": "Arbrofion iaith",
         "automation": "Offer awtomeiddio a data",
-        "experience": "Profiad proffesiynol ac addysgol"
+        "experience": "Profiad proffesiynol ac addysgol",
+        "markets": "Marchnadoedd a systemau masnachu"
       },
       "browser_native": "Cynhenid i'r porwr / heb weinydd",
       "no_results": "Dim prosiectau sy'n cyfateb",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Hygyrchedd",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Mae cywirdeb ariannol yn dechrau gyda chynrychiolaeth: mae rhifyddeg sentau cyfan a chofnodion cytbwys yn gwneud symudiad arian yn amlwg."
         },
         "interop": {
-          "summary": "Cyfeiriad rhyng-ieithyddol sy'n cwmpasu {languages} iaith raglennu ac {patterns} patrwm gweithredu, yn archwilio beth sy'n digwydd ar ffiniau amser rhedeg.",
+          "summary": "Cyfeiriad traws-iaith sy'n cwmpasu {languages} iaith raglennu a {patterns} patrwm gweithrediad, yn archwilio'r hyn sy'n digwydd ar ffiniau runtime.",
           "lens": "Y rhan anodd yw'r contract rhwng amseroedd rhedeg: mae cyfnewid data, ymddygiad prosesau, a gweithrediad ailadroddadwy yn bwysicach na chystrawen."
         },
         "formatter": {
-          "summary": "Peiriant dosrannu Go go iawn wedi'i gyfuno i WebAssembly. Mae dilysu a fformatio JSON ac YAML yn rhedeg yn lleol yn y porwr.",
-          "lens": "Mae symud y dosrannwr i'r porwr yn cyfnewid llwyth cleient mwy am brosesu lleol, cludadwyedd, a llai o ddibyniaeth ar y gweinydd."
+          "summary": "Linter a fformatiwr WebAssembly wedi'i ysgrifennu yn Zig ar gyfer JSON, YAML, XML, HTML, TOML, CSV a TSV. Mae dilysu a fformatio yn rhedeg yn lleol yn y porwr.",
+          "lens": "Fformatio yw mater hyder: dosrannu â gramadeg go iawn, cadw testun yr awdur, a chadw'r data ar y cleient."
         },
         "portfolio_website": {
           "summary": "Y wefan rydych ynddi: portffolio React gyda 100+ iaith, rhyngweithiadau hygyrch, ac offer WebAssembly sy'n gweithio.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Fformatiwr Auto JSON & YAML",
+        "title": "Auto-Linter",
         "text": "Offeryn dilysu a fformatio JSON ac YAML sy'n seiliedig ar borwr a adeiladwyd yn Go ac a luniwyd i WebAssembly. Mae symud yr injan dosrannu i WASM yn cadw'r rhyngweithiad yn ymatebol ac yn lleol i'r porwr wrth gymhwyso parser go iawn i ddal mewnbwn annilys. Mae'n enghraifft benodol o ddewis pensaernïaeth amser rhedeg ar gyfer perfformiad, hygludedd ac ymddiriedaeth defnyddwyr.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Llyfrgell sgriptiau",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Prosiect Amgryptio Rijndael",
-        "text": "Set gymharol o {implementations} o weithrediadau Rijndael ar draws amrywiadau 128-, 192-, a 256-bit. Mae ail-weithredu algorithm sy'n sensitif i ddiogelwch ar draws ieithoedd yn ymarfer disgybledig mewn union fanylebau, ymddygiad profadwy, a chyfyngiadau hygludedd lefel iaith, pob greddf ddefnyddiol ar gyfer systemau sy'n trin data sensitif.",
+        "title": "Project amgryptio Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Ddatrysydd Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Prosiect Peiriant Turing",
-        "text": "Teulu o dros {implementations} o weithrediadau o'r Peiriant Turing. Fe'i defnyddir i ddangos cyflawnder ar gyfer gwahanol ieithoedd rhaglennu ar gyfer ymchwil, yn enwedig ar gyfer yr Iaith Rhaglennu Teigr.",
+        "text": "Teulu o {implementations} o weithredoedd y Peiriant Turing. Yn cael ei ddefnyddio i ddangos cyflawnder Turing ieithoedd rhaglennu amrywiol ar gyfer ymchwil, yn enwedig ar gyfer iaith raglennu Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,9 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Peiriant Gwyddbwyll",
+        "title": "Peiriant gwyddbwyll",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "Peiriant gwyddbwyll wedi'i ysgrifennu mewn rhwd a'i lunio i WebAssembly. Mae'n chwilio gyda negamax dyfnhau ailadroddol, tocio alffa - beta, tabl trawsosod 32 MB a chwiliad quiescence ar y dail; mae'n gwerthuso gyda thablau darn - sgwâr taprog a gorchmynion symud gan MVVV - LVA, lladdwyr a hanes. Mae'r injan yn rhedeg mewn Gweithiwr Gwe fel nad yw'r bwrdd byth yn rhewi, ac mae ei generadur symud yn cael ei wirio yn y porwr yn erbyn y cyfrifon perfedd cyhoeddedig - 20, 400, 8,902, 197,281 a 4,865,609 nod ar gyfer y pum dyfnder cyntaf."
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Peiriant paru PIT"
       }
     }
   },
@@ -405,10 +425,10 @@
     "description": "Rwy'n ymateb i ymholiadau e-bost a negeseuon LinkedIn. Byddaf hefyd yn ffonio'n ôl os darperir fy rhif trwy ailddechrau neu fel arall, er bod yn well gennyf gadw fy rhif ffôn yn breifat."
   },
   "formatter": {
-    "title": "Linter JSON & YAML",
+    "title": "Auto-Linter",
     "description": "Offeryn ansawdd data sy'n seiliedig ar borwr sy'n dilysu ac yn fformatio JSON ac YAML gan ddefnyddio injan Go a luniwyd i WebAssembly. Mae'r bensaernïaeth yn parhau i ddosrannu'n agos at y defnyddiwr ar gyfer adborth cyflym, preifat tra'n gorfodi rheolau cystrawen go iawn ar y ffin data. Mae'n enghraifft gryno o ddylunio llif gwaith datblygwr dibynadwy o amgylch cywirdeb, perfformiad ac ymddiriedaeth.",
     "more_info1": "Am ragor o wybodaeth, cyfeiriwch at y README yn y",
-    "more_info2": "Storfa Fformatio JSON/YAML.",
+    "more_info2": "Ystorfa Auto-Linter.",
     "format_as": "Fformat Fel:",
     "auto_detect": "Canfod Awtomatig",
     "format": "Lint a Fformat",
@@ -416,16 +436,18 @@
     "valid_yaml": "✓ YAML dilys",
     "invalid_json": "JSON annilys",
     "invalid_yaml": "YAML annilys",
-    "empty_input": "Rhowch rai JSON neu YAML i lint.",
+    "empty_input": "Rhowch JSON, YAML, XML, HTML, TOML, CSV neu TSV i'w wirio.",
     "too_large": "Mewnbwn yn rhy fawr (caniateir 1MB ar y mwyaf).",
     "fixed_yaml_spacing": "⚠ Roedd gan YAML fylchau/mewndentiad annilys ond mae wedi'i osod yn awtomatig a'i fformatio.",
-    "loading": "Wrthi'n llwytho fformatiwr...",
+    "loading": "Yn llwytho Auto-Linter...",
     "waiting_for_input": "Aros am fewnbwn...",
-    "load_failed": "Methu llwytho'r fformatiwr.",
+    "load_failed": "Methoddod llwytho Auto-Linter.",
     "output": "Allbwn:",
     "input_code": "Mewnbwn",
     "json_examples": "Enghreifftiau JSON",
-    "yaml_examples": "Enghreifftiau YAML"
+    "yaml_examples": "Enghreifftiau YAML",
+    "legacy_repo": "Gweld gweithrediad hen Go",
+    "legacy_rust": "Gweld gweithrediad hen Rust"
   },
   "tiger": {
     "title": "Iaith Teigr",
@@ -437,7 +459,8 @@
     "run_tiger": "Rhedeg Teigr",
     "output": "Allbwn:",
     "stop": "Stopio",
-    "program_input": "Mewnbwn y rhaglen"
+    "program_input": "Mewnbwn y rhaglen",
+    "legacy_repo": "Gweld gweithrediad hen Go"
   },
   "tab": {
     "title": "Padrig Goodwin",
@@ -502,6 +525,10 @@
         "zoom_in": "Chwyddo i Mewn",
         "zoom_out": "Chwyddo Allan",
         "reset": "Ailosod View"
+      },
+      "country_names": {
+        "show": "Dangos enwau gwledydd",
+        "hide": "Cuddio enwau gwledydd"
       }
     },
     "supported_languages": {

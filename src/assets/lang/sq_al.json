@@ -8,8 +8,8 @@
     "tiger": "Tiger - Gjuhë programimi e personalizuar",
     "snake": "Loja e gjarprit",
     "portfolio_translator": "Përkthyes portofoli",
-    "formatter": "Linter JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Zgjidhës Rubik's Cube",
     "contact": "Më kontaktoni",
     "home_description": "sys.root // përmbledhja kryesore",
     "about_description": "profili i inxhinierit // bio dhe teknologjitë",
@@ -18,18 +18,26 @@
     "tiger_description": "kompajller i personalizuar dhe vizualizues AST",
     "snake_description": "lojë klasike arkade / WASM",
     "portfolio_translator_description": "matricë e 100+ gjuhëve dhe i18n",
-    "formatter_description": "validator dhe konvertues sintakse",
+    "formatter_description": "linter dhe formues shumëformësh // WASM",
     "contact_description": "transmetim i hapur // kontaktoni mua",
     "arcade": "Arkada",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Pema gjuhësore Katër me radhë",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulim laboratori kimie / WASM",
     "rustcraft_description": "lojë voxel në stilin Minecraft / Rust dhe wgpu",
     "suprememc_description": "vitrinë e modit Minecraft / Java",
-    "chess_engine": "Motori i shahut",
-    "chess_engine_description": "motor bitboard / WASM & punëtor"
+    "chess_engine": "Motor shahu",
+    "chess_engine_description": "motor bitboard / WASM dhe punëtor",
+    "framework_trees": "Pemë kornizash",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Enkriptim Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "skripte automatizimi // 6 gjuhë",
+    "reclaim_4160_description": "lojë e kolegjit, e rikthyer / C++ dhe WASM",
+    "turing_machines": "Makina Turing",
+    "scripting_library": "Bibliotekë skriptesh"
   },
   "home": {
     "title": "Inxhinier i Lartë i Stack-it të Plotë | Produkti dhe Sistemet",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Projekte të zgjedhura",
       "title": "Punë të zgjedhura",
-      "description": "Gjashtë projekte që përfaqësojnë më mirë sesi i kthej idetë ambicioze në softuer të përpunuar dhe funksional.",
+      "description": "Projekte që tregojnë më mirë si i shndërroj idetë ambicioze në softuer të përsosur dhe funksional.",
       "view_project": "Shiko projektin",
       "open_project": "Hap projektin e drejtpërdrejtë",
       "view_all": "Eksploro portofolin e plotë",
@@ -101,7 +109,8 @@
         "libraries": "Biblioteka skriptash",
         "languages": "Eksperimente gjuhësore",
         "automation": "Mjetet e automatizimit dhe të dhënave",
-        "experience": "Përvojë profesionale dhe edukative"
+        "experience": "Përvojë profesionale dhe edukative",
+        "markets": "Tregje dhe sisteme tregtare"
       },
       "browser_native": "Vendas në shfletues / pa server",
       "no_results": "Asnjë projekt që përputhet",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Aksesueshmëria",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Korrektësia financiare fillon me paraqitjen: aritmetika e qindarkave të plota dhe regjistrimet e balancuara e bëjnë lëvizjen e parave të qartë."
         },
         "interop": {
-          "summary": "Referencë ndërgjuhësore që përfshin {languages} gjuhë programimi dhe {patterns} modele ekzekutimi, duke eksploruar çfarë ndodh në kufijtë e kohës së ekzekutimit.",
+          "summary": "Një referencë ndërgjuajshëse që mbulon {languages} gjuhë programimi dhe {patterns} modele ekzekutimi, duke hetuar çfarë ndodh në kufijtë e runtime-it.",
           "lens": "Pjesa e vështirë është kontrata midis kohëve të ekzekutimit: shkëmbimi i të dhënave, sjellja e proceseve dhe ekzekutimi i përsëritshëm kanë më shumë rëndësi se sintaksa."
         },
         "formatter": {
-          "summary": "Motor i vërtetë analizimi Go i kompiluar në WebAssembly. Validimi dhe formatimi i JSON dhe YAML funksionojnë lokal në shfletues.",
-          "lens": "Zhvendosja e parserit në shfletues këmben një ngarkesë më të madhe klienti për përpunim lokal, transportueshmëri dhe më pak varësi nga serveri."
+          "summary": "Një linter dhe formues WebAssembly i shkruar në Zig për JSON, YAML, XML, HTML, TOML, CSV dhe TSV. Vërtetimi dhe formatimi ekzekutohen lokalisht në shfletues.",
+          "lens": "Formatimi është çështje besimi: analizo me gramatikë të vërtetë, ruaj tekstin e autorit dhe mbaj të dhënat te klienti."
         },
         "portfolio_website": {
           "summary": "Faqja ku jeni: portofol React me mbi 100 gjuhë, ndërveprime të aksesueshme dhe mjete WebAssembly funksionale.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Formatuesi automatik JSON & YAML",
+        "title": "Auto-Linter",
         "text": "Një mjet verifikimi dhe formatimi i bazuar në shfletues JSON dhe YAML i ndërtuar në Go dhe i përpiluar në WebAssembly. Lëvizja e motorit analizues në WASM e mban ndërveprimin të përgjegjshëm dhe lokal në shfletuesin ndërsa aplikon një analizues të vërtetë për të kapur hyrjen e pavlefshme. Është një shembull i fokusuar i zgjedhjes së një arkitekture të kohës së funksionimit për performancën, transportueshmërinë dhe besimin e përdoruesit.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Bibliotekë skriptesh",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Projekti i enkriptimit Rijndael",
-        "text": "Një grup krahasues prej {implementations} zbatimesh Rijndael në variantet 128-, 192- dhe 256-bit. Rizbatimi i një algoritmi të ndjeshëm ndaj sigurisë nëpër gjuhë është një ushtrim i disiplinuar në specifikimet e sakta, sjelljen e testueshme dhe kufijtë e transportueshmërisë në nivel gjuhësor. të gjitha instinktet e dobishme për sistemet që trajtojnë të dhëna të ndjeshme.",
+        "title": "Projekt enkriptimi Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Zgjidhës Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Projekti Turing Machine",
-        "text": "Familje me mbi {implementations} implementime të Turing Machine. Përdoret për të demonstruar plotësinë e turingut për gjuhë të ndryshme programimi për kërkime, veçanërisht për gjuhën e programimit Tiger.",
+        "text": "Një familje {implementations} zbatimesh të Makinës Turing. Përdoret për të demonstruar turing completeness të gjuhëve të ndryshme programimi për kërkim, veçanërisht për gjuhën Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Motori i shahut",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Motor shahu",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Motor përputhjeje PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Unë u përgjigjem pyetjeve nga emailet dhe mesazhet e LinkedIn. Unë gjithashtu do të telefonoj përsëri nëse numri im jepet nëpërmjet CV-së ose ndryshe, megjithëse preferoj ta mbaj privat numrin tim të telefonit."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Një mjet i cilësisë së të dhënave të bazuar në shfletues që vërteton dhe formaton JSON dhe YAML duke përdorur një motor Go të përpiluar në WebAssembly. Arkitektura vazhdon të analizojë afër përdoruesit për reagime të shpejta dhe private, ndërsa zbaton rregullat reale sintaksore në kufirin e të dhënave. Është një shembull kompakt i projektimit të një fluksi pune të besueshëm të zhvilluesit rreth korrektësisë, performancës dhe besimit.",
     "more_info1": "Për më shumë informacion, referojuni README në",
-    "more_info2": "Depoja e formatit JSON/YAML.",
+    "more_info2": "Depoja e Auto-Linter.",
     "format_as": "Formatoni si:",
     "auto_detect": "Zbulimi automatik",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML e vlefshme",
     "invalid_json": "JSON i pavlefshëm",
     "invalid_yaml": "YAML e pavlefshme",
-    "empty_input": "Ju lutemi shkruani disa JSON ose YAML për t'u lintuar.",
+    "empty_input": "Fut JSON, YAML, XML, HTML, TOML, CSV ose TSV për t'u kontrolluar.",
     "too_large": "Hyrja shumë e madhe (maksimumi 1 MB e lejuar).",
     "fixed_yaml_spacing": "⚠ YAML kishte hapësirë/dhëmbje të pavlefshme, por është rregulluar dhe formatuar automatikisht.",
-    "loading": "Formatuesi po ngarkohet...",
+    "loading": "Po ngarkohet Auto-Linter...",
     "waiting_for_input": "Në pritje të të dhënave...",
-    "load_failed": "Formatuesi nuk mund të ngarkohet.",
+    "load_failed": "Nuk mund të ngarkohet Auto-Linter.",
     "output": "Prodhimi:",
     "input_code": "Input",
     "json_examples": "Shembuj JSON",
-    "yaml_examples": "Shembuj YAML"
+    "yaml_examples": "Shembuj YAML",
+    "legacy_repo": "Shiko zbatimin e vjetër Go",
+    "legacy_rust": "Shiko zbatimin e vjetër Rust"
   },
   "tiger": {
     "title": "Gjuha e Tigrit",
@@ -436,7 +459,8 @@
     "run_tiger": "Vraponi Tiger",
     "output": "Prodhimi:",
     "stop": "Ndalo",
-    "program_input": "Hyrja e programit"
+    "program_input": "Hyrja e programit",
+    "legacy_repo": "Shiko zbatimin e vjetër Go"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Zmadhoni",
         "zoom_out": "Zmadhoni",
         "reset": "Rivendos pamjen"
+      },
+      "country_names": {
+        "show": "Shfaq emrat e vendeve",
+        "hide": "Fshih emrat e vendeve"
       }
     },
     "supported_languages": {

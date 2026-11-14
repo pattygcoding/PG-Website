@@ -8,8 +8,8 @@
     "tiger": "Tiger - Özel bir programlama dili",
     "snake": "Yılan oyunu",
     "portfolio_translator": "Portföy Çevirmeni",
-    "formatter": "JSON ve YAML denetleyici",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik Küpü çözücü",
     "contact": "Bana Ulaşın",
     "home_description": "sys.root // ana genel bakış",
     "about_description": "mühendis profili // biyografi ve yığın",
@@ -18,18 +18,26 @@
     "tiger_description": "özel derleyici ve AST görselleştirici",
     "snake_description": "klasik atari oyunu / WASM",
     "portfolio_translator_description": "100+ dil matrisi ve i18n",
-    "formatter_description": "sözdizimi doğrulayıcı ve dönüştürücü",
+    "formatter_description": "çoklu biçim linter ve biçimlendirici // WASM",
     "contact_description": "açık iletim // iletişime geçin",
     "arcade": "Atari",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Dört Sıra Dil Ağacı",
+    "connect_four": "Connect Four",
     "alkalab_description": "kimya laboratuvarı simülasyonu / WASM",
     "rustcraft_description": "Minecraft tarzı voxel oyunu / Rust ve wgpu",
     "suprememc_description": "Minecraft modu vitrini / Java",
-    "chess_engine": "Satranç Motoru",
-    "chess_engine_description": "bitboard motoru / WASM & işçi"
+    "chess_engine": "Satranç motoru",
+    "chess_engine_description": "bitboard motoru / WASM ve worker",
+    "framework_trees": "Çatı ağaçları",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael şifreleme",
+    "interops": "Interops",
+    "scripting_library_description": "otomasyon betikleri // 6 dil",
+    "reclaim_4160_description": "üniversite oyunu, yeniden kuruldu / C++ ve WASM",
+    "turing_machines": "Turing makineleri",
+    "scripting_library": "Betik kitaplığı"
   },
   "home": {
     "title": "Kıdemli Tam Yığın Mühendisi | Ürün ve Sistemler",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Öne çıkan projeler",
       "title": "Seçili işler",
-      "description": "İddialı fikirleri cilalı, çalışan yazılıma nasıl dönüştürdüğümü en iyi temsil eden altı proje.",
+      "description": "Hırslı fikirleri cilalı, çalışan yazılımlara nasıl dönüştürdüğümü en iyi anlatan projeler.",
       "view_project": "Projeyi görüntüle",
       "open_project": "Canlı projeyi aç",
       "view_all": "Tüm portfolyoyu keşfet",
@@ -101,7 +109,8 @@
         "libraries": "Betik kitaplıkları",
         "languages": "Dil deneyleri",
         "automation": "Otomasyon ve veri araçları",
-        "experience": "Profesyonel ve eğitim deneyimi"
+        "experience": "Profesyonel ve eğitim deneyimi",
+        "markets": "Piyasalar ve işlem sistemleri"
       },
       "browser_native": "Tarayıcı yerel / sunucusuz",
       "no_results": "Eşleşen proje yok",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Erişilebilirlik",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Finansal doğruluk temsil ile başlar: tam sent aritmetiği ve dengeli defter kayıtları para hareketini açık hale getirir."
         },
         "interop": {
-          "summary": "{languages} programlama dili ve {patterns} yürütme desenini kapsayan, çalışma zamanı sınırlarında neler olduğunu araştıran diller arası bir referans.",
+          "summary": "{languages} programlama dili ve {patterns} yürütme deseni kapsayan diller arası bir başvuru; çalışma zamanı sınırlarında ne olduğunu inceler.",
           "lens": "Zor kısım çalışma zamanları arasındaki sözleşmedir: veri değişimi, süreç davranışı ve tekrarlanabilir yürütme, sözdiziminden daha önemlidir."
         },
         "formatter": {
-          "summary": "WebAssembly'ye derlenmiş gerçek bir Go ayrıştırma motoru. JSON ve YAML doğrulama ve biçimlendirme tarayıcıda yerel olarak çalışır.",
-          "lens": "Ayrıştırıcıyı tarayıcıya taşımak, daha büyük bir istemci yükünü yerel işleme, taşınabilirlik ve daha az sunucu bağımlılığı ile takas eder."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV ve TSV için Zig ile yazılmış WebAssembly linter ve biçimlendirici. Doğrulama ve biçimlendirme tarayıcıda yerel olarak çalışır.",
+          "lens": "Biçimlendırma bir güven sorunudur: gerçek bir dilbilgisiyle ayrıştır, yazarın metnini koru ve veriyi istemcide tut."
         },
         "portfolio_website": {
           "summary": "İçinde olduğunuz site: 100+ dilli, erişilebilir etkileşimli ve çalışan WebAssembly araçlı bir React portfolyosu.",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "Dört'ü Bağla",
-        "text": "Dört Sıra oyununun {implementations}'tan fazla uygulamasından oluşan devasa bir aile. Proje, Java, C++, Python ve JavaScript dahil {languages}'dan fazla programlama dilini ve React, Angular ve Blazor'dan Django, Spring Boot, Phoenix, PostgreSQL ve ötesine uzanan {frameworks}'den fazla farklı çerçeveyi, kitaplığı, çalışma zamanını ve veritabanını kapsar.",
+        "text": "Connect Four oyununun {implementations} uygulamasından oluşan devasa bir aile. Proje, Java, C++, Python ve JavaScript dahil {languages} programlama dili ile React, Angular ve Blazor'dan Django, Spring Boot, Phoenix, PostgreSQL'e uzanan {frameworks} farklı çatı, kitaplık, çalışma zamanı ve veritabanı kapsar.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -280,7 +290,7 @@
       },
       "interop": {
         "title": "Birlikte Çalışma Projesi",
-        "text": "{languages} programlama dilini ve {patterns} yürütme modelini kapsayan diller arası birlikte çalışabilirlik referansı. Proje, sistemlerin sıklıkla kırılgan hale geldiği sınırları araştırıyor: süreç sözleşmeleri, veri alışverişi, çalışma zamanı davranışı ve tekrarlanabilir entegrasyon yolları. Bir ürün tek bir yığından daha büyük olduğunda ihtiyaç duyulan sistem düşüncesini yansıtır.",
+        "text": "{languages} programlama dili ve {patterns} yürütme desenini kapsayan diller arası birlikte işlerlik başvurusu. Proje, sistemlerin sık sık kırılganlaştığı sınırı araştırır: süreç sözleşmeleri, veri alışverişi, çalışma zamanı davranışı ve yinelenabilir bütünleştirme yolları. Ürün tek bir yığından büyük olduğunda gereken sistem düşüncesini yansıtır.",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -294,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON ve YAML Otomatik Formatlayıcı",
-        "text": "Go'da yerleşik ve WebAssembly'da derlenmiş, tarayıcı tabanlı bir JSON ve YAML doğrulama ve biçimlendirme aracı. Ayrıştırma motorunu WASM'ye taşımak, geçersiz girişi yakalamak için gerçek bir ayrıştırıcı uygularken etkileşimin tarayıcıya duyarlı ve yerel olmasını sağlar. Performans, taşınabilirlik ve kullanıcı güveni için bir çalışma zamanı mimarisi seçmenin odaklanmış bir örneğidir.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter, JSON, YAML, XML, HTML, TOML, CSV ve TSV için tarayıcı tabanlı bir linter ve biçimlendiricidir. Zig motoru WebAssembly'e derlenir ve tamamen tarayıcıda çalışır: gerçek ayrıştırıcılarla doğrular, içeriği yeniden yazmadan belgelerin girintisini düzenler ve yorumları, çapaları, CDATA'yı, tırnak işaretlerini ve sayısal hassasiyeti korur. Proje üç uygulama barındırır — Go, Rust ve Zig — önceki sürümler karşılaştırma için arşivlenmiştir.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -324,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "Betik kitaplığı",
+        "text": "Dil başına bir sayfayla düzenlenmiş otomasyon betikleri kitaplığı: Excel tabloları için VBA, hafif araçlar için Lua, Windows yönetimi için PowerShell, günlük veri işi için Python ve betikleme deneyleri için Ruby. Her betik yeniden kullanılmak üzere yazıldığından koleksiyon, beş dağınık depo yerine tek bir proje olarak sürdürülür.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Şifreleme Projesi",
-        "text": "128-, 192- ve 256-bit varyantlarda {implementations}'dan fazla Rijndael uygulamasından oluşan karşılaştırmalı bir set. Güvenliğe duyarlı bir algoritmanın diller arasında yeniden uygulanması, kesin spesifikasyonlar, test edilebilir davranış ve dil düzeyinde taşınabilirliğin sınırları konusunda disiplinli bir çalışmadır. hassas verileri işleyen sistemler için tüm yararlı içgüdüler.",
+        "title": "Rijndael şifreleme projesi",
+        "text": "128, 192 ve 256 bit varyantlarında Rijndael'in {implementations} uygulamasını karşılaştırmalı olarak sunan dizi. Güvenliğe duyarlı bir algoritmayı farklı dillerde yeniden uygulamak; kesin spesifikasyonlar, test edilebilir davranış ve dil düzeyinde taşınabilirliğin sınırları konusunda disiplinli bir alıştırmadır ve hassas veriler işleyen sistemler için yararlı sezgiler kazandırır.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "Rubik Küpü çözücü",
+        "text": "Çıkartmaları tek tek — küpün üzerinde ya da açılmış ağında — boyayabileceğiniz etkileşimli 3B bir Rubik Küpü; ardından Rust'tan WebAssembly'e derlenmiş Herbert Kociemba tarzı iki aşamalı bir arama ile çözersiniz. Svelte arayüzü küpü three.js ile çizdirir, boyanmış durumu, geçerlilik denetimlerini ve çözücünün yüz dizgisini eşitler ve çözümü, kaydırıp adım adım ilerletebileceğiniz ve yeniden oynatabileceğiniz bir zaman çizelgesinde hamle hamle oynatır.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -365,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Rust ve wgpu ile yazılıp WebAssembly'e derlenmiş Minecraft tarzı bir voksel oyun; bu yüzden doğrudan tarayıcıda oynanır. Arcade'in sandbox sürümüdür: modern bir grafik işlem hattıyla çizilen kübik arazi ve voksel dünya, oyun motoru üzerinde değil Rust araç zinciri üzerinde sıfırdan yazılmıştır.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger Programlama Dili",
-        "text": "Dil çalışma zamanı tasarımını, yürütme davranışını ve performans değişimlerini keşfetmek için Go'da yerleşik özel bir programlama dili ve yorumlayıcı. Bunu WebAssembly'ye derlemek ve portföye entegre etmek, işi bir bütün olarak bırakmak yerine, sistem düzeyinde mühendislik için gerçek, denetlenebilir bir ürün yüzeyi oluşturur. yalnızca depo denemesi.",
+        "text": "Dil çalışma zamanı tasarımını, yürütme davranışını ve performans ödünleşimlerini keşfetmek için Rust ile yazılmış özel bir programlama dili ve yorumlayıcı. Orijinal Go yorumlayıcısı eski uygulama olarak kullanılabilir durumdadır. Bunu WebAssembly'e derleyip portfolyoya eklemek, işi yalnızca bir depo deneyi olarak bırakmak yerine sistem mühendisliği için gerçek, incelenebilir bir ürün yüzeyi oluşturur.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Makinesi Projesi",
-        "text": "Turing Makinesi'nin {implementations}'dan fazla uygulamasından oluşan aile. Araştırma için farklı programlama dilleri, özellikle Tiger Programlama Dili için turingin bütünlüğünü göstermek için kullanılır.",
+        "text": "Turing makinesinin {implementations} uygulamasından oluşan aile. Araştırma amacıyla farklı programlama dillerinin, özellikle de Tiger programlama dilinin Turing eksiksizliğini göstermek için kullanılır.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Satranç Motoru",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Satranç motoru",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Rust ile yazılıp WebAssembly'e derlenmiş bir satranç motoru. Yinelemeli derinleştirmeli negamax, alfa-beta budama, 32 MB'lık bir geçiş tablosu ve yapraklarda dinginlik araması ile arama yapar; azalan taş-kare tablolarıyla değerlendirir ve hamleleri MVV-LVA, katiller ve geçmişe göre sıralar. Motor, tahtanın donmaması için bir Web Worker içinde çalışır ve hamle üreticisi tarayıcıda yayımlanmış perft sayılarıyla denetlenir — ilk beş derinlik için 20, 400, 8.902, 197.281 ve 4.865.609 düğüm."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 bir geri kazanım projesidir: üniversitede yarım kalmış bir CPSC 4160 oyunu olarak başlayan — son tuvalet kâğıdı rulolarını kap ve mikroplar seni tüketmeden kasaya ulaş — şey, SDL2 üzerinde modern bir C++20 motoru olarak sıfırdan yeniden kurulup WebAssembly'e derlendi. Devriye gezen ve kovalayan mikrop yapay zekâsı, on artan koridor, toplama nesneleri, parçacıklar ve dokunma denetimleri içerir; özgün prototipteki hiçbir kestirme yoktur."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "Kesin ve yeniden oynatılabilir bir limit emir defteri eşleştirme motoru. Motorun kendisi Rails içermeyen saf Ruby'dir ve Rails 8 tarafından tek bir SQLite dosyası üzerinden sunulur. Her komut, motor görmeden önce yazma öncesi günlüğe eklenir; böylece defterin geçmiş herhangi bir durumu bir adım ötededir ve yeniden oynatmanın sadakati, pazar canlıyken kaydedilen parmak izleri karşılaştırılarak kanıtlanır. Fiyat-zaman önceliği, GTC/IOC/FOK, kuyruk sırasını koruyan veya kaybeden değişiklikler ve kendi kendine işlem önleme, tohumlanmış bir fuzz paketinde her komuttan sonra on dört değişmezle doğrulanır. Tarayıcı Action Cable üzerinden on hertzlik bir merdiven alırken komutlar HTTP ile yukarı çıkar.",
+        "title": "PIT eşleştirme motoru"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "E-posta ve LinkedIn mesajlarından gelen sorulara yanıt veriyorum. Telefon numaramı gizli tutmayı tercih etsem de, numaram özgeçmiş yoluyla veya başka bir şekilde sağlanırsa da geri arayacağım."
   },
   "formatter": {
-    "title": "JSON ve YAML Linter",
-    "description": "WebAssembly'ye derlenmiş bir Go motorunu kullanarak JSON ve YAML'yi doğrulayan ve biçimlendiren, tarayıcı tabanlı bir veri kalitesi aracı. Mimari, veri sınırında gerçek sözdizimi kurallarını uygularken, hızlı ve özel geri bildirim için kullanıcıya yakın bir yerde ayrıştırmayı sürdürür. Doğruluk, performans ve güven etrafında güvenilir bir geliştirici iş akışı tasarlamanın kompakt bir örneğidir.",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter, JSON, YAML, XML, HTML, TOML, CSV ve TSV dosyalarını WebAssembly'e derlenmiş bir Zig motoruyla doğrulayan ve biçimlendiren tarayıcı tabanlı bir veri kalitesi aracıdır. Ayrıştırma, hızlı ve özel geri bildirim için kullanıcıya yakın kalırken veri sınırında gerçek söz dizimi kuralları uygulanır. Yazarın metnini korur, hatalı girdileri reddeder ve küçük bir WebAssembly modülünün güvenilir bir geliştirici iş akışını nasıl destekleyebileceğini gösterir.",
     "more_info1": "Daha fazla bilgi için README dosyasına bakın.",
-    "more_info2": "JSON/YAML Biçimlendirici Havuzu.",
+    "more_info2": "Auto-Linter deposu.",
     "format_as": "Şu Şekilde Biçimlendir:",
     "auto_detect": "Otomatik Algıla",
     "format": "Tüysüz ve Biçim",
@@ -415,20 +436,22 @@
     "valid_yaml": "✓ Geçerli YAML",
     "invalid_json": "Geçersiz JSON",
     "invalid_yaml": "Geçersiz YAML",
-    "empty_input": "Lütfen lintlemek için biraz JSON veya YAML girin.",
+    "empty_input": "Denetlemek için JSON, YAML, XML, HTML, TOML, CSV veya TSV girin.",
     "too_large": "Giriş çok büyük (en fazla 1 MB'a izin verilir).",
     "fixed_yaml_spacing": "⚠ YAML'de geçersiz boşluk/girinti vardı ancak otomatik olarak düzeltildi ve biçimlendirildi.",
-    "loading": "Biçimlendirici yükleniyor...",
+    "loading": "Auto-Linter yükleniyor...",
     "waiting_for_input": "Giriş bekleniyor...",
-    "load_failed": "Biçimlendirici yüklenemiyor.",
+    "load_failed": "Auto-Linter yüklenemedi.",
     "output": "Çıkış:",
     "input_code": "Giriş",
     "json_examples": "JSON Örnekleri",
-    "yaml_examples": "YAML Örnekleri"
+    "yaml_examples": "YAML Örnekleri",
+    "legacy_repo": "Eski Go uygulamasını görüntüle",
+    "legacy_rust": "Eski Rust uygulamasını görüntüle"
   },
   "tiger": {
     "title": "Kaplan Dili",
-    "description": "Tiger, çalışma zamanı mimarisini, dil anlambilimini ve performans değişimlerini keşfetmek için oluşturulmuş özel bir programlama dili ve Go yorumlayıcısıdır. Yorumlayıcının WebAssembly'ye derlenmesi, sistemlerin çalışmasını etkileşimli, tarayıcı tabanlı bir ürüne dönüştürür: çalışma zamanı taşınabilir kalırken kullanıcılar programları doğrudan çalıştırabilir ve ana bilgisayar uygulamasından izole edilmiştir.",
+    "description": "Tiger, üretim düzeyinde özel bir programlama dili ve performans için Rust ile yazılmış bir yorumlayıcıdır. Derlenmiş bayt kodu motoru ve ağaç yürüyüşlü referans yorumlayıcısı 44 programlık bir kıyaslama derleminde eş adımlı kalır; eşlik eden işlem içi protokol, çalışma zamanını doğrulanan her bölümde CPython ile aynı ya da ondan önde tutar ve günlük betiklemede Python ve Ruby ile doğrudan rekabet eden performans sunar. Orijinal Go yorumlayıcısı eski uygulama olarak kullanılabilir durumdadır. Yorumlayıcıyı WebAssembly'e derlemek bu sistem işini etkileşimli, tarayıcı tabanlı bir ürüne dönüştürür: kullanıcılar programları doğrudan çalıştırabilirken çalışma zamanı taşınabilir ve ana uygulamadan yalıtılmış kalır.",
     "more_info1": "Daha fazla bilgi için README dosyasına bakın.",
     "more_info2": "Tiger Programlama Dili GitHub Deposu.",
     "select_engine": "Motoru Seçin:",
@@ -436,7 +459,8 @@
     "run_tiger": "Kaplanı Çalıştır",
     "output": "Çıkış:",
     "stop": "Durdur",
-    "program_input": "Program girişi"
+    "program_input": "Program girişi",
+    "legacy_repo": "Eski Go uygulamasını görüntüle"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Yakınlaştır",
         "zoom_out": "Uzaklaştır",
         "reset": "Görünümü Sıfırla"
+      },
+      "country_names": {
+        "show": "Ülke adlarını göster",
+        "hide": "Ülke adlarını gizle"
       }
     },
     "supported_languages": {

@@ -8,8 +8,8 @@
     "tiger": "Tiger - Luqad Programming Gaar ah",
     "snake": "Ciyaarta abeska",
     "portfolio_translator": "Turjumaan Portfolio",
-    "formatter": "Hubiyaha JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Xalliyaha Rubik's Cube",
     "contact": "ila soo xidhiidh",
     "home_description": "sys.root // dulmar guud",
     "about_description": "profile injineer // bio iyo teknoolojiyad",
@@ -18,18 +18,26 @@
     "tiger_description": "isku-duweeye gaar ah iyo AST muraaqiye",
     "snake_description": "ciyaar arkade caadi ah / WASM",
     "portfolio_translator_description": "matrix 100+ luqad iyo i18n",
-    "formatter_description": "xaqiijiyaha iyo beddelaha syntax-ka",
+    "formatter_description": "linter iyo qaabeye badan // WASM",
     "contact_description": "gudbinta furan // nala xiriir",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Geedka luqadaha Afar Isku Xigta",
+    "connect_four": "Connect Four",
     "alkalab_description": "jilitaanka shaybaar kiimiko / WASM",
     "rustcraft_description": "ciyaar voxel qaab Minecraft / Rust iyo wgpu",
     "suprememc_description": "bandhigga mod-ka Minecraft / Java",
-    "chess_engine": "Mashiinka Chess",
-    "chess_engine_description": "mashiinka bitboard / WASM & shaqaalaha"
+    "chess_engine": "Matoorada chess-ka",
+    "chess_engine_description": "matoorada bitboard / WASM iyo shaqaale",
+    "framework_trees": "Geedaha framework-ka",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Sirta Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "script-yada otomaatigga ah // 6 luqadood",
+    "reclaim_4160_description": "ciyarta kulliyadda, dib loo soo celiyay / C++ iyo WASM",
+    "turing_machines": "Mashiinnada Turing",
+    "scripting_library": "Maktabadda script-yada"
   },
   "home": {
     "title": "Injineer buuxa oo buuxa | Badeecada & Nidaamyada",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Mashruucyada la xushay",
       "title": "Shaqooyinka la xushay",
-      "description": "Lix mashruuc oo ugu fiican u matalaya sida aan uga beddelo fikradaha hamiyada leh software la qurxiyey oo shaqeeya.",
+      "description": "Mashruucyada si fiican u muujinaya sida aan u beddelo fikradaha rabanta badan oo aan u dhigo software nadiif ah oo shaqeeya.",
       "view_project": "Eeg mashruuca",
       "open_project": "Fur mashruuc toos ah",
       "view_all": "Baar portfolio-ga buuxa",
@@ -101,7 +109,8 @@
         "libraries": "Maktabadaha script-ka",
         "languages": "Tijaabooyinka luqadda",
         "automation": "Qalabka otomaatiga iyo xogta",
-        "experience": "Khibradda xirfadeed iyo waxbarasho"
+        "experience": "Khibradda xirfadeed iyo waxbarasho",
+        "markets": "Suuqyo iyo nidaamyo ganacsi"
       },
       "browser_native": "Asal browser / server la'aan",
       "no_results": "Ma jiraan mashruucyo u dhigma",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Helitaanka",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Saxnaanta dhaqaaluhu waxay ka bilaabataa matalaadda: xisaabta senti buuxda iyo qoraallada dheellitiran waxay dhaqdhaqaaqa lacagta ka dhigayaan mid cad."
         },
         "interop": {
-          "summary": "Tixraac u dhexeeya luqadaha oo daboolaya {languages} luqad programming iyo {patterns} qaab fulin, oo baaraya waxa dhaca xudduudaha wakhtiga fulinta.",
+          "summary": "Tixraac luqado badan oo daboolaya {languages} luqadood oo barnaamij iyo {patterns} qaab-dhismeedka fulinta, oo baadhaya waxa dhaca xuduudaha runtime-ka.",
           "lens": "Qaybta adag waa qandaraaska u dhexeeya wakhtiyada fulinta: isweydaarsiga xogta, dhaqanka habka, iyo fulinta soo noqnoqota ayaa muhiim ka ah syntax-ka."
         },
         "formatter": {
-          "summary": "Mashiin dabagale Go oo dhab ah oo la isku-duubay WebAssembly. Xaqiijinta iyo qaabaynta JSON iyo YAML waxay si gudaha ah u shaqeeyaan browser-ka.",
-          "lens": "Guurinta dabagalaha ilaa browser-ka waxay ku baddalaysaa culeys weyn oo macmiilka ah habaynta gudaha, la qaadi kara, iyo ku-tiirsanaan yar oo server ah."
+          "summary": "Linter iyo qaabeyaha WebAssembly oo lagu qoray Zig oo loogu talagalay JSON, YAML, XML, HTML, TOML, CSV iyo TSV. Xaqiijinta iyo qaabeynta waxay ku shaqeeyaan gudaha browser-ka.",
+          "lens": "Qaabeynta waa arrin kalsooni: falanqee sarif dhab ah, ilaali qoraalka qoraaga, oo xogta ku haya macmiilka."
         },
         "portfolio_website": {
           "summary": "Bogga aad ku sugan tahay: portfolio React leh 100+ luqad, isdhexgal la heli karo, iyo qalab WebAssembly oo shaqeeya.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formater",
+        "title": "Auto-Linter",
         "text": "JSON ku salaysan browserka iyo ansaxinta YAML iyo qalab lagu dhisay Go oo lagu soo ururiyay WebAssembly. U raridda mishiinka wax-kala-soocidda ee WASM waxay ka dhigaysaa is-dhexgalka mid ka jawaabaya oo maxalli ah browserka iyada oo la adeegsanayo parser-ka dhabta ah si loo qabto gelinta aan sax ahayn. Waa tusaale diirada saaraya doorashada qaab dhismeedka runtime ee waxqabadka, qaadida, iyo aaminaadda isticmaalaha.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Maktabadda script-yada",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Mashruuca sirta ah ee Rijndael",
-        "text": "Qayb isbarbardhig ah oo ah {implementations} Rijndael oo fulinaya dhamaan 128-, 192-, iyo 256-bit. Dib-u-soo-celinta algorithm-ka xasaasiga ah ee luqadaha oo dhan waa layli edbin ah oo qeexid sax ah, habdhaqan la tijaabin karo, iyo xadka qaadidda heerka luqadda, dhammaan dareenada waxtarka leh ee nidaamyada gacanta ku haya xogta xasaasiga ah.",
+        "title": "Mashruuca sirta Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Xalliyaha Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Mashruuca Turing Machine",
-        "text": "Qoyska ka badan {implementations} hirgalinta Mashiinka Turing. Waxa loo adeegsaday in lagu muujiyo dhammaystirka luuqadaha barnaamijyada kala duwan ee cilmi-baadhista, gaar ahaan Luuqadda Programming-ka ee Shabeelka.",
+        "text": "Qoys {implementations} hirgelin oo ah Turing Machine. Waxaa loo isticmaalaa in lagu muujiyo turing completeness luqadaha barnaamijyada kala duwan cilmi-baaris, gaar ahaan luqadda Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Mashiinka Chess",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Matoorada chess-ka",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Matoorada is-waafajinta PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Waxaan ka jawaabaa su'aalaha iimaylka iyo fariimaha LinkedIn. Sidoo kale waan soo wici doonaa haddii lambarkayga lagu bixiyo resume ama si kale, in kastoo aan doorbido inaan lambarkayga ka dhigo mid gaar ah."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Qalabka tayada xogta ku salaysan browser-ka kaas oo ansixiya oo qaabeeya JSON iyo YAML iyadoo la isticmaalayo Go engine oo lagu soo ururiyay WebAssembly. Nashqaduhu waxa ay ku hayaan u kala shaandheynta u dhow isticmaalaha si degdeg ah, jawaab celin gaar ah iyada oo la xoojinayo xeerarka syntax dhabta ah ee xadka xogta. Waa tusaale kooban oo naqshadaynta socodka shaqo ee horumariye la isku halayn karo oo ku wareegsan saxnaanta, waxqabadka, iyo kalsoonida.",
     "more_info1": "Wixii macluumaad dheeraad ah, tixraac README ee ku jira",
-    "more_info2": "Kaydka qaabeeyaha JSON/YAML.",
+    "more_info2": "Bakhaarka Auto-Linter.",
     "format_as": "Qaabka Sida:",
     "auto_detect": "Ogaanshaha otomaatiga ah",
     "format": "Lint & Qaabka",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML sax ah",
     "invalid_json": "JSON aan sax ahayn",
     "invalid_yaml": "YAML aan sax ahayn",
-    "empty_input": "Fadlan geli qaar ka mid ah JSON ama YAML si aad u gasho.",
+    "empty_input": "Geli JSON, YAML, XML, HTML, TOML, CSV ama TSV si loo hubiyo.",
     "too_large": "Gelida oo aad u weyn (ugu badnaan 1MB waa la ogol yahay).",
     "fixed_yaml_spacing": "⚠ YAML waxay lahayd kala dheerayn/gelis aan sax ahayn laakiin si toos ah ayaa loo hagaajiyay oo loo qaabeeyey.",
-    "loading": "Soodejinaya qaabeeyaha...",
+    "loading": "Waa la soo dejinayaa Auto-Linter...",
     "waiting_for_input": "Sugaya gelinta...",
-    "load_failed": "Aan awoodin inuu soo dejiyo qaabeeyaha",
+    "load_failed": "Auto-Linter lama soo dejin karin.",
     "output": "Natiijada:",
     "input_code": "Gelida",
     "json_examples": "Tusaalooyinka JSON",
-    "yaml_examples": "YAML Tusaalooyinka"
+    "yaml_examples": "YAML Tusaalooyinka",
+    "legacy_repo": "Fiiri hirgelinta Go ee hore",
+    "legacy_rust": "Fiiri hirgelinta Rust ee hore"
   },
   "tiger": {
     "title": "Luuqadda Shabeelka",
@@ -436,7 +459,8 @@
     "run_tiger": "Orod Shabeel",
     "output": "Natiijada:",
     "stop": "Jooji",
-    "program_input": "Gelinta barnaamijka"
+    "program_input": "Gelinta barnaamijka",
+    "legacy_repo": "Fiiri hirgelinta Go ee hore"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Soo dhawoow",
         "zoom_out": "Soo Dhawayn",
         "reset": "Dib-u-dejinta Muuqaalka"
+      },
+      "country_names": {
+        "show": "Muuji magacyada dalalka",
+        "hide": "Qari magacyada dalalka"
       }
     },
     "supported_languages": {

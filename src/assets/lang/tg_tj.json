@@ -8,8 +8,8 @@
     "tiger": "Tiger - Забони фармоишии барномасозӣ",
     "snake": "Бозии мор",
     "portfolio_translator": "Тарҷумони портфолио",
-    "formatter": "Тафтишкунандаи JSON ва YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Ҳалкунандаи куби Рубик",
     "contact": "Бо ман тамос гиред",
     "home_description": "sys.root // баррасии асосӣ",
     "about_description": "профили муҳандис // биё ва технология",
@@ -18,18 +18,26 @@
     "tiger_description": "мураттабсози фармоишӣ ва тасвиркунандаи AST",
     "snake_description": "бозии классикии аркада / WASM",
     "portfolio_translator_description": "матритсаи 100+ забон ва i18n",
-    "formatter_description": "тафтишкунанда ва табдилдиҳандаи синтаксис",
+    "formatter_description": "linter ва форматкунандаи бисёрформатӣ // WASM",
     "contact_description": "интиқоли кушод // тамос гиред",
     "arcade": "Аркада",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Дарахти забонҳои Чор паиҳам",
+    "connect_four": "Connect Four",
     "alkalab_description": "шабеҳсозии озмоишгоҳи химия / WASM",
     "rustcraft_description": "бозии воксели услуби Minecraft / Rust ва wgpu",
     "suprememc_description": "намоиши моди Minecraft / Java",
-    "chess_engine": "Муҳаррики шоҳмот",
-    "chess_engine_description": "муҳаррики bitboard / WASM & коргари"
+    "chess_engine": "Двигатели шатранҷ",
+    "chess_engine_description": "двигатели bitboard / WASM ва коргар",
+    "framework_trees": "Дарахтҳои фреймворкҳо",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Рамзгузории Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "скриптҳои автоматизатсия // 6 забон",
+    "reclaim_4160_description": "бозии донишгоҳӣ, барқароршуда / C++ ва WASM",
+    "turing_machines": "Мошинҳои Тюринг",
+    "scripting_library": "Китобхонаи скриптҳо"
   },
   "home": {
     "title": "Муҳандиси калони пурра | Маҳсулот ва системаҳо",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Лоиҳаҳои баргузида",
       "title": "Корҳои интихобшуда",
-      "description": "Шаш лоиҳа, ки беҳтарин нишон медиҳанд, ки чӣ гуна идеяҳои бузургро ба нармафзори сайқалдода ва коркунанда табдил медиҳам.",
+      "description": "Лоиҳаҳое, ки беҳтар нишон медиҳанд, ки чӣ гуна ғояҳои калонро ба барномаи мукаммал ва коршоям табдил медиҳам.",
       "view_project": "Дидани лоиҳа",
       "open_project": "Кушодани лоиҳаи мустақим",
       "view_all": "Омӯзиши портфолиои пурра",
@@ -101,7 +109,8 @@
         "libraries": "Китобхонаҳои скрипт",
         "languages": "Озмоишҳои забон",
         "automation": "Абзорҳои автоматизатсия ва додаҳо",
-        "experience": "Таҷрибаи касбӣ ва таълимӣ"
+        "experience": "Таҷрибаи касбӣ ва таълимӣ",
+        "markets": "Бозорҳо ва системаҳои савдо"
       },
       "browser_native": "Модарӣ дар браузер / бе сервер",
       "no_results": "Лоиҳаи мувофиқ нест",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Дастрасӣ",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Дурустии молиявӣ аз тасвир сар мешавад: ҳисоби комили сенте ва сабтҳои мутавозин ҳаракати пулро равшан мекунанд."
         },
         "interop": {
-          "summary": "Маълумотномаи байнизабонӣ, ки {languages} забони барномасозӣ ва {patterns} намунаи иҷроро дар бар мегирад, чизҳои дар сарҳадҳои вақти иҷрошавӣ рӯйдодаро меомӯзад.",
+          "summary": "Маълумотномаи байнизабонӣ, ки {languages} забони барномасозӣ ва {patterns} намунаи иҷроро дар бар мегирад, ва чӣ гуна дар сарҳадҳои runtime рух доданро мепаймояд.",
           "lens": "Қисми мушкил шартномаи байни вақтҳои иҷрошавӣ аст: мубодилаи додаҳо, рафтори раванд ва иҷрои такроршаванда аз синтаксис муҳимтаранд."
         },
         "formatter": {
-          "summary": "Муҳаррики воқеии таҳлили Go, ки ба WebAssembly тартиб дода шудааст. Санҷиш ва форматкунии JSON ва YAML дар браузер маҳаллан кор мекунад.",
-          "lens": "Интиқоли таҳлилгар ба браузер бори калонтари мизоҷро ба коркарди маҳаллӣ, қобилиятнокии интиқол ва камтарин вобастагӣ ба сервер иваз мекунад."
+          "summary": "Linter ва форматкунандаи WebAssembly бо Zig барои JSON, YAML, XML, HTML, TOML, CSV ва TSV навишта шудааст. Санҷиш ва форматкунӣ дар браузер ба таври маҳаллӣ кор мекунад.",
+          "lens": "Форматкунӣ масъалаи эътимод аст: бо грамматикаи воқеӣ таҳлил кунед, матни муаллифро нигоҳ доред ва маълумотро дар мизоҷ нигоҳ доред."
         },
         "portfolio_website": {
           "summary": "Сайте, ки шумо дар он ҳастед: портфолиои React бо 100+ забон, таъсироти дастрас ва абзорҳои коркунандаи WebAssembly.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Форматкунандаи худкор",
+        "title": "Auto-Linter",
         "text": "Асбоби тасдиқ ва форматкунии JSON ва YAML дар асоси браузер, ки дар Go сохта шудааст ва дар WebAssembly тартиб дода шудааст. Гузаронидани муҳаррики таҳлил ба WASM муоширати мутақобиларо ба браузер ҷавобгӯ ва маҳаллӣ нигоҳ медорад ва ҳангоми татбиқи таҳлилгари воқеӣ барои гирифтани вуруди нодуруст. Ин як намунаи нигаронидаи интихоби меъмории вақти корӣ барои кор, қобилият ва эътимоди корбар аст.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Китобхонаи скриптҳо",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Лоиҳаи рамзгузории Rijndael",
-        "text": "Маҷмӯи муқоисавии {implementations} татбиқи Rijndael дар вариантҳои 128-, 192- ва 256-бит. Таҷдиди алгоритми ҳассос ба амният дар байни забонҳо як машқи интизомӣ дар мушаххасоти дақиқ, рафтори санҷидашаванда ва маҳдудиятҳои интиқоли сатҳи забон мебошад, ҳама инстинктҳои муфид барои системаҳое, ки маълумоти ҳассосро коркард мекунанд.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Ҳалкунандаи куби Рубик",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Лоиҳаи мошини Тюринг",
-        "text": "Оилаи беш аз {implementations} татбиқи мошини Тюринг. Барои нишон додани мукаммалии туринг барои забонҳои гуногуни барномасозӣ барои тадқиқот, махсусан барои забони барномасозии Tiger истифода мешавад.",
+        "text": "Оилаи {implementations} татбиқи мошини Тюринг. Барои нишон додани пуррагии тюрингӣ ба забонҳои гуногун бо мақсади тадқиқот, махсусан барои забони Tiger истифода мешавад.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Муҳаррики шоҳмот",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Двигатели шатранҷ",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Двигатели мувофиқаи PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ман ба дархостҳо аз почтаи электронӣ ва паёмҳои LinkedIn ҷавоб медиҳам. Ман инчунин занг мезанам, агар рақами ман тавассути резюме ё ба таври дигар пешниҳод карда шавад, гарчанде ки ман рақами телефонамро махфӣ нигоҳ медорам."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Асбоби сифати маълумот дар асоси браузер, ки JSON ва YAML-ро бо истифода аз муҳаррики Go, ки дар WebAssembly тартиб дода шудааст, тасдиқ ва формат мекунад. Меъморӣ таҳлили наздик ба корбарро барои аксуламали зуд ва хусусӣ идома медиҳад ва ҳангоми иҷрои қоидаҳои воқеии синтаксис дар сарҳади додаҳо. Ин як намунаи паймонест, ки тарҳрезии ҷараёни кории боэътимоди таҳиякунанда дар атрофи дурустӣ, иҷро ва эътимод аст.",
     "more_info1": "Барои маълумоти иловагӣ, ба README дар",
-    "more_info2": "Анбори форматкунандаи JSON/YAML.",
+    "more_info2": "Анбори Auto-Linter.",
     "format_as": "Формат ҳамчун:",
     "auto_detect": "Муайянкунии худкор",
     "format": "Линт ва Формат",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML эътибор дорад",
     "invalid_json": "JSON нодуруст",
     "invalid_yaml": "YAML нодуруст",
-    "empty_input": "Лутфан, каме JSON ё YAML ворид кунед.",
+    "empty_input": "Барои санҷиш JSON, YAML, XML, HTML, TOML, CSV ё TSV ворид кунед.",
     "too_large": "Вуруди хеле калон (максимум 1MB иҷозат дода шудааст).",
     "fixed_yaml_spacing": "⚠ YAML фосила/қафолати беэътибор дошт, аммо ба таври худкор ислоҳ ва формат карда шуд.",
-    "loading": "Форматкунанда бор карда мешавад...",
+    "loading": "Auto-Linter бор мешавад...",
     "waiting_for_input": "Интизори вуруд...",
-    "load_failed": "Форматгузорро бор кардан ғайриимкон аст.",
+    "load_failed": "Auto-Linter бор карда нашуд.",
     "output": "Натиҷа:",
     "input_code": "Вуруд",
     "json_examples": "Намунаҳои JSON",
-    "yaml_examples": "Намунаҳои YAML"
+    "yaml_examples": "Намунаҳои YAML",
+    "legacy_repo": "Дидати татбиқи қадимаи Go",
+    "legacy_rust": "Дидати татбиқи қадимаи Rust"
   },
   "tiger": {
     "title": "Забони паланг",
@@ -436,7 +459,8 @@
     "run_tiger": "Тайгерро давед",
     "output": "Натиҷа:",
     "stop": "Боздоштан",
-    "program_input": "Дохили барнома"
+    "program_input": "Дохили барнома",
+    "legacy_repo": "Дидати татбиқи қадимаи Go"
   },
   "tab": {
     "title": "Патрик Гудвин",
@@ -501,6 +525,10 @@
         "zoom_in": "Масштаб кардан",
         "zoom_out": "Дуркунӣ",
         "reset": "Бозсозии Намоиш"
+      },
+      "country_names": {
+        "show": "Намоиши номҳои кишварҳо",
+        "hide": "Пинҳон кардани номҳои кишварҳо"
       }
     },
     "supported_languages": {

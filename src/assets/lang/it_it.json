@@ -8,8 +8,8 @@
     "tiger": "Tiger - Un linguaggio di programmazione personalizzato",
     "snake": "Gioco del serpente",
     "portfolio_translator": "Traduttore di portfolio",
-    "formatter": "Correttore JSON e YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Risolvitore del cubo di Rubik",
     "contact": "Contattami",
     "home_description": "sys.root // panoramica principale",
     "about_description": "profilo ingegnere // bio e stack",
@@ -18,18 +18,26 @@
     "tiger_description": "compilatore personalizzato e visualizzatore AST",
     "snake_description": "gioco arcade classico / WASM",
     "portfolio_translator_description": "matrice di 100+ lingue e i18n",
-    "formatter_description": "validatore e convertitore di sintassi",
+    "formatter_description": "linter e formattatore multi-formato // WASM",
     "contact_description": "trasmissione aperta // contattami",
     "arcade": "Arcade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Albero linguistico Forza 4",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulazione laboratorio di chimica / WASM",
     "rustcraft_description": "gioco voxel stile Minecraft / Rust e wgpu",
     "suprememc_description": "vetrina mod Minecraft / Java",
-    "chess_engine": "Motore a scacchi",
-    "chess_engine_description": "bitboard engine / WASM & worker"
+    "chess_engine": "Motore scacchistico",
+    "chess_engine_description": "motore bitboard / WASM e worker",
+    "framework_trees": "Alberi di framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Cifratura Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "script di automazione // 6 linguaggi",
+    "reclaim_4160_description": "gioco universitario, recuperato / C++ e WASM",
+    "turing_machines": "Macchine di Turing",
+    "scripting_library": "Libreria di script"
   },
   "home": {
     "title": "Ingegnere full-stack senior | Prodotti e sistemi",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Progetti in evidenza",
       "title": "Lavoro selezionato",
-      "description": "Sei progetti che rappresentano al meglio come trasformo idee ambiziose in software rifinito e funzionante.",
+      "description": "Progetti che meglio rappresentano come trasformo idee ambiziose in software rifinito e funzionante.",
       "view_project": "Vedi progetto",
       "open_project": "Apri progetto live",
       "view_all": "Esplora il portfolio completo",
@@ -101,7 +109,8 @@
         "libraries": "Librerie di script",
         "languages": "Esperimenti linguistici",
         "automation": "Strumenti di automazione e dati",
-        "experience": "Esperienza professionale e formativa"
+        "experience": "Esperienza professionale e formativa",
+        "markets": "Mercati e sistemi di trading"
       },
       "browser_native": "Nativo del browser / senza server",
       "no_results": "Nessun progetto corrispondente",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Accessibilità",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "La correttezza finanziaria inizia con la rappresentazione: l'aritmetica in centesimi interi e le scritture bilanciate rendono espliciti i movimenti di denaro."
         },
         "interop": {
-          "summary": "Una referenza tra linguaggi che copre {languages} linguaggi di programmazione e {patterns} modelli di esecuzione, esplorando cosa accade ai confini del runtime.",
+          "summary": "Un riferimento tra linguaggi che copre {languages} linguaggi di programmazione e {patterns} pattern di esecuzione, esplorando ciò che accade ai confini del runtime.",
           "lens": "La parte difficile è il contratto tra i runtime: lo scambio di dati, il comportamento dei processi e l'esecuzione ripetibile contano più della sintassi."
         },
         "formatter": {
-          "summary": "Un vero motore di parsing Go compilato in WebAssembly. La validazione e la formattazione di JSON e YAML vengono eseguite localmente nel browser.",
-          "lens": "Spostare il parser nel browser scambia un payload client più grande con elaborazione locale, portabilità e meno dipendenze dal server."
+          "summary": "Un linter e formattatore WebAssembly scritto in Zig per JSON, YAML, XML, HTML, TOML, CSV e TSV. La validazione e la formattazione vengono eseguite localmente nel browser.",
+          "lens": "La formattazione è un problema di fiducia: fare il parsing con una grammatica reale, preservare il testo dell'autore e mantenere i dati sul client."
         },
         "portfolio_website": {
           "summary": "Il sito in cui ti trovi: un portfolio React con oltre 100 lingue, interazioni accessibili e strumenti WebAssembly funzionanti.",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "Collega quattro",
-        "text": "Un'enorme famiglia di oltre {implementations} implementazioni del gioco Forza 4. Il progetto copre più di {languages} linguaggi di programmazione, tra cui Java, C++, Python e JavaScript, insieme a oltre {frameworks} framework, librerie, runtime e database diversi, da React, Angular e Blazor a Django, Spring Boot, Phoenix, PostgreSQL e oltre.",
+        "text": "Un'enorme famiglia di {implementations} implementazioni del gioco Connect Four. Il progetto copre {languages} linguaggi di programmazione, tra cui Java, C++, Python e JavaScript, insieme a {frameworks} framework, librerie, runtime e database diversi, da React, Angular e Blazor a Django, Spring Boot, Phoenix, PostgreSQL e oltre.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -280,7 +290,7 @@
       },
       "interop": {
         "title": "Progetto di interoperabilità",
-        "text": "Un riferimento per l'interoperabilità tra linguaggi che abbraccia {languages} linguaggi di programmazione e {patterns} modelli di esecuzione. Il progetto indaga il confine in cui i sistemi spesso diventano fragili: contratti di processo, scambio di dati, comportamento in fase di esecuzione e percorsi di integrazione ripetibili. Riflette il pensiero sistemico necessario quando un prodotto è più grande di una singola pila.",
+        "text": "Un riferimento di interoperabilità tra linguaggi che copre {languages} linguaggi di programmazione e {patterns} pattern di esecuzione. Il progetto indaga il confine dove i sistemi spesso diventano fragili: contratti di processo, scambio di dati, comportamento a runtime e percorsi di integrazione ripetibili. Riflette il pensiero sistemico necessario quando un prodotto è più grande di un singolo stack.",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -294,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Formattazione automatica JSON e YAML",
-        "text": "Uno strumento di convalida e formattazione JSON e YAML basato su browser integrato in Go e compilato in WebAssembly. Lo spostamento del motore di analisi in WASM mantiene l'interazione reattiva e locale al browser applicando al contempo un vero parser per rilevare input non validi. È un esempio mirato di scelta di un'architettura runtime per prestazioni, portabilità e fiducia degli utenti.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter è un linter e formattatore per JSON, YAML, XML, HTML, TOML, CSV e TSV che gira nel browser. Il motore Zig è compilato in WebAssembly e viene eseguito interamente nel browser: valida con parser reali, reindenta i documenti senza riscriverne il contenuto e conserva commenti, ancore, CDATA, virgolette e precisione numerica. Il progetto comprende tre implementazioni — Go, Rust e Zig — con le versioni precedenti archiviate per confronto.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -324,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "Libreria di script",
+        "text": "Una libreria consolidata di script di automazione, con una pagina per linguaggio: VBA per i fogli di calcolo Excel, Lua per strumenti leggeri, PowerShell per l'amministrazione di Windows, Python per il lavoro quotidiano sui dati e Ruby per esperimenti di scripting. Ogni script è scritto per essere riutilizzato, quindi la raccolta è mantenuta come un unico progetto invece di cinque repository sparsi.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Progetto di crittografia Rijndael",
-        "text": "Un set comparativo di oltre {implementations} implementazioni Rijndael nelle varianti a 128, 192 e 256 bit. Reimplementare un algoritmo sensibile alla sicurezza tra le lingue è un esercizio disciplinato di specifiche esatte, comportamento testabile e limiti della portabilità a livello di lingua, tutti istinti utili per i sistemi che gestiscono dati sensibili.",
+        "title": "Progetto di cifratura Rijndael",
+        "text": "Una serie comparativa di {implementations} implementazioni di Rijndael nelle varianti a 128, 192 e 256 bit. Reimplementare un algoritmo sensibile alla sicurezza in più linguaggi è un esercizio disciplinato di specifiche esatte, comportamento verificabile e limiti della portabilità a livello di linguaggio, tutti istinti utili per i sistemi che gestiscono dati sensibili.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "Risolvitore del cubo di Rubik",
+        "text": "Un cubo di Rubik 3D interattivo che dipingi adesivo per adesivo — sul cubo o sul suo sviluppo piatto — e che poi risolvi con una ricerca a due fasi in stile Herbert Kociemba compilata da Rust a WebAssembly. L'interfaccia Svelte renderizza il cubo con three.js, mantiene sincronizzati lo stato dipinto, i suoi controlli di validità e la stringa delle facce del risolutore, e riproduce la soluzione mossa per mossa su una timeline che puoi trascinare, scorrere e riprodurre di nuovo.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -365,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Un gioco voxel in stile Minecraft scritto in Rust con wgpu e compilato in WebAssembly, quindi si gioca direttamente nel browser. È la versione sandbox dell'arcade: terreno a blocchi e un mondo voxel disegnato attraverso una pipeline grafica moderna, scritto da zero sulla toolchain Rust invece che su un motore di gioco.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Linguaggio di programmazione Tiger",
-        "text": "Un linguaggio di programmazione e un interprete personalizzati integrati in Go per esplorare la progettazione del runtime del linguaggio, il comportamento di esecuzione e i compromessi in termini di prestazioni. Compilarlo in WebAssembly e integrarlo nel portfolio crea una superficie di prodotto reale e ispezionabile per l'ingegneria a livello di sistema anziché lasciare il lavoro come un esperimento solo sul repository.",
+        "text": "Un linguaggio di programmazione e un interprete proprietari scritti in Rust per esplorare la progettazione del runtime, il comportamento di esecuzione e i compromessi prestazionali. L'interprete Go originale resta disponibile come implementazione legacy. Compilarlo in WebAssembly e integrarlo nel portfolio crea una superficie di prodotto reale e ispezionabile per l'ingegneria di sistema, invece di lasciare il lavoro come semplice esperimento da repository.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Progetto della macchina di Turing",
-        "text": "Famiglia di oltre {implementations} implementazioni della Macchina di Turing. Utilizzato per dimostrare la completezza del turing per diversi linguaggi di programmazione per la ricerca, in particolare per il linguaggio di programmazione Tiger.",
+        "text": "Famiglia di {implementations} implementazioni della Macchina di Turing. Usata per dimostrare la completezza di Turing per diversi linguaggi di programmazione a scopo di ricerca, specialmente per il linguaggio di programmazione Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Motore a scacchi",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Motore scacchistico",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Un motore scacchistico scritto in Rust e compilato in WebAssembly. Cerca con negamax ad approfondimento iterativo, potatura alfa-beta, una tabella di trasposizione da 32 MB e una ricerca di quiescenza sulle foglie; valuta con tabelle pezzo-casa affusolate e ordina le mosse per MVV-LVA, killer e history. Il motore gira in un Web Worker così la scacchiera non si blocca mai, e il suo generatore di mosse è verificato nel browser contro i conteggi perft pubblicati: 20, 400, 8.902, 197.281 e 4.865.609 nodi per le prime cinque profondità."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 è un progetto di recupero: ciò che iniziò come un gioco CPSC 4160 incompiuto all'università — prendi gli ultimi rotoli di carta igienica e raggiungi la cassa prima che i germi ti sfiniscano — è stato ricostruito da zero come motore C++20 moderno su SDL2 e compilato in WebAssembly. Include dieci corsie progressive con IA di germi che pattugliano e inseguono, pickup, particelle e controlli touch, senza le scorciatoie del prototipo originale."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "Un motore di accoppiamento di ordini limite deterministico e ripetibile. Il motore stesso è Ruby puro senza Rails, servito da Rails 8 su un singolo file SQLite. Ogni ordine viene aggiunto a un log write-ahead prima che il motore lo veda, quindi qualsiasi stato passato del book è a un passo, e un replay è dimostrato fedele confrontando le impronte registrate mentre il mercato era live. La priorità prezzo-tempo, GTC/IOC/FOK, le modifiche che mantengono o perdono la posizione in coda e la prevenzione dell'auto-contrattazione sono verificate da quattordici invarianti dopo ogni ordine in una suite fuzz con seed. Il browser riceve una scala a dieci hertz via Action Cable, mentre gli ordini salgono via HTTP.",
+        "title": "Motore di accoppiamento PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Rispondo alle richieste provenienti da e-mail e messaggi LinkedIn. Richiamerò anche se il mio numero viene fornito tramite curriculum o in altro modo, anche se preferisco mantenere privato il mio numero di telefono."
   },
   "formatter": {
-    "title": "Linter JSON e YAML",
-    "description": "Uno strumento di qualità dei dati basato su browser che convalida e formatta JSON e YAML utilizzando un motore Go compilato in WebAssembly. L'architettura continua l'analisi vicino all'utente per un feedback rapido e privato, applicando al tempo stesso regole di sintassi reali al confine dei dati. È un esempio compatto di progettazione di un flusso di lavoro di sviluppo affidabile basato su correttezza, prestazioni e fiducia.",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter è uno strumento di qualità dei dati nel browser che valida e formatta JSON, YAML, XML, HTML, TOML, CSV e TSV con un motore Zig compilato in WebAssembly. Il parsing resta vicino all'utente per un feedback rapido e privato, mentre al confine dei dati vengono applicate regole di sintassi reali. Preserva il testo dell'autore, rifiuta gli input non validi e mostra come un piccolo modulo WebAssembly possa alimentare un flusso di lavoro affidabile per gli sviluppatori.",
     "more_info1": "Per maggiori informazioni consultare il file README nel",
-    "more_info2": "Repository del formattatore JSON/YAML.",
+    "more_info2": "Repository di Auto-Linter.",
     "format_as": "Formato come:",
     "auto_detect": "Rilevamento automatico",
     "format": "Lanugine e formato",
@@ -415,20 +436,22 @@
     "valid_yaml": "✓ YAML valido",
     "invalid_json": "JSON non valido",
     "invalid_yaml": "YAML non valido",
-    "empty_input": "Inserisci un po' di JSON o YAML per lint.",
+    "empty_input": "Inserisci JSON, YAML, XML, HTML, TOML, CSV o TSV da analizzare.",
     "too_large": "Ingresso troppo grande (max 1 MB consentito).",
     "fixed_yaml_spacing": "⚠ YAML presentava spaziatura/rientro non validi ma è stato corretto e formattato automaticamente.",
-    "loading": "Caricamento formattatore...",
+    "loading": "Caricamento di Auto-Linter...",
     "waiting_for_input": "In attesa di input...",
-    "load_failed": "Impossibile caricare il formattatore.",
+    "load_failed": "Impossibile caricare Auto-Linter.",
     "output": "Produzione:",
     "input_code": "Ingresso",
     "json_examples": "Esempi JSON",
-    "yaml_examples": "Esempi YAML"
+    "yaml_examples": "Esempi YAML",
+    "legacy_repo": "Vedi l'implementazione Go legacy",
+    "legacy_rust": "Vedi l'implementazione Rust legacy"
   },
   "tiger": {
     "title": "Linguaggio della tigre",
-    "description": "Tiger è un linguaggio di programmazione personalizzato e un interprete Go creato per esplorare l'architettura di runtime, la semantica del linguaggio e i compromessi in termini di prestazioni. La compilazione dell'interprete in WebAssembly trasforma il funzionamento dei sistemi in un prodotto interattivo basato su browser: gli utenti possono eseguire i programmi direttamente mentre il runtime rimane portabile e isolato dall'applicazione host.",
+    "description": "Tiger è un linguaggio di programmazione proprietario di livello produttivo e un interprete Rust creato per le prestazioni. Il motore bytecode compilato e l'interprete di riferimento che percorre l'albero restano allineati su un corpus di benchmark di 44 programmi, e il protocollo in-process abbinato mantiene il runtime all'altezza di CPython o oltre in ogni sezione verificata, con prestazioni che competono direttamente con Python e Ruby per lo scripting quotidiano. L'interprete Go originale resta disponibile come implementazione legacy. Compilare l'interprete in WebAssembly trasforma quel lavoro di sistema in un prodotto interattivo nel browser: gli utenti possono eseguire programmi direttamente mentre il runtime resta portabile e isolato dall'applicazione host.",
     "more_info1": "Per maggiori informazioni consultare il file README nel",
     "more_info2": "Repository GitHub del linguaggio di programmazione Tiger.",
     "select_engine": "Seleziona motore:",
@@ -436,7 +459,8 @@
     "run_tiger": "Corri Tigre",
     "output": "Produzione:",
     "stop": "Ferma",
-    "program_input": "Input del programma"
+    "program_input": "Input del programma",
+    "legacy_repo": "Vedi l'implementazione Go legacy"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Ingrandisci",
         "zoom_out": "Rimpicciolisci",
         "reset": "Reimposta vista"
+      },
+      "country_names": {
+        "show": "Mostra nomi dei paesi",
+        "hide": "Nascondi nomi dei paesi"
       }
     },
     "supported_languages": {

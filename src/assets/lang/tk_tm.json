@@ -8,8 +8,8 @@
     "tiger": "Tiger - Özbaşdak Programmirleme Dili",
     "snake": "Ýylan oýny",
     "portfolio_translator": "Portfolio terjimeçisi",
-    "formatter": "JSON & YAML barlagçysy",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik kubasynyň çözgüdi",
     "contact": "Meniň bilen habarlaşyň",
     "home_description": "sys.root // baş syn",
     "about_description": "inžener profili // bio we tehnologiýa",
@@ -18,18 +18,26 @@
     "tiger_description": "özbaşdak kompýuter we AST wizualizator",
     "snake_description": "klassiki arkada oýny / WASM",
     "portfolio_translator_description": "100+ dil matrisasy we i18n",
-    "formatter_description": "sintaksis barlagjysy we öwürýiji",
+    "formatter_description": "köp formatly linter we formatlaýjy // WASM",
     "contact_description": "açyk geçiriliş // habarlaşyň",
     "arcade": "Arkada",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Dil agajy Dört arkaýyn",
+    "connect_four": "Connect Four",
     "alkalab_description": "himiýa laboratoriýa simulýasiýasy / WASM",
     "rustcraft_description": "Minecraft stilindäki woksely oýun / Rust we wgpu",
     "suprememc_description": "Minecraft mod witarinasy / Java",
-    "chess_engine": "Şahmat maşynlary",
-    "chess_engine_description": "wASM/ WASM we işçi"
+    "chess_engine": "Şahmat hereketlendirijisi",
+    "chess_engine_description": "bitboard hereketlendirijisi / WASM we işçi",
+    "framework_trees": "Freimwork agaçlary",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael şifrlemesi",
+    "interops": "Interops",
+    "scripting_library_description": "awtomatlaşdyrma skriptleri // 6 dil",
+    "reclaim_4160_description": "uniwersitet oýny, täzeden gazylýar / C++ we WASM",
+    "turing_machines": "Turing maşynlary",
+    "scripting_library": "Skript kitaphanasy"
   },
   "home": {
     "title": "Uly derejeli in Engineener | Önüm we ulgamlar",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Saýlanan taslamalar",
       "title": "Saýlanan eserler",
-      "description": "Ägirt uly pikirleri ýuka, işleýän programma öwürýänligimi iň gowy görkezýän alty taslama.",
+      "description": "Islim, pikirleriňizi nähili işleýän, kem-kemden kämilleşdirilen programma üpjünçiligine öwürýänimi gowy görkezýän taslamalar.",
       "view_project": "Taslamany gör",
       "open_project": "Göni taslamany açyň",
       "view_all": "Doly portfolýony öwreniň",
@@ -101,7 +109,8 @@
         "libraries": "Skript kitaphanalary",
         "languages": "Dil synaglary",
         "automation": "Awto­ma­ti­leş­diriş we data gurallary",
-        "experience": "Professional we okuw tejribesi"
+        "experience": "Professional we okuw tejribesi",
+        "markets": "Bazarlar we söwda ulgamlary"
       },
       "browser_native": "Brauzer-de çeşme / serwersiz",
       "no_results": "Laýyk gelýän taslamalar ýok",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Elýeterlilik",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Maliýe dogrulygy görkezilişden başlaýar: doly sent arifmetikasy we balanslaşdyrylan ýazgylar pul hereketini aýdyň edýär."
         },
         "interop": {
-          "summary": "{languages} programmirleme dilini we {patterns} ýerine ýetiriş nusgasyny öz içine alýan, iş wagty çägelerinde näme bolýandygyny öwrenýän ara dil salgylanmasy.",
+          "summary": "{languages} programma dili we {patterns} ýerine ýetiriş nusgasyny öz içine alýan diller arasy salgylanma, runtime çäklerinde näme bolýandygyny barlaýar.",
           "lens": "Kyn bölek iş wagtlarynyň arasyndaky şertnama: data alyş-çalyş, prosesiň özüni alyşy we gaýtalanýan ýerine ýetiriş sintaksisden has möhümdir."
         },
         "formatter": {
-          "summary": "WebAssembly-e kompýuterleşdirilen hakyky Go parsirleme hereketlendirijisi. JSON we YAML barlagy we formatlamasy brauzerde ýerli işleýär.",
-          "lens": "Parseri brauzere geçirmek has uly müşderi ýüküni ýerli işleme, göçürilijilik we az serwer garaşlylyk bilen çalyşýar."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV we TSV üçin Zig bilen ýazylan WebAssembly linter we formatlaýjy. Barlag we formatlamak brauzerde ýerli tertipde işleyär.",
+          "lens": "Formatlamak ynam meselesi: hakyky grammatika bilen seljerin, awtoryň tekstini saklaň we maglumatlary müşderide saklaň."
         },
         "portfolio_website": {
           "summary": "Özüňiziň bolýan saýtyňyz: 100+ dilli, elýeterli interaksiýaly we işleýän WebAssembly gurallary bolan React portfolýosy.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML awto formatlaýjy",
+        "title": "Auto-Linter",
         "text": "Go-da gurlan we WebAssemble-e düzülen brauzer esasly JSON we YAML tassyklama we formatlaýyş guraly. Derňew motoryny WASM-a geçirmek, nädogry giriş almak üçin hakyky seljeriji ulanylanda, brauzerde özara täsirini täsirli we ýerli saklaýar. Iş ýerine ýetirijiligi, göterijiligi we ulanyjy ynamy üçin iş wagtynyň arhitekturasyny saýlamagyň esasy mysaly.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skript kitaphanasy",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael şifrlemek taslamasy",
-        "text": "128-, 192- we 256 bitli görnüşlerde {implementations} Rijndael ýerine ýetirişiniň deňeşdirme toplumy. Dilleriň arasynda howpsuzlyga duýgur algoritmi durmuşa geçirmek takyk spesifikasiýalarda, synagdan geçirip boljak hereketlerde we dil derejesindäki göterijiligiň çäklerinde tertipli maşkdyr, duýgur maglumatlary dolandyrýan ulgamlar üçin ähli peýdaly instinktler.",
+        "title": "Rijndael şifrleme taslamasy",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik kubasynyň çözgüdi",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Týuring maşyn taslamasy",
-        "text": "Týuring maşynynyň {implementations}-dan gowrak ýerine ýetiriş maşgalasy. Gözleg üçin, esasanam “Tiger Programming Language” üçin dürli programmirleme dilleri üçin týuringiň dolylygyny görkezmek üçin ulanylýar.",
+        "text": "Turing maşynynyň {implementations} ýerine ýetiriliş maşgaly. dürli programma dilleriniň turinglygyny ylmy maksatlar üçin görkezmek üçin ulanylýar, hususan-da Tiger dili üçin.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Şahmat maşynlary",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Şahmat hereketlendirijisi",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT gabat gelme hereketlendirijisi"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "E-poçta we LinkedIn habarlaryndan gelen soraglara jogap berýärin. Telefon belgimi şahsy saklamagy makul bilsem-de, nomerim rezýume ýa-da başga ýol bilen berlen bolsa, jaň ederin."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "WebAssemble-e düzülen Go motoryny ulanyp, JSON we YAML-y tassyklaýan we formatlaýan brauzer esasly maglumat hil guraly. Arhitektura, maglumatlar serhedinde hakyky sintaksis düzgünlerini ýerine ýetirmek bilen, çalt, şahsy pikir alyşmak üçin ulanyja ýakynlaşmagy dowam etdirýär. Dogrylygyň, öndürijiligiň we ynamyň töwereginde ygtybarly işläp düzüjiniň işini dizaýn etmegiň ykjam mysaly.",
     "more_info1": "Has giňişleýin maglumat üçin README serediň",
-    "more_info2": "JSON / YAML Formatter ammary.",
+    "more_info2": "Auto-Linter ammarçy.",
     "format_as": "Formaty:",
     "auto_detect": "Awto Detekt",
     "format": "Lint we format",
@@ -415,16 +436,18 @@
     "valid_yaml": "Id Dogry YAML",
     "invalid_json": "Nädogry JSON",
     "invalid_yaml": "Nädogry YAML",
-    "empty_input": "Lint üçin JSON ýa-da YAML giriziň.",
+    "empty_input": "Barlamak üçin JSON, YAML, XML, HTML, TOML, CSV ýa-da TSV giriziň.",
     "too_large": "Giriş gaty uly (iň ýokary 1MB rugsat berilýär).",
     "fixed_yaml_spacing": "⚠ YAML aralyk / indentasiýa nädogrydy, ýöne awtomatiki düzüldi we formatlandy.",
-    "loading": "Formatlaýjy ýüklenýär ...",
+    "loading": "Auto-Linter ýüklenýär...",
     "waiting_for_input": "Girişe garaşýan ...",
-    "load_failed": "Formateri ýükläp bolmaýar",
+    "load_failed": "Auto-Linter ýükläp bolmady.",
     "output": "Çykyş:",
     "input_code": "Giriş",
     "json_examples": "JSON mysallary",
-    "yaml_examples": "YAML mysallary"
+    "yaml_examples": "YAML mysallary",
+    "legacy_repo": "Köne Go ýerine ýetirilişini gör",
+    "legacy_rust": "Köne Rust ýerine ýetirilişini gör"
   },
   "tiger": {
     "title": "Igerolbars dili",
@@ -436,7 +459,8 @@
     "run_tiger": "Igerolbars işlediň",
     "output": "Çykyş:",
     "stop": "Duruz",
-    "program_input": "Programma girişi"
+    "program_input": "Programma girişi",
+    "legacy_repo": "Köne Go ýerine ýetirilişini gör"
   },
   "tab": {
     "title": "Patrik Gudwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Ulaltmak",
         "zoom_out": "Ulaltmak",
         "reset": "Görnüşi täzeden düzmek"
+      },
+      "country_names": {
+        "show": "Ýurtlaryň atlaryny görkez",
+        "hide": "Ýurtlaryň atlaryny gizle"
       }
     },
     "supported_languages": {

@@ -8,8 +8,8 @@
     "tiger": "Tiger - Mutauro Wechirongwa Wakasarudzika",
     "snake": "Mutambo wenyoka",
     "portfolio_translator": "Portfolio Translator",
-    "formatter": "Muongorori weJSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Musangano weRubik's Cube",
     "contact": "Ndibate",
     "home_description": "sys.root // mucherechedzo mukuru",
     "about_description": "profile yeinjiniya // bio uye tekinoroji",
@@ -18,18 +18,26 @@
     "tiger_description": "komputa yakasarudzika uye AST inoona",
     "snake_description": "mutambo wekare wearcade / WASM",
     "portfolio_translator_description": "matrix yemitauro 100+ uye i18n",
-    "formatter_description": "muongorori uye mushanduri we syntax",
+    "formatter_description": "linter uye formatter yemhando dzakawanda // WASM",
     "contact_description": "kutumira kwakavhurika // bata neni",
     "arcade": "Arcade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Muti wemitauro Mina mutsara",
+    "connect_four": "Connect Four",
     "alkalab_description": "kutevedzera chemistry lab / WASM",
     "rustcraft_description": "mutambo wevoxel wemhando yeMinecraft / Rust uye wgpu",
     "suprememc_description": "kuratidzwa kwemod yeMinecraft / Java",
-    "chess_engine": "Taura nesu",
-    "chess_engine_description": "bitboard injini / WASM & mushandi"
+    "chess_engine": "Injini yechess",
+    "chess_engine_description": "injini yebitboard / WASM uye mushandi",
+    "framework_trees": "Miti yemafremu",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Kufihira Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "mascript ekushanda oga // mitauro 6",
+    "reclaim_4160_description": "mutambo wekoleji, wawedzerwa / C++ uye WASM",
+    "turing_machines": "Mamashini eTuring",
+    "scripting_library": "Rizvimbo rekuchengetera script"
   },
   "home": {
     "title": "Mukuru Akazara-Stack Injiniya | Product & Systems",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Mapurojekiti akasarudzwa",
       "title": "Mabasa akasarudzwa",
-      "description": "Mapurojekiti matanhatu anomiririra zvakanyanya kuti ndinoshandura sei pfungwa dzine nzira dzakasimba kuita software yakanaka uye inoshanda.",
+      "description": "Zvirimo zvinoratidza zvakanaka kuti ndinogona sei kunge ndichinja mafungiro ekuda kuita software yakagadzirwa inoshanda.",
       "view_project": "Ona purojekiti",
       "open_project": "Vhura purojekiti yepamoyo",
       "view_all": "Ongorora portfolio izere",
@@ -101,7 +109,8 @@
         "libraries": "Raibhurari dzescript",
         "languages": "Kuedza mutauro",
         "automation": "Zvishandiso zveautomation nedata",
-        "experience": "Ruzivo rwehunyanzvi uye zvedzidzo"
+        "experience": "Ruzivo rwehunyanzvi uye zvedzidzo",
+        "markets": "Mamiketi uye masystemu ekutengeserana"
       },
       "browser_native": "Yekuzvarwa ye browser / pasina server",
       "no_results": "Hapana mapurojekiti anofanana",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Kuvonekwa",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Kururama kwemari kunotanga nehumiriri: masvomhu esenti dzakazara uye zvinyorwa zvakagadziriswa zvinoita kuti kufamba kwemari kuve kwakajeka."
         },
         "interop": {
-          "summary": "Referensi yemitauro yakasiyana inosanganisira mitauro {languages} yerongwa uye mapatani {patterns} ekushanda, ichiongorora zvinoitika kumiganhu yenguva yekushanda.",
+          "summary": "Nhevedzano yenhau dzemitauro yakawanda inosanganisira {languages} mitauro yekugadzira uye {patterns} dzemaitiro ekushanda, ichiongorora zvinokonzerwa nemiganhu yeruntimo.",
           "lens": "Chikamu chakaoma chibvumirano pakati penguva dzekushanda: kuchinjana data, maitiro ehurongwa, uye kudzokororwa kwekushanda kwakakosha kupfuura syntax."
         },
         "formatter": {
-          "summary": "Injini yechokwadi yekuongorora Go yakanyorwa kuWebAssembly. Kusimbisa uye kugadzira JSON neYAML kunoshanda munharaunda yebrowser.",
-          "lens": "Kuendesa parser ku browser kunochinjanisa mutoro mukuru wevatsigiri kuti ugadzirise munzvimbo, kubva kune imwe nzvimbo, uye kutsamira kushoma kweserver."
+          "summary": "Linter uye formatter yeWebAssembly yakanyorwa neZig yemhando dzeJSON, YAML, XML, HTML, TOML, CSV uye TSV. Kuongorora uye kugadzirisa kunoitwa munzvimbo mubrowser.",
+          "lens": "Kugadzirisa ndiyo nyaya yechivimbo: tsanangura negrama chaiho, chengeta mameseji emunemi, uye chengeta data kumuishira."
         },
         "portfolio_website": {
           "summary": "Saiti yauri mairi: portfolio yeReact ine mitauro 100+, kudyidzana kunowanikwa, uye zvishandiso zveWebAssembly zvinoshanda.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "Bhurawuza-yakavakirwa JSON uye YAML kusimbiswa uye fomati chishandiso chakavakirwa muGo uye chakagadzirirwa kuWebAssembly. Kufambisa injini yekufambisa muWASM inochengeta kupindirana kuchipindura uye kwenzvimbo kune bhurawuza paunenge uchishandisa parser chaiyo kuti ubate iyo isiriyo yekuisa. Iwo muenzaniso wakatarisana wekusarudza yekumhanyisa nguva yekuvaka yekuita, kutakurika, uye mushandisi kuvimba.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Rizvimbo rekuchengetera script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Encryption Project",
-        "text": "Seti yekuenzanisa ye{implementations} Rijndael mashandisirwo mukati me128-, 192-, uye 256-bit akasiyana. Kudzokorodza kuchengetedzwa-sensitive algorithm mumitauro yese ibasa rakarongeka mune zvakatemwa, maitiro anoyedzwa, uye miganhu yekutakurika kwemutauro, ese anobatsira masikirwo emasisitimu anobata data rakadzama.",
+        "title": "Chirongwa chekufihira Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Musangano weRubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Machine Project",
-        "text": "Mhuri yeanopfuura {implementations} mashandisirwo eTuring Machine. Inoshandiswa kuratidza kukwana kuzere kwemitauro yakasiyana yekuronga yekutsvaga, kunyanya yeTiger Programming Mutauro.",
+        "text": "Mhuri yekushanda {implementations} kweTuring Machine. Inoshandiswa kuratidza turing completeness yemitauro yakawanda yekugadzira yekutsvagisa, zvikuru mutauro weTiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Taura nesu",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Injini yechess",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Injini yekubatanidza PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ini ndinopindura kumibvunzo kubva kune email uye LinkedIn meseji. Iniwo ndichafona zvakare kana nhamba yangu yakapihwa kuburikidza nekutangazve kana neimwe nzira, kunyangwe ini ndichifarira kuchengeta nhamba yangu yefoni yakavanzika."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Bhurawuza-yakavakirwa data mhando chishandiso chinosimbisa uye mafomati JSON uye YAML uchishandisa Go injini yakaunganidzwa kuWebAssembly. Iyo dhizaini inoramba ichienda padyo nemushandisi nekukurumidza, yakavanzika mhinduro uku uchisimbisa chaiyo syntax mitemo pamuganho wedata. Iwo muenzaniso wakakwana wekugadzira inovimbika yekuvandudza yekufambisa kutenderedza kurongeka, kuita, uye kuvimba.",
     "more_info1": "Kuti uwane rumwe ruzivo, tarisa iyo README mu",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Rizvimbo rekuchengetera Auto-Linter.",
     "format_as": "Format Se:",
     "auto_detect": "Auto Detect",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML Inoshanda",
     "invalid_json": "JSON haisiriyo",
     "invalid_yaml": "YAML haisiriyo",
-    "empty_input": "Ndokumbira uise imwe JSON kana YAML kuti unyore.",
+    "empty_input": "Isa JSON, YAML, XML, HTML, TOML, CSV kana TSV kuti uongorore.",
     "too_large": "Kupinza kwakakurisa (kupfuura 1MB inotenderwa).",
     "fixed_yaml_spacing": "⚠ YAML yanga iine spacing/indentation isiriyo asi yakagadziridzwa otomatiki uye yakarongwa.",
-    "loading": "Tirikurodha fomati...",
+    "loading": "Kuiswa kweAuto-Linter...",
     "waiting_for_input": "Takamirira kuiswa...",
-    "load_failed": "Tatadza kurodha fomati.",
+    "load_failed": "Haatone kuisa Auto-Linter.",
     "output": "Zvakabuda:",
     "input_code": "Input",
     "json_examples": "JSON Mienzaniso",
-    "yaml_examples": "YAML Mienzaniso"
+    "yaml_examples": "YAML Mienzaniso",
+    "legacy_repo": "Ona kushanda kwakare kweGo",
+    "legacy_rust": "Ona kushanda kwakare kweRust"
   },
   "tiger": {
     "title": "Tiger Mutauro",
@@ -436,7 +459,8 @@
     "run_tiger": "Mhanya Tiger",
     "output": "Zvakabuda:",
     "stop": "Mira",
-    "program_input": "Kupinda kwepurogiramu"
+    "program_input": "Kupinda kwepurogiramu",
+    "legacy_repo": "Ona kushanda kwakare kweGo"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Zoom In",
         "zoom_out": "Zoom Out",
         "reset": "Reset View"
+      },
+      "country_names": {
+        "show": "Ratidza mazita enyika",
+        "hide": "Vhiga mazita enyika"
       }
     },
     "supported_languages": {

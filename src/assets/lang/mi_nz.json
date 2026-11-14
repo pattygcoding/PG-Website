@@ -8,8 +8,8 @@
     "tiger": "Tiger - He Reo Papatono Ritenga",
     "snake": "Kēmu nakahi",
     "portfolio_translator": "Kaiwhakamaori kōpaki",
-    "formatter": "Kaitirotiro JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Whakaahua Rubik's Cube",
     "contact": "Whakapā Mai",
     "home_description": "sys.root // tirohanga whānui matua",
     "about_description": "kōtaha pūkaha // koiora me te hangarau",
@@ -18,18 +18,26 @@
     "tiger_description": "kaiwhakahiato ritenga me te kaiwhakaatu AST",
     "snake_description": "kēmu arcade tawhito / WASM",
     "portfolio_translator_description": "kōpae 100+ reo me i18n",
-    "formatter_description": "kaiwhakamana me te kaihurihuri wetereo",
+    "formatter_description": "linter me whakahua tauira nui // WASM",
     "contact_description": "whakawhiti tuwhera // whakapā mai",
     "arcade": "Arcade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Rākau reo Whā i te rārangi",
+    "connect_four": "Connect Four",
     "alkalab_description": "whakatairite whare pūtaiao matū / WASM",
     "rustcraft_description": "kēmu voxel pērā i te Minecraft / Rust me wgpu",
     "suprememc_description": "whakaaturanga mod Minecraft / Java",
-    "chess_engine": "Engine Chess",
-    "chess_engine_description": "miihini bitboard / WASM & kaimahi"
+    "chess_engine": "Miihini chess",
+    "chess_engine_description": "miihini bitboard / WASM me te kaiwhakahaere",
+    "framework_trees": "Nga rakau framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Whakamunanga Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "tuhinga whakahaere // reo 6",
+    "reclaim_4160_description": "keemu whare wananga, i whakahokia mai / C++ me WASM",
+    "turing_machines": "Nga Miini Turing",
+    "scripting_library": "Whare pukapuka tuhinga"
   },
   "home": {
     "title": "Kaihanga Kaihanga Katoa | Hua me nga punaha",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Kaupapa i whiriwhiria",
       "title": "Mahi i whiriwhiria",
-      "description": "E ono ngā kaupapa e tohu ana i te āhuatanga o tōku huri i ngā whakaaro whai mana hei pūmanawa whakamiha me te whai hua.",
+      "description": "Ko nga kaupapa e whakaatu pai ana ki te pehea takere atu i nga whakaaro whai korero ki te papatohikohiko pai, e whai mana ana.",
       "view_project": "Tirohia te kaupapa",
       "open_project": "Whakatuwhera kaupapa whaiāipo",
       "view_all": "Tūhura i te pōro pūtea katoa",
@@ -101,7 +109,8 @@
         "libraries": "Ngā whare pukapuka tuhinga",
         "languages": "Ngā whakamātautau reo",
         "automation": "Ngā taputapu aunoatanga me te raraunga",
-        "experience": "Wheako ngaio me te mātauranga"
+        "experience": "Wheako ngaio me te mātauranga",
+        "markets": "Nga hokohoko me nga punaha hokohoko"
       },
       "browser_native": "Tūturu kaimātakitaki / kāore he tūmau",
       "no_results": "Kāore he kaupapa e rite ana",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Āheitanga",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Ka tīmata te tika pūtea i te whakaaturanga: ko te tatauranga pene whētuituhi me ngā whakaurunga whakataurite e mārama ai te neke moni."
         },
         "interop": {
-          "summary": "He tohutoro whakawhiti-reo e kapi ana i ngā reo papatono {languages} me ngā tauira whakahaere {patterns}, e tūhura ana i ngā mea e hua ake i ngā rohe wā whakahaere.",
+          "summary": "He tohutoro reo-katoa e pa ana ki {languages} reo whakahaere me {patterns} tauira whakahaere, e titiro ana ki nga mea e puta ana ki nga roheni o te runtime.",
           "lens": "Ko te wāhanga uaua ko te kirimana i waenga i ngā wā whakahaere: ko te whakawhiti raraunga, te whanonga tukanga, me te whakahaerenga tārua ka nui ake te hira o te wetereo."
         },
         "formatter": {
-          "summary": "He pūkaha tātaritanga Go tūturu i whakahaerengia ki WebAssembly. Ko te whakamana me te whakahōputu JSON me YAML e mahi ā-rohe ana i te kaimātakitaki.",
-          "lens": "Ko te whakaneke i te kaiwāwahi ki te kaimātakitaki ka whakawhiti i te pewa kaihoko nui ake mō te tukatuka ā-rohe, te kawe, me te iti ake o te whakawhirinaki ki te tūmau."
+          "summary": "He linter me whakahua tuhinga WebAssembly i tuhihia ki a Zig ma JSON, YAML, XML, HTML, TOML, CSV me TSV. Ka whakapumau me whakahua ka haere ki roto i te kauru.",
+          "lens": "Ko te whakahua he take pono: whakapapa ki te wetereo pono, tiaki i te tuhinga a te kaituhi, me tiaki i te raraunga ki te kiritaki."
         },
         "portfolio_website": {
           "summary": "Te pae kei roto koe: he pōro pūtea React me ngā reo 100+, ngā whakawhitiwhiti āheitanga, me ngā taputapu WebAssembly e mahi ana.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Whakahōputu Aunoa",
+        "title": "Auto-Linter",
         "text": "He taputapu whakamana a JSON me te YAML i runga i te tirotiro i hangaia i roto i te Haere me te whakahiato ki te WebAssembly. Ko te neke i te miihini parsing ki roto i te WASM ka mau tonu te taunekeneke ki te aro me te rohe ki te kaitirotiro i te wa e tono ana he parser tuuturu hei hopu i te whakauru muhu. He tauira arotahi mo te kowhiri i te hoahoanga wa whakahaere mo te mahi, te kawe, me te whakawhirinaki a te kaiwhakamahi.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Whare pukapuka tuhinga",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Kaupapa Whakamuna Rijndael",
-        "text": "He huinga whakatairite o te {implementations} Rijndael whakatinanatanga puta noa i nga momo 128-, 192-, me te 256-bit. Ko te whakatinana ano i te algorithm tairongo-haumarutanga puta noa i nga reo he mahi maataki i roto i nga whakaritenga tika, te whanonga ka taea te whakamatautau, me nga tepe o te kawe taumata reo, nga parapara whaihua katoa mo nga punaha e whakahaere ana i nga raraunga tairongo.",
+        "title": "Kaupapa whakamunanga Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Whakaahua Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Kaupapa Miihini Turing",
-        "text": "Te whanau o te neke atu i te {implementations} nga whakatinanatanga o te Miihini Turing. I whakamahia hei whakaatu i te tino huri mo nga reo hotaka rereke mo te rangahau, ina koa mo te Reo Papatono Tiger.",
+        "text": "He whanau {implementations} o nga whakatinatanga o te Miini Turing. Whakamahia ana ki te whakaatu turing completeness o nga reo whakahaere rereke mo te rangahau, tino mo te reo Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Engine Chess",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Miihini chess",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Miihini whakatairite PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Ka whakautu au ki nga patai mai i nga imeera me nga karere LinkedIn. Ka waea atu ano ahau mena ka tukuna taku nama ma te reanga me te kore, ahakoa he pai ki ahau te pupuri i taku nama waea."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "He taputapu kounga raraunga e pa ana ki te kaitirotiro e whakamana ana, e whakahōputu ana i a JSON me YAML ma te whakamahi i te miihini Go i whakahiato ki WebAssembly. Ko te hoahoanga e noho tata ana ki te kaiwhakamahi mo te tere, mo te urupare motuhake i te wa e whakamanahia ana nga ture wetereo pono i te rohenga raraunga. He tauira kiato o te hoahoa i te rerengamahi kaiwhakawhanake pono mo te tika, te mahi, me te whakawhirinaki.",
     "more_info1": "Mo etahi atu korero, tirohia te README i roto i te",
-    "more_info2": "Pupuri Whakahōputu JSON/YAML.",
+    "more_info2": "Te putia o Auto-Linter.",
     "format_as": "Whakahōputu Hei:",
     "auto_detect": "Rapu Aunoa",
     "format": "Lint & Hōputu",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML whaimana",
     "invalid_json": "JSON muhu",
     "invalid_yaml": "YAML muhu",
-    "empty_input": "Whakaurua koa etahi JSON, YAML ranei ki te tuhi.",
+    "empty_input": "Whakauruhia he JSON, YAML, XML, HTML, TOML, CSV, TSV ranei ki te tiro.",
     "too_large": "He nui rawa te whakauru (he 1MB te rahi e whakaaetia).",
     "fixed_yaml_spacing": "⚠ He muhu te mokowā/noku o YAML engari kua whakatika-aunoa me te whakahōputu.",
-    "loading": "Uta ana te whakahōputu...",
+    "loading": "Kei uta ana a Auto-Linter...",
     "waiting_for_input": "E tatari ana mo te whakaurunga...",
-    "load_failed": "Kāore e taea te uta i te kaiwhakahōputu.",
+    "load_failed": "Kāore e taea te uta i a Auto-Linter.",
     "output": "Putanga:",
     "input_code": "Whakauru",
     "json_examples": "JSON Tauira",
-    "yaml_examples": "Tauira YAML"
+    "yaml_examples": "Tauira YAML",
+    "legacy_repo": "Tiro i te whakatinatanga Go o mua",
+    "legacy_rust": "Tiro i te whakatinatanga Rust o mua"
   },
   "tiger": {
     "title": "Te Reo Tiger",
@@ -436,7 +459,8 @@
     "run_tiger": "Rere Tiger",
     "output": "Putanga:",
     "stop": "Kati",
-    "program_input": "Whakaurunga papatono"
+    "program_input": "Whakaurunga papatono",
+    "legacy_repo": "Tiro i te whakatinatanga Go o mua"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Topa Mai",
         "zoom_out": "Topa Atu",
         "reset": "Tautuhi Tirohanga"
+      },
+      "country_names": {
+        "show": "Whakaatu i nga ingoa whenua",
+        "hide": "Whakakorea nga ingoa whenua"
       }
     },
     "supported_languages": {

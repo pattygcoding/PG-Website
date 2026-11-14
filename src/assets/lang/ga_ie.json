@@ -8,8 +8,8 @@
     "tiger": "Tiger - Teanga Ríomhchláraithe Shaincheaptha",
     "snake": "Cluiche na nathrach",
     "portfolio_translator": "Aistritheoir Punann",
-    "formatter": "Seiceálaí JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Réiteoir Rubik's Cube",
     "contact": "Déan Teagmháil liom",
     "home_description": "sys.root // forbhreathnú príomhúil",
     "about_description": "próifíl innealtóra // beathaisnéis agus teicneolaíocht",
@@ -18,18 +18,26 @@
     "tiger_description": "tiomsaitheoir saincheaptha agus amhairceoir AST",
     "snake_description": "cluiche stua clasaiceach / WASM",
     "portfolio_translator_description": "maitrís 100+ teanga agus i18n",
-    "formatter_description": "bailíochtóir agus tiontaire comhréire",
+    "formatter_description": "linter agus formáideoir ilfhormáideach // WASM",
     "contact_description": "tarchur oscailte // déan teagmháil liom",
     "arcade": "Stua",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Crann teangacha Ceithre as a chéile",
+    "connect_four": "Connect Four",
     "alkalab_description": "insamhladh saotharlainne ceimice / WASM",
     "rustcraft_description": "cluiche voxel ar stíl Minecraft / Rust agus wgpu",
     "suprememc_description": "fuinneog mod Minecraft / Java",
-    "chess_engine": "Inneall Fichille",
-    "chess_engine_description": "inneall clár giotán/ WASM & oibrí"
+    "chess_engine": "Inneall ficheall",
+    "chess_engine_description": "inneall bitboard / WASM agus oibrí",
+    "framework_trees": "Crainn creatacha",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Criptiú Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "scripteanna uathoibritheacha // 6 dteanga",
+    "reclaim_4160_description": "cluiche coláiste, gafa ar ais / C++ agus WASM",
+    "turing_machines": "Meaisíní Turing",
+    "scripting_library": "Leabharlann scripteanna"
   },
   "home": {
     "title": "Innealtóir Sinsearach Iomlán Cruach | Táirge & Córais",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Tionscadail roghnaithe",
       "title": "Saothair roghnaithe",
-      "description": "Sé thionscadal a léiríonn is fearr conas a thiontaím smaointe uaillmhianacha ina mbogearraí snasta agus feidhmiúla.",
+      "description": "Tionscadail a léiríonn chomh maith is atá sé conas a athraím smaointe uaillmhianacha ina mbo bogearraí críochnaitheacha atá ag obair.",
       "view_project": "Féach ar an tionscadal",
       "open_project": "Oscail tionscadal beo",
       "view_all": "Déan iniúchadh ar an bpunann iomlán",
@@ -101,7 +109,8 @@
         "libraries": "Leabharlanna scripte",
         "languages": "Turgnaimh teanga",
         "automation": "Uirlisí uathoibrithe agus sonraí",
-        "experience": "Taithí ghairmiúil agus oideachais"
+        "experience": "Taithí ghairmiúil agus oideachais",
+        "markets": "Margairtí agus córais trádála"
       },
       "browser_native": "Dúchasach don bhrabhsálaí / gan freastalaí",
       "no_results": "Níl aon tionscadal meaitseála",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Inrochtaineacht",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Tosaíonn cruinneas airgeadais le hionadaíocht: déanann uimhríocht iomlán sant agus iontrálacha cothromaithe gluaiseacht airgid follasach."
         },
         "interop": {
-          "summary": "Tagairt tras-teanga a chuimsíonn {languages} teanga ríomhchláraithe agus {patterns} patrún feidhmithe, ag fiosrú cad a tharlaíonn ag teorainneacha an ama rite.",
+          "summary": "Tagairt idirtheangach a chlúdaíonn {languages} teanga ríomhchlárúcháin agus {patterns} patrún feidhmithe, ag iniúchadh cad a tharlaíonn ag teorainneacha runtime.",
           "lens": "Is é an chuid dheacair an conradh idir amanna rite: tá malartú sonraí, iompar próisis, agus feidhmiú in-athúsáidte níos tábhachtaí ná comhréir."
         },
         "formatter": {
-          "summary": "Inneall parsála Go fíor tiomsaithe go WebAssembly. Ritheann bailíochtú agus formáidiú JSON agus YAML go háitiúil sa bhrabhsálaí.",
-          "lens": "Malartaíonn an parsálaí a aistriú go dtí an brabhsálaí ualach níos mó cliaint ar phróiseáil áitiúil, iniomparthacht, agus níos lú spleáchais ar an bhfreastalaí."
+          "summary": "Linter agus formáideoir WebAssembly scríofa i Zig do JSON, YAML, XML, HTML, TOML, CSV agus TSV. Bíonn bailíochtú agus formáidiú ag rith go háitiúil sa bhrabhsálaí.",
+          "lens": "Is ceist iontaoibhe é formáidiú: parsáil le gramadach fíor, coinnigh téacs an údair, agus coinnigh na sonraí ar an gcliant."
         },
         "portfolio_website": {
           "summary": "An suíomh a bhfuil tú ann: punann React le 100+ teanga, idirghníomhaíochtaí inrochtana, agus uirlisí WebAssembly ag obair.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Formáiditheoir Uathoibríoch JSON & YAML",
+        "title": "Auto-Linter",
         "text": "Uirlis bhailíochtaithe agus formáidithe JSON agus YAML atá bunaithe ar bhrabhsálaí a tógadh in Go agus a tiomsaíodh do WebAssembly. Má bhogtar an t-inneall parsála go WASM coinnítear an t-idirghníomhú sofhreagrach agus áitiúil don bhrabhsálaí agus é ag cur fíor-pharsálaí i bhfeidhm chun ionchur neamhbhailí a ghabháil. Is sampla dírithe é de ailtireacht ama rite a roghnú le haghaidh feidhmíochta, iniomparthacht agus muinín úsáideora.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Leabharlann scripteanna",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Tionscadal Criptiú Rijndael",
-        "text": "Sraith chomparáideach de {implementations} cur i bhfeidhm Rijndael ar fud leagan 128-, 192-, agus 256-giotán. Is cleachtadh disciplínithe é algartam íogair slándála a chur i bhfeidhm trasna teangacha maidir le sonraíochtaí beachta, iompar intástáilte, agus teorainneacha iniomparthachta ag leibhéal teanga,. gach instinct úsáideach do chórais a láimhseálann sonraí íogaire.",
+        "title": "Tionscadal criptiú Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Réiteoir Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Tionscadal meaisín Turing",
-        "text": "Teaghlach de níos mó ná {implementations} feidhmiú an Turing Machine. Úsáidtear é chun iomláine turgnaimh a léiriú do theangacha ríomhchlárúcháin éagsúla le haghaidh taighde, go háirithe do Theanga Ríomhchláraithe an Tíogair.",
+        "text": "Fine de {implementations} chur i bhfeidhm ar an Meaisín Turing. Úsáidtear é chun turing iomláine teangacha ríomhchlárúcháin éagsúla a thaispeáint le haghaidh taighde, go háirithe don teanga Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Inneall Fichille",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Inneall ficheall",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Inneall meaitseála PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Freagraím fiosrúcháin ó ríomhphost agus teachtaireachtaí LinkedIn. Glaofaidh mé ar ais freisin má chuirtear m'uimhir ar fáil trí atosú nó eile, cé gur fearr liom m'uimhir theileafóin a choinneáil príobháideach."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Uirlis cháilíocht sonraí bunaithe ar bhrabhsálaí a bhailíochtaíonn agus a fhormáidíonn JSON agus YAML ag baint úsáide as inneall Go tiomsaithe do WebAssembly. Coinníonn an ailtireacht parsáil gar don úsáideoir le haghaidh aiseolais tapa, príobháideach agus ag an am céanna rialacha comhréire fíor a fhorfheidhmiú ag teorainn na sonraí. Is sampla dlúth é de shreabhadh oibre forbróra iontaofa a dhearadh maidir le cruinneas, feidhmíocht agus muinín.",
     "more_info1": "Le haghaidh tuilleadh faisnéise, déan tagairt don README sa",
-    "more_info2": "Stór Formáidithe JSON/YAML.",
+    "more_info2": "Stór Auto-Linter.",
     "format_as": "Formáid Mar:",
     "auto_detect": "Braith Uathoibríoch",
     "format": "Lint & Formáid",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML bailí",
     "invalid_json": "JSON neamhbhailí",
     "invalid_yaml": "YAML neamhbhailí",
-    "empty_input": "Cuir isteach roinnt JSON nó YAML mar lint.",
+    "empty_input": "Cuir isteach JSON, YAML, XML, HTML, TOML, CSV nó TSV le seiceáil.",
     "too_large": "Tá an t-ionchur rómhór (1MB ar a mhéad ceadaithe).",
     "fixed_yaml_spacing": "⚠ Bhí spásáil/greannú neamhbhailí ag YAML ach tá sé socraithe go huathoibríoch agus formáidithe.",
-    "loading": "Formáiditheoir á lódáil...",
+    "loading": "Auto-Linter á lódáil...",
     "waiting_for_input": "Ag fanacht le hionchur...",
-    "load_failed": "Ní féidir an formáidí a lódáil.",
+    "load_failed": "Níorbh fhéidir Auto-Linter a lódáil.",
     "output": "Aschur:",
     "input_code": "Ionchur",
     "json_examples": "Samplaí JSON",
-    "yaml_examples": "Samplaí YAML"
+    "yaml_examples": "Samplaí YAML",
+    "legacy_repo": "Féach ar an gcur i bhfeidhm sean-Go",
+    "legacy_rust": "Féach ar an gcur i bhfeidhm sean-Rust"
   },
   "tiger": {
     "title": "Teanga Tíogair",
@@ -436,7 +459,8 @@
     "run_tiger": "Rith Tíogair",
     "output": "Aschur:",
     "stop": "Stop",
-    "program_input": "Ionchur an chláir"
+    "program_input": "Ionchur an chláir",
+    "legacy_repo": "Féach ar an gcur i bhfeidhm sean-Go"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Súmáil Isteach",
         "zoom_out": "Súmáil Amach",
         "reset": "Athshocraigh Amharc"
+      },
+      "country_names": {
+        "show": "Taispeáin ainmneacha tíortha",
+        "hide": "Folaigh ainmneacha tíortha"
       }
     },
     "supported_languages": {

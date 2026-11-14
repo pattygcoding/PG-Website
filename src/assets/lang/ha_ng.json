@@ -8,8 +8,8 @@
     "tiger": "Tiger - Harshen Shirye-shirye na Musamman",
     "snake": "Wasan maciji",
     "portfolio_translator": "Mai Fassarar Fayil",
-    "formatter": "Mai duba JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Mai warware Rubik's Cube",
     "contact": "Tuntube Ni",
     "home_description": "sys.root // babban bayani",
     "about_description": "bayanin injiniya // bio da technology",
@@ -18,16 +18,26 @@
     "tiger_description": "tattara na musamman da AST mai gani",
     "snake_description": "wasan arkade na gargajiya / WASM",
     "portfolio_translator_description": "matrix na harsuna 100+ da i18n",
-    "formatter_description": "mai tabbatarwa da mai canza syntax",
+    "formatter_description": "linter da formatter na tsaruka daban-daban // WASM",
     "contact_description": "aika a buɗe // tuntuɓi ni",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Bishiyar harshe na Hudu a Jere",
+    "connect_four": "Connect Four",
     "alkalab_description": "kwaikwayon dakin gwaje-gwajen sinadarai / WASM",
     "rustcraft_description": "wasan voxel irin na Minecraft / Rust da wgpu",
-    "suprememc_description": "nunin mod na Minecraft / Java"
+    "suprememc_description": "nunin mod na Minecraft / Java",
+    "framework_trees": "Itacen framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Encryption Rijndael",
+    "chess_engine": "Injini na chess",
+    "interops": "Interops",
+    "chess_engine_description": "injini na bitboard / WASM da ma'aikaci",
+    "scripting_library_description": "script na sarrafa kai // harsuna 6",
+    "reclaim_4160_description": "wasan kwaleji, an sake dawo da shi / C++ da WASM",
+    "turing_machines": "Na'urorin Turing",
+    "scripting_library": "Laburaren script"
   },
   "home": {
     "title": "Babban Injiniya Cikakkun Tari | Samfura & Tsarin",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Ayyuka da aka bayar da muhimmanci",
       "title": "Ayyukan da aka zaɓa",
-      "description": "Ayyuka shida waɗanda suka fi wakiltar yadda nake juyar da ra'ayoyi masu buri zuwa software mai kyau da aiki.",
+      "description": "Ayyuka masu nuna yadda nake juya ra'ayoyi masu buri zuwa ciyayyakan software masu kyau da aiki.",
       "view_project": "Duba aikin",
       "open_project": "Buɗe aiki kai tsaye",
       "view_all": "Bincika cikakken portfolio",
@@ -99,7 +109,8 @@
         "libraries": "Littattafan rubutu",
         "languages": "Gwajin harshe",
         "automation": "Kayan aikin sarrafa kai da bayanai",
-        "experience": "Gogewar ƙwararru da ilimi"
+        "experience": "Gogewar ƙwararru da ilimi",
+        "markets": "Kasuwanni da tsarin kasuwanci"
       },
       "browser_native": "Na asali na burauza / ba tare da uwar garken ba",
       "no_results": "Babu ayyukan da suka dace",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Samun dama",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Daidaiton kuɗi yana farawa da wakilci: lissafin cikakken santi da rikodin masu daidaitawa suna bayyana motsin kuɗi."
         },
         "interop": {
-          "summary": "Bayani tsakanin harsuna wanda ya ƙunshi harsuna {languages} na shirye-shirye da tsarin aiwatarwa {patterns}, yana bincika abin da ke faruwa a iyakokin lokacin aiki.",
+          "summary": "Nassoshin harsuna daban-daban da suka hada {languages} harsuna na shirye-shirye da {patterns} tsarin aiwatarwa, suna bincika abin da ke faruwa a iyakokin runtime.",
           "lens": "Bangaren da ke da wahala shine kwangilar da ke tsakanin lokutan aiki: musayar bayanai, halayen tsari, da aiwatarwa mai maimaituwa sun fi muhimmanci fiye da syntax."
         },
         "formatter": {
-          "summary": "Injin bincike na Go na gaske wanda aka haɗa zuwa WebAssembly. Tabbatarwa da tsara JSON da YAML na aiki a cikin burauza.",
-          "lens": "Ƙaura mai bincike zuwa burauza yana musayar babban nauyin abokin ciniki don sarrafa na gida, tsari, da ƙarancin dogaro da uwar garken."
+          "summary": "Linter da formatter na WebAssembly da aka rubuta da Zig don JSON, YAML, XML, HTML, TOML, CSV da TSV. Tabbatarwa da tsara suna aiki a cikin browser.",
+          "lens": "Tsara shi batun amincewa ne: nazari da ainihin grammar, riƙe rubutun marubucin, kuma riƙe bayanai a ɓangaren abokin ciniki."
         },
         "portfolio_website": {
           "summary": "Shafin da kake ciki: portfolio na React mai harsuna 100+, mu'amala mai dama, da kayan aikin WebAssembly masu aiki.",
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formater",
+        "title": "Auto-Linter",
         "text": "JSON na tushen burauza da ingantaccen kayan aikin YAML da aka gina a cikin Go kuma an haɗa su zuwa WebAssembly. Matsar da injin fasinja zuwa WASM yana sa hulɗar ta kasance mai amsawa kuma ta gida ga mai binciken yayin da ake amfani da fasinja na gaske don kama shigar da ba daidai ba. Misali ne da aka mayar da hankali na zabar tsarin gine-ginen lokacin aiki don aiki, ɗaukakawa, da amanar mai amfani.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Laburaren script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael Encryption Project",
-        "text": "Saitin kwatancen aiwatarwa {implementations} Rijndael a cikin bambance-bambancen 128-, 192-, da 256-bit. Sake aiwatar da algorithm mai hankali na tsaro a cikin harsunan horo ne mai horo a cikin takamaiman ƙayyadaddun bayanai, halayen da za a iya gwadawa, da iyakan iya ɗaukar matakin matakin harshe, duk ilhami masu amfani ga tsarin da ke sarrafa bayanai masu mahimmanci.",
+        "title": "Aikin encryption Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Mai warware Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Aikin Turing Machine",
-        "text": "Iyalin sama da {implementations} aiwatar da Injin Turing. An yi amfani da shi don nuna cikar turing don harsunan shirye-shirye daban-daban don bincike, musamman don Harshen Shirye-shiryen Tiger.",
+        "text": "Iyalin {implementations} aiwatar da na'urar Turing. Ana amfani da shi don nuna cikakken turing completeness na harsuna daban-daban don bincike, musamman ga harshen Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Injini na chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Injini na matching PIT"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Ina amsa tambayoyi daga imel da saƙonnin LinkedIn. Zan sake kira idan an bayar da lamba ta ta hanyar ci gaba ko akasin haka, kodayake na fi son in kiyaye lambar waya ta a sirri."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Kayan aiki mai inganci na tushen burauza wanda ke ingantawa da tsara JSON da YAML ta amfani da injin Go da aka harhada zuwa WebAssembly. Gine-ginen yana ci gaba da ɓarna kusa da mai amfani don amsa mai sauri, masu zaman kansu yayin aiwatar da ainihin ƙa'idodin syntax a iyakar bayanai. Ƙaƙƙarfan misali ne na ƙirƙira ingantaccen aiki na mai haɓakawa a kusa da daidaito, aiki, da amana.",
     "more_info1": "Don ƙarin bayani, koma zuwa README a cikin",
-    "more_info2": "Ma'ajiyar Tsarin Tsarin JSON/YAML.",
+    "more_info2": "Ma'ajin Auto-Linter.",
     "format_as": "Tsara Kamar:",
     "auto_detect": "Gano atomatik",
     "format": "Lint & Tsarin",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ Ingantaccen YAML",
     "invalid_json": "JSON mara aiki",
     "invalid_yaml": "YAML mara inganci",
-    "empty_input": "Da fatan za a shigar da wasu JSON ko YAML zuwa lint.",
+    "empty_input": "Shigar da JSON, YAML, XML, HTML, TOML, CSV ko TSV don duba.",
     "too_large": "Shigarwa yayi girma sosai (matsakaicin 1MB da aka yarda).",
     "fixed_yaml_spacing": "⚠ YAML yana da tazara/shiga mara inganci amma an daidaita shi ta atomatik kuma an tsara shi.",
-    "loading": "Ana loda mai tsarawa...",
+    "loading": "Ana lodawa Auto-Linter...",
     "waiting_for_input": "Ana jiran shigarwa...",
-    "load_failed": "An kasa loda mai tsarawa.",
+    "load_failed": "Ba a iya loda Auto-Linter ba.",
     "output": "Fitowa:",
     "input_code": "Shigarwa",
     "json_examples": "Misalin JSON",
-    "yaml_examples": "Misalin YAML"
+    "yaml_examples": "Misalin YAML",
+    "legacy_repo": "Duba aiwatar da Go na gargajiya",
+    "legacy_rust": "Duba aiwatar da Rust na gargajiya"
   },
   "tiger": {
     "title": "Harshen Tiger",
@@ -433,7 +459,8 @@
     "run_tiger": "Run Tiger",
     "output": "Fitowa:",
     "stop": "Dakatarwa",
-    "program_input": "Shigar da shirin"
+    "program_input": "Shigar da shirin",
+    "legacy_repo": "Duba aiwatar da Go na gargajiya"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -498,6 +525,10 @@
         "zoom_in": "Zuƙowa",
         "zoom_out": "Zuƙowa waje",
         "reset": "Sake saita Duban"
+      },
+      "country_names": {
+        "show": "Nuna sunayen ƙasashe",
+        "hide": "Boye sunayen ƙasashe"
       }
     },
     "supported_languages": {

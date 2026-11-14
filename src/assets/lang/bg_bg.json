@@ -8,8 +8,8 @@
     "tiger": "Tiger - Персонализиран език за програмиране",
     "snake": "Игра змия",
     "portfolio_translator": "Преводач на портфолио",
-    "formatter": "Линтер за JSON и YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Решавач на куба на Рубик",
     "contact": "Свържете се с мен",
     "home_description": "sys.root // основен преглед",
     "about_description": "профил на инженер // био и технологии",
@@ -18,18 +18,26 @@
     "tiger_description": "персонализиран компилатор и визуализатор на AST",
     "snake_description": "класическа аркадна игра / WASM",
     "portfolio_translator_description": "матрица от 100+ езика и i18n",
-    "formatter_description": "валидатор и конвертор на синтаксис",
+    "formatter_description": "linter и formatter за няколко формата // WASM",
     "contact_description": "отворено предаване // свържете се с мен",
     "arcade": "Аркада",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Езиково дърво „Четири в редица“",
+    "connect_four": "Connect Four",
     "alkalab_description": "симулация на химическа лаборатория / WASM",
     "rustcraft_description": "вокселна игра в стил Minecraft / Rust и wgpu",
     "suprememc_description": "витрина за мод Minecraft / Java",
-    "chess_engine": "Шахматна машина",
-    "chess_engine_description": "битборд двигател / WASM и работник"
+    "chess_engine": "Шахматен двигател",
+    "chess_engine_description": "двигател bitboard / WASM и worker",
+    "framework_trees": "Дървета на рамките",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Криптиране Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "скриптове за автоматизация // 6 езика",
+    "reclaim_4160_description": "ученическа игра, възстановена / C++ и WASM",
+    "turing_machines": "Машини на Тюринг",
+    "scripting_library": "Библиотека със скриптове"
   },
   "home": {
     "title": "Старши инженер за пълен стек | Продукт и системи",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Избрани проекти",
       "title": "Избрани работи",
-      "description": "Шест проекта, които най-добре представят как превръщам амбициозните идеи в полиран, работещ софтуер.",
+      "description": "Проекти, които най-добре показват как превръщам амбициозни идеи в изискан, работещ софтуер.",
       "view_project": "Преглед на проекта",
       "open_project": "Отваряне на жив проект",
       "view_all": "Изследване на пълното портфолио",
@@ -101,7 +109,8 @@
         "libraries": "Библиотеки със скриптове",
         "languages": "Езикови експерименти",
         "automation": "Инструменти за автоматизация и данни",
-        "experience": "Професионален и образователен опит"
+        "experience": "Професионален и образователен опит",
+        "markets": "Пазари и системи за търговия"
       },
       "browser_native": "Естествено в браузъра / без сървър",
       "no_results": "Няма съвпадащи проекти",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Достъпност",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Финансовата коректност започва с представянето: аритметика в цели стотинки и балансирани записи правят движението на пари явно."
         },
         "interop": {
-          "summary": "Справочник между езици, обхващащ {languages} езика за програмиране и {patterns} модела на изпълнение, изследващ какво се случва на границите на времето за изпълнение.",
+          "summary": "Междуезикова справка, обхващаща {languages} програмни езика и {patterns} модела на изпълнение, която изследва какво се случва на границите на изпълнението.",
           "lens": "Трудната част е договорът между средите за изпълнение: обменът на данни, поведението на процесите и възпроизведимото изпълнение имат значение повече от синтаксиса."
         },
         "formatter": {
-          "summary": "Истински Go парсващ двигател, компилиран в WebAssembly. Валидирането и форматирането на JSON и YAML се изпълняват локално в браузъра.",
-          "lens": "Преместването на парсера в браузъра разменя по-голямо натоварване на клиента срещу локална обработка, преносимост и по-малко зависимости от сървъра."
+          "summary": "Linter и formatter за WebAssembly, написан на Zig, за JSON, YAML, XML, HTML, TOML, CSV и TSV. Валидирането и форматирането се изпълняват локално в браузъра.",
+          "lens": "Форматирането е въпрос на доверие: парсвай с истинска граматика, запази текста на автора и дръж данните в клиента."
         },
         "portfolio_website": {
           "summary": "Сайтът, на който се намирате: React портфолио с над 100 езика, достъпни взаимодействия и работещи инструменти WebAssembly.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Автоматично форматиране на JSON & YAML",
+        "title": "Auto-Linter",
         "text": "Базиран на браузър JSON и YAML инструмент за валидиране и форматиране, вграден в Go и компилиран в WebAssembly. Преместването на механизма за анализиране в WASM поддържа взаимодействието отзивчиво и локално за браузъра, като същевременно прилага истински анализатор за улавяне на невалиден вход. Това е фокусиран пример за избор на архитектура по време на изпълнение за производителност, преносимост и доверие на потребителите.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Библиотека със скриптове",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Проект за криптиране Rijndael",
-        "text": "Сравнителен набор от {implementations} реализации на Rijndael в 128-, 192- и 256-битови варианти. Повторното внедряване на чувствителен към сигурността алгоритъм на различни езици е дисциплинирано упражнение по точни спецификации, поведение, което може да се тества, и границите на преносимостта на ниво език, всички полезни инстинкти за системи, които обработват чувствителни данни.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Решавач на куба на Рубик",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Проект за машината на Тюринг",
-        "text": "Семейство от над {implementations} реализации на машината на Тюринг. Използва се за демонстриране на пълнотата на Turing за различни езици за програмиране за изследвания, особено за Tiger Programming Language.",
+        "text": "Семейство от {implementations} реализации на машината на Тюринг. Използва се за демонстриране на тюрингова пълнота на различни програмни езици с изследователска цел, особено за езика Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,9 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Шахматна машина",
+        "title": "Шахматен двигател",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "Шахматна машина, написана на Rust и компилирана в WebAssembly. Той търси с итеративно задълбочаващ се негамакс, алфа - бета резитба, 32 MB таблица за транспозиция и търсене в покой в листата; оценява с заострени квадратни таблици и нарежда ходове на MVV - LVA, убийци и история. Двигателят работи в Web Worker, така че платката никога не замръзва, а генераторът му за движение се проверява в браузъра спрямо публикуваните perft преброявания - 20, 400, 8,902, 197,281 и 4 865 609 възли за първите пет дълбочини."
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Двигател за съпоставяне PIT"
       }
     }
   },
@@ -405,10 +425,10 @@
     "description": "Отговарям на запитвания от имейли и съобщения в LinkedIn. Също така ще се обадя обратно, ако номерът ми бъде предоставен чрез автобиография или по друг начин, въпреки че предпочитам да запазя телефонния си номер личен."
   },
   "formatter": {
-    "title": "JSON и YAML Linter",
+    "title": "Auto-Linter",
     "description": "Базиран на браузър инструмент за качество на данните, който валидира и форматира JSON и YAML с помощта на Go двигател, компилиран към WebAssembly. Архитектурата поддържа синтактичния анализ близо до потребителя за бърза лична обратна връзка, като същевременно налага реални правила за синтаксис на границата на данните. Това е компактен пример за проектиране на надежден работен процес за разработчици около коректност, производителност и доверие.",
     "more_info1": "За повече информация вижте README в",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Хранилище на Auto-Linter.",
     "format_as": "Форматиране като:",
     "auto_detect": "Автоматично откриване",
     "format": "Мъх и формат",
@@ -416,16 +436,18 @@
     "valid_yaml": "✓ Валиден YAML",
     "invalid_json": "Невалиден JSON",
     "invalid_yaml": "Невалиден YAML",
-    "empty_input": "Моля, въведете JSON или YAML за lint.",
+    "empty_input": "Въведете JSON, YAML, XML, HTML, TOML, CSV или TSV за проверка.",
     "too_large": "Въведеното е твърде голямо (разрешен максимум 1 MB).",
     "fixed_yaml_spacing": "⚠ YAML имаше невалидно разстояние/отстъп, но беше автоматично коригирано и форматирано.",
-    "loading": "Форматирането се зарежда...",
+    "loading": "Зареждане на Auto-Linter...",
     "waiting_for_input": "Изчаква се въвеждане...",
-    "load_failed": "Форматирането не може да се зареди.",
+    "load_failed": "Auto-Linter не може да бъде зареден.",
     "output": "Изход:",
     "input_code": "Вход",
     "json_examples": "Примери за JSON",
-    "yaml_examples": "Примери за YAML"
+    "yaml_examples": "Примери за YAML",
+    "legacy_repo": "Виж старата реализация на Go",
+    "legacy_rust": "Виж старата реализация на Rust"
   },
   "tiger": {
     "title": "Тигърски език",
@@ -437,7 +459,8 @@
     "run_tiger": "Бягай Тигър",
     "output": "Изход:",
     "stop": "Стоп",
-    "program_input": "Вход на програмата"
+    "program_input": "Вход на програмата",
+    "legacy_repo": "Виж старата реализация на Go"
   },
   "tab": {
     "title": "Патрик Гудуин",
@@ -502,6 +525,10 @@
         "zoom_in": "Увеличете",
         "zoom_out": "Намаляване",
         "reset": "Нулиране на изгледа"
+      },
+      "country_names": {
+        "show": "Показване на имената на държавите",
+        "hide": "Скриване на имената на държавите"
       }
     },
     "supported_languages": {

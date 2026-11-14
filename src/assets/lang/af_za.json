@@ -8,8 +8,8 @@
     "tiger": "Tiger - 'n Pasgemaakte Programmeertaal",
     "snake": "Slangspeletjie",
     "portfolio_translator": "Portefeuljevertaler",
-    "formatter": "JSON & YAML-nakie",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube-oplosser",
     "contact": "Kontak My",
     "home_description": "sys.root // hoofoorsig",
     "about_description": "ingenieursprofiel // bio & tegnologie-stapel",
@@ -18,18 +18,26 @@
     "tiger_description": "pasgemaakte kompileerder & AST-visualiseerder",
     "snake_description": "klassieke arcade-speletjie / WASM",
     "portfolio_translator_description": "100+ taalmatriks & i18n",
-    "formatter_description": "sintaks-validator & -omsetter",
+    "formatter_description": "veelformaat-linter en formateerder // WASM",
     "contact_description": "oop transmissie // kom in kontak",
     "arcade": "Arcade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Connect Four-taalbome",
+    "connect_four": "Connect Four",
     "alkalab_description": "chemielaboratorium-simulasie / WASM",
     "rustcraft_description": "Minecraft-styl voxel-speletjie / Rust & wgpu",
     "suprememc_description": "Minecraft-mod-vertoning / Java",
-    "chess_engine": "Skaak enjin",
-    "chess_engine_description": "bitboard enjin / WASM & werker"
+    "chess_engine": "Skaak-enjin",
+    "chess_engine_description": "bitboard-enjin / WASM en worker",
+    "framework_trees": "Raamwerk-bome",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael-enkripsie",
+    "interops": "Interops",
+    "scripting_library_description": "outomatiseringskripte // 6 tale",
+    "reclaim_4160_description": "kollege-speletjie, herwin / C++ en WASM",
+    "turing_machines": "Turing-masjiene",
+    "scripting_library": "Skrip-biblioteek"
   },
   "home": {
     "title": "Senior Full-Stack Ingenieur | Produk & Stelsels",
@@ -87,7 +95,8 @@
         "libraries": "Skripbiblioteke",
         "languages": "Taal-eksperimente",
         "automation": "Outomatisering & Datagereedskap",
-        "experience": "Professionele & Opvoedkundige Ervaring"
+        "experience": "Professionele & Opvoedkundige Ervaring",
+        "markets": "Markte en handelstelsels"
       },
       "browser_native": "Blaaier-inheems / geen bediener",
       "no_results": "Geen ooreenstemmende projekte nie",
@@ -117,7 +126,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Toeganklikheid",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -137,12 +147,12 @@
           "lens": "Finansiële korrektheid begin met voorstelling: heelgetal-sent-rekenkunde en gebalanseerde grootboekinskrywings maak geldbeweging eksplisiet."
         },
         "interop": {
-          "summary": "'n Kruis-taalgids wat {languages} programmeertale en {patterns} uitvoeringspatrone dek en ondersoek wat by looptyd-grense gebeur.",
+          "summary": "'n Oorkruis-taal verwysing oor {languages} programmeertale en {patterns} uitvoeringspatrone, wat ondersoek wat by runtime-grense gebeur.",
           "lens": "Die moeilike deel is die kontrak tussen runtimes: data-uitruil, prosedure-gedrag en herhalende uitvoering maak meer saak as sintaks."
         },
         "formatter": {
-          "summary": "'n Regte Go-ontledingsenjin wat na WebAssembly gekompileer is. JSON- en YAML-validasie en -formatering loop plaaslik in die blaaier.",
-          "lens": "Om die ontleder na die blaaier te skuif verruil 'n groter kliëntvrag vir plaaslike verwerking, draagbaarheid en minder bediener-afhanklikhede."
+          "summary": "'n Linter en formateerder vir WebAssembly geskryf in Zig vir JSON, YAML, XML, HTML, TOML, CSV en TSV. Validering en formatering loop plaaslik in die blaaier.",
+          "lens": "Formatering is 'n vertrouenskwessie: ontleed met 'n egte grammatika, bewaar die skrywer se teks en hou die data by die kliënt."
         },
         "portfolio_website": {
           "summary": "Die webwerf waarin jy is: 'n React-portefeulje met 100+ tale, toeganklike interaksies en werkende WebAssembly-gereedskap.",
@@ -157,7 +167,7 @@
     "featured": {
       "kicker": "Uitgesoekte Projekte",
       "title": "Geselekteerde Werk",
-      "description": "Ses projekte wat die beste voorstel hoe ek ambisieuse idees in gepoleerde, werkende sagteware omskep.",
+      "description": "Projekte wat die beste wys hoe ek ambisieuse idees in netjiese, werkende sagteware omskep.",
       "view_project": "Bekyk Projek",
       "open_project": "Maak Lewendige Projek Oop",
       "view_all": "Verken die volle portefeulje",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Outoformateerder",
+        "title": "Auto-Linter",
         "text": "'n Blaaier-gebaseerde JSON- en YAML-validerings- en formateringsinstrument wat in Go ingebou is en saamgestel is na WebAssembly. Deur die ontleedenjin na WASM te skuif, hou die interaksie reageer en plaaslik op die blaaier terwyl 'n regte ontleder toegepas word om ongeldige insette te kry. Dit is 'n gefokusde voorbeeld van die keuse van 'n runtime-argitektuur vir werkverrigting, oordraagbaarheid en gebruikersvertroue.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skrip-biblioteek",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael-enkripsieprojek",
-        "text": "'n Vergelykende stel van {implementations} Rijndael-implementerings oor 128-, 192- en 256-bis variante. Die herimplementering van 'n sekuriteitsensitiewe algoritme oor tale heen is 'n gedissiplineerde oefening in presiese spesifikasies, toetsbare gedrag en die grense van taalvlakoordraagbaarheid, alle nuttige instinkte vir stelsels wat sensitiewe data hanteer.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube-oplosser",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing-masjienprojek",
-        "text": "Familie van meer as {implementations} implementerings van die Turing-masjien. Word gebruik om volledigheid vir verskillende programmeertale vir navorsing te demonstreer, veral vir die Tiger-programmeertaal.",
+        "text": "'n Familie van {implementations} implementerings van die Turing-masjien. Gebruik om Turing-volledigheid van verskillende programmeertale vir navorsing te demonstreer, veral vir die Tiger-programmeertaal.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,9 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Skaak enjin",
+        "title": "Skaak-enjin",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "'N skaak enjin geskryf in Rust en saamgestel om WebAssembly. Dit soek met iteratiewe verdieping negamax, alfa-beta snoei, 'n 32 MB transposisie tafel en 'n quiescence soektog by die blare; Dit evalueer met tapse stuk-vierkante tafels en bestellings beweeg deur MVV-LVA, moordenaars en geskiedenis. Die enjin loop in 'n Web Werker sodat die raad nooit vries, en sy skuif kragopwekker is nagegaan in die leser teen die gepubliseerde perft tel - 20, 400, 8,902, 197,281 en 4,865,609 knope vir die eerste vyf dieptes."
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT-koördineringsenjin"
       }
     }
   },
@@ -405,10 +425,10 @@
     "description": "Ek reageer op navrae van e-pos en LinkedIn-boodskappe. Ek sal ook terugbel as my nommer via CV of andersins verskaf word, alhoewel ek verkies om my foonnommer privaat te hou."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "'n Blaaier-gebaseerde datakwaliteithulpmiddel wat JSON en YAML bekragtig en formateer met behulp van 'n Go-enjin wat saamgestel is na WebAssembly. Die argitektuur hou aan om naby die gebruiker te ontleed vir vinnige, private terugvoer terwyl regte sintaksisreëls by die datagrens afdwing. Dit is 'n kompakte voorbeeld van die ontwerp van 'n betroubare ontwikkelaarwerkvloei rondom korrektheid, werkverrigting en vertroue.",
     "more_info1": "Vir meer inligting, verwys na die README in die",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Auto-Linter-bewaarplek.",
     "format_as": "Formateer as:",
     "auto_detect": "Auto Detect",
     "format": "Lint & Format",
@@ -416,16 +436,18 @@
     "valid_yaml": "✓ Geldige YAML",
     "invalid_json": "Ongeldige JSON",
     "invalid_yaml": "Ongeldige YAML",
-    "empty_input": "Voer asseblief 'n JSON of YAML in om te pluis.",
+    "empty_input": "Voer JSON, YAML, XML, HTML, TOML, CSV of TSV in om te kontroleer.",
     "too_large": "Invoer te groot (maksimum 1 MB toegelaat).",
     "fixed_yaml_spacing": "⚠ YAML het ongeldige spasiëring/inkeping gehad, maar is outomaties reggemaak en geformateer.",
-    "loading": "Laai tans formateerder...",
+    "loading": "Laai tans Auto-Linter...",
     "waiting_for_input": "Wag tans vir invoer …",
-    "load_failed": "Kan nie formateerder laai nie.",
+    "load_failed": "Kon nie Auto-Linter laai nie.",
     "output": "Uitset:",
     "input_code": "Invoer",
     "json_examples": "JSON voorbeelde",
-    "yaml_examples": "YAML voorbeelde"
+    "yaml_examples": "YAML voorbeelde",
+    "legacy_repo": "Sien ou Go-implementering",
+    "legacy_rust": "Sien ou Rust-implementering"
   },
   "tiger": {
     "title": "Tiger Taal",
@@ -437,7 +459,8 @@
     "run_tiger": "Hardloop Tiger",
     "output": "Uitset:",
     "stop": "Stop",
-    "program_input": "Programinvoer"
+    "program_input": "Programinvoer",
+    "legacy_repo": "Sien ou Go-implementering"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -502,6 +525,10 @@
         "zoom_in": "Zoem in",
         "zoom_out": "Zoem uit",
         "reset": "Reset View"
+      },
+      "country_names": {
+        "show": "Wys landname",
+        "hide": "Versteek landname"
       }
     },
     "supported_languages": {

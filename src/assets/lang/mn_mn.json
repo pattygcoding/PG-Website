@@ -8,8 +8,8 @@
     "tiger": "Tiger - Тусгай Програмчлалын Хэл",
     "snake": "Могой тоглоом",
     "portfolio_translator": "Портфолио орчуулагч",
-    "formatter": "JSON & YAML шалгагч",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Рубик куб тайлагч",
     "contact": "Надтай холбоо бариарай",
     "home_description": "sys.root // үндсэн тойм",
     "about_description": "инженерийн профайл // био ба технологи",
@@ -18,18 +18,26 @@
     "tiger_description": "тусгай компилятор ба AST визуализатор",
     "snake_description": "сонгодог аркейд тоглоом / WASM",
     "portfolio_translator_description": "100+ хэлний матриц ба i18n",
-    "formatter_description": "синтакс шалгагч ба хөрвүүлэгч",
+    "formatter_description": "олон форматын linter болон форматлагч // WASM",
     "contact_description": "нээлттэй дамжуулалт // холбогдоорой",
     "arcade": "Аркейд",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Дөрөв дараалан хэлний мод",
+    "connect_four": "Connect Four",
     "alkalab_description": "химийн лабораторийн симуляци / WASM",
     "rustcraft_description": "Minecraft хэв маягийн воксель тоглоом / Rust ба wgpu",
     "suprememc_description": "Minecraft мод үзүүлэх / Java",
     "chess_engine": "Шатрын хөдөлгүүр",
-    "chess_engine_description": "bitboard engine / WASM & worker"
+    "chess_engine_description": "bitboard хөдөлгүүр / WASM ба worker",
+    "framework_trees": "Framework-ийн мод",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael шифрлэлт",
+    "interops": "Interops",
+    "scripting_library_description": "автоматжуулалтын скрипт // 6 хэл",
+    "reclaim_4160_description": "их сургуулийн тоглоом, сэргээгдсэн / C++ ба WASM",
+    "turing_machines": "Тюрингийн машинууд",
+    "scripting_library": "Скриптийн сан"
   },
   "home": {
     "title": "Ахлах бүрэн стек инженер | Бүтээгдэхүүн ба систем",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Сонгосон төслүүд",
       "title": "Сонгосон бүтээлүүд",
-      "description": "Өндөр сэтгэлгээтэй санааг гялалзсан, ажилладаг программ болгон хэрхэн хувиргадагийг хамгийн сайн илэрхийлдэг зургаан төсөл.",
+      "description": "Миний амбицтай санааг хэрхэн боловсронгуй, ажиллагаатай програм хангамж болгож хувиргаж байгааг хамгийн сайн харуулсан төслүүд.",
       "view_project": "Төслийг үзэх",
       "open_project": "Шууд төслийг нээх",
       "view_all": "Бүрэн портфолиог судлах",
@@ -101,7 +109,8 @@
         "libraries": "Скрипт номын сангууд",
         "languages": "Хэлний туршилтууд",
         "automation": "Автоматжуулалт ба өгөгдлийн хэрэгслүүд",
-        "experience": "Мэргэжлийн ба боловсролын туршлага"
+        "experience": "Мэргэжлийн ба боловсролын туршлага",
+        "markets": "Зах зээл ба худалдааны системүүд"
       },
       "browser_native": "Хөтөчийн уугуул / сервергүй",
       "no_results": "Тохирох төсөл алга",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Хүртээмж",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Санхүүгийн зөв байдал нь төлөөллөөс эхэлдэг: бүхэл цент арифметик ба тэнцвэртэй оруулгууд мөнгөний хөдөлгөөнийг тодорхой болгодог."
         },
         "interop": {
-          "summary": "{languages} программчлалын хэл ба {patterns} гүйцэтгэлийн загварыг хамарсан, гүйцэтгэлийн цагийн хил дээр юу болохыг судалдаг хэл хоорондын лавлагаа.",
+          "summary": "{languages} програмчлалын хэл болон {patterns} гүйцэтгэлийн загварыг хамарсан хэл хоорондын лавлагаа, runtime-ийн хил хязгаарт юу болдгийг судалдаг.",
           "lens": "Хэцүү хэсэг нь гүйцэтгэлийн цагуудын хоорондын гэрээ: өгөгдөл солилцоо, процессын зан төлөв, давтагдах гүйцэтгэл нь синтаксоос илүү чухал."
         },
         "formatter": {
-          "summary": "WebAssembly руу компилсан жинхэнэ Go шинжилгээний хөдөлгүүр. JSON ба YAML шалгалт ба формат нь хөтөч дотор орон нутагт ажилладаг.",
-          "lens": "Парсерыг хөтөч рүү шилжүүлэх нь илүү том үйлчлүүлэгчийн ачааллыг орон нутгийн боловсруулалт, зөөврийн байдал, серверээс хамаарал багатайгаар сольдог."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV болон TSV-д зориулсан Zig-ээр бичигдсэн WebAssembly linter болон форматлагч. Шалгалт ба форматлалт хөтчөөр дотоод ажилладаг.",
+          "lens": "Форматлалт бол итгэлийн асуудал: жинхэнэ дүрмээр задлан шинжил, зохиогчийн текстийг хадгал, мэдээллийг үйлчлүүлэгчид байлга."
         },
         "portfolio_website": {
           "summary": "Таны байгаа сайт: 100+ хэлтэй, хүртээмжтэй харилцан үйлчлэл, ажиллаж буй WebAssembly хэрэгслүүдтэй React портфолио.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML автомат форматлагч",
+        "title": "Auto-Linter",
         "text": "Хөтөч дээр суурилсан JSON болон YAML баталгаажуулах, форматлах хэрэгсэл нь Go-д суурилагдсан бөгөөд WebAssembly-д хөрвүүлсэн. Шинжилгээний системийг WASM руу шилжүүлснээр хүчингүй оролтыг барьж авахын тулд бодит задлан шинжлэгчийг ашиглахын зэрэгцээ харилцан үйлчлэл нь хөтчид хариу үйлдэл үзүүлж, локал байх болно. Энэ нь гүйцэтгэл, зөөврийн байдал, хэрэглэгчийн итгэлцлийн хувьд ажиллах үеийн архитектурыг сонгоход чиглэсэн жишээ юм.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Скриптийн сан",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Рижанделийн шифрлэлтийн төсөл",
-        "text": "128, 192, 256 битийн хувилбаруудын {implementations} Rijndael хэрэгжүүлэлтийн харьцуулсан багц. Аюулгүй байдалд мэдрэмтгий алгоритмыг хэлээр дахин хэрэгжүүлэх нь нарийн үзүүлэлтүүд, туршиж үзэх боломжтой зан байдал, хэлний түвшний зөөвөрлөх чадварын хязгаарыг сахин биелүүлэх дасгал юм. мэдрэмтгий өгөгдөлтэй харьцдаг системд зориулсан бүх ашигтай зөн совин.",
+        "title": "Rijndael шифрлэлтийн төсөл",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Рубик куб тайлагч",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Тюринг машин төсөл",
-        "text": "Тьюрингийн машиныг {implementations} гаруй хэрэгжүүлсэн гэр бүл. Судалгаанд зориулж янз бүрийн програмчлалын хэл, ялангуяа Tiger програмчлалын хэлний хувьд Turning бүрэн байдлыг харуулахад ашигладаг.",
+        "text": "Тюринг машины {implementations} хэрэгжүүлэлтийн гэр бүл. Өөр өөр програмчлалын хэлний тюрингийн бүрэн бүтэн байдлыг судалгааны зорилгоор харуулахад ашигладаг, ялангуяа Tiger хэлний хувьд.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "Шатрын хөдөлгүүр",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT тохируулах хөдөлгүүр"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Би цахим шуудан болон LinkedIn мессежээс ирсэн асуултад хариулдаг. Би утасны дугаараа нууцлахыг илүүд үздэг ч миний дугаарыг анкетаар эсвэл өөр байдлаар өгсөн бол би дахин залгах болно."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "WebAssembly-д эмхэтгэсэн Go хөдөлгүүрийг ашиглан JSON болон YAML-г баталгаажуулж, форматлах хөтөч дээр суурилсан өгөгдлийн чанарын хэрэгсэл. Архитектур нь өгөгдлийн зааг дээр бодит синтакс дүрмийг мөрдүүлэхийн зэрэгцээ хурдан, хувийн санал хүсэлтийг авахын тулд хэрэглэгчдэд ойрхон задлан шинжилдэг. Энэ нь зөв, гүйцэтгэл, итгэлцлийн эргэн тойронд найдвартай хөгжүүлэгчийн ажлын урсгалыг зохион бүтээх авсаархан жишээ юм.",
     "more_info1": "Дэлгэрэнгүй мэдээллийг README хэсгээс авна уу",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Auto-Linter-ийн агуулах.",
     "format_as": "Формат:",
     "auto_detect": "Автоматаар илрүүлэх",
     "format": "Хөвөн ба Формат",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Хүчин төгөлдөр YAML",
     "invalid_json": "Буруу JSON",
     "invalid_yaml": "YAML буруу",
-    "empty_input": "Зарим JSON эсвэл YAML оруулна уу.",
+    "empty_input": "Шалгахын тулд JSON, YAML, XML, HTML, TOML, CSV эсвэл TSV оруулна уу.",
     "too_large": "Хэт том оролт (хамгийн ихдээ 1MB зөвшөөрөгдсөн).",
     "fixed_yaml_spacing": "⚠ YAML буруу зай/доголтой байсан боловч автоматаар засч, форматлагдсан.",
-    "loading": "Форматлагчийг ачаалж байна...",
+    "loading": "Auto-Linter-ийг ачаалж байна...",
     "waiting_for_input": "Оролтоо хүлээж байна...",
-    "load_failed": "Форматлагчийг ачаалах боломжгүй.",
+    "load_failed": "Auto-Linter-ийг ачаалж чадсангүй.",
     "output": "Гаралт:",
     "input_code": "Оролт",
     "json_examples": "JSON жишээнүүд",
-    "yaml_examples": "YAML жишээнүүд"
+    "yaml_examples": "YAML жишээнүүд",
+    "legacy_repo": "Хуучин Go хэрэгжүүлэлтийг үзэх",
+    "legacy_rust": "Хуучин Rust хэрэгжүүлэлтийг үзэх"
   },
   "tiger": {
     "title": "Бар хэл",
@@ -436,7 +459,8 @@
     "run_tiger": "Tiger-г ажиллуул",
     "output": "Гаралт:",
     "stop": "Зогсоох",
-    "program_input": "Програмын оролт"
+    "program_input": "Програмын оролт",
+    "legacy_repo": "Хуучин Go хэрэгжүүлэлтийг үзэх"
   },
   "tab": {
     "title": "Патрик Гүүдвин",
@@ -501,6 +525,10 @@
         "zoom_in": "Томруулах",
         "zoom_out": "Жижигрүүлэх",
         "reset": "Харагдах байдлыг дахин тохируулах"
+      },
+      "country_names": {
+        "show": "Улс орнуудын нэрийг харуулах",
+        "hide": "Улс орнуудын нэрийг нуух"
       }
     },
     "supported_languages": {

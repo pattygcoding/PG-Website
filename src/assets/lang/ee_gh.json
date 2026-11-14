@@ -8,8 +8,8 @@
     "tiger": "Tiger - Gbegbɔgblɔ si ƒe nɔnɔme le wo ŋutɔ",
     "snake": "Dada ƒe fefe",
     "portfolio_translator": "Portfolio Gbegɔmeɖela",
-    "formatter": "JSON & YAML ƒe kpokplɔ̃",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube tɔnuƒᴐ",
     "contact": "Te Ðe Ŋunye",
     "home_description": "sys.root // gbɔgblɔ vevienyenya",
     "about_description": "injunia ƒe numekugbalẽ // bio kple teknɔlɔgi",
@@ -18,18 +18,26 @@
     "tiger_description": "compiler si wɔwɔ na ame ŋutɔ kple AST kpɔla",
     "snake_description": "klassik arkade fefe / WASM",
     "portfolio_translator_description": "gbe 100+ ƒe matrix kple i18n",
-    "formatter_description": "syntax ɖoɖo kple ƒuƒlu",
+    "formatter_description": "leɖo si le vevie me le dɔ si me // WASM",
     "contact_description": "ʋuʋu le gbe ŋu // ƒo kplɔ nye",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Gbegbɔgblɔ ƒe ati Enyi eto me",
+    "connect_four": "Connect Four",
     "alkalab_description": "chemistry lab ƒe nɔnɔme / WASM",
     "rustcraft_description": "voxel fefe si le Minecraft ƒe nɔnɔme me / Rust kple wgpu",
     "suprememc_description": "Minecraft mod ƒe ɖoɖo / Java",
-    "chess_engine": "Zigbee Engine",
-    "chess_engine_description": "kpop/ WASM/Worker"
+    "chess_engine": "Chess dɔwɔƒe",
+    "chess_engine_description": "bitboard dɔwɔƒe / WASM kpakple dɔwɔla",
+    "framework_trees": "Kekeme si le le nu si woa kaka nu me",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael ƒe ɖeɖeɖi",
+    "interops": "Interops",
+    "scripting_library_description": "Nuƒᴐƒe si wɔa dɔ le mɔ̃ nu // gbe 6",
+    "reclaim_4160_description": "ƒe kplɔ̃nuwo ƒe dɔ, si wᴐɖᴐe trᴐ̃ / C++ kpakple WASM",
+    "turing_machines": "Turing mɔ̃wo",
+    "scripting_library": "Script nuƒᴐƒe"
   },
   "home": {
     "title": "Senior Full-Stack Mɔ̃ɖaŋudɔwɔla | Adzɔnuwo & Dɔwɔɖoɖowo",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Dɔ siwo wotia",
       "title": "Dɔ siwo wotia",
-      "description": "Dɔ ade siwo kpɔa ale si meɖea ŋgɔ siwo le susu ƒe dɔwɔme teƒe.",
+      "description": "Dɔwɔƒe siawo fia kaɖe wu le nuteƒe nyawo nu fifia si dɔ le vevie keke si wɔna dɔa nu.",
       "view_project": "Kpɔ dɔa",
       "open_project": "Ʋu dɔ si le yeƒe nɔnɔme me",
       "view_all": "Doe portfolio blibo",
@@ -101,7 +109,8 @@
         "libraries": "Script ƒe agbalẽdzraɖoƒe",
         "languages": "Gbe ƒe dodokpɔ",
         "automation": "Automation kple data ƒe dɔwɔnu",
-        "experience": "Dɔwɔnya kple sukudede ƒe dodowɔkplɔ"
+        "experience": "Dɔwɔnya kple sukudede ƒe dodowɔkplɔ",
+        "markets": "Asrãduƒᴐe kpakple ƒleɖeŋu ƒe gbeɖeɖewo"
       },
       "browser_native": "Browser ƒe vi / server mele o",
       "no_results": "Dɔ si sɔ la mele afi aɖeke o",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Mɔɖeɖe",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Ganya ƒe nɔnɔme dze gɔme le numata: senti ƒe nɔnɔme kple agbalẽ ƒe nɔnɔme wɔa ga ƒe dodo"
         },
         "interop": {
-          "summary": "Gbeƒoƒo si le gbe vovowo dome si le {languages} programming gbe kple {patterns} ɖoɖowo me, si kpɔa nu si dzɔna le ʋuʋu ƒe mɔnuwo me.",
+          "summary": "Asi le gbegbe nyawo si me dɔwɔ kplii kpe ɖe {languages} kpliiwo kplii kpe ɖe {patterns} kpliiwo me, si kpᴐ ŋu le nutu ɖe nu siwo woa le runtime nu nu.",
           "lens": "Nudzedze le runtime ƒe nɔnɔme me: data ƒe sɔsɔɔ, dɔ ƒe nɔnɔme, kple ʋuʋu si woaƒoe dada ɖoɖo."
         },
         "formatter": {
-          "summary": "Go parsing ƒe dɔwɔnu si wotso ɖe WebAssembly ƒe nɔnɔme. JSON kple YAML ƒe nɔnɔme le browser ƒe dɔwɔme.",
-          "lens": "Parser ƒe ƒoƒo ɖe browser ƒe dɔwɔme me wɔa nɔnɔme ɖe client ƒe dɔwɔnu ŋu."
+          "summary": "Zig do ŋu nuwɔna lɔlɔ̃ nye nyawo ɖe JSON, YAML, XML, HTML, TOML, CSV kpakple TSV. Leɖokᴐ si me le kplii si.",
+          "lens": "Nuwɔna leɖo ye nyawo si me nu le bebe: leɖo nu ɖe nu si me do kaka ɖe nu, tsɔ nuƒᴐawo nu siwo woƒe na, gake ɖe nuƒᴐawo nu le xexe si me wɔ."
         },
         "portfolio_website": {
           "summary": "Saiti si me nèle: React portfolio si le gbe 100+, access ƒe nɔnɔme, kple WebAssembly ƒe dɔwɔnu siwo wɔ dɔ.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto ƒe Nɔnɔmewɔwɔ",
+        "title": "Auto-Linter",
         "text": "JSON kple YAML ƒe kpeɖodzinana kple ɖoɖowɔwɔ dɔwɔnu si wotu ɖe browser dzi si wotu ɖe Go me eye woƒoe nu ƒu ɖe WebAssembly me. Ne èʋu parsing engine la yi WASM me la, enaa kadodoa nɔa ŋu ɖom eye wònɔa teƒe ɖeka na browser la esime nèle parser ŋutɔŋutɔ zãm be yealé nya siwo mesɔ o. Enye kpɔɖeŋu si ŋu wotsi dzi ɖo le tiatiawɔɣi ƒe xɔtuɖaŋu na dɔwɔwɔ, tsɔtsɔ yi teƒe bubu, kple zãla ƒe kakaɖedzi.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Script nuƒᴐƒe",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael ƒe Nya Ɣaɣla Dɔwɔɖoɖo",
-        "text": "{implementations} Rijndael ƒe dɔwɔwɔwo ƒe ƒuƒoƒo si wotsɔ sɔ kple wo nɔewo le 128-, 192-, kple 256-bit ƒe vovototowo me. Dzɔdzɔmeŋusẽŋununya si bua dedienɔnɔ ŋudɔwɔwɔ le gbegbɔgblɔwo katã me gbugbɔgawɔ nye dɔwɔwɔ si ŋu woɖɔ ɖo le nɔnɔme siwo sɔ pɛpɛpɛ, nuwɔna si woate ŋu ado kpɔ, kple seɖoƒe siwo le gbegbɔgblɔ ƒe ɖoɖo nu tsɔtsɔ yi teƒe bubuwo ŋu, . dzɔdzɔmeŋutete siwo katã ŋu viɖe le na ɖoɖo siwo kpɔa nyatakaka veviwo gbɔ.",
+        "title": "Rijndael ƒe ɖeɖeɖi dɔ",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube tɔnuƒᴐ",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Mɔ̃ɖaŋudɔwɔƒe ƒe Dɔwɔna",
-        "text": "Ƒome si wu {implementations} ƒe dɔwɔwɔwo le Turing Mɔ̃a. Wozãnɛ tsɔ ɖea turing ƒe blibonyenye fiana na ɖoɖowɔɖi gbe vovovowo hena numekuku, vevietɔ na Tiger Programming Language.",
+        "text": "Tɔ si wo le tɔ nye le {implementations} si le Turing Machine ŋu. Wozãa be wòƒᴐa nu le nyawo siwo me do le vovᴐm si me bebe, le nyanu si me bebe le Tiger nyawo si me.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,9 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Zigbee Engine",
+        "title": "Chess dɔwɔƒe",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "Enye xatsatsatsatsatsatsa ƒe mɔ̃ si woŋlɔ ɖe Rust me eye woŋlɔe ɖe WebAssoci. Edzroa negamax ƒe gogloƒe, alfa-beta-tutu, 32 MB-tutuɖaka kple aŋgbawo ƒe numekuku si me nu sẽ la me; Edzroa teƒe siwo me nu sẽ la me. eye MVV-LVA, amewuwuwo kple ŋutinya ʋã amewo. Dɔwɔla si wɔa dɔ le Internet dzi la wɔa dɔ le mɔ̃a dzi ale be kplɔ̃a megatrɔna gbeɖe o, eye eƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a ƒe mɔ̃a dzi. 4,865,609 le gogloƒe atɔ̃ gbãtɔawo me."
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT dɔwɔƒe si wɔa nu"
       }
     }
   },
@@ -405,10 +425,10 @@
     "description": "Meɖoa nyabiase siwo tso email kple LinkedIn gbedasiwo me ŋu. Magbugbɔ ka aƒo ka hã ne wotsɔ nye xexlẽdzesi na to dɔbiagbalẽvi dzi alo to mɔ bubu aɖe dzi, togbɔ be medi be nye telefon xexlẽdzesi nanɔ ɣaɣla hã."
   },
   "formatter": {
-    "title": "JSON & YAML Linter ƒe ƒuƒoƒo",
+    "title": "Auto-Linter",
     "description": "Dɔwɔnu si wotu ɖe nyatakakawo ƒe nyonyome dzi si wotu ɖe web-browser dzi si ɖoa kpe JSON kple YAML dzi hewɔa ɖoɖo ɖe wo ŋu to Go mɔ̃ si woƒo ƒu ɖe WebAssembly me. Xɔtuɖaŋua yia edzi nɔa nu me tom le zãla la gbɔ tututu hena nyaŋuɖoɖo kabakaba, si nye ame ŋutɔ tɔ esime wòle nyagɔmeɖegbalẽ ƒe se ŋutɔŋutɔwo dzi wɔm le nyatakakawo ƒe liƒo dzi. Enye kpɔɖeŋu si le sue si nye ɖoɖowɔwɔ ɖe developer ƒe dɔwɔwɔ ƒe ɖoɖo si dzi woate ŋu aka ɖo ŋu ƒo xlã dzɔdzɔenyenye, dɔwɔwɔ, kple kakaɖedzi.",
     "more_info1": "Ne èdi nyatakaka bubuwo la, kpɔ README si le...",
-    "more_info2": "JSON/YAML Format ƒe Nudzraɖoƒe.",
+    "more_info2": "Auto-Linter deƒe do me si le dzata nu me.",
     "format_as": "Format As:",
     "auto_detect": "Auto Detect (Ame ƒe Nukpɔkpɔ).",
     "format": "Lint & Nɔnɔmewɔwɔ",
@@ -416,16 +436,18 @@
     "valid_yaml": "✓ YAML si sɔ",
     "invalid_json": "JSON si mesɔ o",
     "invalid_yaml": "YAML si mesɔ o",
-    "empty_input": "Taflatse ŋlɔ JSON alo YAML aɖewo ɖe lint me.",
+    "empty_input": "Do JSON, YAML, XML, HTML, TOML, CSV alo TSV nu le nuteƒe nu.",
     "too_large": "Input lolo akpa (max 1MB woɖe mɔ na).",
     "fixed_yaml_spacing": "⚠ YAML ƒe dometsotso/nuŋɔŋlɔ si mesɔ o nɔ esi gake woɖɔe ɖo le eɖokui si eye wowɔe ɖe ɖoɖo nu.",
-    "loading": "Wole formatter xɔm...",
+    "loading": "Auto-Linter ɖe le deƒe do me...",
     "waiting_for_input": "Wole lalam be woatsɔ nyawo ade eme...",
-    "load_failed": "Mete ŋu tsɔ formatter la de eme o.",
+    "load_failed": "Auto-Linter deƒe do ŋu.",
     "output": "Nusi dona tso eme:",
     "input_code": "Nusiwo wotsɔ de eme",
     "json_examples": "JSON Kpɔɖeŋuwo",
-    "yaml_examples": "YAML Kpɔɖeŋuwo"
+    "yaml_examples": "YAML Kpɔɖeŋuwo",
+    "legacy_repo": "Kpᴐ Go leɖo si do ŋu",
+    "legacy_rust": "Kpᴐ Rust leɖo si do ŋu"
   },
   "tiger": {
     "title": "Tiger Gbegbɔgblɔ",
@@ -437,7 +459,8 @@
     "run_tiger": "Duƒuƒu Tiger",
     "output": "Nusi dona tso eme:",
     "stop": "Tɔᵷe",
-    "program_input": "Program ƒe nɔnɔme"
+    "program_input": "Program ƒe nɔnɔme",
+    "legacy_repo": "Kpᴐ Go leɖo si do ŋu"
   },
   "tab": {
     "title": "Patrick Goodwin ƒe agbalẽa",
@@ -502,6 +525,10 @@
         "zoom_in": "Zoom ɖe edzi",
         "zoom_out": "Zãe Ðe Edzi",
         "reset": "Gbugbɔ Ðo Nukpɔkpɔa Ðo"
+      },
+      "country_names": {
+        "show": "Fia nyawo si le dukɔwo me",
+        "hide": "Fia dukɔwo me nyawo si wo le"
       }
     },
     "supported_languages": {

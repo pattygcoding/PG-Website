@@ -8,8 +8,8 @@
     "tiger": "Tiger - Ede Siseto ti Ara ẹni",
     "snake": "Ere ejo",
     "portfolio_translator": "Onitumọ Portfolio",
-    "formatter": "Ayẹwo JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Ipànúda Rubik's Cube",
     "contact": "Kan si mi",
     "home_description": "sys.root // akopọ akọkọ",
     "about_description": "profaili onimọ-ẹrọ // bio ati imọ-ẹrọ",
@@ -18,18 +18,26 @@
     "tiger_description": "olupilẹṣẹ aṣa ati oluworan AST",
     "snake_description": "ere arkiadi kilasika / WASM",
     "portfolio_translator_description": "matrix ede 100+ ati i18n",
-    "formatter_description": "oludaniloju ati oluyipada syntax",
+    "formatter_description": "linter ati formatter ti ọpọlọpọ awọn ọna // WASM",
     "contact_description": "gbigbe ti o ṣii // kan si mi",
     "arcade": "Arikiadi",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Igi ede Mẹrin ni ọna",
+    "connect_four": "Connect Four",
     "alkalab_description": "iṣeduro ile-iṣẹ kemistri / WASM",
     "rustcraft_description": "ere voxel aṣa Minecraft / Rust ati wgpu",
     "suprememc_description": "ifihan mod Minecraft / Java",
-    "chess_engine": "Ẹrọ Chess",
-    "chess_engine_description": "ẹrọ bitboard / WASM & Oṣiṣẹ"
+    "chess_engine": "Eje chess",
+    "chess_engine_description": "eje bitboard / WASM ati iṣẹ",
+    "framework_trees": "Awọn igi framework",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Ifiṣọ-ikọ Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "awọn script iṣakoso // ede 6",
+    "reclaim_4160_description": "ere ile-ẹkọ giga, ti a gba pada / C++ ati WASM",
+    "turing_machines": "Awọn ẹya Mimọ Turing",
+    "scripting_library": "Ilé-ìkàwé script"
   },
   "home": {
     "title": "Olùkọ Full-Stack Engineer | Ọja & Awọn ọna ṣiṣe",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Awọn iṣẹ akanṣe ti a yan",
       "title": "Awọn iṣẹ ti a yan",
-      "description": "Awọn iṣẹ akanṣe mẹfa ti o ṣe aṣoju daradara bi mo ṣe yi awọn ero alailopin pada si sọfitiwia didan ati ṣiṣẹ.",
+      "description": "Awọn iṣẹ akanṣe ti o fi han daradara bi MO ṣe n yipada awọn ero ifipamo si software ti o pe o ati n ṣiṣẹ.",
       "view_project": "Wo iṣẹ akanṣe",
       "open_project": "Ṣii iṣẹ akanṣe laaye",
       "view_all": "Ṣawari portfolio kikun",
@@ -101,7 +109,8 @@
         "libraries": "Awọn ile-ikawe iwe afọwọkọ",
         "languages": "Awọn idanwo ede",
         "automation": "Awọn irinṣẹ adaṣe ati data",
-        "experience": "Iriri ọjọgbọn ati eto-ẹkọ"
+        "experience": "Iriri ọjọgbọn ati eto-ẹkọ",
+        "markets": "Awọn ọja ati awọn eto idunadura"
       },
       "browser_native": "Abinibi ẹrọ aṣawakiri / laisi olupin",
       "no_results": "Ko si awọn iṣẹ akanṣe ti o baamu",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Iwọle",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Pípé owó bẹ̀rẹ̀ pẹ̀lú aṣoju: awọn iye odidi kọbọ ati awọn igbasilẹ ti o ni iwontunwonsi jẹ ki iṣipopada owo han."
         },
         "interop": {
-          "summary": "Itọkasi laarin ede ti o bo awọn ede siseto {languages} ati awọn ilana ṣiṣe {patterns}, ti n ṣawari ohun ti o ṣẹlẹ ni awọn aala akoko ṣiṣe.",
+          "summary": "Itọkasi agbegbe-okan wa kọja {languages} ede iṣẹ akanṣe ati {patterns} apẹẹrẹ isise, ti o n ṣewariki ohun ti o n sele ni awọn aala isise.",
           "lens": "Apa ti o nira ni adehun laarin awọn asiko ṣiṣe: paṣipaarọ data, iwa ilana, ati ṣiṣe atunwi ṣe pataki ju syntax lọ."
         },
         "formatter": {
-          "summary": "Ẹrọ itupalẹ Go gidi ti a ṣajọ si WebAssembly. Idaniloju ati ọna kika JSON ati YAML ṣiṣẹ ni agbegbe ninu ẹrọ aṣawakiri.",
-          "lens": "Gbigbe olutupalẹ si ẹrọ aṣawakiri paarọ ẹru alabara nla fun ṣiṣe agbegbe, iṣipopada, ati awọn igbẹkẹle olupin ti o dinku."
+          "summary": "Linter ati formatter WebAssembly ti kii ṣe Zig fun JSON, YAML, XML, HTML, TOML, CSV ati TSV. Idari ati isètò n ṣiṣẹ ni agbegbe kan ninu browser.",
+          "lens": "Isètò jẹ ọrọ igbẹkẹọ: ṣe atunse pẹlu grama ti o je otito, pa ọrọ onkọwe mọ, ki o tọju data ni ẹnikan."
         },
         "portfolio_website": {
           "summary": "Oju opo wẹẹbu ti o wa lọ: portfolio React pẹlu awọn ede 100+, awọn ibaraenisepo ti o wọle, ati awọn irinṣẹ WebAssembly ṣiṣẹ.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formatter",
+        "title": "Auto-Linter",
         "text": "JSON ti o da lori ẹrọ aṣawakiri ati afọwọsi YAML ati ohun elo kika ti a ṣe sinu Go ati ṣajọ si WebAssembly. Gbigbe ẹrọ itọka sinu WASM jẹ ki ibaraenisepo jẹ idahun ati agbegbe si ẹrọ aṣawakiri lakoko lilo parser gidi kan lati mu titẹ sii ti ko tọ. O jẹ apẹẹrẹ aifọwọyi ti yiyan faaji asiko asiko fun iṣẹ ṣiṣe, gbigbe, ati igbẹkẹle olumulo.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Ilé-ìkàwé script",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael ìsekóòdù Project",
-        "text": "Eto afiwera ti awọn imuse {implementations} Rijndael kọja 128-, 192-, ati awọn iyatọ 256-bit. Ṣiṣe atunṣe algorithm ti o ni aabo ni gbogbo awọn ede jẹ adaṣe ibawi ni awọn pato pato, ihuwasi idanwo, ati awọn opin gbigbe ipele ede, gbogbo awọn iwulo instincts fun awọn ọna šiše ti o kapa kókó data.",
+        "title": "Iṣẹ akanṣe ifiṣọ-ikọ Rijndael",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Ipànúda Rubik's Cube",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Machine Project",
-        "text": "Idile ti o ju {implementations} awọn imuse ti ẹrọ Turing. Ti a lo lati ṣe afihan pipe pipe fun awọn ede siseto oriṣiriṣi fun iwadii, pataki fun Ede Eto Tiger.",
+        "text": "Idile {implementations} ṣe ẹya Mimọ Turing. A lo n fihan turing completeness ti awọn ede iṣẹ akanṣe oriṣiriṣi fun iwadi, paapaa fun ede iṣẹ akanṣe Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Ẹrọ Chess",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Eje chess",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "Eje ifaṣamọna PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Mo dahun si awọn ibeere lati imeeli ati awọn ifiranṣẹ LinkedIn. Emi yoo tun pe pada ti o ba pese nọmba mi nipasẹ ibẹrẹ tabi bibẹẹkọ, botilẹjẹpe Mo fẹ lati tọju nọmba foonu mi ni ikọkọ."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
+    "title": "Auto-Linter",
     "description": "Ohun elo didara data ti o da lori ẹrọ aṣawakiri ti o fọwọsi ati ọna kika JSON ati YAML nipa lilo ẹrọ Go ti a ṣajọ si WebAssembly. Awọn faaji n tọju itọka si olumulo fun iyara, awọn esi ikọkọ lakoko imuse awọn ofin sintasi gidi ni aala data. O jẹ apẹẹrẹ iwapọ ti ṣiṣe apẹrẹ iṣan-iṣẹ idagbasoke idagbasoke ti o gbẹkẹle ni ayika titọ, iṣẹ, ati igbẹkẹle.",
     "more_info1": "Fun alaye diẹ sii, tọka si README ninu",
-    "more_info2": "JSON/YAML Ibi ipamọ kika.",
+    "more_info2": "Ibi ipamọ Auto-Linter.",
     "format_as": "Ilana Bi:",
     "auto_detect": "Ṣawari Aifọwọyi",
     "format": "Lint & Ọna kika",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ YAML ti o wulo",
     "invalid_json": "JSON ti ko tọ",
     "invalid_yaml": "YAML ti ko tọ",
-    "empty_input": "Jọwọ tẹ diẹ ninu JSON tabi YAML si lint.",
+    "empty_input": "Tẹ JSON, YAML, XML, HTML, TOML, CSV tabi TSV wọle lati ṣayẹwo.",
     "too_large": "Iṣawọle ti tobi ju (o pọju 1MB laaye).",
     "fixed_yaml_spacing": "⚠ YAML ni aye ti ko tọ / itọsi ṣugbọn o ti jẹ tito-laifọwọyi ati tito.",
-    "loading": "Iṣakojọpọ oluṣeto...",
+    "loading": "Nkọ fifuye Auto-Linter...",
     "waiting_for_input": "Nduro fun titẹ sii...",
-    "load_failed": "Ko le fifuye kika.",
+    "load_failed": "Ko le ṣe fifuye Auto-Linter.",
     "output": "Abajade:",
     "input_code": "Iṣawọle",
     "json_examples": "Awọn apẹẹrẹ JSON",
-    "yaml_examples": "Awọn apẹẹrẹ YAML"
+    "yaml_examples": "Awọn apẹẹrẹ YAML",
+    "legacy_repo": "Wo ẹya Go atijọ",
+    "legacy_rust": "Wo ẹya Rust atijọ"
   },
   "tiger": {
     "title": "Ede Tiger",
@@ -436,7 +459,8 @@
     "run_tiger": "Run Tiger",
     "output": "Abajade:",
     "stop": "Duro",
-    "program_input": "Igbewọle eto"
+    "program_input": "Igbewọle eto",
+    "legacy_repo": "Wo ẹya Go atijọ"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Sun-un sinu",
         "zoom_out": "Sun-un Jade",
         "reset": "Tun Wiwo"
+      },
+      "country_names": {
+        "show": "Fi awọn orukọ orilẹ-ede han",
+        "hide": "Tọju awọn orukọ orilẹ-ede"
       }
     },
     "supported_languages": {

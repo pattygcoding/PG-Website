@@ -8,8 +8,8 @@
     "tiger": "Tiger - Арнайы бағдарламалау тілі",
     "snake": "Жылан ойыны",
     "portfolio_translator": "Портфолио аудармашысы",
-    "formatter": "JSON және YAML линтері",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Рубик кубын шешуші",
     "contact": "Маған хабарласыңыз",
     "home_description": "sys.root // негізгі шолу",
     "about_description": "инженер профилі // био және технологиялар",
@@ -18,18 +18,26 @@
     "tiger_description": "арнайы компилятор және AST визуализаторы",
     "snake_description": "классикалық аркада ойыны / WASM",
     "portfolio_translator_description": "100+ тіл матрицасы және i18n",
-    "formatter_description": "синтаксис тексергіші және түрлендіргіші",
+    "formatter_description": "көп пішімді linter және пішімдегіш // WASM",
     "contact_description": "ашық беру // байланысыңыз",
     "arcade": "Аркада",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Төрт қатар тіл ағашы",
+    "connect_four": "Connect Four",
     "alkalab_description": "химия зертханасының симуляциясы / WASM",
     "rustcraft_description": "Minecraft стиліндегі воксель ойыны / Rust және wgpu",
     "suprememc_description": "Minecraft моды көрмесі / Java",
     "chess_engine": "Шахмат қозғалтқышы",
-    "chess_engine_description": "битборд қозғалтқышы / WASM және жұмысшы"
+    "chess_engine_description": "bitboard қозғалтқыш / WASM және worker",
+    "framework_trees": "Фреймворк ағаштары",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael шифрлау",
+    "interops": "Interops",
+    "scripting_library_description": "автоматтандыру скрипттері // 6 тіл",
+    "reclaim_4160_description": "университет ойыны, қайтарылған / C++ және WASM",
+    "turing_machines": "Тьюринг машиналары",
+    "scripting_library": "Скрипт кітапханасы"
   },
   "home": {
     "title": "Толық стектің аға инженері | Өнім және жүйелер",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Таңдаулы жобалар",
       "title": "Таңдалған жұмыстар",
-      "description": "Амбициялы идеяларды жылтыратылған, жұмыс істейтін бағдарламаға қалай айналдыратынымды ең жақсы көрсететін алты жоба.",
+      "description": "Мен тәуелді идеяларды жетілдірілген, жұмыс істейтін бағдарламалық қамтамасыз етуге қалай айналдыратынымды ең жақсы көрсететін жобалар.",
       "view_project": "Жобаны көру",
       "open_project": "Тікелей жобаны ашу",
       "view_all": "Толық портфолионы зерттеңіз",
@@ -101,7 +109,8 @@
         "libraries": "Скрипт кітапханалары",
         "languages": "Тілдік тәжірибелер",
         "automation": "Автоматтандыру және деректер құралдары",
-        "experience": "Кәсіби және білім тәжірибесі"
+        "experience": "Кәсіби және білім тәжірибесі",
+        "markets": "Нарықтар және сауда жүйелері"
       },
       "browser_native": "Браузер-кіріктірілген / серверсіз",
       "no_results": "Сәйкес жобалар жоқ",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Қолжетімділік",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Қаржылық дәлдік ұсынудан басталады: толық цент арифметикасы және теңдестірілген жазбалар ақша қозғалысын айқын етеді."
         },
         "interop": {
-          "summary": "{languages} бағдарламалау тілін және {patterns} орындау үлгісін қамтитын тіларалық анықтама, орындау уақыты шекарасында не болатынын зерттейді.",
+          "summary": "{languages} бағдарламалау тілі мен {patterns} орындалу үлгісін қамтитын тілдер аралық сілтеме, runtime шекараларында не болатынын зерттейді.",
           "lens": "Қиын бөлік — орындау орталары арасындағы келісімшарт: деректер алмасу, процесс мінез-құлқы және қайталанатын орындау синтаксистен маңыздырақ."
         },
         "formatter": {
-          "summary": "WebAssembly-ге компиляцияланған нағыз Go талдау қозғалтқышы. JSON және YAML тексеру мен форматтау браузерде жергілікті жұмыс істейді.",
-          "lens": "Талдағышты браузерге көшіру үлкенірек клиент жүктемесін жергілікті өңдеуге, тасымалдылыққа және серверге тәуелділікті азайтуға айырбастайды."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV және TSV үшін Zig-де жазылған WebAssembly linter және пішімдегіш. Тексеру мен пішімдеу браузерде жергілікті түрде орындалады.",
+          "lens": "Пішімдеу — сенім мәселесі: шынайы грамматикамен талдаңыз, автордың мәтінін сақтаңыз және деректерді клиентте ұстаңыз."
         },
         "portfolio_website": {
           "summary": "Сіз отырған сайт: 100+ тіл, қолжетімді өзара әрекеттесу және жұмыс істейтін WebAssembly құралдары бар React портфолиосы.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON және YAML автоматты пішімдеушісі",
+        "title": "Auto-Linter",
         "text": "Браузер негізіндегі JSON және YAML тексеру және пішімдеу құралы Go жүйесінде орнатылған және WebAssembly жүйесінде құрастырылған. Талдау механизмін WASM ішіне жылжыту жарамсыз енгізуді ұстау үшін нақты талдаушыны қолдану кезінде өзара әрекеттесуді браузерге жауап береді және жергілікті етеді. Бұл өнімділік, портативтілік және пайдаланушы сенімі үшін орындау уақыты архитектурасын таңдаудың бағдарланған мысалы.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Скрипт кітапханасы",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael шифрлау жобасы",
-        "text": "128-, 192- және 256-биттік нұсқалар бойынша {implementations} Rijndael енгізуінің салыстырмалы жиынтығы. Тілдер арасында қауіпсіздікке сезімтал алгоритмді қайта іске асыру нақты сипаттамаларда, тексерілетін мінез-құлықта және тіл деңгейіндегі портативтілік шегінде тәртіпті жаттығу болып табылады, құпия деректерді өңдейтін жүйелерге арналған барлық пайдалы инстинкттер.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Рубик кубын шешуші",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Тьюринг машинасы жобасы",
-        "text": "Тьюринг машинасының {implementations}-дан астам енгізілімінен тұратын отбасы. Зерттеу үшін әртүрлі бағдарламалау тілдері үшін, әсіресе Tiger бағдарламалау тілі үшін турингтің толықтығын көрсету үшін қолданылады.",
+        "text": "Тьюринг машинасының {implementations} жүзеге асырылуының отбасы. Әртүрлі бағдарламалау тілдерінің тьюринг толықтығын зерттеу мақсатында көрсету үшін қолданылады, әсіресе Tiger тілі үшін.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "Шахмат қозғалтқышы",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT сәйкестендіру қозғалтқышы"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Мен электрондық поштадан және LinkedIn хабарламаларынан келген сұрауларға жауап беремін. Сондай-ақ, егер менің нөмірім түйіндеме арқылы немесе басқа жолмен берілсе, мен телефон нөмірімді құпия сақтауды қалаймын."
   },
   "formatter": {
-    "title": "JSON және YAML Linter",
+    "title": "Auto-Linter",
     "description": "WebAssembly жүйесіне құрастырылған Go механизмін пайдаланып JSON және YAML файлдарын тексеретін және пішімдейтін шолғышқа негізделген деректер сапасының құралы. Архитектура деректер шекарасында нақты синтаксистік ережелерді орындау кезінде жылдам, жеке кері байланыс үшін пайдаланушыға жақын талдауды жалғастырады. Бұл дұрыстық, өнімділік және сенімділік төңірегінде сенімді әзірлеушінің жұмыс процесін жобалаудың ықшам мысалы.",
     "more_info1": "Қосымша ақпаратты мына жерден README бөлімінен қараңыз",
-    "more_info2": "JSON/YAML пішімдеуші репозиторийі.",
+    "more_info2": "Auto-Linter қоймасы.",
     "format_as": "Пішім:",
     "auto_detect": "Автоматты анықтау",
     "format": "Линт және формат",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Жарамды YAML",
     "invalid_json": "Жарамсыз JSON",
     "invalid_yaml": "Жарамсыз YAML",
-    "empty_input": "Тінту үшін JSON немесе YAML енгізіңіз.",
+    "empty_input": "Тексеру үшін JSON, YAML, XML, HTML, TOML, CSV немесе TSV енгізіңіз.",
     "too_large": "Енгізу тым үлкен (рұқсат етілген ең көбі 1 МБ).",
     "fixed_yaml_spacing": "⚠ YAML-де жарамсыз бос орын/шегініс болды, бірақ автоматты түрде түзетіліп, пішімделген.",
-    "loading": "Пішімдеуіш жүктелуде...",
+    "loading": "Auto-Linter жүктелуде...",
     "waiting_for_input": "Енгізу күтілуде...",
-    "load_failed": "Пішімдегішті жүктеу мүмкін емес.",
+    "load_failed": "Auto-Linter жүктелмеді.",
     "output": "Шығару:",
     "input_code": "Енгізу",
     "json_examples": "JSON мысалдары",
-    "yaml_examples": "YAML мысалдары"
+    "yaml_examples": "YAML мысалдары",
+    "legacy_repo": "Ескі Go жүзеге асыруын көру",
+    "legacy_rust": "Ескі Rust жүзеге асыруын көру"
   },
   "tiger": {
     "title": "Жолбарыс тілі",
@@ -436,7 +459,8 @@
     "run_tiger": "Жолбарысты іске қосыңыз",
     "output": "Шығару:",
     "stop": "Тоқтату",
-    "program_input": "Бағдарлама кірісі"
+    "program_input": "Бағдарлама кірісі",
+    "legacy_repo": "Ескі Go жүзеге асыруын көру"
   },
   "tab": {
     "title": "Патрик Гудвин",
@@ -501,6 +525,10 @@
         "zoom_in": "Үлкейту",
         "zoom_out": "Кішірейту",
         "reset": "Көріністі қалпына келтіру"
+      },
+      "country_names": {
+        "show": "Ел атауларын көрсету",
+        "hide": "Ел атауларын жасыру"
       }
     },
     "supported_languages": {

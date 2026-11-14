@@ -8,8 +8,8 @@
     "tiger": "Tiger - 自訂程式語言",
     "snake": "貪吃蛇遊戲",
     "portfolio_translator": "作品集翻譯",
-    "formatter": "JSON 與 YAML 檢查器",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "魔術方塊求解器",
     "contact": "聯絡我",
     "home_description": "sys.root // 主介面總覽",
     "about_description": "工程師簡介 // 履歷與技術棧",
@@ -18,16 +18,26 @@
     "tiger_description": "自訂編譯器與 AST 視覺化器",
     "snake_description": "經典街機遊戲 / WASM",
     "portfolio_translator_description": "100+ 語言矩陣與 i18n",
-    "formatter_description": "語法驗證器與轉換器",
+    "formatter_description": "多格式 linter 與格式化工具 // WASM",
     "contact_description": "開放式傳輸 // 請與我聯絡",
     "arcade": "街機",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "四子棋語言樹",
+    "connect_four": "Connect Four",
     "alkalab_description": "化學實驗室模擬 / WASM",
     "rustcraft_description": "Minecraft 風格體素遊戲 / Rust 與 wgpu",
-    "suprememc_description": "Minecraft 模組展示 / Java"
+    "suprememc_description": "Minecraft 模組展示 / Java",
+    "framework_trees": "框架樹",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael 加密",
+    "chess_engine": "西洋棋引擎",
+    "interops": "Interops",
+    "chess_engine_description": "位元棋盤引擎 / WASM 與 worker",
+    "scripting_library_description": "自動化指令碼 // 6 種語言",
+    "reclaim_4160_description": "大學遊戲，重製 / C++ 與 WASM",
+    "turing_machines": "圖靈機",
+    "scripting_library": "指令碼庫"
   },
   "home": {
     "title": "高級全端工程師|產品與系統",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "精選專案",
       "title": "精選作品",
-      "description": "六個最能代表我如何將宏大的想法轉化為精良、可用軟體的專案。",
+      "description": "最能體現我如何把雄心勃勃的想法打磨成精緻可用軟體的幾個專案。",
       "view_project": "檢視專案",
       "open_project": "開啟線上專案",
       "view_all": "探索完整作品集",
@@ -99,7 +109,8 @@
         "libraries": "指令碼庫",
         "languages": "語言實驗",
         "automation": "自動化與資料工具",
-        "experience": "專業與教育經驗"
+        "experience": "專業與教育經驗",
+        "markets": "市場與交易系統"
       },
       "browser_native": "瀏覽器原生 / 無需伺服器",
       "no_results": "沒有相符的專案",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "無障礙",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "財務正確性始於表達：整數分運算與平衡的記帳項目使資金流動清晰可見。"
         },
         "interop": {
-          "summary": "一份跨語言參考，涵蓋 {languages} 種程式語言與 {patterns} 種執行模式，探索執行階段邊界發生的情況。",
+          "summary": "一份跨語言參考，涵蓋 {languages} 種程式語言與 {patterns} 種執行模式，探究執行環境邊界上發生的一切。",
           "lens": "難點在於執行階段之間的契約：資料交換、程序行為與可重複執行比語法更重要。"
         },
         "formatter": {
-          "summary": "一個編譯為 WebAssembly 的真正 Go 解析引擎。JSON 與 YAML 的驗證與格式化在瀏覽器本機執行。",
-          "lens": "把解析器移到瀏覽器，是以更大的用戶端負載換取本機處理、可攜性與更少的伺服器依賴。"
+          "summary": "一款以 Zig 撰寫的 WebAssembly linter 與格式化工具，支援 JSON、YAML、XML、HTML、TOML、CSV 和 TSV。驗證與格式化都在瀏覽器本機執行。",
+          "lens": "格式化是一個信任問題：以真正的文法解析、保留作者的文字，並把資料留在用戶端。"
         },
         "portfolio_website": {
           "summary": "您目前所在的網站：一個支援 100+ 語言、無障礙互動與可用的 WebAssembly 工具的 React 作品集。",
@@ -268,7 +280,7 @@
       },
       "connect_four": {
         "title": "連接四",
-        "text": "一個包含 {implementations} 種四子棋遊戲實現的龐大家族。該專案涵蓋 {languages} 種程式語言，包括 Java、C++、Python 和 JavaScript，以及 {frameworks} 種不同的框架、函式庫、執行階段與資料庫，從 React、Angular、Blazor 到 Django、Spring Boot、Phoenix、PostgreSQL 等。",
+        "text": "Connect Four 這款遊戲的 {implementations} 個實作所組成的龐大系列。本專案涵蓋 {languages} 種程式語言，包括 Java、C++、Python 和 JavaScript，以及 {frameworks} 種不同的框架、函式庫、執行環境和資料庫，從 React、Angular 和 Blazor 到 Django、Spring Boot、Phoenix、PostgreSQL 等等。",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -278,7 +290,7 @@
       },
       "interop": {
         "title": "互通項目",
-        "text": "跨語言互通性參考，涵蓋 {languages} 種程式語言和 {patterns} 種執行模式。 該專案研究了系統經常變得脆弱的邊界：流程契約、資料交換、運行時行為和可重複的整合路徑。 它反映了當產品大於單一堆疊時所需的系統思維。",
+        "text": "一份跨語言互操作的參考，涵蓋 {languages} 種程式語言與 {patterns} 種執行模式。本專案探究系統經常變得脆弱的邊界：行程契約、資料交換、執行階段行為以及可重複的整合路徑。它體現了當產品大於單一技術堆疊時所需的系統性思維。",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -292,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON 和 YAML 自動格式化程序",
-        "text": "一個基於瀏覽器的 JSON 和 YAML 驗證和格式化工具，用 Go 建置並編譯為 WebAssembly。 將解析引擎移至 WASM 中可保持互動的響應性和瀏覽器本地化，同時應用真正的解析器來擷取無效輸入。 它是選擇運行時架構以實現效能、可移植性和用戶信任的重點範例。",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter 是一款瀏覽器端 linter 與格式化工具，支援 JSON、YAML、XML、HTML、TOML、CSV 和 TSV。Zig 引擎編譯為 WebAssembly 並完全在瀏覽器中執行：它以真正的解析器進行驗證，在不改寫內容的前提下重新縮排文件，並保留註解、錨點、CDATA、引號與數值精度。本專案包含三種實作——Go、Rust 和 Zig——早期版本已封存以便對比。",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -322,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "指令碼庫",
+        "text": "一套整合後的自動化指令碼庫，每種語言一個頁面：Excel 試算表用 VBA、輕量工具用 Lua、Windows 管理用 PowerShell、日常資料處理用 Python、指令碼實驗用 Ruby。每個指令碼都以可重用為目標撰寫，因此整個集合作為單一專案維護，而不是五個分散的儲存庫。",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael 加密項目",
-        "text": "跨 128 位元、192 位元和 256 位元變體的 {implementations} 多個 Rijndael 實現的比較集。 跨語言重新實現安全敏感演算法是一項嚴格規範、可測試行為和語言級可移植性限制的嚴格練習， 對於處理敏感資料的系統來說所有有用的本能。",
+        "title": "Rijndael 加密專案",
+        "text": "一套對照性的 Rijndael 實作集合，涵蓋 128 位元、192 位元和 256 位元變體的 {implementations} 個實作。以多種語言重新實作一個安全敏感演算法，是一次關於精確規格、可測試行為以及語言級可攜性邊界的嚴格訓練，這些對於處理敏感資料的系統都是有益的直覺。",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "魔術方塊求解器",
+        "text": "一款互動式 3D 魔術方塊，你可以逐張貼紙地塗色——在方塊本體上或在其展開圖上——然後用編譯自 Rust 到 WebAssembly 的 Herbert Kociemba 風格兩階段搜尋求解。Svelte 介面以 three.js 呈現方塊，讓塗色狀態、其有效性檢查與求解器的面貼紙字串保持同步，並在可拖動、可逐步、可重播的時間軸上逐步重播解法。",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -363,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "一款 Minecraft 風格的體素遊戲，以 Rust 搭配 wgpu 撰寫並編譯為 WebAssembly，因此可以直接在瀏覽器中遊玩。它是電玩街的沙盒版本：塊狀地形與體素世界透過現代圖形管線繪製，完全以 Rust 工具鏈從零撰寫，而非建構於遊戲引擎之上。",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "老虎程式語言",
-        "text": "Go 中內建的自訂程式語言和解釋器，用於探索語言運行時設計、執行行為和效能權衡。 將其編譯為 WebAssembly 並將其整合到產品組合中，為系統級工程創建一個真實的、可檢查的產品表面，而不是將工作作為 僅儲存庫的實驗。",
+        "text": "一套自研程式語言及其以 Rust 撰寫的直譯器，用於探索語言執行環境設計、執行行為與效能取捨。最初的 Go 直譯器仍作為遺留實作保留可用。將其編譯為 WebAssembly 並整合進作品集，為系統級工程創造了一個真實且可檢視的產品介面，而不是把工作只當作儲存庫裡的實驗。",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "圖靈機項目",
-        "text": "包含 {implementations} 多種圖靈機實現的系列。 用於示範不同程式語言的圖靈完備性以供研究，特別是 Tiger 程式語言。",
+        "text": "圖靈機的 {implementations} 個實作系列。用於研究目的，示範不同程式語言（尤其是 Tiger 程式語言）的圖靈完備性。",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "西洋棋引擎",
+        "text": "一款以 Rust 撰寫並編譯為 WebAssembly 的西洋棋引擎。它以迭代加深的負極大搜尋、α-β 剪枝、32 MB 置換表以及葉節點的靜態搜尋進行搜尋；評估採用漸縮的棋子-格子表，並依 MVV-LVA、殺手著法與歷史著法排序。引擎執行於 Web Worker，因此棋盤永不凍結，其走法產生器會在瀏覽器中與公布的 perft 數值核對——前五個深度的節點數為 20、400、8,902、197,281 和 4,865,609。"
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 是一個回收專案：它始於大學時期一個半完成的 CPSC 4160 遊戲——搶下最後的幾捲衛生紙，在細菌耗盡你的體力之前趕到收銀台——如今已用基於 SDL2 的現代 C++20 引擎從頭重寫並編譯為 WebAssembly。它包含十條難度遞增的走道，配有巡邏與追擊的細菌 AI、拾取物、粒子效果與觸控操作，沒有任何原型的偷工減料。"
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "一個確定性、可回放的限價委託簿撮合引擎。引擎本身是不含 Rails 的純 Ruby，由 Rails 8 透過單一 SQLite 檔案對外服務。每條指令在引擎看到之前都會附加到預寫日誌，因此委託簿的任一歷史狀態都只需一次摺疊即可還原，回放是否忠實則透過比對市場即時運行時記錄的指紋來證明。價格-時間優先、GTC/IOC/FOK、保留或失去佇列位置的改單以及自我成交防範，都由具種子的模糊測試套件在每條指令後以十四條不變式來斷言。瀏覽器透過 Action Cable 取得十赫茲的行情階梯，而指令則透過 HTTP 上行。",
+        "title": "PIT 撮合引擎"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "我回覆電子郵件和 LinkedIn 訊息中的詢問。如果我的電話號碼是透過履歷或其他方式提供的，我也會回電，但我更願意保密我的電話號碼。"
   },
   "formatter": {
-    "title": "JSON 和 YAML 短絨器",
-    "description": "一種基於瀏覽器的資料品質工具，使用編譯為 WebAssembly 的 Go 引擎來驗證和格式化 JSON 和 YAML。 該架構保持解析靠近使用者以獲得快速、私密的回饋，同時在資料邊界強制執行真正的語法規則。 這是圍繞正確性、效能和信任設計可靠的開發人員工作流程的緊湊範例。",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter 是一款瀏覽器端資料品質工具，使用編譯為 WebAssembly 的 Zig 引擎驗證並格式化 JSON、YAML、XML、HTML、TOML、CSV 和 TSV。解析始終貼近使用者，帶來快速而私密的回饋，同時在資料邊界上執行真正的語法規則。它保留作者的文字、拒絕格式錯誤的輸入，並展示一個小型 WebAssembly 模組如何支撐可靠的開發者工作流程。",
     "more_info1": "有關更多信息，請參閱",
-    "more_info2": "JSON/YAML 格式化程式儲存庫。",
+    "more_info2": "Auto-Linter 儲存庫。",
     "format_as": "格式為：",
     "auto_detect": "自動偵測",
     "format": "棉絨和格式",
@@ -412,20 +436,22 @@
     "valid_yaml": "✓ 有效的 YAML",
     "invalid_json": "無效的 JSON",
     "invalid_yaml": "無效的 YAML",
-    "empty_input": "請輸入一些 JSON 或 YAML 進行 lint 檢查。",
+    "empty_input": "請輸入要檢查的 JSON、YAML、XML、HTML、TOML、CSV 或 TSV。",
     "too_large": "輸入太大（允許最大 1MB）。",
     "fixed_yaml_spacing": "⚠ YAML 的間距/縮排無效，但已自動修復和格式化。",
-    "loading": "正在載入格式化程式...",
+    "loading": "正在載入 Auto-Linter...",
     "waiting_for_input": "等待輸入...",
-    "load_failed": "無法載入格式化程式。",
+    "load_failed": "無法載入 Auto-Linter。",
     "output": "輸出：",
     "input_code": "輸入",
     "json_examples": "JSON 範例",
-    "yaml_examples": "YAML 範例"
+    "yaml_examples": "YAML 範例",
+    "legacy_repo": "檢視 Go 遺留實作",
+    "legacy_rust": "檢視 Rust 遺留實作"
   },
   "tiger": {
     "title": "虎語",
-    "description": "Tiger 是一種自訂程式語言和 Go 解釋器，旨在探索運行時架構、語言語義和效能權衡。 將解釋器編譯為 WebAssembly 將系統工作變成互動式、基於瀏覽器的產品：使用者可以直接執行程序，同時運行時保持可移植性 並與主機應用程式隔離。",
+    "description": "Tiger 是一款生產級自研程式語言，搭配一個為效能而生的 Rust 直譯器。其編譯後的位元碼引擎與樹狀走訪參考直譯器在 44 個程式的基準語料上保持同步，配套的行程內協定讓執行環境在每個受測部分都不遜於或優於 CPython，效能足以在日常生活腳本場景中與 Python 和 Ruby 直接競爭。最初的 Go 直譯器仍作為遺留實作保留可用。將直譯器編譯為 WebAssembly，把這些系統層面的工作變成可互動的瀏覽器產品：使用者可以直接執行程式，而執行環境保持可攜且與宿主應用隔離。",
     "more_info1": "有關更多信息，請參閱",
     "more_info2": "Tiger 程式語言 GitHub 儲存庫。",
     "select_engine": "選擇引擎：",
@@ -433,7 +459,8 @@
     "run_tiger": "跑虎",
     "output": "輸出：",
     "stop": "停止",
-    "program_input": "程式輸入"
+    "program_input": "程式輸入",
+    "legacy_repo": "檢視 Go 遺留實作"
   },
   "tab": {
     "title": "帕特里克·古德溫",
@@ -498,6 +525,10 @@
         "zoom_in": "放大",
         "zoom_out": "縮小",
         "reset": "重置視圖"
+      },
+      "country_names": {
+        "show": "顯示國家名稱",
+        "hide": "隱藏國家名稱"
       }
     },
     "supported_languages": {

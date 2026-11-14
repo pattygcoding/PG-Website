@@ -8,8 +8,8 @@
     "tiger": "Tiger - Mayja Programación Aru",
     "snake": "Katari uywawita",
     "portfolio_translator": "Cartera Jaqukipiri",
-    "formatter": "JSON & YAML uñakipiri",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube qhispiñ qillqata",
     "contact": "Nayampi aruskipt’aña",
     "home_description": "sys.root // nayriri uñt'ayawi",
     "about_description": "injiniru perfil // aruskipawi ukhamaraki tecnología",
@@ -18,16 +18,26 @@
     "tiger_description": "especial compilador ukhamaraki AST uñacht'ayiri",
     "snake_description": "clásico arcade uywawita / WASM",
     "portfolio_translator_description": "100+ arunaka matriz ukhamaraki i18n",
-    "formatter_description": "sintaxis validador ukhamaraki conversor",
+    "formatter_description": "linter ukat formatifikador achachatjamawa // WASM",
     "contact_description": "jist'aratäta transmisión // jikisipta",
     "arcade": "Arcade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Aru saphixa Pusï Patxata",
+    "connect_four": "Connect Four",
     "alkalab_description": "química laboratorio simulación / WASM",
     "rustcraft_description": "voxel uywawita Minecraft llevanxa / Rust ukampirus wgpu",
-    "suprememc_description": "Minecraft mod uñacht'awi / Java"
+    "suprememc_description": "Minecraft mod uñacht'awi / Java",
+    "framework_trees": "Framework quruchawinaka",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael qhispiña",
+    "chess_engine": "Ajedrez lurawixa",
+    "interops": "Interops",
+    "chess_engine_description": "bitboard lurawixa / WASM ukat lurawixa",
+    "scripting_library_description": "script automatizata // aru 6",
+    "reclaim_4160_description": "yatiqäwin lurawixa, wasitata / C++ ukat WASM",
+    "turing_machines": "Turing Máquinanaka",
+    "scripting_library": "Script qillqata"
   },
   "home": {
     "title": "Jilïr Ingeniero Full-Stack ukan irnaqiri | Producto & Sistemas ukanaka",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Ajlliñäwi proyectonaka",
       "title": "Ajllitäta lurañanaka",
-      "description": "Suxta proyectonaka amuyunaka software phuqhata ukhamaraki lurañankañapataki uñt'ayapxitu.",
+      "description": "Uka amuyunakax aka lurawinakax suma suma luratajamawa, aka amuyunakax software luratajamawa.",
       "view_project": "Uñakipta proyecto",
       "open_project": "Jakaña proyecto uñstayi",
       "view_all": "Yantixaña phuqhata portfolio",
@@ -99,7 +109,8 @@
         "libraries": "Script bibliotecanaka",
         "languages": "Aru yant'awinaka",
         "automation": "Automatización ukhamaraki información yäkunaka",
-        "experience": "Profesional ukhamaraki yatiqaña experiencia"
+        "experience": "Profesional ukhamaraki yatiqaña experiencia",
+        "markets": "Amuyta lurawinaka"
       },
       "browser_native": "Navegador uñt'ata / server jan ukaxa",
       "no_results": "Jan phuqhasi proyectonaka",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Mantiri juk'ampi",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Financiero wakiski uñt'ayaña: phuqhata cent aritmética ukhamaraki equilibrio apuntes qullqi ch'amanchaña uñt'ayañapataki."
         },
         "interop": {
-          "summary": "Interlingüe referencia {languages} programación arunaka {patterns} desekución modelos ukana, tiempo límites kunaymana uñjawi.",
+          "summary": "Arunaka taypiñ qillqata, {languages} arunaka ukat {patterns} lurawinaka, runtime taypiñ aynachata.",
           "lens": "Jiwasankiri ukax tiempo khuskhunaka contrato: información thaqhawi, proceso jikthapi, ukhamaraki repetición desekución sintaxis ukhat yäqapxi."
         },
         "formatter": {
-          "summary": "Chhaqokita Go parseador motor WebAssembly ukharu. JSON ukhamaraki YAML validación ukhamaraki formateo navegador ukana chhaqokitaki.",
-          "lens": "Parser navegador ukaru chikt'ayi jach'a cliente carga local procesamiento, portabilidad, juk'ampi server dependencia."
+          "summary": "Linter ukat formatifikador WebAssembly, Zig tuqir qillqata, JSON, YAML, XML, HTML, TOML, CSV ukat TSV.",
+          "lens": "Formatifikarax confianzawa: qillqata aruxa, awtur ukax, ukat datanakax."
         },
         "portfolio_website": {
           "summary": "Uka sitio ukana: React portfolio 100+ arunaka, accesible interaccionanaka, ukhamaraki WebAssembly yäkunaka lurañataki.",
@@ -268,7 +280,7 @@
       },
       "connect_four": {
         "title": "Pusi uñt’ayaña",
-        "text": "Pusï Patxata {implementations} implementaciones ayllu. Proyecto Java, C++, Python ukhamaraki JavaScript ukana {languages} programación arunaka apthapi.",
+        "text": "Connect Four ukax {implementations} lurawinakampiwa. Uka lurawinakax {languages} arunakampiwa, Java, C++, Python, JavaScript ukat {frameworks} framework, biblioteca, runtime ukat base de datos, React, Angular, Blazor ukan Django, Spring Boot, Phoenix, PostgreSQL ukat.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -292,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML Auto Formato ukax mä juk’a pachanakanwa",
+        "title": "Auto-Linter",
         "text": "Mä navegador ukan JSON ukat YAML ukan chiqanchawi ukat formato ukan herramienta ukaw Go ukan lurata ukatx WebAssembly ukar apthapitawa. Motor de parsing WASM ukar apayañax interacción ukax respuesta ukat local ukaruw uñji, ukampirus chiqpach parser ukampiw jan wali mantañanak katjañatakix apnaqasi. Mä uñacht’awiwa, mä arquitectura de ejecución de tiempo ajlliñatakiwa, lurañataki, apañataki, ukhamaraki apnaqiriru atinisiñapataki.",
         "link": "/formatter"
       },
@@ -322,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Script qillqata",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Proyecto de Encriptación Rijndael ukax mä jach’a lurawiwa",
-        "text": "Mä comparativo conjunto de {implementations} Rijndael implementaciones ukanakax 128-, 192-, ukat 256-bit variantes ukanakanwa. Mä algoritmo seguridad-sensible arunak taypin wasitat phuqhañax mä ejercicio disciplinado ukhamawa, especificaciones exactas, comportamiento pruebables ukat límites de portabilidad nivel de lenguas ukanakan, taqi aski instintos sistemas ukanakatakixa datos sensibles ukanaka apnaqañataki.",
+        "title": "Rijndael qhispiñ lurawixa",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik's Cube qhispiñ qillqata",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing Máquina Proyecto ukax mä jach’a lurawiwa",
-        "text": "Familia ukax {implementations} jila implementaciones de la Máquina Turing ukawa. Yatxatañatakix kunayman programación arunakatakix turing phuqhat uñacht’ayañatakiw apnaqasi, juk’ampis Tigre Programming Language ukataki.",
+        "text": "Turing Máquinanakax {implementations} lurawinaka. Yaqha arunakax Turing tukxataynawa, Tiger arunakampi.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Ajedrez lurawixa",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT lurawixa"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Nayax correo electrónico ukat LinkedIn ukan yatiyawinakat jiskt’awinakaruw jaysta. Ukat currículum toqe jan ukajj yaqha toqet numeroj churatäni ukhajja, kuttʼayarakïwa, ukampis teléfono numeroj jan yatiyañ munaraktwa."
   },
   "formatter": {
-    "title": "JSON & YAML Linter ukax mä juk’a pachanakanwa",
+    "title": "Auto-Linter",
     "description": "Mä herramienta de calidad de datos basado en navegador ukax JSON ukat YAML ukanak chiqanchañataki ukat formato ukar uñt’ayi, mä motor Go ukampiw WebAssembly ukar apthapita. Arquitectura ukax apnaqiri jak’an parsing ukaruw saraski, jank’aki, privado amtawinakataki, ukampirus chiqpach sintaxis kamachinakax datos límite ukan phuqhaski. Mä compacto uñacht’awiwa mä confiable desarrollador irnaqawi lurañataki chiqapa, lurawi, ukhamaraki atinisiña.",
     "more_info1": "Juk’amp yatxatañatakix README ukar uñakipt’añäni",
-    "more_info2": "JSON/YAML Formato ukan imañ utapa.",
+    "more_info2": "Auto-Linter ukax qhispiñ qillqata.",
     "format_as": "Formato Kunjamatixa:",
     "auto_detect": "Auto Detectar ukax mä juk’a pachanakanwa",
     "format": "Lint & Formato ukat juk’ampinaka",
@@ -412,16 +436,18 @@
     "valid_yaml": "✓ YAML chiqapa",
     "invalid_json": "Jan wali JSON",
     "invalid_yaml": "Jan wali YAML",
-    "empty_input": "Mä juk’a JSON jan ukax YAML ukar lint ukar mantañamawa.",
+    "empty_input": "JSON, YAML, XML, HTML, TOML, CSV utji TSV mantañamawa.",
     "too_large": "Input ukax wali jach’awa (max 1MB permitido).",
     "fixed_yaml_spacing": "⚠ YAML ukax jan wali espaciamiento/indentación ukanïnwa ukampis auto-fijo ukat formato ukaniwa.",
-    "loading": "Ukax formato ukan uñt'ayatawa...",
+    "loading": "Auto-Linter ukax mantaski...",
     "waiting_for_input": "Input ukar suyt’aña...",
-    "load_failed": "Janiw formato ukar apkatañjamäkiti.",
+    "load_failed": "Auto-Linter ukax manqʼataynaxawa.",
     "output": "Ukax akhamawa:",
     "input_code": "Ukax mä juk’a pachanakanwa",
     "json_examples": "JSON Uñacht’awinaka",
-    "yaml_examples": "YAML Uñacht’awinaka"
+    "yaml_examples": "YAML Uñacht’awinaka",
+    "legacy_repo": "Yaqha Go lurawixa uñachayaña",
+    "legacy_rust": "Yaqha Rust lurawixa uñachayaña"
   },
   "tiger": {
     "title": "Tigre Aru",
@@ -433,7 +459,8 @@
     "run_tiger": "T’ijt’aña Tigre",
     "output": "Ukax akhamawa:",
     "stop": "Sayt'ayaña",
-    "program_input": "Programa mantäwi"
+    "program_input": "Programa mantäwi",
+    "legacy_repo": "Yaqha Go lurawixa uñachayaña"
   },
   "tab": {
     "title": "Patrick Goodwin sat jilataw ukham luräna",
@@ -498,6 +525,10 @@
         "zoom_in": "Zoom In ukax mä jach’a uñacht’äwiwa",
         "zoom_out": "Zoom Out ukax mä juk’a pachanakanwa",
         "reset": "Uñakipaña Uñakipaña"
+      },
+      "country_names": {
+        "show": "Jakañ utan sutinak uñachayaña",
+        "hide": "Jakañ utan sutinak imantaña"
       }
     },
     "supported_languages": {

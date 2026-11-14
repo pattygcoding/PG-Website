@@ -8,8 +8,8 @@
     "tiger": "Tiger - Maxsus dasturlash tili",
     "snake": "Ilon o’yini",
     "portfolio_translator": "Portfolio tarjimoni",
-    "formatter": "JSON va YAML lintеri",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik kubini yechuvchi",
     "contact": "Men bilan bog'laning",
     "home_description": "sys.root // asosiy sharh",
     "about_description": "muhandis profili // bio va texnologiya",
@@ -18,18 +18,26 @@
     "tiger_description": "maxsus kompilyator va AST vizualizatori",
     "snake_description": "klassik arkada o’yini / WASM",
     "portfolio_translator_description": "100+ til matritsasi va i18n",
-    "formatter_description": "sintaksis tekshiruvchisi va konvertori",
+    "formatter_description": "ko'p formatli linter va formatlovchi // WASM",
     "contact_description": "ochiq uzatish // bog‘laning",
     "arcade": "Arkada",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "To—rt qator til daraxti",
+    "connect_four": "Connect Four",
     "alkalab_description": "kimyo laboratoriyasi simulyatsiyasi / WASM",
     "rustcraft_description": "Minecraft uslubidagi voksel o’yini / Rust va wgpu",
     "suprememc_description": "Minecraft mod vitrinasi / Java",
     "chess_engine": "Shaxmat dvigateli",
-    "chess_engine_description": "bitboard dvigateli / WASM va ishchi"
+    "chess_engine_description": "bitboard dvigatel / WASM va ishchi",
+    "framework_trees": "Freymvork daraxtlari",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael shifrlash",
+    "interops": "Interops",
+    "scripting_library_description": "avtomatlashtirish skriptlari // 6 til",
+    "reclaim_4160_description": "universitet o'yini, qayta tiklangan / C++ va WASM",
+    "turing_machines": "Turing mashinalari",
+    "scripting_library": "Skriptlar kutubxonasi"
   },
   "home": {
     "title": "Katta to'liq stack muhandisi | Mahsulot va tizimlar",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Tanlangan loyihalar",
       "title": "Tanlangan ishlar",
-      "description": "AmbitSion g'oyalarni sayqallangan, ishlaydigan dasturga qanday aylantirishimni eng yaxshi ifodalovchi oltita loyiha.",
+      "description": "Ambitsiyali g'oyalarni mukammal, ishlaydigan dasturiy ta'minotga aylantirishimni eng yaxshi ko'rsatadigan loyihalar.",
       "view_project": "Loyihani ko‘rish",
       "open_project": "Jonli loyihani ochish",
       "view_all": "To‘liq portfelni o‘rganing",
@@ -101,7 +109,8 @@
         "libraries": "Skript kutubxonalari",
         "languages": "Til tajribalari",
         "automation": "Avtomatlashtirish va ma'lumot vositalari",
-        "experience": "Professional va ta'lim tajribasi"
+        "experience": "Professional va ta'lim tajribasi",
+        "markets": "Bozorlar va savdo tizimlari"
       },
       "browser_native": "Brauzer-mahalliy / serversiz",
       "no_results": "Mos loyihalar yo‘q",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Qulaylik",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Moliyaviy aniqlik vakillikdan boshlanadi: to'liq sent arifmetikasi va muvozanatli yozuvlar pul harakatini aniq qiladi."
         },
         "interop": {
-          "summary": "{languages} dasturlash tili va {patterns} bajarish uslubini qamrab olgan tillararo ma'lumotnoma, ish vaqti chegaralarida nima sodir bo'lishini o'rganadi.",
+          "summary": "{languages} dasturlash tili va {patterns} bajarish namunasini qamrab oluvchi tillararo ma'lumotnoma, runtime chegaralarida nima bo'lishini o'rganadi.",
           "lens": "Qiyin qism ish vaqti muhitlari o'rtasidagi shartnomadir: ma'lumot almashinuvi, jarayon xatti-harakati va takroriy bajarilish sintaksisdan muhimroq."
         },
         "formatter": {
-          "summary": "WebAssembly ga kompilyatsiya qilingan haqiqiy Go tahlil dvigateli. JSON va YAML tekshirish va formatlash brauzerda mahalliy ishlaydi.",
-          "lens": "Tahlilchini brauzerga ko'chirish kattaroq mijoz yukini mahalliy ishlov, ko'chmalik va kamroq server bog'liqliklari bilan almashtiradi."
+          "summary": "JSON, YAML, XML, HTML, TOML, CSV va TSV uchun Zig'da yozilgan WebAssembly linter va formatlovchi. Tekshirish va formatlash brauzerda mahalliy ravishda ishlaydi.",
+          "lens": "Formatlash — ishonch masalasi: haqiqiy grammatika bilan tahlil qiling, muallif matnini saqlang va ma'lumotlarni klientda ushlab turing."
         },
         "portfolio_website": {
           "summary": "Siz turgan sayt: 100+ til, qulay o'zaro ta'sirlar va ishlaydigan WebAssembly vositalariga ega React portfeli.",
@@ -294,7 +304,7 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON va YAML avtomatik formatlovchi",
+        "title": "Auto-Linter",
         "text": "Brauzerga asoslangan JSON va YAML tekshirish va formatlash vositasi Go-da o'rnatilgan va WebAssembly-ga kompilyatsiya qilingan. Tahlil mexanizmini WASM-ga o'tkazish noto'g'ri kiritilgan ma'lumotlarni ushlash uchun haqiqiy tahlilchini qo'llash bilan o'zaro ta'sirni brauzer uchun sezgir va mahalliy qiladi. Bu unumdorlik, portativlik va foydalanuvchi ishonchi uchun ish vaqti arxitekturasini tanlashning aniq namunasidir.",
         "link": "/formatter"
       },
@@ -324,7 +334,7 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
+        "title": "Skriptlar kutubxonasi",
         "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
         "link": "https://scripts.pattygcoding.com/"
       },
@@ -345,7 +355,7 @@
       },
       "rijndael_encryption": {
         "title": "Rijndael shifrlash loyihasi",
-        "text": "128-, 192- va 256-bitli variantlarda {implementations} Rijndael ilovalarining qiyosiy toʻplami. Xavfsizlikka sezgir algoritmni tillar boʻylab qaytadan amalga oshirish aniq spetsifikatsiyalar, sinovdan oʻtkaziladigan xatti-harakatlar va til darajasidagi portativlik chegaralari boʻyicha intizomli mashqdir. nozik ma'lumotlarni qayta ishlaydigan tizimlar uchun barcha foydali instinktlar.",
+        "text": "A comparative set of {implementations} Rijndael implementations across 128-, 192-, and 256-bit variants. Reimplementing a security-sensitive algorithm across languages is a disciplined exercise in exact specifications, testable behavior, and the limits of language-level portability, all useful instincts for systems that handle sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,7 +364,7 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
+        "title": "Rubik kubini yechuvchi",
         "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing mashinasi loyihasi",
-        "text": "Turing mashinasining {implementations} dan ortiq ilovalari oilasi. Tadqiqot uchun turli dasturlash tillari, ayniqsa Tiger dasturlash tili uchun turing toʻliqligini koʻrsatish uchun foydalaniladi.",
+        "text": "Turing mashinasining {implementations} ta amalga oshirilishidan iborat oila. Turli dasturlash tillarining turing to'liqligini tadqiqot maqsadida ko'rsatish uchun ishlatiladi, ayniqsa Tiger tili uchun.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "Shaxmat dvigateli",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "A chess engine written in Rust and compiled to WebAssembly. It searches with iterative deepening negamax, alpha-beta pruning, a 32 MB transposition table and a quiescence search at the leaves; it evaluates with tapered piece-square tables and orders moves by MVV-LVA, killers and history. The engine runs in a Web Worker so the board never freezes, and its move generator is checked in the browser against the published perft counts - 20, 400, 8,902, 197,281 and 4,865,609 nodes for the first five depths."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 is a reclamation project: what began as a half-finished CPSC 4160 game in college - grab the last rolls of toilet paper and reach the checkout before the germs wear you down - has been rebuilt from scratch as a modern C++20 engine on SDL2 and compiled to WebAssembly. It ships ten escalating aisles with patrolling and chasing germ AI, pickups, particles and touch controls, none of the shortcuts of the original prototype."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "A deterministic, replayable limit-order-book matching engine. The engine itself is pure Ruby with no Rails in it, served by Rails 8 over a single SQLite file. Every command is appended to a write-ahead log before the engine sees it, so any past state of the book is one fold away, and a replay is proved faithful by comparing fingerprints recorded while the market was live. Price-time priority, GTC/IOC/FOK, amends that keep or lose queue position, and self-trade prevention are asserted by fourteen invariants after every command in a seeded fuzz suite. The browser gets a ten-hertz ladder over Action Cable, while commands go up over HTTP.",
+        "title": "PIT moslashtirish dvigateli"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Men elektron pochta va LinkedIn xabarlaridan kelgan so'rovlarga javob beraman. Agar mening raqamim rezyume orqali yoki boshqacha tarzda taqdim etilsa, men ham qayta qo'ng'iroq qilaman, lekin telefon raqamimni maxfiy saqlashni afzal ko'raman."
   },
   "formatter": {
-    "title": "JSON va YAML Linter",
+    "title": "Auto-Linter",
     "description": "WebAssembly-ga kompilyatsiya qilingan Go mexanizmi yordamida JSON va YAML-ni tasdiqlaydigan va formatlaydigan brauzerga asoslangan ma'lumotlar sifati vositasi. Arxitektura ma'lumotlar chegarasida haqiqiy sintaksis qoidalarini qo'llagan holda tezkor, shaxsiy fikr-mulohazalarni olish uchun foydalanuvchiga yaqin tahlilni davom ettiradi. Bu to'g'rilik, ishlash va ishonch atrofida ishonchli ishlab chiquvchi ish oqimini loyihalashning ixcham namunasidir.",
     "more_info1": "Qo'shimcha ma'lumot olish uchun README-ga qarang",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Auto-Linter ombori.",
     "format_as": "Formatlash:",
     "auto_detect": "Avtomatik aniqlash",
     "format": "Lint & Format",
@@ -415,16 +436,18 @@
     "valid_yaml": "✓ Yaroqli YAML",
     "invalid_json": "Yaroqsiz JSON",
     "invalid_yaml": "Yaroqsiz YAML",
-    "empty_input": "Iltimos, JSON yoki YAML kiriting.",
+    "empty_input": "Tekshirish uchun JSON, YAML, XML, HTML, TOML, CSV yoki TSV kiriting.",
     "too_large": "Kirish juda katta (maksimal 1MB ruxsat berilgan).",
     "fixed_yaml_spacing": "⚠ YAML oraliq/chekinish noto‘g‘ri bo‘lgan, lekin avtomatik tarzda tuzatilgan va formatlangan.",
-    "loading": "Formatlagich yuklanmoqda...",
+    "loading": "Auto-Linter yuklanmoqda...",
     "waiting_for_input": "Kirish kutilmoqda...",
-    "load_failed": "Formatlagichni yuklab bo‘lmadi.",
+    "load_failed": "Auto-Linter yuklanmadi.",
     "output": "Chiqish:",
     "input_code": "Kirish",
     "json_examples": "JSON misollari",
-    "yaml_examples": "YAML misollari"
+    "yaml_examples": "YAML misollari",
+    "legacy_repo": "Eski Go amalga oshirilishini ko'rish",
+    "legacy_rust": "Eski Rust amalga oshirilishini ko'rish"
   },
   "tiger": {
     "title": "Yo'lbars tili",
@@ -436,7 +459,8 @@
     "run_tiger": "Yugurish Tiger",
     "output": "Chiqish:",
     "stop": "To'xtatish",
-    "program_input": "Dastur kiritish"
+    "program_input": "Dastur kiritish",
+    "legacy_repo": "Eski Go amalga oshirilishini ko'rish"
   },
   "tab": {
     "title": "Patrik Gudvin",
@@ -501,6 +525,10 @@
         "zoom_in": "Kattalashtirish",
         "zoom_out": "Kichraytirish",
         "reset": "Ko'rinishni tiklash"
+      },
+      "country_names": {
+        "show": "Davlat nomlarini ko'rsatish",
+        "hide": "Davlat nomlarini yashirish"
       }
     },
     "supported_languages": {

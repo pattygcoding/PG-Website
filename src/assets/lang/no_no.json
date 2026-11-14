@@ -8,8 +8,8 @@
     "tiger": "Tiger - Et tilpasset programmeringsspråk",
     "snake": "Snake-spill",
     "portfolio_translator": "Porteføljeoversetter",
-    "formatter": "JSON- og YAML-linter",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Rubik's Cube-løser",
     "contact": "Kontakt meg",
     "home_description": "sys.root // hovedoversikt",
     "about_description": "ingeniørprofil // bio og stack",
@@ -18,16 +18,26 @@
     "tiger_description": "tilpasset kompilator og AST-visualisering",
     "snake_description": "klassisk arkadespill / WASM",
     "portfolio_translator_description": "matrise med 100+ språk og i18n",
-    "formatter_description": "syntaksvalidator og -konverter",
+    "formatter_description": "multiformat linter og formatter // WASM",
     "contact_description": "åpen overføring // ta kontakt",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Fire på rad-språk tre",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulering av kjemilaboratorium / WASM",
     "rustcraft_description": "Minecraft-lignende voxel-spill / Rust og wgpu",
-    "suprememc_description": "Minecraft-mod showcase / Java"
+    "suprememc_description": "Minecraft-mod showcase / Java",
+    "framework_trees": "Rammeverkstrær",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael-kryptering",
+    "chess_engine": "Sjakk-motor",
+    "interops": "Interops",
+    "chess_engine_description": "bitboard-motor / WASM og worker",
+    "scripting_library_description": "automatiseringsskript // 6 språk",
+    "reclaim_4160_description": "collegespill, gjenvunnet / C++ og WASM",
+    "turing_machines": "Turingmaskiner",
+    "scripting_library": "Skriptbibliotek"
   },
   "home": {
     "title": "Senior full-stack ingeniør | Produkt og systemer",
@@ -46,7 +56,7 @@
     "featured": {
       "kicker": "Utvalgte prosjekter",
       "title": "Utvalgte arbeider",
-      "description": "Seks prosjekter som best representerer hvordan jeg forvandler ambisiøse ideer til polert, fungerende programvare.",
+      "description": "Prosjekter som best viser hvordan jeg gjør om ambisiøse ideer til polert, fungerende programvare.",
       "view_project": "Vis prosjekt",
       "open_project": "Åpne live-prosjekt",
       "view_all": "Utforsk hele porteføljen",
@@ -99,7 +109,8 @@
         "libraries": "Skriptbiblioteker",
         "languages": "Språkeksperimenter",
         "automation": "Automatiserings- og dataverktøy",
-        "experience": "Yrkes- og utdanningserfaring"
+        "experience": "Yrkes- og utdanningserfaring",
+        "markets": "Markeder og handelssystemer"
       },
       "browser_native": "Nettlesernativ / ingen server",
       "no_results": "Ingen matchende prosjekter",
@@ -129,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Tilgjengelighet",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -149,12 +161,12 @@
           "lens": "Finansiell korrekthet starter med representasjon: helsernt-aritmetikk og balanserte bokføringer gjør pengebevegelser eksplisitte."
         },
         "interop": {
-          "summary": "En tverrspråklig referanse som dekker {languages} programmeringsspråk og {patterns} utførelsesmønstre, og utforsker hva som skjer ved kjøretidsgrenser.",
+          "summary": "En tverrgående referanse over {languages} programmeringsspråk og {patterns} utførelsesmønstre som utforsker hva som skjer ved kjøretidsgrenser.",
           "lens": "Det vanskelige er kontrakten mellom kjøretider: datautveksling, prosessatferd og repeterbar utførelse betyr mer enn syntaks."
         },
         "formatter": {
-          "summary": "En ekte Go-parsemotor kompilert til WebAssembly. JSON- og YAML-validering og -formatering kjører lokalt i nettleseren.",
-          "lens": "Å flytte parseren til nettleseren bytter en større klientbelastning mot lokal prosessering, portabilitet og færre serveravhengigheter."
+          "summary": "En Zig WebAssembly-linter og formatter for JSON, YAML, XML, HTML, TOML, CSV og TSV. Validering og formatering kjører lokalt i nettleseren.",
+          "lens": "Formatering er et tillidsspørsmål: parse med en ekte grammatikk, bevar forfatterens tekst, og hold dataene på klienten."
         },
         "portfolio_website": {
           "summary": "Siden du er på: en React-portefølje med 100+ språk, tilgjengelige interaksjoner og fungerende WebAssembly-verktøy.",
@@ -268,7 +280,7 @@
       },
       "connect_four": {
         "title": "Koble til fire",
-        "text": "En enorm familie av over {implementations} implementasjoner av Fire på rad-spillet. Prosjektet dekker {languages} programmeringsspråk, inkludert Java, C++, Python og JavaScript, sammen med {frameworks} forskjellige rammeverk, biblioteker, kjøretider og databaser – fra React, Angular og Blazor til Django, Spring Boot, Phoenix, PostgreSQL og mer.",
+        "text": "En enorm familie av {implementations} implementasjoner av spillet Connect Four. Prosjektet dekker {languages} programmeringsspråk, inkludert Java, C++, Python og JavaScript, samt {frameworks} ulike rammeverk, biblioteker, kjøretidsmiljøer og databaser, fra React, Angular og Blazor til Django, Spring Boot, Phoenix, PostgreSQL og videre.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -278,7 +290,7 @@
       },
       "interop": {
         "title": "Interop-prosjekt",
-        "text": "En interoperabilitetsreferanse på tvers av språk som spenner over {languages} programmeringsspråk og {patterns} utførelsesmønstre. Prosjektet undersøker grensen der systemer ofte blir skjøre: prosesskontrakter, datautveksling, kjøretidsatferd og repeterbare integrasjonsveier. Det gjenspeiler systemtenkningen som trengs når et produkt er større enn en enkelt stabel.",
+        "text": "En tverrgående interoperabilitetsreferanse over {languages} programmeringsspråk og {patterns} utførelsesmønstre. Prosjektet undersøker grensen der systemer ofte blir skjøre: proseskontrakter, datautveksling, kjøretidsadferd og repeterbare integrasjonsveier. Det speiler systemtenkningen som kreves når et produkt er større enn én stakk.",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -292,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON & YAML autoformater",
-        "text": "Et nettleserbasert JSON- og YAML-validerings- og formateringsverktøy bygget i Go og kompilert til WebAssembly. Flytting av parsingmotoren til WASM holder interaksjonen responsiv og lokal for nettleseren mens du bruker en ekte parser for å fange opp ugyldig inndata. Det er et fokusert eksempel på å velge en kjøretidsarkitektur for ytelse, portabilitet og brukertillit.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter er en nettleserbasert linter og formatter for JSON, YAML, XML, HTML, TOML, CSV og TSV. Zig-motoren kompileres til WebAssembly og kjører helt i nettleseren: den validerer med ekte parsere, indentrerer dokumenter på nytt uten å skrive om innholdet, og bevarer kommentarer, ankre, CDATA, anførselstegn og numerisk presisjon. Prosjektet omfatter tre implementasjoner – Go, Rust og Zig – der de tidligere versjonene er arkivert for sammenligning.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -322,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "Skriptbibliotek",
+        "text": "Et konsolidert bibliotek av automatiseringsskript med én side per språk: VBA for Excel-regneark, Lua for lette verktøy, PowerShell for Windows-administrasjon, Python for daglig dataarbeid og Ruby for skriptingseksperimenter. Hvert skript er skrevet for gjenbruk, så samlingen vedlikeholdes som ett prosjekt i stedet for fem spredte arkiver.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -342,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Rijndael-krypteringsprosjektet",
-        "text": "Et sammenlignende sett med {implementations} Rijndael-implementeringer på tvers av 128-, 192- og 256-bits varianter. Å implementere en sikkerhetssensitiv algoritme på tvers av språk er en disiplinert øvelse i eksakte spesifikasjoner, testbar oppførsel og grensene for portabilitet på språknivå, alle nyttige instinkter for systemer som håndterer sensitive data.",
+        "title": "Rijndael-krypteringsprosjekt",
+        "text": "Et sammenlignende sett av {implementations} Rijndael-implementasjoner i 128-, 192- og 256-bit-variantene. Å reimplementere en sikkerhetskritisk algoritme på tvers av språk er en disiplinert øvelse i presise spesifikasjoner, testbar adferd og grensene for porterbarhet på språknivå – alt nyttige instinkter for systemer som håndterer sensitive data.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -352,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "Rubik's Cube-løser",
+        "text": "En interaktiv 3D Rubik's Cube som du maler klistremerke for klistremerke – på selve kuben eller på det utbrettede nettet – og deretter løser med et to-faset søk i Herbert Kociemba-stil kompilert fra Rust til WebAssembly. Svelte-grensesnittet renderer kuben med three.js, holder det malte tilstanden, gyldighetskontrollene og løserens facelet-streng i synk og spiller av løsningen trekk for trekk på en tidslinje du kan scrubbe, gå gjennom og spille av igjen.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -363,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Et Minecraft-lignende voxelspill skrevet i Rust med wgpu og kompilert til WebAssembly, så det spilles direkte i nettleseren. Det er arkadens sandbox-bygg: blokkete terreng og en voxelverden tegnet gjennom en moderne grafikkpipel, skrevet fra grunnen av på Rust-verktøykjeden i stedet for oppå en spillmotor.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger programmeringsspråk",
-        "text": "Et tilpasset programmeringsspråk og tolk innebygd i Go for å utforske språkkjøringsdesign, utførelsesatferd og ytelsesavveininger. Å kompilere den til WebAssembly og integrere den i porteføljen skaper en ekte, inspiserbar produktoverflate for system-nivå engineering i stedet for å forlate arbeidet som en Eksperiment som kun er lagret.",
+        "text": "Et egenutviklet programmeringsspråk og en tolk i Rust for å utforske kjøretidsdesign, utførelsesadferd og ytelseskompromisser. Den opprinnelige Go-tolken er fortsatt tilgjengelig som legacy-implementasjon. Å kompilere den til WebAssembly og integrere den i porteføljen skaper en reell, granskningsbar produktflate for systemteknikk i stedet for å la arbeidet være et rent kodebas-eksperiment.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -378,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Turing maskinprosjekt",
-        "text": "Familie på over {implementations} implementeringer av Turing-maskinen. Brukes for å demonstrere turing-fullstendighet for forskjellige programmeringsspråk for forskning, spesielt for Tiger-programmeringsspråket.",
+        "text": "En familie av {implementations} implementasjoner av Turingmaskinen. Brukes til å demonstrere turingfullstendighet for ulike programmeringsspråk i forskningsøyemed, særlig for programmeringsspråket Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -387,7 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "title": "Sjakk-motor",
+        "text": "En sjakk-motor skrevet i Rust og kompilert til WebAssembly. Den søker med iterativt dypnende negamax, alfa-beta-beskjæring, en 32 MB transponeringstabell og et hvilesøk i bladene; den evaluerer med avsmalnende brikke-rute-tabeller og sorterer trekk etter MVV-LVA, killers og historikk. Motoren kjører i en Web Worker slik at brettet aldri fryser, og trekgeneratoren kontrolleres i nettleseren mot de publiserte perft-tallene – 20, 400, 8 902, 197 281 og 4 865 609 noder for de fem første dypene."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 er et gjenfinningsprosjekt: det som begynte som et halvferdig CPSC 4160-spill på college – ta de siste toalettpapirrullene og nå kassen før bakteriene sliter deg ned – er bygget på nytt fra grunnen av som en moderne C++20-motor på SDL2 og kompilert til WebAssembly. Det har ti eskalerende ganger med patruljerende og jagende bakterie-AI, plukkbart, partikler og touchkontroller, uten originalprototypens snarveier."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "En deterministisk, avspillbar matchemotor for limit-orderbøker. Motoren er ren Ruby uten Rails og serveres av Rails 8 over én SQLite-fil. Hver ordre legges til en write-ahead-logg før motoren ser den, slik at enhver tidligere tilstand av boken er ett fold unna, og en avspilling bevises trofast ved å sammenligne fingeravtrykk registrert mens markedet var live. Pris-tid-prioritet, GTC/IOC/FOK, endringer som beholder eller mister køposisjon og forbud mot selvhandel verifiseres av fjorten invariabler etter hver ordre i et seedet fuzz-suite. Nettleseren får en ti-hertzstige over Action Cable, mens ordrer går opp over HTTP.",
+        "title": "PIT-matchemotor"
       }
     }
   },
@@ -401,10 +425,10 @@
     "description": "Jeg svarer på henvendelser fra e-post og LinkedIn-meldinger. Jeg vil også ringe tilbake hvis nummeret mitt er oppgitt via CV eller på annen måte, selv om jeg foretrekker å holde telefonnummeret mitt privat."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
-    "description": "Et nettleserbasert datakvalitetsverktøy som validerer og formaterer JSON og YAML ved hjelp av en Go-motor kompilert til WebAssembly. Arkitekturen fortsetter å analysere nær brukeren for rask, privat tilbakemelding mens den håndhever ekte syntaksregler ved datagrensen. Det er et kompakt eksempel på å designe en pålitelig arbeidsflyt for utviklere rundt korrekthet, ytelse og tillit.",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter er et nettleserbasert datakvalitetsverktøy som validerer og formaterer JSON, YAML, XML, HTML, TOML, CSV og TSV med en Zig-motor kompilert til WebAssembly. Parsingen holdes nær brukeren for rask, privat tilbakemelding, samtidig som ekte syntaksregler håndheves ved datagrensen. Det bevarer forfatterens tekst, avviser feilformet inndata og viser hvordan en liten WebAssembly-modul kan drive en pålitelig utviklerflyt.",
     "more_info1": "For mer informasjon, se README i",
-    "more_info2": "JSON/YAML Formatter Repository.",
+    "more_info2": "Auto-Linter-arkiv.",
     "format_as": "Formater som:",
     "auto_detect": "Automatisk oppdagelse",
     "format": "Lo og format",
@@ -412,20 +436,22 @@
     "valid_yaml": "✓ Gyldig YAML",
     "invalid_json": "Ugyldig JSON",
     "invalid_yaml": "Ugyldig YAML",
-    "empty_input": "Vennligst skriv inn noen JSON eller YAML for å lo.",
+    "empty_input": "Skriv inn JSON, YAML, XML, HTML, TOML, CSV eller TSV for å kontrollere.",
     "too_large": "Inngangen er for stor (maks 1 MB tillatt).",
     "fixed_yaml_spacing": "⚠ YAML hadde ugyldig mellomrom/innrykk, men har blitt automatisk rettet og formatert.",
-    "loading": "Laster inn formatering...",
+    "loading": "Laster Auto-Linter...",
     "waiting_for_input": "Venter på innspill...",
-    "load_failed": "Kan ikke laste formatering.",
+    "load_failed": "Kunne ikke laste Auto-Linter.",
     "output": "Produksjon:",
     "input_code": "Inndata",
     "json_examples": "JSON-eksempler",
-    "yaml_examples": "YAML eksempler"
+    "yaml_examples": "YAML eksempler",
+    "legacy_repo": "Vis legacy Go-implementasjon",
+    "legacy_rust": "Vis legacy Rust-implementasjon"
   },
   "tiger": {
     "title": "Tigerspråk",
-    "description": "Tiger er et tilpasset programmeringsspråk og Go-tolk bygget for å utforske kjøretidsarkitektur, språksemantikk og ytelsesavveininger. Ved å kompilere tolken til WebAssembly blir systemets arbeid til et interaktivt, nettleserbasert produkt: brukere kan kjøre programmer direkte mens kjøretiden forblir portabel og isolert fra vertsapplikasjonen.",
+    "description": "Tiger er et egenutviklet programmeringsspråk i produksjonskvalitet og en Rust-tolk bygget for ytelse. Den kompilerte bytekode-motoren og referenstolken som går over treet holdes i takt over et referansekorpus på 44 programmer, og den tilhørende in-process-protokollen holder kjøretiden på nivå med eller foran CPython i hvert verifiserte avsnitt, med ytelse som konkurrerer direkte med Python og Ruby til daglig scripting. Den opprinnelige Go-tolken er fortsatt tilgjengelig som legacy-implementasjon. Å kompilere tolken til WebAssembly gjør dette systemarbeidet til et interaktivt nettleserprodukt: brukere kan kjøre programmer direkte mens kjøretiden forblir portabel og isolert fra vertsapplikasjonen.",
     "more_info1": "For mer informasjon, se README i",
     "more_info2": "Tiger-programmeringsspråk GitHub Repository.",
     "select_engine": "Velg motor:",
@@ -433,7 +459,8 @@
     "run_tiger": "Kjør Tiger",
     "output": "Produksjon:",
     "stop": "Stopp",
-    "program_input": "Programinndata"
+    "program_input": "Programinndata",
+    "legacy_repo": "Vis legacy Go-implementasjon"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -498,6 +525,10 @@
         "zoom_in": "Zoom inn",
         "zoom_out": "Zoom ut",
         "reset": "Tilbakestill visning"
+      },
+      "country_names": {
+        "show": "Vis landsnavn",
+        "hide": "Skjul landsnavn"
       }
     },
     "supported_languages": {

@@ -8,8 +8,8 @@
     "tiger": "Tiger - Bahasa Pemrograman Kustom",
     "snake": "Permainan ular",
     "portfolio_translator": "Penerjemah Portofolio",
-    "formatter": "Linter JSON & YAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "Penyelesai Rubik's Cube",
     "contact": "Hubungi saya",
     "home_description": "sys.root // ringkasan utama",
     "about_description": "profil insinyur // bio dan tumpukan",
@@ -18,18 +18,26 @@
     "tiger_description": "kompiler khusus dan visualisasi AST",
     "snake_description": "permainan arkade klasik / WASM",
     "portfolio_translator_description": "matriks 100+ bahasa dan i18n",
-    "formatter_description": "validator dan konverter sintaks",
+    "formatter_description": "linter & pemformat multi-format // WASM",
     "contact_description": "transmisi terbuka // hubungi saya",
     "arcade": "Arkade",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "Pohon bahasa Empat Berbaris",
+    "connect_four": "Connect Four",
     "alkalab_description": "simulasi laboratorium kimia / WASM",
     "rustcraft_description": "permainan voxel ala Minecraft / Rust dan wgpu",
     "suprememc_description": "pameran mod Minecraft / Java",
-    "chess_engine": "Mesin Catur",
-    "chess_engine_description": "mesin bitboard / WASM & pekerja"
+    "chess_engine": "Mesin catur",
+    "chess_engine_description": "mesin bitboard / WASM & worker",
+    "framework_trees": "Pohon kerangka kerja",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Enkripsi Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "skrip otomasi // 6 bahasa",
+    "reclaim_4160_description": "permainan kuliah, direklamasi / C++ & WASM",
+    "turing_machines": "Mesin Turing",
+    "scripting_library": "Pustaka skrip"
   },
   "home": {
     "title": "Insinyur Full-Stack Senior | Produk & Sistem",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "Proyek unggulan",
       "title": "Karya terpilih",
-      "description": "Enam proyek yang paling mewakili cara saya mengubah ide ambisius menjadi perangkat lunak yang halus dan berfungsi.",
+      "description": "Proyek yang paling menunjukkan bagaimana saya mengubah ide-ide ambisius menjadi perangkat lunak yang rapi dan berfungsi.",
       "view_project": "Lihat proyek",
       "open_project": "Buka proyek langsung",
       "view_all": "Jelajahi portofolio lengkap",
@@ -101,7 +109,8 @@
         "libraries": "Pustaka skrip",
         "languages": "Eksperimen bahasa",
         "automation": "Alat otomasi & data",
-        "experience": "Pengalaman profesional & pendidikan"
+        "experience": "Pengalaman profesional & pendidikan",
+        "markets": "Pasar dan sistem perdagangan"
       },
       "browser_native": "Native browser / tanpa server",
       "no_results": "Tidak ada proyek yang cocok",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "Aksesibilitas",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "Korektif finansial dimulai dari representasi: aritmetika sen utuh dan entri buku besar yang seimbang membuat pergerakan uang eksplisit."
         },
         "interop": {
-          "summary": "Referensi lintas bahasa yang mencakup {languages} bahasa pemrograman dan {patterns} pola eksekusi, mengeksplorasi apa yang terjadi di batas waktu proses.",
+          "summary": "Referensi lintas bahasa yang mencakup {languages} bahasa pemrograman dan {patterns} pola eksekusi, menelusuri apa yang terjadi pada batas runtime.",
           "lens": "Bagian yang sulit adalah kontrak antar runtime: pertukaran data, perilaku proses, dan eksekusi yang dapat diulang lebih penting daripada sintaks."
         },
         "formatter": {
-          "summary": "Mesin parsing Go asli yang dikompilasi ke WebAssembly. Validasi dan pemformatan JSON dan YAML berjalan lokal di browser.",
-          "lens": "Memindahkan parser ke browser menukar beban klien yang lebih besar dengan pemrosesan lokal, portabilitas, dan lebih sedikit dependensi server."
+          "summary": "Linter dan pemformat WebAssembly yang ditulis dengan Zig untuk JSON, YAML, XML, HTML, TOML, CSV, dan TSV. Validasi dan pemformatan berjalan lokal di browser.",
+          "lens": "Pemformatan adalah masalah kepercayaan: uraikan dengan tata bahasa sungguhan, pertahankan teks penulis, dan jaga data tetap di klien."
         },
         "portfolio_website": {
           "summary": "Situs yang Anda kunjungi: portofolio React dengan 100+ bahasa, interaksi yang mudah diakses, dan alat WebAssembly yang berfungsi.",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "Hubungkan Empat",
-        "text": "Keluarga besar dengan {implementations} implementasi game Empat Berbaris. Proyek ini mencakup {languages} bahasa pemrograman, termasuk Java, C++, Python, dan JavaScript, bersama {frameworks} framework, pustaka, runtime, dan basis data berbeda, dari React, Angular, dan Blazor hingga Django, Spring Boot, Phoenix, PostgreSQL, dan seterusnya.",
+        "text": "Keluarga besar {implementations} implementasi permainan Connect Four. Proyek ini mencakup {languages} bahasa pemrograman, termasuk Java, C++, Python, dan JavaScript, serta {frameworks} kerangka kerja, pustaka, runtime, dan basis data berbeda, dari React, Angular, dan Blazor hingga Django, Spring Boot, Phoenix, PostgreSQL, dan seterusnya.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -280,7 +290,7 @@
       },
       "interop": {
         "title": "Proyek Interop",
-        "text": "Referensi interoperabilitas lintas bahasa yang mencakup {languages} bahasa pemrograman dan {patterns} pola eksekusi. Proyek ini menyelidiki batasan di mana sistem sering menjadi rapuh: kontrak proses, pertukaran data, perilaku runtime, dan jalur integrasi yang berulang. Ini mencerminkan pemikiran sistem yang diperlukan ketika suatu produk lebih besar dari satu tumpukan.",
+        "text": "Referensi interoperabilitas lintas bahasa yang mencakup {languages} bahasa pemrograman dan {patterns} pola eksekusi. Proyek ini menyelidiki batas tempat sistem sering menjadi rapuh: kontrak proses, pertukaran data, perilaku runtime, dan jalur integrasi yang dapat diulang. Ini mencerminkan pemikiran sistem yang diperlukan ketika sebuah produk lebih besar dari satu tumpukan teknologi.",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -294,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "Pemformat Otomatis JSON & YAML",
-        "text": "Alat validasi dan pemformatan JSON dan YAML berbasis browser yang dibangun di Go dan dikompilasi ke WebAssembly. Memindahkan mesin parsing ke WASM menjaga interaksi tetap responsif dan lokal pada browser sambil menerapkan parser nyata untuk menangkap input yang tidak valid. Ini adalah contoh terfokus dalam memilih arsitektur runtime untuk kinerja, portabilitas, dan kepercayaan pengguna.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter adalah linter dan pemformat berbasis browser untuk JSON, YAML, XML, HTML, TOML, CSV, dan TSV. Mesin Zig dikompilasi ke WebAssembly dan berjalan sepenuhnya di browser: memvalidasi dengan parser sungguhan, memformat ulang indentasi dokumen tanpa menulis ulang isinya, serta mempertahankan komentar, anchor, CDATA, tanda kutip, dan presisi numerik. Proyek ini mencakup tiga implementasi — Go, Rust, dan Zig — dengan versi sebelumnya diarsipkan untuk perbandingan.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -324,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "Pustaka skrip",
+        "text": "Pustaka skrip otomasi terpadu dengan satu halaman per bahasa: VBA untuk spreadsheet Excel, Lua untuk perkakas ringan, PowerShell untuk administrasi Windows, Python untuk pekerjaan data sehari-hari, dan Ruby untuk eksperimen skrip. Setiap skrip ditulis agar dapat digunakan ulang, sehingga koleksi ini dipelihara sebagai satu proyek, bukan lima repositori yang tersebar.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "Proyek Enkripsi Rijndael",
-        "text": "Kumpulan komparatif {implementations} implementasi Rijndael pada varian 128-, 192-, dan 256-bit. Menerapkan kembali algoritme yang sensitif terhadap keamanan di seluruh bahasa merupakan latihan yang disiplin dalam spesifikasi yang tepat, perilaku yang dapat diuji, dan batasan portabilitas tingkat bahasa, semua naluri berguna untuk sistem yang menangani data sensitif.",
+        "title": "Proyek enkripsi Rijndael",
+        "text": "Kumpulan perbandingan {implementations} implementasi Rijndael pada varian 128-, 192-, dan 256-bit. Menerapkan ulang algoritme sensitif keamanan di berbagai bahasa adalah latihan disiplin dalam spesifikasi tepat, perilaku yang dapat diuji, dan batas portabilitas tingkat bahasa — semua naluri yang berguna untuk sistem yang menangani data sensitif.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "Penyelesai Rubik's Cube",
+        "text": "Rubik's Cube 3D interaktif yang Anda warnai stiker demi stiker — pada kubus itu sendiri atau pada jaring terbentangkannya — lalu selesaikan dengan pencarian dua fase bergaya Herbert Kociemba yang dikompilasi dari Rust ke WebAssembly. Antarmuka Svelte merender kubus dengan three.js, menjaga status warna, pemeriksaan validitasnya, dan string facelet solver tetap sinkron, serta memutar solusi langkah demi langkah pada linimasa yang dapat Anda geser, telusuri, dan putar ulang.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -365,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Permainan voxel bergaya Minecraft yang ditulis dalam Rust dengan wgpu dan dikompilasi ke WebAssembly, sehingga dapat dimainkan langsung di browser. Ini adalah build sandbox arcade: medan berblok dan dunia voxel yang digambar melalui pipeline grafis modern, ditulis dari nol di atas toolchain Rust, bukan di atas mesin permainan.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Bahasa Pemrograman Harimau",
-        "text": "Bahasa pemrograman dan juru bahasa khusus yang dibangun di Go untuk menjelajahi desain waktu proses bahasa, perilaku eksekusi, dan pengorbanan kinerja. Mengkompilasinya ke WebAssembly dan mengintegrasikannya ke dalam portofolio menciptakan permukaan produk yang nyata dan dapat diperiksa untuk rekayasa tingkat sistem daripada meninggalkan pekerjaan sebagai sebuah eksperimen khusus repositori.",
+        "text": "Bahasa pemrograman khusus dan interpreter dalam Rust untuk menelusuri desain runtime, perilaku eksekusi, dan kompromi performa. Interpreter Go asli tetap tersedia sebagai implementasi lama. Mengompilasinya ke WebAssembly dan mengintegrasikannya ke portofolio menciptakan permukaan produk nyata yang dapat diperiksa untuk rekayasa sistem, alih-alih membiarkan pekerjaan sebagai eksperimen repositori saja.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "Proyek Mesin Turing",
-        "text": "Rangkaian lebih dari {implementations} implementasi Mesin Turing. Digunakan untuk mendemonstrasikan kelengkapan turing untuk berbagai bahasa pemrograman untuk penelitian, khususnya untuk Bahasa Pemrograman Tiger.",
+        "text": "Keluarga {implementations} implementasi Mesin Turing. Digunakan untuk mendemonstrasikan keturingan lengkap berbagai bahasa pemrograman untuk keperluan penelitian, terutama untuk bahasa pemrograman Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,8 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "Mesin Catur",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "title": "Mesin catur",
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Mesin catur yang ditulis dalam Rust dan dikompilasi ke WebAssembly. Mesin ini mencari dengan negamax iterative deepening, pemangkasan alfa-beta, tabel transposisi 32 MB, dan quiescence search pada daun; mengevaluasi dengan tabel piece-square yang meruncing dan mengurutkan langkah berdasarkan MVV-LVA, killer, dan history. Mesin berjalan di Web Worker agar papan tidak pernah membeku, dan generator langkahnya diperiksa di browser terhadap angka perft yang dipublikasikan — 20, 400, 8.902, 197.281, dan 4.865.609 simpul untuk lima kedalaman pertama."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 adalah proyek reklamasi: yang dimulai sebagai permainan CPSC 4160 setengah jadi di kuliah — ambil gulungan tisu toilet terakhir dan capai kasir sebelum kuman menghabiskan tenagamu — telah dibangun ulang dari nol sebagai mesin C++20 modern di atas SDL2 dan dikompilasi ke WebAssembly. Ini menghadirkan sepuluh lorong yang meningkat kesulitannya dengan AI kuman yang berpatroli dan mengejar, pickup, partikel, dan kontrol sentuh, tanpa jalan pintas prototipe asli."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "Mesin pencocokan limit order book yang deterministik dan dapat diputar ulang. Mesinnya sendiri adalah Ruby murni tanpa Rails, dilayani oleh Rails 8 di atas satu berkas SQLite. Setiap perintah ditambahkan ke write-ahead log sebelum mesin melihatnya, sehingga setiap keadaan buku sebelumnya hanya satu lipatan jauhnya, dan pemutaran ulang dibuktikan setia dengan membandingkan sidik jari yang direkam saat pasar berjalan langsung. Prioritas harga-waktu, GTC/IOC/FOK, amandemen yang mempertahankan atau kehilangan posisi antrean, dan pencegahan perdagangan diri diverifikasi oleh empat belas invarian setelah setiap perintah dalam suite fuzz berbenih. Browser menerima tangga sepuluh hertz melalui Action Cable, sementara perintah naik melalui HTTP.",
+        "title": "Mesin pencocokan PIT"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "Saya menanggapi pertanyaan dari email dan pesan LinkedIn. Saya juga akan menelepon kembali jika nomor saya diberikan melalui resume atau lainnya, meskipun saya lebih memilih merahasiakan nomor telepon saya."
   },
   "formatter": {
-    "title": "JSON & YAML Linter",
-    "description": "Alat kualitas data berbasis browser yang memvalidasi dan memformat JSON dan YAML menggunakan mesin Go yang dikompilasi ke WebAssembly. Arsitekturnya terus melakukan penguraian di dekat pengguna untuk mendapatkan masukan yang cepat dan pribadi sambil menerapkan aturan sintaksis nyata pada batas data. Ini adalah contoh ringkas dalam merancang alur kerja pengembang yang dapat diandalkan seputar kebenaran, kinerja, dan kepercayaan.",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter adalah alat kualitas data berbasis browser yang memvalidasi dan memformat JSON, YAML, XML, HTML, TOML, CSV, dan TSV dengan mesin Zig yang dikompilasi ke WebAssembly. Penguraian tetap dekat dengan pengguna untuk umpan balik cepat dan privat, sementara aturan sintaksis sungguhan ditegakkan pada batas data. Ini mempertahankan teks penulis, menolak masukan cacat, dan menunjukkan bagaimana satu modul WebAssembly kecil dapat menopang alur kerja pengembang yang andal.",
     "more_info1": "Untuk informasi lebih lanjut, lihat README di",
-    "more_info2": "Repositori Pemformat JSON/YAML.",
+    "more_info2": "Repositori Auto-Linter.",
     "format_as": "Format Sebagai:",
     "auto_detect": "Deteksi Otomatis",
     "format": "Serat & Format",
@@ -415,20 +436,22 @@
     "valid_yaml": "✓ YAML yang valid",
     "invalid_json": "JSON tidak valid",
     "invalid_yaml": "YAML tidak valid",
-    "empty_input": "Silakan masukkan beberapa JSON atau YAML ke lint.",
+    "empty_input": "Masukkan JSON, YAML, XML, HTML, TOML, CSV, atau TSV untuk diperiksa.",
     "too_large": "Input terlalu besar (maks 1MB diperbolehkan).",
     "fixed_yaml_spacing": "⚠ YAML memiliki spasi/indentasi yang tidak valid namun telah diperbaiki dan diformat secara otomatis.",
-    "loading": "Memuat pemformat...",
+    "loading": "Memuat Auto-Linter...",
     "waiting_for_input": "Menunggu masukan...",
-    "load_failed": "Tidak dapat memuat pemformat.",
+    "load_failed": "Tidak dapat memuat Auto-Linter.",
     "output": "Keluaran:",
     "input_code": "Masukan",
     "json_examples": "Contoh JSON",
-    "yaml_examples": "Contoh YAML"
+    "yaml_examples": "Contoh YAML",
+    "legacy_repo": "Lihat implementasi Go lama",
+    "legacy_rust": "Lihat implementasi Rust lama"
   },
   "tiger": {
     "title": "Bahasa Harimau",
-    "description": "Tiger adalah bahasa pemrograman khusus dan juru bahasa Go yang dibuat untuk mengeksplorasi arsitektur runtime, semantik bahasa, dan pengorbanan kinerja. Mengkompilasi interpreter ke WebAssembly mengubah sistem bekerja menjadi produk berbasis browser yang interaktif: pengguna dapat menjalankan program secara langsung sementara runtime tetap portabel dan diisolasi dari aplikasi host.",
+    "description": "Tiger adalah bahasa pemrograman khusus kelas produksi dan interpreter Rust yang dibangun untuk performa. Mesin bytecode terkompilasi dan interpreter referensi penelusuran pohon tetap sinkron pada korpus tolok ukur 44 program, dan protokol in-process pendampingnya menjaga runtime setara atau melampaui CPython pada setiap bagian yang diuji, dengan performa yang bersaing langsung dengan Python dan Ruby untuk skrip sehari-hari. Interpreter Go asli tetap tersedia sebagai implementasi lama. Mengompilasi interpreter ke WebAssembly mengubah pekerjaan sistem ini menjadi produk interaktif berbasis browser: pengguna dapat menjalankan program secara langsung sementara runtime tetap portabel dan terisolasi dari aplikasi host.",
     "more_info1": "Untuk informasi lebih lanjut, lihat README di",
     "more_info2": "Repositori GitHub Bahasa Pemrograman Tiger.",
     "select_engine": "Pilih Mesin:",
@@ -436,7 +459,8 @@
     "run_tiger": "Jalankan Harimau",
     "output": "Keluaran:",
     "stop": "Berhenti",
-    "program_input": "Input program"
+    "program_input": "Input program",
+    "legacy_repo": "Lihat implementasi Go lama"
   },
   "tab": {
     "title": "Patrick Goodwin",
@@ -501,6 +525,10 @@
         "zoom_in": "Perbesar",
         "zoom_out": "Perkecil",
         "reset": "Atur Ulang Tampilan"
+      },
+      "country_names": {
+        "show": "Tampilkan nama negara",
+        "hide": "Sembunyikan nama negara"
       }
     },
     "supported_languages": {

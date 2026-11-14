@@ -8,8 +8,8 @@
     "tiger": "Tiger - カスタムプログラミング言語",
     "snake": "スネークゲーム",
     "portfolio_translator": "ポートフォリオ翻訳者",
-    "formatter": "JSON & YAML リンター",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "ルービックキューブソルバー",
     "contact": "連絡してください",
     "home_description": "sys.root // メイン概要",
     "about_description": "エンジニアプロフィール // 経歴と技術スタック",
@@ -18,18 +18,26 @@
     "tiger_description": "カスタムコンパイラ & ASTビジュアライザ",
     "snake_description": "クラシックアーケードゲーム / WASM",
     "portfolio_translator_description": "100以上の言語マトリックス & i18n",
-    "formatter_description": "構文バリデータとコンバータ",
+    "formatter_description": "複数フォーマット対応のリンター & フォーマッター // WASM",
     "contact_description": "オープンな伝達 // ご連絡ください",
     "arcade": "アーケード",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "コネクトフォー言語ツリー",
+    "connect_four": "Connect Four",
     "alkalab_description": "化学実験室シミュレーション / WASM",
     "rustcraft_description": "Minecraft風ボクセルゲーム / Rust & wgpu",
     "suprememc_description": "Minecraft MODショーケース / Java",
     "chess_engine": "チェスエンジン",
-    "chess_engine_description": "bitboardエンジン/WASMおよびワーカー"
+    "chess_engine_description": "ビットボードエンジン / WASM ＆ワーカー",
+    "framework_trees": "フレームワークツリー",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "Rijndael 暗号",
+    "interops": "Interops",
+    "scripting_library_description": "自動化スクリプト // 6 言語",
+    "reclaim_4160_description": "大学時代のゲームを再構築 / C++ ＆ WASM",
+    "turing_machines": "チューリングマシン",
+    "scripting_library": "スクリプトライブラリ"
   },
   "home": {
     "title": "シニア フルスタック エンジニア |製品とシステム",
@@ -48,7 +56,7 @@
     "featured": {
       "kicker": "注目のプロジェクト",
       "title": "選ばれた作品",
-      "description": "野心的なアイデアを洗練された動作するソフトウェアに変える方法を最もよく表す6つのプロジェクト。",
+      "description": "私が野心的なアイデアを洗練された動くソフトウェアに変える方法を最もよく表すプロジェクト。",
       "view_project": "プロジェクトを見る",
       "open_project": "ライブプロジェクトを開く",
       "view_all": "完全なポートフォリオを探索",
@@ -101,7 +109,8 @@
         "libraries": "スクリプトライブラリ",
         "languages": "言語の実験",
         "automation": "自動化 & データツール",
-        "experience": "プロ・教育経験"
+        "experience": "プロ・教育経験",
+        "markets": "市場と取引システム"
       },
       "browser_native": "ブラウザネイティブ / サーバー不要",
       "no_results": "一致するプロジェクトがありません",
@@ -131,7 +140,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "アクセシビリティ",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -151,12 +161,12 @@
           "lens": "財務の正確性は表現から始まる: 整数セントの演算とバランスの取れた仕訳が、資金の動きを明確にする。"
         },
         "interop": {
-          "summary": "{languages}のプログラミング言語と{patterns}の実行パターンにわたる言語横断リファレンス。ランタイム境界で起きることを探る。",
+          "summary": "{languages} 個のプログラミング言語と {patterns} 個の実行パターンを横断する言語間リファレンスで、ランタイムの境界で何が起きるかを探ります。",
           "lens": "難しいのはランタイム間の契約だ: データ交換、プロセス動作、再現可能な実行が構文よりも重要。"
         },
         "formatter": {
-          "summary": "WebAssemblyにコンパイルされた本物のGoパーサーエンジン。JSONとYAMLの検証と整形がブラウザ内でローカルに実行される。",
-          "lens": "パーサーをブラウザに移すことは、より大きなクライアントペイロードと引き換えに、ローカル処理、移植性、サーバー依存の削減を得ること。"
+          "summary": "JSON・YAML・XML・HTML・TOML・CSV・TSV に対応する Zig 製 WebAssembly リンター兼フォーマッター。検証と整形はブラウザ内でローカルに実行されます。",
+          "lens": "整形は信頼の問題です。実際の文法で解析し、作者のテキストを保持し、データをクライアント側に置きます。"
         },
         "portfolio_website": {
           "summary": "あなたがいるサイト: 100以上の言語、アクセシブルな操作、動作するWebAssemblyツールを備えたReactポートフォリオ。",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "コネクトフォー",
-        "text": "コネクトフォーゲームの{implementations}以上の実装からなる巨大なファミリー。プロジェクトはJava、C++、Python、JavaScriptを含む{languages}以上のプログラミング言語と、React、Angular、BlazorからDjango、Spring Boot、Phoenix、PostgreSQLなど{frameworks}以上の異なるフレームワーク、ライブラリ、ランタイム、データベースにわたる。",
+        "text": "Connect Four ゲームの {implementations} 実装からなる巨大なファミリー。Java・C++・Python・JavaScript を含む {languages} 個のプログラミング言語と、React・Angular・Blazor から Django・Spring Boot・Phoenix・PostgreSQL まで、{frameworks} 個のフレームワーク・ライブラリ・ランタイム・データベースを対象としています。",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -280,7 +290,7 @@
       },
       "interop": {
         "title": "相互運用プロジェクト",
-        "text": "{languages} のプログラミング言語と {patterns} の実行パターンにわたる言語間の相互運用性リファレンス。 このプロジェクトでは、プロセス契約、データ交換、実行時の動作、反復可能な統合パスなど、システムが脆弱になることが多い境界を調査します。 これは、製品が単一スタックよりも大きい場合に必要なシステム思考を反映しています。",
+        "text": "{languages} 個のプログラミング言語と {patterns} 個の実行パターンを横断する言語間相互運用リファレンス。システムが壊れやすくなる境界、すなわちプロセス契約、データ交換、ランタイムの挙動、再現可能な統合経路を調査します。単一のスタックより大きな製品に必要なシステム思考を反映しています。",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -294,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON および YAML 自動フォーマッタ",
-        "text": "Go で構築され、WebAssembly にコンパイルされる、ブラウザーベースの JSON および YAML 検証および書式設定ツール。 解析エンジンを WASM に移動すると、実際のパーサーを適用して無効な入力をキャッチしながら、対話の応答性とブラウザーに対するローカル性が維持されます。 これは、パフォーマンス、移植性、ユーザーの信頼を重視してランタイム アーキテクチャを選択する例です。",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter は、JSON・YAML・XML・HTML・TOML・CSV・TSV に対応するブラウザベースのリンター兼フォーマッターです。Zig 製エンジンは WebAssembly にコンパイルされ、完全にブラウザ内で動作します。実際のパーサーで検証し、内容を書き換えずにドキュメントのインデントを整え、コメント・アンカー・CDATA・引用符・数値精度を保持します。本プロジェクトは Go・Rust・Zig の 3 つの実装からなり、以前のバージョンは比較用にアーカイブされています。",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -324,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "スクリプトライブラリ",
+        "text": "言語ごとに 1 ページを用意した自動化スクリプトライブラリ。Excel スプレッドシート向け VBA、軽量ツール向け Lua、Windows 管理向け PowerShell、日常のデータ作業向け Python、スクリプト実験向け Ruby を収録。各スクリプトは再利用を前提に書かれているため、5 つの分散リポジトリではなく 1 つのプロジェクトとして管理しています。",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "リジャンデル暗号化プロジェクト",
-        "text": "128、192、および 256 ビットのバリアントにわたる {implementations} 個以上の Rijndael 実装の比較セット。 セキュリティに配慮したアルゴリズムを言語間で再実装することは、正確な仕様、テスト可能な動作、および言語レベルの移植性の制限に関する規律ある作業です。 機密データを扱うシステムにとって有用なすべての本能。",
+        "title": "Rijndael 暗号化プロジェクト",
+        "text": "128 ビット・192 ビット・256 ビットの各バリアントにおける Rijndael の {implementations} 実装を比較したセット。セキュリティ上重要なアルゴリズムを複数の言語で再実装することは、正確な仕様、検証可能な挙動、言語レベルの移植性の限界を突き詰める規律ある作業であり、機密データを扱うシステムに役立つ直感を養います。",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "ルービックキューブソルバー",
+        "text": "3D ルービックキューブを、キューブ本体でも展開図でも、ステッカーを 1 枚ずつ塗っていけるインタラクティブツール。Rust から WebAssembly にコンパイルした Herbert Kociemba 風の 2 フェーズ探索で解きます。Svelte 製インターフェースは three.js でキューブを描画し、塗った状態・その妥当性チェック・ソルバーのフェイスレット文字列を同期させ、ドラッグ・ステップ実行・再再生が可能なタイムライン上で解答を 1 手ずつ再生します。",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -365,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "Rust と wgpu で書かれ WebAssembly にコンパイルされた Minecraft 風のボクセルゲーム。ブラウザですぐに遊べます。アーケードのサンドボックス版で、ボクセルワールドとブロック状の地形を最新のグラフィックスパイプラインで描画し、ゲームエンジンではなく Rust のツールチェーン上でゼロから書かれています。",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "Tiger プログラミング言語",
-        "text": "言語ランタイムの設計、実行動作、パフォーマンスのトレードオフを調査するために Go に組み込まれたカスタム プログラミング言語とインタープリター。 WebAssembly にコンパイルしてポートフォリオに統合すると、作業をそのまま残すのではなく、システム レベルのエンジニアリングのための実際の検査可能な製品表面が作成されます。 リポジトリのみの実験。",
+        "text": "言語ランタイムの設計、実行時の挙動、性能のトレードオフを探るために Rust で実装した自作のプログラミング言語とインタープリター。当初の Go 版インタープリターはレガシー実装として引き続き利用できます。WebAssembly にコンパイルしてポートフォリオに統合することで、リポジトリ上の実験にとどめず、システムエンジニアリングの成果を実際に確認できる製品面を作り出します。",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "チューリングマシンプロジェクト",
-        "text": "チューリング マシンの {implementations} 以上の実装のファミリー。 研究用のさまざまなプログラミング言語、特に Tiger プログラミング言語のチューリングの完全性を実証するために使用されます。",
+        "text": "チューリングマシンの {implementations} 実装ファミリー。Tiger プログラミング言語をはじめ、さまざまなプログラミング言語のチューリング完全性を研究目的で実証するために使用しています。",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -390,7 +400,18 @@
       },
       "chess_engine": {
         "title": "チェスエンジン",
-        "link": "https://arcade.pattygcoding.com/chess"
+        "link": "https://arcade.pattygcoding.com/chess",
+        "text": "Rust で書かれ WebAssembly にコンパイルされたチェスエンジン。反復深化ネガマックス、アルファベータ枝刈り、32 MB の置換表、葉での静止探索を用いて探索します。評価は先細りする駒-升目テーブルで行い、手の並び順は MVV-LVA・キラー・履歴で決定します。エンジンは Web Worker 上で動作して盤面が固まることはなく、手の生成器はブラウザで公開 perft 値と照合されます。最初の 5 段の深さで 20、400、8,902、197,281、4,865,609 ノード。"
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 は回収プロジェクトです。大学時代に中途半端な状態だった CPSC 4160 のゲーム — 最後のトイレットペーパーのロールを掴み、菌に体力を奪われる前にレジへたどり着く — を、SDL2 上の現代的な C++20 エンジンとしてゼロから再構築し、WebAssembly にコンパイルしました。徘徊し追跡する菌の AI、10 段の難易度、アイテム、パーティクル、タッチ操作を備え、初代プロトタイプの手抜きはありません。"
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "決定論的で再生可能な指値注文板マッチングエンジン。エンジン本体は Rails を含まない純粋な Ruby で、Rails 8 が単一の SQLite ファイルを介して提供します。すべてのコマンドはエンジンが処理する前に write-ahead ログへ追記されるため、板の任意の過去状態は 1 回の畳み込みで再現でき、市場稼働中に記録したフィンガープリントと照合することで再生の忠実性を証明します。価格時刻優先、GTC/IOC/FOK、キュー位置を維持または失う訂正、自己取引防止は、シード付きファズスイートにおいて各コマンド後に 14 個の不変条件で検証されます。ブラウザには Action Cable 経由で 10 Hz の気配値ラダーが配信され、コマンドは HTTP で送信されます。",
+        "title": "PIT マッチングエンジン"
       }
     }
   },
@@ -404,10 +425,10 @@
     "description": "電子メールおよび LinkedIn メッセージからのお問い合わせに対応します。また、履歴書などで私の電話番号を教えていただいた場合には、折り返し電話させていただきますが、電話番号は公開したくないと思っています。"
   },
   "formatter": {
-    "title": "JSON および YAML リンター",
-    "description": "WebAssembly にコンパイルされた Go エンジンを使用して JSON と YAML を検証し、フォーマットするブラウザベースのデータ品質ツール。 このアーキテクチャは、データ境界で実際の構文ルールを強制しながら、高速かつプライベートなフィードバックを得るためにユーザーの近くで解析を続けます。 これは、正確性、パフォーマンス、信頼性を中心に信頼できる開発者ワークフローを設計するコンパクトな例です。",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter は、Zig 製エンジンを WebAssembly にコンパイルして JSON・YAML・XML・HTML・TOML・CSV・TSV を検証・整形するブラウザベースのデータ品質ツールです。解析はユーザーの手元で行われ、高速でプライベートなフィードバックを提供しつつ、データ境界で実際の構文ルールを適用します。作者のテキストを保持し、不正な入力を拒否し、小さな WebAssembly モジュールが信頼できる開発者ワークフローを支える様子を示します。",
     "more_info1": "詳細については、次の README を参照してください。",
-    "more_info2": "JSON/YAML フォーマッタ リポジトリ。",
+    "more_info2": "Auto-Linter リポジトリ。",
     "format_as": "次のようにフォーマット:",
     "auto_detect": "自動検出",
     "format": "リントとフォーマット",
@@ -415,20 +436,22 @@
     "valid_yaml": "✓ 有効な YAML",
     "invalid_json": "無効な JSON",
     "invalid_yaml": "無効な YAML",
-    "empty_input": "lint を実行するには、JSON または YAML を入力してください。",
+    "empty_input": "解析する JSON・YAML・XML・HTML・TOML・CSV・TSV を入力してください。",
     "too_large": "入力が大きすぎます (最大 1MB が許可されています)。",
     "fixed_yaml_spacing": "⚠ YAML には無効なスペース/インデントがありましたが、自動修正され、フォーマットされました。",
-    "loading": "フォーマッタを読み込んでいます...",
+    "loading": "Auto-Linter を読み込み中...",
     "waiting_for_input": "入力を待っています...",
-    "load_failed": "フォーマッタをロードできません。",
+    "load_failed": "Auto-Linter を読み込めませんでした。",
     "output": "出力：",
     "input_code": "入力",
     "json_examples": "JSON の例",
-    "yaml_examples": "YAML の例"
+    "yaml_examples": "YAML の例",
+    "legacy_repo": "Go のレガシー実装を見る",
+    "legacy_rust": "Rust のレガシー実装を見る"
   },
   "tiger": {
     "title": "タイガー言語",
-    "description": "Tiger は、ランタイム アーキテクチャ、言語セマンティクス、パフォーマンスのトレードオフを調査するために構築されたカスタム プログラミング言語および Go インタープリターです。 インタプリタを WebAssembly にコンパイルすると、システムはインタラクティブなブラウザベースの製品に変わります。ランタイムは移植可能なままで、ユーザーはプログラムを直接実行できます。 ホスト アプリケーションから隔離されます。",
+    "description": "Tiger は実運用に耐える自作プログラミング言語であり、性能を追求して Rust で実装されたインタープリターです。コンパイル済みバイトコードエンジンと、ツリーウォーキングの参照インタープリターは 44 プログラムのベンチマークコーパスで常に同期し、対になるインプロセスプロトコルにより、検証したすべてのセクションで CPython と同等以上の性能を保ちます。日常的なスクリプト用途では Python や Ruby と直接競合します。当初の Go 版インタープリターはレガシー実装として引き続き利用できます。インタープリターを WebAssembly にコンパイルすることで、このシステム開発の成果は対話型のブラウザ製品になります。ランタイムは移植性を保ちつつホストアプリから分離され、ユーザーはプログラムを直接実行できます。",
     "more_info1": "詳細については、次の README を参照してください。",
     "more_info2": "Tiger プログラミング言語の GitHub リポジトリ。",
     "select_engine": "エンジンを選択します:",
@@ -436,7 +459,8 @@
     "run_tiger": "ランタイガー",
     "output": "出力：",
     "stop": "停止",
-    "program_input": "プログラム入力"
+    "program_input": "プログラム入力",
+    "legacy_repo": "Go のレガシー実装を見る"
   },
   "tab": {
     "title": "パトリック・グッドウィン",
@@ -501,6 +525,10 @@
         "zoom_in": "ズームイン",
         "zoom_out": "ズームアウト",
         "reset": "ビューをリセット"
+      },
+      "country_names": {
+        "show": "国名を表示",
+        "hide": "国名を非表示"
       }
     },
     "supported_languages": {

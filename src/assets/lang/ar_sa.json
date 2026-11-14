@@ -8,8 +8,8 @@
     "tiger": "Tiger - لغة برمجة مخصصة",
     "snake": "لعبة الثعبان",
     "portfolio_translator": "مترجم المحفظة",
-    "formatter": "مدقق JSON وYAML",
-    "rubix_cube_solver": "Rubik's Cube Solver",
+    "formatter": "Auto-Linter",
+    "rubix_cube_solver": "حلّال مكعب روبيك",
     "contact": "اتصل بي",
     "home_description": "sys.root // نظرة عامة رئيسية",
     "about_description": "ملف المهندس // السيرة والتقنيات",
@@ -18,18 +18,26 @@
     "tiger_description": "مترجم مخصص وعارض AST",
     "snake_description": "لعبة آركيد كلاسيكية / WASM",
     "portfolio_translator_description": "مصفوفة أكثر من 100 لغة وi18n",
-    "formatter_description": "محقق ومحوّل بناء الجملة",
+    "formatter_description": "أداة فحص وتنسيق متعددة الصيغ // WASM",
     "contact_description": "إرسال مفتوح // تواصل معي",
     "arcade": "آركيد",
     "alkalab": "Alkalab",
     "rustcraft": "Rustcraft",
     "suprememc": "SupremeMC Minecraft Mod",
-    "connect_four": "شجرة اللغات لأربعة في صف",
+    "connect_four": "Connect Four",
     "alkalab_description": "محاكاة مختبر كيمياء / WASM",
     "rustcraft_description": "لعبة فوكسل بأسلوب ماينكرافت / Rust وwgpu",
     "suprememc_description": "عرض تعديل ماينكرافت / Java",
-    "chess_engine": "محرك الشطرنج",
-    "chess_engine_description": "محرك بت بورد/ WASM وعامل"
+    "chess_engine": "محرك شطرنج",
+    "chess_engine_description": "محرك bitboard / WASM وعامل",
+    "framework_trees": "أشجار الأطر",
+    "reclaim_4160": "Reclaim 4160",
+    "rijndael_encryption": "تشفير Rijndael",
+    "interops": "Interops",
+    "scripting_library_description": "سكربتات أتمتة // 6 لغات",
+    "reclaim_4160_description": "لعبة جامعية، مُعاد بناؤها / C++ وWASM",
+    "turing_machines": "آلات تورينج",
+    "scripting_library": "مكتبة السكربتات"
   },
   "home": {
     "title": "مهندس أول متكامل | المنتج والأنظمة",
@@ -87,7 +95,8 @@
         "libraries": "مكتبات البرامج النصية",
         "languages": "تجارب اللغات",
         "automation": "أدوات الأتمتة والبيانات",
-        "experience": "خبرة مهنية وتعليمية"
+        "experience": "خبرة مهنية وتعليمية",
+        "markets": "الأسواق وأنظمة التداول"
       },
       "browser_native": "أصلي للمتصفح / بدون خادم",
       "no_results": "لا توجد مشاريع مطابقة",
@@ -117,7 +126,8 @@
         "go": "Go",
         "wasm": "WebAssembly",
         "accessibility": "إمكانية الوصول",
-        "python": "Python"
+        "python": "Python",
+        "rust": "Rust"
       },
       "stories": {
         "takeoff_engine": {
@@ -137,12 +147,12 @@
           "lens": "السلامة المالية تبدأ بالتمثيل: حساب السنت الكامل والقيود المتوازنة يجعلان حركة الأموال واضحة."
         },
         "interop": {
-          "summary": "مرجع عبر اللغات يمتد على {languages} لغة برمجة و{patterns} نمط تنفيذ، يستكشف ما يحدث عند حدود وقت التشغيل.",
+          "summary": "مرجع عابر للغات يغطي {languages} لغة برمجة و{patterns} نمط تنفيذ، ويستكشف ما يحدث عند حدود زمن التشغيل.",
           "lens": "الجزء الصعب هو العقد بين بيئات التشغيل: تبادل البيانات وسلوك العملية والتنفيذ القابل للتكرار أهم من بناء الجملة."
         },
         "formatter": {
-          "summary": "محرك تحليل Go حقيقي مُجمّع إلى WebAssembly. التحقق من JSON وYAML وتنسيقهما يعملان محليًا في المتصفح.",
-          "lens": "نقل المحلل إلى المتصفح يبادل حمولة أكبر للعميل بمعالجة محلية وقابلية للنقل وتبعيات أقل للخادم."
+          "summary": "أداة فحص وتنسيق بـ Zig تعمل على WebAssembly لملفات JSON وYAML وXML وHTML وTOML وCSV وTSV. يتم التحقق والتنسيق محليًا في المتصفح.",
+          "lens": "التنسيق مسألة ثقة: حلّل بقواعد حقيقية، واحفظ نص المؤلف، وأبقِ البيانات على العميل."
         },
         "portfolio_website": {
           "summary": "الموقع الذي أنت فيه: محفظة React بأكثر من 100 لغة وتفاعلات متاحة الوصول وأدوات WebAssembly عاملة.",
@@ -157,7 +167,7 @@
     "featured": {
       "kicker": "مشاريع مميزة",
       "title": "أعمال مختارة",
-      "description": "ستة مشاريع تمثل بأفضل شكل كيف أحول الأفكار الطموحة إلى برمجيات مصقولة تعمل.",
+      "description": "مشاريع تُبرز أفضل ما لديّ في تحويل الأفكار الطموحة إلى برمجيات مصقولة تعمل فعلاً.",
       "view_project": "عرض المشروع",
       "open_project": "فتح مشروع مباشر",
       "view_all": "استكشف المحفظة الكاملة",
@@ -270,7 +280,7 @@
       },
       "connect_four": {
         "title": "ربط أربعة",
-        "text": "عائلة ضخمة تضم أكثر من {implementations} تنفيذًا للعبة أربعة في صف. يمتد المشروع على أكثر من {languages} لغة برمجة، بما فيها Java وC++ وPython وJavaScript، إلى جانب أكثر من {frameworks} إطار عمل ومكتبة وبيئة تشغيل وقاعدة بيانات مختلفة، من React وAngular وBlazor إلى Django وSpring Boot وPhoenix وPostgreSQL وغيرها.",
+        "text": "عائلة ضخمة من {implementations} تطبيقًا للعبة Connect Four. يغطي المشروع {languages} لغة برمجة، منها Java وC++ وPython وJavaScript، إضافة إلى {frameworks} إطار عمل ومكتبة وزمن تشغيل وقاعدة بيانات مختلفة، من React وAngular وBlazor إلى Django وSpring Boot وPhoenix وPostgreSQL وغيرها.",
         "link": "https://connectfour.pattygcoding.com"
       },
       "grocery_app": {
@@ -280,7 +290,7 @@
       },
       "interop": {
         "title": "مشروع التشغيل المتداخل",
-        "text": "مرجع قابلية التشغيل البيني عبر اللغات يشمل {languages} لغة برمجة و{patterns} نمط تنفيذ. يبحث المشروع في الحدود التي غالبًا ما تصبح فيها الأنظمة هشة: عقود المعالجة، وتبادل البيانات، وسلوك وقت التشغيل، ومسارات التكامل القابلة للتكرار. إنه يعكس تفكير الأنظمة المطلوب عندما يكون المنتج أكبر من مجموعة واحدة.",
+        "text": "مرجع للتشغيل البيني عابر للغات يغطي {languages} لغة برمجة و{patterns} نمط تنفيذ. يستكشف المشروع الحد الذي تصبح عنده الأنظمة هشّة في كثير من الأحيان: عقود العمليات، وتبادل البيانات، وسلوك زمن التشغيل، ومسارات تكامل قابلة للتكرار. وهو يعكس التفكير المنظومي اللازم عندما يكون المنتج أكبر من حزمة تقنية واحدة.",
         "link": "https://interop.pattygcoding.com/"
       },
       "inventory_register": {
@@ -294,8 +304,8 @@
         "link": "https://github.com/pattygcoding/PayrollOBOL"
       },
       "formatter": {
-        "title": "JSON و YAML المنسق التلقائي",
-        "text": "أداة التحقق من صحة وتنسيق JSON وYAML المستندة إلى المستعرض والمضمنة في Go والمترجمة إلى WebAssembly. يؤدي نقل محرك التحليل إلى WASM إلى إبقاء التفاعل سريع الاستجابة ومحليًا للمتصفح أثناء تطبيق محلل حقيقي لالتقاط المدخلات غير الصالحة. إنه مثال مركز على اختيار بنية وقت التشغيل للأداء وقابلية النقل وثقة المستخدم.",
+        "title": "Auto-Linter",
+        "text": "Auto-Linter أداة فحص وتنسيق تعمل في المتصفح لملفات JSON وYAML وXML وHTML وTOML وCSV وTSV. محرك Zig يُترجم إلى WebAssembly ويعمل بالكامل داخل المتصفح: يتحقق بمحللات حقيقية، ويعيد ضبط إزاحة المستندات دون إعادة كتابة محتواها، ويحافظ على التعليقات والمرتكزات وCDATA وعلامات الاقتباس والدقة الرقمية. يضم المشروع ثلاثة تطبيقات — Go وRust وZig — مع أرشفة الإصدارات السابقة للمقارنة.",
         "link": "/formatter"
       },
       "takeoff_engine": {
@@ -324,8 +334,8 @@
         "link": "https://www.pattygcoding.com"
       },
       "scripting_library": {
-        "title": "Scripting Library",
-        "text": "A consolidated library of automation scripts, with one page per language: VBA for Excel spreadsheets, Lua for lightweight tooling, PowerShell for Windows administration, Python for everyday data work, and Ruby for scripting experiments. Each script is written to be reused, so the collection is maintained as one project instead of five scattered repositories.",
+        "title": "مكتبة السكربتات",
+        "text": "مكتبة موحّدة لسكربتات الأتمتة، بصفحة لكل لغة: VBA لجداول Excel، وLua للأدوات الخفيفة، وPowerShell لإدارة Windows، وPython للعمل اليومي على البيانات، وRuby لتجارب السكربتة. كُتبت السكربتات لتكون قابلة لإعادة الاستخدام، لذا تُصان المجموعة كمشروع واحد بدل خمسة مستودعات متفرقة.",
         "link": "https://scripts.pattygcoding.com/"
       },
       "neovim_config": {
@@ -344,8 +354,8 @@
         "link": "https://github.com/pattygcoding/PDFBuilderPublic"
       },
       "rijndael_encryption": {
-        "title": "مشروع تشفير ريجاندل",
-        "text": "مجموعة مقارنة تضم أكثر من {implementations} تطبيقات Rijndael عبر متغيرات 128 و192 و256 بت. تعد إعادة تنفيذ خوارزمية حساسة للأمان عبر اللغات بمثابة تمرين منضبط في المواصفات الدقيقة والسلوك القابل للاختبار وحدود إمكانية النقل على مستوى اللغة. جميع الغرائز المفيدة للأنظمة التي تتعامل مع البيانات الحساسة.",
+        "title": "مشروع تشفير Rijndael",
+        "text": "مجموعة مقارنة من {implementations} تطبيقًا لـ Rijndael في إصدارات 128 و192 و256 بت. إن إعادة تنفيذ خوارزمية حساسة أمنيًا بلغات متعددة تمرين منضبط في المواصفات الدقيقة والسلوك القابل للاختبار وحدود قابلية النقل على مستوى اللغة، وكلها غرائز مفيدة للأنظمة التي تتعامل مع بيانات حساسة.",
         "link": "https://encryption.pattygcoding.com/"
       },
       "suprememc": {
@@ -354,8 +364,8 @@
         "link": "https://arcade.pattygcoding.com/suprememc"
       },
       "rubix_cube_solver": {
-        "title": "Rubik's Cube Solver",
-        "text": "An interactive 3D Rubik's Cube you paint sticker by sticker - on the cube itself or on its unfolded net - and then solve with a Herbert Kociemba style two-phase search compiled from Rust to WebAssembly. The Svelte interface renders the cube with three.js, keeps the painted state, its validity checks, and the solver's facelet string in sync, and plays the solution back move by move on a timeline you can scrub, step through, and re-play.",
+        "title": "حلّال مكعب روبيك",
+        "text": "مكعب روبيك ثلاثي الأبعاد تفاعلي تلصق عليه الملصقات واحدًا واحدًا — على المكعب نفسه أو على شبكته المفرودة — ثم تحلّه بخوارزمية بحث من مرحلتين على طريقة هربرت كوتسي مب، مترجمة من Rust إلى WebAssembly. تعرض واجهة Svelte المكعب باستخدام three.js، وتحافظ على تزامن حالة الطلاء وفحوص صحتها وسلسلة أوجه الحلّال، وتشغّل الحل حركة بحركة على خط زمني يمكنك سحبه والتنقل فيه خطوة بخطوة وإعادة تشغيله.",
         "link": "https://arcade.pattygcoding.com/rubik"
       },
       "snake": {
@@ -365,12 +375,12 @@
       },
       "rustcraft": {
         "title": "Rustcraft",
-        "text": "A Minecraft-style voxel game built in Rust with wgpu and compiled to WebAssembly, so it plays straight in the browser. It is the arcade's sandbox build: blocky terrain and a voxel world drawn through a modern graphics pipeline, written from scratch on the Rust toolchain rather than on top of a game engine.",
+        "text": "لعبة فوكسل بأسلوب Minecraft مكتوبة بـ Rust مع wgpu ومترجمة إلى WebAssembly، لذا تعمل مباشرة في المتصفح. إنها نسخة الساندبوكس من الأركيد: تضاريس مكعبية وعالم فوكسل مرسوم عبر خط معالجة رسومي حديث، مكتوبة من الصفر على سلسلة أدوات Rust لا فوق محرك ألعاب.",
         "link": "https://arcade.pattygcoding.com/rustcraft"
       },
       "tiger_programming_language": {
         "title": "لغة برمجة النمر",
-        "text": "لغة برمجة مخصصة ومترجم فوري مدمج في Go لاستكشاف تصميم وقت تشغيل اللغة وسلوك التنفيذ ومقايضات الأداء. يؤدي تجميعه إلى WebAssembly ودمجه في المحفظة إلى إنشاء سطح منتج حقيقي قابل للفحص للهندسة على مستوى الأنظمة بدلاً من ترك العمل كما هو. تجربة المستودع فقط.",
+        "text": "لغة برمجة مخصصة ومفسّر مكتوبان بـ Rust لاستكشاف تصميم زمن التشغيل وسلوك التنفيذ ومفاضلات الأداء. لا يزال مفسّر Go الأصلي متاحًا كتنفيذ قديم. إن ترجمته إلى WebAssembly ودمجه في Portfolio يخلقان سطح منتج حقيقيًا قابلًا للفحص لهندسة الأنظمة بدلًا من ترك العمل كتجربة في مستودع فقط.",
         "link": "https://www.pattygcoding.com/tiger"
       },
       "tiger_tailgating_pros": {
@@ -380,7 +390,7 @@
       },
       "turing_machine": {
         "title": "مشروع آلة تورينج",
-        "text": "عائلة تضم أكثر من {implementations} تطبيقًا لآلة تورينج. يستخدم لإثبات اكتمال لغات البرمجة المختلفة للبحث، وخاصة لغة برمجة النمر.",
+        "text": "عائلة من {implementations} تطبيقًا لآلة تورينج. تُستخدم لإثبات اكتمال تورينج للغات برمجة مختلفة في البحث، ولا سيما لغة Tiger.",
         "link": "https://turing.pattygcoding.com/"
       },
       "alkalab": {
@@ -389,9 +399,19 @@
         "link": "https://arcade.pattygcoding.com/alkalab"
       },
       "chess_engine": {
-        "title": "محرك الشطرنج",
+        "title": "محرك شطرنج",
         "link": "https://arcade.pattygcoding.com/chess",
-        "text": "محرك شطرنج مكتوب بلغة Rust وتم تجميعه في WebAssembly. يبحث باستخدام نيغاماكس المتعمق المتكرر، وتشذيب ألفا بيتا، وجدول تبديل 32 ميجابايت وبحث هادئ على الأوراق ؛ يتم تقييمه باستخدام طاولات مربعة مدببة والأوامر تتحرك بواسطة MVV - LVA والقتلة والتاريخ. يعمل المحرك في عامل ويب حتى لا تتجمد اللوحة أبدًا، ويتم فحص مولد الحركة الخاص به في المتصفح مقابل عدد الصفحات المنشورة - 20 و 400 و 8،902 و 197،281 و 4,865,609 عقدة للأعماق الخمسة الأولى."
+        "text": "محرك شطرنج مكتوب بـ Rust ومترجم إلى WebAssembly. يبحث باستخدام تعميق تكراري وnegamax وقطع ألفا-بيتا وجدول نقل بحجم 32 ميجابايت وبحث هدوء عند الأوراق؛ ويقيّم بجداول قطعة-مربع متدرجة ويرتب الحركات وفق MVV-LVA والقاتلات والسجل. يعمل المحرك في Web Worker كي لا تتجمد الرقعة أبدًا، ويُتحقق من مولّد الحركات في المتصفح مقابل أعداد perft المنشورة — 20 و400 و8,902 و197,281 و4,865,609 عقدة للأعماق الخمسة الأولى."
+      },
+      "reclaim_4160": {
+        "link": "https://arcade.pattygcoding.com/reclaim",
+        "title": "Reclaim 4160",
+        "text": "Reclaim 4160 مشروع استرجاع: ما بدأ كلعبة CPSC 4160 غير مكتملة في الجامعة — احصد آخر لفات ورق التواليت واصل إلى الصندوق قبل أن تُنهكك الجراثيم — أُعيد بناؤه من الصفر كمحرك C++20 حديث على SDL2 ومترجم إلى WebAssembly. يضم عشرة ممرات متصاعدة مع ذكاء اصطناعي للجراثيم يقوم بالدورية والمطاردة، وعناصر تُجمع، وجسيمات، وتحكم باللمس، دون أي اختصارات من النموذج الأصلي."
+      },
+      "pit_matching_engine": {
+        "link": "https://github.com/pattygcoding/pit-matching-engine",
+        "text": "محرك مطابقة دفتر أوامر سعري حتمي وقابل لإعادة التشغيل. المحرك نفسه Ruby خالص دون Rails، وتخدمه Rails 8 عبر ملف SQLite واحد. يُضاف كل أمر إلى سجل كتابة مسبقًا قبل أن يراه المحرك، لذا يمكن الوصول إلى أي حالة سابقة للدفتر بطيّة واحدة، ويُثبت إخلاص إعادة التشغيل بمقارنة البصمات المسجلة أثناء عمل السوق. الأولوية بالسعر ثم الوقت، وGTC/IOC/FOK، والتعديلات التي تحافظ على موقع الطابور أو تفقده، ومنع التداول الذاتي، كلها تُفحص بأربعة عشر ثابتًا بعد كل أمر ضمن مجموعة fuzz مزروعة. يحصل المتصفح على سلّم بمعدل عشرة هرتز عبر Action Cable، بينما تصعد الأوامر عبر HTTP.",
+        "title": "محرك مطابقة PIT"
       }
     }
   },
@@ -405,10 +425,10 @@
     "description": "أرد على الاستفسارات الواردة من رسائل البريد الإلكتروني ورسائل LinkedIn. سأعاود الاتصال أيضًا إذا تم توفير رقمي عبر السيرة الذاتية أو غير ذلك، على الرغم من أنني أفضل الاحتفاظ برقم هاتفي خاصًا."
   },
   "formatter": {
-    "title": "جيسون ويامل لينتر",
-    "description": "أداة جودة بيانات قائمة على المستعرض تقوم بالتحقق من صحة وتنسيق JSON وYAML باستخدام محرك Go الذي تم تجميعه إلى WebAssembly. تستمر البنية في التحليل بالقرب من المستخدم للحصول على تعليقات سريعة وخاصة مع فرض قواعد بناء الجملة الحقيقية على حدود البيانات. إنه مثال مدمج لتصميم سير عمل مطور يمكن الاعتماد عليه حول الصحة والأداء والثقة.",
+    "title": "Auto-Linter",
+    "description": "Auto-Linter أداة جودة بيانات تعمل في المتصفح تتحقق من ملفات JSON وYAML وXML وHTML وTOML وCSV وTSV وتنسّقها باستخدام محرك Zig مترجم إلى WebAssembly. يبقى التحليل قريبًا من المستخدم لتقديم ملاحظات سريعة وخاصة، مع فرض قواعد بناء حقيقية عند حدود البيانات. تحافظ على نص المؤلف، وترفض المدخلات المعطوبة، وتُظهر كيف يمكن لوحدة WebAssembly صغيرة أن تدعم سير عمل موثوقًا للمطورين.",
     "more_info1": "لمزيد من المعلومات، راجع التمهيدي في",
-    "more_info2": "مستودع تنسيق JSON/YAML.",
+    "more_info2": "مستودع Auto-Linter.",
     "format_as": "التنسيق كـ:",
     "auto_detect": "الكشف التلقائي",
     "format": "الوبر والتنسيق",
@@ -416,20 +436,22 @@
     "valid_yaml": "✓ YAML صالح",
     "invalid_json": "تنسيق JSON غير صالح",
     "invalid_yaml": "YAML غير صالح",
-    "empty_input": "الرجاء إدخال بعض JSON أو YAML للوبر.",
+    "empty_input": "أدخل JSON أو YAML أو XML أو HTML أو TOML أو CSV أو TSV لفحصه.",
     "too_large": "الإدخال كبير جدًا (يُسمح بحد أقصى 1 ميجابايت).",
     "fixed_yaml_spacing": "⚠ كان لدى YAML تباعد/مسافة بادئة غير صالحة ولكن تم إصلاحها وتنسيقها تلقائيًا.",
-    "loading": "جارٍ تحميل التنسيق...",
+    "loading": "جارٍ تحميل Auto-Linter...",
     "waiting_for_input": "في انتظار الإدخال...",
-    "load_failed": "غير قادر على تحميل المنسق.",
+    "load_failed": "تعذّر تحميل Auto-Linter.",
     "output": "الإخراج:",
     "input_code": "مدخل",
     "json_examples": "أمثلة JSON",
-    "yaml_examples": "أمثلة يامل"
+    "yaml_examples": "أمثلة يامل",
+    "legacy_repo": "عرض تنفيذ Go القديم",
+    "legacy_rust": "عرض تنفيذ Rust القديم"
   },
   "tiger": {
     "title": "لغة النمر",
-    "description": "Tiger هي لغة برمجة مخصصة ومترجم Go مصمم لاستكشاف بنية وقت التشغيل ودلالات اللغة ومقايضات الأداء. يؤدي تجميع المترجم إلى WebAssembly إلى تحويل عمل الأنظمة إلى منتج تفاعلي قائم على المتصفح: يمكن للمستخدمين تنفيذ البرامج مباشرة بينما يظل وقت التشغيل محمولاً ومعزولة عن التطبيق المضيف.",
+    "description": "Tiger لغة برمجة مخصصة بمستوى إنتاجي، ومفسّر مكتوب بـ Rust ومصمم للأداء. يبقى محرك البايت كود المترجم والمفسّر المرجعي الذي يسير على الشجرة متزامنين عبر مدونة اختبارات من 44 برنامجًا، ويُبقي البروتوكول القريني داخل العملية زمن التشغيل عند مستوى CPython أو أفضل في كل قسم تم التحقق منه، بأداء ينافس Python وRuby مباشرة في البرمجة النصية اليومية. لا يزال مفسّر Go الأصلي متاحًا كتنفيذ قديم. إن ترجمة المفسّر إلى WebAssembly تحوّل هذا العمل الهندسي إلى منتج تفاعلي في المتصفح: يستطيع المستخدمون تنفيذ البرامج مباشرة بينما يبقى زمن التشغيل قابلاً للنقل ومعزولًا عن التطبيق المضيف.",
     "more_info1": "لمزيد من المعلومات، راجع التمهيدي في",
     "more_info2": "مستودع لغة البرمجة تايجر على جيثب.",
     "select_engine": "اختر المحرك:",
@@ -437,7 +459,8 @@
     "run_tiger": "تشغيل النمر",
     "output": "الإخراج:",
     "stop": "إيقاف",
-    "program_input": "إدخال البرنامج"
+    "program_input": "إدخال البرنامج",
+    "legacy_repo": "عرض تنفيذ Go القديم"
   },
   "tab": {
     "title": "باتريك جودوين",
@@ -502,6 +525,10 @@
         "zoom_in": "تكبير",
         "zoom_out": "تصغير",
         "reset": "إعادة ضبط العرض"
+      },
+      "country_names": {
+        "show": "إظهار أسماء الدول",
+        "hide": "إخفاء أسماء الدول"
       }
     },
     "supported_languages": {
